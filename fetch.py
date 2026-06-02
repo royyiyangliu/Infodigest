@@ -256,6 +256,12 @@ def fetch_source(source, con, max_items, first_run):
     new_podcasts, new_articles = [], []
     collected = 0
 
+    # Only fetch items published within the last MAX_AGE_DAYS days.
+    # RSS feeds are ordered newest-first, so we stop as soon as we exceed the cutoff.
+    MAX_AGE_DAYS = 14
+    from datetime import timedelta
+    cutoff_date = (datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)).strftime("%Y-%m-%d")
+
     # Pre-fetch Apple Podcasts episode URLs for this source (podcasts only)
     apple_ep_map = {}
     if stype == "podcast" and source.get("apple_id"):
@@ -276,6 +282,12 @@ def fetch_source(source, con, max_items, first_run):
         title    = entry.get("title", "Untitled").strip()
         link     = entry.get("link", "")
         pub_date = parse_date(entry)
+
+        # Skip items older than MAX_AGE_DAYS (RSS is newest-first, so break early)
+        if pub_date[:10] < cutoff_date:
+            # Still mark as seen so we don't re-check on future runs
+            mark_seen(con, guid, name, title, link, pub_date, stype)
+            break
 
         if stype == "podcast":
             summary   = clean_html(entry.get("summary") or entry.get("description") or "")
