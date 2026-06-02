@@ -156,10 +156,13 @@ if __name__ == "__main__":
     elif len(sys.argv) == 2 and sys.argv[1] == "--rebuild-index":
         token = os.environ.get("GITHUB_TOKEN", "")
         html = rebuild_index(token)
-        tmp = "/tmp/index.html"
-        with open(tmp, "w", encoding="utf-8") as f:
-            f.write(html)
+        import tempfile
+        with tempfile.NamedTemporaryFile(mode="w", suffix=".html",
+                                        encoding="utf-8", delete=False) as tf:
+            tf.write(html)
+            tmp = tf.name
         push_file(tmp, "docs/index.html", "index: rebuild")
+        os.unlink(tmp)
     else:
         print(__doc__)
         sys.exit(1)
