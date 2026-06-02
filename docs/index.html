@@ -18,22 +18,21 @@
   header h1 { font-size: 32px; font-weight: 700; letter-spacing: 1px; margin-bottom: 10px; }
   header p { font-size: 15px; color: #a0c4d8; }
   main { max-width: 720px; margin: 48px auto; padding: 0 24px; flex: 1; }
-  h2 { font-size: 13px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase;
+  h2 { font-size: 14px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase;
        color: #9ca3af; margin-bottom: 16px; }
-  #list { list-style: none; }
-  #list li {
+  .list { list-style: none; }
+  .list li {
     background: #fff; border: 1px solid #e8ecf4; border-radius: 10px;
     margin-bottom: 10px; transition: box-shadow .2s, border-color .2s;
   }
-  #list li:hover { box-shadow: 0 4px 16px rgba(0,0,0,.08); border-color: #c8d6e8; }
-  #list a {
+  .list li:hover { box-shadow: 0 4px 16px rgba(0,0,0,.08); border-color: #c8d6e8; }
+  .list a {
     display: flex; align-items: center; justify-content: space-between;
     padding: 18px 22px; text-decoration: none; color: #1a3a5c;
   }
-  #list a:hover { color: #1d6fa4; }
-  .date { font-size: 16px; font-weight: 600; }
-  .arrow { color: #c8d6e8; font-size: 18px; }
-  #loading { color: #9ca3af; font-size: 14px; padding: 20px 0; }
+  .list a:hover { color: #1d6fa4; }
+  .list .date { font-size: 16px; font-weight: 600; }
+  .list .arrow { color: #c8d6e8; font-size: 18px; }
   footer { text-align: center; padding: 24px; font-size: 12px; color: #adb5bd;
            border-top: 1px solid #e8ecf4; background: #fff; }
 </style>
@@ -45,42 +44,15 @@
 </header>
 <main>
   <h2>历史存档</h2>
-  <p id="loading">加载中…</p>
-  <ul id="list"></ul>
-</main>
-<footer>
-  AI Information Digest ·
-  <a href="https://github.com/royyiyangliu/Infodigest" style="color:#adb5bd">GitHub</a>
-</footer>
-<script>
-// Discover available dates by listing docs/data/*.json via GitHub API
-const BASE_RAW = 'https://raw.githubusercontent.com/royyiyangliu/Infodigest/main/docs/data/';
-const INDEX_API = 'https://api.github.com/repos/royyiyangliu/Infodigest/contents/docs/data';
-
-fetch(INDEX_API)
-  .then(r => r.json())
-  .then(files => {
-    const dates = files
-      .filter(f => /^\d{4}-\d{2}-\d{2}_summary\.json$/.test(f.name))
-      .map(f => f.name.replace('_summary.json', ''))
-      .sort((a, b) => b.localeCompare(a));  // newest first
-
-    document.getElementById('loading').style.display = 'none';
-    const ul = document.getElementById('list');
-    if (dates.length === 0) {
-      ul.innerHTML = '<li style="padding:18px 22px;color:#9ca3af">暂无数据</li>';
-      return;
-    }
-    ul.innerHTML = dates.map(d =>
-      `<li><a href="digest.html?date=${d}">
-        <span class="date">${d}</span>
+  <ul class="list">
+    <li>
+      <a href="2026-06-02.html">
+        <span class="date">2026-06-02</span>
         <span class="arrow">›</span>
-      </a></li>`
-    ).join('');
-  })
-  .catch(() => {
-    document.getElementById('loading').textContent = '加载失败，请刷新重试。';
-  });
-</script>
+      </a>
+    </li>
+  </ul>
+</main>
+<footer>AI Information Digest · Epoch AI · SemiAnalysis · Citrini · a16z · GameDev Report · 11 档播客</footer>
 </body>
 </html>
