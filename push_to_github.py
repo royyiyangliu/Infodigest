@@ -65,9 +65,10 @@ def push_file(local_path: str, repo_path: str, commit_msg: str) -> dict:
 
 def rebuild_index(token: str) -> str:
     """
-    List all YYYY-MM-DD.html files in docs/, return new index.html content.
+    List all YYYY-MM-DD_summary.json files in docs/data/, return new index.html content.
+    Links to digest.html?date=YYYY-MM-DD (JS template).
     """
-    api_url = f"https://api.github.com/repos/{OWNER}/{REPO}/contents/docs"
+    api_url = f"https://api.github.com/repos/{OWNER}/{REPO}/contents/docs/data"
     headers = {
         "Authorization": f"token {token}",
         "User-Agent": "Infodigest-Agent/1.0",
@@ -79,14 +80,14 @@ def rebuild_index(token: str) -> str:
 
     import re
     dates = sorted(
-        [f["name"].replace(".html", "") for f in files
-         if re.match(r"\d{4}-\d{2}-\d{2}\.html", f["name"])],
+        [f["name"].replace("_summary.json", "") for f in files
+         if re.match(r"\d{4}-\d{2}-\d{2}_summary\.json", f["name"])],
         reverse=True,
     )
 
     items_html = "\n".join(
         f'    <li>\n'
-        f'      <a href="{d}.html">\n'
+        f'      <a href="digest.html?date={d}">\n'
         f'        <span class="date">{d}</span>\n'
         f'        <span class="arrow">›</span>\n'
         f'      </a>\n'
