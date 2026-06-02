@@ -1,0 +1,37 @@
+Source  : a16z
+Title   : Investing in Exa
+Date    : 2026-05-20 15:03 UTC
+Link    : https://www.a16z.news/p/investing-in-exa
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+For the last two decades, search was built for humans.
+Google’s PageRank turned the web into something navigable: a system of links, rankings, and interfaces, designed to help people find the information they wanted. Entire industries emerged around this model, from SEO to advertising to content optimized for human consumption and focused on maximizing clicks and time spent per page.
+But we’re entering a new era for search, built from the ground up around what AI can do.
+Increasingly, every meaningful AI workflow, from coding agents to research systems to enterprise copilots, depends on external information as a core input. LLMs are frozen in time; a search engine for AI exists precisely to compensate with fresh, long-tail, real-world context. If the underlying data is stale, incomplete, or incorrect, everything downstream breaks. As one leading AI company put it: “In the limit, if we could search 100% of the time, we probably would. It just comes down to GPUs, latency, and cost.”
+It’s easy to underestimate how difficult building search for agents is. Basic search is a commodity; simple keyword searches are cheap and easy. But agents don’t ask head queries. Their alpha comes from probing long-tail, constantly shifting information. They write complex queries that can span paragraphs long. In some cases, like with low-latency voice AI, agents need results instantly; but in other cases, as with KYC (Know Your Customer), they need to scan millions of pages to synthesize the most comprehensive answers. There’s a Pareto frontier in cost, latency and comprehensiveness for every search query, one that traditional search engines were not designed for.
+We’re also marching into a different scale paradigm: agents will search 1,000s of times more than humans will. Exa’s CEO and Co-founder Will Bryk puts it simply: “We’re organizing the world’s knowledge, but this time for AI.” Doing that reliably and economically, at agent-scale, is a genuinely hard problem. It requires building and controlling the entire search stack – something only a few companies have ever done.
+That’s why we’re excited to lead Exa’s Series C, to back their ambition of perfecting web search, and making it ready for the age of intelligent agents.
+The signal from the market was consistent. Exa excels with the hardest queries – the long tail of high alpha searches where traditional engines fail. It stands out on low latency where it matters, especially time to first token, which matters acutely in user-facing agent flows. What struck us most was the default behavior: developers and agents are reaching for Exa first. As one customer put it, “this is the default for getting agents to do web search now.”
+No ordinary team would take on such a grand vision: building a search engine from scratch for AI. Will has been obsessed with perfect search for years. He and his roommate, and cofounder, Jeffrey Wang built a search engine in their dorm at Harvard a decade ago. Years before ChatGPT or the AI boom really started, Will and Jeff were inspired by the transformer breakthrough and believed deeply that AI will fundamentally change the way we access information. So they set out on the path to build the search engine for a future where agents become the primary consumers of the web. What stands out is not just their technical depth, but their clarity of focus, developer-first instincts, and hustle.
+Today, Exa is being used by the leading AI companies, from startups on the frontier like Cursor and Cognition to large enterprises like Hubspot,
+Monday.com
+and many Fortune 500s. It’s also serving hundreds of thousands of developers who are building agents that are reliant on the accuracy and reliability Exa provides.
+As AI both consumes and produces the internet, the web will become bigger, faster, and noisier. Search will become the compass for agents to navigate it. The first search wars were won by organizing information for people.
+The next
+will be won by organizing information for agents.
+We’re thrilled to partner with Will, Jeff, and the Exa team as they build the perfect search engine for agents and usher in a world of abundant information for all.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

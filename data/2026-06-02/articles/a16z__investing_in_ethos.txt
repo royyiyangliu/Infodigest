@@ -1,0 +1,51 @@
+Source  : a16z
+Title   : Investing in Ethos
+Date    : 2026-05-06 15:03 UTC
+Link    : https://www.a16z.news/p/investing-in-ethos
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+The loudest voices in AI want to talk about what happens if AI goes wrong. We want to ask a different question: what if AI goes wildly, unbelievably
+right
+?
+That is to say: what if AI doesn’t just reduce the cost of work, but improves the experience and NPS of working? What if, instead of making people feel more interchangeable, AI could make each of us more discoverable and ultimately
+more valuable
+? What if AI leads to opportunity becoming truly abundant?
+Think back to the moments that changed the arc of your career: someone took a bet on you; an unexpected email landed in your inbox; a call from a friend led to a project that led to a company. Almost every pivotal leap forward in a person’s working life comes down to the same thing: the right opportunity finding the right person at the right time.
+History suggests that human intelligence is one of the most important drivers of better life outcomes. Across decades of social science, one conclusion appears again and again: when people’s capabilities are better recognized and better developed, outcomes improve.
+Every person has a comparative advantage somewhere in the economy. The problem has never been a shortage of human capability. It’s been that since most of the capability is unstructured and invisible, we simply haven’t had the infrastructure to surface it.
+Enter Ethos.
+Ethos is building
+AI-powered infrastructure for human opportunity
+.
+Using AI voice agents, Ethos captures the knowledge, expertise, and nuance that traditional professional profiles miss, making the world’s expert intelligence machine-readable. From there, it matches people to a wide range of opportunities across the economy: market research, expert calls, fractional roles, and full-time jobs. The result is more doors, opening more often, for more people.
+The company is already seeing remarkable momentum. More than 35,000 experts are joining every week, spanning the full economy: lawyers, doctors, consultants, investment bankers, electricians, plumbers, and many more. Clients include hedge funds, private equity firms, leading foundational AI labs, and enterprise consultancies. And for some members, the platform is already creating meaningful income: top earners are making more than $10,000 per month on Ethos.
+Ethos celebrates human greatness in the age of AI. At a moment when a lot of the conversation around AI is defensive, James and Daniel are building from the opposite premise: AI shouldn’t make you replaceable, but
+irreplaceable
+.
+They are, in their own right, exactly the kind of human greatness Ethos exists to celebrate. James cut his teeth at SoftBank helping transform companies like Arm, and has spent his career at the intersection of talent, capital, and operating. Daniel spent nearly a decade as a researcher at Google DeepMind working on the frontier of reinforcement learning and agentic systems. It’s a rare combination: a commercial operator who has seen how global firms actually source expertise, and a research scientist who can build AI that understands a person at depth.
+The last great improvement in the NPS of employment was Deel, making work global. The next will be Ethos: making work
+abundant
+.
+If you are an expert
+— in anything, from law to HVAC — you can build your Ethos profile at
+askethos.com
+.
+If you are a company
+that needs access to human intelligence at scale, reach out to the Ethos team directly.
+If you want to help build it
+, Ethos is hiring across engineering, product, and go-to-market.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

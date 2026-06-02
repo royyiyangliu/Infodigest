@@ -1,0 +1,96 @@
+Source  : Citrini
+Title   : Atoms vs Bits
+Date    : 2026-02-11 20:36 UTC
+Link    : https://www.citriniresearch.com/p/atoms-vs-bits
+────────────────────────────────────────────────────────────
+
+Introduction
+Capital is rotating out of bits and into atoms.
+Software companies, the darlings of the last decade, are being forced to answer a question they’ve never had to answer before: what happens to your 30x revenue multiple when new technology poses a potentially existential threat?
+See, for many of these companies, valuations were so high and such sustained growth was priced in that agentic AI didn’t even need to actually impact the business. The threat of a threat was enough to reprice them.
+Into this software selloff, anything that wasn’t nailed down was thrown overboard. Vertical SaaS, digital advertising platforms, portions of fintech, all suddenly trading at discounts to their historical ranges as the market begins to assign what I’d call an “AI Disruption Discount”. Does your high switching cost or sticky UX matter in the AI era? Don’t know? Okay - trade lower until you do. Will agentic commerce threaten your marketplace? Maybe? Okay, well, you’re worth 30% less.
+The logic is ruthless and correct: none of us really know what AI will look like in a few years, and the technology is advancing at a rate that has us asking if the singularity actually just got penciled in for next Thursday. Agentic AI was a talking point for investors, but once Anthropic et al. shoved it in their face they had to reconcile with some hard potential realities that didn’t align with their portfolio.
+We could spend a lot of time debating what moats will endure in software – do we just sell anything you click and buy the dip in the APIs? Is this just empowering new entrants to challenge incumbents or will enterprises bring entire software workflows in house via AI? The more you think about it, the more you realize that without a crystal ball you’ve got a lot more questions than answers.
+That’s why I think investors will opt for a simpler outlook -
+what
+can’t
+you prompt your way out of?
+The answer to this question leads you to a simple conclusion: Atoms have become more valuable relative to bits.
+As hyperscalers exponentially ramp up their bit-generation capabilities, their demand for power and materials has moved in lockstep. Virtually every single bottleneck or constraint surrounding the AI trade has been in the real world.
+Claude, increase the global supply of Titanium by 5% above forecasts this year…
+See. That still doesn’t work. Not even on Opus 4.6 Fast.
+A lot of the “real world” beneficiaries that investors have piled into so far, however, are the obvious ones.
+Power generation equipment
+.
+Optical Interconnects. Grid infrastructure
+.
+Copper miners
+.
+Nuclear
+. Don’t get me wrong - these were great calls (many of them were ours), but they are all relatively crowded trades now. Many are priced for the perfection that physical world constraints ironically make impossible to deliver.
+So where do we go from here?
+The next evolution of the “atoms” trade is where
+new sources of demand collide with the existing data center buildout to constrain supply chains even further.
+A poster child of this collision is in jet engines.
+The Trump Administration is shooting for a $1.5T defense budget, with NATO allies building out their own capabilities. Japanese defense spending will also stay bid as a result of the recent election. Demand is stacked from the aerospace industry, which is hitting an inflection point with a historic, sustainable backlog.
+Data centers use old jet technology for their natural gas turbines. And while the turbines are manufactured independently from current generation jet engines,
+both supply chains use the same input materials.
+In under a year, once overlooked businesses are now the “belle of the ball” with suitors ranging from AI hyperscalers to the Department of War.
+Finding the winners of this new preference for “stuff” boils down to one question:
+can this company command pricing power over an entire capital cycle due to multiple tailwinds, or is it just a commodity trade with extra math?
+Every material or chemical in this primer shares a specific profile that we feel will result in outperformance as the market becomes more intent to focus on atoms over bits.
+We expect this theme to evolve over time, but today we will highlight our current favorites across:
+● Advanced Materials & Processes
+● Electrical Steel
+● Literal Picks and Shovels
+● AI Materials & Electronic Chemicals
+Advanced Materials & Processes
+These are all companies that deal with material sciences and advanced processes that sell into sectors we’re broadly bullish on: defense, electrification, aerospace, artificial intelligence, space. Production is concentrated among a handful of qualified suppliers, often operating as regional duopolies, oligopolies or outright monopolies. Manufacturing requires decades of process knowledge, stringent quality controls, and customer qualifications that take 2-5 years (you can’t simply build a bigger plant in response to price increases). Their moat is not in question, but their multiple may be now that the market places a premium on being resilient to AI-driven disruption.
+Unlike lithium, PVC, or solar-grade silicon, these materials are protected by a combination of physics, technical barriers, defense procurement restrictions, chronic underinvestment, and/or quality requirements that Chinese producers struggle or choose not to meet. Cyclical demand recovery in many of their end markets is now converging with structural spending increases for the first time since the post-GFC period. Finally, for many, the market is still pricing most of these names as if only one of those tailwinds exists.
+Uranium Conversion
+Solstice Advanced Materials (SOLS US): The Cheapest Nuclear Play in the US
+Uranium miners and enrichers have done quite well, but there’s a second stage that gets talked about less:
+conversion
+. It’s a quite interesting stage as well, and perhaps the last part of the trade where a beneficiary has flown under the radar. That beneficiary is
+Solstice Advanced Materials (SOLS US).
+We spoke briefly about Solstice Advanced Materials (SOLS) in our
+26 Trades for 2026
+and added it into the Citrindex on January 28th before earnings. Now that they’ve reported earnings and validated our suspicions, we believe the stock is even cheaper than it was before it rallied in response.
+SOLS was an under-the-radar spin-off from Honeywell in October 2025 that the market originally seemed to value solely based on their HVAC/refrigerant business. Something that the market hasn’t begun to value properly, however, is that they operate the only uranium hexafluoride (UF6) conversion facility in the United States: the Metropolis Works plant in Metropolis, Illinois.
+Built in 1958, this facility sits at
+Stage 2
+of the nuclear fuel cycle:
+SOLS is the sole domestic supplier of conversion – a
+mandatory intermediate step
+in the nuclear fuel chain. Every pound of uranium destined for a U.S. reactor must be converted to UF6 gas before enrichment.
+The global competitive landscape is narrow: Cameco (Port Hope, Canada), Orano (Comurhex/Philippe Coste, France), and Rosatom (Russia). With Russian supply increasingly sanctioned and geopolitically unreliable, and Orano/Cameco running near capacity, the conversion market is structurally tight. The plant has a
+nameplate capacity of approximately 15,000 MTU
+(metric tonnes of uranium as UF6) per year, representing roughly 20% of global conversion capacity.
+While SOLS has a multiple on the upper end of the materials range, if you contrast with the only pure play uranium enrichment name in the US - Centrus Energy (LEU US), you can see the discrepancy and opportunity. LEU trades at 33x 2027E EV/EBITDA - once you strip out the non-AES business with an industry standard 11x multiple, you are left with the AES nuclear business at a $3.2B EV. We strongly believe this is far too low.
+Metropolis shut down in November 2017 at $4.50, restarted Jul 2023 with spot already at $50+. The entire bull move happened while the plant was offline. SOLS literally came back online into the strongest conversion market in history.
+SOLS reported in their earnings that Q4 revenue was up 39% YoY on volume growth of only 15-20%, pricing drove roughly half the beat.
+This is due to legacy contracts that were struck at $20/kgU during or before the 2017-2023 idling period when nobody wanted conversion capacity.
+These contracts are rolling off over the next two to three years and, with spot conversion price around $64/kgU, every single one gets replaced at roughly triple the price.
+Metropolis contracts today are generating a third of what the market will pay for the same work.
+This will all be repriced by 2028/2029 - which are the years the market should be valuing the AES segment on (similarly to how LEU is valued).
+Consensus estimates have revenue staying basically flat for the next two years and margins roughly the same. Management just confirmed that they’ve got a $2B backlog in AES and that EBITDA will grow at a double digit CAGR (which we believe is more like 20% than 10%).
+Why such a delta? Because the price is set to triple on volume that costs the same to produce. Conversion is a toll processing business: the customer delivers uranium oxide, Metropolis converts it to UF6, SOLS collects a fee. The cost of converting a kilogram under a $20 legacy contract and a $60 market-rate contract is identical, roughly $13-16 per kgU for energy, chemicals, and labor plus $150-170M in annual fixed costs for the plant. With roughly 25% of the legacy book rolling off each year, and $60 as the
+floor
+(not the ceiling) for new contracts, SOLS is adding $40+ per kgU of pure margin on each tranche that reprices.
+The entire price difference on every repriced contract flows straight to EBITDA, meaning AES margins will explode to 60% over the coming years.
+Above 10,000 MTU of annual throughput, which management just confirmed for 2026, margin expansion becomes almost mechanical. The EPC firm retained for an expansion study beyond the 15,000 MTU nameplate, with DOE backing, suggests we haven’t seen the ceiling on volume either.
+And $60 is almost certainly a floor, not a destination. That spot price reflects the existing global fleet of ~440 reactors running normal fuel loading schedules. It does not incorporate 60+ reactors under construction worldwide, the SMR pipeline, AI-driven nuclear PPAs from Microsoft, Amazon, and Google, or the U.S. target of 400 GW by 2050 (4x the current installed base). If conversion demand grows even 10-15% from new builds alone, and Western supply stays capped at 35-37 thousand MTU, spot goes to $80-100.
+Strip out the non-AES businesses at 11x on ~$827M of EBITDA and the market is assigning roughly $3.8 billion of enterprise value to the nuclear segment. If we simply adjust for the legacy contracts repricing, assume a 40% increase in volume over the next 3 years as they expand capacity and model the incremental flow through to EBIT, we can bridge SOLS’ AES segment to ~$673M by 2028.
+This is before any price increase driven by the demand for nuclear fuel, and we’ll even handicap our EBIT bridge by 25% to account for any current contracts that have already rolled off and any incremental, unforeseen costs. We still get 2028E EBIT of $500M, putting this segment at a 7.6x EV/EBITDA valuation.
+For context,
+Centrus Energy (LEU US)
+– the only US pure-play enrichment name –
+trades at 33x EV/EBITDA
+, while
+Cameco’s (CCJ US)
+fuel services segment is at 14-17x. SOLS is getting a commodity chemicals multiple on the only US UF6 conversion monopoly with a $2 billion backlog and guaranteed 3x repricing on a third of its remaining book. We think 12-14x is fair for the base case, which alone would imply $95-105 per share assuming zero growth in the other segments.
+And this is all before you account for any nuclear renaissance demand wave arriving on schedule, which could take it even higher and see the bull case representing nearly a triple from here by 2028.
+…
+The rest of this primer covers our other atom picks like beryllium monopolies, titanium duopolies, aerospace aluminum, tungsten’s supply crisis, superalloys, electrical steel, mining capex beneficiaries, and an update to the AI materials bottlenecks we flagged in December (as well as some new ones) that are now making headlines. Become a paid subscriber to view the rest of the article.
+Subscribe now
+Read more

@@ -1,0 +1,57 @@
+Source  : Citrini
+Title   : Macro Memo: Running Hot
+Date    : 2026-01-14 01:09 UTC
+Link    : https://www.citriniresearch.com/p/macro-memo-running-hot
+────────────────────────────────────────────────────────────
+
+The Upshot
+In this piece, we will cover:
+US Macro
+Reacceleration:
+AI productivity outweighs job cuts
+Pro-growth policy and fiscal impulse ahead of midterms
+Liquidity injections alleviate funding pressures
+Powell claps back
+Global Instability Breeds Opportunity
+:
+Long oil & tankers
+Don-roe Doctrine winners
+China’s long march towards recovery
+And of course… Our New Macro Trades
+US Macro: Running Hot
+We find few reasons to be bearish on the US economy. The two biggest concerns of 2025 (tariffs and job creation) haven’t led to a broader slowdown. Rather, consumption and overall GDP data is accelerating, and while the labor market is stagnant, the floor remains intact. Productivity gains, in part driven by AI, are likely to increase.
+Meanwhile, the political pressure of midterm elections is already apparent in the White House, as Trump refocuses his attention towards everyday consumer concerns – inflation (oil supply), housing affordability (MBS buying), consumer credit (interest rate caps)-- even teasing direct stimulus checks.
+With 16 months passing since the first rate cut of this cycle in August 2024, perhaps we are beginning to see the “long-and-lagging” effects of
+bullish monetary policy
+beginning to materialize. Credit spreads remain tight, overall borrowing costs have decreased, and cyclical sectors like housing are beginning to show signs of life.
+The only real sand in the financial gears – increasingly stretched liquidity in funding markets which began to show up in late 2025 – has been cleaned out by the Fed’s new liquidity program. Whatever you want to call it, the Fed has officially crossed from base-money destruction to base-money creation and balance sheet expansion.
+The Year of AI Productivity
+While the U.S. labor market has significantly weakened in the past year, broader economic indicators tell a very different story.
+By nearly all measures, the US job market appears to have considerable slack, even if signs of stabilization are emerging. Net new job creation has slowed to a standstill for much of 2025, with both public and private payrolls indicating soft to weak employment growth.
+The net job growth required to maintain the unemployment rate has decreased due to a shrinking immigrant labor pool. Even still, the net number of jobs created likely sits at or below most reasonable estimates of “breakeven” job growth. Some evidence suggests private sector jobs may have grown while public sector employment contracted, but those private sector gains appear concentrated primarily in healthcare and hospitality services.
+Hire and quit rates, which resumed their decline after Liberation Day last year, have now settled at levels below pre-COVID norms. Meanwhile, the layoff rate has crept slowly upward since Liberation Day. These figures are consistent with a challenging labor market, particularly for white-collar workers.
+Wage growth continues to slow across the entire income spectrum and all job seeker types. Workers in the lowest income quartile, who experienced faster wage growth at the start of the pandemic due to labor shortages, now see slower wage growth than median income workers. This represents a normalizing labor market.
+But none of this is new.
+These trends have been present for nearly three years and likely represent a normalization of a bullwhip in labor market conditions post-COVID. Further, the rate-of-change suggests that these moves are moderating, not accelerating.
+And despite the weakness in labor conditions, the broader economy is solid.
+GDP growth remains robust and is, in fact, showing signs of re-acceleration alongside rising labor productivity. Real GDP expanded at annualized rates of 3.8% in Q2 and 4.3% in Q3, and the Atlanta Fed’s GDPNow model is currently forecasting Q4 growth of 5.1%. As is typical, Nowcast estimates tend to become more reliable as the release date approaches.
+Historically, when labor market data and GDP have disagreed, the labor market has typically proven correct. GDP reports are famously subject to subsequent, typically  downward, revisions.
+This time, however, we argue it’s much more likely that aggregate growth indicators will prevail.
+The key is labor productivity. Labor productivity, typically measured as output per hour worked, captures how efficiently labor is used in the production process. While growth in labor input has slowed markedly, real GDP has continued to expand, implying a meaningful rise in output per hour. In other words, a growing share of recent GDP growth appears to be driven by productivity gains rather than labor force expansion.
+What could explain the rise in labor productivity? And should we expect it to continue?
+We know we will likely catch some flak from the economist crowd, who will find every possible way to explain this away, but we have a hot take here.
+It’s possible that the hundreds of billions of dollars we’ve been investing into the “productivity-enhancing-technology-machine” for the past three years is actually…enhancing productivity.
+While the party line for economists is mostly that
+“productivity doesn’t measure what you think it does”
+, we’re going to temper that idea with an anecdotal vibe check. Most software engineers will freely admit that they’re getting much more work done per hour, and with the advances in agentic AI over the past 3-6 months it’s not unreasonable to assume that impact is also being felt across a wider swath of vocations as well.
+Are firms pressing their existing workers to work harder? Probably, after all, not many have the luxury of quitting. But we believe the
+mechanism
+through which those employees are increasing their productivity is at least in part due to AI tools. These tools are both increasingly at their disposal (regardless of whether or not their work has enterprise licenses) and have improved immensely over the past year. This will become increasingly apparent in 2026.
+Unlike the “missing productivity” of the internet era, the AI era will be marked by productivity gains that become harder and harder to be written off as one-offs or idiosyncratic quirks of arithmetic.
+Payroll data shows the information and tech sector has been shedding workers. Yet the software sector has still been making significant contributions to growth.
+By now, it’s pretty well known that one of AI’s most visible productivity gains has been in coding agents. That boost may be now spilling over into other sectors as “vibe coding” becomes more increasingly commonplace.
+We believe the recent rise in labor productivity will continue as AI driven productivity carries the torch. While it’ll probably take a while for academics to feel comfortable confirming this, we’re content to see the writing on the wall.
+This presents an interesting macroeconomic environment as investors acclimate. It’s quite possible we see 2026 play out with steady or even increasing unemployment despite well-supported GDP growth. A weakening labor market in combination with growing GDP and a rising stock market is not unheard of – 1992, 1975, 1958 all saw this dynamic play out. Perhaps most well known were the years following WW2 as a glut of labor developed due to GIs returning home to an economy that had learned to do more with less and wartime technology being repurposed from armaments production to everyday industrial and consumer uses.
+It is only a matter of time before this productivity increase spills over from the tech sector and the largest companies into smaller companies in non-tech sectors. This will buoy corporate earnings, which will in turn support the stock market.
+Below the paywall, we discuss our views as on monetary policy, midterms, housing, geopolitics and lay out our current and updated macro trades.
+Read more

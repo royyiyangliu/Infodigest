@@ -1,0 +1,41 @@
+Source  : Citrini
+Title   : Single Stock Long Thesis
+Date    : 2025-09-18 14:08 UTC
+Link    : https://www.citriniresearch.com/p/single-stock-long-thesis
+────────────────────────────────────────────────────────────
+
+Identifying the most compelling themes in markets – what we have called “megatrends” – is the
+original
+raison d’etre
+of Citrini Research.
+The rise of artificial intelligence has been one of the
+most powerful and enduring themes of anything we have covered
+. Beginning with
+our original primer
+on the subject and continuing through
+our current coverage
+,
+we have tracked the evolution of the theme and the companies most likely to benefit. Indeed, in the course of our thematic research, we sometimes uncover an individual company so compelling - so well positioned to benefit from thematic tailwinds - that it warrants feature coverage.
+Given the transformational nature of the AI thematic, it is perhaps no surprise that most of our single stock ideas – from
+Celestica (CLS)
+to
+Credo Semiconductor (CRDO)
+to
+American Superconductor (AMSC)
+– have been based on the role each company plays in the AI infrastructure buildout. You can trace a pretty straight line through the progression of that buildout using our favorite longs. In 2023, we favored the heart of the server – names like Nvidia, Supermicro and Celestica – as the largest concern was getting more GPU servers to train AI models. Then, we favored names like Credo and Ciena, as the infrastructure required to connect servers and span distances inside the data centers became front and center for investors. More recently, we focused on names like American Superconductor and Siemens Energy, jumping out of the data center entirely towards products that manage the high voltage power requirements necessary to run them. Now, we ask, what about the new data centers? We’re not just putting a bunch of AI accelerators into existing facilities, ensuring they’ve got the connectivity and electricity to run and then calling it a day,
+are we?
+No. Regardless of inflation, a few trillion bucks over five years still buys you a bit more than that.
+The future is greenfield data centers and the infrastructure required to support them. Given the scale of the buildout, the infrastructure implications go
+beyond chips and servers
+to things like resource consumption, maintenance and the capacity of society’s most foundational utilities. As a consequence, the impact of AI is converging with some of the other megatrends we cover, such as
+fiscal primacy
+. Indeed, as the buildout progresses, we’re seeing an expansion of technological capability – spearheading the trend’s evolution even further into
+embodied AI
+, or
+robotics
+.
+Naturally, most stocks that have obvious exposure to multiple areas of narrative momentum are already trading at the higher end of their historical valuation ranges. But that’s nothing a little detective work can’t solve.
+Below the paywall, we discuss a relatively undiscovered name with significant upside to trends in
+data centers, grid reliability and automation.
+We cover the core business as well as recent developments that pave the way towards unlocking a right tail scenario for earnings. As fiscal priorities, technological innovation and AI capex spending converge, we feel this name represents an opportunity to pick up a secular trend at a multiple reflective of a lack of understanding by the market.
+Read more

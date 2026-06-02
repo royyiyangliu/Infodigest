@@ -1,0 +1,69 @@
+Source  : Citrini
+Title   : Macro Memo: Mo-vember
+Date    : 2025-11-17 11:50 UTC
+Link    : https://www.citriniresearch.com/p/macro-memo-mo-vember
+────────────────────────────────────────────────────────────
+
+The Upshot
+In our last
+Macro Memo
+, we expected:
+Slowing Without Breaking
+- labor market weakens but doesn’t collapse; further wage growth and rent inflation slowdown offsetting goods reflation.
+K-Shaped Economy Deepens
+- Lower-end consumer struggles (negative real wages, credit stress); wealthy cohort’s spending keeps aggregate consumption stable enough to avoid slowdown.
+China Tensions Peak Then Ease
+- Tit-for-tat escalation through October, then deal-making talk resumes with each seeking off-ramps amidst escalatory rhetoric. In a follow-up message on Substack, we further expressed high confidence that the US and China were highly motivated to quickly find a resolution to the export controls.
+Bull Market Continues
+- Not over; expect 5-10% pullback in near-term but significant upside remains longer-term.
+Fiscal Support Until Midterms
+- Trump administration will backstop markets/economy ahead of midterms with policy stimulus that will show up in 2026.
+For the next four weeks, we expect:
+The US job market continues to deteriorate based on private data.
+A deluge of post-shutdown economic data will unleash volatility over the next few weeks.
+End of government shutdown and QT to improve funding market liquidity.
+The Fed leaves the policy rate unchanged in December out of caution, STIR prices in more cuts to 2026.
+Risk-off sentiment continues to hit speculative areas, such as crypto, quantum and bitcoin miners, out to mid-December.
+We see a resolution of fears expected to lead to a Santa Rally as fiscal expansion is priced in for 2026.
+Before we get to our trades, a quick review of the economic developments since we last published…
+US Economy and Job Market
+How is the US economy doing?
+Because the federal government has been in a shutdown since Oct 1, we are missing many macro data points. In our last macro memo, for the US Economy and the Job Market section, we said
+“
+With the U.S. federal government shut down, last month’s public macroeconomic data are unavailable. Even so, we can still form a reasonable view of overall macro conditions and labor market health. The picture that emerges is one of
+‘slowing without breaking’.
+The U.S. economy remains starkly
+K-shaped
+: the wealthy continue to thrive on asset appreciation, while much of the middle and lower income segments face persistent strain.
+”
+Four weeks later, our opinion hasn’t changed. Almost every element of our earlier assessment still holds and is increasingly validated by private data and corporate earnings. Reports from companies such as McDonald’s, Chipotle, Cava, and Tyson highlight
+softening demand among lower-income consumers
+, consistent with the K-shaped dynamics we described. At the same time, we are growing more concerned about the
+downward momentum
+emerging across many of the indicators we track.
+Since our last macro memo, private data sources suggest that the US labor market continues to slow. ADP nonfarm private payroll growth continues to show a steady slowdown, despite month to month noise. When the official NFP job growth stats are released for the month of September on November 20 (apparently the October Jobs Report will be delayed), we expect to see that the ADP numbers are corroborated.
+There was some controversy surrounding the “bias adjustment” ADP made based on the QCEW adjustment (
+good discussions on the topic
+here
+and
+here
+). This is really getting into the nerdy weedy stuff, but based on everything we have read, we see little reason to think the ADP numbers are wildly off the mark and misrepresent the state of the labor market.
+We also received another reading of the US job openings numbers from the private job posting site Indeed. Here, once again the number of job openings trended lower. Over the last few years, job openings numbers from the official JOLTS report and Indeed Job Posting Index have shown a high degree of correlation, making us believe that once released, JOLTS job openings show a similar decline.
+We care about job openings because job vacancy reduction has borne most of the brunt of the labor market cooling since the Fed started hiking. The working theory of the Fed is that job openings should be allowed to decline up to a point, beyond which we should expect the unemployment rate to rise, through either outright firings or simply a lack of hiring. Many forget the unemployment rate, like a gauge of water level in a bath tub, can rise due to faster exit or slower entry at a constant rate of exit!
+While we wait for the release of public economic data, our baseline view is that
+the trends in the US labor market are unlikely to have changed.
+If anything, we’d be worried about those trends accelerating further downward.
+In terms of labor market turnover, the hire and quit rates were trending lower, while the layoff rate has been going sideways. In a classical business cycle, falling hiring rate is what leads to higher unemployment rate before outright firing begins in earnest.
+Speaking of unemployment rates, they have been slowly but surely grinding upward. Historically, job opening rates being lower than 4.5% has been associated with rising unemployment rates.
+Construction sector payroll growth continues to decline. Note that this does not mean that the construction sector is outright shrinking, but rather growth has slowed. Historically, the housing sector has been predictive of the business cycle.
+Consumer confidence and sentiments continue to trend lower – a defining characteristic of this business cycle. The UMich consumer sentiment seems particularly bad, but it’s similarly corroborated by the survey from the Conference Board. They both agree with consumers’ perception of the job market.
+Goods Spending Rebounds and Services Spending Slows
+Wage growths continue to slow.
+Despite the deteriorating trends of the labor market, the overall US economy seems to be so far holding up. In fact, the Q3 real GDP NowCast from the Atlanta Fed is projecting a whopping annualized 3.7%! Now these NowCasts were made during the government shutdown. So with the release of the make-up stats, we could see a revision, but in all likelihood the new data will affect Q4 GDP much more. Could we see a sharply cooling labor market while the overall GDP holds up?
+Consumer Strain Lingers
+Delinquency rates among consumer borrowers remain concerningly high, and may move higher. This is among the best demonstrations of the K-shaped economy. Auto loans in particular stand out as one of the poorest performing categories of consumer credit, with metrics continuing to deteriorate.
+By contrast, mortgage delinquencies are not high by historical standards, reflecting the fact that American households, especially the older and richer ones, have generally de-levered and accumulated significantly home equity over the past decade. Yet even here, it’s unmistakable that delinquency rates are
+rising
+. Student loan delinquencies have surged too as the COVID moratorium has ended, and non-paying accounts are again recognized accordingly.
+Below the paywall, we go further into the setup for macro markets in the weeks to come and share our current positioning.
+Read more

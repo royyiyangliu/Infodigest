@@ -1,0 +1,35 @@
+Source  : a16z
+Title   : Investing in Stitch
+Date    : 2026-05-14 06:01 UTC
+Link    : https://www.a16z.news/p/investing-in-stitch
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+A system of record (SOR) keeps track of the atomic units of a business — in banking, the holy grail SOR is the core banking system. It stores every account, every transaction, and is the single source of truth that every downstream workflow depends on.
+In the United States, FIS and Fiserv became two of the most durable, defensible software businesses ever built because they sit at the center of every bank’s operational universe and banks can’t replace them (their data is trapped!).
+The result of this incumbency is that financial institutions are sitting on decades of infrastructure debt. This debt has become the single biggest obstacle to AI adoption. Intelligent agents cannot run on systems without clean APIs and data.
+Enter
+Stitch
+.
+Stitch is building an operating system for modern financial institutions, starting in the Middle East. Its API-first platform enables banks, fintechs, and non-financial institutions to launch, scale, and operate financial products across a modular stack, including a general ledger and core database, product-specific software for cards, loans, and bank accounts, and a customizable workflow builder with a marketplace of integrations including KYC/KYB.
+Convincing banks to swap their core is no small task — but a rare
+greenfield opportunity
+exists in the Middle East, where a nationwide focus on expanding outside of oil is feeding one of the fastest-growing financial services ecosystems in the world; the industry is growing 10% YoY. Saudi Arabia has plans to add hundreds of new financial institutions over the next five years, all of which need core banking software for the first time.
+In the last six months alone, more than $5 billion has been transacted on the Stitch platform. Customer numbers grew 10x in 2025, revenue grew 20x, and Stitch has seen pull beyond the GCC into Africa and Southeast Asia. Marquee regional customers like Lulu Exchange and Raya Financing have already launched products up to 80% faster, thanks to Stitch’s flexible infrastructure.
+As Stitch becomes the infrastructure layer, it can support these financial institutions in their AI transformation, adding AI-powered customer support, automating loan origination, and eliminating the messy inbox workflows that consume operational headcount at every financial institution.
+Mohamed, Stitch’s founder, has the rare combination of relationships, sales instinct, and grit to win in a market where trust and distribution matter as much as product. And he’s hired a team of world-class operators from the likes of FIS and Barclays to bring his vision to life.
+We are thrilled to lead Stitch’s Series A — and honored to make this our first investment in Saudi Arabia. After years building conviction around the global fintech infrastructure opportunity, we believe Stitch represents the clearest expression we’ve found of what the next generation of this infrastructure looks like. It is built natively in a market with massive tailwinds, led by a founder who understands both the technology and the regulatory landscape, and designed from the ground up to be the system of record that makes everything else (i.e. AI) possible.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

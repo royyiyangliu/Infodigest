@@ -1,0 +1,40 @@
+Source  : a16z
+Title   : Exa is Building the Search Engine for the AI Era
+Date    : 2026-05-20 15:03 UTC
+Link    : https://www.a16z.news/p/exa-is-building-the-search-engine
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+Today’s post is by
+Will Bryk
+, cofounder and CEO of Exa. Exa
+announced their Series C this morning, led by a16z
+.
+AI agents will search the web more than humans this year. In a few years, they’ll search 1000x more than humans. This new AI world needs search that’s redesigned from the ground up.
+My cofounder Jeff and I built our first search engine together as college roommates. We felt the web was filled with an immense amount of valuable information, but traditional search only gave surface-level understanding. This is a serious problem, since the information we consume is the bedrock of our society. If we can’t fully grasp our chaotic world, then that leads to more chaos.
+We started Exa five years ago to solve the same problem, but for an AI world. We knew AI systems would one day need a new kind of search engine. They would ask longer, more complex questions than humans ever had. AI products would require a latency profile and high search volume that the world’s best search engines weren’t designed for. AI was getting smarter each month, faster than anyone expected, but search wasn’t catching up. This felt like an opportunity to redesign our information ecosystem.
+Traditional search engines were built for people clicking through a few links and reading a few webpages to learn something. In contrast, AI agents are doing
+real work
+on top of the web. Traditional search’s entire architecture is built around short keyword phrases, ranking shaped by human clicks, and an SEO ecosystem to win position in the ranking. None of this helps the AI agent. An AI agent wants an API to access comprehensive, trusted information so it can perform actions optimally. The higher quality the search, the more valuable it is to an agent. Luckily, comprehensive, trusted information is exactly what my cofounder and I wanted for ourselves. Our mission and business model were therefore aligned.
+Since those early days, AI search has gone from nonexistent to a significant force today; it’s grown more than 1000x just in the last few years. And it will grow immensely from here. By the early 2030s, I believe agentic search will be a larger business than Google search ads is today.
+Along the way, we’ve learned that search engines are extremely difficult to build. I underestimated this myself when we started Exa (and that’s probably why we were willing to start it). To build a truly useful search engine for AI, you need to crawl and process hundreds of billions of everchanging documents, devote years of research into retrieval models that handle complex queries, and design new vector databases for the extreme volume that agents need. There’s a reason there are more space programs than true search engines.
+That’s also why most companies selling “AI search” are in fact wrappers over existing search engines. That’s fine for basic queries. But those underlying search engines were built for humans. Actually building real search for AI is much harder.
+Exa has done the hard thing of becoming an AI lab for search. We track hundreds of billions of URLs, train novel embedding models on a GPU cluster we assembled ourselves, and design custom vector databases for extremely high throughput. We offer the fastest search in the world—under 200 milliseconds—for real-time agents, and the highest-quality search at 10x faster and cheaper for asynchronous agents that need comprehensive data. Recent hires include a head of retrieval infrastructure from Meta, a former head of search backend at Yandex, and a research team out of Google.
+While we’re not used to search engines improving, Exa’s search gets better each week. For example, six months ago, we were worse than Google at code search; today nearly every coding agent uses us.
+Exa now serves hundreds of thousands of developers and thousands of enterprises, including Cursor, Cognition, HubSpot, and Monday.com.
+These are only the early days. We just raised $225M at a $2.2B valuation, led by a16z. Our goal is perfect search for AI agents: your AI system should have truly comprehensive knowledge of the world, no matter how complex the request.
+The bottleneck to AI is increasingly not intelligence - we have plenty of that now. The bottleneck is finding the right information. Exa is what I think the search engine for the new world looks like. We have a lot more to build.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

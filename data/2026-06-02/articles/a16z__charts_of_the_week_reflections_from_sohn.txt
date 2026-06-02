@@ -1,0 +1,139 @@
+Source  : a16z
+Title   : Charts of the Week: Reflections from Sohn
+Date    : 2026-05-22 14:02 UTC
+Link    : https://www.a16z.news/p/charts-of-the-week-reflections-from
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+Two things. First, we’re excited to welcome Peter Levine back as a full-time GP. Read more about his return
+here
+.
+Second, we get asked a lot:
+who does your charts?
+Today I’m really happy to get to unveil his identity:
+Moses Sternstein
+, known to many of you as the author of
+Random Walk
+. Before we get to charts today (they’re there, if you scroll down), here’s Moses introducing himself and sharing some insights from this year’s Sohn conference. -AD
+First, a brief introduction, before the main event(s). Some of you may know me from my other publication,
+Random Walk
+, but if not, welcome to an a16z production of Random Walk. As Robert Hagstrom famously wrote (reflecting on the great Charlie Munger), “investing is that last liberal art.” It selects for curiosity, discovery, and pattern-matching–a “multi-disciplinary mindset” and a “latticework of mental models”--and offers the rare premium for being different, early and right.
+That Mungerism has always been the message, and in Random Walk’s case, charts are most definitely the medium. By joining up with Erik, Alex, and the extremely talented a16z New Media team (and a16z more broadly), we’re going to shout it from the rooftops like never before–weekly charts for now, but much more to come.
+Tales from Sohn
+Now, onto the show, beginning with (ironically enough) a chart-free prelude: some brief reflections of my third consecutive tour of the
+Sohn Investment Conference
+.
+Sohn is the rare conference where the presentations are the best part (and it raises a ton of money to fight cancer, and since cancer is very bad, that makes Sohn very good). Now in its 31st year, Sohn features professional investors (both established and up-and-coming) pitching their investment ideas, and otherwise musing on the general state of markets.
+The conference is idea-dense–some presenters like to pack multiple pitches into a single 5 minute presi–but mostly it’s solid affirmation that very smart people have very different views of where the opportunities lie (although, sometimes, more so than others).
+It’s also highly performative–investors share the ideas that reflect the views they want everyone else to know that they have. It’s the investor equivalent of being seen at the opera, and your outfit definitely matters. And because Sohn happens every year around the same time, it’s fun to look back on Sohns-past like rings on a tree, each one telling a story of the investor-zeitgeist at the time–and, of course, mapping that zeitgeist to what eventually transpired (because hindsight is nothing if not 20/20).
+Basically everyone missed the AI boat last year
+The first big observation about Sohn 2026 is really an observation about
+last
+year’s Sohn Conference.
+As far as I’m aware, no one at Sohn ‘25 made any calls about the cycle’s biggest winner: memory (or even semis). And no one made any calls about the cycle’s biggest losers, either: software (and, relatedly, private credit, although there was one exception). Now, to be fair, Sohn
+2024
+(i.e. two years ago) had pitches for both TSMC and ASML, a conversation between Daniel Gross and Eric Steinberger (about agents), and plenty of bullish commentary on GPU demand, but Sohn ‘25 was mostly crickets on the AI trade.
+In fact, at Sohn ‘25 there were at least two prominent software
+longs
+: Adobe and Ncino (neither of which was spared in the saaspocalypse). There were a few payments and marketplace plays, all of which had a bad year. And even while there was a decent amount of interest in industrial and infrastructure, almost none of it sat squarely in the AI infra buildout–other than pitches for a Nat Gas supplier, radiation detection, and a wiring installer, there was more interest in plane parts and Japanese cosmetics than AI, let alone silicon.
+Subscribe now
+That AI might break SaaS didn’t come up, at all, last year (again, that I can recall). And the only Private Credit short was limited to a specific BDC where valuations looked unreasonably stable (supposedly due to unique control positions the BDC holds, giving it a lot of sway over marks, but having nothing to do with software). “Software lending” wasn’t an area of concern whatsoever (and the BDC in question actually has/had relatively low software exposure).
+In general, AI and its second-order effects (which have otherwise defined the market for the past year+), were very absent from Sohn 2025. That isn’t to say that Sohn ‘25 presenters ignored AI completely—or that there were no hits among the non-AI pitches—but they do appear to have completely missed the main AI boats (for better and for worse). And since those were the main
+everything
+boats this past year, then by the transitive property . . . well, you do the math.
+What is one to make of that?
+I suppose the most straightforward takeaway is that investing is hard, the future is unknowable, and the AI landscape (especially) is changing very rapidly. AI coding took a real leap forward in 2025, with the biggest leaps in the Fall (well after Sohn ‘25). It’s also possible that there was some “AI fatigue” at the time, and presenters wanted to focus on less-obvious ideas. Alternatively, perhaps yet other presenters wanted to keep their best AI ideas closer to the vest. Or maybe one ought to conclude that professional investors are bad at their jobs, or at least that the professional investors who appear on podiums are bad at their jobs?
+Or perhaps some combination of all or none of the above. Be humble, make bold calls, live to fight another day.
+No AI Bears at Sohn (but only one AI winner)
+This year
+at Sohn, however, AI was very much front-and-center (and yet, somehow, not).
+Lots of presenters offered some angle on how the surge in demand for power and silicon is going to transform previously sleepy (or otherwise down on their luck) companies and industries.
+There were some longs in smaller semi and powertrain players, in say autos. One pitch focused on a niche market for nuclear reactors previously limited to US Navy submarines that had the potential to ride the SMR tailwind.
+Can a crypto business provide on-prem power to data centers? At least one presenter said “yes it can.”
+Remember Nokia? They don’t even sell phones anymore—it’s a fiber optics business now (and data centers need those).
+Engineering, Procurement, and Construction (EPC) services is suddenly hot-hot-hot, and the hard part is finding an EPC business that isn’t already ripping (but will be soon)
+Memory and switchboards used to be as generic and commoditized as they come, and now, all of a sudden, having specialized expertise is generating historic pricing power for the most mundane parts of the chip stack.
+One presenter mused about how AI Capex was likely to transform Korea’s entire economy, given how much money is flowing to Korea’s memory-makers (and eventually their Korean employees).
+On the short side, the question wasn’t whether AI would threaten software, so much as whether there were still unidentified victims, and/or perhaps whether some good companies (but really, their loans) had been thrown out with the bathwater.
+But in all events, the consistent refrain of Sohn ‘26 is that AI is here, it’s growing, and it’s transformative. AI wasn’t quite the everything pitch, but it was close.
+Certainly some of the discussion touched on whether all this demand for AI infra was sustainable, and at what point high prices would drive breakthroughs on efficiency. As Jonathan Ross (ex-Groq, now Nvidia) pointed out, up until recently, no one was really trying to squeeze more performance out of memory chips, but they sure are now. Others noted that Google is working hard on its TPUs and Amazon its Trainiums, both in an effort to be less Nvidia-dependent (even while reaffirming that Nvidia is still in a class of its own for what it does). Likewise, while it’s true that we’re likely to see innovation in previously commoditized products, it turns out that the same firms producing the commodities are the ones with all the technical know-how, operational scale, and client mandates to do the innovation (and keep up with the rapidly accelerating cycles).
+Whatever doubts one might have, [Alex Sacerdote of Whale Rock] pointed out that the number of AI power-users is currently a small fraction of one percent of AI users—and yet, we’re already in a compute shortage. If “power-user” is the future state of what using AI looks like, then consider how early the compute buildout actually is (and how much farther it still has to go). In the meantime, investors are hiring AI “ninjas,” and the entire “old economy” is in catch-up mode.
+You think running a compute-cluster is a commodity business? Sure, so is grocery, and building a world class grocery business is as easy as running 1,000 different grocery stores, with efficient pricing, inventory management, quality control, staffing, and site-selection. It’s so easy, you can count the number of successes on your fingers (more or less).
+Bigger picture, everyone agreed that AI is a very big deal, and the underlying premise was very bullish AI—not whether, but how fast and how far (and how to grab a seat on the train). Sure, there will be some hills and valleys along the way, but when are there not? If there’s market froth, it’s in companies that try to ride the train by adding “AI” to their names–one short-seller used name changes as a screen–or rebranding a legacy software roll-up (loaded with related-party transactions) as an “AI powered” roll up. But no one came close to using the “b word,” (except to say, “this isn’t a bubble.”)
+You’d have to dig deep to find a truly bearish comment, of any kind. Gavin Baker (hardly an AI bear) came closest by offering up the call that we’d go cold turkey on new terrestrial data centers, once orbital compute changed the game.
+Could one detect a little apprehension? Sure. But, bearishness? Not even close.
+So many AI winners, then why no AI winners?
+All that AI bullishness, though, invites a different sort of question: with all those potential winners in the AI semi supply- and power-trains, why the paucity of good old fashioned businesses set to win with AI?
+There were 1 or 2 exceptions, of course–a hardware company adding an AI software license built on decades of proprietary public safety data; a gaming company building an AI-driven gaming engine, with end-to-end commercial support for game devs. On the private side, Orlando Bravo (of the PE software giant, Thoma Bravo) had a whole session to himself where he talked about how AI was challenging software companies, yes, but also creating opportunities for software companies (especially cyber), where domain expertise provides an edge.
+But, for the most part, as one panelist reflected, “it’s easy to spot the AI losers—it’s a lot harder to spot the winners.” (And, perhaps the winners will be diffuse and sort of boring, i.e. 200bps of margin improvement for a broad set of businesses, which would be a massive change, but lacking in star power).
+What is one to make of
+that
+? Again, who really knows.
+Maybe the Sohn ‘26 presenters will be just as “wrong” as the Sohn ‘25 presenters were (for better or, possibly, for worse). Maybe Sohn ‘27 will be the rip-roaring return of software companies or AI-driven biotech, or maybe Sohn ‘27 will be the year the value guys finally get their incremental margin-improvement and big wins for the slow n’ steady, or maybe, heaven forfend, at Sohn ‘27, the shorts will preside. Or maybe AI will undergo yet another step-function change, and the talk of Sohn ‘27 will be some other bottleneck that no one is talking about now, but will seem obvious in retrospect.
+Truthfully, if anyone really knew the answer, they’d probably keep it to themselves, for now.
+In all events, Sohn is a great conference (for a great cause), and one of the few conferences where actually listening to the presentations is the best part. It’s also something of an investor’s time capsule, or a freeze-frame on the capital markets zeitgeist, that’s informative, for sure, but mostly just humbling. Can’t wait for the next one.
+Peak computer science
+There’s a big change afoot in terms of what students are choosing to study.
+According to data from Revelio, computer science (and IT) enrollment has become much less popular, of late:
+Computer science enrollment is regressing close to 2018 levels, and as a share of students, it’s dropped by ~1/3.
+Engineering (and finance), by contrast, are on the rise.
+Why are students shifting their enrollment preferences? One strong possibility is that they’re responding to market signals (albeit on a bit of a lag):
+More enrollment appears to be roughly correlated with changes in the “salary premium,” i.e. the compensation premium/discount for a given major, relative to their school’s median.
+The compensation premium for engineering roles has increased (and so has enrollment), while the premium for computer science–while still relatively high–has compressed (and enrollment has followed). The one major exception appears to be biology and biomedical engineering, where the premium has declined, but the enrollment share has nonetheless increased.
+Maybe biomed knows something the market doesn’t, or maybe they just do it for the love of the game.
+Small Business Boom
+As we’ve pointed out various times before,
+US companies are becoming more profitable than ever.
+Margins have been expanding for some time (especially, but not only, in tech), and the recent run on AI-related parts and services, is pushing expectations for profit-growth upwards in unprecedented ways.
+In the bigger scheme of things, though, profitability has been a trend for a while, and leadership begins at the top—you might even say that leadership begins at the tippity-top:
+Since 1960, the share of sales attributable to the top 1% of firms has grown from ~60% all the way to ~80% (and the top 20 firms are responsible for about half of all sales by themselves).
+The biggest, most profitable companies have become even more central to the overall story. These are super-pareto distributions, if that were a thing.
+At the same time, there’s a possibility that AI begins to change the story, at least somewhat. We’ve noted before
+that new business formation appears to have accelerated recently
+, and while these new businesses aren’t adding much headcount, they are spending a lot on software. In other words, there’s some evidence that AI is unlocking a rise in “solopreneurship.”
+Recently, Ernie Tedeschi of Stripe Economics,
+made a similar observation
+, based on Stripe’s own data:
+All categories of founder appear to have grown in Q1, but “non-AI, solo-founders” grew the most (and “AI, solo-founders” grew the second-most).
+In other words, business formation is on the rise, but for the most part, it’s not the “high propensity,” hiring kind. In this case, “non-AI” simply means that AI is absent from the product description, so it’s possible (if not likely) that many of those non-AI businesses are using AI (at least in part) to make things happen. In Tedeschi’s words:
+The rapid development of AI tools might be lowering both the barriers to starting a business and the returns to doing so for individual operators—contributing to a rise in AI solopreneurs: individuals using AI to establish sole proprietorships or side businesses without the need or intent to hire.
+Obviously it’s still early, but as ARR/FTE has become the new en vogue metric to track operating leverage, it’s hard to imagine a better setup for ARR/FTE than operating a firm of one (assuming the solopreneur can hack the ARR part, too). We’re a big fan of outliers, but perhaps the AI-small business renaissance will begin to recapture some part of the profit-pool from the bigcos. Or maybe the pie will just keep getting larger, and that’s pretty good too.
+Token maxxing
+At Google’s recent I/O 2026, Google’s CEO shared some data on the explosion of token demand:
+Google is now processing more than
+3.2 quadrillion tokens per month
+–a 7x increase from a year ago.
+The point being that token demand is growing
+a lot
+. More firms are using more AI, and the change is happening rapidly, and at massive scale.
+It’s not just Google’s data that shows a surge in token consumption. According to Silicon Data (via Bloomberg), total token spending (i.e. dollars spent on tokens), has risen to new highs, and growth recently took the shape of a near-vertical wall.
+Total token expenditure is now more than double what it was in just December of 2025.
+So, more tokens consumed, and more dollars spent on tokens. That’s interesting so far as it goes, but the really interesting thing is the ongoing apparent relationship between token-pricing and demand: the cheaper that tokens get, the more demand appears to accelerate. In other words, this is a Jevons-like acceleration, whereby efficiency-gains expand the frontier of demand.
+The “price of intelligence” continues to decline.
+The
+CEO of Silicon Data made a similar point
+a few weeks back, even before the recent surge:
+“The mechanism is textbook Jevons:
+Cost-per-token fell ~40% YTD (Epoch AI)
+Query volume and context usage scaled faster
+Net spend compounded
+A divergence worth sitting with:
+Token expenditure (SDLLMTK): 1.27 → 1.76, +38% YTD
+B200 non-hyperscaler rental (SDB200RT): $4.30 → $5.16, +20% YTD
+Token spend is compounding ~2x faster than GPU rental rates.”
+The “textbook Jevons” relationship appears in other data, as well. According to Yipit Data, weekly token-pricing has been steadily declining (for the most part), while token consumption increased substantially:
+This is almost Jevons+, insofar as simply holding token-costs mostly steady, has coincided with a surge in demand–possibly because the tokens themselves have more intelligence bang-for-the-buck.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

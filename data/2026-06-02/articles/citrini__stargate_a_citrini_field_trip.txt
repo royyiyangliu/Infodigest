@@ -1,0 +1,99 @@
+Source  : Citrini
+Title   : Stargate: A Citrini Field Trip
+Date    : 2025-09-28 20:57 UTC
+Link    : https://www.citriniresearch.com/p/stargate-a-citrini-field-trip
+────────────────────────────────────────────────────────────
+
+Sometimes,
+seeing is believing.
+CitriniResearch has been an early and vocal believer in the scale of the data center buildout necessary to implement and realize the full potential of Artificial Intelligence. In our inaugural AI primer, we dubbed Phase 1 of the AI Trade the
+“Global Data Center Hyper-Scaling”
+- a tongue-in-cheek reference to both the hyperscalers involved and the coming scale of the buildout. More than two years ago, we wrote:
+“The first phase [...] is centered around the development and build-out of robust computational infrastructure. This involves a massive and sustained tailwind to the suppliers of data center equipment of accelerated computing required for both AI training and inference”
+“The enormous computing power required for AI/ML places considerable demands on a variety of technology sectors. The companies involved in providing the necessary infrastructure stand to benefit significantly from this heightened demand. This includes businesses involved in semiconductor manufacturing, networking equipment, data center construction and management, and more.”
+Artificial Intelligence: Global Equity Beneficiaries
+(5/31/23)
+Since then, we’ve spent our time in front of our screens, watching green numbers climb higher across the supply chain involved in this massive effort. But there’s a risk of failing to appreciate it that is inherent to that; sometimes you just have to
+bear witness
+.
+Screens make it easy to forget the physical world behind the numbers. Chips don’t float. Fiber doesn’t spool itself. Power doesn’t magically appear at the edge of the rack. At some point, you have to step away from the chart and go stand where the megawatts meet the mud.
+So we went to Abilene, Texas. Or, at least, we sent a drone to Abilene, Texas with the help of investigative journalism firm
+Hunterbrook Media
+(who we partnered with on our
+Teradyne (TER) thesis
+). Maybe I’m slow to the uptake but, for me, seeing the progress there really drove home the scale of what’s going on right now.
+Roughly a year ago, there was dirt.
+Now, it looks like this:
+On the ground level, nine months ago, it looked like this:
+Today it looks like this, and this is just one section:
+These images may seem mundane, but one has to consider that they represent just a tiny fraction of the datacenter development breaking ground across the country. This single facility represents 600 football fields filled with cables, fiber, pipes, generator sets, transformers, chillers, switchgear, cable trays, fuel tanks, batteries, copper busways, electrical components (2N redundant), pumps, air handlers, fire suppression systems, all the fancy actual computing and cooling gear inside the data halls and 200,000 tons of other equipment that collectively consume enough electricity to power the city of Seattle and must reject a level of waste heat 24/7 that creates thermal plumes visible on weather radar.
+Each is
+literally
+a “Ludicrous Building.” And there are eight under construction on this single site.
+And this is just one of the
+Stargate
+data centers,
+there are many more. xAI’s Colossus 2, Meta’s Louisiana Hyperion, Microsoft’s Fairwater, Quantum Loophole, Nebius’ New Jersey DC, Amazon’s Pennsylvania Project, Google/Anthropic’s Project Rainier - just to name a few.
+Together, the current footprint of this complex is roughly the size of lower Manhattan:
+Which pales in comparison to Meta’s Louisiana facility, which would stretch from the top of central park down to SoHo:
+Now our tagline for this article starts seeming a lot less like hyperbole and a lot more like an understatement. “What if Manhattan, but computers?”.
+Don’t take our word for it
+. Really,
+don’t
+. Watch some of the footage we’ve uploaded
+here
+:
+You can see the currently completed data halls (one is currently being used for early training/inference runs by OpenAI), as well as the new construction that will massively expand the current capacity. The scale and speed of the buildout is truly immense, and – for me, at least – awe-inspiring. Don’t let anyone tell you the U.S. doesn’t build things anymore.
+Despite the fact that we’ve owned or covered many of the companies involved in this (Vertiv (
+VRT
+), Eaton (
+ETN
+), Schneider (
+SU FP
+), ABB (
+ABBN SW
+), Siemens Energy (
+SIE GR
+), GE Vernova (
+GEV
+)
+etc
+). We’ve decided to take the weekend to drive home what the “data center buildout” really means from the outside, rather than the inside, of the data hall. We’ve spilled a lot of ink zoomed into the data center, focused on racks, high-bandwidth memory, pluggable optics, active electrical cables, racks, switches, GPUs, ethernet fabric. Now, we’re zooming out in a very literal sense.
+This is the clearest demonstration yet of
+how quickly the AI infrastructure machine is spinning up,
+and how many industrial hands are turning the gears. The execution tells us more: a who’s who of global vendors rushing to bolt down turbines, transformers, chillers, tanks, and cables in the Texas plains – and they’re powering it all with natural gas, one of the only reliable and dispatchable fuels we have today.
+These projects are so large that even multi-national corporations cannot fulfill the entirety of the needs, with multiple contractors and OEMs all working towards a singular goal:
+the largest industrial investment cycle for the United States since World War Two
+. This requires the builders to call on anywhere and everywhere to realize their ambitions.
+In short, “tech” has become
+truly capital intensive
+again for the first time in a quarter century. For the broader economy, this is an enormous development. But a picture is worth a thousand words, so drone footage must be worth a thousand charts...
+At the Stargate Data Center in Abilene, by mid-2026 eight buildings will be completed representing approximately 4 million square feet with a total power capacity of 1.2 gigawatts (GW).
+And this is just one site.
+Although we’ve decided just to focus on this one (somewhat arbitrarily, somewhat because the “Stargate” moniker was leading to doubts), the important thing to keep in mind is that there are going to be tens if not hundreds of similar projects built over the next five years.
+Five new Stargate sites are already in the permitting or construction stages (Shackelford will have its first building complete in H2 26) and there’s already discussion about expanding the Abilene DC by
+another 600MW.
+We already have published on the need for:
+More compute
+in May 2023, in our article
+“
+Artificial Intelligence: Global Equity Beneficiaries
+”
+More power
+in May 2024, in our article “
+The Utility of Bubbles: The Intersection of Fiscal & AI
+”
+More connectivity
+in July 2024, in our article “
+Can You Hear Me Now? The Coming Optical Shortage
+”
+We have continually tracked what’s happening inside the data center. Which, to be clear, remains vitally important and is not slowing down:
+“At completion, each data center building will be able to operate up to 100,000 GPUs on a single integrated network fabric, advancing the frontier of data center design and scale for AI training and inference workloads. The first phase includes two buildings optimized for both direct-to-chip liquid cooling and air cooling, ensuring flexibility and cutting-edge performance. Upon completion, the data center will support up to 100,000 GPUs on a single network infrastructure.”
+Source: Crusoe/DPR Communications
+But today, we’re doing two things. The first is appreciating that we were right back in 2023, the scale of the data center buildout is indeed “hyper”. Second, we are taking a closer look at who’s actually building the data centers and facilitating their immense needs. It’s a bit less exciting than who’s developing the hardware upon which the
+Machine God
+will run, but after viewing the scale of this project we believe it requires some additional attention.
+Who makes these massive facilities appear from the ground up, like an alchemical transmutation of money into power consumption and compute?
+Because there’s a lot that needs to be done, and a lot of money to go around. Today, it’s Texas. Soon, it’ll be New Mexico, Ohio, Wisconsin…everywhere there’s enough energy and land to build them. Therefore, paying attention to the blueprint is a good idea.
+Below the paywall, we compile the names involved or likely to be involved in the continued wave of massive infrastructure building for AI. Included is a breakdown of 50 high confidence and 200 low-medium confidence public companies that will continue to see upside to these megaprojects.
+Read more

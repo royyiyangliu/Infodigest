@@ -1,0 +1,57 @@
+Source  : Citrini
+Title   : State of the Themes
+Date    : 2025-08-18 22:29 UTC
+Link    : https://www.citriniresearch.com/p/state-of-the-themes
+────────────────────────────────────────────────────────────
+
+If you’re new to CitriniResearch, our State of the Themes is our chance to catch up on all the developments occurring across our coverage. While we try to actively trade around our themes, our State of the Themes articles outline longer term views, highlight new stocks and give readers a solid grasp on what’s moving and where.
+I can confidently say that
+2025 has been one of the most thematically driven years in recent memory.
+Unlike 2024, which was mostly dominated by one theme (AI), this year has seen broad dispersion across trends. Sometimes a singular environment is easier – if there’s one dominant theme it’s
+much less likely you’ll miss out.
+We’ve caught our fair share so far this year – from drones/electronic warfare, to the EU defense trade, AI’s gyrations, and its embodied counterpart Robotics and the Trump trade’s various forms (from DOGE concerns to tariffs to the One Big Beautiful Bill).
+At the same time, these kinds of rapid-fire thematic markets make a “misfire” all the more likely. When trends shift around rapidly, shiny and fast moving things can present investors long-term promise when there’s none to be had. We recall not-so-fondly the thematic trades in 5G, IoT and Work-From-Home that burned investors despite becoming real parts of everyday life. Some recent “themes”, like the Digital Asset Treasury trade or Quantum Computing, give us a bit of pause as to where we are in the cycle.
+Our efforts are meant to focus on the most durable, investable and market-moving of these trends, but it’s important once in a while to step back and see what’s moving.
+So, let’s check in on the CitriniResearch thematic universe:
+In this quarter’s “State of the Themes” we will cover our continued allocation decisions in
+AI, Robotics, Healthcare, Defense and Government Policy
+. Additionally, we bring back a thematic basket we opted to exit in favor of concentration into more secular trends –
+our “Small Themes” basket
+.
+We see a market environment that is distinctly bifurcated – the AI Data Center trade has gone through multiple iterations, all focused on the next bottleneck. While we may have narrowed our focus in AI a bit early, we still expect to be proven correct about the path forward being more concerned with implementers than infrastructure and selective when infrastructure is the focus.
+In AI, the datacenter (“Phase 1”) trade has remained asymmetric towards the bottlenecks – power and interconnects have smashed – while broadly speaking there’s been more significant dispersion among connectivity, edge and servers. Our decision to broaden outside of solely beneficiaries in our “Phase 2” basket earlier this year has kept us performing in-line but has yet to take off.
+The Trump administration has continued to be a whirlwind, with policy announcements and executive orders with material market impact being released seemingly daily. It’s an environment that reminds us of the value in withholding judgement – aligning with Trump initiatives like Rare Earth Metals, Domestic Data Center Investment and Defense Tech has rewarded investors handsomely.
+On the other hand, after making a splash earlier this year, Europe seems to still be stuck in the talking phase. We have continued to focus our adjustments to allocations along US policy, having booked profits in many of the EU fiscal trades. The YTD performance of EU Fiscal beneficiaries broadly still sits near the top of our thematic strategy breakdown, but has significant moderated returns relative to our broader thematic universe QTD.
+It’s a common refrain to hear that the market “has gotten too expensive”. That might be the case in the most common places to look, especially among the hotter themes like drones, but looking towards smaller, more cyclical themes like lower rates, cyclical reacceleration and niche AI upside there are plenty of names trading at very reasonable valuations.
+Our basket tracking modest valuation + thematic upside among small and mid-cap US stocks that we created in December has managed to surprise us - overtaking SPX returns YTD last week despite the volatility. We look into the environment to pick up some cheaper exposure to durable themes in the SMID caps.
+In this Quarter’s SOTT:
+Dynamic AI
+GPT-5 Takeaways
+Google’s Advantage
+AI Implementation Winners
+Deepseek’s R2
+Datacenter Selectivity
+Optical and Interconnects
+Edge AI
+The Taiwan/US Discount Gap
+Updates to the Basket
+Payments
+Finding AI Upside in Fintech “Superapps”
+Fiscal Primacy
+Where AI and Fiscal Intersect: The AI Action Plan / OBBB
+Solar Energy Stocks
+The One Big Beautiful Bill Act
+Korean Fiscal and the “KOSPI 500” era
+Robotics:
+Regal Rexnord & ABB Partnership
+Electronic Warfare:
+Updates to the Basket
+Healthcare Innovation:
+Updates to the Basket
+GLP-1 Long / Short:
+Updates to the Basket
+Re-introducing: “Small Themes” Baskets
+Rate Sensitivity: Mortgage Underwriters, Elder Care REITs, Home Transaction Volume Links
+Virality: What Happens When Sleepy Brands Catch Fire?
+The CitriniResearch Community Picks Basket
+Read more

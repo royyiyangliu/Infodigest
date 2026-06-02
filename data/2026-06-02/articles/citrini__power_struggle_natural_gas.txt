@@ -1,0 +1,105 @@
+Source  : Citrini
+Title   : Power Struggle: Natural Gas
+Date    : 2025-10-17 18:15 UTC
+Link    : https://www.citriniresearch.com/p/power-struggle-natural-gas
+────────────────────────────────────────────────────────────
+
+Background
+Natural gas might not be as sexy as solving energy storage, or making GPUs more efficient, but
+it is the way we’re powering AI
+.
+AI eats electrons, electrons eat gas.
+We’ve focused quite a bit on power and electricity, but not so much on its source. There’s no way around it, if we want to power these data centers, we’re doing it with gas – at least for the foreseeable future.
+This incremental demand comes at a time when gas supply and demand balances were already becoming tighter with the consistent ramp of new LNG export facilities.
+This confluence of factors will ultimately result in natural gas prices moving structurally higher.
+For the past fifteen years, drillers from every corner of the United States have overwhelmed the natural gas markets with persistent supply growth. Most of this growth has been completely price insensitive. In shale’s infancy, capital markets rewarded production increases over cash flow. Then, associated gas (a by-product of oil-focused drilling) swamped an already oversupplied market. For well over a decade, gas has been
+plentiful and dirt cheap.
+This has led to a gross miscalibration of how much production growth drillers will deliver on a go-forward basis, and the price at which they’ll deliver it. As oil production from the Permian Basin begins to plateau, and we enter the final innings of the associated gas deluge; the US’ natural gas supply stack becomes increasingly price sensitive and weighted towards dry gas (i.e. not oil-bearing) plays, where
+any incremental growth will require an economic return.
+This represents a shift in natural gas market dynamics.
+After a decade dominated by
+supply-push,
+the market will now be driven by a
+demand-pull.
+New demand growth in the US will be driven by two key factors (and the competition between them):
+Extraordinary new demand from LNG exports
+Extraordinary new demand for domestic electricity driven, in part, by the massive AI Data Center buildout
+Below we chart the implied call on natural gas over the coming years. This call on dry gas
+nets out associated gas production adds
+from the Permian Basin to show what dry gas plays must deliver – the volumes are material. For context, this amounts to
+adding another Appalachia
+(the largest dry gas play in the United States).
+While many focus on the short-term factors that drive natural gas prices, like the weather, we’ve chosen instead to focus on the market’s fundamental equilibrium. That is to say:
+where long-term supply and demand meet to clear the market
+, both today, and in the future.
+We do believe higher prices will lead to production growth – though in this piece, we explore why the trigger price for incremental natural gas growth is moving structurally higher,
+along with the physical limitations that future growth may face from an infrastructure, regulatory, and remaining inventory perspective.
+Don’t get me wrong –
+most of the stocks in this space will continue to trade in a volatile manner, with high beta to commodity prices and weather forecasts. Therein, we think, lies the opportunity – by focusing on what will happen over the next 3-10 years, we can look through the volatility to see the trend. Because of the far-reaching implications, it’s also possible to focus on names with a bit less in the way of commodity beta, but we think that, ultimately
+, both supply and demand need to adjust, which only higher prices can catalyze.
+This is our part-primer/part-thesis on natural gas and where the opportunities lie.
+Note: As with most commodities, natural gas is not generalist-friendly - therefore, we’d like to shout out HTM Energy Partners and their BasinScout product for making sure that we didn’t miss any of the nuances while still presenting the case within.
+Why Now?
+U.S. power demand from AI and electrification is colliding with the largest LNG build‑out in history. Very long-lead export infrastructure is being front-run by price-insensitive power generation infrastructure at a time when natural gas plays are maturing. It’s partly geology, and partly the wall of demand that’s been built through a decade of low prices.
+Every single gas-related demand factor is surging up and to the right, while dry gas supply is stagnating.
+It really is that simple.
+Feel free to roll your eyes. A natural gas bull market starting next year isn’t a novel idea. The gas market has chewed up and spit out so many speculators over the last decade that some would find it impossible to see gas as anything but a completely unpredictable commodity removed from any fundamentals.
+We agree. For the past decade, as price-insensitive growth dominated, the market lacked any fundamental regulator. E&Ps trying to fill infrastructure, hold acreage, or grow oil volumes had no care in the world as to what price they realized for their gas.
+Today, however, both the Permian Basin and the dry gas basins – the two largest gas supply buckets – have matured,
+and on a go-forward basis, very much do care about pricing.
+The US has churned through much of its lowest-cost supply base. Despite this, forthcoming demand growth is only accelerating in the face of declining price-insensitive supply.
+The two demand factors that dominate the market are
+LNG export growth, and power generation growth to service new electricity demand
+. This encompasses industrial onshoring, electrification and, yes,
+data centers
+. As we detail below, over the next decade, we expect ~35 Bcf/d of demand growth between high-confidence LNG and power generation needs.
+Notably, we only assume ~100GW of baseload gas-fired power generation growth which maps to US-deliverable utility-scale gas turbine capacity in the medium-term. There is upside to power generation growth with simple-cycle engine installations (the likes of which we observed in our
+Stargate
+article as well as in the xAI Colossus buildout) and turbine manufacturing capacity expansions. Currently, turbine manufacturers like Siemens Energy (
+ENR GY)
+and GE Vernova (
+GEV
+) are being extremely disciplined about capacity expansion – any changes to that and this forecast would move materially higher.
+A more expansive view brings the total potential call on US dry gas supply to nearly 70 Bcf/d – a 70% increase from current production levels, even after underwriting ~11Bcf/d of structural associated gas growth from the Permian Basin.
+This is too much demand!
+There are two key supply factors –
+dry gas production
+(primarily Appalachia and the Haynesville in Louisiana), and
+associated gas production
+(that is, gas produced from oil wells, almost entirely the Permian Basin). Together, these two factors account for ~70% of US Lower 48 gas production.
+At current NYMEX forward pricing, we expect 15-20 Bcf/d of supply growth. Compared to our high-confidence demand growth forecast of ~35 Bcf/d, it’s suddenly very easy to appreciate that the natural gas market is at a
+fundamental inflection point.
+Dry gas production in Appalachia (the Marcellus and Utica formations), which provided the majority of growth over the past decade, has already reached a clear plateau for several years. Associated gas from the Permian will continue to grow, but it is just not sufficient to satisfy the wave of new demand.
+Like demand, there are numerous smaller-scale supply factors growing at the margin (i.e. the Austin Chalk, San Juan, and the Piceance). In aggregate, these marginal supply factors will largely offset declines of legacy production from other basins, and certainly come nowhere near filling the potential supply gap that only structurally higher prices can solve.
+Of course, at higher pricing, certain stated LNG projects won’t be built, and gas drillers will ramp production – but therein lies our thesis.
+Current NYMEX forward pricing will not incent the growth needed – the price discovery of this new equilibrium will continue to move higher as the decade progresses.
+The supply side of the market will become increasingly elastic while demand becomes inelastic
+. Price-pass-through demand (i.e. LNG exports under long-term offtake agreements) and new inelastic demand (i.e. hyperscaler power generation) continues to dominate the makeup of incremental consumption. This mismatch is the perfect recipe for higher prices.
+The balancing factor in the gas markets over the past decade has been associated gas; which has an incremental cost of ~$0. Going forward, associated gas is no longer the balancing factor, and consumers/exporters will have to begin paying for growth when they need it;
+structurally changing the US’ natural gas market to demand-pull, from supply-push.
+Henry Hub (NYMEX) futures are in steep backwardation, with early-2030s pricing at ~$3.20/MMBtu. This is unsustainable considering how gas market balances are evolving. The longer the back-end of the NYMEX curve stays low, the more gas-demand projects pencil under the guise of cheap gas forever.
+This repricing will largely benefit incumbent producers that will see the value of their reserves rerated much higher. This primarily benefits Appalachian E&Ps with the deepest inventory, but also the handful of producers that have meaningful growth assets in the Gulf Coast; namely
+Comstock (CRK US)
+, whose new Western Haynesville play is one of the
+only remaining dispatchable assets
+in the US that
+isn’t
+severely limited by long-haul egress.
+When we look forward over the next decade, it’s clear that in a vacuum, one side of the equation needs to give –
+supply needs to move higher
+(which will require substantially higher NYMEX prices), or planned demand needs to move lower (which will require not only higher prices, but the stranding of hundreds of billions of dollars worth of infrastructure).
+Both sides of the equation will behave dynamically, though directionally, both sides of the market’s balance equation need to adjust themselves.
+This can only be catalyzed by higher NYMEX prices.
+Even without any new projects, the US has clear line-of-sight to 3-6 Bcf/d of consistent annual natural gas demand growth, while the Permian, the latent growth engine over the past decade, will see growth slow to ~1.5-2.0 Bcf/d; leaving dry gas plays to balance the market. Meanwhile, the large dry gas producers, like
+EQT (EQT US)
+,
+Aethon (private)
+, and Comstock,
+have all said they need to see $5/MMBtu natural gas to dispatch meaningful growth
+.
+Smaller players will certainly provide some new growth on the way up, but the chunky greenfield gas projects that the market will eventually need, have to come from the incumbent large dry gas producers, at a price that works for them. This dynamic is
+completely opposite
+to the last decade of the natural gas market.
+The longer futures remain stagnant, the more violent the repricing will be.
+Below the paywall, we push back on the current bearishness surrounding gas, dive into the competition between LNG & data center power generation and lay out our basket of winners.
+Read more

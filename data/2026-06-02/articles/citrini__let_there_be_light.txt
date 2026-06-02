@@ -1,0 +1,55 @@
+Source  : Citrini
+Title   : Let There Be Light
+Date    : 2026-03-12 12:30 UTC
+Link    : https://www.citriniresearch.com/p/let-there-be-light
+────────────────────────────────────────────────────────────
+
+Introduction
+For readers who have recently joined us, our job as analysts is to wade through the noise and identify where
+the puck is going
+. We’ve been doing this since we first began publishing research in May 2023 with
+“
+AI: Global Equity Beneficiaries
+”
+, opting to focus on the second and third-order effects of the massive data center buildout necessary for AI. Today, the AI buildout remains relentless, with an estimated $650B–$700B in capital expenditures to be outlaid by hyperscalers in 2026.
+Since then, we have woven a thread through the AI supply chain backed by our thesis that infrastructure bottlenecks would dominate investor attention. As each layer of the supply chain is reinforced and expanded, the bottlenecks simultaneously respond to technological adoption and drive new demand in the infrastructure layer. In order to seek out these opportunities, we’ve continually deepened and expanded our existing coverage. Today, that leads us to update what was perhaps the single-most emblematic stance of our “secular growth at cyclical prices” approach:
+optics
+.
+CitriniResearch was
+one of the most timely on the street
+to outline the opportunity for optics. For two months, with most of the stocks at or near 52 week lows, we pounded the table on this in two separate pieces.
+In “
+Interconnects 101
+” published in July 2024, we argued that AI’s next beneficiaries would become “more skewed towards who can provide the most marginal benefit,” specifically “optical interconnects and co-packaged optics (CPO)”. A few weeks later, in “
+Can You Hear Me Now? The Coming Optics Shortage & Telco Supplier’s New Dawn
+”, we made an even bolder and more bullish call that presented these cyclically blown out names as becoming a prominent AI bottleneck. We even compared
+Ciena’s (CIEN US)
+revision cycle in 2024 to Nvidia’s going into 2023. In other words, our first call was that optics would matter
+a lot
+and the second was that the shortage would emerge before the market even noticed.
+This was not a popular take. At the time, optics sat inside a telecom supply chain most investors wanted nothing to do with. Consensus saw cyclical depression and inventory indigestion that was years from normalizing. We saw AI-driven connectivity demand colliding with years of underinvestment, setting up “a resulting optics shortage” precisely where the market was least interested in looking.
+If you can believe it, given the way our optics names have traded since, many laughed at us for it. We were branded contrarians at best and tourists at worst, wading into a meat-grinder of a cycle that would end our streak of good calls. Well…they’re not laughing anymore. These calls were early, uncomfortable, and
+very right
+.
+Our connectivity basket has
+more than tripled
+since we published it – recently pulling ahead of our Interconnects basket, which has lagged year-to-date as the market has come to appreciate optical interconnects at the expense of names like
+Astera Labs (ALAB US)
+and
+Credo (CRDO US)
+. And it’s not done yet – the basket is up 35% YTD, led by now favorite
+Lumentum
+(LITE US)
+.
+This piece is the next chapter. The optics trade has broadened and matured, certainly even crowded in some names. The risk-reward on some of the crowd favorites has become significantly more symmetrical. Since it is now well established that optics are core to the AI trade, we must ask where the next asymmetry sits. Despite more than enough reason to claim the win and walk off…we believe there are still opportunities further down the stack.
+As the bandwidth constraints of the “Memory Wall” pile up, the opportunities are in the companies enabling the next generation – photonic components, substrates, capital equipment, and the businesses positioned to benefit as CPO becomes a necessity.
+We believe there is ample runway and enough yet-to-be crowded names in this sub-theme to provide continued outperformance for AI investors. Additionally, we think it’s time to be cautious and consider taking profits on some of the names we originally initiated on. Not because optics slows down, just because they’ve become priced for perfection.
+Below the paywall, we provide a brief overview of what “photonics” are and outline our favorites of the picks and shovels the market has overlooked that we think remain undervalued in the shadow of LITE and peer’s massive run.
+We’ve also teamed up again with financial investigative journalists
+Hunterbrook
+to dive into what we believe is a truly asymmetric play on the photonics supply chain. You’ll remember them from our
+last collaboration
+covering the dual robotics and memory testing tailwind of
+Teradyne (TER US)
+that provided our readers with an extremely successful play.
+Read more

@@ -1,0 +1,100 @@
+Source  : Citrini
+Title   : Agentic Utilities
+Date    : 2026-03-25 12:36 UTC
+Link    : https://www.citriniresearch.com/p/agentic-utilities
+────────────────────────────────────────────────────────────
+
+Introduction
+Here at Citrini Research, we’ve been talking about “Agents” for as long as we’ve been writing about AI.
+Back in May 2023, in our
+Artificial Intelligence: Global Equity Beneficiaries
+piece, we predicted that AI adoption (and its investing implications) would follow a three-phase process:
+Phase I:
+Global Data Center Hyperscaling (“infrastructure”)
+Phase II:
+The Democratization of AI/ML (“commodification”)
+Phase III:
+Integration & Specialization
+(you’re here now)
+Here’s how we described the vision at the time:
+“The third phase is marked by the deeper integration of AI and ML into various industries and aspects of society, as well as further specialization within the field of AI itself. The technologies described as “artificial intelligence” may not resemble the LLMs we currently use, and
+one or more services will provide “agents” capable of carrying out tasks without being prompted directly
+(an “AI assistant”).”
+This roadmap has proven prescient, though perhaps a better name for Phase III would be the “
+Agentic Era”.
+We start today’s piece with this callback for a reason (not just to pat ourselves on the back). The reason is that we, like many others, have envisioned the coming of the agents pretty much straight out of the gate; AI was never going to be constrained to a chat bot.
+In our follow-up piece,
+Less Deus More Machina
+, we zeroed in on “AI Losers” – companies and industries most vulnerable to disruption with the proliferation of AI (and, importantly,
+agentic AI
+). Our
+“standalone short” basket
+of 26 losers worked fairly well against a rising market for the following two years, albeit with a good deal of choppiness along the way. But, the waterfall really began late last year – just as the “agents” arrived.
+We’ve reached an inflection.
+AI Agents have gone from an abstract concept to an actual service with expansive real world capabilities that can be directed from a simple iMessage. For the “losers”, the theoretical risks that were enough to stoke fear for investors have rapidly become tangible risks that fundamentally alter management outlooks.
+The concept of an “AI Agent” went from buzzword to reality in November 2025 – reaching escape velocity with the release of ClawdBot
+(now OpenClaw, thanks to Anthropic’s lawyers)
+. Until recently, the coding tools suffered the same flaw as every other hacked-together “AI” SaaS app: the call and response model. Due to degrading context windows, models couldn’t store history of past events so there was only so much that a single run could do. You were still limited by the command line, but not anymore.
+In January, OpenClaw – an open-sourced, self-hosted agentic library – became the poster child for agentic technology. As shown by GitHub’s “Star History”, the adoption has been astronomical in just two months.
+Along with exploding Github references, OpenRouter data shows just how dramatically OpenClaw has accelerated token usage within its product category.
+OpenClaw went viral because it had the bright idea of storing context in a big text file and looping through new AI calls. Early users were running their agents overnight, and a new ecosystem of skills and plugins boosted its network effects. And, for just the cost of a Mac Mini, you could run it all via iMessage.
+We must reiterate that this is the core reason behind the ClawdBot/OpenClaw Mac Mini craze: it has nothing to do with the hardware. Most of these functions are run in the cloud rather than locally, although longtime readers know our thoughts on where that’s headed.
+In this new paradigm, Jensen Huang is floating the idea of providing “token based compensation” to attract engineering talent. Jensen also recently commented that he would be ‘deeply alarmed’ if one of his engineers earning $500,000 a year did not consume at least $250,000 in tokens. While we’re cognizant of the fact that this is like a baker saying you should be eating a dozen donuts a day, there’s a lot of truth in it as well.
+Homebrew Agents are still in “move fast and break things” mode. Agents are vibecoding, answering emails, dumping crypto wallets, and folding proteins. And companies have taken notice…
+This tells us two things:
+First,
+“Agentic AI” is now widely acknowledged as a critical market narrative.
+Second,
+picking winners and losers in this space will be a whole lot harder than simply seeing who is talking about it on earnings calls.
+Nevertheless, we expect this to be a powerful narrative for true “agentic winners” – particularly if it reshapes the investment case for companies in the dumps. As always,
+we love a great bottom
+.
+We have been slowly adding to our allocation names that are aligned with the “Agentic Utility” layer - we are currently long AKAM, FSLY, CRCL and NET in the Citrindex. We’ve bought all of these when they were widely viewed as being entirely separate from the AI trade. Now, we think the moves in these names speak to how quickly stories and sentiment can reverse when the market recognizes an AI angle.
+To understand where other agentic winners may lie, let’s first establish a framework for where to look for any novel beneficiaries of the new era of supercharged token consumption.
+Framework: Agentic Utilities
+Let’s start with a metaphor. In the chatbot era of AI, ChatGPT could help you
+plan
+dinner. It could help you pick out a menu, find recipes, and create a shopping list. It might even serve you ads that help you buy the ingredients. All that may be super
+helpful
+, but at the end of the day, it couldn’t actually
+make
+you dinner. Ultimately, you must use your own
+agency
+to drive to the store, slice the onions, and plate the chicken parm.
+But imagine a world in which it can.
+Imagine if you had a service at your fingertips that could hop in a car, buy your groceries, pick up your laundry, and stop at the bank on the way home. It wouldn’t just stop at one grocery store, it would send
+ten cars
+out to every single grocery store in town to make sure you’re getting your Cheerios at the lowest price. It’s not free
+(it still chews tokens – and the “juice” of price comparison must be worth the compute)
+, but as far as services go, it’s pretty darn useful – and in fact, you might use it a lot.
+But what does this world actually look like?
+First
+, the number of actual cars on the road explodes. Traffic patterns are reshaped and traffic jams become a big problem.
+Second,
+the businesses that cater and optimize for these new task rabbits will see an influx in volume. Meanwhile, those that cater solely to human touch will lose market share.
+Finally,
+these swarms of agents become a
+risk to individuals and businesses alike
+. Sheer overload might resemble a stampede even if intentions are good – even worse, they are just as easily directed towards nefarious ends.
+For the immediate future, this metaphor applies mostly to the digital realm
+. The physical embodiment of AI via autonomous driving and robotics may be closer than we think, but we’ll hold off on this for now
+. The entire digital landscape of infrastructure, commercial interface, and security must adapt to a new paradigm.
+We classify the winners into three categories.
+1) Infrastructure:
+The
+Agentic Internet
+has a different structure than the one we are currently used to, both in terms of pathing and bandwidth. Digital plumbing needs to accommodate a boom in agentic traffic. This has unearthed legacy names that are already seeing inflections in both revenue and guidance that prove the demand has already arrived, and is rapidly growing.
+2) Ecosystem:
+Simultaneously, a new customer category has emerged. Instead of selling to consumers (B2C) or businesses (B2B), companies will offer Agent (B2A) services.
+Agentic Utilities are the first vendors in the B2A vertical –
+these are companies offering infrastructure and services to be utilized by agents that can’t be “vibecoded” away – for regulatory, operational, or path-dependent reasons.
+Agents need ways to interact with the real world, and that includes payment rails. Stablecoins and agentic wallets are being quickly adopted, with non-humans making financial transactions using both crypto and the SWIFT system.
+Even robots can’t escape the dollar’s reserve currency status.
+The evolution of the ecosystem will wind through the buildout of agentic plumbing (we’re seeing that now with the moves in the CDNs) and then begin pricing in their implementation. Value will accrue first to the picks and shovels, and then to the APIs in demand, the agentic harnesses (i.e. where the attention is) and the agents themselves.
+3) Governance:
+And, the Agentic Internet needs new protections. Current AI capabilities make it possible for a rogue agent to break the internal systems at Meta, and that is the dumbest that agent will ever be. Every single company is asking “
+where is the killswitch, and how do we know when to use it?
+” This puts observability and counter-AI solutions in play. These names were thrown out with the bathwater when the entire software industry developed a new risk premium in under a quarter.
+The companies that address these three problems today are laying the groundwork for the agentic future – we call them
+Agentic Utilities.
+Read more

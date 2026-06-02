@@ -1,0 +1,94 @@
+Source  : a16z
+Title   : Charts of the Week: It Was a Good Quarter for "Other Income"
+Date    : 2026-05-08 14:03 UTC
+Link    : https://www.a16z.news/p/charts-of-the-week-it-was-a-good
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+Other Income
+Much has been made of the
+massive earnings growth
+in the public markets, that is large to begin with, but expected to
+get even larger,
+this year and next.
+There is, however, a fun little wrinkle underneath the earnings story that’s not something you see everyday. Not all income comes from the same place. And the share of hyperscaler income attributable to “Other Income” was exceptionally high:
+“Other income” was more than a third of net-income in Q1, even though historically, it’s ~5-10% (give or take).
+Other Income can mean a lot of different things, but in this case, the hyperscalers (but really Amazon and Google, mostly) explicitly attributed nearly all of the gains (~$53B) to their private market investments. Alphabet’s CFO said, “Other income and expenses was $37.7B . . . primarily due to unrealized gains in our nonmarketable equity securities portfolio,” while Amazon flagged in its 10-Q its $15.6B gain (net of expenses) “from our investments in Anthropic.”
+The “other income” story is an investment returns story. The hyperscalers are good at venture, one might suppose.
+Putting aside, though, Google’s and/or Amazon’s recent successes in their private market tech investments, the truly staggering thing is how much
+everyone
+invests in tech—you might even say (as we are wont to do) that
+tech is the cycle
+.
+KKR estimates that tech-related capex is the only kind of capex currently contributing to growth (and it’s contribution is growing)—in fact, tech capex contributed 1.9% of the 2% total GDP growth in Q1, i.e. basically all of it.
+But, tech investing is bigger than just capex, and its role in the economy is bigger than its recent contributions to GDP.
+By the BEA’s measure of total business capital expenses (which includes R&D and software, in addition to capex),
+tech is now 55% of all business investment in the US
+:
+Tech’s share of capital expenses has been steadily climbing for quite some time, and there’s good reason to think it will continue to climb (perhaps even more quickly). As per
+Yardeni Research:
+Before the Age of AI, economists were taught that there are only three factors of production, namely, Land, Labor, and Capital . . . Now, economists should recognize that there is a fourth factor of production, namely, Data . . . The Digital Revolution increases the incentive to create more Data (a.k.a. Information), especially now that AI tools can process so much more of it, increasing its value . . . All the data increases the demand for “compute.”
+In other words, the more useful data becomes, the more we invest in it (and the tools around it), and AI has made data even more useful than before.
+Good on Amazon and Google for doing VC, but the truth is that we’re all tech investors now.
+The Slop Surplus
+Great news, everyone: there are now so many more e-books to read, thanks to AI:
+Monthly releases of Amazon e-books has tripled since ChatGPT’s release.
+There are two ways to interpret this chart:
+First, is the easy one: AI showed up in late 2022, the slop tsunami began, and Amazon is now drowning in machine-generated junk. By late 2025, new e-book releases were running at over 300,000 per month (roughly triple the pre-ChatGPT baseline).
+Second, is the slightly more nuanced one: yes, there’s a slop tsunami, but there are still more “quality” books than before.
+A
+new NBER paper
+from Imke Reimers (Cornell) and Joel Waldfogel (Minnesota) suggests that the supply increase is large enough that even with average quality dropping, the absolute number of moderately good books rose. Reimers and Waldfogel calibrate a nested logit demand model and find that the 2025 choice set delivered about 7% more consumer surplus than a human-only counterfactual would have. Not earth-shattering, but positive and rising every year. A 2023 reader was barely better off; a 2025 reader, meaningfully so.
+In fact, one of the biggest beneficiaries of adding AI to the mix are incumbent authors (the ones publishing before LLMs existed). Incumbents got much
+more
+productive after 2023:
+AI hasn’t just ushered in robot-authors, but it has super-charged the human authors as well.
+This is roughly the prediction Marc Andreessen made on
+David Perell’s podcast
+a couple years back: “It’s now so easy to write that we are absolutely awash in bad content . . .  On the other hand, these tools are now so effective that there ought to be a giant explosion of high quality content that goes right along with that.”
+The slop is real, but so is the surplus. And the writers who were good before LLMs are getting more done.
+Call Centers, Not Dead Yet
+David George just wrote a whole thing about how the
+AI jobs apocalypse is a fantasy
+. You should read it. It’s good.
+One point he makes is to distinguish between AI “substitution” v. AI “augmentation”, whereby the former category of workers are certainly at-risk, while the latter become more valuable than before. One ready example of a job in the substitution category is customer service—that makes sense: AI can handle all the Q&A, with infinite patience to boot.
+Maybe so, and it does seem likely that customer service will face substantial substitution, but however logical that may sound, apparently someone forgot to tell the customer service reps:
+Per Apollo, IT and business processing industry employment in the Philippines (the call center capital of the world) rose from 1.15 million in 2016 to 1.9 million in 2025—straight through every major leap in AI capability. The industry’s trade group is
+projecting
+another 70,000 jobs added in 2026 (+3.7% YOY).
+Subscribe now
+It’s not just the Philippines that seems relatively immune from the great customer service replacement—it’s true in the US, as well:
+Demand for customer service reps has perked up, more so than the field:
+Indeed’s job-posting data shows customer service jobs are not only increasing, but they’re running well-ahead of the (negative) headline figure, growing ~10pp faster YOY.
+Even more striking, the flippening is fairly recent (August 2025).
+Does that mean that everyone is wrong and actually AI is a massive tailwind for customer service reps? Well, probably not.
+The story here is really about the relative costs of text-based LLM output v. voice. The latter is much more expensive, and it’s still too expensive to justify fully automating the function. Goldman Sachs actually ran their own internal experiment and estimated the head-to-head costs of humans v. AI call center reps, as being roughly comparable:
+Goldman’s all-in estimate for an AI rep is $92/day, which is slightly more expensive than the $90/day a human costs. That stands in comparison to a coding agent, which relies entirely on text, and is orders of magnitude cheaper than a human—of course, the big difference between code and customer support, is that there is much, much more latent demand for code than customer service. Demand for SWEs has
+also
+accelerated, substantially.
+The anecdata supports the notion that AI may eventually substitute-out call centers, but for now, the juice isn’t worth the squeeze (in many cases). In early 2024, Klarna announced that it had replaced 700 customer service agents with AI. The CEO said the bot was doing the work of all of them, and it was the most-cited example of “AI is replacing humans” in the service economy.
+By May 2025, the CEO had reversed course, and Klarna started rehiring as service quality dropped and customers were getting generic, repetitive answers. “We focused too much on efficiency and cost,” he told Bloomberg. “The result was lower quality, and that’s not sustainable.”
+This won’t last forever. API costs are dropping fast, companies like Decagon are scaling extremely quickly, and the parity number probably looks different in 18 months.
+In AI, Great Products Win Fast
+AI continues
+to go mobile at an incredibly rapid pace:
+All of downloads, monetization, and time-spent inflected upwards in Q1—monetization and time-spent both nearly doubled yoy.
+Maybe people are
+spending less time on social media
+because they’re spending more time vibe-coding killer stuff on their phones? That wouldn’t be so bad.
+Bonus chart: per YipitData, the number of panelists using 2-5 and 6-9 AI vendors both continue to rise—at this point, less than 20% are using just one vendor.
+There’s no winner-takes-all in the B2B AI market, for now, at least.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

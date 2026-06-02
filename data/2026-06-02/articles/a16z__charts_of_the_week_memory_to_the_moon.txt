@@ -1,0 +1,80 @@
+Source  : a16z
+Title   : Charts of the Week: Memory to the Moon
+Date    : 2026-05-15 14:01 UTC
+Link    : https://www.a16z.news/p/charts-of-the-week-memory-to-the
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+Memory to the moon
+First it was power and chips, and now memory has entered the bottleneck chat:
+Prices for both DDR5 and DDR4 memory chips have skyrocketed, since the end of last year, not coincidentally with a ~25% rise in PPI for the “computers” category.
+The bidding war isn’t limited to DRAM (especially High Bandwidth Memory), which is particularly important to model training, but traditional steady-state NAND, as well:
+As of March, monthly contract prices for DRAM had more than tripled yoy, while NAND prices grew by a more modest ~2X.
+Truthfully, there is no real hierarchy in the list of AI-infrastructure related shortages, from power, and skilled labor, to chips (GPUs and CPUs) and memory. An historic surge in demand, backstopped by ~$1T in capex, will have that sort of effect, but memory is the most prominent recent addition to the list.
+The run on memory has led to a pretty epic quarter for the leading memory-makers (Samsung, SK Hynix and Micron):
+Memory-makers are expected to sextuple(!) their operating income in 2026. Micron itself earned more in ‘Q1 than it had
+in any single year
+before 2025.
+Net-income gains for memory are so massive (and off a relatively lower base), they’ve broken the y-axis for the AI supply chain winners:
+So, memory is the new belle of the ball. But, the funny thing about memory is that
+it used to be one of the most commoditized parts
+of the chip-stack. Despite being fairly ubiquitous in phones, PCs, and gaming, memory never really enjoyed any pricing power (and the success of those memory chipmakers was very much tied to the consumer goods cycle). Memory competed on price, and the name of the game was “how low can you go?”
+But the sheer volume of demand, and the increasing complexity and power requirements of AI-related memory needs (where efficiency is at a premium) has changed everything.
+It’s turned even previously sleepy low-cost memory-makers, like Western Digital, from horizontal lines into vertical ones:
+Western Digital has done great. But if we put its DRAM specialist spinout (Sandisk) on the chart, it makes OldCo WDC performance look more like a modest hill than a legendary spike.
+But, will this run on memory—and the extraordinary pricing power the memory chipmakers now enjoy—ever end? If demand is so high, then why not make more memory chips?
+Well, it can take years to bring new capacity online, and in the meantime, manufacturers are prioritizing higher-margin, and more silicon-intensive HBM, which puts even more pressure on the supply of consumer memory chips. Plus, hyperscalers are now signing 5-year agreements—the industry standard used to be 1-year—to ensure their place at the top of the supply queue. As a result, even the more commoditized consumer chips are getting much more expensive, and those costs will flow through to either iPhone, etc.’s margins and/or consumer prices—expectations are that prices on PCs and phones will increase ~10-20%.
+At the same time, everyone knows the saying “every shortage becomes a glut,” and no one knows that better than cyclical manufacturing businesses.
+They are traditionally very hesitant to invest big bucks in new capacity to meet even substantial surges in demand, knowing that once the surge fades, they still have to foot the bill for all that new capacity. Plus, necessity is the mother of invention, and when costs rise, so too does the innovation-drive for efficiency (which we’ve already seen, e.g. with Google’s TPUs and Amazon’s Trainium, as part of their effort to be somewhat less dependent on NVIDIA’s GPUs, and more recently, with the release of ‘
+TurboQuant
+’).
+On the other hand, the upward inflection in computational demand may just be getting started in the new-AI-normal, and that would make memory a lot less cyclical than ever before. So, is it a step-change or a one-time thing? That’s a multi-hundred billion question right now.
+Affirm’s AI Turn
+Rather than replacing workers,
+there’s every reason to think that AI will function as a force-multiplier
+, making at least some workers more valuable than before. SWEs are a perfect example of an “AI Augmented” role, and it’s not surprising that demand for SWEs appears to have increased.
+It flew under the radar for whatever reason, but the publicly-traded BNPL company Affirm recently gave some very concrete evidence of the AI-driven productivity lift, and the positive impact on Affirm’s hiring intentions:
+Earlier this quarter we took a full week as a development team to re-tool Affirm software engineering to be truly AI-first. You can see the difference below, with agentically-written code dominating non-agentic essentially overnight after this effort. The chart shows pull requests per week (each pull request is a product feature, a major bug fix, etc) as a function of time.
+We think an order of magnitude gain in software development productivity is entirely plausible, yet we
+expect to modestly grow our development team
+– the
+limiting factor for Affirm has always been engineering cycles, not ideas for what to do with them
+.
+When Affirm “re-tool[ed] software engineering to be truly AI-first,” PRs more than doubled, and roughly two-thirds of the output was “agentic.” As a result, Affirm plans to “modestly grow our development team.” More productivity, more hiring. Checks out.
+But the real money quote came at the end: “
+the limiting factor for Affirm has always been engineering cycles, not ideas for what to do with them.
+” In other words, we are nowhere near peak-demand for software, and rather than put SWEs out of work, lowering the cost of development is expanding the frontier of what gets built.
+Affirm is, of course, just one company, but there is mounting evidence of productivity lift across “AI Industries,” as a whole:
+Output/employee inflected upwards in 2025, but especially amongst the “High AI Industries.” And within those industries, it’s tech-related industries doing most of the work.
+Now, productivity is notoriously hard to measure in the aggregate, and a lot of this additional output simply reflects the surge in demand (and pricing) for AI-infrastructure. Higher prices for the same thing leads to more measured “output,” without any increase in output. But, at the same time, it also means that we’re very early in this transition, and even industries that stand a lot to gain from automation, have barely begun to scratch the surface of what they’re eventually going to do.
+Agents, especially, are extremely early in their lifecycle, and some of the biggest AI adopters, are still barely entering their agent-phase, at least according to some data published by Microsoft:
+Nearly 1 in 5 firms are using agents of some kind, but that also means that only 1 in 5 firms are using agents of some kind. Manufacturing is a surprise outlier for agent-deployment. While manufacturing firms comprise less than 10% of the firms using agents (and relatively few “prompts per user”), they account for ~18% of the agents, higher than any other sector.
+The future isn’t even here yet, it’s definitely not evenly distributed, and we expect a lot more to come.
+Shrinking SmallCaps
+While many people are probably aware that there are fewer public companies now, it was somewhat surprising to learn that the shift is driven entirely by the disappearance of small public companies:
+The number of large- and mid-sized public companies has stayed relatively constant since 2000 (but really, since 1990). It’s the number of microcaps (and to a lesser extent smallcaps) that has really gone from boom-to-bust.
+The
+SEC attributed the change
+to three factors: (1) lots of M&A; (2) smallco delistings; and (3) fewer IPOs. Other factors include regulatory costs, which generally don’t scale with market cap (i.e. regulatory costs are a larger share of market for smaller companies), and of course the growth of private equity, which has made it easier for companies to raise capital without recourse to the public markets, at all.
+These are very rough estimates, of course, but
+research has repeatedly shown
+that the fixed compliance costs of being public are proportionately higher for smaller companies. In that sense, compliance is a regressive tax.
+There are other structural reasons for smaller companies avoiding the public markets, as well: small caps don’t benefit from passive flows, less liquidity makes it harder for public market investors to maneuver without big impacts on price, and smaller float makes smallcaps less interesting to sell-side coverage (which leads to less liquidity).
+The net result of all of this is that smallcos have retreated from the public markets (not entirely of course), but they haven’t disappeared: it’s just that the action has moved to the private side. Of course, the decision to go public or not is ultimately specific to each company, but the broader trend is real, and it’s a function of structural changes that have made public markets less-appealing, relative to their private alternatives. If we want more companies to go public, then perhaps public markets ought to up their game.
+California’s Healthcare Jobmaker
+Come on California, we can do better than this:
+It’s time to build.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

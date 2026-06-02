@@ -1,0 +1,56 @@
+Source  : Citrini
+Title   : Semis Memo: Muscle Memory
+Date    : 2026-01-26 13:23 UTC
+Link    : https://www.citriniresearch.com/p/semis-memo-muscle-memory
+────────────────────────────────────────────────────────────
+
+Introduction
+There is a
+lot
+going on in AI and the semiconductor supply chain. Almost too much, it seems at times.
+The wild performance in the most prominent players has reinforced the supply/demand balance we described in the idea “Post-Traumatic Supply Disorder” from our
+26 Trades for 2026
+. Memory, storage, semicap, advanced packaging – these sectors have performed incredibly well over the past month.
+We’ve also been reminded of something we have known for a while.
+“
+While one has indeed so far been able to get away with an understanding that only goes GPU-deep in AI, I believe that will rapidly begin changing…
+In the meantime, generalists are left to keep up with a rapidly advancing technological landscape in semiconductors that can easily leave you behind...
+The shame in that is that it often robs you of the ability to truly understand what’s behind the whole picture while ensuring you’re properly positioned – a picture which will only become increasingly important when these narratives take hold in the real world.
+”
+-
+AI Phase Two
+, April 2025
+In order to have caught the most asymmetric trades of the “AI Bubble”,  you had to be paying attention to things that were a bit complex for a generalist. You also had to have a strong view on what would happen in the supply chain 6-12 months from now due to whatever was happening right now.
+Some bad news:
+it is not going to get any easier from here.
+We can’t sit idly by while the expected returns from mainstream “layups” like Nvidia, Micron, SK Hynix, Broadcom etc. moderate.
+That’s why we’ve hired some talented semiconductor analysts,
+so they can explain to us ignorant generalists what’s going on behind the Wall Street curtain (and we can then translate it back into thematic upside).
+Our two newest team members,
+Zephyr
+and
+Jukan
+, add deep semiconductor knowledge to Citrini’s existing thematic and trading expertise. We’re going to combine our existing penchant for having strong, occasionally non-consensus views on what the continued proliferation of Artificial Intelligence looks like with their in-depth knowledge of the semiconductor supply chain.
+We’ve navigated the opportunities in AI Data Centers, GPUs, Memory, Optical Interconnects, ASICs and more so far.
+For example, for us to
+underwrite Teradyne (TER)
+and its robotics opportunity, we had to keep abreast of the tailwinds for players in memory testing. To recognize the
+opportunity in
+Amkor (AMKR)
+, we needed to recognize the increasing demand for chiplet architectures and advanced packaging that would increase demand for OSAT (
+Outsourced Semiconductor Assembly and Testing,
+if you haven’t been paying attention). Going back even further, for us to
+make the call that SK Hynix and Micron would outperform in Q1 2024
+(while they were languishing in the doldrums of the post-COVID RAM glut), we needed to understand the constraints HBM placed on the supply chain and the nature of truly agentic AI.
+This is the first of our new “
+Semis Memo
+” series, where we’ll go a layer deeper on current trends in the infrastructure powering AI while also ensuring our audience doesn’t need to go get a PhD in semiconductor design to keep up. Consider this a tour around what we view as the most interesting, potentially overlooked opportunities in one of the hottest sectors on the planet.
+Today, we’re covering some existing trends and the second-order winners of the
+Memory Supercycle
+,
+Semicap Subsystems
+and
+Silicon Photonics
+.
+We’ll also share some of our early thoughts on opportunities that should be on your watchlist, everything from SpaceX supply chain beneficiaries to opportunities arising from the AI-driven SaaS selloff. Finally, we close with a list of single name stories we think are worth keeping on your radar.
+Read more
