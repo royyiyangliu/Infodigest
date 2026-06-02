@@ -1,0 +1,49 @@
+Source  : Epoch AI
+Title   : The Epoch Brief - May 22, 2026
+Date    : 2026-05-22 22:54 UTC
+Link    : https://epochai.substack.com/p/the-epoch-brief-may-22-2026
+────────────────────────────────────────────────────────────
+
+In this week’s Epoch Brief:
+Our newest Data Insight finds memory is now the
+largest and fastest-growing component cost
+for leading AI chip designers, rising from 52% to 63% of total component spending since early 2024.
+In the latest
+Gradient Update
+, Josh You argues that top frontier labs could dramatically increase their share of global AI compute usage in the next few years — after which, continued scaling would require an economic transformation.
+FrontierMath: Open Problems workshops begin May 26.
+Applications
+are still open.
+Subscribe now
+Data Insights:
+Memory has grown to nearly two-thirds of AI chip component costs.
+Researcher Venkat Somala finds that high-bandwidth memory (HBM) has grown from 52% to 63% of total AI chip component spending between Q1 2024 and Q4 2025, faster than any other component. HBM spend across chips designed by Nvidia, AMD, Google, and Amazon rose from roughly $12 billion in 2024 to $32 billion in 2025.
+Commentary:
+Frontier labs don’t use most AI compute (yet)
+In our latest Gradient Update, researcher Josh You estimates that while leading labs today use less than half of global AI compute, they could absorb most of the available headroom within a few years. At that point, continued growth would be capped by chip supply. For scaling to continue, the overall compute buildout would need to accelerate. Given that AI capital expenditure is already approaching $1 trillion per year, such an acceleration in compute production would require dramatic economic changes.
+Gradient Updates
+are informal, opinionated analyses that represent the views of individual authors, not Epoch AI as a whole.
+Other Updates
+FM:OP workshops
+Our in-person
+FrontierMath: Open Problems workshops
+kick off Tuesday in New York City, with subsequent events in London, Berkeley, Boston, Los Angeles, and Toronto through June 9.  The goal of the workshops is to identify highly interesting and programmatically verifiable unsolved research math problems. All working mathematicians (grad students, postdocs, and professors) are encouraged to apply while spots remain.
+Careers
+We’re hiring across several roles. All positions are fully remote.
+Designer
+to translate complex research into intuitive, engaging, and high-impact designs — primarily UI/UX and data visualization work.
+Researchers and Senior Researchers
+to lead new projects across our expanding teams.
+Data Scientist (Contract)
+to assist with our AI research efforts, including reviewing technical literature, tracking benchmark data, and analyzing AI models, data centers, and companies.
+Applications are rolling, so apply soon!
+Subscribe now
+In case you missed it…
+Research:
+Servers account for 60% of the total cost of owning a one-gigawatt AI data center
+(May 14)
+Claude overperforms at software engineering and underperforms at math
+(May 15)
+Commentary:
+Why a handful of AI researchers command 10–100× the pay of their peers — and why that gap could grow
+(May 13)

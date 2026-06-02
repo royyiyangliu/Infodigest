@@ -1,0 +1,57 @@
+Source  : Epoch AI
+Title   : The Epoch Brief - June 1, 2026
+Date    : 2026-06-01 15:50 UTC
+Link    : https://epochai.substack.com/p/the-epoch-brief-june-1-2026
+────────────────────────────────────────────────────────────
+
+In this week’s Epoch Brief:
+Since January 2026, open-weight models have
+lagged the closed frontier
+by four months, with the gap widening slightly since we last measured it in October 2025.
+Hyperscaler
+capital expenditures have quadrupled
+since GPT-4’s release, on track with our previous projection.
+In the latest
+Gradient Update
+, Luke Emberson and Jaime Sevilla estimate trends in global inference capacity and find that token demand appears to be growing much faster than supply.
+Subscribe now
+Research
+Open models now trail closed models by four months
+In our latest
+Data Insight
+, researchers Luke Emberson and Jack Edwards find that the most capable open-weight models have lagged frontier closed models by approximately four months in the Epoch Capabilities Index since January 2026. The average 8-point gap is comparable to the performance difference between GPT-5 and GPT-5.5.
+Hyperscaler capital expenditures have quadrupled since GPT-4’s release
+Hyperscaler capital expenditures came in on trend in Q1 2026, continuing the trajectory that projects spending of $770 billion this year and over $1 trillion in 2027. In February, we projected $155.1 billion in aggregate for Q1, and actual spending by our measure was $156.1 billion. This is up from $140.6 billion of spending in Q4.
+Commentary:
+Is a compute crunch coming?
+In the latest Gradient Update, Luke Emberson and Jaime Sevilla model how many tokens the world could serve today. They estimate supply is growing 3-4× per year. While direct comparisons are difficult, it appears demand for tokens is growing much faster, at ~10× per year. This suggests a compute crunch is nearing, if not already here.
+Gradient Updates
+are informal, opinionated analyses that represent the views of individual authors, not Epoch AI as a whole.
+Other Updates
+Survey
+We want to produce the most useful work on AI’s trajectory. To ensure we’re meeting your needs, we’d love your feedback.
+→ Take our
+5-minute survey
+.
+You can opt in at the end to join our user panel for future compensated studies.
+Narrations
+You can now listen to long-form content on the
+Epoch AI website
+, including reports, Gradient Updates, and topic overviews. Look for the play button.
+Careers
+We’re hiring across several roles. All positions are fully remote.
+Designer
+to translate complex research into intuitive, engaging, and high-impact designs — primarily UI/UX and data visualization work.
+Researchers and Senior Researchers
+to lead new projects across our expanding teams.
+Data Scientist (Contract)
+to assist with our AI research efforts, including reviewing technical literature, tracking benchmark data, and analyzing AI models, data centers, and companies.
+Applications are rolling, so apply soon!
+Subscribe now
+In case you missed it…
+Research
+Memory has grown to nearly two-thirds of AI chip component costs
+(May 21)
+Commentary
+Frontier labs don’t use most AI compute (yet)
+(May 21)

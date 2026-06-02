@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# Claude Code
+.claude/
+
+# 调试/测试脚本（开发用，不进仓库）
+test_*.py
+diag_*.py
+check_links.py
+find_apple_id.py
+patch_sv101.py
+create_ai_sources.py
+
+# 系统文件
+.DS_Store
+Thumbs.db

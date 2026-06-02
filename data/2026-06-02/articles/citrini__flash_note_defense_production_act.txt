@@ -1,0 +1,48 @@
+Source  : Citrini
+Title   : Flash Note: Defense Production Act
+Date    : 2026-04-27 00:45 UTC
+Link    : https://www.citriniresearch.com/p/flash-note-defense-production-act
+────────────────────────────────────────────────────────────
+
+We have long spoken about how
+power
+is the most obvious intersection between our two largest themes of the decade. This is a brief update on the longstanding trend.
+As a reminder, those themes are
+Fiscal Primacy
+and
+Artificial Intelligence
+. Fiscal Primacy is our core view that government priorities and spending are increasingly driving equity performance and crowding-in of capital. AI, of course, needs no explanation.
+On April 20, the President signed the
+Presidential Determination 2026-10
+, a
+Defense Production Act (DPA)
+Section 303 determination for grid infrastructure, equipment, and supply-chain capacity.
+“On January 20, 2025, I issued Executive Order 14156 (Declaring a National Energy Emergency), under the National Emergencies Act. That order found that America’s inadequate energy production, transportation, and infrastructure constitute an unusual and extraordinary threat to the Nation’s economy, national security, and foreign policy [...]
+The Nation’s capacity to design, produce, and deploy large-scale grid infrastructure, including transformers, high-voltage transmission components, advanced conductors, power electronics, substations, and grid-supporting manufacturing equipment, is dangerously limited.”
+The text formally classifies transformers, transmission lines, conductors, substations, high-voltage circuit breakers, power control electronics, protective relay systems, capacitor banks, and electrical core steel as essential to national defense.
+We have been long this supply chain in various forms since 2023. We expanded on the idea in
+The Utility of Bubbles: The Intersection of Fiscal & AI
+in June 2024. And the market has been pricing in this thesis since transformer lead times first crossed eighteen months.
+The reality though, is that even after years of upward revisions, the grid backlog only continues to grow. In 1Q26, the
+quarterly
+net addition to
+GE Vernova’s (GEV US)
+electrification segment backlog was nearly as large as the
+annual
+additions from 2022-2025
+.
+Growth is accelerating, not abating.
+Across grid infrastructure, transformers are a particularly acute bottleneck, especially given the historical reliance on Chinese producers. Friendlier suppliers are seeing record backlogs and have announced US capacity expansions.
+The marginal supplier of large power transformers to the US grid is Korean.
+Hyosung Heavy Industries’ (298040 KS)
+Memphis plant is the only US facility capable of producing 765 kV ultra-high voltage transformers.
+HD Hyundai Electric (267260 KS)
+is expanding its Montgomery, AL production capacity with a new plant, bringing its total capacity to 150 units per year by 2027.
+LS Electric (010120 KS)
+just opened in Bastrop, TX.
+Iljin Electric (103590 KS)
+, the smallest of the four, has recently broken into Western markets with its first European ultra-high-voltage transformer contract and a record $333M order from a US energy company.
+The Korean Big Four combined order backlog sits at $23.9B as of Q3 2025, representing five to six years of work.
+The bottleneck is great enough to warrant a national security concern and DPA action. Likewise, we think it’s valuable to revisit exactly where the winners are in that supply chain.
+But first, what does the DPA order actually do?
+Read more
