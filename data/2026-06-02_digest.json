@@ -1,11 +1,11 @@
 {
   "fetch_date": "2026-06-02",
-  "fetch_time": "2026-06-02T14:13:04.629240+00:00",
+  "fetch_time": "2026-06-02T23:44:24.428123+00:00",
   "stats": {
-    "new_podcast_episodes": 166,
-    "new_articles": 1,
+    "new_podcast_episodes": 0,
+    "new_articles": 3,
     "total_podcasts": 199,
-    "total_articles": 16
+    "total_articles": 19
   },
   "podcasts": [
     {
@@ -2143,6 +2143,33 @@
       "summary": "Visual AI is moving from outputs to code artifacts",
       "chars": 14054,
       "text_file": "data/2026-06-02/articles/a16z__the_next_frontier_of_visual_ai_is_code.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Introducing Special",
+      "date": "2026-06-02 15:50 UTC",
+      "link": "https://www.a16z.news/p/introducing-special",
+      "summary": "Special is building an operating system to transform critical American industries with AI",
+      "chars": 5024,
+      "text_file": "data/2026-06-02/articles/a16z__introducing_special.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Investing in Westmag",
+      "date": "2026-06-02 14:29 UTC",
+      "link": "https://www.a16z.news/p/investing-in-westmag",
+      "summary": "a16z lead's Westmag's Seed roud",
+      "chars": 6084,
+      "text_file": "data/2026-06-02/articles/a16z__investing_in_westmag.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Why We Founded Westmag",
+      "date": "2026-06-02 14:28 UTC",
+      "link": "https://www.a16z.news/p/why-we-founded-westmag",
+      "summary": "Building the great American motor company",
+      "chars": 5815,
+      "text_file": "data/2026-06-02/articles/a16z__why_we_founded_westmag.txt"
     }
   ]
 }
