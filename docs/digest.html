@@ -88,13 +88,26 @@
 function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 function dot(){ return '<span style="color:#d1d5db">·</span>'; }
 
+function fmtDur(raw) {
+  if (!raw) return '';
+  const s = String(raw).trim();
+  if (s.includes(':')) return s;          // already H:MM:SS or M:SS
+  const total = parseInt(s, 10);
+  if (isNaN(total)) return s;
+  const h = Math.floor(total / 3600);
+  const m = Math.floor((total % 3600) / 60);
+  const sc = total % 60;
+  const pad = n => String(n).padStart(2, '0');
+  return h ? `${h}:${pad(m)}:${pad(sc)}` : `${m}:${pad(sc)}`;
+}
+
 // ─── card builders ───────────────────────────────────────────────────────────
 function podCard(p){
   const link = p.link ? `href="${esc(p.link)}"` : '';
   const titleEl = link
     ? `<a ${link} target="_blank" rel="noopener">${esc(p.title)}</a>`
     : esc(p.title);
-  const dur = p.duration ? `<span>${esc(p.duration)}</span>${dot()}` : '';
+  const dur = p.duration ? `<span>${esc(fmtDur(p.duration))}</span>${dot()}` : '';
   return `<div class="card">
   <div class="card-title">${titleEl}</div>
   <div class="meta"><span>${esc(p.date.slice(0,10))}</span>${dot()}${dur}<span>${esc(p.source)}</span></div>

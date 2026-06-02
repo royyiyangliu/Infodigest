@@ -122,7 +122,7 @@
       "source": "Dwarkesh Podcast",
       "title": "Reiner Pope – Chip design from the bottom up",
       "date": "2026-05-22",
-      "duration": "4830",
+      "duration": "1:20:30",
       "link": "https://podcasts.apple.com/us/podcast/reiner-pope-chip-design-from-the-bottom-up/id1516093381?i=1000769103072&uo=4",
       "summary_zh": "MatX CEO从逻辑门讲起，拆解GPU、TPU、FPGA架构演化逻辑，探讨人脑与硅基架构差异。"
     },
@@ -130,7 +130,7 @@
       "source": "Latent Space",
       "title": "Why Video Agent models are next — Ethan He, xAI Grok Imagine",
       "date": "2026-06-01",
-      "duration": "6206",
+      "duration": "1:43:26",
       "link": "https://podcasts.apple.com/us/podcast/why-video-agent-models-are-next-ethan-he-xai-grok-imagine/id1674008350?i=1000770600564&uo=4",
       "summary_zh": "xAI工程师谈：视频模型智能来自LLM；下一代视频AI是\"视频Agent\"而非更好的生成模型。"
     },
@@ -138,7 +138,7 @@
       "source": "Latent Space",
       "title": "The Age of Async Agents — Cognition's Walden Yan & OpenInspect's Cole Murray",
       "date": "2026-05-28",
-      "duration": "4082",
+      "duration": "1:08:02",
       "link": "https://podcasts.apple.com/us/podcast/the-age-of-async-agents-cognitions-walden/id1674008350?i=1000770053434&uo=4",
       "summary_zh": "Devin母公司Cognition完成10亿美元D轮；Shopify等大公司自建Agent vs 专业Agent公司的权衡。"
     },
@@ -146,7 +146,7 @@
       "source": "Latent Space",
       "title": "🔬ESM: The Bitter Lesson is Coming for Proteins - Alex Rives, BioHub",
       "date": "2026-05-27",
-      "duration": "4212",
+      "duration": "1:10:12",
       "link": "https://podcasts.apple.com/us/podcast/esm-the-bitter-lesson-is-coming-for-proteins-alex/id1674008350?i=1000769867746&uo=4",
       "summary_zh": "BioHub发布ESMFold 2，68亿蛋白质图谱；推理时间Scaling在癌症等5靶点有效。"
     },
@@ -154,7 +154,7 @@
       "source": "No Priors",
       "title": "Building an AI Guardian for Enterprise with Onyx Security CEO Maxim Bar Kogan",
       "date": "2026-05-28",
-      "duration": "2468",
+      "duration": "41:08",
       "link": "https://podcasts.apple.com/us/podcast/building-an-ai-guardian-for-enterprise-with-onyx/id1668002688?i=1000769982698&uo=4",
       "summary_zh": "Onyx Security构建AI控制平面，监控自主Agent权限与意图；讨论渐进式模型上线。"
     },
@@ -162,7 +162,7 @@
       "source": "No Priors",
       "title": "The Story Behind Cerebras’ $63 Billion IPO with Founder and CEO Andrew Feldman",
       "date": "2026-05-21",
-      "duration": "1833",
+      "duration": "30:33",
       "link": "https://podcasts.apple.com/us/podcast/the-story-behind-cerebras-%2463-billion-ipo-with-founder/id1668002688?i=1000768968225&uo=4",
       "summary_zh": ""
     }

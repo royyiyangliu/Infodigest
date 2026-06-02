@@ -167,6 +167,25 @@ def fetch_apple_episode_urls(apple_id):
         return {}
 
 # ── Text helpers ──────────────────────────────────────────────────────────────
+def format_duration(raw):
+    """Normalize podcast duration to H:MM:SS or M:SS regardless of source format.
+    Handles: '1:23:45', '83:45', '4830' (seconds), 4830 (int seconds).
+    """
+    if not raw:
+        return ""
+    s = str(raw).strip()
+    if ":" in s:
+        return s  # already formatted (H:MM:SS or M:SS)
+    try:
+        total = int(float(s))
+        h, rem = divmod(total, 3600)
+        m, sec = divmod(rem, 60)
+        if h:
+            return f"{h}:{m:02d}:{sec:02d}"
+        return f"{m}:{sec:02d}"
+    except (ValueError, TypeError):
+        return s
+
 def clean_html(html):
     text = BeautifulSoup(html or "", "html.parser").get_text(separator="\n", strip=True)
     return re.sub(r"\n{3,}", "\n\n", text).strip()
@@ -262,7 +281,7 @@ def fetch_source(source, con, max_items, first_run):
             summary   = clean_html(entry.get("summary") or entry.get("description") or "")
             enclosures = entry.get("enclosures", [])
             audio_url  = enclosures[0].get("url", "") if enclosures else ""
-            duration   = entry.get("itunes_duration", "")
+            duration   = format_duration(entry.get("itunes_duration", ""))
 
             # Build Apple Podcasts episode URL: match by date (YYYY-MM-DD)
             # Chinese podcasts in Apple's store use UTC+8, causing a +1 day offset vs RSS UTC dates
