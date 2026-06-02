@@ -1,268 +1,276 @@
 {
   "date": "2026-06-02",
-  "generated_at": "2026-06-02T13:45:55.703189+00:00",
+  "generated_at": "2026-06-02T14:22:48.299945+00:00",
   "stats": {
     "podcasts": 20,
-    "articles": 12
+    "articles": 13
   },
   "podcasts": [
     {
       "source": "张小珺Jùn｜商业访谈录",
       "title": "143. 对何小鹏的第二次访谈：更大赌注、人形机器人Iron诞生、那场意外、技术剧变下CEO、GX和缝合怪",
-      "date": "2026-05-28",
+      "date": "2026-05-28 00:00 UTC",
       "duration": "01:28:21",
       "link": "https://podcasts.apple.com/us/podcast/143-%E5%AF%B9%E4%BD%95%E5%B0%8F%E9%B9%8F%E7%9A%84%E7%AC%AC%E4%BA%8C%E6%AC%A1%E8%AE%BF%E8%B0%88-%E6%9B%B4%E5%A4%A7%E8%B5%8C%E6%B3%A8-%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BAiron%E8%AF%9E%E7%94%9F-%E9%82%A3%E5%9C%BA%E6%84%8F%E5%A4%96-%E6%8A%80%E6%9C%AF%E5%89%A7%E5%8F%98%E4%B8%8Bceo-gx%E5%92%8C%E7%BC%9D%E5%90%88%E6%80%AA/id1634356920?i=1000769914019&uo=4",
-      "summary_zh": "何小鹏谈2025年重注人形机器人Iron诞生与意外，两成胜率仍坚持下注；聊技术变革下CEO心路及新车GX。"
+      "summary_zh": "小鹏汽车CEO何小鹏谈人形机器人Iron诞生与技术变革"
     },
     {
       "source": "张小珺Jùn｜商业访谈录",
       "title": "142. 雨森的创投观察第2集：Harness、下一个字节、2026大机会和Stanley Druckenmiller",
-      "date": "2026-05-27",
+      "date": "2026-05-27 00:00 UTC",
       "duration": "02:18:32",
       "link": "https://podcasts.apple.com/us/podcast/142-%E9%9B%A8%E6%A3%AE%E7%9A%84%E5%88%9B%E6%8A%95%E8%A7%82%E5%AF%9F%E7%AC%AC2%E9%9B%86-harness-%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%AD%97%E8%8A%82-2026%E5%A4%A7%E6%9C%BA%E4%BC%9A%E5%92%8Cstanley-druckenmiller/id1634356920?i=1000769733246&uo=4",
-      "summary_zh": "真格基金戴雨森：好的Harness比OS更有价值，\"AGI在缩水\"；2026大机会在于勇敢做通用方向。"
+      "summary_zh": "真格基金戴雨森谈Harness工程与2026年投资机遇"
     },
     {
       "source": "卫诗婕｜漫谈Light the Star",
       "title": "75.与灵初王启斌聊「灵巧操作」：10 万小时人类数据，一座富矿，与中国具身大脑的另一种叙事",
-      "date": "2026-05-29",
+      "date": "2026-05-29 00:00 UTC",
       "duration": "02:04:45",
       "link": "https://podcasts.apple.com/us/podcast/75-%E4%B8%8E%E7%81%B5%E5%88%9D%E7%8E%8B%E5%90%AF%E6%96%8C%E8%81%8A-%E7%81%B5%E5%B7%A7%E6%93%8D%E4%BD%9C-10-%E4%B8%87%E5%B0%8F%E6%97%B6%E4%BA%BA%E7%B1%BB%E6%95%B0%E6%8D%AE-%E4%B8%80%E5%BA%A7%E5%AF%8C%E7%9F%BF-%E4%B8%8E%E4%B8%AD%E5%9B%BD%E5%85%B7%E8%BA%AB%E5%A4%A7%E8%84%91%E7%9A%84%E5%8F%A6%E4%B8%80%E7%A7%8D%E5%8F%99%E4%BA%8B/id1754955836?i=1000770087556&uo=4",
-      "summary_zh": "灵初智能王启斌：10万小时人类操作数据是富矿；登顶摩根士丹利全球人形机器人报告；具身大脑路线直指智能上限。"
+      "summary_zh": "灵初智能王启斌谈灵巧操作与中国具身大脑路线"
     },
     {
       "source": "卫诗婕｜漫谈Light the Star",
       "title": "74.与地瓜、阿里云的访谈：机器人爆发前夜，工程师成长，与 AI 的第三朵云",
-      "date": "2026-05-25",
+      "date": "2026-05-25 01:19 UTC",
       "duration": "02:01:23",
       "link": "https://podcasts.apple.com/us/podcast/74-%E4%B8%8E%E5%9C%B0%E7%93%9C-%E9%98%BF%E9%87%8C%E4%BA%91%E7%9A%84%E8%AE%BF%E8%B0%88-%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%88%86%E5%8F%91%E5%89%8D%E5%A4%9C-%E5%B7%A5%E7%A8%8B%E5%B8%88%E6%88%90%E9%95%BF-%E4%B8%8E-ai-%E7%9A%84%E7%AC%AC%E4%B8%89%E6%9C%B5%E4%BA%91/id1754955836?i=1000769410346&uo=4",
-      "summary_zh": "地瓜机器人与阿里云聊具身基建：AI第三朵云将成机器人行业母生态；Token经济下独立开发者可推动新浪潮。"
+      "summary_zh": "地瓜机器人与阿里云谈具身AI开发者基建生态"
     },
     {
       "source": "卫诗婕｜漫谈Light the Star",
       "title": "73.【520 特辑】AI +爱，赢了！｜与黑客松冠军夫妇的随兴访谈",
-      "date": "2026-05-20",
+      "date": "2026-05-20 04:24 UTC",
       "duration": "01:31:13",
       "link": "https://podcasts.apple.com/us/podcast/73-520-%E7%89%B9%E8%BE%91-ai-%E7%88%B1-%E8%B5%A2%E4%BA%86-%E4%B8%8E%E9%BB%91%E5%AE%A2%E6%9D%BE%E5%86%A0%E5%86%9B%E5%A4%AB%E5%A6%87%E7%9A%84%E9%9A%8F%E5%85%B4%E8%AE%BF%E8%B0%88/id1754955836?i=1000768680822&uo=4",
-      "summary_zh": "脊髓损伤者与妻子用6个AI Agent、两台电脑24小时完成脑机信号控轮椅demo，获小红书黑客松硬件冠军。"
+      "summary_zh": "AI黑客松冠军夫妇用意念控制轮椅的故事"
     },
     {
       "source": "罗永浩的十字路口",
       "title": "罗永浩的X字路口！当一群情绪不稳定的杠精讨论起情绪稳定",
-      "date": "2026-05-29",
+      "date": "2026-05-29 04:20 UTC",
       "duration": "02:33:35",
       "link": "https://podcasts.apple.com/us/podcast/%E7%BD%97%E6%B0%B8%E6%B5%A9%E7%9A%84x%E5%AD%97%E8%B7%AF%E5%8F%A3-%E5%BD%93%E4%B8%80%E7%BE%A4%E6%83%85%E7%BB%AA%E4%B8%8D%E7%A8%B3%E5%AE%9A%E7%9A%84%E6%9D%A0%E7%B2%BE%E8%AE%A8%E8%AE%BA%E8%B5%B7%E6%83%85%E7%BB%AA%E7%A8%B3%E5%AE%9A/id1834069371?i=1000770116759&uo=4",
-      "summary_zh": "脱口秀演员高寒、小块等聊情绪稳定，节目前段混乱；块神后段表现力挽狂澜，可直接跳至1:24处。"
+      "summary_zh": "罗永浩与脱口秀演员高寒等讨论情绪稳定"
     },
     {
       "source": "罗永浩的十字路口",
       "title": "郑执×罗永浩！总是赶末班车的人，可以改进时间管理......也可以拥有一辆属于自己的车",
-      "date": "2026-05-21",
+      "date": "2026-05-21 04:51 UTC",
       "duration": "02:39:45",
       "link": "https://podcasts.apple.com/us/podcast/%E9%83%91%E6%89%A7-%E7%BD%97%E6%B0%B8%E6%B5%A9-%E6%80%BB%E6%98%AF%E8%B5%B6%E6%9C%AB%E7%8F%AD%E8%BD%A6%E7%9A%84%E4%BA%BA-%E5%8F%AF%E4%BB%A5%E6%94%B9%E8%BF%9B%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86-%E4%B9%9F%E5%8F%AF%E4%BB%A5%E6%8B%A5%E6%9C%89%E4%B8%80%E8%BE%86%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E8%BD%A6/id1834069371?i=1000768857900&uo=4",
-      "summary_zh": "东北文艺复兴三杰之一郑执，聊自编自导电影《森中有林》及\"永远赶末班车\"的人生路。"
+      "summary_zh": "作家郑执与罗永浩对谈文学创作与人生经历"
     },
     {
       "source": "硅谷101",
       "title": "E238｜聊聊Harness时代AI-First的组织架构：从信任人到信任AI",
-      "date": "2026-05-24",
+      "date": "2026-05-24 17:00 UTC",
       "duration": "1:05:20",
       "link": "https://podcasts.apple.com/us/podcast/e238-%E8%81%8A%E8%81%8Aharness%E6%97%B6%E4%BB%A3ai-first%E7%9A%84%E7%BB%84%E7%BB%87%E6%9E%B6%E6%9E%84-%E4%BB%8E%E4%BF%A1%E4%BB%BB%E4%BA%BA%E5%88%B0%E4%BF%A1%E4%BB%BBai/id1498541229?i=1000769404303&uo=4",
-      "summary_zh": "CreaoAI实践Harness工程：99%代码由AI完成，每天3-8次部署；初级工程师比资深更适应转型。"
+      "summary_zh": "Harness工程范式：AI-First组织架构的硅谷新共识"
     },
     {
       "source": "硅谷101",
       "title": "E237｜央视和FIFA谈判纷争背后，体育赛事转播权的博弈与生意",
-      "date": "2026-05-20",
+      "date": "2026-05-20 17:00 UTC",
       "duration": "1:05:57",
       "link": "https://podcasts.apple.com/us/podcast/e237-%E5%A4%AE%E8%A7%86%E5%92%8Cfifa%E8%B0%88%E5%88%A4%E7%BA%B7%E4%BA%89%E8%83%8C%E5%90%8E-%E4%BD%93%E8%82%B2%E8%B5%9B%E4%BA%8B%E8%BD%AC%E6%92%AD%E6%9D%83%E7%9A%84%E5%8D%9A%E5%BC%88%E4%B8%8E%E7%94%9F%E6%84%8F/id1498541229?i=1000768825059&uo=4",
-      "summary_zh": "央视与FIFA版权谈妥，2002至2026年价格涨20倍；中国体育版权只有世界杯和奥运会稳赚不赔。"
+      "summary_zh": "央视与FIFA版权谈判背后世界杯转播权的博弈"
     },
     {
       "source": "晚点聊 LateTalk",
       "title": "167: 洋葱学园杨临风：用AI制造捷径，是在杀死真学习",
-      "date": "2026-05-28",
+      "date": "2026-05-28 11:00 UTC",
       "duration": "1:44:31",
       "link": "https://podcasts.apple.com/us/podcast/%E6%B4%8B%E8%91%B1%E5%AD%A6%E5%9B%AD%E6%9D%A8%E4%B8%B4%E9%A3%8E-%E7%94%A8ai%E5%88%B6%E9%80%A0%E6%8D%B7%E5%BE%84-%E6%98%AF%E5%9C%A8%E6%9D%80%E6%AD%BB%E7%9C%9F%E5%AD%A6%E4%B9%A0/id1564877433?i=1000769932504&uo=4",
-      "summary_zh": "洋葱学园CEO杨临风：AI捷径正在杀死真学习；自主学习是意愿、能力和工具的协同。"
+      "summary_zh": "洋葱学园杨临风：AI制造捷径是在杀死真学习"
     },
     {
       "source": "晚点聊 LateTalk",
       "title": "166: 许华哲再次具身创业：不想错过最大的西瓜",
-      "date": "2026-05-26",
+      "date": "2026-05-26 07:15 UTC",
       "duration": "2:25:40",
       "link": "https://podcast.latepost.com/166",
-      "summary_zh": "破壳机器人许华哲：具身不是robotics也不是自动驾驶，强化学习可能被低估。"
+      "summary_zh": "破壳机器人许华哲再次创业追求通用家庭机器人"
     },
     {
       "source": "乱翻书",
       "title": "267.3000块成本，3.5亿次播放，AI短剧怎么在抖音挣钱？",
-      "date": "2026-06-01",
+      "date": "2026-06-01 15:14 UTC",
       "duration": "00:36:57",
       "link": "https://podcasts.apple.com/us/podcast/267-3000%E5%9D%97%E6%88%90%E6%9C%AC-3-5%E4%BA%BF%E6%AC%A1%E6%92%AD%E6%94%BE-ai%E7%9F%AD%E5%89%A7%E6%80%8E%E4%B9%88%E5%9C%A8%E6%8A%96%E9%9F%B3%E6%8C%A3%E9%92%B1/id1591595410?i=1000770596919&uo=4",
-      "summary_zh": "AI短剧《安徽小木匠》：3000元成本、19天上线，抖音播放超3.5亿次、收入50万；剧本全由AI生成。"
+      "summary_zh": "AI短剧《安徽小木匠》3000元成本获3.5亿次播放"
     },
     {
       "source": "乱翻书",
       "title": "全面压制，不留空档：字节跳动如何做增长？｜字节跳动 第7集",
-      "date": "2026-05-29",
+      "date": "2026-05-29 09:42 UTC",
       "duration": "03:58:42",
       "link": "https://podcasts.apple.com/us/podcast/%E5%85%A8%E9%9D%A2%E5%8E%8B%E5%88%B6-%E4%B8%8D%E7%95%99%E7%A9%BA%E6%A1%A3-%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8%E5%A6%82%E4%BD%95%E5%81%9A%E5%A2%9E%E9%95%BF-%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8-%E7%AC%AC7%E9%9B%86/id1591595410?i=1000770156822&uo=4",
-      "summary_zh": "字节增长中台10年方法论：TikTok一个双月涨1.2亿DAU；核心是把增长做成标准化能力。"
+      "summary_zh": "字节跳动增长方法论从投放裂变到平台化工业化"
     },
     {
       "source": "Lex Fridman Podcast",
       "title": "#497 – Biggest Mysteries in Physics: Antimatter, Dark Energy & ToE – Don Lincoln",
-      "date": "2026-05-29",
+      "date": "2026-05-29 16:22 UTC",
       "duration": "3:01:52",
       "link": "https://podcasts.apple.com/us/podcast/497-biggest-mysteries-in-physics-antimatter-dark-energy/id1434243584?i=1000770203019&uo=4",
-      "summary_zh": "Fermilab粒子物理学家Don Lincoln深度讲解反物质、暗能量与万物理论等物理学最大未解之谜。"
+      "summary_zh": "费米实验室Don Lincoln谈反物质暗能量等物理谜题"
     },
     {
       "source": "Dwarkesh Podcast",
       "title": "Reiner Pope – Chip design from the bottom up",
-      "date": "2026-05-22",
-      "duration": "1:20:30",
+      "date": "2026-05-22 15:38 UTC",
+      "duration": "4830",
       "link": "https://podcasts.apple.com/us/podcast/reiner-pope-chip-design-from-the-bottom-up/id1516093381?i=1000769103072&uo=4",
-      "summary_zh": "MatX CEO从逻辑门讲起，拆解GPU、TPU、FPGA架构演化逻辑，探讨人脑与硅基架构差异。"
+      "summary_zh": "Reiner Pope从逻辑门到GPU/TPU芯片底层设计全解"
     },
     {
       "source": "Latent Space",
       "title": "Why Video Agent models are next — Ethan He, xAI Grok Imagine",
-      "date": "2026-06-01",
-      "duration": "1:43:26",
+      "date": "2026-06-01 15:41 UTC",
+      "duration": "6206",
       "link": "https://podcasts.apple.com/us/podcast/why-video-agent-models-are-next-ethan-he-xai-grok-imagine/id1674008350?i=1000770600564&uo=4",
-      "summary_zh": "xAI工程师谈：视频模型智能来自LLM；下一代视频AI是\"视频Agent\"而非更好的生成模型。"
+      "summary_zh": "xAI的Ethan He谈视频Agent模型的下一个前沿"
     },
     {
       "source": "Latent Space",
       "title": "The Age of Async Agents — Cognition's Walden Yan & OpenInspect's Cole Murray",
-      "date": "2026-05-28",
-      "duration": "1:08:02",
+      "date": "2026-05-28 18:41 UTC",
+      "duration": "4082",
       "link": "https://podcasts.apple.com/us/podcast/the-age-of-async-agents-cognitions-walden/id1674008350?i=1000770053434&uo=4",
-      "summary_zh": "Devin母公司Cognition完成10亿美元D轮；Shopify等大公司自建Agent vs 专业Agent公司的权衡。"
+      "summary_zh": "Cognition与OpenInspect探讨异步AI Agent新时代"
     },
     {
       "source": "Latent Space",
       "title": "🔬ESM: The Bitter Lesson is Coming for Proteins - Alex Rives, BioHub",
-      "date": "2026-05-27",
-      "duration": "1:10:12",
+      "date": "2026-05-27 17:46 UTC",
+      "duration": "4212",
       "link": "https://podcasts.apple.com/us/podcast/esm-the-bitter-lesson-is-coming-for-proteins-alex/id1674008350?i=1000769867746&uo=4",
-      "summary_zh": "BioHub发布ESMFold 2，68亿蛋白质图谱；推理时间Scaling在癌症等5靶点有效。"
+      "summary_zh": "BioHub Alex Rives谈ESM蛋白质语言模型与苦涩教训"
     },
     {
       "source": "No Priors",
       "title": "Building an AI Guardian for Enterprise with Onyx Security CEO Maxim Bar Kogan",
-      "date": "2026-05-28",
-      "duration": "41:08",
+      "date": "2026-05-28 10:00 UTC",
+      "duration": "2468",
       "link": "https://podcasts.apple.com/us/podcast/building-an-ai-guardian-for-enterprise-with-onyx/id1668002688?i=1000769982698&uo=4",
-      "summary_zh": "Onyx Security构建AI控制平面，监控自主Agent权限与意图；讨论渐进式模型上线。"
+      "summary_zh": "Onyx Security CEO谈企业AI安全防止Agent失控"
     },
     {
       "source": "No Priors",
       "title": "The Story Behind Cerebras’ $63 Billion IPO with Founder and CEO Andrew Feldman",
-      "date": "2026-05-21",
-      "duration": "30:33",
+      "date": "2026-05-21 07:00 UTC",
+      "duration": "1833",
       "link": "https://podcasts.apple.com/us/podcast/the-story-behind-cerebras-%2463-billion-ipo-with-founder/id1668002688?i=1000768968225&uo=4",
-      "summary_zh": ""
+      "summary_zh": "Cerebras创始人Andrew Feldman谈630亿IPO背后故事"
     }
   ],
   "articles": [
     {
       "source": "Epoch AI",
       "title": "The Epoch Brief - June 1, 2026",
-      "date": "2026-06-01",
+      "date": "2026-06-01 15:50 UTC",
       "link": "https://epochai.substack.com/p/the-epoch-brief-june-1-2026",
       "chars": 2913,
-      "summary_zh": "本期周报三大要点：\n① **开放模型滞后闭源前沿约4个月**，差距自2025年10月以来略有扩大，约等同于GPT-5与GPT-5.5之间的性能跨度（ECI指数8分）。\n② **超大规模计算商资本开支Q1 2026达1561亿美元**，全年预计7700亿、2027年突破1万亿。\n③ **全球推理供给增速约3-4倍/年，但token需求增速约10倍/年**，算力紧缺或已到来，将推高前沿算力价格并迫使普通用户转向更小的模型。"
+      "summary_zh": "Epoch AI本周要点：\n\n① 自2026年1月起，开源模型持续落后闭源前沿约**4个月**，能力差距约**8分**（相当于GPT-5与GPT-5.5之间的差距）。\n\n② 超大规模算力公司资本支出较GPT-4发布以来翻了**4倍**，2026 Q1实际支出**1561亿美元**（预测1551亿），全年轨迹指向**7700亿美元**，2027年预计超**1万亿美元**。\n\n③ 最新Gradient Update分析显示，全球AI推理算力供给每年增长约**3-4倍**，而token需求增速约**10倍/年**，供需剪刀差正在扩大，算力紧缺可能已近在眼前。"
     },
     {
       "source": "Epoch AI",
       "title": "Is a compute crunch coming?",
-      "date": "2026-05-26",
+      "date": "2026-05-26 23:30 UTC",
       "link": "https://epochai.substack.com/p/is-a-compute-crunch-coming",
       "chars": 28885,
-      "summary_zh": "Epoch AI对全球GPU推理算力进行定量建模，以Kimi K2.6为基准，运行于GB200/GB300 NVL72。\n**供给侧**：约190万块GB200 + 150万块GB300（占全球算力约40%），理论可产出每秒**5亿至200亿**输出token（取决于上下文长度）。全球供给每年增长约**3-4倍**。\n**需求侧**：年增速约**10倍**，供需剪刀差意味着算力紧缺即将到来，Agentic长上下文工作负载首当其冲。\n**关键技术**：解码阶段是主要带宽瓶颈；KV缓存压力随上下文增长线性放大；MLA注意力、分块Prefill和投机解码是关键效率工具。\n**投资含义**：前沿访问价格上涨；高带宽内存、高效互联价值凸显；模型效率快速提升将使更小模型尽快赶上前沿。"
+      "summary_zh": "Epoch AI深度建模全球AI推理算力供需。以Kimi K2.6（**1万亿**总参数、**320亿**活跃参数，当前最强开源模型）为基准，对全球Nvidia GB200/GB300 NVL72系统进行技术推演：\n\n**供给侧**：全球Blackwell GPU可提供**5亿至200亿output token/秒**（视上下文长度而定）；考虑实际硬件效率后，单套GB200 NVL72约**40万token/秒**；全球推理容量以**3.4倍/年**速度增长，记忆带宽增速更快达**4.1倍/年**。\n\n**需求侧代理指标**：Google各平台token吞吐约**12亿/秒**（含输入），全市场约**50亿/秒**；Meta **85000**名员工单月消耗**60万亿**token；苹果工程师每日上限**$300**token费用；按**3000万**全球软件工程师外推，潜在需求约**2亿至40亿output token/秒**，增速约**10倍/年**。\n\n**核心结论**：需求增速显著高于供给（3-4倍 vs 10倍），算力紧缺可能已至，长上下文的编程/Agent场景尤为明显。Anthropic已启动高峰期限速机制。但推理效率快速提升，\"明日更小更便宜的模型将达到今日前沿水平\"，普通用户未必会被价格驱逐出局。"
     },
     {
       "source": "Epoch AI",
       "title": "The Epoch Brief - May 22, 2026",
-      "date": "2026-05-22",
+      "date": "2026-05-22 22:54 UTC",
       "link": "https://epochai.substack.com/p/the-epoch-brief-may-22-2026",
       "chars": 2948,
-      "summary_zh": "两大研究更新：\n① AI芯片**内存（HBM）成本占比从52%升至63%**（2024年Q1至2025年Q4），HBM支出从约120亿升至约320亿美元，是增速最快的成本分项。\n② 顶级实验室当前使用**不足全球AI算力的一半**，但按现有增速，数年内可吸收大部分余量。届时继续扩展将受制于芯片产能，而AI资本开支已接近1万亿美元/年——\"需要戏剧性的经济变革\"。\n此外：Epoch AI将在网站提供长文音频播放功能；开放多个研究员岗位。"
+      "summary_zh": "Epoch AI本周要点：\n\n① **内存（HBM）已成AI芯片第一大成本项**，占AI芯片总元件支出比例从**2024年Q1的52%升至2025年Q4的63%**，Nvidia、AMD、Google、Amazon四家合计HBM支出从2024年约**120亿美元**增至2025年约**320亿美元**，增速超其他所有元件。\n\n② 前沿AI实验室目前仅使用全球AI算力不足**一半**，但预计未来数年内可吸收大部分可用余量。届时若要继续扩展，需要整体算力建设大幅提速——而AI资本支出已接近**1万亿美元/年**，继续加速将需要重大经济层面的转变。"
     },
     {
       "source": "SemiAnalysis",
       "title": "AI Dark Output: The Visible Cost of Invisible Output",
-      "date": "2026-05-29",
+      "date": "2026-05-29 20:02 UTC",
       "link": "https://newsletter.semianalysis.com/p/ai-dark-output-the-visible-cost-of",
       "chars": 26815,
-      "summary_zh": "SemiAnalysis提出\"**AI黑暗产出（Dark Output）**\"框架：AI创造的大量经济价值因GDP统计方法局限而不可见。\n**三类形态**：①替代性——AI取代人工后，GDP中对应服务交易消失，如法律文书成本从150美元降至0.5美元（降幅>99%）；②新增型——AI使以前\"太贵\"的任务变为可行（文献综述从2000美元降至2美元），产生真实价值但无GDP痕迹；③捕获型——具市场定价权的企业维持原价，利润爆炸。\n**核心数据**：当前具备实质替代潜力的**劳动力成本约1.5万亿美元**（Tier 4+证据）。Anthropic 2026年3月经济指数显示**37%的token消耗在计算机与数学领域**，但软件投资对GDP的贡献未偏离AI前趋势。\n**统计指纹**：AI暴露行业出现\"就业下降+平均薪资上升\"矛盾（低薪岗位率先消失拉高均值）。\n**宏观含义**：GDP可见AI成本（数据中心、GPU、电力），但无法见其产出——若不解决这一计量危机，政策和投资决策将基于失真数据。"
+      "summary_zh": "SemiAnalysis深度分析\"AI暗产出\"（Dark Output）：AI创造的经济价值大量无法被现行GDP统计体系捕捉，其测量盲区规模可能远超历史先例。\n\n**核心分类**：\n- **替代型暗产出**：原由人完成现由AI完成的工作。目前约**1.5万亿美元**的劳动力市场暴露在AI实质性替代风险下（此为\"潜在暴露\"量级，非已消失产出）。\n- **新型暗产出**：AI使原本成本过高的工作得以实现（如学术文献综述成本从**$2000降至$2**），此类产出可能更大但完全不可见。\n- **捕获型AI产出**：企业保持原价收费但内部成本已骤降，仅当有真实定价权时才能体现在GDP中。\n\n**统计扭曲机制**：服务业缺乏标准计量单位，当AI替代人工后GDP仅记录微量token支出；企业调查会显示\"价格上涨\"（因低薪员工离开样本），被误读为通胀而非生产率提升。\n\n**证据迹象**：AI高曝露行业呈现就业下滑但相对工资上升的矛盾现象；Anthropic经济指数显示**37%**的token用于计算机与数学，但GDP中软件投资贡献并未突破既有趋势。\n\n**SemiAnalysis建立六级证据梯度**（从基准测试→生产声明→法院判决→保险承保），目前绝大多数AI应用仍处于\"增强\"而非\"替代\"阶段，尚无Tier 5/6级证据。\n\n**政策含义**：成本侧完全可见（数据中心、GPU、电力、水），产出侧高度不透明；若不更新统计框架，决策者与投资者将面临持续性信息失真风险。"
     },
     {
       "source": "SemiAnalysis",
       "title": "Finding Miscompiles for Fun, Not Profit",
-      "date": "2026-05-28",
+      "date": "2026-05-28 00:22 UTC",
       "link": "https://newsletter.semianalysis.com/p/finding-miscompiles-for-fun-not-profit",
       "chars": 9440,
-      "summary_zh": "前Google/Waymo/OpenAI编译器工程师的AI辅助漏洞挖掘实验：\n**Fuzzing阶段**：与AI协作编写fuzzer，对NVIDIA ptxas编译器**3天发现40+个错误编译**（一周后升至80+）；AMD LLVM AMDGPU后端速率相近。\n**代码阅读阶段**：让Claude并行运行**50个子Agent阅读LLVM代码**，发现速率**每4分钟1个**；x86后端接近**每2分钟2个**，且无减速。\n**关键漏洞**：LLVM将原子store降级为非原子操作——99%时间无症状，1%时静默数据损坏，极难溯源，可导致生产系统灾难性故障。\n**成本**：Fuzzer约1000美元；代码阅读Agent单次下午耗费**超过1万美元**。\n**结论**：\"五个月前不可能完成的事，现在只是非常昂贵；**预算差距将成为竞争优势的分水岭**。\"文章补记：Opus 4.8发布后同等成本可降至约1/5。"
+      "summary_zh": "SemiAnalysis研究员亲历：用AI代理大规模发现编译器漏洞的里程碑式实验。\n\n**背景**：作者有10年ML编译器经验（CUDA、XLA、Triton、OpenAI自研硬件），2026年1月曾手动模糊测试LLVM找到5个bug，耗时数周。\n\n**2026年5月突破**：改用GPT-5.5/Claude Opus 4.7，将整个模糊测试框架编写、bug去重逻辑、测试用例最小化全部委托给AI（\"完全vibe-code，从未看过一行代码\"），**3天内**发现NVIDIA ptxas编译器**40个错误编译**（1周后升至80），AMDGPU后端速率相近；向量化bug报告已公开于GitHub FuzzX仓库。\n\n**代码阅读阶段**：令Claude同时启动**50个子代理**直接阅读LLVM源码查找bug，速率达到**每4分钟1个**（x86后端约**每2分钟1个**），且未见减速迹象。其中一个极严重bug：LLVM将原子store降级为两个非原子store，可导致生产环境静默数据损坏，极难通过模糊测试发现。\n\n**成本**：vibe-code阶段约**$1000**（数日）；代理大规模代码阅读单次超**$10,000**（数小时），超过当日作者的人工成本。\n\n**后续更新（2026年6月1日）**：Anthropic发布Opus 4.8与Claude Code ultracode模式，中高严重性bug发现成本降至约**原来的1/5**。\n\n**核心启示**：5个月前\"不可能完成\"的事现在只是\"非常昂贵\"；算力预算不足者正在操作一个更小的可能性空间，这一差距预计将继续扩大。"
     },
     {
       "source": "SemiAnalysis",
       "title": "Anthropic Growth and Bedrock Mix Drive AWS Margins Higher While Peers Lag",
-      "date": "2026-05-27",
+      "date": "2026-05-27 16:25 UTC",
       "link": "https://newsletter.semianalysis.com/p/anthropic-growth-and-bedrock-mix",
       "chars": 20207,
-      "summary_zh": "SemiAnalysis Tokenomics 2.0模型分析超大规模云厂商AI业务利润率分化。\n**核心结论**：**AWS 1Q26 EBIT利润率环比提升213bp**，是同期唯一上行的CSP；Oracle和Coreweave低于预期，Azure下行，GCP含DeepMind训练成本分摊不确定性。\n**Bedrock结构性优势**：AWS通过Bedrock分发Claude等前沿模型，以\"Anthropic为卖方、AWS收基础设施费+收入分成\"实现高利润率TaaS业务，远优于纯GPU出租。\n**关键数据**：AWS AI占总营收比从**1Q24的2%升至1Q26的10%**（GCP/Azure分别为36%/27%，但利润率均低于AWS）；**Trainium芯片承担超50%的Bedrock token负载**；Graviton CPU在Anthropic、OpenAI、Meta均有大规模部署。\n**竞争护城河**：三大CSP的TaaS业务规模合计超**100亿美元ARR**，Neocloud几乎为零；只有AWS/Azure/GCP三家可同时接入OpenAI、Claude、Gemini三大前沿模型。"
+      "summary_zh": "SemiAnalysis深度分析Anthropic高速增长驱动AWS利润率领跑同行的逻辑。\n\n**AWS利润率领先**：AWS Q1 2026运营利润率环比提升**213个基点**，而Oracle、CoreWeave利润低于预期，Azure利润率下行，Google Cloud虽高增速但训练成本被计入\"Alphabet级别活动\"（Q1 2026达**54亿美元**，同比增**80%**），存在利润虚高。\n\n**Bedrock商业模式**：Bedrock为Token即服务（TaaS）平台，Anthropic作为卖家计全额收入，AWS收取基础设施费与分发分成，毛利率约**55%**，远优于传统IaaS业务。Bedrock Q1 2026年化运行收入约**55亿美元**，**80-90%+**客户使用Anthropic模型；Bedrock占AWS AI收入比例从2025年Q1的**9%升至2026年Q1的37%**，预计Q2升至**53%**；Bedrock收入环比Q4/Q1分别增长**60%/170%**。\n\n**Anthropic增长爆发**：Q1 2026净新增ARR **210亿美元**，达到总ARR **300亿美元**，同比增约**13倍**；增长主要由Claude Code企业API驱动；推理毛利率从2024年**-94%**升至现**中高60%区间**；预计Q2调整后实现运营盈利；全年ARR潜力超**1000亿美元**。\n\n**垂直整合优势**：Trainium承担Bedrock超过**50%**的token处理；Graviton CPU已获Anthropic、OpenAI、Meta大规模合约；AWS在2025-2027算力建设规模超所有竞争对手。"
     },
     {
       "source": "a16z",
       "title": "Investing in Endra",
-      "date": "2026-06-01",
+      "date": "2026-06-01 14:02 UTC",
       "link": "https://www.a16z.news/p/investing-in-endra",
       "chars": 3587,
-      "summary_zh": "a16z领投Endra的A轮融资。Endra将机械、电气和管道（MEP）工程设计自动化，目标市场超过**1500亿美元**的全球MEP咨询服务市场。\n平台读取标准BIM（Revit格式）文件，在3D环境中重建建筑，工程师设定规则后点击\"优化\"，原本耗时数周的逐层点击工作可在一次会话内完成。\n创始团队：瑞典人Niklas Lindgren和Anton Juric曾共同创业并退出；技术联创David Rydberg和Gustav Hammarlund来自高盛斯德哥尔摩低延迟交易团队。已拥有多家全球顶级MEP公司为早期客户，营收呈垂直增长。"
+      "summary_zh": "a16z领投MEP工程自动化初创公司Endra的Series A。\n\nMEP（机械、电气、给排水）顾问全球服务市场规模超**1500亿美元**，但工作高度重复：工程师需逐层逐室布置火灾报警、走线路、核对规范，这类枯燥工作往往外包，占用数月时间。\n\nEndra平台读取标准BIM文件、深度集成Revit，将建筑3D重建后，工程师只需设定系统规则并点击\"优化\"，原本数周工作可在单次会议内完成。早期客户形容效果为\"从骑马直接到登月\"，收入呈垂直增长态势。\n\n创始人Niklas Lindgren与Anton Juric为童年好友，曾在相邻领域创业成功退出，生长于MEP顾问家庭；首席技术团队David Rydberg与Gustav Hammarlund来自高盛斯德哥尔摩低延迟交易部门。团队已在瑞典与美国组建，并签约数家全球顶级MEP公司为早期客户。"
     },
     {
       "source": "a16z",
       "title": "Keeping the Drone Swarm Alive",
-      "date": "2026-06-01",
+      "date": "2026-06-01 14:01 UTC",
       "link": "https://www.a16z.news/p/keeping-the-drone-swarm-alive",
       "chars": 13557,
-      "summary_zh": "a16z深度分析：美国国防自主无人系统大规模部署的关键瓶颈是**后勤可持续性**，而非技术本身。\n**背景**：五角大楼Replicator计划，FY27预算**540亿美元（同比增240倍，超过整个海军陆战队预算）**。\n**瓶颈**：①现有基础设施为有人平台设计，无人系统缺乏前沿补给能力；②GAO警告：已采购**43亿美元、21艘无人艇**但遗漏全生命周期成本；③**平台全生命周期成本70%在于可持续运营**，近半超预期；④波音未投标XLUUV后续运营合同——初步市场失灵。\n**结论**：在解决后勤自动化之前，大规模部署无人平台只是将瓶颈从战场前移至补给线。自主后勤本身是下一个重要国防科技投资方向。"
+      "summary_zh": "a16z政策分析：美军自主化战略的最大软肋——无人系统的战场维持（Sustainment）。\n\n**现实落差**：一架MQ-9无人机仍需**180+人**支持；FY27 DAWG预算申请**540亿美元**（较上年增**240倍**），几乎相当于整个海军陆战队预算；但GAO已警告海军自主化计划未包含必要基础设施成本，历史上\"最优编制\"实验最终因自动化系统故障反而需要**更多人员**。GAO指出维持成本约占平台全生命周期成本**70%**，且近半样本系统超支。\n\n**核心矛盾**：资金与关注度集中于平台（无人艇、无人潜航器、FPV、巡飞弹），而维持大规模无人集群战斗力所需的自主港口、\"箱式基地\"模块、机器人装卸、能源与数据脊骨却严重缺位。印太战区幅员辽阔，无法靠人力补给实现\"可消耗\"系统的快速回转。\n\n**解决方案要点**：①在印太部署综合自主维持节点原型，量化\"每人每日系统回转次数\"；②要求所有大型自主系统项目向国会同步汇报配套基础设施需求及人力；③\"边测边打\"快速迭代；④与中国长期系统性工业规划竞争，需要国会建立跨届的持续工业信号。\n\na16z强调：自主化战争的回报能否兑现，取决于能否在争夺环境下持续维持无人集群的战斗力。"
     },
     {
       "source": "a16z",
       "title": "Charts of the Week: Retail to the Moon",
-      "date": "2026-05-29",
+      "date": "2026-05-29 14:02 UTC",
       "link": "https://www.a16z.news/p/charts-of-the-week-retail-to-the",
       "chars": 12254,
-      "summary_zh": "本期三大图表主题：\n**① 零售投资者史上最活跃**：5月零售现金股票成交量**超越2021年迷因股峰值12%**；零售期权日均合约量约历史月均的**160%**；半导体期权达2020年后月均的**2.8倍**；IB/Robinhood/Schwab合计保证金余额超**2500亿美元**（疫情前5倍）。七周内无单日净卖出，零售从\"逢跌买入稳定器\"变为\"单边上涨助推器\"，产生\"flow fragility\"风险。\n**② AI资本开支债务化**：超大规模厂商2026年已发行约**1500亿美元债券**（同比增35%）；AI相关债务占2026年投资级净发行约**50%**、高收益债约**40%**；IT资本开支占S&P 500总资本开支约**40%**。\n**③ FedRAMP 20x**：政府软件安全认证大幅提速——首批300项历时逾10年，**2025年单年批准约140项**，为科技公司打开政府端市场新窗口。"
+      "summary_zh": "a16z本周四组主题图表：\n\n**① 零售投资者创纪录**：Citadel Securities（处理约**40%**美国零售订单流）报告5月零售现金股票成交量超越**2021年1月迷因股峰值约12%**；零售期权日均成交量约为历史月均的**1.6倍**；半导体期权约为后2020月均**2.8倍**。三倍杠杆纳指ETF中零售占比约**25%**；Interactive Brokers+Robinhood+Schwab合并保证金余额超**2500亿美元**（疫情前**5倍**）。4月中旬以来7周，零售订单流无一日偏向\"卖出\"，已从逆势买盘转为追势买盘，形成\"流量脆弱性\"风险。\n\n**② AI资本支出举债融资**：超大规模企业2026年债券发行已超**1500亿美元**（较去年多约**35%**），占投资级净发行约**50%**、高收益债约**40%**；IT资本支出占标普500总资本支出接近**40%**；超大规模企业信用利差虽有收窄但仍优于大盘（Oracle除外）。\n\n**③ 政府软件采购提速**：FedRAMP 20x改革后，**2025年单年**新批约**140个产品**（此前首批300个用了十余年），政府已签约**约8亿美元**前沿AI合同。\n\n**④ 零售与广告经济**：沃尔玛广告收入同比增约**45%**；会员+广告收入约占沃尔玛运营利润**三分之一**；Costco全国均价比沃尔玛低约**21.4%**。"
     },
     {
       "source": "GameDev Report",
       "title": "Games and Numbers (May 20 - June 2, 2026) - sponsored by PWN Games",
-      "date": "2026-06-02",
+      "date": "2026-06-02 07:30 UTC",
       "link": "https://gamedevreports.substack.com/p/games-and-numbers-may-20-june-2-2026",
       "chars": 2527,
-      "summary_zh": "2026年5月下旬至6月初PC/主机游戏里程碑：\n① **Subnautica 2** EA首5天**销410万份**、收入超1亿美元，2026年PC发行最快启动（含Game Pass达650万用户）；\n② **Forza Horizon 6** 首几日约**500万份**、收入超3.25亿美元；\n③ **007 First Light** 3天**销150万份**，IO Interactive史上最成功发行，Steam峰值同时在线68,500；\n④ **The Witcher 3** 累计突破**6500万份**，巫师IP 1Q26营收同比增**36%**至约1230万美元，2027年发布新DLC；\n⑤ **Star Citizen** 众筹突破**10亿美元**，自2010年开发至今仍无正式发布日期。"
+      "summary_zh": "2026年5月20日至6月2日PC/主机游戏销售数据摘要：\n\n- **Star Citizen**（Cloud Imperium）：众筹超**10亿美元**，来自**656万**玩家，自2010年开发至今无正式发布日期\n- **《巫师3》**（CD PROJEKT）：累计销售超**6500万份**（一年前6000万），2026 Q1巫师系列收入同比增**36%**至约**1230万美元**，2027年新DLC宣布\n- **《极限竞速：地平线6》**：首发数日销量约**500万份**，总收入超**3.25亿美元**，高级早鸟版约**170万**份\n- **《Subnautica 2》**（Early Access）：5日销量**410万份**，为2026年PC最快开局（超Slay the Spire 2的**1.4倍**，Crimson Desert的**3倍**），含Game Pass约**650万**人，收入超**1亿美元**\n- **《007 First Light》**（IO Interactive）：3日**150万份**，Steam好评**91%**，工作室史上最成功首发\n- **《英雄无敌：远古时代》**EA版：28日超**100万份**\n- **Far Far West** EA版：3周超**100万份**，好评率**96%**\n- **BitSummit 2026**：参展者**68208**人，同比增**17%**"
     },
     {
       "source": "GameDev Report",
       "title": "AppMagic: Top Mobile Games by Revenue and Downloads in May 2026 - sponsored by PWN Games",
-      "date": "2026-06-01",
+      "date": "2026-06-01 07:31 UTC",
       "link": "https://gamedevreports.substack.com/p/appmagic-top-mobile-games-by-revenue-738",
       "chars": 2066,
-      "summary_zh": "2026年5月手机游戏数据（AppMagic，不含中国安卓市场）：\n**收入榜**：①Honor of Kings **1.559亿美元**居首；②Whiteout Survival（1.052亿）；③Royal Match（1.051亿）；④Gossip Harbor **9680万美元**（历史次高月，增长强劲）；⑤Last War: Survival环比骤降**30%至8070万美元**（2024年3月以来最低，或因D2C导流及营销降温）。\n**下载榜**：**箭头解谜品类突然爆发**——Miniclip旗下Arrows: Puzzle Escape以**2860万次安装**领跑，同门Arrows GO!以**2380万次**居次，同类型Arrow Puzzle进入前十。此前下载榜长期被超休闲游戏统治，本月出现明显品类轮动。"
+      "summary_zh": "2026年5月手游收入与下载排行（AppMagic，净扣渠道费及税，不含中国安卓）：\n\n**收入前五**：\n1. **王者荣耀** **$1.559亿**（稳居第一，领先明显）\n2. **Whiteout Survival** **$1.052亿**\n3. **Royal Match** **$1.051亿**\n4. **Gossip Harbor** **$9680万**（史上次高月收入，增长曲线持续向好）\n5. **Last War: Survival** **$8070万**（同比环比大跌**30%**，为2024年3月以来最低，疑因官网推D2C直购渠道分流及营销投入削减）\n\n**其他亮点**：Brawl Stars收入**$3820万**，创2024年12月以来新高。\n\n**下载前两名均为箭头解谜游戏**：Arrows: Puzzle Escape **2860万次**、Arrows GO! **2380万次**，两款均由Miniclip旗下。"
     },
     {
       "source": "GameDev Report",
       "title": "GameDev Reports Premium - Updates (25.05.26 - 29.05.26)",
-      "date": "2026-05-30",
+      "date": "2026-05-30 13:31 UTC",
       "link": "https://gamedevreports.substack.com/p/gamedev-reports-premium-updates-250526",
       "chars": 330,
-      "summary_zh": "New reports & interesting articles of the week."
+      "summary_zh": "本期内容仅为编辑个人感叹：Forza Horizon 6、007 First Light、Saros、绯红荒漠（Crimson Desert）、Pragmata等大作密集发布，加上移动端近期爆款，编辑的游戏待玩清单已不堪重负——这对于深度玩家是黄金时代。（本期无实质性数据或深度分析内容。）"
+    },
+    {
+      "source": "a16z",
+      "title": "The Next Frontier of Visual AI Is Code",
+      "date": "2026-06-02 14:02 UTC",
+      "link": "https://www.a16z.news/p/the-next-frontier-of-visual-ai-is",
+      "chars": 14054,
+      "summary_zh": "a16z深度分析：视觉AI的下一个前沿是代码生成，而非像素生成。\n\n**核心转变**：对于需要持续迭代的视觉任务（图形设计、UI设计、3D建模），最有价值的AI输出不是最终像素，而是可编辑的\"视觉程序\"——SVG、HTML/CSS、React组件、Lottie JSON、Blender脚本、USD场景图等结构化符号表示。\n\n**两条路线对比**：\n- **像素原生**（扩散模型）：擅长纹理与真实感，但每次迭代是新的随机采样，难以精确定位修改点\n- **代码原生**：支持\"生成→渲染→检查→修改\"（Code→Render→Inspect→Revise）封闭循环，每次迭代改进源文件而非重新采样，天然适合推理时扩展计算（test-time compute）\n\n**代表性工作**：OmniLottie将Lottie JSON转为模型友好命令序列；VIGA以Blender为反馈环境做3D视觉重建，配备语义观察与修改工具及历史记忆；Articraft3D将关节3D资产生成框架化为包含零件、几何、关节约束和测试的程序化任务。\n\n**3D是最重要的下一前沿**：2D图像\"看起来对\"已够用，但3D资产必须具备一致几何体、材质、零件层级和场景上下文才能用于游戏/仿真；门能开、铰链能转、抽屉能滑等功能约束无法靠像素验证，天然适合代码+渲染+检查循环。\n\n**市场格局**：以运行时/渲染器为核心形成差异化——浏览器（UI）、SVG渲染器（图标/LOGO）、Lottie播放器（动效）、Blender/游戏引擎（3D）各自构成独立赛道。未来趋势可能是像素原生与代码原生的混合工作流，兼顾真实感探索与结构化生产。"
     }
   ]
 }
