@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 信息日报</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "PingFang SC", "Helvetica Neue", "Microsoft YaHei", Arial, sans-serif;
+    background: #f5f6fa; color: #1a1a2e; line-height: 1.7; font-size: 15px;
+  }
+  header {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #fff; padding: 32px 40px 24px;
+    display: flex; align-items: flex-end; justify-content: space-between; flex-wrap: wrap; gap: 12px;
+  }
+  header h1 { font-size: 24px; font-weight: 700; }
+  header .sub { font-size: 13px; color: #a0c4d8; margin-top: 4px; }
+  header .date-badge {
+    font-size: 13px; color: #7eb8cc;
+    background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.15);
+    padding: 6px 14px; border-radius: 20px; white-space: nowrap;
+  }
+  nav { background: #fff; border-bottom: 1px solid #e0e4ee; padding: 0 40px; display: flex; align-items: center; gap: 8px; }
+  nav a { display: inline-block; padding: 12px 16px; font-size: 14px; font-weight: 500; text-decoration: none; color: #5a6278; border-bottom: 3px solid transparent; }
+  nav a:hover { color: #1d6fa4; }
+  nav a.active-pod { border-bottom-color: #2196F3; color: #1565C0; }
+  nav a.active-art { border-bottom-color: #43a047; color: #2e7d32; }
+  nav .sep { color: #d1d5db; }
+  .stats { background: #fff; padding: 12px 40px; display: flex; gap: 24px; flex-wrap: wrap; border-bottom: 1px solid #e8ecf4; font-size: 13px; color: #6b7280; }
+  .stats strong { color: #1a1a2e; }
+  main { max-width: 1100px; margin: 0 auto; padding: 28px 24px 60px; }
+  .section-hd { display: flex; align-items: center; gap: 12px; margin: 36px 0 18px; }
+  .section-hd:first-child { margin-top: 0; }
+  .badge { font-size: 11px; font-weight: 700; letter-spacing: 1px; padding: 3px 10px; border-radius: 20px; text-transform: uppercase; }
+  .badge-p { background: #e3f2fd; color: #1565C0; }
+  .badge-a { background: #e8f5e9; color: #2e7d32; }
+  .section-hd h2 { font-size: 19px; font-weight: 700; }
+  .section-cnt { font-size: 13px; color: #9ca3af; margin-left: auto; }
+  .src-group { margin-bottom: 26px; }
+  .src-label { font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: #9ca3af; padding: 0 2px 8px; border-bottom: 1px solid #e8ecf4; margin-bottom: 10px; }
+  .card { background: #fff; border: 1px solid #e8ecf4; border-radius: 10px; padding: 16px 20px; margin-bottom: 10px; transition: box-shadow .2s, border-color .2s; }
+  .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,.07); border-color: #c8d6e8; }
+  .card-title { margin-bottom: 8px; }
+  .card-title a { font-size: 15px; font-weight: 600; color: #1a3a5c; text-decoration: none; line-height: 1.5; }
+  .card-title a:hover { color: #1d6fa4; text-decoration: underline; }
+  .meta { display: flex; flex-wrap: wrap; gap: 5px 14px; font-size: 12px; color: #8a94a6; margin-bottom: 9px; }
+  .summary { font-size: 14px; color: #374151; line-height: 1.8; }
+  .article .summary { color: #1f2937; }
+  #loading, #error { text-align: center; padding: 80px 20px; color: #6b7280; font-size: 15px; }
+  #error { color: #ef4444; }
+  footer { text-align: center; padding: 24px; font-size: 12px; color: #adb5bd; border-top: 1px solid #e8ecf4; background: #fff; margin-top: 16px; }
+  @media (max-width: 640px) {
+    header, nav, .stats { padding-left: 16px; padding-right: 16px; }
+    main { padding: 16px 12px 40px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>AI 信息日报</h1>
+    <p class="sub">播客 · 文章 · 产业动态</p>
+  </div>
+  <div class="date-badge" id="hdr-date">—</div>
+</header>
+
+<nav>
+  <a href="index.html">← 存档</a>
+  <span class="sep">|</span>
+  <a href="#podcasts" id="nav-pod">🎙 播客</a>
+  <a href="#articles" id="nav-art">📄 文章</a>
+</nav>
+
+<div class="stats" id="stats-bar">加载中…</div>
+
+<main id="main-content">
+  <div id="loading">正在加载当日摘要…</div>
+  <div id="error" style="display:none"></div>
+</main>
+
+<footer>AI Information Digest · 每日自动生成 · <a href="https://github.com/royyiyangliu/Infodigest" style="color:#adb5bd">GitHub</a></footer>
+
+<script>
+// ─── helpers ─────────────────────────────────────────────────────────────────
+function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function dot(){ return '<span style="color:#d1d5db">·</span>'; }
+
+// ─── card builders ───────────────────────────────────────────────────────────
+function podCard(p){
+  const link = p.link ? `href="${esc(p.link)}"` : '';
+  const titleEl = link
+    ? `<a ${link} target="_blank" rel="noopener">${esc(p.title)}</a>`
+    : esc(p.title);
+  const dur = p.duration ? `<span>${esc(p.duration)}</span>${dot()}` : '';
+  return `<div class="card">
+  <div class="card-title">${titleEl}</div>
+  <div class="meta"><span>${esc(p.date.slice(0,10))}</span>${dot()}${dur}<span>${esc(p.source)}</span></div>
+  <p class="summary">${esc(p.summary_zh || p.summary || '')}</p>
+</div>`;
+}
+
+function artCard(a){
+  const chars = a.chars ? `约 ${a.chars.toLocaleString()} 字符` : '';
+  return `<div class="card article">
+  <div class="meta"><span>${esc(a.date.slice(0,10))}</span>${dot()}<span>${chars}</span></div>
+  <div class="card-title"><a href="${esc(a.link)}" target="_blank" rel="noopener">${esc(a.title)}</a></div>
+  <p class="summary">${(a.summary_zh || a.summary || '').replace(/\n/g,'<br>').replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>')}</p>
+</div>`;
+}
+
+// ─── group by source ─────────────────────────────────────────────────────────
+function groupBy(items, key){
+  const map = new Map();
+  for(const it of items){
+    const k = it[key];
+    if(!map.has(k)) map.set(k, []);
+    map.get(k).push(it);
+  }
+  return map;
+}
+
+// ─── render ──────────────────────────────────────────────────────────────────
+function render(data){
+  const date = data.date || '—';
+  document.title = `AI 信息日报 · ${date}`;
+  document.getElementById('hdr-date').textContent = date.replace(/(\d{4})-(\d{2})-(\d{2})/, '$1 年 $2 月 $3 日');
+
+  const pods = data.podcasts || [];
+  const arts = data.articles || [];
+
+  // stats
+  document.getElementById('stats-bar').innerHTML =
+    `<span>播客：<strong>${pods.length}</strong> 集</span>` +
+    `<span class="sep">·</span>` +
+    `<span>文章：<strong>${arts.length}</strong> 篇</span>` +
+    `<span class="sep">·</span>` +
+    `<span>生成：<strong>${(data.generated_at||'').slice(0,16).replace('T',' ')}</strong></span>`;
+
+  // nav counts
+  document.getElementById('nav-pod').textContent = `🎙 播客（${pods.length}）`;
+  document.getElementById('nav-art').textContent = `📄 文章（${arts.length}）`;
+
+  // podcasts section
+  let html = '';
+  if(pods.length){
+    html += `<div class="section-hd" id="podcasts">
+      <span class="badge badge-p">播客</span>
+      <h2>最新剧集</h2>
+      <span class="section-cnt">${pods.length} 集</span>
+    </div>`;
+    const grp = groupBy(pods, 'source');
+    for(const [src, items] of grp){
+      html += `<div class="src-group">
+        <div class="src-label">${esc(src)}</div>
+        ${items.map(podCard).join('')}
+      </div>`;
+    }
+  }
+
+  // articles section
+  if(arts.length){
+    html += `<div class="section-hd" id="articles">
+      <span class="badge badge-a">文章</span>
+      <h2>深度阅读</h2>
+      <span class="section-cnt">${arts.length} 篇</span>
+    </div>`;
+    const grp = groupBy(arts, 'source');
+    for(const [src, items] of grp){
+      html += `<div class="src-group">
+        <div class="src-label">${esc(src)}</div>
+        ${items.map(artCard).join('')}
+      </div>`;
+    }
+  }
+
+  document.getElementById('loading').style.display = 'none';
+  document.getElementById('main-content').innerHTML = html;
+}
+
+// ─── main ────────────────────────────────────────────────────────────────────
+(function(){
+  const params = new URLSearchParams(window.location.search);
+  const date = params.get('date');
+  if(!date){
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('error').style.display = '';
+    document.getElementById('error').textContent = '请通过 index.html 选择日期，或在 URL 中添加 ?date=YYYY-MM-DD';
+    return;
+  }
+  const url = `data/${date}_summary.json`;
+  fetch(url)
+    .then(r => {
+      if(!r.ok) throw new Error(`HTTP ${r.status} – ${url}`);
+      return r.json();
+    })
+    .then(render)
+    .catch(err => {
+      document.getElementById('loading').style.display = 'none';
+      document.getElementById('error').style.display = '';
+      document.getElementById('error').textContent = `无法加载 ${date} 的摘要：${err.message}`;
+    });
+})();
+</script>
+</body>
+</html>

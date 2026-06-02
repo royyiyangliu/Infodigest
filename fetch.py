@@ -340,15 +340,35 @@ def save_results(date_str, all_podcasts, all_articles):
         meta_out["text_file"] = f"data/{date_str}/articles/{filename}"
         article_meta_list.append(meta_out)
 
+    # ── Merge with existing JSON for this date (don't overwrite) ──────────
+    json_path = DATA / f"{date_str}_digest.json"
+    existing_pods, existing_arts = [], []
+    if json_path.exists():
+        try:
+            existing = json.loads(json_path.read_text(encoding="utf-8"))
+            existing_pods = existing.get("podcasts", [])
+            existing_arts = existing.get("articles", [])
+        except Exception:
+            pass
+
+    # De-duplicate by title
+    seen_titles = {p["title"] for p in existing_pods}
+    merged_pods = existing_pods + [p for p in all_podcasts if p["title"] not in seen_titles]
+
+    seen_titles = {a["title"] for a in existing_arts}
+    merged_arts = existing_arts + [a for a in article_meta_list if a["title"] not in seen_titles]
+
     digest = {
         "fetch_date": date_str,
         "fetch_time": datetime.now(timezone.utc).isoformat(),
         "stats": {
             "new_podcast_episodes": len(all_podcasts),
             "new_articles":         len(all_articles),
+            "total_podcasts":       len(merged_pods),
+            "total_articles":       len(merged_arts),
         },
-        "podcasts": all_podcasts,
-        "articles": article_meta_list,
+        "podcasts": merged_pods,
+        "articles": merged_arts,
     }
 
     json_path = DATA / f"{date_str}_digest.json"
