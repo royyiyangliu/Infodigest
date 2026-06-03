@@ -14,7 +14,7 @@ for pkg in ["feedparser", "requests", "beautifulsoup4"]:
 
 import feedparser, requests, sqlite3, json, re
 from bs4 import BeautifulSoup
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 from email.utils import parsedate_to_datetime
@@ -259,7 +259,6 @@ def fetch_source(source, con, max_items, first_run):
     # Only fetch items published within the last MAX_AGE_DAYS days.
     # RSS feeds are ordered newest-first, so we stop as soon as we exceed the cutoff.
     MAX_AGE_DAYS = 14
-    from datetime import timedelta
     cutoff_date = (datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)).strftime("%Y-%m-%d")
 
     # Pre-fetch Apple Podcasts episode URLs for this source (podcasts only)
@@ -410,7 +409,7 @@ def save_results(date_str, all_podcasts, all_articles):
 
 # ── Entry point ───────────────────────────────────────────────────────────────
 def main():
-    now = datetime.now()
+    now = datetime.now(timezone(timedelta(hours=8)))  # 北京时间
     print(f"AI Information Digest  {now.strftime('%Y-%m-%d %H:%M')}")
     print("=" * 60)
 

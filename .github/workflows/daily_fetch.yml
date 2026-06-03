@@ -2,7 +2,7 @@ name: Daily Content Fetch
 
 on:
   schedule:
-    - cron: '0 22 * * *'   # 每天 22:00 UTC = 北京时间 06:00
+    - cron: '0 17 * * *'   # 每天 17:00 UTC = 北京时间 01:00
   workflow_dispatch:         # 支持手动触发测试
 
 permissions:
