@@ -1,0 +1,58 @@
+{
+  "fetch_date": "2026-06-04",
+  "fetch_time": "2026-06-03T20:17:48.024925+00:00",
+  "stats": {
+    "new_podcast_episodes": 0,
+    "new_articles": 5,
+    "total_podcasts": 0,
+    "total_articles": 5
+  },
+  "podcasts": [],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "To Boldly Go: The Case for Space Datacenters",
+      "date": "2026-06-03 13:07 UTC",
+      "link": "https://newsletter.semianalysis.com/p/to-boldly-go-the-case-for-space-datacenters",
+      "summary": "Orbital Compute Model Launch",
+      "chars": 58460,
+      "text_file": "data/2026-06-04/articles/semianalysis__to_boldly_go_the_case_for_space_datacenters.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "A Functional Taxonomy of World Models",
+      "date": "2026-06-03 17:46 UTC",
+      "link": "https://www.a16z.news/p/a-functional-taxonomy-of-world-models",
+      "summary": "Renderers, Simulators, Planners, and the Loop That Connects Them",
+      "chars": 5100,
+      "text_file": "data/2026-06-04/articles/a16z__a_functional_taxonomy_of_world_models.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Investing in Town",
+      "date": "2026-06-03 14:31 UTC",
+      "link": "https://www.a16z.news/p/investing-in-town",
+      "summary": "a16z leads Town's Series A",
+      "chars": 4923,
+      "text_file": "data/2026-06-04/articles/a16z__investing_in_town.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Small Businesses are the Next Frontier for AI",
+      "date": "2026-06-03 14:15 UTC",
+      "link": "https://www.a16z.news/p/small-businesses-are-the-next-frontier",
+      "summary": "Why agents haven't made it to Main Street (and how we get this done)",
+      "chars": 9514,
+      "text_file": "data/2026-06-04/articles/a16z__small_businesses_are_the_next_frontier_for_ai.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Investing in Lassie",
+      "date": "2026-06-03 14:15 UTC",
+      "link": "https://www.a16z.news/p/investing-in-lassie",
+      "summary": "a16z leads Lassie's Series A",
+      "chars": 5320,
+      "text_file": "data/2026-06-04/articles/a16z__investing_in_lassie.txt"
+    }
+  ]
+}
