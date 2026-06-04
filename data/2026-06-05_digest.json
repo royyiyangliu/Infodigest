@@ -1,0 +1,60 @@
+{
+  "fetch_date": "2026-06-05",
+  "fetch_time": "2026-06-04T19:22:46.688596+00:00",
+  "stats": {
+    "new_podcast_episodes": 1,
+    "new_articles": 4,
+    "total_podcasts": 1,
+    "total_articles": 4
+  },
+  "podcasts": [
+    {
+      "source": "No Priors",
+      "title": "The Rise of the Full-Stack Builder and Hyper-Leveraged Generalist with Microsoft CEO Satya Nadella",
+      "date": "2026-06-04 07:00 UTC",
+      "link": "https://podcasts.apple.com/us/podcast/the-rise-of-the-full-stack-builder/id1668002688?i=1000771122399&uo=4",
+      "orig_link": "",
+      "audio_url": "https://traffic.megaphone.fm/PDP8130248763.mp3",
+      "duration": "42:26",
+      "summary": "What does it mean for a business to truly operate at the AI frontier? In a special crossover episode at Microsoft Build, Sarah Guo and Elad Gil team up with Latent Space host “swyx” to talk with Microsoft Chairman and CEO Satya Nadella about the future of AI platforms, software development, and the tech ecosystem. Satya reflects on the latest breakthroughs from Microsoft Build, the strategic shift toward multi-model harnesses, and why private evaluations (evals) are now a company’s most important intellectual property. They also discuss how autonomous AI agents are reshaping the role of software engineers, the durability of SaaS business models, and why showing communities the ROI on data centers is so critical. Plus, Satya shares his thoughts on the economic and societal impacts of the token economy, as well as the future of AI-driven education startups.\n\nSign up for new podcasts every week. Email feedback to show@no-priors.com\n\nFollow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @satyanadella | @Microsoft | @latentspacepod | @swyx\n\nChapters:\n\n00:00 – Satya Nadella Introduction\n\n01:48 – Reflections from Microsoft Build\n\n03:12 – Microsoft’s AI Training Strategy\n\n05:48 – Complexity of Real-World Deployment of AI\n\n07:33 – Augmenting Human Capital\n\n09:37 – Harnesses for Enterprise\n\n11:49 – Developer Value\n\n15:09 – Can Everybody Operate at the Frontier with Their Frontier Intelligence?\n\n15:51 – Modern Definition of IP\n\n17:38 – Future of Vendor vs. Enterprise Agents\n\n21"
+    }
+  ],
+  "articles": [
+    {
+      "source": "a16z",
+      "title": "A16Z's Global Mission",
+      "date": "2026-06-04 13:25 UTC",
+      "link": "https://www.a16z.news/p/a16zs-global-mission",
+      "summary": "Mission and call to help not just founders, but America and her allies",
+      "chars": 4583,
+      "text_file": "data/2026-06-05/articles/a16z__a16zs_global_mission.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Helping Our Portfolio Companies Expand Globally",
+      "date": "2026-06-04 13:17 UTC",
+      "link": "https://www.a16z.news/p/helping-our-portfolio-companies-expand",
+      "summary": "Technology has become more powerful, and more globally strategic, than ever before",
+      "chars": 5227,
+      "text_file": "data/2026-06-05/articles/a16z__helping_our_portfolio_companies_expand_global.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "A16Z Investor Relations is now Global Partnerships",
+      "date": "2026-06-04 13:17 UTC",
+      "link": "https://www.a16z.news/p/a16z-investor-relations-is-now-global",
+      "summary": "Technology used to be a small segment of the economy. Now it's how countries dominate.",
+      "chars": 4038,
+      "text_file": "data/2026-06-05/articles/a16z__a16z_investor_relations_is_now_global_partner.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Technology is Security, for America and Her Allies",
+      "date": "2026-06-04 13:17 UTC",
+      "link": "https://www.a16z.news/p/technology-is-security-for-america",
+      "summary": "Our allies are no longer interested in a simple buyer-seller relationship; they want to build with us",
+      "chars": 5296,
+      "text_file": "data/2026-06-05/articles/a16z__technology_is_security_for_america_and_her_al.txt"
+    }
+  ]
+}
