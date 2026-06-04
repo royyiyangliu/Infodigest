@@ -1,0 +1,52 @@
+{
+  "date": "2026-06-05",
+  "generated_at": "2026-06-04T23:40:44.216701+00:00",
+  "stats": {
+    "podcasts": 1,
+    "articles": 4
+  },
+  "podcasts": [
+    {
+      "source": "No Priors",
+      "title": "The Rise of the Full-Stack Builder and Hyper-Leveraged Generalist with Microsoft CEO Satya Nadella",
+      "date": "2026-06-04 07:00 UTC",
+      "duration": "42:26",
+      "link": "https://podcasts.apple.com/us/podcast/the-rise-of-the-full-stack-builder/id1668002688?i=1000771122399&uo=4",
+      "summary_zh": "萨蒂亚·纳德拉：私有评测成企业核心IP，AI驱动全栈开发者与超杠杆通才崛起"
+    }
+  ],
+  "articles": [
+    {
+      "source": "a16z",
+      "title": "A16Z's Global Mission",
+      "date": "2026-06-04 13:25 UTC",
+      "link": "https://www.a16z.news/p/a16zs-global-mission",
+      "chars": 4583,
+      "summary_zh": "a16z宣布全球战略扩张计划。核心判断：技术已成国家地缘竞争的核心工具，a16z正从纯粹的风险投资机构演进为支持美国及其盟友技术战略的全球伙伴。\n\n四项重要举措：**一、**任命前国安局/白宫网络安全官员Anne Neuberger为全球事务总合伙人，推动与盟友在AI、机器人、国防现代化、网络安全及供应链韧性方面的技术合作与政策咨询；**二、**由管理合伙人Raghu Raghuram领导帮助成长期组合公司拓展国际市场，以在美国已验证的关系驱动go-to-market打法适配全球市场，已宣布东京办公室；**三、**\"投资者关系\"部门升级为\"全球合作伙伴\"团队，由管理合伙人Jen Kha主导，引入主权基金等战略资本，为创始人打通全球资本与市场关系；**四、**持续推进全球投资，迄今已完成逾**100项**国际投资，由Gabriel Vasquez和Angela Strange主导海外创始人社区建设。\n\n投资启示：顶级VC的差异化竞争已超越资本范畴，延伸至政治关系、地缘网络和监管合规能力。头部VC正加速向\"技术外交机构\"演进，在美国技术全球竞争战略中扮演更主动的角色。"
+    },
+    {
+      "source": "a16z",
+      "title": "Helping Our Portfolio Companies Expand Globally",
+      "date": "2026-06-04 13:17 UTC",
+      "link": "https://www.a16z.news/p/helping-our-portfolio-companies-expand",
+      "chars": 5227,
+      "summary_zh": "a16z管理合伙人Raghu Raghuram详解公司国际化支持策略。核心背景：技术已成全球战略资产，组合公司需要比以往更早进入国际市场，但往往缺乏本地网络与go-to-market资源。a16z将把在美国验证的关系驱动型商业拓展打法移植至国际市场，辅助创始人建立有组织的长期扩张路径，而非依赖碎片化的单笔交易。\n\n重点布局市场：**日韩台（北亚）**——最重要的地缘政治盟友，AI与国防/机器人需求旺盛，将分别设立驻日和驻韩实体办公室；**中东**——正加速经济多元化转型，对美国技术需求强烈；**欧洲**——英国市场成熟，其余欧洲在文化、法规上差异显著，需定制化策略；**拉丁美洲**——金融、能源、政府服务领域正跨越式升级，政府及企业均有强烈新技术需求；**英语国家**——组合公司通常可独立拓展，短期非优先方向。\n\n投资启示：a16z将人脉网络和go-to-market运营能力输出到国际市场，对于需要早期国际化的AI、国防科技等领域的被投公司具有显著杠杆价值。"
+    },
+    {
+      "source": "a16z",
+      "title": "A16Z Investor Relations is now Global Partnerships",
+      "date": "2026-06-04 13:17 UTC",
+      "link": "https://www.a16z.news/p/a16z-investor-relations-is-now-global",
+      "chars": 4038,
+      "summary_zh": "a16z正式将\"投资者关系\"部门更名为\"全球合作伙伴\"团队，由管理合伙人Jen Kha领导。核心逻辑：技术已从经济细分领域演变为国家主导力的决定性因素，创始人赢得全球市场需要的不只是资本，更是市场准入权、监管关系和分发渠道。\n\n新职能三大支柱：一、将现有LP与顶级创始人的投资及合作机会相连接；二、吸引能带来市场准入、监管影响力和分发能力的新型机构与主权投资者；三、为\"从第一天就全球化\"的创始人链接主权资本和战略技术采购方。\n\n典型案例：**Luma**——促成Luma与沙特HUMAIN AI合作，后者领投**9亿美元**C轮，双方共建**2GW** AI超算集群；**Kalshi**——协助公司与国际政府就预测市场监管框架进行对话；**东京**——随a16z代表团拜访日本首相高市早苗，探索海事自主、AI和网络安全领域合作。\n\n投资启示：a16z正在将\"为LP带来回报\"与\"为美国技术开拓全球市场\"这两个目标深度绑定，主权资本与战略机构投资者的引入将为组合公司带来超越财务资本的战略价值。"
+    },
+    {
+      "source": "a16z",
+      "title": "Technology is Security, for America and Her Allies",
+      "date": "2026-06-04 13:17 UTC",
+      "link": "https://www.a16z.news/p/technology-is-security-for-america",
+      "chars": 5296,
+      "summary_zh": "前国安局/白宫网络安全高级官员Anne Neuberger以a16z新任全球事务总合伙人身份撰文，阐述技术与国家安全深度融合的历史演进与当前战略命题。\n\n**历史脉络**：冷战时期技术为国家垄断（GPS等由国防工业孵化，目标是对苏联的技术优势）→2000年代美国商业技术全球扩张（Wintel架构主导，技术一体化被视为和平机制）→当前中美科技竞争，安全焦点转向数字主权、供应链韧性和基础设施可信性。\n\n**当前战略命题**：一、确保美国及盟友在统一技术基础上协同构建能力；二、推动AI和新技术全球规模化部署——中国开源模型被大规模采用已是现实，需确保美国AI基础设施广泛普及，尤其是国防、航空航天、网络安全领域的创新企业；三、转变盟友关系模式——从\"买卖\"转向\"共建\"，日本之行（会见首相高市早苗、经济大臣Akazawa、国家安全官员及企业CEO）已验证盟友对海事自主、AI、网络安全联合研发的强烈需求。\n\n投资启示：Neuberger的加入标志着a16z已将地缘政治能力正式内化为核心竞争力，国防科技、AI基础设施和网络安全赛道的投资将获得前所未有的政策资源支撑。"
+    }
+  ]
+}
