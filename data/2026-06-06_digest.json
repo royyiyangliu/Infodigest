@@ -1,0 +1,22 @@
+{
+  "fetch_date": "2026-06-06",
+  "fetch_time": "2026-06-05T18:57:17.113742+00:00",
+  "stats": {
+    "new_podcast_episodes": 0,
+    "new_articles": 1,
+    "total_podcasts": 0,
+    "total_articles": 1
+  },
+  "podcasts": [],
+  "articles": [
+    {
+      "source": "a16z",
+      "title": "Charts of the Week: RTO Stalled",
+      "date": "2026-06-05 14:07 UTC",
+      "link": "https://www.a16z.news/p/charts-of-the-week-rto-stalled",
+      "summary": "Remote work to my job?; AI SMB Power Users; Lil’ Biotech",
+      "chars": 14289,
+      "text_file": "data/2026-06-06/articles/a16z__charts_of_the_week_rto_stalled.txt"
+    }
+  ]
+}
