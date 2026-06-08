@@ -46,7 +46,7 @@ SOURCES = [
     {"name": "乱翻书",                     "type": "podcast", "apple_id": "1591595410"},
     # ── 英文播客 ──────────────────────────────────────────────────────────────
     {"name": "Lex Fridman Podcast",       "type": "podcast", "apple_id": "1434243584"},
-    {"name": "Dwarkesh Podcast",          "type": "podcast", "rss": "https://api.substack.com/feed/podcast/69345.rss", "apple_id": "1516093381"},
+    {"name": "Dwarkesh Podcast",          "type": "podcast", "apple_id": "1516093381"},
     {"name": "Latent Space",              "type": "podcast", "apple_id": "1674008350"},
     {"name": "No Priors",                 "type": "podcast", "apple_id": "1668002688"},
     {"name": "BG2Pod",                    "type": "podcast", "apple_id": "1727278168"},
