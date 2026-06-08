@@ -1,0 +1,27 @@
+{
+  "date": "2026-06-09",
+  "generated_at": "2026-06-08T23:34:05.023852+00:00",
+  "stats": {
+    "podcasts": 0,
+    "articles": 2
+  },
+  "podcasts": [],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "China's Unitree Will Dominate Global Robotics",
+      "date": "2026-06-08 16:35 UTC",
+      "link": "https://newsletter.semianalysis.com/p/chinas-unitree-will-dominate-global",
+      "chars": 34551,
+      "summary_zh": "宇树科技（Unitree）正复刻比亚迪与大疆的中国硬件巨头路径：掌控人形机器人核心零部件（执行器占整机BOM的50%-70%），先以研究/爱好者市场为跳板，再逐步攻入量产部署。核心财务指标强劲：G1人形机器人售价已从50,000美元以上压至**27,300美元**，毛利率估算仍高达**67%**；公司收入同比三倍增长，规划年度AI研发投入近**3亿美元**，IPO在即。技术层面，宇树押注准直驱（QDD）执行器，以周级别的迭代速度大幅领先西方对手。最新G1已可在弯臂状态下持续搬运5公斤货物长达**15分钟**，较初代提升约5倍，热约束逐步改善。目前约**250台**G1已在工业环境中试部署，单台每小时综合成本已低于**30美元**人工红线，在电商分拣等轻量级物料搬运场景初步具备经济可行性。中国现有约200家人形机器人企业共享宇树带动的供应链生态，西方对手在成本与交付周期上均难以匹敌。"
+    },
+    {
+      "source": "Citrini",
+      "title": "State of the Themes: June 2026",
+      "date": "2026-06-08 13:06 UTC",
+      "link": "https://www.citriniresearch.com/p/state-of-the-themes-june-2026",
+      "chars": 10659,
+      "summary_zh": "Citrini主题投资组合三年度回顾：六大主题篮中四个跑赢美股大盘，AI与机器人领涨。文章核心聚焦\"Token恐慌\"现象：AI用量爆炸式增长推高企业成本，Anthropic年化ARR已在5月飙升至**450亿美元**（年初以来增长5倍），但也导致企业端普遍出现AI预算超支——Uber四个月耗尽全年AI预算，某案例单次损失达**5亿美元**。OpenAI、Anthropic、微软、谷歌近期均推行按Token计费定价转型，免费补贴时代结束；微软已于5月取消Claude Code许可证。与此同时，中国模型（Qwen 3.7、Deepseek V4）性能接近顶级美国模型，价格却便宜**10-25倍**；Deepseek V4已在OpenRouter月度Token处理量上反超Anthropic；Cursor基于月之暗面开源模型、经xAI算力微调后推出新模型，成本仅为同级别美国模型的十分之一。作者判断：前沿大模型收入仍将增长，但\"够用即可\"逻辑将主导多数场景，本地推理、模型轻量化、智能路由、可观测性与价格竞争将成为下一阶段最重要的投资主线。"
+    }
+  ]
+}
