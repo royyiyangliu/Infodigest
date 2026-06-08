@@ -80,12 +80,10 @@ def mark_seen(con, guid, source, title, link, pub_date, item_type):
     con.commit()
 
 # ── RSS URL resolution ────────────────────────────────────────────────────────
-def itunes_lookup(apple_id, con, force_refresh=False):
-    """Resolve Apple Podcasts ID → RSS URL, with DB cache."""
-    if not force_refresh:
-        row = con.execute("SELECT rss_url FROM rss_cache WHERE key=?", (apple_id,)).fetchone()
-        if row:
-            return row[0]
+def itunes_lookup(apple_id, con):
+    """Resolve Apple Podcasts ID → RSS URL. Always queries iTunes (authoritative source);
+    falls back to DB cache only if the iTunes request fails."""
+    cached = con.execute("SELECT rss_url FROM rss_cache WHERE key=?", (apple_id,)).fetchone()
     try:
         r = requests.get(f"https://itunes.apple.com/lookup?id={apple_id}",
                          headers=HEADERS, timeout=10)
@@ -98,17 +96,17 @@ def itunes_lookup(apple_id, con, force_refresh=False):
             return rss_url
     except Exception as e:
         print(f"    [iTunes] {e}")
+    if cached:
+        print(f"    [iTunes] 使用缓存地址作为备用")
+        return cached[0]
     return None
 
 def discover_rss(archive_url, con):
-    """Find RSS feed for an archive page: check cache, try /feed, parse HTML <link>."""
+    """Find RSS feed for an archive page. Always re-discovers from the live page;
+    falls back to DB cache only if the live request fails."""
     cache_key = f"archive:{archive_url}"
-    row = con.execute("SELECT rss_url FROM rss_cache WHERE key=?", (cache_key,)).fetchone()
-    if row:
-        return row[0]
 
     candidates = []
-    # Parse HTML for <link rel="alternate" type="...rss+xml"> or atom
     try:
         r = requests.get(archive_url, headers=HEADERS, timeout=12)
         soup = BeautifulSoup(r.text, "html.parser")
@@ -134,6 +132,12 @@ def discover_rss(archive_url, con):
                 return url
         except Exception:
             pass
+
+    # Live discovery failed — fall back to last known good URL
+    cached = con.execute("SELECT rss_url FROM rss_cache WHERE key=?", (cache_key,)).fetchone()
+    if cached:
+        print(f"    [archive] 发现失败，使用缓存地址作为备用")
+        return cached[0]
     return None
 
 def get_rss_url(source, con):
@@ -247,12 +251,6 @@ def fetch_source(source, con, max_items, first_run):
         return [], []
 
     feed = feedparser.parse(rss_url, request_headers=HEADERS)
-    if not feed.entries and source.get("apple_id") and not source.get("rss"):
-        # Cached URL returned empty feed — stale cache. Re-query iTunes for the current URL.
-        print(f"    [WARN] 缓存的 RSS 无条目，重新查询 iTunes ({rss_url})")
-        rss_url = itunes_lookup(source["apple_id"], con, force_refresh=True)
-        if rss_url:
-            feed = feedparser.parse(rss_url, request_headers=HEADERS)
     if not feed.entries:
         print(f"    [SKIP] Feed 无条目 ({rss_url})")
         return [], []
