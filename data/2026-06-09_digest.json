@@ -1,0 +1,31 @@
+{
+  "fetch_date": "2026-06-09",
+  "fetch_time": "2026-06-08T19:21:20.223971+00:00",
+  "stats": {
+    "new_podcast_episodes": 0,
+    "new_articles": 2,
+    "total_podcasts": 0,
+    "total_articles": 2
+  },
+  "podcasts": [],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "China's Unitree Will Dominate Global Robotics",
+      "date": "2026-06-08 16:35 UTC",
+      "link": "https://newsletter.semianalysis.com/p/chinas-unitree-will-dominate-global",
+      "summary": "The Fastest Iteration Cycle In Next-Gen Robotics Should See Unprecedented Acceleration",
+      "chars": 34551,
+      "text_file": "data/2026-06-09/articles/semianalysis__chinas_unitree_will_dominate_global_robotics.txt"
+    },
+    {
+      "source": "Citrini",
+      "title": "State of the Themes: June 2026",
+      "date": "2026-06-08 13:06 UTC",
+      "link": "https://www.citriniresearch.com/p/state-of-the-themes-june-2026",
+      "summary": "Updating Our Thematic Universe",
+      "chars": 10659,
+      "text_file": "data/2026-06-09/articles/citrini__state_of_the_themes_june_2026.txt"
+    }
+  ]
+}

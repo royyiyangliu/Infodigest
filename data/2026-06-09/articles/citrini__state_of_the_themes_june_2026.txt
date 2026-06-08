@@ -1,0 +1,107 @@
+Source  : Citrini
+Title   : State of the Themes: June 2026
+Date    : 2026-06-08 13:06 UTC
+Link    : https://www.citriniresearch.com/p/state-of-the-themes-june-2026
+────────────────────────────────────────────────────────────
+
+Since it’s been a bit over three years since the inception of the
+Citrindex,
+we think it’s a good opportunity to zoom out and take stock of the thematic universes we track – or as we call it, a
+State of The Themes
+.
+Our last State of the Themes was in August 2025. You can read it
+here
+. In it, we called Google the most asymmetric large cap AI winner (GOOG doubled over the next 9 months), we published our bullish thesis on Korea (KOSPI tripled since) and called for Taiwan to outperform the US (TWSE Index has outperformed QQQ by more than 60%).
+If you’re a new reader, our thematic equity coverage spans hundreds of securities organized by basket. These baskets represent securities with convexity to themes we feel are enduring in the market. However, while the themes stay consistent the companies that benefit from them are constantly in flux. For example,
+Fiscal Primacy,
+the idea that government spending is a growing determinant of market performance, may look very different from one year to the next depending on who is in the White House.
+Dynamic AI
+might shift between hardware, software, construction, and engineering. The beneficiaries will change, but the underlying driver remains.
+We manage our exposure to these themes in a model portfolio we call the Citrindex. All of our holdings and real time changes can be found at
+Citrindex.com
+and are updated weekly on
+Substack
+.
+Four out of the six thematic baskets have outperformed the broader US market so far this year. It’s no surprise that AI and Robotics are leading, but we are also wary of the aggressive price action since early April. We’ve been participants in the upside for the most part, even if we’ve been too cautious at points — like cutting memory exposure early in the year. Other themes like NatGas & Energy and Fiscal Primacy helped balance the portfolio through the Iran sell-off and give us upside to the commodity cycle.
+But enough with past performance. The purpose of this
+State of The Themes
+is both to provide updates to topics we’ve covered in the past while also introducing new ideas that fit our thematic buckets or are just interesting stock pitches.
+It’s everything we are thinking about
+right now
+…
+Table of Contents
+Artificial Intelligence
+Token Panic
+Edge AI and Inference On-Device
+Flash Point: Ways Past the DRAM Tax
+Agentic Utilities Update
+AI Losers
+Robotics
+Custom Silicon
+Fiscal Primacy
+EU Chips Act
+Colombia
+NatGas & Energy
+Oil Capex Cycle
+26 Trades for 26 Updates
+The Girlfriend Index
+GOP Loses the House
+Oncology
+New Ideas
+Shopify
+Hyperliquid
+Healthcare’s Cyclical Inflection
+Artificial Intelligence
+If we are taking stock of thematic performance, it’s clear cut what wins in terms of both performance and investor mindshare – AI. Every AI infrastructure adjacent theme we’ve covered has done well this year.
+But after such a rally, we should keep a careful ear towards a shift in market tone, especially as narratives, leverage, positioning and reflexivity intertwine. Friday was a good reminder that it’s easy to feel smart, then quickly dumb, in a crowded market.
+We think the selloff, which hammered most popular trades across the market, was primarily a natural reversion in extended positioning after a blistering rally. But we are paying attention to narratives that will shape where the money flows moving forward…
+Token Panic
+In just weeks we’ve gone from
+tokenmaxxing
+to
+tokenpanic
+.
+In March, we and many others were writing about the astounding growth in token consumption driven by the release of agents and more intensive models. This was enough to send the infrastructure trade sharply higher – the market value of the semiconductor industry doubled in two months.
+But that goldilocks narrative is beginning to hit a wall. The corollary of explosive token usage is explosive cost to customers, which is coming just as the US labs and hyperscalers are turning up the dial on monetization. The public story is increasingly turning to corporate pushback.
+The first real signs of this shift were from the much-discussed report of Uber burning through its entire AI budget in just four months.
+Then there was the anonymous report of a $500 million oopsie.
+In the past week, the idea has turned into a media avalanche.
+According to The Economist’s reporting, Anthropic’s ARR has increased 5x since the start of the year, reaching $45 billion in May. Great for the lab, but it also means the “AI Opex” line item on P&Ls is going through the roof.
+The issue is not just Anthropic. Sam Altman also confirmed that
+all of a sudden
+cost is a huge issue (and acknowledged the virality of the idea).
+“
+Probably the second biggest theme is just around cost.
+People are really saying, it’s kind of become a meme now, but, “My company spent my entire 2026 budget in Q1. Can you make this more efficient?” We are continuing to push on that more with models. I think we’ll have a lot of ways we can help people get more value for less spend, but that went from, at the beginning of this year, an issue that never came up. I know.
+People were totally happy with the amount they were spending, to all of a sudden, a huge issue.
+”
+Microsoft’s AI Chief added to the unflattery this week after cancelling Claude Code licenses in May.
+“Anthropic is extremely expensive, and I think many people are urgently looking for alternatives”
+This cost concern didn’t just come out of nowhere.
+First, agents and more advanced reasoning models use orders of magnitude greater tokens. Corporates have widely distributed these tools and encouraged their use just as the average user was gaining the ability to casually run enormous bills.
+Second, prices for frontier models are increasing as providers are flipping to usage models and preparing for public market debuts. In a unified front – OpenAI, Anthropic, Microsoft, and Google – have all implemented pricing shifts towards usage/tokens, as they simply can’t afford to endlessly subsidize their products for power users.
+April 2: OpenAI changed Codex pricing to align with API token usage instead of per-message pricing
+May 19: Google changed Gemini subscriptions from “daily prompt limits” to a “compute-used” model.
+June 1: Microsoft’s GitHub Copilot transitioned to usage based billing
+And what does a rate sheet mean really if you have no idea what your usage burns in practice? Claude’s Opus 4.7 & 4.8 have the same “list price”  as prior versions, but use a “new tokenizer” that may use up to 35% more tokens for the same fixed text.
+Is this an existential problem or just the VC playbook at unimaginable scale? Subsidize demand, gain market share and lock-in, then monetize. After all, companies are spending a trillion in capex to make trillions in revenue, right?
+Well either way we’ve reached
+Monetization
+, and maybe not by choice. As fast as lab revenue is growing, the fundraising has grown even faster.
+The money going towards building and running AI has exploded. The deepest pockets in the world – hyperscaler cash flow, venture capital, sovereign wealth, public credit, private credit, public equity – are footing most of the bill. Eventually, customers have to start picking up the tab.
+Free-AI is ending. Tokenomics is beginning.
+What happens when underlying costs of compute become more transparent and directly traceable to outcomes? The ROI debate is about to be answered in real time, across millions of users and use cases.
+For the median user, maybe not a whole lot changes. But science projects, freewheeling agents, and curiosities will either get cut or offloaded to open source models. Companies will restrict AI functionality and invest in oversight and observability. Budget constraints will pit AI spend against headcounts. Providers will become more competitive on pricing and will begin to optimize physical and digital architecture for efficiencies.
+In many (most) situations, good enough will do.
+The cost of running open-source, discount, or mini models is going down while their capabilities only improve. This week saw another batch of open source models like Nvidia latest Nemotron family which includes advanced general-purpose models as well as highly efficient, compact versions optimized for local deployment and specialized agentic uses. As the frontier continues to advance, inference costs drop precipitously for a fixed level of intelligence. Why rent a Ferrari when a Vespa does the trick?
+Of course, frontier models with highly specialized functions can continue to command an intense premium, but will serve a smaller segment of the market. A top lawyer can still bill at thousands per hour, even if millions of other workers are making minimum wage.
+But even across the high end, the gap between US and Chinese offerings is worth noting. Qwen 3.7 and Deepseek V4 are still behind Opus 4.8 and GPT 5.5 in terms of benchmarks, but they are 10x - 25x cheaper.
+Since releasing V4 Pro and V4 Flash in April, Deepseek has shot past Anthropic to the top of the charts on OpenRouter in terms of tokens processed.
+Meanwhile, Cursor, one of the most used coding agents, released their new model that was post-trained on compute provided by xAI after their $10 billion deal. The base model is a different Chinese open source model by Moonshot and it was trained on data Cursor gets from its customers. The results are even stronger than Deepseek, it’s comparable to 4.7 and 5.5 for 10x lower cost per task and is one of the fastest frontier models.
+There are obvious other “considerations” for large US enterprises that may prevent a mass exodus to Chinese alternatives.  Plus, greater integration into workflows adds to lock-in. But there is a growing trend of application layer companies that will continue to post-train on open source base models for specialized workflows like coding and legal.
+But what does this mean for the AI trade?
+First, to be clear, revenues for labs and hyperscalers are going to grow. Token usage for top Anthropic models continues to go higher. Regardless of the pushback, frontier models can certainly create meaningful value especially in high-stakes fields like tech and finance, and there are still plenty of levers to pull in the monetization phase. The entire point is for them to start making money.
+Likewise, this won’t fix near-term compute constraints.
+But we do think that cost and efficiency only become more important as the bills get bigger. Themes of local inference, miniaturization, smart routing, observability, price competition, and efficient model architecture will grow. Competitive pressures and price competition are likely to stay.
+Which leads us directly to another topic we’ve been writing about for a while…
+Read more
