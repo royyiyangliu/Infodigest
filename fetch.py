@@ -80,11 +80,12 @@ def mark_seen(con, guid, source, title, link, pub_date, item_type):
     con.commit()
 
 # ── RSS URL resolution ────────────────────────────────────────────────────────
-def itunes_lookup(apple_id, con):
+def itunes_lookup(apple_id, con, force_refresh=False):
     """Resolve Apple Podcasts ID → RSS URL, with DB cache."""
-    row = con.execute("SELECT rss_url FROM rss_cache WHERE key=?", (apple_id,)).fetchone()
-    if row:
-        return row[0]
+    if not force_refresh:
+        row = con.execute("SELECT rss_url FROM rss_cache WHERE key=?", (apple_id,)).fetchone()
+        if row:
+            return row[0]
     try:
         r = requests.get(f"https://itunes.apple.com/lookup?id={apple_id}",
                          headers=HEADERS, timeout=10)
@@ -246,6 +247,12 @@ def fetch_source(source, con, max_items, first_run):
         return [], []
 
     feed = feedparser.parse(rss_url, request_headers=HEADERS)
+    if not feed.entries and source.get("apple_id") and not source.get("rss"):
+        # Cached URL returned empty feed — stale cache. Re-query iTunes for the current URL.
+        print(f"    [WARN] 缓存的 RSS 无条目，重新查询 iTunes ({rss_url})")
+        rss_url = itunes_lookup(source["apple_id"], con, force_refresh=True)
+        if rss_url:
+            feed = feedparser.parse(rss_url, request_headers=HEADERS)
     if not feed.entries:
         print(f"    [SKIP] Feed 无条目 ({rss_url})")
         return [], []
