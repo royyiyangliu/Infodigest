@@ -252,7 +252,11 @@ def fetch_source(source, con, max_items, first_run):
 
     feed = feedparser.parse(rss_url, request_headers=HEADERS)
     if not feed.entries:
+        status = getattr(feed, "status", "N/A")
+        bozo   = getattr(feed, "bozo", False)
+        bozo_ex = str(getattr(feed, "bozo_exception", "")) if bozo else ""
         print(f"    [SKIP] Feed 无条目 ({rss_url})")
+        print(f"           HTTP {status} | bozo={bozo}{': ' + bozo_ex if bozo_ex else ''}")
         return [], []
 
     print(f"    RSS: {rss_url}")
