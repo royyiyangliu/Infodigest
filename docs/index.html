@@ -206,10 +206,9 @@
 <!-- Tab 1: Digest -->
 <div id="pane-digest" class="pane active" role="tabpanel">
   <div class="digest-stats" id="digest-stats"></div>
-  <main id="digest-main">
-    <div id="digest-loading">正在加载当日摘要…</div>
-    <div id="digest-error"></div>
-  </main>
+  <div id="digest-loading">正在加载当日摘要…</div>
+  <div id="digest-error"></div>
+  <main id="digest-main"></main>
 </div>
 
 <!-- Tab 2: Podcast -->
@@ -364,8 +363,10 @@ function loadDigest(date) {
   const loadingEl = document.getElementById('digest-loading');
   const errorEl   = document.getElementById('digest-error');
   const statsEl   = document.getElementById('digest-stats');
+  const mainEl    = document.getElementById('digest-main');
 
-  loadingEl.textContent = '正在加载当日摘要…';
+  mainEl.innerHTML = '';
+  loadingEl.textContent = '正在加载…';
   loadingEl.style.display = '';
   errorEl.style.display = 'none';
   statsEl.style.display = 'none';
