@@ -19,28 +19,22 @@ python pipeline.py "$ARGUMENTS"
 - **小宇宙**：从页面 HTML 的 `__NEXT_DATA__` JSON 中提取 `enclosure.url`，语言默认 `zh`
 - 自动跟随 CDN 重定向（Substack 等签名 URL 均可处理）
 - 提交给阿里云百炼 Fun-ASR（`fun-asr` 模型，`diarization_enabled=True`）
-- 轮询直到 SUCCEEDED，将转录保存为 `YYMMDD-<title>/transcript.txt`
+- 轮询直到 SUCCEEDED，将转录保存为 `docs/podcast/YYMMDD-<title>/transcript.txt`
 - 自动更新 `docs/podcast-episodes.json`（description 字段为空，Step 4 补充）
 
 等 pipeline.py 成功返回后，记录：
-- `ep_id`：集目录名（如 `260609-Episode-Title`，位于 repo 根目录）
+- `ep_id`：集目录名（如 `260609-Episode-Title`）
 - `title`：节目标题
 - `podcast_name`：播客名称
 - `language`：`en` 或 `zh`
 
 ### Step 2：读取转录全文
 
-读取 `<ep_id>/transcript.txt`，这是带时间戳和说话人标签的纯文本。
+读取 `docs/podcast/<ep_id>/transcript.txt`，这是带时间戳和说话人标签的纯文本。
 
 ### Step 3：生成投资者摘要 HTML
 
-先创建目标目录：
-
-```bash
-mkdir -p "docs/podcast/<ep_id>"
-```
-
-根据转录全文，生成 **`docs/podcast/<ep_id>/summary.html`**，要求：
+目录由 pipeline.py 已创建，直接生成 **`docs/podcast/<ep_id>/summary.html`**，要求：
 
 **内容要求：**
 - 从**投资者视角**对访谈全文进行提炼总结
@@ -96,7 +90,7 @@ manifest.write_text(json.dumps(episodes, ensure_ascii=False, indent=2) + "\n")
 ### Step 5：Git commit & push
 
 ```bash
-git add "<ep_id>/" "docs/podcast/<ep_id>/summary.html" docs/podcast-episodes.json
+git add "docs/podcast/<ep_id>/" docs/podcast-episodes.json
 git commit -m "Add podcast: <title>
 
 转录：阿里云百炼 Fun-ASR，<language>，说话人分离
@@ -115,21 +109,19 @@ git push
 - **Substack/CDN 音频**：pipeline.py 已自动跟随重定向，无需手动处理
 - **语言判断**：RSS `<language>` 标签为 `en` 开头则用 `['en']`，`zh` 开头则用 `['zh']`；其他默认 `['zh']`
 - 转录完成后，`transcript.txt` 不会删除，可供后续重新生成摘要
-- `transcript.txt` 存于 repo 根目录的 `<ep_id>/` 下，**不放入 `docs/`**（不需要被 GitHub Pages 提供服务）
 
 ## 目录结构说明
 
 ```
-Infodgigest/
+Infodigest/
 ├── pipeline.py                          # 转录脚本
-├── <ep_id>/                             # 转录产物（非 Pages 内容）
-│   ├── transcript.txt
-│   └── source.url
 └── docs/
     ├── index.html                       # 主页（含 Tab 2 播客摘要）
     ├── podcast-episodes.json            # 播客集索引
     └── podcast/
-        └── <ep_id>/
+        └── <ep_id>/                     # 每集所有内容统一存放
+            ├── transcript.txt           # 带时间戳和说话人标签的转录原文
+            ├── source.url               # 原始播客 URL 存档
             └── summary.html             # GitHub Pages 提供服务的摘要页
 ```
 
@@ -138,8 +130,8 @@ Infodgigest/
 | 文件 | 作用 |
 |------|------|
 | `pipeline.py` | URL解析 + ASR提交/轮询 + 保存transcript + 写入podcast-episodes.json |
-| `<ep_id>/transcript.txt` | 带时间戳和说话人标签的转录原文 |
-| `<ep_id>/source.url` | 原始播客 URL 存档 |
+| `docs/podcast/<ep_id>/transcript.txt` | 带时间戳和说话人标签的转录原文 |
+| `docs/podcast/<ep_id>/source.url` | 原始播客 URL 存档 |
 | `docs/podcast-episodes.json` | 所有集的元数据，供播客摘要 Tab 读取 |
 | `docs/podcast/<ep_id>/summary.html` | 投资者视角中文摘要（GitHub Pages 页面）|
 | `docs/index.html` | 主页（Tab 1: AI 信息日报 / Tab 2: 播客研究摘要）|
