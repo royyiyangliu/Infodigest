@@ -266,6 +266,12 @@ function switchTab(target) {
 tabBtns.forEach(btn => btn.addEventListener('click', () => switchTab(btn.dataset.pane)));
 
 // ─── Digest rendering ─────────────────────────────────────────────────────────
+function fmtBJ(iso) {
+  if (!iso) return '';
+  const d = new Date(iso);
+  return new Date(d.getTime() + 8 * 3600 * 1000).toISOString().slice(0, 16).replace('T', ' ') + ' (北京)';
+}
+
 function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 function dot() { return '<span style="color:#d1d5db"> · </span>'; }
 
@@ -325,7 +331,7 @@ function renderDigest(data) {
     `<span class="dsep">·</span>` +
     `<span>文章：<strong>${arts.length}</strong> 篇</span>` +
     `<span class="dsep">·</span>` +
-    `<span>生成：<strong>${(data.generated_at||'').slice(0,16).replace('T',' ')}</strong></span>`;
+    `<span>生成：<strong>${fmtBJ(data.generated_at)}</strong></span>`;
 
   let html = '';
   if (pods.length) {
