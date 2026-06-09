@@ -1,6 +1,6 @@
 """
 Podcast transcription pipeline.
-Usage: python pipeline.py <apple_podcast_url>
+Usage: python pipeline.py <apple_podcast_url_or_xiaoyuzhoufm_url>
 """
 import os, sys, time, json, re, requests, xml.etree.ElementTree as ET
 from datetime import datetime
@@ -70,6 +70,39 @@ def parse_apple_podcast(url: str) -> tuple[str, str, str, str]:
     if enclosure is None:
         raise ValueError("No enclosure found in episode")
     audio_url = enclosure.get("url")
+    print(f"[parse] Title: {title}")
+    print(f"[parse] Language: {language}")
+    print(f"[parse] Audio: {audio_url[:80]}...")
+    return audio_url, title, language, podcast_name
+
+
+def parse_xiaoyuzhoufm(url: str) -> tuple[str, str, str, str]:
+    """Return (audio_url, episode_title, language, podcast_name) for xiaoyuzhoufm."""
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/120.0.0.0 Safari/537.36"
+        )
+    }
+    resp = requests.get(url, headers=headers, timeout=30)
+    resp.raise_for_status()
+    html = resp.text
+
+    m = re.search(r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>', html, re.DOTALL)
+    if not m:
+        raise ValueError("Cannot find __NEXT_DATA__ in xiaoyuzhoufm page")
+
+    data = json.loads(m.group(1))
+    ep = data["props"]["pageProps"]["episode"]
+
+    audio_url = ep["enclosure"]["url"]
+    title = ep["title"].strip()
+    podcast_name = ep.get("podcast", {}).get("title", "小宇宙播客").strip()
+    # xiaoyuzhoufm episodes are predominantly Chinese
+    language = "zh"
+
+    print(f"[parse] Podcast: {podcast_name}")
     print(f"[parse] Title: {title}")
     print(f"[parse] Language: {language}")
     print(f"[parse] Audio: {audio_url[:80]}...")
@@ -147,7 +180,8 @@ def extract_transcript(result: dict) -> str:
     """Download transcript JSON and return plain text with speaker labels."""
     results = result["output"]["results"]
     transcript_url = results[0]["transcription_url"]
-    tr = requests.get(transcript_url, timeout=60).json()
+    r = requests.get(transcript_url, timeout=60)
+    tr = json.loads(r.content)
 
     lines = []
     for transcript in tr.get("transcripts", []):
@@ -197,7 +231,10 @@ def main():
         sys.exit(1)
 
     url = sys.argv[1]
-    audio_url, title, language, podcast_name = parse_apple_podcast(url)
+    if "xiaoyuzhoufm.com" in url:
+        audio_url, title, language, podcast_name = parse_xiaoyuzhoufm(url)
+    else:
+        audio_url, title, language, podcast_name = parse_apple_podcast(url)
     ep_dir = make_episode_dir(title, url)
 
     task_id = submit_job(audio_url, language)
