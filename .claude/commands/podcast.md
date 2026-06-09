@@ -15,9 +15,10 @@ python pipeline.py "$ARGUMENTS"
 ```
 
 `pipeline.py` 会：
-- 解析 URL，通过 iTunes API + RSS 提取音频直链（Apple Podcast）
-- 自动跟随 CDN 重定向
-- 检测语言（`en` 或 `zh`），提交给阿里云百炼 Fun-ASR（`fun-asr` 模型，`diarization_enabled=True`）
+- **Apple Podcast**：通过 iTunes API + RSS 提取音频直链，从 RSS `<language>` 标签判断语言
+- **小宇宙**：从页面 HTML 的 `__NEXT_DATA__` JSON 中提取 `enclosure.url`，语言默认 `zh`
+- 自动跟随 CDN 重定向（Substack 等签名 URL 均可处理）
+- 提交给阿里云百炼 Fun-ASR（`fun-asr` 模型，`diarization_enabled=True`）
 - 轮询直到 SUCCEEDED，将转录保存为 `YYMMDD-<title>/transcript.txt`
 - 自动更新 `docs/podcast-episodes.json`（description 字段为空，Step 4 补充）
 
@@ -109,7 +110,7 @@ git push
 
 - **API Key**：`DASHSCOPE_API_KEY` 环境变量必须已配置
 - **Apple Podcast URL 格式**：`https://podcasts.apple.com/.../id{podcast_id}?i={episode_id}`
-- **小宇宙 URL**：从页面 HTML 的 `__NEXT_DATA__` JSON 中提取 `enclosure.url`（pipeline.py 尚未实现，需手动添加解析逻辑）
+- **小宇宙 URL**：从页面 HTML 的 `__NEXT_DATA__` JSON 中提取 `enclosure.url`，语言默认 `zh`（已在 pipeline.py 中原生支持）
 - **转录时间**：30分钟音频约需2-3分钟，90分钟约需5-8分钟
 - **Substack/CDN 音频**：pipeline.py 已自动跟随重定向，无需手动处理
 - **语言判断**：RSS `<language>` 标签为 `en` 开头则用 `['en']`，`zh` 开头则用 `['zh']`；其他默认 `['zh']`
