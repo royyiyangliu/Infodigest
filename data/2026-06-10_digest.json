@@ -1,0 +1,31 @@
+{
+  "fetch_date": "2026-06-10",
+  "fetch_time": "2026-06-09T19:12:28.539301+00:00",
+  "stats": {
+    "new_podcast_episodes": 0,
+    "new_articles": 2,
+    "total_podcasts": 0,
+    "total_articles": 2
+  },
+  "podcasts": [],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "DeepSeekV4 1.6T Day 0 to Day 43 Performance Over Time - Huawei, GB300 NVL72, MI355X, B200",
+      "date": "2026-06-09 12:15 UTC",
+      "link": "https://newsletter.semianalysis.com/p/deepseekv4-16t-day-0-to-day-43-performance",
+      "summary": "Day 0 Inference Performance, InferenceX, 100x performance improvement in 26 Days, Cost per Million Tokens, Huawei 950DT Inference Trace Analysis",
+      "chars": 39114,
+      "text_file": "data/2026-06-10/articles/semianalysis__deepseekv4_16t_day_0_to_day_43_performance_ov.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Month-End Is Now Just Another Day",
+      "date": "2026-06-09 14:04 UTC",
+      "link": "https://www.a16z.news/p/month-end-is-now-just-another-day",
+      "summary": "What a difference a modern ERP makes",
+      "chars": 8264,
+      "text_file": "data/2026-06-10/articles/a16z__month-end_is_now_just_another_day.txt"
+    }
+  ]
+}
