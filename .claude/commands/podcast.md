@@ -95,11 +95,10 @@ git commit -m "Add podcast: <title>
 
 转录：阿里云百炼 Fun-ASR，<language>，说话人分离
 总结：投资者视角中文 HTML"
-git push
 git push origin HEAD:main
 ```
 
-`git push origin HEAD:main` 将当前分支直接推送到 main，GitHub Pages 立即触发部署，无需手动 PR/merge。
+直接推送到 main，GitHub Pages 立即触发部署。
 
 ---
 

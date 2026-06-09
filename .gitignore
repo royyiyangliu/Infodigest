@@ -6,9 +6,6 @@ __pycache__/
 .venv/
 venv/
 
-# Claude Code
-.claude/
-
 # 调试/测试脚本（开发用，不进仓库）
 test_*.py
 diag_*.py
