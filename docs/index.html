@@ -5,480 +5,84 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI 信息日报</title>
 <style>
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
     font-family: "PingFang SC", "Helvetica Neue", "Microsoft YaHei", Arial, sans-serif;
     background: #f5f6fa; color: #1a1a2e; line-height: 1.7;
     min-height: 100vh; display: flex; flex-direction: column;
   }
-
-  /* ── Header ── */
   header {
     background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-    color: #fff; padding: 16px 40px;
-    display: flex; align-items: center; justify-content: space-between; gap: 16px;
-    flex-shrink: 0;
+    color: #fff; padding: 48px 40px 36px; text-align: center;
   }
-  .header-left h1 { font-size: 22px; font-weight: 700; letter-spacing: 1px; }
-  .header-left p  { font-size: 12px; color: #a0c4d8; margin-top: 2px; }
-
-  #date-picker-wrap {
-    display: none; align-items: center; gap: 8px; flex-shrink: 0;
-  }
-  #date-picker-label { font-size: 12px; color: #a0c4d8; white-space: nowrap; }
-  #digest-date-select {
-    background: rgba(255,255,255,.14); color: #fff;
-    border: 1px solid rgba(255,255,255,.28); border-radius: 7px;
-    padding: 5px 10px; font-size: 13px; cursor: pointer; outline: none;
-    transition: background .15s;
-  }
-  #digest-date-select:hover  { background: rgba(255,255,255,.22); }
-  #digest-date-select option { background: #1e3a5f; color: #fff; }
-
-  /* ── Tab bar ── */
-  .tab-bar {
-    background: #fff; border-bottom: 2px solid #e0e4ee;
-    display: flex; padding: 0 40px;
-    position: sticky; top: 0; z-index: 20;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.04);
-  }
-  .tab-btn {
-    padding: 14px 24px; font-size: 15px; font-weight: 600; color: #6b7280;
-    background: none; border: none; border-bottom: 3px solid transparent;
-    margin-bottom: -2px; cursor: pointer;
-    transition: color .15s, border-color .15s; white-space: nowrap;
-  }
-  .tab-btn:hover  { color: #1d6fa4; }
-  .tab-btn.active { color: #1a3a5c; border-bottom-color: #2563eb; }
-
-  .pane { display: none; flex: 1; }
-  .pane.active { display: block; }
-
-  /* ── Tab 1: Digest content ── */
-  .digest-stats {
-    background: #fff; padding: 10px 32px;
-    display: none; flex-wrap: wrap; gap: 6px 20px;
-    border-bottom: 1px solid #e8ecf4; font-size: 13px; color: #6b7280;
-  }
-  .digest-stats strong { color: #1a1a2e; }
-  .digest-stats .dsep { color: #d1d5db; }
-
-  #digest-main { max-width: 1100px; margin: 0 auto; padding: 24px 24px 60px; }
-  #digest-loading { text-align: center; padding: 80px 20px; color: #6b7280; font-size: 15px; }
-  #digest-error   { display: none; text-align: center; padding: 80px 20px; color: #ef4444; font-size: 15px; }
-
-  .section-hd { display: flex; align-items: center; gap: 12px; margin: 36px 0 18px; }
-  .section-hd:first-child { margin-top: 0; }
-  .d-badge {
-    font-size: 11px; font-weight: 700; letter-spacing: 1px; padding: 3px 10px;
-    border-radius: 20px; text-transform: uppercase;
-  }
-  .d-badge-p { background: #e3f2fd; color: #1565C0; }
-  .d-badge-a { background: #e8f5e9; color: #2e7d32; }
-  .section-hd h2 { font-size: 19px; font-weight: 700; }
-  .section-cnt    { font-size: 13px; color: #9ca3af; margin-left: auto; }
-
-  .src-group { margin-bottom: 26px; }
-  .src-label {
-    font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase;
-    color: #9ca3af; padding: 0 2px 8px; border-bottom: 1px solid #e8ecf4; margin-bottom: 10px;
-  }
-  .d-card {
+  header h1 { font-size: 32px; font-weight: 700; letter-spacing: 1px; margin-bottom: 10px; }
+  header p { font-size: 15px; color: #a0c4d8; }
+  main { max-width: 720px; margin: 48px auto; padding: 0 24px; flex: 1; }
+  h2 { font-size: 14px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase;
+       color: #9ca3af; margin-bottom: 16px; }
+  .list { list-style: none; }
+  .list li {
     background: #fff; border: 1px solid #e8ecf4; border-radius: 10px;
-    padding: 16px 20px; margin-bottom: 10px; transition: box-shadow .2s, border-color .2s;
+    margin-bottom: 10px; transition: box-shadow .2s, border-color .2s;
   }
-  .d-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,.07); border-color: #c8d6e8; }
-  .d-card-title { margin-bottom: 8px; }
-  .d-card-title a {
-    font-size: 15px; font-weight: 600; color: #1a3a5c;
-    text-decoration: none; line-height: 1.5;
+  .list li:hover { box-shadow: 0 4px 16px rgba(0,0,0,.08); border-color: #c8d6e8; }
+  .list a {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 18px 22px; text-decoration: none; color: #1a3a5c;
   }
-  .d-card-title a:hover { color: #1d6fa4; text-decoration: underline; }
-  .d-card-title span { font-size: 15px; font-weight: 600; color: #1a3a5c; line-height: 1.5; }
-  .d-meta {
-    display: flex; flex-wrap: wrap; gap: 5px 14px;
-    font-size: 12px; color: #8a94a6; margin-bottom: 9px;
-  }
-  .d-summary { font-size: 14px; color: #374151; line-height: 1.8; }
-  .d-article .d-summary { color: #1f2937; }
-
-  /* ── Tab 2: Podcast ── */
-  :root {
-    --blue: #2563eb; --blue-light: #eff6ff; --blue-mid: #bfdbfe;
-    --muted: #6b7280; --border: #e5e7eb; --radius: 10px;
-  }
-  .filter-bar {
-    background: #fff; border-bottom: 1px solid var(--border);
-    padding: 16px 24px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center;
-    position: sticky; top: 53px; z-index: 10;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
-  }
-  .filter-group { display: flex; align-items: center; gap: 6px; }
-  .filter-label  { font-size: 0.82rem; color: var(--muted); white-space: nowrap; font-weight: 500; }
-  .filter-bar select, .filter-bar input[type="date"] {
-    border: 1px solid var(--border); border-radius: 6px; padding: 5px 10px;
-    font-size: 0.88rem; color: #1a1a2e; background: #fff; cursor: pointer;
-    outline: none; transition: border-color .15s;
-  }
-  .filter-bar select:focus, .filter-bar input[type="date"]:focus { border-color: var(--blue); }
-  .filter-sep { color: var(--muted); font-size: 0.82rem; }
-  #p-clear-btn {
-    margin-left: auto; font-size: 0.82rem; color: var(--blue);
-    background: none; border: 1px solid var(--blue-mid); border-radius: 6px;
-    padding: 5px 12px; cursor: pointer; transition: background .15s;
-  }
-  #p-clear-btn:hover { background: var(--blue-light); }
-  .stats-bar { padding: 12px 24px; font-size: 0.85rem; color: var(--muted); background: #f9fafb; }
-  .stats-bar span { color: var(--blue); font-weight: 600; }
-  .pod-grid {
-    display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 20px; padding: 20px 24px 48px; max-width: 1200px; margin: 0 auto;
-  }
-  .pod-card {
-    background: #fff; border: 1px solid var(--border); border-radius: var(--radius);
-    padding: 20px; display: flex; flex-direction: column; gap: 10px;
-    transition: box-shadow .2s, transform .2s; text-decoration: none; color: inherit;
-  }
-  .pod-card:hover { box-shadow: 0 8px 24px rgba(37,99,235,0.10); transform: translateY(-2px); }
-  .card-meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
-  .tag {
-    display: inline-flex; align-items: center; gap: 3px; font-size: 0.75rem;
-    font-weight: 500; padding: 2px 8px; border-radius: 20px;
-  }
-  .tag-date     { background: #f0fdf4; color: #15803d; border: 1px solid #bbf7d0; }
-  .tag-podcast  { background: #fffbeb; color: #b45309; border: 1px solid #fde68a; }
-  .tag-lang-en  { background: #f5f3ff; color: #6d28d9; border: 1px solid #ddd6fe; }
-  .tag-lang-zh  { background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; }
-  .tag-lang-other { background: #f1f5f9; color: #475569; border: 1px solid #cbd5e1; }
-  .pod-card-title { font-size: 1rem; font-weight: 600; line-height: 1.45; color: #1a1a2e; }
-  .pod-card-desc  { font-size: 0.875rem; color: var(--muted); line-height: 1.6; flex: 1; }
-  .pod-card-cta   { margin-top: 4px; font-size: 0.82rem; color: var(--blue); font-weight: 500; display: flex; align-items: center; gap: 4px; }
-  .pod-empty { grid-column: 1 / -1; text-align: center; padding: 60px 0; color: var(--muted); }
-  .pod-empty svg { width: 48px; height: 48px; margin-bottom: 12px; opacity: .4; display: block; margin-left: auto; margin-right: auto; }
-  .pod-empty p { font-size: 0.95rem; }
-
-  /* ── Footer ── */
-  footer {
-    text-align: center; padding: 24px; font-size: 12px; color: #adb5bd;
-    border-top: 1px solid #e8ecf4; background: #fff; margin-top: auto;
-  }
-
-  /* ── Responsive ── */
-  @media (max-width: 600px) {
-    header { padding: 12px 16px; gap: 10px; }
-    .header-left h1 { font-size: 18px; }
-    .header-left p  { display: none; }
-    #digest-date-select { font-size: 12px; padding: 4px 8px; }
-    .tab-bar  { padding: 0 16px; }
-    .tab-btn  { padding: 12px 14px; font-size: 13px; }
-    #digest-main { padding: 16px 12px 40px; }
-    .digest-stats { padding: 8px 16px; }
-    .filter-bar { padding: 12px 16px; }
-    .pod-grid   { padding: 16px 16px 40px; gap: 14px; }
-    #p-clear-btn { margin-left: 0; }
-  }
+  .list a:hover { color: #1d6fa4; }
+  .list .date { font-size: 16px; font-weight: 600; }
+  .list .arrow { color: #c8d6e8; font-size: 18px; }
+  footer { text-align: center; padding: 24px; font-size: 12px; color: #adb5bd;
+           border-top: 1px solid #e8ecf4; background: #fff; }
 </style>
 </head>
 <body>
-
 <header>
-  <div class="header-left">
-    <h1>AI 信息日报</h1>
-    <p>播客 · 文章 · 产业动态 · 每日自动更新</p>
-  </div>
-  <div id="date-picker-wrap">
-    <span id="date-picker-label">日期</span>
-    <select id="digest-date-select">
-      <option value="2026-06-09">2026-06-09</option>
-      <option value="2026-06-06">2026-06-06</option>
-      <option value="2026-06-05">2026-06-05</option>
-      <option value="2026-06-04">2026-06-04</option>
-      <option value="2026-06-02">2026-06-02</option>
-    </select>
-  </div>
+  <h1>AI 信息日报</h1>
+  <p>播客 · 文章 · 产业动态 · 每日自动更新</p>
 </header>
-
-<div class="tab-bar" role="tablist">
-  <button class="tab-btn active" data-pane="digest" role="tab" aria-selected="true">📰 AI 信息日报</button>
-  <button class="tab-btn" data-pane="podcast" role="tab" aria-selected="false">🎙 播客研究摘要</button>
-</div>
-
-<!-- Tab 1: Digest -->
-<div id="pane-digest" class="pane active" role="tabpanel">
-  <div class="digest-stats" id="digest-stats"></div>
-  <div id="digest-loading">正在加载当日摘要…</div>
-  <div id="digest-error"></div>
-  <main id="digest-main"></main>
-</div>
-
-<!-- Tab 2: Podcast -->
-<div id="pane-podcast" class="pane" role="tabpanel">
-  <div class="filter-bar">
-    <div class="filter-group">
-      <span class="filter-label">日期</span>
-      <input type="date" id="p-date-from" title="起始日期">
-      <span class="filter-sep">—</span>
-      <input type="date" id="p-date-to" title="截止日期">
-    </div>
-    <div class="filter-group">
-      <span class="filter-label">播客</span>
-      <select id="p-podcast"><option value="">全部播客</option></select>
-    </div>
-    <div class="filter-group">
-      <span class="filter-label">语言</span>
-      <select id="p-lang">
-        <option value="">全部语言</option>
-        <option value="en">英文</option>
-        <option value="zh">中文</option>
-      </select>
-    </div>
-    <button id="p-clear-btn">重置筛选</button>
-  </div>
-  <div class="stats-bar">共 <span id="p-count">0</span> 篇摘要</div>
-  <div class="pod-grid" id="p-grid"></div>
-</div>
-
+<main>
+  <h2>历史存档</h2>
+  <ul class="list">
+    <li>
+      <a href="digest.html?date=2026-06-10">
+        <span class="date">2026-06-10</span>
+        <span class="arrow">›</span>
+      </a>
+    </li>
+    <li>
+      <a href="digest.html?date=2026-06-09">
+        <span class="date">2026-06-09</span>
+        <span class="arrow">›</span>
+      </a>
+    </li>
+    <li>
+      <a href="digest.html?date=2026-06-06">
+        <span class="date">2026-06-06</span>
+        <span class="arrow">›</span>
+      </a>
+    </li>
+    <li>
+      <a href="digest.html?date=2026-06-05">
+        <span class="date">2026-06-05</span>
+        <span class="arrow">›</span>
+      </a>
+    </li>
+    <li>
+      <a href="digest.html?date=2026-06-04">
+        <span class="date">2026-06-04</span>
+        <span class="arrow">›</span>
+      </a>
+    </li>
+    <li>
+      <a href="digest.html?date=2026-06-02">
+        <span class="date">2026-06-02</span>
+        <span class="arrow">›</span>
+      </a>
+    </li>
+  </ul>
+</main>
 <footer>AI Information Digest · Epoch AI · SemiAnalysis · Citrini · a16z · GameDev Report · 11 档播客</footer>
-
-<script>
-// ─── Tab switching ────────────────────────────────────────────────────────────
-const tabBtns = document.querySelectorAll('.tab-btn');
-const panes = {
-  digest:  document.getElementById('pane-digest'),
-  podcast: document.getElementById('pane-podcast'),
-};
-const datePickerWrap = document.getElementById('date-picker-wrap');
-
-function switchTab(target) {
-  tabBtns.forEach(b => {
-    const active = b.dataset.pane === target;
-    b.classList.toggle('active', active);
-    b.setAttribute('aria-selected', active);
-  });
-  Object.entries(panes).forEach(([key, el]) => {
-    el.classList.toggle('active', key === target);
-  });
-  datePickerWrap.style.display = target === 'digest' ? 'flex' : 'none';
-  if (target === 'podcast' && !podcastLoaded) loadPodcasts();
-  history.replaceState(null, '', target === 'podcast' ? '#podcast' : '#');
-}
-
-tabBtns.forEach(btn => btn.addEventListener('click', () => switchTab(btn.dataset.pane)));
-
-// ─── Digest rendering ─────────────────────────────────────────────────────────
-function fmtBJ(iso) {
-  if (!iso) return '';
-  const d = new Date(iso);
-  return new Date(d.getTime() + 8 * 3600 * 1000).toISOString().slice(0, 16).replace('T', ' ') + ' (北京)';
-}
-
-function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
-function dot() { return '<span style="color:#d1d5db"> · </span>'; }
-
-function fmtDur(raw) {
-  if (!raw) return '';
-  const s = String(raw).trim();
-  if (s.includes(':')) return s;
-  const total = parseInt(s, 10);
-  if (isNaN(total)) return s;
-  const h = Math.floor(total / 3600);
-  const m = Math.floor((total % 3600) / 60);
-  const sc = total % 60;
-  const pad = n => String(n).padStart(2, '0');
-  return h ? `${h}:${pad(m)}:${pad(sc)}` : `${m}:${pad(sc)}`;
-}
-
-function podCard(p) {
-  const link = p.link ? `href="${esc(p.link)}"` : '';
-  const titleEl = link
-    ? `<a ${link} target="_blank" rel="noopener">${esc(p.title)}</a>`
-    : `<span>${esc(p.title)}</span>`;
-  const dur = p.duration ? `<span>${esc(fmtDur(p.duration))}</span>${dot()}` : '';
-  return `<div class="d-card">
-  <div class="d-card-title">${titleEl}</div>
-  <div class="d-meta"><span>${esc(p.date.slice(0,10))}</span>${dot()}${dur}<span>${esc(p.source)}</span></div>
-  <p class="d-summary">${esc(p.summary_zh || p.summary || '')}</p>
-</div>`;
-}
-
-function artCard(a) {
-  const chars = a.chars ? `约 ${a.chars.toLocaleString()} 字符` : '';
-  return `<div class="d-card d-article">
-  <div class="d-meta"><span>${esc(a.date.slice(0,10))}</span>${dot()}<span>${chars}</span></div>
-  <div class="d-card-title"><a href="${esc(a.link)}" target="_blank" rel="noopener">${esc(a.title)}</a></div>
-  <p class="d-summary">${(a.summary_zh || a.summary || '').replace(/\n/g,'<br>').replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>')}</p>
-</div>`;
-}
-
-function groupBy(items, key) {
-  const map = new Map();
-  for (const it of items) {
-    const k = it[key];
-    if (!map.has(k)) map.set(k, []);
-    map.get(k).push(it);
-  }
-  return map;
-}
-
-function renderDigest(data) {
-  const pods = data.podcasts || [];
-  const arts = data.articles || [];
-
-  const statsEl = document.getElementById('digest-stats');
-  statsEl.style.display = 'flex';
-  statsEl.innerHTML =
-    `<span>播客：<strong>${pods.length}</strong> 集</span>` +
-    `<span class="dsep">·</span>` +
-    `<span>文章：<strong>${arts.length}</strong> 篇</span>` +
-    `<span class="dsep">·</span>` +
-    `<span>生成：<strong>${fmtBJ(data.generated_at)}</strong></span>`;
-
-  let html = '';
-  if (pods.length) {
-    html += `<div class="section-hd">
-      <span class="d-badge d-badge-p">播客</span>
-      <h2>最新剧集</h2>
-      <span class="section-cnt">${pods.length} 集</span>
-    </div>`;
-    for (const [src, items] of groupBy(pods, 'source')) {
-      html += `<div class="src-group">
-        <div class="src-label">${esc(src)}</div>
-        ${items.map(podCard).join('')}
-      </div>`;
-    }
-  }
-  if (arts.length) {
-    html += `<div class="section-hd">
-      <span class="d-badge d-badge-a">文章</span>
-      <h2>深度阅读</h2>
-      <span class="section-cnt">${arts.length} 篇</span>
-    </div>`;
-    for (const [src, items] of groupBy(arts, 'source')) {
-      html += `<div class="src-group">
-        <div class="src-label">${esc(src)}</div>
-        ${items.map(artCard).join('')}
-      </div>`;
-    }
-  }
-
-  const mainEl = document.getElementById('digest-main');
-  mainEl.innerHTML = html || '<p style="color:#9ca3af;text-align:center;padding:60px 0">当日暂无内容</p>';
-}
-
-function loadDigest(date) {
-  const loadingEl = document.getElementById('digest-loading');
-  const errorEl   = document.getElementById('digest-error');
-  const statsEl   = document.getElementById('digest-stats');
-  const mainEl    = document.getElementById('digest-main');
-
-  mainEl.innerHTML = '';
-  loadingEl.textContent = '正在加载…';
-  loadingEl.style.display = '';
-  errorEl.style.display = 'none';
-  statsEl.style.display = 'none';
-
-  fetch(`data/${date}_summary.json`)
-    .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
-    .then(data => {
-      loadingEl.style.display = 'none';
-      renderDigest(data);
-    })
-    .catch(err => {
-      loadingEl.style.display = 'none';
-      errorEl.style.display = '';
-      errorEl.textContent = `无法加载 ${date} 的摘要：${err.message}`;
-    });
-}
-
-// Init: show date picker and load latest
-datePickerWrap.style.display = 'flex';
-const digestDateSel = document.getElementById('digest-date-select');
-loadDigest(digestDateSel.value);
-digestDateSel.addEventListener('change', () => loadDigest(digestDateSel.value));
-
-if (location.hash === '#podcast') switchTab('podcast');
-
-// ─── Podcast loading ──────────────────────────────────────────────────────────
-const LANG_LABEL = { en: '英文', zh: '中文' };
-const LANG_TAG   = { en: 'tag-lang-en', zh: 'tag-lang-zh' };
-let episodes = [];
-let podcastLoaded = false;
-
-async function loadPodcasts() {
-  podcastLoaded = true;
-  try {
-    const res = await fetch('podcast-episodes.json');
-    episodes = await res.json();
-    episodes.sort((a, b) => b.date.localeCompare(a.date));
-    populatePodcastFilter();
-    renderPodcasts();
-  } catch(e) {
-    document.getElementById('p-grid').innerHTML =
-      '<div class="pod-empty"><p>加载失败，请刷新重试</p></div>';
-  }
-}
-
-function populatePodcastFilter() {
-  const sel = document.getElementById('p-podcast');
-  [...new Set(episodes.map(e => e.podcast))].sort().forEach(n => {
-    const opt = document.createElement('option');
-    opt.value = n; opt.textContent = n;
-    sel.appendChild(opt);
-  });
-}
-
-function renderPodcasts() {
-  const f = {
-    from:    document.getElementById('p-date-from').value,
-    to:      document.getElementById('p-date-to').value,
-    podcast: document.getElementById('p-podcast').value,
-    lang:    document.getElementById('p-lang').value,
-  };
-  const visible = episodes.filter(e => {
-    if (f.from    && e.date < f.from)         return false;
-    if (f.to      && e.date > f.to)           return false;
-    if (f.podcast && e.podcast !== f.podcast) return false;
-    if (f.lang    && e.language !== f.lang)   return false;
-    return true;
-  });
-  document.getElementById('p-count').textContent = visible.length;
-  const grid = document.getElementById('p-grid');
-  if (visible.length === 0) {
-    grid.innerHTML = `
-      <div class="pod-empty">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-          <path d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
-        </svg>
-        <p>没有符合条件的摘要</p>
-      </div>`;
-    return;
-  }
-  grid.innerHTML = visible.map(ep => {
-    const langClass = LANG_TAG[ep.language] || 'tag-lang-other';
-    const langLabel = LANG_LABEL[ep.language] || ep.language.toUpperCase();
-    const [y, m, d] = ep.date.split('-');
-    return `
-      <a class="pod-card" href="${ep.path}" target="_blank" rel="noopener">
-        <div class="card-meta">
-          <span class="tag tag-date">📅 ${y}/${m}/${d}</span>
-          <span class="tag tag-podcast">🎙 ${ep.podcast}</span>
-          <span class="tag ${langClass}">${langLabel}</span>
-        </div>
-        <div class="pod-card-title">${ep.title}</div>
-        ${ep.description ? '<div class="pod-card-desc">' + ep.description + '</div>' : ''}
-        <div class="pod-card-cta">阅读摘要 →</div>
-      </a>`;
-  }).join('');
-}
-
-['p-date-from','p-date-to','p-podcast','p-lang'].forEach(id =>
-  document.getElementById(id).addEventListener('change', renderPodcasts)
-);
-document.getElementById('p-clear-btn').addEventListener('click', () => {
-  ['p-date-from','p-date-to'].forEach(id => document.getElementById(id).value = '');
-  ['p-podcast','p-lang'].forEach(id => document.getElementById(id).value = '');
-  renderPodcasts();
-});
-</script>
 </body>
 </html>
