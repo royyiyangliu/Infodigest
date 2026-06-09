@@ -87,7 +87,7 @@ episodes.insert(0, {
 manifest.write_text(json.dumps(episodes, ensure_ascii=False, indent=2) + "\n")
 ```
 
-### Step 5：Git commit & push
+### Step 5：Git commit & push 到 main
 
 ```bash
 git add "docs/podcast/<ep_id>/" docs/podcast-episodes.json
@@ -96,7 +96,10 @@ git commit -m "Add podcast: <title>
 转录：阿里云百炼 Fun-ASR，<language>，说话人分离
 总结：投资者视角中文 HTML"
 git push
+git push origin HEAD:main
 ```
+
+`git push origin HEAD:main` 将当前分支直接推送到 main，GitHub Pages 立即触发部署，无需手动 PR/merge。
 
 ---
 
