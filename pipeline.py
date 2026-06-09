@@ -121,8 +121,8 @@ def make_episode_dir(title: str, source_url: str) -> Path:
     date_str = datetime.now().strftime("%y%m%d")
     slug = safe_slug(title)
     dir_name = f"{date_str}-{slug}"
-    ep_dir = Path(__file__).parent / dir_name
-    ep_dir.mkdir(exist_ok=True)
+    ep_dir = Path(__file__).parent / "docs" / "podcast" / dir_name
+    ep_dir.mkdir(parents=True, exist_ok=True)
     (ep_dir / "source.url").write_text(source_url + "\n")
     print(f"[dir] Created: {ep_dir}")
     return ep_dir
@@ -246,7 +246,7 @@ def main():
     transcript_path.write_text(transcript, encoding="utf-8")
     print(f"[done] Transcript saved: {transcript_path}")
     print(f"[done] Lines: {transcript.count(chr(10))+1}")
-    print(f"[done] Next step: read {transcript_path} and write docs/podcast/{ep_dir.name}/summary.html,")
+    print(f"[done] Next step: read {transcript_path} and write {ep_dir}/summary.html,")
     print(f"       then fill in description in docs/podcast-episodes.json")
 
     update_manifest(ep_dir, title, podcast_name, language)
