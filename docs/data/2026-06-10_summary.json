@@ -1,0 +1,27 @@
+{
+  "date": "2026-06-10",
+  "generated_at": "2026-06-09T23:35:55.073629+00:00",
+  "stats": {
+    "podcasts": 0,
+    "articles": 2
+  },
+  "podcasts": [],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "DeepSeekV4 1.6T Day 0 to Day 43 Performance Over Time - Huawei, GB300 NVL72, MI355X, B200",
+      "date": "2026-06-09 12:15 UTC",
+      "link": "https://newsletter.semianalysis.com/p/deepseekv4-16t-day-0-to-day-43-performance",
+      "chars": 39114,
+      "summary_zh": "SemiAnalysis的InferenceX团队全程跟踪了DeepSeek V4（**1.6T**参数MoE开源模型）从发布日（Day 0）至第43天在多硬件平台的推理性能演进。\n\n核心发现：\n①**CUDA生态Day 0即就绪**：SGLang与vLLM原生支持开箱即用，而NVIDIA TensorRT-LLM因将隐藏维度hardcode为4096（V4实际为7168），导致静默输出损坏长达约9天，最终由SemiAnalysis提PR修复。\n②**AMD MI355X实现超100倍提升**：Day 0时ROCm吞吐仅**1-2 tok/s**，几乎无法部署；HaiShaw团队在**26天**内通过引入FP4权重路径、AITER/TileLang内核等实现超100倍改善，峰值性能反超H200。\n③**B200能效显著优化**：每兆瓦推理吞吐从Day 0约**30万 tok/s/MW**升至6月5日约**50万 tok/s/MW**，约1.7倍提升完全来自软件层面优化。\n④**GB300 NVL72全面领先**：凭借NVLink宽域EP架构让MoE dispatch全程走NVLink，启用MTP后成本低至**$0.156/百万输出token**（50 tok/s/user场景）。\n⑤**华为Ascend获Day 0支持**：DeepSeek V4在Ascend 950DT实现官方首日支持，CANN已于2025年8月开源布局国内AI推理生态。\n⑥中国开源模型持续领跑，Kimi K2.6代码能力仍强于NVIDIA旗下Nemotron 3 Ultra；vLLM与SGLang均有详细路线图推进MegaMoE、CUDA graph及更宽硬件支持。"
+    },
+    {
+      "source": "a16z",
+      "title": "Month-End Is Now Just Another Day",
+      "date": "2026-06-09 14:04 UTC",
+      "link": "https://www.a16z.news/p/month-end-is-now-just-another-day",
+      "chars": 8264,
+      "summary_zh": "a16z与AI原生ERP系统Rillet联合分析了**56家企业**的账务数据，揭示企业财务自动化的深层变革：传统月末关账正逐步成为历史。\n\n核心发现：\n①**结账几乎完全自动化**：受访企业中**99.86%**的日记账分录已实现自动处理，月末仅需人工介入极小比例；**87%**的企业月末人工审核比例低于**1%**。\n②**持续结账成为现实**：Rillet从零构建实时入账系统，实现账本始终准确可审，将月末集中对账转为全月持续处理。技术突破在于AI可7x24不间断处理，而传统软件和人工更倾向批处理。\n③**B2B vs B2C显著差异**：B2B企业月末结账工作量约为B2C企业的**4-5倍**，人工录入条目也约为后者5倍，根源在于B2B服务复杂度更高。\n④**多实体增加复杂度**：企业从1个法律实体扩展到4+个后，营收与账单在账本中的占比从**58%**降至**38%**，账务结构随规模显著变化。\n⑤**集成生态主导数据源**：Stripe、Salesforce、Zuora等主流SaaS平台是账务自动录入的核心来源；数据集成越完整，月末人工介入越少。\n\na16z认为，财务后台是首批被AI系统性重构的企业职能，随着AI原生工具普及，月末概念将加速消亡，人力将向更高价值的判断性工作迁移。"
+    }
+  ]
+}
