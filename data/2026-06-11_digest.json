@@ -1,0 +1,33 @@
+{
+  "fetch_date": "2026-06-11",
+  "fetch_time": "2026-06-10T19:33:08.804087+00:00",
+  "stats": {
+    "new_podcast_episodes": 1,
+    "new_articles": 1,
+    "total_podcasts": 1,
+    "total_articles": 1
+  },
+  "podcasts": [
+    {
+      "source": "No Priors",
+      "title": "Biohub: The Future of Biology is Open-Source with Co-Founders Mark Zuckerberg, Priscilla Chan, and Head of Science Alex Rives",
+      "date": "2026-06-10 13:00 UTC",
+      "link": "https://podcasts.apple.com/us/podcast/biohub-the-future-of-biology-is-open-source-with/id1668002688?i=1000772032160&uo=4",
+      "orig_link": "",
+      "audio_url": "https://traffic.megaphone.fm/PDP2294664679.mp3",
+      "duration": "56:20",
+      "summary": "Biohub started with an ambitious goal of curing, preventing, and managing all disease by the end of the century. A decade later, thanks to the convergence of frontier AI and biological data, that goal may have been too conservative. In this episode, Elad Gil and Sarah Guo sit down with Biohub co-founders Mark Zuckerberg and Priscilla Chan, alongside Biohub Head of Science Alex Rives. Together, they discuss Biohub’s $500 million virtual biology initiative, which integrates frontier AI with wet-lab work to build predictive world models of cells, proteins, and systems. They also talk about their newly announced open-source engine for digital protein and antibody design, ESMFold2; why Biohub is a nonprofit rather than a venture-backed startup; and how hierarchical simulations will soon allow doctors to treat patients at an individual, mechanistic level.  \n\nSign up for new podcasts every week. Email feedback to show@no-priors.com\n\nFollow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @Biohub | @finkd | @alexrives | @ChanZuckerberg\n\nChapters:\n\n00:00 – Cold Open\n\n01:02 - Mark Zuckerberg, Priscilla Chan, and Alex Rives Introduction\n\n01:26 – Why Biohub and Their Mission\n\n08:27 – Integrating Frontier AI and Frontier Biology\n\n09:45 – Micro to Macro Biological Modeling\n\n14:22 – Mechanistic Interpretiability \n\n16:58 – Why Biohub is a Non-Profit\n\n21:41 – Understanding How Biology Works\n\n24:23 – Timeline for Curing All Diseases\n\n26:25 – Translating Research to Patient Impact\n\n28:04"
+    }
+  ],
+  "articles": [
+    {
+      "source": "a16z",
+      "title": "Everything is Recorded Now",
+      "date": "2026-06-10 14:00 UTC",
+      "link": "https://www.a16z.news/p/everything-is-recorded-now",
+      "summary": "The living context layer is being built inside companies right now, whether they're paying attention or not",
+      "chars": 7364,
+      "text_file": "data/2026-06-11/articles/a16z__everything_is_recorded_now.txt"
+    }
+  ]
+}
