@@ -1,0 +1,28 @@
+{
+  "date": "2026-06-11",
+  "generated_at": "2026-06-10T23:35:54.277725+00:00",
+  "stats": {
+    "podcasts": 1,
+    "articles": 1
+  },
+  "podcasts": [
+    {
+      "source": "No Priors",
+      "title": "Biohub: The Future of Biology is Open-Source with Co-Founders Mark Zuckerberg, Priscilla Chan, and Head of Science Alex Rives",
+      "date": "2026-06-10 13:00 UTC",
+      "duration": "56:20",
+      "link": "https://podcasts.apple.com/us/podcast/biohub-the-future-of-biology-is-open-source-with/id1668002688?i=1000772032160&uo=4",
+      "summary_zh": "扎克伯格夫妇谈Biohub：5亿AI+生物学虚拟计划及开源ESMFold2蛋白质设计引擎"
+    }
+  ],
+  "articles": [
+    {
+      "source": "a16z",
+      "title": "Everything is Recorded Now",
+      "date": "2026-06-10 14:00 UTC",
+      "link": "https://www.a16z.news/p/everything-is-recorded-now",
+      "chars": 7364,
+      "summary_zh": "a16z观点：AI正在使企业工作录音成为默认，这一趋势不可逆。\n\n**核心洞察：** 企业应像培训新员工一样接入AI——邀请其参加会议、通过耳濡目染学习公司文化，而非仅靠文档。会议是企业文化、决策边界和实际运作逻辑的真正载体。经过**两年内部讨论录音**训练的模型，远优于只读过文档的模型。Granola已成为a16z内部最了解公司投资文化的工具之一。\n\n**市场机会：** 正在形成以语音为核心的新一代企业软件品类。当前系统记录（CRM/工单/文档）是结构化文本，但最高价值的上下文存在于对话中——客户电话、产品评审争论、高管会议的随口一句话。LLM可将非结构化语音转为可检索结构化信息，这是**巨大的企业级机会**，软件层形态和市场归属仍待明确。\n\n**双重价值：** ①自下而上：拥有完整公司上下文的AI是个人贡献者的效能倍增器；②自上而下：管理层AI代理可出席高管无法参与的会议，标记关键信息，解决内部对齐问题。两个优势均会随录音积累持续复利增强。\n\n**文化维度：** 口头文化公司（Shopify、OpenAI）在AI时代获复利优势——过去重要上下文在对话中消散，现在AI可出席所有会议并汇总；书面文化公司（Stripe、Anthropic）本已通过写作捕获上下文，同样受益但相对优势较小。AI整体将提升口头文化的规模化能力。\n\n**趋势判断：** 默认设置将从\"主动选择录音\"转变为\"默认录音、特定豁免\"。AI原生小型公司率先采用，与大企业的惰性形成竞争差距。未来将有特殊豁免分类（HR/法律会议），但广泛录音会因难以阻止而自然发生，治理机制将在事后补建。\n\n**投资视角：** 企业\"活体上下文层\"正在被构建，不论企业是否意识到。先行者具备竞争优势，关键在于尽快到达那个未来，并在仍有选择权时建立正确的治理机制。"
+    }
+  ]
+}
