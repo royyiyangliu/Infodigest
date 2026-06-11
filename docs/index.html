@@ -75,6 +75,9 @@
   }
   .d-badge-p { background: #e3f2fd; color: #1565C0; }
   .d-badge-a { background: #e8f5e9; color: #2e7d32; }
+  .d-badge-t { background: #fff7ed; color: #c2410c; }
+  .tw-handle { font-size: 12px; color: #8a94a6; text-decoration: none; margin-left: 6px; font-weight: 500; }
+  .tw-handle:hover { color: #1d6fa4; text-decoration: underline; }
   .section-hd h2 { font-size: 19px; font-weight: 700; }
   .section-cnt    { font-size: 13px; color: #9ca3af; margin-left: auto; }
 
@@ -299,7 +302,18 @@ function podCard(p) {
   return `<div class="d-card">
   <div class="d-card-title">${titleEl}</div>
   <div class="d-meta"><span>${esc(p.date.slice(0,10))}</span>${dot()}${dur}<span>${esc(p.source)}</span></div>
-  <p class="d-summary">${esc(p.summary_zh || p.summary || '')}</p>
+  <p class="d-summary">${(p.summary_zh || p.summary || '').replace(/\n/g,'<br>').replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>')}</p>
+</div>`;
+}
+
+function tweetCard(t) {
+  const handle = t.handle
+    ? `<a class="tw-handle" href="https://x.com/${esc(t.handle)}" target="_blank" rel="noopener">@${esc(t.handle)}</a>`
+    : '';
+  const summary = (t.summary_zh || '').replace(/\n/g,'<br>').replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>');
+  return `<div class="d-card d-article">
+  <div class="d-card-title"><span>${esc(t.author || t.handle || '')}</span>${handle}</div>
+  <p class="d-summary">${summary}</p>
 </div>`;
 }
 
@@ -323,12 +337,14 @@ function groupBy(items, key) {
 }
 
 function renderDigest(data) {
+  const tweets = data.tweets || [];
   const pods = data.podcasts || [];
   const arts = data.articles || [];
 
   const statsEl = document.getElementById('digest-stats');
   statsEl.style.display = 'flex';
   statsEl.innerHTML =
+    (tweets.length ? `<span>推文：<strong>${tweets.length}</strong> 位</span><span class="dsep">·</span>` : '') +
     `<span>播客：<strong>${pods.length}</strong> 集</span>` +
     '<span class="dsep">·</span>' +
     `<span>文章：<strong>${arts.length}</strong> 篇</span>` +
@@ -336,6 +352,14 @@ function renderDigest(data) {
     `<span>生成：<strong>${fmtBJ(data.generated_at)}</strong></span>`;
 
   let html = '';
+  if (tweets.length) {
+    html += `<div class="section-hd">
+      <span class="d-badge d-badge-t">推文</span>
+      <h2>X 观点精选</h2>
+      <span class="section-cnt">${tweets.length} 位作者</span>
+    </div>`;
+    html += `<div class="src-group">${tweets.map(tweetCard).join('')}</div>`;
+  }
   if (pods.length) {
     html += `<div class="section-hd">
       <span class="d-badge d-badge-p">播客</span>
