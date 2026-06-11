@@ -1,10 +1,43 @@
 {
   "date": "2026-06-11",
-  "generated_at": "2026-06-10T23:35:54.277725+00:00",
+  "generated_at": "2026-06-11T14:40:06.085990+00:00",
   "stats": {
+    "tweets": 6,
     "podcasts": 1,
     "articles": 1
   },
+  "tweets": [
+    {
+      "author": "Andrej Karpathy",
+      "handle": "karpathy",
+      "summary_zh": "前特斯拉 AI 总监、OpenAI 联合创始人 Andrej Karpathy 对 Claude Fable 5 给出高度评价，认为其质量飞跃堵比去年 11 月的 Claude 4.5，在长时间、高难度问题的解决上尤为突出，称该模型“一看就懂，直接上手干”。他特别指出 Jevons 悒论已在自己身上显现——工作软件越容易获取，他对软件的需求反而大幅增长，并列举了可定制化分析仪表盘、测试套件扩容、自动代码优化等场景；同时提醒该模型上线时安全过滤器设置偏激进，且仍有一些细节问题待打磨。"
+    },
+    {
+      "author": "Boris Cherny",
+      "handle": "bcherny",
+      "summary_zh": "Anthropic Claude Code 负责人 Boris Cherny 表示，Fable 5 是他自 Opus 4.5（去年 11 月）以来感受到的最大模型代际跃升，模型从“编码 Agent”升维为“思考与设计伙伴”，具备以往模型所缺乏的判断力、品味和立体感。他特别提到 Fable 在调试时会系统地添加日志、验证修复效果后才宣告成功，而这并非提示词指令的结果，而是模型自身“个性”的体现；他将此称为“大模型气息”。他还强调了自验证循环（self-verification loop）的重要性——能让模型在无人监督的情况下运行更长时间、输出更符合预期的结果。"
+    },
+    {
+      "author": "Alex Albert",
+      "handle": "alexalbert__",
+      "summary_zh": "Anthropic 开发者关系负责人 Alex Albert 经历了公司每一次模型发布，认为 Fable 5 是继 Opus 3、Sonnet 3.5、Opus 4.5 之后第四个真正标志性的代际跃升，感受到模型从“被指挥的工具”变成了“协作伙伴”。他给出了四条使用建议：分配比以往更有野心的任务；默认使用 xhigh/high 精力档；重写为旧模型优化的 CLAUDE.md 指令（旧指令会锁定过时模式）；从“指派任务”转向“给定目标”，让 Fable 自主规划路径（/loop 和 /goal 命令即为此设计）。"
+    },
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "AI 工程师社区 Latent Space 联合创始人 Swyx 指出，在 Fable 按使用量计费前，用它对代码做全量 review 是极高性价比的操作，暗示质量之高足以让人“对自己曾上线的代码感到后怕”。他还援引数据称：从签署合作协议到 Mythos 级别模型正式向全球 GA 发布，仅历时 34 天，认为这证明了基于 NVIDIA 基础设施快速行动的能力。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic Claude Code 产品经理 Thariq 简短但明确地表示，Fable 是模型能力的阶跃式突破，并预告将发布系列文章详述其如何重塑日常工作方式，核心结论是“现在是时候更有野心地使用 Claude 了”。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel CEO Guillermo Rauch 宣布 Vercel CLI 新增 AI Gateway 功能，支持创建 API 密鐥、设置消费上限（--budget）和配额刷新周期（--refresh-period），将其定位为“AI token 的虚拟信用卡”，面向需要精细管控 AI 调用成本的企业和开发者。他还展示了 Opus 写 VM、Mythos 验证的多模型协作工作流，体现出对新一代 Claude 模型能力的实际应用探索。"
+    }
+  ],
   "podcasts": [
     {
       "source": "No Priors",
