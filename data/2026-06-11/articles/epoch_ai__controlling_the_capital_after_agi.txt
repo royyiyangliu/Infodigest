@@ -1,0 +1,108 @@
+Source  : Epoch AI
+Title   : Controlling the capital after AGI
+Date    : 2026-06-10 02:35 UTC
+Link    : https://epochai.substack.com/p/controlling-the-capital-after-agi
+────────────────────────────────────────────────────────────
+
+Gradient Updates
+shares more opinionated or informal takes on big questions in AI progress. These posts solely represent the views of the authors, and do not necessarily reflect the views of Epoch AI as a whole.
+This piece does not advocate for any policy.
+Introduction
+AGI
+1
+might generate immense economic output, but it could take many people’s jobs in the process and leave them with no way to earn a decent living. Those with little savings during the “AGI transition” would then be unable to support themselves on the other side. Less drastically, even if many well-paying jobs remain after AGI, the capital share
+2
+may greatly increase
+, which would tend to
+greatly increase inequality
+.
+If this happens, how might the gains be redistributed? More concretely,
+putting aside the question of how the state raises tax revenues after AGI, and what percentage of GDP is raised
+, how do existing proposals for redistributing this revenue differ?
+Proposals for universal benefits abound, including:
+Universal basic income (
+UBI
+):
+The government pays everyone cash. This is the best known, and has been endorsed by
+Elon Musk
+,
+Vinod Khosla
+,
+Geoffrey Hinton
+, and many others.
+3
+As part of this, the government might impose restrictions on the extent to which people could borrow against their future payments, just as it is illegal today to borrow against your social security, to prevent people from impoverishing themselves in the future.
+Universal basic services (
+UBS
+):
+The government gives everyone access to free public services. Think welfare states like Norway or Sweden, except that the government covers
+all
+basic needs, including things like food and housing which the Nordics currently don’t provide.
+Universal basic capital (
+UBC
+):
+The government gives people their own capital assets (such as equity in an index fund, or in AI firms in particular), so that people can live off the dividends. It may impose restrictions on the extent to which people can sell their assets.
+Sovereign wealth funds (
+SWF
+):
+The government owns capital and distributes the dividends it generates.
+4
+And of course each proposal comes in many flavors.
+Comparing the long and growing list of proposals in every detail can be daunting. But there is a way in which they resemble more familiar debates over redistribution: they concern the extent to which the government should provide some good directly, or give people cash and let them buy what they like.
+The main axis: control of the capital
+We’re familiar with the question of whether to give the poor cash or food stamps — or, if food stamps, whether to make junk food ineligible. In debates over how to implement broad-based redistribution after AGI, we rarely hear the idea that the transfers should be restricted to a particular whitelist of necessities; the exception is the (uncommon) proposal for “universal basic services”. Instead, the debate is mainly over how fully our redistribution scheme should give citizens control not just of the capital income but of the capital.
+At one end of the spectrum, UBI gives citizens control of the income-generating capital only in a very limited way. Citizens retain the right to vote for policymakers, who retain the right to tax and regulate firms doing business in their jurisdictions.
+SWFs offer a notch more control: the state still intermediates citizens’ control over the capital, but the state can govern firms not just through legislation but as a shareholder. Also, it can exercise this governance, and receive the firm’s dividends, wherever the firm does business and wherever it may move.
+UBC offers more control still: citizens can exercise their voting rights as shareholders, and receive their dividends wherever the company relocates, without state intermediation.
+“Control” does not consist of a single dimension. In some ways, for instance, a democratically run SWF aggressively exercising its governance rights as a large shareholder might be giving its citizens more control over what firms do with their assets than a decentralized UBC scheme. Furthermore, UBC schemes can differ in all the ways corporate governance can. Most simply, firm shares can be voting or non-voting; more generally, it is not hard to imagine a wide array of new ownership structures in which, say, minority shareholders can veto certain changes to company policy. In any case, any SWF or UBC unambiguously confers more control than UBI.
+In principle, it would be feasible to give people much more direct and secure control of the capital even than that offered by a UBC. In the extreme, consider:
+UBC + kill switches:
+Some stock of valuable equipment and structures is not just legally transferred to each citizen, but outfitted with a device that lets its owner quickly direct it, shut it down, or even destroy it.
+A “kill switch” proposal might sound cartoonish, and done wrong there would of course be immense risks to implementing destruction mechanisms for critical infrastructure. But we think it’s helpful to illustrate the principle of “tangible control over capital” by taking it to its limit.
+Why care who controls the capital?
+A common
+worry
+is that UBI proposals give citizens too little “control over the means of production” to be stable in the long run. UBI, the argument goes, relies on a fragile equilibrium in which the state continues to support its citizens — and firms stay beholden to the state — even after citizens’ labor has grown comparatively worthless.
+To flesh out the argument: democracy and the welfare state flourished after the Industrial Revolution. This may be in part because the technological
+conditions
+better aligned the interests of workers and elites, and made it valuable to give working people skills and working conditions that also helped them organize: e.g., urbanization and literacy made it easier for large groups to strike if not granted political representation. If these conditions disappear, democracy eventually
+may too
+, absent strong preventative measures keeping widespread economic empowerment locked in. Once robots are doing all the work, for example, “UBC + kill switches” would let people switch off some capital, just as people “switch off” their labor during a strike. But one way or another, technological means of maintaining control over production will be necessary, and they won’t come by default or for free.
+This perspective may be too fatalistic. Essentially every developed country currently maintains large transfers to many groups whose labor is not considered very valuable, including the destitute, the disabled, and especially the elderly. No law of nature rules out a political or social equilibrium in which transfers to the unproductive continue indefinitely. Today, if one rich citizen cheats on his taxes, the rest in effect organize against him, in that their own taxes support a legal system that forces him to pay. The rest punish this defection — they pay their own taxes — because a defection on any individual’s part would be punished likewise.
+That said, it’s easy to see why one might hope for a stronger guarantee of long-term economic empowerment than that offered by the equilibrium of a carefully constructed game among the wealthy. By the same logic, transfers could be assured indefinitely with no policy at all, but just a lucky…
+…Philanthropic equilibrium:
+Robot-owners value each others’ continued cooperation, and one condition of their continued cooperation happens to be that each party makes an annual transfer to the rest of the population.
+But the equilibrium of this game could be upset by some shock to the “history of play”, or some renegotiation among the wealthy players. To our knowledge, no one proposes relying on it.
+Why have the state give people control of capital, instead of letting people buy it themselves?
+Even if we conclude that “control over capital” in some form offers more economic security than the promised stream of transfers that UBI can offer, it does not follow that the state should buy this security on our behalf. Food is no less valuable than economic security, but it’s not obvious that the state should provide food stamps, instead of just transferring cash and letting people decide what to buy. People would be free to use their UBI to buy bonds; non-voting shares in firms;
+slightly more expensive
+voting shares; or units of production, such as family farms, over which they could have more tangible control. They would also be free to trust in the next UBI check and buy no capital at all.
+The benefits of leaving people free to spend as they choose hopefully speak for themselves. Against them, as always, there are three main reasons why an in-kind transfer (in this case, of control over capital) might be recommended over a cash transfer.
+Behavioral biases.
+One might worry that many would save too little of their UBI, or invest what they save poorly. This might be because people today are too accustomed to a world in which they can support themselves by their labor, and in which they can trust the state to promote its citizens’ welfare indefinitely.
+Externalities.
+One might think that in a capital-driven economy, concentrated control of the capital would pose a negative externality on society. In a world of self-replicating autonomous drones, there is a risk that the wealthiest could easily mobilize their resources to exercise undue political or economic influence. Put another way, one might think that the externalities of making capital ownership more widespread are positive, just as the American Founders
+argued
+that widespread gun ownership would protect not just the owners but their neighbors from oppression by the state.
+Economies of scale
+. The state provides some services, like public transportation and police protection, because it’s cheaper for the state to provide them
+en masse
+than it would be for individuals to secure them individually. The same might be true in some ways of control over capital.
+In a world with strongly enough increasing returns to scale in investment — e.g., because only large investors can invest in private firms — wealth management could be a natural monopoly, at least for relatively small capital owners. An SWF might then be an efficient way for citizens to manage their collective endowment. An SWF would also ideally be a cheap way for the citizens, as indirect shareholders, to solve the coordination problem of exercising their corporate governance rights in their collective interest.
+The state might be able to implement some “kill switch”-like regime more cheaply, or at least more quickly, than millions of small shareholders requesting this intrusive and unprecedented modification to the capital stock.
+How to weigh these considerations will be up to all of us in the event that the transition to an AGI-centered economy begins to unfold.
+Conclusion
+Though debates over how to structure post-AGI redistribution don’t always make this explicit, they’re primarily over how much control, and what kinds of control, to give people over the capital that could come to generate most of our collective income. Sovereign wealth funds give the citizenry, or at least the state, more control than UBI schemes. In some ways, UBC proposals give even more. A debate over which proposal is best is thus largely analogous to many more familiar debates over cash versus in-kind transfers.
+Making the analogy explicit is useful, we hope, not only for clarifying our evaluation of the well-known options but for revealing options that we may have overlooked. If we are especially concerned about the political economy of a world without much economically valuable labor, we might want to look into the kill switches. If we are especially unconcerned, we may be content to rely on norms of philanthropy. As technology advances, the technologically feasible options for distributing control over our machines will expand with it. We should remember that we can take advantage of this, at least until the set of politically and socially feasible options begins to shrink.
+Thanks for reading! Subscribe to get the latest from Epoch AI.
+We’d like to thank Andrei Potlogea, Jaime Sevilla, JS Denain, Lynette Bye, Dan Carey, Robert Sandler, Bharat Chandar, and Gabe Unger for their feedback and support.
+1
+Including full robotics.
+2
+That is, the share of our collective total income coming in the form of interest on investments, as opposed to wages.
+3
+Note that we are here considering UBI at a given percentage of GDP. If GDP is exploding, the proposal might better be called “
+universal high income
+”.
+4
+Some SWFs currently operate this way, such as Alaska’s. Others, like Norway’s, are used to provide public services, and so implement something closer to UBS.

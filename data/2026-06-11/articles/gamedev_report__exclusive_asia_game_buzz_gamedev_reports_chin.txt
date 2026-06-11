@@ -1,0 +1,42 @@
+Source  : GameDev Report
+Title   : [Exclusive] Asia Game Buzz & GameDev Reports: China’s Steam & PC Gaming Market in 2025 - sponsored by PWN Games
+Date    : 2026-06-09 11:10 UTC
+Link    : https://gamedevreports.substack.com/p/exclusive-asia-game-buzz-and-gamedev
+────────────────────────────────────────────────────────────
+
+The report was prepared by Asia Game Buzz based on publicly available data from Chinese sources
+.
+China’s Gaming Market
+China’s gaming market is valued at $51.786 billion.
+The country had over 683 million players by the end of 2025.
+The Steam audience in China reached 42.4 million by the end of 2025. The rest of the world accounts for 89.6 million players.
+Client-based PC games (both premium and F2P) account for 22.28% of the total Chinese market, or $11-12 billion.
+A word from our sponsor
+Still paying for impressions and clicks that never convert? Advertise your PC game with PWN Games! With our CPA model, you only pay when a player installs, engages, or pays. 250+ PC games promoted, 42M+ players acquired, 10 years in the business. Trusted by top PC game publishers worldwide.
+Explore PWN Games
+The legal console market is considerably smaller, estimated at $1.1-1.2 billion in 2025.
+Steam accounts for 87% of all MAU in China’s PC/console market. PlayStation is around 6%, Nintendo 5%, and Xbox 2%.
+❗️Accurately estimating the share of Chinese platforms and the grey market console segment is difficult. Worth keeping in mind.
+As of the end of 2022, the country had over 16.7 million console players (including the grey market), with console revenue at around $2.3 billion for the same period.
+There is a reference to the report I’ve published not so long ago in collaboration with Meridian Play.
+52% of Wo Long: Fallen Dynasty buyers have Hong Kong PlayStation accounts, which suggests a significant portion are Chinese players.
+Average game prices in China are lower than in the West, by 20% to 37%. Worth factoring in when setting prices.
+ChinaJoy (over 410,000 visitors in 2025) and Bilibili World (300,000 visitors in 2025) are the main gaming events in China and the best venues for showcasing a game.
+Competition at those events is intense, however, so smaller events are also worth considering.
+Gaming merchandise is extremely popular in China. Transaction volumes in this category are growing, and in 2025, over 100 million users searched for such products on the platform.
+Local Platforms
+Heybox is the primary PC key distribution channel in China. TapTap and Sonkwo also have meaningful volume. These platforms should be on any developer’s radar when entering the Chinese market.
+For marketing, Heybox, Bilibili, and Douyin are essential. Xiaohongshu (RED) and Weibo are slightly less dominant but still highly significant.
+Asia Game Buzz has put together a useful map explaining how Chinese users use different platforms. It shows that no single platform offers all functionality, making a multi-platform presence important.
+In terms of DAU and MAU, Bilibili is one of the largest platforms in the country. TapTap, however, is more focused on the gaming audience.
+In the first half of 2025, 19 of the 100 fastest-growing channels on Bilibili were gaming-focused.
+As elsewhere in the world, curated lists of top games by theme or category are popular in China.
+A word from our sponsor
+Still paying for impressions and clicks that never convert? Advertise your PC game with PWN Games! With our CPA model, you only pay when a player installs, engages, or pays. 250+ PC games promoted, 42M+ players acquired, 10 years in the business. Trusted by top PC game publishers worldwide.
+Explore PWN Games
+Popular Genres in China
+Based on public data, the top genres are action/shooters (33% of titles), RPG/adventure (24%), and simulation/management (16%).
+❗️This data is not publicly available in a single source and has been compiled from various sources, including official Steam public data. It is best treated as a directional indicator rather than a precise figure.
+You can find the full presentation and the full list of sources (over 20!) at this link
+.
+To receive new posts and support my work, consider becoming a free or paid subscriber.

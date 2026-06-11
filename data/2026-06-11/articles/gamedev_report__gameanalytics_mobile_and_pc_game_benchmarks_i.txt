@@ -1,0 +1,65 @@
+Source  : GameDev Report
+Title   : GameAnalytics: Mobile and PC Game Benchmarks in 2026 - sponsored by PWN Games
+Date    : 2026-06-04 10:30 UTC
+Link    : https://gamedevreports.substack.com/p/gameanalytics-mobile-and-pc-game
+────────────────────────────────────────────────────────────
+
+Mobile Benchmarks
+The company analyzed data from 16,262 games using GameAnalytics. iOS and Android figures are combined.
+All titles in the sample have at least 1,000 MAU.
+Retention
+❗️GameAnalytics provides aggregated figures across all genres.
+D1 Retention in 2025 declined compared to 2024.
+Top 25% games have a D1 Retention just above 30%. The top 10% are already at 40%.
+A word from our sponsor
+Still paying for impressions and clicks that never convert? Advertise your PC game with PWN Games! With our CPA model, you only pay when a player installs, engages, or pays. 250+ PC games promoted, 42M+ players acquired, 10 years in the business. Trusted by top PC game publishers worldwide.
+Explore PWN Games
+The top 1% of titles can reach D1 Retention of 64-68%.
+By country, the highest D1 Retention is, as usual, in North America, Europe, and Oceania.
+Median D7 Retention across the industry is just under 4%.
+The top 25% sit in the 6-7% range.
+The top 10% reaches 11-12%.
+The top 1% posts D7 Retention figures above 25%, sometimes reaching 28%.
+D7 Retention broadly follows the same pattern as D1. Worth highlighting is how dramatically top 10% products differ from the median: the gap is sometimes more than 3x.
+Median D30 Retention is 0.69%- 0.79%, which is usually insufficient for healthy product operations.
+The top 25% comes in at around 1.6%- 1.8%.
+The top 1% reaches 13-15% D30 Retention. These are typically the titles that generate serious revenue.
+Engagement
+Player activity is broadly stable throughout the week. Each weekday accounts for 13-14% of weekly playtime. On weekends, that figure rises to 15.92% (Saturday) and 15.93% (Sunday). There is a difference, but not a dramatic one.
+Top 25% games see 22-24 minutes of daily play. Top 10% titles see 40-42 minutes.
+The top 1% exceeds 94 minutes of daily playtime per user.
+From a playtime perspective, regional figures diverge significantly from retention patterns. Africa, for instance, shows the highest playtime.
+For session length, the top 25% titles average around 5.2 minutes per session. The top 10% reaches 8 minutes.
+The top 1% sees around 22 minutes per session.
+The regional breakdown shows very different consumption patterns. Europe favors longer sessions, while Africa, the Middle East, and South America tend toward shorter ones.
+Top 25% titles see 5.3-5.7 sessions per day. Top 10% reaches around 9.6.
+The top 1% averages around 14 sessions per day. Guest experts in the GameAnalytics report note that the best titles capture a disproportionately large share of player time relative to other games.
+The regional session count breakdown broadly confirms the point about differing player preferences across regions.
+PC Benchmarks
+GameAnalytics analyzed 3,582 games with at least 100 MAU during the analyzed periods.
+Retention
+In absolute terms, D1 Retention on PC is lower than on mobile. Top 25% games sit at 15-16%.
+Among the leaders (top 1%), the figures are comparable to mobile: D1 Retention at 50-60%.
+The chart shows how dramatically top games differ from the rest of the market on D7 Retention. The top 1% sits above 20%. Even the top 10% is roughly half that.
+Top 10% titles have a D30 Retention of around 2.5%.
+The top 1% reaches 10%, though the chart shows this metric declined over the course of 2025.
+Playtime
+Median daily playtime for PC titles in 2025 was 32-33 minutes.
+Top 25% titles reach 70 minutes per day. Top 10% reaches 120 minutes.
+A word from our sponsor
+Still paying for impressions and clicks that never convert? Advertise your PC game with PWN Games! With our CPA model, you only pay when a player installs, engages, or pays. 250+ PC games promoted, 42M+ players acquired, 10 years in the business. Trusted by top PC game publishers worldwide.
+Explore PWN Games
+The top 1% sees 300+ minutes per day.
+Median session length on PC is 18 minutes. Top 25% titles often exceed 30 minutes.
+The top 1% regularly exceeds 100 minutes per session.
+Median daily session count on PC is 1.65-1.7. The top 10% is nearly double that, reaching 3 sessions per day.
+The top 1% reaches 7-10 daily sessions.
+❗️Given the session lengths, it’s not entirely clear how 7-10 sessions per day fit into a normal day.
+The median DAU/MAU ratio was 4-5% in 2025.
+Top 10% titles often exceed 13-15%, reflecting more frequent player returns.
+The top 1% sits just below 40%.
+In 2025, the median game with GameAnalytics SDK installed attracted between 600 and 900 new players per month.
+The top 10% differs dramatically, bringing in over 20,000 new players per month.
+The top 1% is in a different league entirely: 400,000-500,000 new players per month.
+Source
+To receive new posts and support my work, consider becoming a free or paid subscriber.
