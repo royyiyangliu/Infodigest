@@ -1,13 +1,14 @@
 {
   "fetch_date": "2026-06-11",
-  "fetch_time": "2026-06-11T03:22:17.243470+00:00",
+  "fetch_time": "2026-06-11T15:30:02.815274+00:00",
   "stats": {
-    "new_podcast_episodes": 1,
-    "new_articles": 0,
-    "new_tweets": 21,
-    "total_podcasts": 1,
-    "total_articles": 0,
-    "total_tweets": 21
+    "new_podcast_episodes": 2,
+    "new_articles": 2,
+    "new_tweets": 20,
+    "total_podcasts": 3,
+    "total_articles": 2,
+    "total_tweets": 41,
+    "transcribed_this_run": 1
   },
   "podcasts": [
     {
@@ -21,9 +22,54 @@
       "summary": "",
       "chars": 40703,
       "text_file": "data/2026-06-11/podcasts/ai_i_by_every__we_automated_everything_with_ai_and_tripled_o.txt"
+    },
+    {
+      "source": "罗永浩的十字路口",
+      "title": "王晶×罗永浩！谁还记得大导演张彻楚原？我死了什么都不需要留下",
+      "date": "2026-06-11 04:38 UTC",
+      "link": "https://podcasts.apple.com/us/podcast/%E7%8E%8B%E6%99%B6-%E7%BD%97%E6%B0%B8%E6%B5%A9-%E8%B0%81%E8%BF%98%E8%AE%B0%E5%BE%97%E5%A4%A7%E5%AF%BC%E6%BC%94%E5%BC%A0%E5%BD%BB%E6%A5%9A%E5%8E%9F-%E6%88%91%E6%AD%BB%E4%BA%86%E4%BB%80%E4%B9%88%E9%83%BD%E4%B8%8D%E9%9C%80%E8%A6%81%E7%95%99%E4%B8%8B/id1834069371?i=1000772152675&uo=4",
+      "orig_link": "https://www.xiaoyuzhoufm.com/episode/6a2a32c83eedf1f4b268db58?utm_source=rss",
+      "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/68981df29e7bcd326eb91d88/6a2a32c83eedf1f4b268db58/media.xyzcdn.net/68981df29e7bcd326eb91d88/lrDssf4xU98BZVfCxK6Q1oKVm7nP.m4a",
+      "duration": "03:25:39",
+      "summary": "《十字路口》播客节目简介\n本节⽬是⼀档由罗永浩主持的深度播客类节⽬，每集长达三到五个小时。我们与时代浪潮中的⼈物展开对话，聚焦于科技与⼈⽂领域，讲述个体命运故事，探讨时代发展趋势。\n本期嘉宾\n：王晶\n电影世界虽然肯定是一个高度工业化的商业世界，但在这里，人们热衷于讨论什么样的作品才是真正的经典，什么样的表演才是真正的“高级”，什么样的导演才是真正的艺术家。很少讨论谁能持续几十年让观众心甘情愿地买票进电影院，谁能亲自导演一百多部电影、参与制作数百部电影结果大部分都赚钱，谁能在香港电影最惨淡的时期让一大票电影人还能继续开工吃饭。\n邪门儿的是，虽然王晶几十年如一日宣称他拍片完全是为了赚钱，是纯商业活动，但人们总是从电影艺术的角度说他是“烂片王”。更邪门儿的是，这个被称为“烂片王”的导演，竟然在豆瓣上有19部七到八分的电影，8部超过八分的电影。显然，尽管电影工业的专业评审体系没有认可他的作品，但人民从钞票和投票两个角度，都选择了他的电影。\n这期节目，因为种种原因我们和王晶导演录制了两次，前后隔了几个月。如果你看视频的时候，发现在某些段落两个人的状态或着装突然发生了变化，放心，你的眼睛没出问题。另外在第二次录制前，王晶导演因为在外景地受风沙影响，干眼症复发，但他还是如约前来录制。录制过程中他一直在频繁地眨眼，这个请大家放心，他并没有被绑架^_^\n两次录制，王晶导演都毫无保留地回答了我们的几乎所有问题，可以说，只有我们不敢播的，没有他不敢回答的。接下来的这一期《罗永浩的十字路口》，我们就和王晶导演聊聊他传奇的人生，和他那个更传奇的电影江湖。\n【你将听到】\n00:03:00\n王晶的童年\n00:20:45\n香港地下世界\n00:34:27\n《欢乐今宵》\n00:55:52\n帅不过周润发\n01:13:47\n将赌片发扬光大\n01:29:52\n午夜场盛况\n01:45:41\n工作狂\n02:02:27\n舒淇往事\n02:24:04\n进军大陆\n02:39:15\n人民喜爱的导演\n02:43:27\n混乱的黄金时代\n03:02:32\n挨一巴掌\n03:20:31\nAI能替代真人表演吗\n03:25:01\n嘉宾推荐\n欢迎关注：\n微博\n@罗永浩的十字路口\nB站\n@罗永浩的十字路口\n抖音\n@罗永浩的十字路口\n小红书\n@罗永浩的十字路口\n商务合作：\n欢迎发送邮件至 jayci_chen@163.com",
+      "lang": "zh",
+      "chars": 107362,
+      "text_file": "data/2026-06-11/podcasts/罗永浩的十字路口__王晶罗永浩谁还记得大导演张彻楚原我死了什么都不需要留下.txt"
+    },
+    {
+      "source": "AI & I by Every",
+      "title": "How Anthropic Uses Claude Fable 5 With Mike Krieger",
+      "date": "2026-06-10 17:27 UTC",
+      "link": "https://www.youtube.com/watch?v=XWpTgCvgYaE",
+      "orig_link": "",
+      "audio_url": "",
+      "duration": "",
+      "summary": "",
+      "lang": "en",
+      "chars": 65880,
+      "text_file": "data/2026-06-11/podcasts/ai_i_by_every__how_anthropic_uses_claude_fable_5_with_mike_k.txt"
     }
   ],
-  "articles": [],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "Intel Should Raise Capital",
+      "date": "2026-06-11 14:50 UTC",
+      "link": "https://newsletter.semianalysis.com/p/intel-should-raise-capital",
+      "summary": "Intel's woes are behind them. The heavy spending is ahead of them. Why an equity issuance in a hot equity market could make Intel so much better sooner.",
+      "chars": 6941,
+      "text_file": "data/2026-06-11/articles/semianalysis__intel_should_raise_capital.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Late Stage Venture Is About Late Stage Founders",
+      "date": "2026-06-11 14:02 UTC",
+      "link": "https://www.a16z.news/p/late-stage-venture-is-about-late",
+      "summary": "The right kind of person can keep growing ambitiously, forever",
+      "chars": 8408,
+      "text_file": "data/2026-06-11/articles/a16z__late_stage_venture_is_about_late_stage_founde.txt"
+    }
+  ],
   "tweets": [
     {
       "source": "Andrej Karpathy",
@@ -276,6 +322,246 @@
       "retweets": 125,
       "is_quote": true,
       "quoted_id": "2064394146916229443"
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2064698525917827092",
+      "date": "2026-06-10T13:17:43.000Z",
+      "text": "wooh https://t.co/TCPfb1tyr1",
+      "url": "https://x.com/swyx/status/2064698525917827092",
+      "likes": 8,
+      "retweets": 1,
+      "is_quote": true,
+      "quoted_id": "2064671802509410806"
+    },
+    {
+      "source": "Josh Woodward",
+      "handle": "joshwoodward",
+      "tweet_id": "2064869366290841716",
+      "date": "2026-06-11T00:36:34.000Z",
+      "text": "Update: Everything is back up and running, sorry again!",
+      "url": "https://x.com/joshwoodward/status/2064869366290841716",
+      "likes": 429,
+      "retweets": 27,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Josh Woodward",
+      "handle": "joshwoodward",
+      "tweet_id": "2064762269674918013",
+      "date": "2026-06-10T17:31:01.000Z",
+      "text": "Heads up: Gemini is currently experiencing an outage. We're on it and will get everything back up ASAP. Some of the fixes are in, the rest coming very soon. Stay tuned for updates, and thanks for bearing with us!",
+      "url": "https://x.com/joshwoodward/status/2064762269674918013",
+      "likes": 1553,
+      "retweets": 137,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Boris Cherny",
+      "handle": "bcherny",
+      "tweet_id": "2064885111477219664",
+      "date": "2026-06-11T01:39:08.000Z",
+      "text": "Hello from Code with Claude Tokyo!! https://t.co/OGzffa1w58",
+      "url": "https://x.com/bcherny/status/2064885111477219664",
+      "likes": 1820,
+      "retweets": 77,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2064911328087810308",
+      "date": "2026-06-11T03:23:19.000Z",
+      "text": "Can confirm we saw a strong spike in growth of token consumption for Codex over last 48 hours. Unusual when we don't launch something. https://t.co/UG7hB1URMC",
+      "url": "https://x.com/thsottiaux/status/2064911328087810308",
+      "likes": 2460,
+      "retweets": 105,
+      "is_quote": true,
+      "quoted_id": "2064727949274955953"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2064900105032135010",
+      "date": "2026-06-11T02:38:43.000Z",
+      "text": "Simplify until there is nothing to simplify https://t.co/4Rt5GGlGvA",
+      "url": "https://x.com/thsottiaux/status/2064900105032135010",
+      "likes": 580,
+      "retweets": 12,
+      "is_quote": true,
+      "quoted_id": "2064768231903285451"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2064869401359417799",
+      "date": "2026-06-11T00:36:43.000Z",
+      "text": "Welcome Clint and Michael! Incredibly excited to see what we do together to contribute to the cybersecurity field and accelerate defenders across the globe.\n\nIt's time to build. https://t.co/wu9CtJk38u",
+      "url": "https://x.com/thsottiaux/status/2064869401359417799",
+      "likes": 772,
+      "retweets": 18,
+      "is_quote": true,
+      "quoted_id": "2064813665711444175"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2064799855059616172",
+      "date": "2026-06-10T20:00:22.000Z",
+      "text": "Give yourself permission to build.\n\nThe traditional career ladder pushes everyone to become a leader, but I just want to be a builder.\n\nAs you climb the ladder at most companies, you’re expected to step away from building and fill your time with product reviews, cross-functional alignment, managing up, and performance calibrations.\n\nI know a lot of builders who spent their best years climbing the wrong ladder.\n\nThe good news is that this is finally changing. Companies are rewarding builders and ICs more than ever, and even managers are increasingly expected to do IC work too.\n\nBut becoming a good builder takes reps, and it’s hard to put in those reps when you’re in back-to-back meetings all day.\n\nSo if you’re a builder at heart, embrace it. You don’t have to give up what you’re good at to be a “leader.”\n\n📌 Watch now: https://t.co/wv2SINll18",
+      "url": "https://x.com/petergyang/status/2064799855059616172",
+      "likes": 52,
+      "retweets": 1,
+      "is_quote": true,
+      "quoted_id": "2064713829637099629"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2064760792684335133",
+      "date": "2026-06-10T17:25:09.000Z",
+      "text": "This shit is actually working unbelievable https://t.co/0wtkHtT6kD",
+      "url": "https://x.com/petergyang/status/2064760792684335133",
+      "likes": 8,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2064748427892945313",
+      "date": "2026-06-10T16:36:01.000Z",
+      "text": "The more I use Codex the more ambitious my requests get. Or maybe this is not ambitious enough? https://t.co/C0qgjmKGRt",
+      "url": "https://x.com/petergyang/status/2064748427892945313",
+      "likes": 48,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Nan Yu",
+      "handle": "thenanyu",
+      "tweet_id": "2064733338779177459",
+      "date": "2026-06-10T15:36:03.000Z",
+      "text": "gangprompting https://t.co/ZnO5TTrFv6",
+      "url": "https://x.com/thenanyu/status/2064733338779177459",
+      "likes": 10,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2064732709579080021"
+    },
+    {
+      "source": "Nan Yu",
+      "handle": "thenanyu",
+      "tweet_id": "2064711789556732316",
+      "date": "2026-06-10T14:10:25.000Z",
+      "text": "There's a thing they say about being a boat owner: the two best days of being a boat owner are the day you buy the boat and the day you sell the boat. https://t.co/ohqCRBqpUA",
+      "url": "https://x.com/thenanyu/status/2064711789556732316",
+      "likes": 15,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2064672567311393162"
+    },
+    {
+      "source": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "tweet_id": "2064794601320481150",
+      "date": "2026-06-10T19:39:29.000Z",
+      "text": "Right from the early days of Gemini, enterprises would get the quality/cost tradeoff wrong. They’d often start with the smallest, cheapest model.\n\nThe rule of thumb we gave customers:\n\nReplacing a traditional ML model with an LLM - start small, cos you already know what good looks like.\n\nBuilding something new - start with the most capable model. Think magically. Figure out what’s actually possible first.\n\nOnce they had a high-quality working application, we’d help them move to a smaller model while maintaining quality.",
+      "url": "https://x.com/realmadhuguru/status/2064794601320481150",
+      "likes": 20,
+      "retweets": 1,
+      "is_quote": true,
+      "quoted_id": "2064771714492596407"
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2064828193446740023",
+      "date": "2026-06-10T21:52:58.000Z",
+      "text": "and the video for reference: https://t.co/tw0w0tmjIK\n\n(I didnt get to use the updated designs in time)",
+      "url": "https://x.com/trq212/status/2064828193446740023",
+      "likes": 92,
+      "retweets": 1,
+      "is_quote": true,
+      "quoted_id": "2064399512664526853"
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2064826541947940910",
+      "date": "2026-06-10T21:46:24.000Z",
+      "text": "here's the deck from this video if you want to go over it yourself: https://t.co/6adKYvxUxD\n\nlmk if you have any questions!",
+      "url": "https://x.com/trq212/status/2064826541947940910",
+      "likes": 203,
+      "retweets": 9,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2064826394589442448",
+      "date": "2026-06-10T21:45:49.000Z",
+      "text": "Lots of people asked how I used Fable to edit its own launch video so I made a video about that!\n\nTLDR it wrote a lot of code &amp;  tool calls to use transcription services, ffmpeg, do colorgrading, use the figma mcp, make remotion UI and render it. \n\nI didn't touch a video editor. https://t.co/hJRdJye5Fy",
+      "url": "https://x.com/trq212/status/2064826394589442448",
+      "likes": 6036,
+      "retweets": 367,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Google Labs",
+      "handle": "GoogleLabs",
+      "tweet_id": "2064801929339752527",
+      "date": "2026-06-10T20:08:36.000Z",
+      "text": "🌍 Project Genie access is expanding even more! Starting today, Google AI Ultra 5X subscribers (our latest tier!) globally can access Project Genie.\n\nTry it out here! https://t.co/4BFYHSiAMv https://t.co/VL4MCvc44B",
+      "url": "https://x.com/GoogleLabs/status/2064801929339752527",
+      "likes": 365,
+      "retweets": 60,
+      "is_quote": true,
+      "quoted_id": "2057179491693470166"
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2064864439275536495",
+      "date": "2026-06-11T00:17:00.000Z",
+      "text": "Automate your job search with Replit! https://t.co/OiJSdTvhi2",
+      "url": "https://x.com/amasad/status/2064864439275536495",
+      "likes": 164,
+      "retweets": 5,
+      "is_quote": true,
+      "quoted_id": "2064630129116996074"
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2064864076430504282",
+      "date": "2026-06-11T00:15:33.000Z",
+      "text": "🇺🇸🇺🇸🇺🇸 https://t.co/EBM3X4YQ5T",
+      "url": "https://x.com/amasad/status/2064864076430504282",
+      "likes": 802,
+      "retweets": 40,
+      "is_quote": true,
+      "quoted_id": "2064799872914727206"
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2064806473352540643",
+      "date": "2026-06-10T20:26:40.000Z",
+      "text": "Super interesting approach to enterprise agents. Congrats on the launch @markiewagner https://t.co/BfGani53y1",
+      "url": "https://x.com/amasad/status/2064806473352540643",
+      "likes": 185,
+      "retweets": 11,
+      "is_quote": true,
+      "quoted_id": "2064778239164461316"
     }
   ]
 }
