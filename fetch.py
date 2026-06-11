@@ -46,16 +46,16 @@ FOLLOWBUILDERS_X_URL        = f"{FOLLOWBUILDERS_BASE}/feed-x.json"
 # They are now sourced from follow-builders (with full transcripts).
 SOURCES = [
     # ── 中文播客 ──────────────────────────────────────────────────────────────
-    {"name": "张小珺Jùn｜商业访谈录",      "type": "podcast", "apple_id": "1634356920"},
-    {"name": "卫诗婕｜漫谈Light the Star", "type": "podcast", "apple_id": "1754955836"},
-    {"name": "罗永浩的十字路口",            "type": "podcast", "apple_id": "1834069371"},
-    {"name": "硅谷101",                    "type": "podcast", "apple_id": "1498541229"},
-    {"name": "晚点聊 LateTalk",            "type": "podcast", "apple_id": "1564877433"},
-    {"name": "乱翻书",                     "type": "podcast", "apple_id": "1591595410"},
+    {"name": "张小珺Jùn｜商业访谈录",      "type": "podcast", "apple_id": "1634356920", "lang": "zh"},
+    {"name": "卫诗婕｜漫谈Light the Star", "type": "podcast", "apple_id": "1754955836", "lang": "zh"},
+    {"name": "罗永浩的十字路口",            "type": "podcast", "apple_id": "1834069371", "lang": "zh"},
+    {"name": "硅谷101",                    "type": "podcast", "apple_id": "1498541229", "lang": "zh"},
+    {"name": "晚点聊 LateTalk",            "type": "podcast", "apple_id": "1564877433", "lang": "zh"},
+    {"name": "乱翻书",                     "type": "podcast", "apple_id": "1591595410", "lang": "zh"},
     # ── 英文播客 (Latent Space / No Priors → follow-builders) ─────────────────
-    {"name": "Lex Fridman Podcast",       "type": "podcast", "apple_id": "1434243584"},
-    {"name": "Dwarkesh Podcast",          "type": "podcast", "apple_id": "1516093381"},
-    {"name": "BG2Pod",                    "type": "podcast", "apple_id": "1727278168"},
+    {"name": "Lex Fridman Podcast",       "type": "podcast", "apple_id": "1434243584", "lang": "en"},
+    {"name": "Dwarkesh Podcast",          "type": "podcast", "apple_id": "1516093381", "lang": "en"},
+    {"name": "BG2Pod",                    "type": "podcast", "apple_id": "1727278168", "lang": "en"},
     # ── 文章 ──────────────────────────────────────────────────────────────────
     {"name": "Epoch AI",      "type": "article", "rss": "https://epochai.substack.com/feed"},
     {"name": "SemiAnalysis",  "type": "article", "rss": "https://newsletter.semianalysis.com/feed"},
@@ -372,6 +372,7 @@ def fetch_source(source, con, max_items, first_run):
                 "audio_url": audio_url,
                 "duration":  duration,
                 "summary":   summary[:1500],
+                "lang":      source.get("lang", "zh"),
                 "chars":     None,
                 "text_file": None,
             }
@@ -455,9 +456,10 @@ def fetch_followbuilders(con, first_run, max_tweets=20):
                 "date":      date_fmt,
                 "link":      youtube_url,
                 "orig_link": "",
-                "audio_url": "",
+                "audio_url": "",        # follow-builders provides no audio URL
                 "duration":  duration,
                 "summary":   summary,
+                "lang":      "en",      # all follow-builders shows are English
                 "chars":     len(transcript) if transcript else None,
                 "text_file": None,  # filled in by save_results
             }

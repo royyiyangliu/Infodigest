@@ -29,6 +29,11 @@ jobs:
       - name: Run daily fetch
         run: python fetch.py
 
+      - name: Transcribe self-scraped podcasts
+        env:
+          DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
+        run: python transcribe_podcasts.py
+
       - name: Commit new data
         run: |
           git config user.name "github-actions[bot]"
