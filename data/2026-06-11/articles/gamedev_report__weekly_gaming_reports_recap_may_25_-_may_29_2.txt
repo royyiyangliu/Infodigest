@@ -1,0 +1,120 @@
+Source  : GameDev Report
+Title   : Weekly Gaming Reports Recap: May 25 - May 29 (2026)
+Date    : 2026-05-29 15:38 UTC
+Link    : https://gamedevreports.substack.com/p/weekly-gaming-reports-recap-may-25
+────────────────────────────────────────────────────────────
+
+Reports of the week:
+Amir Satvat: Gaming Industry Headcount Grew Just 0.6% Over 4 Years
+Circana: The U.S. Gaming Market in April’26 & introducing new newsletter sponsor - PWN Games!
+Sensor Tower: Mobile Market in Q1 2026
+game: Germany’s Gaming Industry has more development studios but fewer employees in 2026
+Thanks for reading! Subscribe to receive gaming market updates daily. You can support the newsletter by becoming a paid subscriber too (comes with benefits!)
+Amir Satvat: Gaming Industry Headcount Grew Just 0.6% Over 4 Years
+Amir Satvat is the founder of Always Supporting the Gaming Community (ASGC), a community that helps people find work both inside and outside the games industry
+.
+Per Amir’s data, the gaming industry added 4,000 jobs over four years, a 0.6% increase. At the end of Q1’26, when the report was published, the industry employed just over 754,000 people.
+In the US alone, headcount fell 11.5% over the same period.
+From 2022 to 2026, the industry hired 52,500 people while over 48,000 lost their jobs.
+From 2017 to 2022, the gaming industry grew across nearly every region. Job growth over that period: Brazil +210%, Poland +150%, Sweden +88%, Australia +59%, UK +58%, Canada +48%.
+Conservative estimates put new job creation at 150,000-250,000 during that earlier period. From 2022 to 2026: just 4,500.
+From 2022 to 2026, around 288,000 people were actively looking for work in the industry: 225,000 recent graduates, 43,000 laid-off workers, and 20,000 career changers and self-taught candidates.
+On average, there are around 5 candidates per hire. In the US, the situation is worse: 127,000 job seekers against 12,000 hires. A ratio of 11 to 1.
+From 2022 to 2026, 6.4% of all gaming industry workers lost their jobs. North America was hit hardest, with 19.2% of the workforce affected. South America: 11%, Europe: 6.7%, Asia: just 2%.
+Amir notes that throughout this period, the industry has had roughly 9,000-14,000 open positions at any given time. But the geography is shifting: opportunities in North America are declining while Europe and Asia are seeing more openings.
+Amir projects 11,580 layoffs in the gaming industry in 2026, revised up from an earlier estimate of 10,681.
+Unfortunately, the pace of layoffs in 2026 has not slowed. Year-to-date estimates have grown 44%.
+North America accounts for 73% of all layoffs. The US leads at 49%, followed by Canada at 24%. Europe accounts for 21%.
+The map shows northeastern US states drawing talent toward them, though the majority of open positions in the US remain on the West Coast.
+Source
+Circana: The U.S. Gaming Market in April’26 & introducing new newsletter sponsor - PWN Games!
+Hi all!
+Before we start, I’m happy to announce that the newsletter for the next couple of months will be sponsored by
+PWN Games
+!
+PWN Games
+is a performance marketing network specializing in CPA-based UA for PC (!!!) games
+, with a particular expertise in F2P PC titles. This is a common thing on mobile, but I do not see many such agencies on PC.
+The company was founded in Montreal, Canada, in 2016 and has since worked with Tencent, NetEase, Wargaming, Gaijin & 250+ other companies. 42M+ users have been brought to titles PWN Games worked on. I’ve asked the guys to share more numbers for the announcement (that’s my bread & butter, in the end), and their average partnership lasts 5+ years.
+First, I hope that our partnership will last as long too (and I wish all you guys the same!). Second, I want to say a big thanks to
+PWN Games
+for supporting my work ❤️
+This means a lot to me and helps (as the support of paid subscribers, of course!) to bring game insights to everyone. Now - to the numbers!
+Market Numbers
+In April 2026, the US gaming market generated $4.256 billion in revenue, up 3% year-over-year.
+Total gaming market revenue for the first four months of 2026 is running 5% ahead of the same period in 2025, driven by growth in both content and hardware sales.
+Game content sales grew 2% to $3.837 billion.
+Content sales for the first four months of 2026 are running 3% ahead of last year.
+US consumer spending on console games grew 21% YoY in April. Subscription spending grew 13%.
+Hardware sales grew 34% to $261 million. Nintendo Switch 2 growth more than offset declines in original Switch (-69% YoY), Xbox Series (-43%), and PlayStation 5 (-30%). April was Nintendo Switch 2’s best revenue month since July 2025.
+Nintendo Switch 2 led in April by both units and revenue, with PlayStation 5 in second place.
+After 66 months on the market, PlayStation 5 is tracking 2% ahead of PlayStation 4 in US unit sales.
+Nintendo Switch 2 is running 11% ahead of the original Nintendo Switch after 11 months.
+The only declining segment in April 2026 was accessories, which fell 5% to $159 million.
+Cases and organizers were up 160% versus last year, driven by Nintendo Switch 2 attach purchases.
+Game Sales
+❗️Starting April 2026, Circana is combining actual sales figures with projections in its charts. Projected figures are marked in the table.
+Under the new methodology, Tomodachi Life: Living the Dream, Pragmata, and Crimson Desert are the top three titles by revenue in April.
+Tomodachi Life: Living the Dream earned an estimated $41 million in the US, per Circana’s new methodology that combines digital and physical sales.
+Following its launch, consumer spending on physical game copies grew 44% YoY in April to $96 million. Physical sales growth year-to-date (first four months): +9%.
+Windrose (#5) and Saros (#9) also had strong starts.
+Through the first four months of 2026, Resident Evil: Requiem, Crimson Desert, and MLB: The Show 26 remain at the top of the year-to-date chart.
+Among new releases, only Tomodachi Life: Living the Dream has entered the year-to-date rankings.
+The mobile market remains stable. MONOPOLY GO!, Royal Match, and Last War: Survival hold their lead. Pixel Flow continues its steady climb and is now at #13 by US revenue.
+Source
+Sensor Tower: Mobile Market in Q1 2026 - sponsored by PWN Games
+❗️All revenue figures are gross. Subscriptions and in-app purchases are included. Sensor Tower data excludes alternative Android stores, as well as ad revenue and payments outside of platforms (D2C).
+Mobile Market in Q1’26
+IAP revenue continues to grow. In Q1’26, total across all apps reached $43.5 billion, up 9.3% versus Q1’25.
+All of that growth, however, is coming from apps. In Q1’26, apps generated $23.1 billion (+17.9% YoY), while games brought in $20.4 billion (+0.5% YoY).
+Google Play revenue is growing faster (+14% YoY) than iOS (+6.9% YoY). The picture is different for games specifically: iOS game revenue is falling YoY, while Google Play game revenue is edging up slightly.
+A word from our sponsor
+Still paying for impressions and clicks that never convert? Advertise your PC game with PWN Games! With our CPA model, you only pay when a player installs, engages, or pays. 250+ PC games promoted, 42M+ players acquired, 10 years in the business. Trusted by top PC game publishers worldwide.
+Explore PWN Games
+Downloads in Q1’26 fell 0.8% YoY to 37.5 billion.
+Apps grew 4.9% in Q1’26 (25.6 billion installs), but could not offset the 11.9% YoY decline in game installs (11.9 billion).
+Google Play declined by 1.5B downloads. The drop on iOS was far more modest in absolute numbers.
+Key Mobile Markets
+The US gaming market grew 3% YoY. However, Sensor Tower analysts note that Q1’26 is the second consecutive quarter of declining US revenue, the first time this has happened since Q3-Q4 2020.
+European markets are seeing solid growth (not visible on the chart), with UK revenue up 20% YoY in particular.
+That said, given the size of the US market, a 3% gain there outweighs a 20% gain in the UK in absolute terms. The US is not a market to write off.
+❗️China numbers are covering iOS only because Sensor Tower doesn’t count local Android app stores.
+India, the US, and Brazil lead downloads in Q1’26. Only India and Indonesia posted growth, and by just a couple of percentage points.
+African countries are posting strong download growth. Worth noting that these figures cover all apps, not games only.
+Key Categories in Q1 2026: Game Genres and Non-Gaming Apps
+The strongest revenue growth in Q1’26 came from board games (+23% YoY), puzzles (+21% YoY, also one of the largest categories by revenue), and shooters (+12% YoY).
+Puzzle growth was driven by Gossip Harbor, Tasty Travels, and Pixel Flow.
+Action, RPG, and casino continue to decline in revenue.
+The picture of downloads charts is bleak across the board. Everything is falling. Strategy and puzzles are holding up better than others.
+Generative AI apps are posting strong growth, with revenue up 174% year over year.
+The segment also leads in downloads, though by a smaller margin. Video streaming apps are close behind.
+Sensor Tower highlights that the slowdown in AI app download growth may reflect a growing share of users who have already downloaded such apps.
+A word from our sponsor
+Still paying for impressions and clicks that never convert? Advertise your PC game with PWN Games! With our CPA model, you only pay when a player installs, engages, or pays. 250+ PC games promoted, 42M+ players acquired, 10 years in the business. Trusted by top PC game publishers worldwide.
+Explore PWN Games
+Top Games in Q1 2026
+Last War: Survival, Honor of Kings, and Whiteout Survival led Q1 2026 by revenue. The only new entrant in the top 10 was Game for Peace (the Chinese version of PUBG).
+The top two titles by revenue each exceeded $500 million for the quarter.
+Block Blast! continues to hold the top spot in downloads, marking its second consecutive quarter at number one.
+Among the top revenue growth leaders in Q1’26, 7 are Chinese companies. The exceptions: Pixel Flow (Turkey), Dragon Ball Z Dokkan Battle (Japan), and Brawl Stars (Finland).
+In download growth, the leaders are Heartopia (which also appeared in the revenue growth chart), Subway Surfers City, and Color Block: Combo Blast (this is NOT Block Blast! and is listed under a different publisher).
+Digital Marketing Trends in Q1’26
+Digital marketing spend in the US in Q1’26 reached $48 billion, up 15.4% versus Q1’25.
+Games rank 6th by marketing spend. US advertisers’ spending on games grew 45.5% YoY.
+The picture varies by country. In Japan, for example, games rank first in digital marketing spend and are also growing strongly (+24.3% YoY).
+In Turkey, games rank third but are growing 84.2% YoY.
+Broadly, digital marketing spend on games in Q1’26 was significantly up year-over-year in almost every country.
+The full Sensor Tower report contains additional data on retail marketing spend and web usage, though none of it specifically covers games
+.
+game: Germany’s Gaming Industry has more development studios but fewer employees in 2026 - sponsored by PWN Games
+The number of game development companies in Germany grew from 917 in 2025 to 956 in 2026, an increase of 4%.
+The strongest growth came from development studios, up 6% YoY to 474 companies.
+Companies that both develop and publish their own projects grew 3% to 427.
+The number of publishers grew 2% to 55 companies.
+Since the federal game funding program was announced, the number of new companies in the country has grown by 50% over four years. Following the program’s end, the company count fell 4% YoY in 2025.
+A word from our sponsor
+Still paying for impressions and clicks that never convert? Advertise your PC game with PWN Games! With our CPA model, you only pay when a player installs, engages, or pays. 250+ PC games promoted, 42M+ players acquired, 10 years in the business. Trusted by top PC game publishers worldwide.
+Explore PWN Games
+Employee headcount fell to 12,235 in 2026, down 3% versus the previous year.
+In total, the gaming industry supports over 30,000 jobs in Germany. Beyond those directly involved in game development, this includes educational institutions, media, retail, and other adjacent sectors.
+Source

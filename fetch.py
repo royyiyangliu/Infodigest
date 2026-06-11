@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
 AI Information Digest - Daily Fetcher
-- Podcasts : title / date / episode-link / audio-url / summary
+- Podcasts : title / date / episode-link / audio-url / summary / text_file (transcript, if available)
 - Articles : title / date / link / full-text (saved as .txt)
+- Tweets   : from follow-builders public feed (26 AI builders on X)
 Deduplication via SQLite; new items only on subsequent runs.
 """
 import sys, subprocess
@@ -31,11 +32,18 @@ HEADERS = {
     )
 }
 
+FOLLOWBUILDERS_BASE        = "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main"
+FOLLOWBUILDERS_PODCASTS_URL = f"{FOLLOWBUILDERS_BASE}/feed-podcasts.json"
+FOLLOWBUILDERS_X_URL        = f"{FOLLOWBUILDERS_BASE}/feed-x.json"
+
 # ── Source list ───────────────────────────────────────────────────────────────
 # type      : "podcast" | "article"
 # apple_id  : Apple Podcasts numeric ID  →  resolved to RSS via iTunes API
 # rss       : direct RSS/Atom URL        →  used as-is
 # archive   : archive page URL           →  we discover the RSS from HTML <link>
+#
+# NOTE: Latent Space and No Priors are intentionally omitted here.
+# They are now sourced from follow-builders (with full transcripts).
 SOURCES = [
     # ── 中文播客 ──────────────────────────────────────────────────────────────
     {"name": "张小珺Jùn｜商业访谈录",      "type": "podcast", "apple_id": "1634356920"},
@@ -44,11 +52,9 @@ SOURCES = [
     {"name": "硅谷101",                    "type": "podcast", "apple_id": "1498541229"},
     {"name": "晚点聊 LateTalk",            "type": "podcast", "apple_id": "1564877433"},
     {"name": "乱翻书",                     "type": "podcast", "apple_id": "1591595410"},
-    # ── 英文播客 ──────────────────────────────────────────────────────────────
+    # ── 英文播客 (Latent Space / No Priors → follow-builders) ─────────────────
     {"name": "Lex Fridman Podcast",       "type": "podcast", "apple_id": "1434243584"},
     {"name": "Dwarkesh Podcast",          "type": "podcast", "apple_id": "1516093381"},
-    {"name": "Latent Space",              "type": "podcast", "apple_id": "1674008350"},
-    {"name": "No Priors",                 "type": "podcast", "apple_id": "1668002688"},
     {"name": "BG2Pod",                    "type": "podcast", "apple_id": "1727278168"},
     # ── 文章 ──────────────────────────────────────────────────────────────────
     {"name": "Epoch AI",      "type": "article", "rss": "https://epochai.substack.com/feed"},
@@ -191,6 +197,48 @@ def format_duration(raw):
     except (ValueError, TypeError):
         return s
 
+def parse_iso_duration(iso_dur):
+    """Convert ISO 8601 duration (PT1H23M45S) to formatted string (1:23:45)."""
+    if not iso_dur:
+        return ""
+    m = re.match(r"PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?", iso_dur)
+    if not m:
+        return ""
+    h    = int(m.group(1) or 0)
+    mins = int(m.group(2) or 0)
+    secs = int(m.group(3) or 0)
+    if h:
+        return f"{h}:{mins:02d}:{secs:02d}"
+    return f"{mins}:{secs:02d}"
+
+def fetch_youtube_meta(youtube_url):
+    """Fetch duration and description from a YouTube watch page.
+    Returns (duration_str, description_str); either may be None on failure.
+    """
+    try:
+        r = requests.get(youtube_url, headers=HEADERS, timeout=15)
+        if r.status_code != 200:
+            return None, None
+        html = r.text
+
+        # Duration: schema.org embeds "duration":"PT1H23M45S"
+        dur_match = re.search(r'"duration"\s*:\s*"(PT[^"]+)"', html)
+        duration = parse_iso_duration(dur_match.group(1)) if dur_match else None
+
+        # Description: ytInitialPlayerResponse embeds shortDescription as JSON string
+        desc_match = re.search(r'"shortDescription"\s*:\s*"((?:[^"\\]|\\.)*)"', html)
+        description = None
+        if desc_match:
+            try:
+                description = json.loads(f'"{desc_match.group(1)}"')
+            except Exception:
+                description = desc_match.group(1)
+
+        return duration, description
+    except Exception as e:
+        print(f"    [WARN] YouTube 元数据获取失败: {e}")
+        return None, None
+
 def clean_html(html):
     text = BeautifulSoup(html or "", "html.parser").get_text(separator="\n", strip=True)
     return re.sub(r"\n{3,}", "\n\n", text).strip()
@@ -240,7 +288,7 @@ def get_full_text(entry):
     # 3. Fallback: RSS summary
     return clean_html(entry.get("summary") or entry.get("description") or "")
 
-# ── Fetch one source ──────────────────────────────────────────────────────────
+# ── Fetch one RSS source ──────────────────────────────────────────────────────
 def fetch_source(source, con, max_items, first_run):
     name  = source["name"]
     stype = source["type"]
@@ -309,8 +357,7 @@ def fetch_source(source, con, max_items, first_run):
             apple_url = apple_ep_map.get(date_key, "")
             if not apple_url and date_key:
                 try:
-                    from datetime import datetime as _dt, timedelta as _td
-                    next_day = (_dt.strptime(date_key, "%Y-%m-%d") + _td(days=1)).strftime("%Y-%m-%d")
+                    next_day = (datetime.strptime(date_key, "%Y-%m-%d") + timedelta(days=1)).strftime("%Y-%m-%d")
                     apple_url = apple_ep_map.get(next_day, "")
                 except Exception:
                     pass
@@ -320,11 +367,13 @@ def fetch_source(source, con, max_items, first_run):
                 "source":    name,
                 "title":     title,
                 "date":      pub_date,
-                "link":      apple_url,   # Apple Podcasts episode link (fallback: original)
-                "orig_link": link,        # Original RSS link (for reference)
+                "link":      apple_url,
+                "orig_link": link,
                 "audio_url": audio_url,
                 "duration":  duration,
                 "summary":   summary[:1500],
+                "chars":     None,
+                "text_file": None,
             }
             new_podcasts.append(item)
             print(f"    + [播客] {pub_date[:10]}  {title[:55]}")
@@ -349,17 +398,135 @@ def fetch_source(source, con, max_items, first_run):
 
     return new_podcasts, new_articles
 
+# ── Fetch follow-builders public feed ─────────────────────────────────────────
+def fetch_followbuilders(con, first_run, max_tweets=20):
+    """Fetch podcasts (with transcripts) and X tweets from follow-builders' public GitHub feed.
+    Returns:
+      fb_podcasts : list of (meta_dict, transcript_str) tuples
+      tweets      : list of tweet dicts
+    """
+    fb_podcasts = []
+    tweets      = []
+
+    # ── Podcasts ──────────────────────────────────────────────────────────────
+    print("[follow-builders] 抓取播客转录...")
+    try:
+        r = requests.get(FOLLOWBUILDERS_PODCASTS_URL, headers=HEADERS, timeout=15)
+        r.raise_for_status()
+        data = r.json()
+
+        for ep in data.get("podcasts", []):
+            guid        = ep.get("guid", "")
+            title       = (ep.get("title") or "").strip()
+            # "name" is the show name; "source" is a type tag ("podcast")
+            source      = ep.get("name") or ep.get("source", "")
+            youtube_url = ep.get("url", "")
+            pub_raw     = ep.get("publishedAt", "")   # ISO 8601: "2026-05-27T16:28:59.000Z"
+            transcript  = ep.get("transcript", "")
+
+            if not guid or not title:
+                continue
+
+            fb_guid = f"followbuilders:podcast:{guid}"
+            if not first_run and not is_new(con, fb_guid):
+                continue
+
+            # Parse ISO 8601 → "YYYY-MM-DD HH:MM UTC"
+            try:
+                date_fmt = datetime.strptime(pub_raw[:19], "%Y-%m-%dT%H:%M:%S").strftime("%Y-%m-%d %H:%M UTC")
+            except Exception:
+                date_fmt = pub_raw
+
+            print(f"    + [播客] {date_fmt[:10]}  {title[:55]}")
+
+            # Fetch YouTube page for duration + description — only for watch URLs, not playlists
+            duration = ""
+            summary  = ""
+            is_watch_url = "youtube.com/watch" in youtube_url or "youtu.be/" in youtube_url
+            if is_watch_url:
+                print(f"           YouTube 元数据...")
+                yt_dur, yt_desc = fetch_youtube_meta(youtube_url)
+                duration = yt_dur or ""
+                summary  = (yt_desc or "")[:1500]
+
+            meta = {
+                "source":    source,
+                "title":     title,
+                "date":      date_fmt,
+                "link":      youtube_url,
+                "orig_link": "",
+                "audio_url": "",
+                "duration":  duration,
+                "summary":   summary,
+                "chars":     len(transcript) if transcript else None,
+                "text_file": None,  # filled in by save_results
+            }
+            fb_podcasts.append((meta, transcript))
+            mark_seen(con, fb_guid, source, title, youtube_url, date_fmt, "podcast")
+
+    except Exception as e:
+        print(f"    [ERROR] follow-builders 播客: {e}")
+
+    # ── X Tweets ──────────────────────────────────────────────────────────────
+    print("[follow-builders] 抓取 X 推文...")
+    try:
+        r = requests.get(FOLLOWBUILDERS_X_URL, headers=HEADERS, timeout=15)
+        r.raise_for_status()
+        data = r.json()
+
+        collected = 0
+        for builder in data.get("x", []):
+            if collected >= max_tweets and not first_run:
+                break
+            name   = builder.get("name", "")
+            handle = builder.get("handle", "")
+            for tweet in builder.get("tweets", []):
+                tweet_id = tweet.get("id", "")
+                if not tweet_id:
+                    continue
+                fb_guid = f"followbuilders:tweet:{tweet_id}"
+                if not first_run and not is_new(con, fb_guid):
+                    continue
+
+                item = {
+                    "source":    name,
+                    "handle":    handle,
+                    "tweet_id":  tweet_id,
+                    "date":      tweet.get("createdAt", ""),
+                    "text":      tweet.get("text", ""),
+                    "url":       tweet.get("url", ""),
+                    "likes":     tweet.get("likes", 0),
+                    "retweets":  tweet.get("retweets", 0),
+                    "is_quote":  tweet.get("isQuote", False),
+                    "quoted_id": tweet.get("quotedTweetId"),
+                }
+                tweets.append(item)
+                mark_seen(con, fb_guid, name, tweet.get("text", "")[:100],
+                          tweet.get("url", ""), tweet.get("createdAt", ""), "tweet")
+                print(f"    + [推文] @{handle}: {tweet.get('text','')[:60]}")
+                collected += 1
+
+    except Exception as e:
+        print(f"    [ERROR] follow-builders 推文: {e}")
+
+    print(f"    follow-builders 共: {len(fb_podcasts)} 集播客, {len(tweets)} 条推文")
+    return fb_podcasts, tweets
+
 # ── Save results ──────────────────────────────────────────────────────────────
 def make_slug(text, max_len=45):
     slug = re.sub(r"[^\w\s-]", "", text.lower())
     slug = re.sub(r"[\s_]+", "_", slug).strip("_-")
     return slug[:max_len]
 
-def save_results(date_str, all_podcasts, all_articles):
+def save_results(date_str, all_podcasts, all_fb_podcasts, all_articles, all_tweets):
     day_dir      = DATA / date_str
     articles_dir = day_dir / "articles"
+    podcasts_dir = day_dir / "podcasts"
     articles_dir.mkdir(parents=True, exist_ok=True)
+    if all_fb_podcasts:
+        podcasts_dir.mkdir(parents=True, exist_ok=True)
 
+    # ── Save article full texts ────────────────────────────────────────────────
     article_meta_list = []
     for meta, full_text in all_articles:
         src_slug   = make_slug(meta["source"])
@@ -379,42 +546,74 @@ def save_results(date_str, all_podcasts, all_articles):
         meta_out["text_file"] = f"data/{date_str}/articles/{filename}"
         article_meta_list.append(meta_out)
 
-    # ── Merge with existing JSON for this date (don't overwrite) ──────────
+    # ── Save follow-builders podcast transcripts ───────────────────────────────
+    fb_podcast_meta_list = []
+    for meta, transcript in all_fb_podcasts:
+        meta_out = dict(meta)
+        if transcript:
+            src_slug   = make_slug(meta["source"])
+            title_slug = make_slug(meta["title"])
+            filename   = f"{src_slug}__{title_slug}.txt"
+            filepath   = podcasts_dir / filename
+
+            with open(filepath, "w", encoding="utf-8") as f:
+                f.write(f"Source  : {meta['source']}\n")
+                f.write(f"Title   : {meta['title']}\n")
+                f.write(f"Date    : {meta['date']}\n")
+                f.write(f"Link    : {meta['link']}\n")
+                f.write(f"{'─'*60}\n\n")
+                f.write(transcript)
+
+            meta_out["text_file"] = f"data/{date_str}/podcasts/{filename}"
+            meta_out["chars"]     = len(transcript)
+        else:
+            meta_out["text_file"] = None
+            meta_out["chars"]     = None
+        fb_podcast_meta_list.append(meta_out)
+
+    all_combined_pods = all_podcasts + fb_podcast_meta_list
+
+    # ── Merge with existing JSON for this date (don't overwrite) ──────────────
     json_path = DATA / f"{date_str}_digest.json"
-    existing_pods, existing_arts = [], []
+    existing_pods, existing_arts, existing_tweets = [], [], []
     if json_path.exists():
         try:
-            existing = json.loads(json_path.read_text(encoding="utf-8"))
-            existing_pods = existing.get("podcasts", [])
-            existing_arts = existing.get("articles", [])
+            existing        = json.loads(json_path.read_text(encoding="utf-8"))
+            existing_pods   = existing.get("podcasts", [])
+            existing_arts   = existing.get("articles", [])
+            existing_tweets = existing.get("tweets",   [])
         except Exception:
             pass
 
-    # De-duplicate by title
     seen_titles = {p["title"] for p in existing_pods}
-    merged_pods = existing_pods + [p for p in all_podcasts if p["title"] not in seen_titles]
+    merged_pods = existing_pods + [p for p in all_combined_pods if p["title"] not in seen_titles]
 
     seen_titles = {a["title"] for a in existing_arts}
     merged_arts = existing_arts + [a for a in article_meta_list if a["title"] not in seen_titles]
+
+    seen_tweet_ids = {t["tweet_id"] for t in existing_tweets}
+    merged_tweets  = existing_tweets + [t for t in all_tweets if t["tweet_id"] not in seen_tweet_ids]
 
     digest = {
         "fetch_date": date_str,
         "fetch_time": datetime.now(timezone.utc).isoformat(),
         "stats": {
-            "new_podcast_episodes": len(all_podcasts),
+            "new_podcast_episodes": len(all_podcasts) + len(all_fb_podcasts),
             "new_articles":         len(all_articles),
+            "new_tweets":           len(all_tweets),
             "total_podcasts":       len(merged_pods),
             "total_articles":       len(merged_arts),
+            "total_tweets":         len(merged_tweets),
         },
         "podcasts": merged_pods,
         "articles": merged_arts,
+        "tweets":   merged_tweets,
     }
 
-    json_path = DATA / f"{date_str}_digest.json"
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(digest, f, ensure_ascii=False, indent=2)
 
-    return json_path, articles_dir
+    return json_path, articles_dir, podcasts_dir
 
 # ── Entry point ───────────────────────────────────────────────────────────────
 def main():
@@ -422,7 +621,7 @@ def main():
     print(f"AI Information Digest  {now.strftime('%Y-%m-%d %H:%M')}")
     print("=" * 60)
 
-    con       = init_db()
+    con        = init_db()
     seen_count = con.execute("SELECT COUNT(*) FROM seen_items").fetchone()[0]
     first_run  = (seen_count == 0)
     max_items  = 3 if first_run else 20
@@ -441,22 +640,30 @@ def main():
         all_podcasts.extend(pods)
         all_articles.extend(arts)
 
-    print(f"\n{'='*60}")
-    print(f"新播客剧集 : {len(all_podcasts)}")
-    print(f"新文章     : {len(all_articles)}")
+    # follow-builders: podcasts with transcripts + X tweets
+    all_fb_podcasts, all_tweets = fetch_followbuilders(con, first_run)
 
-    if not all_podcasts and not all_articles:
+    print(f"\n{'='*60}")
+    print(f"新播客剧集 (RSS)         : {len(all_podcasts)}")
+    print(f"新播客剧集 (follow-bld)  : {len(all_fb_podcasts)}")
+    print(f"新推文                   : {len(all_tweets)}")
+    print(f"新文章                   : {len(all_articles)}")
+
+    if not all_podcasts and not all_fb_podcasts and not all_articles and not all_tweets:
         print("今日无新内容，退出。")
         con.close()
         return
 
-    date_str  = now.strftime("%Y-%m-%d")
-    json_path, articles_dir = save_results(date_str, all_podcasts, all_articles)
+    date_str = now.strftime("%Y-%m-%d")
+    json_path, articles_dir, podcasts_dir = save_results(
+        date_str, all_podcasts, all_fb_podcasts, all_articles, all_tweets
+    )
 
     print(f"\n已保存:")
     print(f"  摘要 JSON : {json_path}")
-    print(f"  文章全文  : {articles_dir}")
-    print(f"  (共 {len(all_articles)} 个 .txt 文件)")
+    print(f"  文章全文  : {articles_dir}  ({len(all_articles)} 个 .txt)")
+    if all_fb_podcasts:
+        print(f"  播客转录  : {podcasts_dir}  ({len(all_fb_podcasts)} 个 .txt)")
     con.close()
 
 if __name__ == "__main__":
