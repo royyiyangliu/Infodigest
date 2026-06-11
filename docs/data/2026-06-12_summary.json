@@ -1,0 +1,43 @@
+{
+  "date": "2026-06-12",
+  "generated_at": "2026-06-11T23:35:30.422773+00:00",
+  "stats": {
+    "tweets": 6,
+    "podcasts": 0,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie 发布了详细的企业评测数据，对比 Anthropic 最新模型 Fable 与 Opus 4.8 在真实知识工作任务中的表现。在 Box AI 复杂工作评测中，Fable 在几乎所有行业均大幅领先：媒体娱乐（78% vs 61%）、科技（81% vs 73%）、金融服务（89% vs 83%）、医疗健康（66% vs 60%）。Fable 的核心优势在于不走捷径、多步骤计算准确，以及更高的跨运行一致性——例如在法律并购尽调任务中得分 100% 对比 Opus 的 78%，在零售分析任务中得分 94% 对比 Opus 的 61%；Fable 即将在 Box AI Studio 向企业客户开放。"
+    },
+    {
+      "author": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "summary_zh": "Khosla Ventures 投资人 Zara Zhang 提出了几个值得关注的行业洞察。她指出旧金山初创公司的一个结构性问题：90% 的创始人目标客户是\"工程和产品团队、AI 原生初创公司\"，同一小群体被海量产品轰炸，而真正面向全球 99% 人群的产品极为稀缺。她还提出组织形态演变观点：未来团队应以\"循环\"（loops）而非\"职能\"（functions）为单位组织，各团队应为跨职能协作方构建专属 AI 智能体/技能，从而提升自给自足能力；她也认同创意代理机构的交付物正在从一次性素材转变为\"一组供 AI 智能体使用的文件夹\"。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator 总裁 Garry Tan 推荐了 AI 记忆迁移工具 Nessie，称其为目前将 ChatGPT、Perplexity、Gemini 等平台的上下文、记忆与历史导入其他工具（包括 OpenClaw/Hermes Agent）的最佳方式，并肯定其 MCP 服务器集成能力出色。"
+    },
+    {
+      "author": "Dan Shipper",
+      "handle": "danshipper",
+      "summary_zh": "Every.co 联合创始人兼 CEO Dan Shipper 分享了一个关于 AI 与就业的预测：AI 大幅提升单个员工生产力，使得将部分岗位迁回美国本土（reshoring）以贴近客户变得更具吸引力，他表示去年已在播客上预判了这一趋势。"
+    },
+    {
+      "author": "Claude",
+      "handle": "claudeai",
+      "summary_zh": "Anthropic 官方账号 Claude 宣布了两项产品动态：Claude 平台新增\"定时部署\"（Scheduled Deployments）及\"保险库环境变量\"（Environment Variables in Vaults）功能，即日起可用。此外官方援引数据指出，Cursor 联合创始人 Michael Truell 带领公司在两年内从 15 人扩张至 700 人，目前超过 60% 的《财富》500 强企业使用 Cursor 的 AI 编程平台。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch 分享了对硅谷创业生态的看法：他认为硅谷是全球最具精英文化（meritocratic）的地方，他在做天使投资时对所有创业者一视同仁，无论是两个无名之辈还是五次获奖的连续创业者。他同时预告 Vercel Ship 活动下周将在伦敦举行，并暗示将有重磅发布。"
+    }
+  ],
+  "podcasts": [],
+  "articles": []
+}
