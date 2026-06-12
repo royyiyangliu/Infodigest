@@ -21,19 +21,59 @@
   }
   .header-left h1 { font-size: 22px; font-weight: 700; letter-spacing: 1px; }
   .header-left p  { font-size: 12px; color: #a0c4d8; margin-top: 2px; }
+  .subtitle { display: inline-flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+  .info-wrap { position: relative; display: inline-flex; align-items: center; cursor: help; }
+  .info-icon { width: 14px; height: 14px; color: #a0c4d8; }
+  .info-wrap:hover .info-icon, .info-wrap:focus .info-icon { color: #fff; }
+  .info-pop {
+    position: absolute; top: calc(100% + 8px); left: 0; z-index: 60;
+    width: 360px; max-width: 86vw; background: #fff; color: #1a1a2e;
+    border: 1px solid #e0e4ee; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,.18);
+    padding: 14px 16px; font-size: 12px; line-height: 1.7; cursor: default;
+    opacity: 0; visibility: hidden; transform: translateY(-4px);
+    transition: opacity .15s, transform .15s;
+  }
+  .info-wrap:hover .info-pop, .info-wrap:focus-within .info-pop { opacity: 1; visibility: visible; transform: translateY(0); }
+  .info-pop .ip-h { display: block; font-size: 11px; font-weight: 700; letter-spacing: .5px; color: #2563eb; margin: 10px 0 3px; }
+  .info-pop .ip-h:first-child { margin-top: 0; }
+  .info-pop .src-list { display: block; color: #374151; }
 
   #date-picker-wrap {
     display: none; align-items: center; gap: 8px; flex-shrink: 0;
   }
   #date-picker-label { font-size: 12px; color: #a0c4d8; white-space: nowrap; }
-  #digest-date-select {
+  #cal { position: relative; }
+  #cal-trigger {
+    display: inline-flex; align-items: center; gap: 6px;
     background: rgba(255,255,255,.14); color: #fff;
     border: 1px solid rgba(255,255,255,.28); border-radius: 7px;
     padding: 5px 10px; font-size: 13px; cursor: pointer; outline: none;
     transition: background .15s;
   }
-  #digest-date-select:hover  { background: rgba(255,255,255,.22); }
-  #digest-date-select option { background: #1e3a5f; color: #fff; }
+  #cal-trigger:hover { background: rgba(255,255,255,.22); }
+  #cal-trigger svg { opacity: .85; }
+  #cal-pop {
+    position: absolute; top: calc(100% + 8px); right: 0; z-index: 50;
+    background: #fff; color: #1a1a2e; border: 1px solid #e0e4ee;
+    border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,.18);
+    padding: 12px; width: 270px; user-select: none;
+  }
+  .cal-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+  #cal-title { font-size: 14px; font-weight: 700; color: #1a3a5c; }
+  .cal-nav {
+    width: 28px; height: 28px; border: 1px solid #e0e4ee; background: #fff;
+    border-radius: 6px; cursor: pointer; font-size: 16px; color: #1a3a5c; line-height: 1;
+    display: flex; align-items: center; justify-content: center; transition: background .15s;
+  }
+  .cal-nav:hover { background: #eff6ff; }
+  .cal-week, .cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px; }
+  .cal-week span { text-align: center; font-size: 11px; color: #9ca3af; padding: 4px 0; }
+  .cal-cell { text-align: center; font-size: 13px; height: 32px; line-height: 32px; border-radius: 6px; border: none; background: none; padding: 0; }
+  .cal-empty { visibility: hidden; }
+  .cal-none  { color: #d1d5db; }
+  .cal-has   { color: #1a3a5c; cursor: pointer; font-weight: 600; }
+  .cal-has:hover { background: #eff6ff; }
+  .cal-sel, .cal-sel:hover { background: #2563eb; color: #fff; }
 
   /* ── Tab bar ── */
   .tab-bar {
@@ -171,7 +211,8 @@
     header { padding: 12px 16px; gap: 10px; }
     .header-left h1 { font-size: 18px; }
     .header-left p  { display: none; }
-    #digest-date-select { font-size: 12px; padding: 4px 8px; }
+    #cal-trigger { font-size: 12px; padding: 4px 8px; }
+    #cal-pop { width: 240px; }
     .tab-bar  { padding: 0 16px; }
     .tab-btn  { padding: 12px 14px; font-size: 13px; }
     #digest-main { padding: 16px 12px 40px; }
@@ -187,20 +228,37 @@
 <header>
   <div class="header-left">
     <h1>AI 信息日报</h1>
-    <p>播客 · 文章 · 产业动态 · 每日自动更新</p>
+    <p class="subtitle">推文 · 播客 · 文章 · 产业动态 · 每日自动更新
+      <span class="info-wrap" tabindex="0" aria-label="信源说明">
+        <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="11" x2="12" y2="16"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+        <span class="info-pop" role="tooltip">
+          <span class="ip-h">推文（X）· 26</span>
+          <span class="src-list">Andrej Karpathy、Swyx、Josh Woodward、Boris Cherny、Thibault Sottiaux、Peter Yang、Nan Yu、Madhu Guru、Amanda Askell、Cat Wu、Thariq、Google Labs、Amjad Masad、Guillermo Rauch、Alex Albert、Aaron Levie、Ryo Lu、Garry Tan、Matt Turck、Zara Zhang、Nikunj Kothari、Peter Steinberger、Dan Shipper、Aditya Agarwal、Sam Altman、Claude</span>
+          <span class="ip-h">播客 · 15</span>
+          <span class="src-list">张小珺Jùn｜商业访谈录、卫诗婕｜漫谈Light the Star、罗永浩的十字路口、硅谷101、晚点聊 LateTalk、乱翻书、Lex Fridman、Dwarkesh、BG2Pod、Latent Space、Training Data、No Priors、Unsupervised Learning、The MAD Podcast with Matt Turck、AI & I by Every</span>
+          <span class="ip-h">文章 · 5</span>
+          <span class="src-list">Epoch AI、SemiAnalysis、Citrini、a16z、GameDev Report</span>
+        </span>
+      </span>
+    </p>
   </div>
   <div id="date-picker-wrap">
     <span id="date-picker-label">日期</span>
-    <select id="digest-date-select">
-      <option value="2026-06-12">2026-06-12</option>
-      <option value="2026-06-11">2026-06-11</option>
-      <option value="2026-06-10">2026-06-10</option>
-      <option value="2026-06-09">2026-06-09</option>
-      <option value="2026-06-06">2026-06-06</option>
-      <option value="2026-06-05">2026-06-05</option>
-      <option value="2026-06-04">2026-06-04</option>
-      <option value="2026-06-02">2026-06-02</option>
-    </select>
+    <div id="cal">
+      <button id="cal-trigger" type="button" aria-haspopup="true" aria-expanded="false">
+        <span id="cal-current">—</span>
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M6 9l6 6 6-6"/></svg>
+      </button>
+      <div id="cal-pop" hidden>
+        <div class="cal-head">
+          <button class="cal-nav" id="cal-prev" type="button" aria-label="上个月">‹</button>
+          <span id="cal-title"></span>
+          <button class="cal-nav" id="cal-next" type="button" aria-label="下个月">›</button>
+        </div>
+        <div class="cal-week"><span>日</span><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span></div>
+        <div class="cal-grid" id="cal-grid"></div>
+      </div>
+    </div>
   </div>
 </header>
 
@@ -364,7 +422,7 @@ function renderDigest(data) {
   if (pods.length) {
     html += `<div class="section-hd">
       <span class="d-badge d-badge-p">播客</span>
-      <h2>最新剧集</h2>
+      <h2>最新播客</h2>
       <span class="section-cnt">${pods.length} 集</span>
     </div>`;
     for (const [src, items] of groupBy(pods, 'source')) {
@@ -417,11 +475,72 @@ function loadDigest(date) {
     });
 }
 
+// ─── Date calendar picker ───────────────────────────────────────────────────
+const AVAILABLE_DATES = ["2026-06-12", "2026-06-11", "2026-06-10", "2026-06-09", "2026-06-06", "2026-06-05", "2026-06-04", "2026-06-02"];
+const availSet = new Set(AVAILABLE_DATES);
+const sortedAsc = [...AVAILABLE_DATES].sort();
+let selectedDate = sortedAsc[sortedAsc.length - 1] || '';
+let viewY, viewM;
+
+function pad2(n) { return String(n).padStart(2, '0'); }
+function toYMD(y, m, d) { return y + '-' + pad2(m + 1) + '-' + pad2(d); }
+
+function calInit() {
+  document.getElementById('cal-current').textContent = selectedDate || '无数据';
+  if (!selectedDate) return;
+  const parts = selectedDate.split('-').map(Number);
+  viewY = parts[0]; viewM = parts[1] - 1;
+  calRender();
+}
+
+function calRender() {
+  document.getElementById('cal-title').textContent = viewY + ' 年 ' + (viewM + 1) + ' 月';
+  const startDow = new Date(viewY, viewM, 1).getDay();
+  const days = new Date(viewY, viewM + 1, 0).getDate();
+  let html = '';
+  for (let i = 0; i < startDow; i++) html += '<span class="cal-cell cal-empty"></span>';
+  for (let d = 1; d <= days; d++) {
+    const ds = toYMD(viewY, viewM, d);
+    const has = availSet.has(ds);
+    const sel = ds === selectedDate;
+    const cls = 'cal-cell ' + (has ? 'cal-has' : 'cal-none') + (sel ? ' cal-sel' : '');
+    html += has
+      ? '<button type="button" class="' + cls + '" data-date="' + ds + '">' + d + '</button>'
+      : '<span class="' + cls + '">' + d + '</span>';
+  }
+  const grid = document.getElementById('cal-grid');
+  grid.innerHTML = html;
+  grid.querySelectorAll('.cal-has').forEach(function (b) {
+    b.addEventListener('click', function () {
+      selectedDate = b.dataset.date;
+      document.getElementById('cal-current').textContent = selectedDate;
+      calClose();
+      loadDigest(selectedDate);
+      calRender();
+    });
+  });
+}
+
+function calOpen() { document.getElementById('cal-pop').hidden = false; document.getElementById('cal-trigger').setAttribute('aria-expanded', 'true'); }
+function calClose() { document.getElementById('cal-pop').hidden = true; document.getElementById('cal-trigger').setAttribute('aria-expanded', 'false'); }
+
+document.getElementById('cal-trigger').addEventListener('click', function (e) {
+  e.stopPropagation();
+  document.getElementById('cal-pop').hidden ? calOpen() : calClose();
+});
+document.getElementById('cal-prev').addEventListener('click', function (e) {
+  e.stopPropagation(); viewM--; if (viewM < 0) { viewM = 11; viewY--; } calRender();
+});
+document.getElementById('cal-next').addEventListener('click', function (e) {
+  e.stopPropagation(); viewM++; if (viewM > 11) { viewM = 0; viewY++; } calRender();
+});
+document.getElementById('cal-pop').addEventListener('click', function (e) { e.stopPropagation(); });
+document.addEventListener('click', calClose);
+
 // Init: show date picker and load latest
 datePickerWrap.style.display = 'flex';
-const digestDateSel = document.getElementById('digest-date-select');
-loadDigest(digestDateSel.value);
-digestDateSel.addEventListener('change', () => loadDigest(digestDateSel.value));
+calInit();
+if (selectedDate) loadDigest(selectedDate);
 
 if (location.hash === '#podcast') switchTab('podcast');
 

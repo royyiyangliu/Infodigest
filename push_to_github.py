@@ -85,12 +85,9 @@ def rebuild_index(token: str) -> str:
         reverse=True,
     )
 
-    options_html = "\n".join(
-        f'      <option value="{d}">{d}</option>'
-        for d in dates
-    )
+    dates_json = json.dumps(dates)  # JS array of available dates for the calendar picker
 
-    return _INDEX_TEMPLATE.replace("__OPTIONS_PLACEHOLDER__", options_html)
+    return _INDEX_TEMPLATE.replace("__DATES_PLACEHOLDER__", dates_json)
 
 
 _INDEX_TEMPLATE = '''<!DOCTYPE html>
@@ -116,19 +113,59 @@ _INDEX_TEMPLATE = '''<!DOCTYPE html>
   }
   .header-left h1 { font-size: 22px; font-weight: 700; letter-spacing: 1px; }
   .header-left p  { font-size: 12px; color: #a0c4d8; margin-top: 2px; }
+  .subtitle { display: inline-flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+  .info-wrap { position: relative; display: inline-flex; align-items: center; cursor: help; }
+  .info-icon { width: 14px; height: 14px; color: #a0c4d8; }
+  .info-wrap:hover .info-icon, .info-wrap:focus .info-icon { color: #fff; }
+  .info-pop {
+    position: absolute; top: calc(100% + 8px); left: 0; z-index: 60;
+    width: 360px; max-width: 86vw; background: #fff; color: #1a1a2e;
+    border: 1px solid #e0e4ee; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,.18);
+    padding: 14px 16px; font-size: 12px; line-height: 1.7; cursor: default;
+    opacity: 0; visibility: hidden; transform: translateY(-4px);
+    transition: opacity .15s, transform .15s;
+  }
+  .info-wrap:hover .info-pop, .info-wrap:focus-within .info-pop { opacity: 1; visibility: visible; transform: translateY(0); }
+  .info-pop .ip-h { display: block; font-size: 11px; font-weight: 700; letter-spacing: .5px; color: #2563eb; margin: 10px 0 3px; }
+  .info-pop .ip-h:first-child { margin-top: 0; }
+  .info-pop .src-list { display: block; color: #374151; }
 
   #date-picker-wrap {
     display: none; align-items: center; gap: 8px; flex-shrink: 0;
   }
   #date-picker-label { font-size: 12px; color: #a0c4d8; white-space: nowrap; }
-  #digest-date-select {
+  #cal { position: relative; }
+  #cal-trigger {
+    display: inline-flex; align-items: center; gap: 6px;
     background: rgba(255,255,255,.14); color: #fff;
     border: 1px solid rgba(255,255,255,.28); border-radius: 7px;
     padding: 5px 10px; font-size: 13px; cursor: pointer; outline: none;
     transition: background .15s;
   }
-  #digest-date-select:hover  { background: rgba(255,255,255,.22); }
-  #digest-date-select option { background: #1e3a5f; color: #fff; }
+  #cal-trigger:hover { background: rgba(255,255,255,.22); }
+  #cal-trigger svg { opacity: .85; }
+  #cal-pop {
+    position: absolute; top: calc(100% + 8px); right: 0; z-index: 50;
+    background: #fff; color: #1a1a2e; border: 1px solid #e0e4ee;
+    border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,.18);
+    padding: 12px; width: 270px; user-select: none;
+  }
+  .cal-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+  #cal-title { font-size: 14px; font-weight: 700; color: #1a3a5c; }
+  .cal-nav {
+    width: 28px; height: 28px; border: 1px solid #e0e4ee; background: #fff;
+    border-radius: 6px; cursor: pointer; font-size: 16px; color: #1a3a5c; line-height: 1;
+    display: flex; align-items: center; justify-content: center; transition: background .15s;
+  }
+  .cal-nav:hover { background: #eff6ff; }
+  .cal-week, .cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px; }
+  .cal-week span { text-align: center; font-size: 11px; color: #9ca3af; padding: 4px 0; }
+  .cal-cell { text-align: center; font-size: 13px; height: 32px; line-height: 32px; border-radius: 6px; border: none; background: none; padding: 0; }
+  .cal-empty { visibility: hidden; }
+  .cal-none  { color: #d1d5db; }
+  .cal-has   { color: #1a3a5c; cursor: pointer; font-weight: 600; }
+  .cal-has:hover { background: #eff6ff; }
+  .cal-sel, .cal-sel:hover { background: #2563eb; color: #fff; }
 
   /* ── Tab bar ── */
   .tab-bar {
@@ -266,7 +303,8 @@ _INDEX_TEMPLATE = '''<!DOCTYPE html>
     header { padding: 12px 16px; gap: 10px; }
     .header-left h1 { font-size: 18px; }
     .header-left p  { display: none; }
-    #digest-date-select { font-size: 12px; padding: 4px 8px; }
+    #cal-trigger { font-size: 12px; padding: 4px 8px; }
+    #cal-pop { width: 240px; }
     .tab-bar  { padding: 0 16px; }
     .tab-btn  { padding: 12px 14px; font-size: 13px; }
     #digest-main { padding: 16px 12px 40px; }
@@ -282,13 +320,37 @@ _INDEX_TEMPLATE = '''<!DOCTYPE html>
 <header>
   <div class="header-left">
     <h1>AI 信息日报</h1>
-    <p>播客 · 文章 · 产业动态 · 每日自动更新</p>
+    <p class="subtitle">推文 · 播客 · 文章 · 产业动态 · 每日自动更新
+      <span class="info-wrap" tabindex="0" aria-label="信源说明">
+        <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="11" x2="12" y2="16"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+        <span class="info-pop" role="tooltip">
+          <span class="ip-h">推文（X）· 26</span>
+          <span class="src-list">Andrej Karpathy、Swyx、Josh Woodward、Boris Cherny、Thibault Sottiaux、Peter Yang、Nan Yu、Madhu Guru、Amanda Askell、Cat Wu、Thariq、Google Labs、Amjad Masad、Guillermo Rauch、Alex Albert、Aaron Levie、Ryo Lu、Garry Tan、Matt Turck、Zara Zhang、Nikunj Kothari、Peter Steinberger、Dan Shipper、Aditya Agarwal、Sam Altman、Claude</span>
+          <span class="ip-h">播客 · 15</span>
+          <span class="src-list">张小珺Jùn｜商业访谈录、卫诗婕｜漫谈Light the Star、罗永浩的十字路口、硅谷101、晚点聊 LateTalk、乱翻书、Lex Fridman、Dwarkesh、BG2Pod、Latent Space、Training Data、No Priors、Unsupervised Learning、The MAD Podcast with Matt Turck、AI & I by Every</span>
+          <span class="ip-h">文章 · 5</span>
+          <span class="src-list">Epoch AI、SemiAnalysis、Citrini、a16z、GameDev Report</span>
+        </span>
+      </span>
+    </p>
   </div>
   <div id="date-picker-wrap">
     <span id="date-picker-label">日期</span>
-    <select id="digest-date-select">
-__OPTIONS_PLACEHOLDER__
-    </select>
+    <div id="cal">
+      <button id="cal-trigger" type="button" aria-haspopup="true" aria-expanded="false">
+        <span id="cal-current">—</span>
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M6 9l6 6 6-6"/></svg>
+      </button>
+      <div id="cal-pop" hidden>
+        <div class="cal-head">
+          <button class="cal-nav" id="cal-prev" type="button" aria-label="上个月">‹</button>
+          <span id="cal-title"></span>
+          <button class="cal-nav" id="cal-next" type="button" aria-label="下个月">›</button>
+        </div>
+        <div class="cal-week"><span>日</span><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span></div>
+        <div class="cal-grid" id="cal-grid"></div>
+      </div>
+    </div>
   </div>
 </header>
 
@@ -336,82 +398,82 @@ __OPTIONS_PLACEHOLDER__
 
 <script>
 // ─── Tab switching ────────────────────────────────────────────────────────────
-const tabBtns = document.querySelectorAll(\'.tab-btn\');
+const tabBtns = document.querySelectorAll('.tab-btn');
 const panes = {
-  digest:  document.getElementById(\'pane-digest\'),
-  podcast: document.getElementById(\'pane-podcast\'),
+  digest:  document.getElementById('pane-digest'),
+  podcast: document.getElementById('pane-podcast'),
 };
-const datePickerWrap = document.getElementById(\'date-picker-wrap\');
+const datePickerWrap = document.getElementById('date-picker-wrap');
 
 function switchTab(target) {
   tabBtns.forEach(b => {
     const active = b.dataset.pane === target;
-    b.classList.toggle(\'active\', active);
-    b.setAttribute(\'aria-selected\', active);
+    b.classList.toggle('active', active);
+    b.setAttribute('aria-selected', active);
   });
   Object.entries(panes).forEach(([key, el]) => {
-    el.classList.toggle(\'active\', key === target);
+    el.classList.toggle('active', key === target);
   });
-  datePickerWrap.style.display = target === \'digest\' ? \'flex\' : \'none\';
-  if (target === \'podcast\' && !podcastLoaded) loadPodcasts();
-  history.replaceState(null, \'\', target === \'podcast\' ? \'#podcast\' : \'#\');
+  datePickerWrap.style.display = target === 'digest' ? 'flex' : 'none';
+  if (target === 'podcast' && !podcastLoaded) loadPodcasts();
+  history.replaceState(null, '', target === 'podcast' ? '#podcast' : '#');
 }
 
-tabBtns.forEach(btn => btn.addEventListener(\'click\', () => switchTab(btn.dataset.pane)));
+tabBtns.forEach(btn => btn.addEventListener('click', () => switchTab(btn.dataset.pane)));
 
 // ─── Digest rendering ─────────────────────────────────────────────────────────
-function esc(s) { return String(s).replace(/&/g,\'&amp;\').replace(/</g,\'&lt;\').replace(/>/g,\'&gt;\').replace(/"/g,\'&quot;\'); }
-function dot() { return \'<span style="color:#d1d5db"> · </span>\'; }
+function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function dot() { return '<span style="color:#d1d5db"> · </span>'; }
 
 function fmtBJ(iso) {
-  if (!iso) return \'\';
+  if (!iso) return '';
   const d = new Date(iso);
-  return new Date(d.getTime() + 8 * 3600 * 1000).toISOString().slice(0, 16).replace(\'T\', \' \') + \' (北京)\';
+  return new Date(d.getTime() + 8 * 3600 * 1000).toISOString().slice(0, 16).replace('T', ' ') + ' (北京)';
 }
 
 function fmtDur(raw) {
-  if (!raw) return \'\';
+  if (!raw) return '';
   const s = String(raw).trim();
-  if (s.includes(\':\')) return s;
+  if (s.includes(':')) return s;
   const total = parseInt(s, 10);
   if (isNaN(total)) return s;
   const h = Math.floor(total / 3600);
   const m = Math.floor((total % 3600) / 60);
   const sc = total % 60;
-  const pad = n => String(n).padStart(2, \'0\');
+  const pad = n => String(n).padStart(2, '0');
   return h ? `${h}:${pad(m)}:${pad(sc)}` : `${m}:${pad(sc)}`;
 }
 
 function podCard(p) {
-  const link = p.link ? `href="${esc(p.link)}"` : \'\';
+  const link = p.link ? `href="${esc(p.link)}"` : '';
   const titleEl = link
     ? `<a ${link} target="_blank" rel="noopener">${esc(p.title)}</a>`
     : `<span>${esc(p.title)}</span>`;
-  const dur = p.duration ? `<span>${esc(fmtDur(p.duration))}</span>${dot()}` : \'\';
+  const dur = p.duration ? `<span>${esc(fmtDur(p.duration))}</span>${dot()}` : '';
   return `<div class="d-card">
   <div class="d-card-title">${titleEl}</div>
   <div class="d-meta"><span>${esc(p.date.slice(0,10))}</span>${dot()}${dur}<span>${esc(p.source)}</span></div>
-  <p class="d-summary">${(p.summary_zh || p.summary || \'\').replace(/\\n/g,\'<br>\').replace(/\\*\\*(.+?)\\*\\*/g,\'<strong>$1</strong>\')}</p>
+  <p class="d-summary">${(p.summary_zh || p.summary || '').replace(/\\n/g,'<br>').replace(/\\*\\*(.+?)\\*\\*/g,'<strong>$1</strong>')}</p>
 </div>`;
 }
 
 function tweetCard(t) {
   const handle = t.handle
     ? `<a class="tw-handle" href="https://x.com/${esc(t.handle)}" target="_blank" rel="noopener">@${esc(t.handle)}</a>`
-    : \'\';
-  const summary = (t.summary_zh || \'\').replace(/\\n/g,\'<br>\').replace(/\\*\\*(.+?)\\*\\*/g,\'<strong>$1</strong>\');
+    : '';
+  const summary = (t.summary_zh || '').replace(/\\n/g,'<br>').replace(/\\*\\*(.+?)\\*\\*/g,'<strong>$1</strong>');
   return `<div class="d-card d-article">
-  <div class="d-card-title"><span>${esc(t.author || t.handle || \'\')}</span>${handle}</div>
+  <div class="d-card-title"><span>${esc(t.author || t.handle || '')}</span>${handle}</div>
   <p class="d-summary">${summary}</p>
 </div>`;
 }
 
 function artCard(a) {
-  const chars = a.chars ? `约 ${a.chars.toLocaleString()} 字符` : \'\';
+  const chars = a.chars ? `约 ${a.chars.toLocaleString()} 字符` : '';
   return `<div class="d-card d-article">
   <div class="d-meta"><span>${esc(a.date.slice(0,10))}</span>${dot()}<span>${chars}</span></div>
   <div class="d-card-title"><a href="${esc(a.link)}" target="_blank" rel="noopener">${esc(a.title)}</a></div>
-  <p class="d-summary">${(a.summary_zh || a.summary || \'\').replace(/\\n/g,\'<br>\').replace(/\\*\\*(.+?)\\*\\*/g,\'<strong>$1</strong>\')}</p>
+  <p class="d-summary">${(a.summary_zh || a.summary || '').replace(/\\n/g,'<br>').replace(/\\*\\*(.+?)\\*\\*/g,'<strong>$1</strong>')}</p>
 </div>`;
 }
 
@@ -430,35 +492,35 @@ function renderDigest(data) {
   const pods = data.podcasts || [];
   const arts = data.articles || [];
 
-  const statsEl = document.getElementById(\'digest-stats\');
-  statsEl.style.display = \'flex\';
+  const statsEl = document.getElementById('digest-stats');
+  statsEl.style.display = 'flex';
   statsEl.innerHTML =
-    (tweets.length ? `<span>推文：<strong>${tweets.length}</strong> 位</span><span class="dsep">·</span>` : \'\') +
+    (tweets.length ? `<span>推文：<strong>${tweets.length}</strong> 位</span><span class="dsep">·</span>` : '') +
     `<span>播客：<strong>${pods.length}</strong> 集</span>` +
-    \'<span class="dsep">·</span>\' +
+    '<span class="dsep">·</span>' +
     `<span>文章：<strong>${arts.length}</strong> 篇</span>` +
-    \'<span class="dsep">·</span>\' +
+    '<span class="dsep">·</span>' +
     `<span>生成：<strong>${fmtBJ(data.generated_at)}</strong></span>`;
 
-  let html = \'\';
+  let html = '';
   if (tweets.length) {
     html += `<div class="section-hd">
       <span class="d-badge d-badge-t">推文</span>
       <h2>X 观点精选</h2>
       <span class="section-cnt">${tweets.length} 位作者</span>
     </div>`;
-    html += `<div class="src-group">${tweets.map(tweetCard).join(\'\')}</div>`;
+    html += `<div class="src-group">${tweets.map(tweetCard).join('')}</div>`;
   }
   if (pods.length) {
     html += `<div class="section-hd">
       <span class="d-badge d-badge-p">播客</span>
-      <h2>最新剧集</h2>
+      <h2>最新播客</h2>
       <span class="section-cnt">${pods.length} 集</span>
     </div>`;
-    for (const [src, items] of groupBy(pods, \'source\')) {
+    for (const [src, items] of groupBy(pods, 'source')) {
       html += `<div class="src-group">
         <div class="src-label">${esc(src)}</div>
-        ${items.map(podCard).join(\'\')}
+        ${items.map(podCard).join('')}
       </div>`;
     }
   }
@@ -468,75 +530,136 @@ function renderDigest(data) {
       <h2>深度阅读</h2>
       <span class="section-cnt">${arts.length} 篇</span>
     </div>`;
-    for (const [src, items] of groupBy(arts, \'source\')) {
+    for (const [src, items] of groupBy(arts, 'source')) {
       html += `<div class="src-group">
         <div class="src-label">${esc(src)}</div>
-        ${items.map(artCard).join(\'\')}
+        ${items.map(artCard).join('')}
       </div>`;
     }
   }
 
-  const mainEl = document.getElementById(\'digest-main\');
-  mainEl.innerHTML = html || \'<p style="color:#9ca3af;text-align:center;padding:60px 0">当日暂无内容</p>\';
+  const mainEl = document.getElementById('digest-main');
+  mainEl.innerHTML = html || '<p style="color:#9ca3af;text-align:center;padding:60px 0">当日暂无内容</p>';
 }
 
 function loadDigest(date) {
-  const loadingEl = document.getElementById(\'digest-loading\');
-  const errorEl   = document.getElementById(\'digest-error\');
-  const statsEl   = document.getElementById(\'digest-stats\');
-  const mainEl    = document.getElementById(\'digest-main\');
+  const loadingEl = document.getElementById('digest-loading');
+  const errorEl   = document.getElementById('digest-error');
+  const statsEl   = document.getElementById('digest-stats');
+  const mainEl    = document.getElementById('digest-main');
 
-  mainEl.innerHTML = \'\';
-  loadingEl.textContent = \'正在加载…\';
-  loadingEl.style.display = \'\';
-  errorEl.style.display = \'none\';
-  statsEl.style.display = \'none\';
+  mainEl.innerHTML = '';
+  loadingEl.textContent = '正在加载…';
+  loadingEl.style.display = '';
+  errorEl.style.display = 'none';
+  statsEl.style.display = 'none';
 
   fetch(`data/${date}_summary.json`)
     .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
     .then(data => {
-      loadingEl.style.display = \'none\';
+      loadingEl.style.display = 'none';
       renderDigest(data);
     })
     .catch(err => {
-      loadingEl.style.display = \'none\';
-      errorEl.style.display = \'\';
+      loadingEl.style.display = 'none';
+      errorEl.style.display = '';
       errorEl.textContent = `无法加载 ${date} 的摘要：${err.message}`;
     });
 }
 
-// Init: show date picker and load latest
-datePickerWrap.style.display = \'flex\';
-const digestDateSel = document.getElementById(\'digest-date-select\');
-loadDigest(digestDateSel.value);
-digestDateSel.addEventListener(\'change\', () => loadDigest(digestDateSel.value));
+// ─── Date calendar picker ───────────────────────────────────────────────────
+const AVAILABLE_DATES = __DATES_PLACEHOLDER__;
+const availSet = new Set(AVAILABLE_DATES);
+const sortedAsc = [...AVAILABLE_DATES].sort();
+let selectedDate = sortedAsc[sortedAsc.length - 1] || '';
+let viewY, viewM;
 
-if (location.hash === \'#podcast\') switchTab(\'podcast\');
+function pad2(n) { return String(n).padStart(2, '0'); }
+function toYMD(y, m, d) { return y + '-' + pad2(m + 1) + '-' + pad2(d); }
+
+function calInit() {
+  document.getElementById('cal-current').textContent = selectedDate || '无数据';
+  if (!selectedDate) return;
+  const parts = selectedDate.split('-').map(Number);
+  viewY = parts[0]; viewM = parts[1] - 1;
+  calRender();
+}
+
+function calRender() {
+  document.getElementById('cal-title').textContent = viewY + ' 年 ' + (viewM + 1) + ' 月';
+  const startDow = new Date(viewY, viewM, 1).getDay();
+  const days = new Date(viewY, viewM + 1, 0).getDate();
+  let html = '';
+  for (let i = 0; i < startDow; i++) html += '<span class="cal-cell cal-empty"></span>';
+  for (let d = 1; d <= days; d++) {
+    const ds = toYMD(viewY, viewM, d);
+    const has = availSet.has(ds);
+    const sel = ds === selectedDate;
+    const cls = 'cal-cell ' + (has ? 'cal-has' : 'cal-none') + (sel ? ' cal-sel' : '');
+    html += has
+      ? '<button type="button" class="' + cls + '" data-date="' + ds + '">' + d + '</button>'
+      : '<span class="' + cls + '">' + d + '</span>';
+  }
+  const grid = document.getElementById('cal-grid');
+  grid.innerHTML = html;
+  grid.querySelectorAll('.cal-has').forEach(function (b) {
+    b.addEventListener('click', function () {
+      selectedDate = b.dataset.date;
+      document.getElementById('cal-current').textContent = selectedDate;
+      calClose();
+      loadDigest(selectedDate);
+      calRender();
+    });
+  });
+}
+
+function calOpen() { document.getElementById('cal-pop').hidden = false; document.getElementById('cal-trigger').setAttribute('aria-expanded', 'true'); }
+function calClose() { document.getElementById('cal-pop').hidden = true; document.getElementById('cal-trigger').setAttribute('aria-expanded', 'false'); }
+
+document.getElementById('cal-trigger').addEventListener('click', function (e) {
+  e.stopPropagation();
+  document.getElementById('cal-pop').hidden ? calOpen() : calClose();
+});
+document.getElementById('cal-prev').addEventListener('click', function (e) {
+  e.stopPropagation(); viewM--; if (viewM < 0) { viewM = 11; viewY--; } calRender();
+});
+document.getElementById('cal-next').addEventListener('click', function (e) {
+  e.stopPropagation(); viewM++; if (viewM > 11) { viewM = 0; viewY++; } calRender();
+});
+document.getElementById('cal-pop').addEventListener('click', function (e) { e.stopPropagation(); });
+document.addEventListener('click', calClose);
+
+// Init: show date picker and load latest
+datePickerWrap.style.display = 'flex';
+calInit();
+if (selectedDate) loadDigest(selectedDate);
+
+if (location.hash === '#podcast') switchTab('podcast');
 
 // ─── Podcast loading ──────────────────────────────────────────────────────────
-const LANG_LABEL = { en: \'英文\', zh: \'中文\' };
-const LANG_TAG   = { en: \'tag-lang-en\', zh: \'tag-lang-zh\' };
+const LANG_LABEL = { en: '英文', zh: '中文' };
+const LANG_TAG   = { en: 'tag-lang-en', zh: 'tag-lang-zh' };
 let episodes = [];
 let podcastLoaded = false;
 
 async function loadPodcasts() {
   podcastLoaded = true;
   try {
-    const res = await fetch(\'podcast-episodes.json\');
+    const res = await fetch('podcast-episodes.json');
     episodes = await res.json();
     episodes.sort((a, b) => b.date.localeCompare(a.date));
     populatePodcastFilter();
     renderPodcasts();
   } catch(e) {
-    document.getElementById(\'p-grid\').innerHTML =
-      \'<div class="pod-empty"><p>加载失败，请刷新重试</p></div>\';
+    document.getElementById('p-grid').innerHTML =
+      '<div class="pod-empty"><p>加载失败，请刷新重试</p></div>';
   }
 }
 
 function populatePodcastFilter() {
-  const sel = document.getElementById(\'p-podcast\');
+  const sel = document.getElementById('p-podcast');
   [...new Set(episodes.map(e => e.podcast))].sort().forEach(n => {
-    const opt = document.createElement(\'option\');
+    const opt = document.createElement('option');
     opt.value = n; opt.textContent = n;
     sel.appendChild(opt);
   });
@@ -544,10 +667,10 @@ function populatePodcastFilter() {
 
 function renderPodcasts() {
   const f = {
-    from:    document.getElementById(\'p-date-from\').value,
-    to:      document.getElementById(\'p-date-to\').value,
-    podcast: document.getElementById(\'p-podcast\').value,
-    lang:    document.getElementById(\'p-lang\').value,
+    from:    document.getElementById('p-date-from').value,
+    to:      document.getElementById('p-date-to').value,
+    podcast: document.getElementById('p-podcast').value,
+    lang:    document.getElementById('p-lang').value,
   };
   const visible = episodes.filter(e => {
     if (f.from    && e.date < f.from)         return false;
@@ -556,8 +679,8 @@ function renderPodcasts() {
     if (f.lang    && e.language !== f.lang)   return false;
     return true;
   });
-  document.getElementById(\'p-count\').textContent = visible.length;
-  const grid = document.getElementById(\'p-grid\');
+  document.getElementById('p-count').textContent = visible.length;
+  const grid = document.getElementById('p-grid');
   if (visible.length === 0) {
     grid.innerHTML = `
       <div class="pod-empty">
@@ -569,9 +692,9 @@ function renderPodcasts() {
     return;
   }
   grid.innerHTML = visible.map(ep => {
-    const langClass = LANG_TAG[ep.language] || \'tag-lang-other\';
+    const langClass = LANG_TAG[ep.language] || 'tag-lang-other';
     const langLabel = LANG_LABEL[ep.language] || ep.language.toUpperCase();
-    const [y, m, d] = ep.date.split(\'-\');
+    const [y, m, d] = ep.date.split('-');
     return `
       <a class="pod-card" href="${ep.path}" target="_blank" rel="noopener">
         <div class="card-meta">
@@ -580,18 +703,18 @@ function renderPodcasts() {
           <span class="tag ${langClass}">${langLabel}</span>
         </div>
         <div class="pod-card-title">${ep.title}</div>
-        ${ep.description ? \'<div class="pod-card-desc">\' + ep.description + \'</div>\' : \'\'}
+        ${ep.description ? '<div class="pod-card-desc">' + ep.description + '</div>' : ''}
         <div class="pod-card-cta">阅读摘要 →</div>
       </a>`;
-  }).join(\'\');
+  }).join('');
 }
 
-[\'p-date-from\',\'p-date-to\',\'p-podcast\',\'p-lang\'].forEach(id =>
-  document.getElementById(id).addEventListener(\'change\', renderPodcasts)
+['p-date-from','p-date-to','p-podcast','p-lang'].forEach(id =>
+  document.getElementById(id).addEventListener('change', renderPodcasts)
 );
-document.getElementById(\'p-clear-btn\').addEventListener(\'click\', () => {
-  [\'p-date-from\',\'p-date-to\'].forEach(id => document.getElementById(id).value = \'\');
-  [\'p-podcast\',\'p-lang\'].forEach(id => document.getElementById(id).value = \'\');
+document.getElementById('p-clear-btn').addEventListener('click', () => {
+  ['p-date-from','p-date-to'].forEach(id => document.getElementById(id).value = '');
+  ['p-podcast','p-lang'].forEach(id => document.getElementById(id).value = '');
   renderPodcasts();
 });
 </script>
