@@ -221,6 +221,8 @@ _INDEX_TEMPLATE = '''<!DOCTYPE html>
   .sec-grid { display: grid; gap: 12px; align-items: start; }
   .grid-tweets { grid-template-columns: repeat(3, 1fr); }
   .grid-wide   { grid-template-columns: repeat(2, 1fr); }
+  .sec-list .d-card { margin-bottom: 12px; }
+  .sec-list .d-summary { column-count: 2; column-gap: 30px; }
   .d-card {
     background: #fff; border: 0.5px solid #E6DFD4; border-radius: 0;
     padding: 14px 16px; transition: border-color .15s;
@@ -322,6 +324,7 @@ _INDEX_TEMPLATE = '''<!DOCTYPE html>
     .pod-grid   { padding: 16px 16px 40px; gap: 14px; }
     #p-clear-btn { margin-left: 0; }
     .grid-tweets, .grid-wide { grid-template-columns: 1fr; }
+    .sec-list .d-summary { column-count: 1; }
   }
 </style>
 </head>
@@ -532,7 +535,7 @@ function renderDigest(data) {
     for (const [src, items] of groupBy(pods, 'source')) {
       html += `<div class="src-group">
         <div class="src-label">${esc(src)}</div>
-        <div class="sec-grid grid-wide">${items.map(podCard).join('')}</div>
+        <div class="sec-list">${items.map(podCard).join('')}</div>
       </div>`;
     }
   }
@@ -546,7 +549,7 @@ function renderDigest(data) {
     for (const [src, items] of groupBy(arts, 'source')) {
       html += `<div class="src-group">
         <div class="src-label">${esc(src)}</div>
-        <div class="sec-grid grid-wide">${items.map(artCard).join('')}</div>
+        <div class="sec-list">${items.map(artCard).join('')}</div>
       </div>`;
     }
   }
