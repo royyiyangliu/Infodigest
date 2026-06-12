@@ -210,8 +210,8 @@ _INDEX_TEMPLATE = '''<!DOCTYPE html>
   .section-hd h2 { font-size: 18px; font-weight: 700; font-family: Georgia, "PingFang SC", "Microsoft YaHei", serif; }
   .hr-fill { flex: 1; border-top: 0.5px solid #E2DACE; }
   .section-cnt { font-size: 12px; color: #9C9389; }
-  .tw-handle { font-size: 12px; color: #0F5499; text-decoration: none; margin-left: 6px; font-weight: 400; font-family: Georgia, serif; }
-  .tw-handle:hover { text-decoration: underline; }
+  .d-card-title a.tw-handle { font-size: 12px; color: #0F5499; text-decoration: none; margin-left: 6px; font-weight: 400; font-family: Georgia, serif; }
+  .d-card-title a.tw-handle:hover { color: #0F5499; text-decoration: underline; }
 
   .src-group { margin-bottom: 22px; }
   .src-label {
@@ -222,7 +222,7 @@ _INDEX_TEMPLATE = '''<!DOCTYPE html>
   .grid-tweets { grid-template-columns: repeat(3, 1fr); }
   .grid-wide   { grid-template-columns: repeat(2, 1fr); }
   .sec-list .d-card { margin-bottom: 12px; }
-  .sec-list .d-summary { column-count: 2; column-gap: 30px; }
+  .sec-list .d-summary { column-count: 2; column-gap: 30px; column-rule: 0.5px solid #E2DACE; }
   .d-card {
     background: #fff; border: 0.5px solid #E6DFD4; border-radius: 0;
     padding: 14px 16px; transition: border-color .15s;
@@ -240,6 +240,8 @@ _INDEX_TEMPLATE = '''<!DOCTYPE html>
     font-family: Georgia, "PingFang SC", "Microsoft YaHei", serif;
   }
   .d-tweet .d-card-title span { font-size: 15px; }
+  .sec-list .d-card-title a, .sec-list .d-card-title span { font-size: 18px; color: #0F5499; }
+  .sec-list .d-card-title a:hover { color: #0C447C; text-decoration: underline; }
   .d-meta {
     display: flex; flex-wrap: wrap; gap: 4px 12px;
     font-size: 12px; color: #9C9389; margin-bottom: 7px;
