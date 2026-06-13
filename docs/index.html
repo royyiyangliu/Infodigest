@@ -560,8 +560,6 @@ datePickerWrap.style.display = 'flex';
 calInit();
 if (selectedDate) loadDigest(selectedDate);
 
-if (location.hash === '#podcast') switchTab('podcast');
-
 // ─── Podcast loading ──────────────────────────────────────────────────────────
 const LANG_LABEL = { en: '英文', zh: '中文' };
 const LANG_TAG   = { en: 'tag-lang-en', zh: 'tag-lang-zh' };
@@ -569,13 +567,14 @@ let episodes = [];
 let podcastLoaded = false;
 
 async function loadPodcasts() {
-  podcastLoaded = true;
   try {
-    const res = await fetch('podcast-episodes.json');
+    const res = await fetch('podcast-episodes.json', { cache: 'no-cache' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
     episodes = await res.json();
     episodes.sort((a, b) => b.date.localeCompare(a.date));
     populatePodcastFilter();
     renderPodcasts();
+    podcastLoaded = true;
   } catch(e) {
     document.getElementById('p-grid').innerHTML =
       '<div class="pod-empty"><p>加载失败，请刷新重试</p></div>';
@@ -643,6 +642,9 @@ document.getElementById('p-clear-btn').addEventListener('click', () => {
   ['p-podcast','p-lang'].forEach(id => document.getElementById(id).value = '');
   renderPodcasts();
 });
+
+// Deep-link: open Tab 2 if URL has #podcast (must run AFTER podcast state/fns are defined)
+if (location.hash === '#podcast') switchTab('podcast');
 </script>
 </body>
 </html>
