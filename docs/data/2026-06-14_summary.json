@@ -1,0 +1,57 @@
+{
+  "date": "2026-06-14",
+  "generated_at": "2026-06-13T23:35:43.501642+00:00",
+  "stats": {
+    "tweets": 7,
+    "podcasts": 1,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "AI工程师、latent.space 联合创始人 Swyx 提出了一个大胆设想：继 PR 和 Code Review 之后，Git 本身也可能走向终结——他估计代码协作中约 20-40% 的成本都消耗在处理合并冲突上，认为这是\"无马马车\"式的历史遗留。他认为未来的代码库形态可能更像 Notion 或 Linear 那样的数据库，而非 .git 对象，效率虽低但扩展性更强，并将此类比为\"苦涩教训\"（Bitter Lesson）在软件工程中的体现。此外他还分享了一个关于异常工程的洞察：所有\"幸福路径\"各有不同，而\"不幸路径\"却几乎千篇一律。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI Codex 产品经理 Thibault Sottiaux 宣布了一项用户体验改进：此前 Codex 使用量被重置时不会提前通知，引发了不少抱怨。他表示下次按下重置按钮时，用户将可以自行选择何时生效，而不再是被动接受突如其来的重置。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品创作者 Peter Yang 就 Fable 模型被暂停向\"在美外国人\"提供访问一事发表评论，认为这一监管要求在执行层面几乎无法落地。他还进一步预测，身份验证（ID verification）很快将成为访问顶级 AI 模型的前提条件，暗示行业正在向更强的用户身份管控方向演进。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad 回应 Fable 模型被禁止向在美外国人提供服务的政策，表示 Replit 可能也不得不关闭相关访问入口。在另一条推文中，他分享了对\"Token 最大化\"（Tokenmaxxing）热潮的反思：当企业客户要求 Replit 提供 token 排行榜时，他们拒绝了，因为 Replit 卖的是结果而非 token 本身，而现在这股热潮已经退去，印证了他们当初的判断。此外他还宣布，在 Replit 上有盈利的用户可以获得免费额度激励。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch 宣布推出 HarnessAgent，这是 AI SDK 中的一个统一抽象层，旨在帮助开发者将任意 AI 智能体的\"大脑\"集成进应用，从而同时摆脱模型锁定和智能体框架锁定。他还分享了拖拽式 HTML 编辑功能，感叹\"HTML 回来了\"，展示了 AI 时代下原生 Web 技术的复兴趋势。"
+    },
+    {
+      "author": "Alex Albert",
+      "handle": "alexalbert__",
+      "summary_zh": "Anthropic 开发者关系负责人 Alex Albert 分享了使用 Fable 模型的实用提示：由于 Fable 在长对话代理任务中表现极为强大，有时他本人都难以跟上它的输出节奏，他找到了一个最有效的 prompt 片段，可以让 Fable 表达更清晰、去除术语冗余，并指向了 Anthropic 完整的提示工程指南。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie 就政府暂停 Fable 模型对特定用户群体的开放一事发表了深度评论，指出这是 AI 监管的一个重要转折点：政府开始认定某些模型对特定用途\"过于强大\"，从而为未来更广泛的管控埋下先例。他个人倾向于监管 AI 的应用场景而非底层模型，但也承认多方立场并存，并判断政府深度介入 AI 进展速度的时代已不可逆转。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "Unsupervised Learning",
+      "title": "AI Vibe Check: Lab Wars, Why APIs Might Vanish &amp; Future Predictions",
+      "date": "2026-06-12 12:51 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/watch?v=W_iO8XxgD_I",
+      "summary_zh": "本期《Unsupervised Learning》播客由主持人Jacob Efron与前DeepMind/Meta研究员、AI初创公司Datalogy创始人Ari，以及AI风投机构Radical合伙人Rob共同录制，围绕当前AI格局进行深度盘点。\n\n【编程Agent与效率革命】\n过去六个月最显著的变化是编程Agent在长时任务上开始真正落地。工程师的工作模式正从单一任务执行转向\"管理多个Agent\"。但Ari指出，生产力提升存在高估现象——代码审查成为新瓶颈，\"理解鸿沟\"与技术债务随之增加。\n\n【开源模型趋势逆转】\nRob提出一个重要判断：开源前沿模型正面临衰退风险。Meta已收缩开源策略，中国顶级实验室（如Qwen、DeepSeek）也转向仅开源较弱版本、将高性能模型锁在API后。核心原因是经济逻辑：开源模型无法变现，开放权重会直接侵蚀托管推理业务。Moonshot（Kimi）被视为少数可行案例，通过开源模型+私有推理系统组合，实现数亿美元ARR。\n\n【API消失的极端预测】\nAri提出本期最具爆炸性的预测：由于算力极度紧缺，**Anthropic或OpenAI有可能在今年下半年暂停或大幅限制API访问**，优先将算力留给自家产品（如Claude Code）。OpenAI已开始销售\"推理Token期货\"（提前锁定未来访问权），被视为前兆。这对依赖API构建产品的企业构成重大生存威胁。\n\n【Fable发布与Anthropic争议】\nAnthropic新模型Fable（Claude 4系列）发布，基准测试显示为当前最强。但其对AI开发相关使用场景的隐性限制（不拒绝但悄然降低质量）引发开发者强烈反弹，被普遍认为是竞争策略而非安全需求。Ari预计此举将推动AI开发者大量转向OpenAI的Codex。\n\n【实验室竞争格局】\n三大顶级实验室（Anthropic、OpenAI、Google）持续轮流领跑。Anthropic过去半年vibe全面占优；OpenAI则聚焦Codex并收缩非核心业务（暂停视频生成）；Google在编程领域落后，但长期具备全栈优势（TPU、GCP、人才储备）。Rob维持\"Google不可忽视\"判断。关于Sam Altman去职的大胆预测，Rob表示概率正在上升，并点名Bret Taylor（OpenAI董事会主席、Sierra CEO）为最可能的继任者。\n\n【XAI与Cursor收购】\nSpaceX/XAI的**600亿美元**收购Cursor传闻被解读为：获取编程轨迹数据以弥补Grok编程能力短板，同时为IPO构建\"企业AI\"叙事（S-1显示企业AI TAM达**20万亿美元**）。但算力优先用于商业租售而非自身训练，显示前沿模型研究并非XAI核心优先级。\n\n【算力瓶颈与芯片格局】\n算力短缺至少持续至**2030年**以后，早期缓解预计在**2030年代初**。H100价格在2025年12月触底后持续回升。ASML垄断EUV光刻市场正在被挑战：原子光刻（atom lithography）和X射线光刻（X-ray lithography）等新方向获得大量融资，但商业化仍需**至少5年**。AMD、Amazon Trainium、Cerebras等替代芯片商将因NVIDIA供不应求而受益，但不能解决总供给不足问题。\n\n【递归自我改进（RSI）与机器人】\nAri立场明显转向乐观：已观察到Agent自主进行数据策划的有效实验，但认为算力瓶颈将限制\"失控式起飞\"，且至少**10家**机构同时具备相关能力。Rob则对机器人基础模型突破时间表大幅提前，认为已临近\"机器人领域的GPT-3时刻\"。\n\n【Anthropic的下一个赌注】\nRob预测Anthropic将在生命科学领域复制其在编程上的成功，传言其正在建立自有湿实验室设施。Ari认为Isomorphic Labs（DeepMind系）目前更具优势，领域专家与AI研究员的深度协作是关键，单靠AI研究员难以攻克。"
+    }
+  ],
+  "articles": []
+}
