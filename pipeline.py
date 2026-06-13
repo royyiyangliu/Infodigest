@@ -2,7 +2,7 @@
 Podcast transcription pipeline.
 Usage: python pipeline.py <apple_podcast_url_or_xiaoyuzhoufm_url>
 """
-import os, sys, time, json, re, requests, xml.etree.ElementTree as ET
+import os, sys, time, json, re, tempfile, requests, xml.etree.ElementTree as ET
 from datetime import datetime
 from pathlib import Path
 
@@ -130,10 +130,44 @@ def make_episode_dir(title: str, source_url: str) -> Path:
 
 # ── Transcription ──────────────────────────────────────────────────────────────
 
+class FileDownloadFailed(Exception):
+    """DashScope could not download the submitted audio URL (e.g. the origin CDN
+    is region-restricted for the ASR service). Triggers the re-hosting fallback."""
+
+
 def resolve_redirect(url: str) -> str:
     """Follow redirects and return the final URL (needed for signed CDN links)."""
     r = requests.head(url, timeout=30, allow_redirects=True)
     return r.url
+
+
+def download_file(url: str, dest: str) -> str:
+    """Stream-download a (possibly large) file to dest."""
+    with requests.get(url, stream=True, timeout=120) as r:
+        r.raise_for_status()
+        with open(dest, "wb") as f:
+            for chunk in r.iter_content(chunk_size=1 << 16):
+                if chunk:
+                    f.write(chunk)
+    return dest
+
+
+def upload_to_litterbox(path: str, expiry: str = "72h") -> str:
+    """Re-host a local file on litterbox (temporary, no credentials) and return
+    the public URL. Used as a fallback when DashScope cannot fetch the origin."""
+    name = os.path.basename(path)
+    with open(path, "rb") as f:
+        resp = requests.post(
+            "https://litterbox.catbox.moe/resources/internals/api.php",
+            data={"reqtype": "fileupload", "time": expiry},
+            files={"fileToUpload": (name, f, "audio/mpeg")},
+            timeout=600,
+        )
+    resp.raise_for_status()
+    url = resp.text.strip()
+    if not url.startswith("http"):
+        raise RuntimeError(f"litterbox upload failed: {url!r}")
+    return url
 
 
 def submit_job(audio_url: str, language: str) -> str:
@@ -171,6 +205,14 @@ def poll_job(task_id: str, max_wait: int = 3600) -> dict:
         if status == "SUCCEEDED":
             return data
         if status in ("FAILED", "CANCELLED"):
+            out = data.get("output", {})
+            code = out.get("code")
+            if not code:
+                for r in out.get("results") or []:
+                    if r.get("code"):
+                        code = r["code"]; break
+            if code == "FILE_DOWNLOAD_FAILED":
+                raise FileDownloadFailed(json.dumps(data, ensure_ascii=False))
             raise RuntimeError(f"Task {status}: {json.dumps(data, ensure_ascii=False)}")
         time.sleep(interval)
     raise TimeoutError(f"Task not done after {max_wait}s")
@@ -239,7 +281,25 @@ def main():
 
     task_id = submit_job(audio_url, language)
     print("[asr] Polling (may take several minutes for long episodes)...")
-    result = poll_job(task_id)
+    try:
+        result = poll_job(task_id)
+    except FileDownloadFailed:
+        # Some origins (e.g. Anchor/Spotify staging CloudFront) are region-restricted
+        # for DashScope and return FILE_DOWNLOAD_FAILED. Download the audio ourselves
+        # and re-host it on a globally reachable temp host, then resubmit.
+        print("[asr] DashScope could not fetch the origin URL; re-hosting and retrying...")
+        tmp = os.path.join(tempfile.gettempdir(), f"pipeline_audio_{task_id}.mp3")
+        try:
+            download_file(resolve_redirect(audio_url), tmp)
+            print(f"[asr] Downloaded {os.path.getsize(tmp)//(1<<20)} MB; uploading to litterbox...")
+            mirror_url = upload_to_litterbox(tmp)
+            print(f"[asr] Mirror URL: {mirror_url}")
+            task_id = submit_job(mirror_url, language)
+            print("[asr] Polling (retry on mirror)...")
+            result = poll_job(task_id)
+        finally:
+            if os.path.exists(tmp):
+                os.remove(tmp)
 
     transcript = extract_transcript(result)
     transcript_path = ep_dir / "transcript.txt"
