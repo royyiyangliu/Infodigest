@@ -170,6 +170,22 @@ def upload_to_litterbox(path: str, expiry: str = "72h") -> str:
     return url
 
 
+def mirror_audio(audio_url: str, tag: str = "") -> str:
+    """Download the origin audio ourselves and re-host it on litterbox, returning a
+    DashScope-reachable mirror URL. Used as the fallback when DashScope cannot fetch
+    the origin (FILE_DOWNLOAD_FAILED), e.g. Substack/Anchor block its downloader."""
+    tmp = os.path.join(tempfile.gettempdir(), f"audio_{tag or 'x'}.mp3")
+    try:
+        download_file(resolve_redirect(audio_url), tmp)
+        print(f"[asr] Downloaded {os.path.getsize(tmp)//(1<<20)} MB; uploading to litterbox...")
+        mirror_url = upload_to_litterbox(tmp)
+        print(f"[asr] Mirror URL: {mirror_url}")
+        return mirror_url
+    finally:
+        if os.path.exists(tmp):
+            os.remove(tmp)
+
+
 def submit_job(audio_url: str, language: str) -> str:
     # Some hosts (Substack) redirect to signed CDN URLs; resolve first
     final_url = resolve_redirect(audio_url)
@@ -288,18 +304,10 @@ def main():
         # for DashScope and return FILE_DOWNLOAD_FAILED. Download the audio ourselves
         # and re-host it on a globally reachable temp host, then resubmit.
         print("[asr] DashScope could not fetch the origin URL; re-hosting and retrying...")
-        tmp = os.path.join(tempfile.gettempdir(), f"pipeline_audio_{task_id}.mp3")
-        try:
-            download_file(resolve_redirect(audio_url), tmp)
-            print(f"[asr] Downloaded {os.path.getsize(tmp)//(1<<20)} MB; uploading to litterbox...")
-            mirror_url = upload_to_litterbox(tmp)
-            print(f"[asr] Mirror URL: {mirror_url}")
-            task_id = submit_job(mirror_url, language)
-            print("[asr] Polling (retry on mirror)...")
-            result = poll_job(task_id)
-        finally:
-            if os.path.exists(tmp):
-                os.remove(tmp)
+        mirror_url = mirror_audio(audio_url, tag=task_id)
+        task_id = submit_job(mirror_url, language)
+        print("[asr] Polling (retry on mirror)...")
+        result = poll_job(task_id)
 
     transcript = extract_transcript(result)
     transcript_path = ep_dir / "transcript.txt"
