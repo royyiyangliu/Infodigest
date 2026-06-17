@@ -1,0 +1,705 @@
+[00:00] Speaker0: Search is the gateway to the world of information.
+[00:01] Speaker0: If you can make it perfect, then that has so many downstream positive implications for the world.
+[00:06] Speaker1: You can kind of think of google as being synonymous with search, right?
+[00:09] Speaker1: It's one of the greatest technologies of the last few decades.
+[00:11] Speaker0: If you want to go really deep into some topic, google fails.
+[00:15] Speaker0: Most people want to understand the world, but they're getting fed information.
+[00:17] Speaker0: That's just like, you know, misleading in some way or straight up wrong.
+[00:21] Speaker0: And if everyone had like information that was accurate, most reasonable people would be reasonable.
+[00:25] Speaker1: We have a family open cloud, michael claude berg, and we wanted to give it web access and he was like.
+[00:30] Speaker0: i recommend exa world of agents.
+[00:32] Speaker0: Searching is just completely different from human searching.
+[00:35] Speaker0: An agent doesn't just want 10 piece of information.
+[00:37] Speaker0: It wants everything.
+[00:38] Speaker0: The excel like you could search something and then get not just like 10 results or 100 results for 1,000 results or 10,000.
+[00:43] Speaker0: However, we a team that, you know, has always been below 100 people have been able to build a search engine that's better than google and all sorts of ways.
+[00:48] Speaker0: Um, well, it's because.
+[00:50] Speaker2: for most of the internet era search was built for humans, but ai agents search differently.
+[00:56] Speaker2: They need deeper context, more complete information and the ability to navigate far more complex questions than a traditional search box was designed to answer that shift is creating an entirely new set of challenges around retrieval knowledge discovery and how information is organized online.
+[01:14] Speaker2: Sarah Wang speaks with Exa co-founder and CEO Will Brick about search, AI agents, and the future of information retrieval.
+[01:25] Speaker1: Welcome.
+[01:25] Speaker1: Well, thank you for being here.
+[01:27] Speaker0: Well, excited to be here.
+[01:28] Speaker1: So i want to start with the origin story.
+[01:31] Speaker1: You've been interested in search for a long time.
+[01:33] Speaker1: In fact, you and your co-founder jeff actually started building a mini search engine in college, which is not what i was doing in college.
+[01:41] Speaker1: Can you say more about.
+[01:42] Speaker1: When you started getting interested in search and why you wanted to solve this problem.
+[01:46] Speaker0: Yeah, sure.
+[01:47] Speaker0: So i would say it's like life mission.
+[01:48] Speaker0: So since i was a kid, i've cared about finding the highest quality knowledge, right?
+[01:51] Speaker0: I was obsessed and then in high school, i wanted to start a new type of news organization because i thought we're a civilization that got to the moon, we split the atom and yet we can't understand what's going on at the border or some in science news.
+[02:01] Speaker0: Like, why can't we fully understand any topic?
+[02:04] Speaker0: And then in college, i was roommates with jeff and we were like, we could just build a better search.
+[02:08] Speaker0: Using a crowdsourcing, the highest quality links and we did build a pretty solid search, but then five years ago.
+[02:13] Speaker0: So in 2021, that's when transformers start to get really good and it suddenly became possible to build a better search than google.
+[02:21] Speaker0: And that was like a really important opportunity because search is the gateway to the world's information.
+[02:24] Speaker0: If you could, if you'd improve search, you can make it perfect.
+[02:27] Speaker0: Then that has so many downstream positive implications for the world across every industry across every part of human life.
+[02:34] Speaker0: So it just felt like this huge opportunity and no one was pursuing and i was like, I'm going to devote my life to this because it's everything i care about is about information.
+[02:41] Speaker0: And so yeah, start exa and now it's gone.
+[02:44] Speaker0: We actually made a lot of progress and a lot closer to that mission.
+[02:46] Speaker0: There's still a huge amount of things, a huge amount to go.
+[02:49] Speaker0: But yeah, it's been crazy to see how far we've come to achieving that mission that i've been thinking about for years.
+[02:55] Speaker1: maybe just to probe a little bit deeper, you can kind of think of google as being synonymous with search, right?
+[03:00] Speaker1: it's one of the greatest tech monopolies of the last few decades, and.
+[03:04] Speaker1: The idea that a startup could be better than google at search is quite amazing.
+[03:09] Speaker1: But how do you define perfect search?
+[03:11] Speaker1: And what do you see as the limitations of google?
+[03:14] Speaker1: And i'll throw in more recent events because obviously, you know, io just took place last week and they're very focused on ai mode and how they talk about the idea of information agents and things like that.
+[03:26] Speaker1: How do you think about beating?
+[03:28] Speaker1: Old google, if you will.
+[03:29] Speaker1: And then there's of course, new google that's evolving.
+[03:31] Speaker0: Yeah, i mean, google was amazing and it is amazing for what it's meant to do, which is like, get quick answers to consumers.
+[03:38] Speaker0: And now it's like increasingly longer answers, but really, it's focusing on like, what do most of the billions of people in the world search for care about and like, making sure they're really happy and they do a great job of that.
+[03:47] Speaker0: That's what they're optimized for.
+[03:48] Speaker0: That's why they're optimized for human clicks.
+[03:50] Speaker0: It's like you're really tired.
+[03:51] Speaker0: You type in a few keywords that make no sense and google just magically understands what you're saying.
+[03:54] Speaker0: That's magical because it has a billion of other people searching some more things.
+[03:57] Speaker0: I'm excited by google too, but like there are certain times when you want something deeper and i was actually before starting excel writing a history book, i just got obsessed with history and i wanted to get to the bottom.
+[04:06] Speaker0: What did it feel like to live in every period in history?
+[04:09] Speaker0: Going back 5,000 years.
+[04:10] Speaker0: I don't know if you ever talked about it.
+[04:11] Speaker1: but i want to read this book.
+[04:13] Speaker0: It's probably on hold right now.
+[04:14] Speaker0: I really good.
+[04:15] Speaker0: I would have finished it around now.
+[04:16] Speaker0: So i was like, okay, let's maybe i can build a search engine and then i could automate the building of writing a books and i think that that turned out to be true.
+[04:23] Speaker0: But anyway, in writing that book, it became extremely obvious that if you want to go really deep into some topic, google fails like google's great, a service level information, which is great for most of the billions of consumers.
+[04:32] Speaker0: But if you want to really understand what it was like to live in the roman empire, you know, in like 100 ad, it's actually quite hard and like that information is scattered.
+[04:40] Speaker0: It's everywhere, but it's like you need really, really good search, like really deep search to understand it.
+[04:44] Speaker0: And so that was the first realization that or one of the first realizations that wait, Like, what if you could have like true perfect understanding of any topic?
+[04:51] Speaker0: And so, yeah, okay, so like, google has been changing their search engine a little bit.
+[04:55] Speaker0: I would say, i i've seen many google ios now at this point, at at x, every google i on, okay, they say they're changing search, and they do.
+[05:01] Speaker0: Yeah, but they change it more to be valuable for the consumer type use cases, which for me, it's like, there are so many different use cases that go beyond that.
+[05:08] Speaker0: There's like really deeply understanding the roman empire, but there's also like finding every competitor to your company.
+[05:13] Speaker0: Right.
+[05:13] Speaker0: And right now, google is just not gonna that no matter how many changes they make.
+[05:16] Speaker0: Like you don't trust google to find you literally every competitor your company, whether it's in europe or asia, you don't use google for recruiting and this announcement doesn't change that.
+[05:23] Speaker0: Like you're not going to go, you say, hey google, i'm looking for a machine learning engineers in san francisco who have a background at startups because it's not built for that kind of thing.
+[05:31] Speaker0: So there is an opportunity to build like a new type of search engine that's meant for extremely like a deep complex queries that.
+[05:38] Speaker0: Businesses really care about and agents really care about.
+[05:40] Speaker1: Yeah, absolutely.
+[05:42] Speaker1: And i mean to the extent you talked about starting to build exa five years ago and then it feels like in the last five years, the world is completely changed, which is actually in my opinion, a great thing to happen to you and to exo while you're building, you can bring in this new technology versus trying to either fight it or have some sort of innovators dilemma, maybe share a little bit more on.
+[06:02] Speaker1: Why you decided to build exit from the ground up and what parts were the hardest or have been the hardest?
+[06:09] Speaker1: And then how has it changed as the world of llms have changed building from the ground?
+[06:13] Speaker0: Basically, we were like 2021, we could build a better search than google.
+[06:16] Speaker0: I don't care how long it takes.
+[06:18] Speaker0: I guess we were young high energy, just like ready to do anything.
+[06:20] Speaker0: The vote our lives to this that there's a thought experiment that really excited me, which is that wait, i could totally build a better search than google right now.
+[06:26] Speaker0: And here's how i do it.
+[06:27] Speaker0: For every query, i would take all the trillion documents on the web and i would run gb3 over it.
+[06:31] Speaker0: I would say, does this document match the query?
+[06:33] Speaker0: This document and then we filter it down to the top 10 documents and that would be better than google.
+[06:38] Speaker0: The problem is that would cost like, you know, 10 billion dollars per query and so then it became an optimization problem.
+[06:43] Speaker0: But at least there was like an existence proof that's possible to build a better search on google and that was very inspiring for me.
+[06:47] Speaker0: So then i was like, okay, like how do we optimize the hell out of that and transformers had gone really good at the time.
+[06:51] Speaker0: And google wasn't really leading into it and we just had this deep belief in the bitter lesson, maybe more than google for search, which is that like if we could develop systems like neural systems where you pour more data into it, it just gets better and better for the thing.
+[07:03] Speaker0: We're optimizing for then you could actually just totally be better than google when we release this to the world in november 2022.
+[07:10] Speaker0: Like it was actually shocking and andre carpenter retweeted it.
+[07:12] Speaker0: It's pretty popular on twitter.
+[07:13] Speaker0: It was like this new way to find information.
+[07:15] Speaker0: It was the first time people were like, holy cow.
+[07:17] Speaker0: It's possible to find things beyond google and then by the way, two weeks later, ChatGPT came out.
+[07:22] Speaker0: So then people realize, okay, there's another new way of finding information outside google with llms and that was very critical to us.
+[07:28] Speaker0: So like we released our first search engine to the world in a year and a half after starting x and november 22nd, two weeks later, ChatGPT came out.
+[07:35] Speaker0: Actually to me, i was at nerves and i saw the announcement i played with it.
+[07:38] Speaker0: I was like, this feels like to be three but a little bit like better ui and i went back looking at research favors but to the world, i think it was the first time they met this new creature and it was just easy to use which was a very big learning which is like okay you make something easy to use.
+[07:49] Speaker0: It's very important obviously.
+[07:51] Speaker0: But anyway, so then ai started really taking off and then early 2023 people started asking us for api access to our search engine that they had used.
+[07:59] Speaker0: Based on that twitter announcement of every 252 and that's when we realized, oh wait, we could start serving this search engine to these not quite agents because there wasn't a term at the time just these ai products, these ai workflows and they're going to want comprehensiveness.
+[08:10] Speaker0: They're going to want to search in these more complex ways.
+[08:13] Speaker0: All the ways that we as nerds in 2021 wanted to search agents were very similar.
+[08:17] Speaker0: So that was another interesting realization was like, yeah, i'm not an urban consumer.
+[08:20] Speaker0: I want to get really deep into any topic and so to agents and so it's cool that we were building.
+[08:24] Speaker0: A search engine for ourselves.
+[08:26] Speaker0: It ended up being the exact same search engine for agents or very similar.
+[08:29] Speaker1: This is a big paradigm shift even as investors were thinking like hey it's not humans who are deciding the depth of that wins.
+[08:35] Speaker1: It's actually agents personal anecdote.
+[08:37] Speaker1: I think i told you this one but we have a family open claw, michael claude berg and we wanted to give it web access and he was like, i recommend exa before we invested.
+[08:45] Speaker1: I was like, sure, i'll go with whatever you recommend, right?
+[08:47] Speaker1: And so, It sounds like there's this nice dovetailing of how you were intending to build eggs in the first place to what agents want.
+[08:56] Speaker1: But how do you think about what agents want?
+[08:58] Speaker1: Right?
+[08:59] Speaker1: That's sort of the holy grail right now of, hey, i don't care about database.
+[09:03] Speaker1: I'm using my agent's going to select convacts or superbase.
+[09:06] Speaker1: These are entire tailwinds that are making some of these companies.
+[09:09] Speaker1: How do you optimize for that?
+[09:11] Speaker1: Think about that.
+[09:12] Speaker0: I've been thinking about this for a long time since there were the first agents, right?
+[09:15] Speaker0: Like we were the first search engine, like we were an early search engine and they the first ai products came to us because they were like, okay.
+[09:21] Speaker0: They could be a search api and so i've been thinking about this for a long time and yeah, i think the world of agents searching is just completely different from human searching.
+[09:30] Speaker0: I guess you make the analogy of like agents to humans like humans to sloths.
+[09:33] Speaker0: Okay, and i.
+[09:36] Speaker1: 'm picturing that zootopia.
+[09:38] Speaker0: Yeah, it's like imagine we had a great surgeon for sloths and then humans came around like they're not going to you want to use that same search.
+[09:44] Speaker0: And so you should think of agents as these like crazy creatures that have like.
+[09:47] Speaker0: Infant like time is meaningless for them.
+[09:49] Speaker0: They just want to like make complex queries very fast and like analyze it really fast and they want perfect output for their their human users, right?
+[09:57] Speaker0: So you want to build a surgeon for that.
+[09:59] Speaker0: So how do you what do you what matters for that type of creature?
+[10:03] Speaker0: Well, lots of things.
+[10:04] Speaker0: So first of all, you need a search engine like a handle complex queries, right?
+[10:06] Speaker0: Like you do not want that feature to have to.
+[10:09] Speaker0: Simplify its complex need for its user into simple keyword phrases because you're just losing information.
+[10:15] Speaker0: So you want something that could actually semantically handle complex queries but also handle keywords because sometimes you just literally want.
+[10:20] Speaker0: Hey like i have this like complex chemical formula like i want that to be part of the document, right?
+[10:25] Speaker0: So you want to you want to a tool that can handle both semantic queries keyword queries really just like expose all the fundamental toggles to the agent because all the agent i have by the way has the patience to like.
+[10:35] Speaker0: You know, make a add of a domain filter here and a keyword filter there, or like, i'm searching this way, searching that way.
+[10:41] Speaker0: So you want to like have a very controllable search engine.
+[10:43] Speaker0: You know like with with google, like you search something, and then.
+[10:47] Speaker0: You're like, no way.
+[10:47] Speaker0: That's not what i want and then you try to change some keywords and it's like it's just missing it.
+[10:50] Speaker0: It's not like it doesn't feel like very controllable toggleable.
+[10:52] Speaker0: Yeah, you want the opposite for an agent because the agent is going to keep searching until it gets to its outcome and you don't you don't want it to have to make like 1000 like 10,000 keyword queries and still never get to its comprehensive information.
+[11:03] Speaker0: You want to like make a few queries and get comprehensive information anyway.
+[11:05] Speaker0: So complex queries toggleable also like comprehensive results.
+[11:09] Speaker0: So this is a thing where it's like.
+[11:11] Speaker0: You don't an agent doesn't just want 10 results or 10 piece of information.
+[11:14] Speaker0: It wants everything because imagine you're an investor, you don't have to imagine that if you're an investor and you're looking at biotech companies, you want complete information because you're making very important monetary decisions and you don't want to miss anything.
+[11:28] Speaker0: You don't you don't want to have any fomo like any like you're missing some critical startup that exists that actually like reflects well or badly on the current one you're thinking about.
+[11:39] Speaker0: And so you want your agent to have complete information about every topic.
+[11:42] Speaker0: So like with excel, like you could search something and then get not just like 10 results or 100 results, but 1,000 results or 10,000 and increasingly agents are wanting this.
+[11:50] Speaker0: You also want like lower latency because like agents search faster than humans.
+[11:55] Speaker0: But at the same time you want higher latency because certain applications don't care about lacy at all.
+[11:59] Speaker0: So i think another big thing with serving agents is like extreme customizability because like we're serving businesses, we're serving agents that are very different.
+[12:06] Speaker0: Uh, somewhat super low latency, somewhat super high latency, or latency doesn't matter to them.
+[12:11] Speaker0: And so, it's just a whole, it's like hard to express how different.
+[12:13] Speaker0: I have like a list of like 20 different ways like humans and agents are different.
+[12:17] Speaker0: And when you just build it from scratch for agents, you just make fundamentally different architectural decisions.
+[12:22] Speaker1: So, maybe just to go back to this point you made on.
+[12:26] Speaker1: Model intelligence improving and how that's kind of changed the game in search as well.
+[12:31] Speaker1: And i want to pose this thought to you that i'm sure you've heard before, but given the fact that model intelligence is, you know, getting better, it sort of can almost make up for or do some of the heavy lifting in this user signal, right?
+[12:46] Speaker1: That google has collected over 20 years for pagerank, etc.
+[12:50] Speaker1: It can actually help.
+[12:51] Speaker1: Get over that hump and do a pretty good job.
+[12:55] Speaker1: And so my question to you, i guess in that is how do you think about this trade-off of compute latency cost, right?
+[13:04] Speaker1: There's all these trade-offs that have to happen in terms of what you're actually using to and, you know, to your point, you said it's like a big optimization exercise.
+[13:11] Speaker1: Like, how do you think about what to optimize?
+[13:13] Speaker1: And i know you have different products, right?
+[13:15] Speaker1: And so maybe your answer is like, well, depends on the product offering we're doing, but bring that into it as well.
+[13:20] Speaker0: It's easier and harder to build a search engine for ai agents.
+[13:23] Speaker1: So i'll tell you interesting.
+[13:24] Speaker1: Yeah, please.
+[13:25] Speaker1: Yes.
+[13:25] Speaker0: I know that's for your interest.
+[13:27] Speaker0: Um, okay.
+[13:28] Speaker0: So why is it easier?
+[13:28] Speaker0: Well, first of all, like this, this whole click, you know, google has an insane amount of human click data.
+[13:34] Speaker0: Just doesn't matter like that much for serving agents.
+[13:36] Speaker0: I remember saying this like years ago, people thought that was crazy, but it turns out to be right.
+[13:41] Speaker0: Like human click data is great for.
+[13:44] Speaker0: Humans when you want to find results that humans click on which is obvious, right?
+[13:47] Speaker0: Like so if you get a huge amount of human click data, you could train on that and now you know you google can understand what you mean even when you don't even know what you mean.
+[13:54] Speaker0: However agents like just don't they don't benefit that much from cook.
+[13:57] Speaker0: I mean maybe a little bit in terms like the ranking signal.
+[13:59] Speaker0: It's also it's valuable for agents to know what humans think is valuable.
+[14:03] Speaker0: That's a very minor thing.
+[14:05] Speaker0: So it's interesting that like all that click data that google is accumulated just doesn't really matter for agents and so it's a whole new ball game.
+[14:10] Speaker0: So there's not much of an advantage there.
+[14:12] Speaker0: There are also other things like yeah, like google probably had a, you know, hundreds of people working on re-ranking whereas, you know, because i was a complex thing before llms, but now with llms, you could have a rear anchor that you just call an llm and like one engineer work on it.
+[14:26] Speaker0: Now, obviously, we have more than one engineer work on re-rankers at this point because you don't want to just call an llm, you want to train your own models and make them, you know, faster, higher quality, but you don't need a team of hundreds.
+[14:36] Speaker0: You could do it with like a couple people.
+[14:37] Speaker0: So like, like.
+[14:38] Speaker0: How are how have we a team that, you know, has always been below 100 people have been able to build a search engine that's better than google and all sorts of ways.
+[14:44] Speaker0: Well, it's because like llms unlock the technology unlocks like new types of techniques and then also like because serving agents like you don't need all the click data and like yeah data that google have been collecting.
+[14:56] Speaker0: So those are some ways why it's easier to build a search engine and why we've been able to build a fantastic search engine with a small team.
+[15:01] Speaker0: I think a small crack team but it's also harder.
+[15:05] Speaker0: Why is it harder?
+[15:05] Speaker0: Well, it's because like.
+[15:07] Speaker0: The requirements for a search engine now are getting more and more intense.
+[15:11] Speaker0: And so like, you know, i wake up in the morning and we have like, you know, customers love us, but we still have customers being like, wait, why can't you be perfect at this search or what about this search?
+[15:19] Speaker0: And like, they're constantly pushing us towards the edge because we're starting business use cases that have like deeper and deeper needs like, you know, billion dollar investments around the line.
+[15:27] Speaker0: Like this has to be perfect and that's great because it's pushing us towards perfect search.
+[15:31] Speaker0: And so like basically like if traditional surgeons had like 99.9% quality or a reliability, like these these new surgeons for agents need 99.99 99.99.
+[15:42] Speaker0: and this is a great thing because it's just pushing us towards that dream of perfect search.
+[15:45] Speaker0: I've always been dreaming about.
+[15:46] Speaker0: It's very similar to.
+[15:48] Speaker0: Like llms like you know, opus 4.6 comes out.
+[15:50] Speaker0: Everyone's really happy.
+[15:51] Speaker0: This is working on 99.9% of use cases.
+[15:53] Speaker0: And then when when the next one version comes out, everyone wants that thing, right?
+[15:56] Speaker0: Because the extra nines of quality are so important in this new agentic economy.
+[16:00] Speaker0: And so you have a similar thing for search.
+[16:01] Speaker0: So it's both easier to build a search engine fast, but really hard to build a perfect search engine.
+[16:05] Speaker1: Mmm.
+[16:06] Speaker1: Yeah, you know, it's interesting when we were doing our diligence in the space, which, you know, has taken place over the last few years now.
+[16:12] Speaker1: Some people came to us with the opinion that search is just getting commoditized, and i think we look at that, and you know, if you go out there and search for information we know is out there public, et cetera.
+[16:24] Speaker1: You can't find the answers to everything still.
+[16:26] Speaker1: So, the fact that it's commoditized, you know, you'd have to kind of divide up, oh, what type of search is commoditized.
+[16:32] Speaker1: So, maybe i'll ask you that question, and then what is the type of search that's still really hard, and what is the key to unlocking that?
+[16:39] Speaker1: Is it.
+[16:40] Speaker1: Data partnerships.
+[16:42] Speaker1: Is it a technical breakthrough?
+[16:44] Speaker1: Like, how do you think about the edges as you mentioned in terms of, you know, perfecting or pushing forward the frontier of search?
+[16:52] Speaker0: Yeah, i guess what does commoditize me?
+[16:53] Speaker0: It means like over time, will the thing will just not matter which tool you use.
+[16:58] Speaker0: Like they're all kind of the same.
+[16:59] Speaker0: I would argue that the llms are going to get commoditized or are getting commoditized faster than searches.
+[17:05] Speaker0: And the reason is because you don't need to run like mythos over every cell in your excel sheet when you're trying to find competitors or something.
+[17:10] Speaker0: Like a lot like most of knowledge work does not require the smartest model.
+[17:14] Speaker0: You actually like.
+[17:15] Speaker0: You know, like just an open source model that's big enough.
+[17:19] Speaker0: you know, and now the infrastructure for running them is very good.
+[17:21] Speaker0: Like it's pretty cheap.
+[17:23] Speaker0: Like you could just reuse open source models for most of knowledge work, Not that the crazy smart lms don't they do have a super amount of value in terms of like inventing new science and i and math and and and certain cases you want like you know, find any bugs in your code or something like that.
+[17:39] Speaker0: But like increasingly like i would say like if you think of knowledge work like all different tasks you might do as like concentric circles of difficulty, a huge amount of that service area is covered by like off-the-shelf models you get right now.
+[17:53] Speaker0: Yeah, very fair.
+[17:54] Speaker0: Yeah, right.
+[17:54] Speaker0: So but like another hand like search like when you are trying to, you know, enrich every cell in your excel sheet with competitors or people you're trying to recruit then like every extra.
+[18:05] Speaker0: Nine of quality and search really matters.
+[18:07] Speaker0: It's basically i'd argue that a lot of knowledge work is actually search problem, not only intelligent problem.
+[18:11] Speaker0: And and so, yeah, i mean, what are some examples where search is not good?
+[18:17] Speaker0: I do think company and people search is the most like like easy to see and just most valuable people like every company in the world has to search over companies to sell to.
+[18:29] Speaker0: Uh, or, yeah, almost every company in the world has to search for companies to sell to and people to hire.
+[18:33] Speaker0: Right.
+[18:34] Speaker0: You could ask yourself if like finding companies to sell to or finding people to hire is a solved problem.
+[18:38] Speaker0: I think every company would say, no, it's not.
+[18:41] Speaker0: That's why people are constantly, you know, switching tools, like trying out new tools, is because like we just don't have comprehensive information over all the people or companies we want.
+[18:48] Speaker0: So that's a really good example.
+[18:49] Speaker0: That's something X is leaning very deeply into, like go-to-market intelligence.
+[18:52] Speaker0: Because we care a lot about it.
+[18:53] Speaker0: It's very exciting.
+[18:53] Speaker0: It's also very useful to use internally.
+[18:55] Speaker0: We have companies to sell to and we have people to hire.
+[18:58] Speaker0: So it's been great to dog food our own things.
+[18:59] Speaker0: Exactly.
+[19:01] Speaker0: Um, but yeah, that's an example.
+[19:02] Speaker0: I think you just want comprehensive like you, you just want all all the all the people that are that could be connected to you that are that are relevant.
+[19:10] Speaker0: And by the way, it's very beautiful thing.
+[19:11] Speaker0: Like, yeah.
+[19:13] Speaker0: You didn't ask us by.
+[19:14] Speaker0: I think one beautiful thing about search is that a lot of important problems in the world are actually search problems like dressed up in a different way.
+[19:22] Speaker0: Say more.
+[19:22] Speaker0: What?
+[19:24] Speaker0: Okay, political polarization.
+[19:26] Speaker0: I would argue that's a search problem because there are people out there who want to everyone wants to understand the world or most people want to understand the world but they're getting fed information.
+[19:33] Speaker0: That's just like, you know, misleading in some way or straight up wrong.
+[19:37] Speaker0: And if everyone had like information that was accurate and like controllable and like comprehensive, i think all most reasonable people would be reasonable and i think because our information environment is so chaotic is so polarized.
+[19:50] Speaker0: It's causing reasonable people to be unreasonable.
+[19:54] Speaker0: By the way, i'm part of it.
+[19:55] Speaker0: Like i'm sure i have incorrect beliefs on all sorts of political things because my information is not perfect.
+[19:59] Speaker0: It's something i really want to solve.
+[20:01] Speaker0: A loneliness is a search problem.
+[20:04] Speaker1: We are no one thinks as long.
+[20:05] Speaker0: Yeah, a lot of people are feeling lonely in modern society.
+[20:08] Speaker0: Well, it's because they're not finding why not finding people to hang out with or to be in relationship with, right?
+[20:14] Speaker0: Yeah.
+[20:14] Speaker0: And so like.
+[20:15] Speaker0: Yeah, lonely is a search problem and it's in a city life.
+[20:18] Speaker0: Like it's hard to find other people with similar interests or you might bond with and this is like, you know, with a perfect search engine with whatever information people are willing to share, it would help to find other people.
+[20:29] Speaker0: So for example, i have a lot of crazy ideas about flying cars.
+[20:31] Speaker0: I really want flying cars.
+[20:32] Speaker0: I hate cars on the road.
+[20:34] Speaker0: I would love to go to a group of people talking about flying cars.
+[20:37] Speaker0: I'm sure i'd be friends with those people.
+[20:39] Speaker0: I can't just be like.
+[20:41] Speaker0: Find me all the flying car enthusiasts in san francisco.
+[20:44] Speaker0: I would love to attempt to go to do that.
+[20:46] Speaker0: Okay.
+[20:47] Speaker0: And then this gets in your earlier part of your question is like what what allows for this differentiation?
+[20:51] Speaker0: So it's a long answer to how to start to see that search is like a bigger thing that people think of searches like in a 1998, you see a text box, you type in a few keywords, you get a few things like that was search.
+[21:03] Speaker0: No, like search is way broader searches, coordinating the human species around anything we're trying to do.
+[21:08] Speaker0: How does search become less and less commodity?
+[21:10] Speaker0: Well, it's it's always it's always about a really good retrieval and really good data.
+[21:15] Speaker0: So if you if you do perfectly on both those things, you have all the data and you have all the best possible retrieval that that is perfect search.
+[21:21] Speaker0: And so it is like both accumulating all the web's data, you know, accumulating data that's on the web and then training extremely powerful models to search over it.
+[21:29] Speaker0: Those are those have always been the two like.
+[21:32] Speaker0: Index and retrieval.
+[21:32] Speaker0: I've always been the two pushes at exa on the engineering side since five years ago.
+[21:37] Speaker1: Can you say more about the data element and, you know, obviously no need to share any secret sauce there, but it does feel like the web is getting increasingly closed to some extent parts of the web, right?
+[21:49] Speaker1: But there's a lot of fear out there from data providers on.
+[21:52] Speaker1: Oh, we don't want to be stack overflowed, right?
+[21:55] Speaker1: Especially if.
+[21:56] Speaker1: Your business model is around impressions.
+[21:58] Speaker1: You served to humans visiting your site.
+[22:01] Speaker1: I think the fear is the greatest among those business models.
+[22:04] Speaker1: How do you think about?
+[22:06] Speaker1: Just sort of that interplay with data providers and making sure you can get to the path of perfect search.
+[22:12] Speaker1: But, you know, work with these data providers that are maybe becoming more closed.
+[22:15] Speaker0: Yeah, so i want to get to the ideal world where you have perfect search and then every everyone's sensitized to create amazing content even more.
+[22:22] Speaker0: So than before i actually think there's an opportunity here and i'll talk about how to create a system where like content providers are making more revenue because they are participating in this massive agent economy.
+[22:31] Speaker0: Yeah, right.
+[22:32] Speaker0: So.
+[22:32] Speaker0: Like i like to think for first principles, you know, the first principles idea here is that the agenda economy is going to be huge.
+[22:38] Speaker0: Like basically like we're all gonna have agents.
+[22:40] Speaker0: So those agents are going to be participating.
+[22:41] Speaker0: You can imagine it's like a genetic economy and cyberspace.
+[22:44] Speaker0: We're basically they're doing like commerce, they're like reading information.
+[22:47] Speaker0: They're it's like everything we do on the internet, they're doing but like a thousand times bigger, right?
+[22:52] Speaker0: So there's a massive amount of value in the stage economy, meaning money.
+[22:57] Speaker0: And and so if there's so much value like instead of like you know, hundreds of billions of dollars going to one company.
+[23:03] Speaker0: What if you know, 50 billion dollars a year went to one company and the other 150 billion went to all the content providers, right?
+[23:09] Speaker0: Like there's ways to distribute the value in this new agenda economy that are more favorable towards providers of content and like this is kind of how i think.
+[23:19] Speaker0: And by the way, it won't be 200, but it'll be a trillion dollars a year.
+[23:21] Speaker0: So there's totally if we could figure this out.
+[23:24] Speaker0: Well, like there's opportunity for everyone to just like do amazingly.
+[23:29] Speaker1: I loved all the use cases you talked about.
+[23:31] Speaker1: There's go to market, right?
+[23:32] Speaker1: There's also the, you know, put it in the loneliness bucket, but finding people you can connect with one that you didn't talk about that.
+[23:39] Speaker1: I just want to pause on really quickly is coding.
+[23:42] Speaker1: Can you share more about why web search makes coding agents more powerful for this use case in particular and why eggs is such a perfect fit for the coding use case?
+[23:54] Speaker0: Yeah, for sure.
+[23:54] Speaker0: So every agent at some point agents are like humans like at any point when you're coding or when you humans used to code, you would have to look up information, right?
+[24:02] Speaker0: Because you want like the most recent technical documentation or you might look at a blog for inspiration.
+[24:07] Speaker0: And so agents are very similar in particular, they really want the freshest information.
+[24:11] Speaker0: So that every every line of code, they write it does not have some critical error and you know, especially with coding agents like the stakes are so high that again every every extra nine of quality matters.
+[24:21] Speaker0: So these coding is very intelligent right now, but in terms of retrieval quality, they've been in the dark ages or the dark ages of like the early 2000s in terms of search quality, but like search can be way better over coding it, you know, we're talking technical documentation, we're talking sdks just like as like perfect, perfect retrieval over the sinks.
+[24:38] Speaker0: That was our goal and so we're not yet perfect, but we're extremely good at search over any sort of coding material.
+[24:44] Speaker0: And so yeah.
+[24:45] Speaker0: So.
+[24:46] Speaker0: You know, when you know, a bunch of coding agents, try us like cognition.
+[24:49] Speaker0: For example, we've talked about as to try to us like we powered devin now and they've just found when they tested it that it just makes devin way better way more accurate, make way fewer mistakes, which really matters.
+[24:59] Speaker0: And this will just continue by the way, like you could also think about coding agents as just like like every agent is going to want to do everything and so it's not just searching over code.
+[25:07] Speaker0: It's also at some point searching over the world information, just being up to date with the news because like if the coding agent will become your agent, it's like i think coding agents and just general agents are going to.
+[25:16] Speaker0: Merge.
+[25:16] Speaker0: Yeah.
+[25:17] Speaker0: And it's an interesting trend but yeah.
+[25:19] Speaker1: right.
+[25:19] Speaker1: No, i mean it's clearly codex is not for developers, right?
+[25:24] Speaker1: It's sort of like the everything app to that point.
+[25:27] Speaker1: I want to bring in mostly because it's in the it's all over twitter right now and i think it might be an interesting tie to exa and that's sort of this topic of token maxing tokenomics just the fact that you know, Uber is talking about how they're spending too much service.
+[25:45] Speaker1: Now, hit their budget for the year already, you know, i think microsoft talked about pulling their Claude Code licenses.
+[25:52] Speaker0: token apocalypse token apocalypse.
+[25:53] Speaker1: Yeah.
+[25:53] Speaker1: Okay, there we go.
+[25:54] Speaker1: Yeah, there and yeah, exactly a better word for it.
+[25:57] Speaker1: But we've talked about this before, but in terms of how you think about search actually making token consumption more effective and efficient, Can you share more perspective on that?
+[26:09] Speaker1: And to the extent you can like what are results that you're seeing on that front?
+[26:12] Speaker0: Yeah, sure.
+[26:13] Speaker0: So like retrieval can help solve the token apocalypse because like we should not be using gigantic models for every test.
+[26:20] Speaker0: We should be using like and people are starting to realize this.
+[26:22] Speaker0: Like you should use a family of models at different sizes.
+[26:25] Speaker0: The big model decides what to do and it dishes out commands.
+[26:28] Speaker0: So the small models and those small models can be way more.
+[26:31] Speaker0: Accurate and reliable if they're using retrieval.
+[26:33] Speaker0: So retrieval helps small models act like big models.
+[26:36] Speaker0: It's kind of like in a cheap way.
+[26:39] Speaker0: And so we do save our customers a huge amount of tokens because they can use smaller models and use retrieval.
+[26:45] Speaker0: They could also we have all we care a lot about this.
+[26:47] Speaker0: So we have like we've put a lot of research effort into how to, you know, extract only the most relevant information from documents so that these models can just like not have to consume too much tokens because like a lot of, you know, any sort of input tokens can.
+[27:00] Speaker0: A dramatically increase spend.
+[27:01] Speaker0: So we could like we could save like 20x on cost for customers compared to other providers by like being very efficient in like what information does the from the web does the agent actually see?
+[27:10] Speaker0: But yeah, in general smaller models using retrieval is much more efficient and like andre carter.
+[27:15] Speaker0: They had a tweet about that.
+[27:16] Speaker0: I keep mentioning under the cover thing on twitter.
+[27:20] Speaker0: Yeah, it's great.
+[27:22] Speaker0: He had a tweet about this a couple.
+[27:23] Speaker0: I think a couple years ago where it was like the the trend is towards.
+[27:26] Speaker0: Like small smaller raw intelligence modules using tools.
+[27:30] Speaker0: And that trend will, like, that's an important trend.
+[27:33] Speaker0: Because like, you have, you know, you have a limited, like the cost of the model is determined by the number of weights.
+[27:38] Speaker0: That, you know, determines the cost of the inference.
+[27:40] Speaker0: And and if those weights are, if you're wasting those weights on like all sorts of information about the world, like the capital of france or, you know, this random blog that you read, like you're just wasting tokens.
+[27:51] Speaker0: Sorry, you're wasting a weight.
+[27:52] Speaker0: So those weights should be focused only on like intelligence processing and you could probably get to models that are like 1 billion even less than a billion parameters that are extremely hyper intelligent and.
+[28:02] Speaker0: Completely unknowledgeable like they like einstein like who never saw the world.
+[28:08] Speaker0: It's kind of like the way i think about it and then it uses tools that are very cheap and inefficient and that that's a much more efficient world that will help solve this like this compute shortage that is affecting everybody.
+[28:20] Speaker1: Do you think this is more of like a hot take moment?
+[28:22] Speaker1: But do you think that reality will start to take place second half of 2026 or because right now we're in this phase where everyone's playing.
+[28:30] Speaker1: With the biggest best model that just arrived and to your point, probably overspending.
+[28:34] Speaker1: So when do you think this reality kind of sets in?
+[28:36] Speaker0: I mean, the reality is definitely starting.
+[28:37] Speaker0: I don't have the exact, it's like trends are everywhere.
+[28:40] Speaker0: Yeah, yeah.
+[28:41] Speaker0: When does it become noticeable?
+[28:42] Speaker0: Yeah, i would say by end of 2026 is very noticeable.
+[28:44] Speaker0: Oh.
+[28:45] Speaker1: okay.
+[28:46] Speaker1: Kind of a hot take actually.
+[28:48] Speaker1: So you talked about doing.
+[28:52] Speaker1: Just the research that you're doing, and you know, i think exa, you sort of famously structured as more of a research lab honestly than you know what people are calling ap- application layer companies, infrastructure companies, right?
+[29:03] Speaker1: You know, this is sort of a research lab.
+[29:05] Speaker1: Focused on search, and coming out of that, one of the things that we were most excited about frankly is just the exciting, cutting edge work that you guys are doing.
+[29:15] Speaker1: One of those things was actually.
+[29:17] Speaker1: Search as it pertains to rl and there's a lot of efficiencies there, etc.
+[29:21] Speaker1: I wanted to just flag that because it was an interesting finding.
+[29:24] Speaker1: I think you use tinker.
+[29:25] Speaker1: So shout out to thinking machines, but say more about what you guys are finding there and and also just sort of what research directions you guys think about as being important.
+[29:34] Speaker0: Yeah, it's on a high level like a lot of the.
+[29:37] Speaker0: The big ideas in training llms apply equally well to trading search models.
+[29:42] Speaker0: So for example, like we do pre-training of a betting models, we do post-training of embedding models, we do rl on on like search tools, right?
+[29:49] Speaker0: So like a lot of these things that are working in llms work in retrieval too, which is kind of interesting and you don't hear a lot of people talking about.
+[29:54] Speaker0: So yeah, in that rl blog post, we just we just basically try like a lot of people rl on a search tool, but we haven't seen as much many studies like testing different search tools.
+[30:04] Speaker0: Yeah, on right.
+[30:05] Speaker0: So we simply rl done serp.
+[30:06] Speaker0: So like google wrapping versus versus exa and found that, you know, our alien on x does way better like it both like uses fewer calls so it's more efficient and then it's like higher performance and this makes sense because again like exo was designed for agents to use and so like it just it just allows agents to make more complex queries.
+[30:25] Speaker0: Like it's really like capture what they actually want as opposed to having like to compress what they want into like shorter phrases that.
+[30:32] Speaker0: Are more for traditional search engines.
+[30:33] Speaker0: So that that was a cool blog post to explore and think it was really helpful for that.
+[30:37] Speaker0: In general, our research is like the bitter lesson.
+[30:40] Speaker0: So just like scaling laws in lots of different directions.
+[30:43] Speaker0: Some of the ones i mentioned post training pre-training rl, we've been pretty under the radar.
+[30:47] Speaker0: Like i don't think people don't realize how much research we're doing.
+[30:50] Speaker0: We don't publish all of it.
+[30:52] Speaker0: Obviously, we don't publish much of it, but there is a lot to go and search and i don't think people realize that and i think we realize it because we've just been obsessed with it one.
+[31:01] Speaker0: We're gonna crazy enough like that's just as far.
+[31:04] Speaker1: as.
+[31:05] Speaker0: but then also i think the biggest thing is actually we're in because of our business model and who we serve.
+[31:10] Speaker0: We've just been pushed in all these crazy directions because we're not serving 2 billion consumers who are kind of all the same like 2 billion humans.
+[31:16] Speaker0: We're serving, you know, now, you know, over 5,000 businesses that are pushing us at all these crazy directions.
+[31:22] Speaker0: Like, just like every day, it's like, why can't this be higher quality over companies or people like, why can't this be faster?
+[31:28] Speaker0: Like, why can't, why can't the information extraction be even higher quality?
+[31:33] Speaker0: And so, like, just we're being pushed all these crazy ways.
+[31:36] Speaker0: And that's why we're exploring all these research directions.
+[31:39] Speaker0: Like research always follows.
+[31:41] Speaker0: Need.
+[31:41] Speaker0: Yeah, so we have insane amounts of needs at exa to do better.
+[31:46] Speaker0: And so that's why we do all this crazy research.
+[31:47] Speaker1: Yeah.
+[31:48] Speaker1: No, that makes sense.
+[31:50] Speaker1: So i guess kind of tied to this is i wanted to ask you about how you think about benchmarks and hill climbing and i'll say this sort of tongue-in-cheek but we've noticed that especially maybe among folks in your space but also in other spaces, right?
+[32:06] Speaker1: There seems to be.
+[32:08] Speaker1: Like, benchmark maxing or whatever you want to call it.
+[32:11] Speaker1: And and you know, of course, no to no surprise.
+[32:14] Speaker1: Everyone is always at the top of their own benchmark.
+[32:16] Speaker0: That's how you know, it's not something's wrong.
+[32:18] Speaker0: That's how you know exactly.
+[32:20] Speaker1: So and obviously you have this relentless pursuit of ground truth and and also, you know, self-improvement, right?
+[32:29] Speaker1: I think like you're the first to admit, hey, here are the areas we could be better on.
+[32:32] Speaker1: We're trying to improve on a continuous basis, but how do you internally think about what benchmarks matter?
+[32:40] Speaker1: What is ground truth for you guys in terms of like, hey, we're actually better on this front.
+[32:44] Speaker0: but worse on this front.
+[32:45] Speaker0: Yeah, yeah, no, 100% the.
+[32:48] Speaker0: The evals have been benchmacked in retrieval.
+[32:52] Speaker0: There aren't too many evals and retrievals.
+[32:54] Speaker0: That's one problem.
+[32:55] Speaker0: There's aren't that many standard third-party retrieval evals and they've been like, benchmarks and they're not really actually good representations of agentic search like what agents actually need.
+[33:04] Speaker0: And so it is a problem in the industry where like customers can't really know what is true, which is sad.
+[33:09] Speaker0: It also demonstrates the need for a really good search engine to distinguish what is true.
+[33:14] Speaker0: It's just another example.
+[33:16] Speaker0: Um, but yeah, i mean the ground truth for customers is their own ab tests.
+[33:21] Speaker0: And so when we do a like, right, like literally, they are testing us for the other providers on on their use case.
+[33:26] Speaker0: And if they have enough data to do ap tests, that's the best.
+[33:29] Speaker0: If they have this, something often, they make their own evals.
+[33:31] Speaker0: So sophisticated customers will make their own evals.
+[33:33] Speaker0: Super sophisticated customers will run ab tests and then like customers who just want something might just like look at evals that are published online.
+[33:40] Speaker0: Um, but certainly for this physical customers, when they test us, it becomes a lot clearer who's like on the top.
+[33:47] Speaker0: But yeah, i we want to improve this ecosystem.
+[33:50] Speaker0: We want to like, we want to be like the research lab that like helps improve these ecosystem and like publishes things.
+[33:56] Speaker0: And even if we're not at the top, we want to show.
+[33:58] Speaker0: And so you'll see more coming out there.
+[34:00] Speaker1: So you predicted that agentic search will be a bigger business.
+[34:04] Speaker1: Then google search and by the 2030s, um, say more about that.
+[34:09] Speaker1: What are what trends are you seeing that we do believe this?
+[34:12] Speaker0: Yeah, i mean just you could get this from basically like estimating the number of searches.
+[34:17] Speaker0: So the number of llm calls and the number of percentage of those llm calls require search, then the cost of the search and then you just like play it out and the trend is actually been pretty clear and we've have, you know, pitch decks from like years ago where we kind of predict where things go, you know, maybe we're off by a quarter here or there but it's like pretty.
+[34:33] Speaker0: You know, if i was a trend and so yeah, if you if you follow that trend even conservatively, you get to a massive tam for agentic search in the 20th.
+[34:41] Speaker0: I mean, even before like late 2020s and then early 2030s, i'm basically like the the number, it's hard to express like how many searches will come from agents, right?
+[34:52] Speaker0: Like humans on average make, you know, a couple searches a day but agents when everyone has a personal assistant and every single software tool you use is going to be checking its work.
+[35:00] Speaker0: With retrieval like the number of searches is going to be we say thousands because that that is like understandable and rockville people but really it's been millions.
+[35:08] Speaker0: Yeah, it's just gonna be like the world to be filled with search in a way that the world is filled with electricity.
+[35:13] Speaker0: It's like like it's a fundamental infrastructure that powers everything like information.
+[35:18] Speaker0: I think less stuff search is like perfect information.
+[35:21] Speaker0: The world will be filled with like the highest quality information.
+[35:23] Speaker0: And so yeah, i mean there is a lot of when the world is filled with something, it's usually a large.
+[35:27] Speaker0: A tam and yeah, if you just play out the numbers, we think it will be bigger than google ads in 2039.
+[35:32] Speaker0: Not that ads won't be a huge part of the world too.
+[35:35] Speaker0: Like it's as important for commerce and that might be a percentage of the agentic search economy too.
+[35:41] Speaker0: But yeah, it's just the numbers here are insane and it really, it comes down to a belief.
+[35:45] Speaker0: Like, do you think llms will eat the world?
+[35:47] Speaker0: We'll eat all software and like we have always believed that.
+[35:49] Speaker0: Yeah, it seems like very true.
+[35:50] Speaker0: It seems even more true.
+[35:52] Speaker0: Every month.
+[35:53] Speaker0: So um.
+[35:54] Speaker1: yeah, what do you think?
+[35:56] Speaker1: And there's some debate on this on the llm side on the training side too.
+[36:00] Speaker1: But what do you think is the bottleneck?
+[36:03] Speaker1: Today versus let's say three years from now, i feel like five years is too far to predict.
+[36:08] Speaker1: Is it?
+[36:09] Speaker1: I think you said in the past, it's no longer intelligence in terms of bottlenecks search.
+[36:13] Speaker1: Like, is it data accessible data?
+[36:15] Speaker1: How do you think about how that evolves?
+[36:18] Speaker0: Yeah, i mean well initially the bottleneck is going to be actually the infrastructure which kind of interesting.
+[36:22] Speaker0: No one realizes but like if you if you actually get for example, 10x 100x 1000x more searches on google, you the infrastructure to handle that is insanely large.
+[36:31] Speaker0: It just hasn't been built yet.
+[36:32] Speaker0: So we're really excited to explore all sorts of cool new vector databases that have like super high throughput, for example, things like that.
+[36:39] Speaker0: Yeah.
+[36:39] Speaker0: So that's like an interesting bottle like in the same way there's compute on next, there'll be like infrastructure bottlenecks.
+[36:43] Speaker0: I mean it'll be solved at some point.
+[36:45] Speaker0: Um, yes.
+[36:46] Speaker0: And then like other bottlenecks are like data bottlenecks.
+[36:49] Speaker0: Like so agents are increasingly going to want to ask questions about the world and that data might not be on the web.
+[36:55] Speaker0: It might not even be recorded anywhere.
+[36:57] Speaker0: And so like, you know, there will be this trend towards how can we like accumulate all the world's data?
+[37:02] Speaker0: Like literally unearthed the world's data.
+[37:04] Speaker0: I'm really excited about this because the world is filled with information and it's not all recorded, you know, the history of humanity, history of humanity is the world's been, you know, when we even were hunters and gathers results for information, then they started writing things down and like the amount of information the world has been like skyrocketing.
+[37:19] Speaker0: There's still so much information that's not recorded, you know, you go from all the way from a clay, the first clay tablet, oh, really the first like paintings on on caves would be arguably the first time things are written down and then like and then, you know, clay tablets and, you know, now i was in newspapers and now obviously now we have like the digital age, but there's so much information in your head.
+[37:35] Speaker0: Uh, like satellite images, like that are not just like totally in the world's soup of information that we could search over.
+[37:40] Speaker0: Yeah, and like to fully understand the world, fully understand how props, crop yields are gonna, uh, you know, affect, you know, some company, you know, like, or, uh, uh, like what are people thinking about the world or how do we unite the world?
+[37:51] Speaker0: Like, like that requires, like, understanding the world at a deeper level.
+[37:54] Speaker0: So I think the bottleneck will be data in a lot of ways.
+[37:56] Speaker0: And then once you have, the problem is once you have all this data, now the bottleneck will be retrieval.
+[38:00] Speaker0: Like, imagine, like, imagine, it's just a crazy idea, like imagine, you know, we're.
+[38:05] Speaker0: As we expand as a species like we're thinking like very far far in the future.
+[38:10] Speaker0: Like think about like or in the solar system like there's so many things going on in the world.
+[38:14] Speaker0: There's so much data being accumulated are the retrieval over that is very expensive and so like they're actually really fundamental.
+[38:20] Speaker0: They're interesting fundamental questions.
+[38:21] Speaker0: You're like right now the web is like let's call it a trillion pages that are matter.
+[38:25] Speaker0: What happens if the web were 1000 times bigger like a quadrillion pages?
+[38:28] Speaker0: I mean like everyone started uploading data.
+[38:29] Speaker0: Well then like any search algorithm that works over a trillion pages to no longer like it might work over a quadrillion pages but it might be a thousand times more expensive and that's not practical because if anything we want search to get cheaper not more expensive.
+[38:39] Speaker0: So what kind of search items work over a quadrillion pages?
+[38:41] Speaker0: These are fascinating questions that like i don't know if i've ever heard anyone else talk about.
+[38:48] Speaker1: Well actually i was gonna say the at least the.
+[38:53] Speaker1: Thinking about when we're living in, you know, on mars or whatnot, there's probably one other founder that has thought about that extensively elon.
+[39:00] Speaker1: And, you know, i listened to your when you went on the latent space podcast last year, one of my favorite podcasts and you talked about actually working at spacex.
+[39:09] Speaker1: How was that experience?
+[39:10] Speaker1: And like, Either elements of elon's leadership style that you've taken as, you know.
+[39:15] Speaker0: ceo of your own company.
+[39:17] Speaker0: Yeah.
+[39:17] Speaker0: Well, first of all, the internship was magical.
+[39:19] Speaker0: So like, for example, i saw the first landing on the barge.
+[39:23] Speaker0: Wow.
+[39:23] Speaker0: Yeah.
+[39:23] Speaker0: And like, like just outside mission control or like i'm getting a tingles just thinking about it.
+[39:28] Speaker0: But yeah, like like just just seeing that like people coming together to do something magical for like that was very inspiring and made a big impact on me.
+[39:35] Speaker0: And yeah, i mean in terms of my leadership style, yeah, i like to think that i've incorporated some of what i think are the best aspects of elon.
+[39:43] Speaker0: So, you know, for example, like he's very detail-oriented, like he gets into details of everything and like for better or worse, like i do that too at excel, like everything from like the algorithms, like the vector db algorithm to like the office space and making sure like every part of the office is like.
+[39:58] Speaker0: Like really just like inspires and like excites.
+[40:00] Speaker0: Yeah.
+[40:01] Speaker0: And like like shows our passion and that goes across everything from our marketing to the engineering to to go to market and and so that that's exciting.
+[40:12] Speaker0: Obviously it doesn't scale.
+[40:13] Speaker0: So one thing i've been learning as we scale the company is like what details can i choose to go into?
+[40:17] Speaker0: And so it's i like the eagle metaphor of like you know i mean you go flying above the company and then when i see some detail that i think it should be important.
+[40:24] Speaker0: To fix like i go dive down and go into it and then come back up.
+[40:28] Speaker0: So i think elon has some of those properties.
+[40:31] Speaker0: Obviously elon is like all in every day for what is it?
+[40:33] Speaker0: Like decades.
+[40:35] Speaker0: Yeah, i've only been doing for five years but i intend to do it for decades.
+[40:38] Speaker0: One last thing that he does really well, which is like he's very good at medic like names and like inspiring through like medic things.
+[40:44] Speaker0: Like, you know, like you realize that spacex is a mission is not like.
+[40:49] Speaker0: Improve rockets to get to or yeah like oh make rocket travel really fat like good.
+[40:53] Speaker0: It's like it's like make humanity interplanetary like that's a really good mnemonic thing.
+[40:58] Speaker0: So i think a lot about the names of like projects and like when i when i you know i do a team stand up every monday in front of the whole company.
+[41:06] Speaker0: Now we have like this like double floor office where people now are surrounding on the top floor.
+[41:09] Speaker0: It's really cool.
+[41:10] Speaker0: It's like a stadium and i get like a speech and i and i like to like.
+[41:14] Speaker0: Simplify what we're doing into like what is the core?
+[41:16] Speaker0: What is the memetic core and like come up with a cool name and that inspires.
+[41:19] Speaker0: By the way, a name is really important because it's when you have a company of a certain size, people are constantly communicating in ways.
+[41:25] Speaker0: You're not, you're not part of those conversations and like the name like really like grounds the mission of that project.
+[41:31] Speaker0: Yeah, this is really important.
+[41:33] Speaker0: Like i could think of probably a day of just about a name and.
+[41:36] Speaker1: so i just totally divergent but on the topic of names one, i love.
+[41:43] Speaker1: Goat talk a little bit about the symbolism of that and then i mean besides you know greatest of all time obviously but and then also exa you shared before what exit means but talk more about why you named the company exa.
+[41:55] Speaker0: Yeah sure.
+[41:56] Speaker0: Okay so the goat thing is basically there was a coffee shop that opened up next door and so many people.
+[42:02] Speaker0: So like like the mayor of sf kept posting about it and so a lot of people go it's really cool coffee shop.
+[42:07] Speaker0: Hedge coffee.
+[42:08] Speaker0: Um, and so, so many people are walking by.
+[42:10] Speaker0: We're like, we gotta like have them stop and look at what x is.
+[42:12] Speaker0: So we have some posters about x on the entrance to our office, but we were like, how do we get them to stop?
+[42:17] Speaker0: And so i was like, just just put a go.
+[42:19] Speaker0: I don't know why i thought this, but just put a goat there.
+[42:21] Speaker0: And i actually, some part of me wanted a real goat.
+[42:23] Speaker0: I don't know how we maintain the goat.
+[42:24] Speaker0: I think the roi would still be valuable, but then instead we bought like a nice like fake goat.
+[42:29] Speaker0: Oh yeah, i love that.
+[42:30] Speaker0: And we put like the swag on him.
+[42:32] Speaker0: So it's like it's a beautiful.
+[42:33] Speaker0: Yeah.
+[42:34] Speaker0: And.
+[42:35] Speaker0: And people stop by.
+[42:36] Speaker0: So like we're actually like tons of people stop by like wow, even on saturday and sunday, which is like when the coffee shop is very popular, like people come by and i go and i say hi to them.
+[42:44] Speaker0: I talk to them, i told them about it.
+[42:44] Speaker0: It's actually very beautiful.
+[42:46] Speaker0: We're actually like a important stop for for kids on their walk to school.
+[42:49] Speaker0: Like, you know, when you're a kid, you had like those stops.
+[42:51] Speaker0: So you like ice cream store, like the goat is a stop and they're always taking pictures.
+[42:55] Speaker1: Very cute.
+[42:56] Speaker1: Starting to recruiting funnel early.
+[42:58] Speaker0: but it's interesting how much those things matter.
+[43:00] Speaker0: Yeah, we already hired.
+[43:01] Speaker0: We've hired people because of the goat.
+[43:03] Speaker0: Anyway, um, exa, i think is a great name.
+[43:06] Speaker0: I love exa one value of x is like it's a great prefix.
+[43:10] Speaker0: So like exa anything exit data, exit this, i said that, but but x means 10 to the 18th, which is in contrast to google, which is 10 to the 100th.
+[43:20] Speaker0: And the idea there was like, you know, we're kind of overwhelmed with information even though you could technically find lots of things on the web on google.
+[43:27] Speaker0: That doesn't mean it's like organized and you get the highest quality knowledge.
+[43:29] Speaker0: So like.
+[43:30] Speaker0: And here it's like 10 to 8, you know, 10 to 18th is like you're extracting the most important information.
+[43:35] Speaker0: It's still very large amount of information 10 to 18th, but it's not like overwhelming.
+[43:38] Speaker1: That was one of the ideas here.
+[43:39] Speaker1: Mmm, great name.
+[43:41] Speaker1: We love the name as well and the goats.
+[43:43] Speaker1: My kids love the goats.
+[43:46] Speaker1: So i wanted to this this topic feels a little bit over talked about but it's been in the news more recently.
+[43:52] Speaker1: So i'm going to bring it up.
+[43:54] Speaker1: Which is, i don't know if you saw will manitas wrote an article recently called grind slop and it's almost this backlash of.
+[44:03] Speaker1: And in fact, there's a pulled a quote from it.
+[44:05] Speaker1: He said something about we're witnessing a phenomenon that marath masquerades is discipline, but represents perhaps the most extravagant squandering of economic surplus in our civilization's history.
+[44:17] Speaker1: So extreme words, right?
+[44:19] Speaker1: And he he talked about.
+[44:22] Speaker1: Sort of all of these articles that are glorifying the grind over what they're doing, you know, all of these things that, you know, maybe are more relevant to work-life balance, etc.
+[44:35] Speaker1: So i guess i'll start with saying one of the things that i was actually most impressed and excited by when i visited exa at god, i think it was like 8 p.
+[44:44] Speaker1: m.
+[44:44] Speaker1: Was that they're.
+[44:46] Speaker1: Were a ton of people in the office, and it wasn't just that they were there for facetime, cause obviously that's not what you and jeff care about.
+[44:54] Speaker1: But they were excited about what they were working on, and i think really importantly, they were excited by who they were doing it with.
+[45:01] Speaker1: And so, just say more about like how you think about that culture of going all in and going after what you guys are, you know, sort of the the mission that you just talked about.
+[45:11] Speaker1: And like, what do you think.
+[45:12] Speaker1: The important things to balance are in culture.
+[45:15] Speaker0: Yeah, i mean this is critical to me and it should be critical to any company.
+[45:17] Speaker0: I want to do great things like you people need to be super excited about what they're doing and i have a ton of fun, right?
+[45:21] Speaker0: So like you might have also heard at apm like people are just laughing.
+[45:24] Speaker0: Yeah, laugh a lot of extra and it's almost too loud sometimes and it's like, are distracting.
+[45:29] Speaker0: So we have to have like headphones for everybody, but but yeah, like people are, it's very important people having fun and that's necessary for doing the best work of your life.
+[45:37] Speaker0: And i also i would say like having fun just like.
+[45:39] Speaker0: Just good vibes.
+[45:40] Speaker0: But also, it's very important that people work on the projects that are most exciting to them at any point.
+[45:45] Speaker0: And so like people especially now with like, you know, all these ai tools like anyone as such an engineering side or even on the good market side or offsite, everyone can work on whatever they want.
+[45:53] Speaker0: So for example, like we had someone who built the vector database who was like, hey, i want to go train models.
+[45:58] Speaker0: I was okay, just go do it and like he didn't really have experience in training models, but i was like, you're really smart, you'll learn it in like two weeks and then you'll just do amazing work and he's done amazing work.
+[46:06] Speaker0: So right?
+[46:06] Speaker0: So like i make sure everyone's.
+[46:08] Speaker0: Working on exactly what they want to work on and luckily in search, it's like at least in our space, like in any direction, we improve things.
+[46:13] Speaker0: Like it'll be good for the business.
+[46:15] Speaker0: So it's like, okay, and actually happens to turn out somehow that like the what people want to work on and what we need like perfectly aligns.
+[46:21] Speaker0: I don't it's like a magical thing.
+[46:22] Speaker0: I don't know how that's possible but um yeah so everyone's working on exactly what they want to work on.
+[46:26] Speaker0: They're also working on multiple projects because like ai tools will enable you to be like productive in parallel and so it's just and then what we're doing is just super cool like you know there aren't.
+[46:36] Speaker0: Like it's hard to find maybe these days like really exciting like humongous projects and missions that other people aren't doing.
+[46:43] Speaker0: And this one happens to be like organizing the world's information, making perfect search.
+[46:47] Speaker0: That's very exciting important for the world but also like really hard problem and engineers are really excited about that.
+[46:52] Speaker0: And on the go-to-market side, it's like we're then selling this search to the whole world and we're selling to some of the coolest companies and it's very exciting to them.
+[46:59] Speaker0: They get to talk to like.
+[47:00] Speaker0: All these like hot companies and give them and give them search that really helps our products.
+[47:05] Speaker0: And so it's just an exciting space and yeah, but it's very important to me.
+[47:08] Speaker0: So i hope we maintain that forever.
+[47:10] Speaker1: Yeah, no, absolutely.
+[47:12] Speaker1: Well, maybe just to end on one last question and i'll say, first of all, eggs is hiring and you told me once that you actually still interview every single person at exa or who comes to, you know, interview for exa and so.
+[47:26] Speaker1: I'm curious what you've attracted some of the most incredible talent.
+[47:32] Speaker1: Junior senior everything in between very high slope, very experienced.
+[47:37] Speaker1: And i'm curious what it is that you look for when you do that last final interview and you know how you've been able to get these incredible people to come to exa.
+[47:49] Speaker0: Yeah, i mean people might not like this word but i look for passion.
+[47:53] Speaker0: It's like someone just like a fire in their eye.
+[47:55] Speaker0: Like do they really care about what we're doing or some aspect of doing?
+[47:58] Speaker0: I really want to scale this thing or i really want to sell this to everyone because.
+[48:02] Speaker0: Why is that important?
+[48:03] Speaker0: It's it was important five years ago, but i think it's especially important now because like the world goes to who is most passionate, who's most agentic because like you can now do anything.
+[48:12] Speaker0: Like you could be whatever like, you know, like with the genetic tools, you could literally like do anything.
+[48:17] Speaker0: And what matters most is like, how much do you care about the end result?
+[48:19] Speaker0: Yeah.
+[48:20] Speaker0: And then like your judgment and everything.
+[48:22] Speaker0: And so like i look for the fire in the eye because if you have that fire, you could literally do anything.
+[48:26] Speaker0: It's it's actually crazy how meritocratic the world is becoming because of these agents tools filling the gaps.
+[48:31] Speaker1: Yeah, absolutely.
+[48:33] Speaker1: Well, thank you so much.
+[48:33] Speaker1: Well, this was great.
+[48:34] Speaker1: Such a fun conversation.
+[48:36] Speaker1: Appreciate you and very excited to be partners.
+[48:38] Speaker0: Awesome.
+[48:41] Speaker2: Thanks for listening to this episode of the a60z podcast.
+[48:44] Speaker2: If you like this episode, be sure to like, comment, subscribe, leave us a rating or review and share it with your friends and family.
+[48:51] Speaker2: For more episodes, go to youtube, apple podcast and spotify.
+[48:56] Speaker2: Follow us on x a16z and subscribe to our substack at a16z.
+[49:01] Speaker2: com.
+[49:02] Speaker2: Thanks again for listening and i'll see you in the next episode.
+[49:06] Speaker2: As a reminder, the content here is for informational purposes.
+[49:09] Speaker2: Only should not be taken as legal business tax or investment advice or be used to evaluate any investment or security and is not directed at any investors or potential investors in any a16z fund.
+[49:20] Speaker2: Please note that a16z and its affiliates may also maintain investments in the companies discussed in this podcast for more details, including a link to our investments, please see a16z.
+[49:29] Speaker2: com.
+[49:30] Speaker2: forward slash disclosures.
