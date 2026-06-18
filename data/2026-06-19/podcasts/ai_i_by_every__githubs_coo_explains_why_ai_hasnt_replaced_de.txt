@@ -1,0 +1,311 @@
+Source  : AI & I by Every
+Title   : GitHub’s COO Explains Why AI Hasn’t Replaced Developers
+Date    : 2026-06-17 15:58 UTC
+Link    : https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+────────────────────────────────────────────────────────────
+
+Speaker 1 | 00:00 - 00:36
+Hi, I'm Mike Taylor. I'm the head of tech consulting at Every, and I sat down with Kyle Daigle, the COO of GitHub, and talked to him about what is happening on the front lines of coding agents. We have 17,000,000 poll requests coming in every month to GitHub now, it's growing exponentially and that puts them at the forefront of what's happening in this new economy. We talked about how that affects their users as well as how this affects open source maintainers and we covered a topic which is dear to everyone's hearts. How do I stop my $200 a month coding agent subscription from ballooning into a $2,000 a month usage limit?
+
+Speaker 1 | 00:36 - 00:45
+In this interview, did something a little bit different, which is I told Kyle I had made an AI clone of him to practice the interview, and he revealed something surprising in return. Here's the conversation.
+
+Speaker 2 | 01:00 - 01:11
+Every is the only subscription you need to stay at the edge of AI. If you care about being on top of the latest models and using the latest tools, you have to subscribe to Every to separate out the signal from the noise. Go to every.to/ subscribe today.
+
+Speaker 1 | 01:11 - 01:15
+Hey, Carl. Thanks for spending some time with me at the conference. Yeah. Of course. Yeah.
+
+Speaker 1 | 01:15 - 01:27
+It was good to meet you as well in the the day before. And Yep. I feel like we already kind of covered a few of these questions, but I think it'll be good to you know, for the wider audience so they can understand what's going on here. Absolutely. Yeah.
+
+Speaker 1 | 01:27 - 01:46
+So first thing I think is we were talking about is really interesting is that the demographics of the customer are changing, right? Like a lot of people who previously would maybe never use GitHub or never used developer products before are now using them. So how has that changed the way that you decide the product road map?
+
+Speaker 3 | 01:46 - 02:06
+Yeah. Yeah. I mean, you know, I think, for GitHub in particular, we've always really had this really expansive view of what a developer is. I started as a developer before I would have ever called myself a dev, you know, where I was just like writing code, it was just for me and I went personally like a completely different career path. I didn't go to school for computer science.
+
+Speaker 3 | 02:07 - 02:50
+I was going to art school. I wrote code to pay for art school, which was a very silly, decision as an adult now, I guess. But, like, at then, you know, that sort of journey of just, like, I can create tools with the team and deliver them to people who can have that same experience of like, just wanna build an app that's for me or for my family, maybe as a startup, maybe as a business. We very much have like serious developer tools, know, like all the largest businesses are using GitHub. But when I look at something like the GitHub Copilot app, I see just as many, you know, developers that are using AI every day, running multiple projects, like, all all kinds of agent sessions at the same time.
+
+Speaker 3 | 02:51 - 03:26
+And I see, you know, our legal team at GitHub using the GitHub Copilot app or the finance team, or I was meeting with a customer today and they were saying the same thing. A lot of the folks that, you know, the industry would call knowledge workers or just, you know, non by trade developers are using these tools to build little apps or assets for them. And so while our focus is very much on developers, I think we wanna make it easier for people to choose to try to, you know, write some code, and make sure there's always an on ramp into, you know, writing some software now with, you know, things like the GitHub Copilot app.
+
+Speaker 1 | 03:26 - 03:38
+Yeah. And then how do you deal with the or how do you help developers deal with the burden of all of that extra you know, there's a flood of PRs now, open source maintainers I talked to are, like, drowning. Yeah. How do you how do you like, what what needs to happen to help them?
+
+Speaker 3 | 03:38 - 04:13
+Yeah. I mean, I think for all developers, we're, you know, building tools like the Copilot code review. It's now agentic, so it finds a lot more novel vulnerabilities, and you can just, like, comment and the, you know, the agent will take that on and go implement the change if you want to. So I think that code review step is, in some ways, like, overlooked as a really great way to get PRs to a place that are much more easily reviewed. I think that the AgenTic merge in the app is another place where we see a lot of times internally and in the community, you know, you may comment on something.
+
+Speaker 3 | 04:13 - 04:32
+You that might have a code review, and you might go through and get it almost all the way there, but then there's all those, like, manual steps just to finish processing the PR. Mhmm. Instead, I can go in and set exactly what I want to allow, you know, GitHub Copilot to do and say, okay. Now go merge this PR and wait for CI and wait for policies and all of that. I think that's a big part.
+
+Speaker 3 | 04:32 - 05:05
+On the open source side, it's a unique set of needs because you don't control who's, you know, sending everything in, or you haven't really historically. And that's been really where we've been focusing is giving maintainers more tools to decide, well, do you want to accept all of these PRs? Like, who do you want to accept them from? You know, how much work do you need to do to kinda prove that you're going to contribute something that is gonna be meaningful to this project? And that's something that we wanna provide tools to open source maintainers, but really leave them in control.
+
+Speaker 3 | 05:05 - 05:31
+Every community is choosing a slightly different way to approach the problem. And for GitHub, we've always wanted to leave that in their hands, like give them tools and enable them. But if a standard comes out of that or most are using a certain practice, we'll lock that in. But we don't really ever wanna be the first to create a standard or an approach. Like, I think, you know, Michel Hashimoto, shared, like, the vouch system that they use.
+
+Speaker 3 | 05:31 - 05:55
+And I was getting questions like, well, why aren't you roll this out to everybody? But there's just as many communities that don't want to use that system because they have their own ideas of how it should work. And so for now, we're focusing on the the building blocks of controls for maintainers. And then as we all are kinda learning together and as maintainers send feedback in, we'll, you know, we'll cement an entire system if one emerges.
+
+Speaker 1 | 05:55 - 06:12
+Yeah. And I feel like you have a front row seat to this, like, new agent economy where, you know, I think you said public on Twitter that you've had more pull requests submitted Yep. And, like, per month than you did all last year. Like, how how are those stats exploding?
+
+Speaker 3 | 06:12 - 06:31
+Yeah. I mean I mean, we're seeing way more activity on GitHub. You know, we've always been talking about our users, you know, for for many, many years and that growth. But this year, we're seeing, obviously, the growth of developers having agents Yeah. Building with them.
+
+Speaker 3 | 06:32 - 06:50
+And so last year, in October at GitHub universe, we shared, you know, there's a billion commits on GitHub for the full year. We're on track to be 14,000,000,000 if the growth is linear this year, which it would not be. You know? In March, you know, there were 17,000,000 pull requests that were created by agents. Yeah.
+
+Speaker 3 | 06:50 - 06:52
+That's just the agent pull requests.
+
+Speaker 1 | 06:52 - 06:52
+Okay. Yeah.
+
+Speaker 3 | 06:52 - 07:06
+And so there's so much more code being created. And I think at times everyone goes like, oh, this is all just like slop. This is all just code that's being pushed up, but and no one cares. It's not, like, really true.
+
+Speaker 1 | 07:06 - 07:06
+Mhmm.
+
+Speaker 3 | 07:06 - 08:01
+We're all just actually getting to the point where we're no longer in the super early adoption. We're definitely not at the peak, but we're climbing that hill, you know, to see what can we build when it's not just Kyle building, but it's Kyle and one, two, to end, you know, agents, that are using my skills, using, my resources, using my context, and so on and so forth. And so, like, we're, you know, investing heavily in preparing for the next wave of growth because it doesn't seem to be kind of like growing and plateauing. It's just gonna continue to grow because no matter where you're, you know, building or what tools you're using to build, all of that code ends up on GitHub, you know, and or that's where you're sharing it with the world, or that's where you're collaborating in a PR. And so we need to be able to support everyone's, you know, sort of agent moment, and not just, you know, GitHub Copilot.
+
+Speaker 1 | 08:01 - 08:14
+Yeah. Yeah. And how does the business model change? Because I think freemium makes sense, you know, in a human centered world where we go to bed, but the agents are still working while we're asleep now. So does that change, like, to usage based?
+
+Speaker 1 | 08:14 - 08:18
+Like, is that you see that kind of where things are going? Yeah.
+
+Speaker 3 | 08:18 - 08:57
+I mean, like, I don't think we know, like, yet, ultimately. Like, I think, know, we very much right now, like, Kyle's gonna have a license or Kyle's using githubdot, .com for free, and we've always had, you know, API, rate limits, you know, and, like, things like that. And that's usually where folks are seeing this, you know, the agent back pressure, I think. I think the goal is that if you want to be able to do way more, if you want to be able to, like Peter Steinberger says, you know, 150 agents are doing everything all at once, you know, That's great. We want to be able to enable that to you, but at the same time, I want you to have a great core GitHub experience, you know.
+
+Speaker 3 | 08:57 - 09:13
+And at the very least, there's some amount of agent, usage as part of that that, is necessary, you know. I need similar to how we, way way way back, right, you'd have free public repos, but you didn't have free private repos. Yes. You know? And then we said, okay.
+
+Speaker 3 | 09:13 - 09:43
+Well, actually, like, it's fair for an individual to have some code that they don't wanna put out into the world, and we'll give you free private repos, you know, to allow you to do that. So GitHub's always evolving as the industry and community does, but we're always sort of focused on, I need to make sure you, the dev, have what you need to be successful, you know, and then work with enterprises, you know, to make sure they have what they need to do at scale, which is usually a little bit different than what, you know, an individual dev is doing.
+
+Speaker 1 | 09:43 - 09:52
+Yeah. Yeah. And I guess the business model pricing kind of that all leads back into, like, the wider Microsoft orbit. And because you have a dual role now. Right?
+
+Speaker 1 | 09:52 - 10:00
+Yep. Partial responsibility for the wider kind of marketing org. So do you wanna talk me through how that's changed and how you prioritize between those two?
+
+Speaker 3 | 10:00 - 10:24
+Yeah. I mean, so, I've been at GitHub for a very long time, thirteen years. And, you know, as a developer myself and leading engineering teams for a lot of that time. And I think what's always been unique about GitHub is we really, really focus on the dev. Like, we're building tools for the developers and the fact that people, like enterprises are buying them is awesome, and that's definitely great.
+
+Speaker 3 | 10:25 - 11:19
+But we're not building for the buyers, we're building for the developers. And a 100%. And so, in this, and that's, like, been my focus as the COO of GitHub, which I continue to do. And then now as the chief marketing officer of developer for Microsoft, my goal is to look across all of Microsoft's tooling, their developer tools, their technology that they're bringing to developers, and making sure that we're bringing, like, holistic solutions that you can use that are, like, authentic, you know, to developer experiences. And at events like this where, you know, we've taken a very different approach to build this year, We're in San Francisco first off, like, the vibe is a bit different than, you know, the conference hall, setup, you know, really focused on can I go to a session, can I use the thing, I don't wanna be pitched on a thing, I have to be able to use it, Expo Hall, kinda so on and so forth?
+
+Speaker 3 | 11:20 - 11:31
+It's really bringing that expertise and, you know, love and focus on the developer that GitHub's always had to have, even broader impact, throughout, all of Microsoft.
+
+Speaker 1 | 11:31 - 11:36
+Yeah. And, did I hear you say that, this is the first build that you've had external contributors and speaker?
+
+Speaker 3 | 11:36 - 11:55
+Build that, I think, by intention, we focused on having, you know, speakers, you know, from the community Yeah. Like, in these primary sessions. You know? That includes, you know, in the keynote, we had a bunch of folks like Peter. You know, there's sessions, from, you know, Swix and others as well.
+
+Speaker 3 | 11:56 - 12:19
+I think that it's important. Like, software development is a team sport. You know, it seems silly to think that there's any one company, one group inclusive of GitHub and Microsoft and everyone that can just answer every single question. That's not how software gets made. You know, we're all at least using open source and we're building on the backs of these giant open source projects.
+
+Speaker 3 | 12:19 - 12:43
+Let's invite people in that can help tell their part of the story together because I deeply believe that that's what developers want. I know that's what I want. You know? I know that's what my friends that are developers want. And when we look at the events and we hear the feedback, they're excited to see people from Microsoft, from GitHub, and then, oh, I get to see this outside perspective at this event.
+
+Speaker 3 | 12:43 - 12:45
+It's really it's really meaningful. Yeah.
+
+Speaker 1 | 12:45 - 12:49
+That makes sense. And it's a very competitive market. Right? Sure. Yeah.
+
+Speaker 1 | 12:49 - 13:00
+Like, you know, the the most competitive market probably. Maybe the last competitive market. I'm not sure. But but, like, how how do you differentiate in all of that given the the pace of change is so quick?
+
+Speaker 3 | 13:00 - 13:30
+Yeah. I mean, I think we continue to focus, on our roots, which was, you know, we care a lot about, like, developer choice. It's always been true. We care about building for builders and enabling builders. And so I think we're in a moment that's, like, really interesting because we've, went from an era of, you know, having a ton of APIs, all this access to a little bit of, like, an unintentional walled garden setup, you know, where, like, you get a kind of affinity.
+
+Speaker 3 | 13:30 - 13:52
+Sometimes I'll say it's like a little bit of a mousetrap. Yeah. You know? And then you realize, oh, this thing's really interesting over here, and then I have to oh, I have to go learn a new thing or a new tool or a new account. And I think for us, we always want to enable developers that are building with GitHub to go use these other tools, and we'll partner with everyone to make that as simple as is possible.
+
+Speaker 3 | 13:52 - 14:36
+And while I think that, you know, there's, there's other folks that are doing, you know, similar things, I think the the ability to do that across the entirety of building software and not just the cogen side or not just, you know, the collaboration review side, but across everything is a real, you know, superpower of ours. And so, you know, I think you'll see us invest in our own tech. Like, we talked about the new, Microsoft AI models, you know, that we'll continue to bring to developers. We're also continuing to partner with Anthropic and OpenAI and Google and kinda anyone who's bringing a model to market or a coding agent to market. We'll partner with you and we'll both let you bring that to us or we'll omit it through GitHub and GitHub Copilot.
+
+Speaker 3 | 14:36 - 14:50
+Yeah. That choice is core. And that's something that I don't think we'll, ever, you know, like, back down on. Because if we do, developers will still choose. They'll just be stuck in another kind of mousetrap.
+
+Speaker 3 | 14:52 - 14:55
+And we don't, you know, we don't want the world of software to be like that.
+
+Speaker 1 | 14:55 - 15:18
+Yeah. Yeah. Yeah. And, how do you like, when you're making the decisions internally, like there was a new cycle recently about how cloud code cancel licenses are being canceled. And like, how do you make the trade off between dogfooding your own products, like using the new models you made or using the GitHub Copilot app desktop app versus like, you know, using like letting developers kind of experiment with other tools?
+
+Speaker 3 | 15:18 - 15:39
+Yeah. I mean, we all are using a variety of tools because otherwise you lose track, you know, or you kind of you're too interested in your own own work. Yeah. So like for me, you know, I've been a daily driver of a MacBook for for many many years. I use Windows PCs on the weekends when I play video games.
+
+Speaker 3 | 15:39 - 16:05
+And I got this role and I have my Mac, I have my PC, and I have my Almarquee Linux box so I can make sure that every weekend I code most Saturdays. I do my kids sports activities in the morning. And then in the afternoon I'm coding and I'm swapping between the boxes because I wanna understand like, okay, what's that experience? You know? The GitHub Copilot app, I only use on Windows because I wanna make sure that developers who are on Windows also deserve great apps.
+
+Speaker 3 | 16:05 - 16:16
+You know? It's not just the audience that's on a Mac, for example. And that's true across our teams, especially like when we're looking at, okay, what about the coding agents? What about the harnesses? What about the desktop apps?
+
+Speaker 3 | 16:16 - 16:30
+What about memory management? What about, you know, everything? We have this really great culture of just, you know, experimentation. Everyone is building and using these tools. Well, obviously, we're putting most of our energy into our own tools.
+
+Speaker 3 | 16:30 - 16:58
+It's such a blind spot that I think, it's happened to GitHub in the past where, like, when you're doing something and you're doing it well, you really laser focus and that's what every piece of startup energy says. Right? It's like look down and just keep moving, keep moving fast. And I think that's myopic. You know, I think that while I can't spend every day using every tool, when something comes out, I wanna know why this is really great.
+
+Speaker 3 | 16:58 - 17:18
+Why are people having a great experience with this? Not, not only so I can understand, but so I can figure out, okay, well, for our goals, for our goal of developer choice, I don't need this. Like, I wanna focus over here, but I wanna know why a dev would pick these tools. And the same thing goes, you know, the same thing goes for, our teams.
+
+Speaker 1 | 17:18 - 17:24
+Yeah. And how do you how do you filter? Because, obviously, lot of these ideas are relatively short lived. Yeah. Yeah.
+
+Speaker 1 | 17:24 - 17:27
+Enterprise the product development cycles are longer lived. Yes. How do you decide?
+
+Speaker 3 | 17:27 - 17:45
+Yeah. I think that, like, right now we're in a moment where we're really looking at the, like, the short term in capturing the ability to have a multitude of, you know, agent sessions. This idea of just, you know because that that that seems quite clear. You know, everyone's doing it. How can we cement it?
+
+Speaker 3 | 17:45 - 18:30
+But it seems clear on the longer term path. Models are gonna continue to get better. The prices of tokens, like token economics is gonna be a bigger, bigger factor in, like, what models everyone's using. And I do strongly believe that we're not very far off from having serious, the serious ability to use, you know, something above a small language model on a local device, you know, to be able to do some of our work. And so if I assume that I have all this optionality when it comes to tokens, you know, effectively, The thing that I think seems to be true from the beginning to OpenClaw to now is this idea of, like, personalization or mine or context or fine tuning with context or, like, you know, memory.
+
+Speaker 3 | 18:30 - 18:55
+All of these ideas seem to be a a truth that's been there since, you know, ChatGPT came out or GitHub Copilot came out. Yeah. And there's experiments, but not a long term, like, vision, I think, for this, like, across the industry. So I think it's a good example of, like, where I need to get you to use agents incredibly well, a lot of them. Because, like, if you're if you're into using agents, you're not just gonna be staring at a single agent working.
+
+Speaker 3 | 18:55 - 19:14
+But that's not gonna give you a long term great experience. Using an agent that you feel like is completing a thought for you, will give you that great experience, especially if you did not have to personally codify that thought to your agent. Always remember that I insert things.
+
+Speaker 1 | 19:14 - 19:14
+That's a lot of work.
+
+Speaker 3 | 19:14 - 19:33
+Yeah. A 100%. Like, it it should be able to intuit that or potentially, again, like, you know, post trainer fine tune or frontier tune like a model on that deeply understands me and how I'm using the work. Yeah. That is that is kinda how we're looking at it.
+
+Speaker 3 | 19:33 - 19:39
+It's like sometimes it's short term, and sometimes we gotta take a bunch of bites of the apple or a bunch of attempts at the long term
+
+Speaker 1 | 19:39 - 19:39
+Yeah.
+
+Speaker 3 | 19:39 - 19:43
+To get to something really tangible Yeah. To help us move forward.
+
+Speaker 1 | 19:43 - 19:58
+Cool. And I I heard the term hill climbing like a 100 times yesterday. And and I'm a big proponent of that because, you know, experiment experiments with DSpy, order research, a few others. Can you talk a little bit about how that's become a big focus?
+
+Speaker 3 | 19:58 - 20:59
+Yeah. I mean, you know, I think, you know, Satya and Mustafa will talk about it, a fair bit and Jacob too, leading the copilot group. The biggest thing that we've kind of learned is we need to use the, you know, the use of the tools as a core way to improve the underlying use of the models, our own models, etcetera, in just the evals that are necessary to ensure that we're actually improving from things like, you know, using the thumbs up, thumbs down data that comes in to using, like, whether you're accepting it and how much you're accepting. You know, all of that data is enormous to create a that magical type of experience that's not you just for you, but for everyone. And so every week, we're talking about the hill climbing results, know, we're looking at the data, we're looking at the improvement, we're looking at both the hard measures and the soft measures because sometimes the hard measures and evals and rubrics will show that we've made an improvement but like user sentiment will crash.
+
+Speaker 3 | 20:59 - 21:02
+Yeah. You know? Even with the same latency and performance.
+
+Speaker 1 | 21:02 - 21:03
+Yeah. It's overfitting, basically.
+
+Speaker 3 | 21:03 - 21:44
+A 100%. And so, like, being able to being able to really do that loop incredibly quickly Mhmm. And then I think the main goal is giving everyone one of these hill climbing machines and not have you have to do it the kinda hard way that we've all been doing it, but particularly if you're, you know, in an enterprise and you are using m three six five. We know so much about that data or we could know so much about that data because of all the assets, the documents, the chats. And so being able to, you know, turn on something like Frontier tuning and using on the you know, using a MAI thinking one as the the base model.
+
+Speaker 3 | 21:44 - 21:57
+It shows real results without having to do all that extra work. And it's been interesting because when I first heard about this, I'll be honest, like, I was like, this is like a magic parlor trick. Yeah. You know, that is not gonna be It can't really work. Yeah.
+
+Speaker 3 | 21:57 - 22:06
+You know? And I think the reality is that sometimes, where the alpha is. It's like where it feels like this is too simple to work. Mhmm. You know?
+
+Speaker 3 | 22:06 - 22:27
+You know, we all have all this data and what are we gonna do with it? We have to do all this effort to make it work. But I think so much has come down the pipe to allow us to just use the data and improve. Look at the workflow and improve and just keep doing the hill climbing. That's why I think we say it so much is that it's not these moonshots or like a hill climb.
+
+Speaker 3 | 22:27 - 22:40
+It is just climb, climb, improve, new eval improve, new data improve, and just keep going to get to the point where, you know, we're able to launch these models, seven models, for ourselves Yeah. And then, you know, allow customers to use the same, or similar, you know, tooling to do it.
+
+Speaker 1 | 22:41 - 22:47
+Is that the answer to stopping the $200 subscription becoming a $2,000 subscription?
+
+Speaker 3 | 22:47 - 23:15
+I mean, like, I think that the, you know, $200 subscription to $2,000 is really gonna be not only, you know, making these models or, you know, frontier tuning these models so they way they know you better, but I also think it's really, really gonna be about how can we, particularly for developers, you know, help you automatically choose the models and potentially either have, a model in that step.
+
+Speaker 1 | 23:15 - 23:16
+Like the model router and A 100%.
+
+Speaker 3 | 23:16 - 23:27
+Yeah. Exactly. Like the, you know, auto model router with task intent and GitHub. Microsoft Foundry has a model router as well that can do this, use sort of at an API level. Yep.
+
+Speaker 3 | 23:27 - 24:00
+The more and more that we can help you, you know, tell us a bit of, like, where your bars are, Like, this is an incredibly hard problem, and I'm willing to go all the way to the top. Or I don't I just kinda wanna sit, you know, here, and let us help choose the models. Because there's a lot of times where a lot of the reasons why tokens are expensive is because we're all going and choosing our model of the day or week or hour, you know, and those models are incredibly expensive. But my train of thought is slipping in and out of a hard problem to an like a simple problem. Yeah.
+
+Speaker 3 | 24:00 - 24:13
+I I personally, I feel like I'll, you know, I'll get an agent to do, like, an enormous amount of work, then there's always that last step that is, a smallish thing, you know, like, oh, I don't actually, like, change all the naming of this to this.
+
+Speaker 1 | 24:13 - 24:14
+Yeah. And that's, like Don't need
+
+Speaker 3 | 24:14 - 24:26
+a a find and replace. You know what I mean? But but am I gonna actually go and, like, oh, I wanna save tokens right now, so I'm gonna go off a four eight or five five and down to Haiku or something, you know? Probably not. Yeah.
+
+Speaker 3 | 24:26 - 24:28
+But the tools could.
+
+Speaker 4 | 24:28 - 24:28
+Yeah.
+
+Speaker 3 | 24:28 - 24:42
+And I think that will really help us, particularly in the enterprise, but even for, you know, individual developers and, you know, folks that are building, like, automations and using their Copilot, you know, SDK Yeah. To power that. It'll it'll help them too.
+
+Speaker 1 | 24:42 - 24:44
+I did something a little bit weird.
+
+Speaker 3 | 24:44 - 24:44
+I hope
+
+Speaker 1 | 24:44 - 24:53
+you don't find it creepy, but I I made a AI version of you to practice this interview. No way. Yeah. And it's actually been pretty spot on so far, and, hopefully, you think the questions have been good.
+
+Speaker 3 | 24:53 - 24:56
+And that's they've been great. But now I wanna see what AI Kyle said.
+
+Speaker 1 | 24:57 - 25:02
+And, yeah, it's just in the terminal. I didn't have, like I didn't go the full whack and make a video thing,
+
+Speaker 3 | 25:02 - 25:02
+but But I'm
+
+Speaker 1 | 25:03 - 25:10
+but I found it immensely useful. I like I I just wanted to ask, like, what other, like, weird things are you seeing people do internally or externally?
+
+Speaker 3 | 25:10 - 25:45
+Oh, man. So, like, it's so funny that you say that because I, I do a very similar thing where, like, I I, I have both, like, via the app and then I have a claw that can't talk to work stuff, you know, just so I have, like, separation of estate, where I spend a lot of time having it read everything I write and say. Like, this interview will get fed into it ultimately. Yep. And every day, I get a, like, a comms report that's not like what Kyle said, but like, Kyle, you keep saying this.
+
+Speaker 3 | 25:45 - 25:56
+Yeah. Okay. This isn't super clear. Mhmm. Like, you know, based on how you speak, because I I find that I write and speak in, like, a very particular way that I, like, I wanna use a lot of metaphors.
+
+Speaker 3 | 25:56 - 26:17
+And so it'll just give me examples of metaphors that are clear. Yeah. I find that the, like, self improvement loop as a human Mhmm. From these agents to be incredibly powerful. We used to talk about it way back with Huebot at GitHub, like, chat ops, and we used to say, like, humans are way more willing to take critical feedback from robots than other humans.
+
+Speaker 3 | 26:17 - 26:35
+It's less threatening. A 100%. And so when my open claw that I affectionately named Baxter, you know, tells me how terrible I did in something, like Yeah. I feel way better going, tell me why. And then ensure that when I'm writing emails, when I'm writing a script, or I'm reviewing details that you're giving me that feedback.
+
+Speaker 3 | 26:35 - 26:59
+So a lot of my agent loop is really about me and less about like the software side. I still have all those tools too, know, but it's always looking backwards. It's going okay the last seven days I'm gonna read all Kyle's emails, Slack messages, know, and then give me feedback. And then look back at what the agent told me to do, did Kyle do it, and go back seven days. That loop is, like, super, super, super powerful.
+
+Speaker 3 | 26:59 - 27:09
+And I think honestly, like the type of personal consumer experience that I want out of AI, you know, to be able to tune these tools that way.
+
+Speaker 1 | 27:09 - 27:13
+Yeah. We need to recursively self improve as well. A 100%. Yeah. Thanks so much,
+
+Speaker 3 | 27:13 - 27:15
+I appreciate it. Yeah. Yeah. Yeah.
+
+Speaker 1 | 27:15 - 27:15
+Enjoyed that.
+
+Speaker 4 | 27:23 - 27:40
+Oh my gosh, folks. You absolutely positively have to smash that like button and subscribe to AI and I. Why? Because this show is the epitome of awesomeness. It's like finding a treasure chest in your backyard, but instead of gold, it's filled with pure unadulterated knowledge bombs about chat GPT.
+
+Speaker 4 | 27:40 - 28:00
+Every episode is a roller coaster of emotions, insights, and laughter that will leave you on the edge of your seat craving for more. It's not just a show. It's a journey into the future with Dan Shipper as the captain of the spaceship. So do yourself a favor. Hit like, smash subscribe, and strap in for the ride of your life.
+
+Speaker 4 | 28:00 - 28:06
+And now without any further ado, let me just say, Dan, I'm absolutely, hopelessly in love with you.
