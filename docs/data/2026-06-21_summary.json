@@ -1,0 +1,67 @@
+{
+  "date": "2026-06-21",
+  "generated_at": "2026-06-20T23:35:38.645136+00:00",
+  "stats": {
+    "tweets": 9,
+    "podcasts": 1,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "AI 研究员 / 播客主理人 Swyx 引用了一则关于 Anthropic 上市估值的消息，预言 Anthropic 将以 2 万亿美元估值 IPO，这一判断若成真将使其跻身史上最高估值科技 IPO 之列。"
+    },
+    {
+      "author": "Boris Cherny",
+      "handle": "bcherny",
+      "summary_zh": "Anthropic 工程师 Boris Cherny 分享了一个令人瞩目的 Claude Code 应用案例：研究人员借助 Claude Code 破译了克里特岛出土的线形文字 A（Linear A），这是一种有 3500 年历史的古老书写系统。他期待这一成果能通过同行评审，认为这是 Claude Code 的一种\"酷炫\"新用途，显示出 AI 编程工具在人文学科领域的潜力。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI 产品团队成员 Thibault Sottiaux 表示，他现在在 Mac 上使用 Codex 的时间已超过所有其他应用的总和，力荐关注 Dan Shipper 的 Codex 使用技巧。他还特别点评了 Codex 最新推出的远程/本地任务交接功能，并提出一个反直觉的观点：当模型处于主导地位时，实际所需的基础设施反而更少。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品顾问 / 创作者 Peter Yang 从 Claude Code 的重度用户转向了 Codex，核心原因是：GPT-5.5 表现出色、Fast 模式配合宽松的使用限制可以获得更多练习机会，尤其是 Codex 的浏览器和计算机操控能力无可替代，让他无需寻找 API 即可构建大量工作流。他同时指出，Claude Code 在设计和前端方面仍优于 GPT，尤其是 Opus 模型，并期待 Fable 模型回归；他认为两大阵营保持竞争对开发者是最好的结果。"
+    },
+    {
+      "author": "Amanda Askell",
+      "handle": "AmandaAskell",
+      "summary_zh": "Anthropic 研究科学家 Amanda Askell 发起了一场关于医疗扫描政策的讨论，提出一个逆主流的观点：反对\"增加扫描会因偶然发现带来更多伤害\"这一论断，认为问题出在对扫描结果的应对方式而非扫描本身。她用亲身经历佐证：自己长达 30 年的慢性疼痛因一次 MRI 发现了先天性疾病并手术治愈，她怀疑延误诊断的根本原因是医生低估了患者自主获取信息的能力。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch 提出，Markdown 将成为下一个\"热门编程语言\"——在 AI Agent 时代，只需一个 instructions.md 和若干 skills/*.md 文件即可部署一个完整的 Agent，编程门槛降至历史最低点。他还进一步指出，Agent 的兴起正在催生一系列健康的软件开发习惯：开放 API、文档（即 skills）、测试（即 evals）、Unix CLI、支付协议等，认为这是万维网最初愿景正在眼前实现。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie 深入阐释了 Agent 成功落地的关键变量：Agent 能否获取完成任务所需的上下文，而文件系统正是解决这一问题的理想原语。他引用并认同的观点是：Agent 需要一个\"工作集\"（plans、notes、task lists、policies、drafts 等），文件系统形态的接口对模型和监督它的人类都最易理解，这也是为什么让 Agent 使用文件系统是一件大事——它创造了人与 Agent 都能在其中协作的统一系统。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator 总裁 Garry Tan 给出一条董事会沟通建议：将你最不敢展示给董事会的问题放在演示文稿的第一页，并且要把这种做法变成习惯。他强调，这种透明度只有在拥有一个高质量的董事会时才能奏效。"
+    },
+    {
+      "author": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "summary_zh": "GGV Capital 投资人 Zara Zhang 提出，在 AI 时代能让人脱颖而出的三个最重要特质是：主动性（Agency）、品味（Taste）和分发能力（Distribution）。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "No Priors",
+      "title": "Re-engineering the Semiconductor Supply Chain with Intel CEO Lip Bu Tan",
+      "date": "2026-06-18 10:00 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/watch?v=asCgCv2XB4s",
+      "summary_zh": "本期《No Priors》播客邀请英特尔CEO陈立武（Lip Bu Tan）深度解析其重塑英特尔与半导体供应链的战略。\n\n陈立武现年**66岁**，曾任Cadence CEO长达**13年**（含执行董事长职务共**15年**），在Cadence任期内为股东带来约**85倍**回报（从其担任临时CEO时的股价**2.42美元**算起）。他坦言接任英特尔CEO是\"最后一战\"，目标是为股东实现**10倍**回报。\n\n**过去14个月**的关键举措：重组文化、强化问责、加快决策速度、亲自参与所有工程团队汇报，并亲力亲为招募顶尖人才（不借助猎头公司）。财务上，他成功引入美国政府作为大股东，并获英伟达CEO黄仁勋注资**50亿美元**（目前已升值至**250亿美元**）；英特尔股价在**14个月**内已为股东带来约**6倍**回报。\n\n在产品路线图上，英特尔正推进**18A→14A→10nm→7nm**制程节点，并规划**1nm及0.7nm**，同时大力投资先进封装（EMIB技术）、玻璃基板、人工金刚石等新材料。他指出，随着AI Agent需求爆发，CPU与GPU的训练算力比已从**1:8**改善至约**1:4**乃至**1:1**，英特尔CPU在强化学习与Agent编排场景中具备独特优势。\n\n在代工业务方面，陈立武坚决押注美国本土制造，强调供应链韧性。他正与埃隆·马斯克合作推进TeraFab自建晶圆厂项目，双方共同认为半导体产能严重落后于AI增长速度。他预计到**2030—2032年**，英特尔在产品与代工领域的潜力将充分显现。\n\n投资视角方面，陈立武累计参与**159次IPO**，投资覆盖半导体全链条（EDA、光互联、新材料GaN/SiC/磷化铟、先进封装），重点关注电源管理（**40V到1V**转换效率）、内存短缺等当前瓶颈。他强调：永远锁定真实客户痛点，首选超大规模云厂商作为种子客户，并注重以色列等地区的创新生态。\n\n展望未来，他认为AI对产业的影响将**超越互联网**，物理AI与Agent AI是下一个投资金矿，能源、氦气供应与内存将是制约AI扩张的三大瓶颈。"
+    }
+  ],
+  "articles": []
+}
