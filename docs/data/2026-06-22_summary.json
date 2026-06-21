@@ -1,0 +1,48 @@
+{
+  "date": "2026-06-22",
+  "generated_at": "2026-06-21T23:35:23.986139+00:00",
+  "stats": {
+    "tweets": 7,
+    "podcasts": 0,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI 研究员 Thibault Sottiaux 暗示前端编码能力将迎来重大突破：他表示 Codex App 是在模型前端能力\"还过得去\"的阶段构建的，一旦前端能力显著提升，将会带来质的飞跃。他同时强调 Codex App 中部分 token 的效率远超一般水平，暗示 AI 编码工具的价值密度正在提升。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品创作者 Peter Yang 逆势表态：他认为自己每月 $200 的 Codex 和 Claude 订阅费用都用不完，因此看不到折腾本地模型的必要性。他还指出运行最新 GLM 本地版需要 512GB 内存，相当于约一台价值 $10,000 的 Mac Studio，暗示本地大模型对普通用户的门槛依然极高。"
+    },
+    {
+      "author": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "summary_zh": "Madhu Guru 深度分析 AI 时代 PM 角色的分化：他认为产品经理正在分裂为\"老派 PM\"和\"Builder PM\"两类，前者只是用 AI 加速写更多文档，后者则借助 AI agent 自主做用研、查日志、生成竞品原型，产出物从文档变成可演示的 demo。他预判行业会向 Builder PM 方向演进。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad 发出一条带有哲学意味的感慨：人类二十年来在网络上的写作，本以为是彼此对话，却无意间成为训练数据，孕育出了大语言模型本身。他同时为 Replit Japan 招募人才，显示公司正在积极拓展日本市场。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch 对智谱 GLM-5.2 的编码能力给出极高评价，直言\"几乎震惊\"，认为\"这将改变格局\"。此条推文获得近 3,000 点赞和 153 次转推，引发广泛关注。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie 分析开源权重模型的崛起：他指出开源模型正在特定任务上达到 SOTA，并在编码等领域逼近前沿水平。他认为只要开源模型与前沿模型的差距保持在\"边际范围\"而非持续扩大，整体 AI 应用价值就会放大；同时这对前沿实验室并无威胁，因为规划、编排和审阅等高价值环节仍会使用旗舰模型。他的结论是：对 AI 应用层而言，这是用低成本模型或针对特定任务微调的开源模型优化工作流的绝佳时机。"
+    },
+    {
+      "author": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "summary_zh": "a16z 合伙人 Zara Zhang 分享了一个亲自构建的小工具：她因积累了大量未读 X 书签而开发了一个浏览器扩展，每次打开 X 时自动在主信息流中注入一条书签内容，借助\"每天刷 50 次\"的高频行为来消化积压内容，核心思路是\"劫持已有的注意力入口\"。她还引用观点探讨加入大公司是否反而比加入初创公司风险更高，暗示在 AI 浪潮下大公司的职业路径稳定性正在受到质疑。"
+    }
+  ],
+  "podcasts": [],
+  "articles": []
+}
