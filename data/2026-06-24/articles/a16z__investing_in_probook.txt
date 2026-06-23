@@ -1,0 +1,32 @@
+Source  : a16z
+Title   : Investing in Probook
+Date    : 2026-06-23 13:02 UTC
+Link    : https://www.a16z.news/p/investing-in-probook
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+Every business has one decision that everything else bends around. In home services, that decision is dispatch: which technician goes to which job, in what order, at what time. Get it right and revenue, technician utilization, and customer experience all move up together. Get it wrong and no amount of marketing or lead-gen can save the day. Dispatch is the brain of the business.
+So it is striking that, for the last three years, almost everyone building AI for the trades skipped it. They rushed to the edges instead - voice agents, chat widgets, follow-up bots - clustered at the top of the funnel where leads come in. It is the most visible part of the business and the easiest place to bolt on a model. The result was a stack of disconnected point solutions, each owning a sliver of the customer, none of them talking to each other, and none of them touching the decision that actually determines whether an operator makes money.
+Our thesis is simple: in vertical AI, you do not win by adding another tool at the edge. You win by owning the hardest, most central decision in the business and building outward from it. Probook is doing exactly that in home services, and today we are thrilled to announce that a16z is leading Probook’s $34 million Series A, bringing the company’s total funding to $40 million after a seed round led by Sequoia.
+Probook built dispatch first, the part most vendors avoid because it is genuinely hard. Routing the closest available technician is easy; routing the
+right
+one is not. Technicians have different skills, conversion rates, and areas of expertise, and the gap between a good match and a bad one shows up directly in revenue. Only after owning that decision layer did Probook expand into the rest of the front office: intake, data scrubbing, customer messaging, and outbound.
+Because everything shares one context layer, the whole system works as one. Every customer stays on a single text thread with a single number, from the first call to the technician at the front door. Every inbound lead is answered with full information. Every booking is cleaned before it is assigned. Humans handle the exceptions; the software handles the rest. This is not a copilot that hands work back to an already-overloaded front office. It does the work, and operators add points to their EBITDA as a result.
+Probook is hard to replicate because of where it came from. CEO George Eliadis grew up in the industry, pressure washing alongside his dad in upstate New York across six summers in the truck. He knows what it is to be up on a ladder washing a house and miss the call that would have booked the next job. Years later, he spent a summer inside TR Miller, a $40 million HVAC, plumbing, and electrical shop in Illinois that became Probook’s first customer, and saw the same problems play out at scale.
+George and his co-founders, CTO Lewis Zhang and Ben Cervantez, have paired that hard-won domain empathy with outlier technical depth. It shows in how they build. Probook deploys with customers in person, configures the platform shoulder to shoulder with their front-line teams, and stays on the hook for the outcomes it sells. In a category full of software that is sold and forgotten, that posture has made Probook a rare vendor that operators actually trust to run their business.
+Probook already runs across hundreds of locations nationwide, from independently owned shops to private-equity-backed platforms, including TurnPoint Services, Master Trades Group, Del-Air, Peterman Brothers, and Sila Services. Summers Plumbing, Heating & Cooling, with 14 locations and 260 technicians on the platform, booked 2,542 jobs in its first month on Probook with zero human intervention. Del-Air more than doubled productivity from 10 to 22 techs per dispatcher.
+We could not be more excited to partner with George, Lewis, Ben, and the entire Probook team. If you operate a home services business, see Probook for yourself at probook.ai, and if you want to help build it, they’re hiring.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

@@ -1,0 +1,51 @@
+Source  : a16z
+Title   : The World-Building Doors Are Open, Again.
+Date    : 2026-06-23 14:01 UTC
+Link    : https://www.a16z.news/p/the-world-building-doors-are-open
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+Hi, I’m Josh, and I’m thrilled to be here. Today I’m joining A16Z as a partner to help find and support the next generation of great consumer companies. In particular, I look forward to helping founders and teams navigate the journey from an early spark to a durable platform.
+The AI wave is in full bloom and already transforming the world of work; now I think it’s an amazing time to build new AI-first consumer apps and services that people will use throughout their daily lives.
+When I turned 50 last fall, I realized how lucky I’ve been to be part of some incredible products and company journeys, along with some special life experiences too. Helping build Facebook, LinkedIn, Twitter and Robinhood were all journeys that started
+from discovering a new spark of consumer behavior, which is like opening a door to a brand new world of possibility that isn’t built yet.
+My career has been all about the world-building that
+follows
+that spark. Early users show you what’s in the world; you get to make it come to life. Figure out the user patterns, the feature hierarchies, the growth loops, and the development practices that defined social, and defined mobile, for billions of people. My role in these stories wasn’t to blaze the very first trail  discovering new streams and valleys (although I’ve had the privilege to work side-by-side with some great founders who did), nor was it to “operate” or scale the world once built out. I was right in the middle, the messy middle, laying down the rails, and mapping out the towns, and setting the foundations for a durable product, and a durable company. To me, this is hands-down the most fun part of the journey.
+It can be tough; it can look silly. As Chris Dixon has said, most great products start out looking like a toy. In the early social days, people saw Twitter as a dumb site where people posted what they had for breakfast, but that has become one of the most important information networks in the world. In the mobile era, people derided Robinhood as a simple stock trading app no one would ever use with their ‘real money’ but that’s now become a full-fledged financial platform for tens of millions. Or take
+Musical.ly
+, which was just a way for teenagers to post music videos until it became Tiktok, providing entertainment and more to billions. These were all places I worked at or was on the board through these major shifts. Worlds take time.
+Starter Packs on X
+help new users build their timelines;
+Server Boosts help the players on a Discord Server contribute to its superpowers, rather than leaving it all to the host. I didn’t build either of these myself, but I helped contribute to some of the ideas.
+In recent years, there was a period where it seemed like consumer was pretty dead. And that was really just a way of saying, “the worlds that consumers wanted to inhabit were all pretty built out”. Instagram works very well as a scaled-up social network; the iPhone works very well as your remote control device for the world. But two important things have changed, that have completely opened the world-building doors again.
+First, obviously, is that AI has completely upended the assumptions about what ordinary users can do; we all know this. The biggest consumer breakout so far, ChatGPT, introduced the world to the experience of open-ended conversations and relationships with software; and we’re only at the very beginning of that growth opportunity. But meanwhile, just as importantly, we have a new wave of
+users
+, especially the newest cohort of gen-alpha consumers, that really want to
+make things
+. They are native world-builders themselves. They came up playing Roblox and Minecraft, they have no preconceived limitations about what an app is, or what they can do with it. They expect to be able to customize or build
+anything they want
+for themselves and with their friends. And now, suddenly, we’re there.
+The models are finally ready. Costs of inference are getting optimized with open models, and even on-device models. And, when I first experienced OpenClaw earlier this year, I had the epiphany that it isn’t the models that matter, but the harnesses, loops, and context which will lead to so many new opportunities ahead. Just as we’re learning in enterprise, we can finally invent new products that allow users to do things more naturally, using simple language to express their needs.
+Contextual news and suggestions in Robinhood, and better on-device search with Siri, were both products I worked on that made search much better for ordinary users.
+So what does this all mean for consumer founders and operators? The setup is there; it’s an incredibly exciting time to be building in consumer again. Just like in every major tech wave before, from dot com through social and mobile, I expect that billions of people will soon discover new ways to explore the world, get things done, learn, shop, manage their money, arrange their travel, connect and communicate with friends and family, and much more. We’re ready for all of this, and more, to get reinvented around new interfaces and a new compact between software and the user, that is far more generous and accommodating for users’ peculiar needs, or creative spark.
+This means there is a
+lot of work to do
+in building out these new worlds, laying down the new rails, mapping its new towns. I can’t wait to meet amazing teams with big ideas, and early sparks of traction. And I love the ones building something that many people will deride as just a toy, but the team knows they have a bigger vision they can’t wait to bring to the world, and bring the world to their vision. I’ve been on so many of these journeys
+myself
+. And now, I’m eager to help a lot more teams create something that lasts, and navigate the journey from a spark of something working to making something durable.
+It’s time to build!
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
