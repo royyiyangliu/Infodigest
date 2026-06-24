@@ -1,0 +1,66 @@
+name: zz-substack-dl-test (TEMP — safe to delete)
+
+# 临时测试：在 GitHub Actions 机房环境验证下载 Substack 音频时
+# 加浏览器 UA + Referer 头能否绕过 403。用完即删，不影响任何正式流程。
+
+on:
+  push:
+    branches: [claude/sweet-cannon-jmz1rq]
+    paths: ['.github/workflows/zz-substack-dl-test.yml']
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download Substack mp3 with various headers
+        run: |
+          set +e
+          U="https://api.substack.com/feed/podcast/202734201/6bfb394237f089ea0355b8632dfa3537.mp3"
+          REF="https://www.dwarkesh.com/p/the-sample-efficiency-black-hole-2"
+          BUA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+
+          echo "===== runner egress IP ====="
+          curl -sS --max-time 20 https://api.ipify.org ; echo
+
+          echo "===== 1) curl 默认 UA（复现现状基线）====="
+          curl -sS -o /dev/null -w "code=%{http_code} final=%{url_effective}\n" -r 0-0 --max-time 40 -L "$U" || echo "curl exit=$?"
+
+          echo "===== 2) curl python-requests UA ====="
+          curl -sS -o /dev/null -w "code=%{http_code}\n" -r 0-0 --max-time 40 -L -A "python-requests/2.31.0" "$U" || echo "curl exit=$?"
+
+          echo "===== 3) curl 浏览器 UA ====="
+          curl -sS -o /dev/null -w "code=%{http_code} final=%{url_effective}\n" -r 0-0 --max-time 40 -L -A "$BUA" "$U" || echo "curl exit=$?"
+
+          echo "===== 4) curl 浏览器 UA + Referer ====="
+          curl -sS -o /dev/null -w "code=%{http_code} final=%{url_effective}\n" -r 0-0 --max-time 40 -L -A "$BUA" -e "$REF" "$U" || echo "curl exit=$?"
+
+          echo "===== 5) curl 浏览器 UA + Referer + Accept 头 ====="
+          curl -sS -o /dev/null -w "code=%{http_code} final=%{url_effective}\n" -r 0-0 --max-time 40 -L \
+            -A "$BUA" -e "$REF" \
+            -H "Accept: */*" -H "Accept-Language: en-US,en;q=0.9" "$U" || echo "curl exit=$?"
+
+      - name: Python requests test (mirrors pipeline.py download_file)
+        run: |
+          python3 - <<'PY'
+          import requests
+          U   = "https://api.substack.com/feed/podcast/202734201/6bfb394237f089ea0355b8632dfa3537.mp3"
+          REF = "https://www.dwarkesh.com/p/the-sample-efficiency-black-hole-2"
+          BUA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                 "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
+
+          def probe(label, headers):
+              try:
+                  r = requests.get(U, headers=headers, stream=True, timeout=60, allow_redirects=True)
+                  # read just first chunk to confirm body is reachable
+                  first = next(r.iter_content(chunk_size=65536), b"")
+                  print(f"[py] {label}: status={r.status_code} bytes={len(first)} final={r.url[:90]}")
+                  r.close()
+              except Exception as e:
+                  print(f"[py] {label}: ERROR {type(e).__name__}: {e}")
+
+          probe("default (no headers)", {})
+          probe("python-requests UA", {"User-Agent": "python-requests/2.31.0"})
+          probe("browser UA", {"User-Agent": BUA})
+          probe("browser UA + Referer", {"User-Agent": BUA, "Referer": REF})
+          PY
