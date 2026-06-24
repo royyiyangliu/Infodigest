@@ -1,0 +1,63 @@
+{
+  "date": "2026-06-24",
+  "generated_at": "2026-06-24T04:12:58.092952+00:00",
+  "stats": {
+    "tweets": 5,
+    "podcasts": 0,
+    "articles": 3
+  },
+  "tweets": [
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "Latent Space 联合主创、AI 工程师社区 Swyx（Shawn Wang）提出一个与主流相悖的观察：很少有人正确测算 SpaceX 作为\"NeoCloud + NeoLab\"（同时是领先模型实验室与新型云算力商）的市场打法。他称 SpaceX 通过算力交易已经收回了约**一半**对 Cursor 的投资，若 Composer 3 表现良好则另一半也能覆盖。他认为同时身兼顶级模型实验室与新云算力商是极其高效的组合，但前提是在自研训练成功或失败两种情形下都已妥善规划好 GPU 供给。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI Codex 负责人 Thibault Sottiaux 宣布\"Let's Patch The Planet\"：Codex 安全能力更新并推出面向网络安全的新模型 **GPT-5.5-Cyber**，将其定位为加速网络防御的重要节点。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 创始人兼 CEO Guillermo Rauch 发布两项产品进展：其一，Claude Design 现可一键部署到 Vercel；其二，Vercel 现已支持 WebSocket（含 socket.io），从 CDN 到 Fluid 全链路打通，他称这对 Vercel 而言是一个\"完整闭环\"的标志性时刻。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 创始人兼 CEO Aaron Levie 提出鲜明观点：几乎所有 AI 模型与 agent 的进步都源自 evals（评估）——开源权重的领域后训练、应用层 agent 改进、真正能增强工作的企业级 agent 部署，归根结底\"全是 evals\"。他预测理解自身（及客户）工作流、并评估 agent 在其中表现优劣的能力，将成为未来每家企业的核心竞争力，谁做得最好谁就最有可能驱动真正的自动化。他同时宣布 Box 现支持对任意 HTML 内容进行预览、编辑、版本管理与安全分享，便于即时处理各类 agent 生成的内容。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator 总裁兼 CEO Garry Tan 批评加州的\"资产没收税\"（针对医疗机构），认为它只会让该州更加贫困、削减医疗经费；他指责 SEIU UHW 工会罔顾医疗质量乃至州照护民众的能力，背后只有纯粹的自利。"
+    }
+  ],
+  "podcasts": [],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "China’s CXMT Is Set to Challenge DRAM Incumbents",
+      "date": "2026-06-23 14:51 UTC",
+      "link": "https://newsletter.semianalysis.com/p/chinas-cxmt-is-set-to-challenge-dram",
+      "chars": 35517,
+      "summary_zh": "长桥CXMT（长鑫存储）即将在科创板IPO，或成中国近年最大半导体上市，全球最受关注的内存厂商之一。其技术路径源自2009年破产的德国Qimonda：Polaris于2015年以约**3000万欧元**收购约**7000项**Qimonda专利，2019年授权给CXMT，后者还获约**2.8TB**技术文档，并继承BWL（埋入式字线）单元架构（6F²对比8F²），叠加从韩国、台湾、美国大厂回流的人才。合肥国资以\"耐心资本\"长期输血：506项目一期国资出资约**80%**（180亿中的144亿），即便2025年首次年度盈利，累计亏损仍达约**366.5亿元**；国资合计持股超**30%**。\n\n财务上CXMT已是全球第四大DRAM厂：2025全年收入同比增**156%**至约**86亿美元**（2024年33亿、2023年12亿），净利首次转正达**10亿美元**，但仍远低于三星（约**723亿**）、SK海力士（约**521亿**）、美光（约**372亿**）的DRAM收入。1Q26收入**73亿美元**，同比约**700%**；公司预计1H26收入同比7倍、超**160亿**，全年2026或超**500亿美元**。\n\n关键判断：盈利暴增主要由周期（ASP）驱动而非份额或技术。1Q26位元出货仅增**11%**，ASP却涨约**57%**（3Q25、4Q25环比+63%/+68%）。CXMT的ASP仅比三巨头低约**5–10%**，打破\"中国内存必低价倾销\"的误解；但其DDR5单位成本仍高出领先厂商**30%+**。FY25毛利率**37.8%**（对比三星39.4%、美光39.8%、SK海力士60.4%），从FY23的-113%、FY24的-4.7%大幅修复；1Q26营业利润率**70%**，几乎全部敞口为商品DRAM（约**99%**收入为DDR/LPDDR）。\n\n产能：2026年底约**350kwspm**，逼近美光约**385kwspm**，仍落后三星约**720kwspm**、SK海力士约**595kwspm**；2026占全球产能约**17%**（2025约13%），位元份额由**9%**升至2027年**12%**。2026–2028年扩产约85k/70k/80k。HBM极为有限：2025年仅约**5kwspm**（总265kwspm），2026/2027/2028升至约30k/55k/100k，全球HBM晶圆份额由2025年**1%**升至2028年**12%**。SemiAnalysis认为未来两年DRAM仍将供不应求（个位数高位扩大至中双位数），全年价格或再翻倍，故对中国厂商冲击供需的担忧被高估。\n\n技术短板明确：HBM3 8-hi供应难稳定，12-hi更难；G4（1z等效）已量产但前道分选良率仍低于行业85–90%成熟水平；G5（1a等效）无EUV推进将更难。建模HBM3 8-hi前道/后道良率约**35%/70%**、综合仅约**25%**，HBM利润微薄。CXMT可能跳过HBM3直攻HBM3E 8-hi/12-hi。其HBM目前仅华为、寒武纪及少数中国AI芯片初创可能采用，渗透缓慢。短期看，CXMT理性选择优先商品DRAM（每片位元数为HBM约3倍、利润更高），但国家自主可控诉求或推动其后续加码HBM。"
+    },
+    {
+      "source": "a16z",
+      "title": "The World-Building Doors Are Open, Again.",
+      "date": "2026-06-23 14:01 UTC",
+      "link": "https://www.a16z.news/p/the-world-building-doors-are-open",
+      "chars": 7037,
+      "summary_zh": "a16z 宣布招募 Josh（曾参与构建 Facebook、LinkedIn、Twitter、Robinhood）加入为合伙人，专注挖掘和支持下一代消费级公司。这篇署名文章是一份\"消费投资再度复兴\"的投资观点宣言。\n\n核心论点：过去几年消费赛道几近停滞，本质是\"用户想栖居的世界都已建成\"（Instagram、iPhone 已高度成熟）。但两大变化重新打开了\"造世界\"的大门。第一，AI 彻底颠覆了普通用户的能力边界——迄今最大的消费爆款 ChatGPT 让用户首次体验与软件进行开放式对话与关系，且增长才刚起步。第二，新一代用户（尤其 gen-alpha）是天生的\"造物者\"，他们从小玩 Roblox、Minecraft，期望能自定义、构建任何东西，对\"应用是什么\"没有固有限制。\n\n技术拐点判断：模型终于就绪，借助开源模型乃至端侧模型，**推理成本**正被持续优化。作者强调关键不在模型本身，而在 harness（框架）、loops（循环）与 context（上下文）——这才是大量新机会的来源，与企业端的经验一致。\n\n投资含义：作者引用 Chris Dixon 的\"伟大产品起初都像玩具\"——Twitter 曾被视作晒早餐的蠢网站，Robinhood 曾被讥为没人会用真钱的玩具，Musical.ly 不过是青少年发音乐视频，最终分别成长为全球信息网络、服务数千万人的金融平台、服务数十亿人的 TikTok。结论：消费创业的\"消息中段（messy middle）\"——铺设产品与公司的持久根基——是最佳着力点，现在是围绕全新交互界面与\"软件—用户新契约\"重塑探索、办事、学习、购物、理财、出行、社交的绝佳时机。这是 a16z 加码 AI-first 消费应用的明确信号。"
+    },
+    {
+      "source": "a16z",
+      "title": "Investing in Probook",
+      "date": "2026-06-23 13:02 UTC",
+      "link": "https://www.a16z.news/p/investing-in-probook",
+      "chars": 5197,
+      "summary_zh": "a16z 宣布领投家庭服务（home services，即水电暖等上门维修行业）垂直 AI 公司 Probook 的 **3400 万美元** A 轮融资，使公司总融资额达到 **4000 万美元**（此前种子轮由红杉 Sequoia 领投）。a16z 的投资逻辑：在垂直 AI 中，不应在业务边缘再叠加工具，而应占据业务中最难、最核心的决策，并由此向外扩展。家庭服务的核心决策是「派单」（dispatch）——把哪位技师、按什么顺序、在什么时间派到哪个工单。派对了，营收、技师利用率、客户体验同步上升；派错了，再多的营销和获客也无济于事。派单是业务的大脑。\n\na16z 指出，过去三年几乎所有为蓝领行业（trades）做 AI 的公司都回避派单，转而扎堆于漏斗顶端易于嫁接模型的边缘环节——语音助手、聊天插件、跟进机器人，结果是一堆互不连通、各占客户一小段、且都不触及真正决定盈利的决策的点状方案。Probook 反其道而行，先攻最难的派单：把最近的可用技师派过去很容易，但派「对」的人很难——技师在技能、转化率、专长上各不相同，匹配好坏直接体现在营收上。占据该决策层后，Probook 才向前台其余环节扩展：接入、数据清洗、客户消息、外呼。因共享同一上下文层，整个系统作为一体运作：每位客户在单一号码的单一短信线程中从首通电话贯通到上门技师；软件做实际工作（而非把活退还给已超负荷的前台），从而帮运营者提升 EBITDA。\n\n护城河来自创始团队的行业出身：CEO George Eliadis 在纽约州北部随父亲做高压清洗，**6 个夏天**泡在卡车里；后在伊利诺伊州一家 **4000 万美元**营收的暖通/管道/电气公司 TR Miller 待了一个夏天，该公司成为 Probook 首个客户。联合创始人为 CTO Lewis Zhang 与 Ben Cervantez。\n\n落地成效（关键指标）：Probook 已在全国数百个网点运行，客户含独立小店及 PE 背书平台（TurnPoint、Master Trades Group、Del-Air、Peterman Brothers、Sila Services）。Summers Plumbing, Heating & Cooling 拥有 **14 个网点**、**260 名技师**，上线首月在「零人工干预」下完成 **2,542 个**工单预订；Del-Air 的人均效率从每位调度员 **10 名**技师翻倍至 **22 名**。"
+    }
+  ]
+}
