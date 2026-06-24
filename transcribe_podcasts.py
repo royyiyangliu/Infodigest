@@ -57,7 +57,7 @@ def main():
     # Importing pipeline reads DASHSCOPE_API_KEY at module load, so import here
     # (after the env check) to give a clean error rather than a KeyError traceback.
     from pipeline import (submit_job, poll_job, extract_transcript,
-                          mirror_audio, FileDownloadFailed)
+                          recover_download_failed, FileDownloadFailed)
 
     # ── Resolve target date ─────────────────────────────────────────────────────
     if len(sys.argv) > 1:
@@ -114,12 +114,12 @@ def main():
             try:
                 result = poll_job(task_id)
             except FileDownloadFailed:
-                # DashScope couldn't fetch the origin (e.g. Substack/Anchor block its
-                # downloader). Re-host the audio ourselves and resubmit. Only the failed
-                # episode falls back here; the others were already polled in parallel.
-                print(f"    [回退] DashScope 无法抓取源 URL，改为自托管后重试...")
-                mirror_url = mirror_audio(p["audio_url"], tag=task_id)
-                result = poll_job(submit_job(mirror_url, p.get("lang", "zh")))
+                # DashScope couldn't fetch the origin (e.g. Substack IP-blocks datacenter
+                # egress; Anchor blocks its downloader). Recover via curve.to proxy
+                # (Substack) / self-hosting. Only the failed episode falls back here;
+                # the others were already polled in parallel.
+                print(f"    [回退] DashScope 无法抓取源 URL，启动多级回退...")
+                result = recover_download_failed(p["audio_url"], p.get("lang", "zh"), tag=task_id)
             transcript = extract_transcript(result)
         except Exception as e:
             print(f"    [ERROR] 转录失败，保留 text_file=null: {e}")

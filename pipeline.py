@@ -283,6 +283,47 @@ def update_manifest(ep_dir: Path, title: str, podcast: str, language: str,
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
+# ── Substack download bypass ──────────────────────────────────────────────────
+# Substack 在 api.substack.com 这一跳按 IP 封禁数据中心出口（GitHub Actions / DashScope
+# 的机房 IP 都会拿到 403），导致自抓的 Substack 播客转录失败。resolve.curve.to 是一个
+# 透明代理：它在自己（不被封）的服务器上去取 Substack 音频、把字节直接转发回来，
+# Actions 与 DashScope 都能访问。仅对 Substack 源启用，其它来源流程不变。
+SUBSTACK_PROXY = "https://resolve.curve.to/resolve?url="
+
+
+def is_substack_audio(url: str) -> bool:
+    return "api.substack.com" in (url or "")
+
+
+def curveto_wrap(url: str) -> str:
+    """Wrap a Substack audio URL with the resolve.curve.to proxy (URL-encoded)."""
+    from urllib.parse import quote
+    return SUBSTACK_PROXY + quote(url, safe="")
+
+
+def recover_download_failed(audio_url: str, language: str, tag: str = "") -> dict:
+    """Recover after DashScope reports FILE_DOWNLOAD_FAILED on audio_url, returning a
+    poll_job result (or raising if every level fails).
+
+    The caller has already tried Level 1 (submitting the origin URL to DashScope).
+    Level 2 (Substack only): hand the curve.to-proxied URL straight to DashScope.
+    Level 3: download the audio ourselves — through the proxy for Substack, else the
+             origin — re-host on litterbox, then resubmit.
+    Non-Substack origins skip Level 2, so their behavior is unchanged (Level 3 only)."""
+    proxied = curveto_wrap(audio_url) if is_substack_audio(audio_url) else audio_url
+
+    if proxied != audio_url:
+        try:
+            print("    [回退1] 经 resolve.curve.to 代理后重新提交 DashScope...")
+            return poll_job(submit_job(proxied, language))
+        except FileDownloadFailed:
+            print("    [回退1] DashScope 仍无法抓取代理链，转为自托管...")
+
+    print("    [回退2] 自托管(下载音频 + litterbox 转存)后重试...")
+    mirror_url = mirror_audio(proxied, tag=tag)
+    return poll_job(submit_job(mirror_url, language))
+
+
 def main():
     if len(sys.argv) < 2:
         print("Usage: python pipeline.py <apple_podcast_url>")
@@ -300,14 +341,11 @@ def main():
     try:
         result = poll_job(task_id)
     except FileDownloadFailed:
-        # Some origins (e.g. Anchor/Spotify staging CloudFront) are region-restricted
-        # for DashScope and return FILE_DOWNLOAD_FAILED. Download the audio ourselves
-        # and re-host it on a globally reachable temp host, then resubmit.
-        print("[asr] DashScope could not fetch the origin URL; re-hosting and retrying...")
-        mirror_url = mirror_audio(audio_url, tag=task_id)
-        task_id = submit_job(mirror_url, language)
-        print("[asr] Polling (retry on mirror)...")
-        result = poll_job(task_id)
+        # Origin not fetchable by DashScope (FILE_DOWNLOAD_FAILED): Substack IP-blocks
+        # datacenter egress, Anchor/Spotify staging CloudFront is region-restricted, etc.
+        # Recover via curve.to proxy (Substack) and/or self-hosting on litterbox.
+        print("[asr] DashScope could not fetch the origin URL; recovering...")
+        result = recover_download_failed(audio_url, language, tag=task_id)
 
     transcript = extract_transcript(result)
     transcript_path = ep_dir / "transcript.txt"
