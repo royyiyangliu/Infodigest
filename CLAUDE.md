@@ -389,15 +389,31 @@ EOF
 
 ---
 
-## STEP 8 — Push to GitHub
+## STEP 8 — Push to GitHub (via environment-injected credentials)
+
+This routine no longer carries a hard-coded GitHub PAT. Instead it relies on the
+execution environment's GitHub credential injection: the agent proxy intercepts the
+outbound request to api.github.com and injects the real credential for the
+repository that has been authorized in this environment. For this to work, the repo
+`royyiyangliu/Infodigest` MUST be authorized in this environment's GitHub settings.
+
+`GITHUB_TOKEN=proxy-injected` is just a non-empty placeholder so push_to_github.py
+passes its "token must not be empty" check — the proxy replaces it with the real
+credential at request time.
 
 ```bash
-GITHUB_TOKEN=<<REDACTED_PAT>> \
+GITHUB_TOKEN=proxy-injected \
   python3 /tmp/push_to_github.py /tmp/{DATE}_summary.json docs/data/{DATE}_summary.json "digest: {DATE}"
 
-GITHUB_TOKEN=<<REDACTED_PAT>> \
+GITHUB_TOKEN=proxy-injected \
   python3 /tmp/push_to_github.py --rebuild-index
 ```
+
+If either command fails (non-zero exit / HTTP 4xx-5xx / "injection failed" /
+"Not authorized to access repository"), it means the environment's credential
+injection is not working for this repo. Do NOT silently continue — report the exact
+error. The fix is to authorize `royyiyangliu/Infodigest` in this environment's GitHub
+settings (and if that still fails in unattended runs, fall back to a valid PAT).
 
 ---
 
