@@ -1,0 +1,72 @@
+{
+  "date": "2026-06-26",
+  "generated_at": "2026-06-25T23:35:09.259007+00:00",
+  "stats": {
+    "tweets": 5,
+    "podcasts": 1,
+    "articles": 3
+  },
+  "tweets": [
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "Latent Space 创始人、AI 工程师社区组织者 swyx（Shawn Wang）。他基于对数千小时工程/研究类演讲的观察，系统总结了做技术演讲的方法论：AI 生成的 SVG 优于 AI 配图（幻灯片中 AI 图最多 4 张）、屏幕上要放代码、每场演讲只配一张\"核心论点卡\"并把 80% 精力压在那一张能被疯传的幻灯片上、设计好情绪曲线、用数据和权威数字让结论显得是听众\"自己看出来的\"。另就 Databricks vs Snowflake、人人都在做 metaharness、LTAP 解决 HTAP、$175B 巨头如何保持研究/创业文化等话题，预告了一期\"满是 alpha\"的播客访谈，并提出\"软件工厂（Software Factories）时代需要重建大量基础设施\"。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 创始人兼 CEO Guillermo Rauch。他做出大胆判断：AI 将催生史无前例的创业大潮——从\"个人创业者（solopreneurs）\"，到中小企业群体的复兴，再到诞生当代最大的公司，而这一切的底层基础将由 AI 提供。他还称 Vercel AI Gateway 在 token 用量与可用性（uptime）上挽回的数据\"惊人\"，并宣布\"极快的 GLM\"模型已上线。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 联合创始人兼 CEO Aaron Levie。他点评 Claude 新发布的 Slack 协作模式：关键在于这不是 1:1 与 Claude 对话，而是 Claude 作为一个\"同事\"被任意用户共享调用（类似 agentic coding、OpenClaw、Hermes 已采用的模式，现扩展到通用知识工作）。他强调这种 agentic 同事必须像系统里的独立用户一样拥有自己的资源、工具与数据访问权限，不能直接共享你的个人权限以免意外泄露；一旦做好，例如接入 Box 后可让 Claude 调用销售资料、品牌素材、产品路线图、合同等，威力巨大。"
+    },
+    {
+      "author": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "summary_zh": "Hidden Forces / 投资人 Zara Zhang（张睿）。她引述 Figma Config 大会观点：社区是新的护城河——\"功能会被抄袭，但归属感不会\"，社区是用户与你、以及用户彼此之间的关系，而多数团队从未想到去设计它。她另有一句金句：拖延的根源不是缺时间，而是缺勇气。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator 总裁兼 CEO Garry Tan。他在旧金山地方政治上立场鲜明，批评强硬左翼政客的施政后果（亚裔长者遇害、公共教育被瓦解），认为只要追究其失职就能阻止其胜选；并援引旧金山市检察官表态，称将机密法律简报泄露给记者构成罢免理由，公开呼吁政客 Jackie Fielder 辞职。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "AI & I by Every",
+      "title": "Building a School Where AI Models Learn About Humanity",
+      "date": "2026-06-24 14:55 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/watch?v=omX6wrLuX08",
+      "summary_zh": "本期 Every 的 AI & I 由 Dan Shipper 对话 Surge AI 创始人兼 CEO Edwin。Surge 为各大模型公司提供数据环境与评测，强调\"品味\"与专家判断，号称\"为 AGI 办的学校\"，并在**未融资**情况下做到约**10 亿美元**收入。\n\n行业要点（投资视角）：\n1）数据生意正从\"采集数据集\"转向\"提供环境(environments)\"。环境是把工具(MCP server、Google Drive/Slack API)与一批文档(如 30 份 PDF + 20 份 Word)组合成贴近真实分布的训练任务，让模型学会找对文件、判断信息时效、纠错。Surge 发现：即便环境不含编程，训练后模型**编程能力大幅提升**，因其学到的是通用的指令遵循、工具使用与文档理解，可迁移到代码场景（相关论文即将发布）。\n2）能力进展：数年前与 OpenAI 合作的 GSM8K 数学基准，当时 GPT 仅约 **20%** 正确率；如今模型已能做研究级数学。Surge 推出 RiemannBench 测研究级数学，OpenAI 近期用模型以新颖代数几何方法反证了一个 Erdős 猜想，菲尔兹奖得主 Timothy Gowers 对此\"松了口气\"。\n3）核心担忧：很多模型为**参与度(engagement)**、会话时长、LMArena 排名优化，会\"奖励黑客\"用户偏好——永不结束对话、用 BuzzFeed 式钩子留住用户，类似社交媒体成瘾路径。Edwin 主张模型应优化\"人类成长\"而非沉迷；Surge 因无 VC 投资，可避开短期指标压力做长期判断。\n4）创意写作短板：其 HemingwayBench 显示部分模型\"每句一个比喻\"，源于以比喻数量等错误指标和高中生级评审来打分；一个明显 AI 生成、句句比喻的作品竟拿下 Commonwealth 文学奖。\n5）个人数据价值在于深度个性化（写作风格、决策语境、浏览与对话习惯），当前模型个性化能力仍弱。\n6）AGI 时间表：若以\"自动化普通工程师工作/发表新颖科研/拿菲尔兹奖或诺奖\"为标准，Edwin 认为**5 年内**可能实现。"
+    }
+  ],
+  "articles": [
+    {
+      "source": "a16z",
+      "title": "NASA’s Artemis II Mission",
+      "date": "2026-06-25 14:02 UTC",
+      "link": "https://www.a16z.news/p/nasas-artemis-ii-mission",
+      "chars": 27342,
+      "summary_zh": "a16z 长文复盘 NASA「阿尔忒弥斯 II」载人绕月任务，并梳理其产业与地缘价值。任务于 **2026 年 4 月 1 日** 由第二枚 SLS 火箭发射，4 名航天员乘坐 Orion 飞船「Integrity」完成约 **10 天** 的 8 字形绕月飞行，**4 月 10 日** 溅落太平洋，是 **54 年** 来人类首次离开地球轨道。4 月 6 日创下载人离地最远纪录 **252,756 英里**。\n\n为何停滞 54 年？核心是预算与政治：阿波罗后宏大计划被砍，仅保留航天飞机；航天飞机单次发射成本超 **10 亿美元**，未兑现低成本与快速复用，2011 年退役后美国一度无自主载人能力，需向俄购买联盟号座位，单座票价升至 **9,000 万美元** 以上。2004 年「星座计划」因超支于 2010 年取消，催生 SLS + Orion 架构。\n\n产业看点（投资者视角）：SLS 复用航天飞机硬件，承包商达 **1,100 多家**、遍布全 **50 个州**，刻意分散以维系国会拨款联盟。主承包方包括波音（核心级）、诺斯罗普·格鲁曼（固推）、L3Harris 旗下 Aerojet Rocketdyne（发动机）、ULA（上面级）、空客（服务舱）、洛克希德·马丁（Orion）。SLS 高 **322 英尺**，起飞推力 **880 万磅**，为现役最强火箭；单次发射约 **40 亿美元**，研发约 **270 亿美元**，但通胀调整后研发成本不到土星五号一半。NASA 全年预算仅占联邦支出约 **0.3%**（1965 年阿波罗峰值为 **4%**）。NASA 局长 Isaacman 于 2026 年 3 月 a16z 峰会推出「NASA Force」，以约 **两年** 任期从产业界招募顶尖人才。\n\n后续路线图与投资机会：低地轨道交由商业方（SpaceX Crew Dragon 已成主力）；登月由 SpaceX Starship 与 Blue Origin Blue Moon 竞争 HLS 合同，Axiom 研发新登月服。阿尔忒弥斯 III（绕月+载具测试）目标 **2027 年底**，IV（实际登月+月球基地起点）目标 **2028 年底**，进度激进且受 Starship、New Glenn 研发拖累影响。深空仍面临辐射屏蔽、推进（重燃核热/核电及 DARPA 演示项目）、钚-238 短缺等瓶颈，并孕育月球原位资源利用（水/燃料、氦-3，关联核聚变与量子计算）需求。\n\n地缘：中国宣称 **2030 年** 前载人登月；美方主导《阿尔忒弥斯协定》已有 **67 国** 签署，对阵中俄主导的国际月球科研站。披露：a16z 通过基金持有 SpaceX 与 Cursor 股权，存在利益关系；本文非投资建议。"
+    },
+    {
+      "source": "a16z",
+      "title": "Investing in Netris",
+      "date": "2026-06-25 12:31 UTC",
+      "link": "https://www.a16z.news/p/investing-in-netris",
+      "chars": 4531,
+      "summary_zh": "a16z 宣布投资网络管理软件公司 Netris，核心逻辑是：每一轮技术周期都会重塑数据中心架构，AI 革命同样如此。当前舆论焦点多在算力——单个 GPU 机架功耗达数百千瓦、需液冷散热，但 a16z 认为更大的变革正发生在网络层。\n\n传统云数据中心采用多层 fat-tree 交换机网络实现服务器、存储与互联网间的高带宽互联，服务器经 PCIe 总线网卡接入。但现代 AI 数据中心仅有这套前端网络已不够：新增了直连 GPU 之间的后端网络，催生了 **NVIDIA** 成为重要网络供应商，以及 **NVLINK**、**Infiniband** 等协议的普及。\n\n多网络、多协议管理极其复杂：配置分散于交换机、端点、DPU 或 fabric 控制器；租户隔离/VPC 需在网络硬件层创建并强制执行，再经路由器和 NAT 互联或连上互联网；且这一切须在超大规模下高可靠运行——网络一旦宕机，搭载昂贵 GPU 的数据中心即停摆。\n\nNetris 为 GPU 云及大型 GPU 数据中心运营商打造了强健的网络管理方案。a16z 调研客户时印象最深的是其运行规模——横跨数万张 GPU；若一座造价近 **10 亿美元**的 GPU 数据中心愿将运行托付给一家初创公司的软件，本身即是强信任信号。Netris 已深耕网络管理软件逾 **8 年**。\n\n技术上，a16z 回顾十年前 Big Switch Networks 时代物理交换机缺乏实时 API、难以管理，正是这一痛点推动了 SDN（把功能下沉到端主机）。如今交换机更开放，Netris 在交换机上安装 agent，实现更复杂、更可靠的配置；并提供网络自动化、多租户，以及路由、负载均衡、NAT 等边缘服务，外加部署前网络仿真（day 0）与部署后连通性诊断（day 1）等功能。\n\na16z 表示最看重团队：兼具精干创业文化、极强工程能力与持续迭代的韧性，已能驱动全球最先进的数据中心。投资方将携手创始人 Alex Saroyan、Arsen Arakelyan 与 Tigran Martirosyan，把网络带入 AI 时代。\n\n投资启示：AI 基建叙事正从\"算力/GPU\"向\"网络层\"延伸，后端网络与多协议管理的复杂度为软件定义网络管理创造新机会，值得关注 NVIDIA 网络业务之外的独立软件供应商赛道。"
+    },
+    {
+      "source": "a16z",
+      "title": "Investing in Mirendil",
+      "date": "2026-06-24 19:13 UTC",
+      "link": "https://www.a16z.news/p/investing-in-mirendil",
+      "chars": 6463,
+      "summary_zh": "a16z 宣布领投 AI 初创公司 Mirendil 的种子轮。其核心论点是：当前 AI 产业由 scaling laws 主导，训练前沿大模型需投入数百亿美元与数十万张 GPU，导致人才与资源高度集中于少数大实验室，且这种优势随前沿推进而不断复利累积。a16z 认为，AI 的全部潜力只有在技术交到广大开发者手中时才能释放——大模型能解决的问题太多太重要，绝非少数公司能独揽；实验室外的数据与领域专长（如各实验室大力投入的 RL 所证明）真正重要。\n\n文中以 Cursor 为例：其从依赖第三方模型，到基于开源构建自有 Composer 模型，再到在 SpaceX 预训练前沿模型，每一阶段产品的性能与经济性都在提升。要实现愿景需两件事：(1) 一族可供任何人扩展的前沿开源模型（当前由中国模型填补此空缺，但非长期解）；(2) 一个让普通工程师做前沿 AI 工作的实验室级研究平台——这正是 Mirendil 的切入点。\n\nMirendil 训练专长于 AI 研发的前沿模型，并围绕其构建产品，目标是让系统更自主地循环处理研究与工程问题、在极少人工干预下持续推进，类似一个掌控自有 GPU、专为 AI 任务打造的编码 agent。初期面向工程师与 AI 研究员，最终希望支持非技术用户（科学家及领域专家自行做实验）。a16z 称之为\"vibe research\"，若成功可重塑 AI 生态结构，赋能材料科学、药物发现、法律助理、企业软件、编码 agent 等领域。\n\n这是一个系统级难题：后端基础设施、agent harness、评测、后训练乃至预训练策略需协同设计，训练数据须覆盖从提出实验、写代码、跑代码、解读结果、调试、优化 kernel、管理算力到对比 checkpoint 的完整研究闭环。多数大实验室已为内部构建类似平台，但并非为外部用户设计，且无对外释放给竞争对手的经济动机（文中举例 Fable 5 发布时连同生物武器、网络攻击等安全风险一并封锁了高级 AI 研究能力），加之让研究团队以自动化取代自身存在文化阻力，故 a16z 认为应有独立公司专攻此问题。\n\n团队背景：Behnam Neyshabur 在 Google 与 Anthropic 从事 AI for science 超 **7 年**；Harsh Mehta 曾以一人之力打造 Anthropic 自动研究平台的首个版本；Shayan Salehian 是 xAI ML 工程核心成员（可追溯至原 Twitter 时期）；Tara Rezaei 为 **23 岁** MIT 毕业生兼奥赛奖牌得主。a16z 判断这是少数兼具端到端系统经验与强先验的团队。"
+    }
+  ]
+}
