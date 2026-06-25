@@ -1,0 +1,31 @@
+Source  : a16z
+Title   : Investing in Netris
+Date    : 2026-06-25 12:31 UTC
+Link    : https://www.a16z.news/p/investing-in-netris
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+Every technology cycle changes data center architecture and the AI revolution is no exception. Most of the news today is about compute, GPU racks that consume hundreds of Kilowatts of power and require liquid cooling. But an even bigger change may be happening in Networking.
+Classic cloud data centers are designed for fast connectivity between servers, to storage and to the internet. They typically use a multi-layer fat-tree network of switches to achieve high bandwidth and resilience. The servers are connected to the network via interface cards on the PCIe bus.
+For modern AI data centers, this is no longer sufficient. In addition to this classic front-end network, there is now a second back-end network that directly connects GPUs with each other. This architectural change gave rise to NVIDIA becoming a major networking vendor as well as the proliferation of protocols like NVLINK and Infiniband.
+Unsurprisingly, managing multiple networks with multiple protocols is highly complex. Configuration now happens sometimes directly on the switch, sometimes on end points, sometimes on DPUs and sometimes via fabric controllers. Tenant isolation or VPCs (Virtual Private Clouds) need to be created and enforced at networking hardware level, then connected to each other or to the internet via routers and network address translators. And all of this has to happen at massive scale, with a very high degree of reliability. Because if the network is down, the data center with its expensive GPUs stops working.
+That’s why we’re excited to invest in
+Netris
+. The company has built a powerful and robust network management solution for GPU clouds or anyone running a large GPU data center.
+When we spoke with Netris customers, perhaps the single most impressive thing was the scale at which Netris was operating across tens of thousands of GPUs.If you build a GPU data center for close to a billion dollars and entrust its functioning to a software solution from a start-up, that is a strong sign of confidence. Netris has been building network management software for over 8 years.
+We were also impressed by the architecture and depth of their solution. At Big Switch Networks a decade ago, we found managing most physical switches extremely difficult as switches lack full-fleshed real-time APIs to manage state. This lack of APIs was a major driver for software defined networking (SDN) that shifted this functionality into the end hosts. As it turns out, times have changed and switches have become more open. Netris today installs agents on the switches that allow them to do much more complex configuration with a much higher degree of reliability. And configuring the basic network is just the foundation. Netris also offers network automation, multi-tenancy and edge services like routing, load-balancing and NAT. Netris further adds many day 0 and day 1 functions, such as the simulation of networks before the rollout and diagnostics of the connectivity post deployment.
+But most importantly, we were impressed by the team. They pair a scrappy start-up culture with exceptionally strong engineering and the persistence to iterate until the product could power some of the most advanced data centers of the planet. We are excited to partner with Alex Saroyan, Arsen Arakelyan and Tigran Martirosyan and take networking into the age of AI.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

@@ -1,0 +1,322 @@
+{
+  "fetch_date": "2026-06-26",
+  "fetch_time": "2026-06-25T19:04:12.155479+00:00",
+  "stats": {
+    "new_podcast_episodes": 1,
+    "new_articles": 3,
+    "new_tweets": 22,
+    "total_podcasts": 1,
+    "total_articles": 3,
+    "total_tweets": 22
+  },
+  "podcasts": [
+    {
+      "source": "AI & I by Every",
+      "title": "Building a School Where AI Models Learn About Humanity",
+      "date": "2026-06-24 14:55 UTC",
+      "link": "https://www.youtube.com/watch?v=omX6wrLuX08",
+      "orig_link": "",
+      "audio_url": "",
+      "duration": "",
+      "summary": "",
+      "lang": "en",
+      "chars": 43704,
+      "text_file": "data/2026-06-26/podcasts/ai_i_by_every__building_a_school_where_ai_models_learn_about.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "a16z",
+      "title": "NASA’s Artemis II Mission",
+      "date": "2026-06-25 14:02 UTC",
+      "link": "https://www.a16z.news/p/nasas-artemis-ii-mission",
+      "summary": "Returning America to the Moon – and Beyond!",
+      "chars": 27342,
+      "text_file": "data/2026-06-26/articles/a16z__nasas_artemis_ii_mission.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Investing in Netris",
+      "date": "2026-06-25 12:31 UTC",
+      "link": "https://www.a16z.news/p/investing-in-netris",
+      "summary": "a16z invests in Netris",
+      "chars": 4531,
+      "text_file": "data/2026-06-26/articles/a16z__investing_in_netris.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Investing in Mirendil",
+      "date": "2026-06-24 19:13 UTC",
+      "link": "https://www.a16z.news/p/investing-in-mirendil",
+      "summary": "a16z leads Mirendil's Seed round",
+      "chars": 6463,
+      "text_file": "data/2026-06-26/articles/a16z__investing_in_mirendil.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2069964772003770673",
+      "date": "2026-06-25T02:03:54.000Z",
+      "text": "lots of folks prepping talks next week (congrats!). Some thoughts from RLing on thousands of hours of engineer- and researcher- focused talks:\n\n- AI generated svgs > AI generated imgs. MAXIMUM 4 ai slop images in your slides, I don't care how pretty your mom thinks they are (exception ofc if your talk is ABOUT imagegen)\n- Be pointy. Better to have 1 message with 5 surprising applications, than 5 messages with no concrete examples.\n- Put code on screen. Engineers like to see code. Especially if they can nitpick it to death over things that aren't the point.\n- Don't forget to Entertain. Being actually funny, or good at telling relevant anecdotes, is more important than adding yet another bullet point.\n- Have a Thesis. every talk gets ONE \"if you remember one thing from this talk, it is this\" card. 1) SO MANY PEOPLE DON'T USE IT. 2) SO MANY PEOPLE DON'T PLAN FOR IT. you get one. use it well?\n- Have a Thesis Slide. you've been in that talk where everyone gets their phone out to take a photo of the slide. Because people see 1000x more images than videos, you are much more likely to have a viral talk/slide if you have a single viral slide. You are much more likely to have a viral slide if you TRY and most people do not TRY. Struggling? Collect examples from talks you like and adapt their format to your thing. Your slides have a power law - don't spend 5% of your time each on 20 slides, spend 80% of your time on 1 slide and have the rest build up to that 1 slide.\n- You might not need slides. live demo in IDE, off the cuff rambles, pull audience member up to roleplay, do call and response with the audience, sing/perform, voice over vibe videos, I have seen it all. higher risk/effort, higher reward when done well.\n- Be pleasant to listen to. Talks with bad/no visuals still can be listened to. Talks with bad audio are DOA. Be confident, project, remember vocal variation, evoke emotion.\n- Design the emotional journey. Start strong, end strong, have a peak aha/laugh/thesis moment in the middle. Everything else is buildup.\n- Data driven talks are underrated. Present pretty charts and surprising, authoritative numbers. Use the stage authority to infer from the data to support the broader thesis. Done well, it will feel like my obvious conclusion from objectively looking at the data you presented, not you feeding the conclusion to me.\n- How to shill your product/company without feeling salesy: teach me everything I didn't know I should to know about the problems you solve, and then you shall have earned the right to convince me you are the guys to trust to solve it once and for all.\n- Actively watch a lot of talks. like with anything you both need a lot of reps AND you need to explore to find the styles/role models that you shine in. Passive = no introspection after watching, just mindlessly autoplay next video. Active = trying to articulate why a talk was good/bad after watching. If you want to REALLY hone it, think about how you feel about a famous talk and then TRANSCRIBE the talks and read the words on the printed page, and then compare with a \"normal\" talk and define rules you will follow for yourself to improve.\n\nthanks to @dexhorthy for organizing the AIEWF Speaker prep meetup tonight. we should actually do more of these....",
+      "url": "https://x.com/swyx/status/2069964772003770673",
+      "likes": 188,
+      "retweets": 14,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2069937175899275475",
+      "date": "2026-06-25T00:14:14.000Z",
+      "text": "we are going to have to Rebuild So. Much. Infra. for the age of Software Factories https://t.co/OHfQjOhiwJ",
+      "url": "https://x.com/swyx/status/2069937175899275475",
+      "likes": 281,
+      "retweets": 14,
+      "is_quote": true,
+      "quoted_id": "2069789929073262945"
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2069864073202905501",
+      "date": "2026-06-24T19:23:45.000Z",
+      "text": "LOTS of alpha in this pod:\n\n- Why Databricks beat Snowflake (! a straight answer!)\n- Why everyone is building a metaharness now\n- Why the @neondatabase made so much sense (so much @nikitabase glazing its not even funny)\n- How LTAP solves the HTAP dream I discussed with @ankrgyl in our @braintrust pod\n- What happened to @MosaicML + DBRX\n- How to maintain research/startup culture in a $175B megacorp\n- What's more important knowledge/experience in the race to the agent cloud: databases, operating systems, or.... networking!\n\nvery honored to be invited to @Data_AI_Summit to interview two of the top people in our industry and somehow be able to jam on everything from the @bennstancil modern data stack theme to @alighodsi's amazing keynote aura",
+      "url": "https://x.com/swyx/status/2069864073202905501",
+      "likes": 52,
+      "retweets": 4,
+      "is_quote": true,
+      "quoted_id": "2069857879847526632"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2070010718288843204",
+      "date": "2026-06-25T05:06:28.000Z",
+      "text": "At times our internal Slack is at least as fun as twitter.",
+      "url": "https://x.com/thsottiaux/status/2070010718288843204",
+      "likes": 643,
+      "retweets": 10,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2069837606574289329",
+      "date": "2026-06-24T17:38:35.000Z",
+      "text": "Spicy https://t.co/mi61Gve4R8",
+      "url": "https://x.com/thsottiaux/status/2069837606574289329",
+      "likes": 869,
+      "retweets": 13,
+      "is_quote": true,
+      "quoted_id": "2069770172802773292"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2069996867627393467",
+      "date": "2026-06-25T04:11:26.000Z",
+      "text": "Is Widow's Bay worth watching, I'm not great with jump scares.",
+      "url": "https://x.com/petergyang/status/2069996867627393467",
+      "likes": 19,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2069992268963135897",
+      "date": "2026-06-25T03:53:10.000Z",
+      "text": "Claude Design is pretty great. \n\nI gave it a repo for a mobile app I'm building and it reproduced the screens perfectly.\n\nExcept after one prompt it's telling me to save tokens already 😅 https://t.co/k6hQ53zmFN",
+      "url": "https://x.com/petergyang/status/2069992268963135897",
+      "likes": 53,
+      "retweets": 1,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2069956505580003458",
+      "date": "2026-06-25T01:31:03.000Z",
+      "text": "I'll be publishing the interview on my YouTube.\n\nSubscribe here to get it in a few weeks: https://t.co/MbOfeFUJbn",
+      "url": "https://x.com/petergyang/status/2069956505580003458",
+      "likes": 5,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Amanda Askell",
+      "handle": "AmandaAskell",
+      "tweet_id": "2069925173999083974",
+      "date": "2026-06-24T23:26:33.000Z",
+      "text": "update 2: nooo",
+      "url": "https://x.com/AmandaAskell/status/2069925173999083974",
+      "likes": 111,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Amanda Askell",
+      "handle": "AmandaAskell",
+      "tweet_id": "2069916038918250755",
+      "date": "2026-06-24T22:50:15.000Z",
+      "text": "update: nooo",
+      "url": "https://x.com/AmandaAskell/status/2069916038918250755",
+      "likes": 289,
+      "retweets": 4,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Amanda Askell",
+      "handle": "AmandaAskell",
+      "tweet_id": "2069910673921048985",
+      "date": "2026-06-24T22:28:56.000Z",
+      "text": "No more goals plz brazil, thank you.",
+      "url": "https://x.com/AmandaAskell/status/2069910673921048985",
+      "likes": 373,
+      "retweets": 12,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Google Labs",
+      "handle": "GoogleLabs",
+      "tweet_id": "2069827839826809042",
+      "date": "2026-06-24T16:59:47.000Z",
+      "text": "We are honored to share that Project Genie has won the Cannes Lions Grand Prix for AI Craft! 🏆 To our awesome Labs community, thank you for being on this journey with us! https://t.co/FN5nx19g68",
+      "url": "https://x.com/GoogleLabs/status/2069827839826809042",
+      "likes": 125,
+      "retweets": 11,
+      "is_quote": true,
+      "quoted_id": "2069540952784699520"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2070001110866354345",
+      "date": "2026-06-25T04:28:18.000Z",
+      "text": "AI will bring forth an unprecedented surge in entrepreneurship.\n\nFrom 'solopreneurs,' to the revitalization of the small &amp; medium business segment, to the emergence of the largest companies of our times… providing the foundation of it all.",
+      "url": "https://x.com/rauchg/status/2070001110866354345",
+      "likes": 475,
+      "retweets": 27,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2069863762694459805",
+      "date": "2026-06-24T19:22:31.000Z",
+      "text": "Really fast GLM now live https://t.co/fAyuB7XJ3v",
+      "url": "https://x.com/rauchg/status/2069863762694459805",
+      "likes": 216,
+      "retweets": 4,
+      "is_quote": true,
+      "quoted_id": "2069862989038293306"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2069819652365242765",
+      "date": "2026-06-24T16:27:15.000Z",
+      "text": "The data of tokens and uptime recovered by @vercel AI Gateway is truly astonishing https://t.co/kKzZWtdELa",
+      "url": "https://x.com/rauchg/status/2069819652365242765",
+      "likes": 126,
+      "retweets": 5,
+      "is_quote": true,
+      "quoted_id": "2069674189385240625"
+    },
+    {
+      "source": "Aaron Levie",
+      "handle": "levie",
+      "tweet_id": "2069975251476422664",
+      "date": "2026-06-25T02:45:32.000Z",
+      "text": "There are some subtleties in this launch that are very important in practice. This isn’t just you interacting with Claude in a 1:1 format via Slack. In this case, Claude acts as a coworker that any user can tap into in a shared way.\n\nWe’ve already seen some agentic coding systems start to adopt this pattern (as well as OpenClaw and Hermes), and doing it for general purpose knowledge work continues to push the idea forward.\n\nAs a result, what this means is that this agentic coworker needs its own set of resources, access to tools, and data to work with. This is not the same as you giving it access to your personal resources and tools, because the agent then could accidentally then share those out with anyone. \n\nThe agent needs to instead be like any other user in the system, and you need to be thoughtful about what it should have access to, and make sure its information that is safe to share with that group.\n\nWhen you can pull that off, it’s quite powerful. For instance, by connecting to Claude Tag to Box, you could have Claude access corporate sales materials for questions in sales conversations or generating RFPs, brand guidelines and marketing assets for campaign creation, product roadmap materials and product documentation for coding agents to use, contracts that anyone in the legal team can access, and more.\n\nBut this is just the Box example. You can equally have it access your product or customer analytics data, CRM information, codebase, and other resources and agents that would make sense to work on in a collective manner. \n\nIt’s awesome to see continued innovation in what the future of work may begin to look like with agents.",
+      "url": "https://x.com/levie/status/2069975251476422664",
+      "likes": 178,
+      "retweets": 18,
+      "is_quote": true,
+      "quoted_id": "2069547676849557725"
+    },
+    {
+      "source": "Ryo Lu",
+      "handle": "ryolu_",
+      "tweet_id": "2069830172354986418",
+      "date": "2026-06-24T17:09:03.000Z",
+      "text": "use cursor in notion\nuse notion in cursor https://t.co/3q36oyzwu0",
+      "url": "https://x.com/ryolu_/status/2069830172354986418",
+      "likes": 513,
+      "retweets": 19,
+      "is_quote": true,
+      "quoted_id": "2069816393395012009"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2069934356899246083",
+      "date": "2026-06-25T00:03:02.000Z",
+      "text": "SF City Attorney David Chiu says sending a confidential legal brief to reporters is grounds for removal from public office.\n\nJackie Fielder should resign. https://t.co/12qcV4Lhka",
+      "url": "https://x.com/garrytan/status/2069934356899246083",
+      "likes": 95,
+      "retweets": 15,
+      "is_quote": true,
+      "quoted_id": "2069884123481878538"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2069806049847321020",
+      "date": "2026-06-24T15:33:12.000Z",
+      "text": "We aren’t doing this trash in San Francisco because we saw what these kinds of ruthless politicians do to the citizens\n\nAsian elders killed\nPublic education dismantled\n\nIf you start counting their bodies and talking about their abdication of duty, the hard left can’t win https://t.co/WZnllDa30D",
+      "url": "https://x.com/garrytan/status/2069806049847321020",
+      "likes": 1718,
+      "retweets": 132,
+      "is_quote": true,
+      "quoted_id": "2069778120316526992"
+    },
+    {
+      "source": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "tweet_id": "2069951925202903176",
+      "date": "2026-06-25T01:12:51.000Z",
+      "text": "The best founders post on X https://t.co/9R3glKnPuM",
+      "url": "https://x.com/zarazhangrui/status/2069951925202903176",
+      "likes": 33,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2069863242932052228"
+    },
+    {
+      "source": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "tweet_id": "2069908420384428132",
+      "date": "2026-06-24T22:19:59.000Z",
+      "text": "The root cause of procrastination is not the lack of time\n\nIt’s the lack of courage",
+      "url": "https://x.com/zarazhangrui/status/2069908420384428132",
+      "likes": 106,
+      "retweets": 4,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "tweet_id": "2069900496304042343",
+      "date": "2026-06-24T21:48:29.000Z",
+      "text": "“Community is your users’ relationships with you and with each other, and most teams never think to design it\n\nCommunity is the new moat\n\nFeatures get copied. Belonging can’t”\n\n- from @figma Config session today",
+      "url": "https://x.com/zarazhangrui/status/2069900496304042343",
+      "likes": 28,
+      "retweets": 2,
+      "is_quote": false,
+      "quoted_id": null
+    }
+  ]
+}

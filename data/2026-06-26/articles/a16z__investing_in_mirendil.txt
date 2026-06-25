@@ -1,0 +1,38 @@
+Source  : a16z
+Title   : Investing in Mirendil
+Date    : 2026-06-24 19:13 UTC
+Link    : https://www.a16z.news/p/investing-in-mirendil
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+The structure of the modern AI industry has been shaped largely by scaling laws. Large, general-purpose models have
+conclusively outperformed
+smaller, hand-crafted models. Training these large models requires tens of billions of dollars and hundreds of thousands of GPUs, so talent and resources have consolidated in a small number of big labs. And the advantage held by the labs is only compounding as the frontier advances.
+This structure has generated phenomenal progress, which we hope and expect will continue. It makes sense for the big labs to continue to develop the core, horizontal capabilities of frontier AI models.
+But we also believe the full potential of AI will not be realized until the technology is placed in the hands of builders. The array of problems that language models can address is simply too vast, and too impactful, for a handful of companies to tackle them all. The data and domain expertise that lives outside the labs really does matter - as the labs’ extensive RL efforts demonstrate - and not just as a prompt to send to an API. The most direct path to maturity and massive impact for the AI industry is to let engineers and researchers outside the labs to do real AI work, i.e. to push the frontier in their own domains of expertise.
+We’ve seen a great example of this through Cursor, where they have grown from relying on third-party models, to building their own Composer models on top of open source, and now pre-training frontier models at SpaceX. The performance and economic viability of the product has improved in each phase, and the modeling work so far compounds in the same way as the labs’ centralized efforts. Not every organization needs to go all the way to pre-training, of course, but most would see very real benefits from being able to run experiments and update model weights.
+Satya’s
+recent post
+makes the case very clearly why great technology always has, and always will, need a true ecosystem: developers, developers, developers.
+To make this vision a reality in AI, we need two things: (1) A family of frontier open source models available for anyone to extend. This gap is currently plugged by the Chinese models, though that’s likely not the long term solution. (2) A lab-grade research platform to help normal engineers do frontier AI work. This is where Mirendil comes in.
+Mirendil is building a system that can help anyone do AI work: they train frontier models that are expert at AI R&D and build the product around it. The system is meant to loop over research and engineering problems more autonomously, and make more and more progress without human intervention. It's like a coding agent that has been built specifically for these kinds of AI tasks and controls its own GPUs. While Mirendil's product is likely to be used by engineers and AI researchers to start, the goal is to support less technical users, so that scientists and other domain experts can run their own experiments.
+Call it vibe research. If it works, it could change the way the AI ecosystem is structured, and support experts across many fields: materials science, drug discovery, legal assistants, enterprise software, coding agents, etc.
+This is not a simple product to build. It’s a systems problem, in that the backend infrastructure, agent harness, evals, post-training, and even pre-training strategy all need to be designed together. And the training data needs to cover the full loop of AI research, from proposing experiments, to writing and running code, interpreting results, debugging failures, improving kernels, managing compute, comparing checkpoints, and deciding what to try next.
+Most of the major AI labs have built some version of this platform for internal use. But they are not necessarily designed for external users, and the labs also don’t have a strong economic incentive to release the platforms for their competitors to use. The recent Fable 5 release, for example, blocked advanced AI research alongside safety risks like bioweapons and cyberattacks. There’s also a real cultural shift required when research teams have the mission to replace themselves through automation.
+So, we think there really should be an independent company focused on this problem. And we believe Mirendil has the strongest team to tackle it. Behnam Neyshabur has worked on AI for science for 7+ years at Google and Anthropic. Harsh Mehta built the first version of the Anthropic autoresearch platform, initially as a team of one, and has seen what’s necessary to scale the platform broadly within the company. Shayan Salehian has been a core member of the ML engineering team at xAI dating back all the way to the original Twitter. Finally, Tara Rezaei is a 23-year-old MIT graduate and olympiad medalist with a relentless go-getter attitude.
+We’re very excited to announce today that we’re leading the seed round for Mirendil. They are working on one of the biggest possible problems in AI, and they are one of the few teams who have experience and strong priors about how to make the end-to-end system work.
+We think the next phase of AI is going to include a broader ecosystem of engineers, researchers, scientists, and domain experts. They will need the tools to do real model work themselves. And Mirendil is building that platform.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
