@@ -1,0 +1,56 @@
+Source  : a16z
+Title   : Meet the a16z Design Engineer Fellows
+Date    : 2026-06-26 17:20 UTC
+Link    : https://www.a16z.news/p/meet-the-a16z-design-engineer-fellows
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+A few weeks ago, we announced
+the a16z Design Engineer Fellowship
+—an 8-week cohort of AI-native design leaders at the forefront of how software will be designed and built in the future.
+We received thousands of applications from talented people around the world.
+Today, we’re excited to share more about the 73 fellows we’ve selected
+to join the inaugural cohort
+who are leading design at companies like OpenAI, Cursor, Stripe, Ramp, Vercel, Pinterest, and Partiful.
+A glimpse into the 73 inaugural a16z Design Engineer Fellows
+Many fellows wrote the original playbooks in product design like -
+Joshua To
+from Meta,
+Ian Silber
+from OpenAI (prev. Instagram), and
+Yuliya Gorlovetsky
+from Stripe.
+Some are currently building category defining products, zero to scale - like Dann Petty at QuiverAI,
+Ryo Lu
+at Cursor and
+Nicholas Garro
+at Vercel.
+Others are design leaders at tech powerhouses like -
+Ammaar Reshi
+at Google,
+Maheen Sohail
+at Meta, and
+David Hoang
+at Atlassian.
+Across the board, these fellows are the ones writing and rewriting how great products get made, building design systems that scale, and raising the standard for what a design team can ship.
+We hope that you’ll join us in celebrating everything this group has already done, and everything they’re about to do next.
+Congratulations and welcome, a16z Design Engineer Fellows!
+To stay in the loop on applications for the
+next
+cohort,
+fill out this form
+.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

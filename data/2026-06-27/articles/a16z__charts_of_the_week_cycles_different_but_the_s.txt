@@ -1,0 +1,117 @@
+Source  : a16z
+Title   : Charts of the Week: Cycles, different but the same
+Date    : 2026-06-26 14:03 UTC
+Link    : https://www.a16z.news/p/charts-of-the-week-cycles-different
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+Cycles, different but the same
+If you compare this cycle to the previous one, in some ways it’s exactly the same, and in other ways, it’s a complete inversion.
+It’s the same because tech is plainly the cycle-winner for both the post-GFC period (2010-20) and the post-pandemic period (2020-present). The rest of the field, however, has flipped—the last cycle’s winners are now losers, and vice versa:
+Healthcare, consumer products and media all offered double-digit returns post-GFC, but are now doing ~3-6%,
+while energy, raw materials, construction and financials all went from low single-digits to mid-to-high double-digits.
+The laggards became the leaders, while the leaders became laggards.
+Tech is the exception, as a repeat cycle-winner, but there’s some nuance. Hardware is the real standout of the current cycle (and did pretty well, last time too), but software has followed the broader pattern of inversion.
+Taking a step back, there’s a pretty obvious pattern here that we’ve alluded to before: markets have
+shifted their attention from capital-light, consumer-oriented sectors, and now cast their loving eyes on the capital-heavy “real” economy
+, driven in large part by the AI infra buildout.
+It’s a rotation from bits to atoms.
+“Asset-heavy” companies have flipped-the-field, after a decade of trailing behind the “asset-light” variety.
+Of course, if this cycle is like the last cycle, then the general idea is that all of this
+capital-heavy infrastructure eventually flows through to the software/app-layer
+. Back in the post-GFC era, chipmakers (and cloud-builders) dominated early, but eventually gave way to all the apps, marketplaces, and enterprise softwares that flourished on the chip-powered phones and PCs, and server-powered clouds. In other words, the rotation to atoms was temporary and cyclical, rather than a more enduring structural shift.
+That certainly could happen this time around, as well—in fact, it would probably be pretty disappointing if the AI infra buildout did
+not
+eventually flow through to the capital-light layer (and, of course, both could eventually thrive in tandem). But, even so, further upstream of the public markets, there’s some indication that the atoms-revolution may have some endurance of its own—and, it’s not strictly-speaking an AI infrastructure thing, either.
+The premium to “real world” tech is showing up in the private markets, not just in AI infrastructure, but in robotics, as well:
+Measured by the value of top 100 private companies (by category), Robotics (and physical AI) wasn’t even on the chart in 2016, but a decade later, it has now eclipsed fintech and payments as the second largest category.
+If you follow where the VC dollars are flowing, the surge in interest in robotics shows up there, too:
+According to Pitchbook, Q1 was a record for Robotics and Physical AI by both deal value and deal count, with ~$16B invested across just under 500 deals.
+For context, the rush of robotics investment is ~2x larger by count and ~4.5x larger by value than the preceding stretch from ‘21-’25.
+The point being that the rotation to atoms (in the private markets, at least) isn’t just about the chips and inference that will ultimately power the next generation of software—hardware, as a product in its own right, is on the rise.
+And it makes sense too. Even better software has enormous potential, but robotics pushes tech into a set of real-world “tasks” that software by itself cannot touch. To the extent that AI is an unlock for the software
+that powers hardware
+, it expands the surface area for demand, in unprecedented ways—not unlike the way that electricity ultimately enabled machines to do work that humanity had barely contemplated (before the “horsepower” became so readily available).
+For now, the highest profile new frontier for robotics has been defense—and it, of course, helps that defense budgets are expanding the world over. But if things go as planned, the rotation to asset-heavy may be deeper, wider and longer than any previous modern tech-cycles.
+AI enabled or AI “enabled”?
+In the early innings of the LLM wave, management consultants were considered a likely AI-winner, at least in the near term. The logic was pretty straightforward: companies will want to use AI, and they will hire consultants to figure out how. Accenture, especially, was considered well-positioned because not only could it provide advice and a roadmap, it could do the actual end-to-end implementation, as well, aka “managed services.”
+Without getting into the specifics of why, it’s nonetheless true that whatever optimism the market may have had for Accenture, it appears to have evaporated:
+Accenture’s free cashflow multiple climbed as high as 30x in early 2025, but it has come all the way down to ~6x, or about a third of its longer-term average.
+Decide for yourselves why precisely the market soured on Accenture so quickly, but one thing that’s become increasingly clear is that when it comes to the broader undertaking of “adopting AI,” there’s more to the story than simply adopting AI. Not all implementations are value-generative in the same way, and getting it right (or
+more
+right) may involve some subtlety in the development and ideation phase, at least according to some recent research.
+In a study involving 515 “high growth” startups
+, researchers zeroed-in what (in their view) it means to be truly “AI native.” More specifically, they wanted to know what it takes to move from “AI improves a task,” to “AI improves the firm,” and the results are pretty striking.
+It turns out that the key is what the researchers call a “mapping” problem.
+When firms in the study were given information about how other firms have reorganized production around AI (“treatment firms”), it kicked off a fundamentally different sort of discovery process. Rather than simply trying to replicate existing processes “but this time with AI,” treatment firms began further upstream, wrapping AI into the business outcome, leading to different processes entirely.
+The researchers offered product-development, as an example:
+In this case, AI didn’t replicate preexisting steps in the process—it rewired the process around what AI was capable of, albeit towards the same basic business outcome.
+That’s, of course, just one example, but across the board, the productive impact on “treatment firms,” was substantial. Treatment firms had:
+~44% more use cases for AI:
+~2x the revenue for the top vigintile (and 50% more at the top decile):
+~40% less capital consumed (with the gap widening at the furthest ends of the distribution):
+To summarize, when high growth startups
+really
+undertook the task of “adopting AI,” they found more use-cases, generated more revenue, and consumed less capital than those that didn’t.
+It’s a fairly striking result that should both allay some fears about the “AI ROI question,” but also shed some light on why that ROI hasn’t (yet) materialized at the firm level, at least as widely as some would like. According to the researchers, the implications are (a) the productivity lift from AI at the firm-level is, in fact, transformative; but (b) the real unlock is at the discovery phase, i.e. “discovering where and how to deploy AI is a key bottleneck in realizing the gains,” and that’s not as simple as just “adopting AI.”
+In that sense, having a “discovery bottleneck” means that AI is following a path not unlike previous tech-driven productivity leaps forward.
+When electrification first took hold, for example, many manufacturers simply replaced the steam engine with a large electric motor while preserving the old architecture of overhead line shafts and belts. Factories were basically the same, but “this time, with motor.” The larger gains, however, only started to arrive when manufacturers realized they could install smaller motors at each individual machine (and scrap the whole shafts n’ belt rigging almost entirely)—factories were eventually completely redesigned around embedded power (rather than the other way around). The rest, of course, was one of the greatest productivity leaps forward in history.
+AI startups running lean
+On the subject of AI, startups, and academic research, we’ve got
+another one from the same researchers
+: it turns out that AI startups, do in fact, run lean—at least according to this study of four years’ worth of YC batches.
+The researchers looked at YC Batches W20-F24 (with first rounds closed between 2020-2024) and linked them to Revelio employment data by employee count, function, and seniority. They wanted to know if AI startups hired and/or organized themselves differently than non-AI startups.
+What they found was:
+AI startups start smaller and run smaller:
+The distribution of smaller (by headcount) startups skews heavily in favor of AI startups:
+AI startups tend to be less hierarchical, with AI startups dominating the largest share of little-to-no-hierarchy firms:
+The implications speak for themselves, although there is likely more devil in the details, but you get the idea: if your premise is that AI will enable firms to do more with less, then there’s some more fuel for your fire.
+Elsewhere, Stripe Economics has also weighed-in (again),
+on the “solopreneur” phase of AI enablement
+. With lots of caveats around how “solopreneurs” were identified in their data, Stripe offers some more support for the idea that, yes, AI is unlocking more entrepreneurship and firm-formation (albeit of the low-hiring variety), and that solopreneurs are having a good deal of success.
+Consider the share of solopreneurs by income threshold:
+Not only is the share of $100K+ solopreneurs rising, but the share of $5M+ and $10M+ earners really began to inflect upwards in ‘23 and ‘24.
+In the words of Stripe Economics:
+We find that there has been a substantial increase in the number of solopreneurs earning over $100,000 in our index, but an even larger increase in the number earning at higher income thresholds, with a clear acceleration since 2023. More than twice as many solopreneurs earned over $1 million in 2025 than in 2023, and close to three times as many crossed $5 million and $10 million.
+Perhaps even more interestingly, the share of solopreneurs earning above these income thresholds has also doubled in the last two years, suggesting that—rather than the surge in business applications reflecting low-quality experimentation with a few lucky standouts—the cohorts of new solopreneur businesses might actually be of higher quality than in the past.
+Again, with all the caveats around how solopreneurs were identified (in this case, by recourse to Stripe’s solopreneur-centric tools) and/or how these businesses may have evolved headcount over time (unbeknownst to Stripe), the data suggests that the AI-powered small business era continues to rise.
+Tech makes grocery more productive, but also less “productive,” at the same time
+a16z Charts happens to have a thing for
+grocery-related charts
+, and
+if it ain’t broke
+, don’t fix it, so here it goes.
+A funny thing about grocery stores is that, unlike the broader category of retail trade, grocery did
+not
+get all that much more productive over the past 30 years:
+Or rather, while retail has seen more or less steady productivity growth since 1990, grocery stores first declined, then had some recovery, then flat-lined, and then started getting more productive again, notwithstanding the recent swoon—but still, nothing like the retail productivity rager.
+It’s interesting because it’s partly a story about technology (and its relationship to productivity), and it’s partly a story about how we
+measure
+productivity, which is more or less output divided by labor-hours (and that’s an imperfect measure, at best).
+You see, with grocery (and retail), the great invention (after the cash register) was electric scanners. They were first introduced sometime in the 70s, but by the 90s they were basically everywhere. Scanners did two things, primarily: (1) they allowed for a massive increase in the range of inventory; and (2) they contributed to the increasingly sophisticated data-collection efforts by retailers and grocers to both understand what their customers wanted to buy, and also how much inventory to have on-hand.
+In the 90s, both grocery stores and retailers began to get much bigger, benefiting from tech-driven economies of scale that were good for consumers, but more or less spelled the end of Ma and Pa.
+At that point, however, the fates of retailers and grocers began to diverge. While retailers vastly expanded their inventory, they did so without adding all that many new workers, instead focusing more on off-the-shelf and prepackaged goods that could be stocked and monitored with far fewer people than before. Grocers, on the other hand, decided to expand beyond groceries into specialty services, like florists, bakers, deli counters and the like.
+Of course, as the share of specialty services grew, so too did the demand for specialty labor. And, as per the chart above, even though grocery stores got more productive, in the sense of vastly expanding the range of goods and services offered and doing so at relatively lower prices, they did not get more “productive,” in the sense of output/labor-hours. That’s also why retail “productivity” ran way ahead of grocery “productivity,” while wages for both grew at basically the same pace (which would be odd, if retail workers were actually that much more productive than grocery workers).
+It wasn’t until groceries took a page out of the broader retail and general merchandise playbook that grocery productivity started improving again:
+Around 2000, the share of non-food-at-home products began to grow substantially—higher margin prepackaged foods, snacks and general merchandise increased almost 5x in a decade. The other thing that grocery did is that it offloaded more of the work of stocking, displays, etc. to the vendors, as something like an in-kind charge for the privilege of shelf-space. It’s a neat “productivity” hack when the labor hours don’t go away, but they become someone else’s problem.
+From a “productivity” standpoint, the shift unlocked more throughput without more labor-hours, and voila, a productivity renaissance for grocery.
+While labor’s share of grocery income steadily rose until ~2002 (and labor’s share of retail income fell), they have both been falling fairly steadily since, at least until recently.
+The declining “labor share of income” is basically the flipside of “productivity”—more output with fewer workers will lead to a declining labor share of income (not taking into account the appreciation in 401ks due to all that profitability, of course).
+What’s interesting, though (and back to tech and productivity), is that the latest wave in shopping innovation—ecomm and delivery—seems to coincide with diverging “productivity” fates for grocery and retail, yet again. While ecomm has been a boon to retailers, who can now sell things without leasing a square foot of store, edelivery probably just means the same or more people wandering through the grocery store, picking out items. Curbside pickup might even be moderately more labor-intensive than regular shopping.
+Whether that’s causal or coincidence, what is true is that, post-pandemic, grocery productivity has gone south again (and the labor share of income has started rising again), while retail gets leaner and meaner. Same technology, same productivity lift, and yet, very different “productivity” stories.
+Good thing for grocery, though, is that
+there’s always (high-margin) money in the advertising banana stand.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

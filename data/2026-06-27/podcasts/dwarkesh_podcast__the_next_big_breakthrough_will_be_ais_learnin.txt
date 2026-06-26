@@ -1,0 +1,194 @@
+Source  : Dwarkesh Podcast
+Title   : The next big breakthrough will be AIs learning on the job
+Date    : 2026-06-26 15:51 UTC
+Link    : https://podcasts.apple.com/us/podcast/the-next-big-breakthrough-will-be-ais-learning-on-the-job/id1516093381?i=1000774364989&uo=4
+────────────────────────────────────────────────────────────
+
+[00:00] Speaker0: So here's a big research bet that all the labs are making.
+[00:03] Speaker0: They think that if we train ais to accomplish millions of verifiable tasks across thousands of diverse rl environments, then we will have basically built agi because this kind of training will have created a kind of problem solving agent.
+[00:17] Speaker0: The kind of thing that can make progress on open-ended tasks for weeks on end in the face of errors and mistakes and ambiguity.
+[00:25] Speaker0: And the people who are optimistic about this vision will say that all these things that we talk about as the fundamental deficits in the current training paradigm, for example, the data inefficiency of these models or the fact that they lack continual learning.
+[00:37] Speaker0: These things can just be steamrolled, if we just scale training more.
+[00:41] Speaker0: And the same way that all the fundamental research problems in natural language processing collapsed when we just threw enough compute into llms.
+[00:48] Speaker0: So in the previous essay, i talked about how these models are one one millionth the sample efficient as humans and the people who are in favor of the current training paradigm will say, look, that might be true, but this is only true during training and training is this one-time cost that is amortized across billions of sessions that a model will experience.
+[01:07] Speaker0: And what really matters is how smart and general and sample efficient the model is during a session.
+[01:13] Speaker0: And this has clearly been improving as we've been doing more rl training.
+[01:17] Speaker0: Ai agents are able to solve more and more ambitious problems over longer and longer time spans.
+[01:21] Speaker0: Anybody who has used these models for coding knows that.
+[01:24] Speaker0: Similarly, people would say, look, continue learning, this capability i keep harping about, where the model's weights get updated based on what it's learning from deployment, may simply not be necessary.
+[01:35] Speaker0: Because if in context learning gets so good across longer and longer time horizons.
+[01:41] Speaker0: Then you don't need to distill back everything the model is learning on the job into the weights.
+[01:46] Speaker0: People often say that their employees are not net productive until six months or more of them working on the job.
+[01:52] Speaker0: So clearly, online learning is necessary for competence.
+[01:56] Speaker0: But what if you could just fit those six months into the context window?
+[01:58] Speaker0: There's been tons of architectural innovations that dramatically increase the amount of information or the amount of context that a transformer can store.
+[02:06] Speaker0: And why not think with a couple more years of progress, we might have what feels like infinitely large context windows.
+[02:12] Speaker0: Okay, so before we discuss this research about further, i want to step back and i want to ask a completely tenential question, which i find actually very interesting and confusing about the nature of current ai progress.
+[02:24] Speaker0: Why has progress on computer use been so much slower than other domains?
+[02:30] Speaker0: Computer use is so clearly verifiable.
+[02:34] Speaker0: You could ask a question like, did the desired etsy item i ordered.
+[02:37] Speaker0: Get delivered is the venue for an event i'm trying to organize booked have my taxes been submitted so isn't it weird the computer use has been making so much slower progress than coding and math and these other verifiable domains i'm sure there's many reasons for this and one of them of course is the fact that the models are exposed to far less high quality multimodal data during pre-training but one reason that i think is actually quite underrated by people and which i think reveals the canyon walls against which this river of ai progress will only slowly chip away at.
+[03:08] Speaker0: Is that it is not enough for a domain to be verifiable.
+[03:12] Speaker0: It also has to be very grindable in the sense that you have to be able to run lots of parallel rollouts against a deterministic and replayable simulator and you're going to run those rollouts from the same starting point.
+[03:24] Speaker0: If you're trying to make a model better at coding, you can define some container that has the software repo with some missing feature that you have tasked the ais with creating.
+[03:32] Speaker0: And then you have a thousand parallel agents that go at the problem, each of which has an identical copy of the container.
+[03:38] Speaker0: But this doesn't work with computer use, at least not trivially.
+[03:41] Speaker0: You can't just have a thousand agents go try the same checkout flow on amazon to get better at using websites, because andy jassy will find your bots and shut your ass down.
+[03:51] Speaker0: You can solve this by making clones of slack and gmail and all the other common applications and websites.
+[03:56] Speaker0: But at least currently, this is a very labor intensive and unscalable way to build environments.
+[04:01] Speaker0: Of course, once ais get good enough at coding themselves to build these clones with extremely high fidelity, then i'm sure the computer use will make quicker progress than it is right now, and you're also killing two birds with one stone with this kind of procedure.
+[04:13] Speaker0: Because getting ais to rebuild whole applications from scratch is also a great rl objective for coding.
+[04:20] Speaker0: So while computer use itself may soon be solved.
+[04:22] Speaker0: Its current lethargy is telling us the following, that unless you can build a very replayable training target for a domain, the models will struggle to make much progress.
+[04:31] Speaker0: And the reason this is true, of course, the models are incredibly sample inefficient during training.
+[04:37] Speaker0: This is a point i was making in my last video essay.
+[04:39] Speaker0: So, for computer use, we might be able to make up for the sample efficiency deficit by building these farmable deterministic simulators.
+[04:46] Speaker0: But for so many other different kinds of skills that we need ais to have, we simply can't do this.
+[04:52] Speaker0: How do we train an ai to get really good at building a business from scratch?
+[04:55] Speaker0: How about winning court cases, or having a profitable day of trading in the markets?
+[04:59] Speaker0: Or helping a candidate win an election.
+[05:02] Speaker0: The rollout here requires interacting with the real world, and you can't recreate it from just within the data center.
+[05:08] Speaker0: The outer loop verification here may take months or even years of real world actions to elicit.
+[05:14] Speaker0: And you can't reobserve it by perturbing the model's actions slightly in thousands of parallel rollouts to isolate exactly what the model did that actually worked.
+[05:24] Speaker0: Now, dealing with such reset free, non-stationary environments is a known open problem in rl.
+[05:29] Speaker0: I'm not pointing out anything new, but i really do want to emphasize that because of the idiosyncratic and sparse nature of data in most domains in the world.
+[05:37] Speaker0: You need sample efficiency in order to get proficient.
+[05:41] Speaker0: If ais are to develop all the skills that humans have, and even skills that humans don't have, then they need to be able to learn from information revealed in unstructured, unverifiable, and ambiguous ways.
+[05:53] Speaker0: From scarce amounts of real world interaction, because in many domains, the relevant training information simply doesn't exist in any other way.
+[06:02] Speaker0: What is the rl environment to make an ai that is as good at politics as lyndon johnson or as good at building a space launch business as elon musk?
+[06:10] Speaker0: The labs are betting that rlvr will generalize, that is that if you train on enough containerized, reproducible environments, you will develop a very general agent that can make an execute plans and learn rapidly from new information and even pick up new skills all within a single session.
+[06:27] Speaker0: If you drop this endlessly rlbrd ai into texas politics in 1948, it could give you better advice than lbj about winning the senate seat.
+[06:35] Speaker0: And if you give it 100 million dollars in 2002 and let it cook, it would build spacex for you.
+[06:39] Speaker0: Now, whether rlvr can generalize this well, is an empirical question.
+[06:43] Speaker0: If the labs went from spending billions of dollars on rl environments to a trillion dollars, would you get the kind of thing that is a fully human-like general intelligence within the context window?
+[06:54] Speaker0: Dario gave a telling quote during our podcast together, which i think hints that rlvi our generalization is not infinitely strong, but he was explaining why model performance tends to degrade at long context.
+[07:05] Speaker0: He said, there's two things.
+[07:07] Speaker0: There's the context length you train at, and there's a context length that you serve at.
+[07:11] Speaker0: If you train at a small context length, and then try to serve at a long context length, like maybe you get these degradations.
+[07:17] Speaker0: Now, maybe i'm reading too much into this, but it seems like he's saying that short horizon rl training doesn't necessarily generalize to long horizon rl performance.
+[07:25] Speaker0: And if you can't generalize from short horizon to long horizon, then how are agents supposed to generalize from getting trained at a bunch of white collar tasks to say having the ability to be dropped in the real world and build a business from scratch as well as sam walton?
+[07:40] Speaker0: And even if after enough in context experience, the ais could become like henry ford or robert einstein, all that would be ephemeral and wasted, if you couldn't get those learnings back into the weights.
+[07:50] Speaker0: Around 30 to 50% of a lapse compute goes to inference and that compute is currently not playing any productive role in helping improve the model.
+[07:58] Speaker0: This is like a huge waste and it's even worse than it sounds because it is only in deployment that the most valuable bits of information which your model could learn from are actually revealed things like what's actually happening in the organizations where i'm being used and what are they using before and what kinds of mistakes do i tend to make in the real world?
+[08:16] Speaker0: We've got some genius grad student who's never been allowed to take a real internship, and we keep giving it more and more classroom case studies in the form of rl training on environments.
+[08:25] Speaker0: It's so bizarre that we have ais that are broadly deployed through the economy already, and are participating in so many different kinds of tasks, and are privy to so much domain and organization specific tacit knowledge.
+[08:39] Speaker0: And they're not able to make use of it.
+[08:41] Speaker0: But this kind of continual learning requires going back to the weights.
+[08:45] Speaker0: Ai's can't just keep building up a bigger and bigger kv cache as they learn from more and more users.
+[08:50] Speaker0: That's just not scalable.
+[08:51] Speaker0: And that's also not how humans do it.
+[08:53] Speaker0: There's no clean separation in our brain between parameters and activations, and it's not like some part of your skull keeps expanding as you learn more things through your lifetime.
+[09:03] Speaker0: When we learn stuff, there's clearly some kind of compression.
+[09:06] Speaker0: And this aids our generalization and grocking.
+[09:10] Speaker0: There are, in fact, some humans who have this autistic savant-type ability to recall random tables of numbers or nonsense syllables years later, basically the kind of fidelity information that models have in context.
+[09:23] Speaker0: And such sheer volume cripples these humans' ability to understand abstractions and metaphors.
+[09:29] Speaker0: Human continual learning is less about having all your observations at the tip of your tongue, and more about chiseling the right intuitions and big-picture knowledge.
+[09:37] Speaker0: Back into the weights, but the moment you move into the weights, you have to give up on in-context learning sample efficiency because grading updates are super sample inefficient.
+[09:46] Speaker0: All of the successfully shipped online learning models have had to learn the exact same thing across millions of users.
+[09:52] Speaker0: For example, the cursor tab model online learns by predicting the same exact objective for over 400 million requests a day.
+[10:00] Speaker0: The objective here being which edits actually got accepted by the user.
+[10:04] Speaker0: At least so far, we haven't seen models online learn different kinds of things for different users.
+[10:10] Speaker0: Because while a single session may generate more than enough data for a human to learn from, it's not enough to train a more capable ai.
+[10:18] Speaker0: Current online learning can work for a very limited number of use cases, but the whole point of continual learning is that the world is very complicated, in each job, and company, and problem.
+[10:30] Speaker0: Is different, and you need your intelligence to be able to learn the specific information related to a particular deployment, which simply can't be stuffed into some shared training run.
+[10:41] Speaker0: These are all the things we're talking about when we talk about on the job learning.
+[10:44] Speaker0: Things like how does everything in your organization work and fit together, and how to cooperate with all the infrastructure and the other people around you to make progress on some larger project.
+[10:54] Speaker0: And what the common failure modes are.
+[10:56] Speaker0: And many other things like this.
+[10:58] Speaker0: As the podcast has grown, i've had to deal with more and more operational overhead.
+[11:02] Speaker0: Take paying bills.
+[11:03] Speaker0: In the past, contractors would just email me their invoices.
+[11:06] Speaker0: Every few weeks, i dig through my inbox, i'd create a folder with all the bills, and i'd manually pay each one.
+[11:11] Speaker0: At this point though, i just give everybody an email address that goes straight to mercury, which is my banking platform.
+[11:17] Speaker0: Whenever anybody sends an invoice to that address, mercury automatically downloads it, scans it, and extracts all the relevant information.
+[11:24] Speaker0: Things like the contractor name, address, payment amount, invoice number, and due date, and then uses all of this to create a draft payment.
+[11:31] Speaker0: Mercury then stores a list of these drafts for me to review.
+[11:33] Speaker0: I just go through this list and double check that i've been built correctly.
+[11:36] Speaker0: I don't have to track anything or enter any information myself.
+[11:40] Speaker0: Mercury does all the fundamental things for your business extremely well, and it puts them all in one place.
+[11:44] Speaker0: If you want to learn more, go to mercury dot com.
+[11:48] Speaker0: mercury is a fintech company, not an fdic insured bank.
+[11:52] Speaker0: banking services provided through choice financial group and column na members fdic.
+[11:57] Speaker0: In this way, sample efficiency and continual learning are actually deeply connected problems.
+[12:03] Speaker0: Relatively little data is available to the model on the job.
+[12:07] Speaker0: Now, to learn from this data requires sample efficiency.
+[12:09] Speaker0: And models can do that in context, but using the fast weights that are built on the fly by attention, which allows for the sample efficiency, but scales very poorly in terms of memory.
+[12:20] Speaker0: So, we need architectural innovations that allow for some kind of intermediate representation.
+[12:25] Speaker0: I talked before about how we already have many different working ideas for this kind of thing, from sparse attention to kv cache compaction.
+[12:32] Speaker0: And every week somebody releases a new paper suggesting some kind of other architectural optimization.
+[12:37] Speaker0: It doesn't seem to me that architecture is fundamentally what is bottlenecking continual learning.
+[12:42] Speaker0: So perhaps the bottleneck is the loss function.
+[12:44] Speaker0: How do we update the weights?
+[12:46] Speaker0: Aka, how do we improve the model itself based on information that was learned from one particular session?
+[12:53] Speaker0: Even here, naively, it seems like there are many ideas that ought to work.
+[12:56] Speaker0: A lot of people are talking about this technique called on-policy self-distillation recently.
+[13:01] Speaker0: If you want to learn more about it, i recorded a little impromptu blackboard lecture on my iphone with sasha rush a couple weeks ago, and it's in the link in the description.
+[13:09] Speaker0: But to summarize the explanation, the idea is that we encourage the base model to make the same predictions when trying to solve some real world problem.
+[13:18] Speaker0: As the model with all the context accumulated after a long session would have made.
+[13:22] Speaker0: The whole point of this procedure is to distill what the model learned in a session back into the weights themselves.
+[13:29] Speaker0: This is better than rlvr for two reasons.
+[13:31] Speaker0: One, opsd doesn't require us to have some outer loop verifiable reward.
+[13:36] Speaker0: We just need a model that can learn the right things within the context window.
+[13:40] Speaker0: And as long as we have that, we can train the base model to match our veteran teacher model.
+[13:45] Speaker0: Which is built up all this experience during the session and two opsd provides a much denser supervision signal than naive rl instead of projecting a single reward through the whole trajectory.
+[13:57] Speaker0: You can train on the per token probability discrepancy between the teacher and student for continual learning.
+[14:03] Speaker0: Opsd is also superior to supervised fine-tuning.
+[14:06] Speaker0: The most naive version of sft for this application that you can imagine is just to train the base model to predict all the tokens that are observed during the session.
+[14:14] Speaker0: But this makes no sense if you think about it as a learning target.
+[14:16] Speaker0: The way you get better at your job is not by recalling the transcript of every single thing that happened every day with perfect fidelity.
+[14:23] Speaker0: Rather, it's by consolidating the handful of insights and pieces of knowledge that are actually relevant to you getting better at your job.
+[14:30] Speaker0: Rl trading doesn't suffer from this failure mode.
+[14:32] Speaker0: Rl is great at concentrating the update to only what is relevant to getting the outcome right.
+[14:38] Speaker0: That's why actually very few parameters are changed during an rl training step, and this is a very important property for continual learning, because as you're learning on the job, we don't want to overwrite and forget all the other things that the base model knows.
+[14:51] Speaker0: I wrote a post a few months earlier arguing that rl learns much less information per sample than supervised learning.
+[14:58] Speaker0: But this may be a good thing rather than a bad thing.
+[15:00] Speaker0: You only change the model as much as is absolutely necessary to achieve the outcome, and no more.
+[15:07] Speaker0: Opsd preserves this property of supervised learning.
+[15:10] Speaker0: We're instead of slingshotting towards a teacher distribution, as supervised learning would have you do, you only extract the knowledge that is necessary for you to achieve the same results of the teacher.
+[15:20] Speaker0: On actual real world tasks.
+[15:22] Speaker0: Opsd is one way to attack the sample efficiency problem.
+[15:26] Speaker0: You take the scarce real world experience and you squeeze all the signal into a tiny well-targeted update.
+[15:31] Speaker0: But there's also another much more speculative idea.
+[15:34] Speaker0: Let's call it dreaming.
+[15:36] Speaker0: If the ai can build a good simulation of reality against wish to rehearse new skills or try alternative strategies and reinforce what actually works, then ai could experience orders of magnitude more simulated samples.
+[15:49] Speaker0: In the same wall clock time, let's go back in history a bit.
+[15:53] Speaker0: A couple years after deepmind released alpha zero, a group of researchers trained a model called efficient zero.
+[15:58] Speaker0: And the whole point of this model is to be very efficient with data.
+[16:01] Speaker0: So, if this model and a human both got two hours to play against a simulator of an atari game that they hadn't seen before, this model would actually probably beat the novice human.
+[16:11] Speaker0: Does this mean that the model was more sample efficient than the humans?
+[16:14] Speaker0: Well, that was the goal of the training, but it depends on how you measure sample efficiency.
+[16:19] Speaker0: Because for each step in the real game, efficient zero is playing dozens of simulated games in its head.
+[16:25] Speaker0: In a similar way, future llms might be able to consume far less real world data while practicing endlessly against environments that they build for themselves.
+[16:34] Speaker0: The big difference, of course, is that it will be much harder to build a simulation of the whole world than it is to emulate the game of go.
+[16:41] Speaker0: That's why i said this is a much more speculative idea.
+[16:44] Speaker0: If it works, it would become a fourth axis of scaling alongside pre-training rl and inference time compute.
+[16:50] Speaker0: You call it test time trading or dreaming the model spends compute writing up rl environments and then training against them and it's rehearsing all the skills that will actually be used in production for a specific user.
+[17:03] Speaker0: So instead of hitting forward slash compact in codex or cursor or cloud, which kindles a small amount of compute to write up a summary.
+[17:11] Speaker0: And which gives you the simulacrum of continuous learning, you hit forward slash dream and this incinerates, huge amounts of compute to build and train against the video game version of what the model is witnessing in the real world.
+[17:24] Speaker0: So what might continual learning look like by 2027 or 2028?
+[17:27] Speaker0: And how do we get there?
+[17:29] Speaker0: Here's one scenario.
+[17:30] Speaker0: All of this rlvr training is producing an agent that can get its bearings when it's thrown at an unfamiliar problem and it can try different strategies and they can iterate when it hits a roadblock.
+[17:40] Speaker0: This is the crucial thing that rlvr has given you, an ai that is at least competent enough to start getting some real world experience, if you could learn from it.
+[17:50] Speaker0: And once you have that, you send it out into the world to do real work, even on projects that are off the trading distribution.
+[17:56] Speaker0: Now, let's say at this point, the effective context lengths have expanded, such that ais can jam and co-work with you.
+[18:03] Speaker0: For a full week of wall clock time.
+[18:06] Speaker0: At the end of a week, you give it a thumbs up or a thumbs down, give it a work review.
+[18:10] Speaker0: And if you give it a thumbs up, the base model distills everything that the ai learned during the session.
+[18:15] Speaker0: And it may use opsd, it may use dreaming, it may use some other technique that we aren't even aware of.
+[18:20] Speaker0: Or it'll use a combination of all of the above.
+[18:23] Speaker0: And once it does so, the ai starts getting better at domains that are adjacent to what it was explicitly trained to beforehand with rlvr training.
+[18:32] Speaker0: And in the next round after that, it can get better at things that are adjacent to what it had previously online learned.
+[18:37] Speaker0: In this way, the gamut of ai skills and knowledge and capabilities can expand far beyond the verifiable domains that the model was originally trained against before it was deployed.
+[18:48] Speaker0: Just as pre-training created a base intelligence that was smart enough to become a competent agent with enough rlvr on top.
+[18:55] Speaker0: So rlvr has created an agent.
+[18:58] Speaker0: That is competent enough to be actually broadly deployed in the world, and from this broad deployment, to learn on the job, once the training recipe for continual learning actually arise.
+[19:08] Speaker0: By this point, the main way that ais get better is not from the training they have received before they are released to the public.
+[19:15] Speaker0: Rather, it's from all this experience that they'll be accumulating from being broadly deployed in the economy, and engaging in so many different kinds of tasks.
+[19:22] Speaker0: Every time that you interact with the ai, it'll be smarter.
+[19:25] Speaker0: Not only because it's been learning from your previous sessions, but also because it's been learning from all its interactions with all the other users in the world.
+[19:33] Speaker0: And that's very scary and exciting and different from the way that ai improves right now.
+[19:38] Speaker0: This was an aeration of a blog post that i also released on my website at dwarkash.
+[19:44] Speaker0: com.
+[19:44] Speaker0: Go there if you want to read all the footnotes, or if you want to sign up so you can find out when i release the next blog post.
+[19:50] Speaker0: Otherwise, I'll see you on the next episode.
