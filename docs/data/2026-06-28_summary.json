@@ -1,0 +1,57 @@
+{
+  "date": "2026-06-28",
+  "generated_at": "2026-06-27T23:35:00.477851+00:00",
+  "stats": {
+    "tweets": 7,
+    "podcasts": 1,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "AI 工程师社区领袖、Latent Space 创始人 Shawn \"Swyx\" Wang。他指出随着 OpenAI 与 Anthropic 都在组建数十亿美元规模的服务（Services）部门，前向部署工程师（FDE，Forward Deployed Engineer）已成为全球最抢手的岗位之一，并据此筹办了首届 AI FDE 迷你大会。他还提到通过与对齐的领域专家合作来\"无注水\"地扩展内容覆盖面。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI Codex 团队负责人 Thibault Sottiaux。针对一次服务事件，他宣布为所有 Codex 用户免费重置一次用量额度，并表示已采取缓解措施、调查显示大规模用户并未受影响，团队仍在持续监控。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品与 AI 创作者 Peter Yang。他提出与主流相悖的观察：当下大量资金正流向\"服务\"（捆绑少量软件）而非纯软件，因为人们要的是结果而非工具，做一家纯软件公司很难比直接用 Codex/Claude Code 加上一堆个人 skills 和 agents 更有价值。他还借美国 AI 政策连环逻辑发问：发布前沿模型→被蒸馏成廉价开源模型→美国公司因够用且便宜转而采用开源模型→开始限制前沿模型访问，最终结果可能是美国公司创新减少、开源模型更具吸引力。"
+    },
+    {
+      "author": "Nan Yu",
+      "handle": "thenanyu",
+      "summary_zh": "Notion AI 负责人 Nan Yu。他分享一则组织管理洞见：\"秘密第 6 级\"是识别出问题但判断其不值得解决、从而选择不去碰它；这正是为什么拥有大量\"第 1 级\"执行者的组织能够取胜——他们不会被支线任务分心。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 创始人兼 CEO Guillermo Rauch。他指出 AI agents 是极难调试的软件：模型设计上就具有非确定性（相同提示未必产生相同输出），同时 agents 还是涉及多步计算、跨函数与沙箱、调用数十个可能宕机或限流的 API 服务的复杂分布式系统，因此把开箱即用的可观测性做好是团队的首要任务。他还盛赞 shadcn 是\"AI 时代的 UI\"。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 联合创始人兼 CEO Aaron Levie。他对 GPT-5.6 给出大胆乐观判断：该模型真实存在且表现非常强劲，尤其适合需要大量工具调用和长时运行 agents 的知识工作者任务，并强调当前 AI 进展\"没有撞上任何墙\"。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator 总裁兼 CEO Garry Tan。他对某家公司的模型发布方式提出尖锐批评，认为这种发布与持续开发方式实质上是在\"焦土化\"、扼杀所有小型初创公司的创新空间。他还转发并认同\"不要做一家平庸初创公司\"的观点。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "No Priors",
+      "title": "Why Traditional Benchmarks Fail Modern AI Models with OpenAI Research Scientist Noam Brown",
+      "date": "2026-06-26 10:13 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/watch?v=AZrU6y3pUcU",
+      "summary_zh": "No Priors 对话 OpenAI 研究科学家、推理范式奠基人 Noam Brown，核心论点：传统基准评测已失效，因为模型能力如今是投入算力（钱）的函数。同一道题，给 **10 美元**、**1 万美元** 与 **1000 万美元** 推理预算，结果天差地别；GPT-3 时代砸 1000 万美元也榨不出更多，今天则不然。\n\n评测谬误：各家发布时惯用的\"基准网格\"（benchmark grid）只给单一分数，不控制测试时算力（test-time compute）。5.5 初发布遭质疑提升不大，实因其思考更高效——若按 5.4 的思考时长拉满，5.5 实为显著跃升。Brown 主张评测应设预算上限（token/成本/时间），或把性能画成算力的函数曲线。如今模型经合理 scaffold 可连续思考数周乃至数月仍不收敛；AISI 评测显示模型跑到 **1 亿 token** 仍在提升。\n\n\"基准刷分\"陷阱：把模型跑 **5** 次取最优或加裁判，分数虚高，但控制算力后并无真实优势。OpenAI 内部坚持不针对特定基准优化，并保留私有 held-out 测试集。\n\n安全评测的\"不便真相\"：各实验室的\"准备度框架/责任扩展政策\"成形于 ChatGPT 时代，未计入算力维度——既然能力随预算无上限增长，危险能力（如生物武器）也同理，却无人界定该按何种预算评测。真正验证长程能力可能需让模型实跑一年，与每 **2-3 个月** 一次的发布节奏严重错位，故无人真正知道现有模型的能力天花板。\n\n延迟能力实例：OpenAI 用内部模型以\"极低成本\"反驳了 Erdős 单位距离猜想；事后发现对 5.5 加 scaffold 也能得出，成本约 **1000 至 10 万美元**。每代发布后此类成本降 **10-100 倍**，故\"与其做工程不如等下一个模型\"的梗有其道理。\n\n对递归自我改进（RSI）持温和派：不认为存在\"一夜智能爆炸\"。模型对事实检索类问题加算力无益，对数独类则可无限提升，多数任务居中；当前模型缺乏\"研究品味\"，是研究者的补充而非替代。最大瓶颈是时间——模型需实际跑足够久才能产出强结果。看好多智能体（multi-agent）与模型间知识共享/协同的长期潜力（类比人类文明的知识累积）。三大实验室竞争激烈但都认知到风险。Brown 称已信任模型做高风险决策（税务、买房），可信度甚至超过人类专家。路由层（routing/consensus）能提升性能，但仍须在同一算力标尺下衡量，并警惕基准与真实场景的偏差。"
+    }
+  ],
+  "articles": []
+}
