@@ -1,0 +1,57 @@
+{
+  "date": "2026-06-29",
+  "generated_at": "2026-06-28T23:35:25.085263+00:00",
+  "stats": {
+    "tweets": 7,
+    "podcasts": 1,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "AI 工程师大会创办人、Latent Space 主理人 Swyx（@swyx）提出一个与主流报告方式相悖的观点：既然 Noam（Brown）主张在评测报告中应固定推理预算，那么衡量\"思考量\"的更合理坐标轴不应是 token 数量，而应是在主流推理服务商上的\"美元成本\"。他指出开源模型在每美元 token 产出（dollar-per-token mileage）上远胜闭源模型 API，因此任何今天发布开源模型、或在情境上倾向开源的厂商，都应按美元推理成本而非 token 数来汇报不同思考档位的表现。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI Codex 负责人 Thibault Sottiaux（@thsottiaux）发布 Codex 的一批产品更新：可流畅处理超长会话线程；新增可悬停的导航栏用于在不同回合间预览和跳转；设置搜索覆盖更多控制项并优化外观、host 过滤与自定义服务商配置；修复缩放级别导致工具提示、对话框、菜单等错位的问题；复制到 Slack 时保留 Markdown 格式（项目符号、粗体、代码、链接），大段文本粘贴不再卡死 UI；并\"最重要地\"新增了一个专属的\"宠物面板\"（Pets panel，多为玩笑性彩蛋）。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品增长专家、前 Meta/Roblox 产品经理 Peter Yang（@petergyang）分享了其用 AI 助手 Hermes 搭建的个人健康工作流：每周六自动发来健康简报，数据来自 Withings 智能体重秤 API、Fitbit 与 Google Health，以及他自己 vibe-coded 的 MCP 服务器和健身 App。他还就某\"问题分级\"框架提出反对意见：若拖到\"5 级\"才上报问题、且自以为的解决方案根本没奏效，处境反而比一开始就坦诚上报、共同找解法的\"1 级\"更糟，强调凡事有 nuance、不应非黑即白。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 创始人兼 CEO Guillermo Rauch（@rauchg）就 AI 网络安全能力发出警示：Mythos / Sol 这类前沿模型的安全能力在进攻与防御上同样强大，若被对手获得对等的进攻能力，将对那些尚未意识到自身潜在漏洞的美国公司构成严重威胁。他强烈建议企业现在就用 deepsec 等测试框架配合可用的前沿模型主动排查漏洞。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 联合创始人兼 CEO Aaron Levie（@levie）阐述了应用层 AI 公司的核心打法：真正的 AI token 成本优化离不开对底层工作流的非抽象式深度理解，因此需要在\"工作本身\"与\"底层智能\"之间存在一个深度理解业务流程、上下文的中间层。单个企业自建难以规模化奏效，而应用型 AI 公司通过针对场景做模型评测、深耕领域、打磨 UX 与功能、并借助前向部署工程师（FDE）支持落地与变革，能让企业以最优架构获得\"每美元更多智能\"、更高 ROI。他判断横向与纵向都会涌现大量此类机会，是当下的巨大风口。"
+    },
+    {
+      "author": "Matt Turck",
+      "handle": "mattturck",
+      "summary_zh": "FirstMark 合伙人、知名投资人 Matt Turck（@mattturck）以一段调侃式的\"智能眼镜简史\"表达其怀疑态度：从 2013 年谷歌、2016 年微软（转向企业）、2023 年 Meta（外观正常加 AI）、2024 年苹果（3,499 美元覆盖整张脸），到 2026 年 Snap\"这次来真的\"，每一代厂商都极力推销，而大众的回应始终是\"不需要\"，暗示智能眼镜品类至今仍未真正打动消费者。"
+    },
+    {
+      "author": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "summary_zh": "投资人、播客主持人 Zara Zhang（@zarazhangrui）分享了 AI 时代非工程师的\"vibe coding\"经历：一年前她还几乎不懂 GitHub 如何运作，如今已在 GitHub 上拥有 1 万关注者，却仍然不会手写代码。她强调这些都是出于兴趣搭建的副业项目，自己并非工程师，热衷于用技术连接并解决真实用户痛点、再讲述产品故事，折射出 AI 工具大幅降低开发门槛的趋势。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "Training Data",
+      "title": "Memory and Continual Learning: Engram's Dan Biderman and Jessy Lin",
+      "date": "2026-06-24 14:22 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/watch?v=aiR7F4jqjXY",
+      "summary_zh": "本期为红杉 Training Data 访谈 Engram 两位联合创始人 Dan Biderman（神经科学背景）与 Jessy Lin。Engram 是专注**记忆（memory）**与**持续学习（continual learning）**的新实验室，核心论点：当下模型瓶颈不是原始智能，而是对新的、不断演变的上下文的理解；应把这些知识真正\"烧进\"权重，而非仅靠 context engineering、超长 prompt 或外置数据库（RAG）解决。\n\n商业模式：为团队/工作区训练专属模型，使其像在公司工作多年的员工一样深度理解上下文。已与 **Notion、Microsoft、Harvey** 等合作。技术上做大量 adapter 微调（LoRA、prefix、稀疏架构），结合 SFT、RL、on-policy distillation；需白盒权重访问，开源 transformer 模型最易实施，闭源需与厂商合作。\n\n关键量化主张：把组织/团队/优先级类隐性知识训练进权重后，推理 token 消耗可降低**两个数量级（100x）**，而非仅 50%——前沿模型需 **10 万 token** 回答的问题，专属模型 **100 token** 即可。定位为\"RAG killer\"，但强调 RAG/工具仍会共存，难题在于判断何者内化、何者外置。\n\n技术洞察：KV cache 效率极低——单篇维基（如 Taylor Swift）文章的 KV cache 约 **80GB HBM**，而一个 **70B Llama** 模型全部权重约 **100GB** 却\"记住了整个互联网\"。Engram 想离线压缩这部分状态，做到加载体积缩小 **约 1000x**。\n\n行业判断：前沿实验室 P0 是 AGI（更大模型、更多预训练/RL/推理算力），记忆与持续学习仍偏产品层、需独立突破（引 Demis 一月前红杉活动观点）。愿景：人人拥有不同于前沿模型的专属模型，研究与产品需更紧密闭环；长期或可像生物技能一样在合规前提下\"携带\"个人习得的能力跨工作场景。两人自认同样\"bitter lesson pilled\"，押注在未见过的新上下文上继续烧算力。投资视角看：押注个性化小模型与权重内化对 RAG/向量检索及推理 token 经济模型构成潜在颠覆，但何为内化/外置仍是未解难题。"
+    }
+  ],
+  "articles": []
+}
