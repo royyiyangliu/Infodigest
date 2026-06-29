@@ -1,0 +1,293 @@
+{
+  "fetch_date": "2026-06-30",
+  "fetch_time": "2026-06-29T19:03:48.056865+00:00",
+  "stats": {
+    "new_podcast_episodes": 1,
+    "new_articles": 1,
+    "new_tweets": 21,
+    "total_podcasts": 1,
+    "total_articles": 1,
+    "total_tweets": 21,
+    "transcribed_this_run": 1
+  },
+  "podcasts": [
+    {
+      "source": "晚点聊 LateTalk",
+      "title": "170: 【具身季报 26Q2】世界模型大风不停，和不想被贴标签的人",
+      "date": "2026-06-29 11:30 UTC",
+      "link": "https://podcasts.apple.com/us/podcast/%E5%85%B7%E8%BA%AB%E5%AD%A3%E6%8A%A5-26q2-%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E5%A4%A7%E9%A3%8E%E4%B8%8D%E5%81%9C-%E5%92%8C%E4%B8%8D%E6%83%B3%E8%A2%AB%E8%B4%B4%E6%A0%87%E7%AD%BE%E7%9A%84%E4%BA%BA/id1564877433?i=1000774527422&uo=4",
+      "orig_link": "https://podcast.latepost.com/170",
+      "audio_url": "https://aphid.fireside.fm/d/1437767933/19a49f52-28ee-4e25-b8e9-4f0ee70917e0/9ee6b3d1-97e6-46c6-b0fb-d79c5c0f0677.mp3",
+      "duration": "1:53:50",
+      "summary": "「人形马拉松、Figure AI 直播、中国灵巧手亮相 ICRA、英伟达Cosomos3 & 世界模型投资热、Generalist 和 Pi 的模型进展。」\n这期是《晚点聊》「具身季报」系列第二期，我继续邀请风投机构 Alphaist 的创始合伙人陈哲，来和我们分享最新的具身智能动态和趋势。\n本期节目也会在 Alphaist 的播客\n《The Alphaist》\n串台播出。\n本期季报，依然按 TOP 5 进展和事件展开，包括：\n人形机器人马拉松：荣耀夺冠的更多意味\nFigure 的 200 小时直播：物流为什么是人形机器人好场景？\n灵巧手和灵巧操作：谁是手中 G1？\n英伟达的世界模型 Cosmos 3 和世界模型创投热\n全球领先的具身模型进展： GEN-1 和 π 0.7。\n我们也延展讨论了一些资本市场的变化、新玩家进入——OpenAI 的 Robotics team 官宣——和行业落地 vs 推进智能的节奏与取舍。\n图注：英伟达对“robotics”领域世界模型的分类。\n图注：Figure AI 直播截图，机器人要处理的任务是在流水线上快速地翻转包裹，让二维码一面朝上。\n本期嘉宾：\n陈哲，Alphaist Partners 创始合伙人\n本期主播：\n程曼祺，晚点科技报道负责人\n剪辑：甜食\n时间线：\n02:54 -Q2 Top 5 总览\n07:17 -人形马拉松，荣耀夺冠、大厂加码的先声\n-Figure 连续直播\n14:56 物流，为何是人形机器人的好场景？\n21:19 遥操从不是争议点，是真实部署时的必要模块\n25:24 星动纪元合作中国邮政，总结过往 to B 机器人的场景选择\n28:55 数采范式的 3 次变化\n-灵巧手和灵巧操作\n34:48 ICRA 最大亮点：舞肌等中国高自由度灵巧手\n43:03 灵巧操作：Demo 很惊艳，技术在早期\n53:32 再论直驱和绳驱：大厂继续跟绳驱（Optimus），长期仍看好直驱\n-世界模型\n01:02:57 英伟达 Cosmos 3：从生成视频到直接生成动作\n01:08:51 具身的世界模型分类：3 个相交圆\n01:14:04 世界模型投资热：大模型教会投资人的事，追逐智能\n-Gen-1、π0.7 和不在标签里的公司\n01:19:55 π0.7：VLA 融合轻量世界模型\n01:22:46 Gen-1：从头预训练，不被路线定义\n01:28:40 Google 发布 ER1.6，OpenAI Robotics 团队官宣\n-更多讨论\n01:37:56 智能部分是否赢家通吃？Omni 模型是个变量\n01:42:46 “对长期不确定性探索的容忍度依然差”\n01:47:50 -下季度展望\n：终端大厂加快入场\n相关链接：\n157 期：\n【具身季报 26Q1】宇树招股书、人形再思考、英伟达世界模型、高自由度灵巧手\n上次季报至今，我们在具身智能、物理 AI 方向的访谈:\n166 期：\n许华哲再次具身创业：不想错过最大的西瓜\n165 期：\nGEAR 高深远：世界模型、自进化循环、DreamDojo\n161 期：\n原力灵机唐文斌：中国最早的 AI 创业者和他的具身新旅程\n160 期：\n群核IPO后与黄晓煌聊这15年：被嫌弃的GPU、冠军酷家乐、空间智能、六小龙\n小红书@\n曼祺_火柴Q\n即刻@\n曼祺_火柴Q\n☆《晚点聊 LateTalk》建立「 播客听友群」啦！☆\n欢迎关注科技、商业大公司动态和创业创新的小伙伴进群交流，第一时间收听新节目。\n这里有更多互动，更多话题讨论。欢迎贡献选题 & 推荐嘉宾。\n请先添加「晚点」小助手的微信",
+      "lang": "zh",
+      "chars": 62084,
+      "text_file": "data/2026-06-30/podcasts/晚点聊_latetalk__170_具身季报_26q2世界模型大风不停和不想被贴标签的人.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "a16z",
+      "title": "The 2026 Summer Reading List",
+      "date": "2026-06-29 14:02 UTC",
+      "link": "https://www.a16z.news/p/the-2026-summer-reading-list",
+      "summary": "America | Tech | Opinion | Culture | Charts",
+      "chars": 20033,
+      "text_file": "data/2026-06-30/articles/a16z__the_2026_summer_reading_list.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2071480924810969331",
+      "date": "2026-06-29T06:28:33.000Z",
+      "text": "we registered 1000 people today. this is what it looked like at hour 3.\n\ntmr and tuesday going to be absolutely batshit https://t.co/GXHMEG7dlN",
+      "url": "https://x.com/swyx/status/2071480924810969331",
+      "likes": 17,
+      "retweets": 2,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2071478551950614586",
+      "date": "2026-06-29T06:19:07.000Z",
+      "text": "if youre a speaker make your own https://t.co/eWyUjkEY7F",
+      "url": "https://x.com/swyx/status/2071478551950614586",
+      "likes": 6,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2071478390172049555",
+      "date": "2026-06-29T06:18:29.000Z",
+      "text": "because i'm not a design engineer myself, this track is one of the harder ones I struggle to curate.\n\nvery fortunate to befriend Geoff who has lent a hand to the past 2 years of AI UX meetups, and now is the opener for the Design Engineers at AIE! see you wednesday https://t.co/TrqetNnJQB https://t.co/SE8lTOGP7q",
+      "url": "https://x.com/swyx/status/2071478390172049555",
+      "likes": 17,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2071319131144790064"
+    },
+    {
+      "source": "Boris Cherny",
+      "handle": "bcherny",
+      "tweet_id": "2071379474277613732",
+      "date": "2026-06-28T23:45:25.000Z",
+      "text": "As engineering, product, design, DS, etc. melt into a new kind of role, I was reflecting on what roles might look like in the future. For example, when I look at the Claude Code team I see what I think is five archetypes:\n\n1. Prototyper: comes up with brand new ideas; churns out many ideas, most of which don't ship\n2. Builder: quickly turns a prototype/idea into production-grade product/infra\n3. Sweeper: cleans up the UI, simplifies the code and system, unships, optimizes performance\n4. Grower: takes a product that has been built and iterates on it to improve Product-Market Fit\n5. Maintainer: owns a mature system to make it secure, reliable, fast, and efficient as it scales\n\nMany people span across 2 roles, and sometimes 3 roles. I also notice that these roles are not really tied to job function -- eg. across Anthropic, some designers match category 1, some 2, some 3; same for engineers, PM, DS.\n\nA healthy team needs a mix of these, depending on the product:\n\n- A product that is new and pre-PMF needs people that are strong at 1+2+3\n- A product that is growing and has found PMF needs 2+3+4 and some 5\n- A product that has strong PMF needs 3+4+5 and some 2\n\nMaybe product roles of the future will look more like this, and less like the domain-specific roles of today?",
+      "url": "https://x.com/bcherny/status/2071379474277613732",
+      "likes": 11598,
+      "retweets": 1254,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2071383430634344902",
+      "date": "2026-06-29T00:01:08.000Z",
+      "text": "If you happened to have used your previous reset in the few hours before and didn't go through your usage, do not worry, you will get more manual resets after we conclude the investigation.",
+      "url": "https://x.com/thsottiaux/status/2071383430634344902",
+      "likes": 747,
+      "retweets": 18,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2071381664853319742",
+      "date": "2026-06-28T23:54:07.000Z",
+      "text": "As we are still investigating, I have reset everyone's Codex usage limits. This is a hard reset given some users had stacked up to three banked resets already that they can apply on their own schedule.\n\nFunnily enough, this week at OpenAI is called the RESET week, which is meant for folks to relax a bit. However it will be a different kind of RESET week. Enjoy.",
+      "url": "https://x.com/thsottiaux/status/2071381664853319742",
+      "likes": 4714,
+      "retweets": 245,
+      "is_quote": true,
+      "quoted_id": "2071357473659707441"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2071357473659707441",
+      "date": "2026-06-28T22:18:00.000Z",
+      "text": "Codex team is in a warroom on a Sunday combing through logs and checking whether there is anything that could lead to increased usage drains for some users. Taking it very seriously and won't rest until we get to the bottom of it. https://t.co/r7kYwqKjT2",
+      "url": "https://x.com/thsottiaux/status/2071357473659707441",
+      "likes": 3667,
+      "retweets": 94,
+      "is_quote": true,
+      "quoted_id": "2071268204157018511"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2071353107242774863",
+      "date": "2026-06-28T22:00:39.000Z",
+      "text": "I’ll be honest with you all I still don’t know what Agentforce is https://t.co/NksangcHzz",
+      "url": "https://x.com/petergyang/status/2071353107242774863",
+      "likes": 45,
+      "retweets": 1,
+      "is_quote": true,
+      "quoted_id": "2071295201608687839"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2071292628302434361",
+      "date": "2026-06-28T18:00:20.000Z",
+      "text": "How Anthropic PMs use agents internally to get closer to the product from Jess, product lead for Claude Managed Agents:\n\n“Access to our codebase has been the biggest unlock for me.\n\nIt helps me manage state more easily. Rather than poking a bunch of engineers on what they’re doing, I can just track the PRs directly and see which ones are merged, which ones are deployed.\n\nI deeply understand and interact with my product so much more than I’ve ever been able to in the past.”\n\n📌 Watch the full episode here: https://t.co/rYIC7uyDpJ\n\nhttps://t.co/8YMfGN06fl",
+      "url": "https://x.com/petergyang/status/2071292628302434361",
+      "likes": 75,
+      "retweets": 8,
+      "is_quote": true,
+      "quoted_id": "2071235979369972033"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2071288846046884051",
+      "date": "2026-06-28T17:45:18.000Z",
+      "text": "Taste 😅 https://t.co/TE9MyaL4Kk",
+      "url": "https://x.com/petergyang/status/2071288846046884051",
+      "likes": 8,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2071474384456573329",
+      "date": "2026-06-29T06:02:34.000Z",
+      "text": "not true! https://t.co/YhpPps2XNW",
+      "url": "https://x.com/trq212/status/2071474384456573329",
+      "likes": 28,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2071470342195785894"
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2071419473433854221",
+      "date": "2026-06-29T02:24:22.000Z",
+      "text": "this has to be because coding agents change the engineering math on how it is to work with or port a legacy codebase, right?\n\nanyone at Riot able to confirm? https://t.co/9vsCzsbmYY",
+      "url": "https://x.com/trq212/status/2071419473433854221",
+      "likes": 660,
+      "retweets": 3,
+      "is_quote": true,
+      "quoted_id": "2070602208157003935"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2071287181650653372",
+      "date": "2026-06-28T17:38:41.000Z",
+      "text": "You need a Link, not a LinkedIn 😂",
+      "url": "https://x.com/rauchg/status/2071287181650653372",
+      "likes": 500,
+      "retweets": 12,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2071284129275285580",
+      "date": "2026-06-28T17:26:33.000Z",
+      "text": "You don't need a LinkedIn, you need a page on your website describing and linking to what you shipped",
+      "url": "https://x.com/rauchg/status/2071284129275285580",
+      "likes": 6235,
+      "retweets": 304,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Aaron Levie",
+      "handle": "levie",
+      "tweet_id": "2071253118252356001",
+      "date": "2026-06-28T15:23:20.000Z",
+      "text": "It should be 100% obvious that there will soon be mythos level models on cyber security that are open and available to anyone. As a byproduct of this, alternative tech stacks will emerge that also drive more economic value and control away from the US’s tech stack.\n\nThis is what should be considered when thinking through the gate keeping you want to have in AI. If advanced models will become open and available regardless, then by not allowing the release of models you’re neither more secure nor better off strategically.\n\nSo much of the regulatory approach to AI has to assume China can’t catch up, when all current evidence suggests they can and are. And further, hard to imagine a higher priority than winning in AI for China; so you’re basically betting against their long term ingenuity, talent and motivation. Seems like a bad bet.\n\nSo your options are either to create gates around your best models, which means you’re asymmetrically disadvantaging yourself, or you work to ensure you’re always at the frontier and driving the future architectures of AI.",
+      "url": "https://x.com/levie/status/2071253118252356001",
+      "likes": 659,
+      "retweets": 80,
+      "is_quote": true,
+      "quoted_id": "2071039148484378891"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2071434797176516691",
+      "date": "2026-06-29T03:25:15.000Z",
+      "text": "\"Forget your perfect offering / There is a crack in everything / That's how the light gets in.\"\n\n—Leonard Cohen",
+      "url": "https://x.com/garrytan/status/2071434797176516691",
+      "likes": 275,
+      "retweets": 25,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "tweet_id": "2071335200802648420",
+      "date": "2026-06-28T20:49:30.000Z",
+      "text": "Watch this video in which I walk through\n- How to install &amp; use the skill (beginner-friendly)\n- How I built the skill\n- How you can build your own skill https://t.co/FVBCFHXAqK",
+      "url": "https://x.com/zarazhangrui/status/2071335200802648420",
+      "likes": 12,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "tweet_id": "2071319754128978030",
+      "date": "2026-06-28T19:48:07.000Z",
+      "text": "For every hour you spend on building the product, spend two hours on explaining it, demonstrating it, selling it, teaching it…\n\nThis is my favorite part about building: telling the world about it and then refining it based on contact with reality https://t.co/9uOj0ocrUM",
+      "url": "https://x.com/zarazhangrui/status/2071319754128978030",
+      "likes": 557,
+      "retweets": 44,
+      "is_quote": true,
+      "quoted_id": "1982476318639079784"
+    },
+    {
+      "source": "Nikunj Kothari",
+      "handle": "nikunj",
+      "tweet_id": "2071408480456691868",
+      "date": "2026-06-29T01:40:41.000Z",
+      "text": "just put the taxes in the bag bro\n\n📍Summit Loop Trail, San Bruno https://t.co/ovpZJtarpK",
+      "url": "https://x.com/nikunj/status/2071408480456691868",
+      "likes": 81,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Nikunj Kothari",
+      "handle": "nikunj",
+      "tweet_id": "2071270787517132892",
+      "date": "2026-06-28T16:33:32.000Z",
+      "text": "Sundays are for recreating memes with your toddler 👻 https://t.co/sn0ZQvJqeI",
+      "url": "https://x.com/nikunj/status/2071270787517132892",
+      "likes": 48,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Nikunj Kothari",
+      "handle": "nikunj",
+      "tweet_id": "2071237834162549001",
+      "date": "2026-06-28T14:22:36.000Z",
+      "text": "Every time I meet an exceptionally smart founder, I play it cool but internally.. https://t.co/oLrccdBnsg",
+      "url": "https://x.com/nikunj/status/2071237834162549001",
+      "likes": 29,
+      "retweets": 1,
+      "is_quote": false,
+      "quoted_id": null
+    }
+  ]
+}
