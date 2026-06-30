@@ -1,0 +1,1036 @@
+Source  : Dwarkesh Podcast
+Title   : Grant Sanderson – AI and the future of math
+Date    : 2026-06-30 15:53 UTC
+Link    : https://podcasts.apple.com/us/podcast/grant-sanderson-ai-and-the-future-of-math/id1516093381?i=1000774870615&uo=4
+────────────────────────────────────────────────────────────
+
+[00:00] Speaker0: Today, i'm chatting with grant sanderson who runs through blue and brown and is now working on a new project documenting the progress.
+[00:05] Speaker0: Ai is making in math.
+[00:07] Speaker0: And i wanted to talk to you about this because ai has been making the fastest progress in mathematics as as of any other field.
+[00:13] Speaker0: So whatever is happening here and whatever we were seeing a progress happened or not happen would tell us about what will happen to the rest of the world as they get better and better.
+[00:21] Speaker0: So i wanted to start with this question.
+[00:22] Speaker0: I asked you when i first interviewed you three years ago, And i asked you once we have ais that can get gold in the international math olympiad, wouldn't that just be agi?
+[00:32] Speaker0: Wouldn't this just be able to do anything?
+[00:33] Speaker0: Any human can do given how hard these problems are and you had an answer which in retrospect turned out to be very wise and correct, which is like it'll be another benchmark like all these other benchmarks that are passing.
+[00:44] Speaker0: Obviously has gotten better in general way since then, but there won't be some aha moment when this happens.
+[00:50] Speaker0: First, i think i'd be curious to get your heuristics on why that turned out to be true.
+[00:56] Speaker0: And second, i'm curious how long you think this narrowness can continue to be true.
+[01:01] Speaker0: So by the point that ai has solved the middle income price problem, do you think it's still possible that at that point, there's lots of tasks that humans are doing that ai still can automate in the economy.
+[01:11] Speaker1: It's an interesting question because it's hard to answer without knowing what the solution looks like ahead of time.
+[01:16] Speaker1: I mean, if we take the imo, that's something where i think the spirit of your question three years ago was in looking at how some of the solutions to these problems really seem to require creativity.
+[01:26] Speaker1: Yeah.
+[01:26] Speaker1: And the designers of these problems, they'll try to have them come up with things that you can't train for as easily.
+[01:32] Speaker1: I think the dirty secret with the imo is that you really can train for a lot of them and so, With the whole ai and math project undergoing.
+[01:40] Speaker1: I think as you point out, one of the reasons it's interesting at all is that there's a spiky frontier to ai math is just right there in one of the spikes, but there's kind of a fractal nature to that spikiness because when you zoom into the specific progress within math, you have some things that are a lot easier than others.
+[01:56] Speaker1: So if we just think about imo, which is old news at this point, it's kind of like two years ago that they're really like doing quite well.
+[02:01] Speaker1: They would have gotten a gold in 2024 if they're not.
+[02:04] Speaker1: The following reason they were, they're very good.
+[02:07] Speaker1: They're just like cold solved geometry basically.
+[02:10] Speaker1: And the imo has these four categories of problems.
+[02:12] Speaker1: This geometry number theory, algebra and combinatorics.
+[02:15] Speaker1: So like geometry just solves in like 19 seconds in 2024 because it's kind of a brute force solver and the dirty secret is for students.
+[02:23] Speaker1: There's also sort of a brute force way that you kind of can go at it.
+[02:26] Speaker1: Combinatorics is the one that's the wild card of much more like playful puzzly seeming problems.
+[02:32] Speaker1: Um, and there were two combinatorics problems on that year's test.
+[02:36] Speaker1: There's not always, there's four categories, six different problems.
+[02:39] Speaker1: So it's kind of a toss-up, which one is going to have two questions.
+[02:43] Speaker1: Had it been more geometry questions, they would have gotten a gold that year, but it struggles on those combinatorics ones.
+[02:49] Speaker1: And, you know, someone who's trying to keep that torch of the last holdout of like math for humanity might say, well, you know, those are the ones that require the more creativity.
+[02:59] Speaker1: Even then, though, I think the spirit of your question, like, if they're solving, you know, a millennium prize problem, does that also service a lot of white collar work?
+[03:09] Speaker1: It suggests that whatever the rate limiter is between where we are now and that is the same as the rate limiter for making things better at white collar work.
+[03:17] Speaker1: We can maybe like paint a couple different ways that like we focus on, i don't know, remand hypothesis, like what would it look like to solve that?
+[03:24] Speaker1: One possibility would be.
+[03:28] Speaker1: These things are extremely good at.
+[03:30] Speaker1: A specific domain of knowledge and just knowing it very deeply and then knowing another domain and knowing another domain.
+[03:35] Speaker1: And you've pointed this out, it's like bizarre to have something with this superhuman breadth that like knows all the fields.
+[03:40] Speaker1: So well, that's not just finding those lightning bolts that connect them.
+[03:44] Speaker1: I think we're starting to see sparks of that of like actually finding connection between the things that it's an expert.
+[03:50] Speaker1: I'm sure we'll talk about it.
+[03:51] Speaker1: If the nature of the solution to the riemann hypothesis was something like that, that feels pretty distinct to me, then what's necessary to get good at white collar work?
+[04:00] Speaker1: And there's a reason to believe actually that that might be the nature of the solution.
+[04:04] Speaker1: I don't know if you know the story of like human montgomery and freeman dyson at the ias like.
+[04:10] Speaker1: This is, this is a side tangent, but it's just kind of a fun story on how i don't know if it was over lunch or something like that.
+[04:17] Speaker1: Basically, you have this number theorist who is pointing out just trying to understand the statistical correlation between pairs of zeros of the riemann zeta function.
+[04:25] Speaker1: So the riemann hypothesis is all about like, do all these zeros sit on a straight line and he's finding this like this quantitative question you could ask about and he writes down a formula.
+[04:32] Speaker1: It looks like one over sine squared or something like that.
+[04:35] Speaker1: Freeman dyson, a physicist is like, i know that expression that expression comes up and studying the eigenvalues for random hermitian matrices, which was something that comes up and studying the energy levels of like a nucleus.
+[04:47] Speaker1: And the idea that the statistics of those two seemingly different things were the same sort of prompted a potential exploration on.
+[04:54] Speaker1: Hey, are there aspects of random matrix theory that might be relevant to like remon zeta function?
+[05:01] Speaker1: And i think it's a little bit of an open question, like, is there food to be had there?
+[05:04] Speaker1: But that kind of bridging together from two different fields, like if it turned out that the solution to the riemann hypothesis was exploring an idea like that even further.
+[05:13] Speaker1: That has this character of kind of how you expect llms to be good at math.
+[05:16] Speaker1: It's like, they're an expert at the quantum physics, they're an expert at the analytic number theory.
+[05:20] Speaker1: They should be able to see that similarity in a way that doesn't require like montgomery and dyson to be having lunch and like happening to talk about that.
+[05:28] Speaker1: That's totally different from white color work, right?
+[05:30] Speaker1: In terms of like the extent to which you maybe have a hard time using an ai as an editor, it's not because they know everything and you just need them to find that lightning bolt in between.
+[05:41] Speaker1: Different possibility would be, what's the right analogy?
+[05:46] Speaker1: Maybe like we think of fermat's last theorem between the moment of fermat phrasing the question and then what the solution itself looks like, where ultimately the solution involves such heavy machinery in math, right?
+[05:57] Speaker1: So the beauty of that problem is you can phrase it so simply.
+[06:00] Speaker1: You ask about, you know, x to the n plus y to the n equals z to the n.
+[06:03] Speaker1: Do you have integer solutions for this when when n is bigger than 3?
+[06:07] Speaker1: And it's um it's something you might expect there to be an elementary number theory approach to it, but just as far as we can tell, there's just not.
+[06:15] Speaker1: Whereas the actual solution, you know, maybe there is something simpler, but this might be the the the what it has to be.
+[06:22] Speaker1: There's such a complicated set of ideas that build on like centuries of work, a centered around elliptic curves, and then this other like mountain of ideas centered around these things called modular forms.
+[06:33] Speaker1: And like both of those mountains have to be built before you can ask the right question that connects it.
+[06:37] Speaker1: So if the solution to the remand hypothesis involved building a new mountain, like that's a kind of skill, like the the ability to like come up with the right new ideas.
+[06:45] Speaker1: That feels sufficiently different from like the character of how they're intelligent right now that.
+[06:51] Speaker1: It's not like that's what you need from your hired video editor per se, but that like if it's capable of building mountains, that are you know the correct new theory that like crystallizes how we should be thinking about a subject.
+[07:03] Speaker1: That's just such a level of intelligence that then it starts to feel like it would be surprising if that didn't permeate into other aspects of the economy besides like just the mountain building for math itself.
+[07:13] Speaker0: Yeah, or at the very least, even if it couldn't like literally do every single thing white collar humans can do, yeah, it would just have transformative effects in the way that getting gold in the IMO did not have transformative effects on the world.
+[07:25] Speaker0: First of all, i do want to point out that i'm totally moving the goal post here because when i interviewed dario about two, three years ago, i asked this question about why haven't they able to use their vast knowledge to connect ideas together and come up with a new discovery that way.
+[07:37] Speaker0: That seems like the kind of thing.
+[07:38] Speaker0: Even if a moderately intelligent person had knew this much information, they'd be able to like come up with the medical diagnosis from the fact that like this drug causes a migraines and this other thing, you know, whatever does this and maybe that it's the same drug that can cure both things.
+[07:50] Speaker0: And yeah, i don't know from an outsider's perspective.
+[07:53] Speaker0: Mathematics seems clearly like a field where finding this counter example to the unit distance problem conjecture was like an example of this kind of thing as a total goal plus moving.
+[08:03] Speaker0: But then we can ask what is the next benchmark?
+[08:05] Speaker0: Now that ai's can do this thing that we should have thought they should have been, they should be able to do.
+[08:09] Speaker0: What is the next thing that would be quite impressive?
+[08:11] Speaker0: And there's a couple of candidate ideas here.
+[08:14] Speaker0: So one could be coming up with interesting problems in the first place.
+[08:18] Speaker0: And the other is coming up with a new kinds of objects or conceptualizations that create or unify fields on the first one.
+[08:27] Speaker0: Right now, we just train these models to like we have these millennium price problems because yeah, i know the mathematicians have noted like riemann came up with this idea of this like reminds data function and because he thought that it would have some connection with like the density of prime numbers or if the zeros on this function would have some connection.
+[08:43] Speaker0: To prime numbers and so like figuring out that there's why do we think this is an interesting thing to study in the first place?
+[08:49] Speaker0: Why are we building this object and trying to answer questions about it and answer this particular question about it?
+[08:54] Speaker0: Seems like the kind of thing that would be the next benchmark.
+[08:59] Speaker1: I mean, you highlight two pretty good examples there.
+[09:03] Speaker1: For anyone curious about the unit distance conjecture, there's this really nice video by a math channel called Polylog where they talk about it and one of the people in that because all of these discussions, it causes people to reflect on like the process of doing math, right?
+[09:15] Speaker1: They're like, oh, this thing can do these impressive stuff.
+[09:17] Speaker1: Like, what does that mean for us?
+[09:18] Speaker1: Um, any highlights this quote, how good mathematicians prove theorems, great mathematicians come up with conjectures and the greatest mathematicians come up with definitions and that's more or less exactly your framing here on like those two like we need the conjecture generator and then like the definition generated.
+[09:35] Speaker1: That's like that's the premium tier mathematician.
+[09:38] Speaker1: I don't understand how exactly you would make that a benchmark in the sense that usually, when i think of the word benchmark, i'm thinking something that you have like it's a goal post that the ball is through the goal or it's not like you can clearly say like yes, this is done partly to be able to do things like our lvr but also partly just to be able to like know that you have it move the goal post and answering, you know, OpenAI can have their headline on disproving the unit distance conjecture because it's a.
+[10:03] Speaker1: Clear distinct.
+[10:03] Speaker1: It's like it did it, right?
+[10:05] Speaker1: Or as imagine trying to have a headline on like 55 before came up with a really good conjecture, right?
+[10:10] Speaker1: Like we promise everyone thinks it's a good conjecture.
+[10:12] Speaker1: It just doesn't, it doesn't land the same way, right?
+[10:16] Speaker1: But maybe that doesn't negate the fact that that's the right thing to be thinking about.
+[10:20] Speaker1: So i would be surprised if it ever took the form of looking like a benchmark and like we have a score saying that it's passed this benchmark because we can quantify how good a conjecture it is.
+[10:30] Speaker1: But probably the nature of what it would take is that you would feel a tone shift in conversations with mathematicians about the way that it's useful to work with, right?
+[10:38] Speaker1: And like this, this series that you reference that is not at all produced yet and probably won't be for a couple months, takes the form of us interviewing a lot of mathematicians.
+[10:47] Speaker1: And what's interesting is we started doing this like over a year ago and it's fun to see a little bit of a tone shift in the way that they talk about ai between like mid 2025.
+[10:56] Speaker1: And where we are now in 2026, you know, in the real world, that's a very short amount of time in the ai world, that's eons, right?
+[11:03] Speaker1: And like we're able to see over those eons like this tone shift.
+[11:06] Speaker1: I think the way that you'd measure conjecture generating ability is going to be more subjective on like that tone shift where it'll be mathematicians saying they're not just using it to like solve their problems.
+[11:16] Speaker1: But as they step back and decide what their research field should even be that a conversation with.
+[11:21] Speaker1: Such and such model like was genuinely helpful for that.
+[11:24] Speaker1: I don't, i don't think it's likely that you'd see it in the form of like a headline saying that like this was yet another benchmark knocked down.
+[11:32] Speaker0: right?
+[11:32] Speaker0: And so there it's very interesting.
+[11:33] Speaker0: The kinds of things you can't make benchmarks for are also the kinds of things at least in the current paradigm, you can't easily train for, right?
+[11:40] Speaker0: Because there's really no fundamental difference between a benchmark and a training environment.
+[11:45] Speaker0: Yes.
+[11:45] Speaker0: I think it's very easy.
+[11:48] Speaker0: To come up with some dichotomy of like here's a deep reason why ai can't do a certain thing and then it turns out well you're just thinking about it the wrong way and actually i can do it pretty soon thereafter but i'm gonna come up with.
+[11:59] Speaker1: you're gonna come up with a couple anyway.
+[12:01] Speaker0: and i think that this this will probably it'll probably turn out that there's ways in which that we can train ais to do these kinds of things in the relatively near term but it seems like it would have to be different from current rl or training so the thing i'm curious about and the thing it seems to me that drives a lot of the big progress in mathematics and in science generally.
+[12:19] Speaker0: Is like coming up with a new way to think about a problem or the new way to understand the world that then.
+[12:28] Speaker0: Unifies different fields, spawns entire new fields solves problems.
+[12:31] Speaker0: We weren't even thinking where we were trying to solve in the first place.
+[12:34] Speaker0: Like the reason einstein was thinking about gr is not because he wanted to explain why light bends or why black holes exist.
+[12:41] Speaker0: These are phenomena.
+[12:41] Speaker0: He didn't even need no needed to be explained in the first place.
+[12:44] Speaker0: But in mathematics, it often seem okay, a total outsider.
+[12:48] Speaker0: I don't even know the details of what i'm talking about here.
+[12:50] Speaker0: From the outside, it seems like there's often ways to say, prove a specific problem that can motivate a new conceptualization one, which results in a whole new field, a whole new way of thinking, which is immensely productive and one, which doesn't, i think i'd be curious to hear you talk about whether galloping with group theory and distinguishing his like solution to the.
+[13:12] Speaker0: The quintic having no formula for the roots and able coming up with the different proof of a few years earlier that didn't come up with group theory.
+[13:18] Speaker0: But then if you wanted to do a verification loop on like is group theory, interesting concept that was like was something useful done here.
+[13:24] Speaker0: Why is this proof better?
+[13:25] Speaker0: Potentially that verification loop is 100 years long.
+[13:27] Speaker0: Yeah.
+[13:28] Speaker0: It involves the cryptography coming around and physics making progress and the ideas and group theory being relevant and understanding like symmetries in physics and all those kinds of things is like 100 year verification loop.
+[13:39] Speaker0: But why is this a productive concept in the first place?
+[13:41] Speaker1: Yeah, boy.
+[13:44] Speaker1: Yeah, you struck a nerve because i had this like project about galway.
+[13:47] Speaker1: I was going to do in 2022 that i put on the shelf, but i spent like a year of my life, like thinking a lot about what he did.
+[13:52] Speaker1: So there's a risk of me accidentally talking too long on the specifics.
+[13:57] Speaker1: Hold me back on.
+[13:58] Speaker1: It's, it's a perfect example for your case because.
+[14:02] Speaker1: Describing why it was a valuable insight does not come from immediate utility.
+[14:09] Speaker1: And so, certainly, if you're thinking about rlvr environments, it's like, okay, this is going to be really hard to do.
+[14:15] Speaker1: But it's interesting to note how even with like human verifiers at the time, like it took a really long time to recognize it as being useful.
+[14:21] Speaker1: Like i think einstein with gr people sort of felt you can like feel this feels like a good theory right away.
+[14:27] Speaker1: Like that.
+[14:28] Speaker1: What makes the guy walk theory?
+[14:29] Speaker1: Such an interesting example is you have literally this 100 year segment of like an idea that like flows through many different people's heads before it like settles into something that the math community like agrees is good.
+[14:40] Speaker1: So to back up a little bit, i don't do.
+[14:43] Speaker1: I mean, do you want the background on the problem at all?
+[14:46] Speaker1: All right, well, so.
+[14:48] Speaker1: We all learn about the quadratic formula in school.
+[14:51] Speaker0: I thought you're going to say we all know about group theory in school.
+[14:53] Speaker0: We all know.
+[14:56] Speaker1: quadratic formula.
+[14:57] Speaker1: So this was this was known in some sense like greeks could solve quadratics but they didn't really write things in algebra.
+[15:03] Speaker1: And so it's really more like the arabs that like wrote down like that formula.
+[15:07] Speaker1: There's this delightful story around some like dueling italian mathematicians, not real duels just like like intellectual challenges.
+[15:16] Speaker1: Who like secretively found a formula for the cubic and then very shortly thereafter found a formula for degree 4 polynomials.
+[15:24] Speaker1: So natural open question for like mathematicians is can you find a formula that solves degree 5 equations?
+[15:30] Speaker1: Now that nature the degree for its monsters, it's like it's a it would be in wild to write it down.
+[15:35] Speaker1: You usually don't really write it down in full.
+[15:36] Speaker1: You break it up as like a procedural thing.
+[15:39] Speaker1: So you might believe these things have this exponentially increasing complexity.
+[15:42] Speaker1: So many hundreds of years.
+[15:43] Speaker1: Nobody is like really answering that question.
+[15:46] Speaker1: Usually we say abel was the first to prove it.
+[15:49] Speaker1: He was this young precocious norwegian mathematician and he showed it's simply impossible.
+[15:54] Speaker1: It's not that you can find a quintic formula.
+[15:55] Speaker1: He thought he found one but he showed it's impossible.
+[15:58] Speaker1: I think the real credit though like you have to back up a little bit and talk about lagrange where lagrange found the right kind of question to ask about this.
+[16:07] Speaker1: um.
+[16:08] Speaker1: I can go into the details if you want, but i'll give it a very high level.
+[16:12] Speaker1: He he's, he was studying the question, and he recognized being able to solve these polynomials is actually very related to understanding like the way that certain algebraic expressions are like symmetric, like more or less so.
+[16:24] Speaker1: Like if i write down a plus b plus c plus d, just like adding four variables.
+[16:28] Speaker1: If i permute those, it doesn't change the value of the expression.
+[16:31] Speaker1: Whereas if i write like a plus b multiplied by c plus d, some of the permutations don't change it, but some of them do.
+[16:37] Speaker1: And he had this really, really nice insight about how, if you can find expressions like this that have like four free variables, but all the permutations take on three distinct values, that had this unexpected relationship with being able to reduce degree four into degree three.
+[16:49] Speaker1: So he started approaching the, like, can we find a quintic polynomial by saying, i wonder if i can extend that.
+[16:56] Speaker1: And to extend that method, you would have to have an expression that has five free variables, such that as you permute them over all the five factorial permutations, it takes on only four values or fewer.
+[17:06] Speaker1: So that's like you could put that in a puzzle book.
+[17:08] Speaker1: You could put that in a brain teaser that like a 12 year old could engage with and it's it's not too hard to like find yourself feeling like that's an impossible task.
+[17:17] Speaker1: And so the ground just sitting here saying, hmm, here is a strategy that i'm trying to solve this problem.
+[17:22] Speaker1: Can i find a quintic polynomial?
+[17:23] Speaker1: This strategy doesn't it seems like it might be impossible at least from this strategy.
+[17:28] Speaker1: But that was the first time in history that people had the instinct that some kind of question about symmetry was the right way to be studying these polynomials.
+[17:36] Speaker1: In his mind, it was just a way.
+[17:37] Speaker1: It had yet to be discovered that like actually there's a tighter connection.
+[17:40] Speaker1: And also like maybe rather than searching for the formula, we should be asking the opposite question.
+[17:44] Speaker1: Can you prove that it's impossible?
+[17:46] Speaker1: So he sort of planted that seed.
+[17:48] Speaker1: Like around 50 years later, abel definitely read lagrange and was influenced by it.
+[17:52] Speaker1: Galois, we know that he loved lagrange when he was like falling in love with math.
+[17:56] Speaker1: And so it's very hard to imagine that like these two young geniuses, the fact that they both come up with like pretty similar insights around that problem.
+[18:03] Speaker1: It's not like born from Lagrange, but to your question on like, are you, are you able to verify that this was a good idea?
+[18:09] Speaker1: There, there wasn't any like result that Lagrange came to.
+[18:12] Speaker1: There's never like he solved the problem and therefore we know that that was like the right question to ask.
+[18:17] Speaker1: He asked it.
+[18:18] Speaker1: There's some like intrinsically interesting thing.
+[18:20] Speaker1: It also wasn't very important for math at the time, like most people were more interested in like the applications to physics.
+[18:25] Speaker1: This is almost in that like side, almost recreational hobbyist type thing.
+[18:30] Speaker1: Like Abel, you know, he started working on quintic stuff, but then he was.
+[18:33] Speaker1: Advised to spend more of his efforts studying elliptic functions.
+[18:37] Speaker1: And so more of his work was on that before he died.
+[18:39] Speaker1: Young, he died at 26 from tuberculosis.
+[18:42] Speaker1: And then gawa, he he pushed both of those ideas like to the in the right direction where he really understood the nature of abstraction.
+[18:53] Speaker1: And so he had this really nice piece that he wrote while he was in prison.
+[18:56] Speaker1: Actually, he was like, we could talk all about his life story.
+[18:58] Speaker1: It's pretty wild, but he.
+[18:59] Speaker1: He's like this teenager, he's in prison.
+[19:01] Speaker1: He had tried to submit his math papers and they had been rejected.
+[19:04] Speaker1: So again, it's like verifiable reward.
+[19:06] Speaker1: The like verifier function that is the academy at that time is rejecting what he wrote because frankly, it was not very coherent.
+[19:12] Speaker1: Like it wasn't a complete proof.
+[19:13] Speaker1: He wasn't giving like a clear thought of like what the theory actually was.
+[19:16] Speaker1: He was just like a young fledgling mathematician getting his bearing.
+[19:20] Speaker1: So it's like the verified reward there is like at no good.
+[19:23] Speaker1: But he has some instinct that there's something there, so he's writing this diatribe on like the nature of like math being something which is it undergoes these like shifts over time, and he talks about like the advent of just algebra itself.
+[19:36] Speaker1: And going from just thinking in terms of numbers to like having a certain fluency just with like pure algebraic expressions where you're not tied to interpreting those expressions.
+[19:45] Speaker1: And he has this instinct that like there is another layer of abstraction that seems like what we should be doing, where rather than thinking about.
+[19:51] Speaker1: The formulas themselves thinking about like what symmetries underlie those formulas, but it was still a pretty like ill-defined theory.
+[19:58] Speaker1: So if you're trying to say, okay, is the verified reward that like he has solved a problem that other people haven't?
+[20:03] Speaker1: It's like, well, abel proved that quintics are unsolvable.
+[20:05] Speaker1: And you say what was galois doing?
+[20:07] Speaker1: Well, in principle, the thing that galois theory will let you do is take a specific polynomial, and it gives you the rules to say does that specific polynomial have roots that you could write down?
+[20:16] Speaker1: For example, like x to the fifth minus one, you know that a solution is one or x to the fifth minus two, you can write down fifth root of two.
+[20:23] Speaker1: So it's not that every quintic polynomial you can't write down the solution.
+[20:26] Speaker1: But could you find a specific one where you prove you can't write the solution using radicals?
+[20:30] Speaker1: He also didn't even solve that exactly.
+[20:32] Speaker1: Like he has a much more abstract, he didn't show for a specific example that he couldn't.
+[20:36] Speaker1: So even describing like what problem did he solve is very tricky.
+[20:39] Speaker1: So then he he dies, it's this very like romantic story of he has this dual.
+[20:44] Speaker1: We can get more into it.
+[20:45] Speaker1: There's a lot of myth around, like supposedly he writes up all his ideas the night before the duel.
+[20:49] Speaker1: Really, he tried to get them published.
+[20:50] Speaker0: Working on the quintic doesn't seem to be good for your health.
+[20:52] Speaker1: It's very bad.
+[20:53] Speaker1: Yeah, yeah, yeah, yeah.
+[20:54] Speaker1: If you're a young genius, don't work on the quintic.
+[20:56] Speaker1: And so he, he asks his brother and his close friend, like, get these notes to Gauss, get these notes to like the important mathematicians of the day, because I think there's something here.
+[21:04] Speaker1: Even then, it didn't really take.
+[21:06] Speaker1: Like, so his brother and his friend, like, tried to get them out.
+[21:09] Speaker1: It wasn't another 20 years until Louisville, like, sees these notes, sees that maybe there's something in them, and tries to, like, clean it up and understand, like, what was Gauss getting at.
+[21:18] Speaker1: And then even then, it was another 20 years or so until jordan actually like puts together a something like a modern treatment of group theory that they attributed to gawa.
+[21:30] Speaker1: You could easily imagine history turning differently where like these ideas were kind of coming about from other points in math and like gawa could have been forgotten in history if he was the less like florid character.
+[21:39] Speaker1: But between the time of lagrange, like having this inkling of maybe symmetries of roots is the right way to go to where it all looks like modern group theory, like you've got this long span.
+[21:50] Speaker1: A lot of the time, it's like not even passing the like verified reward of human reviewers because it like gets on someone's desk.
+[21:55] Speaker1: They say, i don't really know if there's anything here.
+[21:56] Speaker1: It gets on someone's desk.
+[21:57] Speaker1: They don't you have to have this like one person sort of recognizes it and then even then it's not really solving practical problems at that point.
+[22:04] Speaker1: Like you point out cryptography and physics and things like that.
+[22:07] Speaker1: You have to get into the 20th century before you have like gelman thinking, maybe understanding the nature of like how certain groups like breakdown has this relationship with what particles are made out of.
+[22:20] Speaker1: And like, he he anticipates quarks based on a purely group theoretic question.
+[22:25] Speaker1: And like, that's one of the more interesting applications of group theory is that, like, to even predict the existence of quarks is a group theoretic like question.
+[22:32] Speaker1: That's so long after lagrange before you have anything like that, and so.
+[22:38] Speaker1: You have to ask like what is the way of measuring progress?
+[22:41] Speaker1: That's not based on solving a problem, right?
+[22:44] Speaker1: And that's that somehow capturing.
+[22:46] Speaker1: What is the instinct that's inside galois mind when he says, i think there's something here.
+[22:50] Speaker1: What's the instinct that inside lagrange's mind when he says, like, i think this is the right way to think about it.
+[22:54] Speaker1: What's the instinct inside louisville's mind when he says these like scattered notes from this like long dead youngster like might have something to them.
+[23:02] Speaker1: It's so hard to put a finger on that, but i mean a different like series of videos i'm making right now is about like, you know, the whole compression is intelligence idea.
+[23:12] Speaker1: And even though this isn't really the angle i'm taking, you know, there is something to the idea that the smaller expression that's more predictive like feels more intelligent.
+[23:22] Speaker1: And so i wondered the extent to which you can give some kind of.
+[23:25] Speaker1: Verifiable reward around, not just like, did you solve it or what is it solving?
+[23:29] Speaker1: But around the smallness of the concepts required to do it.
+[23:33] Speaker1: I mean, going back to bremen hypothesis solutions, what would that look like?
+[23:37] Speaker1: If an ai solves it, i think a third way that it could happen is it just straight up works harder, right?
+[23:41] Speaker1: In the same way that you could maybe have an elementary proof of fermat's last theorem.
+[23:44] Speaker1: That's just like spelled out over like thousands of pages that would be incoherent.
+[23:48] Speaker1: But like the cleaner way to view it is with elliptic curves and all that.
+[23:51] Speaker1: Maybe there's some like thousand page proof of riemann hypothesis.
+[23:54] Speaker1: That's like not no one's really getting anything out of it.
+[23:56] Speaker1: And what you actually want is like what are the six things like compressed versions of those ideas like that would then lend themselves to human understanding.
+[24:05] Speaker1: Like i don't know, komagorov complexity, like maybe you throw that into your like your attempt to quantify what you mean by elegance, but i don't think it's easy, but i do think it's something you would have to do in order to.
+[24:17] Speaker1: A reward the galwa like instinct rather than just rewarding.
+[24:22] Speaker1: Have you solved a problem?
+[24:23] Speaker0: It's very hard to come up with a like the heuristic for science.
+[24:27] Speaker0: But it's clearly like human humans have been doing this somehow and like obviously i will do it at some point.
+[24:33] Speaker1: What's relevant?
+[24:33] Speaker1: Also not just in terms of verified reward but like presumably the end goal is understanding like human understanding.
+[24:40] Speaker1: And so even if you do have some like thousand page proof of some math thing or some like grand new physical theory, The goal is understanding.
+[24:47] Speaker1: Yeah, right.
+[24:48] Speaker1: Maybe if the goal is predictability, you can just have like automated engineers go off and like build rocket ships or something.
+[24:53] Speaker1: We're like, we have no idea how these work, but we can get between stars.
+[24:55] Speaker1: But like, there's gonna be a lot of people want to understand.
+[24:58] Speaker1: You're still gonna want whatever the like, concision function is that like distills down.
+[25:03] Speaker1: Here's this complicated way of thinking into like the right one, like the equivalent of the universal law of gravitation for newton.
+[25:09] Speaker1: Like you would still want.
+[25:11] Speaker1: To train ais to be able to do that and like find the the compressed representation.
+[25:16] Speaker0: I grew up in india till i was eight and so in addition to english, i also speak gujarati and since google just released gemini 3.5 live translate, i thought it'd be fun to put it to the test in this middle 3.5 live translate.
+[25:28] Speaker1: apollo 3.5 live translate automatically detects more than 70 different languages and translates them in almost real time into the target language live translate your original speed and format while speaking just like it's doing right now.
+[25:45] Speaker0: I visited china back in 2024 and i remember thinking at the time this trip would have been so much more productive.
+[25:50] Speaker0: If i could have been able to live translate the conversations i'm having with researchers and random people i meet on the street.
+[25:56] Speaker0: Now we have that technology.
+[25:57] Speaker0: So if you're building an app that needs live translation, you should 100% check out gemini 3.5 live translate.
+[26:03] Speaker0: It's available now via the gemini live api and an ai studio.
+[26:07] Speaker0: Go to ai dot studio slash live to get started.
+[26:12] Speaker0: So people have this worry about mathematics in particular that you know, the ais will prove the remand hypothesis and our understanding of mathematics won't be any the better for it.
+[26:21] Speaker0: I have a couple of questions about this.
+[26:22] Speaker0: The first one is whether this is like, a thing you should expect like isn't the reason humans come up with general natural objects and sub goals and whatever when we're working on a big problem is that it's just like.
+[26:37] Speaker0: Useful when you're trying to work on the complicated important problem.
+[26:40] Speaker0: And so we can just think about like theoretically is it would this even be a simpler way to solve the ring hypothesis as opposed to just coming up with the natural abstractions that are relevant to thinking about the problem.
+[26:50] Speaker0: And then two empirically is this what we observe when ai is doing a progress on problems today?
+[26:54] Speaker0: When the, when the ai came up with that counter example to the unit distance problem conjecture, You can just read its chain of thought, and it seems it's not understandable to me, cause i don't know anything of mathematics, but it seems to other mathematicians, it was like understandable, and it made it made use of like known concepts of mathematics, and like proved relations between them in all natural language.
+[27:14] Speaker0: And as a result accelerated our understanding of the connection between this object and this conjecture.
+[27:20] Speaker0: So is this even like imperfectly?
+[27:22] Speaker0: Is this a thing we should be worried about?
+[27:24] Speaker1: I think it depends on the nature of.
+[27:26] Speaker1: Yeah, like again, if we sort of break down like the three possible ways of like solving the riemann hypothesis that one and the other like big one from this year is like a certain erdish problem numbered like 1196 but it's a about these things called primitive sets.
+[27:40] Speaker1: But basically it had that character of bringing an idea from a seemingly different field.
+[27:45] Speaker1: As soon as you just present the basic idea to a mathematician, you say like, hmm, what if we like use this like try to markov chain process where we show that this thing is one from the bottom up probabilistically rather than the top down.
+[27:57] Speaker1: And like use the von neumann-gold function.
+[27:59] Speaker1: If you like say that to someone in the know, they'd be like, they'd kind of know how to run with it.
+[28:02] Speaker1: So if this very like small idea that has the form of expertise in one field, expertise in another, draw a little lightning bolt between them.
+[28:09] Speaker1: Like those are those are going to be very human parsable, right?
+[28:13] Speaker1: Because all you have to do is just like show the start and end point of what those connections are.
+[28:17] Speaker1: If the character of it is mountain building, you do have to, you have to put in a lot more time to like understand that new mountain that was built because it's like a new thread that's not just like lightning bolt between them.
+[28:26] Speaker1: And then if the nature of the progress was just like raw hustle, right?
+[28:29] Speaker1: It's just like this just super long thing, this no new theories, but it's just like long, long, long chain of reasoning answer.
+[28:35] Speaker1: Then, then you would have that word like, okay, there's this whole digestion process.
+[28:38] Speaker1: So i don't think there's one clear answer.
+[28:40] Speaker1: I think it depends on what this, what the like solution there would look like.
+[28:43] Speaker1: And on the mountain building side, i would actually be really interesting to see like, is it by default a very human understandable, like the way that we like see new theories from like great mathematicians, or is it like, like an alien different kind of mountain being built where we even have to like reprocess the kinds of abstractions that we we engage with.
+[29:02] Speaker1: Right.
+[29:03] Speaker1: Well, the closest example here would be like the, you know, the attempted solution of the abc conjecture.
+[29:08] Speaker1: That was maybe shouldn't get into that one, but it is not probably not a correct solution.
+[29:15] Speaker1: But basically, it's like whole new way of thinking that this otherwise reputable mathematician in japan had like come up with and it just took mathematicians like a long, long time to even parse what he was saying, but it had the feeling of just like an alien bit of mathematics that theory building.
+[29:30] Speaker1: It's not just like launch long chain of reasoning.
+[29:32] Speaker1: Um, it's like he called it like inter-universal geometry or something.
+[29:36] Speaker1: And so the fear that you would have is that like, yeah, like does that the biggest fear would be that it does that and then much like the abc conjecture like people work for years to go up the mountain and they're like, this just isn't right, right?
+[29:47] Speaker1: And like if there if it turns out to be wrong but it like really looked right.
+[29:50] Speaker1: But even if it was right, there's there's just a lot of effort to like hike up a new mountain.
+[29:53] Speaker0: Yeah.
+[29:54] Speaker0: If we end up in that situation, david bessus had a really great blog post called.
+[29:59] Speaker0: The fall of the theorem economy, we're just talking about this, you know, historically there as you're saying mathematics is coming up by these definitions and problems and it's about proving theories theorems about them and that really the theorem proving stuff is what gets all the credit but it's like really a parasite on something with the definition stuff and historically it's not even a problem in terms of credit apportionment because.
+[30:23] Speaker0: If you come up with a definition, you're probably going to be the guy who comes up with a theorem.
+[30:27] Speaker0: But now we're in a situation where if the valuable work is the coming up with the insight and an ai just automates the latter part, it so okay, imagine a scenario where we have ai comes up with like the abel, like direct arguments about a bunch of important conjectures in the world and then we just have these proofs and now it's up to humans or to future ais to then consolidate.
+[30:53] Speaker0: I mean, i'm sure if you had access again and having no object level understanding of this argument whatsoever, i'm sure if you had access to it, it would make it easier for you to then think about like, well, what is going on here?
+[31:03] Speaker0: So is there some deeper way in which you can understand why this proof works?
+[31:07] Speaker0: That would make it easier to come up with the ideas behind group theory.
+[31:11] Speaker1: Yeah, i think it would, it would be hugely helpful, right?
+[31:14] Speaker1: Like because i mean so much of like trying to discover new math is like, like mostly being wrong.
+[31:19] Speaker1: Right, you're like trying to solve a problem, it like what it does, it doesn't feel like constantly taking the correct step up the mountain, right?
+[31:24] Speaker1: Like mostly it feels like a random drunken walk where you're like doing a thing and then oh you're wrong and like constantly discovering.
+[31:30] Speaker1: So if at the very least you know that trying to digest what you know is ultimately leading to like a correct solution like that feels like progress simply because.
+[31:39] Speaker1: It's providing like a sense of knowing that it leads to a solution.
+[31:43] Speaker1: There's plenty of plenty of like instances in the recent history of math where it feels like the reach has sort of exceeded the grasp where there's things that are proven like long before they're understood.
+[31:52] Speaker1: And i mean, one of my favorite like openings to a paper, so even like a research paper is more like an expository.
+[31:59] Speaker1: One is from the set petition named timothy chow, who was trying to understand a concept called forcing.
+[32:05] Speaker1: And so there's this.
+[32:06] Speaker1: Problem called the continuum hypothesis that more or less asks like you have a size of infinity for the natural numbers, you have a size of infinity for the real numbers, is there something in between?
+[32:16] Speaker1: And the answer is both yes and no, it depends on your axioms, like it's sort of outside the scope of of our usual axiom systems, which is an interesting answer.
+[32:23] Speaker1: But the method to to describe it is just really really hard to understand, is the thing called forcing.
+[32:29] Speaker1: And in the beginning of this paper, he he writes like.
+[32:31] Speaker1: I want to like everyone knows the idea of an unsolved research problem.
+[32:34] Speaker1: Like i want to propose the idea of an unsolved expository problem where like sure we've proven it but we don't really know why it's true and something that he proposes like a partial solution to that expository problem.
+[32:45] Speaker1: You can imagine why i loved that framing because like this is my whole life.
+[32:49] Speaker1: It's like i don't do research math.
+[32:50] Speaker1: It's just it's just wholly about like what's the most clear way to understand this?
+[32:54] Speaker1: Even if it's proven just like there is a difference between proof and explanation.
+[32:58] Speaker1: And so on that side, i think that you are basically getting to the the importance of that distinction.
+[33:04] Speaker0: Yeah, and that that will be the main incentive for, or the the incentive would have to change, and not just mathematics with another areas of science from proving things about the worlds to consolidating proofs into problems or higher level insights.
+[33:20] Speaker0: But we have a.
+[33:20] Speaker0: Discussion earlier at at lunch about like.
+[33:24] Speaker0: A recent talk you were giving about, you know, design and how it helps us understand things, and then.
+[33:31] Speaker0: In the limit, is there really a difference between the conceptualization for an idea and the idea itself?
+[33:37] Speaker0: So, you know, if you think about special relativity and like spacetime diagrams and minkowski space time, is it like, yeah, this is like a way in which we illustrate this idea of like why there's length contraction and time dilation.
+[33:50] Speaker0: But is that like.
+[33:52] Speaker0: Is it like that is the reality?
+[33:54] Speaker0: So, the exposition does seem to be like the explanation in some sense here.
+[33:58] Speaker1: Yeah, i mean there's a couple interesting things there.
+[34:00] Speaker1: One is, it seems like there is a really strong correlation between the people who come up with genuinely novel insights, and also who are actually quite clear in their communication of it.
+[34:10] Speaker1: Like you you might imagine.
+[34:12] Speaker1: Given that the experience of a university student is often that the expert there teaching them is not necessarily the best explainer of that topic because they are so spoiled by their expertise.
+[34:21] Speaker1: But what seems, at least in some cases, to be the case is how the people who are really coming up with something quite novel.
+[34:27] Speaker1: So you've got like einstein or like claude shannon, something there, you read their papers, they're really lucid papers, right?
+[34:33] Speaker1: It doesn't feel like, oh, this is just for the experts and you have to chop through it with a machete to get.
+[34:38] Speaker1: They're like very good expositors.
+[34:40] Speaker1: Like feynman has this characteristic too, like very good expositor.
+[34:43] Speaker1: And so maybe the same part of the brain that comes up with the correct new way of thinking about it at a research level, also has this knack for like good explanation.
+[34:52] Speaker1: And I think this is pertinent to the AI one, where I kind of used to think that AI's will become these automated theorem provers, but like the role of the mathematicians is going to shift towards like my job, like explain these things.
+[35:05] Speaker1: I kind of suspect that actually they'll also be like quite good at doing that, and probably just like better than most humans are at like doing the explanation half and distilling half.
+[35:14] Speaker1: And that's actually not what's left for the mathematicians is like.
+[35:17] Speaker1: Digesting and explaining what was going on.
+[35:19] Speaker1: Probably the nature of how these things are going.
+[35:23] Speaker1: I could envision it.
+[35:24] Speaker1: We can talk about like ways this might not be it but like probably the same thing that is coming up with like the really good new idea that solves some new problem is just also good at explaining it.
+[35:33] Speaker1: Yeah, that's my new like that's a that's a way my i think beliefs have changed.
+[35:37] Speaker0: What's the last thing you think you'll be doing where they're like both you and then also what with the mathematical community, the human mathematical community will be doing.
+[35:45] Speaker1: I will probably be doing something like what i am until i die even.
+[35:50] Speaker1: So like even i have the doers.
+[35:53] Speaker0: right?
+[35:54] Speaker0: Maybe that'll be the same exactly.
+[35:56] Speaker0: It'll be for the same reason.
+[35:58] Speaker1: Yeah, yeah, you know, it's um you like build a man of fire and he's warm for one night but set a man on fire and he's warm for the rest of his life.
+[36:05] Speaker1: So that's where i am with ai know i because.
+[36:09] Speaker1: Some of the some of the like function of an explainer or a teacher is to like add clarity to a thing that someone's curious about.
+[36:16] Speaker1: That's one thing.
+[36:17] Speaker1: But some of it is like a little bit more relational and a little bit more like providing like motivation, providing a sense of curation.
+[36:25] Speaker1: Like one interesting take that i've heard about like what mathematicians will end up being is actually more analogous to art museum curators than anything else where the ais all the things.
+[36:35] Speaker1: So the art exists, right?
+[36:36] Speaker1: Even know how to explain it really well, you know, all there.
+[36:38] Speaker1: But like, you still you still want someone to help you navigate in this like nearly infinite space of like what ideas are worth engaging with, like someone kind of doing that.
+[36:46] Speaker1: And that one, even if ais were in some sense better at that, i think we would always still prefer like a human that we had a relationship with, because the way that we get motivated to be interesting interested in things is a social phenomenon.
+[37:00] Speaker1: If you have some specific technology you're trying to build, you know that might be different.
+[37:03] Speaker1: You need to know there.
+[37:04] Speaker1: But i think like the people listening to this podcast, they sort of trust your curation on like what's an interesting topic in the first place.
+[37:11] Speaker1: It's not that they're landing on here because whatever your next topic is, that's like what they in a prior sense wanted to understand, they're trusting you as a curator.
+[37:19] Speaker1: So my role and arguably that of like other mathematicians might actually just shift suddenly into that curation direction of what ideas are worth spending.
+[37:28] Speaker1: And that's a lot of my job right now.
+[37:29] Speaker1: Even now it's basically.
+[37:31] Speaker1: Like, i think people think a lot of the time for a video goes into the visuals, like, sure, a little bit.
+[37:36] Speaker1: It is not like immediate, but like actually a lot of it is just deciding what's worth saying in the first place or what's worth putting there.
+[37:43] Speaker1: And because that is, that's just i want to engage with that and i think i have a trust with certain people and they are curious what i would choose to afford.
+[37:51] Speaker1: Even if the ais are better than that in the same way that like human musicians are always going to have a role because of that like social function of the story behind them even if they're like.
+[38:00] Speaker1: Objective quality of the mp3 file coming out is like better from some model.
+[38:05] Speaker1: That's kind of where what i see happening to my job.
+[38:07] Speaker0: Yeah, i want to go back to this question of earlier.
+[38:11] Speaker0: I was, we were sort of just as ai has crossed this threshold, this important benchmark of being able to connect existing ideas to come up with a new discovery or prove or disprove something just as this cross the threshold.
+[38:23] Speaker0: They're like, okay, but what's the next thing?
+[38:25] Speaker0: Um, i want to just.
+[38:27] Speaker1: um, there's a lot more to do on that one by the like just because a couple lightning bolts have been i still i think there's like this flourishing future over the next couple years of like really connecting.
+[38:35] Speaker0: Yeah.
+[38:35] Speaker0: And so in the limit you could even say, um, i don't know this is accurate to say it, but potentially a lot of them, maybe the biggest breakthroughs like look like this at some level.
+[38:46] Speaker0: It's just, um, general relativity.
+[38:48] Speaker0: Oh, i'm you like you just connecting together like ramanujan geometry and special relativity, right?
+[38:54] Speaker0: And so as ais keep getting better and better at this connection thing.
+[38:57] Speaker0: Maybe a lot of big breakthroughs are not really of a different qualitative nature.
+[39:02] Speaker0: I don't know if you have a take on that.
+[39:03] Speaker1: Well, i mean a lot of the conversation focus has been on problem solving, and that nature of math, you know, like taking off air dish problems or something.
+[39:11] Speaker1: I would say it's not even a majority of mathematicians who would maybe characterize their work as like really targeting the next problem to take down.
+[39:18] Speaker1: Are you familiar with like the langlands program?
+[39:20] Speaker1: Um, ah, okay, so thi- this is like.
+[39:22] Speaker1: It's not even a field of math so much.
+[39:24] Speaker1: It is like a like a research ethos where fermat's last theorem is one inkling of this on.
+[39:30] Speaker1: You had like these two different seemingly disparate things and a connection between them like led to a solution.
+[39:37] Speaker1: So langlands was a mathematician.
+[39:39] Speaker1: Yes, this like famous letter now essentially spelling out how it seems likely that there's a lot more connections like that and even got like a little bit more specific about the nature of the connections.
+[39:49] Speaker1: Such that you might imagine this like large map, and you've got this like valley over here, and this mountain over here, and this like set of planes over there.
+[39:56] Speaker1: And there's a lot of mathematicians who's who would characterize their work as being part of like trying to understand the threads, like on this map.
+[40:03] Speaker1: And the progress there, it's not even like, here's this one specific problem that we know will be solved by that connection.
+[40:08] Speaker1: It's more that there's been enough time and time again cases where.
+[40:12] Speaker1: big problems were knocked down by finding connections that it's almost preemptively finding the connections and so you could have yeah it's it's actually very interesting that like this um.
+[40:23] Speaker1: Anytime you run into a mathematician, it's like to ask them whether, you know, the character of their work is more akin to like langland's program or if it's more akin to like targeting one particular problem, right?
+[40:32] Speaker1: And you get a certain like bifurcated split there, but the the possibility of ai's being supercharged connectors feels like it might be, you know, an amplifying tool in that pursuit.
+[40:45] Speaker1: It's.
+[40:47] Speaker1: Hard to measure though, right?
+[40:48] Speaker1: Like, because this cuts to what we were saying earlier.
+[40:51] Speaker1: How do you, how do you assign a score to say like, yes, you've done it.
+[40:55] Speaker1: If it's, if it's knocking down a problem, you have a clear way of saying, yes, you've done it.
+[40:59] Speaker1: You can write the headline, you can have your like pr move as the ai company to say we did it.
+[41:03] Speaker1: Whereas like, if it feels like that was the right connection drawn, you can like, you can write theorems around it.
+[41:08] Speaker1: And this is the nature of what the papers in that field look like, but i think it.
+[41:12] Speaker1: I think it will require a lot more like human in the loop to basically like say what was it?
+[41:15] Speaker1: The like the kind of connection that we're going for.
+[41:19] Speaker1: But that's my guess on what most of the useful progress from these models will look like.
+[41:24] Speaker1: Like in the next five years is just really filling in that landscape of like connections that you can draw.
+[41:30] Speaker1: If you're an expert in multiple fields, like you've pointed out, it's kind of surprising.
+[41:33] Speaker1: We haven't already had this right and what i'd be curious like.
+[41:37] Speaker1: I would be curious to know at a technical level what causes the unlock there, because on the one end, you can kind of paint an explanation in your head for why you could be an expert in all of these things and not be drawing those connections.
+[41:50] Speaker1: Which is, when the thing is reasoning, like the method of reasoning is this auto-regressive chain of thought phenomenon.
+[41:58] Speaker1: Auto-regression is actually like a really really weird way to.
+[42:01] Speaker1: A produce stuff.
+[42:02] Speaker1: I think if you think about it like you're an intelligent person.
+[42:07] Speaker1: Imagine i've walked you in a box, right?
+[42:09] Speaker1: And then the only way that you have of interacting with the world is that you receive a slip of paper and then someone says, can you like predict what will come next, right?
+[42:17] Speaker1: And then you predict will come next and then your memory is wiped, right?
+[42:20] Speaker1: And then you get like another slip of paper and you go, imagine that was done a whole bunch and then what comes out on the other end, they're like, look at this essay that you wrote.
+[42:28] Speaker1: You might look at them be like, this is awful.
+[42:29] Speaker1: That's not the essay that i would have written, right?
+[42:31] Speaker1: Because like the process of like repeatedly like predicting something is just pretty different from how you would think as a writer to like compose it and think it through and everything.
+[42:40] Speaker1: And in particular, what would probably happen is you're sort of a slave to your context where you might be answering some question about some particular field.
+[42:48] Speaker1: So you like drawing all the context around that and you're going there.
+[42:51] Speaker1: The the connection that actually is where all the substance is going to come from is like by its nature, a very like unlikely one.
+[42:58] Speaker1: And you know, you can do all the rl that you want to try to like get better in some way.
+[43:02] Speaker1: But like, what's the thing that specifically upweighting and incentivizing making these unlikely connections when the vast majority of them like aren't the predictable, you know, next token that would come in there.
+[43:12] Speaker1: And so it's like, it might be the case that you just have this intelligence that sort of lock it in there inside that box, but it's just a weird way of interacting with it.
+[43:19] Speaker1: So the thing i'm curious about is like.
+[43:21] Speaker1: Do you ever get any fruit by just like questioning the premise of how tokens are generated, like every now and then in some way, right?
+[43:30] Speaker1: And i don't think it would be as simple as you like manipulate the temperature or something like that.
+[43:34] Speaker1: But like, are there any things that you can do that take like the existing level of intelligence, but like find the right ways of sparking those connections, that like.
+[43:44] Speaker1: Unlocks these sorts of things that we've seen, or do you need just a little bit more intelligence such that at the level of prediction, it's kind of predicting that it should be making that lightning bolt to another field.
+[43:54] Speaker0: I i think it's more productive to reason instead of architecture or even loss function, to reason about data.
+[44:04] Speaker0: Like.
+[44:05] Speaker0: I don't know, we have diffusion models that do that do text and they're like not out of the kinds of things that produce are not of the holy different character.
+[44:12] Speaker0: They just not been explored as much.
+[44:14] Speaker0: I think the more relevant thing is, what is the data on which whatever architecture, whatever loss function you have is incentivizing you to produce and it does seem like they're getting better at like, okay, forget about math.
+[44:28] Speaker0: I mean, we did have this a couple of examples of this kind of thing.
+[44:32] Speaker0: But if you just look at why they're getting better at, being autonomous agents.
+[44:36] Speaker0: It just, i don't know that they have like they're in an environment where auto regressively producing the step that says, let's step back and do a search over the whole code base, right?
+[44:45] Speaker0: And then let's step back and like assess my mistake is like the thing that works.
+[44:50] Speaker0: I assume what happened in the case of progress in science or maybe in math is.
+[44:56] Speaker0: You have frontier math like problems, which require like mathematicians to specifically design them because they require connecting together two different fields.
+[45:06] Speaker0: And there's all, I'm guessing there's all kinds of clever like partially synthetic ways in which to make harder and harder problems like that that require these kinds of connections.
+[45:13] Speaker0: For example, by like eliminating assumptions and still requiring the AI to continue to get to the answer.
+[45:19] Speaker0: And then like it just doesn't really end up mattering with the loss function is it?
+[45:23] Speaker0: Just like it's really about can you come up with an environment?
+[45:26] Speaker0: Which incentivizes a stability.
+[45:28] Speaker1: Yeah, it feels like you should be able to.
+[45:31] Speaker1: Yeah, i can't.
+[45:32] Speaker1: I certainly can't speak to the correct ways of doing that that like unlock all this, but it would just be pretty surprising.
+[45:38] Speaker1: Like, don't you think it would be kind of surprising if over the next three years, there's not just like a lot more of those lightning bolts.
+[45:43] Speaker0: So this i think is an important thing to think about, which is we often think about how smart a single system is and we don't think about ai's having advantages that are more the result of.
+[45:55] Speaker0: Other facts about them, so, in this context, the key fact about them is that we can just paralyze and arbitrarily scale them, so that whatever level of capability they have, it's not just like one idiosyncratic genius in the history of mathematics who makes a few few connections and then dies in a duel.
+[46:13] Speaker0: Right.
+[46:13] Speaker0: It's just universally applying the waterline across all problems that are accessible at the level of capability.
+[46:20] Speaker0: I feel like this is among the many advantages that digital minds inherently have that we don't think enough about the fact that you can the other ones being the fact that you can like they can merge all the knowledge together.
+[46:31] Speaker0: At least that there will be techniques that allow this to happen that you can like that you can spawn off copies with identical levels of knowledge.
+[46:38] Speaker0: But yeah, i feel like this paralyzation is like quite an important property and i'd be curious about your predictions of even if they're not as smart as mathematicians.
+[46:46] Speaker0: The fact that they are just, you know, billions of because for pr reasons that the ai companies are just dumping billions and billions dollars at this would have a quantity has a quality of its.
+[46:56] Speaker1: own that seems in the right direction.
+[46:59] Speaker1: I think i mean if we take that you know that conversation between montgomery and dyson at the ias that like suggests some connection between riemann hypothesis or reminds data functions zeros and random matrices.
+[47:12] Speaker1: That feels like the kind of thing that you could try to like automate and that you have, you know, agents representing expertise in all these and basically having, okay, we all know that an institute is smarter than an individual and that like the reason for having people all in the same geographic location is because you want those like serendipitous conversations to happen.
+[47:32] Speaker1: What does it look like to sort of engineer those between agents?
+[47:35] Speaker1: I mean, it's interesting because you sort of point out like you can sort of pool all your knowledge and so on.
+[47:39] Speaker1: I actually wonder if one of the advantages is that you can do the opposite of that where you have.
+[47:44] Speaker1: Sometimes when an ai is failing, it's because it's sort of gets into a bad chain of thought and it's really hard to get it out of it, right?
+[47:51] Speaker1: So like i just like start again, same deal with humans, right?
+[47:54] Speaker1: Like sometimes you like start thinking about it in a certain way and actually what's required is to just like back up.
+[47:59] Speaker1: Maybe sometimes the form of that, you know, their stories about people trying to prove something for a long time and then at some point they say, hang on a second.
+[48:06] Speaker1: What if i tried to prove that it's impossible?
+[48:08] Speaker1: I like prove the opposite and that like unwinding your own context and going at it with a fresh mind.
+[48:13] Speaker1: You could imagine systematizing that or like having multiple different agents deliberately given different pieces of context and try to like comparing trust there.
+[48:20] Speaker1: Like we don't have the same level of manipulation on our own context one.
+[48:26] Speaker1: In this like ai and math series, the first episode will do will be about like when they solve the imo and i want to focus on one specific imo problem that they failed on, which is one that a lot of very smart students failed on terry towel.
+[48:38] Speaker1: Also failed on it.
+[48:40] Speaker1: And the nature of it is basically that it people were very mad at the problem because they called it a troll problem.
+[48:47] Speaker1: I almost don't want to spoil it because i want to construct the episode around like leading someone in with without knowing that it turns out to have a simple solution because you like can really empathize with what it's like to be like a student solving this.
+[49:01] Speaker1: Basically, there's a really elegant way of going down.
+[49:04] Speaker1: What you really feel like is going to be the solution based on the context of being the.
+[49:07] Speaker1: International international math olympiad problem positioned as it is the like character of the solution is like really enticing but it's kind of hard to prove that it's the best.
+[49:15] Speaker1: The reason is that it's not there's like this almost brain dead solution that is the best.
+[49:19] Speaker1: And so the like relevance of that to the whole ai story is like for a human what's required to answer that question is to like escape your context, escape the context that you're in the imo escape the context of the way you've been trained to solve these.
+[49:32] Speaker1: Like contest math problems.
+[49:34] Speaker1: And if you just approached it like a like a brain teaser that i throw someone off the street, like they'd probably answer it.
+[49:39] Speaker1: Well, and you sort of want the same sometimes for like, like human research in other contexts where like sometimes just being able to say, refresh your thinking, come at it completely differently.
+[49:52] Speaker1: So of all the advantages that digital minds have, that might actually be one of them like.
+[49:56] Speaker1: A little bit more of a systematic.
+[49:58] Speaker1: What does it look like to like refresh your thinking?
+[50:00] Speaker1: Try to answering two separate questions like spin-off two agents.
+[50:03] Speaker1: One who's trying to prove it one who's trying to disprove it one who tries it like this way one to try and they like deliberately have different contexts.
+[50:09] Speaker1: I would be curious to see if we're having this conversation three years from now.
+[50:13] Speaker1: How many of the like significant results that make headlines have that character of basically like.
+[50:19] Speaker1: Erasing the context previously, like trying a bunch of different things, as opposed to merging the results of like a bunch of different.
+[50:25] Speaker0: It is in incredibly interesting, because a common concern people have about ais, is this entropy collapse, where they all think the same way, because they're trained in similar ways.
+[50:34] Speaker0: This is why they're bad at writing, they kind of just like, go down the same path, and have similar patterns of speaking and so forth.
+[50:40] Speaker0: But maybe actually, the key advantage ais have.
+[50:44] Speaker0: Is that you can systematically, it it sounded like one of the reasons the unit distance problem conjecture took so long to be disproven, was because people assumed the conjecture was actually true.
+[50:54] Speaker0: So they were mostly they were trying to figure out ways in which to prove it.
+[50:57] Speaker0: And so maybe one of the key advantages they as will have is actually to.
+[51:02] Speaker0: Increase the entropy by systematically trying out both the negation and trying to prove the positive of any given statement of like or being able to like systematically give different agents different biases.
+[51:16] Speaker0: That's a good point.
+[51:17] Speaker0: Like it seems like an important thing in the history of human science is that like einstein is just really motivated by this bias that like things should look the same in different reference frames and then he had multiple other biases like these.
+[51:27] Speaker0: But like that is just a very formative in his thinking and you can just like.
+[51:31] Speaker0: Systematically survey a bunch of heuristics and see which ones are being productive at a given problem.
+[51:36] Speaker1: Yeah, and so you would suggest basically.
+[51:39] Speaker1: The like systematically increasing entropy at the prompt level, even though you have this like inevitable collapse at the like auto regression level.
+[51:47] Speaker1: Yeah, yeah.
+[51:48] Speaker1: I mean, and and i mean, einstein would be an interesting example because it's like he's got this bias towards things should be able to.
+[51:53] Speaker1: He also has a bias towards like god should not play dice, right?
+[51:56] Speaker1: And it's almost like you want to make sure that you don't accidentally have all of your llms or einstein because you might halt on quantum.
+[52:02] Speaker0: mechanics progress, right?
+[52:03] Speaker0: Which actually goes to show you that you there's not a correct.
+[52:06] Speaker0: Exactly.
+[52:07] Speaker0: Exactly.
+[52:07] Speaker0: You actually just need multiple independent research programs with their own heuristics.
+[52:11] Speaker1: Yeah, yeah.
+[52:11] Speaker1: And that feels like old school software, right?
+[52:13] Speaker1: As long as you're able to like describe that in some way, you have like old school software that like amplifies that entropy in some way and.
+[52:19] Speaker1: If you're able to like put a clear ontology to the distinct ways of thinking that you want to prompt, you like explore that full ontology, and then each individual one, you know, runs off doing what it is.
+[52:31] Speaker1: But i, you know, i i i think there's a certain design question there, and like how exactly do you describe like the different approaches?
+[52:38] Speaker1: The easy one is, are you trying to prove it or disprove it?
+[52:40] Speaker1: The harder one would be to say, what are all the tactics that you could take to prove this?
+[52:44] Speaker1: And make sure that you're like sufficiently applying sufficient breadth to exploring that.
+[52:50] Speaker0: I don't think people appreciate the kinds of things that these models can just go handle for you when you equip them with a good harness like cursor.
+[52:57] Speaker0: For example, i started publishing my episodes on billy billy for a hopefully burgeoning chinese audience.
+[53:03] Speaker0: But everything i upload there needs the sponsored segments cut out.
+[53:06] Speaker0: Normally, that would have meant that i would have to ask my editors to go back through all the old episodes, cut out the ads, and re-export everything.
+[53:13] Speaker0: But in about just as much time as it would have taken me to send them that slack message, i can just tell cursor to do it instead, and spare them.
+[53:19] Speaker0: And for research for the podcast, i have a whole repo that i've set up where i've just put every single book and paper that's been relevant to prepping for any of the recent episodes.
+[53:28] Speaker0: And i've been able to hodgepodge everything, because the cursor harness is just extremely good at helping the model figure out exactly what information to pull, whether that's from my repo or from the web.
+[53:37] Speaker0: In order to answer the questions i have while i'm doing research.
+[53:40] Speaker0: So, whatever you happen to be working on right now, just try pointing cursor at it.
+[53:44] Speaker0: Go to cursor dot com slash lorecash to get started.
+[53:48] Speaker0: Obviously, af for math is making a lot faster progress and everything else and people point to verify ability of the domain as the key reason this is happening.
+[53:56] Speaker0: I think that's one of the two important reasons, but i don't think i think people really neglect the other one and i'm outside the labs.
+[54:04] Speaker0: I don't know what's actually going on.
+[54:06] Speaker0: There's a totally naive theory.
+[54:11] Speaker0: Okay, a tangential question to why ai is making so much progress in math.
+[54:16] Speaker0: Why has it been so slow computer use?
+[54:18] Speaker0: Which is what you, you know, a computer is actually very verifiable is like, you know, is my etsy package coming or like, is my event booked, you know, whatever.
+[54:25] Speaker0: These are extremely verifiable things to survey what computer use lacks is grindability.
+[54:31] Speaker0: So because websites have like bot detectors and also it takes a tremendous amount of compute to run parallel rollouts.
+[54:38] Speaker0: It's very hard to just run like 1,000 parallel roll out of the same checkout flow on amazon because you'll get like shut down by andy jassy, right?
+[54:46] Speaker1: And so you can personally this is the like red x on dorkish button.
+[54:51] Speaker0: Exactly.
+[54:53] Speaker0: And so you can try to build clothes every single website.
+[54:55] Speaker0: This is very labor intensive and slows you down.
+[54:58] Speaker0: So and the reason you, by the way, you need to do so many parallel worlds in order to learn a skill currently with deep learning is that we haven't solved sample efficiency.
+[55:08] Speaker1: Second supervision to a straw.
+[55:09] Speaker1: Exactly.
+[55:10] Speaker0: He says, of course, people are working on many different techniques, but fundamentally, there's this big problem and there's this big constraint in the way we train ai that we just.
+[55:18] Speaker0: With code also, you can containerize a given level of progress in a repository and then just spin out thousands of parallel containers or hundreds of parallel containers and say like try to implement this feature and it's totally deterministic and because it's deterministic, you can solve the credit assignment problem because you know that whatever caused this rollout to succeed and this one to fail.
+[55:37] Speaker0: The diff is the thing that like worked and this way you saw the credit assignment problem.
+[55:41] Speaker0: If you have situations that are starting off at different starting points, It's credit assigned problem because much harder to solve.
+[55:47] Speaker0: But most of the things in the real world are just very hard to containerize in the same way like coding and math or exceptions to this rule.
+[55:55] Speaker0: But if you're just trying to figure out how do i build a new business that succeeds?
+[55:57] Speaker0: How do i like go trade in the markets for a day and like make money?
+[56:01] Speaker0: You can't like the fact that you had to interact with the real world and like things change day.
+[56:05] Speaker0: After day means that you can't keep replaying and grinding and farming the simulator.
+[56:11] Speaker0: But the math, of course, is the exception and i feel like this is actually an important driver of progress in this domain and also in in encoding.
+[56:20] Speaker0: It's not just verifiability, it has to be grindable.
+[56:23] Speaker0: The third reason that people point out that ai is making fast progress is they focus a lot on lean and formalization.
+[56:30] Speaker0: Again, i have literally no idea what's going on in the labs.
+[56:33] Speaker0: I feel like lean just doesn't matter that much for like the current level of progress in ai or like why is ai able to solve the unit distance problem?
+[56:39] Speaker0: Well, they are sorry.
+[56:40] Speaker0: Disprove the conjecture by the unison problem.
+[56:43] Speaker0: They release the chain of thought or at least the something a rewrite of the chain of thought.
+[56:48] Speaker0: Didn't have any lean in it.
+[56:50] Speaker0: I think it just like the the process may supervision that lean provides where you know each step is correct.
+[56:55] Speaker0: Seems like less relevant that just having this grindable outcome that is verifiable.
+[56:59] Speaker1: It's an interesting point like grindability mattering more.
+[57:04] Speaker1: I guess i will say on the yeah.
+[57:05] Speaker1: Okay, so naively you might think lean provides something unique for math because you're able to see if it can prove it.
+[57:12] Speaker1: You have old school software that can tell you yes or no, you use that as your vr.
+[57:16] Speaker1: I mean what?
+[57:17] Speaker1: So what would corroborate your point is the idea that like the initial attempts again, i'll just circle back to imo.
+[57:22] Speaker1: It's like initially deep mind basically does that it's like everything in lean and then the next year it's all in natural language.
+[57:27] Speaker1: So to your point not needed.
+[57:29] Speaker1: I do, i think there is a yet to be explored benefit of that formalization domain, which is at the moment you still need, you know, ultimately like a human is reviewing that counter example to the unit distance conjecture to say looks good.
+[57:45] Speaker1: And that that provides a certain bound on how like endlessly explorable things are.
+[57:50] Speaker1: Like if you consider like alphago, alpha zero style stuff where they're just like off in their own universe.
+[57:56] Speaker1: Just like playing a bunch of go and exploring themselves, just completely going potentially off the rails of what any human needs to look at, but they still have this automated, verifiable reward.
+[58:06] Speaker1: It's not just that, hey, you can do rl on that.
+[58:09] Speaker1: It's also, you basically never have to check in, and you can just like pour compute at them like exploring the universe of go.
+[58:16] Speaker1: What stands to be interesting, like maybe this won't pan out, but i think the.
+[58:20] Speaker1: The jury should still be out on like whether this will yield anything with lean.
+[58:25] Speaker1: You could imagine having a basically endlessly running program that's constantly trying to extend mathlib.
+[58:33] Speaker1: So mathlib, it's this github repository that's basically like all of math written in code.
+[58:38] Speaker1: It's very far from all of math, but they want it to be all of math written in code that you can ask like, is this proof correct?
+[58:43] Speaker1: It's very labor intensive to write these proofs.
+[58:45] Speaker1: There's like a whole sub-community around it.
+[58:48] Speaker1: Um, but you could imagine what if you just had an ai where you say simply try to extend mathlib, maybe it's a fork of it so that it doesn't have, you know, like trash in it because people, you know, people have certain taste for what they want to be in there.
+[59:01] Speaker1: So you have like your fork of like the pure ai mathlib and it just goes and it's just like doesn't stop.
+[59:05] Speaker1: It doesn't need anybody to check in on it, right?
+[59:08] Speaker1: It could just keep going.
+[59:09] Speaker1: It might come up with its own conjectures.
+[59:11] Speaker1: I might come up with its own theories and like different definitions.
+[59:14] Speaker1: Maybe many of them are useless, but it just has this infinite tree that it can like grow out.
+[59:18] Speaker1: That's a very unique thing that math has that nothing else has where you could press go and then just like just just pour compute at it and like look away for 10 years and then come back and say like what do you have?
+[59:28] Speaker1: And there's there's gonna be something, right?
+[59:30] Speaker1: And then there's a question, is it useful or not?
+[59:31] Speaker1: Like how do you test that out?
+[59:33] Speaker1: That's just an interesting thing to be able to do.
+[59:35] Speaker1: It would be very surprising if that didn't yield like some sort of interesting mathematical insight from it, right?
+[59:41] Speaker1: So i think like that's the real case for okay, there's.
+[59:45] Speaker1: There's like two different ways that like lean is important in this story.
+[59:48] Speaker1: That's the first one of them basically is how it's like you could let go not even check in and progress will be made.
+[59:54] Speaker1: You can do that with go.
+[59:55] Speaker1: I don't think you can do that with natural language math.
+[59:57] Speaker0: Hmm, this is very interesting.
+[60:00] Speaker0: Maybe you see carp.
+[60:00] Speaker0: These auto research idea.
+[60:03] Speaker0: He wrote this basically one python file that does basic llm training.
+[60:09] Speaker0: And then just had a repo where element agents would like try to make modifications to the file.
+[60:14] Speaker0: If it's sped up the speed run, the modification stays eric jang who came on to explain how alpha go works.
+[60:21] Speaker0: They did a similar thing when he was building it trying to build in a very strong go bot and he had interesting observations about the kinds of like it's really good to just go running an experiment and going down that path but it's bad at.
+[60:34] Speaker0: Stopping at dead ends and just doing extremely parallel things.
+[60:38] Speaker0: Anyways, this will probably be changed.
+[60:40] Speaker0: This will change in the future.
+[60:41] Speaker0: It's very interesting to think about what it looks like in the limit.
+[60:44] Speaker0: I mean, this is fundamentally like what the human institution of mathematical research is, right?
+[60:49] Speaker0: It's just like this is a library extended in an interesting and useful ways and this way you don't have any outcome based supervision.
+[60:56] Speaker0: No, there's no outcome that you're trying to incentivize, but you have a process that, you know, the steps are correct.
+[61:01] Speaker0: You just don't know if it's going in an interesting direction.
+[61:04] Speaker1: But yeah, you would like if you were doing that, you don't want to completely go off the rails and like do a random walk through the space of logic.
+[61:09] Speaker1: You probably want some like supervisor model that's trying to provide heuristics on whether it's useful or not.
+[61:14] Speaker1: Um, but yeah, something of that character.
+[61:17] Speaker1: I mean, you know, people are working on it and like that's one of those like five years from now.
+[61:21] Speaker1: I'd be curious to like be able to get the future version of us like talking about whether like maybe that goes nowhere.
+[61:27] Speaker1: But terry tau was talking about one like research project that's basically try to exhaustively search the space of possible like algebras.
+[61:36] Speaker1: Like you could you could imagine different like axioms that you apply to algebraic systems.
+[61:39] Speaker1: And so like when we come up with group theory, there's a certain axiom system that like has this flavor of, they kind of look like arbitrary rules unless you know the motivation.
+[61:47] Speaker1: But it's basically like, have you tried all of them?
+[61:49] Speaker1: Do any of these yield useful things?
+[61:51] Speaker1: And like the vast majority of them is just trash in some way, like it all collapses to like no interesting results.
+[61:55] Speaker1: But like every now and then would, there would be this little island of like a completely different type of axiom system that at the very least seems rich in terms of like the number of theorems that can come out of it.
+[62:05] Speaker1: And that's like bread and butter for what you would imagine like automated provers being good for, is like exploring that space and seeing which one of them turns out to be something, and like maybe one of those islands actually turns out to be something you can retroactively put motivation on to say this is the kind of structure that's trying to get at in the same way that you could imagine looking at the axioms for a group.
+[62:23] Speaker1: Not knowing that it's about symmetry, but retroactively realizing like, wow, this is very relevant to studying symmetry.
+[62:28] Speaker1: So.
+[62:29] Speaker1: He could imagine results of that flavor, but instead of just exploring possible algebra systems, it's like all possible, like logical consequences of any kind of axiom.
+[62:39] Speaker0: on the point about whether you can provide process-based provision without lean.
+[62:44] Speaker0: So deepseek had their deepseek math model and they released the paper on how they trained it.
+[62:51] Speaker0: You know, it's quite interesting.
+[62:52] Speaker0: So they have.
+[62:53] Speaker0: The problem with having natural language proofs is you don't know if it's correct or not, and so they have a verifier, and then the verifier is trained by a meta verifier, that make sure that any, all the problems that they're training this model to solve.
+[63:05] Speaker0: And like the art of problem solving.
+[63:06] Speaker0: That the verifier is giving good feedback on that, and it like, it works.
+[63:09] Speaker0: And so it's just interesting, yeah, natural language verification with some sort of meta verification kind of work, at least seems to work so far in the published literature.
+[63:17] Speaker0: And also, it seems to work in the published products that we're using.
+[63:21] Speaker0: Like, if you look at coding agents, they're getting better and better at like writing clean code and refactoring code and stuff like that.
+[63:27] Speaker0: And i'm sure that that there's process based like llms judge kinds of things which are saying trying to provide taste and say, hey, is this like a clean way to write this function?
+[63:36] Speaker0: Are we like, are there are there duplicates of the same kind of modular forms and so forth?
+[63:42] Speaker0: Um, i feel like that should also work for mathematics, right?
+[63:45] Speaker0: It's like it doesn't.
+[63:46] Speaker1: seem it seems more plausible for math than anything else.
+[63:51] Speaker1: Even if you're only working in natural language that you could trust to verify.
+[63:54] Speaker1: I mean, you and i were talking earlier about why they're bad at writing and, you know, i was asking like why you can't just like they seem to be good judges.
+[64:00] Speaker1: If i give them two essays that like students, right?
+[64:02] Speaker1: They'd be able to say which ones more like accurate and insightful.
+[64:06] Speaker1: So why can't you just have like a verifier saying like, is this a good piece of writing or not?
+[64:10] Speaker1: And maybe the ultimate failure there is like, even if they're good at discriminating between like a bsa and an asa, they're not actually good at discriminating between like an asa and like a thing you actually want to read that would be, you know, followable on substack and insightful and all of that.
+[64:25] Speaker1: Like they actually end up preferring just un-insightful pieces of writing.
+[64:30] Speaker1: Yeah.
+[64:30] Speaker1: And so on the math front, i guess the question would be like that step to simply know like is this a correct proof or not that lends itself to.
+[64:39] Speaker1: Like an automated verifier, even a natural language, you could probably still make a ton of the progress.
+[64:44] Speaker1: It still doesn't like, i still like the sort of tree of logic out of lean front, just in that you can really go off the rails, right?
+[64:50] Speaker1: Like there's just no constraint on like the previous way that things had been phrased before in the same way that, you know, everyone talks about like move 37 and like alphago and such like what is the thing that lends itself to just going outside the prior heuristics and you.
+[65:05] Speaker1: It seems productive to have a disconnection from the rest of the world in that exploration as like a complementary research pursuit to the natural language math front.
+[65:16] Speaker1: I mean the other the other relevance of lean there would be like okay let's say you have your pure natural language.
+[65:24] Speaker1: Rl environments and you have a pure natural language set of proofs and people have said like proceed ai mathematicians and they go and they generate like 10 papers a day that produce a bunch of stuff.
+[65:37] Speaker1: If the error rate, if there's like any error rate to that at all, so alex kontorovich has talked about this, it becomes insufferable like as a mathematician because you basically be like.
+[65:48] Speaker1: Every single time i see one of these, i kind of don't know if it's worth my time, even if 99 out of 100 of them are right.
+[65:53] Speaker1: I don't know if it's worth my time to even go through it because it's really labor intensive to find what that error would be.
+[65:59] Speaker1: And it's like really frustrating if it turns out you spent all your time on a paper that was trash.
+[66:03] Speaker1: And so having anything that's able to give you that green check mark that says, even if this is going to be complicated to understand, even if it's going to be a pain, you at the very least know it is correct.
+[66:14] Speaker1: Like every other field would kill for that, right?
+[66:16] Speaker1: And like math has that.
+[66:18] Speaker1: If the models are also able to take their natural language proofs and formalize them.
+[66:22] Speaker1: And so that seems huge, right?
+[66:24] Speaker1: The ability to have that like every field would love to have something like that.
+[66:27] Speaker1: And so i think you are right that lean is maybe overrated on the side of the importance of it being used as a vr environment for any kind of like just progress in math generally, but i definitely wouldn't write it out of the story.
+[66:43] Speaker0: Yeah, yeah, i also love this extension of math love as.
+[66:48] Speaker0: A metaphor for like what's going to happen to our civilization for these students for sure.
+[66:52] Speaker0: Yeah, right.
+[66:52] Speaker0: It's like for millennia humanity is building this like corpus of knowledge and understanding and everything that we have now distilled into these models and at some point into the models will just like extend that arbitrarily.
+[67:07] Speaker0: By the way, on the writing front, i actually have i have a theory of why writing is making.
+[67:12] Speaker0: Worst progress in these other domains.
+[67:14] Speaker0: So i think one of the one of them is what you said that they're bad at judging, not only a versus b, but they get like just totally derailed by b star.
+[67:23] Speaker0: Which is this like a shitty essay that just hits all the all the what bells and whistles that like a is supposed to hit, and then so the reward hack thing just like totally goes off the rails.
+[67:32] Speaker0: But i think the other important thing is that writing is not modular in the same way that code and math are, like.
+[67:40] Speaker0: You know you you can write a function many different ways, and they kind of do the same thing, and of course you want it to be very clean and stuff, but like, at the end of the day, it works it works.
+[67:46] Speaker0: Same with like lemmas and mathematics, and then you know you can like have some end product that that is different.
+[67:52] Speaker0: From the way it is produced.
+[67:53] Speaker0: So, the code is the thing that produces some end product, and you work, you want a functional end product.
+[68:00] Speaker0: Whereas in writing, the end product is directly the thing the AI is producing and each.
+[68:07] Speaker0: Paragraph sentence word matters because that is a thing that is like like that is the substance.
+[68:13] Speaker0: It's not like some separate thing that is produced out of the writing and so it any it's a you can't just be it can't like be slop it had the in the way that like code can be slop and still produce some outcome that you want.
+[68:25] Speaker1: But you were just pointing out how actually we've gotten much better at agents writing, not just functional code, but clean code.
+[68:31] Speaker1: Why is it not the case that the same progress that allows you to go from merely functional to like clean and like a mergeable pr doesn't also result in like clearer writing.
+[68:41] Speaker1: Yeah.
+[68:42] Speaker0: That's a good point.
+[68:42] Speaker0: I mean, also, has it not like I agree there's many ways in which they're terrible writers, but for a lot of writing I consume, I find it's better to just copy paste it into an LLM and just say, like, explain this to me.
+[68:56] Speaker0: The explanation will be better than the thing that is produced by the human.
+[69:00] Speaker0: So it's funny that we say, like, these are such terrible writers.
+[69:03] Speaker0: And also, my reveal preference is just like, can I just have an LLM explain it?
+[69:07] Speaker0: Even when I'm talking to a human expert, like live on a call, if it's a piece of knowledge they have that only they have, that's not encoded in the distribution, I want them to explain it to me.
+[69:16] Speaker0: But then if in order to understand that, i need to understand a more basic concept, i would prefer if it was socially acceptable for me to just be able to say, let's pause there.
+[69:24] Speaker0: I'm just gonna ask another one how that works and then we can come back to your your your special piece of knowledge.
+[69:31] Speaker1: Well, it sounds, i mean, that's distillation, right?
+[69:34] Speaker1: And explanation.
+[69:35] Speaker1: And so if you're, if i'm thinking like quality of you as an essay writer, if it's that, i give you a book to read and i want a book report.
+[69:43] Speaker1: Right, then i might believe that.
+[69:45] Speaker1: Okay, the llm maybe gives me a better book report, but i think what we what people are really getting at when they say it's better, right?
+[69:52] Speaker1: Like what is writing?
+[69:53] Speaker1: It's not just distillation of previous ideas.
+[69:55] Speaker1: It's not just like, how do you explain clearly because they are good explainers.
+[69:58] Speaker1: It's like, what is the insight?
+[70:00] Speaker1: And this is, this is where it gets like, just auto regression is a very weird way to generate stuff because like when you're writing, you sort of you sort of know.
+[70:09] Speaker1: In order for it to be good, you have to have an element of the unpredictable and it's not just like increasing temperature in your mind or something, right?
+[70:16] Speaker1: It's like knowing exactly the correct point when you want to make an unpredictable move and that that's going to be what's more insightful.
+[70:22] Speaker1: And so even if it's like better at explaining a pre-existing thing, it's like what generated that book that you wanted distilled in the first place, right?
+[70:29] Speaker1: It wasn't, it wasn't an llm that like generated it and you just needed it.
+[70:32] Speaker1: It's like some author who through a lot of exploration of ideas in the world and then deciding what aspects of it were interesting and which.
+[70:39] Speaker1: Ways of presenting it were like the coherent well motivated narrative.
+[70:44] Speaker1: It's like they put that all together in some way and you know if they're a good author it's probably one that actually you would air on the side of reading their book instead of the distillation.
+[70:53] Speaker1: But so what makes it worthwhile to like explore at all in the first place and you're uploading it at all.
+[70:59] Speaker1: I think it's all of that side of it.
+[71:00] Speaker1: That's the like when people will cite them being bad at writing and it's that element of unpredictability of being deliberately choosing something that's novel.
+[71:08] Speaker1: That's like.
+[71:09] Speaker1: Very directly contradictory to like the way that things are being produced.
+[71:12] Speaker0: Yeah, that's a good point.
+[71:14] Speaker0: I think they're also really bad at building really good mental models of people, which i think is a very important skill in writing.
+[71:20] Speaker0: So any matthew shack and another collaborator whose name i'm forgetting right now.
+[71:24] Speaker0: Did a interesting report where they tried to teach llms to write good space repetition prompts and i really like this because even though it seems like a really totally random skill, It's just like people are talking about recursive self-improvement in a year and we can't get these things to write good flashcards and what's going on there, right?
+[71:43] Speaker0: And they tried many different kinds of techniques and they're like, you know, sophisticated people like they tried to rl open source models.
+[71:50] Speaker0: They tried all kinds of including chain of thought and the big prompt they sent to the best close source model etc.
+[71:55] Speaker0: And the key constraint that seemed to me was that.
+[71:59] Speaker0: Writing a good card is about.
+[72:03] Speaker0: Projecting somebody's mind in three months, and what is the way in which they will associate the question, like what what kind of answer will be thinking by the moment, and is that, is the is the elicitation that inspires.
+[72:15] Speaker0: The detail you actually want to take away from the passage you're trying to make cards about.
+[72:22] Speaker0: I think writing also is similar to this where if you're writing something, you're like the reason it's such a enervating process that takes so long is each word you should be thinking or each pair of sentence should be thinking what is happening in my reader's mind right now.
+[72:35] Speaker0: Even if i flip the phrasing around or so the end phrase goes to the beginning and like this is the first image that comes to your mind before you read the rest of the sentence that kind of maybe auto regression is bad at that kind of.
+[72:46] Speaker0: This maybe a more diffusion like property of considering the whole rather than going sentence by sentence.
+[72:51] Speaker0: But also, i think that requires a lot of mentalizing which these models we're at least struggle at.
+[72:55] Speaker1: Well, i mean interesting question like is it weird that they struggle at that?
+[72:58] Speaker1: So i might butcher this this, you know how when you like cite studies that you once read and it's like maybe the study wasn't real or something.
+[73:06] Speaker1: This one very memorable one on.
+[73:11] Speaker1: Okay, so let's say you want to quiz people's eq, like you show a flashcard of someone's like facial expression and someone's trying to describe like what's that emotion.
+[73:20] Speaker1: So i think there's really good tests online that'll have like a face and then four possible emotions and it's like surprisingly hard to like describe exactly the correct emotion.
+[73:30] Speaker1: But you also get the sense that really is a correct answer.
+[73:32] Speaker1: And if you try this with like people in your life, you'll notice that the ones who actually are pretty plugged in socially like do really well on it and the ones who are a little bit more like left brain like them.
+[73:41] Speaker1: Okay, so that is a kind of test you can do.
+[73:44] Speaker1: I vaguely remember an experiment to this effect where they took people who had freshly gotten like botox in some way and they did like a pre-test and a post-test and like post-test, they were just much worse at like reading people's expressions like that feels kind of weird.
+[73:57] Speaker1: They got botox.
+[73:58] Speaker1: So the person taking the test, it's like so you you do the test and then you go and you get botox on your face is all like frozen and now you are worse at understanding the emotions of what you see, right?
+[74:08] Speaker1: And the thought is that part of part of understanding like this emotion that you're looking at is doing it yourself.
+[74:15] Speaker1: That's like at a facial level like you like you know, moving your face muscles and it's like you see that you mimic that and you're like, oh yeah, that's anxiety right at some like very subconscious level.
+[74:25] Speaker1: So in that sense, if it is the case that models have bad theory of mind, sure, they know everything because they've like read what everyone wrote.
+[74:33] Speaker1: But at a level of like actually able to put themselves in your shoes in the same way that like my face muscles are mimicking your face muscles, that's what helps me understand how you feel.
+[74:42] Speaker1: Not surprising at all.
+[74:43] Speaker1: They don't have face muscles, they don't, their brain works completely different.
+[74:45] Speaker1: It's just like it's like an alien trying to empathize, like how how could it have theory of mind?
+[74:50] Speaker1: It would be like this very emergent thing to have theory of mind, right?
+[74:52] Speaker1: Whereas we can just like plug it into our own minds, um, and it's like we've got the ready made hardware to just like place it in, and so.
+[74:59] Speaker1: That's very interesting.
+[75:00] Speaker1: It's not, that's from that lens, it's not that surprising.
+[75:03] Speaker0: Okay, grant, we are both partners with james street.
+[75:06] Speaker0: I'm sure over the years, you've interacted with a lot of james street earth.
+[75:09] Speaker0: What have you found?
+[75:09] Speaker0: That's unique about them or their culture?
+[75:11] Speaker1: I mean, i was interested.
+[75:11] Speaker1: I did this interview with them this year that partly was interesting because they don't usually have anything outward facing.
+[75:17] Speaker1: I mean, in the industry, they're known as having like a pretty wild retention rate, like people just stay there and it's getting an inside view of that.
+[75:23] Speaker1: I remember one of the comments someone was saying, even though the people have role titles that, you know, researcher or trader or engineer, they often don't know what their colleagues actual role is because everyone's doing a little bit of everything else.
+[75:34] Speaker1: Like, even if you're officially a trader, you're doing a lot of research, even if you're officially a researcher, you're doing a lot of coding.
+[75:40] Speaker1: Um, and i suspect maybe that's part of like why they have the insane retention that they do because anyone who wants to be growing, they just have the chance to do a lot of different kinds of things.
+[75:49] Speaker0: All right, grant, i'll do the plug for you this time.
+[75:51] Speaker0: If you want to watch this full sit down interview that granted with some of the focus there, go to 3b1b.
+[75:57] Speaker0: com slash jane street.
+[75:59] Speaker0: All right, grant, let's talk more about ai and math.
+[76:02] Speaker0: What advice do you have about using llms to learn?
+[76:07] Speaker0: I so as i was describing for a lot of well-known concepts, i find them very helpful and but often it just a couple of further messages down and i'm trying to understand something and i just they're so confused themselves or confusing me and they don't explain the right way and then i'm just.
+[76:26] Speaker0: I know that talking to the right human could clear of my confusion in three minutes.
+[76:30] Speaker0: I don't know.
+[76:31] Speaker0: And then i feel like more and more, we're going to want to use these things as somebody's talked a lot about education.
+[76:36] Speaker0: Yeah.
+[76:36] Speaker0: And, you know, representation stuff.
+[76:38] Speaker0: We're going to want to use these things to learn things.
+[76:40] Speaker0: So, yeah, have you noticed the ways to use them or productively to understand concepts?
+[76:45] Speaker1: I'm curious to hear your take on this.
+[76:46] Speaker1: I mean, i'll give mine.
+[76:48] Speaker1: I am even pre llm.
+[76:50] Speaker1: I feel like a relevant.
+[76:51] Speaker1: Insight in learning was recognizing that like who matters more than what.
+[76:56] Speaker1: So like advice to any college student when they're choosing what courses to take care a little bit less about your pre-existing interests because they're kind of arbitrary right now and care a little bit more about whether like the person teaching it is a good educator.
+[77:08] Speaker1: And so when you resonate with i think in choosing what to read like what books to read like who the author is maybe matters more than if it's a prior interest.
+[77:16] Speaker1: So if there's a book you've liked before, read what else that author has written rather than reading another thing on that subject.
+[77:21] Speaker1: Um, on and i'm getting to like llms on this.
+[77:24] Speaker1: So like there's a, there's a difference in feel for trying to learn something.
+[77:28] Speaker1: If you look at a wikipedia page of it versus if you look at, let's say, like it's a philosophy topic and you go to the stanford encyclopedia of philosophy, or if it's a math topic, you go to the like princeton compendium of math where the difference there is like the articles are deliberately written by one individual who like.
+[77:46] Speaker1: Tries to actually craft a motivation around it and everything.
+[77:48] Speaker1: Whereas wikipedia, it's this like local minimum that's reached where basically, every sentence has to be correct.
+[77:56] Speaker1: And i think a good exposition, you care a little bit less about like correctness on the way, but you can like deliberately craft things that are a little bit wrong that you correct along the way.
+[78:05] Speaker1: They get like edited out and a crowdsource environment.
+[78:07] Speaker1: So like that.
+[78:09] Speaker1: Llm explanations feel to me at the moment a lot like wikipedia, which is to say amazing, right?
+[78:15] Speaker1: Like imagine world before wikipedia, like how how long it would take to like find and like suss in and everything, but nevertheless what's the most useful part of a wikipedia page?
+[78:24] Speaker1: It's often just the references at the bottom, right?
+[78:26] Speaker1: You look at the like key references, and you go to them, and you read them, and it's like actually sometimes that gives a much like better overview of it.
+[78:32] Speaker1: So.
+[78:33] Speaker1: Often i like to just ask an llm like who should i read right?
+[78:37] Speaker1: Like and maybe i can even give some specifics on ways i want to learn.
+[78:41] Speaker1: I actually got gaslit by this one, so i remember trying to learn about like, like semiconductors or something.
+[78:46] Speaker1: I was like, this feels very visual.
+[78:47] Speaker1: This is all like text.
+[78:48] Speaker1: I'm like, is there any really good like well, visualized math video or not math?
+[78:53] Speaker1: Sorry, a well, visualized video kind of like explaining the concepts that you're getting at.
+[78:57] Speaker1: In cloud, it was like, yeah, here's a couple in the top one.
+[78:59] Speaker1: It was like, here's one from three blue and brown.
+[79:02] Speaker1: I'm like, i can guarantee that there's not.
+[79:06] Speaker1: And it was an actual video, an actual link, but it just had like mis.
+[79:09] Speaker0: attributed.
+[79:11] Speaker1: someone else's.
+[79:12] Speaker1: And it was good, and it was like i had a much better experience clicking over and watching that video.
+[79:16] Speaker1: To learn about the thing rather than like trying to proceed forward with questions there.
+[79:20] Speaker1: So in that sense, basically using it like a very souped up version of google, on like zero in on the right human written resource.
+[79:26] Speaker1: Um, what about you?
+[79:28] Speaker1: Like what you engage with these a lot?
+[79:29] Speaker0: What's the best way?
+[79:30] Speaker0: I think you put your finger on it.
+[79:31] Speaker0: The most productive learning sessions i've had is when there's some artifact that a human is produced, whether it's an article, a book, a video that organizes the relevant concepts in the correct way and builds up the motivation of why building up the next idea would be relevant to solving the next problem you did encounter and the next idea and the next idea.
+[79:51] Speaker0: And using the llms to just do a little bit pruning around this this branch that the book is identified.
+[80:01] Speaker0: So i was i was actually i was going through.
+[80:04] Speaker0: I think you might have recommended steven strogatz is a textbook.
+[80:08] Speaker1: on the chaos one.
+[80:09] Speaker1: Yeah, yes.
+[80:09] Speaker1: A nonlinear dynamics.
+[80:10] Speaker0: I love that book and so i was going through it and.
+[80:15] Speaker0: It was, it was like bliss.
+[80:16] Speaker0: It was like your video is in like a book form.
+[80:18] Speaker0: He's so good.
+[80:18] Speaker0: It was super fun.
+[80:20] Speaker0: And the way i was learning it is like i'd have on one third of the screen is like lecture from university on one third of the screen.
+[80:26] Speaker0: I'd have that part of the textbook and on one third of the screen of an llm.
+[80:30] Speaker0: Now, it's actually thinking if i was back in college and watching this lecture live, we just totally go over my head.
+[80:36] Speaker0: Like these kids must be really smart because i'm like pausing and like reading the textbook and talking about the limbs and then restarting again.
+[80:43] Speaker0: But with him curating what is the right order to understand concepts, what is the right problem to motivate uh understanding a concept, oh oh, also another thing elements are really bad at is um.
+[80:55] Speaker0: I think a really good human can do is when you ask a question, they say like actually you're just like not really thinking about the topic the correct way.
+[81:01] Speaker0: Yeah.
+[81:01] Speaker0: Like the question you want to be asking.
+[81:03] Speaker0: Yeah, the correct way to organize these concepts is x.
+[81:06] Speaker0: Yeah.
+[81:06] Speaker0: And that one just can't really do that.
+[81:08] Speaker1: Yeah, it's it's a little too play kit.
+[81:10] Speaker1: I mean, this is ultimately like the very like the supplicants and you know that's very like what an insightful question, you know, that kind of thing you want to you want to strip that down.
+[81:20] Speaker1: Um, that's a good point and i think that cuts to theory of mind a little bit like recognizing that to ask a certain kind of question.
+[81:28] Speaker1: Reveals that the mental structures are not at least they're not the same as what the like explainer has and sometimes people do this to a fault, right?
+[81:36] Speaker1: Like i think a really good teacher.
+[81:38] Speaker1: Let's say you have like a middle school like math classroom or something.
+[81:41] Speaker1: If a student like asks a question that suggests they're thinking about it in a different way.
+[81:45] Speaker1: It's actually really hard to like take seriously in the moment.
+[81:48] Speaker1: Hang on.
+[81:49] Speaker1: Could you get to a right answer with that before you say, oh, instead of that, let's do this.
+[81:54] Speaker1: And like the really good teachers are able to like jujitsu the like creative way that the student was thinking about it and and bring it in.
+[82:04] Speaker1: I mean llms aren't doing that right when they are not reframing your question instead they kind of like run off right but.
+[82:12] Speaker1: The very least it feels like there's three levels here and so like oh and is that one good explainer is that another but then like the a plus explainer is the one who can like jujitsu your way of thinking and say like oh that's that's where that's useful.
+[82:23] Speaker1: And so maybe there is a certain you know cycle all the way around where again five years from now the llms will still be doing that but in the better.
+[82:30] Speaker0: way what is your recommendation to.
+[82:35] Speaker0: Students who i'm sure email you this question all the time.
+[82:39] Speaker0: Look, i want i was curious about doing mathematics.
+[82:41] Speaker0: I'm really passionate about the subject but seeing all the progress, they are making it doesn't.
+[82:45] Speaker0: I don't know if it makes sense for me to pursue this as a career and this is not relevant, not only to people in mathematics, but i'm sure to people who are noticing that their field is.
+[82:53] Speaker0: Uh, more and more getting.
+[82:57] Speaker0: productivity gains or whatever from AI, so coding is very adjacent to this.
+[83:02] Speaker0: Um, yeah, what advice do you have for people?
+[83:06] Speaker1: I wouldn't trust any advice that I give.
+[83:08] Speaker1: I would maybe be how I'd like couch it, but.
+[83:12] Speaker1: Even pre ai, it feels very important for any job that you're going to go into to really understand.
+[83:18] Speaker1: Like if we're talking about a job, right?
+[83:19] Speaker1: We're not talking about like your gentleman scientist and you want to like engage with the math world or something.
+[83:24] Speaker1: You should understand where the money is coming from and like what value you're actually adding and like the connection between those two.
+[83:30] Speaker1: And i think often like a surprisingly small amount of thought is put towards that specialty students.
+[83:35] Speaker1: They're in this environment where they.
+[83:37] Speaker1: They probably want to go into math because they've always been good at it and they've just been rewarded in life for like proceeding through the next hoop correctly and next step.
+[83:44] Speaker1: And when they think they want to be a mathematician, it's because it's a version of getting to continue to engage with that.
+[83:49] Speaker1: It's like, well, i'll go like, where do people get to do this rather than thinking like, what value am i adding to other people?
+[83:55] Speaker1: And to what extent is that like the reason that like salary is flowing in my direction because actually quite different in different cases.
+[84:01] Speaker1: Like in some cases, It's a very prestigious mathematician and like their presence at a university lens, a certain brand value.
+[84:08] Speaker1: And that's like why the university like wants them in some cases.
+[84:11] Speaker1: It's like the nsf grant is given because you've got this like public good belief that we have that basic science has and like you've got this institution around that and there's going to be this whole bureaucracy around trying to act as a proxy for what we think that public good is and a whole song and dance around how to.
+[84:28] Speaker1: Correctly make them predict that your progress will be in the spirit of that funding.
+[84:33] Speaker1: Sometimes it's just straight up teaching, right?
+[84:35] Speaker1: It's like people like to send their kids to an institute that has experts teaching them and like that's what you're doing and you are providing the brand value by being an expert and then the direct value by like being a teacher.
+[84:46] Speaker1: So regardless of whether ais are like proving theorems or not or like whether we're talking in 2016 or 2026 like.
+[84:52] Speaker1: That is a thing that not enough students thinking, I want to be a mathematician think about, but I think it's worth thinking about.
+[84:58] Speaker1: Like for me, I think that, you know, it's, I just like wasn't necessarily thinking about it and kind of stumbled into this career path where basically math exploration can be monetized as entertainment, right?
+[85:08] Speaker1: And I like stumbled into that.
+[85:10] Speaker1: I'm like very grateful that I did, but it was an accident.
+[85:12] Speaker1: It wasn't like this deliberate thing.
+[85:14] Speaker1: And I think I could have avoided relying on serendipity and maybe done that a little bit more by design had I been like thinking critically about it.
+[85:21] Speaker1: So to your question, If it's the case that you have almost automated theorem proving and then let's say it's the case.
+[85:29] Speaker1: They're also really good explainers.
+[85:31] Speaker1: So it's like even to get the human understanding.
+[85:34] Speaker1: I think a lot of the like social role that mathematicians serve actually doesn't change that much, right?
+[85:40] Speaker1: You still have a sense of, as a public, we sort of feel like there's va- value to basic science, and we're trusting in the judgment of mathematicians to determine like where their time is best spent.
+[85:50] Speaker1: And the prestige comes from within that community.
+[85:53] Speaker1: It's like other members saying that this was a really good result, more than it is like the grant writer who like really understands algebraic number theory to understand that it's a good result.
+[86:01] Speaker1: And so there's going to be some inner culture of what constitutes like valuable contributions.
+[86:06] Speaker1: Maybe it shifts away from theorem proving and maybe it shifts towards like good definition writing.
+[86:10] Speaker1: Maybe it's that like museum curator idea but you're going to have that same community and as long as society is a whole is still like valuing like the premise of basic science.
+[86:19] Speaker1: And if we're in the like abundance world of like what ai brings, probably there's more funding in that direction in some sense, right?
+[86:26] Speaker1: On the side of prestige to institutions for like who their lecturers are.
+[86:31] Speaker1: I mean, I actually think teaching is one of the most stable like post-agi jobs that there is because it's so relational.
+[86:37] Speaker1: It's so like this is where parents want to spend their money if they have an abundance of wealth is like on good teaching and good educating.
+[86:45] Speaker1: And it goes so far beyond explanations.
+[86:47] Speaker1: Like even if LLMs are good explainers, the thing that a teacher is doing is such a social like coaching mentor type thing that like that's probably the most one of the most stable careers that's going to exist over the next 50 years.
+[87:01] Speaker1: And so, in so far as what a lot of mathematicians' role is like overlaps with that, you know, you as the perspective student going into it, you could lean into that.
+[87:09] Speaker1: Actually, i think a lot more students should should like think about and and give like pay credence to the idea of being like just a math educator, and like the value that that can serve towards the next generation.
+[87:18] Speaker1: So.
+[87:20] Speaker1: I'll couch again on, I don't think I'm the one to say here perspective young mathematician, like here's how you should think about the future because I'm like a YouTuber, right?
+[87:30] Speaker1: I'm someone who is not in the institution that they are thinking of going into, and so I'm speaking as an outsider looking in.
+[87:36] Speaker1: But it feels like generally good universal advice: know where the money is coming from, know where you plug into that.
+[87:43] Speaker1: And like, if you're just asking those questions, you're actually already like steps ahead of all of the other like fledgling perspective mathematicians.
+[87:50] Speaker0: Yeah, and in fact, i think in the crazy world, in the world where within five, ten years, the ais are coming up with not only solutions to the the million prize problems, but coming up with like just totally novel problems to be solving the first place, novel mathematical fields and object and stuff.
+[88:09] Speaker0: It is in that world where first of all, there's a ton of abundance and two.
+[88:13] Speaker1: the things that.
+[88:14] Speaker0: ai minds will have like gone furthest in where they will have seen like furthest beyond our horizons will be mathematics and there will be so much demand of like what have the ai seen.
+[88:27] Speaker0: Can you explain it to us?
+[88:28] Speaker0: Yeah, yeah, i feel like in the in that world, if there's any jobs whatsoever, surely distilling, what the ais have learned will be one of them.
+[88:36] Speaker1: Also, it's funny because.
+[88:39] Speaker1: All of this sort of presumes that it's useless, right?
+[88:41] Speaker1: Like we're not talking about the actual practical applications of what math is being is being done.
+[88:45] Speaker1: So, insofar as there's any economic utility to it, you would imagine that the people who understand it and are able to like make the decision of where it should point, like they actually have a lot more economic value by like being able to make that judgment as curator and point this like behemoth of like, oh, new math, like pointed in a useful direction.
+[89:03] Speaker1: Like suddenly that's a much more levered move to make than it had been previously.
+[89:07] Speaker0: Can i actually ask you about that?
+[89:08] Speaker0: So, the the obviously, the.
+[89:12] Speaker0: One question for ai for math is not only can it do it, but is it any good?
+[89:17] Speaker0: Yeah.
+[89:18] Speaker0: Or isn't any good for anything.
+[89:20] Speaker0: You were describing all the ways in which group theory, we're trying to solve this.
+[89:24] Speaker0: We're trying to figure out random facts about the roots of different kinds of functions.
+[89:28] Speaker0: And now it's all these different applications that are practical across many different fields.
+[89:33] Speaker0: Do you have some sense of if we just totally get to a place where mathematics is.
+[89:37] Speaker0: The field of human mathematics is accelerated 10x or 100x that we have some crazy shit happens.
+[89:45] Speaker0: Are we just actually going to be bottlenecked by other fields or.
+[89:49] Speaker1: i think there's some fields that probably will.
+[89:54] Speaker1: I mean it's it's super spiky, right?
+[89:56] Speaker1: I think like progress in algebraic number theory, it feels unlikely that that then like unlocks something.
+[90:03] Speaker1: But i don't know, i remember talking to this mathematician who does more like like dynamics and and like pde solving type stuff and he was referencing basically like his group had some ideas that.
+[90:17] Speaker1: Let me see if i summarize this, right?
+[90:18] Speaker1: It's like the way that boeing would make planes is they would like make it and then they would do a bunch of tests and they had to like disassemble it and reassemble it based on those tests and they essentially had some insights on how to like do more things in simulations such that you don't have to like deconstruct and rebuild it and it saved boeing just like billions of dollars or something and then they just started funding that like group which is so that's it's like much more obviously application adjacent because like pde's just sort of are that so progress in that domain.
+[90:47] Speaker1: You would you would imagine like actually do unlock some things and i don't know if it's these like step changes but maybe it's more on the side of like engine design becomes just a little bit more fluid or you know like coming up with the right wing shape instead of running a whole bunch of complicated like cfd or maybe you're able to like speed up your like cfd simulations because of certain pure math insights like makes those more efficient.
+[91:09] Speaker1: I bet you just see like a lot of like great incremental improvement there.
+[91:14] Speaker1: It seems less likely that like the massive breakthroughs in math immediately turn into like this massive economic breakthrough, like you solve the navier-stokes like problems, and then that unlocks like an ability to simulate more things.
+[91:28] Speaker1: But you probably will see like at those fringes just some.
+[91:32] Speaker1: Some meaningful like leakage outside of the pure math, in insights into into other things.
+[91:38] Speaker1: But also, i mean there's a ton of people working on things like, you know, ai engineers, like physical engineers, like material science and things like that.
+[91:45] Speaker1: That would be, you have to imagine that like they would be in a good position to look at the ai math insights, and decide if they're relevant in some way or not.
+[91:55] Speaker1: And so.
+[91:57] Speaker1: It's another one of these things where i'm not going to sit here and like put a flag in the sand like predicting that there will be it'll be a little bit disappointing and a little bit surprising if there weren't over the next five years like economically valuable improvements that were made that were directly like referable to the like ai progress in math like that just would be kind of disappointing if it was just taking down a bunch of air just problems and like none of them actually.
+[92:20] Speaker1: you know, it wasn't doing any of the math that actually directly touches physical world.
+[92:24] Speaker0: yeah, i mean, to your point about, well, a lot of history and mathematics is like building up these like piles of concepts and connections and whatever.
+[92:31] Speaker0: yeah.
+[92:31] Speaker0: and sometimes the piles connect with each other or you discover an application somewhere else.
+[92:37] Speaker0: at the very least, you just build up this huge pile.
+[92:39] Speaker0: and as a, you know, broader progress in society happens during the singularity, when like we get to the industrial part of the singularity, you just have all these different ideas that you can.
+[92:50] Speaker0: Hopefully are useful in other parts of the world.
+[92:53] Speaker1: I mean, yeah, it like i said, one of the interesting things about what's happening is it causes people to step back and ask like, what is math?
+[92:59] Speaker1: And maybe one of the awkward conclusions of it will be a revealing like, ah, man, over the last like, it's just become wholly useless.
+[93:06] Speaker1: Like the kind of questions being asked to become like so divorced from things that are physically applicable that like, that's one of the things mathematicians have to come to terms with where everyone will look and be like on a second.
+[93:16] Speaker1: Like, where are you guys supposed to like if there's so much that's like 10x progress there?
+[93:20] Speaker1: Like, why aren't we seeing it over here?
+[93:22] Speaker1: And then that church is like, oh, every time we wrote those grant proposals and said, like, trust us like the elliptic curve progress is going to help with like cryptography, like it like shines a light on the fact that like maybe it doesn't.
+[93:32] Speaker1: So that's that's one possibility.
+[93:35] Speaker0: Um, grant this is super fun.
+[93:36] Speaker0: Thanks so much for doing it.
+[93:37] Speaker0: Absolutely my pleasure.

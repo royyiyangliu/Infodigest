@@ -1,0 +1,290 @@
+{
+  "fetch_date": "2026-07-01",
+  "fetch_time": "2026-06-30T18:55:03.811502+00:00",
+  "stats": {
+    "new_podcast_episodes": 1,
+    "new_articles": 2,
+    "new_tweets": 20,
+    "total_podcasts": 1,
+    "total_articles": 2,
+    "total_tweets": 20,
+    "transcribed_this_run": 1
+  },
+  "podcasts": [
+    {
+      "source": "Dwarkesh Podcast",
+      "title": "Grant Sanderson – AI and the future of math",
+      "date": "2026-06-30 15:53 UTC",
+      "link": "https://podcasts.apple.com/us/podcast/grant-sanderson-ai-and-the-future-of-math/id1516093381?i=1000774870615&uo=4",
+      "orig_link": "https://www.dwarkesh.com/p/grant-sanderson-2",
+      "audio_url": "https://api.substack.com/feed/podcast/204275916/5f3632cca68272c292349f10debc3573.mp3",
+      "duration": "1:33:39",
+      "summary": "Always so much fun to chat with\nGrant\n.\nAI has been making much faster progress in math than in other fields. As a result, mathematics is showing us, very concretely, what AI progress in other fields will look like. Even within mathematics, there’s a jagged landscape. What does it look like?\nWhat is the nature of the most important conceptual breakthroughs in the history of mathematics, and how different are they from what AIs are currently able to do?\nDoes AI (on net) increase or decrease human understanding of the field?\nHow big is the overhang from having AIs systematically try to connect ideas already in the literature?\nAnd what advice does Grant have for aspiring mathematicians, coders, and other students who are passionate about fields that are being most transformed upon by AI?\nWatch on\nYouTube\n; read the\ntranscript\n.\nSponsors\n*\nGemini 3.5 Live Translate\nis what I wished I’d had on my last trip to China. It detects more than 70 languages and translates them in near real-time… and it preserves your original pacing and intonation. If you’re building an app that needs live translation, you should check out Gemini 3.5 Live Translate. Get started at\nai.studio/live\n*\nCursor\n’s harness lets me use models for a huge range of tasks at the podcast. For example, Cursor cuts out the ads from each episode I produce so I can post them on Bilibili. It also helps me prep for interviews — I have a repo full of books and papers that Cursor sorts through to find the exact right file for ",
+      "lang": "en",
+      "chars": 128547,
+      "text_file": "data/2026-07-01/podcasts/dwarkesh_podcast__grant_sanderson_ai_and_the_future_of_math.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "TokenBudgeting: Our Conversations with Enterprises on Token Spend",
+      "date": "2026-06-30 18:32 UTC",
+      "link": "https://newsletter.semianalysis.com/p/tokenbudgeting-our-conversations",
+      "summary": "Was Widespread TokenMaxxing Ever Really Here?",
+      "chars": 12376,
+      "text_file": "data/2026-07-01/articles/semianalysis__tokenbudgeting_our_conversations_with_enterpr.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Charts of the Summer: Featuring Deel",
+      "date": "2026-06-30 14:00 UTC",
+      "link": "https://www.a16z.news/p/charts-of-the-summer-featuring-deel",
+      "summary": "America | Tech | Opinion | Culture | Charts",
+      "chars": 5274,
+      "text_file": "data/2026-07-01/articles/a16z__charts_of_the_summer_featuring_deel.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2071692683182252317",
+      "date": "2026-06-29T20:30:00.000Z",
+      "text": "prescribe one (1) pill when a coworker disrespects scaling laws\n\nmake a beeline 4pm sharp at aie expo, first come first served https://t.co/NlIx6EBB3E https://t.co/DCsEK0zQWP",
+      "url": "https://x.com/swyx/status/2071692683182252317",
+      "likes": 43,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2071437186289852622"
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2071634789669777716",
+      "date": "2026-06-29T16:39:57.000Z",
+      "text": "ok for context this is non-lab workshops at 9am on a monday\n\ntheres a competing @OpenAI workshop going on next door but here are the @snyksec , @Atlassian, @neo4j, @arizeai, @Akamai, @togethercompute rooms concurrently. PEOPLE ARE HUNGRY FOR THIS.\n\nhttps://t.co/qWZMfhe1OW https://t.co/pqTWTlFvqQ",
+      "url": "https://x.com/swyx/status/2071634789669777716",
+      "likes": 9,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2071613383380770823"
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2071613383380770823",
+      "date": "2026-06-29T15:14:53.000Z",
+      "text": "AIE workshop day https://t.co/VUGtbG30dB",
+      "url": "https://x.com/swyx/status/2071613383380770823",
+      "likes": 47,
+      "retweets": 3,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Boris Cherny",
+      "handle": "bcherny",
+      "tweet_id": "2071647677591466098",
+      "date": "2026-06-29T17:31:10.000Z",
+      "text": "In the next version of Claude Code: subagents run in the background by default, so you can keep talking to Claude while your subagents work\n\nIf you want your agent to run in the foreground, just tell Claude",
+      "url": "https://x.com/bcherny/status/2071647677591466098",
+      "likes": 7657,
+      "retweets": 307,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2071740419030053227",
+      "date": "2026-06-29T23:39:41.000Z",
+      "text": "Codex usage limits will be fully reset again in the next hour and we will credit one additional reset into your bank for your own usage over the next 24 hours.\n\nWe investigated reports that Codex usage was being consumed faster than expected. There wasn't one central issue, but a few smaller problems compounded for some users.   \n\nHere's what we found and changed: \n- Actual usage: Auto-review had become more proactive, another change was triggering more subagent work, and background suggestions could run twice or retry too frequently after failures. We reverted the changes and fixed suggestion scheduling, duplicate generation, and retry behavior. This should reduce unnecessary background token consumption while preserving the work users explicitly request. \n- Usage reporting: Auto-review was incorrectly appearing as GPT‑5.4 usage, and failed or rate-limited requests were still shown as turns. Auto-review now appears as its own category, and only successful requests count toward the turn graphs. Rate-limited requests were never charged, but they were being displayed incorrectly. \n- Immediate relief: We reset usage limits while rolling out the fixes, then shipped hotfixes across the CLI, desktop app, and usage backend. \n- What to expect: New usage data should be clearer and actual consumption should be lower. Historical charts may still show auto-review under GPT‑5.4 because older turn data was not relabeled. Features that intentionally perform more work; such as /goal, subagents, and higher reasoning levels will still naturally use more capacity.  \n\nAll fixes are now deployed, and we've added more detailed monitoring so we can detect background-usage regressions sooner. We'll continue watching the results closely.\n\nThank you for building and doing all sorts of things with Codex.",
+      "url": "https://x.com/thsottiaux/status/2071740419030053227",
+      "likes": 5860,
+      "retweets": 348,
+      "is_quote": true,
+      "quoted_id": "2071357473659707441"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2071710834527523030",
+      "date": "2026-06-29T21:42:08.000Z",
+      "text": "Do you think it has a reset button? https://t.co/UUyjc8GcJc",
+      "url": "https://x.com/thsottiaux/status/2071710834527523030",
+      "likes": 1700,
+      "retweets": 27,
+      "is_quote": true,
+      "quoted_id": "2071639953927438440"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2071636285807059315",
+      "date": "2026-06-29T16:45:54.000Z",
+      "text": "Advanced Codex users. We shipped a replacement to coarse sandbox modes: reusable, inheritable permission profiles binding OS-enforced file read/write/deny rules (even **/*.env) to per-domain network + Unix sockets. Plus fail-closed admin allowlists. Least privilege per task.\n\nhttps://t.co/jHyAnUhyFs",
+      "url": "https://x.com/thsottiaux/status/2071636285807059315",
+      "likes": 2248,
+      "retweets": 127,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2071731343390851519",
+      "date": "2026-06-29T23:03:37.000Z",
+      "text": "For writing and editing, plain vanilla Claude web is still the best (vs Codex and Claude Code).\n\nMy guess is something in the coding agent's system prompts make them crappier writers.",
+      "url": "https://x.com/petergyang/status/2071731343390851519",
+      "likes": 47,
+      "retweets": 3,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2071730786886435261",
+      "date": "2026-06-29T23:01:25.000Z",
+      "text": "I have so many spicy takes about all this restricted access + open source stuff I'm just going to rant about all of them in one post.",
+      "url": "https://x.com/petergyang/status/2071730786886435261",
+      "likes": 16,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2071690806440898916",
+      "date": "2026-06-29T20:22:33.000Z",
+      "text": "Also available as a written post: https://t.co/SVwQ7kf6kR",
+      "url": "https://x.com/petergyang/status/2071690806440898916",
+      "likes": 3,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "tweet_id": "2071637885154148785",
+      "date": "2026-06-29T16:52:15.000Z",
+      "text": "What’s underappreciated is that the rise of strong open-weight models like GLM will actually strengthen Google’s position.\n\nmore companies will now start experimenting with fine tuning open-weight models such as GLM and the value will accrue to the infra. \n\nenterprises want the flexibility to run and fine-tune open models on a managed platform with enterprise-grade reliability, security, and support. And Google Cloud is well positioned there.\n\nalso don’t forget Google owns much of the compute stack.",
+      "url": "https://x.com/realmadhuguru/status/2071637885154148785",
+      "likes": 51,
+      "retweets": 5,
+      "is_quote": true,
+      "quoted_id": "2071420870741143570"
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2071787401475960892",
+      "date": "2026-06-30T02:46:23.000Z",
+      "text": "my process for writing right now is to do some engineering work, talk to a bunch of people about it, brainstorm and research with Claude, write a post, give 1 or 2 talks on it, rewrite the post, give another talk, rewrite the intro, wake up at 6am and rewrite it again, then post",
+      "url": "https://x.com/trq212/status/2071787401475960892",
+      "likes": 829,
+      "retweets": 20,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2071718135799927224",
+      "date": "2026-06-29T22:11:08.000Z",
+      "text": "You can deploy anything and everything to Vercel. More tomorrow",
+      "url": "https://x.com/rauchg/status/2071718135799927224",
+      "likes": 63,
+      "retweets": 2,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2071716510389662153",
+      "date": "2026-06-29T22:04:41.000Z",
+      "text": "𝟐𝟎𝐱 larger functions on Vercel https://t.co/qQxwQLJRaI",
+      "url": "https://x.com/rauchg/status/2071716510389662153",
+      "likes": 377,
+      "retweets": 10,
+      "is_quote": true,
+      "quoted_id": "2071715028567576753"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2071710688150528443",
+      "date": "2026-06-29T21:41:33.000Z",
+      "text": "curl -sN https://t.co/ovyIAaG8Ix\nby @_brian_zhang https://t.co/7gLjZevUM5",
+      "url": "https://x.com/rauchg/status/2071710688150528443",
+      "likes": 338,
+      "retweets": 10,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Aaron Levie",
+      "handle": "levie",
+      "tweet_id": "2071775583072375214",
+      "date": "2026-06-30T01:59:25.000Z",
+      "text": "This gets to the core of one of the central debates in AI. \n\nIf a closed stack is always perpetually at the frontier by a wide margin, then being vertically integrated, and gate keeping in the US can work. Because you always have control over who gets access to the best technology, and it will be in high enough demand that it always favors you.\n\nIf, however, open weights AI can remain a close second to frontier intelligence, then the equation reverses. With a highly regulated approach, you’ll own the frontier market still, but the vast majority of tokens used will go to an alternative stack. That stack will include the model and the underlying hardware that runs it, in the limit. And that stack will be controlled and monetized by someone else. \n\nDepending on your belief on how close to the frontier open weights can remain -and similarly what percentage of tokens will go through the frontier vs. everything else- your opinion will be different on how to regulate and control AI.",
+      "url": "https://x.com/levie/status/2071775583072375214",
+      "likes": 109,
+      "retweets": 13,
+      "is_quote": true,
+      "quoted_id": "2071489281747800246"
+    },
+    {
+      "source": "Ryo Lu",
+      "handle": "ryolu_",
+      "tweet_id": "2071655130152493297",
+      "date": "2026-06-29T18:00:47.000Z",
+      "text": "get the app:\nhttps://t.co/BTtcAjDpy2",
+      "url": "https://x.com/ryolu_/status/2071655130152493297",
+      "likes": 10,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Ryo Lu",
+      "handle": "ryolu_",
+      "tweet_id": "2071652629890088964",
+      "date": "2026-06-29T17:50:51.000Z",
+      "text": "wherever ideas hit.\ndesks and laptops optional. https://t.co/XU0RwR5zzN",
+      "url": "https://x.com/ryolu_/status/2071652629890088964",
+      "likes": 609,
+      "retweets": 10,
+      "is_quote": true,
+      "quoted_id": "2071641103191998810"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2071817410303393840",
+      "date": "2026-06-30T04:45:37.000Z",
+      "text": "https://t.co/0lJECyHEd4",
+      "url": "https://x.com/garrytan/status/2071817410303393840",
+      "likes": 1485,
+      "retweets": 101,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2071600933210100074",
+      "date": "2026-06-29T14:25:25.000Z",
+      "text": "Build power and datacenters https://t.co/ceUywoe5Sx",
+      "url": "https://x.com/garrytan/status/2071600933210100074",
+      "likes": 262,
+      "retweets": 25,
+      "is_quote": true,
+      "quoted_id": "2071524362012791114"
+    }
+  ]
+}

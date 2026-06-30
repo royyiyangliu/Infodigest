@@ -1,0 +1,60 @@
+Source  : a16z
+Title   : Charts of the Summer: Featuring Deel
+Date    : 2026-06-30 14:00 UTC
+Link    : https://www.a16z.news/p/charts-of-the-summer-featuring-deel
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+Welcome to a special Vacation Week issue of chart deep dives, where we go into a specific topic with data from a portfolio company. Today, we have a fun issue, thanks to our friends at Deel who shared some data with us on… how people take vacation.
+All of the data below are from companies using Deel, so they are going to skew towards startups, tech companies, and remote-first firms (relative to average population data, anyway.) So, rather than “this is how
+everyone
+takes vacation”, this is going to more accurately represent, “how people in
+our industry
+(and other white collar vocations) take vacation around the world”, which frankly is just as interesting a comparison if not more.
+Unsurprisingly, there’s a wide range of
+how much
+vacation days are offered to the median employee, and an equally wide range of, “do people actually take all of the vacation they’re owed?” North America clusters more stingily than Europe does, but there’s still a lot of variation within regions, particularly among people who claim 100% of the days off that they’re offered:
+The one caveat we can think of here, which would be hard to untangle with the data we have here, is, “Do norms vary between countries on how much people
+formally take the vacation days off
+, as opposed to informally (and not officially docking the days with HR)?”
+Over the course of the year, the Germans hold the OOO crown. But not consistently! Swedes and Italians trade places in July / August. The British are (proportionately) at their desks in peak summer; the Dutch over Christmas.
+True to form, European out of office messages are doing a lot of work over the course of the summer.
+And also the rest of the year, while we’re at it.
+Interestingly, there’s a wide range of
+how long
+people take their summer breaks - and, while Europe clusters differently from the Americas on the usual pattern, Brazil breaks the trend. There’s a reason for this, it turns out! Brazil has some interesting laws about how employees take vacations. Brazilians get 30 days of vacation allowances (including bank holidays), but they
+have to
+take those holidays in blocks; a maximum of 3 per year, apparently. You learn something every day!
+Still, most “vacations” are a day off, not a long holiday.
+Another regional variation: vacation days in India are booked last minute. Whether that reflects a genuine last minute trip decision, or simply last minute disclosure to HR, we can’t say.
+Long weekends seem to have special allure in the summertime. It makes sense that vacation days skew towards Mondays and Fridays, and also that the effect gets magnified in the warmer months. Still, this is a smaller discrepancy than we would’ve guessed!
+A popular alternative, the “Summer Friday”, is more
+officially
+popular abroad than it is here. Unofficially, though, is another question. Our guess is that Americans are doing it off the books, rather than formally taking the half-days off.
+Looking at last year as an example, it’s no surprise that the single most common day to take off is a “buy one get one free” situation.
+Birthdays are also a popular day to take off, but more so for big ones. Turning 31? Not worth celebrating, apparently.
+Also, Sweden, what’s going on here?
+And then there’s the dirty little secret of vacation days… sick days. Which, of course, are only used for recovering from illness; we would never imply anything otherwise.
+Of course, we’ve spent all this time on summer holidays, but the
+real
+empty office weeks are at Christmastime.
+The War on Christmas never won the enterprise, apparently.
+So, no matter how hard our Swedish, French and German friends work to make those vacation days count, summer break is still getting mogged by Christmas break. (Everywhere but… Armenia?)
+Wherever and however you’re taking any time off this summer, enjoy it!
+Have a great summer, from the folks at Deel and a16z. If you want more charts like these, you can subscribe to Deel’s substack here:
+Subscribe to Deel
+Aside from something at the end of the week to commemorate America’s 250th, we’ll be off until July 13th. See you then.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
