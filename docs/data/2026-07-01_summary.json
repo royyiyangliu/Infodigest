@@ -1,0 +1,69 @@
+{
+  "date": "2026-07-01",
+  "generated_at": "2026-06-30T23:35:12.673735+00:00",
+  "stats": {
+    "tweets": 6,
+    "podcasts": 1,
+    "articles": 2
+  },
+  "tweets": [
+    {
+      "author": "Boris Cherny",
+      "handle": "bcherny",
+      "summary_zh": "Anthropic 旗下 Claude Code 工程负责人 Boris Cherny 预告下一版本 Claude Code 的重要变化：subagent（子代理）将默认在后台运行，用户可以在子代理工作的同时继续与 Claude 对话；若想让代理在前台运行，只需告知 Claude 即可。该推文获 7657 个赞、307 次转发，显示社区对编码代理异步并行能力的高度关注。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI 旗下 Codex 团队负责人 Thibault Sottiaux 就 Codex 用量被异常快速消耗的问题做了详细复盘：根因并非单一故障，而是多个小问题叠加——自动审查（auto-review）变得过于主动、某项改动触发了更多子代理工作、后台建议有时重复运行或失败后重试过频；这些改动已回滚。同时修复了用量统计错误：auto-review 此前被错误计入 GPT‑5.4 用量、失败或被限流的请求仍被显示为有效 turn（实则从未扣费）。作为补救，团队将完全重置用量上限，并额外赠送一次重置额度用于未来 24 小时。他另就 Codex 安全能力发布更新：用可复用、可继承的权限配置取代粗粒度沙箱模式，将 OS 强制的文件读/写/拒绝规则（甚至覆盖 **/*.env）与按域名的网络及 Unix socket 绑定，并提供 fail-closed 的管理员白名单，实现按任务最小权限。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 联合创始人兼 CEO Aaron Levie 点出 AI 领域的核心辩论：若闭源技术栈能始终大幅领先于前沿，则垂直整合与美国式\"守门\"策略可行，因为你能控制谁获得最佳技术且需求始终偏向你；但若开放权重模型能稳定保持紧随前沿的\"第二名\"位置，等式就会反转——你仍能占据前沿市场，但绝大多数 token 用量会流向由他人控制并货币化的替代技术栈（含模型与底层硬件）。他强调，你对\"开放权重能多接近前沿\"以及\"多大比例 token 走前沿 vs 其他\"的判断，将决定你对 AI 监管与管控的立场。"
+    },
+    {
+      "author": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "summary_zh": "Madhu Guru（@realmadhuguru）提出反主流观点：GLM 等强大开放权重模型的崛起反而会强化 Google 的地位。理由是更多企业将开始尝试微调 GLM 等开放权重模型，而价值会沉淀到基础设施层；企业希望在具备企业级可靠性、安全与支持的托管平台上运行并微调开源模型，Google Cloud 在此定位良好，且 Google 还掌控了大量算力栈。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品与 AI 内容创作者 Peter Yang（@petergyang）认为，在写作和编辑任务上，原味的 Claude 网页版仍优于 Codex 和 Claude Code；他推测是编码代理的系统提示词中某些设定使它们成了更差的写手。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 创始人兼 CEO Guillermo Rauch 预告平台能力升级：Vercel 上的函数体积将扩大至原来的 20 倍，并称\"你可以把任何东西部署到 Vercel，明天还有更多\"，暗示即将有重要的产品发布。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "Dwarkesh Podcast",
+      "title": "Grant Sanderson – AI and the future of math",
+      "date": "2026-06-30 15:53 UTC",
+      "duration": "1:33:39",
+      "link": "https://podcasts.apple.com/us/podcast/grant-sanderson-ai-and-the-future-of-math/id1516093381?i=1000774870615&uo=4",
+      "summary_zh": "本期 Dwarkesh 对话 3Blue1Brown 创始人 Grant Sanderson，主题是 AI 与数学的未来，从投资者视角有几点关键判断：\n\n**数学是 AI 进步最快的领域**，但进步呈\"尖刺/分形\"状：IMO 几何 **2024 年 19 秒**即可暴力解出，组合数学仍是软肋。Grant 三年前的判断已被验证——拿 IMO 金牌没有\"顿悟时刻\"，只是又一个被攻破的基准。\n\n核心洞见：AI 解决重大难题（如黎曼猜想）可能有三种路径——①跨领域\"闪电连接\"（专家级地连接量子物理与解析数论，最易被人理解）；②\"造山\"式构建全新理论（如 ABC 猜想式的难解，最像通用智能）；③纯算力硬解（千页证明，难以消化）。其中\"猜想生成器\"和\"定义生成器\"才是顶级数学家的价值，但**无法做成基准**，只能靠数学家口风的转变来衡量（2025 年中到 2026 年，业内口风已明显转变）。\n\n对 AI 训练范式的判断（投资含义）：数学/编程进步快不仅因可验证，更因**可\"刷\"（grindable）**——可确定性地容器化、并行上千次 rollout、解决信用分配。现实世界任务（开公司、交易）因每天在变无法重放刷量，这是当前训练的根本瓶颈。计算机使用（computer use）进步慢正因网站有 bot 检测、无法大规模并行。Lean/形式化被高估（DeepMind IMO 从全 Lean 转为全自然语言），但其\"绿色对勾\"价值不可低估——可让 AI 像 AlphaZero 自我探索 mathlib、无需人工介入持续扩展。\n\n数字心智的独特优势：**可任意并行扩展**、可合并知识，更关键的是可\"系统化提升熵\"——派不同 agent 分别尝试证明与证伪、赋予不同启发式偏见，对抗自回归带来的熵坍缩。\n\n写作/共情仍是 LLM 短板：自回归难以\"在恰当时刻做不可预测之举\"，且缺乏具身的心智理论。对从业者建议：教学因其强关系属性，是最稳的后 AGI 职业；数学家角色或转向\"策展人\"。"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "TokenBudgeting: Our Conversations with Enterprises on Token Spend",
+      "date": "2026-06-30 18:32 UTC",
+      "link": "https://newsletter.semianalysis.com/p/tokenbudgeting-our-conversations",
+      "chars": 12376,
+      "summary_zh": "SemiAnalysis 与超过 **50** 家企业（Slack/电话/Databricks AI 峰会现场）交流后认为：媒体热炒的\"代币预算撞墙\"被夸大了，企业仍在持续投入，AI 增长列车并未减速。核心观点：营收高度集中——**90 百分位以上**客户贡献了大部分收入，且今年内几乎无削减风险。\n\n\"Tokenmaxxing\"始末：年初 Meta、Salesforce 鼓励员工尽量多烧代币。Meta 一员工建的\"Claudeconomics\"榜单显示，全公司 30 天消耗超 **60T** 代币，最高个人约 **280B**；榜单上线 **2 天**即被关停。Meta 2 月每月烧约 **70T** 代币、按标价每员工年支出至少近 **$50,000**，但据估算仅占 Anthropic 营收的 **3-5%**。Uber 因 4 个月烧光 Claude Code/Codex 年度预算，改为每员工每月 **$1,500** 上限（超额可逐案审批）。\n\n支出分布极不均：Ramp 数据显示 **99 百分位**客户每员工年花约 **$90,000**，**90 百分位**约 **$7,300**，而中位数客户仅 **$136**；财富 500 中位数仍低于每员工 **$100**。多数科技领先的财富 500 企业每员工年支出不足 **$2,000**，主要集中在工程与数据科学部门——说明企业渗透的 S 曲线仍有大量空间。\n\n预算无统一标准：航空航天/制药龙头限 **$250/$500** 月，Workday、Stripe 约 **$2,000/**月；某上市网安公司初级 **$800**、资深 **$1,600-$4,000**（数据科学家额度最高）。某全球旅游科技公司 1,500 员工中 800 名工程师，年花近 **$1,000 万** AI，已将默认模型从 Opus 切到 Sonnet，多数员工默认 **$200/**月。\n\n节流手段：降级默认模型、关停 Opus 4.8 与 Fast-Mode、用免费 M365 Copilot 先起草再用计费代币。Anthropic 文档称 Claude Code 人均月用 **$150-$250**，仅 **10%** 用户日均超 **$30**。投资含义：当前 OpenAI 与 Anthropic 逾 **70%** ARR 来自编程场景（Anthropic B2B 占 **90%+**，OpenAI 约 **60%**）；网络安全、白领知识工作将是下一波。TaaS（Together、Fireworks、Baseten 等）ARR 已超 **$40 亿**。结论：2H26 AI 预算无实质性风险，两家 API 业务将维持当前净新增增速。"
+    },
+    {
+      "source": "a16z",
+      "title": "Charts of the Summer: Featuring Deel",
+      "date": "2026-06-30 14:00 UTC",
+      "link": "https://www.a16z.news/p/charts-of-the-summer-featuring-deel",
+      "chars": 5274,
+      "summary_zh": "这是 a16z「夏季图表」特刊，与其投资组合公司 Deel 合作，用 Deel 平台上企业的休假数据揭示白领（偏向科创、远程优先公司）的休假模式。从行业观察角度看，数据本身不涉及 AI，但反映了科技劳动力的工作文化差异，对理解全球远程办公与人力资源 SaaS（Deel 为 a16z portfolio）有间接参考价值。\n\n核心发现：\n\n1）休假天数与实际使用率地区差异巨大。北美整体偏「吝啬」，欧洲更慷慨；即便在同一地区，「100% 用完应休假期」的比例也差异很大。\n\n2）全年缺勤（OOO）德国人居首，但不稳定：瑞典与意大利在 **7/8 月** 互换位置；英国人在盛夏仍坚守岗位，荷兰人则在圣诞节休假最多。欧洲的「自动回复」邮件全年（尤其夏季）承担大量工作。\n\n3）夏季假期时长跨度大，巴西打破常规——巴西法定 **30 天** 年假（含公共假日），但必须分段休、每年最多 **3** 段。多数「假期」仍只是单日休假，而非长假。\n\n4）印度休假常临时预订（或临时向 HR 报备）。长周末在夏季尤受欢迎，休假日明显偏向周一和周五，暖季效应更强，但差距小于预期。「Summer Friday」（夏季半天班）在海外比美国更「正式」流行，作者推测美国人多是非正式地私下休。\n\n5）生日是热门休假日，但更集中于「整数大生日」（如转 31 岁就不值得庆祝）。病假被点名为休假的「公开的秘密」。\n\n最重要结论：尽管欧洲各国努力用满夏假，真正的「空办公室」时段是圣诞节——除了亚美尼亚以外，圣诞休假普遍压倒夏季休假。\n\n注：a16z 与 Deel 将休刊至 **7 月 13 日**。文末附标准免责声明，强调内容仅供参考、非投资建议。"
+    }
+  ]
+}
