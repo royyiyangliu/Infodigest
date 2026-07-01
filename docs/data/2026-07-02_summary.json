@@ -1,0 +1,65 @@
+{
+  "date": "2026-07-02",
+  "generated_at": "2026-07-01T23:34:28.850375+00:00",
+  "stats": {
+    "tweets": 7,
+    "podcasts": 2,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Boris Cherny",
+      "handle": "bcherny",
+      "summary_zh": "Anthropic 旗下 Claude Code 负责人 Boris Cherny 宣布 Claude Desktop 正式登陆 Linux 平台，此前该桌面应用仅支持 macOS 和 Windows。他称此举是回应用户长期呼声，进一步扩大 Claude 桌面端的覆盖面。"
+    },
+    {
+      "author": "Nan Yu",
+      "handle": "thenanyu",
+      "summary_zh": "Linear 产品负责人 Nan Yu 对\"蒸馏（distillation）\"的定义提出质疑：他认为按照当前流行的这套逻辑，Cursor 早期的全部训练数据都可以被视为从 Claude 蒸馏而来。此番评论回应的是行业内关于模型蒸馏边界的争论，暗示这一指控标准过于宽泛、难以站住脚。"
+    },
+    {
+      "author": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "summary_zh": "Madhu Guru（@realmadhuguru）认为传统产品经理转型 AI 原生开发的最大障碍是缺乏\"魔法式思维\"：十年的框架、\"敏捷\"和指标崇拜养成了以约束为先的渐进式思维。他的破局方法是让团队设想\"手握 100 年后的技术\"、再倒推能实现的体验，据此激发更有创造力的想法——而如今那种\"来自未来的技术\"已经到来。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic 的 Thariq（@trq212，参与 Claude Code 开发）澄清了外界对更新版分类器（classifiers）的疑问：与最初版本一样，一小部分常规编码和调试任务会被标记并回退到 Opus 处理。他表示团队正持续优化这些防护措施，以更好区分真正的滥用与正当请求、减少误报，并预告用户明天将恢复访问权限。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad 指出，AI 运行成本高企的部分原因在于当今多数工作负载仍跑在 LLM 出现之前设计的通用硬件上。他力挺芯片公司 Etched，称其是首个从底层专为现代推理（inference）设计的系统。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch 发布了 Vercel Services：开发者现在可以在单个 Vercel 项目中同时部署 Python 后端 API、ExpressJS 服务器和 React SPA，支持用 vc dev 本地统一运行、一次性部署与回滚、统一观测监控调试以及内部网络互通。他还宣布与 Shopify（@tobi 团队）合作推进\"智能体网络（agentic web）\"。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie 分享了三点观点。其一，围绕 Fable 及随后 GPT-5.6 发布形成的前沿模型审查流程，可能成为今后具备强编码/网络安全能力模型发布的先例，Anthropic 正联合 Amazon、Microsoft、Google 等制定统一的\"越狱\"严重性评估框架并深化与美国政府的发布前测试合作；但他警告风险评估主观性强，需警惕每次发布都走同样繁琐审查、拖慢突破节奏。其二，Box 用其 AI Complex Work Eval 测评 Claude Sonnet 5，称其保持前沿级质量，在能源（+4.7pp）、零售（+4.4pp）、专业服务（+2.6pp）等企业领域超越 Sonnet 4.6，并能识别财报中被低估的杠杆率、剔除应单列的成本项等复杂推理。其三，数据显示 AI 采用与就业呈正相关：Ramp 发现 AI 采用越多的公司招聘越多，Box 对 1,600 多家中大型企业的调研显示 58% 预期未来三年扩员，在 AI 成熟度最高的企业中该比例升至 79%，印证\"用 AI 越多裁员越多\"的担忧并未应验。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "Lex Fridman Podcast",
+      "title": "#498 – Anthony Kaldellis: Roman Empire, Byzantine Empire, Rise & Fall of Empires",
+      "date": "2026-06-30 21:33 UTC",
+      "duration": "",
+      "link": "https://podcasts.apple.com/us/podcast/498-anthony-kaldellis-roman-empire-byzantine-empire/id1434243584?i=1000774912806&uo=4",
+      "summary_zh": "Lex Fridman 对话拜占庭史学家 Anthony Kaldellis。核心论点：所谓\"拜占庭帝国\"是后世史学家的发明，它其实就是罗马帝国在东部的直接延续——当时人自称罗马人、是罗马公民，从未中断。整个罗马国家从公元前**753**年建城延续到**1453**年君士坦丁堡陷落，长达约**2200**年，历经王政、共和、帝制三阶段（奥古斯都约公元前**27**年确立帝制）。\n\n对投资/制度分析者最有启发的是其\"政权治理机制\"：罗马皇帝虽近乎绝对权力，却极力取悦臣民，因为\"无人对皇位拥有天然继承权\"。Kaldellis 统计其研究的千年间约发生**120**次内战，君士坦丁堡皇帝约**46%**被暴力推翻。缺乏选举制度，取而代之的是\"永久公投\"——皇帝在可容纳**3万至10万**人的竞技场（Hippodrome）公开露面，靠民众欢呼或嘘声实时测民意，甚至因反对声浪当场撤回加税政策。这套\"责任、勤勉（皇帝自称'不眠'）、回应民意\"的官方persona 长期一致，是维系社会的黏合剂。\n\n税收被视为一切的核心。**212**年卡拉卡拉敕令将罗马公民权授予帝国全境几乎所有自由民（此前至多约**1/3**为罗马公民），且\"动真格\"——一代人内皇帝、高官几乎全来自行省，制度粘性极强。三世纪危机中**50**年内**26**位皇帝遇害，叠加**249—262**年瘟疫（罗马城日死最高**5000**人）。戴克里先（**284—305**年）以\"四帝共治\"（Tetrarchy）重建秩序，推行普查、普遍征税（连原本免税的意大利也纳税）、扩张官僚，奠定后世模板。\n\n君士坦丁**324**年成为唯一统治者、**330**年建君士坦丁堡（扼博斯普鲁斯海峡，位于多瑙河与幼发拉底河两大边疆之间）。其皈依基督教影响深远——但 Kaldellis 认为是\"罗马收编了基督教\"而非基督教战胜罗马；君士坦丁时基督徒或仅约**10%**，社会到**5**世纪才成为基督教多数。领土三大剧变：**630**年代阿拉伯征服、**1070**年代塞尔柱征服小亚细亚、**1204**年第四次十字军攻陷君士坦丁堡；但帝国多数时期是缓慢而稳定的增长。"
+    },
+    {
+      "source": "Training Data",
+      "title": "Why Hardware-Software Co-Design Is AI's Real 100x: Dylan Patel of SemiAnalysis",
+      "date": "2026-06-30 09:00 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/watch?v=f6D_aiy8qyU",
+      "summary_zh": "SemiAnalysis 创始人 Dylan Patel（公司约 **90** 人、传闻年收入已过 **1 亿美元**）从投资者与技术双视角拆解 AI 算力格局。\n\n核心论点：真正的 **100x** 效率来自\"硬件-软件协同设计\"。单看硬件（Hopper→Blackwell 三年约 **30x**）、内核、模型三层各自只有 2x-2x-2x，但跨层协同优化可乘成 100x。同质量模型推理成本每年降约 **60x**，每瓦智能提升约 **40x**。DeepSeek V3 的专家形状为 Hopper 优化、V4 为 Blackwell 与华为芯片优化；OpenAI 模型更稀疏、Anthropic 偏稠密，架构分化导致 NVIDIA GPU 与 Google TPU 各有胜负——CUDA 护城河因模型会写内核已部分瓦解，但\"下游开源模型为 GPU 协同设计\"仍构成事实绑定。\n\n算力需求：预计 **2030 年** 仅 OpenAI+Anthropic 合计推理算力超 **100GW**，**2040 年** 达 TW 级，届时超半数增量算力或上太空（未来 3-5 年太空数据中心占比 <1%）。今年新增约 **20GW**，明年 **30GW+**。\n\n经济性是关键卖点：Anthropic Q2 已（剔除股权激励）净利润为正，Opus 4.8 单 token API 毛利率 **80%+**，故能以高于市价租 GPU 仍赚钱。Trainium 租金 <**$10 亿/GW**，GPU 约 **$12-13 亿/GW**，而 SpaceX 与 Google 的 GPU 交易高达约 **$25 亿/GW**。数据中心 colocation 价格从 **$60/kW/月** 升至 **$120-160**（劣质信用/优质机房可达 200）。Google 在 1GW 机房塞 **1.5GW** 硬件靠调度榨满电力，并有 3 套不同 TPU 架构（Broadcom/MediaTek/自研）。\n\n投资含义：短期算力紧缺（供需双紧）将持续，只要模型能做的经济价值增速快于算力增速，租金与价格上行；风险在于模型进步停滞。Neo Cloud（CoreWeave、Crusoe）机会源于 AI 租赁模式使超大厂传统优势失效；黄仁勋刻意扶持 Neo Cloud 与中国实验室以维持\"多极世界\"、避免被超大厂垄断。看好内存带宽突破（片上堆叠 HBM）、突破 1W/mm² 功率密度、共封装光学（2027-2030）等长期方向。"
+    }
+  ],
+  "articles": []
+}
