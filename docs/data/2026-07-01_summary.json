@@ -1,8 +1,8 @@
 {
   "date": "2026-07-01",
-  "generated_at": "2026-06-30T23:35:12.673735+00:00",
+  "generated_at": "2026-07-01T02:56:51.788864+00:00",
   "stats": {
-    "tweets": 6,
+    "tweets": 8,
     "podcasts": 1,
     "articles": 2
   },
@@ -10,12 +10,12 @@
     {
       "author": "Boris Cherny",
       "handle": "bcherny",
-      "summary_zh": "Anthropic 旗下 Claude Code 工程负责人 Boris Cherny 预告下一版本 Claude Code 的重要变化：subagent（子代理）将默认在后台运行，用户可以在子代理工作的同时继续与 Claude 对话；若想让代理在前台运行，只需告知 Claude 即可。该推文获 7657 个赞、307 次转发，显示社区对编码代理异步并行能力的高度关注。"
+      "summary_zh": "Anthropic 旗下 Claude Code 工程负责人 Boris Cherny 预告下一版本 Claude Code 的重要变化：subagent（子代理）将默认在后台运行，用户可在子代理工作的同时继续与 Claude 对话；若想让代理在前台运行，只需告知 Claude 即可。该推文获 7657 个赞、307 次转发，显示社区对编码代理异步并行能力的高度关注。"
     },
     {
       "author": "Thibault Sottiaux",
       "handle": "thsottiaux",
-      "summary_zh": "OpenAI 旗下 Codex 团队负责人 Thibault Sottiaux 就 Codex 用量被异常快速消耗的问题做了详细复盘：根因并非单一故障，而是多个小问题叠加——自动审查（auto-review）变得过于主动、某项改动触发了更多子代理工作、后台建议有时重复运行或失败后重试过频；这些改动已回滚。同时修复了用量统计错误：auto-review 此前被错误计入 GPT‑5.4 用量、失败或被限流的请求仍被显示为有效 turn（实则从未扣费）。作为补救，团队将完全重置用量上限，并额外赠送一次重置额度用于未来 24 小时。他另就 Codex 安全能力发布更新：用可复用、可继承的权限配置取代粗粒度沙箱模式，将 OS 强制的文件读/写/拒绝规则（甚至覆盖 **/*.env）与按域名的网络及 Unix socket 绑定，并提供 fail-closed 的管理员白名单，实现按任务最小权限。"
+      "summary_zh": "OpenAI 旗下 Codex 团队负责人 Thibault Sottiaux 就 Codex 用量被异常快速消耗的问题做了详细复盘：根因并非单一故障，而是多个小问题叠加——自动审查（auto-review）变得过于主动、某项改动触发了更多子代理工作、后台建议有时重复运行或失败后重试过频；这些改动已回滚。同时修复了用量统计错误：auto-review 此前被错误计入 GPT-5.4 用量、失败或被限流的请求仍被显示为有效 turn（实则从未扣费）。作为补救，团队将完全重置用量上限，并额外赠送一次重置额度供未来 24 小时使用。他另就 Codex 安全能力发布更新：用可复用、可继承的权限配置取代粗粒度沙箱模式，将 OS 强制的文件读/写/拒绝规则（甚至覆盖 **/*.env）与按域名的网络及 Unix socket 绑定，并提供 fail-closed 的管理员白名单，实现按任务最小权限。"
     },
     {
       "author": "Aaron Levie",
@@ -30,12 +30,22 @@
     {
       "author": "Peter Yang",
       "handle": "petergyang",
-      "summary_zh": "产品与 AI 内容创作者 Peter Yang（@petergyang）认为，在写作和编辑任务上，原味的 Claude 网页版仍优于 Codex 和 Claude Code；他推测是编码代理的系统提示词中某些设定使它们成了更差的写手。"
+      "summary_zh": "产品与 AI 内容创作者 Peter Yang（@petergyang）认为，在写作和编辑任务上，原味的 Claude 网页版仍优于 Codex 和 Claude Code；他推测是编码代理的系统提示词中某些设定使它们成了更差的写手。此外他表示对限制访问与开源之争有诸多\"辛辣观点\"，将集中发文表达。"
     },
     {
       "author": "Guillermo Rauch",
       "handle": "rauchg",
       "summary_zh": "Vercel 创始人兼 CEO Guillermo Rauch 预告平台能力升级：Vercel 上的函数体积将扩大至原来的 20 倍，并称\"你可以把任何东西部署到 Vercel，明天还有更多\"，暗示即将有重要的产品发布。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Thariq（@trq212，Anthropic 团队成员）分享其当前的写作流程：先做工程实践，再与众人交流、与 Claude 头脑风暴和调研，然后写初稿，做一两次演讲，重写文章，再演讲，重写开头，凌晨六点起来再改一遍，最后才发布——强调高质量内容产出依赖反复迭代与打磨。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator 总裁兼 CEO Garry Tan 就 AI 算力瓶颈表态：\"建设电力与数据中心\"，呼应当前将电力供给与数据中心基建视为 AI 规模化关键制约的行业共识。"
     }
   ],
   "podcasts": [
