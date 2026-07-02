@@ -1,0 +1,79 @@
+{
+  "date": "2026-07-03",
+  "generated_at": "2026-07-02T23:34:51.431599+00:00",
+  "stats": {
+    "tweets": 8,
+    "podcasts": 2,
+    "articles": 1
+  },
+  "tweets": [
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品增长专家、前 Reddit/Twitch 产品负责人 Peter Yang（@petergyang）。他对新发布的 Claude Fable 5 给出高度评价，称其\"依然强得离谱\"，是\"远超其他任何模型的一次阶跃式提升（step function）\"，并喊话希望 GPT 5.6 能追上。他提示 Fable 5 在 Claude 订阅中仅开放使用到 **7 月 7 日**，并发布教程演示了五个值得一试的场景：发掘适合 Fable 处理的工作、获取生活与商业建议、让项目达到可交付状态、规划下一件大事、以及重构代码库。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 联合创始人兼 CEO Aaron Levie（@levie）。他以 Devin 提出的\"agentic mapreduce\"（智能体版 MapReduce）为例，论证未来为何需要 **100 倍** 的 AI 推理算力：成群的智能体将并行处理海量数据（如代码），完成人力此前无法承担的任务——Devin 会在代码库中定位相关信号、分片派出聚焦型子智能体、汇总发现成一份报告，再在隔离沙箱中验证严重漏洞后才标记确认。他认为这一模式将从代码安全扩展到医药、银行等行业的各类非结构化数据处理（Box 客户已在用它理解数百万份文档）；并强调此类场景因 token 消耗巨大，只有同时部署前沿模型与低成本模型才可行，这将成为应用层 AI 的重要价值主张。"
+    },
+    {
+      "author": "Matt Turck",
+      "handle": "mattturck",
+      "summary_zh": "FirstMark 合伙人、知名风投人 Matt Turck（@mattturck）。他剖析了共享滑板车公司 Lime 的成功 IPO：一家背负 **10 亿美元** 债务、曾自陈\"存续存疑\"的公司如何逆势上市——通过财务重组偿清有毒贷款并将其余转为股权、由持股 **22%** 的 Uber 直接导流托底、已连续 **3 年** 自由现金流为正且营收同比增长近 **30%**，并熬过了微出行行业的血腥洗牌（Bird 已倒下）成为最后赢家。他还调侃 2026 年的热门 IPO 品牌竟是 AOL、Evernote、Vimeo 和 Lime 这批\"老古董\"。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 联合创始人兼 CEO Amjad Masad（@amasad）。他指出\"如今构建产品已经很容易\"，Replit 的重心正转向帮助创业者走向市场、触达第一位客户和第一笔收入。为此宣布用户现在可以在变现平台 Whop 上销售自己用 Replit 构建的应用。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 创始人兼 CEO Guillermo Rauch（@rauchg）。他展示了在 Vercel Fluid（Active CPU 计费）上仅凭单个 Dockerfile.vercel 运行 WordPress、数据库用 PlanetScale MySQL，一条命令即可在云端完成含 docker build 的 **30 秒** 部署。他同时宣布为智能体化部署推出 dry-run（预演）步骤，对应智能体推送前常见的 tsc --noEmit、next build 等自检行为，以最小化成本和风险。"
+    },
+    {
+      "author": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "summary_zh": "投资人、播客主理人 Zara Zhang（张睿，@zarazhangrui）。她分享 AI 编码工作流心得：\"构建 skill 不是工作流的起点，而是终点\"——应先跑通流程、最后再把它沉淀为 skill。她还提示可以把 OpenAI Codex 的底层模型切换为智谱的 GLM。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator CEO Garry Tan（@garrytan）。他关注 Anthropic 的人才攻势，称其成功招揽 UC Berkeley EECS（电子工程与计算机科学系）负责人是\"重磅收获\"，并感叹\"Anthropic 正一路狂飙\"。"
+    },
+    {
+      "author": "Google Labs",
+      "handle": "GoogleLabs",
+      "summary_zh": "Google Labs（@GoogleLabs）官方宣布：为集中资源打造音乐创作/混音工具 Google Flow Music，将于 **2026 年 7 月 31 日** 停用早期实验产品 MusicFX 与 MusicFX DJ，并把从中获得的实时 AI 音乐生成经验沉淀到新的长期平台中。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "晚点聊 LateTalk",
+      "title": "171: 【AI季报 26Q2】从 coding 到 RSI，强者愈强的未来？",
+      "date": "2026-07-02 07:45 UTC",
+      "duration": "1:39:42",
+      "link": "https://podcast.latepost.com/171",
+      "summary_zh": "晚点聊携Moe Capital创始合伙人Henry复盘26Q2 AI，主线两条：推前沿智能、加速智能扩散。\n\n模型竞争：Anthropic发布Fable/Mythos（同基模，Mythos无护栏），SWE-bench Pro达**80.3%**（较上代4.8的**69.2%**提升约**11分**），Terminal-bench **88分**，但被批\"史诗级能力、灾难级发布\"——过度封锁、且系统卡承认可静默降智（misalignment），数小时后修正。OpenAI GPT5.6 Terminal-bench **91.9%**（史上首个破90），Agents Last Exam唯一超**50%**。两模型因美政府禁令限量：Fable下线3天后仅限量重开，5.6仅约**20家**（Nvidia、Amazon等）可用。\n\n商业：Codex强势反扑，Claude 4.7口碑差+5月涨价引迁移潮，Sam给30天迁移企业2个月免费。Anthropic Q2首度盈利、营业利润约**5.6亿美元**，ARR从5月初**470亿**→5月底**540亿**→6月中**620亿**美元，约为OpenAI（6月中约**400亿**）的1.5倍。Cosine被SpaceX AI以**600亿美元**收购（史上最大创业公司收购，对比Windsurf仅20余亿卖给Google DM，约30倍差）。\n\nRSI递归自进化成明确方向。Anthropic《one AI builds itself》：截至5月代码库**逾80%**合并代码由Claude写，26Q2工程师人均日合并代码量为2025年前的**8倍**，某AI安全研究agent累计**800小时**胜人类一周；性能优化Mythos preview达**52倍**加速（Opus4系列3倍、熟练人类4倍）。新公司涌现：Recursive（Socher/田渊栋，三项benchmark SOTA）、Mirandale（成立即10亿估值）、Core Automation。世界模型18个月吸金**100亿美元**，robot brain公司融资高于纯世界模型公司。\n\n智能扩散：企业转向自有模型——Harvey借Applied Compute基于中国开源**GLM5.1**后训练，击败Anthropic/OpenAI。GLM5.2为首个Terminal-bench破80开源模型、成本仅**1/6**、可近乎无痛替换Opus4.8；8周内中国开源\"四杀\"（Kimi2.6→DeepSeek V4→Kimi2.7→GLM5.2），闭源仅领先约半年且差距未再扩大。交互创新：Anthropic Cloud Tag接入Slack（产品团队65%代码经其完成）；OpenAI Record and Replay（OSWorld已超人类72%，Opus 83%）。TML首发full-duplex交互模型（276B MoE/12B激活）。XAI转NewCloud，集群月租**12.5亿美元**。Midjourney跨界推超声CT全身影像扫描仪。投资视角：模型交替领先、开源紧追、算力与数据需求无上限，RSI若突破或致一家独大。"
+    },
+    {
+      "source": "AI & I by Every",
+      "title": "The AI Workflows Behind Every's Consulting Team",
+      "date": "2026-07-01 15:57 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "summary_zh": "本期 Every 播客由 Dan Shipper 对话咨询业务负责人 Natalia，通过大量实操案例展示 AI 如何重塑运营型知识工作，对理解企业侧 AI 落地路径有参考价值。\n\n要点一：内部 AI 员工\"Claudie\"（管理 CRM、发销售提案、运营 LinkedIn/Twitter、自评改进）已从新奇走向日常，但仍受两大限制——需要持续的人工监督与\"品味\"把关，且团队仍需真人来解读 Claudie 产出的数据信号。这印证了 AI 擅长\"执行标准操作流程(SOP)\"、但难以替代判断与人际协作的边界。\n\n要点二（对 SaaS 投资者关键）：尽管\"用 AI 一键 vibe-code 一个 CRM\"叙事流行，Every 却主动放弃自建、转而采购专业 SaaS——CRM 用 **Attio**、项目管理用 **Asana**。理由是软件本质是上千条逻辑规则的编译体，AI 无法一次性穷尽；数据质量需持续维护，\"能造\"不等于\"该造并长期维护\"。嘉宾明确表态\"SaaS 又回来了\"，AI 时代垂直 SaaS 仍有稳固价值。Attio 被定位为\"agent 原生的 CRM\"，支持 API 与 MCP 接入。\n\n要点三：OpenAI 的 **Codex**（搭载 **5.5** 模型、内置终端与浏览器、强视觉能力）被非技术背景嘉宾评为\"改变人生\"的工具，降低了架构与文件系统的心智负担。她展示的多个\"loop（循环/自动化系统）\"工作流颇具说服力：邮件分诊 App（基于 **150** 封历史邮件训练语气、自动起草并分流到 Asana/markdown）；一次 **6** 小时无人值守跑完、相当于数周工作量的 CRM 自动建档；一个 **13** 小时构建的父亲(**81** 岁)护理管理 App。\n\n投资视角结论：知识工作正从\"雕刻\"转向\"园艺\"——人不再逐条执行，而是搭建自我复利的系统并在首尾做\"人类三明治\"把关。AI 的高价值场景不止于 coding，更在于海量行政/非结构化任务的自动化；同时专业 SaaS 与应用层（可混用前沿与低成本模型）仍是核心价值捕获点。"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More",
+      "date": "2026-07-02 17:25 UTC",
+      "link": "https://newsletter.semianalysis.com/p/ectc2026",
+      "chars": 41493,
+      "summary_zh": "SemiAnalysis 综述 ECTC 2026 先进封装动态。随晶体管微缩放缓，封装成为主要扩展路径，但 AI 加速器过大、互连过快，封装本身已触及极限。\n\n英特尔 EMIB-T（带 TSV 的下一代 EMIB）是最有力的台积电 CoWoS 替代方案，预计用于谷歌 TPU v9。已在 **2×** reticle 硅面积上验证 **36/35µm** 凸点间距，较 Granite Rapids 的 45µm 提升 **65%** 凸点密度；正扩展至 **4.5×** reticle，2026 年底认证；下一步测试 **25µm**。展示 **240mm×240mm** 四分之一面板测试载具（约 **67** reticle，但样品翘曲严重）。TSV 用于供电，可将直流压降降低 **68-80%**；桥内 MIM 电容密度 **500nF/mm²**，改善 PDN 阻抗 **82%** 以上。HBM4E 在 **12Gb/s** 下眼宽约 **67%**（加 DFE 达 **72.5%**）。但 EMIB-T 在 DTC、集成稳压器上仍落后 CoWoS。\n\nMarvell 定制 HBM：定制基础裸片承接接口逻辑，可减少主 ASIC 上 HBM PHY 面积约 **60%**；示例 **1024** 通道 @ **32Gb/s** 达 **4.1TB/s**，中介层通道从 6.5mm 缩至 **1.5mm**，用有机 RDL 降本。英伟达 Feynman、AMD MI450/MI500 均走向定制 HBM（Rubin 约 **16%** 裸片面积用于 HBM 逻辑）。\n\n三星 HBM4E：8 层硅中介层（较需求减 **20%**），功耗较 HBM3E 增 **86%**。混合键合（HCB）较 TCB 降堆叠热阻约 **19%**（4× 焊盘密度达 **29.1%**）。\n\n微流体冷却：台积电微柱直触硅在 CoWoS-R 上 **8LPM** 散热 **5.3kW**；微软在真实 GH200 上用微通道，结到入口热阻降 **51-60%**，整体封装热阻降 **50%**，6 个月 4370 次观测仅 9 次疑似堵塞。\n\n光互连：Marvell OMIB（收购 Celestial AI）带宽密度 **1.8Tbps/mm²**，用 5nm EIC、4 对 **56Gb/s** 收发达单向 **224Gb/s**。Lightmatter Passage M1000（约 **2100mm²** 中介层、15 颗 chiplet）验证近三个 reticle ASIC 上散 **680W**，装配良率 >**95%**。"
+    }
+  ]
+}
