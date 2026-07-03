@@ -1,0 +1,41 @@
+Source  : a16z
+Title   : America: The Next 250 Years
+Date    : 2026-07-03 14:01 UTC
+Link    : https://www.a16z.news/p/america-250
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+This essay by David Ulevitch
+originally ran earlier this year
+, prior to our America Dynamism Summit. Have a great July 4th weekend everyone, we are off next week and we will see you on the 13th! -AD
+The demand for American Dynamism has never been greater. America is and always has been a land of builders, from the framers of the constitution to industrial titans to modern technologists and engineers. This year of AMERICA 250 is a celebration of that very character, of the incredible innovations and people who spent the last 250 years turning a vast, untamed continent into the world’s superpower—and who are now working to build, defend, and power the next American Golden Age.
+A confident and capable America strengthens the world. The American Dream has never been confined by geography. For generations, American innovation has set standards, opened markets, secured trade routes, and underwritten global prosperity. When America builds, allies benefit. When America leads, freedom scales.
+When we launched Fund I four years ago, the relationship between Washington and Silicon Valley had long turned cold. Decades of offshoring and regulatory inertia hollowed out large parts of our industrial base while the “Magnificent Seven”
+concentrated
+almost all of the market returns. The U.S. once
+led
+in 60 of the 64 most critical technologies. Today we have almost entirely lost that lead, with China now leading in 57 and the U.S. in only 7 technologies. Early American Dynamism pioneers like SpaceX and Palantir made major technological leaps but had to fight to even be allowed to
+compete
+for their first government contracts, let alone win them. At the same time, the geopolitical threat from China was growing and the war in Ukraine had not yet begun.
+Since then, the world has woken up to the need for American Dynamism. Startups in formerly off-limits industries like defense, energy, and manufacturing are winning real commercial and government programs. Defense has drawn much attention in recent years, but American Dynamism is more than defense. It covers the full “shift left” electro-industrial stack—batteries, motors, chemicals, materials, mining, and more—everything that enables the mission of domestic resilience and nearshored supply chains.
+And we are only at the beginning. Today, a rare alignment of undeniable demand, technological breakthroughs, supportive policy, growing capital, and top-tier talent has created a once-in-a-generation opportunity to accelerate this sector’s growth, our national security, and our country.
+What used to take decades now takes years. Legacy defence primes once needed nearly 30 years to reach their first $100M program. The first generation of startups with the U.S. government as a customer reached similar milestones in 15 years. Today, thanks to breakthroughs in AI, autonomy, and advanced engineering, along with new acquisition pathways, American Dynamism companies are hitting those milestones in under 5 years. Anduril won their first program of record in 3 years and Saronic did it in under 3 years.
+These companies have now matured into talent pipelines, training the next generation of mission-driven founders, operators, and engineers galvanized to build for the national interest. Alumni from SpaceX, Palantir, Anduril, and Tesla—as well as military veterans with field experience—are founding and leading the startups on stage at Summit, and many more great companies besides that. American Dynamism founders are a new breed: deep technical operators who combine engineering mastery with mission-driven purpose to build the infrastructure that literally keeps the lights on and the country secure.
+The wins of American Dynamism companies are wins for America and the American people. Historically, an American worker did not need a college degree, let alone an elite college degree, to have a well-paying manufacturing job that allowed them to live a dignified life, raise a prosperous family, and be invested in the future of the country. Recent decades have gradually eroded this status quo as middle and working class jobs have been offshored and college degrees have now become a prerequisite for most middle class jobs, regardless of actual skill.
+Bringing manufacturing home is central to many portfolio companies. Last year, Anduril announced Arsenal-1, a hyperscale factory in Columbus, Ohio, which is expected to create over 4,000 direct jobs. This makes it the largest single job-creation project in the state’s history. Saronic’s Louisiana shipyard expansion is projected to add about 3,270 jobs with average annual pay around $88k (roughly 46% above the parish average). While many startups are headquartered in coastal tech hubs, the skilled labor to build at scale is in America’s heartland. Thus opportunity, training, and high-quality careers are being brought back to communities that need them.
+More than ever, on the 250th anniversary of American Independence, our goal is to win: to ensure our founders win, our portfolio companies win, their incredible talent pools win, the best technologies win, and that America and the American people win as a result. We have spent the past few years putting together an all-star team to identify the best founders and act as an accelerant to connect capital, policy, and procurement. We will continue to be the bridge between Silicon Valley and Washington D.C., to champion pro-innovation policy and make the introductions that put the best technology into the hands of the American warfighters, first-responders, and all those who work in service of the American people.
+Technology determines who sets standards, controls supply chains, and secures prosperity. If freedom is the world’s operating system, we must fund it like our lives depend on it.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

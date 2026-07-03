@@ -1,0 +1,301 @@
+{
+  "fetch_date": "2026-07-04",
+  "fetch_time": "2026-07-03T18:11:17.133227+00:00",
+  "stats": {
+    "new_podcast_episodes": 1,
+    "new_articles": 2,
+    "new_tweets": 21,
+    "total_podcasts": 1,
+    "total_articles": 2,
+    "total_tweets": 21
+  },
+  "podcasts": [
+    {
+      "source": "No Priors",
+      "title": "How Nuclear Will Unlock Energy Abundance with Valar Atomics Founder Isaiah Taylor",
+      "date": "2026-07-02 15:00 UTC",
+      "link": "https://www.youtube.com/watch?v=5Xvbq_zvOQ4",
+      "orig_link": "",
+      "audio_url": "",
+      "duration": "",
+      "summary": "",
+      "lang": "en",
+      "chars": 72207,
+      "text_file": "data/2026-07-04/podcasts/no_priors__how_nuclear_will_unlock_energy_abundance_with.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "Meta Compute: Everyone Wants To Be A Neocloud",
+      "date": "2026-07-02 22:18 UTC",
+      "link": "https://newsletter.semianalysis.com/p/meta-compute-everyone-wants-to-be",
+      "summary": "Zuck Takes Plan B? SpaceX 2.0, Bedrock 2.0, MSL Isn't Giving Up, Scaling RecSys by 10x... ClusterMAX ranking coming soon?",
+      "chars": 11777,
+      "text_file": "data/2026-07-04/articles/semianalysis__meta_compute_everyone_wants_to_be_a_neocloud.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "America: The Next 250 Years",
+      "date": "2026-07-03 14:01 UTC",
+      "link": "https://www.a16z.news/p/america-250",
+      "summary": "Accelerating the founders powering our national interest, security, and prosperity for the next 250 years.",
+      "chars": 6967,
+      "text_file": "data/2026-07-04/articles/a16z__america_the_next_250_years.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2072760421627597198",
+      "date": "2026-07-02T19:12:49.000Z",
+      "text": "everyone come down to the AIE Expo at 12.30, there's a SPECIAL **FLASH** SURPRISE (you'll know it when u see it) and then come to Expo Stage 2 for a very special @latentspacepod live pod with Etched! https://t.co/fisw6g3UKr https://t.co/s0KYHznXyE",
+      "url": "https://x.com/swyx/status/2072760421627597198",
+      "likes": 25,
+      "retweets": 4,
+      "is_quote": true,
+      "quoted_id": "2072299545841799502"
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2072754722059239471",
+      "date": "2026-07-02T18:50:10.000Z",
+      "text": "very proud that the biggest applause line in the AIE keynotes this year was normalizing men talking about their feelings and mental health in hypergrowth\n\nthanks @mikeyk for indulging all my cheeky questions on Fable and Tag!! https://t.co/8rml4RU8gl https://t.co/Tmc2XAn8eS",
+      "url": "https://x.com/swyx/status/2072754722059239471",
+      "likes": 140,
+      "retweets": 4,
+      "is_quote": true,
+      "quoted_id": "2072736022979555598"
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2072722973652660432",
+      "date": "2026-07-02T16:44:00.000Z",
+      "text": "@r00k @artofproductpod @hillelogram https://t.co/Yfl0Ft5cyy",
+      "url": "https://x.com/swyx/status/2072722973652660432",
+      "likes": 8,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2072407129982464361"
+    },
+    {
+      "source": "Boris Cherny",
+      "handle": "bcherny",
+      "tweet_id": "2072777472970563995",
+      "date": "2026-07-02T20:20:34.000Z",
+      "text": "Artifacts in Claude Code have been life changing. Excited to expand to Pro and Max! https://t.co/JOD0KCPVuU",
+      "url": "https://x.com/bcherny/status/2072777472970563995",
+      "likes": 1776,
+      "retweets": 78,
+      "is_quote": true,
+      "quoted_id": "2072770790114914317"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2072607914217320644",
+      "date": "2026-07-02T09:06:48.000Z",
+      "text": "Can't wait to see what people will do with GPT-5.6 Sol Ultra. Stash your hardest prompts somewhere.",
+      "url": "https://x.com/thsottiaux/status/2072607914217320644",
+      "likes": 9610,
+      "retweets": 388,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2072842766053499353",
+      "date": "2026-07-03T00:40:01.000Z",
+      "text": "How I’m getting the most out of Fable before July 7:\n\n1. Prep context with cheaper models\n2. Plan with Fable, execute with another model\n3. Use lower effort, like Medium, and babysit what Fable is doing\n\n📌 Watch my full tutorial for 5 Fable-worthy use cases to try: https://t.co/XElMEV3FwK",
+      "url": "https://x.com/petergyang/status/2072842766053499353",
+      "likes": 51,
+      "retweets": 4,
+      "is_quote": true,
+      "quoted_id": "2072458983886205333"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2072838004310507975",
+      "date": "2026-07-03T00:21:06.000Z",
+      "text": "@NousResearch @karan4d Alright the top requests are:\n\n1. Hermes origins &amp; early story\n2. Agent memory &amp; persistence\n3. Novel real-world use cases\n4. Team ops &amp; delegation\n5. Long-term vision &amp; differentiation\n\nSubscribe to get the episode in the coming weeks: https://t.co/GUFpJ1N0WY",
+      "url": "https://x.com/petergyang/status/2072838004310507975",
+      "likes": 19,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2072756657856422379",
+      "date": "2026-07-02T18:57:51.000Z",
+      "text": "Thought I’d share a fun activity I did with my 8-year-old daughter and Codex today:\n\n1. She drew a picture of a dragon.\n\n2. We uploaded her drawing to Codex and used image gen to make a few more dragon poses. She used voice to give Codex feedback until we got the result below.\n\n3. We sent it to customstickers(dot)com to print sticker sheets (it's about $20 for 10 sheets).\n\nNow she can share her stickers with her friends when they arrive in the mail next week. Try it if you have kids stuck at home this summer :)",
+      "url": "https://x.com/petergyang/status/2072756657856422379",
+      "likes": 38,
+      "retweets": 2,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Nan Yu",
+      "handle": "thenanyu",
+      "tweet_id": "2072714076614950961",
+      "date": "2026-07-02T16:08:39.000Z",
+      "text": "If only there were a system of some kind that coordinates work between multiple entities https://t.co/KZ0EzhQ1I0",
+      "url": "https://x.com/thenanyu/status/2072714076614950961",
+      "likes": 26,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2072674904256962682"
+    },
+    {
+      "source": "Nan Yu",
+      "handle": "thenanyu",
+      "tweet_id": "2072699613929156660",
+      "date": "2026-07-02T15:11:11.000Z",
+      "text": "No excuses @patrickc https://t.co/mLWiUbSnXV",
+      "url": "https://x.com/thenanyu/status/2072699613929156660",
+      "likes": 27,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2072550690304782597"
+    },
+    {
+      "source": "Cat Wu",
+      "handle": "_catwu",
+      "tweet_id": "2072743070316257662",
+      "date": "2026-07-02T18:03:52.000Z",
+      "text": "Get started here: https://t.co/CR7dRQl4mr\n\nWe are granting $25k in credits for Claude Enterprise orgs and $2.5k in credits for Claude Team orgs to use Claude Tag through September 1st",
+      "url": "https://x.com/_catwu/status/2072743070316257662",
+      "likes": 26,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Cat Wu",
+      "handle": "_catwu",
+      "tweet_id": "2072731500928508331",
+      "date": "2026-07-02T17:17:53.000Z",
+      "text": "Claude Tag is unlocking productivity across our entire org: eng, product, data, sales, marketing. Our internal version lands 65% of product PRs.\n\nWe cover the CEO/CTO playbook for rolling it out, why security was designed in from day one, and what this means for the future of work.",
+      "url": "https://x.com/_catwu/status/2072731500928508331",
+      "likes": 483,
+      "retweets": 27,
+      "is_quote": true,
+      "quoted_id": "2072725610061803522"
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2072814904210509905",
+      "date": "2026-07-02T22:49:18.000Z",
+      "text": "See the post here: https://t.co/ayMkRPyJhl https://t.co/dfk3oMWVM6",
+      "url": "https://x.com/trq212/status/2072814904210509905",
+      "likes": 460,
+      "retweets": 21,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2072814903170408784",
+      "date": "2026-07-02T22:49:18.000Z",
+      "text": "I've heard a lot of questions about Fable's availability on  subscription plans. \n\nWhile it will come off subscriptions after July 7th, we aim to restore Fable as a standard part of our subscriptions as soon as capacity allows, as we mentioned in our original blog post.",
+      "url": "https://x.com/trq212/status/2072814903170408784",
+      "likes": 6942,
+      "retweets": 656,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2072741369848746315",
+      "date": "2026-07-02T17:57:06.000Z",
+      "text": "We've been explaining AI Gateway as a C̶o̶n̶t̶e̶n̶t̶ Token Delivery Network. Like a CDN for AI models.\n\nOne great feature of CDNs is the ability to dynamically re-route or deny traffic without redeployment.\n\nWhen Fable was suddenly retired, we worried about production workloads depending on it. Even Fable aside, models get retired quite often as GPU capacity is heavily contested. Yet our data shows people still having happy production traffic of older model versions!\n\nWe're solving this now with AI Gateway Rules. e.g.: you can now rewrite model \"routes\" on the fly!\n\n𝚟𝚎𝚛𝚌𝚎𝚕 𝚊𝚒-𝚐𝚊𝚝𝚎𝚠𝚊𝚢 𝚛𝚞𝚕𝚎𝚜 𝚊𝚍𝚍 \\\n  --𝚝𝚢𝚙𝚎 𝚛𝚎𝚠𝚛𝚒𝚝𝚎 \\\n  --𝚜𝚘𝚞𝚛𝚌𝚎 𝚊𝚗𝚝𝚑𝚛𝚘𝚙𝚒𝚌/𝚌𝚕𝚊𝚞𝚍𝚎-𝚏𝚊𝚋𝚕𝚎-𝟻 \\\n  --𝚍𝚎𝚜𝚝𝚒𝚗𝚊𝚝𝚒𝚘𝚗 𝚊𝚗𝚝𝚑𝚛𝚘𝚙𝚒𝚌/𝚌𝚕𝚊𝚞𝚍𝚎-𝚘𝚙𝚞𝚜-𝟻\n\nThis adds to the repertoire of capabilities and techniques AI Gateway brings to the table to recover lost tokens. If you drop tokens, you lose revenue and customers 💸\n\nKudos to @rtaneja_ @crowprose @shaper – we went from CLI design to production-grade capability very quickly!",
+      "url": "https://x.com/rauchg/status/2072741369848746315",
+      "likes": 234,
+      "retweets": 14,
+      "is_quote": true,
+      "quoted_id": "2072738141719667150"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2072715658157027375",
+      "date": "2026-07-02T16:14:56.000Z",
+      "text": "Private connectivity between services is 🔑 for backends.\n\n1️⃣ Register 𝚋𝚒𝚗𝚍𝚒𝚗𝚐𝚜 in 𝚟𝚎𝚛𝚌𝚎𝚕.𝚓𝚜𝚘𝚗 (1LOC)\n2️⃣ Read it:\n\n𝚗𝚎𝚠 𝚄𝚁𝙻(\"/𝚊𝚙𝚒\", 𝚙𝚛𝚘𝚌𝚎𝚜𝚜.𝚎𝚗𝚟.𝙱𝙰𝙲𝙺𝙴𝙽𝙳_𝙸𝙽𝚃𝙴𝚁𝙽𝙰𝙻_𝚄𝚁𝙻)\n\nWorks for Node, Python, 𝙳𝚘𝚌𝚔𝚎𝚛𝚏𝚒𝚕𝚎… you name it https://t.co/sS83Z486Ki",
+      "url": "https://x.com/rauchg/status/2072715658157027375",
+      "likes": 279,
+      "retweets": 6,
+      "is_quote": true,
+      "quoted_id": "2072712710526320839"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2072711610712330658",
+      "date": "2026-07-02T15:58:51.000Z",
+      "text": "Everyone in NYC has the same dog. It's a french bulldog. This needs to be studied",
+      "url": "https://x.com/rauchg/status/2072711610712330658",
+      "likes": 340,
+      "retweets": 1,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Aaron Levie",
+      "handle": "levie",
+      "tweet_id": "2072875685811716182",
+      "date": "2026-07-03T02:50:50.000Z",
+      "text": "The deployment of AI in the enterprise beyond just interacting with a chatbot will unequivocally take real work to align AI systems to the underlying business processes they’re involved in and drive the desired outcomes.\n\nMost workflows weren’t designed for AI agents to just drop into. Workflows today in the enterprise deal with fragmented data, legacy software systems that agents can’t connect with, institutional instead of documented knowledge, and more.\n\nTo deploy agents reliably at scale you need to get data cleaned up, modernize IT systems, figure out evals, drive change management for the new end state process, and so on. This also involves designing where humans remain in the loop (which will mean entirely new ways people interact with the workflows), and figuring out what a company’s new IP looks like. \n\nThis is why so many applied AI companies are expanding FDE efforts and launching deploycos, and why the FDE role will be one of the most critical jobs in tech going forward. There’s a tremendous amount of work to be done on this front.",
+      "url": "https://x.com/levie/status/2072875685811716182",
+      "likes": 151,
+      "retweets": 13,
+      "is_quote": true,
+      "quoted_id": "2072729136746176684"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2072930664962539860",
+      "date": "2026-07-03T06:29:18.000Z",
+      "text": "“What happened to state Sen. Scott Wiener at the Trans March celebration last week was neither inclusion, righteousness nor speaking truth to power. It was not a protest; it was a mob. And Democrats — all of us — need to say so, loudly and without equivocation.”\n\nhttps://t.co/Wq3FQnkgOI",
+      "url": "https://x.com/garrytan/status/2072930664962539860",
+      "likes": 51,
+      "retweets": 6,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2072846822566133768",
+      "date": "2026-07-03T00:56:08.000Z",
+      "text": "https://t.co/7AjibiQdzO https://t.co/KNv7PPykEU",
+      "url": "https://x.com/garrytan/status/2072846822566133768",
+      "likes": 829,
+      "retweets": 54,
+      "is_quote": true,
+      "quoted_id": "2072762747008475201"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2072846648854954240",
+      "date": "2026-07-03T00:55:27.000Z",
+      "text": "It’s time to build https://t.co/9RUcS7LncP",
+      "url": "https://x.com/garrytan/status/2072846648854954240",
+      "likes": 336,
+      "retweets": 15,
+      "is_quote": true,
+      "quoted_id": "2072670374521647487"
+    }
+  ]
+}
