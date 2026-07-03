@@ -1,0 +1,74 @@
+{
+  "date": "2026-07-04",
+  "generated_at": "2026-07-03T23:35:11.880233+00:00",
+  "stats": {
+    "tweets": 7,
+    "podcasts": 1,
+    "articles": 2
+  },
+  "tweets": [
+    {
+      "author": "Boris Cherny",
+      "handle": "bcherny",
+      "summary_zh": "Anthropic Claude Code 负责人 Boris Cherny (@bcherny) 宣布 Claude Code 中的 Artifacts 功能将扩展至 Pro 和 Max 订阅用户，他称这一功能\"改变了工作方式\"。这是 Claude Code 产品能力向更广泛付费用户开放的一步。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "Thibault Sottiaux (@thsottiaux) 预告了新模型 **GPT-5.6 Sol Ultra** 即将发布，呼吁用户\"把最难的 prompt 先存起来\"用来测试它。该推文获 **9610** 赞、**388** 转发，反映市场对新一代旗舰模型的高度期待。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品增长专家、\"Behind the Craft\"作者 Peter Yang (@petergyang) 分享了在 7 月 7 日之前榨取 Fable 模型价值的工作流：1）先用更便宜的模型准备上下文；2）用 Fable 做规划、再用其他模型执行；3）采用 Medium 等较低推理强度并全程盯着 Fable 的动作。核心思路是把昂贵的高能力模型只用在规划这一最高杠杆环节，其余交给低成本模型分担。"
+    },
+    {
+      "author": "Cat Wu",
+      "handle": "_catwu",
+      "summary_zh": "Anthropic 产品经理 Cat Wu (@_catwu) 介绍了内部编码工具 Claude Tag 的推广情况：其内部版本已能自动完成 **65%** 的产品类 PR，覆盖工程、产品、数据、销售、市场全部门。为推动采用，Anthropic 向 Claude Enterprise 组织发放 **2.5 万美元** 额度、向 Claude Team 组织发放 **2500 美元** 额度，可在 **9 月 1 日** 前用于 Claude Tag。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic 的 Thariq (@trq212) 就 Fable 模型的订阅可用性作出澄清：Fable 将在 **7 月 7 日** 之后从订阅计划中下线，但公司计划一旦算力容量允许，就将其恢复为订阅的标准组成部分。此举回应了大量用户对 Fable 去留的关切，推文获 **6942** 赞。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel CEO Guillermo Rauch (@rauchg) 借 Fable 被突然下线一事，阐述了把 AI Gateway 定位为\"Token 交付网络\"（类比 CDN）的思路：新推出的 **AI Gateway Rules** 允许在不重新部署的情况下动态改写模型\"路由\"，例如一行命令即可把请求从 anthropic/claude-fable-5 重定向到 anthropic/claude-opus-5，以在模型频繁退役、GPU 容量紧张时\"挽回丢失的 token\"（他强调掉 token 就等于丢收入和客户）。他还展示了 Vercel 的私有服务互联能力：在 vercel.json 中注册 bindings（1 行代码）即可在 Node、Python、Dockerfile 等环境读取内部服务地址。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box CEO Aaron Levie (@levie) 指出：企业级 AI 若要超越单纯的聊天机器人交互，必须投入真实工作把 AI 系统对齐到底层业务流程——因为现有工作流本就不是为 AI agent 设计的，普遍存在数据碎片化、agent 无法对接的遗留系统、以及未被文档化的机构知识。要可靠地大规模部署 agent，需要清洗数据、现代化 IT 系统、建立 evals、推动变革管理并重新设计人机协作(human-in-the-loop)环节。他据此判断，这正是众多应用型 AI 公司扩张 FDE(前沿部署工程师)团队、成立\"deployco\"的原因，**FDE 将成为未来科技业最关键的岗位之一**。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "No Priors",
+      "title": "How Nuclear Will Unlock Energy Abundance with Valar Atomics Founder Isaiah Taylor",
+      "date": "2026-07-02 15:00 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/watch?v=5Xvbq_zvOQ4",
+      "summary_zh": "No Priors 对话 Valar Atomics 创始人兼 CEO Isaiah Taylor。核心投资逻辑：核裂变从未经历\"福特/特斯拉时刻\"，Valar 要做\"制造而非建造\"的可规模化核反应堆，目标是让能源便宜 **10 倍**。他判断能源是商品，需求由价格决定——把电价打下去，需求自然涌现（AI 算力只是当前顺风，非唯一驱动）。\n\n关键进展：公司成立不到 **3 年**，**2025 年 11 月**首次冷临界，几天前 War 250 反应堆首次发电，是**自核裂变发现以来首个实现发电的私营公司**、**2000 年以来美国第 5 台发电新核装置**、首个在国家实验室之外建成的先进反应堆。当前满功率 **100 千瓦**，每秒裂变约 **10^17** 个原子。并联合 NVIDIA Blackwell 芯片，实现\"首个由核反应堆供电的 AI 芯片\"并直接托管网站作营销。\n\n监管突破：绕开面向成熟商用的 NRC，走被遗忘 **40 年**的 DOE（原 ERDA）测试路径，依据特朗普政府行政令 **EO14301**（要求 3 台先进反应堆在 **7 月 4 日**前于美国本土临界）建成。\n\n技术与成本颠覆：采用 TRISO 燃料、石墨慢化、氦冷设计，安全逻辑从\"降低概率\"转向\"降低后果\"——假设全部系统失效仍不对外辐射，靠物理几何被动散热（衰变热约为满功率 **5–6%**，两天内自然循环导出）。模块化 Citadel 生物屏蔽用 **78 英寸**特种无钢筋混凝土预制块（工厂年产 **3000** 块），**42 小时**堆完，传统需 **3 个月**。自研反应堆保护系统 RPS：供应商报价 **500 万美元**、耗时 2.5 年，团队 5 人 6 周自制、仅花约 **40 万美元**。他直指传统核工业是\"模拟仿真产业\"，成本存在高达 **100 倍**的虚高利润。\n\n商业模式：以股权/风投承担\"技术执行风险\"（而非项目融资），自建 gigasite、先上电力再引负载。核心 KPI 是\"tick rate\"（两次临界间隔），从首次 **2 年 4 个月**降到第二台 **7 个月**，目标压到\"分钟级\"。远景押注\"超技术工业主义\"——AI+机器人将人力投入转化为能耗，能源终将成为万物成本。Taylor 预计 10 年后公司或值 **5000 亿美元**。投资要点：这是把 SpaceX 式硬件迭代思路移植到核能的高风险高回报标的，护城河在于垂直整合能力与已落地的实证数据领先。"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "Meta Compute: Everyone Wants To Be A Neocloud",
+      "date": "2026-07-02 22:18 UTC",
+      "link": "https://newsletter.semianalysis.com/p/meta-compute-everyone-wants-to-be",
+      "chars": 11777,
+      "summary_zh": "SemiAnalysis 驳斥了市场对\"Meta 转型 Neocloud（新型云）会造成算力过剩\"的解读——该传闻曾引发 Coreweave、Nebius 等标的被大幅抛售。核心观点：Meta 的数据中心与算力采购只会**加速**，而非放缓，**2027 年资本开支将高得惊人**。仅今年前六个月，**Meta 已签约超过 5GW 的 Cloud 与 Colo 容量**，且不含其自建部分；两个最大园区合计**在建 2.5GW**。\n\nMeta 算力有四大高价值用途，均与传统 Neocloud 不同：1）前沿模型——Meta 并未放弃，主力增量算力仍投向 Meta Superintelligence Labs（MSL），力图追赶 Anthropic 与 OpenAI；2）RecSys（广告推荐系统）——Meta 认为其复杂度可再放大 **10 倍以上**以拉动收入，需训练与推理算力；3）Bedrock 式服务——SemiAnalysis 独家判断 Meta 正与 Anthropic 进行最后阶段谈判，拟获取 Claude 私有实例，用于内部使用及对外销售，甚至向上做销售/营销 SaaS；4）\"SpaceX 式\"高溢价按需算力交易，预计以一笔**百亿美元级别的 Anthropic 交易**启动飞轮。\n\n关于 SpaceX 模式：Elon 开创了大规模按需算力这一新市场，其 Anthropic、Google 两笔交易的每 MW 收入分别是同业的 **3 倍**和 **4 倍**，利润差距更大。该 Google 交易名义 3 年但双方可 **90 天**取消，实为\"3 个月自动续约\"。因融资门槛极高，Neocloud 难以参与，真正能吃下这块的只有 Oracle 和 Meta——作者认为这对 Oracle 是重大打击（其算力变现远不如 SpaceX，估值走势分化明显）。按 **每 GW 年收入 500 亿美元** 计，Meta 只需分配 **200MW** 给外部客户即可带来**每年 100 亿美元**高毛利收入，加上 90 天可取消条款，随时可回收给 MSL，堪称 CFO 的梦想。Meta 的\"帐篷式\"极速数据中心正契合这一变现模式。\n\n自 2024 年初以来 Meta 已签约近 **10GW**，且新增容量多经第三方，将成为 Coreweave、Nebius 等的 RPO 增长大源。Meta 不会是 30% 毛利的裸金属 IaaS 厂商，而是靠高价值选项支撑，即便 MSL 失败也有多条高毛利变现路径。RecSys 已是 Meta 收入再加速的核心驱动（广告主愿付更高价且 ROAS 依然强劲），可持续性与加速空间为付费部分重点。总体：算力即最强期权，Meta 有充分理由继续激进扩张。"
+    },
+    {
+      "source": "a16z",
+      "title": "America: The Next 250 Years",
+      "date": "2026-07-03 14:01 UTC",
+      "link": "https://www.a16z.news/p/america-250",
+      "chars": 6967,
+      "summary_zh": "a16z 合伙人 David Ulevitch 在 America 250（美国独立 250 周年）之际，为其\"美国活力\"（American Dynamism）主题撰文，核心投资论点是：技术决定谁制定标准、掌控供应链、赢得繁荣，freedom 若是世界的操作系统，就必须像身家性命所系那样为其投入资本。\n\n关键数据与判断：美国曾在 **64** 项最关键技术中领先 **60** 项，如今几乎全面丧失领先地位，中国已在 **57** 项领先、美国仅剩 **7** 项。市场回报高度集中于\"Magnificent Seven\"七巨头。四年前 a16z 推出 Fund I 时，华盛顿与硅谷关系冷淡，数十年离岸外包与监管惰性掏空了工业基础；SpaceX、Palantir 等早期先驱当年连竞标首个政府合同都要苦战。\n\n节奏正在剧变：传统国防巨头曾需近 **30** 年才拿到首个 **$100M** 级项目，第一代以美国政府为客户的初创公司缩短到 **15** 年，如今借助 AI、自主系统、先进工程与新的采购路径，\"美国活力\"公司在 **不到 5 年** 内即达此里程碑——Anduril **3** 年、Saronic 不到 **3** 年拿下首个正式列装项目。赛道已从国防扩展到整个\"电气-工业\"栈：电池、电机、化学品、材料、采矿等，服务于本土韧性与近岸供应链。\n\n制造业回流是组合公司的核心：Anduril 在俄亥俄 Columbus 的超大规模工厂 Arsenal-1 预计创造超 **4,000** 个直接岗位，为该州史上最大单一造岗项目；Saronic 路易斯安那造船厂扩建预计新增约 **3,270** 个岗位，平均年薪约 **$88k**（高出当地约 **46%**）。SpaceX、Palantir、Anduril、Tesla 校友及退伍军人正成为新一代创始人来源。a16z 定位为连接资本、政策与采购、贯通硅谷与华盛顿的桥梁。\n\n投资启示：AI 与自主技术显著压缩了国防-工业初创的商业化周期，叠加需求、政策、资本、人才的罕见共振，构成该合伙人所称\"一代一遇\"的机会窗口。（注：本文为 a16z 宣传性观点文章，非投资建议。）"
+    }
+  ]
+}
