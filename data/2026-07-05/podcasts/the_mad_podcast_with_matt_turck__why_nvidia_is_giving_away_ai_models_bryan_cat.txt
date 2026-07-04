@@ -1,0 +1,659 @@
+Source  : The MAD Podcast with Matt Turck
+Title   : Why NVIDIA Is Giving Away AI Models | Bryan Catanzaro
+Date    : 2026-07-02 11:30 UTC
+Link    : https://www.youtube.com/watch?v=Oojrfdl42LI
+────────────────────────────────────────────────────────────
+
+Speaker 1 | 00:00 - 00:21
+If you accept as the truth that we're gonna be running at the limit, then what that means is that the way to get more intelligence is to be more efficient. We can't get more intelligence by applying more force if we're already at the limit. We have to be more thoughtful about how we use what we have. We build tools. We build external organs that help us solve problems.
+
+Speaker 1 | 00:21 - 00:30
+You know, we we have an external stomach. We call it kitchen. Now we're creating an external brain. What is the implications of an external brain? Pretty profound.
+
+Speaker 1 | 00:30 - 00:31
+Nobody actually really knows.
+
+Speaker 2 | 00:32 - 00:48
+Hi. I'm Matt Turk. Welcome back to the mad podcast. Open source AI is having yet another moment with powerful new models arriving almost weekly, and my guest today is one of the very best people to unpack it all. Brian Catantaro leads Nemotron, NVIDIA's family of open foundation models.
+
+Speaker 2 | 00:48 - 01:31
+Now not everyone realizes NVIDIA has a massive effort to build a frontier AI models, but it employs hundreds of AI researchers and Neutron three Ultra immediately became the number one US open weights model when it was released just a couple weeks ago. We begin this conversation with the state of open source AI and the race between The US and China, and then we go deep inside Nemotron. Four bit training, hybrid member transform architecture, mixture of experts, multi token prediction, and multi teacher distillation all in plain language. Finally, get a rare look at how a modern AI research organization actually runs, how you get many brilliant minds to build one model instead of 100 papers. Please enjoy this awesome conversation with Brian Catantaro.
+
+Speaker 2 | 01:33 - 01:56
+Alright, Brian, excited to do this. It seems that open source is having a banner year. So you guys at NVIDIA just released Nemotron three Ultra, which is an important moment and the best open source, open weight model in The US. And that was just a few days ago. And then even more recently, GLM 5.2 came out, and that was another moment.
+
+Speaker 2 | 01:56 - 02:10
+So it seems that things are accelerating in open source AI. It feels like a great place to start. What's your assessment, about where we are and how wide the gap between closed source and open source currently is?
+
+Speaker 1 | 02:10 - 02:36
+Well, it's really exciting to see all of the energy going into open technologies for AI because we know that, open technologies make it possible for people to innovate. You know, the Internet is such a great example of that. We actually did have closed Internets. I don't know if you remember things like America Online and Prodigy back in the day, And they were great. And open Internet has also, been amazing.
+
+Speaker 1 | 02:36 - 03:08
+Right? Like, so many different companies have been able to figure out how to transform their work, thanks to, an open technology. The application of the Internet to retail is very different from the application of the Internet to health care or manufacturing, but all of them have been totally transformed, by the Internet. AI, I believe, is also a very transformational technology and also a technology that needs to be applied in very diverse ways. And because of that, I believe that open technologies for AI are really fundamental.
+
+Speaker 1 | 03:09 - 03:23
+And it's very exciting to see continued investment and development of open technologies from, for AI from so many different organizations around the world. And, you know, I I hope that that continues.
+
+Speaker 2 | 03:23 - 03:43
+And what's your sense for how far behind open source is compared to closed source? This has been the the big trend over the last few years has been this sort of narrowing gap. Do do you think that open source is almost there or the bar keeps getting raised by the close source models?
+
+Speaker 1 | 03:43 - 04:17
+Well, I I feel like this question, it's maybe a tempting question because, you know, it's fun to set up kind of competition, but but I actually feel like the whole AI community is moving very fast. And if you look, for example, at the progress in AI, whether it's closed or open just over the past three months, it's been incredible. And so if you're in a field that's moving really, really fast, I think that's more important than any particular gaps that might exist between different models because the most important thing is, you know, how is AI developing as a field?
+
+Speaker 2 | 04:17 - 04:34
+What do you think the drivers are to continue to progress in open source AI? Is that the communities and big companies like NVIDIA being behind it? Is that the global competition with China? What propels, open source AI forward?
+
+Speaker 1 | 04:34 - 04:58
+You know, I think there's a number of things that that are pushing open technologies for AI forward. One is just the demand. You know, there's so many organizations that want to customize AI and wanna integrate it deeply into their work in a way that really requires open technologies for AI. And so so I think, the demand is certainly there. I think also it's just the best way to develop technology.
+
+Speaker 1 | 04:59 - 05:29
+And we've seen this, you know, for for many decades that technologies developed in the open move quicker because we can all learn from each other. And, in an era where we're undergoing the most exciting thing to happen in technology in our lifetimes with the development and the deployment of AI, what else do do computer scientists want to work on other than making AI awesome? And if working together as a community is the best way to do that, then that's also a driver that pushes the community towards openly developing technology.
+
+Speaker 2 | 05:29 - 06:09
+To ask maybe a slightly cynical question, there is at least a part of the community that's wondering whether open source as an ecosystem, not Nvidia, but in general, been progressing in part based on the ability to distill closed source models and in a world where we seeing the Anthropics and Fable 5s of the world starting to discourage distillation. Do you think there is a chance that open source AI progress may slow down in that context or as a result?
+
+Speaker 1 | 06:09 - 06:51
+You know, in my mind, there's no question that when the, technology community decides to make huge investments in the most transformational technology of our time, that there's gonna be rapid progress. And also that that technology is not gonna be controlled by a small group of people, because that's just not the way that, the industry works. You know, we we, do our best work. We have the most impact with our work when we're able to, each think about it in our own way and apply it in our own way. So, you know, I love, the closed AI APIs, whether from Anthropic or other people.
+
+Speaker 1 | 06:51 - 07:06
+I think they're amazing. You know, I'm really, really impressed with the work that those labs are doing. But they're not the only labs in the world. There's lots of labs around the world, and lots of people have a good idea. It's not the case that there's only a few labs that have the monopoly on all good ideas.
+
+Speaker 1 | 07:06 - 07:26
+That's just not true. That's not how humanity operates. There's a there's a lot of bright people on this planet. And, you know, the community, of course, cares deeply about this technology. It's obviously so transformational, has such profound impacts on so many things, that that, of course, many people, wanna be involved in that.
+
+Speaker 1 | 07:26 - 07:42
+And, so I think over time, we're gonna see that, community oriented approaches to developing and deploying AI are gonna continue to strengthen and be widely adopted because that's really the history of how we build things as a as a human, species.
+
+Speaker 2 | 07:42 - 08:21
+Do you think that is globally true as well? So, you know, in particular, with respect to China, this perception that, yes, a lot of people have great ideas around the world. However, a lot of progress from Chinese models were directly inspired or perhaps generated through distillation from the closed source models. Is that just kind of like press rage bait or from the perspective of a leading AI researcher, you're very impressed by the novel ideas that come out of China as well?
+
+Speaker 1 | 08:23 - 08:52
+Perhaps unusually, I, actually did work at a Chinese company for about two and a half years. I worked at Baidu. I worked in the Silicon Valley AI Lab, along with Andrew Ng and as well as Dario Amadei. And, we all worked, for a Chinese company and saw how smart, hardworking, creative, inventive our colleagues were, at the rest of Baidu. And, you know, that experience has has stuck with me.
+
+Speaker 1 | 08:53 - 09:13
+I think it's absolutely false to say that, you know, the achievements of of some other country are all being, created by sort of, you know, copycat mentality. It's just not it's just not true. Now do we all learn from each other, in the technology community? Of course. You know?
+
+Speaker 1 | 09:13 - 09:49
+Of course of course, we learn from each other. But, you know, I I would say, you know, it's been a really good thing for the world that the Chinese, AI community has been so, open with what they've been building. I think it's enabled a tremendous number of companies to build things that they couldn't have done without, that community. And I think it's also spurred, technological progress throughout the AI, ecosystem. So, you know, I'm really grateful for, the contributions that our, colleagues in China have made over the years.
+
+Speaker 1 | 09:49 - 10:30
+And, you know, I I would love to encourage a spirit of openness amongst AI labs around the world outside of China as well. You know, I was really excited when, OpenAI released the GPT OSS models, a a while back, and then, of course, Google's been doing great work with Gemma. Absolutely thrilling to see that. And, you know, we're pushing Nemotron along here at NVIDIA as well. So I I think there's a there's a chance for, the rest of the world to catch up to China, in the sense that, you know, we can understand the benefits of working together, as a community to build technologies for AI in a way that I think China has frankly been leading.
+
+Speaker 2 | 10:30 - 10:42
+Great. What is the case for a customer to be using open source models, these days? What is your fundamental advantage?
+
+Speaker 1 | 10:43 - 11:17
+Every company is built around a secret. This is a secret that has to do with not just their intellectual property, but also their platform, which has to do with how do they interact with problems and customers. How do they think about solutions, to what what their customers need? And it is always the case that the value of AI is greater when it can be more tightly connected with those secrets because, you know, AI depends on data critically. So the more valuable the data that goes in, the more valuable the solution becomes.
+
+Speaker 1 | 11:17 - 12:04
+Now, every company, when it's thinking about how to deploy AI, has to think through what are the implications for the core secrets of our company. And, there's a lot of circumstances where, due to trade secrets or or, you know, trying to think of think through the business model or or even regulatory requirements that, you know, there's data that you really have to treat very carefully by law. And it is much better to do that when you are able to think that through and implement it yourself. Thinking about the integration of AI, the way that AI interacts with customers, the guardrails that are put in place. You know, every company, has a specific understanding of its customers and and therefore what what the customer needs.
+
+Speaker 1 | 12:04 - 12:25
+And, the amazing thing about open technologies for AI is that they allow custom, customization. Right? So companies can think this through. They can build things that that really matter for them. And, you know, I started out this conversation talking about the Internet and about how the Internet the deployment of the Internet has been done in very different ways for very different industries.
+
+Speaker 1 | 12:26 - 12:38
+And there's a lot of desire to do that, as we see AI change the way that we work and play throughout the entire economy. This is really spurring a lot of demand for open technologies for AI.
+
+Speaker 2 | 12:39 - 12:57
+Great. I'd love to go into a bit of a deep dive into Nematron. But before we do that, maybe a few minutes on your story, your background. What was your past to where you are today, including the the Baidu detour?
+
+Speaker 1 | 12:57 - 13:13
+So, I started work at, NVIDIA in 2008. At the time, I was a graduate student trying to figure out parallel computing for artificial intelligence, and I thought, NVIDIA had a chance of changing the way computers work with AI.
+
+Speaker 2 | 13:13 - 13:16
+Which was a lonely presumably a lonely quest, right, in 2008?
+
+Speaker 1 | 13:17 - 13:32
+Oh, it was it was very chaotic. Back then, people thought I was crazy. And, you know, I remember going to ICML in 2008. I published my first paper training models on the GPU, and people asked me why I was there. People said, this is not a good paper for ICML.
+
+Speaker 1 | 13:32 - 13:48
+We're we're we just do fancy math here. And I was like, well, but I think computing actually matters a lot for AI. If we could train bigger models that had more capacity to learn, we could probably solve more problems. And, they kinda nodded their heads in nose. So, like, well, why I'm not really sure why you're here.
+
+Speaker 2 | 13:48 - 13:51
+Isn't a GPU a thing for gaming as well presumably?
+
+Speaker 1 | 13:51 - 13:57
+Right. Yeah. There's there's also that. Right? Which we we continue to, run into that, that idea.
+
+Speaker 1 | 13:57 - 14:15
+Actually, a GPU is whatever NVIDIA says it is. You know, we make them. So a GPU is is a is a thing that we make in order to accelerate the world's most important computations, which in 1995 was graphics. And, you know, for a long time now, it's been AI. So, anyway, I started at NVIDIA.
+
+Speaker 1 | 14:15 - 15:07
+I was in the research group, doing strange things about trying to make, compilers, libraries, for AI on the GPU. That led to, the creation of, first Copperhead, which was a it was a a Python, embedded language that, compiled to the GPU, which I think foreshadowed a lot of things in TensorFlow and and PyTorch. And then then that led to the creation of cooDNN, was NVIDIA's first product for for deep learning on the GPU. And I I really enjoyed working on that, but I was always wanting to see more, firsthand about the applications of AI. And at NVIDIA, I was mostly working on, you know, libraries and compilers for AI.
+
+Speaker 1 | 15:07 - 15:33
+So I thought, well, you know, when Andrew Ng asked me to go, build the Silicon Valley AI Lab with him, at Baidu, I thought, oh, this is a great opportunity because even back then, Baidu, was very advanced in its application of AI to its core business. And so so that was a a fantastic opportunity for me. The Baidu Silicon Valley AI Lab was an amazing place, full of brilliant people that were working really hard.
+
+Speaker 2 | 15:33 - 15:42
+What was it like working with a a young Dario? Was there, like, any signs that he could become, you know, who he has become?
+
+Speaker 1 | 15:42 - 16:05
+Dario, was brilliant from the beginning. I remember, I interviewed him. I was on the panel, and, at the time he, had been working in bioinformatics. So he he hadn't been working on deep learning or or the things that we call AI these days. But it was very clear that he learned extremely quickly and also that he thought extremely deeply.
+
+Speaker 1 | 16:05 - 16:37
+I think, you know, the thing I admire most about Dario, is the strength of his conviction. You know, I've been working in this field, for a long time, and I've believed also that AI is gonna transform the world. But I don't think that I believed in it as completely as Dario did. And perhaps that was because, you know, my academic training during my PhD was full of a lot of caution. I don't know if you remember, but AI was old and bad in 2005
+
+Speaker 2 | 16:38 - 16:39
+It will never work.
+
+Speaker 1 | 16:40 - 16:52
+That people did with computers. They started doing it in 1945. Right? And and so there had been so many grandiose promises that failed to deliver over the years. And so I came to AI with a lot of caution.
+
+Speaker 1 | 16:53 - 17:11
+In fact, back then we used to call it machine learning, which was basically a dodge. Like, we just didn't want people to know that we were we were working on AI because then they would be like, oh, we've heard about that. It never works. Right? So, I came to AI with a little bit of this, like, academic caution like, oh, we should hedge a little bit.
+
+Speaker 1 | 17:11 - 17:41
+Like, I don't know if now's the time. And Dario, his strength of conviction and his understanding of the moment of how, the technology was developing this time it was actually going to work. And then the implications of that on, you know, how the technology should be developed, what kind of institutions, to build. I think he's done a a spectacular job. And so, yeah, working with him, it was always always a fun experience.
+
+Speaker 2 | 17:41 - 17:45
+So then you went back to NVIDIA and walk us through the journey?
+
+Speaker 1 | 17:45 - 18:04
+Yeah. So, ten years ago, actually, in 2016, Jensen called me up and said, hey, would you like to come back and build an applied research lab? And I thought that would be a fantastic, opportunity. I you know, I've always loved NVIDIA. I've loved the way the company works, the convictions the company holds.
+
+Speaker 1 | 18:04 - 18:25
+You know, NVIDIA is a very unique company. It follows through over long time periods, you know, and I've seen that with CUDA. I've seen it with our deep learning technologies. I've seen it with our ray tracing graphics technologies, our AI for graphics. You know, over and over again, NVIDIA is not afraid to put in five or ten years worth of research in order to change the world.
+
+Speaker 1 | 18:25 - 18:55
+You know? And, working at a company that has that strength of conviction and the ability to follow through is kind of an ideal thing for me. I just really I just really love the support that the company gives, gives its researchers, to invent the future. And so, I thought I'd come back. The first project that, that I worked on, actually became DLSS, which, some of your, audience may know about, but DLSS is our real time, AI for graphics.
+
+Speaker 1 | 18:55 - 19:35
+And it makes a small GPU run like a big GPU. It's about 10 times more efficient because rather than computing, the color of every pixel for every frame, we use AI to infer the color. And, you know, these days, 23 out of every 24 pixels, is being generated by our AI model when you're using DLSS, to play games, and gamers love it. It's become the standard way of playing games because it's just so much more responsive and it's more beautiful. Our AI, we train it offline on huge datasets, and it's able to render graphics in real time, more beautifully than, traditional methods do.
+
+Speaker 1 | 19:36 - 20:22
+We recently actually announced DLSS five which is a fully generative version of DLSS, and, I, am so excited about it. It represents culmination of ten years worth of research on how to make, real time graphics much more beautiful. And so, so that's part of, part of the journey here for me was real time AI for graphics. But then at the same time, we also started a language modeling project, and this was back in 2017, you know, before transformers, were big and before language modeling, started taking over the world. But, you know, I just had this intuition maybe built on, you know, some of the things that that I had seen, while working, at Baidu.
+
+Speaker 1 | 20:22 - 20:46
+I I just had this intuition that, you know, working with text and understanding text was gonna lead to better reasoning, which was gonna lead to better application of AI in all sorts of domains. And so, so we started this project, called Megatron. Megatron stands for the biggest baddest transformer. That's why we named it that. And it was really a systems project to show the world how to train the largest transformer models on NVIDIA's hardware.
+
+Speaker 1 | 20:46 - 21:28
+Back at the time, some of your, audience may or may not remember this, but there was there were being claims made that the only way to train big transformer models was on the TPU, because after all, the transformer had been invented at Google. And, so, you know, we looked we looked at, you know, we loved the the transformer paper. We thought, wow, this has amazing potential. We tried it out on our own language modeling tasks and it worked so much better than the RNNs that we had been using before. And also we saw immediately that there was an enormous systems opportunity to co optimize the GPU, the networking, all of the compilers and software that would enable people to scale, transformer based language models, really dramatically.
+
+Speaker 1 | 21:28 - 21:54
+And we we thought, you know, this is this is something that that, could really have an impact. So we started the Megatron project, which then led to, I think, basically helping the whole industry figure out how to train, extremely large, LLMs, and also led to the foundations of today's Nemotron project where, you know, NVIDIA trains, its own LLMs, for its own purposes. So that's kind of the the history.
+
+Speaker 2 | 21:54 - 22:19
+Great journey. Okay. So let's go into all things, Neemotron. And before we get into the specifics, that's the obvious question that I'm sure you've been asked many times, which is why does NVIDIA care in the first place to be building model and investing very significant efforts into creating its own family of frontier models?
+
+Speaker 1 | 22:19 - 22:57
+You know, Neutron has two jobs. The first job is to help us understand how to build the systems of the future. NVIDIA is an accelerated computing company, and that means thinking through the world's most important computational challenges from first principles and designing systems, which includes a lot of software, in order to make it possible for people to invent and deploy things that never could have been done with standard computing. But in order to do that, NVIDIA has to deeply understand everything about how AI works. That's how we codesign all of the systems and software, for our main product line.
+
+Speaker 1 | 22:57 - 23:24
+So the first job of Neutron is to make sure that NVIDIA continues to exist so that we can continue delivering meaningful acceleration in an era where Moore's law has died. And the the acceleration that we get these days comes through specialization. But, again, specialization comes through understanding. So that's Neutron's first job is to help NVIDIA understand how to build its core products. NVIDIA's second or Neutron's second job is to support the ecosystem.
+
+Speaker 1 | 23:25 - 24:14
+One of the most valuable things that NVIDIA has built over the years is, all of the people around the world who build and deploy amazing AI, using NVIDIA's technologies. And, we think that it's necessary for open technology for AI to continue to exist, from NVIDIA to help, support that. Neutron's not trying to be the only open technology for AI. We love all technology for AI for the very straightforward reason that whenever AI, is further developed and further deployed, it's an opportunity for our business. So so this is this is, you know, we're we're very explicitly trying to develop our ecosystem because that's good business for us, But we're not trying to be the only provider of technologies for this ecosystem.
+
+Speaker 1 | 24:14 - 24:28
+We love seeing, other companies contribute as well. The the most important thing for Neutron's second job is just making sure that it continues to be possible for companies of all shapes and sizes to build and deploy their own AI.
+
+Speaker 2 | 24:28 - 24:31
+By the way, Moore's Law is dead. Is that is that is that official?
+
+Speaker 1 | 24:31 - 24:33
+It's been dead for years.
+
+Speaker 2 | 24:33 - 24:35
+It's been dead for years? Like, why why is that?
+
+Speaker 1 | 24:35 - 24:57
+Well, you just look at the the progress, in semiconductor manufacturing. You know, the the original statement of Moore's law was economic. Right? It was about we can afford to put twice as many transistors on the same chip in every, whatever, twenty four months, whatever the the time period is. And, these days, that is absolutely not the case, and it hasn't been for probably five or ten years.
+
+Speaker 1 | 24:57 - 25:14
+Right? Now we are still scaling our systems, right, through a number of ways. One is just applying a lot more silicon to it. Right? We are also getting transistors are continuing to get smaller and and more efficient, although at a slower pace, but they're also getting quite a bit more expensive at the same time.
+
+Speaker 1 | 25:17 - 26:07
+So the, you know, in an era where where Moore's law was alive, the best way to make the system of the future was to take the system of the present and then just shrink it and and maybe double it at the same time. Right? But in an era where where we've been living for a while now where you don't get economic benefits from taking your existing design and shrinking it, you really have to be more clever about how you use every part of the system. That that's an era where accelerated computing is is much more valuable than ever because the the work of thinking through the prop problem from first principles and codesigning absolutely everything from transistors to algorithms and applications, in order to reduce waste and and deliver meaningful acceleration, that's more valuable than ever.
+
+Speaker 2 | 26:07 - 26:32
+Fantastic. To playback, what you were saying a minute earlier, It makes good business sense for NVIDIA to be in the model business because one, it helps, design better chips and two, whatever is good for AI is ultimately good for NVIDIA, which makes a lot of sense. That Neutron effort is reasonably recent. Right? It started in 2023, I believe, maybe.
+
+Speaker 2 | 26:32 - 26:41
+Walk us quickly through the key releases. I believe in 2023, there was Neutron three eight b as a key release, or am I missing a step?
+
+Speaker 1 | 26:41 - 26:55
+Yes. Yes. Yes. So, you know, the the, you know, the the numbering is somewhat lost to time. It I almost feel like we're in the Lord of the Rings, and it's like, you know, there's, like, some ancient, like, relics that we're digging up out of an old mine.
+
+Speaker 1 | 26:56 - 27:15
+You know, this is a long time ago. You know, the original what what, we originally called Nemotron One was actually a project that we did with Microsoft. We jointly trained a 530,000,000,000 parameter model. I believe that was released in 2021. And so this is GPT three era.
+
+Speaker 1 | 27:15 - 27:35
+And that's what at the time we called it Megatron Turing NLG. Turing was the what Microsoft was calling their their language model efforts, at the time. But, that, in retrospect, we called Nemotron one. Then along the way, we built a few more. We got up to Nemotron three.
+
+Speaker 1 | 27:36 - 28:05
+And then, Lama came along, and we were really excited about that. We were very, happy that Meta was supporting the open AI technology space. And so we we started, you know, taking our language model technology and adding it to LAMA models, which then resulted in LAMA Nematron one. And, you know, that was the first, reasoning model, built on LAMA. We were really proud of that.
+
+Speaker 2 | 28:05 - 28:07
+And that was 2025?
+
+Speaker 1 | 28:08 - 28:27
+Might have been '24. I believe, I can't remember. Somewhere around there. And then, yes, and then we we continued, to to develop that. And, you know, last we we so we the numbers kinda started over again.
+
+Speaker 1 | 28:27 - 28:52
+We released a a Nemotron two. I believe it was last year. And then we quickly followed that up with Neutron three because we we needed to put MOE support in. Neutron two didn't have MOE support and that made it uncompetitive against, other models like GPT OSS 20 b was just, like, so fast because of MoE. And so we were like, okay.
+
+Speaker 1 | 28:52 - 29:14
+We've got we've got to put put the MoE in, so that became Nematron three. Now we're in a a slightly difficult state because we're working on Nematron four. Right? But we already released the Nematron four, which was, in 2024, we released a three forty b, model called Nematron four. And so I'm not exactly sure how we're gonna, solve this marketing problem.
+
+Speaker 1 | 29:14 - 29:41
+I didn't create this marketing problem. So, I'll I'll I'll do my best to to make it clear that Neutron four of of of whatever the neck whenever we release that is different from the the 2024 Neutron four. But in any case, we've been working on this for a long time. I I think more important to us than any particular generation is just the sustained commitment that NVIDIA has to developing these models. We've been doing it for a while.
+
+Speaker 1 | 29:42 - 30:08
+I think our models have gotten dramatically more useful in the past year, which is a reflection of two things. Primarily, one is that, the whole company has come together. So there are many different teams around NVIDIA that now understand how important this is to NVIDIA's future. And so there's dramatically more people and better ideas that are going into Neematron. And then, number two, along with that, we've been able to scale the compute resources that go into it.
+
+Speaker 1 | 30:08 - 30:32
+Obviously, it's very important to have good computing infrastructure to build AI. We've, recently increased our investment substantially because, we believe that that this is really, really key to our company's future. Fascinating. But I just to continue the thought, I think it's really important that everybody knows that we've been doing this for a long time. We are increasing our investments substantially, and NVIDIA is a company that follows through.
+
+Speaker 1 | 30:32 - 30:37
+You know, we followed through over ten plus years with CUDA, and we're doing that with Neutron now.
+
+Speaker 2 | 30:37 - 31:10
+That's very helpful because, I think the the the broader world is is just starting to catch up to the fact that there is a very substantial open source frontier AI research effort that's been happening. So it's really interesting to hear that there's been this progression. And now there's this family of models that we're going to talk about in a second. Another important moment seems to be, the creation, just in March, three months ago of the Nemotron coalition. Do you wanna explain briefly what that is?
+
+Speaker 1 | 31:11 - 31:37
+So Nemotron exists to help support the ecosystem, and we were thinking, well, this is a different kind of AI project than other projects around the industry. Right? Because, we're not actually trying to dominate in any way. We're just trying to support. We don't we're not trying to control, we're, the way that AI is, being integrated into all these companies.
+
+Speaker 1 | 31:37 - 31:59
+We're just trying to make sure there's good AI. But we thought, well, maybe if we worked with people while we develop it, then it's gonna be more useful for them. It'll be easier to integrate because we will consider what they need from the beginning. And, you know, Neutron has always been collaborative. I was telling you that, you know, long long time ago, our first big model that we trained, we we did with Microsoft.
+
+Speaker 1 | 31:59 - 32:12
+Microsoft. Right? It was a joint effort where NVIDIA and Microsoft researchers worked side by side to build that. And that, that ended up, I think, helping both NVIDIA and Microsoft. I think we both learned a lot from that, experience.
+
+Speaker 1 | 32:12 - 32:54
+And so because Neutron is not trying to compete with, other companies but rather support, because we're gonna be putting it out there openly anyway, why not collaborate before the thing is built rather than Neumatron being a project that NVIDIA does all on its own and then posts on the Internet and says, hey. Why don't you try this? We think it might be good. Why don't we make sure that it's good for the partners that that are interested by working with them before Neumatron is even created? And incorporating, you know, any sort of feedback, evaluations, environments, benchmarks, or any other, kinds of technology that other people want to bring.
+
+Speaker 1 | 32:54 - 33:17
+It turns out that the entire ecosystem, there's a lot of companies that really want open models to succeed. And so they have a self interest. They have their own vested self interest in making sure that open technologies are excellent. And so why not, work with them and and let them contribute, however they'd like to making Neutron better. So that's the the idea of the Neutron coalition.
+
+Speaker 1 | 33:17 - 33:37
+It is not an exclusive coalition. We're not trying to be the only model out there. All the companies that we work with are free to to continue doing the work however makes sense to them. And yet, you know, these companies want to work with us because they wanna make sure that, open technologies for AI keep, developing quickly and that they have a chance to influence how that happens.
+
+Speaker 2 | 33:37 - 33:49
+Great. What's the current state of the Neumontron family? You got Nano, you got Super, you got Ultra. What do those models do and what are the use cases for them?
+
+Speaker 1 | 33:49 - 34:30
+So Nano is a 30,000,000,000 total, 3,000,000,000 active parameter model. Supers one twenty and twelve, and Ultra is five fifty and fifty five. They're designed really to fit, you know, it's kind of small, medium, and large deployment scenarios. You know, nano can be really capable for things that, you know, don't require nearly as much knowledge or reasoning but obviously for the for the most capable model, you go for ultra. Super in a lot of ways is our most popular model because it represents kind of a great balance between, cost and and intelligence.
+
+Speaker 1 | 34:30 - 35:02
+So we we kinda like, having this small, medium, and large, approach to building a family just because our customers, seem to respond to that, pretty well. But, you know, the most important thing from NVIDIA's point of view that people are doing with LLMs is agents. Right? Is, building agentic workflows. Having it having an agent working on your behalf, solving problems for you night and day, is such an exciting way of approaching the problems that we have to solve.
+
+Speaker 1 | 35:03 - 35:08
+And, it's our dream to make Nemotron amazing for that purpose. That's that's our goal.
+
+Speaker 2 | 35:09 - 35:18
+To double click on this, at a hell of a Nemotron family is focused on agentic reasoning with a particular focus on making it efficient. Is that is that the right headline?
+
+Speaker 1 | 35:19 - 35:41
+That's right. Yeah. Nemotron has always been, speed first approach to building models because NVIDIA is an accelerated computing company. As I was saying, we're trying to think through what is the problem here computationally from first principles. And, you know, Nemotron, three family has a lot of things in it that are, we're really proud of.
+
+Speaker 1 | 35:41 - 36:02
+For example, Nemotron Ultra and Super, were pretrained using four bit arithmetic. We pretrained those in MVFP four, which, you know, is a not trivial thing to do to invent the algorithm so that your model can converge to an excellent result using such coarse arithmetic. It required a lot of invention. Really proud of that.
+
+Speaker 2 | 36:02 - 36:08
+Do you wanna explain maybe for for people what, four bit is versus 16 bit, for example?
+
+Speaker 1 | 36:08 - 36:32
+You know, actually, there was a fantastic post I saw in Hacker News yesterday where somebody let you, upload a picture, and then it would basically posterize it, basically reduce the colors to fit different number formats including NVFP four and MXFP eight and some of the other formats that are out there. And so you could kind of swipe around and look what it does to the colors of the picture. And, you know, it's it's really quite dramatic. Four bits is not a lot of bits. Right?
+
+Speaker 1 | 36:32 - 37:04
+That's only 16 value. Now, of course, these are all, what are called, block scaled formats. So, groups of numbers also come with an eight bit, scaling factor. And the the specifics of this can get rather complicated, so maybe they're not quite as important. But the the reason why we want to do this is because, first of all, we have dramatically higher, throughput for these formats in our GPUs, specifically on, Blackwell Ultra.
+
+Speaker 1 | 37:04 - 37:28
+And secondly, we know that it's gonna save an enormous amount of energy. One one way to think about, the computational problem of AI is that we are going to be running at the limit. Whatever the limit is, it could be, an economic limit. Like, we only have so many billion dollars to to buy servers with. It could be a power limit.
+
+Speaker 1 | 37:28 - 37:49
+We only have so many gigawatts that we can afford to to train a model with. Whatever the limit is, we're gonna be running at that limit. The every organization is is because why? Because the value of intelligence is so high, you know, that that people are gonna they're gonna invest because they they know that they're gonna get return. The the value of intelligence is is enormous.
+
+Speaker 1 | 37:50 - 38:14
+So if you if you accept as the truth that we're gonna be running at the limit, then what that means is that the way to get more intelligence is to be more efficient. We can't get more intelligence by applying more force if we're already at the limit. We have to be more thoughtful about how we use what we have. And, you know, four bit number formats are dramatically cheaper to move around. They take up less space in memory.
+
+Speaker 1 | 38:15 - 38:50
+They take up less picojoules when you move them from the memory in even on the chip, around the chip. Much less, energy when you compute on them. And so, so that's really, driving, you know, the investment in four bit formats. And I think these days, four bit formats for deployment are very well established. It's it's pretty pretty straightforward these days to make a a good quantized four bit checkpoint that you can deploy and that gets you a lot of inference cost and speed advantages.
+
+Speaker 1 | 38:51 - 39:25
+But using four bit formats for pretraining, that's quite a bit more challenging because you have this numeric solver that's, you know, optimizing the weights and, you know, it it can be quite sensitive. So if you if you don't, treat the numbers right, your model can diverge. And instead of actually getting a model done through pre training, you end up with, you know, basically just that run diverged, which is, you know, always always scary. So it it took a lot of invention for us, to be able to pretrain Neutron, in four bit. We're really proud of that.
+
+Speaker 2 | 39:25 - 39:37
+Okay. Great. Alright. So as we, get into, slightly more technical things, the architecture of NeMOtron is hybrid. Is that right?
+
+Speaker 2 | 39:37 - 39:48
+So it's a combination of transformer and member state space, which is a slightly more exotic form of of of architecture. Walk us through that.
+
+Speaker 1 | 39:48 - 40:37
+Yeah. You know, we published a paper in 2024 that showed that you actually get a smarter model by combining state space models with transformers. And we we actually did a sweep of, you know, how much of the model should be full attention and how much of it should be, a state space model in order to get the the lowest perplexity, basically the best the best language model that you could get. And we found that you actually want it to be mostly a state space model with a little bit of attention. And it's kind of the intuition behind that is that the state space model seem to be better at kind of this intuitive intuitive kind of impressionistic understanding of a sequence, because they're, you know, they're kind of summarizing the entire sequence into a constant space.
+
+Speaker 1 | 40:37 - 41:04
+That's how they work. Right? So instead of having the ability to look at the entire sequence randomly, they summarize everything at every step into a constant, cache or a little scratch pad that they're they're working on. And, that constraint seems to actually make them smarter at some tasks that involve, like, global understanding. On the other hand, the advantage of full attention is that it can pick out very specific, bits of information and look at those exactly.
+
+Speaker 1 | 41:04 - 41:22
+It doesn't lose anything. There's no lossy compression going on. You can actually see the whole thing. And so we found that, you know, using both of these together was actually better than using either one on their own. And that is independent of the speed benefit.
+
+Speaker 1 | 41:22 - 41:44
+That is just the model is smarter. And since we've published that, I think a lot of other labs have also found this to be true. A lot of models these days are being built with hybrid SSM approaches. For example, QN has done that. Kimi is using what they call Kimi linear attention these days.
+
+Speaker 1 | 41:44 - 42:31
+So it's become, I think, quite widely adopted to use some sort of state space model in conjunction with, full attention for, for the the base architecture. Now it also has some speed benefits because, the amount of memory that you need to hold, that state space, cache is actually constant with respect to your sequence length, which then means that, generally, you can fit much higher batches on the GPU when you're training and doing inference, because the memory, requirement is lower. And it keeps the GPU, fuller and busier, and therefore, you know, provide some some pretty important pretty important efficiency benefits as well.
+
+Speaker 2 | 42:31 - 42:42
+So the models are also based on an MOE, a mixture of experts architecture. Walk us through that and maybe remind people what MOE is in the first place.
+
+Speaker 1 | 42:42 - 43:02
+So mixture of experts is a form of sparsity. The idea is, wow, you wanna train a model on the entire Internet. You want it to remember absolutely everything about the history of everything. But when you're answering a particular question, does it seem reasonable that it needs to actually think about the entire universe in order to answer that question? Actually, no.
+
+Speaker 1 | 43:02 - 43:20
+It seems like it's quite sparse. Right? It seems like, we're we're we're using a language model to explore a very tiny space of ideas in order to answer a question or solve a problem. We want the model to be able to draw from the entire universe. We wanna train it so that it understands everything that it possibly can.
+
+Speaker 1 | 43:20 - 43:59
+But when it's actually running, it doesn't really need to see all of that information. There's been a variety of approaches to sparsity that try to take advantage of this property, but mixture of experts has been the most successful. And the way that it works is that the neural network has what's called a router that is learned that, is gonna decide to send activations to a subset of the experts, for every token that's flowing through every layer of the model. It's gonna be making choices about, which fraction of the model is gonna actually get to interact with this token as we try to understand it, build up representations of the problem, and then generate the next token that we're gonna output.
+
+Speaker 2 | 43:59 - 44:15
+So it's a little bit like if I have a company with five fifty employees, but 55 of them are in engineering, I want the 55 employees who are specialists to come to my meeting about engineering and not the rest of the company.
+
+Speaker 1 | 44:15 - 44:28
+That's right. Yeah. Or you can think about it as a library. Like, if you go into a library to do research, you don't read all of the books in the library. Like, your first job is to figure out which books you need to look at in order to find the answer to your question.
+
+Speaker 1 | 44:28 - 44:51
+And so, so that's kind of the the idea behind MOEs. Now MOEs have fascinating implications for the systems that we built. So with Blackwell, for example, NVIDIA went all in on MOEs. That's why we built NVL 72, which allows up to 72 of our GPUs to read and write each other's memory, at very high speeds, very low latency. And why is that important?
+
+Speaker 1 | 44:51 - 45:27
+It's because as you put a token through the stack of layers, at every layer, you have a router that's routing that token somewhere else. Why don't you partition your experts so that, you know, the experts are not sitting every expert on every GPU, but you have a subset of the experts assigned to each GPU. And then you're routing the tokens between the GPUs very dynamically as you push, the token through the network. Now, this is impossible to predict in advance where the tokens need to go because it's very specific to that particular token for that particular model. And so that's why we built NVL 72.
+
+Speaker 1 | 45:27 - 45:54
+And that's why, Blackwell is so amazing for inference for, you know, today's AI models is because we thought deeply about mixture of experts when we were building it. And this is speaking to Neematron's first job. You know, if if we hadn't been working on understanding AI, we wouldn't have been able to build Blackwell properly. And that, you know, has has translated directly into, you know, increased deployment, of Blackwell, which, you know, we're we're we're very excited about.
+
+Speaker 2 | 45:55 - 46:00
+Is what you just described, called latent MOE, or is that a different concept?
+
+Speaker 1 | 46:00 - 46:35
+Latent MOE is a specific, innovation that we have in Nemotron three family. And, what it does is actually, reduces the amount of communication that has to be sent through NVLink during MOE computations by basically down projecting it. So, you know, every token is it produces a vector. And the idea is, like, we're gonna take that vector and learn a way to compress it and then send that compressed thing through the network, and then we're gonna uncompress it at the other end. And as a result, we save on network bandwidth, and we also get four times the number of experts for the same inference cost.
+
+Speaker 1 | 46:35 - 46:48
+So you could think about it as like, you know, our library of books got four times bigger, and we get to, you know, read four times more books, at the same inference cost because of because of this particular innovation.
+
+Speaker 2 | 46:48 - 46:53
+Is MOE in general, becoming the default architecture for Frontier AI?
+
+Speaker 1 | 46:54 - 47:03
+Yeah. I believe MOEs have been the default, in Frontier AI for a long time. They're just a really good combination of inference cost and intelligence.
+
+Speaker 2 | 47:03 - 47:04
+Great. Great.
+
+Speaker 1 | 47:04 - 47:26
+But they have drawbacks as well. You know, they they take a lot more memory. If you have a a very small amount of memory, a dense model is gonna be smarter. And they also, they tend to work best either if you're running at batch size one, so you're running basically a single job, or you're running a huge data center with, like, infinite queries coming in. In the middle, they can be a little bit tricky.
+
+Speaker 2 | 47:26 - 47:40
+Another important characteristic of Neumatron three Ultra is a 1,000,000 token context, the the long context window. How important is that in the overall mix, and what does it enable the model to do?
+
+Speaker 1 | 47:40 - 48:14
+The longer the context length, the more challenging problems we can solve with a language model. That allows us to do things like append all sorts of information to a query, which could be a code base. It could be instructions. You know, in in the long term, I'm hoping that I have my own personal LLM that's able to read all of my emails, you know, and help me answer questions about that. You know, the more information that we can attach to a particular query, the the more useful the model can be.
+
+Speaker 1 | 48:14 - 48:35
+Now, it can get more and more expensive, right, to reason over large amounts of of input data. And, and so that's one of the the reasons why there's usually a limit on how big the context length can be. But with Neemotron three, we we tried to push it as far as we could go. We think a million tokens is a lot of tokens, and you can do a lot of things with that.
+
+Speaker 2 | 48:36 - 48:51
+Prisma is particularly helpful in, sort of multistep, agentic workflows, and there's, this whole separate discussion around context compaction to make sure that the model doesn't get lost in too many tokens. So, like, how do you how do you all think about this?
+
+Speaker 1 | 48:51 - 49:23
+A 100%. I mean, you know, compaction is that's a thing if you're using an agentic workflow you deal with all the time. And compaction tends to work pretty well, you know, because language models, are pretty good at at identifying the most relevant things and summarizing, and you're basically trying to summarize your context when you compact it. So, compaction, is is not a bad approach. I think having models that can just natively, reason about larger amounts of data is just inherently more useful.
+
+Speaker 1 | 49:23 - 49:26
+So, of course, we wanna push the the boundary on that as well.
+
+Speaker 2 | 49:26 - 49:31
+Great. Can you talk about the multi token prediction, which is also very interesting?
+
+Speaker 1 | 49:32 - 50:10
+If you're running at a low batch size, which is when you are trying to get the most interactivity if you're in a data center, so you want you want the model to respond as quickly as possible, and it's okay for it to be more expensive. Your token your cost per token might might be higher, but you want the result as quickly as possible. Or if you're running, locally, so you might be running at batch size one just because you're the only person using it. It turns out that, the GPU has extra execution capabilities that are just lying there unused. The bulk of the work when you're running in these scenarios is actually fetching the weights from memory.
+
+Speaker 1 | 50:10 - 50:40
+And then you push the token past those weights, and then you fetch more more, weights from memory. But it turns out if you if you push two tokens or even five tokens through those same, weights, it would cost basically the same amount of time. Because the the expensive thing is not doing the math to push the token through the weights. The expensive thing is just reading all of those weights from memory, all those parameters they have to come in. And so the idea with multi token prediction is to take advantage of this by having the model predict multiple tokens at once.
+
+Speaker 1 | 50:40 - 50:59
+Let's say that the model predicts five tokens. We know the first token is correct. The next four tokens may or may not be correct. So then what we do is on the next pass, we take those four tokens and we stick them into the model, and then, run it through. And at the end, we check, you know, the model then predicts another set of tokens.
+
+Speaker 1 | 50:59 - 51:26
+Right? Then we check, were the extra tokens we predict last time correct? If so, then we just accept them, and then we get, like, a four x speed up. And if they were incorrect, then we only accept the ones that were correct and then, you know, proceed from there. So the benefit of this is it it doesn't degrade accuracy at all because you're using the model to double check.
+
+Speaker 1 | 51:26 - 51:47
+Right? So all the speculation is gonna get checked during the next token that you you run through the model. So it doesn't degrade your accuracy at all to turn on multi token prediction, but it can give you a speed up and it's probabilistic depending on the acceptance rate of your, predictor. You know? So if your predictor's more accurate, the acceptance rate goes higher, you get a higher speed up.
+
+Speaker 1 | 51:47 - 52:16
+So with, you know, with, our recent Neutron models, you know, we're pretty proud of our acceptance rates, but we're always trying to make them better, you know, always trying to improve that acceptance rate. This is a really good example of accelerated computing. You know, with multi token prediction, the speed that you get is a function of the accuracy of your model. The more accurate your model is, the faster the inference is, the cheaper the inference is, the more accurate it is. That's not usually how it works, but in this case, that's how it works.
+
+Speaker 1 | 52:16 - 52:47
+And what that implies is that, you know, if we're trying as NVIDIA, as a company to provide meaningful acceleration to the world's most important computational workloads, this has to be an important part of how we, think about it. You know? If there's a three x cost reduction or speed improvement, for inference, which is the most important computational workload of 2026, If that's on the table and it depends on the accuracy of the multi token prediction network, then that's something that NVIDIA needs to understand very deeply because it's gonna affect, our business directly.
+
+Speaker 2 | 52:47 - 52:58
+Fascinating. And just to to continue on the on on the tour, multi teacher distillation. We talked about distillation a little bit upfront. What does that mean in the context of, Nemotron three?
+
+Speaker 1 | 52:58 - 53:30
+So with Nemotron three Ultra, we did post training using something called multi domain on policy distillation. And what that, entails is that, you know, we have many different aspects of the model we want to improve. For example, science understanding is different from math theorem proving, which is different from coding, which is different from agent harness, interactions. Right? There's there's, with Neutron three, I think we had about, ten ten or 15 of these teachers.
+
+Speaker 1 | 53:31 - 54:06
+And, so the idea is that you take these teacher models and you push them as far as you can go on some specific domain. So you just don't worry about making good at everything, just make it really, really smart at this one domain. Then you have a collection of these models and you want to create one model that learns, to be good at everything. And we do that using a specific reinforcement learning technique that a lot of labs these days use called, MOPD. And the the good thing about this is that because the teachers are supervising, they can give really dense rewards to the the student model.
+
+Speaker 1 | 54:06 - 54:39
+Basically, every token is getting supervised, and so the student can learn really quickly, and then become, you know, almost as good as all of the teachers at all of the things. So, one benefit of this is that it really helps the team work together better. You know, if if, you don't have a technique like this and you have, let's say, 500 people working to try to make a model better and one team's like, well, I'm trying to make it better at this thing. And then another team's like, I'm trying to make it better at that thing. There can be a tug of war where it's like, well, who wins?
+
+Speaker 1 | 54:39 - 54:57
+You know? With and and if you have to make a choice like, oh, I'm gonna make I'm gonna choose to prioritize this one over that one, then you make the other team feel like their work doesn't matter. You know? It's just really hard. One of the challenges of of building AI in in 2026 is that you have to figure out how to get the people to work together even though you're only building one thing at the end of the day.
+
+Speaker 1 | 54:58 - 55:05
+And so this particular technology, has been really instrumental in helping more people work together to make NeMOtron stronger.
+
+Speaker 2 | 55:05 - 55:34
+Fascinating. So is that just as much a technology question as a human organization question? Okay, fantastic. Let's put a pin in this and get back to this in a second because it's a fascinating topic. In terms of the post training that you just alluded to, one of the exciting things that you all did in the context of Nemotron is also to publish the data, the training data.
+
+Speaker 2 | 55:34 - 56:05
+Does that include per industry data for specific reinforcement learning tasks? Yes. That's the beauty of a conversation like this today where you guys can actually talk about those things. So where does one get the data from for post training reinforcement learning focused efforts? One of the key questions in the world today is that LLMs or AI systems have become great at coding and great at math.
+
+Speaker 2 | 56:05 - 56:24
+So like the next big question is can they become great at law and consulting and you know, all sorts of different domains? And part of the the black box of closed models is, like, how people go about doing all all of this, where do they get the data from? To the extent that you can talk about all of this, I'd be very curious about how you guys have have gone about it.
+
+Speaker 1 | 56:25 - 57:02
+It's not an easy question to answer because it is quite complex, but I would say, we rely on a number of things. One is that we do purchase data from, companies that that, you know, are are building datasets that you can purchase. And to the extent that, you know, we have the rights to redistribute, or to to to open up that data, we do as part of, our our, NeMotron data effort. You know, with with Neutron, we are trying to be maximally open with the data that we release because our goal is to support the ecosystem. Right?
+
+Speaker 1 | 57:02 - 57:44
+Our goal is is not to be the only model out there, and we love it when we hear of other models around the industry that are using our datasets, to to make their AI stronger because that means we're succeeding in our job to keep the ecosystem thriving and growing. Now we also are big believers in synthetic data generation. We use an enormous amount of compute, running language models on our own systems to create synthetic data that then helps our models be better at, solving problems in specific domains. And we release a lot of that data as well. Now it's, of course, not very straightforward to do this.
+
+Speaker 1 | 57:44 - 58:01
+Like, you know, AI is always garbage in, garbage out. So, you have to work really hard to make sure that any synthetic data that you create is actually adding value that's actually helping the model generalize and solve problems, more intelligently. But those are the the primary ways that we go about, building our datasets.
+
+Speaker 2 | 58:01 - 58:36
+Since we're talking about post training and RL in different domains, just curious to get your thoughts on where we go from here in terms of generalization. So just to, build on what I was saying a second ago, the industry seems to be marching from coding and math, which are domains with verifiable rewards, to different industries. Do you think that this is where things are going and that the AI industry as a whole is going to be able to cover those next few domains as efficiently as coding or math?
+
+Speaker 1 | 58:36 - 59:41
+Coding is really special because it's a very intellectual exercise that created a lot of economic value, which then meant that we had an enormous amount of tokens that we could, learn from, as well as, tooling that allows us to verify whether, you know, our our models are actually solving problems. So coding is always gonna have a special place in our heart, and and something that I think AI is gonna continue to get much better at, because we we have this, special relationship with it. You know, with regards to other domains, I think what I'm excited about has to do with significantly more diverse environments for AI to learn in during reinforcement learning. I believe that, you know, I mean, reinforcement learning is is such a general form of, teaching an AI how to solve problems. We're just getting started at figuring out how to apply that.
+
+Speaker 1 | 59:41 - 1:00:16
+And I think as our environments get more sophisticated, the AI then learns more understanding of the problems that it's trying to solve as well as the implications of the actions that it can take, then it becomes much better at, at actually, solving those problems. When I look at the the, environments that we're using today, they're still, fairly simple, all things considered. And I think, that's gonna become significantly more complex and diverse over the next few years.
+
+Speaker 2 | 1:00:16 - 1:00:32
+Alright. So you you mentioned, you know, making 500 people work together, and I said, that we would get back to it because it it's so interesting. So just, taking a step back, like, tell us about the research organization at, NVIDIA. Like, how is it structured? How how does it all work?
+
+Speaker 1 | 1:00:32 - 1:00:56
+Well, NVIDIA is not structured according to an org chart. We have one, but it's not actually the best way of understanding how we work. My team, for example, is not part of the official NVIDIA research team. My team is actually part of the organization that builds the GPU. And my team is not the only team building Neutron.
+
+Speaker 1 | 1:00:56 - 1:01:53
+There's probably 10 teams around the company that have significant involvement in building Neutron, in different parts of the company, in in enterprise software, in our AI software division, the part of NVIDIA that actually designs the GPU also significantly is involved in in building Neemotron. So there's there's so many different teams that that have to work together. We always like to say that the mission is the boss, rather than, the organization. But, what that implies is that people have to figure out how to work together, which is challenging, in the sense that humans are naturally tribal creatures. And it's, not natural for us to, be friendly with people we don't know very well or trust coworkers that we don't have, you know, success working with in the past.
+
+Speaker 1 | 1:01:54 - 1:02:27
+And, you know, actually, the name Nemotron, reflects that. We had, the Nemo team, which and the Megatron team, which was building, primarily focused on systems research for, for building large language models. And, you know, we decided to work together and then start calling our projects Nemo Tron reflecting, you know, sort of the the collaboration between these teams. Since then, Neumatron has has dramatically expanded. There's so many more teams that are part of the effort.
+
+Speaker 1 | 1:02:28 - 1:02:50
+And it's really important, that we have structured it, in this open way inside of NVIDIA. You know, we are inviting, volunteers from around the company to come help build NVIDIA's AI. We think it's very important to the future of the company. And, you know, as that vision continues to develop, more and more people wanna join. That's fantastic.
+
+Speaker 1 | 1:02:50 - 1:03:24
+We're really excited about that. And it means that we then have to figure out, how to organize the work so that everybody has a chance to contribute and feel heard and feel like their ideas are are, you know, fairly evaluated, on the on the path towards impact. We we have a a formal process for doing that. We have an internal website where people, share ideas and then those ideas, are assigned to one of 25 different, leads that are, you know, over various parts of building Neutron. They interact with those ideas.
+
+Speaker 1 | 1:03:24 - 1:03:53
+Some of those ideas get further developed. Some of those ideas get deferred until, you know, the next the next time we we go around building a new model. But we're trying to build Neutron in an open and inclusive way, so that, you know, we can really come together as a company to build it. I think, you know, organizations that figure out how to collaborate to build AI succeed. Organizations that struggle with control over who owns the AI tend to, waste a lot of effort.
+
+Speaker 1 | 1:03:54 - 1:04:03
+And so NVIDIA's success and Neutron's success, I think, is directly proportional to our ability to collaborate. It's something that I care deeply about.
+
+Speaker 2 | 1:04:03 - 1:04:32
+Fantastic. But you you mentioned earlier that despite the fact that you work at the number one undisputed leader in GPUs, you all as a research organization don't have all the GPUs that you would want in the world. So like how does the allocation of GPUs and compute happen? Is that based on how promising an idea is or early success? Do you, give GPUs, withdraw GPUs, based on success?
+
+Speaker 1 | 1:04:33 - 1:05:03
+It's a really complicated question, and it's it's obviously a a difficult problem for everyone in the industry to figure out how to allocate their their compute. Inside Nematron, you know, so we we have a budget, for Nematron. And inside Nematron, we allocate compute based on what we think the needs of the project are. We have a hierarchy. So we had a we have a set of programs and and in inside of each program, we had a have a set of projects.
+
+Speaker 1 | 1:05:04 - 1:05:39
+And each of them put forward their requests. And then, you know, we have a two week cycle where we review requests and we review the budget and then we make decisions, in kind of a hierarchical way and then, you know, compute gets decided that way. Now having said that, this is something that I think we can still do better at. It's hard when we're making decisions about compute allocation because, every researcher is convinced that their idea, could change the world if it just got a thousand times more GPUs attached to it. Right?
+
+Speaker 1 | 1:05:39 - 1:05:50
+And they they might be right. It might actually be true. And yet, we're running at the limit. We don't have a thousand x more GPUs for every idea that that we have. We we have to operate within, the limits that that we have.
+
+Speaker 1 | 1:05:51 - 1:06:38
+And so it is, a challenging process. We try to incorporate as many people's perspectives into that as possible so that it's as much as possible a shared sense of understanding, maybe not agreement. So there may be times when one project feels like it really deserved more GPUs because the impact of that would have been so high, but it didn't get it. We hope in that circumstance that they have an understanding of why some other project did get more GPUs and why that was considered more of a priority during this particular allocation round, for the company, so that people can at least, understand, you know, that there's a reason, for the allocations that we have. Having said that, you know, this process is always improving.
+
+Speaker 1 | 1:06:38 - 1:06:52
+There's always more work to be done to make this more transparent and more fair. And and then, of course, my my number one is just to get more GPUs so that, you know, we we can also fund more things because I would like to do that too.
+
+Speaker 2 | 1:06:52 - 1:06:58
+How do you balance useful research with great exploratory research?
+
+Speaker 1 | 1:06:59 - 1:07:21
+My belief is that research needs to be bootstrapped. Research is a chicken and egg problem. So, it is always the case that every researcher believes if I just had a lot more resources, my idea would change the world. Actually, it's important that researchers feel that way because if you didn't feel that way, you wouldn't have the conviction that's required to go do something crazy and new. Right?
+
+Speaker 1 | 1:07:21 - 1:07:38
+So you have to believe. And and so, of course, you start with that belief. But then how do you translate that belief into something that other people can understand, right, that other people are willing to invest in? This is what I call the the chicken and egg problem. Right?
+
+Speaker 1 | 1:07:38 - 1:08:00
+Because, like, once your research idea is is obviously good and impactful, it's easy to get resources, but how do you get it to be obviously good and impactful without those resources? Right? So so the way you solve chicken and egg problems is by bootstrapping. This is an iterative, problem solving approach where you do something small. You get some sort of signal about this is a good idea, and you tell people about that.
+
+Speaker 1 | 1:08:00 - 1:08:11
+And then you ask for just a little bit more. And, if people saw like, oh, yeah. That, you know, that experiment turned out pretty well. That's pretty intriguing. We should probably do a little bit more there.
+
+Speaker 1 | 1:08:11 - 1:08:33
+Then you're on track. Right? And, that that, over time, you know, iterate a lot, iterate quickly, iterate many times, you can bootstrap to, you know, finding significant resources for your idea and also usually attracting more people, to come along with it on the way because they have a chance to see that this idea is gonna change the world, and then they wanna be part of it.
+
+Speaker 2 | 1:08:33 - 1:08:48
+Is that how the moonshots at NVIDIA got started as well over the years, whether that's in in AI or otherwise? So it it it was bottoms up, somebody coming up with a good idea versus Jensen saying this is what we need to do?
+
+Speaker 1 | 1:08:48 - 1:09:08
+Well, you know, Jensen has lots of good ideas too. And so the company is very responsive to to his ideas and that's, that's important as well. But Jensen very explicitly says all the time, this is a company of volunteers. You know, each of us is here because we choose to. We could we could be doing something else in our lives, but we we choose to be here.
+
+Speaker 1 | 1:09:09 - 1:09:35
+And so, you know, we we tend to make decisions, especially for early stage research. It it tends to be very bottoms up, because, you know, it's it's sort of an invitation. Like, bring bring your best ideas. Let's let's figure out, you know, what are all of our best ideas and then we'll take a step from there. Now do we sometimes have top down, ideas, that are important for the company strategy?
+
+Speaker 1 | 1:09:35 - 1:09:47
+Of course. You know? Of course. NVFP four pre training is one of those, you know. So we decided as leadership of the company, we're gonna really invest in in FP four hardware.
+
+Speaker 1 | 1:09:47 - 1:10:03
+Now it's time to go invent some optimization algorithms that succeed in using it. And, so so we told the team. We didn't say to the team, you have to work on NVMe FP four pre training. What we said is, there's an opportunity. We're making a big investment.
+
+Speaker 1 | 1:10:03 - 1:10:15
+And if we can figure this out, it will be significant for our company. And then we let the people who are interested in that work on that. And as a result, we succeeded. You know? So, so it is a balance of, like, bottoms up and tops down.
+
+Speaker 1 | 1:10:17 - 1:10:42
+But, it always has this boot strapping feeling even even with something like NVFP four where there's a significant, like, strategic top down component. The actual technical solution, which is very intricate and complex and has a lot of moving parts, that came, from the researchers themselves. And, you know, that's my belief is that research always comes from the researchers themselves. You can't tell research exactly to how to go solve a problem because then it wouldn't be research. It would be engineering.
+
+Speaker 1 | 1:10:42 - 1:10:53
+But, in a world of, of AI where the most important problems we have to solve all have this research component, there needs to be freedom for researchers to innovate if we're gonna make progress.
+
+Speaker 2 | 1:10:53 - 1:11:26
+Listening to everything you're saying, I'm struck by how entrepreneurial the culture at NVIDIA still seems to be. So like, oh, look, I'm it's a very large company, I'm I'm sure there's all sorts of politics and you mentioned the tribal instincts. So like, I'm sure all of this is happening, but especially given you know, how long the company has been around a phenomenal success, the fact that people have been making a lot of money internally, it still seems to be very entrepreneurial, bottoms up driven, maybe meritocratic. Is that the right takeaway?
+
+Speaker 1 | 1:11:26 - 1:11:53
+Yeah. I mean, one thing that's very unusual about NVIDIA is the tenure of its leadership. Jensen Huang has been running the company for thirty three years, but he's not alone. There are a lot of other very senior leaders in the company who have been there for three decades or longer, including my boss. And, these people remember what it feels like to work at a very small NVIDIA, and they know what it feels like to work at a very large NVIDIA.
+
+Speaker 1 | 1:11:53 - 1:12:10
+They have a shared sense of ownership for the company. You know, NVIDIA is a place we often say, no one fails alone. And the the the point of that, that's just a statement of fact. Right? You work at a company.
+
+Speaker 1 | 1:12:10 - 1:12:19
+It's a one company. You all succeed together. You all fail together. You work in accelerated computing. Accelerated computing is the composition of thousands of technologies.
+
+Speaker 1 | 1:12:19 - 1:12:51
+If any of them fail to deliver acceleration, the value is destroyed. It doesn't matter whether the chip is great. If the compiler sucks, at the end of the day, the thing that you're selling is time and capability to researchers that are trying to build the future of AI. And if they don't get that, it doesn't matter whether it was the, you know, the transistor or the math unit or the compiler or the library or the networking or anything else along the way that that failed to to live up to its, expectations. The whole thing in composition fails, the whole value is destroyed.
+
+Speaker 1 | 1:12:51 - 1:12:58
+And so we have a deep understanding of that culturally at NVIDIA, and it is something that motivates the way that we work together.
+
+Speaker 2 | 1:12:58 - 1:13:25
+Maybe to close the conversation, I'd I'd love to zoom out, get your take from, you know, the perspective of somebody who's, like, as deep into all of this as it as it gets about where things may be going. So, like, who knows in a few years, but I don't know. In the next year or two, maybe there's some visibility. I read somewhere that you're not necessarily a big, singularity, kind of a kind of person. Is that is that fair?
+
+Speaker 2 | 1:13:25 - 1:13:28
+True. And why is that?
+
+Speaker 1 | 1:13:29 - 1:13:58
+Well, I think that intelligence is just so incredibly multifaceted. You know, I always think, about this question, like, if a company were to be looking for its next CEO, would it find the next CEO by looking for somebody who won the International Math Olympiad? Probably not. Right? Even though, like, it's incredible for people like, I could never even compete in any way at the International Math Olympiad.
+
+Speaker 1 | 1:13:58 - 1:14:17
+Those people are amazing. Right? They have just incredible brilliance. That's not the right kind of brilliance to run a company. If we look, for example, at, other aspects of our culture that that are really important, for example, musicians, What kind of intelligence does it take to become a hit musician?
+
+Speaker 1 | 1:14:19 - 1:14:30
+Don't assume that it's all luck. It's not. These people are working hard and they're very smart in ways that I might not understand with my PhD. Right? I might not have that kind of intelligence.
+
+Speaker 1 | 1:14:31 - 1:14:47
+And so when I think about intelligence, I think it's just so multifaceted and so contextual. You know, it really depends on the situation. It's not just about raw intelligence. Raw intelligence is kinda like the horsepower of an engine, but an engine running without wheels doesn't go anywhere. Right?
+
+Speaker 1 | 1:14:47 - 1:15:31
+So so intelligence, the impact of intelligence has a lot to do with, the context that the intelligence has put in the harness, the platform. And so when I think about that, I think, you know, the singularity is although it's an attractive idea, I think that it's it's a really a wrongheaded idea because it it doesn't really, take into account, these other factors. So I believe that artificial intelligence is gonna continue to develop at a rapid pace. It's gonna unlock significant capabilities, for people in every aspect of our world economy, people doing every kind of work. I'm very excited about the opportunities that it's that it's going to bring.
+
+Speaker 1 | 1:15:32 - 1:15:51
+I am also a little bit, concerned with how we're gonna manage the transition. So I do think that transitions are hard for humans in general. Like, we're we're conservative generally. And, you know, there there is gonna be a lot of change. This is a profound change in the way that we think and the way that we work, the way that we learn.
+
+Speaker 1 | 1:15:53 - 1:16:07
+Ultimately, I have faith in our ability as humans to figure it out. You know, we've done it in the past. This is how this is who we are. We we build tools. We build external organs that help us solve problems.
+
+Speaker 1 | 1:16:07 - 1:16:16
+You know, we we have an external stomach. We call it kitchen. It creates enormous value for us. We can eat things that we couldn't eat without a kitchen. Right?
+
+Speaker 1 | 1:16:16 - 1:16:31
+Now we're creating an external brain. You know, the the implications of the external stomach were pretty profound for us as a species. They led to agriculture, which led to organized societies the way our cities are built. So we think about what is the implications of an external brain. Pretty profound.
+
+Speaker 1 | 1:16:32 - 1:17:06
+Nobody actually really knows. But what I do believe in is the power of humanity to solve problems and to learn and to incorporate new technologies in ways that benefit us. I also believe that the problems we face as a planet all require more intelligence. Every single one of them, whether that's inequality, or climate, change or, you know, any of the other, structural, problems that that I think are very worrisome that we face. The solutions to those are gonna require invention and intelligence.
+
+Speaker 1 | 1:17:07 - 1:17:50
+And what that means for me is that the only kinds of tools that we can really create moving forward are going to be AI, because the problems that we face are all about intelligence. And regardless of the technological approach to solving those problems, the solutions will always be called AI. And so that makes me hopeful for the future, but also, you know, somewhat, you know, respectful of the challenge that it is going to bring to us as we we try to figure out how to live in a new way with this new external brain. But I believe in our our ability to to learn and to change, and and I I think, ultimately, this is gonna make our lives better.
+
+Speaker 2 | 1:17:50 - 1:18:09
+Do you guys feel the AI backlash that seems to be forming internally? Is that something that you all perceive, think about? And if so, do you think it's a communication problem that our industry may have, you know, in particular given what you just said about, all the obvious potential of AI?
+
+Speaker 1 | 1:18:09 - 1:18:41
+You know, I'm always worried about the way that the public thinks about technology and interacts with it. It matters a lot. And it is definitely the case that societies that want technological advancement have more technological advancement than societies that that don't want change. So I think it is, actually important to think about it. One thing that's interesting about AI is that I believe it tends to be, much more accepted when it is, part of everyday life.
+
+Speaker 1 | 1:18:41 - 1:18:58
+And then at that point, people stop thinking about it as AI. It's just, oh, this is the tool that I use. Like, do you care whether it's AI that's helping you, route your car when you ask the map application to help you drive somewhere? Like, I mean, it is. There is actually sophisticated AI that's going into that.
+
+Speaker 1 | 1:19:00 - 1:19:09
+But you're not really thinking about that. Right? You're just using a tool. And, so I feel like people's acceptance of AI, you know, comes with experience. Right?
+
+Speaker 1 | 1:19:10 - 1:19:18
+The more experience we have working with it, the more we learn how to work with it productively. I think the more comfortable we we become with it.
+
+Speaker 2 | 1:19:18 - 1:19:39
+Great, Brian. So it's it's been a fascinating conversation. Maybe as a as a very last question to make sure we cover it, I wanna make sure that we talk about safety. What is the state of safety currently? And where does open source and closed source sort of fit in the safety conversation today?
+
+Speaker 1 | 1:19:39 - 1:20:37
+Safety is on everybody's minds right now. You know, watching the Fable release and the, the way that the government interacted with that, I think, is a consequence of, concerns about safety, about these models, you know, they get stronger and stronger, and then they could be, misused. And, you know, there's different approaches to thinking about safety and and trying to define safety. I have maybe a a a slightly unorthodox opinion about this, which is that I think open technologies are generally safer because there's more sunlight. You know, when more people are thinking about the safety of a technology and evaluating it and then contributing to making it safer, I think that's inherently, safer than, having a small group of people, being in charge of safety for everyone else.
+
+Speaker 1 | 1:20:37 - 1:21:06
+I also think with, artificial intelligence, because it is really about ideas, it's really about, exploring ideas in different ways that diversity is more safe than monoculture. And what that means is that there's gonna be different beliefs. Like, diversity isn't just about, like, the easy stuff. Diversity is about the hard stuff. Like, when people have deeply felt disagreements, they really, really totally disagree with each other.
+
+Speaker 1 | 1:21:07 - 1:21:52
+Making it possible for people to explore, their ideas in a diverse way, I think is more safe than, trying to create a walled garden where, you know, certain ideas are considered safe and certain ideas are are considered unsafe. And, you know, this is, controversial in today's AI, environment, which I think is interesting because we've had hundreds of years of tradition, that speak directly to this. You know, in in, United States, for example, we have, laws about freedom of conscious conscience and, freedom of speech. And, you know, it's not because we didn't consider for thousands of years, would it have been safer if we didn't have those. Right?
+
+Speaker 1 | 1:21:52 - 1:22:19
+We we tried that. We we tried actually having a monoculture about, like, these ideas are safe to talk about. These eyes ideas are safe to believe. And we found that to be much less safe than a pluralism where, we officially don't take a position about what ideas are safe. We actually found that as much safer as a society to, to support diversity than it is, to try to keep everybody safe, top down.
+
+Speaker 1 | 1:22:19 - 1:22:26
+And so, I believe that open technologies for AI are inherently, the safest way of building AI.
+
+Speaker 2 | 1:22:26 - 1:22:33
+Alright. Love it. Controversial take to close the conversation. Brian, it's been fabulous. Thank you so much.
+
+Speaker 2 | 1:22:33 - 1:22:35
+Really appreciate your spending time with us today.
+
+Speaker 1 | 1:22:35 - 1:22:36
+Thanks for inviting me.
+
+Speaker 2 | 1:22:37 - 1:22:55
+Hi. It's Matt Turk again. Thanks for listening to this episode of the MAD podcast. If you enjoyed it, we'd be very grateful if you would consider subscribing if you haven't already or leaving a positive review or comment on whichever platform you're watching this or listening to this episode from. This really helps us build a podcast and get great guests.
+
+Speaker 2 | 1:22:55 - 1:22:57
+Thanks and see you on the next episode.
