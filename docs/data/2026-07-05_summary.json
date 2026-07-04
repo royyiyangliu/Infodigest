@@ -1,0 +1,57 @@
+{
+  "date": "2026-07-05",
+  "generated_at": "2026-07-04T23:34:27.481051+00:00",
+  "stats": {
+    "tweets": 7,
+    "podcasts": 1,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 联合创始人兼首席执行官 Aaron Levie 提出，AI 竞争的核心正演变为\"对上下文（context）的争夺\"：agent 的效果取决于它是否具备领域专长、能否访问正确的上下文与工具，以及能否嵌入用户可轻松审阅的工作流。他因此认为应用层（applied AI layer）远不只是\"套壳 LLM\"——能以受治理方式组织、维护并持续改进关键领域知识的平台，将成为 agent 发挥最佳效果之处（如编程、法律、客服 agent）。他预测该层未来会在多模型间路由：用前沿模型做规划、编排与审阅，用更低成本的开源/闭源模型处理大量中间工作，并可对近前沿基座模型做领域后训练以降本增效；FDE（前沿部署工程师）在这一层至关重要，能端到端解决客户具体业务问题的公司将拥有最深护城河。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 创始人兼首席执行官 Guillermo Rauch 主张\"agent 自我改进\"（agentic self-improvement）：赋予 agent 内省过往运行记录的能力，让它发现低效、错误与冗余的工具调用，进而自动产出新的 prompt 和 skill。他借此强调 agent 可观测性（observability）的重要性，并指出在 Vercel 上部署 agent 时该能力是内建的。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic 从事 Claude 相关工作的 Thariq（Thariq Shihipar）分享了一段关于与 Fable 协作的实操心得（其 AI Engineer 大会演讲即基于此）：他认为与模型协作最关键的一步，是先发现自己的\"未知\"（unknowns），从而写出更好的 prompt。他给出了具体方法，包括让模型生成用于发现未知的 HTML artifact，以及通过加入小测验（quiz）来帮助厘清需求。"
+    },
+    {
+      "author": "Nan Yu",
+      "handle": "thenanyu",
+      "summary_zh": "Linear 产品负责人 Nan Yu 分享了两点观点：其一，他认同一个犀利判断——如果某个领域产生不出好的训练数据，那这个领域本身很可能一开始就充斥着劣质内容。其二，关于 AI 医疗，他认为最理想的场景并非用 AI 取代医生，而是\"一位愿意在你的病例上投入大量时间、且配备了 LLM 工具的医生\"。"
+    },
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "Latent Space 播客主理人、\"AI Engineer\"概念提出者 Swyx（Shawn Wang）讽刺性地指出：过去十年\"tools for thought\"（思维工具）圈子的人花大量精力做精美的画布式（canvas）演示，结果却被设计粗糙、低对比度的命令行工具彻底碾压——只因后者能真正替用户完成\"商品化的思考\"（commodity thinking）。"
+    },
+    {
+      "author": "Cat Wu",
+      "handle": "_catwu",
+      "summary_zh": "Anthropic 产品经理 Cat Wu 分享了一个使用技巧：可借助带 computer use 能力的 Claude Code 来配置 Claude Tag——只需将其指向 Claude Tag 文档，它便能自动为团队接入 GitHub 仓库、数据仓库、Google Drive 等多种数据源。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad 宣布 Replit 平台上线了视频生成（video generation）功能，邀请用户试用。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "The MAD Podcast with Matt Turck",
+      "title": "Why NVIDIA Is Giving Away AI Models | Bryan Catanzaro",
+      "date": "2026-07-02 11:30 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/watch?v=Oojrfdl42LI",
+      "summary_zh": "NVIDIA开源模型负责人Bryan Catanzaro（曾在百度硅谷AI实验室与吴恩达、Dario Amodei共事）解读NVIDIA为何自建前沿开源模型Nemotron。核心逻辑：Nemotron有两大使命——一是帮助NVIDIA从第一性原理理解AI以协同设计芯片（在摩尔定律已死**5-10年**的背景下，加速只能靠专用化与理解），二是壮大生态；他强调\"凡是有利于AI发展与部署的，都利好NVIDIA业务\"，因此不追求垄断，只求繁荣。他明确反驳\"中国模型全靠蒸馏抄袭\"的说法，称中国AI社区的开放引领了全球，也乐见OpenAI（GPT-OSS）、Google（Gemma）加入开源。\n\n投资看点在技术效率。Nemotron 3家族分Nano（**300亿**总参/**30亿**激活）、Super（**1200亿/120亿**）、Ultra（**5500亿/550亿**），主打agent工作流的高效推理。Ultra与Super用**4位**算力（NVFP4）预训练（非仅部署量化），大幅省能耗与显存，是重大工程突破。架构为混合SSM+Transformer的MoE，其中\"latent MoE\"压缩NVLink通信、同等推理成本下专家数达**4倍**。多token预测在低批量下不损精度即可提速（接受率高时约**3-4倍**）；上下文达**100万**token。后训练用多领域on-policy蒸馏（MOPD），约**10-15个**领域teacher蒸馏为单一学生模型；训练数据（含合成数据）大量开源。\n\n历史脉络：2008年入职NVIDIA、2021年与微软合训**5300亿**参数Megatron-Turing、2024年Nemotron 4 340B、Nemotron 3 Ultra近期成美国第一开源权重模型；今年3月成立Nemotron联盟共建。DLSS路线显示AI推理效率（约**10倍**，**24分之23**像素由AI生成）。组织上约**10个**团队、**25名**lead协作，\"使命即老板\"、自下而上、按两周周期分配算力（即便NVIDIA自身GPU也不够用）。宏观判断：他不信奇点，认为智能高度多维、需\"平台/harness\"承载；主张开源因\"阳光更多\"和多元化而更安全，长期看好AI但担忧转型阵痛。"
+    }
+  ],
+  "articles": []
+}
