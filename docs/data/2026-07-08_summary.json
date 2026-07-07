@@ -1,0 +1,57 @@
+{
+  "date": "2026-07-08",
+  "generated_at": "2026-07-07T23:34:30.505296+00:00",
+  "stats": {
+    "tweets": 7,
+    "podcasts": 0,
+    "articles": 1
+  },
+  "tweets": [
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "AI 写作者/Latent Space 主理人 Shawn Wang（swyx）点评 Anthropic 当日发布的「J-space」可解释性论文，认为最重要的是一个两段式发现：其一，Anthropic 证明可以对模型推理过程做「脑外科手术」式干预、在中途强行切换话题（这是控制而非相关性，能有力证明其对推理的真正理解）；其二，模型本身能够察觉自己被施加了何种干预——他认为这与「评测感知」（eval awareness）是近亲。他补充这次是「被提示的感知」，并猜测团队应也测试过未提示情形，但论文中未见证据。"
+    },
+    {
+      "author": "Boris Cherny",
+      "handle": "bcherny",
+      "summary_zh": "Anthropic 的 Boris Cherny（Claude Code 核心创造者）首次公开讲述 Claude Code 的诞生与发布历程，透露其起源于 Anthropic 的安全研究（safety research）。他表示这只是开端，「我们才完成了 1%」。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品人、Behind the Craft 主理人 Peter Yang 借 Fable 5 即将于次日午夜从 Claude 订阅中下线之机，分享了 5 个值得在下线前一试的高价值用例及可直接复制的提示词：让模型自查项目并列出最值得用顶配模型跑的前 5 项任务、担任商业顾问输出一页纸经营评估、上线前全codebase 找 bug、规划大型项目的阶段/风险/决策、以及重构个人 AI skill 体系。核心观点是：面对最强模型，应把它用在真正需要高能力的复杂任务上，而非琐事。"
+    },
+    {
+      "author": "Nan Yu",
+      "handle": "thenanyu",
+      "summary_zh": "Linear 产品负责人 Nan Yu 分享对工作方式变化的反思：他认为 20 岁的自己相较现在最大的优势是能疯狂堆工时，但回看那些时间大多花在如今已被自动化的繁琐编程任务上，因此「996」虽仍有用，却已不像过去那样普遍有效。他还指出，即便是早期阶段创业公司，如今借助 agent 也能大幅提升并行处理能力、做成更多事。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad 强调 Replit 近期能力快速提升的关键在于「闭环」——agent 已实现自我改进（self-improving），并附上技术细节。他还举例称一家亚特兰大的房地产公司用 Replit 自建的 CRM 取代 Salesforce，节省了 **10 万美元**，以佐证自建应用替代 SaaS 的趋势。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch 提出衡量编程 AI 的终极标准：软件整体是否在变好、公司是否交付更快、是否能做出以前不敢想的应用、软件是否更少 bug。就他个人和 Vercel 而言答案是肯定的——他获得了前所未有的创造自主性，PM、初级工程师乃至实习生都能规模化交付高质量软件，CTO 用大批 agent 近乎自主地做出了具行业影响力的软件；他同时澄清团队认真对待 token 成本、从无「tokenmaxxx」之说，最看重的指标仍是用户是否真心喜爱并推荐产品。此外他还发布了 eve 框架内置的 eve eval，主张评测对 agent 是必需品、应「开箱即用」，类比 Web 框架当年把测试变为生态标配（如 React 不自带测试方案）。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie 阐述对开源 AI 与「应用层 AI」的看法：他判断两件事将长期成立——前沿智能会持续领跑全新用例并负责复杂工作流的编排与规划；与此同时，随着企业用例趋于成熟可预测，可将部分 token 迁移到更便宜的开源/闭源模型或为特定任务微调的模型上。他强调迁移不宜过早（用例未成熟时不知优化目标，故总会有滞后），且这一过程可无限持续，因此两类模型的支出与 token 用量未来数年都将持续上升；而这一切之所以可行，全靠能在具体领域评测工作流、混合选用模型、并最终有规模自训模型的应用层。"
+    }
+  ],
+  "podcasts": [],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "Nvidia GPU Debt Backstop Unleashes the AI Project Trinity: Capital, Offtake and Datacenters",
+      "date": "2026-07-06 21:53 UTC",
+      "link": "https://newsletter.semianalysis.com/p/nvidia-gpu-debt-backstop-unleashes",
+      "chars": 27392,
+      "summary_zh": "SemiAnalysis 指出，AI 基础设施建设的资金来源正从超大规模厂商（Google、Amazon、Meta、Microsoft、Oracle）的自由现金流转向债务融资，Oracle、Meta 乃至 Google 已相继举债。其测算 AI 债务融资将成为万亿级信贷市场：到 **2029 年** 未偿债务将超 **7 万亿美元**（约 **7.1 万亿**），成为仅次于美国 **13 万亿美元** 抵押贷款市场的第二大资产支持债务市场。年度 AI Capex 到 **2028 年** 将远超 **2 万亿美元**，**2024–2029** 年累计 Capex 约 **11.1 万亿美元**，主要靠信贷市场融资。\n\n核心框架是\"AI 项目三位一体\"：资本、包销（offtake）、数据中心。此前唯一可融资的结构是投资级超大规模厂商背书的 5 年 take-or-pay 合同，但超大规模厂商资产负债表无法无限背书，一旦耗尽，且市场缺乏 GPU 租赁定价工具与残值参考，融资将受限。\n\n**Nvidia 出手做背书**：向 Neocloud 提供 take-or-pay 最低收入保证，并分享超出背书水平部分的收入，凭借其 **AA/Aa2** 投资级评级让贷方放心放贷。背书期通常 **6 年**，示例平均背书价 **$2.36/hr**（偏低端）。以 GB300 首年 1 年期租金 **$6.75/hr** 为例，6 年固定价约 **$4.00**；在 40% 分成情形下，首年 Neocloud 于超出 **$3.68/hr** 背书的 **$3.07/hr** 中拿 **$1.84**、Nvidia 拿 **$1.23**，Neocloud 实收 **$5.52/hr**，6 年平均 Nvidia 抽成约 **18%**。回报上，1 年期租约带背书 IRR 达 **25.4%**，无背书最高 **40.7%**；若触发背书则 IRR 近零或略负——但恰因此结构可融资。\n\n融资细节：贷方看触发背书情形下的 DSCR，要求至少 **1.3x**，对应 **70–80%** LTV。参照 CoreWeave 5 年无担保债 ~**10%**、Meta 背书的 **85 亿美元** DDTL 固息档 **5.9%**（较 Meta 5 年债 ~**5.0%** 宽 **90bp**）。预计带背书新债利差介于 SOFR+**225bp**（~5.9%）与 ~10% 之间。全担保成本从 **5.62%** 升至 **10%** 会使 PBT 利润率从 **14.8%** 降至 **5.4%**。\n\nNvidia 意在成为\"AI 央行\"，打破买方集中。已公布案例均在亚太：澳洲 SharonAI **72MW** 工厂，6 年背书扩至 **4 万台 GB300**，背书总值 **48.8 亿美元**（隐含 ~**$2.33/hr/GPU**），全部布局扩至 **132MW**、目标 2027 年中 **5.5 万+** 台 GPU；印尼巴淡岛 Firmus **360MW** 集群（6/29 公布），预期 6 年客户收入 **250–300 亿美元**，此前墨尔本 **1.8 万台 GB300** 集群由 Blackstone 牵头 **100 亿美元** 融资、Coatue 支持，另有与 Gunvor 的 **600MW** 电力协议。AMD 自去年起亦向 AWS、OCI 等提供类似背书。SemiAnalysis 借机推销其 GPU 租赁价格指数、AI TCO 模型、ClusterMAX 评级（10 项标准）等工具。"
+    }
+  ]
+}
