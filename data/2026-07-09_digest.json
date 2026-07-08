@@ -1,0 +1,280 @@
+{
+  "fetch_date": "2026-07-09",
+  "fetch_time": "2026-07-08T18:15:44.359955+00:00",
+  "stats": {
+    "new_podcast_episodes": 1,
+    "new_articles": 1,
+    "new_tweets": 20,
+    "total_podcasts": 1,
+    "total_articles": 1,
+    "total_tweets": 20
+  },
+  "podcasts": [
+    {
+      "source": "Training Data",
+      "title": "Inside Zipline's Autonomous System: 140M Miles, Zero Incidents",
+      "date": "2026-07-07 09:00 UTC",
+      "link": "https://www.youtube.com/watch?v=6bGxm8gX41o",
+      "orig_link": "",
+      "audio_url": "",
+      "duration": "",
+      "summary": "",
+      "lang": "en",
+      "chars": 69231,
+      "text_file": "data/2026-07-09/podcasts/training_data__inside_ziplines_autonomous_system_140m_miles_.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "Anthropic 3Q26 Profit Over $1B: The Anthropic IPO Financials Sneak Peak",
+      "date": "2026-07-08 06:04 UTC",
+      "link": "https://newsletter.semianalysis.com/p/anthropic-3q26-profit-over-1b-the",
+      "summary": "Anthropic’s Opportunity is Theirs to Lose",
+      "chars": 2541,
+      "text_file": "data/2026-07-09/articles/semianalysis__anthropic_3q26_profit_over_1b_the_anthropic_i.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2074683022503490012",
+      "date": "2026-07-08T02:32:32.000Z",
+      "text": "it_happening.gif https://t.co/XiwgDUvyWi https://t.co/91NK1liTMQ",
+      "url": "https://x.com/swyx/status/2074683022503490012",
+      "likes": 306,
+      "retweets": 9,
+      "is_quote": true,
+      "quoted_id": "2074523670278742457"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2074705681920520526",
+      "date": "2026-07-08T04:02:35.000Z",
+      "text": "Prepare your sunglasses. Sol is coming. 😎 https://t.co/nGm6GI905c",
+      "url": "https://x.com/thsottiaux/status/2074705681920520526",
+      "likes": 4150,
+      "retweets": 230,
+      "is_quote": true,
+      "quoted_id": "2074704958419792299"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2074733842230108672",
+      "date": "2026-07-08T05:54:29.000Z",
+      "text": "So what is the qualification criteria for folks to get early access to this model? https://t.co/CFc9wVvfk4",
+      "url": "https://x.com/petergyang/status/2074733842230108672",
+      "likes": 46,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2074704958419792299"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2074705840284815678",
+      "date": "2026-07-08T04:03:13.000Z",
+      "text": "I woudl like to interview an AI-native designer to show us how to build with design.md, components, and more vs. the typical process.\n\nWho's the best person to talk to?",
+      "url": "https://x.com/petergyang/status/2074705840284815678",
+      "likes": 41,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2074616982197174515",
+      "date": "2026-07-07T22:10:07.000Z",
+      "text": "Dumb question:\n\nI’ve been running most of my cron jobs locally on my Mac Mini because it’s already authenticated with Google Workspace and the other apps I use.\n\nBut should I run these jobs in the cloud instead with these apps OAuth’d to my Claude or ChatGPT account?\n\nHow should I think about what jobs should stay local vs. move to the cloud?",
+      "url": "https://x.com/petergyang/status/2074616982197174515",
+      "likes": 78,
+      "retweets": 3,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Nan Yu",
+      "handle": "thenanyu",
+      "tweet_id": "2074484075314733323",
+      "date": "2026-07-07T13:22:00.000Z",
+      "text": "starting a family tbh\n\nhttps://t.co/72X5WekiNi",
+      "url": "https://x.com/thenanyu/status/2074484075314733323",
+      "likes": 8,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2074190557367488794"
+    },
+    {
+      "source": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "tweet_id": "2074734468854899191",
+      "date": "2026-07-08T05:56:58.000Z",
+      "text": "true. let’s unpack this..people think data and evals are low skill, grunt work that you can just buy and stuff into models. \n\nin practice, the model lifecycle looks something like model strategy -> evals -> pre/post training/rl aligned to evals -> GTM.\n\nlike any product strategy, you need strong opinions up front but it is 100x harder because of the allure of building an LLM that is great at everything. \n\nthe next challenge is staying focused on the target eval sets throughout the model build through challenges with the latest architecture, regressions, competing data contributions and the latest competitor news.\n\nyou then make choices between multiple checkpoints trading off on target evals, regression evals and early customer feedback.\n\nso yes, it begins with an opinion expressed through evals and if you execute well, you land somewhere near your target.",
+      "url": "https://x.com/realmadhuguru/status/2074734468854899191",
+      "likes": 11,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2074371680026394696"
+    },
+    {
+      "source": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "tweet_id": "2074658481760821390",
+      "date": "2026-07-08T00:55:01.000Z",
+      "text": "having worked with Brendan and mercor, can confirm they are excellent.\n\nalso having worked in ai models for enterprise, can confirm the opportunity around data and evals for enterprise is massssive. https://t.co/39clGIUHmM",
+      "url": "https://x.com/realmadhuguru/status/2074658481760821390",
+      "likes": 57,
+      "retweets": 3,
+      "is_quote": true,
+      "quoted_id": "2074534973143658855"
+    },
+    {
+      "source": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "tweet_id": "2074576440268661107",
+      "date": "2026-07-07T19:29:01.000Z",
+      "text": "guys, stop fixing typos and audio transcription errors in your prompts to ai. \n\nthey cracked the IMO. they know what ‘teh’ is.",
+      "url": "https://x.com/realmadhuguru/status/2074576440268661107",
+      "likes": 38,
+      "retweets": 2,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2074622734118924561",
+      "date": "2026-07-07T22:32:59.000Z",
+      "text": "This is a good clip that shows a few layouts.\n\nI'm pretty happy with this, maybe the slide layout could be a bit different and I'm curious how it will alternate between camera cuts.\n\nThat's all for now, will get Claude to do a full render &amp; report back later. https://t.co/7TT2dDwcTO",
+      "url": "https://x.com/trq212/status/2074622734118924561",
+      "likes": 35,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2074619715826381168",
+      "date": "2026-07-07T22:20:59.000Z",
+      "text": "I really like how it takes some of the slides which are static (each one of these is its own slide in the original deck) and turns them into animations. https://t.co/1ITW2UWWna",
+      "url": "https://x.com/trq212/status/2074619715826381168",
+      "likes": 30,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2074619539145568562",
+      "date": "2026-07-07T22:20:17.000Z",
+      "text": "Claude decided to make Youtube short clips. Again the transcription is really chaotic (and the video quality is purposefully low for quick rendering). https://t.co/Rl5yvXLVcf",
+      "url": "https://x.com/trq212/status/2074619539145568562",
+      "likes": 17,
+      "retweets": 1,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2074630835878453601",
+      "date": "2026-07-07T23:05:10.000Z",
+      "text": "The filesystem is beautiful. Want your https://t.co/99eEa13mZ3 agent to have GitHub powers?\n\nDefine 𝚝𝚘𝚘𝚕𝚜/𝚐𝚒𝚝𝚑𝚞𝚋.𝚝𝚜 and export 𝚌𝚛𝚎𝚊𝚝𝚎𝙶𝚒𝚝𝚑𝚞𝚋𝚃𝚘𝚘𝚕𝚜().\n\nEve exists to shape an open ecosystem of pluggable models, skills, channels, and tools like this ↓ https://t.co/3fsag2HwnM",
+      "url": "https://x.com/rauchg/status/2074630835878453601",
+      "likes": 243,
+      "retweets": 12,
+      "is_quote": true,
+      "quoted_id": "2074624672604492286"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2074555608578281920",
+      "date": "2026-07-07T18:06:15.000Z",
+      "text": "Heavenly victory 🇦🇷",
+      "url": "https://x.com/rauchg/status/2074555608578281920",
+      "likes": 1396,
+      "retweets": 52,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2074523653488947338",
+      "date": "2026-07-07T15:59:16.000Z",
+      "text": "Welcome @bekacru to Vercel. It's a privilege to join forces with Bereket and Better Auth to further our Open SDK vision. \n\nDevelopers deserve better auth, to serve humans and agents, built in the open and with taste. That's what Bereket has accomplished. Congrats! 🇪🇹🇺🇸 https://t.co/LWhzUBMysp",
+      "url": "https://x.com/rauchg/status/2074523653488947338",
+      "likes": 955,
+      "retweets": 43,
+      "is_quote": true,
+      "quoted_id": "2074522635908853978"
+    },
+    {
+      "source": "Aaron Levie",
+      "handle": "levie",
+      "tweet_id": "2074719479377109312",
+      "date": "2026-07-08T04:57:24.000Z",
+      "text": "Just coming off of meetings with a couple dozen enterprise IT leaders discussing AI agents. Here are a few of the common themes that stand out:\n\n* Lots of conversation that you have to solve an operating model challenge to get the full benefits of AI. Most companies have orgs that have always operated in siloes; but agents are most effectively when they are tied to a process, which often cuts across these siloes. So the big question is how do you start to deploy centrally managed agents that can work across organizational boundaries. Who manages these agents? How do they get deployed and adopted? \n\n* Data fragmentation remains a major issue for most organizations. As long as data remains highly fragmented and not in standard formats, or data is not available to the right people and agents, enterprises are dealing with issues around being able to get answers from agents that are accurate or that conform to their business practices. This cuts across both systems with structured data (product metrics or revenue figures) and unstructured data (product roadmap or customer contracts).\n\n* Clear sense that companies need to figure out what their core data moats are going to be in the future. If everyone has access to roughly the same superintelligence from the various models, then the context that you feed the models becomes proprietary value in the future. Capturing this data and getting it into a format that agents can use becomes very important.\n\n* Everyone is trying to figure out the right metrics to manage to for AI adoption. General consensus that tokens are not the right metric per se, and people leaning more toward business outcomes (in an ideal world). For business outcomes (like more revenue or more shipped product), though, you have to get close to each individual workflow to figure out if it was successfully transformed with AI so it’s harder to manage top down.\n\n* Growing view that enterprises are going to live in a multi-model world. Lots of interest (though early in actual adoption) in layers that can route workloads to different models (frontside or open weights) for cost or performance reasons. Also enterprises are trying to figure out what things do you give to the models directly vs. what do you separate as horizontal systems and context so you can swap any system in and out. \n\n* Talent for driving AI adoption and implementation still remains a major issue and topic. Many view it as something you necessarily have to train for internally due to a shortage of talent being trained on this in the outside. As an aside, this feels like it remains a huge opportunity for those that get very good at deploying and management agents in an enterprise since most companies are looking for these skills.\n\n* The best use-cases for AI tend to be those that fundamentally change the work being done instead of just replacing an existing process and doing it more efficiently. Companies are working through their versions of this individually because it’s different per industry, but this often remains both the most exciting and higher upside uses of AI.\n\nMany more topics discussed recently, but overall it’s clear that there’s a ton of change going on with much more to come.",
+      "url": "https://x.com/levie/status/2074719479377109312",
+      "likes": 359,
+      "retweets": 39,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Aaron Levie",
+      "handle": "levie",
+      "tweet_id": "2074528241990394178",
+      "date": "2026-07-07T16:17:30.000Z",
+      "text": "A small percentage of useful data is on the open web available to all models for training or for agents to operate with. Most of it lives inside of organizations and often is in legacy systems, in people’s heads, or is fragmented across the enterprise. \n\nIt’s the marketing plans, product roadmaps, development practices, contracts, financial data, strategies, and general corporate knowledge that every company operates off of. \n\nWhether it’s for training a model or used as context for agents, this data will increasingly be more valuable over time. The ability to get the right data to agents to operate on, securely, will be a defining characteristic of how companies operate and compete in the future. \n\nEffective use of AI will in the economy will largely come down to the companies that are able to have agents best understand their business and make the right decisions on their behalf. Data actually is the new oil.",
+      "url": "https://x.com/levie/status/2074528241990394178",
+      "likes": 121,
+      "retweets": 17,
+      "is_quote": true,
+      "quoted_id": "2074178395462848800"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2074750229044502663",
+      "date": "2026-07-08T06:59:36.000Z",
+      "text": "Dirty smear politics is alive and well in SF, and it's high time we made sure the playbook backfires from here\n\nA few dishonest groups invent a smear and the local legacy media rubber stamps it out of abdication of duty to the people\n\nWe demand consequences for the lies now https://t.co/o7K12SYkqh",
+      "url": "https://x.com/garrytan/status/2074750229044502663",
+      "likes": 6,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2074535973413920885"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2074744830492868764",
+      "date": "2026-07-08T06:38:09.000Z",
+      "text": "Without building housing, San Francisco will turn a mega economic W into the biggest L in civic history https://t.co/IBFwtRaSRo",
+      "url": "https://x.com/garrytan/status/2074744830492868764",
+      "likes": 36,
+      "retweets": 2,
+      "is_quote": true,
+      "quoted_id": "2074712810500788574"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2074599259803160773",
+      "date": "2026-07-07T20:59:42.000Z",
+      "text": "Common sense Democrats take note \n\nTime to organize against radical leftism and asset seizure inside the party https://t.co/etExoPSgiN",
+      "url": "https://x.com/garrytan/status/2074599259803160773",
+      "likes": 467,
+      "retweets": 57,
+      "is_quote": false,
+      "quoted_id": null
+    }
+  ]
+}
