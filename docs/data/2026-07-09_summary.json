@@ -1,0 +1,51 @@
+{
+  "date": "2026-07-09",
+  "generated_at": "2026-07-08T23:35:09.315553+00:00",
+  "stats": {
+    "tweets": 4,
+    "podcasts": 1,
+    "articles": 1
+  },
+  "tweets": [
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 联合创始人兼 CEO Aaron Levie（@levie）在与约两打（a couple dozen）企业 IT 负责人交流后，总结了企业部署 AI agent 的几大共识：最大瓶颈不是模型而是\"运营模式\"——agent 要绑定跨部门流程，但多数公司长期按孤岛运作，谁来管理、部署、推广这些跨组织边界的中心化 agent 成为核心难题；数据碎片化依然严重，结构化与非结构化数据未标准化会导致 agent 输出不准。他强调若各家都能用上大致同等的超级智能，喂给模型的专有上下文（context）就成为未来的护城河，\"数据才是新石油\"，企业需尽早明确自己的数据护城河并把数据整理成 agent 可用的格式。他还判断：token 不是衡量 AI 采用的正确指标，应看业务成果；企业将走向多模型世界，出现按成本/性能把负载路由到不同（闭源或开源权重）模型的中间层；AI 落地人才极度短缺、多需内部培养，这本身是巨大机会；最有价值的用例是从根本上改变工作方式，而非仅把旧流程做得更高效。"
+    },
+    {
+      "author": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "summary_zh": "AI 模型从业者 Madhu Guru（@realmadhuguru，有企业级 AI 模型开发经验）反驳\"数据和评测（evals）是可以直接买来塞进模型的低技能苦力活\"这一看法。他认为模型生命周期是\"模型策略 → evals → 对齐 evals 的预/后训练与 RL → GTM\"，如同产品策略需要前期强观点，但因\"想造一个样样精通的 LLM\"的诱惑而难上百倍；真正的挑战在于历经架构更迭、性能回退、数据贡献竞争与竞品动态时，仍紧盯目标评测集，并在多个 checkpoint 间就目标评测、回归评测与早期客户反馈做权衡取舍。他还称企业级数据与评测的机会\"极其巨大\"，并调侃道：别再逐字修正给 AI 的提示词里的错别字和转录错误了，\"它们连 IMO 都攻克了，当然认得 'teh'\"。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 创始人兼 CEO Guillermo Rauch（@rauchg）展示其 agent 框架的\"文件系统即一切\"设计：想让 agent 拥有 GitHub 能力，只需定义 tools/github.ts 并导出 createGithubTools()，其愿景是打造一个由可插拔的模型、技能（skills）、通道（channels）和工具组成的开放生态。他还宣布 Better Auth 的作者 Bereket（@bekacru）加入 Vercel，共同推进 Open SDK 愿景——认为开发者应获得同时服务于人类与 agent、且以开放方式构建的更好身份认证方案。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic 的 Thariq（@trq212）分享用 Claude 自动生成演示视频的实验：Claude 能把原本静态的幻灯片（每页都是原始 deck 中的独立一页）转化为动画，并自动切分出 YouTube 短视频片段，还在尝试不同版式与镜头切换。他对效果总体满意，但也指出目前字幕转录较为混乱、视频画质为求快速渲染而刻意压低，后续会让 Claude 做一次完整渲染再汇报。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "Training Data",
+      "title": "Inside Zipline's Autonomous System: 140M Miles, Zero Incidents",
+      "date": "2026-07-07 09:00 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/watch?v=6bGxm8gX41o",
+      "summary_zh": "Sequoia《Training Data》对话无人机物流公司 Zipline 联合创始人 Keller 及系统工程与安全负责人 Eric，投资视角要点如下：\n\n**规模与安全**：Zipline 已累计完成 **1.4 亿英里**（140M）商业自主飞行、**250 万次**交付，**零安全事故**——同等里程若用汽车驾驶会发生约 **600 起事故、100 人受伤、2-6 人死亡**。它已是全球最大商业自主系统，服务 **8 个国家、5000 家**医院与医疗机构（从最初 1 家起步）。宾大研究显示其使孕产妇死亡率下降 **51%**，合作方估算每年挽救 **1-1.2 万条生命**。今年目标是达到 Waymo **2 倍**的安全水平（Waymo 约为汽车的 10-12 倍）。\n\n**核心洞见——无人机只是 15%**：创始人强调飞机硬件仅占解决方案复杂度的 **15%**，其余 85% 是软件、维护、库存、监管对接、空管、需求调度等基础设施层。公司高度垂直整合，自研 **700 个**独特零部件、**43 个**主要子总成，连电机、飞控、GPS 模块均从零设计（对标特斯拉从 Roadster 到 Model S 的自研路径）。用智能手机供应链的几十至几百美元元件，实现媲美波音 777（其飞控成本数百万美元）的双飞控冗余安全。\n\n**商业化与单位经济**：与美国国务院达成 **5.5 亿美元**合作（\"商业外交\"，接替被关停的 USAID）。当前约 **5000 次/天**飞行，年底目标 **3 万次/天**，并冲刺 **100 万次交付/天**（相当于全美所有航司合计航班的 40-80 倍）。单人管控比例从 1:1 提升至 **1:100**。成本方面：2016 年血液配送实际成本 **300 美元/次**（预期仅 30），逐年降至 120→75→40→28→18，长途技术现为 **12 美元**；今夏机器人物流全负担成本正首次跌破汽车配送。市场空间：达拉斯消费行为外推至全美意味着 **550 亿次**即时配送需求（而非现有 55 亿次），类比 Uber 远超原有出租市场。多个合作方各要求购买\"100 万次/天\"产能，\"运营计划已成为销售单位\"。工程哲学借鉴马斯克\"质疑每条需求、删除零件\"，并看好硬件/基础设施公司为未来十年最具影响力的方向。"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "Anthropic 3Q26 Profit Over $1B: The Anthropic IPO Financials Sneak Peak",
+      "date": "2026-07-08 06:04 UTC",
+      "link": "https://newsletter.semianalysis.com/p/anthropic-3q26-profit-over-1b-the",
+      "chars": 2541,
+      "summary_zh": "SemiAnalysis 通过其自下而上的 Tokenomics 模型（按 SKU、层级、客户类型建模，近期获《华尔街日报》报道印证其准确性），抢先披露了 Anthropic 的 IPO 财务图景。核心判断：Anthropic 已成为 AI 实验室中 B2B 市场的明确领跑者，并以盈利方式实现这一领先，而对手 OpenAI 则被形容为缺乏聚焦、持续烧钱。文章预计 Anthropic 3Q26 利润将超过 **10 亿美元**。\n\n背景与里程碑：Dario Amodei 于 **2021 年初**离开 OpenAI 创立 Anthropic，彼时 ChatGPT 尚有 **18 个月**才问世、LLM 商业化几乎为零；数年后，Anthropic 与 OpenAI 合计年化经常性收入（ARR）约达 **1000 亿美元**。2026 年随着 Claude Code 席卷软件开发领域，AI 模型盈利化的清晰赢家浮现。Anthropic 已于 **6 月 1 日**保密递交 IPO 申请，将成为首个达此规模的 AI 实验室 IPO（今年中国的智谱、MiniMax 已先行上市，但规模不及）。\n\n投资视角要点：Anthropic 凭借定价权、毛利率、商业模式与盈利能力四方面优势，选择率先 IPO，把\"公开财务、募集巨额资本以支撑 AI 建设\"的压力抛给 OpenAI（后者据报将自身 IPO 推迟至 **2027 年**）。同时超大规模厂商（hyperscaler）的股权融资也在酝酿。SemiAnalysis 给出乐观基准情形：若 Anthropic 持续执行，有望成为首家市值 **6 万亿美元**的公司。文章聚焦财务、利润率经济学与长期展望，而非技术层面。（注：Anthropic 为保密递交，无公开数字，上述数据为 SemiAnalysis 建模估算；正文后续深度细节因付费墙截断。）"
+    }
+  ]
+}
