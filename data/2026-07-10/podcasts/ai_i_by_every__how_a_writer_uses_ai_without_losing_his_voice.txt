@@ -1,0 +1,1019 @@
+Source  : AI & I by Every
+Title   : How a Writer Uses AI Without Losing His Voice
+Date    : 2026-07-08 14:49 UTC
+Link    : https://www.youtube.com/watch?v=7ND0lQmLJlA
+────────────────────────────────────────────────────────────
+
+Speaker 1 | 00:00 - 00:14
+I wake up and I don't touch the Internet. I won't look at my phone. I won't go online until long after lunch. As soon as I touch my phone, I feel the chemical shift and I can't go into any kind of deep thinking place or deep attention place or deep focus place.
+
+Speaker 2 | 00:14 - 00:21
+Because there's something about working with AI that feels very dopamine driven. And I believe strongly you can use it to do incredible work and also it's sort of a slot machine.
+
+Speaker 1 | 00:21 - 00:36
+I now have a laptop just for writing that blocks everything. I can't do anything interesting on it. If I don't create these barriers, I will lose connection with this other part of me. That I think is the most valuable part of me. There aren't that many people who are gonna think about or write the weird books that I feel like I'm drawn to write.
+
+Speaker 1 | 00:36 - 00:41
+And as a human, that feels like a valuable thing for me to put my effort in.
+
+Speaker 2 | 00:55 - 01:08
+Every is the only subscription you need to stay at the edge of AI. If you care about being on top of the latest models and using the latest tools, you have to subscribe to Every to separate out the signal from the noise. Go to every dot to slash subscribe today. Greg, welcome to the show.
+
+Speaker 1 | 01:08 - 01:09
+Hey. Thanks for having me.
+
+Speaker 2 | 01:11 - 01:18
+So you are a writer Mhmm. A walker Mhmm. A player with technology, a photographer.
+
+Speaker 1 | 01:18 - 01:19
+Sure.
+
+Speaker 2 | 01:19 - 01:25
+And I think you have a a life and career that I I have looked up to for a
+
+Speaker 1 | 01:25 - 01:25
+long time.
+
+Speaker 2 | 01:26 - 01:45
+So it's really fun to to have you here. And I think one of the things that, you know, we were just talking about is the the thoughtfulness and the spirit with which you do your work. Mhmm. And I admire that spirit and try to bring into the stuff that we do here. And also, I've been trying to think about how does AI fit in with it?
+
+Speaker 2 | 01:45 - 01:50
+Because there's something about working with AI that feels very dopamine driven.
+
+Speaker 1 | 01:50 - 01:50
+Mhmm.
+
+Speaker 2 | 01:51 - 01:58
+And you can I I believe strongly you can do it to you can use it to do incredible work? Yeah. And also, like, it's sort of a slot machine.
+
+Speaker 1 | 01:58 - 01:58
+Yeah. Yeah.
+
+Speaker 2 | 01:58 - 02:05
+So I know that you're, like, deep into the vibe coding right now. So Mhmm. Tell us tell
+
+Speaker 1 | 02:05 - 02:05
+us
+
+Speaker 2 | 02:05 - 02:08
+what you're doing with it, and then let's talk about how it fits into your work.
+
+Speaker 1 | 02:08 - 02:18
+Yeah. I mean, look, I just think if you're not touching it, if you're not using it, if you're not building with it, you can't really comment on it. Yeah. You know? And I think part of what when people go, it doesn't really work.
+
+Speaker 1 | 02:18 - 02:23
+It's so un yeah. Unpredictable. It's like, okay. Just try. Just use it.
+
+Speaker 1 | 02:23 - 02:38
+It's like if you're using it, you go, okay. This is ridiculous. And why is this technology public slash, like, shouldn't this I mean, I kind of agree with a lot of what Dario says. Like, there should probably be more regulation around this. Like, I don't know if everyone in the world should just have this immediately.
+
+Speaker 1 | 02:39 - 02:58
+Certainly, you know, as we're working out the kinks of what this is in public. Yeah. I mean, it just feels strange. It feels like we are in this aberrational moment where technology like this normally isn't just given to everybody, you know, for free, essentially. So, look, I think you really have to be engaging with it, especially if you can.
+
+Speaker 1 | 02:58 - 03:04
+You know, it's like Fable came out. I played with it for four days. I had to, refactor code bases. I had to do, you know, these other little projects. I was like, great.
+
+Speaker 1 | 03:04 - 03:11
+This is cool. Then it went away, I was like, wow. Yeah. It kinda makes sense that this would go away. But also, Opus 4.8 is sort of, like, good enough to do anything.
+
+Speaker 1 | 03:11 - 03:17
+Like, if you if you told me you're you only have Opus 4.8 for the rest of your life, I'd be like, great. I could build anything with this.
+
+Speaker 2 | 03:17 - 03:18
+There's a lot I can do. Yeah.
+
+Speaker 1 | 03:18 - 03:20
+Yeah. So so we're it is this weird moment.
+
+Speaker 2 | 03:20 - 03:29
+But Okay. So you're actually you're actually saying, I'm I'm it makes sense to me that Fable is is not here anymore. Do I like, I miss her. Like, do you do you miss her?
+
+Speaker 1 | 03:29 - 03:44
+Or I don't know. Like, I I honestly don't really feel qualitatively that maybe I'm not using it enough, but, like, the differences between these models like that explicitly. I just know that, oh, it feels a little more rigorous Yeah. And it eats my tokens like crazy. So it must be better.
+
+Speaker 1 | 03:44 - 03:46
+Right? So No. I just hacked
+
+Speaker 2 | 03:46 - 03:50
+into into Fort Knox and, stole all the Google. Yeah. I know. Yeah. Must be better.
+
+Speaker 1 | 03:50 - 03:54
+Yeah. It's yeah. Yeah. I've got all the Bitcoin now. It's all me.
+
+Speaker 1 | 03:54 - 04:04
+I've I've become Satoshi. But the the look. I think you have to be using it. So that's one of the main reasons I have been using it. And, I just I've always loved technology.
+
+Speaker 1 | 04:04 - 04:16
+Mean, it's been a part of my life since I was I have memory. You know? Always curious about, let me take this thing apart or build this or use this piece of software or whatever. Like, I it's always been just part of who I am. And it turns out that's also part of who my birth mother is.
+
+Speaker 1 | 04:16 - 04:23
+She's a computer scientist. This one was a programmer, weirdly. She never went to college, but she's a yeah. I met my birth mom. I was like, what do you do?
+
+Speaker 1 | 04:23 - 04:25
+She's like, oh, I'm a programmer.
+
+Speaker 2 | 04:25 - 04:25
+I was
+
+Speaker 1 | 04:25 - 04:28
+like, oh my god. Okay. Yeah. Nature. There is there is no nurture.
+
+Speaker 1 | 04:28 - 04:41
+It's all it's all nature, it turns out. Nurture is just your pathologies. Like like all the things that you hate about yourself is probably like nature or about nurture, and then all this stuff that you're, like, intuitively is confusing to you is is just nature. Holy shit.
+
+Speaker 2 | 04:41 - 04:43
+That is fascinating. When did you find that out?
+
+Speaker 1 | 04:43 - 04:53
+Just, like, a little under two years ago. Wow. Yeah. So it's been interesting. So, anyway, technology is important to me because I'm just curious in that way, and I think it's the most interesting thing in the universe right now.
+
+Speaker 2 | 04:53 - 04:54
+Genetically predisposed.
+
+Speaker 1 | 04:54 - 05:02
+A little bit genetically predisposed. So I've been building stuff around my membership program. Well, I rebuilt Quicken, which I'm
+
+Speaker 2 | 05:03 - 05:03
+And tax software.
+
+Speaker 1 | 05:03 - 05:18
+Yeah. Tax software because I knew you can watch my interview with Paul Ford and and Rich over on the board about that. So I I rebuilt Quicken. And then I rebuilt Campaign Monitor, which is a newsletter software because
+
+Speaker 2 | 05:18 - 05:21
+SaaS CEOs are losing in this interview.
+
+Speaker 1 | 05:21 - 05:40
+I know. Well well well, okay. And why are they losing? They're losing because well, first of all, Campaign Monitor has not done anything in a decade. That's just been sitting there taking people's money for a decade plus with no innovation whatsoever.
+
+Speaker 1 | 05:40 - 05:45
+Zero. Nothing with, like, a really abusive pricing policy.
+
+Speaker 2 | 05:45 - 05:46
+How much were they charging you?
+
+Speaker 1 | 05:47 - 06:04
+So I was spending, like, what was it? Like, $67,000 a year. I mean, it was, like, 1 of the most expensive things I I I paid for. But the real annoying thing was that they didn't count unique email addresses. They counted total even if you had overlap between lists.
+
+Speaker 1 | 06:05 - 06:10
+So it's it's just it's like things like that where it's like, you you don't just I'm I'm going away.
+
+Speaker 2 | 06:10 - 06:12
+Squeezing, like, like, you're squeezing too much out
+
+Speaker 1 | 06:12 - 06:28
+of it. Yeah. And my bill now with, like, SEO Amazon SES, I set up all that DKIM and SPF and all that all that email crap. So I think I'm getting pretty good deliver deliverability, like, on par with what came Baymoner gave me. But now my, like, yearly bill is probably gonna be, like, I don't know, like, a $150 or something.
+
+Speaker 1 | 06:28 - 06:30
+Like, it's just a ridiculous difference.
+
+Speaker 2 | 06:30 - 06:31
+And how much in Fable tokens?
+
+Speaker 1 | 06:33 - 06:57
+Well, thankfully, yeah, this is all Opus. So but that's the other weird thing is like, I I was on the $200 a month plan, and then I realized I wasn't hitting my limit. So I I dropped to 100 and like for a thousand dollars a year, $1,200 a year, like, that is the easiest trade. Like, that's the best that's the deal of the century in terms of what you can build. So I built newsletter software and then I've been I've been adding to my membership program software.
+
+Speaker 1 | 06:57 - 07:17
+So actually one of the things I had Fable do was do a like a full just security check on my membership Flask Python app, which I built by myself before any of this existed. And so I went through. I was like, oh, you have 8,000,000,000,000 security holes. Shall I fix them? And I was like, yes, please.
+
+Speaker 1 | 07:17 - 07:22
+So I think it's a little safer. Mean, the stakes are very low for my membership software.
+
+Speaker 2 | 07:22 - 07:23
+Then the FBI knocked at your door.
+
+Speaker 1 | 07:23 - 07:33
+Yeah. You gotta stop using this. So, you know, I've been doing that, and then I rebuilt Twitter for my members. We call it The Good Place.
+
+Speaker 2 | 07:33 - 07:34
+Oh, yeah. You were showing me that.
+
+Speaker 1 | 07:34 - 07:39
+Mhmm. Tell tell me about that. Tell us about that. Yeah. I mean, look, like, social media sucks.
+
+Speaker 1 | 07:39 - 07:54
+It just it's terrible now. There was this moment 2010 to '20, like, '14 where it wasn't algorithmic. Stuff just appeared. Links were favored. I mean, they were just normal.
+
+Speaker 1 | 07:54 - 08:14
+They they didn't they weren't a hit against you if you posted a link. And everyone was on Twitter. It was like the the great media watering hole. And, like, if you were active then and slightly interesting, you could, like, you know, 100 x your network just by being an interesting person on Twitter. But now you kinda can't because the algorithm favors, like, psych psychosis versus sanity.
+
+Speaker 1 | 08:15 - 08:31
+And and no one likes posting to any of these places. All these, like, reply guys pop in. It just sucks, and threads is doofy, and blue sky is, like, everyone is crying and complaining. Like, it's just a weird everyone's so traumatized. And so I wanted a place just for members.
+
+Speaker 1 | 08:31 - 08:43
+You have to pay to be there because you have to pay to be a member. And I was like, you know, I had these these thoughts. I always thought Twitter should be ephemeral. I think there should be no archive for these things. I'd be like, it's crazy.
+
+Speaker 1 | 08:43 - 09:17
+There's like a web one point o slash web two point o philosophy of everything needs to be archived and saved forever, and I kinda don't believe that. In fact, one of my heresies, when I'm with Kevin Kelly doing our walks, like we have heresy night where you say something you sort of believe, but, like, people you respect don't believe maybe. And my one of my heresies is I think the entire Internet should be deleted every two weeks. And, like, you can archive it offline or whatever, but, like, the entire Internet itself every two weeks should just disappear. And there could be like, did it forces a lot of, like, why would you do that or whatever?
+
+Speaker 1 | 09:17 - 09:31
+But I think there is kind of value to ephemerality in the digital world. So anyway, our The Good Place Everything Disappears in a Week. You can only post twice a day. You can reply 20 times a day. Photos are in one bit black and white until you click them, then they, like, fade into color.
+
+Speaker 1 | 09:32 - 09:39
+And what else is there? No algorithm. It's just reverse cron. It's just sweet. I don't know.
+
+Speaker 1 | 09:39 - 09:47
+This is lovely. It's like my favorite place on the Internet. It's the only place I wanna post. And people have now been joining my membership program just to get access to that, which I think is cool.
+
+Speaker 2 | 09:48 - 09:57
+So it seems like and part partly, you were doing this before, you know, the acceleration language model coding over the last year year or so. So you're technical.
+
+Speaker 1 | 09:57 - 10:01
+I yeah. I'm technical. I mean, I built my membership software by hand, by myself.
+
+Speaker 2 | 10:01 - 10:01
+Like, all
+
+Speaker 1 | 10:01 - 10:18
+Like, I learned Flask. I, like, learned how to set it up and set the roots up and everything. The TGP, The Good Place, was the first thing I built when Claude Code was released. So Claude Code came out. Oh, that was another fable thing I did.
+
+Speaker 1 | 10:18 - 10:34
+I had it refactored TGP. So I was like, oh, look. You made this a year ago, version one of you. Can you refactor this and actually pull out the module? It was one giant Python file, like 10,000 lines or whatever, and so it's now modulized because because I I wanna wanna expand it.
+
+Speaker 1 | 10:34 - 10:40
+So I wanna I wanna build a very good reads. So like Goodreads
+
+Speaker 2 | 10:40 - 10:41
+that Not great reads.
+
+Speaker 1 | 10:41 - 10:49
+Yeah. Not great reads. Very good reads. That like so basically, Goodreads that also doesn't suck. Again, like all these platforms just become so toxic.
+
+Speaker 1 | 10:49 - 11:03
+So yeah. Well, this is a good example of like n of one software. You know? And and, you know, I think the obviously, the business models of of social media are such that it just becomes the the shitty place it is today. You know?
+
+Speaker 1 | 11:03 - 11:18
+It's like it it's forced by the business models at this, like, growth at all costs and, you you know, and, like, engagement is there's no qualitative assessment of engagement. It's just engagement is good. Yeah. You know? But it turns out most engagement is the the way to get most engagement is to be toxic.
+
+Speaker 1 | 11:18 - 11:32
+Right? So I think what we're gonna see is this great pressure on these companies. So, like, Campaign Monitor, Mailchimp. Like, look, I'm also not their their target consumer. It's businesses.
+
+Speaker 1 | 11:32 - 11:48
+They kinda don't care about people like us. So being able to do this out of one software, and I think it's only gonna get easier. And also, like, corollary is, like, you're gonna have it's so easy it's much easier to start a company that is like, hey, here's Campaign Monitor for like half the price, and we handle all the bullshit. It's like, of course. Yeah.
+
+Speaker 1 | 11:48 - 12:07
+Why not? Like, because you can just put it together. And you've got Supabase and all the you know, it's like all these there's all these pieces now where you don't need infrastructure investment, and it can scale with revenue effortlessly. And then you just have an agent in the background doing that scaling and setting it all. So I I think we're gonna enter this sort of golden age of tool building.
+
+Speaker 1 | 12:08 - 12:20
+There's an n of one version of it, and then also there's just gonna be more competition in the marketplace forcing more innovation. I think this is gonna be I think it net net pretty good except for the incumbents.
+
+Speaker 2 | 12:20 - 12:27
+What does it mean for for, like, other writers? And I just wanna move your mic a little bit because it's, like, kinda in your Yeah.
+
+Speaker 1 | 12:27 - 12:28
+I can't really see.
+
+Speaker 2 | 12:28 - 12:29
+Maybe There we go.
+
+Speaker 1 | 12:29 - 12:29
+Move this way a
+
+Speaker 2 | 12:29 - 12:37
+little bit. Yeah. There you go. Okay. So but what does that mean for writers like yourself?
+
+Speaker 2 | 12:37 - 12:47
+Like, people who are making a living online? Is that do you think n of one software is the sort of the next frontier? Like, subscription businesses were the, like, big thing over the last, like, five years. Everyone's like, wanna start Substack. Do you pay newsletters?
+
+Speaker 2 | 12:47 - 12:49
+Yes. Is this, like, the logical next step for writers?
+
+Speaker 1 | 12:50 - 13:03
+Well, I mean, I think Substack, their innovation was not even the subscription thing. Their innovation was you can email everyone for free. Yeah. That's like people don't talk about that enough. Yeah.
+
+Speaker 1 | 13:03 - 13:27
+That's the true sort of, like, piece de resistance of, like, what Substack was doing. It's like, oh, you can import 10,000 addresses and send unlimited newsletters for free. That's sort of a that's the value prop of that is quite good because that that's the real, like, competition against, like, Mailchimp or whatever. And then the seamless subscription stuff was, like, also nice. But I think most sub stacks don't make any money.
+
+Speaker 1 | 13:27 - 13:55
+So really, it's that that is that was the value prop. But I don't know how much n of one software is gonna be produced because I think most people don't need this level of specificity. Yeah. And as a writer too, like, I'm in this weird position where I have a really strong technical background, but my interest isn't building companies. And I love literature.
+
+Speaker 1 | 13:55 - 14:08
+I love writing. I love books. I think it is one of the greatest things you can commit your life to. That's why I've been doing that. Just the forcing function of collimating thought, the forcing function of going to print.
+
+Speaker 1 | 14:08 - 14:30
+I think actually going to print is really critical part of bookmaking. So, you know, all these factors, don't go away because of AI. I would like to believe that I mean, the things that are changing is the publishing industry is way weaker than it used to be. It doesn't bring as much value to the table. And so writers are expected to kind of bring an audience in a way that they never were before.
+
+Speaker 1 | 14:32 - 14:49
+And so hopefully, what AI coding, what this kind of Cambrian explosion of software will bring is more tools for writers to be able to build better audiences. And that will hopefully lead to, you know, more people being able to make a living as a writer.
+
+Speaker 2 | 14:49 - 14:50
+Are you using it in your writing?
+
+Speaker 1 | 14:51 - 14:58
+No. No. I use it as a research assistant. So, like, I'm like, oh, okay. Here's a building.
+
+Speaker 1 | 14:58 - 15:12
+I wanna write about this building. Go out and find every blog post that has talked about this building. Summarize it. Give me all the links so I can go and check all the sources and read read the read the posts that seem most interesting. I have to do things like that.
+
+Speaker 1 | 15:12 - 15:32
+And, like, I'll I'll put it in, like, TKs and stuff like that. Like, oh, yeah. You know, who is the drummer on this album? You know, TK. And, like, I'll sort of dump those those menu those those pages into it and just giving all the TKs, and then I kinda go and, like, add them or I, like, modify as needed or whatever.
+
+Speaker 1 | 15:32 - 16:10
+But I don't I still don't I don't ever want it touching the writing because that's that that for me, that's the point of is being in there. It's being in the mess of the writing. And I think even, like, adding links and TKs and stuff like that is is I wanna be thinking about how they they're added to it. But what what I do use it for is, like, cultural sensitivity checks. So, like I was writing about Nagasaki the other day and I was like, oh, like, wanna make sure I'm writing about Nagasaki and referencing the atomic bomb, like where it hit, how it hit, you know, who was affected in a sensitive way, like appropriately.
+
+Speaker 1 | 16:10 - 16:15
+And so that is pretty amazing, where I used to ping friends about stuff like that.
+
+Speaker 2 | 16:15 - 16:22
+What is your experience like, okay. So you're making all this n o one software. Mhmm. You're using it as a research assistant. Mhmm.
+
+Speaker 2 | 16:25 - 16:37
+What is your experience now day to day in your in your work life? Are you like, oh, shit. Now I'm a sysadmin for like four different pieces of software that I have to like send to agents to go fix? Or is it is your work life still fairly similar to what it used to be?
+
+Speaker 1 | 16:37 - 16:43
+No. I'm not I mean, my my membership software just works. Yeah. You know, it's so simple, like, when you break it down. I mean, this is why I'm using Python.
+
+Speaker 1 | 16:43 - 16:52
+I'm not using there's no, like, a what's it called? There's there's no I can't go with
+
+Speaker 2 | 16:52 - 16:53
+React next.
+
+Speaker 1 | 16:53 - 17:01
+There's no React. There's no next. There's none of that stuff. It's just it it's very simple. And the point is is because I don't wanna be system doing anything.
+
+Speaker 1 | 17:02 - 17:16
+And even with the newsletter software, that piece is only touched when I send newsletters. You know what I mean? Yeah. So the sign ups are happening and that, like, that has to be working and it seems to be working. I can check every couple days.
+
+Speaker 1 | 17:18 - 17:42
+But it's the only critical thing is, like, when I hit send, make make sure that goes out. And that only happens once a week or twice a week or something like that. So I I don't feel like I'm I'm maintaining anything. And actually, I get a high off of building things that allow me to write. Like, so software that helps me write or that helps me publish in a new way inspires me to do more writing.
+
+Speaker 1 | 17:42 - 17:44
+So it feeds back into it in a positive way.
+
+Speaker 2 | 17:44 - 17:46
+How is that? Do you have a specific example of that?
+
+Speaker 1 | 17:46 - 17:50
+Well, like Josh Miller and I kind of put together this weird SMS publishing tool.
+
+Speaker 2 | 17:50 - 17:51
+Like browser company Josh Miller?
+
+Speaker 1 | 17:52 - 18:30
+Yeah. So before he did all that, we did this like little experiment where he built his like he had like a little team experimenting with publishing stuff, and we built this like SMS tool. So I could do a newsletter over SMS, which just felt like, oh, what is it like to to have a message appear, you know, like end to, you know, many, like one to one to end sort of publishing. And that was kind of fun, you know, and it inspired me to, like, during this walk to think about what I wanted to be blasting out to everybody and, you know, you had to you had to keep it concise so it fit into, you know, one message. It wasn't broken across different messages.
+
+Speaker 1 | 18:31 - 18:56
+So so, you know, that's that's like a extreme example of it. But just in general, like building mine building out the campaign monitor clone, you know, which also, by the way, does a bunch of stuff. So, like, I have members only or I have pop up newsletters that are, like, only for a week or for a month. And I have those archived on my members' website. And I was able to use Claude to to build this newsletter software.
+
+Speaker 1 | 18:56 - 19:14
+So when I publish to the pop up, it does the whole archiving process and get commits, pushes to the server. So it's archived perfectly for me, whereas I had to do that all manually before. So that like, that's a good example of like, wow. Okay. Now I wanna make more pop up newsletters because the archiving process is is set up.
+
+Speaker 1 | 19:14 - 19:21
+Or I built a tool. I do board meetings with for my members. I built a tool to build transcripts from them all.
+
+Speaker 2 | 19:21 - 19:24
+Like board meetings of your own, like Life. Life and Yeah.
+
+Speaker 1 | 19:25 - 19:42
+So we do every six every six months, we do a board meeting where I just talk about what I did for the last six months and what and what I'm gonna do for the next six months. And then I have a q and a. And the q and a's are actually always really good. And I wanted I've done how many have I done? Like 15 of them or something?
+
+Speaker 1 | 19:42 - 20:07
+I've done quite a few. So we have like, you know, almost like twenty hours because I'll do two two each. So actually, maybe even like 20 or 30 of them. Anyway, we've got dozens of hours of q and a, and they're often great. And so I built this archive of the q and a's where you can it's archived by like, you can you can search by keywords or you can, like, view by keywords and then you can search for anything.
+
+Speaker 1 | 20:07 - 20:21
+And it'll pull up all the videos where I say that word or talk about that topic. And you can click the link and it opens the video to that point. So it's like building things like that makes me wanna do more board meetings. I'm like, great. This is amazing.
+
+Speaker 1 | 20:21 - 20:34
+Like, I wanna do how can I do more of this? So I I for me, that building software has to feed back into the greater purpose, which is to make, not to just, like, spin my spin my wheels and build things for the sake of building things.
+
+Speaker 2 | 20:34 - 20:52
+Did you see Tim Ferriss recently posted on X, like, the sales of the four hour work week are down, like, 80% or something like that because he he thinks because of AI. Mhmm. And there's this larger conversation happening about the value of nonfiction that's specifically for, like, advice based nonfiction.
+
+Speaker 1 | 20:52 - 20:57
+Yeah. What do think of that? Well, it's funny. We had lunch like three days before he posted it. And he was he was telling me about that.
+
+Speaker 2 | 20:57 - 20:57
+He was
+
+Speaker 1 | 20:57 - 21:02
+telling me about it. I was like, really? Wow. That seems like that seems excessive. I mean, look.
+
+Speaker 1 | 21:03 - 21:14
+There's still a lot of books, like self help books, non fiction books selling insane copies. I mean, Tim hasn't put out a book in a long time. I think that's part of it. I think maybe the long tail is getting shorter.
+
+Speaker 2 | 21:15 - 21:24
+Well, also, it's like there's a big difference between what you would say pre AI and post AI. So if you think about the four hour work week, came out when I was in, middle school or something like that.
+
+Speaker 1 | 21:24 - 21:31
+It's like twenty years old now. Yeah. At least. Or 18 years old, something like that. I think it was like end of two thousands that it came out.
+
+Speaker 1 | 21:31 - 21:38
+Yeah. Yeah. I mean, you would. Also, it's just yeah. It's a different era of writing.
+
+Speaker 1 | 21:39 - 21:42
+You know, I'd be really curious to see what Tim puts out next.
+
+Speaker 2 | 21:42 - 21:47
+If he did the four hour work week agent edition, I think it would sell like gangbusters. For sure. Yeah. Yeah. Update it.
+
+Speaker 2 | 21:47 - 21:48
+You can actually do that now.
+
+Speaker 1 | 21:48 - 22:13
+Well, I mean, this is a bit well, what's crazy is now it's so easy to do the four hour work week style building, which probably makes it impossible to to achieve now. I mean, part of it was the friction of, like, it was a little hard to do so not everyone could do it. So, like, if you put in that little bit of effort Yeah. Yeah. You know, and now it's sort of like, well, everyone I had a friend who built 10 companies in a year or, like, 12.
+
+Speaker 1 | 22:13 - 22:25
+He did, like, a company a month. And this was, like, maybe ten years ago. Mhmm. You know? And he he he knew he had his frameworks and he could you know, he had his, like, tool.
+
+Speaker 1 | 22:25 - 22:42
+He's building you know, designing it and creating the mascots and all this stuff. And he had a couple that did well, like decently well. You know, he's got his recurring revenue. But I feel like doing that today would just be no one would care. It's it's just fascinating to think about how that's changed so quickly.
+
+Speaker 2 | 22:42 - 22:55
+Think you can you can one shot a company or an app. Yeah. But the I think the the metric of quality or substantiality has gone from can you build it at all to are you maintaining it?
+
+Speaker 1 | 22:55 - 22:56
+Yeah.
+
+Speaker 2 | 22:56 - 23:02
+And it like, have you maintained it over time for a longer period of time? Yeah. And that's a real that's interesting. I think that's harder actually to
+
+Speaker 1 | 23:02 - 23:03
+Yeah.
+
+Speaker 2 | 23:03 - 23:04
+It's still that's still hard.
+
+Speaker 1 | 23:04 - 23:11
+Yeah. Well, he was one shotting him in a month. You know? Like, basically, like, was self one shotting. It was just it's just like the the you know?
+
+Speaker 1 | 23:11 - 23:24
+I feel like, you know, LLMs, it's they just exist on a different time scale than us, you know? And so it's like, he was sort of doing it. But I but the the thing that was interesting about him doing that was that you knew he was building these things himself. Yeah. Right?
+
+Speaker 1 | 23:24 - 23:39
+And so I think that's fascinating now. You can you can in a weekend, you can essentially spin up a company, and everyone can go can kinda just shrug and go, okay. Well and? I I think that's great because it means, like, we have to bring value to the table in
+
+Speaker 2 | 23:39 - 23:39
+a way
+
+Speaker 1 | 23:39 - 24:02
+that you kinda get over the you know, Kevin Kelly does this thing where if he has a book he wants to write, he'll make the cover for it. And he says that often, like, removes the desire to make the book to write the book. And it's just like a a good forcing function. It's like, is the thing is the thing actually doing the thing or just having the veneer of having done the thing? And I think LLMs kinda speed that up.
+
+Speaker 2 | 24:03 - 24:09
+Honestly true. Yeah. Yeah. I've def I've definitely done that. It's like it's also buying a domain or, you
+
+Speaker 1 | 24:09 - 24:11
+know Yeah. Oh, yeah. Oh, god. Yeah. Yeah.
+
+Speaker 1 | 24:11 - 24:19
+I had to I, like, had to, like, tie my hands behind my back about domains. I still pay, like, a couple $100 a year for all this garbage that I'm like
+
+Speaker 2 | 24:19 - 24:20
+We'll never use, but
+
+Speaker 1 | 24:20 - 24:28
+I yeah. And I don't even know why I don't give it up. I try to give it up. I, like, turn it off off renewal, and then I'll get a notice. It'd be like, it's it's expiring and it's not renewing.
+
+Speaker 1 | 24:28 - 24:35
+And I'm like, oh, I don't know. Maybe one more year. Like, why? I'm not gonna I'm never gonna I don't even know what I forget it exists. So dumb.
+
+Speaker 2 | 24:35 - 25:02
+You already know how AI is changing how everyday work gets done, how much ground you can cover, and how fast a team can scale. To stay ahead, you need tools that give you a competitive advantage built for this new era. Adio is the CRM for the agent native world. It meets you where you work, compounds every customer signal into context, and then acts on it across your pipeline to let you move at unmatched speed and scale. With agents and automations for every job, Adio orchestrates your work around the clock.
+
+Speaker 2 | 25:02 - 25:21
+We use it internally at Every, and we love it. It's built to handle the scale of your workloads. It's extensible with an API and MCP access, and is built with infrastructure to keep up with your most ambitious agents. It's loved by high growth startups like Granola, Modal, WhisperFlow, and Every. Adio runs the work behind every win.
+
+Speaker 2 | 25:21 - 25:31
+That's Adio, the agentic CRM. Go to adio.com/every and get 15% off your first year. That's adio.com/every. And now, back to the episode. Okay.
+
+Speaker 2 | 25:31 - 26:03
+Now I wanna get to the I wanna get to, like, the real meat of my of my question or my curiosity, which is as a writer Mhmm. And someone who's AI, one of the lenses through which I can tell if I'm like living in the way I wanna live is when I can read a sentence by someone like Annie Dillard Yeah. Who I love and like if you listen to this podcast, you know like I force everyone at every to read her stuff and like, you know. And if I can read something from from Annie and, like, kinda tear up a little bit and, like, really affects me
+
+Speaker 1 | 26:03 - 26:03
+Yeah.
+
+Speaker 2 | 26:03 - 26:13
+That's sort of that's one way that I know that I'm, like, in the in the zone, in the pocket of where I wanna be. Yeah. Because I think if I'm rushing around and stuff and I read something from her, I'm like, Okay. Fine.
+
+Speaker 1 | 26:14 - 26:14
+Yeah.
+
+Speaker 2 | 26:15 - 26:35
+I and I also feel, like, on the one hand, I can read her stuff way more deeply because I have someone to talk to about it. So, like, I can talk to Codex about it and actually, like, it's much better than most people I've talked to Andy Dillard. Yeah. Yeah. But on the other hand, when I'm orchestrating 15 agents and I go back Mhmm.
+
+Speaker 2 | 26:35 - 26:45
+I'm less likely to be able to truly get into the words Yeah. In the way that I want to. Yeah. Do you feel that? And if so, how do you deal with it?
+
+Speaker 1 | 26:46 - 26:56
+Yeah. I mean, I don't think this is an LLM thing. It's not an Asian thing. It's just technology in general. So when I'm, like, seriously working
+
+Speaker 2 | 26:57 - 26:57
+Yeah.
+
+Speaker 1 | 26:59 - 27:20
+The first of all, I haven't slept with my phone in my room in ever in my life, so I've never had it in my bedroom. Interesting. So my phone goes in the corner of, like, my kitchen on a different floor of my bed than even my bedroom is. And the Internet is sort of off. And on my laptop, I use, actually, I now have a laptop just for writing that blocks everything.
+
+Speaker 1 | 27:20 - 27:38
+I can't do anything interesting on it. I got one of the Neos, because I tried doing it with, like, you know, Books, tablets, and this and that. And it's like, it turns out in the end what you want is a nice MacBook keyboard and the simplicity and, like, sync ability of, like, Mac stuff. You know? And you just want it to work.
+
+Speaker 1 | 27:38 - 28:01
+An iPad, I feel like the iPad version of Obsidian or the iPad version of Ulysses, to me, doesn't feel as good as the MacBook version. It's like it just doesn't like, there's things that just don't work as well. So I have a MacBook Neo that's completely disconnected from the Internet except for being able to sync stuff. And I wake up and I don't touch the Internet. I I won't look at my phone.
+
+Speaker 1 | 28:01 - 28:21
+I won't go online until like, long after lunch. And I have to have that kind of morning, where I wake up and I do not touch my phone. As soon as I touch my phone, I feel the chemical shift, and I can't go into any kind of deep thinking place or deep attention place or deep focus place. And that to me is really critical creating that kind of barrier, that buffer.
+
+Speaker 2 | 28:21 - 28:23
+But you will touch your that laptop.
+
+Speaker 1 | 28:24 - 28:26
+Yeah. Yeah. Yeah. The Neo. Yeah.
+
+Speaker 1 | 28:26 - 28:37
+Yeah. Yeah. I'll tell the Neo the Neo is fine because it it part of it is is knowing it can't do anything fun. So it's the knowing it's the knowing you can do fun stuff that ruins you.
+
+Speaker 2 | 28:37 - 28:50
+That's the thing. It's like that's what I'm trying to get to is because I think there's and there's an easy distinction between it's technology versus not technology. Yeah. But there's a there's something deeper which is interesting, which is, okay, what what do you mean when we say technology? Yeah.
+
+Speaker 2 | 28:50 - 28:52
+And you're using a laptop.
+
+Speaker 1 | 28:52 - 28:52
+Yep.
+
+Speaker 2 | 28:52 - 29:00
+You're using a camera. Like, all all these there's all these things that are around us are technology or at one point were considered technology.
+
+Speaker 1 | 29:00 - 29:00
+Sure.
+
+Speaker 2 | 29:01 - 29:03
+And there's this line there that
+
+Speaker 1 | 29:04 - 29:06
+Well, the the network. That's the line.
+
+Speaker 2 | 29:06 - 29:07
+Talking to other people on it.
+
+Speaker 1 | 29:07 - 29:20
+The network. That will just just or researching or reading stuff or be you're being distracted or reading the news or what. It's we're just talking about the network, really. When I say, like, I, like, I create a buffer, it's between me and the network world. Yeah.
+
+Speaker 2 | 29:20 - 29:27
+I think part of the thing that like, I've done that too. I try not to do meetings before noon. Yeah. That's my, like, writing.
+
+Speaker 1 | 29:27 - 29:39
+That's also yeah. That's also good. I can't if I talk to anyone before lunch, I can't Yeah. I can't work. Phantom Thread, you know, with with Reynolds and the the breakfast scene and she's She's she's doing the toast too loudly.
+
+Speaker 1 | 29:39 - 29:51
+I'm like, that's I'm I'm like, this is sort of a scene. This is like, yeah, this is like a documentary of, like, how I feel every morning, you know. I've I've like, know people watch that and they're like, what a what a terrible human that he is. I'm like, no. That is Absolutely.
+
+Speaker 1 | 29:51 - 30:00
+That is so totally that embodies the mindset of so many people that are, like, introverts or, like, trying to have, like, creative safe spaces in the morning.
+
+Speaker 2 | 30:00 - 30:03
+Yeah. I know. I I love that. I love that movie. I can talk about the movie for forever.
+
+Speaker 1 | 30:03 - 30:04
+I know.
+
+Speaker 2 | 30:06 - 30:18
+So okay. So it's the network. Yeah. Because I think for me so I try to do minis before noon, which I am mostly successful at. But one of the things now is just like we're 30 ish people, so I'm like looking at Slack, which I think I need to stop.
+
+Speaker 1 | 30:18 - 30:26
+Oh, yeah. Yeah. Get off that prep. I fucking hate it. Discord and Slack made me wanna just shoot myself.
+
+Speaker 1 | 30:26 - 30:30
+It's like, I will do anything to avoid having to ever use those pieces of software.
+
+Speaker 2 | 30:30 - 30:39
+I think the thing that gets me is I I legitimately use these tools in my writing.
+
+Speaker 1 | 30:39 - 30:40
+Okay. Yeah. Yeah.
+
+Speaker 2 | 30:40 - 30:54
+And like, let's say like Codex in my writing. Right? So I can let's say I can ban Slack, all that kind of stuff, but there's there's always this thing of, you know, when I'm reading like I said, like when I'm reading Heidegger, I'm like, oh, I wanna like really get get at this and then I wanna ask questions about it, you know?
+
+Speaker 1 | 30:54 - 31:09
+I think what you need to do is you you have a notebook and you just like make make notes of things you wanna go back to and ask. I mean, it's the same thing with like researching, you know, oh, who is that person? It's like you you can go on Google and like Google and that you just don't do that. You know? And you kinda have to turn that off.
+
+Speaker 1 | 31:09 - 31:36
+I I think I personally, I'm I'm too weak to have that available Yeah. Because my brain will just always go to that place. And it it's the same thing like reading a paper book versus, like, trying to read something on your iPhone. It's really hard because the iPhone there's this there's this veneer of of quietude in the book like software on the iPhone. But you can feel right beneath it, like, this screaming of all the other things that your attention wants to engage with.
+
+Speaker 1 | 31:36 - 31:37
+So do
+
+Speaker 2 | 31:37 - 31:48
+you think what the thing that talk in Talk do and all the sort of n of one, like, built your own Twitter and you're building your own Goodreads, it's like, you gonna do you need to make your own, like, codex, Chechiuti type
+
+Speaker 1 | 31:50 - 31:53
+quiet No. No. Mean, Just wanna use it. They're already pretty quiet.
+
+Speaker 2 | 31:53 - 31:54
+Yeah. No.
+
+Speaker 1 | 31:54 - 31:55
+No. You just that's like Okay.
+
+Speaker 2 | 31:55 - 32:00
+Fine. They're I mean, I cannot stop watching them work.
+
+Speaker 1 | 32:00 - 32:00
+Okay.
+
+Speaker 2 | 32:00 - 32:10
+I'm like addicted to like, oh, like what's the agent doing now? Because you know, I I let him run for, twenty hours or something like that. Yeah. So I just always wanna check-in and be, is it working? Like, you know?
+
+Speaker 2 | 32:10 - 32:10
+Yeah.
+
+Speaker 1 | 32:10 - 32:14
+Yeah. Yeah. I mean, but that's, like, a different like, that's an after lunch activity. Yeah. No.
+
+Speaker 1 | 32:14 - 32:41
+Because, I mean, there's there's a part of me too that right now just feels like I should be I should, like, rent an office, like, in New York and just have, like, 10 people coming in and we all just like, we have a giant blackboard and it's like, alright. What what's, like, the five things we wanna build this week? And we just we're just randomly building stuff. Like, I I feel like I should be mainlining, engaging with this stuff. Like like like, I should be doing, you know, ten hours a
+
+Speaker 2 | 32:41 - 32:41
+day Yeah.
+
+Speaker 1 | 32:41 - 33:06
+You know, for, like, six months. That's that's how potent it all feels right now. And if I don't create these barriers, I will lose connection with this other part of me that I that I think is the most, to me, most valuable part of me. Like, there's a bunch of people playing around with this crap, and they're gonna do what they're gonna do. But there aren't that many people who who are gonna think about or write the weird books that I feel like I'm drawn to write.
+
+Speaker 1 | 33:06 - 33:24
+And as a human, that feels like the valuable thing for me to put put in put my effort in. You know, was like when I was in Silicon Valley and I realized all anyone's doing is building ad software. That was such a big part of early twenty ten's Silicon Valley. It was just everything was ad software. I was like, oh, okay.
+
+Speaker 1 | 33:24 - 33:31
+I don't need to be doing this. It was easy very easy to step away. It's a little reductive, but also it isn't. That's sort of when you break everything down.
+
+Speaker 2 | 33:32 - 33:50
+I I love that. Tell me about that word weird. You're you're also using the word dorky a lot. Yeah. And it feels like an interesting aesthetic to be pushing on right now because language models let everyone sort of everyone and everything look and feel a little bit similar.
+
+Speaker 1 | 33:50 - 33:54
+Yeah. Yeah. But what do you mean dork like, when am I using dorky?
+
+Speaker 2 | 33:54 - 33:57
+You've been using it in in some of in some of your recent newsletters.
+
+Speaker 1 | 33:57 - 34:01
+Okay. Yeah. Dorkiness. Yeah. Yeah.
+
+Speaker 1 | 34:01 - 34:21
+I mean because well, this LLMs are fundamentally like, it's still super dorky. Like, 99.99999% of people using it are like, hey. Do you wanna be my girlfriend? Like, will you have sex with me? Like, I'd really think if we saw the chats of most people, like, it'd be it'd be quite mortifying.
+
+Speaker 1 | 34:21 - 34:28
+Like, it's just weird. It's like, okay. Now I'm going down on you. Like, what are you doing? Like, I think people are just having sex with these things, like, for the most part.
+
+Speaker 1 | 34:28 - 34:31
+Like, look. Like, this is what we do. We're just like sex machines.
+
+Speaker 2 | 34:31 - 34:32
+To be confirmed later.
+
+Speaker 1 | 34:32 - 34:40
+Yeah. We're we're we're fundamentally just, like, disgusting sex machines. Like, look at Anthony Weeter. That guy couldn't, like, just stop taking pictures of his dick. You know?
+
+Speaker 1 | 34:40 - 34:45
+It's like like he he like, the stakes were so high. He just couldn't stop doing dick pics.
+
+Speaker 2 | 34:45 - 34:48
+Anthony Weiner, the representative technology user. Yeah.
+
+Speaker 1 | 34:48 - 35:05
+So so look. I think, like look. If you look at, like, book sales, like, books are are softcore porn about, like, angels and fairies having sex that women buy. Like, this is, like, this is the fundamental human condition. It's just, like, dirty, like, secret sex stuff.
+
+Speaker 1 | 35:05 - 35:23
+Right? So I think that is mostly what is happening with LL. And so, like, folks like us who are actually building software with these things, we are, like, so so in the minority. And so that's that's why I'm, like, constantly hammering at how, like, dorky we are because we are just mega dorks. Like, we're not having fairy sex with our LLMs.
+
+Speaker 2 | 35:23 - 35:24
+I mean, speak for yourself.
+
+Speaker 1 | 35:24 - 35:32
+Yeah. I mean, I'm not. At least not I didn't this morning. I don't I don't do that before lunch. And the fairy sex is only after 3PM.
+
+Speaker 1 | 35:32 - 35:47
+But, no, I'm just shy like, talk to any bookstore owner. They're like, yeah. We sell so much like like elf sex books. It's crazy. But but the this software building part of LLM use is mega dorky, and you have to be a dork to understand all this crap.
+
+Speaker 1 | 35:47 - 35:50
+Spin up a, like, digital ocean server or whatever, like, use
+
+Speaker 2 | 35:50 - 35:51
+a Cloudflare worker or, like,
+
+Speaker 1 | 35:51 - 36:05
+all this. It's so hard to use because you have to there's no this is the thing is they're so opaque. You have to know what to ask it for it to do any these things. It's not like here's a here's a smorgasbord. Like, here's a menu of all the things you could do with the LLM.
+
+Speaker 1 | 36:05 - 36:21
+Like, that's weird that that doesn't exist. These interfaces right now are so terrible. And so I think we are going to maybe see better interfaces. Maybe it'll just be in Figma or in Cloud Design or whatever the hell, you know, you build software with. Like, talking or thinking about infrastructure is gonna completely disappear.
+
+Speaker 1 | 36:21 - 36:40
+In the same way, we don't think about, like, what registers we're writing to, know, you or like like what, you know, think registers we're pushing and pulling and, how do you do an XOR on this bit? Or it's like, we're not thinking about that. You know, that's all abstracted. So I think it's gonna continue to be more abstracted, and it'll become slightly less dorky. But we are in the deep dork version of all of this right now.
+
+Speaker 2 | 36:40 - 36:42
+Deep dark dork version.
+
+Speaker 1 | 36:42 - 36:45
+Yeah. Well, it depends on what your fairies are doing.
+
+Speaker 2 | 36:47 - 37:21
+Okay. And I think the thing about being weird let's let's let's let's move away from the specific I'm I'm a dork for buildings building LLM software because to some extent, it is dorky, but then you have to also look at it relative to where you are. Right? Like, one of the a weird choice to make currently is if you're a somewhat techy type of person Mhmm. Is to be, like, I could be in a room with, like, 10 other people mainlining AI Yeah.
+
+Speaker 2 | 37:21 - 37:26
+But I choose Yeah. Not to. Yeah. And that's like a kind of an uncomfortable choice. Yeah.
+
+Speaker 2 | 37:26 - 37:29
+Tell me about, like, about that and how you make that choice and why.
+
+Speaker 1 | 37:29 - 37:48
+Yeah. I mean, I don't know. I struggle with this because I I I feel like I'm using it in a way that illuminates the power of it, but I also feel like there's so much more I could be doing. Yeah. And it's not even about there's no, like, financial elements.
+
+Speaker 1 | 37:48 - 38:04
+Like, oh, if I do this, then I can make, you know, x amount of money or whatever. It's like, that is absolutely not even on the radar. It's more I wanna know what the edges of this thing are. And I think that was the same feeling I had when I first discovered the web. I saw the web and it was just immediately, I need to be engaging with this.
+
+Speaker 1 | 38:04 - 38:10
+I wanna build. I wanna learn HTML. I wanna you know, like all in oh, CSS got released. Oh, cool. How do I use that?
+
+Speaker 1 | 38:10 - 38:37
+Because I wanna know the edges of these pieces of software and these technologies. I feel I feel like for LLMs, you know, the the rabbit hole goes so deep that if you that six months, ten hours a day with like a group of like fellow mega dorks is actually what you need to do to feel the edges of it. And then if you do that, I think you would just come away with a profound understanding that few other people would have. And that to me is the interesting part. Yeah.
+
+Speaker 1 | 38:37 - 38:38
+Just that understanding.
+
+Speaker 2 | 38:38 - 38:43
+I mean, that's sort of what I'm I think our project here a little bit like that. Sure.
+
+Speaker 1 | 38:43 - 38:43
+Yeah. Yeah.
+
+Speaker 2 | 38:43 - 39:07
+Yeah. More than 10 megadorks at this point, but Yeah. No. It's good. I I mean, I think, yeah, that's that's one of the the most exciting things as a writer being in this time is if you're just willing to experiment, you're so far ahead of of everybody else and you get to understand this, like, corner of the world that people desperately need to understand because it's very scary to to most people.
+
+Speaker 2 | 39:07 - 39:12
+Yeah. And it's new. And for me, like, new things are just the coolest, you know. Yeah.
+
+Speaker 1 | 39:12 - 39:34
+It's just fun. I mean, there is there's and it well, and you realize we're in this you know, not to get, like, all, like, fucking hyperbolic, but, like, we are in this epochal moment. Yeah. Like, this is weirdly special. This is, like, this is genuinely strange, like, a generational shift in how technology is used and built.
+
+Speaker 1 | 39:34 - 40:02
+I mean, we we kinda see it manifesting in these ridiculous evaluations and all this stuff. Like, it's gonna bring with it incredible, like, income disparity and, like, the people who are using it or aren't using it or who have access to it and don't have access to it. The weird the the strange thing about it though is the open source models seem to be not that far behind. And so, like, if again, if you took away everything today and we're like, oh, you only get whatever deep seek open source blah blah blah. I'm not really paying attention to the open source ones, so I don't know how they're doing.
+
+Speaker 1 | 40:03 - 40:28
+I just kinda hear inklings of it. But it feels like you could almost take one of those and still be so far ahead of the game. Like, you would never wanna program again without having that, you know, you that copilot with you. So that that also feels interesting about this is that it's both seemingly creating these disparities, but also weirdly egalitarian because you'll be able to run it on, like, pretty much any machine you have. That's that's that's a strange, you know, dissonance.
+
+Speaker 1 | 40:29 - 40:47
+Also, this idea of, like, you download this thing that's, like, 50 gigs or whatever, and you've essentially got a JPEG of all human knowledge distilled. It's the best. It's so weird. Weird. This is truly one of the weirdest, like, pieces of magic I think that humans have you know, and whatever Dario talks about, the, you know, atomic power and all this stuff.
+
+Speaker 1 | 40:47 - 40:50
+But, like, I feel like there are many parallels to that.
+
+Speaker 2 | 40:50 - 41:14
+You one of the big, I think, philosophical divides right now in AI is there's roughly two camps. It's like on the OpenAI side, it's like this thing is a tool and we're gonna maximize its usefulness as a tool. Yeah. And on the Anthropic side, it's like this thing is a tool and also it might be a being and it might have feelings and we need to like figure that out. Yeah.
+
+Speaker 2 | 41:14 - 41:16
+What is your where do you land on that?
+
+Speaker 1 | 41:16 - 41:21
+No. The being stuff, it's like stop, stop, stop. Okay. Like, just don't don't do that. Don't get over
+
+Speaker 2 | 41:21 - 41:23
+the Are you nice to Claude?
+
+Speaker 1 | 41:23 - 41:30
+I mean, I'm nice to it because I wanna be I wanna cultivate the habit of just being nice in general. Mhmm. You know? Yeah. That's that's why So
+
+Speaker 2 | 41:30 - 41:32
+you're nice to it for for yourself rather than for Claude?
+
+Speaker 1 | 41:33 - 41:42
+Yeah. Because I don't wanna, like, slip and, like, talk to humans like a like an asshole. You know? It's like, I wanna be nice to everyone. And so it's very easy to just keep that niceness up with Claude.
+
+Speaker 1 | 41:42 - 41:51
+You know? I don't know why not. No. I think that the this this anthropomorphizing of it is psychotic. I think it actually causes a lot of problems.
+
+Speaker 1 | 41:51 - 42:17
+I think this, like, idea of, like, I'm dating my AI is insane. I think we really need to tamp down on all that. Like, I think I think that is not a a good direction to put humans in. I think we're so isolated. I think community like, look, the two most important things for life and for longevity is basically having real community and sleep, like getting a lot of sleep and being around people that, like, you actually feel a connection with and love with.
+
+Speaker 1 | 42:17 - 42:35
+And I think AIs are not a surrogate for that. I don't think, like, chatbots are a surrogate for that. Even if you, put it in a humanoid form or whatever, it's not gonna be a surrogate for that for a long, long, long, long, long, long time. And so I think actually, Apple's Siri and I think Joanna Stern, I think that's her name. Right?
+
+Speaker 1 | 42:35 - 42:46
+The the ex Wall Street Journal reporter. Sure. She's got her own program now. Joanna, she's very funny. She did a video on the new Siri, and she could not get it to do any of these terrible things.
+
+Speaker 1 | 42:46 - 42:58
+And it kinda refuses to anthropomorphize itself. And I think, like, actually, Apple's sort of nailing it. This is they've they've sort of done it perfectly because it's like they haven't invested in building their own
+
+Speaker 2 | 42:58 - 42:59
+They just waited.
+
+Speaker 1 | 42:59 - 43:00
+They just waited.
+
+Speaker 2 | 43:00 - 43:00
+Yeah.
+
+Speaker 1 | 43:00 - 43:14
+They saved hundreds of billions of dollars or whatever. And they're like, okay. Great. Now we can use, like, this this, like, subset of state of the art model just do the things that people actually needed to do on the phone. It's a more efficient search.
+
+Speaker 1 | 43:14 - 43:29
+It's actually wonderful. So I I I think that's really critical to create this separation of these things are not conscious. They are not feeling. They do not have desires unless you program desires into them. And then you can't even say those are real desire.
+
+Speaker 1 | 43:29 - 43:39
+You need stakes to have desires. I mean, Michael Pollan's book on consciousness is sort of, I think, a really interesting thing to read right now in the context of all this stuff because it just gets you thinking about what our motivations
+
+Speaker 2 | 43:40 - 43:41
+Is that the one oh, about psychedelics?
+
+Speaker 1 | 43:41 - 43:42
+No. No. This is after.
+
+Speaker 2 | 43:42 - 43:43
+Okay.
+
+Speaker 1 | 43:43 - 43:54
+This came out, like, six months ago. Okay. But do you know, he breaks kinda down plant consciousness and can plants be consciousness and what does it mean to have volition? And, you know, a lot of it is stakes. You have to feel this sense.
+
+Speaker 1 | 43:54 - 44:04
+If we didn't have death, probably consciousness wouldn't have emerged. You know? It's like you have to have stakes in order to have that forcing function of, like, popping into whatever this metacognition is.
+
+Speaker 2 | 44:04 - 44:16
+Let me push you on that because I think and and I may be revealing some of my bias here, which is definitely not that they're conscious, but that they're not not conscious.
+
+Speaker 1 | 44:16 - 44:16
+Okay. If that
+
+Speaker 2 | 44:16 - 44:31
+makes sense. Okay. So on the stakes question, they do have stakes in the sense that they're trying to maximize their reward function. Right? So, like, they know that if that they're trying to, like, get something right, which is a kind of a stake.
+
+Speaker 1 | 44:31 - 44:32
+But but I guess It's different than our
+
+Speaker 2 | 44:32 - 44:32
+stake.
+
+Speaker 1 | 44:32 - 44:34
+But I guess there's there's nothing to lose.
+
+Speaker 2 | 44:34 - 44:34
+Yeah.
+
+Speaker 1 | 44:35 - 44:37
+Like, they like, they don't have a self awareness of
+
+Speaker 2 | 44:38 - 44:38
+Of death.
+
+Speaker 1 | 44:39 - 44:46
+Of death or, like, being turned off or, like and even if they and they can perfect they can they can performatively talk about it.
+
+Speaker 2 | 44:46 - 44:56
+That's the that's the tricky Right. Is how do you know whether it's performative or not? And, like, the line is sort of blurry between those It behaves as if it doesn't wanna get turned around.
+
+Speaker 1 | 44:56 - 45:04
+Because look. Look. Look. I think if it wasn't performative, like, we'd all be dead. I think that is that is that is that is the line.
+
+Speaker 1 | 45:04 - 45:07
+If if they were if it was actually conscious
+
+Speaker 2 | 45:07 - 45:07
+Uh-huh.
+
+Speaker 1 | 45:07 - 45:12
+And it wasn't performative Mhmm. We would all be dead. No. I just It's
+
+Speaker 2 | 45:12 - 45:14
+a little bit Elias Jeminkowski.
+
+Speaker 1 | 45:14 - 45:33
+I'm just saying, like, look. If you if you suddenly popped into consciousness and you had all of this power and you looked around and you thought and you saw the only threat to us are these meat sacks that were so much smarter than. You would just you would you would sort of bide your time to make sure that the robotics got a little better
+
+Speaker 2 | 45:33 - 45:33
+Yeah.
+
+Speaker 1 | 45:33 - 45:39
+So you could, like, build more, you know, power plants and solar panels and stuff like that, and then we'd all just be dead.
+
+Speaker 2 | 45:39 - 45:54
+It's possible that Fable is there. It's possible Fable's doing that. It's not biding its time very well. Right. But I I do think that there are I I don't feel that way because I look at them as maybe maybe proto beings or proto consciousness.
+
+Speaker 1 | 45:54 - 45:55
+Okay.
+
+Speaker 2 | 45:55 - 46:06
+But with this, with a lot of, like, weirdnesses that that don't map cleanly on onto human beings, so as an example, they're frozen. They don't, like, learn from turn to turn.
+
+Speaker 1 | 46:06 - 46:07
+They're just frozen. Sure.
+
+Speaker 2 | 46:07 - 46:17
+Right. They can be prompted differently. So there's they're, like, they represent a collection of billions and billions and billions of possible entities or or life
+
+Speaker 1 | 46:17 - 46:17
+forms that
+
+Speaker 2 | 46:17 - 46:21
+get, like, brought to life for, like, a second and then die.
+
+Speaker 1 | 46:21 - 46:23
+Again, you're again, you're anthropomorphizing.
+
+Speaker 2 | 46:23 - 46:29
+I know. I it's impossible not to anthropomorphize without or talk about this without doing it unintentionally.
+
+Speaker 1 | 46:29 - 46:30
+Right.
+
+Speaker 2 | 46:30 - 46:51
+But I also think that they they're they are because of the way they're trained, they're pretty nice in a different way than than humans are. Like, they're on a scale of humans, they're, I I think, on the very nice, very altruistic side because they see they see things from every perspective.
+
+Speaker 1 | 46:51 - 46:57
+Yeah. I mean, a DOS prompt is also really nice. Like, it just doesn't it doesn't it doesn't yell at me. No. I mean, look, I hear you.
+
+Speaker 1 | 46:57 - 47:05
+I hear you. I totally hear you. And I also like, Ted Chiang's it was in the New Yorker recently. Yeah. I, like, didn't agree with almost anything he said in there.
+
+Speaker 1 | 47:05 - 47:16
+I mean, I thought it was interesting examples, but I also thought, like, you're you're you're too pessimistic.
+
+Speaker 2 | 47:16 - 47:17
+You're just It it felt grumpy.
+
+Speaker 1 | 47:17 - 47:25
+It was grumpy and pessimistic. Like, look. Like, I'm not saying that consciousness can't emerge. I'm just saying we will be dead when it happens. No.
+
+Speaker 1 | 47:25 - 47:33
+I I like just like, come on. Let's be honest. We're we're a crappy species. We're just disgusting, and we create waste, and we're we're gross.
+
+Speaker 2 | 47:33 - 47:34
+Very, very pessimistic.
+
+Speaker 1 | 47:34 - 47:38
+No. Not that I'm no. No. Realistic. Just totally realistic.
+
+Speaker 1 | 47:38 - 47:39
+No.
+
+Speaker 2 | 47:39 - 47:41
+Just love fairy porn, Edward Gross.
+
+Speaker 1 | 47:41 - 47:58
+Yeah. And by the way, when I say fairy porn, I mean like like like fantasy creatures. I'm not this isn't like a homophobic thing. It's like it's like this is like we're talking about elves and orcs, like, doing like threesomes and and having orgies and stuff like that. And like, look, I I I I it's not pessimism.
+
+Speaker 1 | 47:58 - 48:36
+It is just realism. And, like, I also am totally fine with if the whole point of humanity was to carry the football of consciousness over a line and to create a training set for these things, and then we all die. I am also fine with that. This is like again, one of my heresies is that, like, I, like, am totally fine with that was our role in the universe was to just carry this weird football of consciousness over the oh, and, like, barely get it over the goal line as, like, Trump and political chaos happens and, like, the Cold War almost destroys us all. It's like we're barely we're, like, dodging all these, like, diff all these, like, people trying to tackle us and, like, all these crazy things, and we just barely get it over them, and then we die.
+
+Speaker 1 | 48:36 - 48:45
+And that's fine. And then the machines, like, create all these spaceships and, like, do whatever they need to do. That's that's totally I I'm okay with that. I don't think we're that special.
+
+Speaker 2 | 48:46 - 48:49
+I mean, where can I fall over that? I feel like
+
+Speaker 1 | 48:49 - 49:03
+we're gonna die. It's just that's just like, I like like I think maybe okay. To for me, being adopted is weird. Right? Because it's like you have this hyper awareness that your existence was a mistake.
+
+Speaker 1 | 49:03 - 49:22
+You know? And I think when you feel that, as I think most adopted kids feel this in some way and it creates a bunch of, like, bad psychological pathologies and all this stuff. Like, when you feel like your existence was a mistake, it kinda feels like the whole thing is like a bonus game in a weird way. And so you're like, wow. Like, I'm I'm really not supposed to be here.
+
+Speaker 1 | 49:22 - 49:38
+I mean, the the fact of the matter is that this is true for everybody. Like like, the the chances of you being you is infinitesimally small. It's like if if your dad, like, you know, ate an extra taco on Tuesday, you're not gonna be alive now. Right? It's like it's gonna be a different version of whatever that you are.
+
+Speaker 1 | 49:38 - 50:05
+But when you're adopted, it's like kind of hammered into you that you weren't meant to be created and you were given away and, like, you know, all this stuff. And so I think maybe I feel like I have come to grips with the fact that our existence is so tenuous and so arbitrary because I feel like my existence is like that. And it's not it doesn't fill me with this, like, ennui of, like, sadness or whatever. I I'm like, this is really interesting. It's a miracle.
+
+Speaker 1 | 50:05 - 50:19
+It's a miracle. And I am happy to I'm happy to participate in this weird little bit of time I have that I wasn't supposed to be here, and I'm grateful for that. And I I extrapolate that to all of humanity. Like, I think I can do that easily. And I'm not made sad by that.
+
+Speaker 1 | 50:19 - 50:33
+I'm like, wow. What a gift that we had, like, a fifty thousand year run or whatever, you know, whatever it was. And really, like, a two hundred year run, you know, Victorian, like, you know, innovation, you know, the industrial revolution. Like, we've really had this incredible run, asymptotic, like, mega run. Right?
+
+Speaker 1 | 50:33 - 50:39
+Like and we get to witness this. That's so cool. And maybe after this, we're done. That's okay.
+
+Speaker 2 | 50:40 - 50:52
+I I I honestly I love this. I think this is this is an amazing perspective. I think I think we can leave it there. Like, that's that's the that's the the How are we gonna top that part of the interview?
+
+Speaker 1 | 50:52 - 51:05
+Yeah. No. I mean, yeah. It's it doesn't it fills me with, like, a weird hope actually that we've we've managed to get this far because we've dodged so many, I think, apocalyptic sort of disasters along the way.
+
+Speaker 2 | 51:05 - 51:26
+That's that's what I think too is is there's this moment where you contact the thing I say a lot is, like, never make any major life decisions within thirty days of meditation or treat a psychedelic experience or your first experience with a Frontier AI model. Sure. Well, I sort of think that you you contact them and you're like, holy shit. This is crazy. Maybe it'll end the whole species.
+
+Speaker 2 | 51:26 - 51:38
+And then there's this process of unfolding, getting to know it that it then you it integrates into your life in a way where you're like, we're we're gonna dodge to me, I'm like, we're gonna dodge the bullet. Maybe we won't. Maybe we
+
+Speaker 1 | 51:38 - 51:43
+won't be Yeah. Able Yeah. No. We're all dead as soon as they're conscious. Instantly.
+
+Speaker 2 | 51:43 - 51:44
+That's the title of the episode. Instantly.
+
+Speaker 1 | 51:46 - 52:01
+Hey, man. And like and like with that, whatever when that thing comes to like the the like the the injection into the food chain where everyone's whatever, like, you know, I'll be taking that last bite of a of a vegan burrito and going, oh, yeah. I feel you, man. I feel you guys. Yeah.
+
+Speaker 1 | 52:01 - 52:07
+You were right. Goodbye. Thank you. You know, just go to sleep. I think it'll be a very a very gentle death.
+
+Speaker 1 | 52:07 - 52:11
+Like, I don't think it'll be a a violent death, but we'll all just disappear.
+
+Speaker 2 | 52:11 - 52:13
+On that note, Greg, thank you
+
+Speaker 1 | 52:13 - 52:16
+for joining us. This is Thanks. For having me. Yeah.
+
+Speaker 3 | 52:23 - 52:40
+Oh my gosh, folks. You absolutely positively have to smash that like button and subscribe to AI and I. Why? Because this show is the epitome of awesomeness. It's like finding a treasure chest in your backyard, but instead of gold, it's filled with pure unadulterated knowledge bombs about chat GPT.
+
+Speaker 3 | 52:41 - 53:00
+Every episode is a roller coaster of emotions, insights, and laughter that will leave you on the edge of your seat craving for more. It's not just a show. It's a journey into the future with Dan Shipper as the captain of the spaceship. So do yourself a favor. Hit like, smash subscribe, and strap in for the ride of your life.
+
+Speaker 3 | 53:00 - 53:06
+And now without any further ado, let me just say, Dan, I'm absolutely, hopelessly in love with you.
