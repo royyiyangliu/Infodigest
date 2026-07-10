@@ -1,0 +1,1067 @@
+Source  : Dwarkesh Podcast
+Title   : Adam Brown – Einstein's happiest thought: General Relativity from scratch
+Date    : 2026-07-10 16:23 UTC
+Link    : https://www.dwarkesh.com/p/adam-brown-gr
+────────────────────────────────────────────────────────────
+
+[00:00] Speaker0: I'm back with adam brown.
+[00:01] Speaker0: You currently lead blue shift at google deepmind, which is cracking science and reasoning.
+[00:04] Speaker0: In a previous life, adam was a prolific physicist taught at stanford and did research on everything from cosmology to string theory to general relativity.
+[00:13] Speaker0: It said, it's general relativity is the most beautiful thing that human mind has ever conceived or seen.
+[00:17] Speaker0: And i was curious if there's a way that ordinary people like me could understand what is happening or have some vintage on why it's beautiful without taking your 20 lecture graduate course.
+[00:27] Speaker0: So that was the prompt for this lecture and appreciate you being willing to do it.
+[00:31] Speaker1: Super exciting to be here.
+[00:32] Speaker1: And yes, i think the answer is yes.
+[00:34] Speaker1: Yes, we can.
+[00:35] Speaker1: Yeah.
+[00:36] Speaker1: So i mean, general relativity einstein's theory of gravity is i think as you say like.
+[00:40] Speaker1: The most beautiful product of a single mind that we've ever created.
+[00:43] Speaker1: It's one of the two great theories of 20th century physics along with quantum mechanics.
+[00:47] Speaker1: And unlike quantum mechanics, it was basically einstein, he had a little help, but basically one person doggedly pursuing this idea for 10 years and then wrote down this theory that.
+[00:59] Speaker1: Ends up describing.
+[01:01] Speaker1: The motion of planets in the solar system and also the origin and fate of the universe and it's pretty pretty extraordinary and it took einstein one of the most famous minds in history about a decade to figure it out.
+[01:13] Speaker1: But you know, when i teach it, i'll do a 10 week course and so in 10 weeks, people will get a better idea of general relativity than einstein really had and.
+[01:24] Speaker1: 10 years, and that's kind of because we have an advantage that einstein didn't have, which is that we have einstein, and many others like him going before us, who've able to take these super complicated ideas that were understood at the time as being totally incomprehensible by anybody with a sub-einstein level of intelligence.
+[01:41] Speaker1: And boil them down to their es- essentials.
+[01:45] Speaker1: Um, and you know, not make many of the same mistakes that were made by our.
+[01:49] Speaker1: Forebearers.
+[01:51] Speaker1: I think in, you know, 10, 20 minutes, i can't give you a better idea of general relativity than einstein had, but we can get to the core insight.
+[01:59] Speaker1: What einstein said was his most beautiful idea and push through it to try and understand what the central idea of this, this theory is.
+[02:10] Speaker1: Okay, let's go before general relativity.
+[02:13] Speaker1: There was there was special relativity.
+[02:16] Speaker1: Um, so special meaning it doesn't apply everywhere.
+[02:21] Speaker1: That was also invented by einstein.
+[02:24] Speaker1: 10 years earlier in 1905.
+[02:28] Speaker1: During his anus merabilis.
+[02:31] Speaker1: And you know, if you want to sloganize special relativity.
+[02:36] Speaker1: You would start with the observation or the the hypothesis that nothing can go faster than light.
+[02:42] Speaker1: Special relativity takes that observation, promotes it to a principle, takes that principle extremely seriously.
+[02:50] Speaker1: As the central observation of our understanding of space-time.
+[02:54] Speaker1: And you arrive at special activity.
+[02:56] Speaker1: Special relativity applies to electromagnetism.
+[03:01] Speaker1: It applies though, einstein didn't even know about these at the time.
+[03:04] Speaker1: It applies straightforwardly to.
+[03:06] Speaker1: The strong and weak nuclear forces to the other fundamental forces that we know about.
+[03:10] Speaker1: It does not obviously apply to gravity.
+[03:14] Speaker1: And so that was corrected 10 years later by einstein.
+[03:22] Speaker1: In his general theory of relativity, a theory more general because it includes includes gravity, completes the set of fundamental forces again invented by Einstein after ten years of dogged pursuit in nineteen fifteen.
+[03:37] Speaker1: If you wanted to sloganize general relativity, you might say: not even gravity, nothing can go faster than light, not even gravity.
+[03:46] Speaker1: There's much more to it than that, but it's going to complete this this this this arc of the centrality of nothing being able to go fast and the the speed of light.
+[03:57] Speaker1: Ok, to to see, you know some some background here, we're gonna have to rewind.
+[04:02] Speaker1: And we're gonna have to rewind.
+[04:05] Speaker1: All the way back to the theory of gravity that existed before Einstein, the reigning theory of gravity at the time of Einstein stretches all the way back to Newton in the late seventeenth century.
+[04:15] Speaker1: Um, so let's, let's talk about that.
+[04:18] Speaker1: So newton's laws.
+[04:20] Speaker1: In his principia in 1687.
+[04:24] Speaker1: Newton's laws.
+[04:26] Speaker1: Well, you had a few.
+[04:28] Speaker1: And, you know, maybe the one that we could most talk about today is two of them, which is his famous second law.
+[04:36] Speaker1: That says, the acceleration a caused by a force.
+[04:43] Speaker1: Is given by the formula.
+[04:45] Speaker1: M a.
+[04:47] Speaker1: Equals f that if you have a force f, it'll cause an acceleration on an object.
+[04:52] Speaker1: Given by a.
+[04:54] Speaker1: Where the mass tells you how much?
+[04:57] Speaker1: A object resists being accelerated.
+[04:59] Speaker1: The bigger the mass, the bigger the force you need to do to cause a given acceleration.
+[05:05] Speaker1: And this law, his second law, will turn out to be still true.
+[05:12] Speaker1: Once we come to general relativity, we'll have to have a more sophisticated understanding of what we mean by force and acceleration, but this will be preserved by general relativity.
+[05:20] Speaker1: A special case of the second law is newton's first law.
+[05:23] Speaker1: Newton's first law says that if the force is zero, then the acceleration is zero.
+[05:29] Speaker1: If the force is zero, then objects continue to move on a straight line.
+[05:35] Speaker1: At all times.
+[05:37] Speaker1: And that will also continue to be true in general relativity, that if the s- if not subject to an external force, objects move along straight lines.
+[05:45] Speaker1: However, we'll have to upgrade our understanding of what we mean by force.
+[05:49] Speaker1: And what we mean indeed by by straight line.
+[05:53] Speaker1: Okay, that's going to keep being true.
+[05:56] Speaker1: The one that's not going to keep being true is Newton's law of gravity.
+[06:00] Speaker1: So newtonian gravity, this tells you what the acceleration is in response to a force, but you need to know what the force is to be able to do anything with that, and newton's law of gravity says that the force caused by the gravitational interaction of two bodies is f.
+[06:19] Speaker1: Well, what's called newton's constants, just some some constant of nature times the mass of one body times the mass of the other body, the mass of the sun times the mass of the earth.
+[06:28] Speaker1: Divided by the distance between them squared, his famous inverse square law, and it points to vector that points in the direction.
+[06:38] Speaker1: the direction of separation and it's attractive, so there's a minus sign there.
+[06:44] Speaker1: This will not be true in generality.
+[06:48] Speaker1: And in fact, you immediately see that there's a tension between.
+[06:52] Speaker1: This gravitational force law, and the claim that nothing can go faster than the speed of light.
+[06:57] Speaker1: If this was literally true, then by jiggling the sun, a court, you know, a straightforward interpretation of this this law would just say that the force at the earthvaries immediately.
+[07:08] Speaker1: I've changed the distance of the earth and the sun, and so i can immediately detect it at the earth, not.
+[07:14] Speaker1: Eight lights, you know, eight minutes later but just immediately so that would imply that you could send an influence faster than the speed of light.
+[07:21] Speaker1: It is inconsistent newton's force law.
+[07:24] Speaker1: With with this principle.
+[07:26] Speaker1: One option, of course, could be that.
+[07:30] Speaker1: This is true for non-gravitational forces, but not true.
+[07:35] Speaker1: Once you have gravity and indeed using gravity, you could perhaps build a faster than light.
+[07:40] Speaker1: Telephone using gravitational effects.
+[07:42] Speaker1: That's a possibility, but not a possibility that einstein really wanted to embrace.
+[07:47] Speaker1: He'd spent, you know, many years chasing out.
+[07:51] Speaker1: Any possibility of going faster than light or any superluminal influences, and so einstein, and in fact many many people at the time, i thought that this is the one that has to give, and indeed that is in fact what's gonna turn out to be.
+[08:03] Speaker1: True.
+[08:06] Speaker1: Okay, so, you know, where are we?
+[08:09] Speaker1: There's actually a precedent here.
+[08:13] Speaker1: For an inverse square law getting.
+[08:16] Speaker1: Modified in such a way that it ends up being.
+[08:20] Speaker1: Being consistent with special activity.
+[08:23] Speaker1: And that that precedent is the other force of nature, the electric force.
+[08:27] Speaker1: So there's also the electrostatic force law, not written down by newton, but written down, you know, essentially also later, which says that the force caused not by the gravitational interaction of two objects, but by the electric static interaction of two charged objects.
+[08:44] Speaker1: Has a very similar form to the gravitational force.
+[08:47] Speaker1: It tells you that the force is equal to some some constant times the charge of one object times the charge of the other object.
+[08:55] Speaker1: Pointing also in the direction of separation between the object, between the two objects, divided by.
+[09:04] Speaker1: The distance square another inverse square law.
+[09:07] Speaker1: And again, for exactly the same reason, the electrostatics looks to be inconsistent.
+[09:12] Speaker1: With special activity.
+[09:15] Speaker1: But ultimately it's it's not or ultimately this is not the full story.
+[09:20] Speaker1: Electrostatic is just one limit of the true theory of electromagnetism which is maxwell's laws that has not just electric forces.
+[09:28] Speaker1: It also has magnetic forces, and the electric forces only look exactly like this when nothing is is moving.
+[09:35] Speaker1: When things do start to move, there are additional corrections to this, all of which conspire to make the electrostatic force law fully consistent with special relativity.
+[09:47] Speaker1: In fact, the direction, the historical direction of understanding ran the opposite way.
+[09:51] Speaker1: First of all, you have maxwell in the middle of the nineteenth century.
+[09:54] Speaker1: Writing down Maxwell's equations and only later do people notice.
+[10:00] Speaker1: Hey, maxwell's equations actually are sort of fully consistent with nothing can going faster than the speed of light, and that consistency is reflected in a symmetry called the lorentz symmetry.
+[10:11] Speaker1: Of the maxwell's field equations, only noticed later after they were written down, that eventually led einstein to formulate his special theory of relativity.
+[10:19] Speaker1: So we have a we have a precedent for starting with an an inverse square law, and then you know dressing it up in a full relativistically invariant theory.
+[10:29] Speaker1: And so you might say, well, let's just s- take gravity and do exactly the same thing to gravity that we did to the electrostatics, in order to make some gravitomagnetic theory that makes.
+[10:42] Speaker1: A newton's second law, a approximation that's ultimately consistent with the special activity and in some grand sense that is what we're going to end up doing.
+[10:53] Speaker1: That is what einstein's going to end up doing, but it's going to be a much more radical departure than the maxwell generalization of electrostatics.
+[11:02] Speaker1: and there's really two hints, both of which are visible in this formula, that we're going to have to do something slightly different than we did for electrostatics.
+[11:11] Speaker1: The first thing to notice, the dif-, the first difference between the electrostatic for uh law and newton's law of gravity is this sign difference.
+[11:22] Speaker1: There is a big difference, which is that here it is a minus sign, and here it is a plus sign.
+[11:27] Speaker1: That is reflected in the fact that if you have two positive mass, uh, you know, the earth and the sun.
+[11:34] Speaker1: They gravitationally attract each other.
+[11:36] Speaker1: Conversely, if you have two.
+[11:40] Speaker1: Like charges, they electrostatically repel each other.
+[11:46] Speaker1: which is why that's a minus sign and that's a plus sign.
+[11:50] Speaker1: That is, that means that you cannot do literally the same thing for gravity that you did for electromagnetism, because otherwise if you did mathematically the same trick, you'd end up with mathematically the same result.
+[12:04] Speaker1: Which is that you would find that like masses would repel rather than attract.
+[12:09] Speaker1: Not to get ahead of ourselves, but ultimately that's because electrostatics is mediated by a spin one particle, the photon, and gravity is going to be mediated by a spin two particle.
+[12:21] Speaker1: And that's that's responsible for the change in change in that sign now.
+[12:25] Speaker1: Ok, so that's why you can't do exactly the same thing as electrostatics, and so einstein had to look for something else, he had to look for some other way.
+[12:32] Speaker1: to try and lift this to a relativistically invariant theory.
+[12:38] Speaker1: And in doing that, he had one clue, and you know there's lots of stuff going on.
+[12:43] Speaker1: It's parts of einstein's central genius to focus on this as a highly significant clue of where he should look.
+[12:50] Speaker1: Sometimes described this is his most beautiful thought, is is how he would describe it.
+[12:55] Speaker1: And the clue is this, there is another difference between the gravitational uh.
+[13:02] Speaker1: Force law and the electrostatics, and that is the.
+[13:08] Speaker1: this object that plays the role of the charge, the analog of the charge in electrostatics and gravity, and it's the fact that it's the mass sitting here.
+[13:19] Speaker1: And that's like a strange coincidence from from newtonian physics.
+[13:26] Speaker1: So mass in electrostatics force forces and accelerations plays exactly one role is sitting here.
+[13:33] Speaker1: It's the it's the inertia of the object and it's what is resisting being accelerated.
+[13:40] Speaker1: Um, this is sometimes called the inertial mass that's sitting here.
+[13:44] Speaker1: And then the charge is completely different and unrelated to the mass.
+[13:46] Speaker1: You can have heavy objects that have no charge like the neutron.
+[13:52] Speaker1: You can have light objects like the electron that have high charge.
+[13:55] Speaker1: There is no relation necessary relation between the charge of a particle and its mass.
+[14:00] Speaker1: They're just two entirely separate things.
+[14:03] Speaker1: not true in gravity, in gravity.
+[14:06] Speaker1: This mass that's sitting here in newton's second law, the inertial mass that's resisting the resisting the force.
+[14:14] Speaker1: Is exactly equal to the mass that's sitting here in newton's gravitational law.
+[14:20] Speaker1: That's telling you how much you're pulled along.
+[14:23] Speaker1: It's the same mass.
+[14:24] Speaker1: This is sometimes called the gravitational mass.
+[14:26] Speaker1: This is sometimes called the inertial mass.
+[14:29] Speaker1: Um, and so unlike in electrostatics, the gravitational mass.
+[14:38] Speaker1: that appears in this formula is equal to what's sometimes called the inertial mass.
+[14:46] Speaker1: That sits in this formula.
+[14:50] Speaker1: This equation is already true in newtonian physics.
+[14:53] Speaker1: Newton noticed it in fact and did a number of experiments.
+[14:56] Speaker1: To confirm that this was true to, you know, one part in a thousand or so by the time of einstein, we know it was true to one part in a billion.
+[15:03] Speaker1: And now we know it's true to one party in 10 to the 10 to the 15.
+[15:08] Speaker1: Um, you know, it's striking that these two that in newtonian physics is just a complete coincidence.
+[15:13] Speaker1: Essentially, that those two are the same thing.
+[15:15] Speaker1: Nevertheless were observed to be exactly the same thing and this was einstein's.
+[15:20] Speaker1: He honed in on this fact and it was his central, his central clue for what to do next.
+[15:26] Speaker1: This is sometimes called the equivalence principle, and it's responsible for the fact that if you take a a feather and a brick in a vacuum chamber, and drop them both.
+[15:37] Speaker1: They will both fall and hit the ground at the same time.
+[15:40] Speaker1: They'll fall and hit the ground at the same time, because even though the force on.
+[15:45] Speaker1: The brick is much stronger than the force on the feather, because it's heavier.
+[15:49] Speaker1: That exactly cancels out the fact that the resistance to force on the brick.
+[15:55] Speaker1: Is larger than the resistance to acceleration of the feather, and they exactly fall at the same rate.
+[16:01] Speaker1: So that the equality of those two is responsible for that exact equality.
+[16:06] Speaker1: Ok, so einstein's genius was to hone in on this as a central clue for how he is going to end up replacing newton's law.
+[16:17] Speaker1: And a reason it's a central clue is because there is in fact another class of forces, not fundamental forces like electromagnetism or gravity, but a set of emergent forces.
+[16:29] Speaker1: That exactly have this property baked into them.
+[16:31] Speaker1: That they must that that's guaranteed in those theories and to explain that we're now going to move over to the experimental section of this discussion.
+[16:42] Speaker1: So here's a bucket.
+[16:47] Speaker1: Here's some water.
+[16:49] Speaker1: Filling the bucket.
+[16:52] Speaker0: You better know your physics adam.
+[16:54] Speaker0: Otherwise i destroy the studio and no tricks.
+[16:57] Speaker1: Will you will you put your finger in that and confirm that it's wet?
+[17:00] Speaker1: Okay, so you know, here is the bucket at the bottom.
+[17:05] Speaker1: No, no mystery.
+[17:06] Speaker1: Why the water is not falling out of the bucket.
+[17:09] Speaker1: It's not falling out because the point force of gravity as we understand it is pointing down to the bottom of the bucket.
+[17:15] Speaker1: But now what we're going to do is go a little bit faster and loop the loop.
+[17:22] Speaker1: And now, there is what you might find superficially surprising, which is that the water doesn't fall out of the bucket, even when the bucket is upside down.
+[17:34] Speaker1: And there are two ways to understand that.
+[17:36] Speaker1: One way is just the straightforward way, which is that you would say.
+[17:41] Speaker1: You know, the water wants to fall out of the bucket when it's at the top of its arc.
+[17:47] Speaker1: But by the time it's got itself together to accelerate enough to fall out of the bucket, the bucket's moved on and is is now below and it just didn't have time to fall out of the bucket, you know, or you might say the same reason that astronauts don't end up falling to earth.
+[18:02] Speaker1: There is a second perspective.
+[18:04] Speaker1: The second perspective, which is an equally valid perspective, is imagining that you're riding along with the water in the bucket.
+[18:10] Speaker1: And from that point of view, there's another explanation for why the water doesn't fall out of the bucket.
+[18:15] Speaker1: And that is the centrifugal force, that from the perspective of somebody moving along with the bucket, there is a force pushing them towards the bottom of the bucket.
+[18:25] Speaker1: Um, and that force is is known as the centrifugal force.
+[18:33] Speaker1: And it's it's what's known as a fictitious or or inertial force, and the centrifugal force just says that you know, there is a force caused by being in a rotating reference frame, given by your your speed divided by the radius.
+[18:51] Speaker1: The the radius of the circle you're going round in, pointing outwards, positively outwards.
+[18:58] Speaker1: And so this is the centrifugal force that pins you to the to the bottom of the the bucket, or pins you to the outside of the car as you go around a bend.
+[19:07] Speaker1: Um and okay, what do we notice?
+[19:09] Speaker1: What we notice is that your charge under the centrifugal force, if you will, how intensely you feel a centrifugal force is once again, just like with gravity, but unlike with electrostatics given by your mass, you know, the centrifugal, the mass of centrifugal force that tells you how much centrifugal force you get is given by your inertial mass.
+[19:30] Speaker1: But of course, here is absolutely no mystery whatsoever.
+[19:33] Speaker1: Why the mass that sitting here on the right hand side is given by is given by the your inertial mass.
+[19:40] Speaker1: It is given by your inertial mass precisely because it is the tendency.
+[19:44] Speaker1: The reason you're experiencing this force is precisely the tendency of masses to wish to move along straight lines and the fact that you're not moving in the wrong straight line, you're moving in a circle.
+[19:53] Speaker1: It is precisely that inertial tendency that causes the mass to begin with.
+[19:57] Speaker1: Another way to say it is, for any time you have one of these inertial forces caused, just caused by your inertia, it is guaranteed to be the case that the charge under that force is given by the inertial mass.
+[20:13] Speaker1: Ok, so inertial forces always have a charge given by the inertial mass, gravity.
+[20:23] Speaker1: Has a a charge, the charge of gravity is given by the inertial mass.
+[20:28] Speaker1: So, einstein left, could it be the case, and this was his central idea.
+[20:34] Speaker1: Could it be the case that gravity itself is an inertial force?
+[20:38] Speaker1: That's permitted, because the the gravitational mass is equal to the inertial mass.
+[20:42] Speaker1: It will be totally impossible straightforwardly for something like electromagnetism.
+[20:46] Speaker1: Because you would require that the electromagnetic charge is equal to the inertial mass, which is just simply false for electromagnetism.
+[20:53] Speaker1: Could it be the case?
+[20:54] Speaker1: Einstein asked that it that it's true for gravity.
+[20:57] Speaker1: It's permitted by this fact, it would also explain this fact, as now not an accidental truth like newton's laws, but a necessary fact about the world.
+[21:05] Speaker1: So this was Einstein's central idea in 1907, his most beautiful thought, but it sounds totally crazy.
+[21:14] Speaker1: It sounds totally crazy because.
+[21:17] Speaker1: It requires us to be wrong about what straight lines are.
+[21:21] Speaker1: It is an extremely radical proposition for the reason that i will describe right now.
+[21:26] Speaker1: Inertial forces like like the centrifugal force, or like the coriolis force, or any of these other ones that that we're familiar with.
+[21:37] Speaker1: Inertial forces are forces you experience when you are not moving on a straight line.
+[21:42] Speaker1: When you are moving on a straight line, you don't experience any forces, you don't experience inertial forces.
+[21:49] Speaker1: So, in order for this to be true, we'd have to say that.
+[21:54] Speaker1: astronauts who are free floating and free falling are moving along a straight line.
+[22:00] Speaker1: We'd have to say that you, who is just sitting there, seemingly not moving, who is experiencing the force of gravity pushing you into your chair, we'd have to say that you're not moving along a straight line.
+[22:11] Speaker1: So we'd have to be pretty wrong about who's moving along a straight line and who's not moving along a straight line.
+[22:17] Speaker0: As I've gotten to know the folks at Jane Street, I've noticed that a lot of them have physics backgrounds.
+[22:21] Speaker0: I recently got a chance to talk to Jed Thompson, who was a particle physicist before he was a trader, about how his physics training helps him with his work at Jane Street.
+[22:29] Speaker1: I think very few Jane Street traders or researchers come in with any finance background or any trading background.
+[22:36] Speaker1: When I used to be in physics, something that I would say is I almost never do a calculation without already having a pretty good guess at the answer.
+[22:43] Speaker1: In trading, I think the same is true.
+[22:45] Speaker1: These things are fundamentally models for how the world is behaving.
+[22:49] Speaker1: You can build good intuition by seeing patterns over and over again, and come to a point where you're mostly asking the right question from the beginning, which short circuits a lot of the work.
+[23:01] Speaker0: So even if you don't have a finance background, or for that matter a physics background, you should still consider applying.
+[23:06] Speaker0: Go to janesstreet.
+[23:08] Speaker0: com slash torcash to learn more.
+[23:10] Speaker1: So, this is a radical idea, cause it requires us to be wrong about what a straight line is.
+[23:15] Speaker1: In particular, you sitting here, just sitting in your chair, here is your height above the center of the earth.
+[23:25] Speaker1: as function of time.
+[23:31] Speaker1: And here is the walkash, just sitting here at constant height.
+[23:37] Speaker1: Because you are experiencing the force of gravity, if gravity is an inertial force.
+[23:41] Speaker1: 'cause you experiencing a a force down, that means that you have to be moving along a not straight line.
+[23:53] Speaker1: So that's you.
+[23:54] Speaker1: By contrast, this piece of chalk as it goes up and down executes something that's well approximated by a parabola.
+[24:06] Speaker1: There is the chalk up and down.
+[24:09] Speaker1: The chalk you know is in free fall until i catch it, which means that if gravity is an inertial force, this has to be straight.
+[24:18] Speaker1: Now certainly the way i've plotted it, this looks straight, and that one does not.
+[24:23] Speaker1: So, if gravity is to be an inertial force, we have to be confused wrong about what is a straight line and what is not a straight line.
+[24:33] Speaker1: However, this is actually a situation to which you should be familiar, if you've sat in an airplane seat and looked at the screen in front of you.
+[24:41] Speaker1: If you imagine the map that you see on a airplane, imagine you are flying from.
+[24:50] Speaker1: San francisco to london.
+[24:52] Speaker1: Now, i'm not not good at drawing the earth, but here is my version of it.
+[24:58] Speaker1: Here we are in san francisco.
+[25:01] Speaker1: Here is greenland.
+[25:05] Speaker1: coming in from the North Pole.
+[25:07] Speaker1: Um, and here is england.
+[25:12] Speaker1: Here's london.
+[25:13] Speaker0: I can tell you our physicists because of the very idealized forms of the contents.
+[25:19] Speaker1: Um, And you know, sometimes it can be quite frustrating sitting there in the back seat of the airplane, because you know obviously the plane should be flyinglike this, moving along the shortest distance from one place to another.
+[25:35] Speaker1: But instead they take this massive detour.
+[25:39] Speaker1: that clips greenland.
+[25:42] Speaker1: And heads on down.
+[25:44] Speaker1: You know that in fact that's not what's going on.
+[25:46] Speaker1: You know that in fact, despite what it looks like on the graph.
+[25:50] Speaker1: This is not a straight line, this this rum line that sometimes called is not straight, and would certainly not be the shortest path from san francisco to.
+[26:01] Speaker1: London and this is in fact to good approximation a straight line.
+[26:08] Speaker1: So in fact, the straight line from San Francisco to London does indeed go over Greenland, as they will now demonstrate.
+[26:21] Speaker1: So here is san francisco, here is london, and you can see that the straight line that goes straight from one to the other would go in this direction.
+[26:34] Speaker1: Over Greenland and hit London.
+[26:39] Speaker1: That's obvious on this map, cause this map obviously reflects the curvature of the earth.
+[26:45] Speaker1: This map is getting confused, and it's getting confused because it's trying to pretend that the earth is flat.
+[26:54] Speaker1: It is trying to ignore the curvature of the earth.
+[26:57] Speaker1: And because it's trying to map a round earth onto a flat panel, there has to be distortions.
+[27:04] Speaker1: And whenever you try and take something that is curved and pretend it's not curved, you will inevitably being end up being wrong about what is and is not a straight line.
+[27:15] Speaker1: You see this on the earth, where this line that goes up, and then comes down, is in fact the straight line.
+[27:24] Speaker1: You see it also in space time, with general relativity, where this.
+[27:31] Speaker1: Parabolic arc of the chalk as it's thrown up.
+[27:35] Speaker1: It is in free fall, it is the straight line in general relativity, and just like in general relativity, the reason you are confused about what's straight and what's not straight is that you are trying to pretend with this graph that.
+[27:49] Speaker1: You are in a flat space time.
+[27:52] Speaker1: And in fact, you're in a curved space time.
+[27:55] Speaker1: So in einstein's theory, the effect of matter is going to be to curve space time.
+[28:02] Speaker1: And through curving space time, it's going to change.
+[28:06] Speaker1: What's a straight line and what's not a straight line?
+[28:09] Speaker1: And then people who are going along what they incorrectly think of a straight lines are gonna experience the gravitational force, whereas astronauts are going to not experience the gravitational force.
+[28:22] Speaker1: The only missing piece here is to mathematically characterize the way in which space time is curved.
+[28:31] Speaker1: You know that in newtonian physics, the newtonian force is caused by the presence of mass in einstein's general theory of relativity.
+[28:39] Speaker1: It will be the curvature of space-time that is caused by the mass.
+[28:45] Speaker1: And he struggled for eight years between 1907 when he had this, this picture approximately mapped out.
+[28:54] Speaker1: and nineteen fifteen when he wrote down in its finished form his general theory of relativity and the final output of that eight years was a was his famous formula.
+[29:05] Speaker1: that I will not explain, but will.
+[29:09] Speaker1: write down.
+[29:12] Speaker1: that exactly captures his intuition.
+[29:23] Speaker1: And i will walk you through this formula.
+[29:25] Speaker1: And so this is just a beautiful formula and the left hand side.
+[29:31] Speaker1: Is some mathematics invented by some eastern europeans that characterizes the curvature of space-time.
+[29:39] Speaker1: This says how much space-time is curved.
+[29:42] Speaker1: This is some some tensor and the tensor will be zero if space-time were flat.
+[29:46] Speaker1: and it's non-zero when space-time is not flat, it's curved in a particular way.
+[29:52] Speaker1: Um, on the right hand side is not space-time anymore.
+[29:54] Speaker1: On the right hand side is matter.
+[29:56] Speaker1: There's some some constants just, you know, our old friend newton's constant pi and even older friend and the speed of light.
+[30:05] Speaker1: And and then this quantity team, you knew team, you knew is like a relativistic generalization of the mass that sits on the right hand side of newton's.
+[30:17] Speaker1: Force equation, and so it is saying that the presence of mass, and in fact not just mass, but all forms of of mass and energy, on the right hand side.
+[30:27] Speaker1: Causes the curvature of space time on the left hand side, or in a slogan, matter tell space time how to curve.
+[30:36] Speaker1: And then once mass is told space time how to curve, the curvature of space time tells matter how to move in the second half of the slogan, where the curvature of the space time tells matter to move along straight lines of the curved space.
+[30:49] Speaker1: And so experience fictitious forces if you try and pretend that space time is flat.
+[30:54] Speaker1: And that is einstein's general theory of relativity in a nutshell, backing up.
+[30:58] Speaker1: Like, an amazing thing about newtonian gravity is that he invented it, you know.
+[31:05] Speaker1: Allegedly do some thought experiment to do with an apple falling off a tree, and it describes not only an apple falling off a tree, but the motion of the objects in the heavens.
+[31:13] Speaker1: Like that's, it's like massive cross hit.
+[31:16] Speaker1: Like that, that it describes planetary motion, and also an apple falling off a tree.
+[31:21] Speaker1: And this was like this amazing thing that newton like unified the heavens and the earths, and like, you know, had it had one formula that applied to both.
+[31:28] Speaker1: General relativity does all of that, and goes one step further.
+[31:30] Speaker1: It describes the motion of apples falling off trees, it describes the motion of mercury and the planets in the solar system, and it describes the expansion of the entire universe.
+[31:39] Speaker1: That's like a crazy, you know, huge numbers of order orders of magnitude hit that does that dots all of those.
+[31:46] Speaker0: You're saying a moment ago, one of the beautiful things about this theory is that it has reached in all these interesting ways that was not originally anticipated to solve this original observation that einstein had.
+[31:57] Speaker0: And one of them obviously is the black hole.
+[31:59] Speaker0: So i would love to get more insight than the than the high school version of light falls into it and can't get out of why black holes work the way they do.
+[32:08] Speaker1: Yeah, so black holes are fascinating.
+[32:11] Speaker1: A objects in general relativity and really the quintessential object in general relativity that doesn't really exist in the same way in newtonian physics and the story is kind of wild.
+[32:22] Speaker1: So einstein wrote down his field equations, the field equations we wrote on the board describing the relationship between curvature and the amount of energy in the system.
+[32:32] Speaker1: And he thought, you know, that those equations are so complicated, no one would ever come up with.
+[32:37] Speaker1: Exact solutions to them, and we just always be having to do approximations, and that turned out not to be correct, that schwarzchild, who was a prussian artillery officer in the first world war.
+[32:50] Speaker1: In between writing, you know, calculating the trajectories of.
+[32:55] Speaker1: Artillery that they were lobbing over in the direction of their enemy, he figured out that in fact einstein's equations pretty much immediately after einstein had written them down within a matter of months.
+[33:06] Speaker1: In fact have an exact solution, an exact solution, a solution now known as the schwarzschild equation, and that we now.
+[33:15] Speaker1: Understand describes a black hole.
+[33:18] Speaker1: It is a solution in which there is no matter, except possibly at the very very center, in a way we will not not describe, is a central point likeamount of matter, and it describes what the space time around that looks like.
+[33:31] Speaker1: It's called the schwarzschild solution, and it describes a black hole.
+[33:34] Speaker1: They were not called a black hole at the time.
+[33:36] Speaker1: In fact, people were extremely confused about what this solution even meant.
+[33:41] Speaker1: People wrote down wrong things for about half a century about what this meant.
+[33:45] Speaker1: And perhaps the worst defender was was einstein, who got extremely confused about it, particularly confused about what i will describe as the event horizon, and and said, wrote all sorts of wrong things about how objects would maybe bounce off the event horizon.
+[33:56] Speaker1: Just totally confused from a modern perspective, it's extremely simple to understand.
+[34:00] Speaker1: What's going on?
+[34:01] Speaker1: So let me tell you what a black hole is.
+[34:04] Speaker1: General relativity, as we set it up, is about the collision between gravity and the finite speed of light, and the simplest collision you could do is actually noticed by people, even in the eighteenth century.
+[34:14] Speaker1: Before we had special relativity or anything like that, and they just asked a a a very simple question.
+[34:20] Speaker1: If you want to.
+[34:22] Speaker1: shoot something off the earth, you know, you need to shoot it with a certain velocity, the escape velocity.
+[34:28] Speaker1: Um, you need to shoot it fast enough if you want to escape far away from the earth.
+[34:33] Speaker1: So that the kinetic energy of the object, you're shooting is equal to the gravitational binding energy of the earth's surface.
+[34:40] Speaker1: M is the mass, the earth and r is the surface of the earth.
+[34:43] Speaker1: And for earth that turns out it's about 11 kilometers per second to see escape velocity.
+[34:48] Speaker1: But for objects that are heavier or more compact, the escape velocity is larger.
+[34:54] Speaker1: So for example, jupiter would be hundreds of kilometers a second.
+[34:58] Speaker1: You need to, you need to shoot it off off the earth and you can imagine objects that are so heavy or so compact that in fact, the escape velocity becomes equal to the speed of light.
+[35:08] Speaker1: And so people know idly wondered what would happen then.
+[35:12] Speaker1: They didn't have the tools to address it, but in the in the 18th century, they wanted what happened and you can calculate what the critical value of the velocity is and just putting the velocity equal to the speed of light.
+[35:23] Speaker1: This gives a critical radius of 2.
+[35:28] Speaker1: Gm, the mass of the object cancels divided by c squared.
+[35:34] Speaker1: And so that's a somewhat suggestive that if you had an object that was this compact and had this mass, the escape velocity would be given by c, the speed of light.
+[35:44] Speaker0: The connection you're pointing out is a newtonian one.
+[35:46] Speaker0: Did anybody make this connection before?
+[35:48] Speaker1: Absolutely.
+[35:49] Speaker1: So people in the late 18th century wrote this formula down.
+[35:52] Speaker1: I think both mitchell and laplace had this in the in the 18th century and they said that if you had a.
+[35:58] Speaker1: An object that there was that was that massive and and compact light would not be able to escape that reasoning is not particularly compelling by modern standards but it does turn out to be exactly correct.
+[36:09] Speaker1: Even including crazily, this factor of two is even even correct for a complete completely coincidental reasons.
+[36:15] Speaker1: Let me give you a more compelling more compelling argument than that.
+[36:19] Speaker1: That something funny is going to happen around this around this radius.
+[36:22] Speaker1: And to do that, let's think about trying to extract energy from objects by lowering the objects down towards a central, a central mass.
+[36:30] Speaker1: So let's start off perhaps with the earth here it is.
+[36:33] Speaker1: I'm going to start off a long way away from the earth.
+[36:36] Speaker1: With a brick, a brick of mass m.
+[36:39] Speaker1: And i'm going to take this this brick and attach it to a pulley system.
+[36:43] Speaker1: And then i'm going to slowly lower the brick down towards the surface of the earth.
+[36:48] Speaker1: And deposit it with zero velocity on the surface of the earth down there.
+[36:53] Speaker1: And doing so, i can extract energy from the brick.
+[36:57] Speaker1: I've extracted energy from the brick because i'm there's a force pulling the brick down that force.
+[37:02] Speaker1: I'm doing for a certain distance and that gives you an energy and we know at least in newtonian physics, what the formula for the amount of energy you can extract from the brick is.
+[37:10] Speaker1: The amount of energy you can extract from the brick is g times the mass of the earth.
+[37:15] Speaker1: Times the mass of the brick.
+[37:18] Speaker1: Divided by r the radius away.
+[37:20] Speaker1: It's an energy on four.
+[37:21] Speaker1: So it's an inverse are distance law, not number squared distance law.
+[37:26] Speaker1: That's the energy.
+[37:26] Speaker1: You can extract from the brick by lowering it down to a distance r away from the earth.
+[37:30] Speaker1: And of course, if you try and lower it beyond the surface of the earth, this formula, this formula changes, but let's just put on the surface of the earth.
+[37:37] Speaker1: And so, you know, this is the amount of energy i've got out here a long way away, and have extracted from the brick.
+[37:41] Speaker1: You can ask what fraction of the rest mass energy of the brick have i extracted?
+[37:47] Speaker1: This is a question that you would only naturally ask once you've invented special relativity, and know that the rest mass energy is given by mc squared.
+[37:54] Speaker1: And so the.
+[37:55] Speaker1: We can we can straightforwardly calculate at least in this approximation that the fraction of the energy that you've extracted is is that divided by.
+[38:06] Speaker1: The rest mass energy you started with, the mass of the brick of course is going to cancel, but not the mass of the earth.
+[38:12] Speaker1: And this is going to be given by g times the mass of the earth.
+[38:17] Speaker1: Divided by c squared times the radius, away from the earth at which you stop.
+[38:23] Speaker1: the radius of the earth, so how much energy, what fraction have i got out of it?
+[38:28] Speaker1: if you lower down to the earth's surface.
+[38:33] Speaker1: Then the answer is, you haven't really extracted that much from the brick.
+[38:38] Speaker1: you you've extracted a fraction seven times ten to the minus ten of the original rest mass energy of the brick.
+[38:46] Speaker1: Uh, doing doing useful work a long way away.
+[38:48] Speaker1: Um, interestingly, well, first observation: this is small.
+[38:54] Speaker1: In other words, the gravitational binding energy of something on the Earth's surface is quite small in natural units, and that's why we didn't really notice general relativity.
+[39:05] Speaker1: On the earth's surface until we did very sensitive experiments because general relativity is in some sense a tailor expansion in this in this number that the relativistic effects where the first order term is just newtonian.
+[39:15] Speaker1: And then the next order terms will give you the gr corrections to the newtonian answer.
+[39:20] Speaker1: Observation number two, and this is something of a digression, but observation number two is that by essentially sheer coincidence, this number here, Is very close to the chemical binding energy of rocket fuel.
+[39:35] Speaker1: So if you take a rocket fuel like oxygen hydrogen mix, the chemical energy.
+[39:41] Speaker1: Binding the rocket together, which is the energy that you're going to extract when you burn it to make your rocket go divided by the mc squared of the oxygen and hydrogen.
+[39:52] Speaker1: You're going to you're going to mix together is is given by 1.5 times 10 to the minus 10.
+[40:01] Speaker1: First observation, these two are close to each other even though they came from completely different calculations.
+[40:06] Speaker1: This was a gravitational calculation.
+[40:07] Speaker1: There was something to do with the earth.
+[40:11] Speaker1: This is a.
+[40:12] Speaker1: A chemical property of hydrogen and and oxygen.
+[40:17] Speaker1: This is also very small.
+[40:19] Speaker1: The reason it's very small is that almost all of the energy in hydrogen oxygen is not stored in the chemical binding energy of these things going together.
+[40:28] Speaker1: The vast majority of it is stored in just the the rest mass energy of the protons and the neutrons, that chemistry burning doesn't affect at at all.
+[40:37] Speaker1: The second largest amount is stored in the nuclear binding energy of the protons and the neutrons to each other, giving way the strong force and the weak force, which again chemical reactions don't don't touch at all.
+[40:47] Speaker1: This is a small number, because chemistry is chemical bonds are very weak compared to the rest mass of the things we're considering.
+[40:55] Speaker1: These two small numbers are almost exactly equal to each other, which is why we can use chemical rockets to get to space.
+[41:01] Speaker1: But it's hard.
+[41:03] Speaker1: In particular, this number is a few times bigger than this number.
+[41:08] Speaker1: Which means that.
+[41:10] Speaker1: Almost all of the vast majority, your payload fraction is quite small.
+[41:14] Speaker1: When trying to use chemical rockets to get to space, because most of your your fuel cannot get to orbit.
+[41:21] Speaker1: You have to pay a rocket factor.
+[41:24] Speaker1: That's gonna tell you that most of your payload that sitting there on the launch pad is gonna have to be burnt up before you get to space, in order to get a small fraction of the of the.
+[41:35] Speaker1: Of the rocket up to space.
+[41:37] Speaker1: In other words, we can use chemical rockets to get to space in a way that would be totally impossible if we try to do it from the surface of the sun.
+[41:45] Speaker1: But it's hard.
+[41:46] Speaker1: Ok, that's the fraction on on the earth, but this formula tells you that if you have an object that's that's heavier, or or more compact, the fraction of.
+[41:56] Speaker1: Of energy that you extract by lowering the object down to the surface is going to be larger.
+[41:59] Speaker1: So for example, if you lower it not down to the earth's surface but down to the sun's surface.
+[42:05] Speaker1: This would be larger.
+[42:07] Speaker1: You know, a million times larger because the sun is, you know, a few million times the mass of the earth, but then it's also bigger.
+[42:15] Speaker1: So that takes it away a little bit and you end up with two times 10 to the minus.
+[42:21] Speaker1: Six famous red shift from the sun's surface and you can escalate from there, you know, you can imagine cramming a sun like mass.
+[42:32] Speaker1: into a earth like radius to make this formula even bigger.
+[42:35] Speaker1: In fact, that's that's pretty much exactly what what so you know sun mass.
+[42:43] Speaker1: earth radius.
+[42:46] Speaker1: Um, which is about what happens in a white dwarf like like serious b.
+[42:51] Speaker1: And this would get even bigger.
+[42:54] Speaker1: Again, a larger fraction of the mass of the object, you'll be extracting by lowering it down to the surface, but it really feels like something has to give before we make a object that is too mass, too massive and too compact in particular.
+[43:09] Speaker1: If you look at this formula, you know what happens?
+[43:14] Speaker1: For our.
+[43:16] Speaker1: Less than our equal to.
+[43:18] Speaker1: Gm.
+[43:19] Speaker1: Over c squared.
+[43:21] Speaker1: If this object here was so compact.
+[43:25] Speaker1: And so heavy that it had a radius less than the mass of the object divided by c squared.
+[43:32] Speaker1: It sure looks like you could get more than 100% the fraction with bigger than one.
+[43:37] Speaker1: You can get more than 100% of the mass of your brick back by lowering it down to the surface of this object.
+[43:44] Speaker1: And that feels wrong.
+[43:45] Speaker1: That feels in fact, sort of more wrong than what's going on here because now you've got all this energy along their way and you could perhaps use it to make a whole new brick.
+[43:55] Speaker1: You've got all this more than mc squared out there, lower that one down and it feels like we've figured out a way to.
+[44:02] Speaker1: To make a huge amount of energy where there was no energy before.
+[44:08] Speaker1: This argument is pretty suggestive that something has to go wrong by the time you get down to that radius.
+[44:13] Speaker1: And indeed, when you do the calculation, you know, this is a newtonian calculation, so it's only suggestive.
+[44:18] Speaker1: But when you do the calculation in full general relativity, indeed something does go wrong.
+[44:21] Speaker1: And and the thing that goes wrong is that you form a black hole.
+[44:27] Speaker1: You could imagine two ways that you you could avoid this conclusion.
+[44:31] Speaker1: One would be somehow that gravity becomes very weak when you get close to a massive object, weaker than the newtonian.
+[44:39] Speaker1: Law would predict.
+[44:41] Speaker1: That's sort of what saves you if you try and repeat this same trick in electromagnetism, lowering a charge down towards another charge and trying to extract the electrostatic.
+[44:52] Speaker1: Energy between them.
+[44:54] Speaker1: What happens is essentially due to quantum effects, when one gets too close to the other, they all start to fuzz out, and this, the inverse the energy going like inverse r gets softened, and you can't extract more energy because they they stop attracting each other so hard.
+[45:12] Speaker1: So that's one possibility, is thatthe force gets weaker than.
+[45:17] Speaker1: Newtonian law would predict as you approach the other object.
+[45:22] Speaker1: That's actually the opposite of how general relativity results.
+[45:25] Speaker1: This general relativity results, this paradox by the the force getting stronger than newtonian law would predict in particular, the force gets strong.
+[45:37] Speaker1: So strong.
+[45:38] Speaker1: When you try and get within this radius, that in fact, you cannot slowly lower the brick down towards the surface.
+[45:44] Speaker1: Because you've formed a black hole.
+[45:46] Speaker1: The gravitational force becomes infinite, a finite distance distance away, not at r equals zero, but as a finite value of r and the brick simply gets ripped out of your hand and you're unable to extract the extract any more energy out of it.
+[45:58] Speaker1: And that's the resolution that general relativity provides this paradox.
+[46:01] Speaker1: And in particular, you will find that you formed black hole.
+[46:05] Speaker0: Crusoe gave us early access to their serverless fine-tuning product, which lets you fine-tune open models without having to deal with infra or provisioning.
+[46:12] Speaker0: I thought it'd be cool to try fine-tuning a question generator using the transcripts of my old interviews.
+[46:17] Speaker0: Have the models gotten so good that if they had all my research and prep, and they could look at a conversation so far.
+[46:22] Speaker0: They could ask a next question better than i would.
+[46:25] Speaker0: Crusoe made the implementation super straightforward.
+[46:27] Speaker0: I just uploaded the data.
+[46:29] Speaker0: Picked an open model and started the run.
+[46:31] Speaker0: I didn't have to touch any of the hyperparameters crusoe's applied.
+[46:34] Speaker0: Ait maintains optimal recipes for each model.
+[46:36] Speaker0: So i just said everything on auto when the run finished, i deployed it as a self-store endpoint and built an eval for my team.
+[46:42] Speaker0: I had them choose the best next question out of three anonymized choices.
+[46:46] Speaker0: One that was produced by the base model, one that was produced by the fine-tuned model and one that i actually asked.
+[46:52] Speaker0: Fortunately, my team preferred my actual questions about two thirds of the time.
+[46:56] Speaker0: Hopefully, this benchmark doesn't saturate.
+[46:58] Speaker0: And in the remaining cases, the almost always preferred the fine-tuned model over the base model serverless inference is live now and serverless fine-tuning goes live next week.
+[47:07] Speaker0: Lord more at crusoe dot ai slash thor cash.
+[47:12] Speaker1: So far, everything we written down on the board is is newtonian.
+[47:14] Speaker1: It's just newtonian and you just stop plugging in the speed of light and you start getting confused to actually answer some of these questions that were asking you need to go to general relativity.
+[47:22] Speaker1: The theory that correctly unifies the.
+[47:25] Speaker1: Speed of light with gravity and this was first done in the context of black holes by schwarzschild who wrote down the schwarzschild metric that describes the gravitational field around a central mass, including potentially around a black hole.
+[47:39] Speaker1: And let me just write down some of the formulas that emerge.
+[47:43] Speaker1: In fact, i think i'm going to write down three formulas, the three direct consequences of short shells metric.
+[47:48] Speaker1: They're going to give us intuition for what it's like.
+[47:50] Speaker1: Outside and indeed inside a black hole, and so the first formula I'm going to write down is the formula for the gravitational field that you would experience.
+[48:01] Speaker1: If you were trying to remain static outside a central mass.
+[48:07] Speaker1: Um, and so, you know, let's just talk about for static observers.
+[48:10] Speaker1: I can discuss how these look up upgraded for observers who are moving around, but for now, i'm just going to imagine that you're trying to sit here.
+[48:20] Speaker1: At some radius r, some fixed radius r away from the black hole.
+[48:26] Speaker1: Um, the reason you don't fall, the reason you're static, the reason you don't fall into a black hole, maybe, you know, i'm lowered you down on a pulley and you're just sitting here holding the pulley.
+[48:34] Speaker1: And the question is, how strong a force do you need to stop you falling down your abs sailing down very slowly, your static, what is the local force of gravity that you experience?
+[48:44] Speaker1: Or you can imagine that you're sitting here.
+[48:46] Speaker1: The reason you're static because you're finding a rocket very hard and you know what is the how much acceleration do you do locally feel?
+[48:54] Speaker1: So by whatever mechanism you're remaining static, what is the local force of gravity that you feel?
+[49:02] Speaker1: The local force of gravity that you feel well in newtonian physics.
+[49:06] Speaker1: You know what the answer to that question would be the force of gravity is gm over r squared.
+[49:13] Speaker1: Which is newton's famous inverse square law.
+[49:18] Speaker1: But this gets a correction from general relativity.
+[49:21] Speaker1: And the correction.
+[49:23] Speaker1: Is.
+[49:24] Speaker1: 1 minus 2 gm.
+[49:28] Speaker1: Over c squared times r.
+[49:29] Speaker1: So this this the same 2 gm over c squared that we that we find all over the place.
+[49:37] Speaker1: And what this tells you, well, first of all, if you're a very long way away from the black hole.
+[49:44] Speaker1: This here is essentially one r is r is very big and you get newton's force law back again and you know, for the earth.
+[49:55] Speaker1: This this this is very small.
+[49:57] Speaker1: This, you know, we as we discussed it's now by factor of 10 to the minus 10 or so.
+[50:03] Speaker1: Um, and then you take the square root.
+[50:06] Speaker1: So you don't, you don't really notice it, but you can tailor expand this at large r and you find out that you get corrections, you get an inverse square law, plus an inverse cube law correction, plus an inverse fourth law correction.
+[50:19] Speaker1: And you find that gravity at short distances is stronger than it would have been in newtonian physics.
+[50:26] Speaker1: This.
+[50:27] Speaker1: You know, this is the general relativity correction and it's making the gravitational field stronger.
+[50:33] Speaker1: You have to accelerate harder to not fall into the black hole.
+[50:37] Speaker1: And in particular, once r is equal to 2 gm over c squared, this was called the short shell radius.
+[50:44] Speaker1: You have to accelerate infinitely the gravitate, the acceleration, the proper acceleration required to not not move in our.
+[50:52] Speaker1: Goes to infinity.
+[50:56] Speaker1: So in fact, if we now convert this to an earth to the back hole, this is a very significant radius over here, 2 gm over c squared.
+[51:05] Speaker1: it's.
+[51:07] Speaker1: It's called the event horizon.
+[51:14] Speaker1: It's called the event horizon, because if you want to remain static outside the event horizon, further away from the event horizon, you just need to accelerate with some some finitevelocity in order to remain static.
+[51:28] Speaker1: You need to have a finite gravitational field, but the gravitational field as you approach the event horizon becomes infinite.
+[51:33] Speaker1: So once you're at or beyond the event horizon, it is impossible to remain static.
+[51:37] Speaker1: You will inevitably get sucked into the black hole, no matter how hard you fire your rocket.
+[51:42] Speaker1: Now, this is just the static formula.
+[51:44] Speaker1: You might imagine, okay, it's impossible to remain static outside the black hole closer than that, but maybe i could not fall into the black hole by orbiting.
+[51:53] Speaker1: Really really fast, and if i orbit really really fast, i have a huge centrifugal force that pushes me away from the the black hole, and i can stay out of the black hole that way.
+[52:01] Speaker1: That actually doesn't work.
+[52:02] Speaker1: And the reason it doesn't work is somewhat instructive.
+[52:06] Speaker1: For the way gravitational attraction happens in general relativity.
+[52:10] Speaker1: Of course, if you think about the international space station, why doesn't it fall towards the earth?
+[52:14] Speaker1: It is precisely the fact that it's that it's orbiting.
+[52:17] Speaker1: And the fact that it's orbiting gives it a centrifugal force that shoots the astronauts away from the earth, and precisely balances the the gravitational field, of the astronauts, which is why they they feel weightless.
+[52:28] Speaker1: There, so.
+[52:30] Speaker1: Orbital angular momentum.
+[52:32] Speaker1: If you're a long way away from the black hole, helps you escape from the stay away from the black hole stops you falling in.
+[52:39] Speaker1: There is this kind of sci-fi notion that black holes just suck in everything around them.
+[52:43] Speaker1: Not true.
+[52:44] Speaker1: You are perfectly able to orbit around a black hole.
+[52:47] Speaker1: If you're a long way away from it, just like you would orbit around any central mass, you are not inevitably falling into the black hole.
+[52:53] Speaker1: You can you can orbit just fine.
+[52:55] Speaker1: But orbiting stops helping when you get too close to the black hole.
+[53:00] Speaker1: We said that the event horizon is 2 gm over c squared.
+[53:03] Speaker1: In fact already once you're within 3 gm over 3 squared, orbiting is counterproductive.
+[53:09] Speaker1: If you're trying to stay away from the black hole, and that's because there are two effects of orbiting.
+[53:15] Speaker1: What effect of orbiting helps you stay away from the black hole?
+[53:17] Speaker1: That's the centrifugal effect orbital angular momentum.
+[53:20] Speaker1: Pushes you away from the black hole due to the centrifugal effect.
+[53:23] Speaker1: And if we wrote the, it's not too hard to write down, if you wrote the version of this formula that applies when you have angular momentum, you would see thatpushing you away from the black hole.
+[53:32] Speaker1: But there's another effect which drags you towards the black hole, and that is the fact that in general relativity, all energy gravitates.
+[53:41] Speaker1: Not just rest mass energy gravitates, kinetic energy also gravitates.
+[53:46] Speaker1: And so, the effect of orbiting is that you have a additional pull down towards the black hole from the coupling between the mass of the black hole, and the gravitational attraction between the mass of the black hole.
+[54:00] Speaker1: And your orbital angular energy.
+[54:04] Speaker1: And when you're far away from the black hole, the centrifugal force is a more important term.
+[54:09] Speaker1: When you're close to the black hole, the that coupling is the more important term.
+[54:13] Speaker1: And in fact, once you get within 3gm orbital angular momentum, stops helping and starts hurting.
+[54:21] Speaker1: There are no ballistic orbits that go within 3gm and that managed to escape again.
+[54:26] Speaker1: Okay, so that's formula number number one.
+[54:28] Speaker1: It tells you what the gravitational field is a distance r away from a black hole.
+[54:35] Speaker1: And in particular, it shows you that once you get to this critical radius, the gravitational field becomes infinite, and you must, if you cross that, you must proceed to the black, to the center of the black hole.
+[54:45] Speaker1: No matter how hard you fire a rocket, that's called the event horizon.
+[54:49] Speaker1: At the event horizon, you are not yet dead, you are however doomed, if you cross the event horizon, you will never be able to escape, not if you convert yourself to light and try and shoot yourself out.
+[54:58] Speaker1: Not if you fire your rocket.
+[55:00] Speaker1: Are infinitely hard.
+[55:02] Speaker1: The other place of course is r equals zero, which is that's where you actually die and that's at the singularity and we'll describe that a little bit in a moment in newtonian physics.
+[55:12] Speaker1: The gravitational force only becomes infinite here in general relativity.
+[55:15] Speaker1: It becomes infinite already at the event horizon.
+[55:18] Speaker1: If you try and resist the force of gravity, okay, that's formula number one.
+[55:23] Speaker1: Now let's do formula number two.
+[55:25] Speaker1: Formula number two.
+[55:27] Speaker1: And all three formulas.
+[55:28] Speaker1: I'm going to write down are just going to be, you know, heavily related to each other.
+[55:32] Speaker1: They're really going to be reformulations for each other asks about gravitational time dilation.
+[55:39] Speaker1: So let's again, imagine that you're sitting here.
+[55:42] Speaker1: Ah, you know, this is talk about shitting here, some radius are away.
+[55:47] Speaker1: From the black hole.
+[55:48] Speaker1: And i'm sitting, you know, out here way off at infinity, just watching you and we're static relative to each other.
+[55:55] Speaker1: There's no, there's no relative motion.
+[55:57] Speaker1: You're just suspended here by your by your pulley system.
+[56:00] Speaker1: And the question is, how fast does your watch go relative to mine?
+[56:05] Speaker1: Of course, as far as you're concerned, your watches is ticking.
+[56:09] Speaker1: At one second per second, as far as i'm concerned, my watch is taking it one second per second.
+[56:12] Speaker1: But if i watch you, if i look at you, i see your watch as running slow.
+[56:18] Speaker1: If you look at me, you see my watch is running fast.
+[56:21] Speaker1: And so the second formula makes that quantitative, how much slower you, who is close to the black hole, how much slower your wristwatch runs than mine.
+[56:31] Speaker1: And it says that the time interval as measured by your wristwatch.
+[56:39] Speaker1: is given by the time interval as measured by my wristwatch a long way away.
+[56:47] Speaker1: times this exact same square root factor that's showing up all over the place, times the square root.
+[56:53] Speaker1: of one minus two gm over r c squared.
+[57:00] Speaker1: And so this factor here is is less than one.
+[57:02] Speaker1: So if i think one second has passed, you think less than one second has passed.
+[57:07] Speaker1: In other words, if i slowly lower you down towards the black hole.
+[57:11] Speaker1: You hang out some finite distance away from the black hole for what feels to you like a year, and then.
+[57:19] Speaker1: Raise you back up a long way away from the black hole, you will return to a world that has aged a lot more than you have.
+[57:27] Speaker1: And this formula makes that makes that precise.
+[57:31] Speaker1: I observe your wristwatch to be running slow, you observe my wristwatch to be running fast.
+[57:37] Speaker1: Time passes slower down here.
+[57:41] Speaker1: Than it does up here.
+[57:42] Speaker1: This is a fact that is by now been extremely well observed experimentally in the 1950s in the harvard physics department.
+[57:49] Speaker1: They put two atomic clocks at two different heights in the building and notice the one that was higher was running faster than the one that was slower.
+[58:00] Speaker1: This is an effect that is now, you know, considerably within the precision of, for example, gps that just has to subtract that effect.
+[58:07] Speaker1: Otherwise, everything would drift all all over the place.
+[58:10] Speaker1: Gps clocks that are sitting on the earth's surface are running slow compared to the.
+[58:18] Speaker1: A atomic clocks that are in in orbit sending out the signal and you have to subtract off that difference in order to account for that difference and subtract it off in order to get an accurate accurate read.
+[58:29] Speaker1: This is known as gravitational time dilation and notice it's quite different from the relativistic time dilation.
+[58:34] Speaker1: You see in special relativity which is caused by two objects being in motion relative to each other here.
+[58:40] Speaker1: We're not in motion relative to each other.
+[58:41] Speaker1: We're both static.
+[58:42] Speaker1: We're fixed.
+[58:43] Speaker1: This is caused by us being at a different place in the gravitational potential.
+[58:46] Speaker1: You deeper in the gravitational potential than me.
+[58:49] Speaker1: So those are two different sources of time dilation and they stack.
+[58:53] Speaker1: So let's say instead of being static here, you're in orbit, you're far enough away that you can orbit the black hole.
+[59:01] Speaker1: And i ask how slow do i see you as moving?
+[59:05] Speaker1: There are now two contributions, both of which make you look slow relative to me.
+[59:09] Speaker1: The one contribution is the gravitational time dilation.
+[59:12] Speaker1: Given by these form, this formula, a second contribution is the good old special relativity correction where moving observers look like they're going slow and we'll have both of those effects.
+[59:25] Speaker1: So you look like you're going even slower than you would have done.
+[59:28] Speaker1: Uh, then you would have done otherwise as as you go around the back hole.
+[59:34] Speaker0: So one thing that seems different between this special relativity is that there's no symmetry where in special relativity, both observers will feel that the other one is aging slower than they are because they're both moving relative to each other at the same rate and there's no true inertial path.
+[59:51] Speaker0: But here it actually does seem like there's a global sense in which.
+[59:55] Speaker0: One is a more correct.
+[59:59] Speaker0: The more relevant inertial frame than the other one.
+[60:02] Speaker1: You're exactly right.
+[60:03] Speaker1: Yeah.
+[60:03] Speaker1: So in special relativity, if you and i move in relative to each other, i think your watch is moving slow.
+[60:08] Speaker1: You think my watch is moving slow.
+[60:10] Speaker1: Neither of us is more correct than the other.
+[60:11] Speaker1: The principle of relativity tells you that both of our perspectives is equally valid.
+[60:16] Speaker1: Here, both of our perspectives of not equally valid because there is, there is not the symmetry that there wasn't special activity in particular.
+[60:22] Speaker1: The symmetry is broken by the black hole.
+[60:24] Speaker1: You really, we both agree that you are deeper in the gravitational well than i am.
+[60:29] Speaker1: We both agree on that and your clock runs slower than my does than mine does.
+[60:35] Speaker1: You do not see my clock reciprocally running slow.
+[60:38] Speaker1: You in fact, see me leaving sped up.
+[60:40] Speaker1: If you are observing me, you see me living my life in fast forward.
+[60:45] Speaker1: So this is the second formula.
+[60:47] Speaker1: It says how fast are wristwatches move relative to each other.
+[60:51] Speaker1: Now, let's imagine that you're here with your slow-moving wristwatch and you shine a light towards me.
+[61:00] Speaker1: And let's say the light has a particular frequency.
+[61:02] Speaker1: You made it with a with a sodium transition.
+[61:04] Speaker1: For example, a particular frequency of light.
+[61:07] Speaker1: As that light travels upwards, by the time it reaches me, i'm gonna think that it is lower frequency than it was, when, than you thought it was, when you sent it.
+[61:18] Speaker1: Why?
+[61:18] Speaker1: 'cause frequency is about how rapidly it oscillates, and i just think that.
+[61:25] Speaker1: Everything you do is moving slow, relevant to me.
+[61:28] Speaker1: You think it's oscillating slower.
+[61:30] Speaker1: It has lower frequency, which means it gets shifted towards the red part of the spectrum.
+[61:35] Speaker1: The word the word that we use is red shift, gravitational red shift.
+[61:39] Speaker1: It gets red shifted, lower frequency.
+[61:42] Speaker1: And therefore less energy.
+[61:43] Speaker1: If you send one photon up, the energy of the photon is given by the by the frequency.
+[61:48] Speaker1: It'll arrive at me more more red shifted, and with lower energy than it than it had when it left you.
+[61:56] Speaker1: Conversely, if i am up here and i send you a photon generated by the sodium transition, as observed by you.
+[62:06] Speaker1: By the time the light reaches you, you see me moving in fast forward, so you think that it has higher frequency than it had when i when i left you.
+[62:16] Speaker1: It's moved towards the blue part of the spectrum, we say that it is blue shifted.
+[62:23] Speaker1: And so, this thought experiment tells you that knowing the exchange rate for how time passes at different altitudes.
+[62:35] Speaker1: Directly gives you the exchange rate for how much energy is worth at different different altitudes.
+[62:41] Speaker1: If you try and send me some energy, by the time it reaches me, it's worth less to me.
+[62:46] Speaker1: Then you perceived it.
+[62:47] Speaker1: As being worth to you.
+[62:50] Speaker1: And the amount it's less is going to be precisely given by the same square root formula.
+[62:54] Speaker1: That's that's controlling everything else.
+[62:56] Speaker1: And so that gives us our third equation.
+[62:59] Speaker1: And so the third formula says suppose that you dorkish have an object of mass mc squared sitting with you at this fixed radius down there.
+[63:10] Speaker1: How much energy as measured by me a long way away from the black hole?
+[63:13] Speaker1: How much energy is that worth to me?
+[63:18] Speaker1: Of course, if i had it with me, it will be worth mc squared worth of energy.
+[63:22] Speaker1: But i don't have it with me.
+[63:23] Speaker1: It's unfortunately sitting with you deep in a gravitational potential.
+[63:27] Speaker1: So i have it's worth less than mc squared to me.
+[63:30] Speaker1: In fact, it's just the exact same formula.
+[63:32] Speaker1: The amount of energy that it's worth for me by the time it reaches me is gm over our c squared.
+[63:40] Speaker1: And there are a couple of ways to see that one is the way that we just that we just said.
+[63:44] Speaker1: Suppose you take your object of mass m.
+[63:47] Speaker1: You know, it's just a avogadro's numbers of carbon atoms or let's say it's it's half an avogadro's numbers of carbon atoms and half a avogadro's numbers of anti-carbon atoms.
+[63:59] Speaker1: And one way you could send me the energy is by smashing them together.
+[64:03] Speaker1: Violent explosion, you convert all of that energy to light and you try and beam that light energy up to me.
+[64:10] Speaker1: But what you find precisely because of this gravitational time dilation is by the time it reaches me, i'm not getting mc squared worth out.
+[64:17] Speaker1: I'm getting by the argument.
+[64:18] Speaker1: We just gave less than mc squared worth out.
+[64:20] Speaker1: I'm getting one minus 2 gm of r c squared out.
+[64:25] Speaker1: Mass down here suffers this red shifting as it goes up and has less energy by the time it reaches infinity than it did to begin with.
+[64:33] Speaker1: There is another way that you could have got the energy to me, not by beaming it up as light, but by just taking your mass object, attaching it to the pulley, and having having me pull the object out.
+[64:46] Speaker1: By the time i pulled it out, i've now got mc squared sitting out here, a long way away from the black hole.
+[64:52] Speaker1: So, i do have mc squared the full mc squared worth of energy, but to get it, i needed to pay.
+[64:57] Speaker1: And what i needed to pay was precisely pulling it out of the gravitational potential.
+[65:02] Speaker1: So that from that way of thinking about it, that's why i have less than mc squared worth of energy left because i had to pay the pulling it out of the potential in order to accrue that mass.
+[65:13] Speaker1: So this formula tells you, if i have a brick of mass mc squared, sing it at some radius r away from the black hole.
+[65:21] Speaker1: How much energy can i extract from that brick?
+[65:25] Speaker1: If i'm, if i start, if i'm a long way from the black hole, and so if we know that formula, then we can in fact calculate exactly this formula.
+[65:34] Speaker1: How much energy have i extracted from the brick?
+[65:39] Speaker1: By lowering it down to a radius r.
+[65:42] Speaker1: Well, we know the answer to that question, the energy it started with is mc squared.
+[65:46] Speaker1: The energy it now has is this.
+[65:50] Speaker1: So, the energy i've extracted from the brick while slowly lowering it down using my pulley system must be the energy i started with mc squared minus the energy it now has.
+[66:01] Speaker1: Or in other words, the fraction of the energy.
+[66:04] Speaker1: that I've extracted by lowering it down.
+[66:09] Speaker1: to a radius r.
+[66:12] Speaker1: Is mc squared minus this all divided by mc squared.
+[66:18] Speaker1: 1 minus.
+[66:20] Speaker1: Root 1, minus 2 gm.
+[66:25] Speaker1: Of the c squared r, and this is the exactly correct answer for the fraction of the energy extracted.
+[66:31] Speaker1: It doesn't look exactly like this, because this is only correct in the newtonian limit.
+[66:35] Speaker1: We derive this using newtonian physics.
+[66:37] Speaker1: This is exactly correct, not just in the newtonian limit, but all the way to where the effects of general relativity are important.
+[66:46] Speaker1: Now, if you are very, very long way away from the black hole, r is much, much bigger than 2 gm of a c squared.
+[66:51] Speaker1: Then you can tailor expand this formula and the first order term is just the old newtonian formula.
+[66:58] Speaker1: A better be a better be that the long distance limit of general relativity recovers the newtonian physics that we that we originally discovered.
+[67:05] Speaker1: But as you get closer and closer to the black hole, this starts to deviate from the newtonian answer and deviate in the newtonian answer that exactly is going to end up resolving.
+[67:14] Speaker1: original thought experiment to do with lowering a brick down towards a black hole.
+[67:17] Speaker1: So how much then, looking at this formula, have I extracted from the brick as I lower it down towards the black hole?
+[67:27] Speaker1: Ah.
+[67:29] Speaker1: If r equals infinity, if i haven't, if the brick still a long way from the way from the black hole, then i've extracted one minus one equals zero.
+[67:37] Speaker1: I haven't extracted any energy from the black hole.
+[67:39] Speaker1: As i lower it closer and closer to the black hole.
+[67:42] Speaker1: Well, initially, i just get the neutronian formula.
+[67:46] Speaker1: So in fact, these.
+[67:48] Speaker1: A pretty close to correct in general relativity as well because the corrections are only going to start getting large when this this term becomes order 1 and it's still very small here.
+[67:57] Speaker1: So these are all essentially essentially correct.
+[68:00] Speaker1: But once i get closer and closer to the black hole, they stop being correct.
+[68:04] Speaker1: And what i see is that as our approaches, the black hole event horizon, As this formula goes to zero, i have extracted exactly all of the energy from the brick.
+[68:18] Speaker1: So, i start off with a brick, a very very long way from the black hole, attach it to a rope.
+[68:24] Speaker1: Slowly lower the brick down towards the event horizon.
+[68:28] Speaker1: Of course, i can't.
+[68:29] Speaker1: Lower it past the event horizon, otherwise i'll lose control of the brick.
+[68:32] Speaker1: But i'd lower it as, you know, right above the event horizon, the the last possible place i can lower it to, and then just let go of it, with zero velocity.
+[68:39] Speaker1: The brick falls into the black hole, and i have extracted the entire mc squared that used to be in the brick, in my pulley system out there.
+[68:49] Speaker1: And so it exactly resolves this question.
+[68:52] Speaker1: We had is it possible to extract more than mc squared from the brick?
+[68:55] Speaker1: No, is it possible to extract the full mc squared from the brick using a black hole?
+[69:01] Speaker1: Yes, it is.
+[69:03] Speaker1: And that's actually pretty neat and why people talk about using black holes as as power plants.
+[69:09] Speaker1: So, you know, most power plants today operate by burning chemical energy.
+[69:14] Speaker1: That is not very efficient.
+[69:15] Speaker1: That gets, you know, if the pay factor of 10 to the minus 10 because chemical bonds are super weak compared to the rest masses of objects and you really only extracting a tiny fraction of the rest mass of the fuel that you're considering.
+[69:28] Speaker1: You can level up from there by going to nuclear energy, which instead of it.
+[69:34] Speaker1: Dealing with a feeble electromagnetic bonds between atoms starts to concern itself with the nuclear forces between the protons and the neutrons within the within the nucleus.
+[69:45] Speaker1: And so you can go up from about 10 to the minus 10 to about 10 to the minus 3 for fission or 10 to the minus 2 for fusion.
+[69:51] Speaker1: But that's about as good as you can go even even with fission and fusion because even though you can extract energy from the strong nuclear force, fission and fusion.
+[70:00] Speaker1: Neither of them change the total number of protons plus neutrons in your process, and the bulk of the energy, 99 percent of the energy, is stored not in the electromagnetic interaction, not in the strong interaction.
+[70:12] Speaker1: But in the rest mass energy of the protons and neutrons, something that neither chemical reactions nor nuclear reactions can touch.
+[70:20] Speaker1: But gravity can touch them.
+[70:22] Speaker1: If i start off with a massive mass object of m, i can extract up to quantum corrections.
+[70:28] Speaker1: Essentially, i can extract essentially 100% of the rest mass energy that i've gone in.
+[70:33] Speaker1: It is the most efficient possible power plant because by building an apparatus like this in principle, i could extract 100% of the energy of whatever i started with.
+[70:43] Speaker0: I intuitively get how energy equals mass, and then there's like these chemical bonds, those could dissolve, they release energy, the thing weighs less, if tho- those bonds are released, they even get that if the bonds between the protons and the neutrons are broken.
+[70:56] Speaker0: That releases energy, and makes the thing have less mass.
+[71:00] Speaker0: But if.
+[71:01] Speaker0: Something with protons and neutrons is just slightly above the event horizon is the interpretation that those protons and neutrons stop existing right at that point.
+[71:12] Speaker0: What does it mean for them to be have 1% or 2% or 5% of their original mass?
+[71:18] Speaker1: Yeah, this is that's a great question and.
+[71:21] Speaker1: Really becomes relevant once you turn on quantum mechanics, which is beyond the scope of today's discussion.
+[71:26] Speaker1: But classically, the black hole sits there forever, and so you can just say, well, what happened to the protons and neutrons?
+[71:32] Speaker1: You say, well, they now live inside the the black hole, and the number of protons plus neutrons are still conserved out there in the universe.
+[71:38] Speaker1: It's just you need to assign a, what a nuclear number, to the black hole itself.
+[71:44] Speaker1: That's fine.
+[71:45] Speaker1: As far as it goes, classically quantum mechanically way beyond the scope of today's lecture hawking and beckenstein discovered that black holes radiate away energy and eventually the black hole will be gone and all of the energy.
+[71:57] Speaker1: If you calculate it ends up in gravitons and photons and perhaps some neutrinos none of it or almost none of it ends up in protons and neutrons.
+[72:05] Speaker1: So it is a very interesting fact.
+[72:07] Speaker1: Once you turn on quantum gravity, The black holes eat nuclear number.
+[72:11] Speaker1: This thing that seems like it's conserved.
+[72:14] Speaker1: At least perpetually both both by electromagnetism and by the nuclear forces ends up being eaten by by gravity and people like to promote this.
+[72:24] Speaker1: We're talking about quantum gravity now to a general principle that.
+[72:29] Speaker1: Quantum gravity doesn't respect any global symmetries.
+[72:31] Speaker1: It doesn't respect nuclear number symmetry.
+[72:34] Speaker1: It doesn't respect any of these symmetries and that's a whole other kind of worms that we can open some other day.
+[72:40] Speaker0: I recently wrote this blog post where i speculated that sample efficiency during training actually hasn't improved that much over the last few years and rather we've just dramatically improved and widened the data distribution and i was having dinner with friends recently and then i had this idea of how you could get some empirical information on this question.
+[72:56] Speaker0: There's this nano gpt speed run where people compete to train carpathy's gpt2 baseline to a fixed loss with less and less compute.
+[73:04] Speaker0: The training data is frozen.
+[73:05] Speaker0: So i wondered if the loss curves over time of each record could tell you roughly how fast sample efficiency is improving.
+[73:12] Speaker0: So i pulled up my phone, i dumped this idea into a voice note in the cursor app and i went back to dinner.
+[73:16] Speaker0: And then i got a notification about 15 minutes later, the cursor agent had cloned the modded nanogpt repo.
+[73:21] Speaker0: It had analyzed all the loss curves for all the records, and it estimated that sample efficiency had been improving about 2~5x every single year.
+[73:29] Speaker0: Of course, this is very naive and circumstantial evidence, but it inspired me to start writing a full post with a friend, where we investigate this question using many different methods.
+[73:38] Speaker0: And the friction really mattered here.
+[73:39] Speaker0: The idea would have just floated away, if i wasn't able to just kick off the investigation right then and there with the cursor app.
+[73:44] Speaker0: If you want to try cursors ios app, go to cursor.
+[73:48] Speaker0: com slash warcash.
+[73:50] Speaker0: Okay, adam, i like to think of this podcast, we've been part, not only theoretical or practical knowledge as well.
+[73:55] Speaker0: So suppose one learns all these equations but then finds himself in the unfortunate position of falling into a black hole.
+[74:02] Speaker0: What would they say?
+[74:03] Speaker1: Great question, so.
+[74:06] Speaker1: There's actually two different perspectives.
+[74:08] Speaker1: You could take one is the perspective for me watching you falling into the black hole.
+[74:13] Speaker1: The other is the perspective of you falling into the black hole and those two perspectives are consistent with each other, but interestingly different.
+[74:20] Speaker1: So maybe i should describe them both.
+[74:22] Speaker1: So first, let's ask the question.
+[74:24] Speaker1: What do i see is you fall into the black hole?
+[74:27] Speaker1: What i see this is of course how you how fast you need to how hard you need to fire your rocket to is not fallen for black hole.
+[74:33] Speaker1: You're not going to do this.
+[74:34] Speaker1: You're just going to sit here a long, long way away from the black hole.
+[74:36] Speaker1: You're going to turn off your rocket and accept what comes and what comes is you'll slowly accelerate towards the black hole with a rate first given by the newtonian formula.
+[74:46] Speaker1: And then when you get close to the black black hole, start picking up corrections.
+[74:51] Speaker1: Start picking up general relativity corrections to the newtonian inverse square law.
+[74:54] Speaker1: Um, and so what i will see as i watch you fall towards the black hole is first, you'll go faster and faster and faster towards the black hole as you fall down the gravitational potential of the black hole.
+[75:06] Speaker1: And faster and faster and faster, but then something strange will happen, which is you'll stop going faster and you'll start going slower.
+[75:12] Speaker1: And the reason you're going slower is that as i watch you, you start to get gravitational time dilation as you fall down here and i start to see you running slow, your clock running slow.
+[75:24] Speaker1: This is the formula for if you were static, you're not static, you're moving.
+[75:28] Speaker1: So there's some other formula, but the formula has the same effect, which is that as you get closer and closer towards the black hole, your wristwatch starts running slower and slower and slower.
+[75:38] Speaker1: And in fact, if you do the appropriate integral, i never see you cross the event horizon.
+[75:42] Speaker1: I just see you getting closer and closer to the event horizon, but slowing and slowing and slowing as you get closer and closer to the event horizon.
+[75:49] Speaker1: Ah, and as i watch you, i'm presumably using light to watch you that light gets more and more redshifted.
+[75:55] Speaker1: The wavelength gets longer and longer.
+[75:58] Speaker1: The longer the wavelength of light, the harder it is even to really see you.
+[76:01] Speaker1: I start getting you start getting delocalized by the wavelength of the light.
+[76:05] Speaker1: And eventually, i just stopped seeing you entirely.
+[76:07] Speaker1: There's a final photon that i see that you emit and then you just fade to black very true red.
+[76:12] Speaker1: To black, I never see you cross the event horizon.
+[76:17] Speaker1: This was noticed by by people in the early days of of general relativity, and and greatly confused them, and they started to think that something you would experience something funny yourself as you fell across the event horizon.
+[76:29] Speaker1: That is that is not true.
+[76:31] Speaker1: In fact, if i instead adopt the perspective of you.
+[76:34] Speaker1: From your point of view, your clock isn't running slow.
+[76:37] Speaker1: It's running at one second per second.
+[76:38] Speaker1: If you look back at me, there's some funny stuff going on to do with me, me running fast perhaps.
+[76:42] Speaker1: But as far as you're concerned, everything's totally normal.
+[76:46] Speaker1: You accelerate towards the back hole, you're getting faster and faster and faster as you approach the black hole and you just sail across the event horizon totally as as normal.
+[76:55] Speaker1: The event horizon is not a particularly violent place for you.
+[76:58] Speaker1: You can calculate the tidal forces.
+[77:01] Speaker1: Um, as you across the event horizon or as you approach and then across the event horizon and they're not particularly big or other for large black holes, they're not particularly big for a solar mass black hole.
+[77:11] Speaker1: They would be pretty big and would be pretty painful for you.
+[77:14] Speaker1: You'd find that the your feet are being attracted to the black hole much more vigorously than your head is because it's because they're closer and you end up getting getting stretched.
+[77:22] Speaker1: But if i take a big enough black hole, you wouldn't notice anything funny happening whatsoever.
+[77:28] Speaker1: Um, the the bigger the black hole, the smaller the tidal effects.
+[77:33] Speaker1: And if i took a black hole, the mass of the galaxy, you'd be basically fine as you cross the event horizon.
+[77:39] Speaker1: If i took it even bigger black hole than that, you could live out your entire life having crossed the event horizon of the black hole.
+[77:45] Speaker1: Um, before you hit the singularity, which is fatal, um.
+[77:51] Speaker1: When you cross the event horizon, you are doomed.
+[77:54] Speaker1: You are doomed because once you cross the event horizon, you must proceed to the singularity.
+[78:00] Speaker1: There's no way you can fire a rocket to stop yourself.
+[78:04] Speaker1: Hitting the singularity, you are doomed, but you are not dead.
+[78:07] Speaker1: You are only for sure dead once you hit the singularity and get spaghettified, get mangled by the by the tidal forces.
+[78:13] Speaker1: But for a large enough black hole.
+[78:15] Speaker1: You can be doomed and not even know it.
+[78:18] Speaker1: The event horizon is really a not locally measurable quantity.
+[78:23] Speaker1: It is a teleological fact.
+[78:24] Speaker1: It says that once you have crossed the event horizon, you must proceed to the singularity.
+[78:29] Speaker1: But it can take a long time to get there for a large enough black hole.
+[78:33] Speaker1: You could in principle for a large enough black hole live out your entire life if you had a black hole that was, you know.
+[78:40] Speaker1: Many light centuries across, you could live out your life, you could have descendants all of whom live in the inside the black hole and only once you really approach the singularity to the tidal forces, get strong and kill you.
+[78:52] Speaker0: As you're saying, gr explains or predicts a lot of phenomenon and some we think are correct.
+[78:57] Speaker0: Some we don't know are correct.
+[78:58] Speaker0: Why do you think black holes are correct but not warm holes?
+[79:01] Speaker1: Yeah, that's a great question and people did not believe it to begin with schwarzschal write down his solution.
+[79:06] Speaker1: Almost immediately after einstein wrote his field equations, people thought that that equation was sick in some way.
+[79:11] Speaker1: It was a measure zero thing that would never happen.
+[79:13] Speaker1: It was some mathematical monstrosity, but it was impossible to make black holes.
+[79:18] Speaker1: Naturally in the real universe, and they were wrong, because black holes do exist, we're extremely confident now.
+[79:25] Speaker1: There was theoretical developments, and there was experimental evidence that black holes exist.
+[79:29] Speaker1: The the biggest theoretical development was penrose, and then later hawking and penrose, for which which he won the nobel prize.
+[79:36] Speaker1: Who showed theoretically that the formation of black holes is a generic feature of general relativity.
+[79:42] Speaker1: It's not just some sick thing that happens if you fine tune the initial conditions, that if you just start off with generic initial conditions.
+[79:49] Speaker1: The development of black holes is a generic feature of that.
+[79:52] Speaker1: That was a huge development, and then there was the experimental side, and the.
+[79:56] Speaker1: Pieces of experimental evidence.
+[79:57] Speaker1: We have for black holes is now is now huge.
+[80:00] Speaker1: It did not exist in einstein's day and for 50 years after einstein people were extremely confused about black holes and thought they they didn't exist.
+[80:06] Speaker1: But there's numerous pieces of evidence.
+[80:08] Speaker1: I think the most visually appealing piece of evidence is just observing the center of our.
+[80:15] Speaker1: Galaxy, so if you look at the center of the galaxy, there is... I mean, spoiler alert, there is a black hole there.
+[80:21] Speaker1: We call it Sagittarius A star.
+[80:23] Speaker1: A huge black hole, where as many millions of times the mass of the sun.
+[80:27] Speaker1: You can't see the black hole or at least you can't see it, you know, directly because it's black.
+[80:33] Speaker1: What you can see is the stars around it.
+[80:35] Speaker1: If you watch these stars over the course of decades and we now have a number of decades of observations of them, you will see the stars not moving along what we would call straight lines instead moving in in nice little ellipses or.
+[80:49] Speaker1: Processing ellipses and those ellipses look like they are orbiting something.
+[80:56] Speaker1: You cannot see the something but you can see the stars that are orbiting that something and you can calculate how big is it?
+[81:03] Speaker1: How massive is it?
+[81:05] Speaker1: And what you find is that it's very massive indeed and it's also very small indeed, you know, it's small because the stars get super close to it but don't seem to clide with it.
+[81:13] Speaker1: And so by tracing these orbits, you can tell that there is something super heavy, super dark, and super compact at the center of that galaxy, that is sagittarius a star, the the black hole at the center of our galaxy.
+[81:26] Speaker1: That's one compelling piece of evidence.
+[81:29] Speaker1: Another piece of compelling evidence was about a decade ago, we not only saw black holes, we felt them.
+[81:34] Speaker1: So ligo is this huge interferometer laser interferometer that we that we built at a number of different sites that is super attuned to vibrations and space-time itself.
+[81:46] Speaker1: And there's a famous event pretty much immediately after we turned it on in late 2015.
+[81:51] Speaker1: where we felt space-time shaking, and you knew it was space-time shaking, not just the earth shaking, because we had a bunch of these detectors, then two, now four, at different points on the earth, and they all shaped in exactly the same way.
+[82:08] Speaker1: So it couldn't just be explained by a truck passing one and not the other, or a seismic event in one and not the other.
+[82:12] Speaker1: They all shook in exactly the same way, and we were able to back-calculate that the thing causing them to shake was the collision of two ginormous black holes, two black holes both of which made.
+[82:22] Speaker1: Wait about 30 times as much as the sun.
+[82:25] Speaker1: On the other side of the universe about 1.6 billion light years away.
+[82:29] Speaker1: That collision happened about 1.6 billion years ago and just happened to reach the earth within weeks of us turning on the lego detectors.
+[82:37] Speaker1: We've now seen we've now felt more accurately thousands of such shakings corresponding to thousands of black hole mergers.
+[82:44] Speaker1: And then there's more evidence.
+[82:46] Speaker1: There is a later, we had what's called the event horizon telescope, which is a ginormous conglomeration of radio telescopes all over the earth that were able to look very closely at the black hole at the center of our galaxy sagittarius a star and the black, the even bigger black hole at the center of the our neighboring galaxy and see.
+[83:06] Speaker1: A very, very faintly the radio emissions of matter falling into these black holes that shine super brightly as it does.
+[83:13] Speaker1: So and we were able to see that in the radio emissions of these things.
+[83:16] Speaker1: So we felt them we've seen them.
+[83:19] Speaker1: We've seen their gravitational effects on orbiting stars.
+[83:22] Speaker1: We're extremely confident at this stage, the black holes exist.
+[83:26] Speaker0: It's so beautiful that not only gonna single mine come up with this area, but the theory has so much reach and that we can come up with the machinery to evaluate and perturb and understand its implications in so many different wild ways.
+[83:39] Speaker1: It's crazy.
+[83:40] Speaker1: The number of degrees of freedom, the number of orders of magnitude that it covers covers, you know, you first start thinking about it by doing.
+[83:48] Speaker1: Thought experiments to do with jumping up and down in elevators, and then it reaches out to describe the orbit of mercury and detectable perturbations of orbital dynamics within the solar system, and then the bending of light.
+[84:02] Speaker1: And then it describes the rotation of the entire the entire galaxy, and then it describes the expansion and potential, you know, fate of the entire universe.
+[84:10] Speaker1: That's many orders of magnitude indeed, and it's pretty impressive.
+[84:14] Speaker1: That it was the work of almost a single mind, and frankly, our universe should be honored to be described by such a beautiful theory.
+[84:21] Speaker0: Can you tell the story of how gr went from a theory that einstein had to something that the world came to believe is true?
+[84:27] Speaker1: Oh, yeah, that would be the bending of light.
+[84:29] Speaker1: So.
+[84:30] Speaker1: They were known anomalies with newton's physics beforehand.
+[84:33] Speaker1: Like we couldn't get the orbit of mercury exactly right.
+[84:37] Speaker1: And one of the very nice early tests of general relativity is that it did get the orbit of mercury exactly right.
+[84:43] Speaker1: So that was a pretty good confirmation.
+[84:46] Speaker1: But at the same time, that's not quite so satisfying because it was a number that's already known that you invent a theory and then it correctly predicts, you know, it's considered more.
+[84:55] Speaker1: Impressive, if you get the right answer without knowing what the right answer is in advance.
+[84:59] Speaker1: And so that would be the bending of bending of light.
+[85:01] Speaker1: Certainly historically, that was the most influential.
+[85:03] Speaker1: So according to general relativity, all energy gravitates, and all energy is affected by gravity.
+[85:12] Speaker1: And so light, as it's passing a massive object like the sun, will will get bent in the direction of of the sun.
+[85:18] Speaker1: Actually, the same will happen in in newtonian physics.
+[85:20] Speaker1: If you just say, suppose you have a particle going along.
+[85:24] Speaker1: and.
+[85:26] Speaker1: You know it it it's, you know how much it gets bent as it passes the sun, depending on its its impact parameter, but also its velocity, and the faster it's going, the less it gets bent.
+[85:34] Speaker1: So you just take that newtonian formula, and you plug in velocity equal to speed of light, and see what the answer you get at.
+[85:40] Speaker1: You get a certain amount of bending through newtonian physics, and general relativity.
+[85:46] Speaker1: You can do the same calculation, and you actually get double the Newtonian answer.
+[85:50] Speaker1: So this was a big, i mean, the the so slightly strange history of it.
+[85:54] Speaker1: Before he had finished writing down general relativity, einstein had a prediction based on what he thought was the equivalence principle, you know, based on his understanding of the equivalence principle for what this answer should be.
+[86:07] Speaker1: And so he wrote down the answer, and then in response to him and and a number of other people being interested in this, there were people sell s- sending out.
+[86:14] Speaker1: Expeditions to go and try and measure it.
+[86:15] Speaker1: And i think the very first thing that newton did is he phoned up the observatory and said, you know, can you can you measure look at distant stars behind the sun and measure how how light bends as it passes the sun.
+[86:28] Speaker1: And this was, you know, this was the true theorist move, because the i think the director of the mount wilson wilson observatory said like absolutely, we not, we cannot do that.
+[86:36] Speaker1: If you point a telescope at the sun, you'll go blind.
+[86:37] Speaker1: If you point it just next to the sun, you'll just get washed out by the corona of the sun, and you won't see anything.
+[86:42] Speaker1: Except there's one time when you won't get washed out by the sun and that's during a total solar eclipse when the moon blocks the sun and you were able to see stars very close to the sun and measure the bending of the light behind them.
+[86:55] Speaker1: So during the 1910s, there was a whole bunch of expeditions sent to measure the deflection of light.
+[87:03] Speaker1: They'd go, you know, Park out in the path of totality and look through telescopes at the stars right next to the sun and see if they moved in the sky and if they moved how much they moved.
+[87:16] Speaker1: And i think the first one that they did was in 1911, they went to.
+[87:20] Speaker1: Argentina for an eclipse and then everything set up.
+[87:23] Speaker1: I mean, this is the.
+[87:24] Speaker1: The problem with this thing, and then you get there all the way to argentina, a very long way in those days, and that's just washed out by the by the clouds, and you don't don't see anything, and it's very frustrating.
+[87:33] Speaker1: And then the next one that went along was there was a.
+[87:39] Speaker1: German expedition sponsored by the arms manufacturer group who went to the crimea and tried to measure it there.
+[87:47] Speaker1: And just before the solar eclipse happens, world war one breaks out and now in germany and russia at war and they're all like arrested and turned for the rest of the war.
+[87:56] Speaker1: And so that that also fails and it actually turns out to be a good thing for einstein that they all failed because it turned out that einstein's original before he had full general relativity.
+[88:07] Speaker1: His original equivalence principle.
+[88:11] Speaker1: Argument was wrong and led him to predict that the bending of light in general, relativity will be the same as it was in newtonian physics.
+[88:19] Speaker1: And so during the war, while everything shut down and no one is thinking about eclipse exhibitions, he corrects this mistake and comes up with a new prediction that actually will be double the newtonian prediction.
+[88:30] Speaker1: And then in 1919, so after editing launches a.
+[88:33] Speaker1: British expedition to go and observe the eclipses all over the world, and successfully comes back and declares that that indeed it was the einstein prediction, that it was that it was.
+[88:45] Speaker1: It was double the newtonian prediction and that's really what launches einstein is a global celebrity.
+[88:50] Speaker1: Is that this this, you know, british experiment confirming a sort of german origin theory, you know, was part of the post-war reconciliation and that einstein had figured out figured out anything.
+[89:01] Speaker1: And that is i'd say, you know, the point at which general relativity became the consensus view and people were super convinced that it's very impressive.
+[89:09] Speaker1: A test nowadays, we've done fusion more tests than that, you know, very precise orbital dynamics.
+[89:16] Speaker1: You can see it in the orbit of mercury and indeed, even in the other planets, you can just measure the red shifting as light as it as it goes, the gravitational effect on the propagation of light, the energy of light all over the place.
+[89:28] Speaker1: But historically, that was the most impressive.
+[89:31] Speaker1: Confirmation of general relativity.
+[89:33] Speaker0: One question you could ask is, we are spending as a society billions, maybe tens of billions of dollars on building these huge physics experiments basically, and if you look at maybe the most beautiful, the most important theory of physics.
+[89:47] Speaker0: Ever conjured, it seems like a guy who's just thinking in a cave.
+[89:51] Speaker0: It seems like the empirical basis for that theory is maybe knowing that light has a speed.
+[89:55] Speaker0: I mean, maybe you need to measure g experimentally.
+[89:57] Speaker1: not really, it's a free parameter in general, relativity, it does not not required.
+[90:01] Speaker1: It's not required.
+[90:02] Speaker1: Yeah, so you're right for the empirical basis is pretty thin.
+[90:07] Speaker1: You don't need much.
+[90:09] Speaker1: And theoretical physicists are pretty cheap.
+[90:11] Speaker1: You don't know.
+[90:12] Speaker1: There's a great temptation.
+[90:13] Speaker1: Why don't we just spend it all on theoretical physicists and not?
+[90:17] Speaker1: Build these vastly expensive.
+[90:19] Speaker0: Yeah, companies are really increasing the demand curve on the theoretical physicists.
+[90:24] Speaker1: But yeah, that's right.
+[90:26] Speaker1: Yeah, not so cheap anymore.
+[90:28] Speaker1: But how far can that get you?
+[90:30] Speaker1: I would say that general relativity is perhaps one extreme of that.
+[90:35] Speaker1: That is not how it usually works in the history of physics.
+[90:40] Speaker1: This really is closer to some.
+[90:44] Speaker1: Line round hero just sitting alone, you know, the product of a single mind.
+[90:49] Speaker1: He got a lot of help in various ways, but it really was just like a singular vision that he pursued for years.
+[90:56] Speaker1: And it was pretty, you know, he wrote it down, and a lot of people were very impressed almost immediately.
+[91:01] Speaker1: It did require launching a somewhat expensive eclipse expedition to go confirm it.
+[91:07] Speaker1: Before he really achieved global celebrity, and most people were sold on it, but it it was.
+[91:14] Speaker1: It's perhaps one of the most extreme examples of this, where just somebody just sits down and thinks very hard and writes down a true theory.
+[91:21] Speaker1: And in some sense, physics has been chasing that high ever since.
+[91:26] Speaker1: People love that romantic vision of themselves, just sitting down and thinking with with very few empirical insights, and just thinking very very hard, and doing thought experiments.
+[91:34] Speaker1: And it's typically not worked out quite as well.
+[91:37] Speaker1: for everybody else as it worked out for einstein.
+[91:40] Speaker1: in fact, it didn't even work out that well for einstein in the later part of his career.
+[91:44] Speaker1: Yeah, how far you could get just by thinking?
+[91:48] Speaker1: What do you need to do?
+[91:49] Speaker1: General activity, you need the fineness of the speed of light.
+[91:52] Speaker1: You need to convince yourself, not just not just the speed of light is finite, but that there's the the symmetry that protects that that ians like him up with in special activity.
+[92:01] Speaker1: Then you probably want the equivalence principle.
+[92:04] Speaker1: That the initial is empirical fact that the inertial masses and the gravitational mass of the same for everything, but that's pretty sparse.
+[92:11] Speaker1: And from just those two things, there's still a few options, but if you have lots and lots of large language models, you can just, if there's only a limited number of options, you can just explore the entire tree and say, okay, focus on this, you know, the equivalence principle is something that's super significant and this other thing now, okay, now abandon simultaneity and see how far that takes you.
+[92:32] Speaker1: So still there's only a finite number of things to explore that.
+[92:35] Speaker1: I don't know how that how well i think we got very, very lucky with general relativity that that's quite so powerful under those circumstances.
+[92:43] Speaker1: But if you just have lots and lots of einstein's and you just give each of them various options, you could presumably see them in parallel.
+[92:52] Speaker1: Hmm.
+[92:52] Speaker0: at the front here is a physics today.
+[92:54] Speaker0: In your experience, does it feel like if you just have millions in the running autonomously, you could have enormous discoveries or are we are we in a different era now and really that would there's like limited usefulness of that parallelism.
+[93:08] Speaker1: I think there is usefulness.
+[93:09] Speaker1: I do think that different parts of science have different.
+[93:13] Speaker1: Branching fractions and how much you need experiment to cut off that branch.
+[93:18] Speaker1: Yeah, you know, i talked about chasing the higher of einstein, arguably string theory has really been going all in on that.
+[93:25] Speaker1: So einstein's theory is just generativity.
+[93:28] Speaker1: There's also quantum mechanics and trying to marry those two.
+[93:31] Speaker1: A consistent way that generativity doesn't do it all.
+[93:33] Speaker1: Like there's no quantum mechanics in generativity.
+[93:36] Speaker1: How to do that has motivated a lot of people.
+[93:39] Speaker1: The problem is that the in order to see that in experiments, if you just do the dimensional analysis, you need jay norman's particle colliders, absolutely galactic size particle colliders.
+[93:48] Speaker1: It's just very hard to see any of that stuff.
+[93:51] Speaker1: so.
+[93:53] Speaker1: But that didn't stop people.
+[93:54] Speaker1: I mean, it's not many people, but many people didn't stop and keep trying to do it.
+[93:58] Speaker1: And so there you just have to kind of hope that it works out sort of like how i did with the general relativity where just by thinking very, very, very hard with minimal input from experiment.
+[94:10] Speaker1: You can feel your way to the to the right answer and for that to be true, it needs to be the case that the number of possible.
+[94:19] Speaker1: The tool you have at your disposal is mathematical consistency and does it reduce correctly to the in the known limits.
+[94:24] Speaker1: So you better hope that there's only one or a very small number of possible consistent theories that would work out if you're going to do that.
+[94:33] Speaker1: If it turns out that there's an unlimited number of consistent theories, you're never going to feel your way to the correct answer because because they're all consistent.
+[94:40] Speaker1: The only only tool you have is consistency and perhaps some notion of aesthetics.
+[94:45] Speaker1: But if there's only a few, then then maybe you could do it all the way.
+[94:48] Speaker1: And so string theory is kind of gonna gone all in on that, i would say, is just trying to with minimal experimental input, believing that there's only one consistent theory of gravity, and just by doing sufficient consistency checks you can find it.
+[95:02] Speaker1: For other examples, it's, you know, much higher up.
+[95:04] Speaker1: That's clearly many, you know, condensed metaphysics often.
+[95:07] Speaker1: You simply need to go and do an experiment to turn out which one is correct.
+[95:10] Speaker0: Whenever our future ai civilization does come up with more and more unified theories of physics or deeper theories make better predictions.
+[95:18] Speaker0: Do you think that humans?
+[95:21] Speaker0: We'll be able to keep up, as like once the sort of step is taken, that we will actually be in a position to understand what our ai ai civilization understands.
+[95:31] Speaker1: I don't know that we're gonna be able to keep up entirely, but i think we'll keep up pretty much better than pessimistic forecasts would suggest.
+[95:39] Speaker1: So.
+[95:40] Speaker1: Let's take mathematics as a simpler example than physics in mathematics.
+[95:44] Speaker1: Some people are many mathematicians are worried that these llms are just going to turn into proof machines.
+[95:49] Speaker1: So terry tao has this phrase indigestion he uses in which these llms will produce billion line inscrutable lean codes that will service as a certificate that a particular theorem is true without providing any insight as to why that might be true.
+[96:08] Speaker1: And wouldn't, you know, wouldn't that be a depressing world to say the mathematicians?
+[96:11] Speaker1: I think that is a possible future, but i actually don't find that to be a very likely future because as well as being superhuman provers, we also expect these large language models to be superhuman explains.
+[96:24] Speaker1: And, you know, maybe they'll do the exact opposite of that.
+[96:26] Speaker1: Maybe what they'll do is they'll come up with these, they'll take proofs that are very hard to understand and by doggedly trying and trying and trying.
+[96:33] Speaker1: They will be able to come up with ways that are human comprehensible.
+[96:36] Speaker1: They will be able to take proofs that are difficult to understand, and and and make them easy to understand.
+[96:43] Speaker1: And i think the empirical evidence, it's early days, but it's pretty supportive of that more positive vision.
+[96:49] Speaker1: So if you look at.
+[96:52] Speaker1: There was a adults problem that was proved a few months ago now and it wasn't just an incomprehensible set of lean.
+[96:59] Speaker1: In fact, it wasn't even proving the indoors approved informally and then there was a follow-up paper by some human mathematicians that took these like new ideas, human interpretable ideas that the machine had come up with to prove this adults conjecture and used it to prove new theorems that have not been used before.
+[97:14] Speaker1: So that was a the exact opposite of that case.
+[97:16] Speaker1: It came up with a very human interpretable.
+[97:19] Speaker1: Idea.
+[97:20] Speaker1: And then humans were able to fully comprehend it and comprehend it so well.
+[97:23] Speaker1: They were able to deploy it in a new scenario.
+[97:26] Speaker1: We've seen that throughout.
+[97:27] Speaker1: I mean, the unit distance conjecture, i think is a good example here for a number of the themes you've been discussing here.
+[97:33] Speaker1: One is that it's totally comprehensible the.
+[97:38] Speaker1: Disproof of the unit distance conjecture that it came up with.
+[97:41] Speaker1: I mean, it's a mathematician.
+[97:42] Speaker1: I'm not a mathematician.
+[97:44] Speaker1: Perhaps the reason that humans haven't disproved the unit distance conjecture is because they erroneously believe the conjecture to be true.
+[97:52] Speaker1: And that the good thing about large language models is that they're willing to push through that barrier and just waste their time as a human would understand it.
+[97:59] Speaker1: Trying to disprove a presumed true conjecture.
+[98:02] Speaker1: And reach the other end.
+[98:04] Speaker1: So that's another, you know, aspect of large language models that makes me pretty optimistic is that they just have extreme patience even for doing things that perhaps look like low probability of success.
+[98:13] Speaker1: Hmm.
+[98:14] Speaker0: Adam, thanks so much for coming back on and doing this while you could be building superintelligence.
+[98:19] Speaker0: You're explaining 100 year old physics, but it was very interesting.
+[98:22] Speaker0: It's a super fun subject.
+[98:23] Speaker0: I'm so happy to share it.
