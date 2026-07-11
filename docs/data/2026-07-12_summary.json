@@ -1,0 +1,21 @@
+{
+  "date": "2026-07-12",
+  "generated_at": "2026-07-11T23:34:29.554972+00:00",
+  "stats": {
+    "tweets": 0,
+    "podcasts": 1,
+    "articles": 0
+  },
+  "tweets": [],
+  "podcasts": [
+    {
+      "source": "The MAD Podcast with Matt Turck",
+      "title": "Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay",
+      "date": "2026-07-09 11:30 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "summary_zh": "Stripe 数据与 AI 负责人 Emily Sense 谈\"代理商务\"（agentic commerce）一年来的落地进展。核心判断：代理买卖存在完整光谱，一端是完全自主的机器支付协议（MPP，无人在环），另一端是消费者在 AI 界面内搜索、AI 给出带\"购买按钮\"的答案。Stripe 已与 Google（AI mode/Gemini）、微软/OpenAI（Copilot/ChatGPT）、Meta（广告内结账）合作，接入品牌含 Best Buy、Coach、Kate Spade、Quince、JD Sports，平台含 Wix、Shopify、BigCommerce。参照自动驾驶设 L1–L5 自主等级，消费者目前处 **L2**。\n\n基础设施三件套：与 OpenAI 共建的**代理商务协议 ACP**（去年 9 月底发布，MCP 之于商务的类比）让商家一次暴露商品目录即对接所有代理；**Link 钱包**（现有 **3 亿**消费者用户）成为代理钱包，可设预算/逐笔审批/随时收回；**共享支付令牌**（约半年前推出的新支付原语）让代理无需接触真实卡号即可代付，且钱包、支付处理商双向无关，内含 Radar 风控评分。\n\n商业模式：SaaS 边际成本近零，AI 每次推理都有真实边际成本，逼迫转向**按用量计费**。规模化 AI 公司几乎无一纯做订阅/按席位；主流是\"订阅+超额按 token 计费\"混合（Lovable、Eleven Labs 均如此）。代理以机器速度消耗，将催生**实时计量+实时收款**（与 Metronome、Tempo 区块链合作的\"流式支付\"，用稳定币即时结算微交易）。\n\nEmily 称**token 盗窃是 AI 中最被低估的欺诈**：无需偷钱或凭证，直接偷 token 转售或包壳成新产品。数据惊人——AI 公司**逾六分之一（1/6）注册为滥用**；免费试用滥用近 6 个月**翻倍以上**，多来自 AI；第三类是按量计费用户月底\"吃霸王餐\"不付款。三种模式已被 Radar 在数周内基本压制，但新模式会不断出现。Stripe 覆盖约 **2%** 全球 GDP，Link 密度极高（Lovable **58%** 交易量走 Link），\"AI 打 AI\"实时防御。\n\n宏观层面 Emily 高度乐观：\"vibe deployment\"（部署，非编码）成新瓶颈——代理访问 Stripe 文档一年增 **10 倍**、占文档流量 **40%**，CLI 请求 **70%** 来自代理；为此推出 Stripe Projects（编排 Vercel/Supabase 等 16+ 伙伴）。创业动能激增：美国 **500 万**独立创业者年入超 **10 万**美元、数十万超百万；新企业注册荷兰 +**40%**、芬兰 +**70%**、法国 +**80%**；Stripe 上新企业开办速度较去年翻倍，Atlas 2026 批次营收同期达上届 **5 倍**。企业 token 失控多为财力雄厚者（约占人力成本 2%–4%，其中 30%–40% 低效），可快速纠偏，非系统性风险。展望未来 12 个月：将出现\"代理即微型公司\"——同时买、卖、供给基础设施、端到端经营业务的多面经济体。"
+    }
+  ],
+  "articles": []
+}
