@@ -1,0 +1,29 @@
+{
+  "fetch_date": "2026-07-12",
+  "fetch_time": "2026-07-11T17:53:21.934429+00:00",
+  "stats": {
+    "new_podcast_episodes": 1,
+    "new_articles": 0,
+    "new_tweets": 0,
+    "total_podcasts": 1,
+    "total_articles": 0,
+    "total_tweets": 0
+  },
+  "podcasts": [
+    {
+      "source": "The MAD Podcast with Matt Turck",
+      "title": "Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay",
+      "date": "2026-07-09 11:30 UTC",
+      "link": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "orig_link": "",
+      "audio_url": "",
+      "duration": "",
+      "summary": "",
+      "lang": "en",
+      "chars": 81519,
+      "text_file": "data/2026-07-12/podcasts/the_mad_podcast_with_matt_turck__stripes_ai_chief_how_ai_agents_will_buy_sell_.txt"
+    }
+  ],
+  "articles": [],
+  "tweets": []
+}
