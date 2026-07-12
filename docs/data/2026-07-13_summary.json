@@ -1,0 +1,47 @@
+{
+  "date": "2026-07-13",
+  "generated_at": "2026-07-12T23:34:27.037000+00:00",
+  "stats": {
+    "tweets": 5,
+    "podcasts": 1,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Sam Altman",
+      "handle": "sama",
+      "summary_zh": "OpenAI 首席执行官 Sam Altman（@sama）称有大量基准测试显示 GPT-5.6 Sol 目前是全球最强模型，并调侃\"最可靠的信号是马斯克又开始盯上我了\"。他还援引一条讨论、点出在当前使用规模下有 **30%** 的成本花在 fable 上，暗示大模型推理成本结构正成为竞争与经济性的关键变量。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI Codex 团队的 Thibault Sottiaux（@thsottiaux）发布并力推新模型 GPT-5.6 Sol：主打速度快、token 效率高，后端开发能力强、前端表现好，并特意强调\"不会到处滥用 useEffect\"，直接回应此前用户对速度、代码质量、前端质量的抱怨。他还给出把 Claude Code 客户端指向 GPT-5.6 Sol 的三步接入法（安装 CLIProxyAPI、连接、设置 claudex 别名），只需 5 分钟。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie（@levie）提出与主流\"AI 取代程序员\"预期相悖的观点：软件岗位招聘增速正快于其他领域。他用杰文斯悖论解释——软件单位生产成本大幅下降后，需求不降反升，企业启动的软件项目比以往任何时候都多；而由于开发工作并未被完全自动化（可预见的未来也不会），仍需人来维护代码、决定该做什么并长期运行。他判断在更多此前稀缺的领域降本后，Agent 带来的将是\"丰裕\"而非\"替代\"。"
+    },
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "AI 工程师、Latent Space 主理人 Swyx（@swyx）认为，若只从\"Agentic 编程时代的软件需求\"角度理解杰文斯悖论，就低估了它的影响。当擅长驾驭编程 Agent 的人出现、且编程 Agent\"突破边界\"渗透到其他所有知识工作时，随着单位知识工作成本普遍下降，总需求和对更优知识的需求都会上升而非下降。他强调\"编程领域发生的一切不是例外，而是前兆\"。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator 首席执行官 Garry Tan（@garrytan）呼吁重启加州建设必须\"废除并改革 CEQA\"。他指出 CEQA 每年被用来阻挡数百万套住房，主张住房应\"按权利\"直接建造，无需现行如此繁重的审查流程。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "No Priors",
+      "title": "Travel Through the Lens of AI with with Booking.com CEO Glenn Fogel",
+      "date": "2026-07-09 10:00 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/watch?v=8nj_0wZkbtA",
+      "summary_zh": "No Priors 对话 Booking Holdings CEO Glenn Fogel（2000 年加入时公司仅值几亿美元的 Priceline，现市值 **1300 亿美元**以上、去年夏天曾逼近 **1800 亿美元**；四分之一世纪股价涨约 **1000 倍**）。\n\n对 AI 与旅游的核心观点：\n1）不看好\"AI 会颠覆旅游中介、让 Booking 一文不值\"的外部叙事。此前 OpenAI 推出 ChatGPT 内购/结账指向旅游时 Booking 股价一度大跌，随后 OpenAI 表示不做 merchant of record、取消该功能，Booking 单日反弹 **8%**。他认为不必对此过度解读，AI 对公司是\"极有益的工具\"。\n\n2）规模是被低估的护城河式资产：去年成交旅游额 **1860 亿美元**、超 **10 亿**间夜；2025 年底另类住宿房源达 **860 万**套，房间夜量约为 Airbnb 的 **四分之三**（仅另类住宿，之上还有更大的酒店业务），且过去 5 年该品类增速快于 Airbnb。此外全球旅游业监管日益趋严，规模玩家更能承担合规成本，构成新进入者的门槛。但他强调\"没有护城河\"，唯有持续创新才能长期取胜。\n\n3）Agentic 产品 Penny（Priceline 的 AI 系统）：过去几个月采用量\"每月翻倍\"，带来转化率提升、搜索更快、取消率下降、客户成功率提高，但绝对量仍很小、尚未显著体现在财报数字上。客服成本已下降约 **10%**（每次联系成本）、满意度上升。公司高度关注 token 经济学（成本、ROI、按用途选模型、长期 LTV）。\n\n4）投入与回报：今年计划投资约 **7 亿美元**（曾提 5.5 亿）于 AI 与技术使能。资本配置纪律强：过去约 12 年回购约 **40%** 流通股；第四季度回购 **36 亿美元**股票、派息超 **3 亿美元**；一季度回购等回报约 **40 亿美元**（纪录）。资金优先序：再投资、并购、否则返还股东。现有 **2.5 万**名员工。\n\n5）就业观：技术替代岗位是历史常态（如 2005 年前后 40 种语言的人工翻译/客服岗因机器翻译消失），但担忧本轮岗位消失与新岗位创造的速度不匹配、以及难以转型者（如被自动化的卡车司机）。主张企业持续 upskill、让员工 AI 化，反对因恐惧而排斥技术——否则中国等地区不会犹豫、将占据优势。"
+    }
+  ],
+  "articles": []
+}
