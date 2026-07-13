@@ -1,5 +1,23 @@
 [
   {
+    "id": "260709-Travel-Through-the-Lens-of-AI-with-Booking-com-CEO-Glenn-Fogel",
+    "title": "Travel Through the Lens of AI with Booking.com CEO Glenn Fogel",
+    "podcast": "No Priors",
+    "date": "2026-07-09",
+    "language": "en",
+    "path": "podcast/260709-Travel-Through-the-Lens-of-AI-with-Booking-com-CEO-Glenn-Fogel/summary.html",
+    "description": "Booking Holdings CEO 谈AI：无护城河、靠持续创新，AI 是降本增效工具而非旅行中介颠覆者。"
+  },
+  {
+    "id": "260709-Stripes-AI-Chief-How-AI-Agents-Will-Buy-Sell-and-Pay",
+    "title": "Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay",
+    "podcast": "The MAD Podcast with Matt Turck",
+    "date": "2026-07-09",
+    "language": "en",
+    "path": "podcast/260709-Stripes-AI-Chief-How-AI-Agents-Will-Buy-Sell-and-Pay/summary.html",
+    "description": "Stripe AI 负责人解读智能体商务落地：支付原语、Token 计量计费与新型 Token 盗窃欺诈。"
+  },
+  {
     "id": "260617-Building-Search-for-AI-Agents-with-Exa-CEO-Will-Bryk",
     "title": "Building Search for AI Agents with Exa CEO Will Bryk",
     "podcast": "AI + a16z",

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stripe AI 负责人：AI 智能体将如何买、卖与支付（投资者视角总结）</title>
+<style>
+  body { font-family: "PingFang SC", "Microsoft YaHei", sans-serif; max-width: 860px; margin: 40px auto; padding: 0 24px; color: #222; line-height: 1.75; background: #fafaf8; }
+  h1 { font-size: 1.55rem; border-bottom: 3px solid #2563eb; padding-bottom: 10px; margin-bottom: 6px; }
+  .meta { color: #666; font-size: 0.9rem; margin-bottom: 28px; }
+  h2 { font-size: 1.15rem; color: #1d4ed8; margin-top: 32px; margin-bottom: 10px; border-left: 4px solid #93c5fd; padding-left: 10px; }
+  h3 { font-size: 1rem; color: #374151; margin-top: 20px; margin-bottom: 6px; }
+  ul { margin: 6px 0 10px 0; padding-left: 1.4em; }
+  li { margin-bottom: 5px; }
+  .callout { background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 6px; padding: 12px 16px; margin: 16px 0; }
+  .callout.warn { background: #fff7ed; border-color: #fed7aa; }
+  .callout.green { background: #f0fdf4; border-color: #bbf7d0; }
+  .num { color: #dc2626; font-weight: 600; }
+  table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 0.92rem; }
+  th { background: #e0e7ff; padding: 8px 12px; text-align: left; }
+  td { border: 1px solid #e5e7eb; padding: 8px 12px; vertical-align: top; }
+  tr:nth-child(even) td { background: #f9fafb; }
+  .tag { display: inline-block; background: #dbeafe; color: #1e40af; border-radius: 4px; font-size: 0.78rem; padding: 1px 7px; margin-right: 4px; }
+  footer { margin-top: 40px; font-size: 0.82rem; color: #9ca3af; border-top: 1px solid #e5e7eb; padding-top: 12px; }
+</style>
+</head>
+<body>
+
+<h1>Stripe AI 负责人：AI 智能体将如何买、卖与支付</h1>
+<div class="meta">
+  节目：The MAD Podcast with Matt Turck &nbsp;·&nbsp;
+  嘉宾：Emily Sands（Stripe 数据与 AI 负责人）&nbsp;·&nbsp;
+  主持：Matt Turck &nbsp;·&nbsp;
+  时长：约75分钟 &nbsp;·&nbsp;
+  总结日期：2026-07-09
+</div>
+
+<p>这是 Emily Sands 与 Matt Turck 时隔一年再谈"智能体商务"（agentic commerce）。核心变化：一年前还在从第一性原理推演的假设，如今已有<strong>真实基础设施上线、真实公司在用、真实模式可循</strong>。全场围绕四条投资主线展开：①智能体如何代表消费者与企业买卖；②给智能体安全"发钱"的支付原语；③按席位（per-seat）定价失效、Token 计量计费成为 AI 商业模式主流；④嘉宾称"全 AI 领域最被低估的话题"——<strong>Token 盗窃（token theft）</strong>这一新型欺诈及其对 AI 公司毛利的存亡级威胁。</p>
+
+<div class="callout">
+  <strong>Stripe 的独特视角来自其网络规模：</strong>Stripe 处理量约占<span class="num">全球 GDP 的 2%</span>；而在 AI 领域，"几乎所有 AI 买家和 AI 卖家都在 Link 和 Stripe 上"，其可见份额远高于 2%——这是其欺诈防控与经济观察的护城河。
+</div>
+
+<h2>一、智能体商务：从假设到落地，一条完整"自动化光谱"</h2>
+<ul>
+  <li>Emily 提出智能体商务是一条<strong>光谱</strong>而非单点。仿照自动驾驶，Stripe 内部确有 <strong>L1–L5 自动化分级</strong>：L1 是人类做全部决策、智能体只执行交易；最高级（对应机器支付协议 MPP）是智能体完全自主发现、决策、成交、无人在环。</li>
+  <li><strong>当前现实：</strong>消费者侧"大多徘徊在 L2"——用户借 AI 找货、让渡少量选择权，但仍亲自拍板、且不成比例地只买<strong>中低价商品</strong>；"用 LLM 一键搞定暑期度假"尚未到来。厂商侧的 L3（AI 给推荐、人按下购买键）已是现实，例如 <strong>ChatGPT Instant Checkout</strong>、Gemini 内购买。</li>
+  <li><strong>三类基础能力缺一不可：</strong>商家能把商品目录/价格暴露给智能体；消费者能授权智能体代付；智能体能安全执行交易。这就是 Stripe "智能体商务套件"的前提。</li>
+</ul>
+
+<h3>已落地的分销版图（判断商务走向的风向标）</h3>
+<table>
+  <tr><th>层级</th><th>合作方 / 采用者</th></tr>
+  <tr><td>AI 入口（需求侧）</td><td>Google（AI Mode、Gemini App）、Microsoft/OpenAI（Copilot、ChatGPT）、Meta（广告内直接结账）</td></tr>
+  <tr><td>电商平台（供给侧）</td><td>Wix、Shopify、BigCommerce、Commerce Tools</td></tr>
+  <tr><td>品牌方</td><td>Best Buy、Coach、URBN、Kate Spade、Quince、Fanatics、JD Sports</td></tr>
+  <tr><td>早期规模化量</td><td>首个有意义的实盘交易量来自 <strong>Perplexity Shopping</strong></td></tr>
+</table>
+
+<h2>二、ACP 协议：商务领域的"MCP"</h2>
+<ul>
+  <li><strong>智能体商务协议（ACP）</strong>由 Stripe 与 OpenAI 共建，于<strong>去年 9 月底</strong>发布，被类比为"面向商务的 MCP"。解决两件事：①商家<strong>一次性</strong>暴露商品目录/库存/价格，即可 opt-in 接入所有采用该协议的智能体，无需向每个新智能体逐一注册；②内置<strong>共享支付令牌</strong>。</li>
+  <li>协议<strong>平台无关、支付处理商无关</strong>——可用于 OpenAI 也可用于其他提供方，可走 Stripe 也可把令牌传给 Adyen 等任意 PSP。Stripe 的立意是"把商务基础设施重造一次"，商家开箱即可获得来自 AI 工具的新需求。</li>
+  <li>Meta 案例被视为有趣延伸："广告本身也在变成智能体购买"。</li>
+</ul>
+
+<h2>三、给智能体安全发钱：Link 钱包 + 共享支付令牌</h2>
+<ul>
+  <li><strong>Link 钱包：</strong>Link 本是 Stripe 的消费者钱包，今已有 <span class="num">3 亿</span>用户，Stripe 正将其打造为"智能体的钱包"。用户可授权智能体代付，但保留内建管控——设定预算、限定商户/品类/地区（如"只能在美国或法国"）、可要求"每笔都需我批准"、随时收回；不是给智能体一张"空白支票"。</li>
+  <li><strong>共享支付令牌（shared payment token）：</strong>约<strong>6 个月前</strong>为智能体商务专门打造的新支付原语。令牌编码了"可向哪些商户、扣至多少额度、何种币种、有效多久"，智能体全程<strong>看不到底层卡信息</strong>；覆盖卡以外的多种支付方式，含 Affirm、Klarna 等先买后付。它同时驱动 Link 钱包与机器支付。每个令牌都内嵌 <strong>Radar 风控评分</strong>（既判断买家是否合法，也判断代其行事的智能体是否合法）。</li>
+  <li><strong>演进路径：</strong>最早的形态是"一次性虚拟卡"（源于 DoorDash 骑手代付模式），高度限定、适合单次消费；Link 钱包则灵活得多（跨供应商预算、单笔或聚合额度授权）。Emily 判断距离用户普遍放手让智能体在"限定单笔交易"之外用钱包，还需数月，但底层基础设施已就绪、"无卡点"。</li>
+</ul>
+
+<div class="callout green">
+  <strong>微交易（micro-transactions）拐点：</strong>过去无人愿为一篇 <span class="num">5 美分</span>的文章手输信用卡，商家也因负毛利不愿处理 5 美分刷卡。但当人类完全不经手、由智能体代付，且用<strong>稳定币余额</strong>结算时，微交易首次可行。Emily 预判在购买推理算力/Token/AI SaaS 时，用户将用 Link 钱包完成海量微交易——"没人会去批准那笔 <span class="num">1 美分</span>的交易"，逐笔审批不可扩展。
+</div>
+
+<h2>四、商业模式重构：按席位定价失效，Token 计量计费成主流</h2>
+<ul>
+  <li><strong>SaaS 的黄金经济学正在瓦解：</strong>SaaS 边际成本近乎为零，故固定订阅/按席位授权行得通、毛利极佳。而 AI（无论卖 LLM、套壳产品还是重度依赖 Token 的产品）<strong>每一次 prompt、每一次 API 调用、每一个任务都有真实边际成本</strong>——"客户如何使用你的产品，直接决定你赚钱还是亏钱"。因此<strong>实时用量计量 + 计费</strong>对 AI 公司至关重要。</li>
+  <li><strong>现实格局：</strong>Emily 称"几乎看不到仍纯靠订阅/席位的规模化 AI 公司"，因为经济上讲不通——重度用户和轻度用户成本悬殊，不按用量计量就无法合理定价、"难以把绵羊和山羊分开"。但主流是<strong>混合计费</strong>：订阅之上叠加用量计费。</li>
+  <li><strong>典型案例：</strong><span class="tag">Lovable</span> 起步用简单订阅（Stripe Billing），随成本上升转为混合模型——常见结构是免费额度 + 固定月费（如 <span class="num">$25/月</span>或 <span class="num">$100/月</span>含一定额度）+ 超额后<strong>严格按 Token 消耗计费</strong>。<span class="tag">Eleven Labs</span> 走了同样路径，从订阅转向 pay-go。</li>
+  <li><strong>向智能体收费带来"实时化"压力：</strong>智能体以机器速度消耗，若月末才结账可能已"挥霍惊人"。故趋势是<strong>实时计量 + 实时计费</strong>——由 <strong>Metronome</strong>（复杂模型的实时计量/用量计费）与 <strong>Tempo</strong>（Stripe 参与共建、为支付优化的区块链）联手实现的"流式支付（streaming payments）"，让智能体边消耗边用稳定币即时结算，既避免企业"被赖账"，也避免为增长关闭自助通道。</li>
+  <li><strong>财务/会计随之改变：</strong>微交易导致账目行数爆炸，传统电子表格式记账失效；某成功 AI 公司的会计二号人物是"工程师+会计混合体"，工作已从"结账本"扩展到"从营收确认全栈里发现异常与欺诈、判断业务健康度"。</li>
+</ul>
+
+<h2>五、重点：Token 盗窃——AI 时代的新型"第一方欺诈"</h2>
+<div class="callout warn">
+  Emily 称这是"当前 AI 领域最被低估的话题，可能被低估很多"。要害在于：<strong>欺诈者无需再偷钱或偷凭证，直接偷 Token 即可</strong>——Token 有真实价值，可用于建造、可在市场转售、可套壳成新产品出售，"分文不付"。在 SaaS 时代偷一点无所谓（边际成本为零）；<strong>但在 AI 时代，若欺诈率够高，产品经济模型会迅速崩溃——风险是存亡级的</strong>。
+</div>
+<p>Emily 给出过去三个月已"基本压制"的三大欺诈模式（并强调新花样会不断涌现）：</p>
+<ul>
+  <li><strong>多账号滥用（漏斗最顶端）：</strong>反复轰炸注册以套取新用户额度。规模令 Emily 震惊——<strong>AI 公司超过六分之一（1/6）的注册属于此类滥用</strong>，且极耗成本（少数人开海量账号、烧掉大量免费 Token）。</li>
+  <li><strong>免费试用滥用：</strong>放入支付方式、耗尽额度却从无转化意图。此类滥用在 Stripe 上<strong>过去 6 个月翻了一倍多</strong>，增量大部分来自 AI 企业；黑产已成产业，甚至有"24 小时到期的免费试用卡"被公开兜售。</li>
+  <li><strong>"吃霸王餐"（dine-and-dash for tokens）：</strong>在用量计费下累积数千美元成本、月末拒付；成本已由 AI 公司实打实承担。</li>
+</ul>
+<p><strong>Token 偷来干什么：</strong>底层 LLM Token 直接用；上层产品则大量"转售滥用"——如以低于原价折扣转卖登录凭证（"暗网市场里 <span class="num">$2</span> 卖 Cursor/Lovable，成本为零即净赚"）；还有长尾的领域特定诈骗，如批量生成音乐传到 Spotify/Apple Music 刷假听众骗版税，或"套壳再套壳"克隆整个 AI 公司、后端盗用他人服务、以更低价卖出。</p>
+
+<div class="callout">
+  <strong>Radar 的护城河：</strong>Radar 已运营十余年，正从"交易欺诈"扩展到"全客户生命周期的端到端滥用（bot、多账号、转售等）"。其差异化不只在网络规模（占全球 GDP 2%），更在 AI 领域的<strong>网络密度</strong>——"几乎没有我们没见过的优质 AI 买家，也极少有没在别处作恶过的坏买家"。佐证密度：<strong>Lovable 交易量的 58% 流经 Link</strong>。防控形态多为轻量 API：登录/试用/累积用量各环节实时传元数据、回评分，商家据此拦截或要求充值。</li>
+</div>
+<p><strong>行业认知落差 = 机会：</strong>大型 AI 公司已把 Token 盗窃视作对毛利最存亡级的问题、与 Stripe"在战壕里"共战；但整个行业尚未意识到"如今多数欺诈已不是传统凭证/支付欺诈，而是第一方滥用"。随着"每家公司都将变成 AI 公司"，这一认知落差会扩大。此外，因为"智能体也必须成为买家"，企业不再愿靠"砍掉免费试用、只做销售驱动的企业单"来规避欺诈——它们离不开自助（PLG）增长引擎，只能靠更好的风控。</p>
+
+<h2>六、Vibe Deployment：编码已解决，部署成新瓶颈</h2>
+<ul>
+  <li>Emily 断言"编码问题基本已解决"，并有 Stripe 数据佐证：<strong>智能体访问 Stripe 文档的流量一年增长超 10 倍，现约占全部文档流量的 40%</strong>；Stripe CLI（历史上的小众工具）如今 <strong>70% 的 API 资源请求来自智能体</strong>——"使用 CLI 的多数实体已不是人"。</li>
+  <li>新瓶颈是"部署"：AI 20 分钟写出可用应用后，仍要逐一注册数据库、鉴权、托管等服务、在各家仪表盘间手动复制粘贴密钥。为此 Stripe 近月推出 <strong>Stripe Projects</strong>——让智能体直接从命令行注册、配置、集成上线所需的全套服务，且不限于 Stripe（生态含 Vercel、Supabase、Cloudflare、Twilio、Clerk 等，一两周前又新增 <span class="num">16 家</span>合作方）。</li>
+  <li>Stripe 的动机很直白："部署成了瓶颈"。其使命是"提升互联网的 GDP"——若有想法的人能造 App 却无法部署，就无法销售；Stripe 定位为"编排层（orchestration）"的黏合剂，若他人能做同样的编排也无妨。</li>
+</ul>
+
+<h2>七、宏观：AI 正重塑创业生态（商业活力大增）</h2>
+<ul>
+  <li><strong>单人创业者崛起：</strong>年入超 <span class="num">$10 万</span>的独立创业者自 <span class="num">2022 年</span>起陡增；仅美国就有 <span class="num">500 万</span>人靠经营单人公司为生，其中数十万人年入超 <span class="num">$100 万</span>。逻辑：AI 既帮你"造出东西"（vibe coding/deployment），又帮你"运营业务"（会计、客服等领域智能体），使小公司在结构上变得可行。</li>
+  <li><strong>全球新企业注册激增：</strong>荷兰约 <span class="num">+40%</span>、芬兰 <span class="num">+70%</span>、法国 <span class="num">+80%</span>；以 Stripe 口径看，<strong>新企业开张速度较一年前翻倍</strong>。</li>
+  <li><strong>不止起步，更在快速扩张：</strong>Stripe Atlas 的 <strong>2026 年队列公司</strong>营收进度约为去年同期队列的 <span class="num">5 倍</span>（更快见到第一美元、更快扩张，且"生而全球化"）。案例：<span class="tag">Emergent Labs</span>（2024 年成立于美国）<strong>70% 营收来自海外</strong>、在 <span class="num">16 个</span>国家有实质业务。</li>
+  <li><strong>竞争格局判断：</strong>市场既有与 AI 高度互补、正在爆发的"大玩家"，也有大量"小玩家"不仅被创造出来、更能触达客户并快速增长——Emily 认为这对竞争与经济增长是好兆头。</li>
+</ul>
+
+<h2>八、Token 支出会否引发反弹？</h2>
+<div class="callout">
+  对"买方是否被 Token 账单反噬"的担忧，Emily 判断偏乐观：真正"失控烧钱"的多是<strong>财力雄厚</strong>的公司，可承受一两个月的乱花。据其估算，这些公司<strong>约 2%–4% 的人力成本投入 Token，其中约 30%–40% 是低效的</strong>，靠模型路由、可观测性、规范与护栏即可较快回到"效率前沿"，"并非存亡级"。小公司多为固定费用小额套餐，问题不大。整体或有"小幅再校准"，但不改长期上行逻辑。
+</div>
+
+<h2>九、未来 12 个月：从"智能体买家"到"智能体作为微型公司"</h2>
+<ul>
+  <li>自动化分级预计从 L2 上移（是否到 L4/L5 未定）。但 Emily 认为更有意思的是：智能体将从单一"买家"演变为<strong>多面经济主体</strong>——同时买、卖、供应基础设施、端到端经营业务，即"智能体作为微型公司（micro-firm）"。她不认为"独立智能体（solo agent）"会成为中位形态，但预计一年内会出现一些开创性范例。</li>
+  <li>配套设施已在铺开：Stripe 的机器支付协议 <strong>MPP</strong>（与 Tempo 共建的开放标准，智能体请求服务→服务返回支付请求→智能体付款，无需建户/无 UI/无人在环）是当前企业侧"智能体作买家"的主要机制；<strong>Stripe Directory</strong> 已悄然进入公开预览，让智能体便捷发现供应商，再经 Stripe Projects 直接集成。</li>
+  <li>Emily 对<strong>稳定币与 Tempo 在智能体经济中的作用"非常看好"</strong>；并提出一个反直觉推论：随着钱包、储值余额、绑定账户成为常态、凭证不再在不受信网站间流转，<strong>智能体支付在极限情形下应比"人类手输卡号"更安全</strong>（今日的一阶收益主要还是"更便利"，如避免手滑输错 CVC）。</li>
+</ul>
+
+<h2>投资者关键启示</h2>
+<ol>
+  <li><strong>Token 盗窃是 AI 商业模式的隐性 tail risk：</strong>"1/6 注册为滥用""免费试用滥用半年翻倍"揭示——在边际成本非零的 AI 里，第一方滥用能直接击穿毛利。风控（Radar 类、网络密度型）成为 AI 基础设施的关键卡位与投资主题。</li>
+  <li><strong>计费范式迁移确定性高：</strong>按席位/纯订阅让位于"订阅 + 用量"混合乃至实时流式计费。利好实时计量（Metronome）、支付轨（Tempo/稳定币）、实时数据处理（ClickHouse 类）与新一代财务/营收确认工具。</li>
+  <li><strong>支付原语与钱包是新护城河：</strong>共享支付令牌 + Link 钱包（3 亿用户）+ ACP 协议构成"平台/处理商无关"的中立层，Stripe 借此卡位智能体商务的授权与结算枢纽。</li>
+  <li><strong>网络规模即数据优势：</strong>Stripe 触达约 2% 全球 GDP、AI 领域份额更高、Lovable 58% 量走 Link——密度带来欺诈识别与经济洞察的复利，难以被后来者复制。</li>
+  <li><strong>"部署"是被低估的价值捕获点：</strong>编码商品化后，Stripe Projects/Directory 把编排层做成新入口，可能重塑开发者工具与云服务分销的价值链。</li>
+  <li><strong>宏观顺风真实存在：</strong>全球新企业注册激增、单人高收入创业者数百万、Atlas 队列营收 5 倍、"生而全球化"——AI 正扩大商业主体基数，长期利好支付/商务基础设施的 TAM。</li>
+  <li><strong>Token 支出反弹属"再校准"而非"崩盘"：</strong>大厂 2%–4% 人力成本投 Token、30%–40% 低效，可通过治理快速修正，不改长期上行——对"AI 泡沫论"提供了一个来自支付一线的克制反证。</li>
+</ol>
+
+<footer>
+  原始视频：<a href="https://www.youtube.com/@DataDrivenNYC/videos">The MAD Podcast with Matt Turck（YouTube）</a> &nbsp;·&nbsp;
+  转录引擎：阿里云百炼 Fun-ASR（说话人分离 diarization enabled）&nbsp;·&nbsp;
+  本页为投资者视角中文总结，由 AI 依据转录生成，忠实还原原意、未添加外部判断。嘉宾姓名以转录音识为准（Emily Sands）。
+</footer>
+
+</body>
+</html>
