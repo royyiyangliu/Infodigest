@@ -1,0 +1,57 @@
+{
+  "date": "2026-07-14",
+  "generated_at": "2026-07-13T23:35:08.643133+00:00",
+  "stats": {
+    "tweets": 7,
+    "podcasts": 0,
+    "articles": 1
+  },
+  "tweets": [
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI 工程主管（负责 Codex 与 ChatGPT，Thibault Sottiaux）密集回应付费用户对额度的不满，强调\"只优化不阉割\"。核心数据：已落地推理优化并将节省下放给所有订阅，单此一项就能带来约 **10%** 更多用量；此前把 GPT-5.6 Sol 的上下文上限从 GPT-5.5 的 **272k** 提到 **372k** 导致计费超预期，已回退至 **272k**、后续再逐步放开到 372k；同时回滚了偷偷调高的推理强度（内部称 \"juice values\"），修复了 high/xhigh 下多智能体（multi-agent）用量偏高的问题，并临时取消 5 小时限额。他还承诺 GPT-5.6 Sol 会继续保留在 Go、Plus、Pro、Team、Edu 等所有付费订阅中，直到推出更好的模型。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品增长专家、Creator Economy newsletter 作者 Peter Yang 观察到当前模型使用高度集中：他\"大胆猜测\"超过 **90%** 的用户在用 GPT-5.6 Sol，只有不到 **10%** 使用 Terra 或 Luna。他就 AI 公司的沟通方式表达了与主流做法相悖的观点：当社区情绪转差时，企业往往选择少说话、用更官腔的方式沟通，而正确做法应恰恰相反——更人性化、更透明地与社区共同找解决方案。他点名批评 Anthropic 模型很强但沟通方式有问题，应像 OpenAI 那样更直接地与社区互动。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad 展示了名为 \"Vibe Research\" 的实验：在 Replit 上微调一个 **Qwen-8B** 模型来下国际象棋，并行跑 **3** 个不同实验分支且取得实质进展。他强调模型做机器学习（ML）的能力已今非昔比（过去很差），如今哪怕从未做过 ML、只要有好的直觉来引导流程的人，也能做出有意思的 ML 工作——这对降低 AI 研发门槛具有信号意义。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch 主张\"把模型当成你自己拥有的机器里的一个齿轮\"，反对把核心能力外包。他给出 Vercel 的开放栈组合：AI SDK 作为开放模型 API、开放的 Agent API、AI Gateway 提供开放的 ZDR（零数据保留）推理。核心观点：初创公司和企业必须掌控自己的数据、评测（evals）、模型选择和软件层，\"不要把你的大脑外包出去\"。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie 提出：21 世纪商业最关键的架构问题之一，是在智能被大量封装进 AI 模型的世界里，如何把企业的决策、洞见、工作流模式和最佳实践这些\"公司 IP\"价值最大化。他认为这些问题不会被\"苦涩的教训\"（bitter lesson）抹平，反而随着智能变强而更加重要——当每家公司都能用上前沿智能时，如何独特地利用它成为胜负手。因此企业与底层 AI 之间存在巨大价值：为自身工作流建评测、在不同智能层级间路由模型、捕捉 traces 以改进工作流，让信息价值随 AI 变强而复利增长；这也是\"应用 AI 层\"当下机会巨大的原因。"
+    },
+    {
+      "author": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "summary_zh": "科技投资人、作家 Zara Zhang 分享了一个 AI 编程工作流心得：\"把会议记录当作 PRD\"——与同事讨论某功能的实现方式，把会议转录发给 Codex，它就能按讨论内容直接搭出原型，\"会议本身就是提示词（prompt）\"。她另抛出一句观点：热情（passion）才是最大的护城河。"
+    },
+    {
+      "author": "Nikunj Kothari",
+      "handle": "nikunj",
+      "summary_zh": "投资人 Nikunj Kothari 提醒：在旧金山他遇到很多人声称自己在\"tokenmaxxing\"、让一堆 subagents 循环干活，但当被问到究竟在为\"谁\"造\"什么\"时，很少有人答得上来。他的观点是，即便在狂热的 AI 时代，简单和方向依然极其重要——在让 token\"跑起来\"之前，先想清楚你所做的东西是否真的重要，因为时间是唯一无法挽回的东西。他还感慨对外销售（outbound sales）最能让人保持谦卑，是一项可习得但被高手做到极致时令人羡慕的技能，且会随时间推移越发重要。"
+    }
+  ],
+  "podcasts": [],
+  "articles": [
+    {
+      "source": "a16z",
+      "title": "The Most Human Technology Ever Made",
+      "date": "2026-07-13 16:05 UTC",
+      "link": "https://www.a16z.news/p/the-most-human-technology-ever-made",
+      "chars": 9571,
+      "summary_zh": "a16z 这篇观点文章（作者引用消费级 AI 产品创始人 Eugenia Kuyda 的话）提出一个反主流的投资框架：几乎所有关于 AI 的争论——它会取代还是增强工作、为一份备忘录省下多少分钟、token 是否物有所值——本质都是\"省时间\"的争论；但作者认为 AI 更重要的一面是\"画笔式\"技术，即帮助人表达、让\"创造\"变得可能。历史上只有语言、印刷术、蒸汽机同时兼具\"省劳动\"与\"扩展人的可能性\"，AI 属于这一稀有品类。\n\n对产业与投资的核心判断：**执行成本正在坍塌**，过去\"想法—落地\"的瓶颈（多年技能、融资、组队、许可）被 AI 抹平，决定\"造什么\"的不再是能否证明 VC 融资或企业级资本支出的合理性，而是\"谁有话要说\"。文中举例：肯塔基一名无 CS 学位的电工用 AI 做出售价 **$12.99** 的负载计算工具，替代原本 **$500** 的上门服务；一名水管工与 OpenClaw 相处一个下午后，取消了 **$40,000** 的咨询合同。作者预判软件将像 YouTube 普及视频一样无处不在，且多由\"从不自称 builder 的人\"构建。\n\n投资含义：作者明确反对\"少数公司通吃、其余沦为永久底层\"的恐惧叙事，主张\"规模化的个体性（individuality at scale）\"；伟大的消费公司往往始于看似玩具的东西（引 Chris Dixon\"下一个大事物起初像玩具\"）。重度使用者并未躺平，而是更投入。对分析师的信号：消费级 AI 的价值不在效率叙事，而在\"创造/表达/陪伴\"，反 slop、个体创作者工具与\"看似无用的玩具\"是下一批消费机会的温床。文末附 a16z 免责声明，非投资建议。"
+    }
+  ]
+}
