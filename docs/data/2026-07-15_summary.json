@@ -1,0 +1,57 @@
+{
+  "date": "2026-07-15",
+  "generated_at": "2026-07-14T23:34:35.563103+00:00",
+  "stats": {
+    "tweets": 7,
+    "podcasts": 0,
+    "articles": 1
+  },
+  "tweets": [
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "AI 领域独立开发者、Latent Space 播客与 smol.ai 创始人 Shawn Wang（@swyx）。他分享了当前\"大项目\"的模型分工工作流：用 sol ultra 做规划、fable 5 做方案批评、sonnet 5/terra ultra/swe 1.7 负责大规模写代码、Devin review（配合 kakuna）做代码审查。他强调无论用哪套组合，都会先用类似 @mattpocockuk 的 grill-me 或 @trq212 的 interview-me 方式，让模型在动手前把关键决策问清楚。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI 工程/产品负责人 Thibault Sottiaux（@thsottiaux）。他预告\"明天可能是 800 万活跃用户的庆祝日\"，并同期发布了 ChatGPT Work（企业办公版）相关内容，暗示其企业级产品正在快速逼近 800 万活跃用户的里程碑。"
+    },
+    {
+      "author": "Cat Wu",
+      "handle": "_catwu",
+      "summary_zh": "Anthropic Claude 产品经理 Cat Wu（@_catwu）。她宣布 Claude 的 Artifacts 功能迎来升级，转发了官方相关发布。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic 的 Thariq（@trq212）。他介绍 Artifacts 升级后表达力更强、且可以创造性地组合使用；他最喜欢的用法之一是在 Claude 中为某个项目建一个仪表盘，供他人或自己本地的 Claude Code 会话直接编辑。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad（@amasad）。他分享正在实时获取自己模型训练任务的进度更新，并类比说这感觉像早期的 vibe coding，只不过这次是在打造\"个人专属模型\"。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch（@rauchg）。他引用数据指出：开放权重模型现已占其 AI 网关 token 用量的 **29%**，较 4 月的 **11%** 大幅上升。他还称其平台目前最受欢迎的两个功能是\"易用的文件系统 API\"和\"可观测性（observability）\"，并将加倍投入；同时展示了让 agent 通过 feature flag 自主设置与调优实验的能力，作为构建\"自主、自我优化的网站和应用\"的基础模块。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie（@levie）。他系统阐述了对 AI 产业结构的判断：前沿智能将持续推进，竞争压低单任务价格，但因需求随成本下降而扩张（我们只会用得更多），前沿总支出依然强劲；开放权重会快速吸收前沿突破，提供\"按成本\"运行、可针对具体工作流微调的低价智能，形成健康制衡；应用层（Applied AI）机会巨大，可组合前沿模型与廉价模型来编排特定领域工作流，\"harness\"（编排框架）将成为核心差异化。他强调每家企业自训模型远比看上去难，因为最有价值的信息既在不断变化、又往往最敏感、无法打包进模型。他还援引一篇实验：原以为 Fable **2 倍**溢价会推高成本，结果因其善于\"像好经理一样\"下达约束与目标、给反馈而非亲自改代码，整体成本反而下降，认为这将是未来模型路由（前沿模型当管理者、低价模型当主力）的范式。"
+    }
+  ],
+  "podcasts": [],
+  "articles": [
+    {
+      "source": "a16z",
+      "title": "You Just Hired a Million Bad Employees",
+      "date": "2026-07-14 16:33 UTC",
+      "link": "https://www.a16z.news/p/the-next-ai-goldrush-tokens-loops",
+      "chars": 10872,
+      "summary_zh": "a16z 提出一个反直觉的核心论点：AI 没有取代人力，反而让**人类历史上首次比软件更便宜**；顶级公司的人均 token 支出激增，AI 采用后企业不减员反而扩员，\"AI 创造的岗位多于其消灭的岗位\"。文章用铁路史类比：1830 年代美国铁路里程十年间增长 **120 倍**，直到 **1841 年 10 月 5 日**马萨诸塞州 Western Railroad 两列火车因协调失误相撞，倒逼出现代管理制度，铁路随后成为全球首批十亿美元级产业，巅峰时约占股市 **60%**。作者认为 AI 正再次\"打破系统\"：等于给每个员工（哪怕最差的）无限的编制与预算，而 AI 会瞬间放大功能失调，因此管理 AI 比管理人更难。\n\n作者列出\"智能体劳动力与人类劳动力\"的 7 个相似点：1）\"Tokenmaxxing\"（堆 token）等同于\"堆人头\"，问题不在花了多少 token，而在**约 100 人里只有 1 人**懂得给 AI 提供上下文；2）Loops（智能体反复自我调用）是无人能有效 prompt 的\"权宜之计\"，本质是\"花 token 去花 token\"；3）浪费的 token 就是新的冗员——正如\"80% 员工无实质贡献\"，\"80% 的 token 什么也没做\"（引马斯克裁掉 X **80%** 员工后表现更好）；4）**100 倍 token 是新的 10 倍工程师**——AI 唯一真正胜过人的是可扩展性，故须找到并放大\"100X token\"，\"平均而言人类比 token 便宜，但规模化下优质 token 更便宜，管理负责二者转换\"；5）上下文囤积成为新的保饭碗手段，员工不愿把\"独门秘方\"喂给 AI（以 Meta 员工抗议公司拿员工上下文做训练数据为例）；6）**Evals（评估）是新的 OKR**——当前 **99% 的 AI 收入来自编程**，因为代码天然自带 evals（能跑或不能跑），跨领域落地取决于谁能建出 evals，企业的 eval 套件将成最有价值资产与竞争壁垒。\n\n投资结论（第 7 点）：下一个万亿美元级机会是\"AI 转型公司\"，预计比\"Neofirms/AI 原生服务\"创业公司大 **10 倍**。硅谷正押注初创去争夺知识经济中 **21 万亿美元**的服务支出，但作者认为最大资产仍在现有巨头手中；转型不是一次性项目，存在 Jevons 悖论——越 AI 化的公司消耗越多转型。以 Palantir 为例：这家约**五千亿美元**、看似最易被 Claude 颠覆的定制软件公司之所以未归零，是因为它卖的从来是\"转型\"而非软件；而 AI 时代的转型核心已变为 evals、token 最小化与\"深度理解业务到可将其编程\"。将各公司的独特性编码进智能体，可能成为未来十年最大的经济任务。"
+    }
+  ]
+}
