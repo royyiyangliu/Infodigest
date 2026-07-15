@@ -1,0 +1,404 @@
+Source  : Training Data
+Title   : Anthropic's Katelyn Lesse &amp; Angela Jiang: Building an Ecosystem, not a Walled Garden
+Date    : 2026-07-14 09:00 UTC
+Link    : https://www.youtube.com/watch?v=vPnVTHYplrQ
+────────────────────────────────────────────────────────────
+
+Speaker 1 | 00:00 - 00:31
+The last layer of abstraction on top of this is probably the coordination layer. So you have knowledge, and you have execution, and you have coordination. And at the coordination layer, we're beginning to think of these things called, like, strategies where, basically, it's almost like a meta harness. The true low level harness is designed for execution. But the next one is about, okay, if tokens aren't really fungible and you need to give them different jobs, like maybe this token is advising versus this token is executing, you wanna start composing these kind of orchestrated strategies that go together, and they should sit on top of all these things because at the end of the day, still need to execute, and the execution still needs to know what to do.
+
+Speaker 1 | 00:31 - 00:47
+So everything in theory should kind of, like, ladder together. And so I think, you know, if you were to look at our road map and the maybe kind of project forward a little bit where you kind of expect us to go, we'll move more and more from the knowledge execution layer, from the execution layer to the kind of coordination layer in terms of the abstractions that you can see us put out.
+
+Speaker 2 | 01:04 - 01:28
+Caitlin and Angela, thank you so much for joining us today. Lauren and I are thrilled to have you here. You are responsible for building Anthropix platform, and so you are responsible for building what I think is one of the most important, if not the most important developer platform in the world. And we are really excited to interview you today to understand more about what's ahead. And so maybe just to get started, can you give us the context of what is Anthropic Platform and where do you sit within Anthropic?
+
+Speaker 3 | 01:28 - 01:50
+Yeah, so Platform is both our externally facing APIs, our developer platform that people build on top of when they wanna build applications and systems that access Cloud's intelligence, as well as internally, we run our product infrastructure, and basically, we're the layer that our apps build on top of internally as well. Awesome. What's your north star as a team?
+
+Speaker 1 | 01:50 - 01:59
+It's a great question. Because we have both internal and external, we actually kind of have like two North Stars, which is probably like, you need be like, what? You surely need one North Star.
+
+Speaker 2 | 02:00 - 02:02
+Have different planetary system.
+
+Speaker 1 | 02:02 - 02:27
+Yes, exactly. They're separate solar systems, so it's fine. But on the internal side, like we really wanna provide is like literally as much leverage as possible for our internal teams to be able to ship like AGI pilled products. And we want them to be able to move fast, be able to have reliable, like, great platform to be able to build on top of. But I think that key bit about speed is, like, really intentional for us, and we really, really care about that internally.
+
+Speaker 1 | 02:27 - 03:00
+Externally, we actually have a lot more complicated set of things, but one of the true norths that we have there is to be able to basically give any builder the tools to be able to work with Claude to build whatever they want to build. And so it's a bit of a broad statement, but as a result, that boils itself down into being wherever that business is. We really care about bringing our platform really, really close to that business. This is why we spend a lot of time with the hyperscalers and integrating really closely directly with them, like AWS, Google, so on and so forth. And it is a lot of primitives that we end up creating.
+
+Speaker 1 | 03:00 - 03:26
+We want people to be able to express what they think their product should be. We want them to be able to almost do like custom software in their own way. You know, like in this new world with AI, what used to be probably economically impossible was that last mile of of custom software now in theory should be like very, very achievable. And we wanna give them all the tools and all the capabilities to go and do that. And so sometimes that comes in the form of primitives and APIs and higher order abstractions.
+
+Speaker 1 | 03:26 - 03:54
+And sometimes that comes in the form of just like standards. So for example, like skills and MCP, those are things just like Claude needs them to be useful. And we can just give them out to the rest of the ecosystem, work with everyone to help you create those things and get the best out of Cloud. So I would say externally, we really are oriented around just helping you just be able to build. But internally, that orientation, while still existing, is probably more specified towards speed and being able to move really quickly.
+
+Speaker 4 | 03:54 - 04:01
+How do you decide what goes into the platform, what gets externalized, and what doesn't to decide what products should be available?
+
+Speaker 1 | 04:01 - 04:17
+Yeah. I mean, we generally try to have a philosophy that we try to be consistent across the board. It's actually one of the reasons why we do internal and external. There's plenty of other platform businesses and constructs where you actually bifurcate these two things. For us, we kind of try to intentionally keep it equal.
+
+Speaker 1 | 04:17 - 04:45
+And then as a result, we try to hold this philosophy as much as we can around like, for any builder, internal or external, even though if our internal builders might have some slightly different requirements in the same way any user would have slightly different requirements, we wanna have the same primitives that are available to everyone. And one of the maybe the overarching thesis for that is that we've just seen the capabilities of these models just grow and such as exponential. And it's really hard to figure out a long lasting form factor. I think two years ago, we were all like, everything's chat. And now everyone's like, forget chat.
+
+Speaker 1 | 04:45 - 05:06
+It's just like agents. And there's gonna be another form factor, another form factor. And we kind of imagine that constantly evolving. And so the best way for us to kind of enable that for everyone and also ourselves is to actually build a really robust platform that gives people those tools to figure out what those form factors are. And I don't think we, by any means, feel like we're the only ones capable of figuring out that form factor, not at all.
+
+Speaker 1 | 05:06 - 05:15
+In fact, the more democratization we can do on that and help people and allow people to experiment, I think more those form factors will actually kind of naturally come out of the market.
+
+Speaker 3 | 05:15 - 06:00
+Yeah, and I think within our team, we've had moments where we're experimenting even with just a packaging up of our primitives in a different sort of higher order way, and we've thought about, okay, cool. We've solved this exact type of problem with this product that we've built into the world, and so we can go and dog food it for ourselves, but we'd never wanna fall into this trap of like, we're over indexed on the problem as it needs to be solved for an internal user, because exactly what Angela said, internal users have very specific requirements, external users have very specific requirements, and so if you over index on one or the other, you fall into a trap. So a lot of the time, what we'll do is dog food something internally at the same time that we open up early access of some sort with external customers so that we can kind of get a range of feedback and bring those things back into the platform.
+
+Speaker 2 | 06:00 - 06:14
+I'd love to talk about the higher levels of abstraction that you discussed. So I guess at the base level, this is just raw access to Clive, Opus, whatever tokens. How do you think about the layer cake of abstractions above that?
+
+Speaker 3 | 06:14 - 06:59
+Yeah, if you look back, so when I joined Anthropic around a year ago, the platform was basically just messages API. It was a messages API. We had come out with standards like MCP. We obviously have developer tooling around our SDKs and our docs and our console and things like this, but for the most part, it was a stateless API. And what's interesting, to Angela's point on form factors evolving over time, is we found a lot of our customers solving the same problems over and over again that we also were solving over and over again around, as the models got better at running for longer and working with more contacts at a given time, you wanna build agents that can succeed in a kind of long running context and even a remote context that doesn't necessarily have a human in the loop.
+
+Speaker 3 | 06:59 - 07:44
+And so we found that we could piece together our primitives and stand up all the same infrastructure that we're finding ourselves standing up internally to power our own products and arrive at some higher order abstractions that let you do more agentic work out of the box. And the problems that we're solving for you are infrastructure being kind of a hard thing to deal with. Like, how do you figure out spawning sandboxes that are gonna have the right governance and security and spin them up and spin them down when you need to, or the storage around transcript sessions so that you can resume a session if you stop it and pick it back up later? So that infrastructure is a big thing that we wanted to be able to provide more of out of the box, and we do more of that today. And then the second thing just being harnesses and harness engineering.
+
+Speaker 3 | 07:44 - 08:19
+There's a lot of thought and energy going into how do I do my prompt caching and how do I manage my context window, as well as how do I actually just get more intelligence out of the model and how do I manage my costs and things like that. So we've kind of packaged up our primitives a bit more in tune with the problems that we found ourselves solving to provide more of these things out of the box for people so that they can, if they're building systems for themselves internally, if they're building products, they can just be more focused on the problems that they want to be solving, and if they want to offload some aspects of those problems to us, they can, and that's kind of the ethos.
+
+Speaker 2 | 08:19 - 08:29
+And are your customers generally choosing to opt from the grab bag of stuff that you offer, or are they How often are they opting into just the managed agents offering, I guess? Just take care of it all for me.
+
+Speaker 1 | 08:29 - 09:06
+It varies by the user group. So for, I would say, really AI native startups, the ones who are tinkering and experimenting at a really low layer, they're just gonna go for the primitives. And then for everyone else, these are kind of classic, more enterprises or areas where it's like the purpose of the startup or the philosophy behind the startup isn't necessarily to optimize on some kind of hill climbing pieces, more like stringing together bunch of workflows and providing unique user value to that user. For those people, it's just kind of not their core competency. It's not where they wanna focus their time and resources, and they reach much more for these kind of higher ordered package offerings.
+
+Speaker 4 | 09:06 - 09:13
+What are some examples of the primitives you've released at different layers in the last few months? We've seen a few of them. Would love to hear.
+
+Speaker 1 | 09:13 - 09:43
+Yeah. I think maybe one framing I would give for some of the constructs that Caitlin was talking about is and this is a bit of an oversimplification, but effectively, there's approximately like three layers of this cake. At the very bottom is just kind of like knowledge. And so at this layer, in many ways, it's knowledge about the model, it's knowledge about the things that the model needs, and it's just like the ability to know how to actually do something with Claude is maybe the way I'd phrase that. And so there, the primitives that we have spent more and more time on have been actually things of the past.
+
+Speaker 1 | 09:43 - 10:22
+Because like we still evolve them, but they tend to be a little bit more baked. Like for example, there's very specific shapes and parameters we put on the messages API. And it's more like trying to expressly showcase Claude's design, like Claude the model's actual design, the way it thinks, the way it respects certain parameters, the way it kind of will do tool calls, all of those different pieces. And then we started standardizing tools, and then we started standardizing bits and pieces of context that you could put in at different moments in time, which is concretely skills and memory. And so those are the knowledge layer type of abstractions that we've put out over the past, I guess, year plus a bit.
+
+Speaker 1 | 10:23 - 10:43
+The next layer of abstraction that we've actually started to spend more and more of our time on is once you know stuff, you then need to execute. And so at the execution layer, that level of abstraction is the part that Caitlin was talking about around, like, we're doing these, like, higher order pieces, but, like, what are we putting higher order to there? It really is because you're now getting Claude to execute work. It's not just to know something. Right?
+
+Speaker 1 | 10:43 - 11:06
+I can give it a question and give me an answer. You can put string a lot of that stuff together. But now if you need to execute, like do work, give me the output, edit files in a bunch of different systems, that becomes a lot more complicated and requires infrastructure to handle. And so that layer is basically, I would say, a low level harness plus managed infrastructure as, like, the of abstractions. Today, we just our high level product for that is called Cloud Managed Agents.
+
+Speaker 1 | 11:06 - 11:25
+And so that's a piece, but we started to wrap more and more pieces in that. I think there's gonna be a layer on top of that. We have some inklings of it that we started to build towards, but the last layer of abstraction on top of this is probably the coordination layer. So you have knowledge, then you have execution, then you have coordination. And at the coordination layer, we've started to expose some of these in ways that, like, aren't very obvious.
+
+Speaker 1 | 11:25 - 11:55
+But we're beginning to think of these things called, like, strategies where basically it's almost like a meta harness. The harness, the true low level harness is designed for execution. But the next one is about, okay, if tokens aren't really fungible and you need to give them different jobs, like maybe this token is advising versus executing. This token is dreaming versus this token's executing, so on and so forth. You wanna start composing these kind of orchestrated strategies that go together and they should sit on top of all these things because at end of day, you still need to execute and the executioner still needs to know what do.
+
+Speaker 1 | 11:55 - 12:11
+So everything in theory should kind of like ladder together. And so I think, you know, if you were to look at our roadmap and the maybe kind of project forward a little bit where you kind of expect us to go, we'll move more and more from the knowledge layer to the execution layer, from the execution layer to the coordination layer in terms of the abstractions that you can see us put
+
+Speaker 3 | 12:11 - 12:12
+out. A really
+
+Speaker 2 | 12:12 - 12:13
+cool quote.
+
+Speaker 3 | 12:13 - 12:14
+Do you think
+
+Speaker 4 | 12:14 - 12:25
+this all comes together into a broader ecosystem beyond just the things that you guys are building? How do you help support people building products on top of it, and how do you help them get the most out of all these pieces?
+
+Speaker 1 | 12:25 - 12:36
+Yeah. I think this is, like, super top of mind for us. Like, we really wanna find a way to be to support as many people in doing this as we can. I we're still, like, learning. Like, a lot of the industry, like, has evolved.
+
+Speaker 1 | 12:36 - 13:07
+We've seen, you know, a lot of different pieces get spun up and spun down. And I think the the operative part for for Caitlin and I has been in the category of, like, making sure, at least at the base layer, that we provide as many primitives across the board as possible. So, you know, this kind of, like, yeah, like, knowledge, execution, coordination, we wanna give all of that out to everyone so that people can start to compose and create on top of that. And that's just from a, I think, pure builder kind of point of view. Then there's a point of view around, like, how do you kind of, like, plug in with us?
+
+Speaker 1 | 13:07 - 13:22
+Right? Like, we're also building first party products of our own. We've also created some ways to embed natively with us, like, for example, connectors, which are built on top of the MCP spec. And we try to be more open about those types of things. And we're starting to figure out what are the right bits and pieces.
+
+Speaker 1 | 13:22 - 13:40
+But what we're really trying to do is get to a place where a company is able to get created and built on, they can build whatever products that they want. They can build agents if they need to. And then those agents and those products could be things that could plug into other agents. Some of those agents could be cloud agents. Some of those agents could be other people's agents.
+
+Speaker 1 | 13:40 - 14:00
+But we want to be able to enable that kind of like transactability across the board. And then I think in order for all of that to kind of ultimately be true, there is a bit around like standard setting. And I think there's the traditional standard setting, which is around, how do systems interoperate? And that's things that you've kind of seen to see with like skills and MCP. But they're at, again, like the builder layer.
+
+Speaker 1 | 14:00 - 14:37
+I think at a higher order layer, there's also a bit around interoperability and standard setting around how do we all kind of like treat safety together? And we've talked to a lot of these companies and this is less from philosophies aside, just more like no one really wants to have technology that's, for example, doing negative things on their service. So cyber, I think, is a great example of this. You want to protect your own systems from negative actors or bad actors. And so these kinds of standard settings of how can we find ways to partner with more and more people to be like, Yeah, we all kind of want to make sure critical infrastructure is good.
+
+Speaker 1 | 14:37 - 15:02
+We all want to prevent fraud or any of those things from happening. And how can we work better with each of these members? I think on the last layer, we're still kind of like we're still evolving. And I think we're still very much trying to find ways that we can be better and work with the rest of the industry to bring people along and work with them. But those are kind of the higher order primitives or pieces that we wish to be in place so they can work with folks to ultimately solve this.
+
+Speaker 1 | 15:02 - 15:33
+I think if Fly were to take a step back at the end of the day on all of these things, this technology is so transformative. And if it's a little bit like electricity in the sense, before electricity, there was just had to have a candle and it was like, you can only do so many things. But with electricity, the reason why it's such a transforming technology for all of us and so greatly of a utility is because you can actually like wired it into everything. Everyone is able to actually access it. We also have like standards and ways to plug in and do all the pieces that we need.
+
+Speaker 1 | 15:33 - 15:39
+And that's not something that anybody can do by themselves. They always have to work with the ecosystem and work with partners to figure out a path forward.
+
+Speaker 2 | 15:39 - 15:54
+How do you think about the philosophy of building an open ecosystem versus a walled garden? How do you think about what products are really important for you to own first party versus where you're perfectly happy to plug into other components of the ecosystem?
+
+Speaker 3 | 15:54 - 17:12
+Yeah, so maybe in using Angela's kind of layered cake that we talked about a little bit earlier, you'll see that on some pieces of this, like execution, for example, what we've done within something like Cloud Managed Agents, and I think over time you'll see us try to make this a little bit more modular, we actually aren't precious about you should run these things on our infrastructure. It should be sandboxes that we control or it should be a storage layer that we control. We actually, for example, we launched self hosted sandboxes and we partnered with Modal and Vercel and Cloudflare and a bunch of other folks, even Amazon's new micro VMs, to have a first class offering where you can go plug any of those things in. We launched MCP tunnels so that you can call out to your MCP servers that are behind your firewall and be able to punch through there. And so for some of these things, whether it runs on our infrastructure versus somebody else's infrastructure is actually not important to us because the thing that's important to us is more that the architecture of how you put together these agents in a way that will be powerful, in a way that will be reliable and scalable, we have strong opinions on that, and you can kinda just conform to the interfaces that we put out there and plug those things in, and we think that that generally is a thing that works really well.
+
+Speaker 3 | 17:12 - 17:14
+Yeah. I think on the kind of
+
+Speaker 1 | 17:14 - 17:34
+verticals where we might build products, I think we kinda have two frames here. The first one is we are always trying to figure out a form factor, like an evolving form factor. We, by the way, don't think form factors are like static. It's like a dynamic thing. So what might be awesome for one year's worth of AI development will probably not be awesome for the next year's worth.
+
+Speaker 1 | 17:34 - 17:48
+And we just kinda try to have that mentality. We tell the team just overall, like around Anthropic. Everyone's always trying to be like, is this AGI pilled enough? And then we also have this mentality of like, we built something, it works. It was cool for a year and maybe it's not the right next thing.
+
+Speaker 1 | 17:48 - 17:59
+And so is there a way to try again? And we tell platform users the same thing. We just think that's probably just, you know, attached to the technology. But so, yeah. One one principle is, like, trying to always constantly find this new form factor.
+
+Speaker 1 | 17:59 - 18:23
+So sometimes we'll, like, launch products in certain areas to try to showcase a new type of form factor. It's not necessarily because we think it's, like, the biggest ham or the most important thing to go after, but sometimes like, okay, this has like always been a really difficult thing and people have always communicated this way or tried some things this way. And can we show that maybe there's a slightly different way? And because the model capabilities are are so advanced now, can we try to express it a bit differently?
+
+Speaker 4 | 18:23 - 18:25
+What's an example of that?
+
+Speaker 1 | 18:25 - 18:47
+Yeah. You know, like, cloud design is a little bit of of that way. I think depending on how you squint, you might see it as, like, a way that we kind of going into design as as as, like, you know, one of the verticals. But more often than not, it's like if you take a look at what we're trying to do with that product, there's a couple of, like, decisions that were made in there. The first one is that, like, you can actually try to offload more and more and more to Claude.
+
+Speaker 1 | 18:48 - 19:19
+And so it tries to be kind of opinionated on, like, you know, just just, like, talk to it and, like, let it really try to figure out. And, yes, you can still edit it and then do these kinds of things, but kinda, like, discourage a little of that and more just, like, let just talk to Claude to go figure it out. The second thing was it was really trying to express that actually, like, code is a is a a way to solve for things that you wouldn't normally think would be the way. So a lot of people who have built kinda generative, you know, like, slide decks or designs or whatever will pick the way of, like, they have, like, some kinda design system. You integrate against design system.
+
+Speaker 1 | 19:19 - 19:37
+It's almost in the traditional, like, classic WYSIWYG style of designing something. And with, like, Quad Design, it was like, okay. Can we try to just, like, use code purely, like, have Quad generate that code? And would it, like, do a good job? And we found through some experiments early on, it's like, actually, it looks like it can kinda do that.
+
+Speaker 1 | 19:37 - 19:50
+How can we kinda showcase that to the world? So that's, like, an example. We have a lot of other internal projects, and this kinda falls in the category of, like, expressing form factor. We'll all try it out internally. It'll be super cool for, two weeks, and then we move on to the next thing.
+
+Speaker 1 | 19:50 - 20:06
+We never even ship the thing, frankly. But yeah, we actually do a lot of product experimentation in that area and that's like our labs team. And then there's like the second category, which is that we actually do look at TAM. Like, we're a business, we do look at TAM. We do look at areas that we think, you know, there'd be reasonable, agentic, like, operations that would happen.
+
+Speaker 1 | 20:07 - 20:33
+In those areas, we do tend to have an orientation towards things that are more token heavy. And by token heavy or token hungry, maybe is the way I would say that, is, what we mean is, like, you know, you Once you spend a, like, call it like one turn, you look at the end of that turn and you say like, am I done or am I actually so glad that I did that thing? I want to do more of that thing. We like industries where it's like the answer to that question, say, I wanna do more of that thing. So coding is obviously the one that we all know.
+
+Speaker 1 | 20:33 - 20:44
+And the great thing about coding is that what it's actually doing is that, like, once you've finished a turn, you look at that and you're like, that was incredible. I'm, like, unlocked. I'm going to do, like, more. I'm going to build more. I can do more.
+
+Speaker 1 | 20:44 - 21:04
+And there's other services where it's like, actually, when you finish that turn, you completed the job, and you just move on. You know what I mean? And so we tend to, like, go into the ones that are a bit more like, there's this kind of, like, iterative flow. You're going to build more, generate more together. And then the last angle that we kinda take a look at is just sort of like, you know, there's gonna be certain business functions that we're like, they are the buyer that we like to go to.
+
+Speaker 1 | 21:04 - 21:25
+We want to help them optimize their workflows, help them create better products there. And I think we've been pretty transparent with some of the verticalization. Like, we've done, like, finance. We've done, like, legal. And we've tried to narrow on into specific areas where we feel like by having the right context and the right tools and putting it together in a good form factor is probably useful for us to be able to do.
+
+Speaker 3 | 21:25 - 21:53
+And in each of those areas, we're trying to do a bit of showing the art of the possible across all the different ways that you would accomplish those outcomes. And so for finance, for example, is a good one. You could be a company that solves problems in finance, and you could build directly on the Messages API, and you can just get some tokens, and you can build everything else on top. Or you could be someone who builds on cloud managed agents. You can get a lot more out of the box.
+
+Speaker 3 | 21:53 - 22:26
+Or you could say, I'm gonna build a plugin that, or like a connector that's gonna sit within one of our products and within those form factors. When we did recently, we launched Claude for Financial Services, is like, okay, cool. We've got packages of skills and things like this that you could choose to use within our product, within other people's products. We even launch cookbooks on here's how you would use Cloud Managed Agents to go and do these things. And so I think for us, it's all kind of an experimentation around we provide people all these different pieces and see kinda where they run with it.
+
+Speaker 3 | 22:26 - 23:11
+And then sometimes we put together products that are just packaging of all of these things. Like Claw Tag, I think, is a really good example. We had been seeing people in the industry go and say Shopify did this with River. Square, Block recently did this with BuilderBot. There's a few of these examples where people said, I'm gonna build an agentic platform internal to my company, and I'm gonna try to give it all the right context, and I'm gonna make it accessible from Slack or from various other platforms that you'd want it to be accessible at, and I think Claude Tag was very much a packaging of all those same things that anybody could choose to build something similar, but this is how we're kind of like, Well, this is how we're doing it internally, and if you would like to just kind of plug in and go, here's what that looks like.
+
+Speaker 2 | 23:11 - 23:19
+What do you think people misunderstood about CloudStack? Because there was all this ruckus about, Oh my gosh, it's just a Slack bot. Tell us what the magic of Tag is.
+
+Speaker 1 | 23:19 - 23:32
+Yeah, I think it's a great question. And I I do think it actually showcases a little bit of where maybe the future could be going. Yeah. I think, like, the I think if you look at products in the past, people are like, oh, you really attached to, like, the form or the the UI almost. Right?
+
+Speaker 1 | 23:32 - 23:46
+Like, it looks like this, so it's, like, super cool. And I think when you look at, like, tag, it like, yeah. Like, the way you interact with it is that you, like, literally tag it in Slack. And so, yeah, that is, like, the interface. But that's not really the important part.
+
+Speaker 1 | 23:46 - 24:11
+The important part is all the kind of, like, context engineering and, like, architecture that we put underneath the hood so that tag just works. It really should just, like, just feel like a coworker. Like a co you know, if you go to a company and you onboard, coworker comes into your channel and then you can chat with it, it's proactive. It figured out, like, what's, like, useful. You could and it just gets stuff, like, done for you.
+
+Speaker 1 | 24:11 - 24:37
+And so if you think about, you know, especially, like, nontechnical audiences, this is, like, it's a huge unlock. You just you literally create a channel, and then you at Claude, or sometimes you don't even at Claude, and you're like, hey. I wanna be able to do this and do that, and I can't figure out this, and how do I actually, like, submit an expense report again? And, traditionally, if you think about how to solve that workflow, you are going all over the place, and you're talking to your manager and you're talking to your spin up buddy, and it's really, really complicated. And today, now you just, like, go talk to CloudTag.
+
+Speaker 1 | 24:37 - 24:51
+And we do a lot of the hard work on doing the context engineering, the proactivity, a lot of the harness pieces. I think Andre Kaparthi said it really well. It's like it's like an org level harness. There's a lot of complexity baked into that. Like Kayla mentioned, you can use our APIs to go and construct that.
+
+Speaker 1 | 24:51 - 25:16
+You can do a lot of the experimentation yourself, obviously. But this is an opinionated take from Anthropic on how you can have this really awesome, always on kind of agent for your entire entire company. And the bit that's, like, futuristic, I guess, is, like, a lot of that complexity is actually like it's like an iceberg. It's like all the stuff underneath it. That's actually becoming harder and harder and, like, useful part that we're trying to, like, push through.
+
+Speaker 1 | 25:16 - 25:45
+And I think we'll see more and more, like, that kind of, like, tidbit that's, like, outside in the water. It's just, like, the interface can actually constantly swap. Like, today, right, like, Slack is a place where a lot of people collaborate, a lot of business collaborate, but also a lot of people collaborate in teams. And some people collaborate by a WhatsApp group, or they text each other, or they may some people still email each other. And, like, those could be the form factors that actually completely you can imagine agents just going there and being, and they're almost taking up the same form factors as humans have taken up.
+
+Speaker 1 | 25:45 - 26:03
+It was almost like a very almost like boring take, but it's actually like, I feel like the most like forward one because you want the agent and you want AI to basically be like another person and it's helping you. But it's like, you know, very intelligent, can figure out all the context, and you can always have it to be a really helpful assistant.
+
+Speaker 2 | 26:03 - 26:16
+Totally. You talked about context and then harnesses quite a bit. And so your team has such an opinionated point of view on what it takes to build an exceptional agent. I imagine a lot of that comes down to the context engineering and the harnesses.
+
+Speaker 1 | 26:16 - 26:16
+Totally.
+
+Speaker 2 | 26:16 - 26:23
+Maybe what best practices or advice would you share with people about what you need to get right on the harness and what you need to get right on the context?
+
+Speaker 3 | 26:24 - 27:04
+Yeah, I think, so it's interesting because we've kind of talked about, we launched Cloud Managed Agents as this very generic but high performing harness because we've done all the nitty gritty work that's actually really boring and not super interesting around how do you deal with prompt caching, how do you deal with context management, you clear old stuff out of the window, sometimes you call tools programmatically so you don't pull everything into the context window and you can keep it clean. There's a lot of those sort of details on the lower level harness layer. And I think, honestly, best practices are just stuff like prom caching. Do it. You're gonna save a lot of money and token costs.
+
+Speaker 3 | 27:04 - 27:46
+Obviously, try to keep your context window clear, and then putting those things together in a harness that will be performant is sometimes specific to the task that you're trying to accomplish, right? And then, of course, evals. I'm surprised we got this far into this thing before one of us said the word evals. We're like, you need evals to make sure that what you're trying to accomplish is performance. But I think where we're starting to go, and Angela mentioned this a little bit earlier, is more of a concept of strategies or meta harnesses, because I do think that, yes, you can, again, make this lower level harness that's gonna be performant, and maybe that's interesting for you to do yourself or maybe not, and you offload it to us.
+
+Speaker 3 | 27:46 - 28:13
+But this concept that you can take any given token and spend that token on just executing, or you could take that same token and choose to actually reflect on your past AgenTex sessions and write learnings to memory so that the next agent does a good job. Or you could take that token and advise with a bigger model so that a smaller model can execute and do a better job. Or you can say, Execute, execute, and then a grader comes in and is like, Did you do a good job? No, you didn't. Try again.
+
+Speaker 3 | 28:13 - 28:53
+And so I think the interesting innovation is gonna come more at that higher level on the meta level, and I think optimizing within those strategies is something that our team is really excited about, and we're starting to do a lot of work there. And I think a lot of other people are starting to feel really excited about this concept of strategies and the jobs you give to tokens because, again, yes, there's best practices on stuff like your prompt caching and exactly how you clear stuff out of your context window and how you write your evals and a lot of things like this, But I don't know that there's necessarily so much juice to squeeze in a lot of cases out of that layer as compared to a layer higher than that. Yeah. And one
+
+Speaker 1 | 28:53 - 29:17
+of the reasons for that, I think, is it has to do with the generations of the models. If you look two years ago, a lot of the harness was like a scaffold to kind of like tell the model to go from point a to point b. And you had to like you really had to like build in a lot practically build one wall here and one wall here so that like the thing would go in a straight line. And now the models are actually very, very steerable. And so a lot of that steering, you could just put it in the prompt.
+
+Speaker 1 | 29:17 - 29:33
+Right? Like, go do go from point a to point b. And the model, like, will go from point a to point b. So a lot of if you have harnesses that are, like, designed to kind of do that kind of, like, steering, you can delete that part. Like, that part we actually frequently encourage where you could delete part of those harnesses.
+
+Speaker 1 | 29:33 - 29:57
+I think various people have said things along those lines. And that's, I think, what people oftentimes mean when they're like, either the model will kind of consume some of the scaffolding. And, like, in that sense, like, for sure, your scaffolding is telling it to go in direction that it can just intelligently figure out, like, that I think will increasingly continue to to be so. But as a result of of this, what the harness needs to start doing is more allow it to run longer. And so that's where, like, that execution bit tends to be.
+
+Speaker 1 | 29:57 - 30:28
+Think like, it sounds like a maybe somewhat silly point, but I do think it results in a lot of differences because because you can go in the direction that you tell it to go, you obviously don't want it to stop at b. You're gonna be like, okay, now go from b to c and then go to f and then go to z and then come back to me on a. You know, something funky like that. In order to be able to do a lot of those things, the kinds of harnesses that you do are less the steering harness, and it's more like these kind of strategy harnesses that Caitlin's mentioning, which allows you to operate at a slightly higher level thinking, which matches, I think, a lot of the intelligence gains we're trying to see with the model.
+
+Speaker 2 | 30:28 - 30:34
+Do you think task specific harnesses make sense or vertical specific or task specific harnesses? I think
+
+Speaker 1 | 30:34 - 30:53
+people have different opinions on this. Our opinion is yes. I don't think there's a general harness. Think I there are some capabilities that are obviously very general and they tend to be very useful. Coding is a capability that is very useful because you use it across so many things and software has just eaten so much of what is capable.
+
+Speaker 1 | 30:53 - 31:35
+So our ability to, like, write software is therefore useful. I think when you think about, like, very, very specific types of domains, they were going to require, like, a couple of pieces of the harness to be sort of, like, customized. One of that I do think is how you choose to kind of, like, handle sort of like errors between when you do something and you hand something off to the model. So in like domains where you require like an extreme level of verification, that logic of how you handle that very like it again, I think it sounds small, but like I totally understand why some feel like they really wanna own the harness because tweaking that last bit will give you a ton of juice. And especially domains like legal and finance where there's a lot of consequences to, you know, not getting it perfectly correct, like, it's really gonna matter.
+
+Speaker 1 | 31:35 - 32:13
+And that's gonna be the difference between your product and someone else's product being the thing that the user ultimately uses. And then there are other domains for which, like, I would say it's not going to matter as much because you're able to compress it into, like, a general model capability. So the tweaks that I guess, like, you know, where where we feel like the domain specificity is really gonna matter is the specific, like, verification logic between the model and your execution. And then I think it's gonna be about, like, some of these kind of, like, higher order strategies on how well you're able to actually, like, allocate your token budget. I think the context bit is actually a little overdone.
+
+Speaker 1 | 32:13 - 32:24
+Yes, you're gonna throw in context, but any harness can actually handle a lot of context. And so that's just more like you have the data. And if you have the data, then obviously you're uniquely qualified to do something useful.
+
+Speaker 3 | 32:24 - 32:47
+Yeah. And I think when people say harnesses, they often mean a lot of different things. And I think this is why in part there's so many different opinions on this. You can think of a harness as literally just a loop that's like, okay, cool, user model, user model tool, that sort of thing. Then you could think of the harness as also all of the tools that are packaged up with the harness, right?
+
+Speaker 3 | 32:47 - 33:33
+And there's just a lot of different definitions of these things, and I think the stuff that can be pretty generic and less interesting to own and deal with, as I was kinda saying earlier, is getting your prompt caching right. Maybe that is not the world's most interesting thing. Choosing to clear out old tool calls from the context window and things like that are maybe a little bit less interesting. And you go a layer higher into some of the stuff Angela's talking about, and then you get into, okay, yeah, these are things that I might want to own and control. And so it's interesting with Cloud Managed Agents, the thing that we built today, we call it higher order, but it's not really that high order in the sense that you can choose to define all of the tools that you want to bring in as custom tools with the harness.
+
+Speaker 3 | 33:33 - 33:48
+And we give you a lot of knobs to control. You can define skills. You can do your system prompts. You can do a whole bunch of different things, MCP servers and things like this. And I think where we wanna get to is a point where you can literally just tell an agent, Here's the outcome I want and here's the budget that I wanna spend.
+
+Speaker 3 | 33:48 - 34:07
+Ready, set, go. And you may be like, Don't think about any of those things underneath. And so I think there's just a few different layers of this, right, that for certain things, you might wanna sit at a different layer of what you actually go and control, and you can probably get better outcomes within some of those layers by doing a little bit more optimization work.
+
+Speaker 4 | 34:07 - 34:20
+Very cool. One of the things I'm curious about and one that I love about infrastructure and platform teams is that you get to see what the most advanced users in the world are using and learn from them. I'm curious what are some things that you're seeing and learning from the people building on your platform?
+
+Speaker 1 | 34:21 - 34:46
+There's some people that have been doing some really funky ways of handling context. We ourselves explore this a lot. That's actually one of the reasons why Tag is such a great product is there's a lot of really awesome context kind of engineering that's happening. We've seen some teams be really clever about how they do that. And they are able to kind of think through, okay, if I have all these contexts in a bunch of different places, how can I proactively go reach out to them?
+
+Speaker 1 | 34:47 - 35:18
+How can I try to generate enough permissions across each of them and then feed that all into an agent? And it's interesting that I guess this is kind of the level of innovation that we're actually very excited by. It doesn't express itself as a completely different product form factor, but what it actually does express itself as is, like, maximally useful to users. And we've been seeing this more and more with, like, inter actually, like, internal use cases instead of, like, external ones. So, like, companies who are becoming more AI native, basically, they're the ones we're seeing increasingly more and more innovation out of.
+
+Speaker 1 | 35:18 - 35:47
+And so we've had customers try to do this for their they've built their own custom SDLC kind of setup in very, very innovative ways. We've had ones who do that for, like, their entire back office. And just, like, the kind of nuances of how they, like, stream in context, I think has been, like, actually really interesting in terms of, like, how they've been putting together the pieces. So that's been, like, one category that's been, like, really, really, like, fascinating. Another category that's been really interesting has actually been with companies that are dealing with really old school software.
+
+Speaker 1 | 35:47 - 36:09
+And so there's a lot of healthcare companies that we kind of engage with. And they're like, the systems I'm working with, they don't even have APIs. That's a dream. And so how can they use computer use and things like this to be able to start to kind of automate and create more connectivity with our systems? And that area of innovation, I think, has been really exciting.
+
+Speaker 1 | 36:09 - 36:38
+It's been really interesting to see people try all sorts of crazy stuff from like taking a laptop and trying to like run a bunch of things on it to auto generate a bunch of things that then their agents can go and use. And this has actually been probably like an area of, I think a lot of innovation coming from a lot of our customers that we want to find ways to support better and see like, okay, maybe there are How can we make this easier for you? How can we help you with some standardization? How can we get it so that you can just have a spec and then Claude can then respect it? So it's much easier for you to organically connect a lot of these things.
+
+Speaker 1 | 36:38 - 36:49
+But yeah, maybe the general theme I would just give you is interestingly, a lot of the innovation that's most exciting out there right now has been this kind of context and connectivity layer, which has been really fascinating.
+
+Speaker 3 | 36:49 - 37:20
+Yeah, a good one in that we were working with a customer who, they built some agents on Cloud Managed Agents. They also have some agents that they built on other models and other platforms, and they've kind of optimized each of these agents to be good at the things that they want. They want these agents to all be able to work well together. And they kind of were like, Wow, Galaxy Brain. What if I expose an MCP server on top of this agent so that it can then go and have this other agent call a tool on that agent and have these things just be more modular and be able to work together?
+
+Speaker 3 | 37:20 - 37:42
+And we were like, Yeah, totally. And we sat down with them and worked through it, and it worked perfectly, and it was pretty cool. And so we're seeing a lot of, again, that connectivity layer that I think is one of the cooler areas where people are innovating. But outside of that, one thing that has been cool is just seeing the shift in, I guess, industry trends of where we're seeing a lot of our usage come from. We talked a lot about coding.
+
+Speaker 3 | 37:42 - 38:12
+Coding as a category, of course, absolutely exploded, and there's so much going on there. And we're starting to see some of these emerging trends. More recently, we're starting to see manufacturing really pick up as just a category where people are building with AI, and one of our PM's getting on a flight to Detroit to go figure out with these customers, what they need and what's going on. And so I think we're gonna start to see a lot more just kind of outside of the box of what people think about today sort of use cases, which we're really excited about.
+
+Speaker 2 | 38:13 - 38:27
+It seems like we went through a token maxing moment of history, and now there's the token rationalization moment of history. What are your thoughts on that? And what should companies be doing? And then how does the platform team think about enabling that?
+
+Speaker 1 | 38:28 - 38:38
+Yeah. Mean, it makes sense. It makes sense from the high you start to rationalize. Really like that framing. And I think there's a couple things that are top of mind for us on this front.
+
+Speaker 1 | 38:38 - 39:06
+I think, again, it makes sense. And as these models get more and more capable, you're gonna hit levels of intelligence maxing that are there that then you wanna do the next kind of dimension. And the next dimension after intelligence will either be cost or it will be speed. And you just kind of go through that across all possible task complexities in the distribution. And as we kind of see that happen, something that's really top of mind for us that we kind of try to spend some time with users on is what you don't wanna do is stop AI usage.
+
+Speaker 1 | 39:06 - 39:19
+That's kind of the wrong move. And we do actually see some of our customers do that. So oftentimes the way that AI spend has erupted inside their company has been through some kind of like shadow IT. You know, like their employees just like wanna use it. They find a way.
+
+Speaker 1 | 39:19 - 39:33
+They end up procuring it themselves. And before you know it, like half your org has like found some way to have installed Cloud Code. And in that world, it is kind of hard to to manage because these things are, again, like, they're very token hungry, ultimately. And so what we try to kind of encourage our customers is, hey. You don't wanna, like, stop the innovation.
+
+Speaker 1 | 39:33 - 40:08
+Like, if you are getting returns on top of this, are shipping faster than ever before, you can, like, run more operationally, like, efficient, then those are gains. And so the area that we actually try to encourage people is if there is a way for you to construct, again, a strategy that allows you to design an architecture that says, given a task, assess its level of complexity. I mean, I'm effectively describing a router, but there are ways to do this that are, I think, a bit better now. And so this task comes in, has a certain level of complexity. For that level of complexity, you can define some rules, but for the most part, if it's a hard task, you should probably route that to a big super smart model.
+
+Speaker 1 | 40:08 - 40:20
+And if it's not a hard task, can route that to cheaper models. Designing that I think has a little bit of there's a lot of technical complexity in that, but it's very, very doable. And we actually encourage people to try those kinds of things. Think ultimately You think
+
+Speaker 2 | 40:20 - 40:20
+you'll offer rather?
+
+Speaker 1 | 40:21 - 40:45
+I I think within the quad space, it will, like, make sense. It's actually one of the strategies we imagine, like, designing because the way that we're kinda thinking a lot of these things is, it almost feels like every month there was a new era of something. And if we just take a step back, like, okay. And it this seems to be, like, really fast. And so what are the different ways that are recomposable so we can redesign very quickly for any new whatever the cool thing is that month kind of, like, bit?
+
+Speaker 1 | 40:45 - 41:10
+And so this is, like, in that category of things where we feel like we can actually just, like, recompose a lot of our primitives and then design it. I think the bit that we do feel really strongly about on the model routing front is, like, we are designing our platform for Claude, and we wanna make sure that Claude is great at, like, solving all these things. So we'll, like, restrict to that space rather than I don't think we're that interested in saying, Okay, and then you should route to a different model or whatever.
+
+Speaker 2 | 41:10 - 41:11
+Makes sense.
+
+Speaker 3 | 41:11 - 41:31
+Yeah. And well, some of that too is just like, I think we have a strong belief that harnesses and just the agentic layer should be tuned to the model family that you use it with. And so I think there was a period where people were kind of like, Yeah, cool. I can build a harness and build an agent and then just plug in a different model underneath. And they were excited about routers from that perspective.
+
+Speaker 3 | 41:31 - 42:19
+And I think we started to see Vercel just did this with Harness Agent, for example. Some of these players in the space come up a layer of abstraction and say, Actually, plug in the whole harness and the whole agent that's tied to a model family, which makes a lot of sense. And so what we could provide is a little bit better, smarter, how do you mix and match the right models within the model family underneath that thing, if that makes sense. But yeah, on the general question of token maxing costs and these sorts of things, I think we're just kind of going through what feels like a normal, natural cycle for companies and figuring out how to make the best use of this technology and run their businesses really well and really effectively. It's interesting, before working at Anthropic, was at Stripe, and we were kind of in the very reasonable era of we paid a lot of attention to our AWS bill.
+
+Speaker 3 | 42:19 - 43:27
+And so if someone were to have built some background job and they didn't quite configure it correctly and this thing's burning through CPU or whatever it is at any given moment and causing a big increase in spend that's not actually worth it. We have put in place the guardrails to find that and then go ask that engineer very nicely to please turn off their background job that's not within the bounds of what they should be spending for the thing they're trying to accomplish. I think those are the things with AI that people are gonna start to go and figure out, and I think to Angela's point, the thing that gets dangerous is when you're kinda just like, Here's a cap, and you're stuck within your cap, ready, set, go. But I do think that encouraging innovation, encouraging people to create really excellent outcomes with this stuff, and then coming in from the side and looking and saying like, okay, well, there are a few different ways that we probably could've accomplished that outcome, right? And one is you take Opus and you run it all night and you do something crazy, and another is maybe to get a little bit smarter with the strategies that you put together in order to create that same outcome within a lower cost.
+
+Speaker 3 | 43:27 - 43:31
+And I think that's the next layer of thinking that everyone's gonna start to do.
+
+Speaker 4 | 43:31 - 43:37
+Very cool. Is there anything that you guys are excited about building over the next few months that you can share a hint at what might come next?
+
+Speaker 1 | 43:37 - 44:05
+Yeah. I mean, I know we said this word like 20,000,000 times, so I apologize. But we really are trying to build ways for you to compose strategies. And so that is an area that we're trying to move into that kind of like, yeah, coordination layer of the abstraction. And we wanna start at at this front because the types of problems that we see people building, they are at a layer where it's like, in order to get the most return on this, you have to be a little clever about, like, what is the nature of the problem that you're solving.
+
+Speaker 1 | 44:05 - 44:36
+So to give you something, like, concrete, like, when you try to solve for, like let's say you wanna build an agent that's, like, trying to do bug hunting. And you could just send one off to go and do that, and it's gonna give you a certain of return a level of return of possibility. And then people kinda get stuck at that, and they're like, okay. My next options are I can, like, make a bigger I can just, like, swap the model for a different I'd probably bigger model, or I could, like, let it run, like, longer. And that's what pretty much, like, the only two, like, levers that you have to, like, try to make this, like, bug hunting agent.
+
+Speaker 1 | 44:36 - 45:20
+For a lot of experimentation, when we do these kinds of things, there's, like, actually, the thing like, those two those two things are still true, but you actually have, like, a third lever and tends to actually do a lot more than you think it does, which is that actually if you were to, like, best of end the thing, it would, like, give you a lot more returns. But, like, just to be just saying those words are fine, and there's plenty of papers and people have published it, to actually build that thing and put it into production so you can actually test it on users and see the results for yourself, that's, like, really, really freaking hard. And you end up building all these, like, custom harnesses, so on and so forth, like, you know, all that stuff. But we're seeing, like, this is where the alpha is, and it's hard. And so, like, in the same very simple philosophy that we talked about at the beginning, like, if it's, like, gives you the return that you want and it's hard, we're gonna go try to just make it easy for you so then you can use it to then run the experiments you actually need to run.
+
+Speaker 4 | 45:20 - 45:25
+It reminds me of when people were talking about agent swarms a year ago. It's some version of that.
+
+Speaker 3 | 45:25 - 45:26
+Yeah. It's been a whole year.
+
+Speaker 4 | 45:26 - 45:28
+Yeah. I know. We're finally there.
+
+Speaker 1 | 45:28 - 45:37
+Yes. Yeah. No, I think that that's a type of strategy. Exactly. In the same way that you have one big one that separates a bunch is another type of strategy.
+
+Speaker 1 | 45:37 - 46:03
+And I think people have thought about this maybe in the way of like human organization. I guess it could be similar, but if take it to kind of its end state, it's actually more just like the token has a job. And I think it's this job piece that we're really indexed on and we see a lot of returns too. And that's the thing that we wanna spend time with users and the rest of the ecosystem on, on like, how can we just make that easier for folks to then experiment? Like, we can give you like five jobs off the top of our head, and we'll probably like, that's what we have internally.
+
+Speaker 1 | 46:04 - 46:10
+And if we give this out to the rest of the ecosystem, it's probably gonna be like 100,000, 200,000. Who knows what other combinations that people could put together?
+
+Speaker 3 | 46:10 - 47:11
+Yeah. We wanna be able to keep doing this hill climbing on how do you get the most value, the most intelligence per dollar and just put that power in people's hands. But around the edges of that, we have these personas that have kind of just things they have to work through in order to be able to really deploy AI either within their companies or within their products, and that's the sort of enterprise ready security and compliance controls and things like this, but really even just making the platform more modular in the right ways, being able to plug in different pieces of the solutions that we're building, like I wanna use memory for this thing over here, right, or whatever else it is, and having a truly excellent developer experience around that because we spend a lot of time with enterprises who are like, okay, I have this walled garden. I need to figure out exactly how I can plug these solutions in, and so we've got a part of our team that's innovating on things like strategies and jobs and trying to help you maximize intelligence, and they're like, That's really cool, but I can't actually use any of that for X, Y, Z reasons.
+
+Speaker 3 | 47:11 - 48:01
+So I think solving those problems is really, really important to us, but then the other persona is the weekend developer who's like, I wanna go and build something useful for myself, right? And they're often doing that on top of our platform and on top of many other just pieces of developer platforms in the community. And I think for some of those folks, there's more that we can do to provide solutions that are maybe more open or more hackable or whatever it might be for those folks to kinda just go wild with what we can offer them and have this really excellent developer experience. And so I think there's a lot of stuff that maybe I would put in the category of table stakes that I'm really excited about because I think those are the things that then unlock getting people to say, okay, yes, this thing works for me, and now I can plug in on some of the stuff that you guys are doing that's really innovative and hill climb y to get more intelligence and save costs and things like that.
+
+Speaker 2 | 48:01 - 48:21
+Wonderful. Awesome. Caitlin and Angela, I feel I mean, you are building one of the most important developer platforms in the world. And talking to the two of you over time, I just feel really optimistic that that platform is in very thoughtful hands that that care about the ecosystem. So thank you for taking the time today to share what you're up to, and we look forward to what's ahead.
+
+Speaker 3 | 48:21 - 48:21
+Thanks for
+
+Speaker 1 | 48:21 - 48:22
+having us.
+
+Speaker 4 | 48:22 - 48:23
+Thank you, guys.
