@@ -1,0 +1,27 @@
+Source  : a16z
+Title   : Investing in Runta
+Date    : 2026-07-16 15:15 UTC
+Link    : https://www.a16z.news/p/investing-in-runta
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+AI models have required rethinking the GPU stack. And now agents are doing the same thing for CPUs.
+Ironically, the direction compute has taken over the last decade has made it less suitable for AI. The driving forces have been focused on human developers pushing platforms to offer higher levels of abstraction, much more opinionated approaches to state management, and heavily focused on devX.
+But it’s increasingly clear that AI agents just want a computer. By that I mean a complete OS install, fully stateful, and compute that can run locally, or in the cloud. And agents need a lot of compute. In fact the recent upsurge in agents has resulted in a massive CPU shortage alongside the model-induced GPU shortage.
+So similar to GPUs, now it is time to rethink the execution layer for agents. And we’re extremely excited to be investing in Runta which is tackling this problem head on. In short, they’re rebuilding the execution layer to provide the abstraction agents want (a computer), but be extremely efficient, run locally or in the cloud, and yet provide security and policy interfaces allowing agents to be run safely within the enterprise. Or anywhere.
+We’ve known Guanlan, the CEO of Runta, for nearly a decade. He’s a legend within the systems community. He was a tech lead on Cloudflare’s early edge team that built out the edge proxy, caching and WAF. And then we worked together at Kong where he led the team that built the core proxy. He’s put together an ultra-strong team of systems developers to rebuild compute for agents. To be clear, this isn’t yet another sandbox cloud, which only solves a small portion of the isolation problems. But core systems software re-imagining the execution layer the right way, purpose built for agents.
+We’re leading the seed round, and I will be joining the board. I’ve been in the industry long enough to remember the transition from client/server to datacenters. And from physical computers to virtual machines and then again to containers. This shift in compute is the largest and most important yet. From hosting software to hosting agents. And Runta is the right team to get us there.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

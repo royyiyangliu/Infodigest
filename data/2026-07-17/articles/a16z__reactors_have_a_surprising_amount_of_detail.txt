@@ -1,0 +1,74 @@
+Source  : a16z
+Title   : Reactors Have a Surprising Amount of Detail
+Date    : 2026-07-16 14:01 UTC
+Link    : https://www.a16z.news/p/reactors-have-a-surprising-amount
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+To hear more from Tori, President & COO of Radiant, follow her at
+@torishiv
+A few years ago, John Salvatier wrote an
+essay
+about building basement stairs. He expected a simple weekend project. Instead, he found that wood warps after milling, that a screw won’t enter a hole at a different angle than it first did and there’s no such thing as a straight board. His conclusion: “…that reality has a surprising amount of detail.” And, I couldn’t agree more.
+I still consider myself an industry outsider, but in my years working in nuclear, there are ‘before’ times, and there are ‘after’ times. The Executive Orders invigorated the industry. After decades where nuclear barely moved, our industry is being asked to move faster than it ever has. And that transition is exactly the moment when the small details matter most.
+We are building microreactors at Radiant, and I can tell you that the small details, the ones that often seem inconsequential — are the ones that prove your product and de-risk it for your customers. The thing is, you have to look for these details, question everything and test continually. Our mission is to be an energy company that powers the global economy everywhere on earth and amongst the stars, too. To get there, there are small steps, and there are big steps, and we can’t assume that if we can do A, doing B will be easy. Overconfidence is when reality teaches you that details matter.
+Building a microreactor is new territory and the decisions we make at every step have consequences. This is why we challenged ourselves to go full power, full temperature with our commercial product in our testing at the Idaho National Lab DOME this summer…because our job is to find the details our customers need us to get right.
+About those details…
+A bolt is just a bolt, right?
+My dad built homes. So did most of my friends’ dads. By the time I was a teenager, I was comfortable on a construction site and knew that nothing about building is as simple as it looks from the outside. I carried that into the formative years of my career at McMaster-Carr — a company solely obsessed with the details of industrial parts. When I look at our industry’s current moment, I see the same trap John Salvatier saw on his stairs, just at a much larger scale.
+Consider a bolt. It’s a simple object — until you need the right one.
+When I was at McMaster-Carr, we sold 91,130 distinct products called “a bolt.” Not one of them, on its own, is necessarily the right bolt to hold the lid on a nuclear pressure vessel. So, let’s design the right one for a microreactor together and see how long it stays simple.
+The first thing is to choose: is it a standard bolt, or custom bolt? But, you don’t know yet. What strength does it need? Also unknown, that depends on temperature, because steel weakens as it heats, and our reactor is hot — upwards of
+600 degrees
+Celsius
+. It’s not just the heat though. Hold metal under load at high temperature long enough and it doesn’t just sit there — it slowly stretches. The phenomenon is called
+creep
+, and it means the bolt you torqued perfectly on day one is a different length by day one thousand. Imagine that bolt is sealing your pressure vessel. How long does the lid need to stay tight? Ten years? Twenty? It’s on us to determine and these decisions have real world consequences.
+To fight creep, you need to dig into metallurgy and reach for a high-nickel alloy. But steel will relax over time, so you test it by stretching to an extreme preload, high enough that even after years of relaxation it will still hold tight. But you can’t reach that preload with a wrench and a strong arm, you need a hydraulic tensioner. Do you see what’s happening? That bolt now means you have tooling.
+And there’s more to consider. The threads, you know the swirly part on a bolt, aren’t cosmetic. Cut them too fine and they get destroyed under that preload. Run two threaded metal parts together at that load and they can
+gall
+— weld and tear against each other as they move. That means you need a lubricant. Which one? Real questions, real consequences.
+We’re still talking about one bolt and there are even more complexities with this ‘simple’ part. We haven’t gotten to the reason this is a
+nuclear
+bolt at all: it sits next to an operating reactor core. Imagine 1 trillion neutrons per second acting on every square centimeter of your bolt. Engineers didn’t guess at what was happening – they measured it, starting with reactor materials testing back in the 1960s and 70s. Their work found neutrons flying through the microscopic crystalline grains that make up the high nickel alloy and knocking atoms out of place in a process called Neutron Displacement Damage. This lowers strength and causes physical swelling. And the
+displacement
+rate is slightly different on the nickel alloy versus the material around the bolt, which means you need more spacing between each.
+That’s one bolt. More than a dozen consequential decisions, and I left some out. Then we move on to who we buy the part from. We need to be confident that they will produce our bolt exactly, repeatedly, and at scale. As Salvatier put it: “At every step and every level, there is an abundance of detail with material consequences.”
+We have 56 bolts on the top of our reactor pressure vessel alone. And we’re still only talking about bolts.
+The more difficult your mission, the more details are important to understand.
+Look at the nuclear industry from the outside and it seems like we’ve already won — positive headlines, milestones that seem like progress to the general public, policy tailwinds and more. But this is exactly why we have to be vigilant because apparent momentum makes it easy to sit on your laurels and brush aside details. Not through laziness or disinterest, but because it seems like things are going well, that the milestones are stacking up and the hard part must be behind us. The details ahead get quietly dismissed because it seems like perhaps the future is inevitable- and we’ve mostly arrived, right?
+Wrong. I ask you to consider,
+if one single bolt has so many material consequences, what about the parts or designs we haven’t built yet? The distance between our prototypes and products?
+This is why we test and validate everything and then turn around and test it again. We have to search out the details. All of them.
+Regulatory approvals have moved quickly lately, but not because the regulator cut corners. They moved quickly because the systems being evaluated have not brought that much detail to surface. Fast approvals of simpler systems tell us almost nothing. Our regulators are aligning with an industry that is quickly advancing and I respect their technical expertise. I would vehemently defend against any claim that DOE or the NRC are skipping steps. They’re ensuring the rules don’t get in the way of us being safe. And, this is also why we are testing at full temperature and full power. We need to
+performance test
+— ￼and so does our regulator.
+If you’re trying to do something that has never been done before, you can’t assume the details will sort themselves out. The more difficult your mission, the more the details are critical to understand.
+You find the details by running the thing.
+This is exactly why we built our five-phase test campaign at the Idaho National Laboratory DOME facility. It’s also why we're so focused on full-power, full temperature testing. Testing a reactor isn’t a single day event. It’s a multi-month, heck, multi-year process, and it’s the same attention to detail that iterating on any good product requires.
+Our five phases are designed to de-risk a commercial product – one that will be delivered to our customer by 2028. That’s 18 months from now. The first two steps are table stakes: ship, install, and fuel Kaleidos at Idaho National Laboratory’s DOME facility, and then go zero-power critical. That means the reactor is ready to turn on but has no meaningful power. The third step is bringing the reactor above 1 MW thermal to validate the high-temperature range and the reactor’s intent, making it a viable product. Fourth is full temperature and power, proving we can generate enough heat to one day become usable electricity end to end. Fifth is 150 continuous hours, our first measure of reliability.
+Although the system is built for it, we don’t leap to full power, because each phase is designed to provoke specific behavior and measure it against what we predicted. Where they disagree, a detail was hiding. The hold points between phases exist so we stop and understand
+why
+before asking anything more of the machine. That pause is the structural refusal to assume the hard part is behind us.
+The bolt you need for steps 1 and 2 is considerably different than the bolt you need at steps 3, 4, and 5.
+Don't spend time justifying what you did. Look for the details you can’t yet see.
+The momentum in this industry is real. The policy, demand, talent, and public goodwill are a huge tailwind, and I am deeply grateful to those who’ve made it possible. But this momentum can also hide the details. We still do not have a domestic HALEU supply that doesn’t rely on geopolitics we can’t control. We still have not put a power producing reactor all the way through the reformed regulatory process and our customers are still reactor-less.
+So let me be clear about what winning actually looks like. The US military and investors both deeply care about winning and for them, it isn’t a ribbon-cutting. Winning is the hundredth reactor, and the thousandth, every bolt the right bolt, every pipe, sensor, and line of code built so reliably that nuclear becomes boring instead of a spectacle. It’s why we have booked the INL DOME for a full year. And this is why we know we will deliver our first reactor to our customer, get run time, and then get back on the wheel to improve, again, and again, and again.
+We are closer than we’ve ever been — further along than the headlines suggest, and further along than most people realize. It truly is in the details and we are detail obsessed.
+That’s the company Radiant is. Everyone has their own view and biases, but our judgement is that the reactors that actually get built — the ones that go to the datacenter, the hospital, the base and the disaster zone — will be built by the team that never stopped looking at the details.
+Salvatier closed his essay with a line worth keeping close: if you wish to not get stuck, seek to perceive what you have not yet perceived. For us, that means: don’t take anything for granted. Find the details you cannot yet see.
+If you wish to not get stuck, seek to build what you have not yet built.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
