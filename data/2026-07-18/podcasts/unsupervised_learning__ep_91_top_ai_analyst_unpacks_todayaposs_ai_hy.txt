@@ -1,0 +1,848 @@
+Source  : Unsupervised Learning
+Title   : Ep 91: Top AI Analyst Unpacks Today&apos;s AI Hype Cycle
+Date    : 2026-07-16 12:48 UTC
+Link    : https://www.youtube.com/watch?v=vDY_ocrkQ5w
+────────────────────────────────────────────────────────────
+
+Speaker 1 | 00:00 - 00:03
+You can wave your hands and say, no. This is like electricity. Okay. Fine. It's like electricity.
+
+Speaker 1 | 00:03 - 00:09
+Well, what happened with electricity? And there was a time before electricity, and people before electricity weren't dumb either. Do you
+
+Speaker 2 | 00:09 - 00:12
+think it's irrational that, like, the heads of these labs are talking so much about job loss?
+
+Speaker 1 | 00:12 - 00:20
+We get deep into logical fallacies here. So we've got Jeff Hinton, was ten years ago, saying stop training radiologists. And the problem here here is he doesn't actually understand what radiologists do.
+
+Speaker 2 | 00:20 - 00:24
+Given this discussion we've had on the foundation models, would you be doing anything different in terms of, like, focus?
+
+Speaker 1 | 00:26 - 00:28
+I have a lot of sympathy for Sam Walton.
+
+Speaker 2 | 00:28 - 00:46
+I'm Jacob Efron from Redpoint, and this is Unsupervised Learning. A podcast where we probe the sharpest minds in AI about what's happening in the ecosystem today and where the future's headed. Today, we had an awesome conversation with Benedict Evans. He's one of my favorite thinkers in the space. I love reading his newsletters, presentations, and had the chance to sit down with him and talk through a bunch of things.
+
+Speaker 2 | 00:46 - 01:10
+We talked about where value will accrue in AI, as well as what he thinks the ultimate valuations of the foundation models might look like. We talked about why consumer AI applications aren't really working today, and the kind of jagged edge of capabilities and their implications on enterprise adoption overall. And we hit on a lot of his really interesting takes on job usage, whether this is an enabling technology or not. Just awesome to get to talk with one of my favorite thinkers about a bunch of these things. I think folks will really enjoy the conversation.
+
+Speaker 2 | 01:10 - 01:23
+Without further ado, here's Bennett. Well, very excited to do this. I feel like you're one of the most thoughtful people on tech. I love reading the presentations you do. You've obviously have a huge influence on the ecosystem at large.
+
+Speaker 2 | 01:23 - 01:50
+And today, excited to dig into your opinions on the ecosystem as we have it today, the future of the model labs, where value accrues. But where I really wanna start with is the hype in the current moment, because I feel like you have maybe a more subdued take. It's funny to call a subdued take being that this is as big a deal as the internet and mobile, but maybe not civilization altering like the industrial revolution, but I wanna start there. What do you like paying attention to that might change your mind on that? Because I'm sure a lot of our listeners will disagree.
+
+Speaker 1 | 01:50 - 02:23
+I'm not sure how analytic you can get about saying, well, is this as big as mobile or as big as the internet or as big as computer Were mobile bigger than PCs? I struggle to kind of How you can kind of quantify those things? I think the place that I'd come from is just to say, look, the internet was kind of a big deal and did absolutely change everything. And so was mobile and so was PCs. And yes, I think you certainly kind of can say that the web was bigger than PCs because PCs was like 50 or a 100,000,000 devices.
+
+Speaker 1 | 02:24 - 02:48
+When Marc Andreessen launched Netscape, there were like 75,000,000, a 100,000,000 PCs in the world and now there's 5,000,000,000 smartphones. So clearly it's got bigger over time. I suppose the thing I sort of struggle with is that nothing like this has ever happened before. And we've not had technology wiping out great swathes of jobs before. And we're automating stuff in a way that this has never been done before.
+
+Speaker 1 | 02:48 - 03:08
+And I kind of, I was talking to somebody the other day at a big company and they were, you know, very smart guy, PhD in all sorts of computer science y stuff. And they said, you know, big companies have never had to deal with people building tools and systems for themselves before. And I thought, so have you heard of Shadow IT? Have you heard of Excel? Yes, this is different, but it's always different.
+
+Speaker 1 | 03:09 - 03:34
+And we do go through these big changes and they're always different and they're always bigger, but that doesn't mean you shouldn't kind of go back and look and say, well, what is it that happened the last five times we had a world changing piece of technology? I don't think there's much percentage in arguing about which one is bigger or smaller. I think what's interesting is to say, well, what happened the last five times we had something like this? And yes, you can wave your hands and say, no, this is like electricity. I'm like, okay, fine.
+
+Speaker 1 | 03:34 - 03:52
+It's like electricity. Well, what happened with electricity? And there was a time before electricity and people before electricity weren't dumb either. And people were kind of scratching their heads and trying to work out what to do with this. And so it's just useful not to imagine that nothing ever has happened, never happened before, And to kind of sit and scratch your heads and think, well, what are the patterns that you can see here?
+
+Speaker 1 | 03:52 - 04:09
+I wrote something at the end of last week talking about token pricing. And one of the sort of blocks of the essay was, well, how did mobile work? How did semiconductors work? How did fiber work? How did operating systems work?
+
+Speaker 1 | 04:09 - 04:32
+And none of those have predictive power. Like you can't prove that this is going to work in a certain way by arguing about how close it is to mobile. But you should go back and look at what happened at mobile and think, okay, so what does this tell us about what might happen? So you can point to semiconductors and say you had this escalating cost structure, Wach's law, that said that the cost of a cutting edge fab doubles every four years. Yeah.
+
+Speaker 1 | 04:32 - 04:48
+And that's and foundation models look a little bit like that. You can look at mobile and say, well, mobile had marginal cost. Like, adding more a lot of people don't take don't understand this. So mobile networks have marginal cost. You add have you have if you double the number of traffic, you have to build a bunch more base stations and put a bunch more equipment on the base stations.
+
+Speaker 1 | 04:48 - 05:14
+And so you have marginal cost. And that looks a lot like the supply crunch we've had in the last six months where everyone got an iPhone and started watching YouTube and the networks fell down and they had to change pricing schemes. But the interesting part of that comparison is that mobile data traffic in the last fifteen years has gone up by like one or 2,000 times. And it's a trillion dollar industry and they spend $200,000,000,000 a year on CapEx and they didn't make any money. I mean, they make a bit of money, but like all the value is other people.
+
+Speaker 1 | 05:14 - 05:20
+They didn't get to do Uber. They don't run your banking. They don't do YouTube. That's all other people. And all the value went up stack.
+
+Speaker 1 | 05:20 - 05:34
+And obviously, that's one of the questions about AI. You can point to cloud. You can point to operating systems. Sam Altman said, we're gonna be like Windows, but like LLMs don't have network effects. So it doesn't look like they're gonna turn out like Windows.
+
+Speaker 1 | 05:34 - 05:45
+But the point is to say, look, there's a bunch of different competitive dynamics, industry dynamics. What happens at different layers of the stack? Can you compete up? Can you compete down? And you can learn from all those.
+
+Speaker 2 | 05:45 - 06:08
+Yeah. I think one thing that makes it challenging to figure out like the long term macro impact of all this is just, obviously the capabilities of these models are not static, but you pointed to some of the big outstanding questions in the space. It feels like the biggest is just, you know, what capabilities do we ultimately get to on the model side? I'm curious, like, what would change your mind that actually this is a bigger deal than that's something more akin to the industrial revolution? Is it a model capability?
+
+Speaker 1 | 06:08 - 06:33
+Well, so I think the you could make a very obvious kind of counter argument, which is just to point out that each of these compound. Part of that is that's why it's happening quicker. But like mobile internet didn't need to wait for the internet. Right. And the internet didn't need to wait for PCs and PCs didn't need to wait for semiconductors and semiconductors didn't need to wait for, I don't know, specialty chemicals or whatever you think the enabling technology is, photolithography.
+
+Speaker 1 | 06:34 - 06:48
+And that didn't need to wait for electricity. And electricity had a whole manufacturing industry that already existed and so on. So there's always this kind of compounding effect. And, you know, I mean, another way of saying this is big as the Internet is to say, well, the Internet was 10 times bigger than PCs. Right.
+
+Speaker 1 | 06:48 - 07:30
+So maybe this is 10 times bigger than the internet. The big difference, the actual tangible difference to previous platform shifts is that we don't know the physical limits of this. So we do not have a good scientific understanding of why the models work so well and what will happen next, which was, whereas with, like you go back to 2010, you didn't know what the next iPhone would be, but you knew it wouldn't have like a retinal implant and a one year battery life and flight and cost $5 And the internet, like 1995, you didn't know, you had no idea how the internet was gonna work. You probably thought you did, but you didn't. But you knew that PCs are like 2,000 and $3,000 and most people don't have one and telcos aren't gonna give every household on earth fiber to the home next month.
+
+Speaker 1 | 07:30 - 07:46
+Yeah. Like you kind of knew the basic kind of physical parameters. And so that's clearly a kind of a conceptual difference. But I think then you can kind of say, okay, we've got this stuff we don't know, fine. Then you can kind of break that apart.
+
+Speaker 1 | 07:46 - 08:32
+So maybe there's one kind of binary question, which is, there's an urban legend, may or may not be true, that during the Cuban Missile Crisis, a rumor starts that the missiles have launched and everyone on stock exchange starts selling and one veteran trader goes out and starts buying. And he says, well, it's binary. Either the rumor is true, in which case we're all dead anyway, or it's not, in which case the stocks are cheap. And if this stuff, like if AGI really does happen, an ASR, whatever, pick your acronym and your thought concept, if all of that happens, then we've got bigger problems than worrying about middle class unemployment, like rural pets, fine. Otherwise, then, okay, let's worry about let's try and work out what this means for enterprise software.
+
+Speaker 1 | 08:32 - 08:35
+Yeah. Those are kind of those I love the comparison.
+
+Speaker 2 | 08:35 - 08:51
+It's like you're not even Yeah. It's like it's kind of unknowable right now what the shape of model progress looks like. There's some all the shape that we're worrying about and the implications it would have for everything else, there's so much bigger fish to fry if that's the case. That it's almost like you wouldn't you probably wouldn't be writing about enterprise software in the in the context of which there's
+
+Speaker 1 | 08:51 - 08:59
+a rapid Exactly. It's like yeah, exactly. Either you can worry about that stuff. A lot of these conversations end up in hunt for metaphors. It's like nuclear weapons.
+
+Speaker 1 | 08:59 - 09:14
+It's like this, it's like that. A lot of these conversations also end up sounding like the stuff you said at 02:00 in the morning if you're a slightly drunk philosophy grad student. It's like, hey, man, have you thought that maybe we don't have structural understanding either? Well, great. Thank you.
+
+Speaker 1 | 09:15 - 09:23
+I can't do anything with that. I can't analyze that. This is like the Descartes fallacy. Descartes thought that you could deduce the nature of God from first principles. No, you can't.
+
+Speaker 1 | 09:23 - 09:35
+We don't know. We'll find Meanwhile, let's build some stuff and work out what works. I mean, you get back to and this is a little bit of an echo of this. You go back to you ever read the the John Perry Barlow declaration of independence of cyberspace?
+
+Speaker 2 | 09:35 - 09:36
+No, I haven't.
+
+Speaker 1 | 09:36 - 09:55
+God, you're so young. So John Perry Barlow is like one of the lyricists of The Grateful Dead, I think. Sorry, I'm too young to really know this. But anyway, so he wrote this beautifully poetic thing and it's like, you giants of steel and iron and stone, you have no sovereignty on the internet. And people kind of thought this was gonna end war.
+
+Speaker 1 | 09:55 - 10:08
+Yeah. Because everyone understand each other now. And so you have to remember, there was an awful lot of this kind of wild eyed millenarian utopianism around the internet too. Some of which is true, some of which wasn't. Meanwhile, let's build some software and work out what people do with it.
+
+Speaker 1 | 10:09 - 10:44
+And that gets you like, so you set that whole argument aside and say, right, OpenAir kind of looks like Netscape. Chatbots, is this a web browser? Like, and again, you don't wanna be too rigid on the metaphor, but you have this stuff that's amazing and it doesn't work. And I think this is kind of a more interesting way of thinking about where we are now that go back to like trying to use the internet in the mid nineties or trying to do mobile internet, nevermind 2010, 2002. And it's kind of sort of works and it's obviously really cool and amazing and it's gonna change everything.
+
+Speaker 1 | 10:44 - 11:07
+And I have this very vivid memory of sitting in a meeting with a mobile software company in like 1999. And I had my Palm five and I had a Nokia phone that had GPRS and an infrared port. And so we were trying to connect my Palm five to the internet over GPRS, over infrared to this Nokia. And we're sitting there going, oh my God, this is so cool. And like, but nobody, it didn't actually work.
+
+Speaker 1 | 11:07 - 11:34
+And no one is actually gonna do that for another ten years. Obviously this isn't another ten years, but it is that sort of moment of like, what are the building blocks here? Where's the value capture? What are the points of leverage? What are the experiences that people are actually going to use to get billions of people to use this every day, as opposed to 10,000,000 people using it all day and a billion people using it once twice a month, which is kind of where we are now.
+
+Speaker 1 | 11:34 - 11:51
+I'm exaggerating a bit. We've got like, kind of like ten, fifteen percent of people are daily active users right now. And even daily active is you're you're using this once or twice a day. You're not using it all the time. And then there's another 20 or 30%, 40% of people who are weekly active users or monthly active users.
+
+Speaker 1 | 11:51 - 12:08
+And you remember from social, weekly active user is bullshit. So if you're using this once or twice a week, you're clearly not in the dream of Silicon Valley that this changes computing. Yeah. It's a useful new tool sometimes. And how do we bridge that?
+
+Speaker 1 | 12:08 - 12:20
+And I think this is kind of a more interesting split. Like you've got software development where this has product market fit unquestionably. Yeah, poof, it works. Changes everything in software development, fine. And then we can talk about that.
+
+Speaker 1 | 12:20 - 12:43
+Then you've got like a bunch of people who are kind of like our side, they're knowledge workers who work for themselves, are flexible, free firm, got lots of stuff going on and you're using this a lot. And I think this reminds me quite a lot of people who use Nation. And then you've got all these other people who are like, yeah, it's kind of useful. Yeah, that was cool. But aren't using it all the time.
+
+Speaker 1 | 12:44 - 12:54
+And how does that change? Yes. The analogy I always use here is imagine you're an accountant seeing the first software spreadsheets in the late seventies. This is life changing. Now imagine you're lawyer seeing it.
+
+Speaker 1 | 12:54 - 13:14
+Okay, that's cool. Yeah. I could use that for my timesheet next week, but that's not what I do every day. And I think that's kind of the split and that's, we were talking before we started recording about like being in the Silicon Valley bubble. If you were in the Valley bubble and you've got five Mac minis in a cluster and you're leaving, you're walking around all day, holding your laptop open.
+
+Speaker 1 | 13:14 - 13:36
+So Claude Cobb can carry on running. You're not the normal user here. The normal user, you are the guy using Telnet to connect to the internet, connecting to Telnet over to using Telnet on the internet in 1992, or you're using dial up on Netscape one in 1994. Was it Mosaic even before that in 1994? You're not getting the real experience.
+
+Speaker 2 | 13:37 - 14:02
+Probably the hardest part of the whole thing is figuring out like just I feel like that makes a ton of sense for current model capabilities, and it's like you probably could have looked two years ago or a year ago, and you would have been like, God, this stuff has product market fit in some product market fit in consumer, but doesn't really work anywhere else. And then the coding stuff starts to work. I don't know what you make of the fact that the people at the labs who are closest to the research all seem super bullish on kind of continued capability improvement that might even start to change some of this.
+
+Speaker 1 | 14:03 - 14:40
+So I think one of the questions here, and this is like a UX interface deployment kind of question is, how many of the problems that we might want to automate would you struggle to explain to an actual person? Let me put this another way, presuming the model capability, presuming here's this thing you want to do with global OTT, and it kind of can't do it, or you can't work out how to tell it to do it. Would that work if you had a person at the other end? How hard would it be for you to explain what you want? What would that be like?
+
+Speaker 1 | 14:40 - 15:08
+Would that be the right way of doing it? I mean, I'm like, I'm not neither the lawyer nor the accountant. I'm like a weird outlier in that I work for myself and I don't have anybody working for me. And partly because of that, I don't have lots of repetitive tasks because I've structured what I do so that I don't have lots of repetitive tasks because I can't do them because I don't have a bunch of interns. So now I get Claude and Copilot and ChatGPT, now I've got this thing, but I don't actually have the tasks to give to it.
+
+Speaker 1 | 15:08 - 15:32
+What I'm kind of getting at is, is there is the model capability and then there is your ability to isolate and describe the things that you could give to it. Yeah. And that's a different problem. This is, I think it's particularly a problem with voice and chat. But it's quite hard to work out that you have that problem and to work out that you could give that problem to the system.
+
+Speaker 1 | 15:32 - 16:00
+With every new technology, it's harder and it takes longer to make the new things that you could only do with the new thing, as opposed to automate doing more of the old thing. Like with every new technology, you start by taking the thing you're already doing and doing it more and faster with old technology, with the new technology and forcing the new technology to fit the old way of doing it. And it takes longer to think of the completely new thing. Yeah. That's only possible because of this.
+
+Speaker 1 | 16:00 - 16:30
+And generally the completely new thing isn't automating a whole bunch of stuff you're already doing, it's something else. One of the sort of analysis I did in the presentation I published in May now, which is feels like a lifetime ago. Dog years now. Dog years, exactly, AI years, was number of people working as accountants in The USA in the course of the twentieth century, it's a straight line up into the right. Even as the tech industry progressively automates over and over again, like punch cards and adding machines and mainframes and all the stuff that the tech industry has done, number of accountants keeps going up.
+
+Speaker 1 | 16:31 - 16:58
+And there's two things you can say about this. One of them is is now this cliche, the Jevons paradox that everyone wants to look up on Wikipedia last year, which basically is price elasticity. Like if you make it cheaper to do stuff, do you do the same work for less money or do you do more work for the same money or more work for more money because you might have a different ROI? But I don't think that's what that is. I I don't think that if you are, like, you know, five years in at PwC now, you're doing exactly what you'd have been doing if you'd been five years in at PwC in 1970, but more.
+
+Speaker 1 | 16:58 - 17:07
+It wasn't called PwC there anyway. Pricewaterhouse, something else. Anyway, you're not doing what you were doing then, but more. You're doing the stuff that you were doing then is now ten seconds once a week. Yeah.
+
+Speaker 1 | 17:07 - 17:20
+But this is his problem. It's just making the model better. Fine. Okay. Even if you had a model that actually was AGI or whatever AGI means, and now people are trying to redefine AGI stuff that was working two years ago, but fine.
+
+Speaker 1 | 17:20 - 17:32
+Presume you have a model that is actually a person. What does that mean? Where does that fit? What do you do with that? How does that fit into an organization?
+
+Speaker 1 | 17:32 - 17:38
+And it's not necessarily as obvious and easy to answer that as it seems.
+
+Speaker 2 | 17:38 - 18:04
+If you take accounting or consulting or something, and you think about, I think maybe a counterargument to this would be you had tools in the past that could do one specific part of a large set of skills that someone might do, and cool. So, people found other skills that they could go do. You could imagine, and certainly it seems like pretty models may be decently close to being as good at a set of skills as your average college grad would be for who has never worked in a consulting firm. We'll take that, that was my first job out of
+
+Speaker 1 | 18:04 - 18:04
+college.
+
+Speaker 2 | 18:04 - 18:13
+So, I think the concern would be anything that might be reinvented into that a 22 year old with no experience in that job might do, the model could just do out of the box.
+
+Speaker 1 | 18:13 - 18:26
+So, the way to frame this is we've been automating higher and higher level human functions. So, we started in the nineteenth century with human beings as beasts of burden. We automate legs. And then we automate arms. And then we automate fingers.
+
+Speaker 2 | 18:27 - 18:29
+All we have left is our brains, but it feels like,
+
+Speaker 1 | 18:29 - 19:01
+But like you've progressively automated everything all the way up to the top of the stack. I think that's kind of an unfalsifiable statement. And I think the problem is you could have said that in 1950 because you kind of didn't, all this other stuff happened that you couldn't see then that it turned out you couldn't automate. And of course we don't know where this stuff is going to go and what it will be able to automate and won't automate. So as I said, there's an unfalsifiable statement that says, the only way you can falsify it by coming back and waiting for five years and seeing what happens.
+
+Speaker 1 | 19:01 - 19:14
+But it may be, yes, that we get a thing that actually can do anything that people can do by definition. Well, clearly then everything changes. But right now we don't have that. We have something that's very jagged. Yeah.
+
+Speaker 1 | 19:14 - 19:32
+And we don't know whether it would go all the way to that. And we certainly can't just presume, I mean, is the thing that drives me crazy about this chart of the AI can do something that takes people seventeen hours. Eight meter chart. Twenty four hours. But there's also stuff that takes people five minutes that it can't do.
+
+Speaker 1 | 19:32 - 19:46
+Yeah. It's not linear like that. Intelligence isn't linear like that. So, it may be that yes, this goes all the way to do stuff that anybody could possibly do. But at the moment it can't.
+
+Speaker 1 | 19:46 - 20:12
+And we don't know when or if it will be able to do that. Go back and look at all the other times that you automated absolutely everything that your 25 year old was doing, and what is it that they're doing now and how did that change? I mean, this is like, you know, going back to the nineteenth century, this is a lump of labor fallacy, that you can always see the jobs that will go away, and you don't know the new jobs. Yeah. And the new jobs will be doing things with completely different kinds of skills that it didn't occur to you existed or that you needed or wanted.
+
+Speaker 1 | 20:13 - 20:14
+These are all unfalsifiable statements.
+
+Speaker 2 | 20:14 - 20:29
+Yeah. But I guess given all that, do you think it's irrational that the heads of these labs are talking so much about job loss? It seems like it's a probability distribution of kind of an unknowable of how much better these models are going to get. And there's some part of the probability distribution where this stuff does really matter, right?
+
+Speaker 1 | 20:29 - 20:44
+Yeah. I mean, we get deep into logical fallacies here. So, we've got Jeff Hinton, whatever it was ten years ago saying, stop radio, training radiologists. And the problem here is he doesn't actually understand what radiologists do. So the narrow problem is actually machine learning couldn't do what he thought it could do.
+
+Speaker 1 | 20:44 - 20:48
+And the broader problem is, but that isn't what radiologists did anyway.
+
+Speaker 2 | 20:48 - 20:49
+And
+
+Speaker 1 | 20:51 - 21:13
+you started in consulting, the client generally isn't buying a PowerPoint. The PowerPoint might be the tangible expression of the project, but that isn't what they're paying you for. They're buying all sorts of other stuff. And the same thing as an accountant, or the same thing as a lawyer. The thing I wonder here is about consumer surplus.
+
+Speaker 1 | 21:13 - 21:27
+So, whatever the enterprise version of consumer surplus is. So for the sake of argument, like in 1980, your lawyer goes and sends their paralegal to the basement, into the library. Yep. And they come back after a day with two precedents. Great.
+
+Speaker 1 | 21:27 - 21:44
+Today, five years ago, your accountant, your associate would have gone to the database and they'd have found 20 presidents. And so did the opposition. Right. And so the client gets billed the same amount of money for the same number of hours. You deliver the same number of pages in the filing.
+
+Speaker 1 | 21:44 - 22:03
+Your filing has exactly the same likelihood of winning that it did then. You get kind of the same result you would have got then. Consumer surplus. Like you've done kind of a bunch more stuff for the same price to deliver the same result, which is, this is the extreme, this is the iPhone. The iPhone is $10,000, $100,000 of consumer electronics disappeared.
+
+Speaker 1 | 22:04 - 22:24
+So there will certainly be some cases where that's what's happened. I think there's another way of looking at this here maybe, which is just to think about how massively variable this will be. So there's a chart I've used for a while. The Marc Andreessen loves software's eating the world thing. The Uber doesn't sell software to taxi companies and Airbnb doesn't sell software to hotels.
+
+Speaker 1 | 22:25 - 22:42
+Really important observation. Fine. What did Uber do to taxis and compare that to what Airbnb did to hotels? Turns out you go and look in the, like, say, in New York, mean, it's a bit fuzzy because it depends by the city, but in New York, taxi market is down by, I forget the number, three quarters. Uber is gone like this.
+
+Speaker 1 | 22:42 - 22:52
+And the result is there's a bigger market with more people. I mean, the market looks different. The average number of rides per driver is different and so on. But the point is it unlocked all this new demand and demolish the yellow cab business. Fine.
+
+Speaker 1 | 22:52 - 23:07
+Now look at Airbnb, maybe slowed down the growth of hotels a bit. Yeah. It's maybe ten, five, 15% the size of the hotel market. And the reasons why are, well, hotels and cabs are different. Right.
+
+Speaker 1 | 23:07 - 23:10
+Half of hotel business is business. There's a confidence business.
+
+Speaker 2 | 23:10 - 23:12
+As long as the models have jagged capabilities like this, where they
+
+Speaker 1 | 23:12 - 23:52
+work Yeah, a lot on some businesses but the and not are jagged and then the use cases are jagged and some of the use cases are physical and not just about processing information. So I wrote an essay a couple of weeks ago about like trying to predict job impact, because clearly this will have an impact on employment, but trying to do these star charts of radar charts of which ones, where you say, Ah, well, Opus 8.6 can do 93% of what a first year law firm associate is doing. This is a delusional statement. Because you can't measure what the law firm student is the associate's doing like that. You also can't measure whether the model can do it.
+
+Speaker 1 | 23:53 - 24:14
+This is actually the expert in a system fallacy, where you people kind of thought that you could measure how you recognize a cat from a dog. And you're saying it's the same mistake. You can't measure what a law associate does. Point I was making was, like, first of all, like, the the the accountancy job changed, which is the content we made earlier. Secondly, there are industries that your analysis would say are completely unaffected that will get demolished by something else like journalism.
+
+Speaker 1 | 24:15 - 24:28
+For the sake of argument, the internet didn't change what it was to be a journalist at all, but it demolished the local advertising business, which wasn't in your analysis at all. Right. The same thing for Uber. Like, you wouldn't have looked at the smartphone. Nobody was I mean, I was in the mobile business.
+
+Speaker 1 | 24:28 - 24:39
+We were talking about location all the time. Nobody saw that you have opportunity. Right. And so you kind of go and back test these analysis where you say, well, this job is exposed this much, and this job is exposed this much. It's horseshit.
+
+Speaker 1 | 24:40 - 24:55
+You know, it's like the joke about the physicists who are predicting which horse is going to win a race, they say, we're gonna presume that the horse is a perfect sphere. You know? It was like, great. If you if you presume that If you define this into something that you can understand, then you can understand it, but it isn't that, it's something else.
+
+Speaker 2 | 24:55 - 25:01
+Right. I think it's really this question of like, yeah, are there still capabilities that entry level workers will have that models different?
+
+Speaker 1 | 25:01 - 25:15
+Yeah. Do you ever come across Anselm's proof? Anselm is this medieval theologian. And Anselm says, okay, first proposition, God by definition is that by which nothing could possibly be greater than God. Okay, that seems reasonable.
+
+Speaker 1 | 25:15 - 25:31
+Second proposition, something that exists is greater than something that doesn't exist. Okay? Therefore, God exists. And thirty seconds later, everyone in the room says, Anselm, dude, that's fucking bullshit. Because you could prove anything like that.
+
+Speaker 1 | 25:31 - 25:51
+Well, a horse that exists is better than a horse that doesn't exist. Like it would be better if a unicorn existed than not exist. Like you can't prove stuff like that, but it took like a thousand years of people arguing about this to work out why that was wrong. And the reason I mentioned it is like, if you define AGI as necessarily inevitable and necessarily going to kill us all, then AGI is necessarily gonna kill us all. Great.
+
+Speaker 1 | 25:51 - 25:52
+But you haven't proved anything.
+
+Speaker 2 | 25:52 - 26:14
+Yeah. So then what do you pay attention to in the interim to, obviously it feels like almost there's always a set of people that the models can do something more, and it's like, Well, it still can't do X or Y. One thing I really appreciate about you is you have a nuanced perspective on this. You kinda take the facts that are out there. What are the things you're paying close attention to or would start to adjust your view on some of this?
+
+Speaker 1 | 26:14 - 26:28
+I think there's that I kind of pulling apart, like what are the sort of interesting sets of questions? Firstly, there was like a capital conversation. So, what's going on in chips? What goes on in data centers? When the chips catch up with supply and demand?
+
+Speaker 1 | 26:28 - 26:43
+Like what's the CEO of SK Hynix the other day said he reckons supply and demand is out of whack until 2030. Well, was like, well, he would say that, wouldn't he? Good business. Yeah, he's got a good business. So there's all of that stuff, data centers, time to power, grid deployment, etcetera.
+
+Speaker 1 | 26:44 - 27:17
+Secondly, there is a sort of fairly, what seems to me really incontestable fact that right now there's something between three and six companies making models and they're all kind of the same. And you know, someone's ahead this week, someone's ahead next month, But the fact that SpaceX is like a paradoxical statement. The fact that SpaceX managed to jump straight back up to almost at the top of the leaderboards after completely flunking out is a really negative signal for SpaceX. How's that for a paradoxical statement? Because what that says to me is not very hard if you're willing to spend a couple of billion dollars and hire the right people.
+
+Speaker 1 | 27:17 - 27:26
+This stuff remains they do not appear there are not yet fundamental barriers to entry. Barriers to entry in the sense that they were for search or social or mobile.
+
+Speaker 2 | 27:26 - 27:31
+No, the capital, I mean, at this point, there's only so many companies that can bear the cost to
+
+Speaker 1 | 27:31 - 27:34
+train Well, a French there are, but it's not two.
+
+Speaker 2 | 27:34 - 27:36
+Right. But like, it's gonna keep going up,
+
+Speaker 1 | 27:36 - 27:48
+Well, so this was my semiconductor comparison that we made earlier. What happened with semiconductors is it got harder and more expensive with each generation. And so, we shrank from dozens of companies at the cutting edge to just one, and then to one step behind. That may be how this evolves. We're not there yet.
+
+Speaker 1 | 27:48 - 27:51
+Of course, if the curve slows down, then everything else changes.
+
+Speaker 2 | 27:51 - 27:54
+Yes. Compute is like the major moat of these businesses.
+
+Speaker 1 | 27:54 - 28:09
+Long as scaling continues, then you should sort of expect the number of cutting edge companies to shrink down. Then there's a then there's a question of, well, what what where do you need to be on what is it? The Pareto curve? Yeah. Like how many use cases need to be absolutely the cutting edge?
+
+Speaker 1 | 28:09 - 28:19
+How many well, put another way. How many use cases need to be there, have an ROI to be there? The other extreme at the end of the curve is like dictation works for free on your phone. Yep. And what's in the middle?
+
+Speaker 1 | 28:19 - 28:43
+Like, does Amazon where on that curve does Amazon need to be to do how much or what to get what ROI on recommendations or review summarization or whatever? And so there's there will be people all the way along that curve. And presumably, as long as you the further, the cheaper you get, the more commoditized it gets. And you get to like, you've got dynamic real time bidding across 30 neoclass. And so how much stuff is at the head of the curve that needs that?
+
+Speaker 1 | 28:45 - 28:57
+How much value, how competitive is the head of the curve remain? And of course, there may be a paper that says, Hey, guess what? You can have a model that's 10x the size for a 10x the price. So it may be that you get some price collapse, even as everything scales. Yeah.
+
+Speaker 1 | 28:57 - 29:17
+I mean, we don't know. But then like how much of the value can the model capture? And this is kind of we were talking about earlier about the sort of, how do you explain it to the model question? And the thing I was thinking about, I do a weekly newsletter and I wrote a column about this last night, so it's sort of fresh in my mind is like, most people are three things. Most people aren't tool builders.
+
+Speaker 1 | 29:18 - 29:37
+Most people don't see the problem that the tool would be solving. And most people aren't in a position to build the tool, even if the other two weren't true. And so I kind of explain what I mean by that. Like if you think about, like most enterprise software, half of enterprise software, you look at it and you don't get it. The customer looks at it and they don't get it.
+
+Speaker 1 | 29:37 - 29:45
+You don't see why that's a problem. You don't see why we need that. We don't understand why we would do that. Think about how many tools we all use every day, where the first time you saw it, you thought, what's the point of that? Yeah.
+
+Speaker 1 | 29:46 - 30:09
+So now you're you've got the job. You've got that problem every day. Very often, you don't see that you've got that problem. And then even if you see it, most people the the skill of being like a really great salesperson is completely different to the skill of being really good at designing a new piece of sales enablement software. The skill of being a really good video editor is completely different to the skill of being really good at designing a completely different way you edit video.
+
+Speaker 1 | 30:09 - 30:29
+I mean, the person who is who does do that probably is does know a lot about video editing, but most people aren't that person. So the skill of actually working out what the software should be, what the tools should be, how it should be done, what the right structures and workflows and how the network should work. Think about every great software pitch you've ever seen. They're like, oh wow, that's a really clever way of doing it. Yeah.
+
+Speaker 1 | 30:29 - 30:56
+I would never have thought of that. And yet you're expecting like random middle managers in the back office of big companies to dream that up like this afternoon, if you give them thought. And then like the third piece is very often it's regulated data. And even if it's not, there's 1,500 people who are touching this data and it needs to go into a system of record and there's money attached to it. So you can't have random people just building tools and like replacing SAP Yeah.
+
+Speaker 1 | 30:56 - 31:15
+Or replacing these systems. And so everything gets more fuzzy. So like there's a sort of there's like an improvised space of CSVs and Excel and Tableau and Perl and so on. And then you've got your big iron horizontal systems and then you've got 400 or 500 SaaS apps inside every big company. And AI kind of shuffles all of those around.
+
+Speaker 1 | 31:15 - 31:32
+And so like if you're PwC and you hire a thousand graduates a year, 10,000 graduates a year, you use software. If you're Redpoint and you maybe hire a couple of people every year, you've got Google Sheets. Yeah. And then there's something in between. And there's a point where you say, Hey, maybe we should use Notion or maybe we should hot build this software.
+
+Speaker 1 | 31:32 - 31:57
+Maybe we should get this thing. And then this horrible moment where you see, hey, maybe we should use Workday, which is like the ultimate test for AGI. If it can navigate Workday successfully. Then none of that is binary. And so then, okay, there will be this new SaaS app that somebody built using AI and maybe or maybe not, it does stuff using AI that you couldn't do before, but also you'll be able to do that in SAP now.
+
+Speaker 1 | 31:57 - 32:10
+And also you'll be able to get Excel to do that. And also maybe you'll be able to use Cowork to do that. And so, which do you choose? Well, how did you choose whether to buy software or use Excel or use SAP before? Same question.
+
+Speaker 2 | 32:10 - 32:29
+Yeah. I mean, I thought there's two parts of your argument. I think you've probably said the foundation models are mean, I don't even take it as like not necessarily valuable. It's more just like, we'll not capture most of the value of this ecosystem. I'm still unsure whether you think they'll actually be, whether these long term anthropogenic and open AI go public will be.
+
+Speaker 1 | 32:29 - 32:41
+Well, so, I mean, again, without arguing by analogy, I will point to analogy. TSMC has a monopoly on the cutting edge of semis. You don't write apps for TSMC.
+
+Speaker 2 | 32:41 - 32:43
+Yeah. One of the 10 biggest companies in the world though.
+
+Speaker 1 | 32:43 - 32:58
+Yes. But their net income last year was half of Apple's. It's a great company, very profitable company. Uber does not write out for TSMC. You have multiple layers in the stack, different abstraction layers, different ways of building that.
+
+Speaker 1 | 32:58 - 33:14
+And the right people to build an enterprise go to market for creativity software, different people to the right people to build. This is why we have a stack. This is why AWS doesn't own the entire tech industry. It's why every app on your iPhone isn't made by Apple.
+
+Speaker 2 | 33:14 - 33:21
+Right. But I think, obviously, if you're the AWS of the AI space and the opportunity is as massive as it appears, that's still quite a valuable business.
+
+Speaker 1 | 33:21 - 33:24
+Yeah. Great business. Yeah. And this is thing. Windows is a great business.
+
+Speaker 1 | 33:25 - 33:48
+TSMC is a great business. AWS is a great business. None of them own the whole stack all the way up to the top. Now you can turn around and say, yes, but Benedict, you'll just be able to go to Claude and say, invent 10 new enterprise software applications and then go build them, and then go and work out the right way of building You could build the whole thing, and again, we're back to our Anselm. You're back to, well, if I define this as something that can do absolutely everything, can it do absolutely everything?
+
+Speaker 1 | 33:49 - 33:52
+Yes. Okay. But that's the question.
+
+Speaker 2 | 33:53 - 33:56
+Can't win the argument by defining it away. What do you make of what's happened in the coding space?
+
+Speaker 1 | 33:56 - 34:00
+It's funny to see obviously software jobs exploding.
+
+Speaker 2 | 34:01 - 34:05
+More just from the model providers competing pretty effectively against application companies.
+
+Speaker 1 | 34:06 - 34:30
+Well, so I think it's kind of interesting to think about what happened with SAS here. Whereas with SAS, we went from putting an order of magnitude, maybe several orders of magnitude increasing the amount of software that there was. And so, the PC area, the typical big company has, I don't know, a couple of dozen apps in the data center. And now the typical big American company has 400 to 500 SaaS applications plus several thousand legacy stuff they've accumulated over the last thirty years. And that was just go to market.
+
+Speaker 1 | 34:30 - 34:49
+And so that meant you could automate all of these things that you could not have justified getting on prem software for before. And so at a minimum, we should presume, okay, it's gonna be way cheaper and way quicker to build new software. Plus it can do this whole class of thing that your software couldn't do at all before. Therefore, there will be more software. Yep.
+
+Speaker 1 | 34:49 - 35:02
+And some of that, some of the incumbents will fall away. Some of them will fail to make that jump. Some big complex expert systems will get automated away by some very simple machine learning system. Some stuff will get bundled, unbundled. This is what happened, right?
+
+Speaker 1 | 35:02 - 35:16
+Remember what happened to PeopleSoft? What happened to Siebel Systems? Like there will be that kind of platform shift, people die, fine. Second question is, it was the point I was making earlier about, does this mean you have less or more software? Do you How much stuff you no longer need the SaaS app?
+
+Speaker 1 | 35:16 - 35:21
+You'll just do it inside Excel with Copilot or you'll do it inside Right. Cloud I mean, I think almost
+
+Speaker 2 | 35:21 - 35:29
+certainly we'd all agree there's more software, but I guess that maybe the point I was trying to make on Cloud Code is like that is an example the model providers moving into the application layer and winning it pretty effectively.
+
+Speaker 1 | 35:30 - 35:48
+Yeah. Mean, I suppose this is It's funny. This is like all the conversations about what should be integrated in macOS or what should be integrated in Windows. So, and I wrote stuff about this years ago that you go back to the mid eighties and spreadsheets didn't do printing or didn't do charts, particularly didn't do charts. Yeah.
+
+Speaker 1 | 35:48 - 36:10
+So charts were a separate program. In fact, can go back to the late early nineties and you can find these group tests of 30 or 40 spell checkouts. The So way it worked is you save your document in your Word or WordPerfect or whatever, and then you open the spell check app and spell check apps were like $203,100 dollars each. And they would have this grid of like, they support Word six or do they only support Word five? And do they support WordPerfect?
+
+Speaker 1 | 36:10 - 36:38
+And And you'd run that. And of course, over time that gets integrated, and then it becomes wavy red lines. Printing, of course, was like, that was a whole thing. They got integrated into the operating system, and all the DOS apps thought they should do printing, and then it gets integrated into the operating So there is this question of what sits naturally at what should, what naturally gets integrated down into your enabling layer and what should be a separate application. This is of course the antitrust argument about Internet Explorer, but today I could be bought an iPhone and it didn't have a web browser.
+
+Speaker 1 | 36:38 - 36:59
+That would be insane. So it changes over time. And so there is this question, well, what naturally gets integrated into the lowest level substrates and what naturally gets unbundled into separate things where you really need to understand, have deep vertical domain knowledge and go to market and everything else that builds a vertical software app. And this is the same question of, well, why isn't that part of AWS? And the answer is, well,
+
+Speaker 2 | 36:59 - 37:33
+it Maybe to push back for a second, like in the case of coding, like the model to some extent is the product, right? So that feedback loop that you have between the model, the real world usage of the model, then makes the underlying product better. Whereas AWS is just like the compute itself, whether it's used in pharma or whether it's used in a grocery store, it's not like that usage fundamentally changes the product in any way. Compute is compute. In this case, it would be very hard to and it has been very hard for other players, and I think both Windsurf, Kershwar, they've all concluded like, God, we need to own the underlying model layer to have an effective product in this space.
+
+Speaker 2 | 37:33 - 37:37
+And ultimately, just as an application on top, we're gonna get totally hosed.
+
+Speaker 1 | 37:37 - 37:50
+Yeah. But isn't that the conversation that we had with the hyperscalers? Which things should naturally be part of the platform and which parts are dedicated vertical tools? Which parts are naturally part of Windows? Yeah.
+
+Speaker 1 | 37:51 - 37:55
+And which should unnaturally better if they're part of the operating system and which parts aren't.
+
+Speaker 2 | 37:55 - 38:00
+The one big market we've had so far in LLM world has actually proven to be very good for the model providers
+
+Speaker 1 | 38:00 - 38:22
+So, to provide think there's an interesting, there's a couple of like things you can ask about the specificity of why is it that it's coding that worked? Yeah. Is it just that it's that all these people are coders? Is it like, well, we fix the problem that we see in front of us? Is it that there's something specific about LLMs and code that makes it work particularly well?
+
+Speaker 1 | 38:23 - 38:44
+Is it that you see the problem in front of you and say that's what you work on versus is there something specific about this? Is it my point about tool builders? Is it that the tool builders are building the tool for their task? The one place where the tool builders are developers is development tools. So, I don't know.
+
+Speaker 1 | 38:44 - 38:54
+Is it is it is And I don't think we have a good I'm I maybe I'd love to know. Is there some theoretical There are theoretical arguments that says that code is uniquely well suited to LLMs.
+
+Speaker 2 | 38:54 - 38:59
+A 100%. Go to math, very verifiable. Can run them millions of times.
+
+Speaker 1 | 38:59 - 39:25
+Well, this is another point. This is another point is where If we're going back to the conversation about automation, where do you have enough training data and where is validation scalable? And the more that you get into complex consulting projects, the harder it is to have scalable repeatable validation. Yeah. Because you're getting a long way away from something that's tangible and specific and objective.
+
+Speaker 2 | 39:25 - 39:48
+And I think this is like exactly you know, I think there's lot of folks that have been saying, there's whole Neolab push lately of folks spinning out and saying, god, there's gotta be a more data efficient way to train models. And ultimately, if like the way we did code is the only way to do everything else, maybe we get there over time and we the whole economy is just data labelers, and over time you can even do enough data labeling to get there. But like, feels like that will be a real slog relative to something that's more algorithmically efficient.
+
+Speaker 1 | 39:48 - 40:22
+So pushing in a different direction, sort of places that it is, given that we don't know how the models will work, what are places where it's conceptually questionable that they might, whether they could work? And one of them is in the conversation about where there isn't training data, where the data is implicit, where it's implicit knowledge, maybe where it's hard actually to explain how you do it, why you do it, which comes right back to the beginning of machine learning. It's hard to explain where you can't turn it into a statistics problem. Right. Where is it hard to turn this from a logic problem into a statistics problem?
+
+Speaker 1 | 40:22 - 40:54
+And secondly, where do you not want the average? Because in principle, what all of these things are doing is how would most people probably do this? And in software you are saying, how would most people probably build an app that does X, Y, and Z with these criteria? And you want the way most people would probably do it. And the more that you get into, no, I kind of don't want it the way most people would probably do it.
+
+Speaker 1 | 40:54 - 41:24
+I'm going to do something different. Then the more you get kind of the models there's a kind of conceptual question for the models. And the way I used to think about this was that if you go back to something like AlphaGo, AlphaGo can do model to do moves that no one's done before, but it's got scalable verifying system. It can check whether the moves win. Whereas if you were to create like a completely new enterprise strategy, how would you check that was completely different from what anyone had ever done before?
+
+Speaker 1 | 41:24 - 41:26
+How would you check whether that made any sense?
+
+Speaker 2 | 41:26 - 41:46
+Right. It's all about, mean, people are creating these very basic RL environments today, right? Where it's like, hey, did you go through the Salesforce app and update things correctly and use that to train models? And it feels very clear that over time, I think the only solution to a of this stuff is gonna need to be in simulation, right? You kind of are simulating complex business situations or economies.
+
+Speaker 1 | 41:46 - 42:30
+Yeah, so just sort of thinking out loud here, there's like the dumb criticism is, the model can't do, well, there's a short term criticism which says the model can't do that. The longer term question is, can you get enough training data for the model to be able to do that and enough feedback loops for the model to be able to do that? The third step is, yes, but do you want the product of the training data? Do you want the average? And then you can push this different places because, I I have the sort of Imagine If slides towards the end of my presentation, the last presentation, and I was sort of thinking like there's a consumer version and an enterprise version.
+
+Speaker 1 | 42:30 - 42:39
+Consumer version is, step one, here's a picture of a coat, where can I buy that? That wouldn't have ten Okay, years ago, science fiction. Now that's an angemon. Now that's a product problem. Yep.
+
+Speaker 1 | 42:39 - 42:46
+That would work. And coats may be hard, but yeah, in principle, will work. Here's a here's a vase. Where can I buy this? Here's a lamp.
+
+Speaker 1 | 42:46 - 43:06
+Where can I buy this? Step two, give me 10 options for a coat like that and explain how I would choose. Okay, that's now solvable. Step three, go look on my Instagram and suggest a coat that matches my look, that would improve my look, that would give me a radical change that I might like. That can probably do now.
+
+Speaker 1 | 43:06 - 43:56
+Yeah. But the further you get to not what's obvious, but good, the harder it is to do that. The enterprise version of this would be something like, step one is listen to our Zoom recordings with clients and tell me if there were new concerns emerging in the last couple of months. Step two be, look at our Step two or three would be, go look at our app telemetry and everything in Salesforce, and all of our client calls, and then do a competitive market review. And then spin up a user survey, automate the questions, work out the list of users, run the conference calls, do all the calls, synthesize the results, pull it all back together again, and then tell me why do I need to change my churn.
+
+Speaker 1 | 43:56 - 44:11
+How do I change my churn? Now, that's an example, incidentally, of something where you probably do need to be at the head of that pricing curve. It's not a commodity question. That's also something that one random person in the company isn't gonna be able to spin up in Claude. You're gonna that's a one month project just to kick that off, just to get that going.
+
+Speaker 1 | 44:12 - 44:34
+These are sort of the further you get along that curve, the more you're not doing, this is what anyone would tell me. And the more you're getting to variance. To make that much simpler, like, you can get a machine learning. You can get an AI music model to make you a lot more bad jazz or bad bark or bad pop music. You can get it to make you more stuff that sounds like Taylor Swift.
+
+Speaker 1 | 44:34 - 44:46
+Apologies to any Taylor Swift fans listening. You can make more Taylor Swift, fine. But imagine inventing punk. Imagine inventing hip hop.
+
+Speaker 2 | 44:46 - 44:46
+Right.
+
+Speaker 1 | 44:47 - 44:47
+I didn't
+
+Speaker 2 | 44:47 - 45:01
+think it comes where does that from. Come 99% of things in enterprise probably not inventing hip hop. Like that example you just gave, I think you probably could do with LLMs today. And people are, it's not perfect today, but you have your AI interviewers and you have there's enough iteration on it that it doesn't feel
+
+Speaker 1 | 45:01 - 45:19
+The funny yeah. The funny thing about AI interview is I was was talking to somebody from Bain a while ago who were talking about using this for interviews and for synthetic customers. There's a common pattern I've got it's kind of complete sidebar here. There's a common pattern in people talking about what AI means to x y zed industry. If you're not in that industry, you'd think you'd do this with it.
+
+Speaker 1 | 45:19 - 45:22
+And the people in the industry are like, no. No. No. No. We do this.
+
+Speaker 1 | 45:22 - 45:29
+This is the thing we can do with it. So like in advertising, there's a whole thing of how you can make the ads with it. And and Martin Sowell is like, no. No. No.
+
+Speaker 1 | 45:29 - 45:37
+No. You use it to automate all the really boring back office crap. Yeah. You automate the faxes. The faxes we're sending to Google to book the ads, almost literally.
+
+Speaker 1 | 45:37 - 45:51
+And the same thing in consulting, like, we use this to make PowerPoints? Well, kind of. But what we really use it for is to automate the research, customer research. Right. Because now you can do that query, you can do that survey in a day instead of week.
+
+Speaker 1 | 45:51 - 45:58
+Yeah. Which is my consumer surplus point. You do the same spend, same survey, but you deliver it in a week instead of in a day instead of a week.
+
+Speaker 2 | 45:58 - 46:07
+Yeah. It makes sense. I mean, I guess given this discussion we've had on the foundation models, like if you were running one of these companies, like would you be doing anything different in terms of like focus or what they're
+
+Speaker 1 | 46:10 - 46:30
+I have a lot of sympathy for Semmelman here. That may be a unique and controversial statement. You've got lot of plates to juggle because you have all I mean, you can make your list. In fact, you could ask Claude George at GPT to make your list of what are all the problems Do you make a device? Oops.
+
+Speaker 1 | 46:31 - 46:45
+Sorry about that. Okay. Let's go I'm gonna have to spend a lot of time on calls with lawyers now. How do you think about of course, OpenAI and Anthropic don't have infrastructure. So there's an infrastructure question.
+
+Speaker 1 | 46:45 - 46:50
+How do we get infrastructure? How do we get the funding for the infrastructure? Do we make our own chips? Yes. Okay.
+
+Speaker 1 | 46:50 - 47:10
+How long is that gonna take? Work your way all the way through those layers of the stack. It's like you're trying to invent. It's like you're Bill Gates and you've got to invent, you've got to build PCs and enterprise software and broadband networks in like 1985 or 1980. You've got to so many different parts of that stack are completely unclear and all happening at once.
+
+Speaker 1 | 47:11 - 47:19
+There's a sort of, well, obviously, this is what you would do. And so you can see the two strategies. You can see the strategies across companies. So if you're an incumbent, you try and make the new thing a feature. Yeah.
+
+Speaker 1 | 47:19 - 47:36
+And so that's what we saw at Google. Spray the whole thing over everything is what you see it with. Probably mostly successfully is what you, if you're Microsoft, well, we don't have this capability. So we'll buy it, rent it, whatever, spread all over everything. One of the steps in enterprise AI deployment was like step one is deploy Copilot.
+
+Speaker 1 | 47:36 - 47:56
+Step two, oops, step three, let's do something else. If you are Apple, clearly they fumbled massively two years ago. If you've played with a beta of the new Siri, it's like, this is as good as ChatGePG was six months, nine months ago. And it's a consumer deployment and use case story there. If you are OpenAI or Anthropic, you don't have a legacy business, You don't have a way to make it a feature.
+
+Speaker 1 | 47:56 - 48:11
+You don't have distribution. You don't have infrastructure. What you do have is cutting edge science, but you've kind of gotta build all of the rest. And so I think what OpenAI did second half of last year was what can we build on top of a commodity foundation model? Is it a browser?
+
+Speaker 1 | 48:11 - 48:17
+Is it a social video app? Is it an app store? Is it another app store? Is it a third app store? Is it shopping?
+
+Speaker 1 | 48:17 - 48:28
+Is it ads? Everything. If you're philanthropic, less money, more focused, more worried about evil stuff, fine, whatever. Much more narrowly focused on coding. Stumble into coding is something that works, right?
+
+Speaker 1 | 48:28 - 48:43
+Okay, everyone else now rushes towards coding. It's like the scene in Monty Python with, in Life of Brian with Jova. It's like you're throwing rocks at coding. Coding! But is that the next thing?
+
+Speaker 1 | 48:43 - 48:55
+I don't know. I mean, part of the other thing one could have said about coding is coding is actually a pretty small industry. I mean, it's weird whenever I point this out, people in tech get really upset with me. There's millions of people writing software. Fine.
+
+Speaker 1 | 48:55 - 49:17
+Imagine if we had a use case that really, really worked that like a billion people wanted to do. We couldn't. Like the infrastructure couldn't possibly support it. I mean, this is one of the interesting differences from every other previous platform shift is it's more expensive rather than cheap, It has marginal cost. And so you can't make a consumer app and get a 100,000,000 users and then work out the revenue model, which is why it's all enterprise as opposed to all consumer.
+
+Speaker 1 | 49:17 - 50:03
+But if you're running a model company, I mean, obviously OpenAI has had all sorts of weird political stuff going but you're shepherding your researchers, you're shepherding capital, you're shepherding infrastructure, you're herding cats in all sorts of directions. You've gotta work out, well, what is the path to sustainable competitive differentiation when every four to six weeks, there's another model at the top of the leaderboard? And there's absolutely no sign of what you would do that would mean you would have sustainable competitive differentiation. Do we have a path to network effects here? Can we build product layers on top of this that mean everyone has to use our product, even though the model underneath doesn't seem to be very different?
+
+Speaker 1 | 50:04 - 50:27
+Can we focus our model in on one capability and try and pull ahead in that capability? So you could argue what Claude has done is focused on getting coding really, really good. And maybe they have a competitive lead there. But you also have to be continually conscious that everything is changing every three to six months. No one really knows what this is gonna look like in three or four years time.
+
+Speaker 1 | 50:27 - 50:29
+And no one really knows what the building blocks are. So do
+
+Speaker 2 | 50:29 - 50:33
+think that running all these experiments makes sense if you're OpenAI just given how uncertain this all is?
+
+Speaker 1 | 50:33 - 50:58
+I think it well, the problem is based strategies make sense. I mean, I think if you're opening AI and you've got all this capital, it kind of made sense to do or try all of that stuff. If you're in Swapic and you had less capital and you're more worried about like this take off and evil stuff happening, then it made more sense just to focus in narrowly on coding. We didn't know that coding was gonna work. I mean, we mean, maybe you could have said in hindsight, obviously it was gonna work, but clearly like it flipped at the beginning of this year from kind of working to actually working.
+
+Speaker 1 | 51:00 - 51:28
+And again, we've had this conversation, was that inevitable? Was that the thing? But you come back to this question like the thing that sort of fascinated me about OpenAI in the last couple of days is the new app launches. And if it tells you one thing, it's like writing the code isn't the hard part because it's such a disastrous, chaotic, confused mess. And there's like this weird, like, we're gonna give everybody copilot and also work and work is different to chat.
+
+Speaker 1 | 51:28 - 51:42
+And it's called chat, but chat's hidden. And when you do chat, then it appears in this weird pop up, but you can't use this in that. And then you hide it And then this happens and this works on cloud and that doesn't work. I'm like, really? How did you ship that?
+
+Speaker 1 | 51:42 - 52:05
+How did that happen? There's a step back from all of this, which is like before Microsoft and Google and Meta and so on had the winner takes all effects, they had to execute their way into that. I mean, you kind of knew that what the winner takes all effects would be completely obvious. Like remember when people thought that maybe like social would win in different countries, like Bebo would win in Europe Facebook would in America and Uber would win. It was like, like rideshare was gonna be city by city.
+
+Speaker 1 | 52:05 - 52:24
+And so you knew what the, you kind of knew what the network effect was, but you weren't sure, but also you had to execute your way into getting it. And remember that like Myspace was there first. And remember that when Facebook was happening, people, Google did wave, buzz thing, other thing. And Google has all the data. So there's an execution.
+
+Speaker 1 | 52:24 - 52:37
+You can get very deterministic about, well, I want like the network effects and commoditization and so on. But there is an execution story there as well. Like, you actually have to, like, make the thing happen. Yeah. It's like, you know, Marx said history is not a material person.
+
+Speaker 1 | 52:37 - 52:46
+Like, history isn't a person. Yeah. So you get Marx's whole thing about history works like this, and these are inevitable forces. And then he says, yeah, but but history isn't a person. So even somebody actually has to do it.
+
+Speaker 2 | 52:46 - 52:47
+Yeah. So you have
+
+Speaker 1 | 52:47 - 52:48
+to actually make that thing happen.
+
+Speaker 2 | 52:49 - 52:57
+Yeah. No. I love that. Mean, I guess, you know, on on the opening eye side, think, you know, they have obviously they had all these med execs come in and and I think you've talked about how they kinda tried to run a similar playbook.
+
+Speaker 1 | 52:57 - 52:59
+Yeah. It felt a bit cargo cult What Do you
+
+Speaker 2 | 52:59 - 53:01
+know what a cult went wrong there?
+
+Speaker 1 | 53:01 - 53:03
+Do you know what a cargo cult is? I was never Is this what this reference?
+
+Speaker 2 | 53:04 - 53:07
+It's something I've said a bunch and I don't actually think I have any idea what the origin is.
+
+Speaker 1 | 53:07 - 53:44
+It's a World War II thing. So, there's war in The Pacific, there are all these like islands in the Pacific where like people have seen a European ship every six months or something and every year or something, but no one, these are not people who are exposed to modern mass produced industrialized society. And the Americans arrive and they build an air base and a base and a ship and a port and a pier and there's all this stuff. And like America in particular, like there's infinite money and so all the supplies, they handle the stuff out and like canned food and like souffles and like everything you want. And then the war ends and like the Americans just leave.
+
+Speaker 1 | 53:45 - 54:07
+There's this island somewhere in the Pacific that like there's like 10,000 airplanes and trucks and stuff just dumped into a lagoon because there was just it wasn't worth shipping it all back to America and scrapping it. So there's like, I'm slightly I'm only slightly exaggerating. There's like hundreds of brand new trucks and aircraft dumped in this lagoon. And so the point is, suddenly the airfield's empty and there's no more planes coming. So what do you do?
+
+Speaker 1 | 54:07 - 54:30
+Well, you go up into the control tower and you speak and you line up in parade and you run a flag up the flagpole because that's what the Americans did and the plane came. I mean, is absolutely true. This is this phenomenon in the fifties well, late forties and fifties. If you didn't actually understand what it was that was causing the cargo to come, so you imitate the forms.
+
+Speaker 2 | 54:30 - 54:31
+Interesting.
+
+Speaker 1 | 54:31 - 55:00
+And I'm going down the rabbit hole again, but the point here is like, joined Meta in 2010, way after it had product market fit. And you're at And so what do you do? Well, you make an app store. You build an ad business, you build an e commerce thing and you know how to You're doing all of those playbooks, but you're not at the part where you know what works. And what you actually want is the people who are meta when it was just Harvard.
+
+Speaker 1 | 55:00 - 55:04
+Yeah. Not the people who are meta when 5,000,000,000 people were using it.
+
+Speaker 2 | 55:04 - 55:33
+And obviously on the consumer side, I feel like you've talked about how these products have some relatively shallow usage today across the board. I think one of the hard parts that you've discussed before is if you're at one of these labs and you're on the product team, you're kind of waiting for model capabilities to figure out what to go build, and so it's a hard way to build product. And then at the same time, I can't tell whether we're just a few model capabilities away from a completely different set of consumer usage. The killer ones always felt like computer use. If you really got computer use to work, would people just use these products way more?
+
+Speaker 1 | 55:33 - 56:00
+I'm not sure about that. Just remember how many people, for how many people their main device is a smartphone. Most people don't use a computer as much as they use a smartphone. So, a little bit hesitant about that one. It does feel very geeky to me, even setting aside security and failure rates, and it might accidentally delete all of your stuff, which again is like, you know, I was using I mean, it's this point about PCs in the early eighties.
+
+Speaker 1 | 56:00 - 56:22
+It's like it was completely normal that you'd be working, even in the mid nineties, late nineties, you'd be working and you look up at your screen and you realize it's frozen and nothing moves. And the your solution is you crawl under your desk and you unplug your PC, and then you wait for it to turn on, and then you hope that you haven't lost more than an hour of work. Yeah. That was just normal, completely normal. I always had and that's that's exactly the same now of, you know, I I told coworker to clean up my inbox, and it deleted my inbox.
+
+Speaker 1 | 56:22 - 56:34
+Hey. It's cleaned up. Great. So the the the the the consumer like, the takeoff here is, like, again, are unfalsifiable statements. Is it just that the models will get better?
+
+Speaker 1 | 56:35 - 56:58
+Or is it that that's not quite what the problem is? Is it that most people don't very often have the kind of things that mesh very well with this? Set aside the enterprise side of like, you're seeing an SAP, it's a pain in the ass to do this thing. Great, you can't use ChatGPT for that because it's not authorized, it's not plugged in, you're not allowed to do that, fine. That's a CIO conversation.
+
+Speaker 1 | 56:58 - 57:25
+You're a consumer, How do you work out what this is? How do you bridge it? You open chat GP to And this, I don't think I know the answer here. I mean, obviously I don't know the answer, but like I'm ambivalent here because I remember like portals on the internet in the late nineties, where you give people a web browser and you can't just give them a browser with a URL bar and a blank screen. You've gotta help them.
+
+Speaker 1 | 57:25 - 57:55
+And eventually you didn't need to help them. And some of that is that wasn't really about broadband or better tech, that was about the ecosystem kind of maturing and people forming new habits. And so when you see you open a chatbot now and it's got these little tiles of like, you could do this, you could do this, you could do this. Is that like the portal then of like the handholding of helping people work out what to do with this? I don't know an awful lot of what you were doing on the internet with stuff you're already doing.
+
+Speaker 1 | 57:56 - 58:08
+Like now buy an air conditioner, book a holiday, buy this thing, find this thing, watch that video. It's stuff you kind of already knew. It's like the spreadsheet point. Like you've already knew about spreadsheets. The thing you already knew you could do.
+
+Speaker 1 | 58:08 - 58:39
+How much of what you do with an LLM is stuff that you're already doing and you realize, ah, I could do that much better with this. This is obviously the search conversation and the booking holiday conversation or whatever, or my point about find me a coat. How much of it is the other side of that, that an entrepreneur is going to realize, Ah, no, this is what you do. I mean, is Flickr and Instagram and TikTok. That's not like a consumer thinking, Oh, I want a way to share pictures.
+
+Speaker 1 | 58:40 - 58:51
+Somebody has to invent that. That's not organically emergent behavior out of consumers. It's not like you just give enough everybody enough broadband and they'll start sharing pictures. Well, I'm talking about in
+
+Speaker 2 | 58:51 - 58:59
+the enterprise side, you've obviously seen people do this with the labs that we need, these like deployment companies, and like the idea of like going out there and like, do you think that will be successful?
+
+Speaker 1 | 58:59 - 59:13
+So again, we're going in lots of different directions. Like step one of enterprise deployment was give everyone a copilot. Step two was, oh crap, that didn't work. For like a small portion of people, like if you've given them Claude, maybe great. Like my wife lives in Claude, fine.
+
+Speaker 1 | 59:13 - 59:37
+But most people know, and for the reasons we've talked about, that doesn't make sense. Step two is pilots and everyone has done now, done a whole bunch of pilots and deployed about half of them and they work fine, but that's kind of a one at a time thing. And then the conversation becomes like, is that it? That feels like that's not it. Well, we automated this one pain point one at a time.
+
+Speaker 1 | 59:37 - 59:52
+Yeah. It feels like that's not the right way to think about this. How do we actually change structurally how we do things around this new technology? We're still sort of at the point of like we successfully PDFed all of our catalogs and put them on our website. Great.
+
+Speaker 1 | 59:52 - 59:56
+That worked. How many people have downloaded them? Loads. What's our ROI? Our printing bills collapsed.
+
+Speaker 1 | 59:56 - 1:00:03
+We've got way more customers. Great. Okay. But that's probably not the end point. And so that's what all of these things are.
+
+Speaker 1 | 1:00:03 - 1:00:36
+And this is of course why consulting exists, Because most people do not have those skills and they don't have it set up as a process and they don't have all those people sitting around not doing anything. And so you hire Bain or BCG or McKinsey, or you hire Accenture, IBM, Cognizant, Deloitte, PwC, and so on. Or you hire WPP Publicis and so on, or you hire Edelman or whoever it is for these different kinds of problems and they come to you and help you work it out. This is why or lawyers. This this is why professional services exist because you don't have all of that that talent in house.
+
+Speaker 1 | 1:00:36 - 1:00:56
+But working out what all of that reimagination would be is a project. It's a big difficult project. This is what used to be called digital transformation and now enterprise transformation. I always used to joke that if you say digital transformation three times, then a partner from Accenture will appear in a puff of smoke. It's like my most reliable laugh line at conferences, especially enterprise conferences.
+
+Speaker 1 | 1:00:56 - 1:01:41
+Like the whole conference grinds for halt for thirty seconds after I say that. But like, yeah, there's a reason why they've got like 800,000 people and that will probably go to half of it, that will probably half or whatever the number is, but like, no company is going to have all of those skills. They're just sitting around ready to reimagine stuff. The one thing that occurred to me there though is that there's a sort of symmetry or an overlap between what an enterprise software company does, a vertical enterprise software particularly does, and what a consulting firm does, in that what they're And then a strategy consulting firm, management consulting like Bain, BCG, McKinsey, and so on. What they're doing is they're kind of going and looking at your company and saying, you're kind of doing it like this, but actually you could do it like this and that would work way better.
+
+Speaker 2 | 1:01:41 - 1:01:44
+A percent. Mean, that's what a lot of these vertical AI companies are doing today, right? You have to have
+
+Speaker 1 | 1:01:44 - 1:01:45
+it, they
+
+Speaker 2 | 1:01:45 - 1:01:47
+call this forward deployed, which is reinvention of.
+
+Speaker 1 | 1:01:47 - 1:02:23
+But that's what any vertical software company's doing. Well, at least half of them, that's what they're doing. They're saying, well, you were doing it like this and we've worked out, you could do it like this and that would work way better. And that's also what Bain does, McKinsey or does, or McKibbCT does, but just in a kind of a different modality, which is why all of these companies are sort of sitting and scratching their heads and trying to work out like, I mean, you know, there was a joke that a machine learning scientist is a statistician who lives in Silicon Valley. And I said, must be I haven't quite worked out the right equivalent for a forward deployed engineer, is like an Accenture body shopper who got a job at OpenAI.
+
+Speaker 1 | 1:02:23 - 1:02:37
+But they're climbing the mountain from opposite directions. It's like, do you want a software company that's got a bunch of forwarded deployed engineers or do you want a consulting company that's got a bunch of software engineers? Because they're kind of doing the same thing from different directions.
+
+Speaker 2 | 1:02:37 - 1:03:00
+I think this point of basically, obviously, the enterprise, people you you don't just give people these models and they figure out exactly how to use them, and there's needed to be this big translation layer, and then I think on the consumer side, it's certainly been that to date, and I think the question to the point you're making on Instagram earlier is like, will some great entrepreneurs come along or maybe within these companies and find a way that's a little more that has some latent behavior within people that they wanna do, that the model Yeah.
+
+Speaker 1 | 1:03:00 - 1:03:17
+Everything has to actually be invented. All of the use cases have to be invented. Very few of them are just purely spontaneous grassroots consumer behavior. All, every app on our phone, somebody had to think, well, would be a good idea. Then everybody looked at it and said, that's the dumbest thing I've ever heard.
+
+Speaker 1 | 1:03:17 - 1:03:29
+I mean, remember how dumb Uber looked, remember how dumb Instacart looked. I was in the pitch, A16z for Instacart, like, will the economics work? Does this make sense? Will people do this? I mean, you know the story about, what's his name?
+
+Speaker 1 | 1:03:29 - 1:03:43
+The founder, that he didn't have a car. And so he set up this bare bones website that emailed him orders and then he would get an Uber and go to the supermarket and do the shop and get an Uber to people's home to deliver them.
+
+Speaker 2 | 1:03:43 - 1:03:44
+Tough for the economics.
+
+Speaker 1 | 1:03:44 - 1:03:46
+To work out whether this would work.
+
+Speaker 2 | 1:03:46 - 1:03:50
+Yeah. That's hilarious. Well, what do you make of Sora, like some of these early consumer app drives?
+
+Speaker 1 | 1:03:50 - 1:04:38
+So, I think Sora fits into a classic pattern of consumer social, which is you have to come up with some new mechanics, some new piece of masculine hierarchy, some new way of feeling that gets attention, but then it has to be more than a gimmick. And TikTok found that in one form and Snap found that and name another one. It was really hard actually. Snap from, we've found two or three, like disappearing messages and stories and so on, but like it's work. You could kind of argue that social has flattened out at the top of the S curve the way smartphones did or the way PCs did, that like everything's been invented and like saw was like, I don't know, it was like, all the stupid things.
+
+Speaker 1 | 1:04:38 - 1:05:02
+Like the weird experiments people tried with smartphones, like modular smartphones and things like, you clip on this or clip on that, like a second screen or ink screen on the back. There's a moment where like, okay, now all of this social stuff has been done. And then of course, Dator comes along and does something else. But I think that's the frame that I would fit it into that narrative rather than specifically an AI narrative. It was another attempt at a cool social thing.
+
+Speaker 1 | 1:05:02 - 1:05:12
+It turned out that it kind of didn't work. Mean, it's the same thing with Midjourney. You remember like a year or two ago, we all spent a month playing with Midjourney. Yeah. And now Meta's got a new image model, how I tried it.
+
+Speaker 1 | 1:05:15 - 1:05:36
+The image generation, mean, there's another point to make here, which is what happened with drones in three d printing, which is one Christmas, whenever it was ten years ago, we were bought a drone for Christmas. And then three days later we say, okay, I've seen the roof of my house now. Yeah. It's very cool. Same with, like, three d printers.
+
+Speaker 1 | 1:05:36 - 1:05:42
+Okay. Made a little Eiffel Tower. Like, there's no consumer use case for three d printing. There is no consumer use case for drones. There's a hobbyist case.
+
+Speaker 1 | 1:05:42 - 1:05:59
+There's a bunch of people who think it's really cool. There was this brief idea, like there's not a thing that everyone has. And so I think that was kind of where video creation ended up. Now somebody may need to pull the whole thing inside out. Now like virtual try ons, if you could get virtual try ons working, that would be image generation, but it wouldn't be mid journey.
+
+Speaker 1 | 1:05:59 - 1:06:22
+Yeah. You know, here's, look at my Instagram and go look at the latest look book from this brand, make 10 videos of me in different looks. I'm like, that's probably completely insane, but like that a product. Would Yeah. Midjourney wasn't a product in the sense that you had to log into it with Discord, but it also wasn't like It had the same problem as Drone.
+
+Speaker 1 | 1:06:22 - 1:06:27
+It's like it didn't translate into a tangible specific thing that you would do that solved a problem.
+
+Speaker 2 | 1:06:27 - 1:06:41
+Yeah. No, super interesting. Play that's a common theme throughout our conversation. I always like to end with kind of a quick fire round where I just stuff a bunch of things into the end that we haven't discussed. And so maybe to start, I'm curious, I feel like you've been pretty consistent in your view on this technology.
+
+Speaker 2 | 1:06:42 - 1:06:46
+What's one thing you've changed your mind on in the last year around AI? The basic thing
+
+Speaker 1 | 1:06:46 - 1:07:28
+mistake that I still see people making is not to understand that this is an enabling technology that makes lots of different things possible and still look at it as something that makes text and pictures and not understand, no, this will like make fraud detection work better, or this will solve all sorts of like obscure back office processes inside companies you use every day that you've never thought of. And so you'll get all sorts of better experiences and better products that won't come to you looking as AI and won't come to you saying this was ChatGPT. And you still get people kind of saying, but you know, I asked it a question and the answer wasn't quite right. Well, great. It's like looking at the Internet and saying it's kind of slow and anyone can say anything like, yes.
+
+Speaker 1 | 1:07:28 - 1:07:48
+Yeah. But well, more it's like looking at the Internet in like 1995 and saying, but but but like there's an interview you can find online with David Bowie a British journalist called TV journalist called Jeremy Paxman in like 1994 or something. And David Bowie is saying, This is gonna change the world. And Jeremy Paxman says, But it's just like random people talking to each other on chat rooms. This is a mistake.
+
+Speaker 1 | 1:07:48 - 1:07:53
+It's not the chat rooms, it's the network. And it's the same thing here. It's not the text in the pictures. It's the enabling technology.
+
+Speaker 2 | 1:07:53 - 1:08:14
+Yeah. And I think obviously a lot of what you read about compares what's happening in AI to other technological revolutions for context. And I think one interesting thing is many people at the forefront of AI at these labs are like in their twenties, they don't necessarily have the same context around some of these. A bunch of them listen to the podcast. I guess if you could impart a few messages to them on those eras, what would they be?
+
+Speaker 2 | 1:08:15 - 1:08:17
+So, I think we've talked about a bunch of this stuff that
+
+Speaker 1 | 1:08:17 - 1:08:40
+stuff is unclear and stuff will change and all the acronyms and I've I've the slide in my presentation is here are a whole bunch of acronyms and companies and concepts and ideas and technologies from 1995 that that failed. Same thing from 2010 or 2005. We should just presume a bunch of stuff that we're working on now won't work. And some of it you're very conscious of. Mean, was the conversation about OpenAI last year.
+
+Speaker 1 | 1:08:40 - 1:08:48
+Of course, some of this wasn't gonna work, but it was worth trying. I mean, I think just like last week, OpenAI gave up on the web browser. Yeah. And I had that on my slide. Is this a thing that will work?
+
+Speaker 1 | 1:08:48 - 1:08:58
+Probably not. No. We should presume MCP will get replaced by something else or may do and so on. So that's kind of one point. Just presume you're in this stage of radical uncertainty where everything is turning over and changing.
+
+Speaker 1 | 1:08:59 - 1:09:27
+Secondly, like, you know, I always have this slide I show of the so from Goldman, the CIO survey, of the percentage of enterprise workflows that are in the cloud, and the number is like 30% after twenty years. Like, it takes time and it's hard and complicated and people have other priorities. I do a poll on social media every now and then, is machine learning still AI? And some people get very upset like there's this academic definition that they've dreamt up of what AI is, but like AI is whatever is new. It's like technology.
+
+Speaker 1 | 1:09:27 - 1:09:46
+It's not technology once it's been around for a while. But the point I was sort of thinking is like, I gave this presentation to, I think it was like a European water company. And I gave the presentation on machine learning. The CEO says, this is very interesting. Maybe innovation should be one of our top five priorities next year.
+
+Speaker 1 | 1:09:46 - 1:09:58
+And if you're in tech, that sounds insane. Then you think, but they're a water company. Let's think about what their priorities might be. Regulation, earthquake, there's lead in the pipes. They need to rip out the Huawei equipment.
+
+Speaker 1 | 1:09:58 - 1:10:06
+There's a repricing coming up next year. They've got other stuff. There's a drought. That reservoir, the dam is leaking. Oh crap.
+
+Speaker 1 | 1:10:06 - 1:10:25
+We're gonna need to screw the rest of our budget. So like most people have other stuff going on and then maybe a much more tangible thing. Other people's jobs are hard too. Everybody else's job is hard. Every other industry has a bunch of stuff they're trying to work out that you probably don't know about.
+
+Speaker 1 | 1:10:25 - 1:10:41
+I remember having a conversation with the head of one of the world's biggest ad agencies at an event years ago. And I said, trying to be clever, like, are you worrying about? You're worried about machine learning? This is before OpenAI. He said, yeah, I'm also worried that one of our countries doesn't have a good head of creative.
+
+Speaker 1 | 1:10:41 - 1:11:05
+I'm worried that this big client is gonna put us up for review. I'm worried that my head of X, Y, Z is in a conflict with this other person. Everyone has all this other stuff going on and AI isn't the only thing. And if you think about, you know, this is this you know, talking about previous lessons, like you go back and think about what industries the Internet affected and didn't affect. If you're the newspaper, fine.
+
+Speaker 1 | 1:11:05 - 1:11:11
+You got demolished. Now imagine you're Caterpillar. What did the Internet change for Caterpillar? Okay. It was really useful.
+
+Speaker 1 | 1:11:11 - 1:11:24
+In the end of the day, your business is making big pieces of metal. Yeah. What did the Internet change for an aggregates company? Do you even know what an aggregates company is? Your job is digging sand out of the ground, putting it on trains and then on trucks and then giving it to people.
+
+Speaker 1 | 1:11:24 - 1:11:32
+How much did the internet change your industry? Well, in the end, kind of not very much. How much is AI going to change that industry?
+
+Speaker 2 | 1:11:32 - 1:11:34
+Depends how well the physical AI stuff works, guess.
+
+Speaker 1 | 1:11:36 - 1:11:52
+Yeah, but do you want to put, you're gonna put humanoid robots in the three story high truck or the trucks gonna get connected to GPS and drive themselves around? They probably already are. The trucks will get autonomous fine. Okay. How much does that actually change your industry?
+
+Speaker 1 | 1:11:52 - 1:12:03
+Like, guess what? There were some industries where it's not gonna change anything. And it won't be predictable. There'll be some maybe, there'll be some that you think of now where you're completely wrong. There'll be a bunch of industries where the internet actually didn't change a damn thing.
+
+Speaker 2 | 1:12:03 - 1:12:12
+Well, I wanna make sure to leave last word to you. Anything we haven't talked about here that you think our listeners should take away or anywhere you wanna point them, we'll certainly link to your presentations, but anything else before?
+
+Speaker 1 | 1:12:12 - 1:12:43
+Yeah. Well, my parents had good SEO. A story I was thinking about recently, which I didn't use writing about tokens, which was in like 1999, the bank I worked for was going to look at working on the IPO of a company that sold electronics and software on the internet. They'd previously been a catalog company and it wasn't clear Amazon would do this. And the guy, the founder had started it in his bedroom aged 16, and they'd like turn over a £100,000,000 and they were gonna flight for 7 or 800,000,000, which was insane even then.
+
+Speaker 1 | 1:12:44 - 1:13:09
+And so we all go up to Birmingham to see it, and then we're on the train back. And we're all talking about the founder and the board's kind of weird and the valuation. By veteran banker called David Tate, I think he's retired now, I should look him up. David Tate sort of opens one eye and says, it's a low margin reseller, one time sells, and goes back to sleep. I mean, sometimes it is kind of simple.
+
+Speaker 1 | 1:13:09 - 1:13:11
+It's a low margin reseller, one time sells.
+
+Speaker 2 | 1:13:11 - 1:13:15
+This has been so much fun to get to talk to you about all this stuff. I really appreciate you taking the time to come on the pod.
+
+Speaker 1 | 1:13:15 - 1:13:16
+Sure. Thanks for having me.
+
+Speaker 2 | 1:13:16 - 1:13:42
+I'm Jacob Efron, and this has been Unsupervised Learning, a podcast where I get to talk to the smartest people in AI and ask them tons of questions about what's happening with models and what it means for businesses in the world. As I hope is clear, I have a ton of fun doing this. It's a nights and weekends project in addition to my day job as an investor at Redpoint. But our ability to get these incredible guests on really comes from folks like you subscribing to the podcast, sharing it with friends. It's really what ultimately makes this whole thing work.
+
+Speaker 2 | 1:13:42 - 1:13:46
+And so please consider doing that, and thank you so much for your support and listening. We'll see you next episode.
