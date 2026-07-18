@@ -1,0 +1,470 @@
+Source  : The MAD Podcast with Matt Turck
+Title   : OpenAI’s Compute Chief: We Can’t Build Fast Enough | Sachin Katti
+Date    : 2026-07-16 11:30 UTC
+Link    : https://www.youtube.com/watch?v=wEZBlmvxx4o
+────────────────────────────────────────────────────────────
+
+Speaker 1 | 00:00 - 00:19
+Anytime you have thought you have enough compute, we can slow down. Always negatively surprises like, oh, we should not have slowed down. Demand far outstrips compute supply today. So anything we can bring online, we consume immediately. Our biggest worry is that still at the scale at which we are trying to get compute and build compute.
+
+Speaker 1 | 00:19 - 00:30
+The physical world does not move that fast. We do believe that the world of recursion is not that far where AI will design the systems it needs to train and run the next generation of AI. Encourages.
+
+Speaker 2 | 00:30 - 00:42
+Hi. I'm Matt Turk. Welcome to the MAD podcast. My guest today is Sachin Khalti, who holds what might be the most fascinating and relevant title in tech right now, head of industrial compute at OpenAI. Sachin has an incredible background.
+
+Speaker 2 | 00:42 - 01:13
+He was a professor at Stanford, a multi time founder, and most recently the CTO at Intel. Now he's leading what many are calling the largest infrastructure build out in human history. In this episode, we step away from the model layer and dive deep into compute and the physical reality of the AI boom. We talk about the staggering scale of the data centers being built. We get into the weeds on liquid cooled supercomputers, power grid constraints, the potential of nuclear MG, and OpenAI's move into custom silicon with Jalapeno.
+
+Speaker 2 | 01:13 - 01:28
+We also discussed the broadest target strategy and the slightly sapphire reality that AI is now beginning to help design its own chips. It is a fantastic look behind the curtain at what it actually takes to power the future of intelligence. Please enjoy my conversation with Sachin Cotti.
+
+Speaker 3 | 01:30 - 01:42
+Right, Sachin, welcome. Excited to do this. We are recording this on the sidelines of the RACE conference in Paris. So thank you for braving the heat. It's another heat wave here.
+
+Speaker 1 | 01:42 - 01:44
+Thank you. Great to be here. Great to be here.
+
+Speaker 3 | 01:44 - 02:12
+To start, some people describe what's currently happening in the world of compute data centers as the largest infrastructure build out in history, bigger than the highway, bigger than railroads. And I'm I'm curious, one, if you agree, and and two, what it feels like on from the inside. Like, what's how do you view what you currently building at OpenAI?
+
+Speaker 1 | 02:12 - 02:49
+It definitely feels like one of the largest things humanity has ever built effectively. Definitely bigger than many of the things that I've heard of. I'm not old enough to have experienced the highway build out, but no, it's feels exactly like what it sounds like. I'm in the belly of the beast, so to speak. Every day is we are making decisions beyond compute that historically from my previous role, for example, at Intel, we probably take months to make, given the magnitude of those decisions.
+
+Speaker 1 | 02:49 - 03:03
+But the demand is so insatiable that, and it is growing so rapidly that we have to move very quickly. So, it's an intense time, but it's probably the most exciting thing an engineer would want to be part of.
+
+Speaker 3 | 03:04 - 03:16
+Yeah. And I read somewhere that OpenAI was planning on spending about 50,000,000,000 in compute this year. Is that is that still the rough number directionally? Directionally, that sounds about right. Yeah.
+
+Speaker 3 | 03:16 - 03:29
+And the whole industry itself was gonna be 700,000,000,000 in compute spend this year as well. So like insane numbers, seems.
+
+Speaker 1 | 03:29 - 03:41
+Yeah. And it's probably continuing to grow, right? And a lot of build happening. So a lot of that is also going to translate to compute usage from people like us in a year or two.
+
+Speaker 3 | 03:41 - 04:07
+Is the right way to think about this, that for OpenAI, it's a bit of a new world, right? There's obviously not quite a pivot because, obviously, the whole AI research is going, you know, full speed ahead. But, like, building a whole new business within the the the company, is that is that fair? Is that how people think about it? Because, obviously, building models is one thing, building data centers, it's a whole different world.
+
+Speaker 1 | 04:07 - 04:29
+Yeah, mean, I think OpenAI always has had a fundamental belief that computers are the foundation of everything. Compute is the foundation for intelligence. And the way we keep continuing to scale intelligence and distribute intelligence is by having compute. And so that has never been different. I've never always been the belief.
+
+Speaker 1 | 04:29 - 04:54
+I think what's becoming clear is to build the kind of compute we need. And at this scale, we have to not just rely on getting compute from our partners. We increasingly have to take a much more active in building and getting that compute that we need. So, it does absolutely feel like a new muscle that we're building in the company.
+
+Speaker 3 | 04:54 - 05:26
+And maybe to anchor the conversation from the beginning, it would actually be very helpful to talk about what a data center is in reality. So I think like everybody knows that data centers are being built. But, you know, gun to one's head, like, I'm not sure that everybody could say, well, what is actually being built? Because we've been building data centers as an industry for cloud for decades at this point. So what is fundamentally different and new about the data centers that we're building for AI today?
+
+Speaker 1 | 05:27 - 06:00
+I think the biggest probably is the scale, right? So we are essentially building large supercomputers as we think about AI. And we build intelligence and deliver intelligence and models become more capable, we use it for more and more complex tasks. We need more and more bigger computers effectively. And so I think the best way to visualize data centers is giant factories that are turning electrons into tokens.
+
+Speaker 1 | 06:01 - 06:25
+It's a popular phrase nowadays, but it actually has a lot of a ring of truth to it. So how do we take power? How do we take those electrons and actually use it to power chips that effectively are delivering intelligence? And the way I visualize it is large football fields, liquid gold because these chips run really hot. The temperatures on these chips are very, very high.
+
+Speaker 1 | 06:25 - 06:35
+And so you'll cool them with liquids, you can't cool them with air. So a lot of liquid cooled, basically refrigerators effectively that are sitting alongside the building.
+
+Speaker 3 | 06:35 - 06:44
+And then on that topic while we're at it, the the cooling happens at the data center level or does it happen at the chip level or both?
+
+Speaker 1 | 06:44 - 06:55
+Both. Both. Right. So you need to cool the data halls, but you also need to need to cool the chips individually because it's not going to be enough to do one or the other. And you also have to cool the things that connect chips.
+
+Speaker 1 | 06:55 - 07:10
+And so that's why you need cooling pretty much everywhere nowadays. Even the cables that are the transformers that distribute the power become too hot. So they also need to be cold. So everything that processes energy produces heat.
+
+Speaker 3 | 07:10 - 07:21
+And isn't cooling technology that is being used as something that's well understood and is just getting deployed? Or is there like fundamental new things happening in cooling right now?
+
+Speaker 1 | 07:21 - 07:49
+I think liquid cooling has been around for some time, but has never been deployed at this scale. Innovation is more around how to make it reliable, how to make it cheaper, more scalable. Right. So there's a lot of innovation around that. There's also a lot of new innovation, new kinds of liquids, new kinds of materials that can absorb heat better because anything that can improve the efficiency of heat transfer is very important for data centers.
+
+Speaker 1 | 07:49 - 08:10
+So we can then run the chips hotter, right? And there is a direct correlation between running a chip hotter and how powerful the computers. So the hotter the chip, the more memory bandwidth you get, the more flops you get. And so there's more there's a strong payoff. If you can cool well, that also means you can produce more intelligence.
+
+Speaker 3 | 08:10 - 08:27
+All right. So gigantic factories, lots of cooling. The other part that seems to me very critical to any discussion is power and energy. So how do how do that work starting at a high level? You do you connect to the grid?
+
+Speaker 3 | 08:27 - 08:29
+Do you have your own power generation?
+
+Speaker 1 | 08:29 - 08:59
+I think the early days, we all connected to the grid, and we still all would want to connect to the grid. At this point, we are beginning to hit and we are investing in generation infrastructure for the grid, transmission infrastructure for the grid. So whenever we build a data center anywhere, we make it a hard commitment that we are not taking power away from the grid. In fact, we are investing in the grid to generate new power so that we can consume it for data centers.
+
+Speaker 3 | 08:59 - 09:01
+What does that mean practically?
+
+Speaker 1 | 09:01 - 09:24
+You have a grid somewhere. Has a certain generation and distribution capability, certain number of megawatts. Obviously, data center shows up. If there was spare capacity, then of course, the data center can use it. But if there isn't spare capacity, then we have to new gas or solar or hydro generation infrastructure to the grid.
+
+Speaker 1 | 09:24 - 10:02
+So we are investing and funding that build out. And then you have to build transmission lines, invest in transformer substations to distribute that power. So wherever we are building data centers, we are funding the development of all of that infrastructure. And so that's one of the things that we do want to emphasize, which is this is infrastructure that would otherwise not have been funded, if not for these data centers. And one of the side benefits of this big data center build out is the grid infrastructure of America and the world for that matter is getting upgraded very quickly.
+
+Speaker 1 | 10:02 - 10:28
+And so that's the power piece. So whenever we can do that, we do that and consume power from the grid. But it's also good citizens of the because we are improving the infrastructure for everyone, not just for data centers, but also for households. In some places, are beginning to hit the limits of how much grid power we can build and consume. And so there everyone's looking at behind the meter.
+
+Speaker 1 | 10:28 - 10:43
+We are also doing some beyond meter generation where we would have on-site power generation and distribution capability that does not come from the grid. But in fact, the data center becomes effectively self self sufficient Yep. In terms of power.
+
+Speaker 3 | 10:43 - 10:46
+Does gas turbines what what is it?
+
+Speaker 1 | 10:46 - 11:03
+Today, it's gas turbines, especially in The US, because that's the most dense transportable form of energy and also the one that is quite widely available in The US. But there, are bottlenecked by the supply chain.
+
+Speaker 3 | 11:03 - 11:20
+Do you think the the nuclear conversation is interesting? Mary recording this in France, which has a bunch of, you know, nuclear nuclear power generation. Nuclear systems have come back to the discussion in The US as well. Is it, like, something that you think about, anything is interesting? Absolutely.
+
+Speaker 1 | 11:20 - 11:44
+It can't come soon enough. Okay. I think it is the densest form of energy we can all produce and consume, and it also clean. So I think definitely would be a good source of massive, scalable energy for all data centers. Obviously, outside of France, the rest of the world has a lot of catching up to do and building this infrastructure.
+
+Speaker 1 | 11:44 - 11:49
+But I think it's gonna be play a very important role and data center.
+
+Speaker 3 | 11:49 - 12:17
+Okay. So that's a great introduction on on on data centers. The the other interesting bit of news that you guys recently had is Jalapeno. Mhmm. So now in for OpenAI, in addition to being the application business, consumer and enterprise, and then being in the model AI research business, and then the compute and data center business, it seems that OpenAI is in the chip business, if that's fair.
+
+Speaker 3 | 12:17 - 12:26
+So, like, completely full stack, but I'm I'm I'm curious, and we'll we'll go into some details about a little later later. But, like, in terms of, like, overall strategy, where where does that fit?
+
+Speaker 1 | 12:26 - 13:13
+As we begin to as we serve a pretty big fraction of the world's population, AI usage is exploding, inference is obviously becoming a big fraction of our workload. Right? It's consuming a lot of compute. And one of the other realizations is because we know what is the workload exactly, what is the model we want to run, we can co design the hardware to be super efficient in delivering those models. And so the strategic piece of the Jalapeno is how do we take advantage of knowing what the end workload is, what the model itself is, and design chips that are very efficient in serving those models.
+
+Speaker 1 | 13:13 - 13:38
+So it really allows us to drive efficiency advantage, drive more tokens per watt. So the key metric that Jalapeno is optimizing is maximizing the number of tokens you can produce per watt. And because the world is constrained by power today, so the more tokens you can produce for the same number on on power, it's better for everyone. So we look at it as a very critical ingredient in scaling how we deliver intelligence to the world.
+
+Speaker 3 | 13:38 - 14:15
+Great. So I'll I'll come back to help you in in in a second. But you mentioned you just mentioned inference and, you know, it's such an interesting evolution as well. Without commenting on necessarily what's going on at OpenAI specifically, is inference equally big or much bigger than training these days in terms of, like, usage of compute as as as have we shifted from, you know, being those type of very heavy pre training runs as the major use case for compute to now just inference being the majority?
+
+Speaker 1 | 14:16 - 14:38
+No. Inference is a big, perhaps even the majority on compute. And I think one of the we don't like to make a distinction between training and inference because a lot of training is now inference. So when we train a new model, we are generating synthetic data, for example. That's inference.
+
+Speaker 1 | 14:38 - 14:58
+When we train a new model, we are doing post training, and that's inference. When you train a model, you're doing test and compute. That's all inference. So when we say training, a lot of the compute actually is inference even in that phase of the work. So inference is a fundamental building.
+
+Speaker 3 | 14:58 - 15:32
+Yep. Obviously, I cannot resist asking the inevitable question around the potential risk of overbuilding, given the lag between demand and usage and how long it takes to build a data center. I think you mentioned somewhere that you were deliberately very paranoid about the problems ahead in the next three years. Very paranoid about the surprises ahead, which sounds like a very healthy approach. So how do you how do you think about that?
+
+Speaker 3 | 15:33 - 15:41
+Is there any way to mitigate that, or is just, like, how do we play do, like, a deep belief that this is the future and, you know, we should all just go, go, go?
+
+Speaker 1 | 15:41 - 15:55
+We have deep conviction in scaling. Right? And history has borne us out. So effectively, Redmi, for example, has tracked compute. We tripled compute and we tripled revenue.
+
+Speaker 1 | 15:55 - 16:13
+And we believe that's I mean, that continues to be true. Demand far outstrips compute supply today. So anything we can bring online, we consume immediately. So there's no compute that is going waste as for us at least. So I think that conviction has not changed whatsoever.
+
+Speaker 1 | 16:13 - 16:47
+And if anything, we are seeing that scaling laws on research and training continue to hold. And, potentially, the pace at which we are doing research is accelerating, right, because of AI itself. So AI is doing a lot of AI research now. And so one of the subtle implications of that is his previously, our researchers used to run experiments, and they needed computer run experiments. But the number of experiments they could run was limited by the number of human researchers they had, which is a scarce resource on the world.
+
+Speaker 1 | 16:47 - 17:08
+Right? There's not a lot of people who can do AI research. Now if AI itself can do AI research, the number of experiments we can run explodes, and therefore, the amount of compute you need from research also explodes. So we don't see a world where we will have immune to best compute for the foreseeable future. Right?
+
+Speaker 1 | 17:08 - 17:17
+When I was referring to surprises, my worry is more on the downside of we are not able to actually build all the compute we want.
+
+Speaker 3 | 17:17 - 17:19
+Yeah. And and But this raises
+
+Speaker 1 | 17:19 - 17:31
+the other way. It's the other way for us. Right? Because that was consistently in the case. We anytime we have thought we have enough compute, we can slow down, always negatively surprises like, oh, shit.
+
+Speaker 1 | 17:31 - 17:45
+We should not have slowed down. Right? And so our biggest worry is that still. And at the scale at which we are trying to get compute and break compute, the physical world does not move that fast. Right?
+
+Speaker 1 | 17:45 - 17:54
+Physical supply chains, factories don't move that fast. Door cannot add capacity that fast. So for us, the surprise is more on that direction than the other direction.
+
+Speaker 3 | 17:54 - 18:28
+Very fascinating. You alluded to communities a minute ago, and obviously, that's a that's a key debate. So curious about your perspective on a on a on a spectrum where, you know, on the one hand, one extreme, you'd say, well, the AI industry and computer industry has a PR problem, and there's no problem. It's just the problems that we cannot explain it well enough to the other extreme, actually, those communities have a point. Where do you think the reality is?
+
+Speaker 1 | 18:28 - 19:01
+I think anytime there's new technology, which is as as revolutionary as this technology is, there is always disruption that's gonna happen. But, inevitably, we have learned this over history that this always leads to better outcomes for society. Right? And so how do we draw a line from where we are today to that outcome, right, and explain to the world why this is the trajectory we all need to be on? I mean, we it's our responsibility to do that.
+
+Speaker 1 | 19:03 - 19:23
+On the community side, there's a little bit of a local versus a global issue. Right? On the communities, I think data centers are, even today, a net positive to every community. Because we are building these data centers in rural areas of America, example, right, where there's nothing else that is being built. I'm this clear.
+
+Speaker 1 | 19:23 - 19:47
+So we show up in rural Texas. We build a data center that produces new property taxes sinks for the community, that funds schools, that funds hospitals. We show up, and we invest in new grid infrastructure, which otherwise would never happen because there's no demand. So there's a modernized grid that that AI can enjoy. Basically, we produce jobs.
+
+Speaker 1 | 19:47 - 20:15
+Nice. And and and so I think one of the things we are investing a lot in is explaining the local benefits every time we build a data center somewhere and making sure that it is well understood the kind of upside that decides. And data centers, once they are built, are essentially very clean citizens. Right? They don't produce any gases or toxic chemicals or anything.
+
+Speaker 1 | 20:15 - 20:19
+Right? They're self contained. They just produce intelligence. Yeah.
+
+Speaker 3 | 20:19 - 20:32
+The typical question that comes up is water, and I think that's been debulked quite a bit by by research. But, what would maybe give us just color on how you all think about the the water machine?
+
+Speaker 1 | 20:32 - 20:57
+These are liquid cooled, and the liquid is recycled. So we do actually, the water consumption of a data center is shockingly small relative to household water consumption. So I think as you put it, it's been debugged. It's misperception that data centers consume a lot of water. It's anything they consume so little water for what they do, and all of that water is recycled.
+
+Speaker 1 | 20:57 - 21:03
+So we don't net consume new water. Once we get to a particular point, the water just gets recycled as they use the cold.
+
+Speaker 3 | 21:03 - 21:13
+Yeah. So all those stories of, like, brown water is they just don't make sense because the water at a data center happens in, like, a contained circuit.
+
+Speaker 1 | 21:13 - 21:16
+Right? It's a closed loop. Yeah. It's a closed loop. It's a closed loop.
+
+Speaker 3 | 21:16 - 21:30
+And by the way, you mentioned Texas and rural areas since we talked about data centers at the beginning of this conversation. Why do OpenAI and other companies pick rural areas? Like, how do you select a site for a data center?
+
+Speaker 1 | 21:30 - 21:48
+So many factors. So one is, of course, land, like plentiful land. Number two would be permitting. Like, can we build these things? And we wanna build these things such that they are not affecting any neighborhoods.
+
+Speaker 1 | 21:48 - 21:59
+Right? So land that is somewhat removed is their ideal candidate. Course, access to power. Right? So a strong grid, strong gas, availability.
+
+Speaker 1 | 21:59 - 22:11
+All of those are important factors. And then four is labor. Right? So how quickly can you build these things? So availability of labor, construction labor, qualified electricians, bloggers, all this can be above.
+
+Speaker 1 | 22:11 - 22:27
+So all of those factors go into every single site selection decision. I know, obviously, Texas isn't popular because it fits a lot of these criteria, but it's not the only state. I mean, we have data centers all around the country in LA plus. Okay. Great.
+
+Speaker 1 | 22:27 - 22:28
+We're gonna go into all of
+
+Speaker 3 | 22:28 - 23:00
+this in in in more detail, but let let's talk about you a little bit and and and your journey. So you're the the head of industrial compute at OpenAI, which, by the way, to the beginning of this convention, the title industrial compute is is so I mean, such a perfect title, right, for the moment we're in. But what what does that mean? What what what is the role and how is this whole effort organized within OpenAI to the extent you can talk about it?
+
+Speaker 1 | 23:00 - 23:14
+Yeah. I I think think of it as my role and our team's role, rather, as how do we bring compute online at IndustryFK. Right? That's effectively what we tell me. That's the entire life cycle.
+
+Speaker 1 | 23:14 - 23:27
+So how do we find the ingredients that are going to compete? Land, power, shells, chips. How do we finance them? Right? So because these are massive dollars.
+
+Speaker 1 | 23:27 - 23:43
+And so how do we make sure that we finance the grid infrastructure? How do you finance the construction of the pump shells? How do we finance the chips? Then it's about how do you operationalize all this? So how do you actually make sure these things happen on time?
+
+Speaker 1 | 23:44 - 23:57
+They stay up? How do you operationalize all of this infrastructure? So it's that entire life cycle. And then, of course, how do you actually use the compute? So a big part of my role is capacity allocation inside OpenAir.
+
+Speaker 1 | 23:57 - 24:00
+So it is always a scarce resource.
+
+Speaker 3 | 24:00 - 24:03
+Makes sure you're a very popular guy. I am not very popular.
+
+Speaker 1 | 24:04 - 24:39
+There is always someone who is unhappy with whatever decisions he make. But, yeah, me, actually, our team provides the input to make the capacity allocation decisions. So we surface what are the different choice points, what are the what if questions on different allocation choices that we have. So capacity planning, and then, of course, using that to forecast how much capacity we need where. Because it's not just more compute, it's also where, what kind, what shape, what chip, what workload you wanna run there.
+
+Speaker 1 | 24:39 - 24:53
+So all of those are this team figures out kind of what should be the forecasting and planning, and that informs that closes the loop. And so that informs of where do I go find the next chunk of land and power and chips to put in there.
+
+Speaker 3 | 24:53 - 25:10
+And, again, without getting into anything confidential, although, I guess, when you guys go public, all of this will be soon all of this will be public. But, like, is that thousands of people at this stage? I mean, is that a is is that a, like, multiple different teams, or do you guys gotta, like, outsource a bunch of things and works with a bunch of contractors?
+
+Speaker 1 | 25:11 - 25:26
+It's a portfolio approach. Right? So we are never going to be in a world where we outsource everything or build anything up source. Right? It's always gonna be a mix because that's the that's the reason that's the reasonable thing to do.
+
+Speaker 1 | 25:26 - 25:46
+Right? So you don't want to put your rights in all all in one basket. So we will have hyperscalers probably providing a big chunk of a compute a majority of a compute. We will have new clouds, parts of our portfolio. We will be partnering with design build firms that can build the compute that we need.
+
+Speaker 1 | 25:46 - 25:59
+And, of course, we will build some of it ourselves. And so we're always gonna have a portfolio approach because at the scale which we need, we will need to tap into all sources of compute. We can't just rely on one particular mechanism.
+
+Speaker 3 | 25:59 - 26:12
+And your background, the default of this, so you are both a professor at Stanford and an entrepreneur or a founder or mostly an academic? Like, just walk us through your journey.
+
+Speaker 1 | 26:12 - 26:28
+Bit of all of the above. So but, yes, I'm at my heart, I'm an academic. So I've been a professor at Stanford since 2010. Recently What do you focus on there? I was a faculty in computer science and electrical engineering.
+
+Speaker 3 | 26:29 - 26:31
+With like, particular interest? Yeah.
+
+Speaker 1 | 26:31 - 26:53
+My area of research was networking. Headworking. So I already built networks, mobile, wireless networks other than the seven days until networks actually. But three, four years ago, I while I was at Stanford, I did a couple of startups. The last startup got acquired by VMware, and that's how I got to know Pat.
+
+Speaker 1 | 26:53 - 27:19
+Pat Dickens, Intel's CEO. I mean, that's how I ended up at Intel. Most before coming to OpenAI, I was at Intel's SOC team. And so I've kind of seen all the different things, academia, startups, corporate in Intel, and then, of course, a mix of all of the above in Oprior. Because they have a research lab, a startup, and a fast growing company all mixed into one at OpenAI.
+
+Speaker 3 | 27:19 - 27:25
+Yes. Is it what you what you said what what did you say yes to the job when the job came came up?
+
+Speaker 1 | 27:25 - 27:41
+It's actually what I just said. Yeah. That makes this so unique. And it's hard to find anywhere, right, because you always have to choose. But having a world class research environment coupled with the hardest technical problems.
+
+Speaker 1 | 27:41 - 28:04
+We are building the largest compute in the world. And so there are a lot of new problems that we need to solve, but also a fast growing business. So this biggest problem I I'd like problems that sit at the intersection of business, technology, and strategies. And so this is, like, very unique time in history and a unique role to some of which are very attractive, obviously.
+
+Speaker 3 | 28:04 - 28:21
+Very cool. Alright. So going into a bit more specifics about OpenAI's compute strategy. So maybe let's summarize what you guys currently have. So I think there's some Microsoft.
+
+Speaker 3 | 28:21 - 28:36
+You did this big $20,000,000,000 deal with Cerberus. There's a bunch of things around this Stargate. Maybe just give us the lay of the land of what you currently have, and then we'll talk about what your question building next. We have compute
+
+Speaker 1 | 28:36 - 28:55
+from effectively many sources. So Microsoft, obviously, the big partner, important partner. We also have compute, as we have announced, from AWS, ION, Google. So we have compute from all of the hyperscalers effectively. We also have compute from Corby, for example, so a Neo Cloud.
+
+Speaker 1 | 28:55 - 29:37
+And then, of course, that chip partners are supplying now, like, Xeripas, and it's up directly producing compute for us. So I think that's the mix roughly today. As we go forward, obviously there'll be building on all of these relationships, but also looking at more options where we design the compute, the data center itself ourselves, or potentially even build the data center ourselves. So all of those are ways of scaling the amount of compute that we have. So I think coming back to my earlier answer, it's the answer always will probably be trite, but it's all of the above.
+
+Speaker 1 | 29:37 - 29:38
+It's all you know?
+
+Speaker 3 | 29:38 - 29:41
+Yeah. Yeah. No. No. That that's that's helpful.
+
+Speaker 3 | 29:41 - 30:06
+And, you know, obviously, driver's education makes the sense in the world given the scarcity. And then it seems that Target has evolved. So from the what was gonna be a joint venture with Oracle and SoftBank to what now seems like it seems like it's more like an umbrella term for the big strategy these days. Is a fair way to describe it?
+
+Speaker 1 | 30:07 - 30:21
+Yeah. Yeah. I think we look at StarVirt as our compute strategy. Yep. And it is varying degrees of us designing or building the compute ourselves.
+
+Speaker 1 | 30:22 - 30:54
+For example, with Oracle, close partnership, We help them design. We help them with how we need to operate AI compute, which is, in fact, a very new kind of compute for us. We work with SoftBank Energy, which is public. We basically have co designed the Warm Shell with them, and they're executing on that Warm Shells. And we will be kind of figuring out how to operate our chips in these data centers ourselves, even the new chips.
+
+Speaker 1 | 30:54 - 31:21
+So Stargate to us is that umbrella strategy for across all of these different things. And think of it as an evolution that we continuously be on because it's never gonna be tomorrow when we wake up wake up and do only one kind of way of building compute. Yep. I think Stargate to us is a continuous way of learning how to scale compute, and they'll be adding on more and more capability later. Right?
+
+Speaker 3 | 31:21 - 31:35
+And as part of that, there are data centers being built, right, like, like, Abilene, Texas. Yes. And so maybe walk us through that. What what is currently being built for for people to have some situational awareness?
+
+Speaker 1 | 31:36 - 31:53
+We obviously have a big partnership with Oracle. That's the Abilene Data Center. That's where, for example, we are training our newest models. So very excited about that. That's a very big GB Black Belt cluster for our needs.
+
+Speaker 3 | 31:54 - 31:56
+So that's up and running. It's up and running.
+
+Speaker 1 | 31:56 - 32:12
+It's been used for training the last two models more, actually. So it's a super threat. And you are seeing the results, You're seeing how quickly the models are becoming more capable. Yep. It's because of these kinds of compute.
+
+Speaker 3 | 32:12 - 32:19
+Yep. I think data centers are currently being built that are Yes. Good out there. Yeah.
+
+Speaker 1 | 32:19 - 32:49
+Yes. So Oracle is building a number of data centers, all of which are public, so across Michigan and Texas and other places. So these are coming online in the next couple of years as they get built and put whatever chips on that time training are the latest. But these are really meant to be very big clusters that allow us to do both our training, but also product inference kind of compete.
+
+Speaker 3 | 32:49 - 32:56
+Right. But the way those deals are structured, the Oracle is the prime building those Oracle is the cloud.
+
+Speaker 1 | 32:56 - 32:57
+Is the cloud. Company.
+
+Speaker 3 | 32:58 - 33:09
+Of the tenant. Yes. Core tenant from the interesting. How does the for the stuff that you're building, how does the financing strategy work? I mean, obviously, you you you all raised what was it?
+
+Speaker 3 | 33:09 - 33:27
+122,000,000,000. Was it the number recently? So there's no shortage of cash. Although, you know, given all those expenses, I don't know. But, you know, the COREs of the world are famous for being very strategic users of debts.
+
+Speaker 3 | 33:27 - 33:31
+Is that part of their financing strategy as well? How do you how do you all think about it?
+
+Speaker 1 | 33:31 - 33:55
+I mean, with all of these compute that we have today, we have amazing partners who actually are handling that for us. So Microsoft, Google, Amazon, Oracle are we are off the off take. So we are the tenants, as you put it. So we commit to consuming that compute, to buying that compute, whether it's online.
+
+Speaker 3 | 33:55 - 34:12
+Oh, so across the board, like everything, your because you're you're building stuff as well. So building the partners are building? Partners are building. And you're always the, across the board, the the tenants, not the owner at the Correct. Okay.
+
+Speaker 3 | 34:12 - 34:31
+So therefore, financing is outsourced to apartments. Okay. We talked about the jalapeno. Let's let's into a bit more detail there because in particular, it seems that you guys went incredibly quickly and designing it. I think I read somewhere in nine months from design to tip out.
+
+Speaker 3 | 34:31 - 34:35
+So maybe maybe walk us through that, and what was the reason it went so quick?
+
+Speaker 1 | 34:35 - 34:49
+Yes. It was incredibly quick. Nine months is very, very fast, probably the fastest I've seen in my career. I think several reasons. One is it it's a team.
+
+Speaker 1 | 34:49 - 35:13
+It's a strong team. They have many many the team have designed TPU chips at Google in the past, so very well experienced team. We have a great partner in Broadcom that has a very strong track record of delivering XPOS ASICs. So I think a strong partnership with Broadcom and and making this happen. Three, I think, an OpenAI unique point.
+
+Speaker 1 | 35:15 - 35:59
+In most chip companies or when you design chips, you don't know what you're designing it for because you're a vendor, the customer who eventually runs the workload is someone different. There's a unique advantage here of us knowing what the future models might look like, and therefore being able to short circuit a lot of the decisions you need to make, design decisions you need to make on the chip side. That's super helpful. And finally, increasingly, AI itself helping design and optimize the chip. That is usually the one that takes the longest time because human you're basically limited by how many human human much human time is there to process all this data and run the experiments, and we can do a lot of those iterations much faster With AI.
+
+Speaker 1 | 35:59 - 36:00
+Using AI.
+
+Speaker 3 | 36:00 - 36:03
+Yeah. So AI is building its own chips now?
+
+Speaker 1 | 36:03 - 36:20
+Yes. Yeah. I think that world is not very far. I mean, right now, is assisting in chip design, but we do believe that the world of Likertion is not that far where AI will design the systems it needs to train and run the next generation of AI.
+
+Speaker 3 | 36:20 - 36:32
+And including chips? Including chips. Including chips. You also released a few weeks ago MRC, which is a networking protocol. Walk us through through that.
+
+Speaker 3 | 36:32 - 36:34
+What is it, and why is it a big deal?
+
+Speaker 1 | 36:34 - 37:15
+It's a new networking protocol routing technology, if you will, to scale these really large cluster fabrics. So imagine you have a 100,000 GPUs. They need to be connected together. And when you're doing large training runs, they're constantly communicating with each other because these models are so large that the processing of the models is happening over the entire 100,000 GPU cluster, for example. And you can imagine imagine the number of links and switches and NIC cards that need to be there to connect all of these chips together.
+
+Speaker 1 | 37:16 - 37:41
+At this scale, failures are right? It happens all the time. You can't really even enumerate all the ways things could fare. So the strategy behind MRC is how do you design algorithms and protocols that can gracefully mask all these failures and make sure that the training workload does not get impacted. Right?
+
+Speaker 1 | 37:41 - 37:55
+They just the network is an abstracted system that the training job does not ever worry. It's always gonna be there. It's always gonna find a path even if a link fails. So it is all about reliability. It is all about availability.
+
+Speaker 1 | 37:56 - 38:32
+So how do we design protocols that contain the complexity of such a common such a big cluster and make sure that we don't get stopped because of failures which are very common in the system? So MRC is like a multipath spraying protocol where you can spray packets over multiple parts. So between any two chips, there are many, many routes to get there, kind of like between any two points in the city, there are many routes. So instead of picking just one route, we will we will send traffic across all of them, and whichever one succeeds, we take them. Right?
+
+Speaker 1 | 38:32 - 38:46
+And so that way, even if any one of them fails, it's not a showstopper. So that's kind of the basic intuition behind it. It's obviously a lot more sophisticated than that. But doing this at scale and that speed is hard, and so that's why it's quite innovative.
+
+Speaker 3 | 38:46 - 39:01
+What are the bottlenecks that you experience these days? So it seems like the nature of the bottleneck keeps changing in the compute industry. Obviously, people talk a lot about memory these days. Is that is that one of them, or what what else?
+
+Speaker 1 | 39:01 - 39:25
+I think there are bottlenecks everywhere, to be honest, to the supply chain. So I don't think there's any one. Right? We have bottlenecks in the data center building itself around permitting, around availability of gas turbines, transformers. Those industries have historically have not added much capacity over the last decade or so Yep.
+
+Speaker 1 | 39:25 - 39:34
+And they've suddenly experienced a demand shock. Yeah. And it takes years before you can add capacity to produce more turbines and transformers. So they're trying to quick catch up.
+
+Speaker 3 | 39:34 - 39:45
+And to the jump thing that you that you mentioned earlier, is there, like, a shortage of, like, electricians and and my technical people, trade people that know how to build those things
+
+Speaker 1 | 39:45 - 39:48
+at once? Or you're Absolutely. Yeah. Absolutely. So we That's
+
+Speaker 3 | 39:48 - 39:55
+why we should all do as AI replaces knowledge work, should pick up electricians. No. I think
+
+Speaker 1 | 39:55 - 40:29
+there is definitely a shortage of electricians, plumbers, all kinds of tricks. You name it. So anything we can do to train more folks to be able to do those, there are very well paying jobs that lot of us, all of the hyperscalers, all of the labs would actively hire you for if you had the, like, conversations. So I think that is definitely a bottleneck. I I think they become an increasing bottleneck because we are all trying to build more and more, and we have a limited number of these these capabilities.
+
+Speaker 3 | 40:29 - 40:42
+Great. Let's talk for a minute about the the business side of things. Another thing you launched recently is in guaranteeing capacity Mhmm. For customers to lock in compute. That which is interesting.
+
+Speaker 3 | 40:42 - 40:52
+Right? It almost feels like OpenAI is also becoming a utility company, providing computing to others. What what's the story behind that and the the strategy?
+
+Speaker 1 | 40:52 - 41:04
+Yeah. So guaranteed capacity is guaranteed tokens. Okay. Right? So we are effectively saying we will guarantee you a certain dollars worth of tokens of intelligence.
+
+Speaker 1 | 41:05 - 41:19
+And, I mean, it makes sense. Right? So in a world where compute is a shortage, therefore tokens are always gonna be at a premium, and there's a shortage of tokens that we can produce given the limited compute that we have. And as this becomes a fundamental input to the enterprise. Right?
+
+Speaker 1 | 41:19 - 41:40
+So enterprises are going to need intelligence, more and more of it, to run. Right? And so this is a way of enterprises gaining assurance that the tokens of intelligence that they need will be there for them, and so they they don't have to take business risk. Right? And so I think it's it's good business hygiene.
+
+Speaker 1 | 41:40 - 41:57
+If you have a critical supply resource in every enterprise, intelligence is kind of the most important supply item, if you will. It makes business sense to make sure you secure that supply. And so that that's the demand we're trying to fulfill. You know? I know it's a new concept.
+
+Speaker 1 | 41:57 - 42:08
+Like, what does it mean to have guaranteed capacity for the intelligence thing? But I think that's what intelligence is becoming. It is becoming a supply unit, not every digital enterprise.
+
+Speaker 3 | 42:08 - 42:22
+Right. So maybe to end on the fun one, and you can answer either with your OpenAI hat on or or not. Data centers in space, is that is that is that exciting? Is that science fiction? Is that needed?
+
+Speaker 3 | 42:23 - 42:28
+Is that something that people like to talk about just because it's cool, or where where where do you land?
+
+Speaker 1 | 42:28 - 43:04
+For for the geek in me and the engineer in me, it's definitely exciting. It's one of those things can be super cool to see a constellation of satellites producing compute. I actually think it is it will become feasible, right, as engineering problems to be solved, but they can be solved, with enough time and investment. Whether it is needed, I think there is room for orbital compute. I don't think it's gonna solve all the compute beats, but it's definitely going to be a component in the arsenal.
+
+Speaker 1 | 43:04 - 43:28
+I think what we are waiting for is when does the economics of the launching satellite change and when does the economics of the hardware change? Because we need to get to a point where it's cheap to launch the hardware, And if something fails, it's cheap to throw it away. I think we can't go up and fix it, unlike on the ground. And so I think that inflection point hopefully happens soon, and at that time, it becomes wilder.
+
+Speaker 3 | 43:28 - 43:32
+Correct. Sachiv, it's been wonderful. Thank you so much for spending time with us. We appreciate it.
+
+Speaker 1 | 43:32 - 43:34
+Thank you. It's been great to have this chat.
+
+Speaker 2 | 43:34 - 43:54
+Hi. It's Matt Turk again. Thanks for listening to this episode of the MAD podcast. If you enjoyed it, we'd be very grateful if you would consider subscribing if you haven't already or leaving a positive review or comment on whichever platform you're watching this or listening to this episode from. This really helps us build a podcast and get great guests.
+
+Speaker 2 | 43:54 - 43:55
+Thanks and see you on the next episode!
