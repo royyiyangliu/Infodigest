@@ -1,0 +1,57 @@
+{
+  "date": "2026-07-19",
+  "generated_at": "2026-07-18T23:34:42.516244+00:00",
+  "stats": {
+    "tweets": 7,
+    "podcasts": 1,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "AI 工程师、Latent Space / smol.ai 创始人 Shawn Wang（swyx）。他抛出一个\"未被充分利用的免费 alpha\"观点：如果你还没把 Codex / Claude / Gemini / Devin 的自动化任务设置成每周自研如何改进自己的 SEO/AEO，就错失良机（该推文获 **1019** 赞）。他进一步区分了 on-policy 的 auto-AEO（如让 Claude 优化你的 AEO 是否会不成比例地在 Claude 上生效）与可泛化的 AEO，认为真正的 alpha 只有当大家都停止问这类基础问题时才会消失。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI Codex/ChatGPT 团队负责人 Thibault Sottiaux。他宣布为所有付费的 Codex 与 ChatGPT Work 用户重置使用额度上限（该推文获 **9072** 赞、**606** 转发），并称团队正在以极快速度迭代、边扩张边保持基础设施稳定。他还确认新模型 GPT-5.6 Sol 是\"一个极其优秀的模型\"。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品人、创作者 Peter Yang。他描绘了一种理想的智能体协作方式：与其整天盯着屏幕管理 agent 把脑子看废，不如在户外散步时\"打电话\"给 agent 布置任务、由它们通过语音向自己汇报进度；他期待第一家实验室尽快推出这种能力。"
+    },
+    {
+      "author": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "summary_zh": "Madhu Guru（realmadhuguru）。他认为企业难以超越基础聊天机器人的根因是构建 harness（编排系统）和 evals 的人才缺口，并拆成三点：评测（能否清晰理解用例并复现为线上线下评测、逼近模型的锯齿状能力前沿、在质量-成本-延迟曲线上选对模型）、harness（是否有独立于模型的路由、多智能体编排、上下文管理、工具调用与记忆系统）、人才（是否有能在前沿把这一切搭出来的人，这是最稀缺的一环）。他还提出一个反直觉观点：Kimi 反而利好 Google——多数企业不会直接消费 Kimi，而会通过 Google Cloud 获取，因为它们仍需要安全、数据驻留、合规，以及最关键的芯片，等于钱从一个口袋进另一个口袋。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic（Claude Code 团队）工程师 Thariq。他分享了一条省 token 的实操经验：先构建 mockup、schema、数据模型、概念验证等原型，是在耗费大量 token 之前就判断出自己并不想要该产出的最佳方式。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 联合创始人兼 CEO Aaron Levie。他认为 AI 越便宜、整个生态（尤其终端客户）的机会越大：一切都受限于能否低成本地把 AI 部署到真实工作负载，成本一降、总用量就上升，价值会流向技术栈的各层。他做出一个反直觉判断——AI 效率提升反而可能推高对前沿闭源模型的花费，因为任务编排往往需要最强模型、再把大量 token 的活外包给更便宜或更专精的模型，从而能把 AI 划算地用到更多任务上；最受挤压的是利润率，长期看智能的利润率会向基础设施栈的利润率收敛。"
+    },
+    {
+      "author": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "summary_zh": "投资人 Zara Zhang（张睿）。她观察到技术正在改变文化：几年前很多人还不愿意录制会议，如今默认所有商务会议都会被录制——而且不是给人看，是给 agent 用。她还给出\"build in public\"的建议：如果做内容感觉像额外负担，就直接展示产品里本已发生的工作，比如一段简短录屏、第一个版本、或改变你设计的用户行为，背后的推理比制作水准更重要。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "The MAD Podcast with Matt Turck",
+      "title": "OpenAI’s Compute Chief: We Can’t Build Fast Enough | Sachin Katti",
+      "date": "2026-07-16 11:30 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/watch?v=wEZBlmvxx4o",
+      "summary_zh": "OpenAI 工业算力负责人 Sachin Katti（前 Intel CTO、斯坦福教授）拆解了这场\"人类史上最大基础设施建设\"的物理现实，核心判断是**算力需求远超供给，任何上线的算力都被立即消耗**，最大的风险不是过度建设，而是建不够快。\n\n关键数字：OpenAI 今年算力支出约 **500 亿美元**，全行业约 **7000 亿美元**；近期完成约 **1220 亿美元**融资，还与 Cerebras 签了 **200 亿美元**大单。历史规律是\"算力翻三倍、营收翻三倍\"，且 AI 已开始做 AI 研究，实验数量不再受人类研究员数量限制、算力需求进一步爆发。他强调训练与推理界限模糊，合成数据、后训练、test-time compute 本质都是推理，**推理已占算力大头甚至多数**。\n\n商业模式上值得投资者注意：OpenAI 对所有算力（微软、AWS、Oracle、Google、CoreWeave 等）均为\"承租方/off-take\"角色，**融资外包给合作伙伴**，自己承诺消费。Stargate 已从与 Oracle/软银的合资项目演变为整体算力\"总战略伞\"，Abilene（Oracle）数据中心已运行、训练最新两代模型。OpenAI 还推出\"保证算力/保证 token\"，把智能变为企业可锁定的供应品，隐含向\"算力公用事业\"演进。\n\n自研芯片 Jalapeno（Broadcom 代工，团队有 Google TPU 背景）**从设计到流片仅 9 个月**，核心指标是最大化\"每瓦 token 数\"，因世界受电力约束。他透露 AI 已在辅助芯片设计，\"递归\"世界不远——AI 将设计训练下一代 AI 所需的系统与芯片。还发布 MRC 多路径网络协议以掩盖 10 万级 GPU 集群的频繁故障。\n\n瓶颈无处不在：许可、燃气轮机、变压器（十年未扩产、突遇需求冲击）、以及电工/水管工等技工严重短缺。数据中心承诺不占用电网存量、反而投资新增发电与输电（当前主力燃气轮机，看好核电\"越快越好\"），并驳斥耗水质疑（闭环循环、净耗水极小）。太空数据中心被视为未来\"武器库\"一部分，取决于发射成本拐点。"
+    }
+  ],
+  "articles": []
+}
