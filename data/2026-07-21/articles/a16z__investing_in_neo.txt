@@ -1,0 +1,27 @@
+Source  : a16z
+Title   : Investing in Neo
+Date    : 2026-07-20 13:31 UTC
+Link    : https://www.a16z.news/p/investing-in-neo
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+The endpoint security market is entering its third generation. The first was antivirus: static signatures, easily evaded, built for a world of known malware. The second was behavioral detection and response such as SentinelOne, CrowdStrike, and the EDR category they created, which watched process behavior instead of file hashes and became the standard enterprise defense for over a decade. In both of those generations, the assumption was that the endpoint followed a familiar pattern: A human clicks, a program runs, and security tooling watches for the process to misbehave.
+That assumption no longer holds. AI agents now run directly on the endpoint with the same privileges as the user they serve, reading files, executing code, calling APIs, and moving data between apps. Microsoft embedding Copilot into Windows made this the default configuration for the modern enterprise. The interactions on the endpoint have fundamentally changed and every control built on the old assumption (EDR, DLP, Zero Trust) breaks the moment it can no longer tell whether an action came from the person at the keyboard or the agent acting in their name.
+This is not a gap incumbents can patch. They built durable platforms for the behavioral-detection era, and reworking that architecture to attribute every action and intent to both humans and synthetic agents would mean rebuilding from scratch. Most will add basic AI discovery as a feature, but this new problem requires a complete rethink of what security means in the agentic age.
+Neo is built for this new generation from the ground up. Rather than attempting to retrofit yesterday’s approach, Neo is pioneering agentic software control for a world where AI agents act continuously, often outnumbering the humans they serve. Its core bet is that security has to anchor back to a few simple questions at the moment of execution: is this action coming from a real, verified person or is it coming from an agent, is that agent configured with the correct guardrails, and what happens when malicious or negligent activity occurs. Answering that in real time, and enforcing it autonomously, is what the tools out there today were never built to do.
+Neo’s founders are as strong as they come in security. Nick Warner scaled SentinelOne through its IPO in multiple executive leadership roles. Shlomi Salem spent over 11 years leading threat research at SentinelOne. Eran Shirazi brings deep technical grounding and prior experience co-founding and serving as CTO of EasySend. Together, they combine the commercial instincts, security depth, and credibility with top-tier security talent that this category demands.
+The shift from antivirus to EDR created category-defining companies. We believe this new shift is at least just as large, and arguably more urgent. We’re proud to have led Neo’s Seed round and to partner with Nick, Shlomi, Eran, and the rest of the Neo team as they build the security layer the agentic endpoint requires.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

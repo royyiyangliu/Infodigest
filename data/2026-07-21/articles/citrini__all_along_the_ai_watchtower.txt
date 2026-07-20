@@ -1,0 +1,17 @@
+Source  : Citrini
+Title   : All Along the AI Watchtower
+Date    : 2026-07-20 02:32 UTC
+Link    : https://www.citriniresearch.com/p/all-along-the-ai-watchtower
+────────────────────────────────────────────────────────────
+
+Bob Dylan wasn’t musing about artificial intelligence related capital expenditures when he wrote “All Along the Watchtower”. Still, he managed to summarize the AI value-accrual debate pretty well…
+“Businessmen, they drink my wine, plowmen dig my earth. None of them along the line know what any of it is worth”
+Everyone along the AI value chain thinks they can price the piece directly in front of them. The value of the whole, and who gets to keep it, is where there’s less confidence. Against the backdrop of a historic momentum correction, it’s even harder to see through fog.
+But in our view, many of the current narratives – open source alternatives, cost competition, Kimi3  – fail to adequately explain the market’s selloff. Even with optimizations, the pie of aggregate token spend is growing rapidly. Chinese lab competition is not new, and Kimi’s K3 open source model is both massive and now compute-constrained. Even the renewed Iranian conflict doesn’t explain why the industries relatively insulated from an energy shock have underperformed the broader market.
+Rather, it’s more likely that a blistering, leverage-fueled, breakout of the most crowded expressions of the AI and other thematic trades creates its own fragility – the unwind generally mirrors the vigor of the ascent.
+Still there is a lesson to be learned. In the throes of the uptrend it’s easy to neatly agree on beneficiaries or casualties, usually by looking at which stock price is going up or down. But as volatility increases, so does the value of finding AI upside in places that aren’t unanimously agreed upon.
+On one hand, the washout over the past several weeks helps clear the deck and could lead to a more durable leg among well known winners.
+But today, we’re trying to find the names that have been put in the wrong category...
+A mobile-chip designer that turns constraints into advantage; the tools that will be called more even with fewer seats; and the biggest winners of IBM’s earnings miss; and… PEMDAS (you’ll have to read to find out).
+We begin with the most literal example of an old label obscuring a new business…
+Read more
