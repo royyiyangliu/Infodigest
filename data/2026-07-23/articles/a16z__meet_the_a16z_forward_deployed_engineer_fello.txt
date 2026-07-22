@@ -1,0 +1,69 @@
+Source  : a16z
+Title   : Meet the a16z Forward Deployed Engineer Fellows
+Date    : 2026-07-22 17:11 UTC
+Link    : https://www.a16z.news/p/meet-the-a16z-forward-deployed-engineer
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+We are excited to announce the fellows who will be part of the inaugural a16z Forward Deployed Engineer Fellowship, an 8-week cohort of FDEs and Applied AI leaders at the forefront of deploying AI into real-world enterprises.
+We received thousands of applications from talented people around the world. Today, we’re thrilled to share more about the inaugural cohort of 65 fellows who are leading FDE at companies like OpenAI, Mistral, Cognition, HappyRobot, Poetic, and Decagon.
+Many are Palantir alumni who are now founding members of companies pioneering the FDE playbook like
+Barry McCardel
+from Hex,
+Kevin Bai
+at Anthropic,
+Isa Gomez
+from OpenAI,
+Senta Knuth
+from ElevenLabs, and
+Vinoo Ganesh
+from Kepler.
+Some are FDE architects behind top high-growth startups like
+Luv Kothari
+from Snowflake,
+Perry Ha
+from Decagon,
+Bo Sun
+at Notion,
+Leo Mehr
+at Ramp,
+Niko Grupen
+at Harvey, and
+Anitej Biradir
+from ElevenLabs.
+Others are the next generation of FDE builders already deploying live like
+Priya Khandelwal
+from Nixo,
+Tom Kimbrell
+from Stuut,
+Lucas Kiefer
+from Strala,
+Kian Fattahy
+from Saronic,
+Chelsey Fang
+from Pylon,
+Amy Jin
+from Decagon,
+Rohan Ramani
+from Netic,
+Jakub Hojsan
+from Exa, and
+Mariano Pennini
+from Spade.
+Congratulations and welcome, a16z Forward Deployed Engineer Fellows!
+Sign up here to stay in the loop about future fellowships and a16z opportunities.
+Sign-up
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
