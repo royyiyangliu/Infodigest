@@ -1,0 +1,88 @@
+{
+  "date": "2026-07-24",
+  "generated_at": "2026-07-23T23:35:06.499397+00:00",
+  "stats": {
+    "tweets": 5,
+    "podcasts": 1,
+    "articles": 5
+  },
+  "tweets": [
+    {
+      "author": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "summary_zh": "Madhu Guru（@realmadhuguru）针对\"使用中国训练的大模型是否等于把数据交出去\"的争论提出反驳：一个大模型本质上只是一个装满数字的巨型文件，这些数字编码了模型的智能；对于开放权重（open weights）的模型，你可以下载权重文件、部署在自己的云环境里运行，训练方从此完全不参与，数据始终留在你自己运行它的地方。他借此说明开源权重模型在数据隐私上的根本优势。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad（@amasad）尖锐批评 AI 模型\"路由器\"（router）：如果一家公司有动机推销特定模型，那它的路由器就只是个幌子，暗指部分厂商的模型选择并不中立。他同时预告 Replit 正在把自己首创的\"移动端编程\"（mobile coding）推向新阶段。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch（@rauchg）称其 AI agent \"Fable\"几乎自主地在 Turbopack / Next.js 中找到了 **15-30%** 的内存效率提升，并优化了这套复杂 Rust 代码库；他还提到 AI 帮助把二进制体积缩小 **10-20 倍**、三天前另一 agent 在业内审计最严的代码中发现了新漏洞，直言 AI 带来的\"惊叹时刻\"每周都在发生且在加速，戏称\"每天的 WTF 数\"是他最喜欢的 AI 进步指标。此外他宣布 Shopify 与 Vercel 达成合作，将把面向应用与 agent 的基础设施带给数百万商家。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie（@levie）援引 Anthropic 经济研究负责人的文章指出：AI 对就业的负面冲击远小于预期，因为迄今 AI 仍需人来操作才能产生价值——大多数工作只能被自动化其中的特定任务而非整体，一旦某些任务被自动化，反而能提升该岗位的产出、维持甚至抬高需求。他强调当前 AI\"既偏向高技能又增强劳动力\"，能力提升虽快但仍呈\"锯齿状\"参差不齐，需要专家在环中引导与纠错；他认为软件工程正是典型例证，Jevons 悖论依然成立。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic 的 Thariq（@trq212，参与 Claude Code 开发）分享使用体验：用 Claude Design 配合 Claude Code 做前端开发效果出奇地好，只是遗憾自己太晚才开始用 /design 命令。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "AI & I by Every",
+      "title": "How Every's Team Used AI to Ship Its Biggest Launch Ever",
+      "date": "2026-07-22 15:09 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "summary_zh": "媒体公司 Every 团队复盘其史上最大规模发布——**All Access** 会员层级及其核心「Builder Pack」。这是一个**每年 625 美元**的订阅，捆绑了**10 项**（后续将增加）合作 AI 工具的独家权益：如 **1000 美元** Codex 额度、**12 个月**免费 Cursor、OpenAI/Codex **3 个月**免费（内含约 **5000 美元** 价值），以及 Anthropic、Gemini、Cursor 等模型公司的大额抵扣，另含专属 office hours 和 Quora、Spiral 无限使用权。上周该发布带来 Every 史上最大的订阅收入增长。\n\n对投资者最有价值的是团队展示的「AI 工作范式」：成员用一句想法+「compound engineering」的 slash LFG 编排流程，让 Codex（跑 5.6 模型）自主完成用户分群、撰写邮件（经 Spiral 校准文风、复用历史高点击素材）、定时发送——一位成员去健身房前丢下截图，回来后仅微调 10 分钟，这批邮件次日清晨即带来**超 25000 美元**收入。\n\n核心洞见（投资含义）：(1)「AI 三明治」——人负责定义问题和审阅，中间执行交给 agent；(2) SaaS 工具不因 agent 化贬值，反而因**几乎只通过模型公司的 MCP 调用**（很少直接打开工具本身），倒逼 SaaS 做到极致，Notion、PostHog、Framer、Flora、Descript、Render 等成为 agent 编排层下的「乐器」；(3) 5.5→5.6 的关键进步在于**跨工具查找上下文并在压缩后维持上下文**的能力；(4)「编排/指挥」取代「演奏」成为新工作方式，一人可同时指挥多个「乐团」；(5) 团队用 Cursor Cloud Agents 可并行跑 **10 个** agent、切换不同模型（含 Kimi K2 等开源模型）来做 A/B 选型。多位成员反复强调 Claude Max、Codex 订阅「被严重低估」，愿付更高价格。发布重要动机之一是降低个人开发者高昂的 AI 工具成本门槛（对比某独立工程师月均仅花 30 美元）。"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "Vera Rubin NVL72 vs GB200 NVL72? Inference TCO & Architecture Analysis",
+      "date": "2026-07-23 00:47 UTC",
+      "link": "https://newsletter.semianalysis.com/p/vera-rubin-nvl72-vs-gb200-nvl72-inference",
+      "chars": 24315,
+      "summary_zh": "SemiAnalysis 深度剖析英伟达第二代机架级 Oberon 架构 Vera Rubin NVL72 的推理性能与 TCO。基于 CoreWeave 工程样机（尚未独立验证）跑 DeepSeek R1 的早期数据，VR NVL72 相对当下 GB200 NVL72 实现每兆瓦性能 **5.4 倍**、每美元性能 **5 倍** 提升；CoreWeave 宣称在 ~**150 tok/s/user** 交互度下每兆瓦吞吐达 GB200 的 **10 倍**。但作者强调这些亮眼倍数多来自 **2025 年**的 GB200 旧软件栈基线。若与更公允的 2026 年 7 月 GB300 基线比较：Rubin 低交互度下约 **2 倍**吞吐，200 tok/s/user 时扩大至约 **4 倍**，300 tok/s/user 的 5.4 倍实为 GB300 逼近其能力上限所致；GB200 甚至无法达到 300 tok/s/user。\n\nTCO 层面：Rubin 单 GPU 每小时成本更高，达 **$3.57**（GB200 **$1.84**、GB300 **$2.36**，均为自营而非租赁），故每 token 成本领先幅度略小于每兆瓦领先。对 2026 年 7 月基线，Rubin 各交互度均更便宜，200–250 tok/s/user 时约 **3 倍**；350 tok/s/user 时仅 Rubin 可服务，成本 **$4.18/百万输出 token**。\n\n架构要点：Rubin 可复用 Blackwell SM100 内核（Hopper→Blackwell 需重写），上市速度更快；SMEM 增至 **328 KiB**、TMEM 增至 256 KiB（列数 512→576）；FP8/FP4 张量核吞吐翻倍（K 维翻倍）；全局内存带宽为 Blackwell Ultra 的 **2.8 倍**（3D 堆叠 HBM4）；新增激活值 2:4 稀疏、TMA 内联描述符更新（利好 MoE）。重磅新特性 **LUT B**：张量核内查表解压权重，每权重 **3.125 比特**（3 位索引 + 512 权重共享 64 位码本），非均匀码本兼顾精度。以 Kimi K3 2.8T 为例，权重占用从 MXFP4 的约 **1,488 GB** 降至约 **1,094 GB**，节省约 **393.5 GB**，所需 Rubin 封装（每封装 **288 GB** HBM4）由 6 个降至 4 个。\n\n投资视角：Rubin 相对 Blackwell 有实打实的代际提升，但真实增益需剔除旧基线水分；且诸多新特性（稀疏、LUT）目前有硅无调优内核。CoreWeave 测试用已过时的 DeepSeek R1、单轮 8k/1k、Dell 工程样机无横向扩展网络，反而对 Blackwell 基线更有利——Rubin 的高 HBM 容量/带宽优势在多万亿参数模型与多轮长上下文（如智能体编码）场景才更能体现。英伟达承诺 **Q3 CY2026** 向 InferenceX 提交可验证数据；下一代 Feynman（SM_140）为全新架构，内核迁移复杂度显著更高。"
+    },
+    {
+      "source": "a16z",
+      "title": "How to Win the Largest Market in AI",
+      "date": "2026-07-23 15:34 UTC",
+      "link": "https://www.a16z.news/p/how-to-win-the-largest-market-in",
+      "chars": 10615,
+      "summary_zh": "a16z 撰文阐述其投资逻辑：计算史上反复出现\"专用化转折\"——当某工作负载规模足够大、形态足够稳定，专用硬件便会取代通用硬件（如图形从 CPU 迁往 GPU、网络包转向 Broadcom 交换芯片）。文章判断，AI 推理正是当今最重大且形态趋稳的工作负载，专用化时机已至。\n\n核心论点是推理经济学的转变：训练是一次性资本开支（capex），而推理是随使用量线性增长的运营开支（opex），是\"智能的销货成本\"。需求正陡峭上扬——Google 在 **2026 年 5 月**宣布其产品每月处理 **3.2 千万亿（quadrillion）个 token**，约为两年前的 **300 倍**；OpenAI 月活约 **10 亿**、Codex 增长迅猛；Anthropic 的 Claude Code 亦大获成功。推理正成为计算机史上最大的工作负载。\n\n当前几乎全部推理跑在 GPU 上，因其灵活。但 token 生成本质是内存密集（需反复读取数百 GB 权重及不断增长的上下文缓存），GPU 存在错配。批处理（batching）以牺牲延迟换吞吐，对编码 agent、长上下文推理等要求低延迟的场景不适用。数据中心已由\"美元\"约束转为\"瓦特\"约束，**每瓦 token 数（tokens per watt）**才是推理的真正货币。超大厂已用自研芯片应对（Google TPU 起于 2010 年代初，亚马逊、Meta、微软、OpenAI 跟进），但 TPU 只能租不能买。\n\n投资标的 Etched：三位创始人 **2022 年**从哈佛退学，押注推理将成 AI 最大市场，且为非超大厂客户（AI 实验室、推理云、主权 AI、企业自建）造专用推理系统。已从英伟达、Google TPU、Broadcom、苹果、SK 海力士、台积电挖来 **400 多名**工程师，大量投入生产制造——\"生产即产品\"。两大技术：低压推理（约半电压运行、同功耗下数倍算力）与集群级内存（超低延迟互连使整机架如单机运作）。首款芯片采台积电 **N4P** 工艺、首次流片即成功（first-pass silicon），在**两个月内**完成点亮（业界常规 **6 至 9 个月**）。实验室达 **2 兆瓦**，首批机架今夏出货，**10 兆瓦**站点正在搭建、客户已远程运行负载，支持万亿参数级 MoE、状态空间模型与长上下文 agent。a16z 认为护城河在于规模化量产能力，故投资 Etched。"
+    },
+    {
+      "source": "a16z",
+      "title": "Renting is stressful. Millions of renter conversations tell us why.",
+      "date": "2026-07-23 14:01 UTC",
+      "link": "https://www.a16z.news/p/renting-is-stressful-millions-of",
+      "chars": 16769,
+      "summary_zh": "a16z 借助 EliseAI（为约**六分之一**美国出租公寓提供 AI 沟通/运营代理，近年触达数千万独立租客、每年处理数百万对话）的需求侧数据，透视美国租房市场。供给侧看似缓和：2024 年建成公寓超 **60 万套**（1986 年来最多），空置率创新高，全国租金连续**三年**持平或微降；但结构性短缺仍达 **500 万套**，**半数**租客住房支出超收入 **30%**。全美 **4600 万**租户（占 **35%**）租房。\n\n核心发现：EliseAI 的\"租金焦虑指数\"自 2024 年 8 月低点持续攀升；旧金山 14 个月内加 **15 点**、2025 年底超过纽约。反常识的是，租客越在优惠稀少处越多问优惠——对话揭示\"想要而找不到\"的需求。焦虑最快上升在东北与中西部（波士顿、巴尔的摩、明尼阿波利斯、底特律），而丹佛、南加州因优惠泛滥几乎不动。豪华(A)与工薪(C)租客焦虑几乎同步。\n\n漏斗数据：C 类房源竞争更烈但签约更快（**10.8 天** vs 豪华 **12.3 天**）；神秘顾客测试显示连 A 类楼盘也仅约**半数**回复。旧金山每套签约背后有 **49 次**首询（近全国均值两倍），仅 **37%** 预约看房成行（全国 **53%**）；纽约卡在文书，仅 **15%** 看房转为申请（全国 **30%**）；两市最终均 **8%** 预约看房签约（全国 **16%**）。约**五分之四**开始申请者会完成。续租率沿价格阶梯上升（A 类 **57%**→C 类 **63%**）。\n\nAI 采纳的强信号：从首询到签约的旅程中位数由 2024 年初的约 **9 天/3 条消息**增至 2025 年底 **14–15 天/7 条消息**；达 5 条以上消息的对话占流量 **14%** 却贡献 **39%** 租约。多渠道签约者占比从约三分之一升至 **61%**。AI 通话时长从 2023 年中 **46 秒**增至 2025 年底约 **1 分 40 秒**，与人工相当。人机交接若即时响应，**26%** 潜客仍会签约，拖三天则不足其三分之一。\n\n投资视角：这是公众在重大人生决策中大规模信任并采用 AI 的清晰例证，验证了 EliseAI 这类垂直 AI 代理在高频、高情绪、运营密集场景的商业价值与护城河。"
+    },
+    {
+      "source": "a16z",
+      "title": "Travis is Back",
+      "date": "2026-07-22 18:35 UTC",
+      "link": "https://www.a16z.news/p/travis-is-back",
+      "chars": 8851,
+      "summary_zh": "a16z 宣布投资 Travis Kalanick（Uber 创始人）的\"新\"公司 Atoms，合伙人将加入董事会。作者称之为\"新\"公司略带调侃——Travis 实际已在 Atoms 上潜心打磨了 **8 年**，此前以隐身（stealth）状态运营，完全依靠外向型销售与招聘。\n\n核心论点：正如计算机不可避免地接管了\"比特\"（信息处理、传输、存储）的世界，在一代人的时间内，机器人也必将承担现实世界中大部分\"原子\"相关的体力劳动——加工、搬运、存储物质。作者认为，相比广受关注的人形机器人，专用（specialized）机器人更适合大多数此类工作；\"工业 AI\"这一品类即是专用机器人向重资产实业的必然渗透。Atoms 的使命是\"为物理世界造计算机\"。\n\nAtoms 脱胎于 Travis 过去十年经营的 City Storage Systems（即 CloudKitchens），从餐饮切入，探索人们制造、存储、运输实物的底层范式。目前已布局三大板块：**Atoms Food、Atoms Mining、Atoms Transport**，且均为**万亿美元级**产业。\n\n投资逻辑与叙事：a16z 强调\"晚期风险投资中，创始人本身即资产类别\"；Travis 具备横跨软件架构到机械工程的稀缺能力，8 年隐身运营证明了其专注与 PMF。作者还借 Uber 经验强调，物理世界的 AI/机器人公司需以\"快速成为不可或缺\"来赢得社会经营许可（social license），并驳斥\"AI 将夺走工作\"的悲观论调，主张 AI 让人更具生产力、人力需求反而更旺盛。\n\n投资者视角：这是 a16z 对\"具身智能/工业机器人+实体产业数字化\"这一主题的重注，押注创始人光环与超大 TAM，但公司仍处极早期、跨界极广，落地与回报尚待验证。文中亦声明该内容非投资建议。"
+    },
+    {
+      "source": "a16z",
+      "title": "Unfinished Business",
+      "date": "2026-07-22 18:33 UTC",
+      "link": "https://www.a16z.news/p/unfinished-business",
+      "chars": 5125,
+      "summary_zh": "ATOMS 宣布获得 **17亿美元（$1.7B）** 股权投资，由 A16Z 领投，Ben Horowitz 加入董事会；作为交易一部分，创始人（Uber、CloudKitchens 连续创业者 Travis Kalanick）将旗下多项业务合并进统一的 Atoms 股权架构。作者将本轮定位为始于 Uber、经 CloudKitchens、终于 Atoms 的\"从比特到原子（bits-to-atoms）\"故事收尾，并回顾 2011 年曾差点在 Uber 与 Marc、Ben 合作未成。\n\n投资看点在于其宏大主题——用软件\"数字化物理世界\"，构建\"原子级计算机\"：将制造视作 CPU、房地产视作存储、交通视作网络。Uber 数字化了交通，CloudKitchens 聚焦制造与地产（食品计算机），而 ATOMS 定位为面向所有主要工业部门的 OEM，目标是在未来十年数字化采矿、建筑、重型运输、食品生产等\"原子密集型\"重工业，指向**多个万亿美元级（trillion dollar）**产业的转型。\n\n驱动力被称为\"工业 AI（Industrial AI）\"——由软件、传感器、机器人与 AI 组成、用于自动化整个工业部门运营的系统，作者认为它将开启\"下一场工业革命\"。\n\n投资者视角：这是 a16z 对\"物理 AI / 工业自动化\"主题的一次超大额下注（**$1.7B**、合伙人入董事会），押注对象是知名连续创业者与其数字化重工业的长期愿景。需注意文本主要为愿景宣言，缺乏收入、部署规模等具体经营数据，投资逻辑更多建立在团队履历与赛道空间（万亿级工业数字化）之上，执行与监管风险较高。"
+    }
+  ]
+}
