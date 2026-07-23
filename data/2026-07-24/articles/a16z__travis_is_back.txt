@@ -1,0 +1,77 @@
+Source  : a16z
+Title   : Travis is Back
+Date    : 2026-07-22 18:35 UTC
+Link    : https://www.a16z.news/p/travis-is-back
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+Read more about Atoms
+from Travis himself.
+We’re backing Travis Kalanick’s “new” company, Atoms, and I’m joining the board. I say “new” company a bit tongue-in-cheek, as Travis has actually been working on Atoms for 8 years. It is the realization of Travis’s multi-decade long vision and ambition to digitize the physical world.
+Some companies are inevitable. The moment we invented the computer, it became
+inevitable
+that computers would take over the entire world of bits. Computers inevitably did the job of transforming information, sending information, and storing information, for every application in the world, in order to save us time and make us more productive.
+Similarly, it is inevitable that within a generation, robots are going to do most of the menial work in the world of atoms: transforming atoms, moving atoms, and storing atoms are inevitably robot tasks. And while our imagination may be captivated by humanoid robots, the specialized ones are far better suited to most of those jobs. “Industrial AI” as a category is the inevitable application of
+specialized
+robots to atoms-heavy industries.
+It takes a rare kind of entrepreneur to change these old-school, heavy parts of our economy. They need a gritty work ethic, drive, and range that spans across domains, from software architecture to mechanical engineering. Travis is that guy.
+Atoms makes computers for the physical world
+We have a mission as technologists to give everybody the opportunity to be productive, especially here in America. And Travis built one of the great companies that gave people the opportunity to be productive. If you had a phone and a car, you could solve a problem for someone else
+right now
+. What an achievement.
+I think the most valuable thing someone could do with AI and robotics is to repeat the same thing Uber did for transportation, or that computers did for the digital world: to make everything and everyone
+more productive
+. There are so many companies out there (and we’ve backed many of them!) working on various digital forms of this. But most of the jobs we do are still in the physical
+world
+,
+whereas the frontier of productivity means
+physical
+productivity: making things, moving things, storing things.
+Travis has been quietly working on a company for the last decade called “City Storage Systems” (a.k.a. “CloudKitchens”). The point was to discover all of the primitives and patterns for how people make, store, and move things for other people, and learn how to build a computer for the physical world. He started with food, because food is something everybody needs, it’s something we prepare locally, and if you can manufacture and deliver a healthy, freshly cooked meal cost-competitively with the grocery store, then that’s going to win a lot of market share. But you can only achieve it with some serious automation of the physical world, and the atoms-heavy industries that inhabit it.
+Atoms will make us more productive in the physical world in the same way that digital computers did for bits. He has three of them so far: Atoms Food, Atoms Mining, and Atoms Transport. These are all trillion dollar industries, so he’s got some work to do, and we’re excited to help him win.
+Reality is more malleable than you think
+The lesson of Uber was, if people really want the product, then their everyday use of the product is undeniable
+legitimacy
+for your case to operate. And every battle, ultimately, is about
+your legitimacy to exist
+.
+The backdrop to company-building today, unfortunately, is that a lot of people out there think AI shouldn’t exist, or shouldn’t be built by private companies, or other stances like that that are plain wrong. As a result, fast-growing companies that do things in the physical world will have to play on Hard Mode, and secure their social license to operate. This means,
+becoming essential to people, quickly
+. Uber won its battles, city after city, because they became essential to people so quickly that their social license with everyday citizens overcame the political and regulatory pressures to stop it.
+This lesson is going to be applied over and over again as AI and Robotics get deployed into the physical world. The future belongs to those products that
+become legitimate
+by bringing some hustle to industries that have waited for technology to happen to them.
+This is the art and science of building “self-creating realities”. The ability to call your shots here, and execute on them, is like using the Force. It’s the critical founder skill set in this new world. We’re about to invent the most amazing personal and professional productivity tools ever invented; and a small minority of people who hold incumbent positions of power are going to try and stop them. The rate-limiting step for founders is, can you make something that industry (and, eventually, end consumers) want
+so much
+that it incepts the future we all want?
+People will always be the long pole in the tent
+Back when Travis was running Uber, we were still in an “old media” dominated landscape, and most of the old media people weren’t really interested in talking to Uber drivers unless they had something bad to say. So, now, we’re very excited to get to work with Travis; not only to help build and fund Atoms, but also to help tell the story of
+people thriving
+as AI and robotics give us more and more ways to be individually productive.
+There is a very bad storyline in tech right now that argues AI is going to take away everyone’s job and purpose and livelihoods. Therefore, for their own good, it must be taken away from everyone. (This is coming from many folks outside of tech that you’d absolutely expect, but also, shockingly, from some powerful people
+inside
+our world as well, which we obviously don’t agree with.)
+We need to tell a better version of the optimistic AI story, and it can’t just be “technologists hyping it up to other technologists”, we’re past that point. The story is, now that intelligence runs on tap, what do people do with it? And the answer is,
+a lot!
+Human-driven work is more in-demand than we’ve ever been, when we have purpose and initiative. That’s why
+productivity
+is the most valuable activity we can cultivate, as individuals and as a society. People who are already being productive naturally and insatiably apply everything available, to make things better for others and for themselves. They will always have bottlenecks to work out, and judgement to apply, to new and interesting problems. There will always be things for people to do, for people who take initiative.
+Limitless ambition
+My partner David George wrote last month: “In late stage venture, founders are the asset class. There are certain people who understand new technology as it unfolds, who know where to deploy it into their own opportunity set, and can keep investing new capital attractively, forever.” Atoms is clearly one of those opportunities. Travis has drawn a very broad scope (move, transform, and store physical matter! Spanning from restaurants to mining!), but of course, this isn’t his first rodeo. It’s not unfocused. The discipline it took to run a company for 8 years
+in stealth
+(meaning, entirely outbound sales and recruiting!) is a remarkable test of true focus and PMF, while keeping the breadth of opportunity effectively limitless.
+Limitless ambition, plus the ability to “use the force” to make reality auto-create itself, is a rare and special combination. It’s how we build real-world services, take big risks, and move the Overton Window of what’s possible. On behalf of a16z, founders everywhere, and everyone out there with initiative: Travis, welcome back to the game. Let’s cook.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

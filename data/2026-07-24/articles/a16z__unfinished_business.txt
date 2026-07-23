@@ -1,0 +1,53 @@
+Source  : a16z
+Title   : Unfinished Business
+Date    : 2026-07-22 18:33 UTC
+Link    : https://www.a16z.news/p/unfinished-business
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+Today, ATOMS is announcing a $1.7B equity investment with lead investor A16Z and Ben Horowitz joining the board. As part of this investment we have merged our various businesses into one Atoms equity structure. I’ve known Marc and Ben for a long time, and we got oh-so-close to partnering up at Uber in 2011. I blame Marc, Ben blames himself but let’s just say it was on all of us and in 2017 Uber suffered the consequences of not having Marc on the board - iykyk.
+On many levels, this round is a bit of unfinished business. Fuel to complete the bits-to-atoms story arc we started at Uber, continued at CloudKitchens and will now finish at Atoms.
+Most importantly, it’s about people. As a young unproven entrepreneur, you work with whomever is willing to work with you. But once you’ve succeeded, you get to work with the people you choose to work with. I’m a sucker for excellence and working with Ben and Marc closes that open loop from 2011. I’m as passionate as I was then about building. After more than a decade, I’ve only gotten better, and so has A16Z. LFG!
+With the ATOMS launch a few months ago, there was a huge amount of interest after many years of ninja level stealth. My
+vision letter
+outlined Physical AI in industry, but it cruised at a fairly high altitude. I figured this moment would be a good time to connect the dots between our bold vision for the future with the actual business we are building, and bring to life what A16Z and other great investors see in it.
+Bits to Atoms
+16 years ago, I started a journey to digitize the physical world. Understand, predict and control the physical world with software. Building “atoms-based” computers where CPU is manufacturing, storage is real estate, and network is transportation.
+Uber was first. Network for the physical world. Digitized transportation for the masses.Cloud Kitchens was next. A food computer with a focus on CPU and Storage (manufacturing and real estate).
+But what about an OEM that builds atoms-based computers for all the major industrial sectors? We just launched that company - ATOMS.  The vision is about the coming industrial revolution where large industrial economic sectors get completely digitized.
+Look around you. Everything is grown or mined - manufactured and moved. That is industry. The large-scale, organized production of goods, typically involving machinery, factories, and coordinated labor and capital. Mining, construction, heavy transport, food production are just a few examples of atoms-heavy industries awaiting massive digital transformation.
+Multiple trillion dollar industries rapidly transforming over the next decade
+powering an engine of prosperity unparalleled in human history.
+The impetus for this transformation is
+Industrial AI
+- Systems of software, sensors, robotics and AI used to automate the operations of entire industrial sectors. Industrial AI is getting ready to power the next Industrial Revolution.
+The Age of Atoms
+The better we are at finding valuable unknown truths, the more change we will create in ever-shortening amounts of time. Changemakers, the builders of tomorrow’s progress machines, will inevitably go up against the final boss, Nature and its fierce resistance to change. Nature is going to throw everything it has at the builders in this new industrial age and it’s going to take humanity’s strongest to stay the course and get these complex systems and industries over the finish line.
+Vision.
+Grit.
+Systems thinking.
+Creativity.
+Resilience.
+Empathy.
+Stubbornness.
+Polymathic problem solving.
+Regulatory change.
+Discipline.
+Philosophy.
+Who are these builders, these renaissance industrialists?
+At Atoms, we are going to give everything we’ve got to be one of them.
+I want to thank A16Z, and our many other capital partners for believing in us and making the bet on the progress machines we build to power this next industrial revolution. It’s time to close the loop on some unfinished business.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

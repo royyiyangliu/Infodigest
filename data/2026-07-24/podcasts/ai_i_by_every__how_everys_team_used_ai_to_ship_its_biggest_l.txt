@@ -1,0 +1,422 @@
+Source  : AI & I by Every
+Title   : How Every's Team Used AI to Ship Its Biggest Launch Ever
+Date    : 2026-07-22 15:09 UTC
+Link    : https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+────────────────────────────────────────────────────────────
+
+Speaker 1 | 00:00 - 00:17
+We generated the largest subscription revenue increase in Everest's history last week. We did it by launching this thing called the Builder Pack. Basically, we partnered with a bunch of the AI tools we use every day, and subscribers to the Builder Pack get discounts and credits to those tools. So thousand dollars in Codex credits, twelve months of free cursor access,
+
+Speaker 2 | 00:17 - 00:17
+all that kind of stuff.
+
+Speaker 1 | 00:17 - 00:35
+The Builder Pack is awesome, but I think the actual story behind it, like how we did it, why we did it, how it generated so much revenue, is really interesting. For this episode, I had the team who worked on the Builder Pack. Everything from conception all the way to the full execution at launch come to the show to share how we did it and what we learned. I hope you like it.
+
+Speaker 3 | 00:35 - 01:15
+Hello, everyone, and welcome to AI and I. This is a slightly different version of the pod today, where we've got myself, Josh, Austin, and Douglas here, and we're missing Daniel. We're gonna be taking you on a journey today, introducing you to All Access in the builder pack. And this is a new tier at Every that we decided to launch recently, and we would just wanna talk about why we decided to build it, why it's important, how we use it, and what it means to be a builder today. All of which all of us are are are builders and use these tools every day.
+
+Speaker 3 | 01:15 - 01:41
+So, yeah, hopefully by the end of this, there'll be like one nugget that you can take out of this and and and use in in your everyday. So I guess, like, to introduce us or to introduce this this pod, first, I'm gonna introduce All Access. We launched it Tuesday on the fourteenth. It was a big launch for us. Big endeavor across the whole company.
+
+Speaker 3 | 01:41 - 02:22
+All Access is a new tier. At every it's a $625 annual plan that gives you access to the builder pack, which is 10 benefits, exclusive benefits from all AI companies that you know and love, that enable you to go build. And adopt some of these tools in ways that you may not have been able to before. And All Access includes a couple other things. It includes access to office hours that we're hosting that are that are exclusive to All Access members, unlimited use of Quora and Spiral, and we have a couple other things up our sleeve that we're gonna be launching in the next few months as well.
+
+Speaker 3 | 02:24 - 03:03
+But we really wanna talk about the Builder Pack, because that's like probably the meat of of All Access. And the builder pack is 10 soon to be more exclusive benefits to AI tools that the every team uses every day, so that you can get access to these tools and use them, you know, for free for a while and and get comfortable with using them in your stack. It's it's it's early access, exclusive access to the EveryStack. This is the team that that brought it to life. But, Yash, do you use the builder path?
+
+Speaker 4 | 03:03 - 03:09
+Yeah. Context. I'm Yash. I run one of the bot like, I'm just Yeah. Yeah.
+
+Speaker 3 | 03:09 - 03:09
+Who are you?
+
+Speaker 4 | 03:10 - 03:29
+Who who am I? Wow. I ask that myself that every day, but I run one of the products at every called Sparkle, and I also work on the growth team now. A large part of my work is using Cloud. I know at every year, like Codec stands, but I'm still very Cloud.
+
+Speaker 4 | 03:29 - 03:55
+I've been using Cloud for the last one year. And this involves like, I built out the entire product, like I think 15 rebuilt Sparkle 15 times using Cloud and Posthoc. So those are the tools I reach out for the most. And recently I joined the growth team at Every. And growth meant a lot of AB testing, a lot of segmentation and other stuff.
+
+Speaker 4 | 03:55 - 04:36
+And again, I started optimizing postdoc, but I find it really annoying to open like dashboards and set a lot of these things up. And that's where my setup with Claude helps a lot where I have like custom skills built out. And essentially my plan is in the next few weeks to automate the entire AB testing pipeline. Like a lot of the work that I spent doing for the first one month at the growth team, I'm like, this is very boring because it's it's very straightforward. Like, should be working on interesting more interesting problems and I should not be clicking buttons and figuring out what's the right audience size and stuff like that.
+
+Speaker 4 | 04:36 - 04:48
+Like, Claude is so much better at that. I have to prompt it. I have to figure out, okay. What's the right audience size? When should an experiment go from a 10% AB testing cohort to 50%?
+
+Speaker 4 | 04:49 - 05:08
+Like, should I be doing that manually? It's I I feel that it's a lot of fake work, and we like to spend a lot of time observing these things, like setting up, like, setting up an experiment every time. It so boring to me. I'm like, the only way I can set up do more experiments is automating the entire pipeline. So I spend a lot of
+
+Speaker 3 | 05:08 - 05:20
+time So so what's what's interesting to you is less actually the work. The work is no longer setting up the pipeline to be able to do it. It's actually what should I test? Yeah. And then did it work?
+
+Speaker 3 | 05:20 - 05:21
+Great. Implement it. What's the next test?
+
+Speaker 4 | 05:21 - 05:30
+Yeah. I should be like, I'm more interested in the ideas. Like, oh, should we do a homepage takeover? Yeah. Who should we show that homepage takeover to?
+
+Speaker 4 | 05:30 - 05:52
+Versus actually setting that up is not that interesting. Like, we have so many experiments live right now, which are like, when should we cut off the paywall? When should we show the paywall? Those are way more interesting and those are also like more human psychology. And I can I have more fun doing that?
+
+Speaker 3 | 05:52 - 05:52
+Mhmm.
+
+Speaker 4 | 05:52 - 06:08
+And and and I personally feel like a large part of our work at Avery is, like, everyone is very secure in what they do, and so we are okay with automating our jobs. Like, I spent one month doing these things, and I'm like, okay. I'm done. Mhmm. Like, I wanna do other things now.
+
+Speaker 4 | 06:09 - 06:14
+And if it was some other organization, I'm gonna try to stretch this out for, like, a year.
+
+Speaker 3 | 06:14 - 06:17
+Like, what what I did You wanna you wanna move on to the next thing that you tap?
+
+Speaker 4 | 06:17 - 06:23
+Yeah. Because that's fun, and that's why we are always at the edge of AI. Right? Like, we are like, yeah. This is done, guys.
+
+Speaker 4 | 06:23 - 06:27
+Like, what's next? Like, what's more interesting? Okay. Is there a better model for this?
+
+Speaker 3 | 06:28 - 06:32
+Is So so what in the builder pack Yeah. You use every day?
+
+Speaker 4 | 06:32 - 06:54
+Every day, it's Cursor. I use Cursor because they have cloud regions, which are really good. We did a lot a bunch of Fable five optimizations because I was working on some other task. I did not wanna mess with my setup. So cloud agents just spin off a cloud server and run there and give get get me the results back.
+
+Speaker 4 | 06:55 - 07:22
+And they have a really good open source model, which is really cheap, like, unique composer, which I love. So that's something I use. I used Framer a lot as well while I was building the Sparkle site. It it has a it it has good MCP support, I could change the change the headlines, see it, like experiment more directly without actually going into framework and setting. Like, every time it's very annoying to me.
+
+Speaker 4 | 07:22 - 07:37
+Like, I'm setting a lot of these things up the right font size for mobile and stuff like that. Yeah. This is how you like like, I I used to do this, like, twenty years back. Like, today, I should not be spending my time on these things. And I would say Claude Max is my go to.
+
+Speaker 4 | 07:37 - 07:42
+I Yeah. Like, I I feel it's insane. Yeah. That's my stack. It's tough.
+
+Speaker 4 | 07:42 - 07:51
+Yeah. And post hoc. Yeah. I use a lot of these products, but it's so cheap. Like, I feel that Cloudmax subscription is really underrated.
+
+Speaker 4 | 07:51 - 07:54
+Like, I'd pay way more for it. Right. I couldn't work without it.
+
+Speaker 3 | 07:54 - 07:58
+Right. Anthropic. I hope no one from Anthropic is watching this.
+
+Speaker 4 | 07:58 - 08:01
+Yeah. Get the d, guys. Get get get get the Builder pack.
+
+Speaker 5 | 08:02 - 08:45
+I I like the way Yasha is describing, one potential approach to work, which is like, there there's this there's this approach to being a general manager in the NBA, which is like, just keep trading for future draft picks to be like, we're on an eight year time horizon for contention. And there is for someone as, like, skilled as Josh at engineering, go to market engineering growth, you can use these tools, this stack that he has to to, like, operate at the same level and, like, a set it and forget it mode and kind of I would be like, well, Yash like, I I run the growth team. I look at what Yash is doing. I'd be like, Yash is another experiment, and it, like, moves the needle by 2%. I guess he's on it.
+
+Speaker 5 | 08:45 - 09:33
+And, like, he knows how to set up that that Claude code and post hoc loop. But the way that he works instead, which is exciting, is that after he does that, he looks at how can we win right now? How can I be creative and competitive to find the next thing? And how can I use these always on, like, loop and architecture based automations to make it so that Yash can do the thing that, like, lights them up, which is I can see Yash in Slack being like, oh, what if we, like, made a three hour time constrained discount specifically targeted to these users using this video, building this thing in Framer? And that's, this kind of stuff has always been the case, right?
+
+Speaker 5 | 09:33 - 10:22
+Like that work is the most fun way to work. It's how smart, creative people are able to differentiate themselves. But I think that the builder pack allows is that it allows someone like Josh to automate and defer a lot of the work to cloud agents. He would have otherwise had to manually click in post hoc or manually code himself, and then he can go be creative on the space where he is an expertise. And then it also allows someone like me who doesn't know what the fuck any of that stuff is, but kind of is naturally more of an ideas person to give the model and the SaaS tools in the builder pack my outcomes and ideas, and then just, like, let it run, which is, like, the craziest part for me.
+
+Speaker 5 | 10:22 - 10:25
+Like, I I let go oh, yeah.
+
+Speaker 3 | 10:25 - 10:30
+Can you tell that story of, you had an idea for something? You went to bed. You woke up. You had four emails.
+
+Speaker 5 | 10:31 - 10:43
+So it wasn't even my idea. Like, we were we did the we did the builder pack launch on Tuesday. It was going really well. I'm on the West Coast. Most of the team is on the East Coast.
+
+Speaker 5 | 10:43 - 11:26
+As they were, like, getting ready to go to bed, Josh dropped a note in Slack saying, hey, we should send emails in the morning to a group of users who have shown some sort of checkout intent but not converted because we were running a early bird discount for the first twenty four hours of launch. So it's like we should probably hit them again with some sort of urgency backed approach. And then Yosh said, this isn't actually my idea, it's Dan's idea, but I'm sharing it. And then they all signed off. And I think maybe like 7PM here, I had been in front of my computer all day, and I really wanted to go to the gym.
+
+Speaker 5 | 11:26 - 11:46
+And so I I took a screenshot of the Slack because it was like a bunch of different Slack messages. Usually, would just like copy paste the link to the Slack message and send it to Codex. I took a screenshot of the Slack. I dropped it in a Codex thread using five six on Medium. It's like usually what I operate in.
+
+Speaker 5 | 11:46 - 12:36
+And I said, can you do this? And then I did slash LFG, which is the harness in our compound engineering plugin to tell an agent to take itself through a brainstorm, plan, work, review, compound loop, which is like, to me, the ideal way to work with with agents. And then I went to the gym, and I came back from the gym, and what I saw in Codex was that it works for honestly not that long. Like, it it probably finished by the time that I, like, changed into my workout clothes at the gym because it, like, didn't actually need to to do that much. And it had created four different audience based cohorts, like targeted cohorts in kits based on, like, these people got to the checkout page.
+
+Speaker 5 | 12:36 - 13:00
+These are, these people visited the webs visited the BuilderPack website but didn't check out. These are our highest engaged free users. There's, like, four different types. It drafted specific emails for each of those audience types. It ran the text for the emails through the MCP for our AI based writing app called Spiral.
+
+Speaker 5 | 13:00 - 13:27
+So it's using a writing style that we've approved. It looked through all of our previous sends in kit, both for our language style, as well as what had driven click throughs, had driven opens. It grabbed a social share image that had driven click throughs in a previous send and embedded it. And it had scheduled it for the next morning. And it's crazy because I wasn't like, holy shit, that's so cool.
+
+Speaker 5 | 13:27 - 13:34
+I was like, that's basically what it should do. Like, my brain is so cooked on this stuff now that I'm like, this is literally exactly what I expected.
+
+Speaker 4 | 13:34 - 13:35
+Did
+
+Speaker 3 | 13:35 - 13:39
+something I think it then posted it in all emails.
+
+Speaker 5 | 13:40 - 14:12
+Yeah. I have I have an automation in there that it like so we have we have a Slack channel called all emails. If you're a subscriber to every, I'm I'm sorry, we send you a lot of emails. I swear we're working on it. One one step one step towards working on it is having a channel where one, we we build all of our email sends through Codex or Cloud Code and can have the agent push a Slack message saying, here's what here's what's gonna be sent to whom and why.
+
+Speaker 5 | 14:12 - 14:51
+And then they can get a review of, you know, should we actually send this to this audience at this time? So it sends that as well, and the team can review it and know and know what's up. I but I I pulled up I pulled up these four I pulled up these four email sends, and I made very light tweaks, partially because I was like, oh, I think I can write, like, a slightly better headline and also partially because I'm still a control freak who doesn't want to turn over every single thing to AI. I was like, let me, you know, let me, like, put a little bit of spice on this, but I I maybe spent ten minutes of extra work on it when I came back from the gym. And then we we scheduled them and we we let it rip.
+
+Speaker 5 | 14:51 - 15:16
+And in in a couple hours the next morning, those emails alone had driven more than $25,000 in revenue. It had driven, like, multiple conversions. It suggested things we could do to retarget the audience that didn't convert. And, like, two nice things happened. Like, one, I got to go to the gym, which is great, because otherwise, would have sat there building these these emails.
+
+Speaker 5 | 15:17 - 15:47
+And two, like, at the gym, not looking at my phone, not looking at Slack, I had other ideas for stuff we could do the next day. Right? Like, disconnected from being in the weed, I'm, like, working out, and I'm like, oh, yeah. We should, like, we should do this experiment and that experiment because I don't have to use my brain and my fingers to, like, click around in postdoc, which I which I love using, but I don't have to click around in postdoc to, like, find the exact right audience segment to to target.
+
+Speaker 3 | 15:47 - 16:37
+That that's it's just so crazy, like, to go from here's an idea to go do this idea using slash LFG to actually, like, executing on what it created, in this case, sending these emails, to generating $25,000 in revenue, which, like, doesn't happen every time you do last LFG, but, like, that is, you know, sort of a possibility to then compounding what you learned and also recommending, like, what to do next. It's just, like, remarkable that, you know, like, 5.6 SOL is expensive. But, like, relative to the value that you got out of that, it's, like, nothing. And best of all, you went to the gym and like took care of yourself. And that's it's just like remarkable that you can do that.
+
+Speaker 3 | 16:37 - 16:51
+You can if you're really harnessing these tools well for work and for life, I use it as my trainer at the gym, It's it can be very fulfilling and and and, like, so effective.
+
+Speaker 4 | 16:52 - 17:09
+Yeah. I feel it allows you to be get better at things you wanna really get better at. It frees up more time. To give an example, when Austin and I people are always pitching growth ideas to us. Like, hey, do this, do this.
+
+Speaker 4 | 17:09 - 17:32
+And to be really honest, those are good ideas, but I don't want to take away time from doing my main thing and spend time on that. And that entire thing should be automated because, a, the idea is good. We should not hire an engineer just to implement that particular idea. So I feel we have these tools as like if I have a workflow set up, hey. Let's try this particular headline on our website.
+
+Speaker 4 | 17:32 - 17:40
+It should be like, you should be that should be automated. Yep. And I feel we can that's the goal. Like, I have more time to do, like, deep work
+
+Speaker 3 | 17:40 - 17:40
+Yeah.
+
+Speaker 4 | 17:40 - 17:49
+And or and be in my flow state and without really compromising these things. Like, building that loop is me being in the flow state Yeah. Versus, like, hey. Try this. Try this.
+
+Speaker 4 | 17:49 - 17:50
+Try this.
+
+Speaker 5 | 17:50 - 18:46
+And I I think the thing we're we're, like, circling around is, this is the best way to to build right now, which is to, you know, Kieran, our colleague, has described it this way. You're at the top and bottom of the AI sandwich. You you you decide what the problem is, you frame the idea, and then you review the work. That's been the case for a while. But the exciting thing about this moment, the exciting thing about being able to use the tools in the Builder Pack is that you can go from idea to execution quickly, easily, reliably, and at like a very high level by being able to just like, type or with monologue, any speech to text tool like we use just to be able to say the idea and have it come out.
+
+Speaker 5 | 18:46 - 19:15
+And the thing that I really like about this, the way I like working is that whether you're, you know, primarily a Claude user like Yash or a Codex user like me, the tools all now seek together really, really well and connect to each other really well. Notion is is a great example of this. I have faded Notion for years because my brain doesn't work in that way of like, I'm gonna like organize this database and I'm gonna make sure that like the growth
+
+Speaker 3 | 19:15 - 19:17
+hub works. It works.
+
+Speaker 5 | 19:17 - 19:41
+Yeah. Yeah. Like, I think up until a year ago, Notion was had had too much of a like, of a barrier to entry on like, organization and main and maintenance that anytime I try to use Notion with a with a team, we've churned because no one's around to maintain it. And all of that maintenance has now been pushed off to Codex and Cloud Code. Once a week, I just asked Codex and I'm like, Hey, can you like reorganize our growth hub?
+
+Speaker 5 | 19:41 - 20:03
+And it does it perfectly. It's like amazing. Or it's like, hey, make sure this database is set up well. My favorite example of this is while I was doing the this kind of like, in the weeds Codex work, like when I work with Codex, I'm like steering it and going back and forth with it. Claude in in Claude code in the desktop app using Fable.
+
+Speaker 5 | 20:03 - 20:54
+I've had the videos we're releasing attached to this launch all connected through Descript in the Descript MCP. And Sable is just running in a loop, building out the edits for all of those videos and reviewing its work and and interacting with Underlord, the Descript AI tool, because I'm not a video editor. Like, I'm actually really bad at it, but, like, sometimes that falls under my responsibilities. And that can run-in a loop so that when I go to edit the video, by no means has has Fable and Descript created a video that is publishable, but it has gotten me like 70% of the way there while I'm steering Codecs, Cloud Code and Fable and and Descript have gotten it there so that I can go and I'm like, oh, I know what to do now. Like, I see the pieces.
+
+Speaker 5 | 20:54 - 21:07
+It like, it does this crazy stuff where it takes the transcript, makes a storyboard, makes a script itself, and then, like, pieces the video together. So I just have to do, like, a few tiny things to get us to a final product.
+
+Speaker 2 | 21:07 - 21:34
+You already know how AI is changing how everyday work gets done, how much ground you can cover, and how fast a team can scale. To stay ahead, you need tools that give you a competitive advantage built for this new era. Adio is the CRM for the agent native world. It meets you where you work, compounds every customer signal into context, and then acts on it across your pipeline to let you move at unmatched speed and scale. With agents and automations for every job, Adio orchestrates your work around the clock.
+
+Speaker 2 | 21:34 - 21:52
+We use it internally at every, and we love it. It's built to handle the scale of your workloads. It's extensible with an API and MCP access, and is built with infrastructure to keep up with your most ambitious agents. It's loved by high growth startups like Granola, Modal, WhisperFlow, and Every. Adio runs the work behind Everywin.
+
+Speaker 2 | 21:53 - 22:03
+That's Adio, the agentic serum. Go to adio.com/every and get 15% off your first year. That's adio.com/every. And now, back to the episode.
+
+Speaker 3 | 22:03 - 22:17
+I think the thing that I love about the builder pack specifically is I feel like a lot of the time at Everywhere telling people like, go build. Go build. It's the best time in the world world to build. There's no excuses. Be the builder you wanna be.
+
+Speaker 3 | 22:17 - 22:37
+And that's great. But how? It's a it well, one is how, which is like, you should subscribe to every, we will teach you how. But two is, this stuff is expensive. And the stack that you use, Austin, the stack that you use, Josh, Douglas, myself, is very expensive.
+
+Speaker 3 | 22:37 - 23:03
+We spend a lot of money at every on AI and credits. And last night, we had an event in the office, and a friend of mine's younger brother, I invited him to come. He's an engineer, and he he's trying to figure out how to get a job as an engineer right now. Even though he is an engineer, he's really struggling to get a job, And he's not using AI at all. Yeah.
+
+Speaker 3 | 23:03 - 23:35
+And I introduced him to some people that were like telling them how they work. And then at the end of it, he was like super excited. And then he these people were telling them like how much money their companies enable them to spend on AI. Some guy, you know, he's like a single engineer who spent $30 last month. And this guy like, you know, I could see him like visually like gulp while he was like, how am I going to discover this technology when it's like prohibitively expensive as an and I'm an individual.
+
+Speaker 3 | 23:35 - 24:15
+I'm not at a company right now. And the thing that I love about the builder pack is it is, you know, I think the the codec, the OpenAI benefit is like a great example of this. Because you're getting three months free of OpenAI and codecs, and a thousand dollars in overage credits. But the three months free includes, I don't know what the number is anymore, $5,000 of value. Like, these these subscriptions just like our our, you know, our Anthropic benefit, they include so much spend inside of a small subscription.
+
+Speaker 3 | 24:17 - 24:33
+So, I mean, in in it's the same thing for basically OpenAI, Cursor, Gemini, and Anthropic, those offerings, because they're they're model companies. So okay. It's one month. Excuse me. The one month offer.
+
+Speaker 3 | 24:33 - 24:33
+You
+
+Speaker 4 | 24:34 - 24:35
+can use the Codex credit.
+
+Speaker 3 | 24:35 - 24:38
+You can use the Codex credit for three months. Yeah.
+
+Speaker 4 | 24:38 - 24:38
+Yeah.
+
+Speaker 3 | 24:38 - 25:01
+Alright. It's so much value that, like, you then get to go experiment with the technology so that you can Yeah. Be the builder that you want to be. I use them all the time. My my stack I mean, the the builder pack is basically everything that we use at every personally, I'm in OpenAI, Anthropic.
+
+Speaker 3 | 25:01 - 25:34
+I'm more of like a consumer of Posthog than I am like a user of of like their AI credits. You're always in Notion. I'm a big Notion user because I do, like, a lot of ops, framer user, render, and I really like experimenting with the Flora MCP. So, I mean, I'm kind of all over the stack. My my biggest use is like, obviously, like the model companies and just like doing my work inside of inside of cloud or codecs.
+
+Speaker 3 | 25:35 - 25:52
+I mean, ironically, a lot of these tools, almost all of these tools, if they aren't a model company themselves, I'm utilizing them through a model company. I'm never really ever going into their tool. Even Flora, which like has like a remarkable tool, I only ever use it through the MCP.
+
+Speaker 5 | 25:53 - 26:24
+Yeah. And it doesn't it doesn't devalue those tools. It actually like to me, it incentivizes the those, like, SaaS operators to be the very best at the thing they do. I think a lot of us went through a moment from like January to March where we were like, let's go, we're building our own CRM, we're building our own like, data dashboards, we're gonna do design all ourselves. And you start doing it and you're like, man, this fucking sucks.
+
+Speaker 5 | 26:24 - 26:27
+Right? And when you're able to sit
+
+Speaker 3 | 26:27 - 26:27
+there and be like, you
+
+Speaker 5 | 26:27 - 26:54
+know what, I really trust Postdoc to both run and automate my analytics. I really trust Notion to have this source of truth for the entire business. And even if I never open it up, even if my pages and my databases look incomprehensible to a human, it doesn't really matter because when I'm sitting in Cloud Code or Codex, I can which I which I do all the time. I'm like, hey. I need to make this plan.
+
+Speaker 5 | 26:54 - 27:47
+I need to do this thing at Notion, at Slack, at Posthog, find the necessary information. That's one reason why the, this suite of tools is so powerful right now is that the leap from 5.5 to 5.6 came with this improvement in the model's ability to go find the context that needs to do work well, and then to maintain that context through any amount compaction that happens as it works over a long term. That happens through the way in which if you looked at my prompts in in Codex, you would be like, I think this guy doesn't know what the hell he's doing. Because I'm I'm usually just like, hey, look at look at all this stuff, create a goal for yourself, and use compound engineering. And I'm like, go.
+
+Speaker 5 | 27:47 - 28:07
+It's like barely any thought or work. The thought or work comes from like, I've identified this as the thing to do. And I know that either I or my team have set up the harness that the agents can work inside of to be trusted. And I think to a lot of people that sounds like tough. It sounds like a lot of work.
+
+Speaker 5 | 28:07 - 28:32
+But the reason that that we've gotten there from Every is we've done it incrementally, right? It's like we did one thing and it started to work okay. We've been, I've been trying to automate these marketing email sends for months, and it keeps getting a little bit better. And through compound engineering, the results keep compounding. So the project I work inside of keeps getting a better understanding of it.
+
+Speaker 5 | 28:33 - 28:48
+And it kind of goes back to like, the the best time to start doing this was, you know, a year ago. The second best time is right now. You can start this compounding flow right now with models that have have really caught up to how how quickly you can work yourself.
+
+Speaker 4 | 28:49 - 29:02
+Yeah. I'm curious to know, Douglas, what's your stack? Because you're the creative director behind this. And someone asked me, like, what this branding is very different from every's branding. So, like, why is it green?
+
+Speaker 4 | 29:02 - 29:07
+Yeah. I had I'm like, okay. I'm gonna ask you. Yeah. Yeah.
+
+Speaker 4 | 29:07 - 29:09
+Why is it green, Douglas?
+
+Speaker 6 | 29:10 - 29:36
+I think it's green partly because we haven't used green that much yet in our in our brand world. But, you know, I think what's interesting that all of you are describing and that I've learned in my, you know, short few months I've been here at Every is I I think language is very interesting, and I I find the way the model companies name themselves and their new models very interesting. A lot of it is very literary. It's you know, Codex is a book. There's Haikus on it, Fable.
+
+Speaker 6 | 29:36 - 29:55
+Right? These are all stories or or or forms of putting words together. But the term people use for agents is orchestration. And it feels a lot more like music to me, and I'm not super musical. But I think everyone in their job kind of played a few instruments, and it now feels like we can all take a step back.
+
+Speaker 6 | 29:55 - 30:11
+Without knowing how to play the rest of the instruments in the orchestra. We can conduct it. Right? And as long as we understand what what the piece needs to sound like. And then, you know, you take that and you compound it onto you can be conducting a lot of different orchestras at the same time.
+
+Speaker 6 | 30:11 - 30:48
+And creative direction, I think, and and kind of brand strategy is a lot of famous, you know, designers have described it as being like a maestro. And you have color, type, shape, symbols, forms, words, you know, systems, photography, lot of the time, illustration styles. And how do you kind of conduct all of these pieces together to to sing a song that that sounds beautiful? And I feel like this stack is is that for working with AI, and it's applicable to a lot more than just the the highly technical work. Right?
+
+Speaker 6 | 30:48 - 31:28
+So I certainly use it for knowledge work. And to answer your question, I do like Flora, so I can talk more about Flora because I'm probably the the deepest in Flora. But, you know, I I've learned here too also, and I think Austin touched on this, like, what to use Cloud for, what to use Codex for, and being able to, I think, use both of them through you know, I've also built out kind of a a set of marketing skills that I can use with compound engineering that really helps shorten the timeline on something like research when you're trying to come up with strategy. You need to have data that backs, you know, an insight or a hunch that you have. Do I do I think that the tools come up with the insight particularly well?
+
+Speaker 6 | 31:28 - 31:37
+Not always. Sometimes they do. But you can then give it the insight and say, prove this out. You know, what direction should we be taking this? Here's the competitive set.
+
+Speaker 6 | 31:37 - 31:48
+It's really good at competitive auditing, especially if you build a skill for it. And it can compound on that and just you can say push more. I want pricing. I want language. I want what colors these brands use.
+
+Speaker 6 | 31:48 - 32:37
+And you take that, you can feed it into a system and have a really, really sharp strategic lens in, like, you know, hours or or less, as opposed to what used to be a several week long process, frankly, with humans researching. And then from there, if you have an eye towards what you wanna create, using a tool like Flora is really helpful because again, like similar to Austin, I feel I'm not a technical designer either, but I can I've been mood boarding for fifteen years. You can now, like, productize a mood board, especially if you have the right prompt, and you can use Quad to write the prompt for you, put it into Flora, right, or use the MCP as Brandon does, and have it take a set of reference images. I often have it analyze the images and kind of say, like, what am I what am I doing here? You know?
+
+Speaker 6 | 32:37 - 33:10
+And it'll be interesting. It it might say something like with Builder Pack, this is very high contrast. You know, your note about green, I think this is, in a way, our most explicitly technical kind of facing audience that that we've been speaking to in terms of the Builder Pack. Like, this is for people that are really ready to start experimenting with with all of these tools. And it feels a little bit more matrix y and and digital than a lot of the more Greco Roman and kind of heritage driven, elements of the the every brand.
+
+Speaker 6 | 33:10 - 33:43
+So, you know, all of those were decisions that these tools helped us kind of land on in terms of the aesthetic of everything and also helped us design the website. Right? So it's it's pretty cool to be able to it's a mind shift for me, a mindset shift of moving from playing the instrument to orchestrating. And when you learn how to, you know, get one group singing and playing, you move on to the next one, and you can conduct lots of pieces at once. And that's what I find you know, I'm just beginning to use, like, have everything plugged into Notion.
+
+Speaker 6 | 33:43 - 34:10
+Right? Super helpful. And to Austen's point, can just be like, look in Notion, find this thing, do this for me, you know, compound, whatever it may be. And it has all the relevant context because it's been updated because someone else on the team has automated it to update itself. And I think the way you work as an organization also then just gets, like, you know, souped up to a to a crazy degree because we're all orchestrating at the same time, and it kinda pumps.
+
+Speaker 6 | 34:10 - 34:42
+So, yeah, it's been it's been really exciting for me to work with these tools and apply them to the you know, it it is the sandwich. You can put a lot of work in at the beginning is what I found in terms of really doing some metacognition and figuring out, like, how do I think about this? What is my process? You know? And then once you've kinda codified that, these tools can run with it, and you can ask them for help if you if you don't know why something happened, which I find, like, very revelatory.
+
+Speaker 3 | 34:42 - 34:48
+Yeah. That it's remarkable when people are like, well, how do I use it? Like, well, what are you trying to accomplish? And then they say that. And I'm like, great.
+
+Speaker 3 | 34:48 - 34:51
+Just say that again. Alright. Yeah. Yeah. It's just just I
+
+Speaker 5 | 34:51 - 35:33
+think I think a good final thing here is like, if we're thinking we're speaking directly to people who either like, just got access to the tools in the Builder Pack or like thinking about it, like, this has been a lot of kind of, like, higher level thinking about how to work with a few examples. Like, I think each of us saying, like, say you have access to all the stuff in the Builder Pack and you're like, what do I do now? Right? Like, what would each of you recommend someone do, whether it's one specific thing to try or one like mentality approach to to take if someone is like a brand new builder? I think we can go around and and do that.
+
+Speaker 3 | 35:35 - 36:13
+I I if I was if I had just got the builder pack and I'm just like getting my feet wet right now with with building. I think the first thing I would do is, if you're like really early on, sometimes the hardest part about building is knowing what to build. And you can like just sit at your computer and be like, looking for a problem is the worst way to find a problem. Going for a walk is also like not an effective way to like find a problem. You need to like, that is a habit that you can build where you can like identify problems in your life well.
+
+Speaker 3 | 36:13 - 36:40
+Because usually we're just like so numb to those problems. So if I'm new to building and I'm new to the builder pack, the very first thing I would do is like pick something simple that I really, really love, like a product that I really love and dupe it. I would just make it myself. The very, very simplified MVP version of that. And use basically as many parts of the builder pack as I possibly could.
+
+Speaker 3 | 36:40 - 37:13
+So like, I would log through our render and use the render credits. I would plug in post hoc so that I could actually like maybe build in a loop or use some of post hoc's traditional products where I can just like actually track how I use it, how my friends use it. I would build it using Anthropic, using Clod, using Codex, using Cursor. I might actually use some AI in that product. Even if it's a product that doesn't include AI, I might figure out how to do that.
+
+Speaker 3 | 37:13 - 37:53
+I might use Flora to actually like create some unique icons or graphics. But I would just do something because what I find when I do things, at least early on when I was duping, I would get started with the process of making it and very quickly, I'd be like, I don't like that feature. I don't like that, you know, version of this thing and I'm going to very quickly, it's not duping. It's like inspiration and you're off making your own thing. So I would if I'm new to the builder pack, I would do something and I would look through the builder pack and be like, which one of these things can I actually start using in this build?
+
+Speaker 3 | 37:54 - 38:01
+And not question yourself for a second. Just start doing it. I mean, that's that's like the hardest part sometimes. It's just like the first the first prompt. Yeah.
+
+Speaker 5 | 38:01 - 38:41
+Yeah. I I find that like one, I think everyone learns learns everything in different ways, but especially learns how to become an AI builder in different ways. I think some people really want to understand what's happening, and other people just want to go and ship and learn from what doesn't work. The thing that works best for me was, okay, I have, like, I actually have a lot of ideas for what I might wanna do. Of the ideas I might wanna do, let me pick the one that I'm the most excited about, which for me was this, like, movie app that's like Fandango for indie movies.
+
+Speaker 5 | 38:41 - 38:55
+I was like, this doesn't exist. If this worked, this would make my life a lot better. I would be so stoked. Like, one thing that I think is a good prompt to yourself is like, what would you be the most excited to text someone like, hey, I made this, right? Like, what would make you feel really good to do that?
+
+Speaker 5 | 38:56 - 39:55
+And I would actually really encourage people to try to make, not to necessarily make like a complex app for the sake of complexity, but try to make something you don't think you can and try to make an app to start because you're gonna learn so much through that process. Like, in doing that process to make this like web app that is now live that a lot of my friends use every week now, I never done any of this stuff before. And then it's taking you through like, oh, yeah, you need to connect render, you need to go through Google OAuth, like, whatever. Because it's a thing that you're so passionate and excited about, and you want to get to the end, it quickly starts to feel like you're playing a video game and, like, trying to get to the next level. And I do think Brandon's point about, like, okay, to start, connect the agent, whether it's Cursor, Claude, or or Codex, to the tools in the Builder Pack and any tools that you have access to to be like, you can connect it all and be like, hey, you have all this stuff.
+
+Speaker 5 | 39:55 - 40:14
+The agent will figure out where to go. But I think driving towards that goal of I'm gonna make something great that I'm like excited to text a friend like, hey, go go try it. And along the way, you'll realize like, oh, it actually works that crazy. It's so exciting that it works. But like, the design looks like ass, like, how do I make the design better?
+
+Speaker 5 | 40:14 - 40:33
+And like, you can sit and work with that. You can read every for some inspiration for design. You can go use it to check stuff. But that would be my best recommendation and that that's worked really, really well for me. And then I've learned from seeing the V one chip that the agent comes up with and being like, okay, that's not good enough.
+
+Speaker 5 | 40:33 - 40:36
+Let me figure out how to get it to a to a V two.
+
+Speaker 6 | 40:36 - 41:00
+I have a good specific one. For marketers, writers, designers, creative technologists, product designers. I think to Brandon's point, I know your problem, and it's probably your portfolio. And this is a wonderful stack to rebuild your portfolio. And it's something that I think everybody kind of hates their portfolio side, but you need it.
+
+Speaker 6 | 41:00 - 41:54
+And you, to Austen's point, probably have a dream version of it in your head. You can use Brandon's duping kind of, strategy here too if you see a site that you really like and you wanna try and and mimic it. Or you can come up with something from scratch and write the brief, for what you're for what you're looking for there, put in the references, and give it to Codex or or Claude connected to all of these different tools and, you know, take that on as a project. I think it's a really enriching thing to do because most people have so much work that you're not liking the way you've potentially merchandised it to the world. And maybe you want more interactivity or different types of visuals, you can use these tools to create something really, really striking that you feel good about, and that also potentially helps you get more work or a better job or whatever else it is you're looking for.
+
+Speaker 6 | 41:54 - 42:11
+And it kind of also proves out that you're AI native. Right? So I think that's a great project for anyone that's creative, or has even a personal, you know, side hustle or or small business that they're running. Try and and do something like that that's impactful right away. You can also get people responding to it.
+
+Speaker 6 | 42:11 - 42:16
+You know, to Austin's point, right? His app. Hey, his friends use it now. Right? People can actually use this thing.
+
+Speaker 6 | 42:16 - 42:22
+They can see it. They can tell you how great it is. And that's very encouraging, as you begin to work with AI, in my experience at least.
+
+Speaker 4 | 42:23 - 42:58
+Yeah, that's cool. Yeah, I feel to second that, close or it out, what I would do is I would use Cursor with Render. And what I realized, my mind was blown when I used Cursor Cloud Agents with Kymi K25, which is an open source model which Cursor improved. I would say dupe something, use Cursor Cloud Agents and use different models. I I feel right now, if this is what you're going to be doing, you need to find your favorite model.
+
+Speaker 4 | 42:58 - 43:14
+And with Cloud Agents, you you can have 10 agents running. And we have like the Pro Plus plan. This is about Pro. See, you're good in terms of spend and stuff like that. And would use render to deploy it and actually see which model you like working with.
+
+Speaker 4 | 43:14 - 43:40
+Like, I'm so picky about my models that even if a new model drops, I change. So that because if I have some preference, I'll test it out. You need to have like we have evals for like, you know, if a model is doing better or worse. You need to have your personal taste in terms of what you like and what you not dislike. And I feel Cloud Agents are a very underrated way to find out, like, what do you like to build?
+
+Speaker 4 | 43:40 - 43:43
+And just start to feel that out.
+
+Speaker 3 | 43:43 - 44:14
+Yeah. Cool. In terms of like, what's next for All Access, I think we have some cool stuff coming. I mean, the next few days, week, we're probably gonna drop two more partners that are pretty sick benefits. And I think that like something that's really compelling for our readers, I found is like now they have access to these benefits.
+
+Speaker 3 | 44:14 - 44:21
+You guys have access to these benefits, but like the guides on how to use each one are people love them.
+
+Speaker 4 | 44:21 - 44:21
+Yeah.
+
+Speaker 3 | 44:21 - 44:53
+So I think that like probably what we're gonna do next is for each one of these benefits, you have like amazing value that you can go capture by using them. But how can we pair that with a guide that you can probably just plug into one of your agents that, like, leapfrogs you ahead with using whatever this net new technology is that you now have access to. So I feel like guides, like some cool camps for each one of these partners is gonna be like probably something that we'll do. Yeah.
+
+Speaker 5 | 44:54 - 45:26
+To be clear, I've I've never read one of our guides. I dropped the guide into Codex and I say like, use this to help build the next thing we're doing. And I would recommend everyone do the same. And yeah, I think the best way to think about all access but also like how to best take advantage of an, of an every membership is that we are gonna keep adding partners to the builder pack that we're excited to use when the year is up, because you you you know, you get these as part of a yearly subscription. We're gonna try to fill it up with more stuff that y'all are excited to use.
+
+Speaker 5 | 45:26 - 45:30
+And there's a lot more perks coming to get excited about that will help you build.
+
+Speaker 3 | 45:30 - 45:35
+Awesome. I've I think now we're handing it off to Dan's outro. Dan, take it away.
+
+Speaker 6 | 45:36 - 45:37
+Thanks, Dan.
+
+Speaker 4 | 45:37 - 45:38
+Thank you.
+
+Speaker 7 | 45:45 - 46:03
+Oh my gosh, folks. You absolutely positively have to smash that like button and subscribe to AI and I. Why? Because this show is the epitome of awesomeness. It's like finding a treasure chest in your backyard, but instead of gold, it's filled with pure unadulterated knowledge bombs about chat GPT.
+
+Speaker 7 | 46:03 - 46:28
+Every episode is a roller coaster of emotions, insights, and laughter that will leave you on the edge of your seat craving for more. It's not just a show. It's a journey into the future with Dan Shipper as the captain of the spaceship. So do yourself a favor, hit like, smash subscribe, and strap in for the ride of your life. And now, without any further ado, let me just say, Dan, I'm absolutely, hopelessly in love with you.

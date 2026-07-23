@@ -1,0 +1,62 @@
+Source  : a16z
+Title   : How to Win the Largest Market in AI
+Date    : 2026-07-23 15:34 UTC
+Link    : https://www.a16z.news/p/how-to-win-the-largest-market-in
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+There’s a certain rhythm in the history of computing: we can call it
+the specialization turn
+. When a workload is varied and shifting—usually early in the lifecycle of that workflow—people pay for flexibility: nobody knows what tomorrow’s program will look like, so the work goes to a general-purpose system. That works for most things, most of the time.
+But every so often a workload grows so large, and coheres into a shape so stable, that the economics of the workload can be improved by specialization. The work can migrate into hardware built in its own image: into custom chips and, increasingly, entire custom systems built around them. A machine designed for
+one
+job, and only that one job, can do that job faster and cheaper than a machine that has to be ready for everything.
+That’s what we’ve seen through the history of computing. Graphics migrated from the CPU to a new class of accelerator, the GPU: the “graphics processing unit.” The same turn happened with networking: the internet’s trillions of daily packets long ago stopped moving through CPUs and started moving through custom switch chips from companies like Broadcom.
+In short:
+the more important a workload, and the more stable its shape, the more sense it makes to build hardware in the image of the workload
+.
+We are witnessing this now for perhaps the most consequential workload of our lifetime: AI inference.
+Demand for inference is going vertical
+When people talk about AI compute, they typically mean training: training has been where all the drama (and dollars) lived these past few years. But training, in accounting terms, is just capex. You pay for it once per model, the way a studio pays to make a film: an enormous cost, typically, but a fixed and amortizable one.
+Inference, by contrast, is opex: a cost that scales with usage. Every time you ask ChatGPT a question or make an API call or have an agent write some code for you, the company that’s serving the model incurs some cost. To generate a single token, a model needs to read its weights—hundreds of gigabytes of parameters—out of memory, run them through the matrix arithmetic, produce the token, and then do it all over again for the next one. Every token, in other words, has a price in silicon time and electricity. Inference is the COGS of intelligence.
+And for the companies serving models at scale, the last few years have seen the demand for inference, and the cost of inference, go sharply vertical. In May 2026, Google announced that it was processing 3.2 quadrillion tokens per month across its products, roughly 300 times what it had been processing two years earlier. We see the same story with OpenAI, which now has roughly a billion monthly active users and a rapidly growing coding agent platform in Codex, and with Anthropic, which has seen enormous success with its Claude Code product—not to mention all the companies building on top of these platforms. AI inference is quickly becoming the largest workload computers have ever run; and we believe that it’s only going to grow much further.
+The machine serving nearly all of that demand today is the GPU. The reason for that is simple: the GPU is
+flexible
+. The GPU’s flexibility—the fact that it can support all sorts of demanding workloads—is the reason the AI era exists at all: when nobody knew which architectures would win, a processor that could run anything was exactly the right tool.
+But if you hold the workload up against the machine, the mismatch is hard to unsee. Generating a token is less about arithmetic and more about memory: to produce each token, the chip must stream the model’s entire weights, plus a growing cache of everything already in the context window, and performing only a couple of simple operations on each byte it reads.
+The standard patch for this is what’s called “batching”: serving many users’ requests at once, so that each expensive read of the weights from memory is amortized across dozens or hundreds of tokens instead of just one. Batching works well; but it’s not a panacea. It buys throughput, but it does so by selling latency and making every inference workload slower. That’s a trade that the fastest-growing workloads—coding agents in tight loops, long-context reasoning—can’t really afford: customers want things done
+fast
+.
+In short: GPUs are built for everything; inference is now big enough, and differentiated enough, that it requires custom hardware. And this is particularly true for AI, which is so compute- and energy-intensive. Data centers are now gated by watts rather than dollars, and every watt that a general-purpose chip spends on flexibility that the inference workload never touches is a watt not producing tokens. Tokens per watt is the real currency of inference.
+Over the last few years, the players with the most money at stake have more or less figured this out. For neural networks, this transformation started in the early 2010s, with Google’s development of the TPU, the “tensor processing unit,” and the entire infrastructure around it—custom interconnect, pods, and cooling. Other hyperscalers, like Amazon, Meta, and Microsoft, have followed; and now the frontier labs, like OpenAI, are following as well. This isn’t a mysterious development. It’s just the oldest pattern in computing reasserting itself: when a workload gets big enough and stable enough, it earns specialized hardware of its own. The machines that win a stable and huge market like AI inference are the ones designed as a whole, from the transistor to the data center floor, and that nail production scale to meet the demands of this new work.
+The Etched bet
+In 2022, months before ChatGPT and years before Cursor, Claude Code, and Codex, Gavin Uberti, Robert Wachen, and Chris Zhu dropped out of Harvard to make a bet that looked, at the time, nearly irresponsible: they would build an entire inference system—new chips, boards, interconnects, racks—from scratch.
+Their thesis was simple. Inference would be the largest market in AI, and the general-purpose GPU wouldn’t be the endgame of that market. Hyperscalers had realized that already. But their custom silicon programs were for
+their
+workloads: you can rent a TPU, but you can’t buy one, or rack it in your own data center, or build a business on it. For everyone who wasn’t a hyperscaler—for AI labs without silicon teams, inference clouds, sovereign AI programs, enterprises building their own fleets—there was a huge opportunity for chips designed specifically for inference. Gavin, Robert, and Chris set out to build exactly that.
+What began as a radical, contrarian wager has matured into a strong bet on the defining challenge of our era.
+Over the last few years, Etched has hired more than 400 engineers from Nvidia, Google’s TPU group, Broadcom, Apple, SK Hynix, and TSMC. A striking share of them work not on chip design but on production: supply chains, rack assembly, burn-in, and logistics. In a supply-constrained market, the scarce skill is not designing a fast chip; it is shipping complete, working systems by the thousands. As Gavin, Robert, and Chris like to put it:
+production is the product
+.
+Under the hood of that product are two core ideas. The first is
+low-voltage inference
+: running the math blocks at roughly half the voltage of a typical AI chip, packing several times more usable compute into the same power envelope—more tokens per watt, the currency that matters. The second is
+cluster-scale memory
+: an ultra-low-latency interconnect that pools memory across chips, so that during decode, an entire rack behaves like one enormous machine. Both of these technologies are not possible by only designing a chip: they require technical breakthroughs across the entire system across memory, power delivery, cooling and more—precisely the bottlenecks specialization predicts, in precisely the market where every multiple of tokens per watt converts directly into revenue.
+But as impressed as we are with the elegance of Etched’s first product, what’s blown us away is their tempo of execution. Etched’s first production chip taped out on TSMC’s N4P process and worked on the first attempt—a“first-pass silicon,” in industry shorthand—rare even for industry incumbents. As we sat in their 2 megawatt lab in their office, we heard stories again and again of the team defying the odds to achieve unprecedented timelines, flying across the world to unblock vendors and running company-wide day and night shifts to bring up their chip in under two months. (The industry norm is between six and nine months.)
+The result: those first racks ship to customers this summer; a 10 megawatt site is standing up, with customers already running workloads on Etched hardware remotely. Despite the origin story, what Etched has built is not a transformer-only machine, but a full-stack inference system to serve the most demanding workloads, whether many-trillion parameter MoEs, state-space models, or long-context agents.
+History is unsentimental on this point: accelerated hardware will be built for the most important workloads, but very few can build a machine capable of production at scale. It’s not enough to have a great architecture and demo rack; you have to ship at scale, with the speed and quality that the most demanding customers in the world require amid fierce competition. In a world where production is the product and the machine is the moat, we’re thrilled to partner with Etched.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
