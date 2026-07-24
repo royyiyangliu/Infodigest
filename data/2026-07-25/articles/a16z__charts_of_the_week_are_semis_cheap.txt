@@ -1,0 +1,99 @@
+Source  : a16z
+Title   : Charts of the Week: Are Semis Cheap?
+Date    : 2026-07-24 15:03 UTC
+Link    : https://www.a16z.news/p/charts-of-the-week-are-semis-cheap
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+Are Semis Cheap?
+It’s pretty much
+common knowledge
+at this point that
+chips have been the “AI trade.”
+First, it was Nvidia’s GPUs (and the related players in that supply chain), and then it broadened out CPUs, too, but
+especially memory
+.
+The reason is pretty straightforward: all that AI capex. Hyperscalers have been pouring their free cashflow (and,
+more recently, debt
+) into the computational infrastructure necessary to meet the computational demands of AI. That huge demand impulse has led to a
+generational run for the broader semiconductor industry
+, where demand has outpaced supply, leading to both historic growth and pricing power.
+Those are the sorts of things that investors like, and they’ve responded accordingly.
+Just under 50% of the S&P’s earnings growth is expected to come from semis alone.
+AI Capex has been an earnings bonanza for the chipmakers.
+With all that earnings growth, you’d think that semi multiples would re-rate in kind. And while they certainly did, for a bit, that’s no longer the case. Multiples for the semis sector are actually right around their 10 year average, and even dropped slightly below:
+This chart was compiled a few weeks ago, when Forward P/E for semis was at ~19.5x, slightly below the 19.7x that the industry has averaged, including the 6 years before all this AI capex really began. As of earlier this week, the industry multiple had nudged higher to something closer to 21x (depending on how you calculate it, since semis don’t report as a group).
+But in all events, for an industry on an historic run, forward multiples are historically unremarkable.
+By way of comparison, recent semis multiples are not all that different than the very slow n’ steady healthcare sector:
+Healthcare has been trading at more or less the same prices since 2013 (with some intervening wiggles), but recently crossed paths with the hottest hardware in the world.
+Healthcare and semiconductors. These are the same, apparently.
+If you dig beneath the aggregate industry-level picture, the story is even more peculiar:
+Some of the biggest names in the semiconductor industry are valued at-or-below the industry average—despite consensus analyst expectations for earnings growth (on a calendar year basis) running from ~20% to 60%.
+Micron, the crown jewel of the memory shortage, especially stands out. Analysts expect earnings to grow nearly 60% yoy, but as of July 21 the memory-maker was trading at just about ~6x earnings, the lowest in the batch!
+So, why does it appear that semis are suddenly cheap? If there’s such a bottleneck around memory specifically, why does the premium appear so low?
+Well, there too, the answer is pretty straightforward.
+Investors are wondering whether semis can keep it up.
+Chips are a
+historically cyclical industry
+, and it’s the nature of cyclical industries to have peaks and valleys. We’re in the peak, so surely the valley must be right around the corner (so the story goes).
+It’s also partly why those industries tend not to ramp up supply even when it appears like there’s a shortage: because they’ve been around long enough to know that every shortage eventually becomes a glut. Bringing new chip-making supply online takes time and a lot of money, and the concern is that by the time all the new supply is online, demand will have waned (leaving a lot of slack capacity in its wake). The energy industry knows this perhaps best of all.
+Plus, as it pertains to memory especially, it’s never really been that expensive before, but since necessity is the mother of invention, plenty of memory customers are now highly motivated to figure out how to get more memory-efficient. That’s yet another reason why at least some investors are wondering how long the run can last.
+Consider just how unusual memory’s pricing power happens to be right now:
+Napkin math says Micron’s gross margins are almost three times higher than its previous 5-year average.
+Those margins reflect a dramatic supply-demand imbalance in Micron’s favor, but again, the question is: how long can it last? Sure, “this time is different,” but how different and for how long? Analysts seem to think the answer is “a good while longer,” but for now at least, the market appears to be less convinced.
+IRL is So Back
+There was a brief moment in the thick of the pandemic lockdown when some people boldly predicted that people would never hang out in-person again.
+Social and professional interaction would be forever remote, everything would be virtual, and the future would be grimly animated avatars, mingling in Sim-style boardrooms and “common areas.” It got to the point that established businesses were paying millions of dollars for “real estate” in the metaverse to frontrun the inevitable shift to the global simulacrum.
+Obviously, the Snow Crash future hasn’t arrived (not yet, at least), but the prediction was prescient in at least one sense: venues for irl socialization are, in fact, in serial decline:
+The number of hang-out places per-capita has declined anywhere from a half to a third since the turn of the century.
+Fewer bars, fewer bowling alleys, fewer marinas and fewer movie theaters—query who hangs out in a marina, and other than movie theaters, the pandemic does not appear to have materially impacted the decline, but either way, the point stands: irl gathering places are in short(er) supply.
+The thing is, however, there’s some data that suggests that
+recently
+, at least, demand
+for irl experiences has surged. Whether it’s an emerging social phenomenon, or simply the rising cost of airfare, hospitality and dining out, consumer spending on experiences has accelerated far more quickly than spending on the broader category of services:
+Consumer spending growth on experiences has ~tripled since 2024, and is similarly running ~3x the growth of service-spending more generally.
+It’s not just consumer spending data that tells the “experiences so hot rn” story. Foot-traffic data from
+Placer.ai
+points in a similar direction: getting out on the town, in public, with people, is very much en vogue. If you look at foot-traffic to retail corridors, there are only two times of the week where people appear to be visiting more than they did before the pandemic:
+Friday and Saturday nights have experienced a moderate increase in retail foot-traffic relative to 2019—that stands in contrast to every other day (and time of day) where fewer people appear to be milling around retail corridors than before. On a yoy basis, the trend is even more pronounced: foot-traffic for the 8-12pm block (and only the 8-12pm block) is higher across the board.
+It’s hard to imagine why nighttimes (and especially weekend nighttimes) would be busier, if not for an inclination to socialize. Retail shopping as a whole has increasingly moved online, with ecomm penetration climbing steadily to ~30%—which is consistent with the daytime decline in retail corridor foot-traffic. If you need to shop, you’re increasingly doing it online. But, if the point isn’t to shop, but rather hang out with friends, then window shopping after work and/or a weekend night out on the town is apparently more popular than ever.
+People are so desperate to get off their couch and away from their monitors, that the Mandalorian and Grogu inspired the biggest above-trend trip to the movies for the year:
+Memorial Day may have had something to do with it, but either way, in the two weeks following Grogu’s big screen debut, trips to the movies were ~80% higher than the weekly average.
+Perhaps it won’t last, and there’s still no accounting for taste, but while AI may ultimately disrupt a whole slew of incumbent businesses, if there is one secular theme that AI cannot disrupt—looking at you, AI girlfriend—it’s demand for actual human connectivity and experiences.
+Gen-Z’s Small Business Surge
+We’ve written previously about the recent surge in small business formation, and the potential rise of the AI-enabled solopreneur. Yes,
+more businesses are being formed
+, yes,
+they tend to be “low propensity to hire,”
+yes,
+they appear to be growing more quickly than before
+, and yes,
+the fastest growers
+appear to
+invest more in technology than the others
+.
+That’s not a definitive case for the AI-enabled solopreneur, but one might say the data is triangulating.
+Here’s another wrinkle on that theme. According to data from BofA, Gen-Z specifically is increasing new business applications more so than any other generation:
+In March, Gen-Z new business applications more than doubled relative to the year prior.
+To be fair, Gen-Z new businesses are increasing off a relatively small base, but as a share of total, Gen-Z is taking a larger share of the pie:
+Gen-X is still responsible for the lion’s share of new businesses, but the ratio of Gen-X to Gen-Z formations has gone from ~26:1 in 2020 to just ~4:1 in 2026.
+What accounts for the Gen-Z surge in entrepreneurship? It’s hard to say. It could be an AI-native generation putting technology to work, or it could be a byproduct
+of a tough job market for entry-level hires
+(or some combination thereof, or something else entirely).
+In all events, it remains the case that small businesses do appear to be deploying AI to meaningful effect:
+According to the Cleveland Fed’s small business survey, 71% of respondents said AI increased productivity, while 39% and 31% said AI increased quality and sales, respectively.
+Take that for what you will, but for now, we’ll add it to the AI-driven small business renaissance file. If Gen-Z is joining the party, then we’re here for it.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
