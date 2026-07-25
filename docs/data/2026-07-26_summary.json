@@ -1,0 +1,71 @@
+{
+  "date": "2026-07-26",
+  "generated_at": "2026-07-25T23:34:25.172952+00:00",
+  "stats": {
+    "tweets": 8,
+    "podcasts": 1,
+    "articles": 1
+  },
+  "tweets": [
+    {
+      "author": "Josh Woodward",
+      "handle": "joshwoodward",
+      "summary_zh": "Google Labs 与 Gemini 负责人 Josh Woodward（@joshwoodward）宣布 Gemini Spark 正式上线，面向美国所有 Google AI Pro 订阅用户开放，并将陆续扩展至全球。他强调 Gemini 不止于对话，更能\"把事情办成\"：例如上传一份学校日历 PDF，即可让 Gemini 自动把所有\"停课日\"添加进 Google 日历，凸显其向具备执行能力的 agent 型助手演进。"
+    },
+    {
+      "author": "Boris Cherny",
+      "handle": "bcherny",
+      "summary_zh": "Anthropic 的 Claude Code 核心开发者 Boris Cherny（@bcherny）介绍新发布的 Opus 5：不仅在编程、数据分析、设计、生物学、知识工作等方面表现出色，他最看重的是安全性——Opus 5 是迄今最难被 prompt injection（提示注入）攻击的模型。他透露在叠加多重防御（强模型对齐 + 提示注入探测 + Claude Code 的 Auto Mode）后，提示注入攻击成功率可降至约 0%。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI 工程负责人 Thibault Sottiaux（@thsottiaux）宣布 ChatGPT Work 已面向全球所有付费用户开放，覆盖移动端、网页与桌面端，可能已自动出现在用户手机上。他形容这一功能\"为 ChatGPT 装上了喷气背包\"，指向 ChatGPT 在企业/工作场景执行力的显著增强。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic 的 Thariq（@trq212）分享了 Claude Code 的重要工程进展：针对最新模型，他们将 Claude Code 的系统提示词删减了约 80%，并总结了为新模型编写系统提示词、skills 与 Claude.MD 的经验方法论。他同时点评 Opus 5 是出色的\"日常主力\"模型，建议搭配 Fable 用于规划、头脑风暴或攻克最棘手的 bug，认为 Opus 5 完整补齐了 Claude 5 家族。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad（@amasad）在公共政策上发声，追问 Anthropic 是否会签署（某项主张），并呼吁 Anthropic 员工向管理层询问其立场：他们是否支持封禁开源权重（open weight）模型？此举凸显其对开源 AI 的立场关切。他还评论称，早期 VC 错过投资 AI 芯片公司 Etched 令他不解，如今资本终于醒悟，而早期信仰者获得的稀释更少。"
+    },
+    {
+      "author": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "summary_zh": "Madhu Guru（@realmadhuguru）指出未来几年存在一个巨大机会：懂得把混乱的现实工作流适配到基础模型上的人才将极为稀缺且宝贵。他认为这要求理解工作如何完成、设计 evals、通过后训练（post-training）改进模型，并搭建持续优化模型的反馈闭环——这正是通用模型在特定领域变得卓越的路径，而目前这类技能仍高度集中于少数几家实验室。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品人 Peter Yang（@petergyang）认同一个观点：如今对独立开发者而言，纯软件已很难单靠自身变现，必须\"软件 + 其他\"（例如叠加服务）才能成立。他还分享了新的工作方式——躺在床上通过 ChatGPT 语音来驱动 codex 完成编码工作，并指出要用好这一方式，关键是记住所有长时运行线程的名称。"
+    },
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "开发者、AI 社区活跃者 Swyx（@swyx）透露自己正在开发一款新的 Google Workspace 替代品（\"new gsuite\"），起因是对现有产品诸多不合理的默认设置感到不满。他同时展示了个人项目 SmolForge 的新功能，包括可自定义皮肤与精灵图（spritesheet）动画。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "No Priors",
+      "title": "Building an Autonomous Delivery Experience with DoorDash Co-Founders Andy Fang and Stanley Tang",
+      "date": "2026-07-23 10:00 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/watch?v=vNpcg_Ma-FA",
+      "summary_zh": "No Priors 对话 DoorDash 两位联合创始人 Andy Fang 与 Stanley Tang，核心是\"智能体商务\"与\"自主配送\"两大 AI 布局。公司体量：约 **900 万** Dasher、每年 **30 亿** 单配送、每月超 **4000 万** 消费者下单，业务仍以 **25%** 同比增长。\n\n智能体商务（Ask DoorDash）：早期押注语音失败，转向自然对话式搜索后成效显著。餐饮场景中 **50%** 的会话轨迹来自\"从未下单过的新商家\"（历史上最难撬动的指标）；生鲜杂货客单价提升约 **40%**（用户拍冰箱照片、做膳食规划、按饮食限制补货）。并引入实时\"世界知识\"（网络热点）增强信任。已推出 DoorDash CLI，探索\"智能体优先\"体验（如摄像头监控货架自动补货）。Fang 指出当前网络上智能体流量已超过人类流量。\n\n自主配送（DoorDash Labs / DOT 机器人）：机器人布局始于 **2018 年**，最初为极小规模试验项目。核心方法论是\"从用户用例反推\"，而非\"先造技术再找场景\"。DoorDash 平均配送 **3-5 英里**、剔除备餐约 **15 分钟**，介于人行道机器人（**2-3 英里/时**太慢）与 Robotaxi（**4000 磅**过重）之间，因此自研 DOT：重 **300 磅**、时速 **20 英里**、仅为汽车 **1/10** 大小，可在人行道、自行车道及机动车道行驶，已在凤凰城 Tempe 运营近 **两年**、去年实现全自主 L4。\n\n关键护城河是数据：**100 亿**单配送数据，尤其是\"最后 100 英尺\"的历史投递点位（Google Maps 没有）。规模化三大瓶颈已从\"自主性\"转向：运营（跨城市/商家适配）与硬件制造（前 **100** 台手工打造，后续需供应链，已与 Rivian 分拆的微出行公司 Also 合作）。Tang 预测十年后 Dasher 数量反而更多，将形成人力+机器人+无人机的多模态车队。\n\n内部 AI 提效：去年收购 Metis 注入 AI 原生思维，发布 DashBench 评测编码任务 ROI。**6 月** AI 支出较 **1 月** 增长 **20 倍**，现趋于持平；正探索用开源权重模型承接低成本任务以逼近前沿智能。非技术岗（分析师、客户经理）席位增速最快，但企业真实数据上模型表现仍不及\"简化后\"的测试。"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "Can AMD break the CUDA Moat? AMD Advancing AI 2026",
+      "date": "2026-07-25 00:33 UTC",
+      "link": "https://newsletter.semianalysis.com/p/can-amd-break-the-cuda-moat-amd-advancing",
+      "chars": 71674,
+      "summary_zh": "SemiAnalysis 大幅上调对 AMD 的判断：从最初\"追赶英伟达 **0%** 机会\"，到\"AMD 2.0\"时给出非共识的实质性机会，如今再度上调至\"只要解决两大风险就有很大成功机会\"。核心逻辑是 Lisa Su 展现出能推动变革的领导力、AMD 终于重视软件并有紧迫感，且其编译器与多数 kernel 开源、更适应 agentic 时代。但强调 AMD 份额提升不等于英伟达受损——蛋糕在快速做大，英伟达营收仍将大幅增长。\n\n客户端重大进展：Anthropic 公开宣布将部署 **2GW** AMD 芯片；微软在 2023 年因三星 HBM 不可靠和软件差而放弃 AMD（跳过 MI325X/MI355X），如今转向部署 MI455X Helios，SemiAnalysis 认为 OpenAI 将是 Azure MI455X 机架的主要终端客户；AMD 还与 Cerebras 达成 PD 分离协议。财务工程亮点：AMD 通过股票期权结构给予 Meta 和 OpenAI 近 **105%** 的股权返利折扣，当股价达 **$600** 且采购足够算力时全额触发，使 Helios 的每百万 token 成本近乎为负。\n\n两大风险：**(1)** Helios 机架量产爬坡缓慢——未采用无线缆托盘设计，SerDes 偏弱导致高达 **85%** 背板需重定时，每机架需 **550+** 颗博通以太网 retimer，背板可靠性存在挑战。**(2)** 内部缺乏稳定 GPU 集群用于软件开发和自动化测试 CI，制约进度；Kubernetes/Pollara NIC CI 与英伟达 parity 仍为 **0%**，vLLM gating 目标（**90%** parity）因领导层抽调集群而倒退，MI455X 开源 vLLM/SGLang nightly CI 目标从 Advancing AI 2026 延至 2026 年 10 月。即便本月新增 **2,000** 颗 MI355X、年内再上 **6,000** 颗，内部算力仍比英伟达少一个数量级以上。值得注意的是 ROCm 软件栈最重要的部分多在中国（上海）构建。\n\n硅片层面 AMD 领先：MI455X 是首款 **2nm**（N2）数据中心芯片，最大 CoWoS-L 模块（**5.5x** reticle）、封装内逻辑硅 **3,470mm²**、**12** 颗 HBM4 共 **432GB**、带宽 **23.3TB/s**（英伟达 Rubin 仅 8 颗 HBM4/**288GB**、**22TB/s**）；FP8 稠密算力 **20PF** vs Rubin **17.5PF**。但因缺少 Rubin 的 3-bit LUT tensor core、微架构落后，AMD 靠堆硅补偿。网络上 Helios 首次采用机架级交换 scale-up，用 **72** 颗 MI455X + **12** 颗博通 TH6 交换（每颗仅用 432/512 lane，存在浪费），依赖 merchant 交换难以极致协同设计。隐忧还包括：因内存供应紧张取消了直连 LPDDR；Meta 选择砍半定制版 MI455（compute 8→4 die、HBM 12→6 stack），SemiAnalysis 警告此举将重创 AMD 在 Meta 的出货量，因 TBD Lab 会更倾向 Rubin。"
+    }
+  ]
+}
