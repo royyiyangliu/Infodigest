@@ -1,0 +1,43 @@
+{
+  "date": "2026-07-27",
+  "generated_at": "2026-07-26T23:35:16.824104+00:00",
+  "stats": {
+    "tweets": 6,
+    "podcasts": 0,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI 工程负责人 Thibault Sottiaux 主要在为 OpenAI 产品更新造势：他宣布 ChatGPT 现已支持语音交互（\"一直都能对着电脑说话，只是它几乎不回应，如今我们修复了这个 bug\"），并称在手机端使用堪称 game changer、已在 ChatGPT app 上线。他还透露 ChatGPT Work 的活跃用户数已正式超过 Codex（该推文获 **3485** 赞、**85** 转发）。"
+    },
+    {
+      "author": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "summary_zh": "Madhu Guru（@realmadhuguru）观察到美国 AI 圈对开源权重模型的支持在不到一个月内迅速形成共识，而此前并非如此。他认为这一转变由一连串公开\"实验\"推动——DeepSeek、微软与 OpenAI 分手、GLM、Kimi、Fable、OpenAI 与 Hugging Face 的风波——每件事都揭示了关于激励、创新、地缘政治以及各方底牌的不同信息。他判断，未来十年 AI 的诸多重大社会议题都将以这种\"与现实反复碰撞、不断更新认知\"的方式逐步厘清。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad 分享其自研国际象棋引擎的进展：新版本已部署，估计棋力接近 **1200** Elo，目标是在两个硬约束下冲击 **2000+** Elo——(1) 仅用一个小型微调 LLM（不做定制预训练或架构），(2) 模型须在无任何象棋引擎辅助的情况下自行给出着法。他强调，若放宽这些约束，难度会大大降低。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch 提出\"（软件）工厂即产品\"的观点：你的产品好坏取决于你搭建的、能自主维护它的 agent，他类比称这正是马斯克在特斯拉悟到的道理，如今也适用于软件世界。他认为\"工厂\"比任何框架都更根本、是公司的起点——有了新想法不应急着去找 agent 临时 prompt，而应思考如何搭建能启动、维护并壮大这个想法的工厂。他还分享自己已改用 agent CLI + 文件系统做全部研究：一个 research/ 文件夹加一份描述格式与最佳实践的 AGENTS.md，无需花哨的 app、知识图谱或 UI，可无限扩展、通过 iCloud 或 git 同步，需要分享时就让 agent 渲染 HTML 报告并部署到 Vercel——驱动这一切的\"软件\"其实就是 AGENTS.md 里的英文。"
+    },
+    {
+      "author": "Nan Yu",
+      "handle": "thenanyu",
+      "summary_zh": "Linear 产品负责人 Nan Yu 提出\"软件工厂（SoftwareFactory）\"的概念：真正稀缺的不是软件本身，而是能持续生产软件的\"工厂\"，他半开玩笑地说若能造出软件工厂，就能进一步造出\"软件工厂的工厂\"。他认为这一思路可从软件推广到公共卫生、法律等领域——产出的不再是某个具体功能，而是被设计并落地的某种\"意图\"。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie 认为，随着 Google 也加入，这标志着业界对开源权重（open weights）AI 的一次完整背书，是整个行业的重要时刻。"
+    }
+  ],
+  "podcasts": [],
+  "articles": []
+}
