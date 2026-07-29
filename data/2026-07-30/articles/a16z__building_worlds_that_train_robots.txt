@@ -1,0 +1,51 @@
+Source  : a16z
+Title   : Building Worlds That Train Robots
+Date    : 2026-07-29 14:01 UTC
+Link    : https://www.a16z.news/p/building-worlds-that-train-robots
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+Today, we’re excited to be publishing an excerpt from
+Dr. Fei-Fei Li
+’s recent blogpost “
+Building Worlds That Train Robots
+.”
+When
+spatial intelligence
+becomes physical, the north star goal is to advance the field of robotics. Many laboratory demonstrations of robots today show promising progress, but the real challenge is making them work reliably in the real world, where objects shift, clutter accumulates, lighting changes, and physical interactions vary from one trial to the next. This gap between a compelling demo and reliable operation is a major barrier to putting robotic systems to work at scale.
+Preparing robots for the real world requires extensive data collection and repeated testing on physical hardware. Each new task or environment can demand substantial manual effort, while failures are slow to identify and costly to recover from. Closing this gap requires more than better policy learning algorithms. We must develop a scalable, data-driven way to create the experience robots need for training and evaluation before and after they enter the field.
+On
+July 21
+, SceniX, a robotics and simulation company, joined World Labs. SceniX has been building systems that turn real robots, environments, and interactions into simulations for policy training and evaluation, developing a real-to-sim-to-real (R2S2R) engine that turns one physical task into many controllable, reusable worlds, helping robotics teams train policy models and test changes faster, uncover failures earlier, and reduce costly experimentation on hardware.
+The work by the SceniX team deepens World Labs’ technology development in spatial intelligence, and broadens our use cases from virtual to physical environments. As we continue to make progress, our generative world models will not only create realistic 3D scenes but also become increasingly aligned with the reality and variation that robots must interact with, learn from, and be evaluated in. And this is just the beginning.
+Today, we share some early results from the R2S2R engine. Using our proprietary technology, our model generates simulations aligned with reality that allow robots to do what has long been considered out of reach: learn complex manipulation tasks with zero real-world training data; predict and evaluate through simulation which robotic policies will succeed or fail in the real world, without extensive and expensive physical trial and error; and then operate reliably for hours on physical robots in real-world settings.
+One real task, thousands of variations:
+We reconstruct a real task as an interactive simulation that preserves task-relevant observations and dynamics, then systematically vary appearance, object configuration, clutter, physics, robot state, and camera viewpoint to create the breadth of experience a robot needs to generalize.
+Scaling robotic intelligence by scaling the worlds in which robots learn
+Scaling robot learning is the most critical bottleneck for robots. While we have seen rapid advances in robot learning methods such as vision-language-action models (VLAs) and world-action models (WAMs), the key bottleneck is not architecture alone, but experience and evaluation at scale.
+Unlike internet data used to train language models, robot experience is expensive to collect and difficult to control. Every iteration consumes hardware time: objects must be reset, failures recovered from, and systems maintained. Even internet-scale video data falls short of systematically covering the environments, objects, appearances, physical properties, robot states, robot embodiments, and failure conditions that are required for training reliable and deployable robots in the real world. The same lesson was learned in the development of autonomous driving, which has a much simpler physical embodiment and a less complex task environment compared to general robotics.
+In our
+functional taxonomy of world models
+, spanning renderers, simulators, and planners, we argued that the simulator is the linchpin because it turns a world into a place where agents can act, learn, and be evaluated. The work we share here puts that argument to the test. Indeed, some of the most successful L3 or L4-level self-driving cars running on the road today are powered by models trained using both real-world driving and simulation data. Furthermore, many aircraft, rockets, drones, or quadruped locomotion systems have been developed and tested using simulation systems that respond under different conditions and actions. We believe the same is true for training robots of various embodiments that can perform a much wider range of complex tasks.
+Building a simulation for each real-world task has traditionally been costly, difficult to scale, and prone to visual, geometric, and dynamic gaps with reality. Our R2S2R engine takes a different approach. Combining spatially coherent environments generated by world models with task-aligned robotic simulation, R2S2R achieves high-fidelity sim-real alignment at scale by preserving not only how the world looks, but how it acts when the robot interacts with it.
+We share our results through two parts of the R2S2R engine:
+Real-to-Sim:
+Transform physical robots, sensors, environments, objects, and interactions into simulations that preserve task-relevant observations and dynamics
+Sim-to-Real:
+Train and test robotic policies in simulated worlds and determine whether their performance in simulation predicts their performance in reality
+The key result here is the closing of the loop between real-to-sim (R2S) and sim-to-real (S2R). For the first time, robot learning policies trained entirely in simulation transfer directly across diverse robots and tasks, while simulated evaluation predicts relative policy performance and failure regions on hardware. Together, these capabilities make R2S2R a repeatable engine for training and evaluation, with faster and cheaper iteration.
+Read the rest of the post here
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
