@@ -1,0 +1,51 @@
+{
+  "date": "2026-07-30",
+  "generated_at": "2026-07-29T23:34:52.961182+00:00",
+  "stats": {
+    "tweets": 4,
+    "podcasts": 1,
+    "articles": 1
+  },
+  "tweets": [
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI Codex 工程负责人 Thibault Sottiaux 详细回应了 GPT-5.6 Sol 上线后用户抱怨额度消耗过快的问题：他已为所有 ChatGPT Work 和 Codex 用户重置了使用额度，并强调未削减任何订阅套餐的额度。经排查后做了多项优化，预计典型使用场景下额度可多撑约 **18%**，次日还将恢复此前暂停的 5 小时限制。根因在于 Sol 更愿意长时间工作、发起更多工具调用并协调复杂工作流，同等推理强度下比 GPT-5.5 消耗更多 token，其\"代码模式\"（程序化并行工具调用）也带来了更多缓存输入 token；且影响极不均衡——中位用户其实很省 token，但处理高难度任务的重度用户额度消耗远超预期。他还宣布开源了一套用于发现、验证和修复代码安全漏洞的 CLI 与 TypeScript SDK，支持扫描仓库、审查变更、追踪问题并在 CI 中运行安全检查。"
+    },
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "Latent Space 播客主理人、AI 工程师 Shawn Wang（swyx）观察到当前 AI 领域招聘市场出现\"剧烈分化\"：AI 原生的独立贡献者/兼具执教能力的 player-coach 处于极度牛市，而\"某某负责人\"式的纯管理岗则是极度熊市。他用一句略显极端的话概括：一年管理 10 个 agent 的经验，价值高于十年管理 10-100 名员工的经验。"
+    },
+    {
+      "author": "Dan Shipper",
+      "handle": "danshipper",
+      "summary_zh": "媒体公司 Every 的联合创始人兼 CEO Dan Shipper 分享了一个 AI 辅助创作的实践案例：他花一个上午写出了一篇\"Codex 权威发展史\"长文，全程双手没碰过键盘和鼠标，从整理与团队（含 @thsottiaux、@ajambrosino、@gdb）的深度访谈、搭建时间线，到撰写、编辑、修订，全部通过 ChatGPT for Work 的语音模式完成。他认为该模式用于创意工作\"极其出色\"，完整文章将在几周后发布于 Every。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品增长顾问、前 Reddit/Twitch 产品经理 Peter Yang 展示了用 Claude Design 与 Claude Code 从粗略想法做出可用产品的过程：他开发了 Tastemaker，一款让用户在同一个页面收藏并评分电影、电视剧和电子游戏（弥补 IMDb 与 Letterboxd 的空白）的产品，因 API 限制首批仅开放 100 个档案。他还录制了完整流程视频（创建 design.md 与 HTML 规格、在 Claude Design 中原型设计、用 Claude Code 迭代构建）。此外他对 Codex 提出了一些认同的批评，并好奇 Sol Pro 为何未在 Codex 中提供。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "Lex Fridman Podcast",
+      "title": "#499 – Gary Gallagher: American Civil War, Slavery, Lincoln, Grant & Lee",
+      "date": "2026-07-28 20:06 UTC",
+      "duration": "3:53:07",
+      "link": "https://podcasts.apple.com/us/podcast/499-gary-gallagher-american-civil-war-slavery-lincoln/id1434243584?i=1000778760073&uo=4",
+      "summary_zh": "历史学家 Gary Gallagher 谈美国内战、奴隶制、林肯、格兰特与李。"
+    }
+  ],
+  "articles": [
+    {
+      "source": "a16z",
+      "title": "Building Worlds That Train Robots",
+      "date": "2026-07-29 14:01 UTC",
+      "link": "https://www.a16z.news/p/building-worlds-that-train-robots",
+      "chars": 7129,
+      "summary_zh": "李飞飞创立的 World Labs 发布博文，阐述其\"空间智能\"向物理世界（机器人）落地的进展，投资视角值得关注。核心痛点：机器人从\"实验室 demo\"到\"真实世界可靠运行\"存在巨大鸿沟——物体位移、杂乱堆积、光照变化、物理交互每次都不同，而真实数据采集昂贵、难控、失败恢复缓慢，成为机器人规模化的最关键瓶颈。这与自动驾驶当年的教训一致（但通用机器人的本体与任务环境远比自动驾驶复杂）。\n\n关键事件：**7 月 21 日**，机器人仿真公司 SceniX 加入 World Labs。SceniX 构建的 real-to-sim-to-real（**R2S2R**）引擎能把一个真实物理任务转化为大量可控、可复用的虚拟世界，帮助机器人团队更快训练策略模型、更早发现失败、减少昂贵的硬件试错。此举把 World Labs 的空间智能能力从虚拟场景拓展到物理环境。\n\n技术要点：R2S2R 由两部分构成——Real-to-Sim（把真实机器人、传感器、环境、物体与交互转为保留任务相关观测与动态的仿真）与 Sim-to-Real（在仿真世界训练/测试策略，并判断仿真表现能否预测真实表现）。区别于传统\"逐任务建仿真成本高、易与现实产生视觉/几何/动态偏差\"，其做法是将世界模型生成的空间一致环境与任务对齐的机器人仿真结合，不仅还原\"世界看起来如何\"，还还原\"机器人交互时世界如何运作\"，实现大规模高保真的仿真-现实对齐。\n\n早期成果（宣称）：机器人可在**零真实世界训练数据**下学习复杂操作任务；通过仿真预测并评估哪些策略在现实中会成功或失败，无需大量昂贵物理试错；并能在真实场景中的物理机器人上可靠运行**数小时**。首次实现 R2S 与 S2R 闭环——完全在仿真中训练的策略可直接跨不同机器人与任务迁移，仿真评估能预测硬件上的相对策略表现与失败区域。作者称这类范式已在部分 L3/L4 自动驾驶及飞机、火箭、无人机、四足运动系统中验证。投资含义：世界模型/仿真或成机器人训练数据的关键基础设施，World Labs 通过收购切入具身智能赛道。"
+    }
+  ]
+}
