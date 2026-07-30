@@ -1,0 +1,66 @@
+Source  : a16z
+Title   : The Hidden Math of Behavioral Health
+Date    : 2026-07-30 14:04 UTC
+Link    : https://www.a16z.news/p/the-hidden-math-of-behavioral-health
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+This week we’re looking at the state of applied behavior analysis, or ABA: the intensive, one-on-one, hourly therapy that is the front-line treatment for autism.
+Behavioral health is a big deal. Demand is enormous (and growing). So, why is this still such a hard business to run?
+We have some data from Camber, which sheds some light on the operating challenges that specialty care clinics like those that deliver ABA care (as well as PT, ENT, SUD, and Cardiology) face. Camber is building the AI-native revenue cycle platform that these clinics use to get paid, so this is a problem they understand deeply. It turns out that small differences at the reimbursement margins can go a long way towards launching and operating a sustainable clinic (versus something other than that).
+Let’s dig in.
+The first thing to keep in mind is that behavioral health clinics do not suffer from lack of demand. Quite the opposite: one of the biggest challenges that clinics face is the chronic shortage of qualified clinicians and staff to meet the growing demand for one-on-one treatment.
+The second biggest challenge is where Camber fits in: making sure that clinics are reimbursed by insurance for all the services rendered by the extremely busy clinicians. Getting timely payment, in-full, can be the difference between a clinic staying open or not (and therefore the difference between whether a child keeps their therapy or not). In other words, timely and adequate reimbursement is crucial for getting and staying in this business.
+Now, pain around reimbursement from insurance is not unique to ABAs, but it is particularly acute. These practices are fairly young, margins are thin, and the insurance landscape is extremely complicated, with a huge amount of variance. That’s precisely where Camber excels.
+Clinician Reimbursement Is Wildly Varied and Complex
+Just to illustrate the point, when it comes to this sort of treatment, the same insurance company will reimburse wildly different amounts, depending on the state:
+For four different insurers, the high-low variance between what any given insurer reimbursed
+for an identical service
+was anywhere from 2.09X to 1.35X.
+In other words, the same insurer pays clinics more than double for the same service in one state than it does in another. The point being is that this is not a simple system to navigate, and getting it right can have enormous financial implications.
+“Claim Denied” is Not the Issue, but “More Information Needed” Can Be the Difference Between Making Payroll (or Not)
+Now, the most common boogeyman when it comes to insurance is claims denial, so it might come as a surprise to learn that denied claims are not actually that big a deal. The vast majority of claims are actually approved:
+For the typical clinic, only ~3% of claims are denied outright. At the edge, the denial rate is quite high, but that’s simply not the experience for most clinics.
+So, if it’s not claim denial that’s causing friction in the reimbursement process, then what is it?
+The real pain comes by way of the claims that aren’t denied, but need to be reworked. This is an important and commonly under-appreciated point. An insurer may approve a claim, in that everyone agrees that the treatment given was right for the patient, but then the haggling will begin. Are the codes right? Is the information complete and correct? Are all the forms present? And again, every insurer haggles a little differently, and sometimes the same insurers haggle differently over the same treatment, depending on the patient.
+Clinics aren’t being sloppy or lazy. The reality is that the system is very complex.
+Refiling Claims is Costly, with Increasingly Diminishing Returns
+Here too, the rework pain comes at the margins, but the margins are substantial:
+The data show that roughly 72% of claims went through “clean,” while the insurance companies required additional work from the clinic on the remaining ~28%.
+For a thin-margin business, having just under a third of receivables in paperwork limbo is a very big deal.
+And the cost of resolving these issues manually is extremely high, with rapidly diminishing returns:
+By some estimates, manual resolution of administrative issues runs as high as 6.3X the automagical alternative–full automation would constitute ~$21B in annual savings alone.
+Plus, because claims resolution is so manual, it means that the more time spent on a single claim, the less $ is ultimately recouped:
+A single resubmission cuts reimbursement by more than half. If the paperwork gets pushed back and forth 3-4 times, the share of dollars the clinic ultimately recoups is ~25% of the claim (often months after the service was actually rendered).
+Again, clinics are thin-margin, resource-strapped, labor-intensive services. If 30% of that labor time gets caught in paperwork purgatory, and it requires even more (costly) labor time to get it fixed, then you can see why it’s not an exaggeration to say that better, cheaper, and faster claims processing can be the difference between life and death for an ABA clinic. Reducing that 30% “follow-up needed” rate, and reducing the cost and improving the effectiveness of that follow-up, is enormously consequential for whether children get therapy or not.
+Better Billing Is A Tech-Solvable Problem, And Camber is Delivering Operational Lift Where it Matters Most
+Camber’s data also shows that this is most definitely a tech-solvable problem.
+If 30% of the claims are causing all the pain, then consider the most common flaws in that 30%:
+Roughly 20% of denials (and 20% of the dollars) revolve around information and documentation. Coverage and credentialing issues pace second and third, respectively.
+These are administrative errors, driven in large part by the complexity of the reimbursement process, and they are eminently solvable by technology, particularly technology that
+learns
+(like Camber’s). If there were simply rules-based logic to getting claims right, this would be less of an issue–certainly encoded payer-rules, and automated scrubbing and checks help, but the real hurdle is developing a feel for each insurer’s various quirks.
+Part of why we know that a continuously learning technology is so critical, is that clinics themselves get better at this process, the longer that they’re in business:
+After 2-years, a clinic improves its first-try success-rate from 77% all the way to 92%.
+Mastering the claims reimbursement process is like a learned profession. After two-years of on-the-job training, a clinic’s back office can learn most of the arcane knowledge required for a more seamless submission. But, from a provision of care perspective, that process is expensive and time-consuming–one that many fledgling clinics may not have time or scale to afford–and it means that the departure of a single system expert presents a lost sunk cost that can set a clinic back years.
+With Camber, however, the learning curve to billing mastery steepens exponentially:
+In just two months after onboarding with Camber, the share of claims that require manual intervention
+is cut by more than half.
+And that says nothing of the nature of the manual work that’s actually required when Camber is involved from the outset.
+Put it all together, and it’s easy to see why Camber is playing such a valuable role in the ABA ecosystem. Camber massively reduces a clinic’s operating cost of getting paid, does so much more quickly, and doesn’t require a clinician to have nightmares about whether a key member of their billing team is about to go on vacation, retire, or get poached by another clinic.
+Getting paid in behavioral health is not a simple transaction. It is the output of a multi-week, multi-touch process, and how much of every dollar survives depends as much on the state and the insurer as on the clinic.
+Most of the margin in specialty care lives in that gap, not in the denial rate everyone watches. As we demanded more care, the pain caused by this gap was strong but invisible. Now, because we’re bridging the gap between claim and dollar, we can see it. The demand was never the hard part. Getting paid for it was. That, finally, is changing.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

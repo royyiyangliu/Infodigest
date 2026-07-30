@@ -1,0 +1,303 @@
+{
+  "fetch_date": "2026-07-31",
+  "fetch_time": "2026-07-30T18:13:32.796115+00:00",
+  "stats": {
+    "new_podcast_episodes": 2,
+    "new_articles": 2,
+    "new_tweets": 20,
+    "total_podcasts": 2,
+    "total_articles": 2,
+    "total_tweets": 20,
+    "transcribed_this_run": 1
+  },
+  "podcasts": [
+    {
+      "source": "晚点聊 LateTalk",
+      "title": "175: 对话Liblib陈冕：关于活下来，以及所有接近死亡的时刻",
+      "date": "2026-07-30 11:45 UTC",
+      "link": "https://podcasts.apple.com/us/podcast/%E5%AF%B9%E8%AF%9Dliblib%E9%99%88%E5%86%95-%E5%85%B3%E4%BA%8E%E6%B4%BB%E4%B8%8B%E6%9D%A5-%E4%BB%A5%E5%8F%8A%E6%89%80%E6%9C%89%E6%8E%A5%E8%BF%91%E6%AD%BB%E4%BA%A1%E7%9A%84%E6%97%B6%E5%88%BB/id1564877433?i=1000779036825&uo=4",
+      "orig_link": "https://podcast.latepost.com/175",
+      "audio_url": "https://aphid.fireside.fm/d/1437767933/19a49f52-28ee-4e25-b8e9-4f0ee70917e0/f8201197-461a-4071-a1bd-7c8afc646978.mp3",
+      "duration": "2:08:33",
+      "summary": "「“我这种焦虑型性格，可能是被这个时代选中了。”」\n为什么一家看起来中国最成功的 AI 应用公司，同时也可能是最危险的一家？\n演语科技 Evoken，旗下有 Liblib、Lovart、LibTV 三个产品，ARR 超过 3 亿美元。在 AI 应用融资最艰难的时候，它以 20 亿美元估值，一笔融了 3 亿美元。\n围绕这家公司的争议也同时达到顶峰：有人质疑它缺少原创；有人认为它靠激进定价换增长；离开的人说它不够技术、不够创新，甚至有投资人判断，它迟早会爆雷。\n这种矛盾可能不只属于 Evoken——这一代 AI 应用公司都活在同一个特殊处境里：今天属于应用的价值，明天可能就被模型覆盖。\n本期节目节选自我们与 Evoken 创始人陈冕的一次长采访。\n和陈冕对话，最先让人注意到的是他的笑声。洪亮、密集，说到兴奋处会大笑，甚至有点结巴。他极度焦虑，觉得公司“完蛋了”时会哭，想通新的方向后，又立刻觉得一切都有可能。\n焦虑、速度和侵略性，是陈冕的性格，也是 Evoken 的生存策略。他将这种策略用到了极致——过去三年，这家公司就这样活下来：一个方向出现，迅速扑进去；模型能力变化，原来的空间开始坍塌，就再寻找下一个\n陈冕回应了对他和 Evoken 的争议，以及这场对话中我们最想追问的问题：在一个模型不断吞噬应用价值的时代，一家独立的 AI 应用公司，要怎样 “survive” 到应用时代真正到来的那一天？\n本期节目已发布图文版，\n对话 Liblib 陈冕：关于活下来，以及所有接近死亡的时刻\n本期嘉宾：陈冕，演语科技 Evoken 创始人\n本期主播：《晚点 LatePost》记者\n剪辑：甜食\n时间线：\n-“我有两个关于误解的神奇体验”\n4:10 爆雷？投流多？补贴多？\n8:21 不能自爆式打法，但不是负毛利\n11:01 LibTV 3.9 折会员的由来，还在探索高 Token 消耗的生产力产品商业模式\n19:26 “不侵略性强，我怎么厉害呢？我不厉害，我怎么活下来呢？”\n-创业第一仗，没有上一代互联网成功的手感\n21:42 只剩 4000 块的故事，其实只有 600 万的时候就慌了\n28:35 创业后新体会，英雄也会改变时势\n-第一个发现 PMF，和最终赢得市场差十万八千里\n34:51 LibTV 的原创度争议和收购传闻的来源\n42:11 关于投流的误解，可能来源于饱和式信息攻击\n-完蛋了，后院起火了\n49:20 管理的两个 reward model，我没有做好\n54:20 联创离开\n58:01 拜托创新是有成本的，应用公司没法有自由探索的创新\n01:08:36 Lovart 上线前的完蛋时刻，第一次对股东哭了\n01:19:32 团队出问题，从美国飞回来解决\n-在模型厂商的缝隙里 “survive”\n01:28:10 逐鹿中原与占领江东：没法说明白的 survive 路径\n01:37:17 成功概率小，但我 bet 人类有没有价值\n01:46:09 网瘾少年、金庸迷和话剧演员\n01:57:37 AI 时代奖励焦虑的人\n02:05:55 创业三年反思：开了一辆极快的车\n相关链接：\n136 期：\nSora 新世界 & Lovart 4 个月复盘 | 与陈冕聊怎么做垂类 Agent\n☆《晚点聊 LateTalk》建立「 播客听友群」啦！☆\n欢迎关注科技、商业大公司动态和创业创新的小伙伴进群交流，第一时间收听新节目。\n这里有更多互动，更多话题讨论。欢迎贡献选题 & 推荐嘉宾。\n请先添加「晚点」小助手的微信号，\n备注：“晚点聊”\n，我们邀请您入群。\n关注公众号《晚点 Lat",
+      "lang": "zh",
+      "chars": 78623,
+      "text_file": "data/2026-07-31/podcasts/晚点聊_latetalk__175_对话liblib陈冕关于活下来以及所有接近死亡的时刻.txt"
+    },
+    {
+      "source": "AI & I by Every",
+      "title": "Best of the Pod: Wired's Kevin Kelly on Why AI Is a 50-year Overnight Success",
+      "date": "2026-07-29 15:00 UTC",
+      "link": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "orig_link": "",
+      "audio_url": "",
+      "duration": "",
+      "summary": "",
+      "lang": "en",
+      "chars": 48640,
+      "text_file": "data/2026-07-31/podcasts/ai_i_by_every__best_of_the_pod_wireds_kevin_kelly_on_why_ai_.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "The Wild Wild West Of LEGO Datacenters",
+      "date": "2026-07-29 22:09 UTC",
+      "link": "https://newsletter.semianalysis.com/p/the-wild-wild-west-of-lego-datacenters",
+      "summary": "The Labor Problem and Modularization to the Rescue",
+      "chars": 68114,
+      "text_file": "data/2026-07-31/articles/semianalysis__the_wild_wild_west_of_lego_datacenters.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "The Hidden Math of Behavioral Health",
+      "date": "2026-07-30 14:04 UTC",
+      "link": "https://www.a16z.news/p/the-hidden-math-of-behavioral-health",
+      "summary": "Behavioral care is booming. Getting paid for it is the hard part.",
+      "chars": 9340,
+      "text_file": "data/2026-07-31/articles/a16z__the_hidden_math_of_behavioral_health.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2082617801362313527",
+      "date": "2026-07-30T00:02:31.000Z",
+      "text": "today i tried to sign up for @docusign and was presented a captcha that i could not solve\n\nthis is an $11B company that everyone hates\n\npeople who say \"make something people want\" dont have the full picture https://t.co/DHT1CcVMbk https://t.co/j7J7irkwIB",
+      "url": "https://x.com/swyx/status/2082617801362313527",
+      "likes": 24,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2052556538339045666"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2082655731204096275",
+      "date": "2026-07-30T02:33:14.000Z",
+      "text": "This week is all about intelligence too cheap to meter. Tomorrow we ship again.",
+      "url": "https://x.com/thsottiaux/status/2082655731204096275",
+      "likes": 6473,
+      "retweets": 228,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2082637967852806207",
+      "date": "2026-07-30T01:22:39.000Z",
+      "text": "Terrific work by @ilanbigio and @sandersted on the investigation and post. Seems like it was a lot of fun.\n\nTake care of your harnesses out there, your model will thank you. https://t.co/3Enah7xd4t",
+      "url": "https://x.com/thsottiaux/status/2082637967852806207",
+      "likes": 1020,
+      "retweets": 35,
+      "is_quote": true,
+      "quoted_id": "2082609662231502932"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2082609662231502932",
+      "date": "2026-07-29T23:30:11.000Z",
+      "text": "Turns out GPT-5.6 Sol is actually SoTA on ARC-AGI-3. \n\nJust took two setting changes. You just have to allow it to reason and work over multiple context windows with the help of our canonical compaction implementation.\n\nhttps://t.co/wHjaNsvIv8",
+      "url": "https://x.com/thsottiaux/status/2082609662231502932",
+      "likes": 6926,
+      "retweets": 456,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2082642205811106158",
+      "date": "2026-07-30T01:39:30.000Z",
+      "text": "AI has been great for my productivity, but I’m starting to recognize three dark patterns:\n\n1. Becoming too lazy to read anything\n\nIt's too easy to just read AI summaries over the original piece or let agents go wild changing my files without reviewing what they did.\n\n2. Getting distracted by agents while I’m out\n\nIt’s too easy to open ChatGPT or Claude on my phone while I’m out to give feedback my agents and feel “productive,” even when I’m supposed to be watching my kids or doing literally anything else.\n\n3. Preferring to talk to the agent vs. a human\n\nThis is a new pattern with ChatGPT Voice, I sometimes find myself preferring to brainstorm with the agent instead of the actual human in the room.",
+      "url": "https://x.com/petergyang/status/2082642205811106158",
+      "likes": 201,
+      "retweets": 8,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2082579428090192192",
+      "date": "2026-07-29T21:30:02.000Z",
+      "text": "One of my favorite features in Claude Design is a simple one:\n\nIt always asks clarifying questions before creating anything.\n\nI’ve found these questions consistently help me think through my design requirements with AI. I’m surprised other AI design tools haven’t copied this yet.\n\n📌 Here’s how I use Claude Design to prototype: https://t.co/DYtxQdhytA",
+      "url": "https://x.com/petergyang/status/2082579428090192192",
+      "likes": 34,
+      "retweets": 2,
+      "is_quote": true,
+      "quoted_id": "2082473770741272747"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2082519030859264086",
+      "date": "2026-07-29T17:30:02.000Z",
+      "text": "We’ve gone from AI defaulting to designs that look like purple slop to those that have that recognizable Claude look.\n\nTo avoid this, I always create a design md file with guidelines for color, typography, and more.\nHere are a few places to find inspiration for your design md:\n\n1. Go to @mobbin and install its MCP to find design patterns and app screens you like. Paste the screens and ask AI to make a design md.\n\n2. Check out designmd sh, which has a library of design md files for popular websites and apps.\n\n📌 I walk through an example of creating a design md in my new tutorial: https://t.co/3LIw4UXbpi",
+      "url": "https://x.com/petergyang/status/2082519030859264086",
+      "likes": 412,
+      "retweets": 23,
+      "is_quote": true,
+      "quoted_id": "2082473770741272747"
+    },
+    {
+      "source": "Nan Yu",
+      "handle": "thenanyu",
+      "tweet_id": "2082550710160310587",
+      "date": "2026-07-29T19:35:55.000Z",
+      "text": "That is why we must pace https://t.co/CoIo5Y5Mf5",
+      "url": "https://x.com/thenanyu/status/2082550710160310587",
+      "likes": 27,
+      "retweets": 1,
+      "is_quote": true,
+      "quoted_id": "2082388217849053631"
+    },
+    {
+      "source": "Nan Yu",
+      "handle": "thenanyu",
+      "tweet_id": "2082480369543065855",
+      "date": "2026-07-29T14:56:25.000Z",
+      "text": "Love this POV -- what products do you use which would absolutely suck to switch to an alternative, besides apple products?\n\nWhen I think about it, a couple of mundane examples come to mind. 3M post-it notes, and Expo whiteboard markers are unmatched. The alternatives are garbage https://t.co/DbY8Ltyg3F",
+      "url": "https://x.com/thenanyu/status/2082480369543065855",
+      "likes": 49,
+      "retweets": 3,
+      "is_quote": true,
+      "quoted_id": "2082359345833279614"
+    },
+    {
+      "source": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "tweet_id": "2082629168035201459",
+      "date": "2026-07-30T00:47:41.000Z",
+      "text": "7 months on, this continues to be true. Biggest alpha lies in understanding the model frontier. https://t.co/x4EPGKFvSQ",
+      "url": "https://x.com/realmadhuguru/status/2082629168035201459",
+      "likes": 2,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "1997438567203872788"
+    },
+    {
+      "source": "Google Labs",
+      "handle": "GoogleLabs",
+      "tweet_id": "2082501360466174163",
+      "date": "2026-07-29T16:19:49.000Z",
+      "text": "Expecting A Minor update? We prefer to B Major. 🎶\n\n@GoogleDeepMind just released Lyria 3.5, and we’ve plugged it directly into @GoogleFlowMusic to power your next session.\n\nWhat this means for your tracks:\n\n✨ Better prompt adherence: Flow Music understands your creative direction with much more accuracy. Set exact BPMs and export stems for full-length songs!\n\n🎤 Upgraded vocals: More expressive, dynamic, and rich singing.\n\n🎸 Richer musicality: Arrangements flow more naturally from note to note.\n\nHear it for yourself and start creating at https://t.co/3XMUc2pkzU 👇",
+      "url": "https://x.com/GoogleLabs/status/2082501360466174163",
+      "likes": 308,
+      "retweets": 34,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2082508826767679668",
+      "date": "2026-07-29T16:49:30.000Z",
+      "text": "Some models are great at CSS, others are fantastic at SVG, while yet others are really good at animations.\n\nReplit Design is powered by the best of open and closed models to generate superior aesthetics. https://t.co/qt5XNdHfQ8 https://t.co/Nqjzz7EyVO",
+      "url": "https://x.com/amasad/status/2082508826767679668",
+      "likes": 404,
+      "retweets": 15,
+      "is_quote": true,
+      "quoted_id": "2082496843368255985"
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2082505558293467363",
+      "date": "2026-07-29T16:36:30.000Z",
+      "text": "Post-prompt era https://t.co/fUiEzr3Fik",
+      "url": "https://x.com/amasad/status/2082505558293467363",
+      "likes": 253,
+      "retweets": 9,
+      "is_quote": true,
+      "quoted_id": "2082501334612541747"
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2082504898801999990",
+      "date": "2026-07-29T16:33:53.000Z",
+      "text": "This is hands down the best AI design tool, both in taste and how fun and easy it is to use.\n\nTry it out! https://t.co/Nqjzz7EyVO",
+      "url": "https://x.com/amasad/status/2082504898801999990",
+      "likes": 1417,
+      "retweets": 51,
+      "is_quote": true,
+      "quoted_id": "2082496843368255985"
+    },
+    {
+      "source": "Aaron Levie",
+      "handle": "levie",
+      "tweet_id": "2082658870523248967",
+      "date": "2026-07-30T02:45:43.000Z",
+      "text": "Thought provoking post by Dwarkesh. In general - as AI gets more powerful - we should expect on the margin that inference goes toward the most economically useful task, and everything else gets priced out. \n\nThis in theory in a very scarce environment would cause the cost of inference to skyrocket because those tasks would be far more valuable than today. \n\nBut I don’t think it plays out in the way that’s laid out just simply due to market forces competing for inference demand as a way of continuing to drive down prices until capacity can catch up.\n\nThere are too many model providers and infra players that want these workloads to cause the effect that’s proposed here. But will see!",
+      "url": "https://x.com/levie/status/2082658870523248967",
+      "likes": 133,
+      "retweets": 10,
+      "is_quote": true,
+      "quoted_id": "2082482530209411419"
+    },
+    {
+      "source": "Aaron Levie",
+      "handle": "levie",
+      "tweet_id": "2082514776392175844",
+      "date": "2026-07-29T17:13:08.000Z",
+      "text": "The openai agent sandbox escape actually has very real implications for the diffusion of AI in the enterprise. The incident showed the power and capability of agents, and the need to harden systems and environments to prepare for agents.\n\nThere are tons of measures that enterprises must take to ensure that agents are only able to operate on the data they give it, the ability to have audit trails and governance of what agents can do, figure out what systems should remain deterministic vs. nondeterministic, get access controls under control, have the ability to quickly block and defend if an agent goes rogue, and much more.\n\nEven in the happy path case with a good actor, if you give an agent a task like \"find all of our most important IP on project Maven\" it will gladly go out and execute that work -no matter how long- and find any resource relevant to the task. It might run into data with out of date access controls or reveal something that you shouldn't know about. Then, in the non-happy path case with a malicious actor the risk is clearly far worse.\n\nIn theory, you had to worry about this for people as well, but with AI the risks are inherently amplified. Agents will happily spend any amount of time on a task, don’t actually face any *real* risks by going rogue, and don’t have the inherent judgment (yet) that a person does that a task might make no sense. This means you need an all new way of managing data and protecting environments.\n\nThis obviously creates a huge opportunity for the startup and security ecosystems because there will be many different approaches to how we lock down agents or at least the underlying systems they work with. It should update everyone’s timelines on diffusion, though, as it also means that enterprises will have another step of work they have to go through for agents to handle more autonomous work.",
+      "url": "https://x.com/levie/status/2082514776392175844",
+      "likes": 148,
+      "retweets": 24,
+      "is_quote": true,
+      "quoted_id": "2082232405629235649"
+    },
+    {
+      "source": "Ryo Lu",
+      "handle": "ryolu_",
+      "tweet_id": "2082539893729972320",
+      "date": "2026-07-29T18:52:57.000Z",
+      "text": "your agents, anywhere\n\ntry Cursor on iOS today https://t.co/cUpj159sqj",
+      "url": "https://x.com/ryolu_/status/2082539893729972320",
+      "likes": 371,
+      "retweets": 9,
+      "is_quote": true,
+      "quoted_id": "2082532273421955513"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2082529714162536926",
+      "date": "2026-07-29T18:12:30.000Z",
+      "text": "The AI Datacenter Degrowthers are winning and it is actually a psy-op happening under our noses, and it's winning in every blue state\n\nhttps://t.co/svoLRmiRhD https://t.co/90vXFe4Ydq https://t.co/SdOOWXAZ7b",
+      "url": "https://x.com/garrytan/status/2082529714162536926",
+      "likes": 189,
+      "retweets": 22,
+      "is_quote": true,
+      "quoted_id": "2082173948318384265"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2082518742752461268",
+      "date": "2026-07-29T17:28:54.000Z",
+      "text": "Manhattan Institute is the truth https://t.co/mN8Qi19I0u",
+      "url": "https://x.com/garrytan/status/2082518742752461268",
+      "likes": 113,
+      "retweets": 13,
+      "is_quote": true,
+      "quoted_id": "2082440084125532410"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2082472533337813241",
+      "date": "2026-07-29T14:25:17.000Z",
+      "text": "Seasoned founders in the age of intelligence are aging like fine wine https://t.co/XVdaAVdine https://t.co/PXnKOcAQ9Q",
+      "url": "https://x.com/garrytan/status/2082472533337813241",
+      "likes": 2046,
+      "retweets": 171,
+      "is_quote": true,
+      "quoted_id": "2073858886180942200"
+    }
+  ]
+}
