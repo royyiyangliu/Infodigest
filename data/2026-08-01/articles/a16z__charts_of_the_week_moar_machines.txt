@@ -1,0 +1,104 @@
+Source  : a16z
+Title   : Charts of the Week: Moar Machines
+Date    : 2026-07-31 14:01 UTC
+Link    : https://www.a16z.news/p/charts-of-the-week-moar-machines
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+Moar Machines
+There’s been a
+delicate dance
+in the public markets about who or what constitutes an AI winner and/or loser. To vastly oversimplify:
+Oh, AI is going to render software obsolete . . . well maybe not everyone, and not yet, but eventually . . . but, in all events, all that AI disruption must be good for the business of serving AI . . . except that we really don’t like how much this all costs to build . . . but that’s at least good for the AI infra supply chain, which is where all the money is going . . . but, we’re also not sure it’s going to last, so . . .
+And around and around it goes. Mr. Market doesn’t always make sense, because of course, Mr. Market doesn’t have to make sense, because there is no single Mr. Market.
+That’s true so far as it goes, and we offer no view of what the future Mr. Market will think, but we can at least offer a view of the present and past.
+In this case, returning to the question of “
+yes, demand for AI infra is huge, but will it last,
+” one key player in the supply chain recently said something kind of interesting. Vertiv, a major supplier of cooling and power infrastructure for data centers—and a big winner of the buildout—added a substantial $3.27B in revenue for ‘Q2, but still undershot its revenue guidance by ~$76M (and undershot the street’s higher consensus guide by ~$120M).
+The company blamed the miss on “
+minor timing shifts, primarily due to temporary supply chain congestion and multi-phased project execution as deployments scale in size and complexity
+.”
+That sounds reasonable enough. Still, if Vertiv is having supply-chain issues, then presumably they’re not alone. And, if that’s the case, then does “supply chain congestion” materialize elsewhere in the data? The answer is “maybe yes, maybe no” but the more striking thing is simply visualizing (again)
+how substantial the demand for “machines” has been.
+Census collects data on manufacturing orders, and the growth for some of these data center components is a thing to behold:
+Orders for Data Center and power-related machinery—HVAC, turbines, etc., and oil & gas—have nearly doubled from the previous decade levels. HVAC especially is just the hottest thing (and sits squarely in Vertiv’s wheelhouse), which makes sense, given all the heat that high energy compute generates.
+In terms of Vertiv’s supply-chain issues—or at least demand running ahead of supply—there too the data tells the story. Sort of.
+Unfilled
+-orders for computer and electronic products, which includes semiconductors, underwent a step-change ~2023, and inflected steeply upwards again, quite recently:
+“Unfilled-orders” is a proxy for a supply-demand imbalance (albeit an imperfect one) for the obvious reason that orders tend to go unfilled when demand exceeds supply. It doesn’t necessarily tell you, though, if there’s a supply-chain issue, or if demand is simply more than what supply can handle.
+A somewhat better proxy for supply-demand v. supply-chain is the “backlog ratio,” which divides the backlog by monthly shipments. In that case, a bigger backlog balanced against even more shipments, would imply that demand is simply continuing to grow ahead of growing supply, but that supply chains are working just fine.
+In this case, the backlog ratio looks pretty stable—definitely high, but stable.
+At just under 6 months (i.e. the time it would take at current volumes to fill unmet orders), the backlog is very high relative to prior, but about the same as it’s been since 2024. So, no supply-chain issues there, but for comparison’s sake, the NY Fed’s Global Supply Chain Index (also on the chart) has most definitely inflected upwards, such that “supply chain pressure” is nearly two standard deviations higher than usual.
+So, clearly there are some global supply chain issues, but whether those are impacting data center machinery specifically, it’s hard to say. The truth is that even if the supply chain disruptions did impact machinery imports, that could have the effect of slowing new orders, which would keep the import ratio in balance, anyway. Again, the data is inconclusive.
+One last thing to look at: actual international import data. Census counts the stuff moving in and out of the country, so we can see if there’s been any change—perhaps a sudden drop in physical imports:
+No dice. For the categories of imports closest to what data centers need for power and cooling, once again, the story looks pretty stable.
+Other than “power conversion,” where physical units are ~23% lower than they were back in Jan. ‘25 (while prices are ~25% higher), every other category of import is about as numerous as it’s been for the past year and a half.
+Prices
+have gone up substantially, but the physical flow of goods is mostly unchanged. So, perhaps converter machinery has become snaggled in the supply chain, but for the other categories, the picture looks ‘business-as-usual.’
+Of course, the counterfactual of how much higher imports might have been without a supply-chain disruption is unknowable from this data alone, so we’ll just have to take Vertiv (and the NY Fed) at their respective word.
+What does it all mean? The same thing it’s meant for a while now: demand for (and imports of) AI infrastructure has been historically high, and well-ahead of what supply can timely meet. Maybe supply-chain disruptions have made it worse, maybe not—
+certainly dependency on Chinese imports has been a concern
+, as has the potential impact of a production backlog on timely data center development, but that’s been true for a while.
+Bigger picture, though, if demand for AI infra has slowed, it’s certainly not showing up in this data.
+It’s Never Been Easy for Entry-Level Hires in Tech, and Remote Work Has Made it Harder
+We’ve pointed out previously that when it comes to
+the “AI Took My Job” story, the data simply does not support the claim
+, and if anything,
+points the other direction
+. While it’s still too early to know the true labor impact effects, for now at least, the evidence suggests that AI has been more a jobmaker than jobtaker.
+That said, there has been one persistent weak spot in the job market, and
+that’s at the entry-level
+. It’s hard for young folks to get hired. There too, however, there’s
+some evidence that AI is making, rather than taking entry-level jobs.
+But that’s all stuff that we’ve covered before. This week’s observation is that it turns out that entry-level jobs have
+always
+been a fairly small part of the tech hiring pie, and that hasn’t changed much, at all:
+Not that it’s much consolation to the people struggling to get hired, but entry-level job postings in Tech are roughly ~5% of overall postings, and it’s been that way since 2019. If anything,
+mid-level hires
+are getting squeezed, while senior hires increase their share. In fact, if there’s any sector to blame for less entry-level hiring it’s healthcare, where the entry-level share is substantial, but falling since 2023.
+When it comes to tech, though, a more plausible explanation for entry- or perhaps mid-level hiring malaise is that
+workers are working longer,
+and that
+WFH/Remote Hiring has unlocked a global talent pool
+for tech to hire (creating less of an impetus to hire relatively inexperienced local options).
+According to data from ADP, the “long distance hire rate” jumped during the pandemic and has held steady at 26.4%, or ~30% higher than before:
+Despite all the RTO mandates, hiring remotely has been a tough habit to kick.
+And which sector has increased its share of “long distance arrangements” the most? It’s tech:
+Again, according to ADP, Information (and Technical Services) have 45%+ of workers in some kind of long distance relationship—more than any other sector, and substantially more than before the pandemic.
+That number sounds too high to believe, and maybe so, but the direction passes the smell-test. AI probably didn’t take your job, but WFH certainly may have.
+AI Demand and Spending Show No Signs of Slowing
+With all the chatter around open weight model competition, token pricing, and demand, it’s always instructive to take a quick peek at some actual, albeit imperfect,
+indicators of AI spend
+.
+The first indicator has spread like nightmare fuel, but what it actually represents is a good deal more nuanced:
+Silicon Data’s Token Cost Index has been in mostly serial decline since its May peak.
+AI Demand Is Collapsing! Run for the Hills!
+Well, no, not necessarily. As per SiliconData, the index measures token-spend
+intensity
+. It’s a combination of how many tokens are being consumed and at what cost. To oversimplify somewhat, if demand for high-cost tokens increases, but demand for lower-cost tokens increases even more, then the index will fall—even as overall demand increases.
+Is that what is happening right now? It’s hard to say. But other data suggests that that may very well be the case (and that otherwise demand and spending are both alive and well).
+As per YipitData’s analysis of OpenRouter data, the combined B2B spend on Cursor, Anthropic and OAI is increasing both in total and at the median (for the four biggest spending industries):
+Unsurprisingly, software is by far the biggest spender, but business services, consumer and especially financials, are all trending up and to the right.
+That financial services would be ripe for AI adoption has been conventional wisdom all along, and there’s plenty of other evidence that banks, investment management and other financials are investing heavily in AI.
+Likewise, also from Silicon Data, both spot GPU rental rates, and longer-term contract pricing continue to climb:
+With the exception of A100 spot-pricing (which is pretty stable), renting a GPU continues to get a little more expensive—and not just for the latest edition.
+As for longer-term agreements, arguably a better indicator of demand, the term-rate curve for the H100—the second oldest GPU in the set—has moved progressively higher in recent weeks (and is much higher than it was in November of last year):
+12-month pricing for the H100, according to Silicon Data, sits just under $2.50/GPUhr—almost 40% higher than it was in November of last year.
+So much for GPU obsolescence.
+For what it’s worth, and this data is from earlier in the week, prediction markets think the H100 is only getting pricier:
+Kalshi markets put the rental rate at ~$2.78/hr, or about 5 cents higher than what it was when the data was collected.
+Make of this what you will, but this data at least suggests that both demand and spending continue to cook.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
