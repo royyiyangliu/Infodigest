@@ -1,0 +1,78 @@
+{
+  "date": "2026-08-02",
+  "generated_at": "2026-08-01T23:34:57.614123+00:00",
+  "stats": {
+    "tweets": 8,
+    "podcasts": 3,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad 展示了一个仅 **8B** 参数的国际象棋模型，Elo 约 **1500**，能稳定击败前沿大模型以及 Stockfish level 0。他强调这个小模型通过\"响应链\"(response chaining) 竟能压制开启高强度推理的 GPT 5.6，且每步只花 **1-2 秒**，而对手需要 **30 秒**，借此说明专用小模型在特定任务上对通用大模型的效率与性价比优势。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch 认为软件正转向\"agentic software factories\"（智能体软件工厂），核心工作流将是 Issue → Agent → PR → Release 的循环，作者/维护者的职责从写代码转变为打磨这条循环、并设定\"该做什么\"的标准。他同时推广 Vercel 的 AI Gateway，主打按 key/团队/项目设预算、故障自动切换保障可用性、模型与厂商自由选择、以及实时可观测性，并调侃一味\"堆 token\"(token-maxing) 的做法该醒醒了，AI 要成为有回报的投资需要这类基础设施。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie 提出，harness（智能体框架/编排层）正成为 AI 技术栈中仅次于模型能力的最重要变量：它能否高效拆解任务、在合适时机路由到合适模型，将直接决定准确率与成本。他指出当任务只消耗几十万到几百万 token 时 harness 影响不大，但当任务动辄消耗数千万乃至数亿 token 时，harness 将成为关键变量，且当前仍处于极早期阶段，机会巨大。"
+    },
+    {
+      "author": "Nan Yu",
+      "handle": "thenanyu",
+      "summary_zh": "Linear 产品负责人 Nan Yu 分享了 Linear 中最常见的智能体循环 Issue → Agent → PR → Release，并透露约 **30%** 的 bug 能完整走完这一流程。他强调实践中的关键细节：应要求智能体深入调查问题根因、借助 Datadog 与 Sentry 的 MCP 收集更多证据，只有在高确定性时才尝试修复，否则会白白烧掉大量 token；若需要更多信息（如复现步骤），智能体应主动在 issue 下留言索取——像对待人一样，智能体也需要被明确告知良好实践。"
+    },
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "AI 工程师、Latent Space 主理人 Swyx 坦言自己是 AI 圈中少数仍在坚持使用 /loop 和 /goal 的人，认为那些已放弃的人\"错得太早\"——在 g5.6/c5 这一代模型下，当你想要可操控性与自主性的恰当平衡、或想要\"生成循环的循环\"这类开放式终态而不必细化路径时，这类工具依然管用。他还观察到\"vibe coding\"一词的贬义色彩已彻底消失，因为从非技术到超技术人群如今人人都在这么做。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator 首席执行官 Garry Tan 推荐了团队自研并日常使用的开源 harness，称个人 AI 或公司\"大脑\"都需要一个干净的 harness，且免费开源。他还发表政治观点：若民主党想赢下关键选举，应研究旧金山过去五年的地方政治，尽早且反复地把本地的\"民主社会主义者\"选下台。"
+    },
+    {
+      "author": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "summary_zh": "投资人 Zara Zhang 转述了一场关于 Anthropic 内部工作方式如何被 Claude Tag 改变的访谈：Anthropic 产品与工程团队如今有 **65%** 的 PR 由 Claude Tag 发起。她认为对非工程团队而言，终极的智能体界面就是他们本就在用的工具（如 Slack），并以自身经历为例——与智能体协作的界面从 1 月的终端、3 月的桌面应用（如 Codex）到 6 月的协作工具，每一步都更贴近人类自然沟通的方式，智能体应主动\"到用户所在之处\"。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI Codex 团队的 Thibault Sottiaux 宣布，为庆祝\"效率之周\"并让用户在周末跑满 **10 万** 个 Luna 线程，已重置 Codex 与 ChatGPT Work 的用量限额，透露出 OpenAI 正大力推动其编码/办公类智能体产品的使用规模。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "硅谷101",
+      "title": "E246｜何谓蒸馏？聊聊硅谷如何看中国开放模型逼近前沿",
+      "date": "2026-07-31 17:00 UTC",
+      "duration": "1:07:12",
+      "link": "https://podcasts.apple.com/us/podcast/e246-%E4%BD%95%E8%B0%93%E8%92%B8%E9%A6%8F-%E8%81%8A%E8%81%8A%E7%A1%85%E8%B0%B7%E5%A6%82%E4%BD%95%E7%9C%8B%E4%B8%AD%E5%9B%BD%E5%BC%80%E6%94%BE%E6%A8%A1%E5%9E%8B%E9%80%BC%E8%BF%91%E5%89%8D%E6%B2%BF/id1498541229?i=1000779348807&uo=4",
+      "summary_zh": "硅谷101对话前Hugging Face亚太开源生态负责人王铁镇与Tiny Fish联合创始人Kiss J，复盘月之暗面Kimi K3（**7月16日**上API、**7月27日**开源完整权重）在硅谷引发的震动：开源模型再次追平甚至局部超越前沿闭源模型（Fable/飞博），令闭源实验室\"护城河\"承压。\n\n**成本与技术**：开源推理更便宜有三重结构性原因——无闭源溢价、中国厂长期死磕scaling efficiency、算力受限倒逼小模型。K3报告显示其比K2大**一倍多**，但scaling efficiency提升**2.5倍**；参数约**3T不到**，却能对标传言中**8~10T**的Fable，得益于KDA等linear attention技术（该领域主要由华人研究者主导）。单位智能成本过去几年已降**1000倍**，嘉宾预计未来3年靠硬件、ASIC与软件优化还能再降**1000倍**。\n\n**蒸馏争议**：蒸馏本是中性技术词，现被污名化。嘉宾判断K3未蒸馏Fable——十多天（Fable5约7月初发布）不足以完成训练；模型自称身份错乱只是数据污染；且闭源不暴露logits/思维链，开源反而极难蒸馏闭源。证据倾向存在未授权大规模API抓取，但不等于核心能力来自蒸馏。\n\n**商业模式**：K3采用独立license，卖模型且关联方连续12个月收入超**2000万美元**者需另签协议（不含终端应用），意在向云厂/MaaS厂收费分成。\"能赚钱的开源模型才可持续\"，若跑通则是无本万利，优于自建推理。\n\n**对闭源冲击**：OpenAI、Anthropic今年拟上市，开源普及压制其估值体系与margin，或陷价格战（已现Anthropic封号趋松、ChatGPT发券）。英伟达等推《开放权重与美国AI领导力》公开信（黄仁勋X首推，7月24日约**25家**、几天内增至**75家**），Anthropic未签、Dario另发文。\n\n**安全**：K3在exploit bench仅**30%多**，远低于前沿模型**75+**。嘉宾主张智能与攻击性相互独立，开源模型可下载、本地受控运行，反而比随时可能被封禁、运动员兼裁判的闭源模型更安全；应从训练语料层面监管而非限制用户行为。"
+    },
+    {
+      "source": "乱翻书",
+      "title": "270.大厂押注AI办公，飞书和钉钉却先成了配角",
+      "date": "2026-08-01 07:44 UTC",
+      "duration": "01:37:09",
+      "link": "https://podcasts.apple.com/us/podcast/270-%E5%A4%A7%E5%8E%82%E6%8A%BC%E6%B3%A8ai%E5%8A%9E%E5%85%AC-%E9%A3%9E%E4%B9%A6%E5%92%8C%E9%92%89%E9%92%89%E5%8D%B4%E5%85%88%E6%88%90%E4%BA%86%E9%85%8D%E8%A7%92/id1591595410?i=1000779394455&uo=4",
+      "summary_zh": "乱翻书三位嘉宾（含飞书前员工Eric、行业观察者明浩与亚楠）复盘字节将飞书\"分拆\"、BAT集体押注AI办公的行业变局，投资视角要点：\n\n**分拆真相**：飞书产品团队并入豆包企业版、商业化并入火山引擎，但研发汇报线（邓刚→定坤）未变。Eric认为实为\"豆包企业版并入飞书、汇报谢欣\"——豆包企业版本质只是飞书企业版加个叫豆包的机器人，销售逻辑是\"买豆包送飞书\"，因老板更愿为AI付费。\n\n**谁更需要谁**：共识是豆包更需要飞书作为To B变现入口。豆包C端**2亿日活**，日耗**百万亿级token**，年成本达**大几百亿人民币**且无变现，C端三条路（GMV仅几万单、品牌广告天花板约几千万、C端付费率极低）全废，只能转B端。对比A社（Anthropic）**小几千人**、年收入超**500亿美金**已超OpenAI，而第三名（cursor）仅**小几十亿美金**，凸显字节人效之低。飞书ARR约**10亿美金**。\n\n**隐藏价值**：豆包数据与抖音/巨量引擎账号打通，可提升字节年近**1000亿美金**广告的算法精度，\"羊毛出在猪身上\"——ROI提升1%即10亿美金。\n\n**行业范式**：AI办公由Claude Code/OpenCloud（\"小龙虾\"）春节引爆，决策周期压缩到\"按月算\"，work成为26年共识。腾讯WorkBody（前身CodeBody，姚舜宇称支持**百万多日活**）由边缘小团队\"长出来\"再被托举，暴露字节大公司病与AB test文化在AI时代失效。coding as harness成核心共识，codex定义三栏产品形态。\n\n**核心投资命题**：个人生产力与企业办公边界模糊，AI办公付费者或是个人员工而非企业采购；传统To B企业服务故事阶段性结束，均需靠AI讲更大估值故事。三家BAT（腾讯WorkBody、阿里千问办公、字节豆包企业版）加360纳米Work、WPS Work混战，胜负未定。"
+    },
+    {
+      "source": "Unsupervised Learning",
+      "title": "Ep 92: xAI Co-Founder Unpacks the Future of Model Development",
+      "date": "2026-07-31 15:15 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/@RedpointAI",
+      "summary_zh": "xAI 联合创始人 Igor Babushkin（曾在 DeepMind 主导 StarCraft/AlphaCode、在 OpenAI 参与早期推理研究）离开 xAI 后创立新公司 River AI，聚焦\"个人 AI\"。他判断继编程之后，AI 的下一个前沿是科学发现（数学可借 Lean 形式化获得可验证奖励），但物理世界实验数据是最大瓶颈；未来会出现\"分化\"：少数人用运行一次成本达 **百万美元** 的超级 AI，大众用日常个人 AI（奖励函数是\"最大化人的幸福感\"）。\n\n投资要点（对闭源大厂偏空）：Igor 认为预训练已现边际递减，模型强到一定程度反而因监管/安全无法发布，而开源模型每月逼近前沿——闭源厂商（OpenAI、Anthropic）正被\"上限受管制、下方被开源追赶\"两头挤压，出路只有持续创新。他预测企业将越来越倾向自己后训练模型而非把数据交给大厂，尤其是拥有独特 IP（药企试验、芯片设计）的公司；数据全在公网上的公司最危险。\n\nRiver 三大押注：① River API（强化学习/微调服务，对标 Thinking Machines 的 Tinker，主打工程优化、更便宜可扩展）；② 个性化（打破\"对所有用户一致\"训练范式，端到端训练个人 Agent，类比 TikTok/YouTube 推荐系统）；③ 本地硬件（把前沿模型塞进家用/办公单设备，主打控制权、隐私、低延迟，突破显存限制是研究难点）。\n\n生态观点：当前可用开源模型几乎全是中国出品，存在停发权重、改许可（超一定营收需签合作协议）、理论后门（他目前不担心）等风险，强烈呼吁\"美国团队训练出全球最强开源模型\"。他透露 xAI 从零起步、Colossus 数据中心 **120 天** 建成、不到 **两年** 做出 Grok 3/Grok 4 到达前沿，盛赞 Elon 第一性原理与对工程师的尊重；认为 xAI 被 SpaceX 收购并收购 Cursor 是极聪明的一步（获取真实编程数据与 RL 环境）。他呼吁\"减速\"不现实（美国经济已依赖 AI、中国紧追），应加速对齐研究，长期靠人机深度共生（乃至 Neuralink）保持人类相关性。"
+    }
+  ],
+  "articles": []
+}
