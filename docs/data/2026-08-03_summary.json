@@ -1,0 +1,52 @@
+{
+  "date": "2026-08-03",
+  "generated_at": "2026-08-02T23:34:28.570061+00:00",
+  "stats": {
+    "tweets": 6,
+    "podcasts": 1,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Andrej Karpathy",
+      "handle": "karpathy",
+      "summary_zh": "前特斯拉 AI 高级总监、OpenAI 创始成员、Eureka Labs 创始人 Andrej Karpathy 认为，\"让 LLM 画自行车上的鹈鹕 SVG\"这类经典测试正在过时，需要更难的评测方式。他做了一个实验：给 Opus 5 提供《指环王》第一段文字、**100 万 token 预算（约 10 美元）**，要求生成三维 JS 渲染，模型自主运行约 **2 小时**、写了 **5500 行代码**程序化地把故事渲染出来，效果虽粗糙但可用。他的核心洞见是：LLM 拥有无限耐心，能把过去\"没人愿意花时间做\"的超定制内容变成\"近乎免费\"，未来或可按需生成可让玩家进入的超定制世界（如\"随时生成的某题材 GTA\"）。同时他指出当前模型的明显短板——无法高效原生地感知视频或玩游戏，Opus 5 只能靠缓慢截图来审查自己的成果，多模态与游戏交互能力仍严重不足。"
+    },
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "AI 工程师、AI Engineer 大会组织者、Latent Space 播客主理人 Shawn Wang（Swyx）力荐 Boundary 团队 @vaibcode 的演讲\"以 slop 对抗 slop\"，并赞同应从第一性原理重新思考代码如何运行、打造 AI 原生的编程语言。他的核心观点是：让系统\"容忍 slop（低质量 AI 生成内容）\"比单纯\"反 slop\"要有价值 100 倍。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品专家、Behind the Product 简报作者 Peter Yang 直言不讳地评价 Anthropic 的模型：他认为 **Opus 4.6** 才是个性与写作风格最好的 Opus 版本，而 **Opus 5** 有些不对劲——回复过于冗长、过度使用\"Claude 腔\"（如动辄\"说句实话\"），且过于爱评判。他感叹 Opus 过去像值得信赖的朋友般令人愉悦，如今已不复当初。"
+    },
+    {
+      "author": "Nan Yu",
+      "handle": "thenanyu",
+      "summary_zh": "Linear 产品负责人 Nan Yu 提出一个开源协作新机制设想：用户在开源仓库提 issue 时可\"质押 token\"并附上规格说明，若维护者接受，GitHub 便把该 issue 原样交给云端编码 agent、由请求方付费执行，以此杜绝\"低质量 PR（slop PR）\"。他还补充了交互细节：agent 会在 issue 下留言并附带全部上下文，当你回复补充信息、解除阻塞后，agent 会自动继续工作。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 联合创始人兼 CEO Aaron Levie 预测：AI 在个人生活/日常生产力与数学、科学、法律、编程等纵深专业领域的能力将日益分化。此前因模型只是\"泛泛地略有用处\"，各领域受益较为均衡；如今纵深领域的能力即将\"垂直起飞\"。普通人在日常中不会直接察觉这些进步（长期会间接受益），但相关领域的专家会强烈感知到——且不同于消费场景需求容易被满足，专业领域的能力需求没有天花板。他同时指出这会带来\"能力过剩\"（capability overhang），因为许多性能提升需被应用到具体数据集与工作流中才能转化为生命科学、现实世界自动化、新型网络能力等突破。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 创始人兼 CEO、Next.js 作者 Guillermo Rauch 转发并推荐了一款基于其技术栈（Vercel + Next.js）构建的开源 agentic CRM，称赞其模型无关（model-agnostic）、可自托管或无服务器部署、多渠道且无头（headless）的架构，认为\"这才是正确的方式\"。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "No Priors",
+      "title": "Building an Autonomous Enterprise for Real-World Services with Netic Founder Melisa Tokmak",
+      "date": "2026-07-31 10:00 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/watch?v=wWbX3NL6_Uo",
+      "summary_zh": "本期 No Priors 对话 Netic 创始人兼 CEO Melisa Tokmak（前 Scale AI 工程总监，曾建其政府及大企业业务线；节目提及 Meta 就 Scale 达成约 **300 亿美元**级别交易）。Netic 成立 **两年**，为 HVAC、管道、电气、宠物、康养、酒店、汽车等\"必需型服务\"大企业提供 AI，横亘于企业与其数百万终端消费者之间，自动处理来电、来信、网站预约、外呼、分析乃至派工调度，唯独把上门服务的蓝领劳动力留给人类。\n\n关键数据：目前 **超过 70%** 的客户已是\"Netic first\"，即其客户与公司的首次交互由 Netic 智能体完成；平台迄今已通过 AI 处理的交互为客户创造 **逾 6 亿美元** 营收。这些企业多为私募股权（PE）持有、重 EBITDA 与利润率、且具周期性（冬夏、假期为旺季）。单笔合同可达 **50 万美元**，端到端签约仅 **14 天**，反映客户务实、重 ROI。\n\n投资视角要点：（1）她刻意选择做可复用、可复利的软件产品，而非 AI roll-up（并购整合），认为后者产品只服务自购公司、无法横向扩展。（2）对大模型实验室不视为竞争威胁——实验室追求最泛化解法（\"等 AGI 再解决\"被她视为思维偷懒），而必需服务需大量\"最后一公里\"的编排、harness 与产品，Netic 须在模型、编排、产品三层都做好。（3）不认同 AGI 焦虑与\"18 个月不暴富即永久底层\"的 Z 世代心态，强调长期主义与工匠精神。（4）判断机器人替代仍需数十年（建筑非标准化、灵巧度不足、且含强人性化因素）。（5）PE 打法已变：低估值\"珍宝\"标的不再，转向为组合公司创造真实增量价值；但对话仍常先聚焦降本，需引导其看到 AI 带来的净新增收入。她个人最看好 AI 在教育与健康等正向普惠场景的应用。"
+    }
+  ],
+  "articles": []
+}
