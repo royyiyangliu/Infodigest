@@ -1,0 +1,260 @@
+Source  : a16z
+Title   : Marc Andreessen & Chris Dixon: Why America needs CLARITY
+Date    : 2026-08-03 16:01 UTC
+Link    : https://www.a16z.news/p/marc-andreessen-and-chris-dixon-why
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+We’re at a pivotal moment for the
+CLARITY Act
+—the landmark crypto market structure legislation making its way through Congress. Marc Andreessen and Chris Dixon did a podcast together to share their views on what’s at stake if it passes or stalls.
+Robert:
+Congress is currently hashing through some
+legislation
+— once-in-a-generation market structure legislation — that could determine where the future of the financial system and internet gets built. It
+passed
+in the House last year with bipartisan support, and it has been making its way through the Senate ever since.
+Now, there have been lots of fights and obstacles over it, which we’ll get into. But before we do, I wanna zoom out and go big picture and talk about why regulatory clarity matters, what the status quo costs us, and what’s at stake for the country and for anybody who may end up using this technology.
+So Marc, I’d like to start with you. Back in January 2014, you wrote an op-ed for
+The New York Times
+called “
+Why Bitcoin Matters
+.” Things were a little bit different then. This was a pretty contrarian position to stake out. The crypto industry, which, if you could even call it that back then, looked very, very different.
+How have things changed from then to now?
+Marc:
+Yeah, sure. So 2014 was so long ago that
+The
+New York Times
+actually ran a positive piece on crypto. This was in the distant past. It might as well have been the 1500s.
+I’m actually really proud of that piece. I think it holds up in a few respects. This piece is five years into the macro trend. And it was still big news even to believe that this technology mattered at all.
+Like, there were still a lot of people who were going to have to learn about this, want to learn about this, and be part of it. And so I think that holds up. The thing that, in retrospect, needs to be changed about the piece is every time I say Bitcoin, swap in crypto, right?
+And so the idea was that Bitcoin would be extended to basically enable both
+tokenization of real-world assets
+and also virtual assets like NFTs. Of course, that didn’t happen. And what happened instead was the creation of new blockchains and new crypto platforms, and then ultimately Ethereum and everything else that followed.
+And so what started as a technology became an industry. Now, Bitcoin obviously has been very successful since then, but what we’ve really seen since then is this explosion of innovation.
+Robert:
+It’s actually remarkable how well that piece holds up.
+But there is one forecast in there that I want to cite in particular that stands out: “The coming years will be a period of great drama and excitement revolving around this new technology.” I think you were spot on there.
+Chris, you’ve been there since the start as well. How have things changed from the early days to now?
+Chris:
+So in the early days, it was mostly kind of hobbyists and super enthusiasts, and kind of a subculture, cultish thing.
+The technology, which was Bitcoin, was sophisticated, but — a lot of the things Marc alluded to — the newer blockchains early on had performance issues, scaling issues, and other kinds of things. Fast-forward to today: Every day you’ll see a new announcement
+from a major bank or fintech company
+announcing a platform involving stablecoins or tokenized stocks or other kinds of digital assets.
+So
+stablecoins
+— for those who don’t know — are basically what Marc described with Bitcoin, except they’re dollars on blockchains. They now
+rival
+the size of the Visa network, with trillions of dollars transacted. You can go into WhatsApp and send money anywhere in the world for almost free in the same way you’d send a text message, using stablecoins.
+It’s the way money
+should
+work.
+Marc could speak to this as one of the pioneers of the internet — but I think it was one of the ideas that early internet pioneers expected to happen much sooner. And for a variety of reasons, it took a lot longer, but we’re now finally seeing that dream come alive, with money moving
+as easily as bits
+.
+a16z crypto
+your guide to the next internet from the team at a16z crypto
+So now it’s a very mature industry. The technology — the underlying infrastructure — has gotten much more sophisticated. Even three years ago, what I just described might cost a couple of dollars, if not tens of dollars, to do that transaction. Now, on most of the popular blockchains — Solana, Ethereum, and so forth — it’s sub-one second to settle the transaction, sub-one penny to send something.
+Why crypto needs rules now
+Robert:
+You cited that stablecoin volumes are now rivaling the Visa network. This is trillions of dollars per quarter, churning through this system. Lots of gigantic financial institutions
+have rushed in
+: BlackRock, JPMorgan, Visa itself,
+Fidelity
+, Mastercard.
+I mean, you could rattle off just any number of names, and they’re all building on this technology right now. But we’ve gotten this far without rules. So there’s been very little in the way of regulatory clarity or guidance.
+Why do we need rules now?
+Chris:
+So for a variety of reasons, the regulation around crypto was broken into two components — stablecoins and the rest of the market.
+Last year, a bill passed Congress — signed by the president — called the
+GENIUS Act
+, which provides a comprehensive regulatory framework for stablecoins. And it’s not a coincidence that stablecoins are also the area that’s taken off the most in the last year. Once you have regulatory clarity, builders have certainty. If you’re an American consumer, you know — if you use USDC or another GENIUS-compliant stablecoin — that if you have a dollar of that stablecoin, there is a dollar sitting in the bank.
+That gives you, as a consumer, confidence and protection. If you’re an institution — if you’re a bank, if you’re Stripe, if you’re PayPal — and you want to go and enter this market, you want to know there are predictable rules. That there’s a framework around it. That what you build will be compliant, not just next year — but in the next 10 years. You want to know there’s certainty.
+But the big, hanging problem right now is that you’ve got this other section of the market — including blockchains themselves, which stablecoins are built on — that
+doesn’t have a comprehensive federal regulatory framework
+. And that’s why the CLARITY Act, which is working its way through the Senate, is so important.
+So you can imagine it’s as if we had a regulatory framework for cell phones, but not for cell towers or something. Half the technology is regulated, the other half has this sort of uncertainty around it. People are still building there. People are trying to do their best to understand what the rules are.
+There’s this other lever of policymaking. Agencies such as the SEC and CFTC have provided some guidance. But ultimately what industries are built on — as you alluded to in the beginning with the internet — is legislation.
+So we think that’s what is required, and why the CLARITY Act is so important.
+Robert:
+So we do have some rules. They’re for stablecoins, as you mentioned. That covers a sliver of the market, but there’s this gigantic swath of the market that remains largely unregulated.
+Marc, why do we need rules for all of this, and why do we need them now?
+Marc:
+The US financial system has been through this many times before. The most famous case is the Securities Acts that created the SEC and regulated the stock market.
+We’re not looking for a free lunch. We’re not looking for subsidies. We’re not looking for protectionism. We’re not looking for support in that way. We’re just looking for a permanent framework that lets people do business responsibly. And I think it’s — in a lot of ways — the most obvious thing in the world.
+Chris:
+Right now, there is no federal regulator for crypto exchanges, as an example.
+The New York Stock Exchange, Nasdaq — they have federal regulators.
+A big chunk of the CLARITY Act is to provide that, so that the SEC and the CFTC have oversight. They put in disclosure regimes, anti-fraud regimes, insider trading rules, and all the things that we are used to — as Marc was saying — with other financial markets.
+It’s just the same kinds of rules with the same agencies overseeing them. So for example, FTX wasn’t audited properly. This is what ultimately happened, right?
+If you’re a federally registered crypto exchange, you’re being audited — there’s a whole suite of things that are in the act that would empower federal regulators to do their job.
+And if you’re not compliant with these things, you couldn’t operate in the US.
+There are a lot of hard details, and this has been a very bipartisan effort, which is why it’s been seven years or so that some of us have been working on the CLARITY Act. It’s now been over a year since the House passed its version of it, and the Senate has been working on it for a year.
+But this has been done before: Financial industries have been regulated, and the principles that are used in other industries are applied here. There’s a very strict framework with strict definitions of who is subject to these requirements. It applies all the same money laundering and Treasury rules to crypto intermediaries that are applied in other markets.
+The Fraternal Order of Police, the largest law enforcement organization in the country, just came out with its endorsement of the CLARITY Act. Opponents are saying it doesn’t have proper law enforcement clauses and rules, but this is simply not true.
+Illicit finance and how ambiguity rewards bad actors
+Robert:
+So let’s go over each of the debates going on. Illicit finance is one of the big ones.
+Chris:
+Right now it’s extremely unclear which entities are subject to what rules. What I’ve learned is that when you have gray areas in regulation, you essentially race to the bottom, right?
+I was on the board of Coinbase for a long time — Marc’s on the board. Coinbase is a US-based company. They take regulation and compliance extremely seriously. But for every Coinbase, it costs a lot of money, and it slows down your product development.
+And so every year, a new offshore competitor will pop up that doesn’t do those things and becomes popular because they can offer lower fees or iterate on their product faster, because they’re not doing all the compliance things.
+The ambiguity ends up favoring the bad actors. And so good regulation — I think the CLARITY Act does this — very clearly defines the regulatory perimeter.
+So as an example, in the CLARITY Act, if you’re a financial intermediary, if you’re somebody like Coinbase or a company that’s holding customer funds, you’re subject to all of the same rules as a company like Stripe or PayPal or anyone else.
+It’s black and white in the bill. And as I mentioned, there’s the endorsement of the various law enforcement agencies.
+Does CLARITY enable sanctions evasion? Why privacy is not the same as secrecy
+Robert:
+Marc, what do you think about this criticism that the bill enables sanctions evasion?
+Marc
+: I would say the national security people I talk to typically don’t agree with that, because there’s a trail. And that is contrasted specifically with how a lot of, for example, terror financing happens today.
+There have been people — even in industry — who have said things like, “Well, crypto is inherently anonymous. You can’t trace anything.” I think this stems from them not understanding the technology.
+Chris:
+It’s actually a non-trivial
+research problem
+that’s going on today to build blockchains that do have
+privacy
+because they are so public.
+We think that’s important — just not for nefarious reasons. Because if you want to pay for some service — maybe it’s a medical thing or a financial thing — you don’t want everyone to know about it, just like we do in the regular financial system. You want to have some privacy. It’s a natural thing.
+Since the GENIUS Act passed and dollar-denominated stablecoins have gotten more popular, we’ve actually heard in DC now that people are saying, “Well, what about privacy? You need to have privacy.”
+And like, yes, we agree. It actually is very reminiscent of the early internet when, Marc — wasn’t it you guys that invented SSL?
+Marc:
+Yeah, we did.
+Chris:
+And so for the kids who don’t know this — HTTPS was Netscape.
+And at the time it was like, well, who would need that? Why would you need to send secret stuff? And at the time, probably some bad guys did use it, but of course, over time, we all realized that was important. And 99.9% of it is, like, good behavior. It’s just people interacting with their bank or something.
+You guys had to go in front of Congress.
+Marc:
+It was a four-year fight. It was actually quite analogous to today. And so when we started, Netscape was the first piece of consumer software that got widely used that incorporated public key encryption — modern encryption with public keys.
+And at the time we shipped, we actually had to ship two different versions. We could ship a strong encryption version inside the US. Still, encryption was classified as a munition under what were called International Traffic in Arms Regulations (ITAR) export control rules at the time.
+So
+encryption
+was classified in the same category as a Tomahawk missile, which meant that the Netscape browser was classified in the same category as a Tomahawk missile. So we had to ship deliberately insecure versions of the product overseas — and you can imagine how much our overseas customers enjoyed that.
+And by the way, we clearly labeled it on the box, which was like “weak encryption — do not trust this.” They get this, and you can imagine how that went for sales. And of course, what happened was foreign competitors immediately stepped in, started cloning it, and started making strong encryption.
+So people outside of the US didn’t use our product. They used products that were made outside the US. And so we went to Washington — as you do when you’re a kid, you go to Washington — and you explain things logically, and they tend to stare at you like you’ve grown a third eye.
+And so you start to get into the specifics of it. But then you get into this fundamental dichotomy, which is like, okay, is encryption bad because bad guys are going to do bad things with it? Or is it good because it is the key to establishing trust, being able to do business, and for law-abiding citizens, both here and overseas, to cooperate and conduct business?
+And so it’s like, do you want to eliminate the risk of any cybercriminality? Or do you want to make Amazon.com possible? And these questions are deeply intertwined. And so anyway, it was this very long education process.
+It took four years. It took a very, very long time to unwind. They did ultimately make that change and, by the way, the world did not end for several reasons. One is, as you said, overwhelmingly the use cases were positive.
+And the other incredibly positive thing that happened was American industry won. Not just Netscape, but the global internet economy is dominated by American companies.
+How ethics and market structure are separate questions
+Robert:
+So let’s talk about some of the other objections to the bill. Another big one is ethics reform. So the president and his family members have interests in crypto businesses. The critics say that this bill will enrich the people who are most vocally supportive of it. How do you address that?
+Chris:
+It’s not my area of expertise, but I’ll say as a citizen, I think there should be ethics rules for government officials. I don’t think those should be exclusive to crypto. I think there should be ethics rules around trading stocks and, for sure, other financial assets. That seems reasonable to me.
+Number two: the CLARITY Act, even without specific ethics provisions, will add significant restrictions to anyone in crypto, including requirements for disclosures around the risks and holdings of a crypto asset. It will add lockup requirements. So it’s only an increase in the restrictions that would apply to anybody, including government officials.
+And then point number three: what’s been frustrating from a political point of view is that, normally, government ethics rules are done separately, and an industry is regulated separately. So this is very exceptional. This industry is being held to a completely different standard than other industries. That said, I think that a very reasonable debate for people to have and for politicians and policymakers to figure out is what the ethics rules should be for all financial assets, including crypto.
+I hope they can figure something out so we can move forward, because we want to regulate this industry.
+Marc:
+By the way, this bill puts controls on government officials’ use of crypto that are stronger than those that apply to government officials’ stock trading.
+Chris:
+Yeah. And one other point I would add is that right now most people think of crypto as something you can
+trade
+.
+I think what they’re missing is that increasingly, like with the stablecoins we’ve been discussing, it’s a thing you can
+use
+. And — if the industry’s successful — you’ll have more and more use cases and more and more ways in which it’s embedded into our financial lives.
+And so I also think it’s important with these rules to make sure you separate that kind of trading behavior from the use behavior, because I think it’s important for government officials to have access to modern technology.
+Robert:
+Okay. So there are government ethics rules in the bill, and also it’s a separate issue from creating market structure rules for crypto.
+Chris:
+Look, the reality of where the politics are right now is that there are ethics provisions in the current bill.
+They’re still being negotiated. I hope they come to a resolution. But I think from our perspective, the important thing is that — after many years of regulatory gray area and an environment that favors, as I was describing before, a race to the bottom — we get a regulatory framework passed. And we think the CLARITY Act, while not perfect, is significantly better than the status quo.
+Stablecoins and the banks already building onchain
+Robert:
+You mentioned stablecoins again just now. And one of the big fights has been over the treatment of stablecoins in this bill — in particular the banking lobby. Most notably, JPMorgan Chase has been very vocal about this.
+They are unhappy with the idea that you could earn interest on stablecoin holdings. Now, the concern is that if consumers can earn interest on stablecoins, they’re going to pull their money out of banks and keep it in these other accounts — that’s going to cause deposit flight.
+Chris:
+In the bill, essentially, I would say the banks got mostly what they wanted, which is that you cannot pay interest on balances.
+I think the exact language is, anything that’s functionally or economically similar to a bank account, and there are further legal clauses. Now if somebody did multiple transactions using their stablecoin wallet twice a month at Walmart and you use a formula that’s not functionally or economically similar to paying out on a balance, what you can do is give them rewards.
+Robert:
+So it’s more like a credit card or rewards program.
+Chris:
+Yeah. Going any further, you start to ban things like Starbucks rewards points and things, right? There was a prolonged discussion — I think it’s gotten as far as it can go, and essentially it was a compromise that was somewhat painful for the crypto industry. But we’re still very supportive of the overall bill.
+Robert:
+The thing that I find so interesting is Brian Armstrong has embodied this debate versus Jamie Dimon. They’re kind of the two leading voices on this. But JPMorgan — it has a big blockchain unit. They have tokenized deposits that are live onchain.
+Chris:
+I mean, these are massive organizations. But yes, many big banks, including JPMorgan, have significant blockchain efforts.
+And I think if CLARITY passes, you’ll see that a lot of those efforts will roll out in a significant way. We’re way past the point where enterprises adopting new technology will simply dip their toes in and do experimental stuff. We speak to a lot of these organizations regularly.
+Some of them are already live, and they have significant deployments that are going to go live with greater regulatory clarity. I think they see significant opportunity. You have to remember, the banking system is the way it is for a bunch of reasons. And it’s not necessarily their fault. These systems are very complex and very intertwined, but a lot of the technology is very antiquated.
+And so one of the things that blockchains have done for the financial industry is give them a unified framework where they can all kind of say, “Hey, together, let’s move into the 21st century.” And so it’s solved not just a technology problem, but a
+coordination problem
+.
+And I think if you speak to them, they’re all very excited about that.
+Blockchains remove layers of mediation — they’re disintermediation machines. When you send money through a wire, the bank has some piece of paper that gets moved somewhere else. There is no financial “network” — like a global network the way there is a global internet or a global WhatsApp network. It’s a patchwork of systems. And so one of the beautiful things with, say, stablecoins is you’re building something just the way you would build it on the internet.
+And so the banks see that opportunity. They say, “Wow, we can save a lot of money. We can provide better products. We can modernize a whole bunch of things.” And so we see that — across the board — a lot of these organizations are very excited about this, including JPMorgan.
+And don’t take it from me. Goldman Sachs CEO David Solomon just came out endorsing the CLARITY Act. Fidelity, BlackRock, a bunch of other major financial organizations. They all have major efforts. Much of this is public. The most innovative fintech companies like Stripe have gone in, in a big way.
+The technology is on the verge of going very mainstream with the right regulation.
+A “kill shot” to open source
+Robert:
+Let’s shift over to another debate, which is over liability for developers. There’s a former White House cybersecurity official, Carole House, who has raised concerns that developers should be held more liable for the software that they write.
+She argues that, if you don’t hold them liable, this could set a dangerous precedent for other areas of technology like AI.
+Marc, I know you spend a lot of your time on AI. What do you think about this argument?
+Marc:
+It’s a kill shot to the industry.
+It makes software development impossible because how can any software developer anticipate how the software will be used down the road?
+And you don’t even need to think about this in terms of software. If I run a hotel and a criminal stays at the hotel and they plan their operation — does that make me part of their conspiracy? If I’m an engineer who designed a car, and the car is used in a bank robbery, does that make me an accessory to bank robbery?
+If you saddle people who build products that get used by many people for many reasons with downstream liability, it just kills the industry.
+Chris:
+And just to add to that — if you build a piece of software and you’re like, “Hey, criminals, come use it, here’s how to do a crime,” that is a crime. No one’s debating that.
+What we’re talking about is you’re building open source software for a constructive use case. You’re making an AI model; you’re making a blockchain; and then you make it open source.
+If you add unlimited downstream liability, criminal liability, or civil liability — how could you ever decide to do that as an open source developer with that kind of risk? You couldn’t.
+These people aren’t big companies that can afford to defend themselves. Five guys in a garage are going to take unlimited liability? It’s going to kill startups. It’s going to kill open source.
+Marc:
+This is a very live issue in AI policy also. Right out of the gate, open source dies, because open source developers are not getting paid to start with. They certainly can’t take on enormous negative liability.
+Because open source dies, academic research dies. Because without open source, there is no computer science research in any of these fields. It’s entirely dependent on open source. So it kills computer science as a field, and that’s just a start.
+Then it kills venture investing, right? Because we obviously can’t invest in a company if they have a million times the level of exposure, because somebody does something that they didn’t even know about. And then it kills all the companies, right? All the startups. And then it kills the big companies because they also can’t take that on. So it rips right through.
+What CLARITY actually does to securities law
+Robert:
+Let’s move on to one of the last objections that I’ve heard most often, which is that this bill would punch a hole in securities laws. Marc, as you mentioned, securities laws have allowed US capital markets to thrive for the past 90 or so years.
+So some people say that if this bill gets through, a company will just go, “I’m going to tokenize an asset, and put it on a blockchain, and this is going to exempt me from SEC oversight and securities law in general.” What’s your response?
+Chris:
+Here’s what the bill says. If you take a stock and you tokenize it, that’s a security, and it’s regulated by the SEC like a security is. It’s very black and white.
+The only thing that is different is that the CLARITY Act delineates that blockchains or tokens like Bitcoin or Ethereum will, in some cases, be regulated by the SEC and, in others, by the CFTC.
+Let me walk you through it. So Bitcoin, when it started, was presumably one or some set of people — whoever Satoshi was — and by definition, when something starts, it’s centralized. There’s a person behind it. They have sort of inside information and control.
+And the way the CLARITY Act works is, at that point, that token is regulated by the SEC. So someone creates a new blockchain. They have control over it, and they have rules, like lockups, for example. They have disclosure rules. They have all the kinds of things you expect from securities laws.
+Over time, when you hit certain thresholds of decentralization and start to look more like a Bitcoin or Ethereum of today — where there is no central actor that controls it, has inside information, and so forth — the CLARITY Act designates that the CFTC oversees that token. So it’s regulated as a commodity and not a security. Because at that point, you still need regulation to make sure that people aren’t dumping on the market or cornering the market and all the other things that commodities laws regulate.
+But it’s a different regulatory regime depending on the nature of the asset.
+Robert:
+So it becomes more like gold or precious metals or oil or wheat.
+Chris:
+That’s right. Even the last administration said at some point that Bitcoin and Ethereum were sufficiently decentralized to be regulated as commodities. So this has been implicit in court cases and in agency decisions from both parties for the last 10 years.
+All CLARITY does is enshrine it in law and make the definitions specific, so that people know exactly where they are and you don’t have to go to court to figure it out. It’s taking what has been the consensus across courts and regulators, hard-coding it, and making it specific.
+Today, if I create a token, there are no rules for disclosure. There are no rules for insider trading or lockups. If the CLARITY Act passes, our effective lockup period — meaning the period until we can sell — will increase significantly. We’ll invest in someone launching a product; it’ll have a token, and until these criteria are met for hitting sufficient decentralization, there are lockups on venture capitalists and founders and so forth — which is how it should be.
+It’s a smart risk-based regulatory framework, and we think it will allow people to build long-term products and build trust within the market. Consumers, investors, and so forth — all participants will have trust in the market because it’s regulated and there’s a framework around it.
+That’s how you build a real industry long term.
+What happens if CLARITY fails
+Robert:
+All right. So we’ve walked through a number of the live fights. All of these things are being debated right now. Any one of them could potentially tank this bill.
+What happens if CLARITY does not pass?
+Chris:
+We’ll keep working on it.
+A lot of these things can and are being done at the agency level — meaning the SEC, CFTC, Treasury, and so forth. I think the big difference is that legislation is
+de facto
+permanent in a way that agency rulemaking is less so.
+And that’s important both to make sure the rules are there and to protect consumers in the long term — but also for industry to have confidence. If you want to build something, it can take many years to build. If you have to try to build on shifting sands, you’re much less likely to make that investment of time and money.
+You’ve got enough to worry about as an entrepreneur already without having a shifting maze of regulatory changes. So that would be the downside. It would just prolong that. But also, I’m optimistic it will get passed in the near future. If it doesn’t, we will keep working on it.
+Continuing the long tradition of American technological leadership
+Robert:
+Let’s zoom out and talk about what’s at stake for the country and for American leadership. Passing the CLARITY Act, why is it so important for the country to do this?
+Marc:
+We would argue this is in the long tradition of American technological leadership, and I would say American technological supremacy, which is: do you want to be the country that leads the world in technology or not?
+There are two parts of that, which are: do you want the technology to exist when some people argue that you’re better off without certain technologies? The other part is that technologies do tend to exist once they get invented — do you want that to happen inside your own country, or do you want to have that happen somewhere else?
+And we always make a very strong argument on this, which is that every American citizen, regardless of their political position, should want America to be the world’s technology leader. That has many benefits. It has direct economic benefits in terms of the wealth of the country and the ability to pay for all the things that we want to pay for.
+It has enormous benefits in terms of our security. For the crypto industry to be based in the US is overwhelmingly good for United States security. It’s overwhelmingly good for United States law enforcement. It’s overwhelmingly good for United States national security.
+We’re so used to America being the technology leader that it almost feels embarrassing to make this argument because it’s such an obvious argument. America has so clearly benefited from this for the last hundred years. And in my view, we should all want that to continue for hundreds of years to come.
+Robert:
+Well, time will tell whether policymakers heed your words, that this is urgent, and that the benefits will accrue to whomever sets the standards first.
+Thank you both.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

@@ -1,0 +1,303 @@
+{
+  "fetch_date": "2026-08-04",
+  "fetch_time": "2026-08-03T18:48:55.955764+00:00",
+  "stats": {
+    "new_podcast_episodes": 2,
+    "new_articles": 2,
+    "new_tweets": 20,
+    "total_podcasts": 2,
+    "total_articles": 2,
+    "total_tweets": 20,
+    "transcribed_this_run": 1
+  },
+  "podcasts": [
+    {
+      "source": "Dwarkesh Podcast",
+      "title": "Why smarter AI models could drive up compute prices 10x",
+      "date": "2026-08-03 17:32 UTC",
+      "link": "https://podcasts.apple.com/us/podcast/why-smarter-ai-models-could-drive-up-compute-prices-10x/id1516093381?i=1000779740134&uo=4",
+      "orig_link": "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive-video",
+      "audio_url": "https://api.substack.com/feed/podcast/209664458/8f748eb01e2d5f1ae08b0dad30e598f2.mp3",
+      "duration": "11:18",
+      "summary": "This is a video recording of a post I wrote last week. If you want to read the original you can check it out\nhere\n.\nThanks to\nMercury\nfor sponsoring this video.\nMercury’s\nbuilt-in AI, Command, helps me close my books and saves me a bunch of time. At the end of each month, Command categorizes my transactions and provides its rationale for every choice: I just review, fix anything that’s off, and approve... and then Mercury syncs everything to QuickBooks. Get started at\nmercury.com/command\nGet full access to Dwarkesh Podcast at\nwww.dwarkesh.com/subscribe",
+      "lang": "en",
+      "chars": 14484,
+      "text_file": "data/2026-08-04/podcasts/dwarkesh_podcast__why_smarter_ai_models_could_drive_up_compute_.txt"
+    },
+    {
+      "source": "Training Data",
+      "title": "Building the Automated AGI Lab: Core Automation's Jerry Tworek and Rohan Anil",
+      "date": "2026-07-29 09:00 UTC",
+      "link": "https://www.youtube.com/watch?v=2RJiaf0SY8s",
+      "orig_link": "",
+      "audio_url": "",
+      "duration": "",
+      "summary": "",
+      "lang": "en",
+      "chars": 52327,
+      "text_file": "data/2026-08-04/podcasts/training_data__building_the_automated_agi_lab_core_automatio.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "a16z",
+      "title": "Marc Andreessen & Chris Dixon: Why America needs CLARITY",
+      "date": "2026-08-03 16:01 UTC",
+      "link": "https://www.a16z.news/p/marc-andreessen-and-chris-dixon-why",
+      "summary": "And why no rules is the riskiest rule of all",
+      "chars": 32371,
+      "text_file": "data/2026-08-04/articles/a16z__marc_andreessen_chris_dixon_why_america_needs.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Drug Discovery Has No Magic Wands",
+      "date": "2026-08-03 14:01 UTC",
+      "link": "https://www.a16z.news/p/drug-discovery-has-no-magic-wands",
+      "summary": "On AI, human biology, and what it will actually take to discover transformative new medicines",
+      "chars": 17109,
+      "text_file": "data/2026-08-04/articles/a16z__drug_discovery_has_no_magic_wands.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Andrej Karpathy",
+      "handle": "karpathy",
+      "tweet_id": "2083948654377996480",
+      "date": "2026-08-02T16:10:51.000Z",
+      "text": "More on the pelican on the bicycle test from @simonw:\nhttps://t.co/OXmtODyTKj\n\nI uploaded the source here so it's playable in the browser, forkable etc.\nhttps://t.co/w3Nctc888d\n\nLook out for GTA Hobbiton dropping before GTA VI :)",
+      "url": "https://x.com/karpathy/status/2083948654377996480",
+      "likes": 392,
+      "retweets": 14,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2084171901451268599",
+      "date": "2026-08-03T06:57:58.000Z",
+      "text": "haven't seen a full cycle of this guy but this place absolutely can chew you up and wastes 10 yrs of your life making you feel like you are doing something when you are not\n\nhttps://t.co/u5gJ2pYin3",
+      "url": "https://x.com/swyx/status/2084171901451268599",
+      "likes": 2,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2084156733027701164",
+      "date": "2026-08-03T05:57:41.000Z",
+      "text": "in prep for our computer use pod, gonna store a running list of codex cua wow moments. \n\n here it is dealing with support chat for me to escalate for faster resolution\n\nthese humans have no idea they are talking to a bot\n\nsupport guy tried to say its our fault, bot replied with complete receipts lmao",
+      "url": "https://x.com/swyx/status/2084156733027701164",
+      "likes": 3,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2084155512573288478",
+      "date": "2026-08-03T05:52:50.000Z",
+      "text": "@akshaynathan_ @AriX live now! https://t.co/I7vcXbQEqf",
+      "url": "https://x.com/swyx/status/2084155512573288478",
+      "likes": 6,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2084065527081980285",
+      "date": "2026-08-02T23:55:16.000Z",
+      "text": "Went to a community center in Canada and it has a full swimming pool, jacuzzi, sauna, and even lazy river.\n\nIn the most expensive Bay Area neighborhoods, the community center is just a fancy building with empty rooms that you can rent.",
+      "url": "https://x.com/petergyang/status/2084065527081980285",
+      "likes": 96,
+      "retweets": 2,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2083968605432267139",
+      "date": "2026-08-02T17:30:08.000Z",
+      "text": "One of the biggest benefits of Hermes is that it builds its own skills to help you get work done.\n\nBut I had to ask @karan4d, @NousResearch co-founder: \"How does Hermes avoid slop while doing this?\"\n\nHere's his response:\n\n\"Hermes Curator [a background task] runs inside your agent and cleans up your skills and memory on a schedule, asking: Where's the slop, and where can I make it more efficient?\n\nAnd because it's open source, you can hand it your own definition of slop and it rewrites its own cleanup loop your way.\"\n\n📌 Watch the full episode here: https://t.co/3E7IC0TzNr",
+      "url": "https://x.com/petergyang/status/2083968605432267139",
+      "likes": 90,
+      "retweets": 7,
+      "is_quote": true,
+      "quoted_id": "2083917722765947284"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2083947480136421384",
+      "date": "2026-08-02T16:06:11.000Z",
+      "text": "Personality matters! A smart friend that's annoying to talk to is no good. https://t.co/QMkhu1mSxl https://t.co/Kswxq1NiYs",
+      "url": "https://x.com/petergyang/status/2083947480136421384",
+      "likes": 186,
+      "retweets": 6,
+      "is_quote": true,
+      "quoted_id": "2083755374994415904"
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2083978109376987365",
+      "date": "2026-08-02T18:07:54.000Z",
+      "text": "i think there are lots of parallels to what happened with chess",
+      "url": "https://x.com/trq212/status/2083978109376987365",
+      "likes": 73,
+      "retweets": 1,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2083977795290734975",
+      "date": "2026-08-02T18:06:39.000Z",
+      "text": "you can already see Jevons paradox at work in mathematics\n\nthere is more happening, it is easier to understand and mathematicians have more time to discuss it with us at higher abstraction levels\n\ndemand for people who think and know about math will go up",
+      "url": "https://x.com/trq212/status/2083977795290734975",
+      "likes": 1191,
+      "retweets": 43,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2084017252152856716",
+      "date": "2026-08-02T20:43:26.000Z",
+      "text": "Woah https://t.co/d20LLYD88E",
+      "url": "https://x.com/amasad/status/2084017252152856716",
+      "likes": 91,
+      "retweets": 3,
+      "is_quote": true,
+      "quoted_id": "2083999993875066941"
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2083936067355635948",
+      "date": "2026-08-02T15:20:50.000Z",
+      "text": "You can watch the games live on the website. Mf is playing 3 concurrent games rn https://t.co/J1a4ij9J07",
+      "url": "https://x.com/amasad/status/2083936067355635948",
+      "likes": 16,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2083926395403821427",
+      "date": "2026-08-02T14:42:24.000Z",
+      "text": "My LLM chess engine is now on LiChess autonomously playing real games against people and bots. \n\n1253 Elo: https://t.co/W3qp1Z1i7I https://t.co/WwPOjDggU1",
+      "url": "https://x.com/amasad/status/2083926395403821427",
+      "likes": 215,
+      "retweets": 10,
+      "is_quote": true,
+      "quoted_id": "2083424608993300824"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2084060157085143512",
+      "date": "2026-08-02T23:33:56.000Z",
+      "text": "PS: we've obviously had agents for a while. In fact, we had too many. Teams and individuals at Vercel started building and deploying agents. Dozens of them.\n\nUsing a web analogy, that'd be like every agent having its own domain name. Not a good UX. I just want ${company}⁠.com!\n\n@𝚟 solved that problem for us. It's both an agent and a router. It has sub-agents, skills, and it knows how to delegate work to other agents.\n\nAnother analogy is that it's a bit like a \"monolith\" or \"monorepo\", but you have the escape hatch of \"proxying\" to another agent over the network when needed. Again, not unlike how routing on the internet evolved at scale.\n\nAnd yes, there's also the occasional purpose-built agent that people address directly. The analogy would be subdomain.⁠company.⁠com. Some agents deserve their own \"front doors\", but I don't think there should be too many.\n\nAnd when in doubt, just @𝚟.",
+      "url": "https://x.com/rauchg/status/2084060157085143512",
+      "likes": 66,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2084042561690456157",
+      "date": "2026-08-02T22:24:01.000Z",
+      "text": "We built an agent that powers our company's internal operations called @𝚟.\n\nEvery day-to-day job at Vercel now involves @𝚟. It's growing exponentially both in daily interactions and token use.\n\nOne can extrapolate to the day AI agents run entire companies from here. It's an expert in finance, comms, docs, marketing, engineering, business analytics. It's seeded by the skills we gave it and we update, but it's also constantly improving.\n\nIt already keeps memories and personalized workflows and schedules on a per-user basis. For example, I knew skills⁠.sh hit 1M skills and I shared this on these forums because I asked @𝚟 to periodically check and remind me.\n\nIt's powered by and is also the basis for the design of @evedev_. We built this, it works fantastically well, we think every company should have it.\n\nBefore you @ me, I know you could also do this by picking your 'BigAI slack integration' du jour. But that's not your agent, that's their agent. If agents become the foundation of (and even synonymous with) modern companies, you being in complete control, from source → runtime → data → token, seems like a pretty big deal to me.",
+      "url": "https://x.com/rauchg/status/2084042561690456157",
+      "likes": 1233,
+      "retweets": 47,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2083969120270450911",
+      "date": "2026-08-02T17:32:11.000Z",
+      "text": "AI alone is cool. But mastery + creativity + AI hits on a whole different level. Don't let anyone discourage you from pursuing excellence and craft. Keep studying the blade.",
+      "url": "https://x.com/rauchg/status/2083969120270450911",
+      "likes": 3662,
+      "retweets": 359,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Aaron Levie",
+      "handle": "levie",
+      "tweet_id": "2083965372747882741",
+      "date": "2026-08-02T17:17:17.000Z",
+      "text": "We’re going to be in for a strange dynamic which is that some of the “hardest” work in the world is actually prone to automation first, particularly due to its verifiability. \n\nMath, cyber, and code -while being insanely hard and high value fields- have the benefit of being able to be tested that it’s correct objectively. This has two immediate benefits: the training of the models offers clearer reward signals, and then the running of the models allows you to know that it’s working properly because you can test the results in a scalable way.\n\nConversely, in other domains of work, there’s much less instant verifiability. Which legal clauses your client will agree to, what marketing campaign to run with based on changing sentiment, which message your sales prospect will want to hear, what financial targets and budget to set for a business, and so on. \n\nAll of these domains have changing internal and external factors, they don’t have “one right answer”, they rely on the opinions and risk levels of the operators, they’re highly sensitive to getting the right input context first, and in many cases the right answer can’t even be known for quite some time after the model generates the results.\n\nThe implications of this distinction are that -even as model capability continues to increase exponentially- there will be a lot done at the applied AI layer than just the the model itself, and much of the processes themselves will even need to change over time to get the full gains from automation. We may even need all new capabilities to be able to “test” knowledge work over time as we have had with software.",
+      "url": "https://x.com/levie/status/2083965372747882741",
+      "likes": 318,
+      "retweets": 26,
+      "is_quote": true,
+      "quoted_id": "2083600597253521745"
+    },
+    {
+      "source": "Ryo Lu",
+      "handle": "ryolu_",
+      "tweet_id": "2083939454017053179",
+      "date": "2026-08-02T15:34:18.000Z",
+      "text": "my early mentors were these apps, especially Rdio, Mailbox, and Apple\n\nthey made new patterns that made software feel simpler and intuitive to touch\n\nas we leave the world of apps behind, what parts of software will remain visible, and how could it feel? https://t.co/6QYLpjcund",
+      "url": "https://x.com/ryolu_/status/2083939454017053179",
+      "likes": 390,
+      "retweets": 6,
+      "is_quote": true,
+      "quoted_id": "2083630205524914541"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2083957110711386439",
+      "date": "2026-08-02T16:44:27.000Z",
+      "text": "Growth is good\n\nAI will create unimaginable economic growth and that is the best white pill https://t.co/wdR7nHuWJD https://t.co/30xeF2N8hO",
+      "url": "https://x.com/garrytan/status/2083957110711386439",
+      "likes": 302,
+      "retweets": 30,
+      "is_quote": true,
+      "quoted_id": "2083702647329305017"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2083923385193828612",
+      "date": "2026-08-02T14:30:27.000Z",
+      "text": "The sense of wonder disappeared right at the moment the amount of wonder is going parabolic https://t.co/p56UMAFiZq",
+      "url": "https://x.com/garrytan/status/2083923385193828612",
+      "likes": 173,
+      "retweets": 6,
+      "is_quote": true,
+      "quoted_id": "2083676898551627877"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2083920039208693996",
+      "date": "2026-08-02T14:17:09.000Z",
+      "text": "Everyone mistakes the map for the territory\n\nMeritocracy is that the territory matters more than the map\n\nAnd in markets the outcome is the territory: did you make something people want? https://t.co/wOTHnKqk7Y",
+      "url": "https://x.com/garrytan/status/2083920039208693996",
+      "likes": 195,
+      "retweets": 8,
+      "is_quote": true,
+      "quoted_id": "2083835877202210999"
+    }
+  ]
+}
