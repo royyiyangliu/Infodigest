@@ -1,0 +1,47 @@
+Source  : a16z
+Title   : Investing in Volta
+Date    : 2026-08-04 12:03 UTC
+Link    : https://www.a16z.news/p/investing-in-volta
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+Two years ago, Marc and Ben framed the
+Little Tech Agenda
+. The political, regulatory, and economic playing field had tilted toward Big Tech; a16z, they said, would fight to preserve startups’ ability to compete.
+That fight for equal opportunity remains central to how we think about our mission at the firm. But in the last few years, a new constraint has emerged: access to compute. Scaling laws—the empirical regularity that
+more compute
+means
+better performance
+—have made compute a fundamental input for building more capable systems.
+And compute isn’t distributed evenly. Hyperscalers with investment-grade balance sheets—and the largest customers they prioritize—can make the five-year commitments required to secure land and power, purchase GPUs, and preorder scarce components. Most startups don’t have financeable balance sheets: they’re funded 18 months at a time. So they have to pay more money for less flexible compute access, and have to wait longer to get it. And that’s if they can secure short-term or on-demand supply at all: this year, much of it has been bid away by Big Tech.
+Part of the problem is that physical compute—the actual GPU racks—is in short supply. But it’s also a financing problem. Production-grade data centers require billions of dollars of capital; the investors financing them want long-term contracts with creditworthy customers. That test applies to everyone, from frontier labs to hyperscalers. And that test excludes a huge swathe of startups with the ideas and talent to build the future of AI.
+That’s the gap that Volta was founded to close. We believe that Volta is building a new and different kind of AI infrastructure company, combining cloud operations with project finance to unlock new sources of compute. Their model benefits a broad range of customers, while uniquely making capacity available to startups that have historically been priced out of long-term infrastructure. Volta is building the neocloud for Little Tech. That’s why a16z is excited to co-lead its Series A.
+A New Model for AI Infrastructure
+Neoclouds emerged to build and serve computing capacity specifically for AI workloads. They’ve been a tremendous boon to the AI industry: they’ve increased supply, unbundled the cloud, and created meaningful alternatives to the hyperscalers. But they haven’t fundamentally changed the question of
+who gets capacity first
+.
+Building a data center is expensive—so expensive that their construction is financed overwhelmingly by debt, underwritten against long-term customer contracts. Lenders might believe deeply in the growth of AI; but they still need a creditworthy counterparty on the other side of a five-year commitment. The cheapest and largest pools of capital therefore flow to the strongest balance sheets. Those belong, of course, to the hyperscalers—the largest and most profitable companies on earth.
+Most large neoclouds have followed that capital. They’ve sold capacity to hyperscalers and acted as extensions of their first-party infrastructure teams. That makes sense for the neoclouds. But it means that companies without the hyperscalers’ balance sheets are left with the scraps: they have to compete for expensive on-demand capacity—whatever capacity remains, that is—or a place on a waitlist. The market has produced more AI clouds, but not necessarily more access for the startups building AI.
+Volta inverts that model. It’s building for AI-native companies first and foremost: from frontier labs and emerging neolabs to fast-growing AI apps. Instead of asking each customer to arrive with a bespoke investment-grade backstop, Volta assembles the credit support, project equity, and debt behind each deployment.
+That approach has already yielded major successes. Volta has signed a $10 billion strategic partnership for a 133 MW deployment in Norway, assembling the site, project equity, and infrastructure debt without a hyperscaler or Nvidia backstop. The deployment shows that Volta can bring customer demand, land, power, equipment, and capital together at scale.
+Volta also has a $5 billion infrastructure program with Azora, a real estate and infrastructure asset manager, for project equity, alongside senior infrastructure debt led by international banks. That allows the company to move from one deployment to the next without raising new equity or rebuilding the financing stack each time.
+Across Capital and Compute
+Getting compute online fast requires mastery of sharply different domains. You need the financing in order to make everything possible; the physical infrastructure expertise to get it built fast; and the software to turn that compute into a usable product. Volta has a team that understands every side of this problem.
+Ricard Boada and Sofia Gumuzio built Brookfield’s AI infrastructure platform, giving them firsthand experience with every constraint between customer demand and live compute. Ricard brings deep expertise in financing and developing data centers. Sofia brings relationships across land and power. Together, they know how to turn a customer’s request for compute into powered capacity.
+They’ve acquired Genesis Cloud’s team, which has operated one of Europe’s earliest GPU-first clouds since 2018 and served more than 20,000 users with a proven platform. The Genesis stack and team bring Kubernetes-native software and years of experience provisioning GPUs, managing clusters, and operating a production cloud. That’s the other half of Volta: turning physical capacity into a product developers can provision and trust.
+Neoclouds tend to begin with one half of the problem: they have capital and real assets, or they have cloud software and GPU operations. Volta has both. There aren’t many neocloud teams that can actually secure power, structure billions of dollars of capital, develop data centers, and run a production cloud. Volta has assembled one of the few teams that can.
+We’re thrilled to partner with Ricard, Sofia, and the Volta team as they expand access to AI infrastructure and ensure startups can compete alongside the industry’s largest players.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

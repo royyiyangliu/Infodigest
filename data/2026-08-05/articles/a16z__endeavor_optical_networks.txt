@@ -1,0 +1,70 @@
+Source  : a16z
+Title   : Endeavor Optical Networks
+Date    : 2026-08-04 12:28 UTC
+Link    : https://www.a16z.news/p/endeavor-optical-networks
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+Overview
+Cutting undersea cables is now part of international conflict. The cables on the seabed carry almost all data that matters between continents: finance, intelligence, commerce, and the entire new economy of AI. Over the past three years subsea fiber has been severed in the Red Sea, the Baltics, and around Taiwan in incidents that closed without consequence.
+You can’t safely run many petabits of data under the ocean anymore, and the only direction left is up, leveraging space. This used to be the stuff of government research budgets and universities. Today, so much has changed in the space economy that now makes this possible. Hardware is cheaper, talent is denser, and there is proof that with meaningful investments, there can be outsized financial upside. The engineering and economics finally close.
+EON is taking on the data transfer problem with lasers in space, beaming fiber level data between ground stations and satellites in orbit. We’ll offer route-diverse intercontinental bandwidth that never needs to touch the seabed.
+How the world moves data today — the status quo
+Global internet data moves the same way it did thirty years ago.
+95% of intercontinental data traffic moves over subsea cables spanning thousands of miles, buried on the seabed. A single cable system takes nearly a decade to go from planning to operation — environmental permits and landing rights across every sovereign nation it touches, custom manufacturing, and months of laying at sea by a global fleet of fewer than 60 specialist vessels.
+Today there are only about 500 active subsea cable systems in service. They are increasingly at risk.
+State of the world’s intercontinental data highways
+For most of the internet era, up until the mid-2010s, transoceanic systems were built by consortia of telecom carriers. A dozen or more national and private operators would pool together capital, sharing the cost of a system no single one of them could justify, and divide the capacity. Capacity would be sold out to other companies as needed. At the time, no one party controlled a route.
+About fifteen years ago, that all changed.
+As their own traffic outgrew what they could lease, the largest content and cloud companies started funding cable laying directly. The logic was straightforward: at their scale, owning the cable was cheaper than renting capacity on it. Ownership let them control routing, timing, and cost in a way leasing never would.
+The shift was fast.
+Just over a decade ago, content providers accounted for a small minority of used transoceanic capacity; today they account for the majority of it, and they own or co-own a large and growing share of new builds, particularly on the transatlantic and transpacific routes that carry the most traffic.
+This was a rational response to a slow system. The world’s largest companies, such as Google, Facebook/Meta, etc, could absorb a ten-year timeline and a billion-dollar bill as a line item. Almost anyone else cannot.
+But that system has a ceiling. The fleet of cable-laying ships is fixed and aging, and the manufacturers who build optical repeaters and the crews who splice cable are few and far between. No amount of capital compresses a permitting cycle that runs through numberous governments’ EEZs or territorial waters that a cable touches. The supply chain that builds the ocean floor is effectively capped, and it is already running flat out.
+Demand is not capped.
+More data was created in the past two years than in all of prior human history, and a single hyperscaler now moves more across its own network in a day than the entire internet carried in 2010. Every AI model trained, every workload shifted between continents, every new region brought online pushes the curve higher.
+So the squeeze falls on both the companies with the most data to move and anyone trying to build new global scale businesses. The largest companies can fund cables and still can’t build them fast enough; every new entrant is competing for whatever capacity is left on a route someone else decided to build. Whether you own or rent, you are running out of room on a system that cannot grow as fast as the data crossing it.
+Obvious targets
+Fiber routes are public knowledge and every cable, every landing station, every chokepoint is documented. This makes subsea internet infrastructure an easy target for adversarial intervention.
+There is already an existing history of cable outages, much of it intentional.
+When Seacom, TGN-EA, and AAE-1 were severed in the Red Sea in early 2024, roughly a quarter of the traffic moving between Europe, Asia, and East Africa had to be rerouted overnight at meaningful cost. The cables were cut during an active conflict in a conflict zone, yet no party was charged.
+In 2022, SMW5, a cable connecting South East Asia to the Middle East to Western Europe was disrupted, and connectivity to the affected regions dropped by a third overnight. No none entity responsible for the cutting has been named.
+In waters near Taiwan, undersea links have been cut repeatedly, with Chinese fishing and cargo vessels logged nearby each time and dozens of similar incidents since. None of these produced a confession or a confident public attribution, which is exactly what makes the seabed attractive.
+When any node in this global network is cut, the repair runs weeks to months with no hot spares. Outages that would be unacceptable in any other critical infrastructure are quietly accepted as the cost of doing business.
+Capabilities to disturb subsea fiber are not kept secret.
+Russian deep-sea operations under GUGI, Moscow’s underwater research directorate, have spent years surveying and loitering near cable routes across the Atlantic and Baltic. In March 2025, Chinese researchers published the design for a compact device able to sever the most heavily armored cables in existence. Former NSA Director Mike Rogers has testified that adversaries can cut cables where and when they choose.
+In ordinary times accidents or malfunctions cause most faults, but whether a cut is accidental or deliberate, the consequence is the same. After a cut, entire regions can go dark for weeks with no alternative paths. This network fragility does not depend on anyone’s intent, and adversaries now know how to use it.
+How EON works
+EON is built to service hyperscalers, enterprises, sovereigns, and organizations with so much data that existing in-space infrastructure is not sufficient.
+Through an optical laser relay to Medium Earth Orbit (MEO) and back down in a “bent-pipe”, EON can deliver multiple terabits of data per second across oceans.
+One hop. Two endpoints. Nothing on the ocean floor.
+A ground station points a laser at a satellite, the satellite catches it and fires it back down, to a receiver on the other side of an ocean. Ground stations connect to existing terrestrial fiber, far easier to deploy than anything requiring a large ship.
+Capacity will come online in months, not years, and can serve anywhere with a clear view of the sky.
+Why this hasn’t been done before
+Space is hard, but it is getting easier.
+Ten years ago the spacecraft for this exact system would have cost at least ten times what it costs today. The space industry has completely shifted away from bespoke over-engineered exquisite systems to commercial off-the-shelf hardware.
+The space industry today has real standards, proven components, and a supply chain that didn’t exist a decade ago. That’s what makes EON viable as a business, not just as an engineering project. Every decision we make is with the current state of the art, because that’s what closes the economics.
+The importance of a good business model.
+EON is building to last. We want to be the next trillion dollar space company. To do that, we need a business that closes from the start.
+There are countless venture backed space companies attempting science projects with the hope of economic viability in the future. That is not us. Engineers who work at EON are going to work on some incredibly hard technical challenges, but the light at the end of the tunnel is what we believe to be an incredibly strong business.
+Incumbents move data across subsea fiber because no one has delivered a credible alternative. It is a multi-billion dollar market held in place not by the superiority of the technology but by the absence of competition. We are going to change that, not just as a capable alternative, but a more affordable one.
+We are building to move bits at lower cost than subsea. That is the business. That is the test we hold ourselves to.
+Why we are building EON
+We are just getting started. The engineering challenges ahead of us are real and we are not pretending otherwise. What orients us is our mission: secure, affordable global connectivity.
+The fragility of the infrastructure the world runs on is no longer a theoretical concern. It is a documented, recurring, and in some cases deliberate reality.
+The world has changed, but the infrastructure has not.
+EON is here to change it.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
