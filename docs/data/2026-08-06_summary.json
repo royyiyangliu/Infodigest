@@ -1,0 +1,79 @@
+{
+  "date": "2026-08-06",
+  "generated_at": "2026-08-05T23:34:54.051332+00:00",
+  "stats": {
+    "tweets": 8,
+    "podcasts": 2,
+    "articles": 1
+  },
+  "tweets": [
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "AI 工程师、Latent Space 播客主理人、Smol AI 创始人 Shawn Wang（Swyx）提出一个观点：知识图谱（KG）与本体论之所以现在才真正走红、而非三年前，是因为\"够用的智能\"终于变得便宜到近乎免费。他认为，智能被商品化后，其互补品（如知识图谱、结构化数据）的价值反而随之上升——过去构建 KG 最难的部分如今已被廉价智能解决。"
+    },
+    {
+      "author": "Josh Woodward",
+      "handle": "joshwoodward",
+      "summary_zh": "Google Labs 副总裁、负责 Gemini App 与 NotebookLM 的 Josh Woodward 发布 NotebookLM 的 Notebook 新体验：主打\"为思考而非切换模式设计\"，把所有功能整合进单一统一的提示栏，不像其他产品那样不断堆叠模式。目前向 Ultra 与 Pro 订阅用户开放，随后推广至全部用户。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI 工程负责人 Thibault Sottiaux 宣布知名安全研究员 Halvar Flake 即将加入团队，主题为\"Better Cyber\"，透露 OpenAI 正加码网络安全方向的人才布局。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品主管、Creator Economy 简报作者 Peter Yang 就 AI 时代的软件变现给出观点：如今用 vibe coding 快速做出的 SaaS，更适合当作导流入口，引导用户转向更高价的服务，而非指望靠 SaaS 本身赚大钱——但服务模式又回到了\"拿时间换钱\"的咨询老路。他还提到当下从 X 平台分成赚到的钱可能比做一个微型 SaaS 还多；并关注 GPT 5.6 Luna High 传闻中更便宜、近乎无限量的使用额度是否能胜任复杂的浏览器自动化任务（他称这占其 Codex 用量的 50%）。"
+    },
+    {
+      "author": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "summary_zh": "Madhu Guru（@realmadhuguru）总结了一套正在成型的创业者\"打法\"：用于早期产品验证的最佳模型，几乎从来不是用于生产的最佳模型。具体做法是——第一步用最强的前沿模型做原型，不计成本与延迟，尽快搞清用户真正想要什么；待工作流与体验验证后，再在 6-8 周后（等开源权重模型追上时）把生产负载迁移到开源模型和尽可能更小的模型上，疯狂优化成本与延迟。他强调顺序不能反，千万别一开始就用最便宜的模型，而多数团队恰恰卡在了第一步。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 创始人兼 CEO Guillermo Rauch 分享了两个产品要点：FactoryAI 用 Vercel 的 Fluid compute 支撑其 API 服务，每月处理数十亿次请求；此外，在 AI SDK 中仅加一行代码，就能在 DeepSeek v4 Flash 的 AI Gateway token 上省下 90% 以上的成本。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 联合创始人兼 CEO Aaron Levie 观察到，企业 AI 落地策略呈现出极高的异质性——不同于云计算早期只有寥寥几种部署模式和基础设施厂商，AI 的路径要宽得多：问 10 位 IT 负责人他们的编码 agent 策略，至少能得到 5 种不同答案；在终端生产力 agent 上，有的标准化到 ChatGPT 或 Claude，有的提供多方案选择，还有不少自建编排层。他还指出企业对开源模型（OSS）兴趣浓厚、只等\"足够安全\"的产品出现，垂直模型与 agent 也在涌现；数据访问上有的让 agent 扮演用户角色、有的给 agent 独立身份。结论是：如此早期的高度分化意味着未来数年格局仍会剧烈变化，现在就断言最终赢家的人很可能会错，机会依然巨大。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator 总裁兼 CEO Garry Tan 就加州政策发声：他抨击加州民主党背书支持 Prop 40（他称之为\"资产没收税\"），认为这将摧毁加州的税基。他还重申市场规律——想让房价下降就该多盖房子，而试图废除租金、推动大规模资产没收与征用只会适得其反，\"革命只服务于煽动革命的人\"。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "硅谷101",
+      "title": "E247｜对话盛颖：xAI，Infra的浪漫，SGLang，开源，平权与“甄嬛传”",
+      "date": "2026-08-04 21:30 UTC",
+      "duration": "1:46:26",
+      "link": "https://podcasts.apple.com/us/podcast/e247-%E5%AF%B9%E8%AF%9D%E7%9B%9B%E9%A2%96-xai-infra%E7%9A%84%E6%B5%AA%E6%BC%AB-sglang-%E5%BC%80%E6%BA%90-%E5%B9%B3%E6%9D%83%E4%B8%8E-%E7%94%84%E5%AC%9B%E4%BC%A0/id1498541229?i=1000779989507&uo=4",
+      "summary_zh": "硅谷101对话Radix Arc（红杉/社区惯称\"红鲨\"）联合创始人兼CEO盛颖，聚焦AI推理（inference）基础设施赛道。核心信息：其背后的开源推理引擎**SGLang**从未做过市场与销售推广，如今已跑在全球**数十万张GPU**上，每天为谷歌、微软、英伟达、xAI生成**数万亿token**。公司今年5月官宣由Axel领投的**1亿美元**种子轮，投资人罕见地集齐三大半导体巨头——**英伟达**投资部门、**AMD**、英特尔CEO陈立武，外加OpenAI联合创始人John Schulman。团队已**40多人**并快速扩张。盛颖为斯坦福形式化验证博士，2024年10月加入xAI为Grok搭建推理系统，仅**10个月**（未满一年vesting cliff）便出走创业，以承接SGLang社区暴涨的商业化需求。\n\n赛道格局（投资含义）：推理市场正因AI变得更\"有用\"而从training向inference迁移、加速爆发。盛颖直言这个游戏\"没有输家\"，各玩家同步增长。竞品估值飙升可作对标——vLLM团队年初商业化成立公司融资**1.5亿美元**、估值**8亿美元**；Baseten完成**3亿美元**融资、估值**50亿美元**；Fireworks估值**40亿美元**；Together正寻求**10亿美元**新融资。两大趋势：新推理公司雨后春笋，以及现有推理厂商向RL/后训练扩张。\n\n商业模式关键点：SGLang全面开源、无private fork，公司命脉不在推理引擎本身。Radix Arc定位\"infra first\"，同时做inference与RL训练框架MiLES（对DeepSeek v4实现day-0支持，含首个RL day-0），客户覆盖云厂商(hyperscaler)、推理provider(Baseten、Fireworks现为用户)、AI公司及传统企业。盛颖称长远使命并不局限于现有推理赛道，而是做\"下一代AI\"（既非纯infra实现、也不一定是模型），并强调技术易变、真正壁垒在团队与\"AI平权/去中心化\"的价值观。"
+    },
+    {
+      "source": "Training Data",
+      "title": "Chai Discovery's Bitter Lesson: Drug Design Is Another Scaling Problem",
+      "date": "2026-08-04 09:00 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/watch?v=wv53mDmY-k0",
+      "summary_zh": "红杉《Training Data》对话 Chai Discovery 两位联合创始人 Josh（前 OpenAI 早期成员，参与 GPT-1/GPT-2、缩放定律，ESM 原作者之一）与 Matt（数学/理论 CS 背景转蛋白质结构预测），成立于 **2024** 年，定位为\"生物学基础模型实验室\"，做 AI 分子工程。\n\n核心投资逻辑：把制药从\"药物发现\"（在数百万至数十亿分子中大海捞针）转为\"药物设计\"（先定义理想分子、由模型直接生成）。信奉\"苦涩教训\"（bitter lesson），坚持缩放数据/模型/算力，模型完全从零训练而非微调现有 LLM，并以\"简化\"为第一原则——**CHI-1** 有 **23** 个子模块，团队刻意不加\"第 24 个模块\"去硬解某个靶点，而是靠更强模型自然泛化。\n\n关键量化进展（投资者重点）：抗体设计的行业起点结合率约 **0.1%**（千分之一），**CHI-2** 将成功率提升至约 **15%**（筛 1000 个分子约 150 个命中），远超两人最初\"3-4 年做到 20%、目标仅 1%\"的预期。命中率提升带来更强的可迭代信号，进而支持向\"可制造性\"等药物成药性属性延伸。\n\n商业模式：走\"基础设施/合作\"路线，而非 Isomorphic 式自建全栈药物管线。理由——模型越好越能把资金投回模型本身而非临床试验，可扩展性更强；且与药企广泛合作能避免\"自欺\"（模型须对大量靶点泛化）。已锁定 **Eli Lilly、Novartis、Argenx、Pfizer** 等大药企合作，且据称数月前刚跨过采用\"拐点\"，故近期集中官宣。强调药企其实很懂 AI、验证严苛，一旦看到数据便快速全面采用。\n\n数据飞轮：主要数据源为自 **1970** 年起积累的蛋白质结构数据库（PDB 晶体结构）+ 规模达数万亿 token 的序列数据库；模型变强后可自行生成新结构与实验数据，形成复利。团队精简、迭代快。风险/难点在于超大规模 GPU 集群稳定训练与生产级代码质量（起步仅 **128** 块 GPU）。愿景：把新药研发周期从约 **9** 个月压缩到 9 周乃至 9 天，做\"分子的计算机辅助设计套件\"，攻克阿尔茨海默症等难成药及罕见病/个性化药物。"
+    }
+  ],
+  "articles": [
+    {
+      "source": "a16z",
+      "title": "American Dynamism Film Series",
+      "date": "2026-08-05 14:01 UTC",
+      "link": "https://www.a16z.news/p/american-dynamism-film-series",
+      "chars": 4601,
+      "summary_zh": "a16z 推出「American Dynamism」影片系列，聚焦三家重塑美国\"建造、供能、防御\"能力的硬科技公司，体现其对国防、能源、工业自动化等\"美国振兴\"主题的持续押注。\n\n**1）Ulysses（海洋安全）**：创始人 Will O'Brien 认为本世纪的战争将从丛林、沙漠转向海洋，国防部（DoW）将成为此类早期研发的\"锚定客户\"（anchor customer），把技术拉升至更高成熟度。他类比冷战太空竞赛——当年以巨大 GDP 占比投入，把技术时间表**提前了 50 年**，本应到世纪末才实现的成果在**不到 10 年**内完成；正如\"先有 NASA 才有 SpaceX\"，政府作为锚定客户能拉动深科技突破。投资含义：国防订单是硬科技早期融资的关键催化。\n\n**2）Radiant（核能）**：创始人 Doug Bernauer 提出将核反应堆做成\"产品\"而非动辄耗时 **5 至 10 年、最慢达 15 年**的巨型工程。公司目标是在田纳西州工厂以流水线方式实现**每周下线一台**反应堆；该 **80 英亩**场地于去年 10 月刚签下（不到一年）。产品为可放上拖车的兆瓦级离网反应堆，工厂造好后运至客户现场，**48 小时内**即可启动供电。核心逻辑：\"电力即文明\"。\n\n**3）Mariana Minerals（采矿与精炼）**：创始人 Turner Caldwell 覆盖从采矿到精炼的全链条，指出中间交接环节存在大量市场低效。公司押注自动化，用强化学习将人从精炼运营决策中移除——因矿石原料高度不均质，需持续调节温度、流速、加药速率、停留时间等；采矿端每天需做**数千个决策**，熟练劳动力短缺会导致低产能、设备低可用率与低利用率。当前行业技术渗透率受制于运营团队习惯的技术栈，多数仍停留在纸笔加**约 150 张**散落的电子表格。\n\n分析视角：三家均属 a16z「美国振兴」主题，共同特征是以 AI/自动化+制造产品化重构传统重资产行业，并高度依赖政府作为早期锚定需求。"
+    }
+  ]
+}
