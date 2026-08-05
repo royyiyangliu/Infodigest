@@ -1,0 +1,39 @@
+Source  : a16z
+Title   : American Dynamism Film Series
+Date    : 2026-08-05 14:01 UTC
+Link    : https://www.a16z.news/p/american-dynamism-film-series
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+Today we’re pleased to share the American Dynamism Film Series: a spotlight on three companies changing how we build, power and defend America.
+Ulysses: securing the seas
+“We have some periods in time that are defined by land, and this century we’re moving into a century that is defined by the sea. The last wars were fought in jungles and deserts. The next wars will be fought over oceans. And I think this is going to position DoW as one of these anchor customers for companies like the three of ours, to fund early-stage R&D, to get these technologies pulled up the technology readiness scale.
+“With the Cold War, we had the space race, and we saw this insane investment as a percentage of GDP into the space race. It literally pulled forward the technology timelines 50 years. We did in less than 10 years what people thought we’d do by the turn of the century. ... When you have that pull forward of technology, then therefore you get that you had to have NASA to have SpaceX, right? ... And I think this is important, because government is typically an anchor customer to pull forwards in these deep technologies. I think we’re seeing a transition in this century.” —
+Will O’Brien, Ulysses
+Radiant: splitting the atom
+“Nuclear reactors as products have never been seen before. They’re always usually these giant mega projects where you dig a huge hole in the ground and it takes five to 10 years, or up to 15 for the slower, bad projects out there. Ours, we’re targeting one per week coming off of a production line from our Tennessee facility, an 80-acre site we just signed for in October, not even a year ago.
+Our product is for off the grid — megawatt reactor on a trailer. We build it in our factory, we drive it or fly it to where the customer wants it to go, and then turn it on within 48 hours. ... Electric power is civilization. If you go and there are sockets, and you pop something into them and you just get power, that’s very well developed — that’s civilization, using electricity to do what you could otherwise only do with human muscle or animal muscle.” —
+Doug Bernauer, Radiant
+Read more:
+SMR (So Many Reactors) | Tori Shivanandan
+Mariana Minerals: transforming the earth
+“We focus on the full chain from mining all the way through refining. ... That handoff in the middle leads to a lot of actual market inefficiencies. We’re making a big bet on autonomy, fundamentally. ... We use reinforcement learning to actually remove humans from the loop in determining how refineries operate. When you have a highly variable feedstock — because the earth is heterogeneous — you need to constantly be tuning the temperatures, the flow rates, the chemical addition rates, the residence times of a highly complex refining circuit.
+The same is true on the mining side of things — we’re making thousands of decisions a day, and when you don’t have the labor pool of folks who are able to make the right thousand decisions, that can cascade into low productivity, low availability of equipment, and low utilization of equipment.
+What sets the rate of software and technology penetration into these plants and mines, ultimately, is the operating teams — what tech stack they’re comfortable with. For the most part, that’s pen and paper and maybe 150 spreadsheets scattered around an operation.” —
+Turner Caldwell, Mariana Minerals
+Read more:
+Investing in Mariana Minerals | Erin Price-Wright and Ryan McEntush
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
