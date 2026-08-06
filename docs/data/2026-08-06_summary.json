@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "generated_at": "2026-08-05T23:34:54.051332+00:00",
+  "generated_at": "2026-08-06T23:34:57.195887+00:00",
   "stats": {
     "tweets": 8,
     "podcasts": 2,
@@ -10,42 +10,42 @@
     {
       "author": "Swyx",
       "handle": "swyx",
-      "summary_zh": "AI 工程师、Latent Space 播客主理人、Smol AI 创始人 Shawn Wang（Swyx）提出一个观点：知识图谱（KG）与本体论之所以现在才真正走红、而非三年前，是因为\"够用的智能\"终于变得便宜到近乎免费。他认为，智能被商品化后，其互补品（如知识图谱、结构化数据）的价值反而随之上升——过去构建 KG 最难的部分如今已被廉价智能解决。"
+      "summary_zh": "AI 工程师、Latent Space 播客主理人、Smol AI 创始人 Shawn Wang（Swyx）提出一个洞见：知识图谱（KG）与本体论之所以现在才真正走红、而非三年前，是因为\\\"够用的\\\"智能终于变得便宜到近乎免费。他认为一旦智能被商品化，其互补品（结构化数据、知识图谱）的价值就会随之上升——过去构建 KG 最难的部分如今已被廉价智能解决。"
     },
     {
       "author": "Josh Woodward",
       "handle": "joshwoodward",
-      "summary_zh": "Google Labs 副总裁、负责 Gemini App 与 NotebookLM 的 Josh Woodward 发布 NotebookLM 的 Notebook 新体验：主打\"为思考而非切换模式设计\"，把所有功能整合进单一统一的提示栏，不像其他产品那样不断堆叠模式。目前向 Ultra 与 Pro 订阅用户开放，随后推广至全部用户。"
+      "summary_zh": "Google Labs 副总裁、负责 Gemini App 与 NotebookLM 的 Josh Woodward 发布 NotebookLM 的 Notebook 新体验，主打\\\"为思考而非切换模式设计\\\"：把所有功能整合进单一统一的提示栏，而不像其他产品那样不断堆叠模式。目前先向 Ultra 与 Pro 订阅用户开放，随后推广至全部用户。"
     },
     {
       "author": "Thibault Sottiaux",
       "handle": "thsottiaux",
-      "summary_zh": "OpenAI 工程负责人 Thibault Sottiaux 宣布知名安全研究员 Halvar Flake 即将加入团队，主题为\"Better Cyber\"，透露 OpenAI 正加码网络安全方向的人才布局。"
+      "summary_zh": "OpenAI 工程负责人 Thibault Sottiaux 宣布知名二进制安全研究员 Halvar Flake 即将加入团队，主题为\\\"Better Cyber\\\"，透露 OpenAI 正加码网络安全方向的顶尖人才布局。"
     },
     {
       "author": "Peter Yang",
       "handle": "petergyang",
-      "summary_zh": "产品主管、Creator Economy 简报作者 Peter Yang 就 AI 时代的软件变现给出观点：如今用 vibe coding 快速做出的 SaaS，更适合当作导流入口，引导用户转向更高价的服务，而非指望靠 SaaS 本身赚大钱——但服务模式又回到了\"拿时间换钱\"的咨询老路。他还提到当下从 X 平台分成赚到的钱可能比做一个微型 SaaS 还多；并关注 GPT 5.6 Luna High 传闻中更便宜、近乎无限量的使用额度是否能胜任复杂的浏览器自动化任务（他称这占其 Codex 用量的 50%）。"
+      "summary_zh": "产品主管、Creator Economy 简报作者 Peter Yang 对 AI 时代的软件变现给出观点：如今用 vibe coding 快速做出的 SaaS，更适合当作导流入口、引导用户转向更高价的服务，而非指望靠 SaaS 本身赚大钱——但服务模式又回到了\\\"拿时间换钱\\\"的咨询老路。他甚至认为当下从 X 平台分成赚到的钱可能比做一个微型 SaaS 还多。他还关注传闻中 GPT 5.6 Luna High 更便宜、近乎无限量的额度能否胜任复杂的浏览器自动化任务（他称这占其 Codex 用量的 50%）。"
     },
     {
       "author": "Madhu Guru",
       "handle": "realmadhuguru",
-      "summary_zh": "Madhu Guru（@realmadhuguru）总结了一套正在成型的创业者\"打法\"：用于早期产品验证的最佳模型，几乎从来不是用于生产的最佳模型。具体做法是——第一步用最强的前沿模型做原型，不计成本与延迟，尽快搞清用户真正想要什么；待工作流与体验验证后，再在 6-8 周后（等开源权重模型追上时）把生产负载迁移到开源模型和尽可能更小的模型上，疯狂优化成本与延迟。他强调顺序不能反，千万别一开始就用最便宜的模型，而多数团队恰恰卡在了第一步。"
+      "summary_zh": "Madhu Guru（@realmadhuguru）总结了一套正在成型的创业者\\\"打法\\\"，其反直觉之处在于：用于早期产品验证的最佳模型，几乎从来不是用于生产的最佳模型。具体分两步——先用最强的前沿模型做原型，不计成本与延迟，尽快搞清用户真正想要什么；待工作流与体验验证后，再在约 6-8 周后（等开源权重模型追上时）把生产负载迁移到开源模型和尽可能更小的模型上，疯狂优化成本与延迟。他强调顺序绝不能反、千万别一开始就用最便宜的模型，而多数团队恰恰卡在了第一步。"
     },
     {
       "author": "Guillermo Rauch",
       "handle": "rauchg",
-      "summary_zh": "Vercel 创始人兼 CEO Guillermo Rauch 分享了两个产品要点：FactoryAI 用 Vercel 的 Fluid compute 支撑其 API 服务，每月处理数十亿次请求；此外，在 AI SDK 中仅加一行代码，就能在 DeepSeek v4 Flash 的 AI Gateway token 上省下 90% 以上的成本。"
+      "summary_zh": "Vercel 创始人兼 CEO Guillermo Rauch 分享两个产品要点：FactoryAI 用 Vercel 的 Fluid compute 支撑其 API 服务，每月处理数十亿次请求；此外，在 AI SDK 中仅加一行代码，就能在 DeepSeek v4 Flash 的 AI Gateway token 成本上省下 90% 以上。"
     },
     {
       "author": "Aaron Levie",
       "handle": "levie",
-      "summary_zh": "Box 联合创始人兼 CEO Aaron Levie 观察到，企业 AI 落地策略呈现出极高的异质性——不同于云计算早期只有寥寥几种部署模式和基础设施厂商，AI 的路径要宽得多：问 10 位 IT 负责人他们的编码 agent 策略，至少能得到 5 种不同答案；在终端生产力 agent 上，有的标准化到 ChatGPT 或 Claude，有的提供多方案选择，还有不少自建编排层。他还指出企业对开源模型（OSS）兴趣浓厚、只等\"足够安全\"的产品出现，垂直模型与 agent 也在涌现；数据访问上有的让 agent 扮演用户角色、有的给 agent 独立身份。结论是：如此早期的高度分化意味着未来数年格局仍会剧烈变化，现在就断言最终赢家的人很可能会错，机会依然巨大。"
+      "summary_zh": "Box 联合创始人兼 CEO Aaron Levie 观察到，企业 AI 落地策略呈现出极高的异质性——不同于云计算早期只有寥寥几种部署模式和基础设施厂商，AI 的路径要宽得多：问 10 位 IT 负责人他们的编码 agent 策略，至少能得到 5 种不同答案；终端生产力 agent 上，有的标准化到 ChatGPT 或 Claude，有的提供多方案选择，还有不少自建编排层。他指出企业对开源模型（OSS）兴趣浓厚、只等\\\"足够安全\\\"的产品出现，垂直模型与 agent 也在涌现。结论是：如此早期的高度分化意味着未来数年格局仍会剧烈变化，现在就断言最终赢家的人很可能会错，机会依然巨大。"
     },
     {
       "author": "Garry Tan",
       "handle": "garrytan",
-      "summary_zh": "Y Combinator 总裁兼 CEO Garry Tan 就加州政策发声：他抨击加州民主党背书支持 Prop 40（他称之为\"资产没收税\"），认为这将摧毁加州的税基。他还重申市场规律——想让房价下降就该多盖房子，而试图废除租金、推动大规模资产没收与征用只会适得其反，\"革命只服务于煽动革命的人\"。"
+      "summary_zh": "Y Combinator 总裁兼 CEO Garry Tan 就加州政策发声：他抨击加州民主党背书支持 Prop 40（他称之为\\\"资产没收税\\\"），认为这将摧毁加州的税基。他重申市场规律——想让房价下降就该多盖房子，而试图废除租金、推动大规模资产没收与征用只会适得其反，\\\"革命只服务于煽动革命的人\\\"。"
     }
   ],
   "podcasts": [
