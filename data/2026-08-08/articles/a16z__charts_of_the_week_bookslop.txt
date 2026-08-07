@@ -1,0 +1,102 @@
+Source  : a16z
+Title   : Charts of the Week: Bookslop
+Date    : 2026-08-07 14:01 UTC
+Link    : https://www.a16z.news/p/charts-of-the-week-bookslop
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+Bookslop
+We have some more data to consider with respect to
+AI’s impact on publishing
+—this time a paper from researchers at Stony Brook, Columbia, Michigan and the MIT Initiative on the Digital Economy, called “Generative AI floods and dilutes the market for books.”
+It’s not the friendliest title, but the gist of it is pretty straightforward: AI-generated books (either substantially or somewhat) are proliferating in the self-published categories . . . and people seem to like them? Well, whether people
+like
+the book slop or not, they’re definitely buying it:
+Books with at least some detectable AI text are now capturing ~40% of observed sales.
+That’s a fairly striking figure, but it’s even more striking when you consider just how easy it is to self-publish an AI book, and how many AI-ish books have come to market.
+Since 2023, self-published new books have proliferated
+far
+more quickly than either of the number of books that sell, or book sales and revenue:
+While the total catalogue has increased nearly 40x, actual revenues have only increased ~9x. And while non-AI books still earn the most per book, the gap has closed substantially.
+In other words, AI-authorship is taking a volume approach: lower-cost output has scaled the self-published catalogue massively, but since the hit-rate is lower, revenue has grown, but not by nearly as much. Hence the paper’s title:
+Gen AI floods and dilutes the market for books.
+Still, with enough shots on goal, eventually bookslop finds the right combination of m-dashes and ‘not this it’s that’ to attract paying customers—sometimes, a lot of paying customers (relative to the field). Again, the barriers to entry are low, which means the entries are high, which means that AI-generated/assisted books can be a chart-topper in basically any genre:
+Books with substantial AI text have at least a 10% share of the Top 25 across all genres, including ~40% of Sci-Fi/Adventure/Dystopian category.
+Flood the zone, win the zone. Sounds bad.
+Now, let’s take a step back for moment, though. Assuming that AI text detection actually works, the point that the authors of the study are trying to make is that AI-Books are flooding the market, winning share with volume over quality. Revenue per book is falling basically across the board, and real human writers are getting squeezed—rather than a passing fancy, “low-quality, cheap books can still reshape a market,” but really the authors are saying ‘…
+will
+reshape a market.’
+Maybe so, but there’s a pretty obvious silver lining here. One can’t help but notice that self-published revenues by the author’s own calculations still increased
+nearly 9x in just three years.
+That’s perhaps a big increase off a small base, but that’s still a very big increase. If bookslop is, in fact, flooding the market, but it’s also growing the market much more quickly than it otherwise would (to the benefit of human authors), is it necessarily a bad thing that it’s capturing a larger share of revenue?
+The Defense Industrial Backlog
+Everyone knows about the cloud revenue backlog, which is generally considered a strong indicator of AI-driven demand:
+If Hyperscalers are spending more on compute, then they better be seeing more demand for compute, and so they are.
+Well, the cloud backlog is cool and all, but have you heard of the defense contractor backlog? That one is pretty impressive too:
+Revenue backlogs for some of the largest defense contractors have inflected upwards since the beginning of last year (although, to be fair, General Dynamics and RTX include some commercial orders, as well).
+It’s not quite the same parabolic curve as demand for compute, but the pull on the defense industry is definitely real. Outside of the specific defense earnings releases, the surge of defense-demand and output is showing up in the macro-picture, as well.
+According to Census data, both defense orders and shipments have increased ~60% since 2020, with the lion’s share of that increase occurring over the past 1.5 years:
+All categories of defense production have ramped up, but the biggest ramp is in the “other” category, i.e. defense orders that aren’t aircraft, search, and comms (represented by the top three layers in the stacks above). While Census doesn’t offer a more granular breakdown of “Other,” a different, more detailed series from the BEA leaves some clues. If you apply the BEA’s category mix to the Census figures, then a rough estimate suggests that ships, missiles, and small arms/ordnance are driving most of the increase in demand for defense-related production.
+Another interesting thing is that all this fresh defense spending has unsurprisingly led to a surge in production—yes, orders have increased, but throughput has increased even more:
+“Unfilled defense orders” have jumped by ~$20B, even as the estimated backlog has dropped by ~20%. This backlog is really an imperfect proxy because it’s just the quotient of the dollar value of defense orders divided by the dollar value of monthly defense shipments, and it doesn’t take into account whether it’s a mortar round or jet engine. In other words, one shouldn’t conclude that the backlog or lead time for all types of defense orders has compressed, but the aggregate picture appears that it has.
+But, the implication is that even as demand has ramped up substantially, the sheer volume of monthly defense shipments has accelerated more so.
+That follows various government reports highlighting the need for much higher defense industrial capacity (and
+lengthening lead-times
+for key defense orders), as well as
+investment and progress
+towards that end:
+$5B of investment in capacity has substantially increased munitions capacity since 2022, although the DOW acknowledges that target capacity is higher still.
+It turns out, you can, in fact, just build things, even things that have historically been built at a slow n’ steady pace.
+Bigger picture, you can add defense manufacturing to the
+growing pile of evidence that an industrial renaissance
+is most-definitely underway (even
+if, again, there’s still a ways to go
+).
+That’s seven straight months of expansion for the manufacturing PMI, where every indicator is on the rise (except for prices paid).
+In terms of what’s happening, part of it is likely the ongoing conflicts with Iran and Russia, but bigger structural changes are also afoot. Outside of the US, European countries are allocating more to their defense budgets, and America’s role as a net-exporter of defense goods has only grown:
+Perhaps more importantly than just increased defense budgets, key battlefield components are evolving, particularly with a shift towards autonomy, and that has created urgency to evolve the industrial base, as well (with investment to match). The point being that the defense industry is undergoing more than just a seasonal glow-up and/or resupply. By all accounts, this is a secular demand impulse that isn’t going anywhere anytime soon.
+IT Services, Down (But Not Out?)
+Charts has mused
+on the ever-shifting landscape of perceived AI-winners and losers
+. We’ve
+flagged Accenture
+, the IT services giant, as an example of a company that was at one point considered a likely beneficiary of AI implementation efforts, but has more recently become a likely loser of shifting IT budgets away from IT services, and towards AI.
+Unsurprisingly, Accenture is not alone amongst its peers, as IT services more generally has experienced a dramatic repricing of forward earnings:
+Consensus multiples for IT services are now about a third of what they were in the beginning of 2025.
+That’s interesting so far as it goes, but the more interesting question is less whether ‘has AI has doomed IT Services?’ so much as ‘well, what is IT Services gonna do about it?’
+No one knows the future, of course, but this seems like a perfect example
+of rather than AI eliminating a function, AI is forcing it to evolve.
+Consulting firms are going to have to invest the time and effort to adapt and improve their value proposition (and perhaps even their business models) in response to this brave new world. Some part of that is “reskilling,” an effort that is likely already reflected in the broader premium for more senior talent (possessing the required skills to be AI-useful right now). Reskilling tends to take some time, and it wouldn’t make sense to hire a brand new cohort of young consultants, before you know what they’re being hired to do (and how they’re going to be trained to do it).
+On the bright side, this sort of bust-to-boom transition has happened to IT services before. The shift to cloud
+also
+put a major damper on IT services (as they were), and
+also
+forced the industry to adapt and evolve—which it did:
+It took 3-4 years from the collapse of cloud-driven growth expectations for IT services to recover, but eventually the threat became an opportunity.
+On-prem services were disrupted by the shift to off-prem—and the pain for consultants was real—until they adapted their skills and offerings to become the experts in lift n’ shift (and everything else that entailed). Once again, the good times rolled for IT Services.  Not for everyone, of course. The consultants that didn’t or couldn’t adapt continued to languish, but for the ones who did, tech disruption became a massive accelerant. Change was not painless, but it was net-good.
+There’s no reason to think that AI will have a dissimilar effect. Roles will evolve, and some will become obsolete, but for others still, AI will be a force-multiplier.
+Kimi’s Got a Career Update
+It feels like ages, but it was really only two weeks ago that Moonshot released its Kimi K3 model, leading to a total timeline takeover for the open v. closed debate.
+Obviously all that attention meant that lots of people wanted to know what all the fuss was about, and so they decided to see for themselves:
+According to data from SensorTower, Kimi app downloads and daily active users both surged practically overnight. Downloads nearly quintupled, and DAUs jumped by ~40%. For now, at least, K3’s coming out party, is more than just hype—people are definitely giving the model a spin.
+As an aside, it does seem like the vast majority of Kimi’s impact happened outside the US:
+SensorTower’s estimates of in-app weekly purchasing volume definitely increased in the US (off a relatively small baseline), but the global leap was far more pronounced. Kimi’s global revenue reach has apparently been increasing since the beginning of the year—already 6-7 times higher than in the US—but gross in-app purchase revenue went vertical in July, and basically doubled in just a week. In other words, for all the hype, Kimi is still much more of a global (and Chinese) phenomenon than a US one.
+Interestingly, SensorTower also provides some evidence that Moonshot is trying to change that, however—not just by shifting its geographic focus, but potentially by making a move on a different vertical:
+Moonshot’s 2026 marketing strategy looks nothing like its 2025 marketing strategy. The Chinese lab went from spending big money on YouTube to directing more than 60% of its advertising fire on LinkedIn (while YT has become an afterthought).
+Now, putting advertising dollars to work on LinkedIn doesn’t necessarily mean that Moonshot is making an enterprise play, but it might mean that. Nor is Moonshot the only one who advertises on LinkedIn—data from earlier this year suggested
+that LinkedIn was the favored advertising channel for AI apps, in general.
+In all events, LinkedIn is now apparently the place to get your AI slop from all ends…AI-generated career poasting with a steady supply of AI ads to help you pick your weapon of choice.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

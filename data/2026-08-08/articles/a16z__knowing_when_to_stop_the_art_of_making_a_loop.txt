@@ -1,0 +1,124 @@
+Source  : a16z
+Title   : Knowing When to Stop: The Art of Making a Loop Converge
+Date    : 2026-08-06 14:01 UTC
+Link    : https://www.a16z.news/p/knowing-when-to-stop-the-art-of-making
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+How can an AI model know when its work is done?
+Well, how does a
+human
+know when our work is done.
+A programmer waits for the tests to turn green or waits for PR review from their team. A designer adjusts a composition, steps away, returns, and decides the remaining imperfections no longer matter. A writer submits a draft because the deadline has arrived or because an editor accepts it, not because the prose has reached some objectively final state.
+“Done” is rarely a property of the work itself. It is a judgment produced by the system around the work.
+Humans do not possess a universal detector for “done”. We rely on a patchwork of signals like tests, specifications, precedent, approval, deadlines, risk, and finding that point of diminishing returns. In each case, completion comes from outside the work itself.
+The Model that Could Continue Forever
+An AI model can almost always produce another answer.
+It can revise the paragraph again. It can try another implementation. It can generate another image with more detail, different lighting, and a stronger composition. It does not become tired of the work. It does not notice, unless we give it some way to notice, that the last three revisions made the result different but not necessarily better.
+This is part of what makes the recent idea of loop engineering so compelling. Instead of a human prompting a model, inspecting the result, describing what went wrong, and prompting it again, we can ask the system to perform the whole cycle itself. The person no longer has to sit inside every turn. The agent discovers the work, gives it to the model, checks the result, and decides what should happen next.
+However, the nuance when writing a loop
+is that the loop is only as good as the verifier at each step
+. Even before we started talking about loop engineering, everything already runs as a loop, just with a very expensive tool call – human hand prompting and serving as the verifier. When taking humans out of the loop, designing what should be verified in each step becomes the key in advancing the loop state, and the reality is it’s hard to make them work.
+Take the standard coding-agent loop as an example: keep working until the tests pass. It sounds almost perfectly verifiable. But the tests are only a proxy for the task. In
+SpecBench
+, frontier agents routinely passed the visible tests while failing held-out tests that exercised the same features together. One agent produced a 2,900-line “compiler” that simply memorized the test inputs. The loop converged, but just on the verifier, not the user’s intent.
+The verifier is not just the stop condition. It also defines what the loop treats as progress. If the signal is incomplete, the loop can get better at passing the check without getting better at the task.
+Loop engineering is not the practice of making an agent retry. It is the practice of making each cycle reduce the distance between the current state and a desired state. A loop is not yet a direction.
+The Loops that Converged
+The first loops that worked well were coding loops. This is not an accident. Code is both editable and executable. An agent can change one function, run the program, read the test failure, and try again. The environment returns a relatively clear signal about what broke. The loop has both a precise way to act and a verifier that can measure progress.
+I wrote about a similar pattern in
+visual code generation
+. An SVG is not just an image; it contains paths, shapes, text, gradients, and layout. A Blender scene is not just a render; it contains geometry, materials, cameras, joints, and constraints. These representations give an agent something it can inspect and edit locally. If one curve is wrong, change the path. If one object is misplaced, move that object. The artifact can improve across iterations instead of being regenerated from scratch.
+But editability is only half of the problem.
+In open-ended image generation, another iteration often means generating another sample and choosing the best one. The feedback is global, and it is hard to map “this looks worse” to one precise edit. SVG and Blender loops can converge when the target can be expressed as a reference, geometry, constraints, or functional behavior from an articulated object. They struggle when the target is simply “make it better, with better taste, but you cannot ask a human”. Visual loops are not impossible. They are often extremely hard to verify.
+The Conditions of Completion
+If the verifier gives the loop direction, what does the loop need to converge?
+Based on many conversations with engineers and researchers across several domains, I think there are four things.
+1. A target state
+The system needs a representation of what “done” means. For code, this might be a test suite, a specification, or a set of performance constraints. For an SVG, it might be a reference image, dimensions, colors, and layout rules. “Make it better” is not a target state. It is another prompt.
+2. An observable current state
+The system needs to inspect what exists now. And that could mean files, diffs, test results, traces, a DOM tree, an SVG structure, or a Blender scene graph. A rendered output alone is often not enough. The system also needs to see the underlying structure so it can identify where the error came from.
+3. A precise way to make changes
+The agent needs to change the part responsible for the error without regenerating everything else. Changing one function is better than rewriting the repository. Editing one SVG path is better than generating a new image. Adjusting one object in a Blender scene is better than rebuilding the scene from scratch. The more local the edit, the more likely the loop is to preserve what already works.
+In practice, this is the part people struggle to get right. Nearly every researcher I talked to said the same thing: their loop started working when they found the right set of tool calls and intermediate prompts. How do you discover the tools that meaningfully advance the loop? Right now, no one knows in advance. It is mostly trial and error.
+Which points to an uncomfortable implication
+:
+a loop is tuned to its stack
+. The tool calls that made a loop converge on one codebase encode assumptions about that codebase, and those assumptions stop holding somewhere else. A loop that worked for someone else is a starting point, not a guarantee.
+Bespoke loops do not generalize for free.
+And this is why we see both sides of the discussion: some people found magical loops that worked for them, but others found when they use publicly published loops they do not work at all.
+4. A stopping rule
+The system needs a condition that tells it to stop. The condition should come from outside the generator: tests passing, constraints being satisfied, a score crossing a threshold, or a reviewer approving the result. The stop condition also needs to account for cost – a loop that reaches the right answer after 500 attempts may converge technically but not economically.
+One useful way to think about this is across two axes: how editable the artifact is, and how verifiable the result is.
+Code often sits in the upper-right corner. It is easy to edit, and it has relatively strong verifiers. Open-ended image generation often sits in the bottom-left. The system can generate another image, but it cannot easily repair one specific decision or verify that the result is closer to the user’s intent.
+One important property of the chart above is that the position of a task can potentially move by reframing a problem. The axes describe the representation, not the task itself. An open-ended image is hard to edit, but the same image, represented as SVG paths or a Blender scene, becomes editable — the task moves up. Give it a reference image or a set of constraints to check against, and progress becomes verifiable, which moves the task to the right.
+This is another way to describe loop engineering: not making the agent retry more, but re-representing the task until it sits in the quadrant where loops converge.
+Loops are Discovered Before They are Engineered
+I interviewed programmers from different domains who all are working on some form of loop engineering - from software engineering to visual and creative tasks to video editing. And I asked each one the same question - how did you know the loop would converge and iteratively improve?
+The answer is today’s process of discovering a loop that works takes a lot of trial and error. It may be providing the right tool calls; or leaving the loop running for hours to see if it did much better than hours before (and if the improvement curve is promising). It may be going deep on specific workflows they have run in specific environments and replicating exactly that.
+But discovering loops that can work everywhere is hard, and it’s almost like we are trying to encode the human knowledge into the loop itself; we first must deeply understand what makes the loop work, or find creative ways to build a verification layer, before attempting to automate it away.
+However, finding a loop is only the upfront cost. Running the loop is the major cost that comes with every development cycle.
+The Economics of Loops
+So suppose the trial and error pays off, and you’ve found a loop that works. The simplest version of this is /goal [condition]. Keep going until the condition is met. And the loop will eventually get there.
+“Eventually” is the problem. Would you run 20 iterations or 500? The honest answer is that the loop does not know, and neither does the human developer at the time of kicking off that loop, which makes the economics of running loops tricky.
+What we do know is the shape of the curve. Across almost every study of test-time compute, returns are logarithmic: each additional increment of quality costs exponentially more attempts.
+1
+One web-agent benchmark found that going from 1 sample to 10 lifted success from 38.8% to 43.2%. Doubling again to 20 bought 0.2 more points for twice the tokens.
+2
+And past the plateau the marginal iteration can turn negative: reasoning models given larger budgets start abandoning answers that were already correct. More cycles do not just stop helping. They start hurting.
+3
+I tested out one of the most popular loop examples in the wild from Anthropic’s own
+loop-engineering post
+:
+and found that the incremental token spend moves the needle far less than the loop’s runtime suggests.
+On a deliberately broken page (Lighthouse 35), Claude Code cleared 98 on the very first try for $0.35: the loop never engaged as expected. So I made the goal unreachable: same page, but served behind 2.2 seconds of artificial latency that caps the score around 89, and asked for 100.
+The first $1.40 of spend took the score from 26 to 89. The remaining $2.84,
+67% of the total bill, bought exactly zero points
+: turn after turn of re-minifying HTML and re-running Lighthouse against a bottleneck the agent couldn’t change, each turn more expensive than the last as the transcript grew (and the Haiku evaluator quietly accumulated $0.67 on its own). Worse, the loop’s escape hatch is unreliable: Claude correctly diagnosed the latency ceiling and declared the goal impossible around try 5, and the evaluator model bounced it back 14 times anyway.
+4
+The lesson isn’t that loops don’t work; it’s that they have no idea how to stop.
+In this run, all the value landed in the first third of the spend, but the loop continued, burning tokens for an impossible task with marginal return.
+Stopping well isn’t something one can prompt into existence. It takes infrastructure: something to meter the spend, something to measure progress against it, and something with enough information to cut the loop off. Loop engineering has an infra stack, and below are the layers.
+The Stack for Loop Engineering
+Once the loop becomes the unit of engineering, models and developers need infrastructure at every layer: an environment for the agent to act, a place to keep long-running state alive, a way to verify the work or close the loop, and a surface where humans steer. A stack has already formed around each category:
+Inference Time vs Training Time Loops
+Another lens to look at the loop engineering problem is from the perspective of inference vs training time.
+At inference time, the loop changes the work, not the model. The agent writes code, runs verifiers, reads the result, and tries again. Its weights stay fixed and the system is searching for a better answer within one task leveraging test time compute.
+At training time, the process looks like using reinforcement learning techniques that run many trajectories, scores the outcomes, and updates the model so rewarded behavior becomes more likely. The same rule applies in both cases: the loop is only as good as its verifier. In an agent loop, that verifier might be a test suite. In RL, it is the reward signal. Sometimes the two are the same.
+The two loops can eventually feed into each other.
+Inference-time runs produce traces of what worked, what failed, and which corrections led to success. Those traces can become training data, preference pairs, or rewards, allowing the model to learn behavior it previously had to discover through expensive search. But not every failure should be solved through training.
+Often the higher-leverage fix is outside the weights: a better tool, clearer state, a more precise action space, or a stronger verifier.
+Future Implications
+Today, most agent infrastructure and harnesses can help us run loops. The harder problem is finding a loop worth running, and finding the point before diminishing returns for the task at hand.
+Two things seem clear to me from watching these loops run.
+The first is that the economics will have to become explicit.
+Right now we run loops the way we once ran cloud instances nobody remembered to turn off. The agent bills by the token, and the token costs the same whether it moves the score or re-minifies the same HTML for the ninth time. In my Lighthouse run, two-thirds of the spend bought nothing, and neither the loop nor I knew it until I read the trace afterward.
+The missing piece is boring yet necessary: cost per iteration, progress per dollar, a curve someone can see while the loop is still running.
+The second is that for the loops that already converge, the interesting infra work has moved out of the loop.
+The loop itself is a while-statement and everything that makes it converge lives around it: the environment the agent acts in, the state that survives a long run, the verifier that decides what counts, the surface where a human steps in. Every working loop I’ve seen took a stack like this to build, and the stack is where differentiation actually sits.
+So how does an AI model know its work is done? For now, it doesn’t. It stops when the budget runs out or when a check we designed says enough, and both of those need to be built. The systems that matter will not be the ones that can keep going. They all can.
+They will be the ones whose builders decided, precisely and in advance, what done costs and what done means.
+If you are working on the loop engineering problem, doing research in this domain, or have thoughts on how this space will evolve, reach out to yli@a16z.com.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
+1
+R. Schaeffer, J. Kazdan, J. Hughes, J. Juravsky, S. Price, A. Lynch, E. Jones, R. Kirk, A. Mirhoseini, and S. Koyejo, “How Do Large Language Monkeys Get Their Power (Laws)?”, Proceedings of the 42nd International Conference on Machine Learning (ICML 2025, oral), PMLR 267:53132–53176. https://arxiv.org/abs/2502.17578
+2
+"Agentic Test-Time Scaling for WebAgents" (CATTS), arXiv:2602.12276. https://arxiv.org/abs/2602.12276 — N=1→10 samples: 38.8%→43.2% success; N=10→20: +0.2 points for 2x the tokens.
+3
+"When More Thinking Hurts," arXiv:2604.10739. https://arxiv.org/abs/2604.10739 — Marginal utility per extra reasoning token goes flat, then negative: models given larger budgets abandon answers that were already correct. Easy problems peak early, hard ones later — a uniform budget is wrong for both.
+4
+All code and traces can be found in this repo:
+https://github.com/ykhli/goal-loop-traces

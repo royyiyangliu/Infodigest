@@ -1,0 +1,98 @@
+Source  : Dwarkesh Podcast
+Title   : 8 Predictions for the Era of Continual Learning
+Date    : 2026-08-07 17:17 UTC
+Link    : https://podcasts.apple.com/us/podcast/8-predictions-for-the-era-of-continual-learning/id1516093381?i=1000780918685&uo=4
+────────────────────────────────────────────────────────────
+
+[00:00] Speaker0: So i've explained elsewhere why i think actual continual learning is needed.
+[00:03] Speaker0: I don't think you can have ais that perform whole jobs as competently as humans if they are forced to just write markdown files from session to session.
+[00:11] Speaker0: Just to give an illustrative example, imagine if this is the way that students learn to play the saxophone.
+[00:15] Speaker0: So you have one student, he's never played the saxophone before.
+[00:18] Speaker0: He goes into the music hall, he tries to play it, of course, this is his first time, so he fails.
+[00:22] Speaker0: And he writes down a bunch of notes about what went wrong.
+[00:24] Speaker0: And there's a next student who's waiting outside the music hall.
+[00:27] Speaker0: He comes in, he reads all these notes, he's also never played, so of course he messes up.
+[00:31] Speaker0: And he continues to add on to these notes, and you have an infinity of students who are outside the music hall, who keep writing notes to the next person.
+[00:38] Speaker0: I don't think there's any sequence of text they could write to each other, that would allow the subsequent student to just nail the saxophone from the first try.
+[00:46] Speaker0: At some point, you actually have to accumulate the relevant experience into your brain.
+[00:50] Speaker0: I think the same thing will be true for a lot of skills that we want ais to actually accumulate from all the different workplaces in which they're deployed.
+[00:58] Speaker0: Okay, so what changes once we have actual continual learning?
+[01:01] Speaker0: One, I think that a lot of proposals that have been put forward about regulating AI assume that you train a model and then you deploy it.
+[01:09] Speaker0: And therefore, if you run a bunch of checks on the model before it is deployed, we can make sure that it's not going to aid in cyber attacks or do something crazy.
+[01:16] Speaker0: I don't think this assumption necessarily makes sense in the future.
+[01:19] Speaker0: And this is one of the many reasons I'm actually kind of worried about locking in some kind of safety regulatory regime right now, because we don't know what kind of technology we're going to be dealing with.
+[01:28] Speaker0: Even within a year, let alone within five years or 10 years, what if the model is improving every single day based on the millions of sessions of work?
+[01:37] Speaker0: It does in that day.
+[01:38] Speaker0: If that happens, we could potentially be locking in an archaic and potentially counterproductive approach to dealing with the threats from ai to the extent.
+[01:45] Speaker0: The government wants some way to do some kind of safety evaluation on model providers.
+[01:49] Speaker0: I think it would make more sense to do monthly or quarterly risk inspections.
+[01:53] Speaker0: Rather than trying to single out some special moment that occurs after training is done, but before deployment begins, because that will not be a meaningfully distinct category in the future.
+[02:02] Speaker0: 2.
+[02:03] Speaker0: How the labs do technical alignment would probably totally need to change.
+[02:06] Speaker0: Right now, a lot of research is focused on the question of how we make sure that a frozen set of weights behaves well during deployment.
+[02:14] Speaker0: But i'm not aware of much research on the question of how we make it so that even with.
+[02:19] Speaker0: Constant weight updates, the ai system never falls prey to jail breaks, or changes into a deceptive or evil persona.
+[02:26] Speaker0: And if ais are consolidating learnings between users as well, how do we prevent users from injecting backdoors or some kind of malicious inclination into the base model?
+[02:34] Speaker0: In some sense, this is actually kind of what the human alignment problem is, right?
+[02:38] Speaker0: Humans improve in a self-directed way.
+[02:40] Speaker0: If you have kids, i don't have kids, but i imagine this is what happens.
+[02:43] Speaker0: If you have kids, they go out, they learn new things, sometimes they go crazy, they get one-shot by crazy ideologies, they take the wrong drug, they become super weird.
+[02:52] Speaker0: But you hope that you've given them enough common sense and basic values that they improve as people in a self-directed way without ending up with some super weird beliefs or some misanthropic ideas.
+[03:04] Speaker0: Three, the diversity of ai minds will increase right now.
+[03:08] Speaker0: There are less than five prominent ai minds by which i mean the base models which are served to millions or hundreds of millions or billions of users at once.
+[03:17] Speaker0: And they're all quite similar to each other by the way, because they've also been all trained on roughly the same data.
+[03:22] Speaker0: But if ais are learning from experience, and that experience is different between not only different ai companies, but also between different instances of the same ai model.
+[03:30] Speaker0: We can actually see a lot of diversity come out the other end in this world, and this would be i think a net good outcome.
+[03:38] Speaker0: I think one of the things to worry about in the future is just having this monolithic singleton that's quite boring.
+[03:42] Speaker0: A world where we have continual learning would hopefully be more interesting than the mode collapse of different models we see in the world right now.
+[03:50] Speaker0: For, when deployment becomes part of training, the returns to being ahead in the ai race accelerate, because if you have the best model, and more people are using your ai for more complicated and useful work.
+[04:03] Speaker0: And as a result, they're giving you lots of feedback that again integrate beyond the session window.
+[04:07] Speaker0: Then your model will become even smarter.
+[04:10] Speaker0: Five, if the model learns mainly from deployment, then labs will feel a lot of pressure to deploy their smartest models earlier.
+[04:16] Speaker0: Anthropic has reportedly been using mythos internally since february.
+[04:19] Speaker0: But it only shipped the model to the public in june.
+[04:22] Speaker0: In the regime with actual continual learning, this kind of thing would just not be possible.
+[04:25] Speaker0: You could not keep a four month gap between internal and external deployment.
+[04:30] Speaker0: And still be competitive.
+[04:31] Speaker0: Because a competitor who ships the worst model on release date will have a smarter model based on actual real world experience.
+[04:38] Speaker0: 6, continual learning will create a clear mode for the leading ai labs that they currently lack.
+[04:45] Speaker0: Many people have been asking how will the ai labs actually make money.
+[04:48] Speaker0: I have been asking this, when i had dario on the podcast, i asked him this question, and he made the analogy to cloud providers, and he made the point, look, the cloud providers are offering many undifferentiated services.
+[04:59] Speaker0: But they're earning high profit margins, nonetheless.
+[05:01] Speaker0: You will have noticed this if you look at amazon or google's quarterly earnings, they're doing just fine.
+[05:06] Speaker0: But the reason that the cloud margins are so high is that it's really time consuming and expensive to switch from one cloud to another.
+[05:13] Speaker0: Currently, there's nothing that's stopping me from starting a software repository with codex, and then doing more work on it with cursor, and then finishing it up with Claude Code.
+[05:22] Speaker0: But once we have actual continual learning, and the model you're working with is actually getting better as it interacts with you from session to session.
+[05:29] Speaker0: Then there are actually pretty significant switching costs.
+[05:31] Speaker0: If you want to change the ai that you're using, you basically had to fire an employee that has accumulated months of context on your organization, and you replace them with a very fresh very inexperienced new intern that you got to retrain from scratch.
+[05:44] Speaker0: And once you have this kind of lock in, model providers can demand pretty hefty margins.
+[05:50] Speaker0: It's really have to say seven, of course, enterprises will be wise to this kind of dynamic.
+[05:59] Speaker0: They will try to avoid this kind of lock-in.
+[06:02] Speaker0: But what if the choice is that you either get locked into a model provider or you lose out on the super valuable feature where your model improves for you from session to session?
+[06:10] Speaker0: If real usage ends up being the main way, the models improve, then the ai labs may subsidize users in enterprises.
+[06:16] Speaker0: Which allow the model to train on their sessions.
+[06:18] Speaker0: This is already happening.
+[06:19] Speaker0: If you look at the kinds of deals that are offered to new users of coding products, this is very similar to why google gives away search and conversely, the labs may say that any enterprise that refuses to let them train on the sessions can't have access to the very best models with both carrots and sticks.
+[06:34] Speaker0: The labs can do a lot to get users to allow ais to learn from experience.
+[06:39] Speaker0: Now, of course, i'm glossing over the fact that there's a difference between updating one user set of rates.
+[06:44] Speaker0: And pulling all these different weight forks back into the main model, and the latter may be more technically challenging, but in due time, this too will be solved.
+[06:51] Speaker0: 8.
+[06:52] Speaker0: AI training already has large economies of scale.
+[06:55] Speaker0: You get to amortize all this expensive training across more users.
+[06:58] Speaker0: And you see the evidence for this in the fact that the lab revenues are increasing far faster than their compute.
+[07:04] Speaker0: But continual learning may also lead to economies of scale in inference for end users, namely from batching.
+[07:10] Speaker0: You might have seen my episode with Rainer Pope where we discussed this in detail.
+[07:13] Speaker0: But if per-company instructions require full weight updates rather than living in low-rank adapters, There's huge advantages from batching back of the envelope math suggests that the optimal inference batch size for a sparse model like say deepseek v3 is more than 2400 concurrent sequences being generated at once.
+[07:33] Speaker0: If you don't do this, then you're under utilizing your compute.
+[07:35] Speaker0: And if you want to understand why again, i highly recommend that episode with reiner on inference economics.
+[07:40] Speaker0: But anyways, the point here is that a given set of weights is only certified when thousands of sequences.
+[07:45] Speaker0: Are being decoded against it all at once.
+[07:47] Speaker0: A large company with lots of employees and agents who are doing lots of different kinds of things can very efficiently serve their weight fork.
+[07:57] Speaker0: Whereas an individual user who's only running a batch size 1 may suffer more than two orders of magnitude worse efficiency on their compute.
+[08:04] Speaker0: So the economics of serving personalized weights strongly favor big organizations.
+[08:08] Speaker0: Obviously, plenty more will have changed by the time that continual learning actually works, and the most important changes are probably the ones that are hardest to anticipate in advance.
+[08:17] Speaker0: But the ones above seem kind of clear even now.
+[08:21] Speaker0: This was a narration of a blog that i also published on my website.
+[08:25] Speaker0: Go check it out at borca.
+[08:27] Speaker0: com.
+[08:27] Speaker0: Otherwise, i will see you on the next podcast.
