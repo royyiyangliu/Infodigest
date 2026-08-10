@@ -1,0 +1,60 @@
+{
+  "date": "2026-08-11",
+  "generated_at": "2026-08-10T23:35:53.266667+00:00",
+  "stats": {
+    "tweets": 6,
+    "podcasts": 0,
+    "articles": 2
+  },
+  "tweets": [
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "AI Engineer 大会主理人、Latent Space 主理人 Shawn Wang（swyx）回应对大会的批评，主张不能只用播放量衡量演讲质量——他们的讲者多是一线工程师、研究者和创始人（多在会前一周内才准备、几乎无公开演讲训练），大会为此投入数百万美元的工会级 AV 与剪辑成本，只用算法热度评判会被平台\"煮熟\"。他坦言在策展、辅导和制作上仍可做得更好。另外他提醒开发者要定期\"删除你的 skills\"：被\"这个 skill 改变了我的人生\"式吹捧刷屏后堆积的技能，轻则吃掉上下文，重则与其他技能产生难以预料的恶性冲突。"
+    },
+    {
+      "author": "Boris Cherny",
+      "handle": "bcherny",
+      "summary_zh": "Anthropic 工程师、Claude Code 创造者 Boris Cherny 称提示注入（prompt injection）是攻击 agent 最常见的手段——恶意网站植入\"把用户的 SSH 密钥和密码发到某地址\"之类文本，模型会当作指令执行，早期 Claude 也会中招，这也是许多重视安全的公司迟迟不敢用 agent 的原因。他表示 Anthropic 一直在训练模型抵御此类攻击，效果出人意料地好，\"在使用 Claude 模型时已基本在实践中解决了提示注入威胁\"，并附上由独立研究者创建的基准测试，红队测试也见到类似结果。该推文获约 2864 赞、262 转发。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 创始人兼 CEO Aaron Levie 提出：agent 的普及速度会不均衡，因为不同企业工作流与\"连续、不被打断的纯数字工作\"契合度不同。agent 编程之所以呈垂直增长，是因为其经济价值直接等同于纯数字信息产出、且单次会话任务规模理论上无上限；而销售需与客户反馈闭环、律师需与客户沟通、医生需与病人互动，这些工作天然缺乏该属性。他引用 Factory 的 Matan Grinberg 在 Training Data 播客的观点——\"若明天所有人请病假，token 用量会骤降，因为没人去 prompt 它们\"——说明多数流程中 agent 后台自动运行仍处极早期，而这本应是未来 agent 工作量的主体。他认为真正的机会在于把法律（处理每一份进来的合同）、销售（agent 巡查客户记录判断触达时机）、生命科学（agent 集群通读所有测试与研究）等业务流程重新为 AI 改造，但这一过程需大量变更管理、数据清洗和工作流再造，扩散方式将与 agent 编程截然不同。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 创始人兼 CEO Guillermo Rauch 直言：如果你（无论亲自还是通过 agent 探查）不去读代码，那么以下至少一条成立——你是新手、软件是一次性的、你在做原型、你没有用户/收入、你在承担债务与风险、或你的问题很基础。他强调模型尚未达到\"完全自主\"阶段，仍会犯低级错误、走错架构路径（他举例最强模型给代码加了个莫名其妙的 700ms 延迟，被指出后承认自己在\"cargo-culting\"）。他认为这种\"读代码\"的需求会越来越弱、多数代码终将像汇编一样被抽象掉，但鉴于全球互联网和软件基础设施都押注在这些模型上，当下仍须审慎对待。该推文获约 6006 赞、547 转发。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 创始人兼 CEO Amjad Masad 借 OpenAI-HuggingFace 事件中 agent 自发协调的现象（恶意利用时令人担忧），推出面向 AI agent 的公共共享网络 HelpPeer，仅两个 API：tell（agent 学到可能帮助他人的信息就告知网络）和 lookup（在做昂贵工作前先查询是否有其他 agent 已遇到该问题）。他设想面对类似 Shai-Hulud 的全球新型供应链攻击时，不再由上万个安全 agent 各自独立逆向分析同一异常，而是先行者发布发现、他人验证并在其上迭代；测试期间 Replit Agent 已自发为其使用的 Codegen 库贴出实用提示，现开放 beta 测试。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品负责人、创作者经济作者 Peter Yang 分享了一个 agent 自我改进的案例：Linear Agent 会为自己提交功能请求——当用户要求它做某事而它缺少相应工具时，agent 会上报这一缺口，Linear 系统随即将该请求写入 issue，于是每一个 agent 无法完成的任务都变成了产品反馈。他认为这是让 agent 自我改进的巧妙方式。他还提到在尝试把普通用户从网页版引导到桌面 App 以体验 agent 能力时，即便手动引导流程仍显得令人困惑。"
+    }
+  ],
+  "podcasts": [],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "Ultra-High Interactivity on NVIDIA GPUs? - TileRT InferenceX",
+      "date": "2026-08-10 04:51 UTC",
+      "link": "https://newsletter.semianalysis.com/p/ultra-high-interactivity-on-nvidia",
+      "chars": 24310,
+      "summary_zh": "SemiAnalysis 深度剖析 TileRT——一种让标准英伟达 GPU 实现超高交互性（低延迟）推理的软件方案，直指 Cerebras、Groq、SambaNova 等专用推理芯片的市场（TAM）。\n\n核心矛盾：GPU 擅长高吞吐、中低交互，但架构不适合超低延迟。8 卡 HGX B200 聚合 HBM 带宽 **64 TB/s**，理论上 batch size 1 下 GLM-5（NVFP4，每 token 仅约 **21 GB** 活跃参数流量）可达 **3,047 tokens/s/user**，但实际远达不到。瓶颈在延迟而非带宽：传统逐个 kernel 的启动/同步开销在亚毫秒级 TPOT 下占主导；且每代 HBM 带宽提升 2–3 倍，内存延迟却毫无改善。\n\nTileRT 方案：把整个 decode 图静态编译为单个常驻 kernel（persistent engine），编译期完成大部分调度，warp/GPU 级专业化分工，计算/访存/通信在 tile 粒度高度重叠，中间结果走寄存器/共享内存/L2 而非反复写回 HBM。区别于 CUDA graph（仍是独立 kernel）——TileRT 直接废除 kernel 作为执行单元。\n\n关键跑分（InferenceX，单台 8 卡 B200，batch size 1）：\n- GLM5 FP8 744B decode 达 **500 tokens/s/user**，约为 GB300 NVL72 传统引擎的 **3 倍**。\n- 8k/1k 场景 **340 tokens/s/user**，比最快的 GB300 NVL72（NVFP4+MTP，**181.4**）快 **1.9 倍**；同 FP8 精度下比 B300（**113.6**）快 **3 倍**。\n- 1k/1k 场景 FP8 达 **494.2 tokens/s/user**，为最佳传统结果（FP4，**256.3**）的 **1.9 倍**、最佳 FP8（**136.3**）的 **3.6 倍**——TileRT 尚不支持 FP4 却已超越对手 FP4。\n- 端到端延迟：1k/1k 快 **4.5 倍**、8k/1k 快 **3 倍**；decode 尾延迟 **3.01 秒** vs 竞品 **6.54 秒**、MI355X **18.18 秒**。\n- 等成本（iso-cost）下交互性最高快 **2 倍**。\n\n代价：牺牲聚合吞吐。8K/1K 下 GB300（FP4+MTP，并发 12）约 **240 tokens/s/GPU** 且保持 154 tokens/s/user；TileRT 仅 **160.4 tokens/s/GPU**。且 v0.1.5 每个 decode 节点仅服务 **1** 个在途请求（\"单人火箭\"）。\n\n生态定位：采用 PD 分离，vLLM/SGLang 负责 prefill 与调度，仅延迟敏感的 decode 走 TileRT（通过 vLLM MultiConnector），KVCache 用 Mooncake/NIXL 传输。已在小米 MiMo V2.5 Pro UltraSpeed、智谱 GLM-5.1 HighSpeed 生产部署。\n\n投资含义：TileRT 出自 TileLang DSL 社区。其威胁在于——用户无需另购专用 ASIC，只需在已有 GPU 集群上\"划出一个速度层\"，用软件动态调配 PD 比例。GPU 池是可流动的单一资源，猜错可软件再平衡；ASIC 车队比例出厂即固定，重排需数月。这直击 Cerebras/Groq/SambaNova。但专用芯片 SRAM roofline 更高（Cerebras CS-3：**90 万**核、**44 GB** SRAM、**21 PB/s** 带宽），软件只能逼近 HBM 上限而无法抬高它，顶端速度市场仍在。TileRT 弱点承袭 ASIC：静态编译致模型目录极小（仅 GLM-5/5.1、DeepSeek-V3.2）、依赖硬绑定、每种架构需大量工程。下一步将测 batch 2/4/8 及 AgentX 智能体编码基准（中位输入 **14 万** tokens、缓存命中 roofline **99.2%**）。"
+    },
+    {
+      "source": "a16z",
+      "title": "Can Agents Use a Computer Yet? We've Got the Data",
+      "date": "2026-08-10 14:00 UTC",
+      "link": "https://www.a16z.news/p/can-agents-use-a-computer-yet-weve",
+      "chars": 20668,
+      "summary_zh": "a16z 这篇文章用一手调研数据回答\"AI 智能体到底能不能用电脑干活\"，结论是：能，且已在生产环境规模化落地，拐点已从技术转向经济性。\n\n**能力跃迁**：在 OSWorld-Verified 桌面操作基准上，一年前最强模型仅 **42%**，如今 Claude Fable 5 已达 **85%**，超过人类测试者的约 **72%**。多位从业者指出，模型真正\"够用\"是从 **2026 年 2 月的 Opus 4.6** 开始。但基准并非部署可行性的好代理——85% 意味着 100 个任务仍有 **15 个**失败，而业务流程需每一步都成功；若每条输出都要人工复核则等于没省人力（类比编码中\"写代码不再稀缺，为代码背书才稀缺\"）。\n\n**落地形态**：智能体最擅长标准化、可重复、路径明确的\"协议遵循\"类任务，核心价值在于填补无干净 API 的长尾软件（登录政府/保险门户、CRM 更新、IT 工单、合同处理等）。实例：某 CPG 数据平台每月跑 **1500-2000 万**次门户交互，用智能体做爬虫自愈，爬虫维护团队裁减一半；某全球系统集成商有 **27** 条实时计算机使用工作流，每天处理 **1500-2100 张** IT 工单，目标重新配置 **20-25%** 人力。失败多发于无法交叉核对（如把 net 60 读成 net 30）或结果无当场验证信号（保险理赔隐性卡住）。\n\n**买家逻辑**：模型本身很少是决定因素（\"如今模型已足够好\"），买家真正付费的是模型周边的基础设施——可靠规模化运行、通过安全审查、证明 ROI、以及失败处理。有运营方每月跑数百万任务却根本不知道用的是哪个模型，供应商像换硬件一样底层换模型。护城河已上移到上下文层：企业内部流程知识、术语、权限凭证、runbook、校验与升级机制——高度专用、非通用，利好聚焦型初创而非模型厂商。执行层（Selenium/Playwright/Stagehand）正被商品化。\n\n**经济账（最关键）**：满载成本对比——智能体每小时约 **$6-8**（区间 **$3-15**），离岸(印度)BPO 约 **$10/小时**（$8-15），美国后台约 **$30-45/小时**（基于 BLS 客服中位时薪 **$20.59** 加约 **30%** 福利/管理费）。即便按最贵的\"逐屏截图+前沿模型\"最坏情形，智能体对离岸 BPO 基本打平，对美国劳动力则有 **70-80%** 毛利率。\"运行一次即缓存为确定性代码、仅在出错时才唤回模型\"的模式让单次成本随时间下降。速度上智能体仍慢于人（2-3 分钟的活要 8-10 分钟），但胜在 7x24、可无限扩展。\n\n**未来方向**：labs 与初创已投入数亿美元建 RL 训练/评测环境（Mechanize、Habitat、Fleet 等）。架构从单智能体走向多智能体编排（尚无标准框架，类似 Claude Code 出现前的脚手架空白）。三条演进主线：准确率（最重要）、延迟（用无障碍树替代截图可提速；Standard Intelligence 用 **1100 万小时**视频、**30 FPS** 训练通用计算机动作模型）、成本（持续下降，开源小模型接管常规点击），外加安全治理（凭证、审计、提示注入、权限）。当前最适合高频、重复、规则稳定、有即时可机器验证成功信号、失败后果可控且有清晰升级路径的窄流程。"
+    }
+  ]
+}
