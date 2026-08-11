@@ -1,0 +1,1420 @@
+Source  : Dwarkesh Podcast
+Title   : Ryan Greenblatt – Human level AIs might build runaway superintelligences by 2032
+Date    : 2026-08-11 16:31 UTC
+Link    : https://podcasts.apple.com/us/podcast/ryan-greenblatt-human-level-ais-might-build-runaway/id1516093381?i=1000782779590&uo=4
+────────────────────────────────────────────────────────────
+
+[00:00] Speaker0: Today, i'm chatting with ryan greenblatt, who is the chief scientist at redwood research where he focuses on technical ai safety and security work.
+[00:06] Speaker0: I want to talk to you about recursive self-improvement.
+[00:09] Speaker0: This is the idea that once you build human level intelligence is the quickly slingshot towards tens of billions of super intelligences, which are each individually more competent than the top human experts across every field.
+[00:23] Speaker0: Whether or not this turns out to be the case, i think is actually probably the most important question in the world right now.
+[00:29] Speaker0: And historically, i've been quite skeptical that this kind of thing happens, but use them to think that it might be plausible.
+[00:34] Speaker0: And so i wanted to hear the case for it.
+[00:36] Speaker1: Yeah, let's talk about this.
+[00:37] Speaker1: So first, i think it's worth noting that r&d is a type of task at which the ais are especially good because both the companies are trying really hard to make their eyes good at r&d and it's the kind of domain.
+[00:48] Speaker1: It has it has a lot of nice properties from the perspective of how ai development works right now.
+[00:52] Speaker1: So it's like pretty verifiable.
+[00:54] Speaker1: You can do a bunch of stuff iteratively and he'll climb on various metrics.
+[00:57] Speaker1: And then i think once you have ais which are roughly matching the top human experts in r&d that could sort of kick off a feedback loop where you know the ais are doing ai research that puts the smarter ais that feeds back in and that feedback loop could be strong enough that you end up with a lot of progress in a short period of time.
+[01:14] Speaker1: Maybe my sort of median expectation is something like four or five years of ai progress in a single year and this requires really.
+[01:22] Speaker1: Overcoming a huge amount of diminishing returns in research and basically doing the equivalent of what progress we would have gotten after a really large compute scale out.
+[01:29] Speaker1: So this is like a pretty impressive big thing and it's worth keeping in mind that five years of ai progress, four years of ai progress, even three years of ai progress is really a lot of fucking high progress, right?
+[01:38] Speaker1: So, you know, right now it's like three years ago or a little over three years ago, there was gpt 4 that had come out and right now, of course, we have like, you know, mythos five or whatever and maybe.
+[01:50] Speaker1: Somewhat better that model than anthropic has internally.
+[01:54] Speaker1: And so that is just a huge amount of progress in a bit over three years.
+[01:57] Speaker1: And if we're talking about five years, then maybe we're talking more about like a jump from, you know, gpt-3 to who mythos five or whatever.
+[02:06] Speaker0: Yeah.
+[02:07] Speaker0: Okay.
+[02:07] Speaker0: So i think this argument has three different parts and now i want to evaluate each one of them.
+[02:12] Speaker0: First is the argument that ai r&d is very verifiable.
+[02:15] Speaker0: Second is the argument that if you automate ai r&d, you could get four or five years of progress in a single year.
+[02:20] Speaker0: And third is the argument that what comes out the other end of four or five years of ai progress at the current pace, starting at the current or the start starting at the starting point to whenever ai r&d is automated.
+[02:30] Speaker0: Yeah, what comes out the other end is an ai where you can drop it on the job at basically anything you can imagine, you can drop it and texas politics in the 1940s and an outmaneuvered lyndon johnson.
+[02:41] Speaker0: You can drop it in, i don't know, a tsmc and it like learns how to do does better process engineering at tsmc.
+[02:49] Speaker0: It's a certainly a better video editor than i my video is a very excellent but it just it is just in general better than humans at any given job that it finds itself trying to do.
+[03:00] Speaker0: So i want to evaluate all of these sub-arguments that lead to basically getting asi pretty soon after this benchmark, which you're expecting by 2030 or something.
+[03:09] Speaker1: right?
+[03:10] Speaker1: Yeah, i would say that i expect like full automation of r&d perhaps somewhere around like 2031 2030 and then getting to like the like beats all humans on the job milestone.
+[03:21] Speaker1: Maybe i expect meeting around 2033 but sort of like.
+[03:24] Speaker1: If i see ai is fully automating r&d, i think i'm expecting that probably within a year.
+[03:28] Speaker1: It's just like the way the forecasting works out.
+[03:31] Speaker1: There's a the difference between medians is bigger than the median difference between milestones.
+[03:35] Speaker1: Anyway.
+[03:35] Speaker0: whatever, by the way, i there's this meme on the internet because every time i'm trying to ask about people's timelines when i'm asking dario or somebody, i'm always like, okay, how long before getting automated my video editors and there's this meme of like my video editor editing the podcast.
+[03:51] Speaker0: Exactly.
+[03:51] Speaker0: Listen to this.
+[03:52] Speaker0: The reason i do it is because i think it's easy to get lost in distractions when you talk about.
+[03:57] Speaker0: Jobs you don't understand well and to very comfortably understand what it takes to automate a job that i actually understand why it's difficult for llms to currently take control over.
+[04:07] Speaker1: I do think that the the milestone for automating your video editor is earlier than the milestone of being able to automate all human jobs, including like, you know, texas politics spinning up on the job.
+[04:16] Speaker1: So i think i do think that the video editor automation maybe occurs more like around full automation of r&d, but it's very sensitive to how much people are really focusing on understanding video.
+[04:24] Speaker1: Yeah.
+[04:25] Speaker0: Okay, so let's start with the claim that ai r&d is very verifiable.
+[04:29] Speaker1: Yeah, so there's a few different parts of this.
+[04:31] Speaker1: One of them is that we can train on a bunch of environments, which are like basically directly training the model to do some ai and d tasks or some very close by tasks.
+[04:40] Speaker1: So for example, we can have some environment where the model is training some ai on just like eight h100s or whatever or like some small amount of compute and that model could be like, you know, the equivalent of like.
+[04:50] Speaker1: Gpt medium or whatever.
+[04:51] Speaker1: And then, you know, similar to like nano gpt medium runs or whatever.
+[04:57] Speaker1: And in rl, it's like tweaking and iterating on that.
+[05:00] Speaker1: And we could do that for a bunch of different tasks.
+[05:02] Speaker1: Like we could have it trained like image classification models, video generation models, image generation models, all kinds of different sort of ml training tasks and we could our outlet on the task of training increasingly good models and also doing things like.
+[05:15] Speaker1: Oh, here's a particular direction you could pursue for an algorithm.
+[05:17] Speaker1: Can you go and implement that?
+[05:19] Speaker1: And so basically, there's a whole class of containerizable, verifiable, small-scale R&D tasks that we can aggressively RL the AIs on.
+[05:26] Speaker1: And I would say that already companies are presumably doing some RL on these sorts of tasks, and you could just keep scaling that up, keep making more of these sort of small-scale R&D tasks, and then the AIs could, you know, keep getting better at this.
+[05:39] Speaker1: And then implicitly, I'm claiming this will transfer to extremely load-bearing aspects of R&D, but maybe let's stop there for a second and then get to that part.
+[05:46] Speaker0: So let's talk through what this concretely looks like.
+[05:48] Speaker0: So.
+[05:48] Speaker0: You can imagine that we have gpt 7.5 and we say gpt 7.5.
+[05:53] Speaker0: We want to make you so good at ai r&d that you help us train gpt 9.
+[05:57] Speaker0: Okay, so now we train, we want to train gpt 7.5 and we come up with a bunch of different environments.
+[06:01] Speaker0: Like, as you mentioned, we could do, there's already this repo that is the descendant of andre carpathy's nano gpt speed run where you just try to change everything about the model from like the optimizer to the hyperparameters to the architecture.
+[06:16] Speaker0: To get it to get to a fixed training loss as fast as possible.
+[06:19] Speaker0: You could have other kinds of environments where you could say, hey, gpt 7.5.
+[06:24] Speaker0: I want you to train a really good video video game playing model and i want you to train a model that actually improves as it plays the same video game again and again.
+[06:31] Speaker0: So you learn how to maybe help the model get better at online learning.
+[06:34] Speaker0: Maybe it gets we don't care how you figure this out.
+[06:37] Speaker0: Maybe it's some kind of crazy neural lease or vector memory.
+[06:39] Speaker0: Maybe it's some crazy, maybe just like better long context stuff.
+[06:42] Speaker0: We don't care.
+[06:43] Speaker0: Get figure out how to like do online learning research.
+[06:46] Speaker0: Obviously, then the fact that gpt 7.5 will already have become very good at normal like become, it'll be a smart model.
+[06:53] Speaker0: And in the same way, the models currently are getting smarter, it'll be better and better at coding in the way that models are currently getting better encoding.
+[06:58] Speaker0: And you can imagine 100 other environments like this, which are incentivizing the ability to do ai r&d by getting gpt 7.5 to like containerized versions of getting gpt 7.5 to develop gpt 2 size models.
+[07:10] Speaker0: Etc, etc.
+[07:11] Speaker0: And you basically then you like you put gpt 7.5 through a bunch of this kind of training, you build gpt 8 and gpt 8 is now an amazing ml researcher.
+[07:21] Speaker0: It has so much intuition from doing all this kind of training.
+[07:24] Speaker0: Honestly, a huge intuition pump for me is seeing the progress that ai has made in mathematics where i'm just like.
+[07:30] Speaker0: If it's a very verifiable domain, ai can get even even like mathematics also involves so much.
+[07:37] Speaker0: Like i don't really know this object level details of the mathematics research but i'm just like no it works.
+[07:41] Speaker0: Like you can just come in like a flood if you can totally put it into a verification loop and it can actually make new breakthroughs.
+[07:48] Speaker0: I am curious if ml research has a quality of mathematical research or it seemed like there was a big overhang from connecting different disciplines together or ideas that were.
+[07:58] Speaker0: Not.
+[07:58] Speaker0: Yeah, no one person would have known enough about algebraic geometry and what was his right word?
+[08:04] Speaker1: Oh man, i really don't know about the math break through.
+[08:07] Speaker0: When no one person would have known enough about topology and algebraic, whatever blah blah blah in order to make some counter example to a big connector.
+[08:17] Speaker1: My view is that ml is a less deep domain than math.
+[08:20] Speaker1: And so there's less of a thing where there's like individual experts with really deep expertise in some area that they combine, but there's definitely going to be some of that.
+[08:27] Speaker1: But then i also think that ml has some attributes that make it even more favorable than mathematics in some ways to, you know, ai training in particular.
+[08:36] Speaker1: There is, you can get a better sense of whether you're succeeding and you can see intermediate progress.
+[08:42] Speaker1: So in math, it's often the case that sort of there's no easy way to see whether or not you're close to success.
+[08:48] Speaker1: Whereas if your goal is to, for example, on get to some training loss, You know, 2x faster, you can kind of see when you're halfway there and it tends to be the case that ml innovations are very additive or maybe multiplicative depending on how you think about it.
+[09:00] Speaker1: We're basically you can keep stacking innovations and usually the innovations just sort of just add together and don't interfere with each other though.
+[09:07] Speaker1: Obviously it's going to depend on the details.
+[09:09] Speaker1: And so i think that in a lot of ways, ai and d will have properties, you know, quite similar to math where basically you can do small, you can like train on chunks of ai and d.
+[09:20] Speaker1: That are pretty similar in structure to the to the problem you actually cared about, in a very verifiable way, and then that will transfer, and then there's an open question of exactly how well it will transfer.
+[09:30] Speaker1: But i think that the transfer currently for math looks pretty good, and my expectation is that the transfer for r&d will look pretty good, but not amazing.
+[09:37] Speaker0: So, what concern i have is, i think even in mathematics, as far as i'm aware, we have not seen very impressive new theory.
+[09:45] Speaker0: We've seen a lot of like impressive, verifiable, specific results.
+[09:49] Speaker0: For example, find a counter example to the conjecture, but we have not seen like come up with the idea of topology, kinds of levels of things, or come up with things like group theory.
+[09:57] Speaker0: And it seems like mo of research has elements of both of these things, but the less verifiable thing of like come up with new ways of thinking about the problem, would be harder to induce.
+[10:07] Speaker0: So it takes, for example, the idea of scaling laws.
+[10:09] Speaker0: Um, obviously, there is some and verification loop such that you can train gpt for better if you have the idea of scaling laws from like 2020, but there is a longer and potentially more compute later and like road to getting a inducing ais to be like, okay, i got to think carefully about how i should be scaling my parameters and data, how different kinds of investigations i could run to understand this.
+[10:34] Speaker0: Maybe i can like come up with the visualization and like a.
+[10:36] Speaker0: Isa flopp analysis or something, but that does seem like heart.
+[10:41] Speaker0: That does seem like a longer verification loop than just hey, let's get an energy pt lost to go down.
+[10:47] Speaker1: Yeah, let's talk about this.
+[10:48] Speaker1: So first of all, i think in the context of math, the thing i would say is that the ais can do the equivalent of like babies first new theory or whatever.
+[10:57] Speaker1: Where like, for example, they can just like prove interesting conjectures via like making connections and and producing new understanding of like, oh, there's this like thing that i this like construction that i found which is pretty interesting or like.
+[11:09] Speaker1: Found this like way of thinking about the problem that's a bit different.
+[11:13] Speaker1: And we do just see that, it's just that the examples we see are not like as impressive as like founding the field of group theory.
+[11:18] Speaker1: Yeah, but like in part, you know, probably founding the field of group theory is like one of the, you know, it's like among the best, biggest mathematical accomplishments of all time, and the ais just aren't, you know, they're not that good at math yet.
+[11:28] Speaker1: And i think that from my perspective, sort of there's a continuum between that and the things we're seeing now, that the ais are continuing to march up.
+[11:35] Speaker1: Second, i think ml is a very shallow domain relative to math.
+[11:40] Speaker1: So i think in math, there was much more of a you find some true deep abstraction and then like that like if you really understand that thing which is hard to understand, then you get somewhere.
+[11:50] Speaker1: Whereas i feel like the things that are the equivalent of that and ml are really like dumb bullshit.
+[11:55] Speaker1: Like i'm like scaling laws.
+[11:56] Speaker1: Like, come on guys, we can explain scaling laws really quickly and i think the like deepest and most important concepts in math.
+[12:02] Speaker1: For example, don't don't have the property of like.
+[12:04] Speaker1: You can really understand the underlying thing and why it matters in a very short period of time.
+[12:09] Speaker0: But i feel like one effect will be that we will have gotten rid of all the low-hanging fruits by 2030.
+[12:14] Speaker0: Like i feel like scaling laws will have been in like what math history descartes, you know, finding the cartesian grid and like very doing very basic mathematics was and then eventually we want to keep making progress in the 2030s.
+[12:25] Speaker0: It's going to be like do whatever bullshit is happening at like the frontiers of mathematics right now.
+[12:29] Speaker1: Yeah, that could be right.
+[12:31] Speaker1: My sense is that just like some domains are structurally different in terms of how they operate and how much they depend on.
+[12:36] Speaker1: Like sort of deep abstractions, and like physics and math are much more in the side of like being very far on the like sort of very deep hard to come up with ideas side.
+[12:45] Speaker1: Whereas i think ml and and most other domains are much more amenable to sort of hill climbing.
+[12:51] Speaker1: And that's my sense of how this will go in the future, and even in the regime where.
+[12:55] Speaker1: Your ais are like, you know, having to plow like it's the 20th, it's 2030.
+[13:00] Speaker1: They need to like a bunch of low-hanging fruit and research has already happened.
+[13:02] Speaker1: They need to like make further progress.
+[13:04] Speaker1: I still suspect that a bunch of the work will live more in the side of like building increasingly complicated infrastructure, having really good intuition about what the experiments roughly look like.
+[13:13] Speaker1: And so i think i'm probably less sympathetic to like the like thing that the ais will lack is like some deep insight and more sympathetic to like they really need a bunch of like taste about in the weeds experiments that they currently don't have.
+[13:24] Speaker1: And need to have a bunch of intuition for like what sorts of training approach would work and what wouldn't work in ways that current researchers have.
+[13:32] Speaker1: And even in cases where there has been some breakthrough in ai, oftentimes in retrospect, it looks like a big bottleneck to making that breakthrough happen with sort of getting all of the like micro details and mungy intuition, right?
+[13:45] Speaker1: Like an example of this is when it comes to like training ais with to to be good at reasoning and chain of thought and doing sort of rl and chain of thought training.
+[13:53] Speaker1: It looks like you probably could have done rl and chain of thought on like gpt-3 and gotten kind of interesting results on math.
+[13:59] Speaker1: If you had really scaled it up and done a good job, but at the time there was low-hanging fruit and also doing a good job with that training is like kind of like in the weeds and then all the technical implementation and scaling it up and getting the hyperparameters, right?
+[14:12] Speaker1: And so maybe you can demonstrate everything on like quinn 1b or whatever and get some sense that this whole thing is going to work, but people didn't demonstrate it as early as they could have.
+[14:21] Speaker1: Because like, you know, if all of these other like mangy details and intuition about exactly how to tune the parameters and how to set things up.
+[14:28] Speaker0: this is my remaining skeptics as i'm honestly about the story is just i am.
+[14:34] Speaker0: Yeah, i'm not, i'm not sure.
+[14:36] Speaker0: I understand why if research breakthroughs are so amenable to intelligence, why ai progress has not been historically faster than it could have been.
+[14:44] Speaker0: And we had to wait for.
+[14:45] Speaker0: As you were saying, like, by the time rlvr actually worked, even though you could have done it with like less compute, we had to wait for oceans of compute and like gigawatts of compute to be available before people are like doing this training on the trajectory of like this constant, you know, as compute keeping increasing, we make more breakthroughs.
+[15:03] Speaker0: I don't know.
+[15:03] Speaker0: I feel like there are a lot of ai researchers in the year 2022 who are trying to crack.
+[15:08] Speaker0: Reasoning.
+[15:09] Speaker0: And it was just that they were like bottlenecked by the ability to write infrastructure code.
+[15:13] Speaker1: or like what was that complicated mix, right?
+[15:14] Speaker1: So, i think that they would have gone faster if they could like, as soon as they thought of an experiment, run that experiment without bugs, without bugs being very important.
+[15:21] Speaker1: And then i think another part of it is that like, being able to run a lot of ex- experiments at high compute lets you paper over ways in which the way you implemented it isn't quite right.
+[15:29] Speaker1: Or you didn't have the right hyperparameters.
+[15:31] Speaker1: And so i think compute is just like really helpful for doing ai research, and you can like.
+[15:35] Speaker1: You know, cover over a lot of things, but that doesn't mean that massive increases in labor wouldn't also be helpful, especially if that labor comes with, you know, among the best intuitions that people have in the field.
+[15:45] Speaker1: I just think that that's, you know, really helpful.
+[15:47] Speaker1: I think another part of my perspective here, which is maybe a bit different from where you're coming from, is that i think i'm expecting somewhat more transfer than you seem to be imagining.
+[15:55] Speaker1: And i'm imagining these ais are actually like pretty good scientists in general, and are just like.
+[16:01] Speaker1: You know, pretty pretty reasonable at all of that stuff and just sort of when you were to interact with them, it's not like there's some like really hyper specialized savant type vibe.
+[16:10] Speaker1: They're actually just like pretty good at all this stuff in r&d and then maybe like extremely good at some subdomains, right?
+[16:14] Speaker1: So they're like incredibly superhuman at writing kernels, incredibly superhuman at everything with very short feedback loops and then like, you know, pretty good at all the other stuff and like, you know, just totally able to match other people and like, i think we are seeing this now.
+[16:27] Speaker1: Like i would say that when i look at ais right now, i think it's already the case that they can.
+[16:32] Speaker1: Pretty competently match like humans who are mediocre at ml research at doing ml research.
+[16:37] Speaker1: It's just that being mediocre at ml research is not that helpful, right?
+[16:40] Speaker1: Like the thing that you actually want are people who are good at ml research.
+[16:43] Speaker1: And so my sense is the ais are just improving at all of these things.
+[16:46] Speaker1: Their taste is improving their intuition is improving and it's already the case that they're tasting intuition is not like it's not like complete garbage.
+[16:51] Speaker0: Yeah.
+[16:52] Speaker0: So i want to very concrete understand what it would look like for five years of ai progress to happen in one year.
+[16:57] Speaker0: Yeah.
+[16:57] Speaker0: So suppose we were back and when like gpt3 is developed.
+[17:00] Speaker0: And the idea is not only that like basically with the level of compute they've had back in 2022, you could have trained if we had automated air and back then you could at the end of that year or have mythos.
+[17:13] Speaker1: That'd be the idea.
+[17:13] Speaker0: Yes, including with like some mythos took way more compute than they had back then.
+[17:17] Speaker0: But like even with the level of compute they had back then, not only do they all do all the breakthroughs but they also train mythos with their level of compute.
+[17:25] Speaker0: And what would be required is obviously like discovering all the algorithmic progress and then discovering even more actually because you had to make up for the fact that like mythos uses, i don't know what was gpt 3 trained on like 1023.
+[17:38] Speaker0: We can look it up but it's a plausibly forwarders a magnitude more compute.
+[17:42] Speaker1: Yeah, i think it's somewhat less than that.
+[17:43] Speaker1: Let's let's look this up quickly.
+[17:46] Speaker1: So gpt-3 training compute is yeah it's like 323.
+[17:52] Speaker1: My sense is that mythos is probably about a little over 3 ohms higher.
+[17:58] Speaker1: And so the question is, can you overcome this 1000x compute gap while also, you know, being the model?
+[18:04] Speaker1: So here's a concrete claim that maybe we should we should talk about like right now, we would be able to train a model with gpt-3 level compute.
+[18:12] Speaker1: That matches.
+[18:14] Speaker1: Yeah, what exactly do i think?
+[18:15] Speaker1: So gpt3 was, let's say about yeah, when was it trained?
+[18:20] Speaker1: So it was trained, it was trained in, it was released in 2020.
+[18:24] Speaker1: So it was trained six years ago.
+[18:25] Speaker1: It's worth noting that gpt3 is maybe a little too far away or too far in the past, but let's go with this for a second.
+[18:30] Speaker1: So gpt3 was trained like about, you know, six and a half seven years ago.
+[18:35] Speaker1: If we were to train a model with gpt3 level compute, Today, how good would that model be?
+[18:41] Speaker1: My understanding is based on like how algorithmic progress works.
+[18:45] Speaker1: We'd be able to train a model that's as good as the best model we had perhaps around three years ago.
+[18:50] Speaker1: So i think that right now we'd be able to train a version of gpt-3 that's probably somewhat better than gpt-4 is basically what we'd see probably.
+[18:58] Speaker1: Yeah, like a moderate amount better than gpt-4 and i think that's about right.
+[19:01] Speaker1: I think that roughly lines up with what with how algorithmic progress has worked.
+[19:05] Speaker1: Basically, the story would end up being that to get five years of ai progress, you're probably going to need around, i would say like maybe eight years of algorithmic progress, very roughly, which is a lot, a lot of algorithmic progress.
+[19:16] Speaker1: But it just turns out that like most of the ai progress from my perspective has come from some mix of like algorithms and data, and you can just keep making like for i think huge improvements on these things.
+[19:27] Speaker1: And training ais with less compute.
+[19:29] Speaker0: So that i'm glad you brought that up because what has happened since gpt-3 or even 3.5 till now, right?
+[19:34] Speaker0: Like why is mytho so good?
+[19:38] Speaker0: Obviously, we've scaled the compute, we have better algorithms.
+[19:40] Speaker0: A huge thing that's happened is that we have built a deca billion dollar data industry, which has systematically collected and codified expert human judgment across all kinds of different disciplines codified in the form of our real environments codified in the form of sft traces.
+[19:59] Speaker0: That these experts build to help the model better understand how do you do coding and like, how do you build complex infrastructure projects?
+[20:05] Speaker0: How do you do like law?
+[20:06] Speaker0: How do you do whatever, whatever?
+[20:08] Speaker0: And i how are the ais able to replicate the effect that currently expert human judgment seems to be playing in ai progress?
+[20:18] Speaker1: Yeah.
+[20:19] Speaker1: So my sense is that scaling up the amount of effort spent on getting expert human data has not been hugely important for ir and d in general.
+[20:27] Speaker1: So in particular, like, you know, over the last few years, we've been scaling up compute, scaling up people working at ai companies, and scaling up the amount of effort spent on data labeling.
+[20:37] Speaker1: My sense is that if you like sort of remove the like the last like two doublings or whatever of data labeling, that would not make a huge difference, or da- data generation, that would not, i'm sorry.
+[20:45] Speaker1: I should say data generation from expert humans, that would not make a huge difference.
+[20:49] Speaker1: I think a lot of what's been going on is people have been developing better ways to leverage like humans and ais to like construct rl environments.
+[20:57] Speaker1: And going somewhere from that.
+[20:59] Speaker0: which is like, how do you explain why the ais have gone so good at coding?
+[21:02] Speaker0: I feel like a big part of that is data and rl environments, which are like quantifying human experts.
+[21:07] Speaker1: But the question is, what is the limiting factor on creating rl environments?
+[21:10] Speaker1: My sense of the limiting factor on creating rl environments was not so much like, like scaling up or like the thing that drove are the reason why rl environments today are much better than they were and like, You know, 2024 is not that much because we have hired way more human experts to make our own environments and is instead much more because we better know what how rl like what rl environments we even want to make and and like how we should structure them.
+[21:37] Speaker1: And also we're using huge amounts of ai labor to build rl environments.
+[21:41] Speaker1: And i think those effects are much more important than the effect of human labor building the rl environments.
+[21:48] Speaker0: um.
+[21:49] Speaker1: I'm not saying that that the human labor doesn't matter.
+[21:51] Speaker1: I'm just saying there's other, there's other big drivers that are important here.
+[21:55] Speaker1: Yeah, i could try to, i could try to argue for this.
+[21:56] Speaker1: I mean, one one thing is just like the amount of environments people want, just like they're very, it's a very large amount.
+[22:03] Speaker1: And i think the ais are actually pretty good at the task of making rl environments, given some some sense of what the the thing should be.
+[22:10] Speaker1: There's pre-existing data you could use.
+[22:11] Speaker1: I don't know.
+[22:12] Speaker1: A lot of these things have good verification loops.
+[22:14] Speaker0: If i just look at, for example, this is reported in business insider today, yesterday that.
+[22:19] Speaker0: Google is paying like too close to 2 billion dollars for mechanized.
+[22:23] Speaker0: Yeah, like the we can just look at market rates or what people think really good human experts making like human expert data is worth and it just seems to be like the frontier labs need to think it's worth a lot.
+[22:37] Speaker1: What fraction of frontier lab spending you think is on data rather than compute?
+[22:41] Speaker1: Like what do you think is the compute data?
+[22:42] Speaker1: It's been split.
+[22:44] Speaker0: I think it's most like overall, i'm like computer, but i also think it's because like computer is easier to scale up than data.
+[22:49] Speaker1: That's really relevant to what's driving progress, right?
+[22:51] Speaker1: It's like suppose like i agree that.
+[22:53] Speaker1: Yeah, like my sense is the split is something like i would have guessed like 20 to 1 or something 10 to 1.
+[22:58] Speaker1: I don't know exactly.
+[22:59] Speaker1: It depends on the company.
+[23:00] Speaker0: I mean, this is similar to like oil is 1.5% of gdp, but that mean, but it doesn't mean if you cut oil out, you could like gdp could continue to run.
+[23:07] Speaker1: but the country would come.
+[23:08] Speaker0: to halt immediately.
+[23:09] Speaker1: If like oil went away, sure, but you are just arguing that because of the high market cap, we can learn that this is the key driver and i'm saying that's not clearly true, right?
+[23:17] Speaker1: Because like you, i think that argument just implies looks makes it look like computers a much more important driver or like hiring employees is a much.
+[23:22] Speaker0: So maybe let's be more concrete.
+[23:23] Speaker0: Here's what i think.
+[23:25] Speaker0: Just the same way as in my claim is that in gpa, if you went back to 2022 and you had gpd 3.5 and you're like trying to make it better at coding without human experts, i think it would have just been very, very difficult.
+[23:38] Speaker0: Let me give you an example of what i imagine would be the difficulty from going from gpt 8 to asi.
+[23:43] Speaker0: So one of the things you need gpt to be good at or like you'd want as i to be good at is like i'm going to take over a company and like make it much more profitable and like do all kinds of crazy shit.
+[23:53] Speaker0: Make it work better.
+[23:54] Speaker0: I'm gonna like take over a fab and like produce more chips.
+[23:57] Speaker0: I'm like this is like the tier of data that will i'm going to like go into congress and trying to convince them of the pass some bill blah blah.
+[24:05] Speaker0: Yeah, this is what i imagine five more years of ai progress at this pace would enable an ai to be able to do.
+[24:10] Speaker0: This is the thing i'm really worried about, right?
+[24:12] Speaker0: Like the asi that can like understand how to do crazy shit in the world like what jerkin do can do what like.
+[24:18] Speaker0: Um, steve jobs can do etc.
+[24:19] Speaker0: And also his engineers and stuff.
+[24:21] Speaker0: And i'm not sure how you get that without the relevant world data, which is the equivalent of methos being really good at coding while not having the coding environments that have improved relative to gpt-3.
+[24:35] Speaker1: Yeah, so here are a few points.
+[24:36] Speaker1: So first, i bet if you look at sort of randomly sampled training environments for mythos, they're actually very different from.
+[24:42] Speaker1: What it looks like to actually use the model in practice.
+[24:45] Speaker1: My sense is that the rl distribution has like really large deviations from the real world data distribution, and it's significantly being sort of like smoothed over by a mix of transfer, and having a small amount of data focused on the real world.
+[24:56] Speaker1: And so i, my sense is that this this will be a similar mechanism as how it works, for like the, you know, crazy wild these, like quite superhuman ai you get as a result of 5 years of ai progress.
+[25:07] Speaker1: On top of fully automated air and deep.
+[25:09] Speaker1: So let's just like go through this a little bit.
+[25:11] Speaker1: So in particular, i think that you could train an ai to be really, really good at learning on the fly and doing something analogous to in context learning, but potentially using some of different mechanisms in a wide variety of rl environments.
+[25:25] Speaker1: So you build all these different rl environments where the ai has to like adapt on the fly, learn on the fly, figure out what it should do, understand its situation better and like learn really quickly from feedback in order to succeed at its objective and has things like limited resources and if it like messes up, it can like.
+[25:41] Speaker1: End up in a much worse position.
+[25:42] Speaker1: And then if you train on a huge number of these environments, you will learn sort of general skills of like picking up context on the fly.
+[25:49] Speaker1: And we're already seeing this, like it's already the case that ais are now much better at sort of understanding roughly what's going on and like picking up context from a, you know, limited amount of information they're given access to and then those ais could then be put on the job at tsmc.
+[26:04] Speaker1: And then even though tsmc is not like literally in their data distribution, Their data distribution is really wide and the ais are extremely good on their data distribution such that it transfers to picking up being good at, you know, being an engineer at tsmc and and learning that on the fly where it looks more like the way the ai gets good at being a tsmc engineer.
+[26:21] Speaker1: Isn't that it has a ton of cash knowledge on being a good tsmc engineer.
+[26:25] Speaker1: It's that it like does the equivalent of like some scaled up version of in-context learning there.
+[26:31] Speaker1: That'd be the most prosaic story.
+[26:32] Speaker1: Obviously, there's a bunch of different ways this could go.
+[26:34] Speaker0: I think this maybe comes down to then a difference of intuition about how far you can get.
+[26:39] Speaker0: When i think about really smart people, i know they're just like not that effective in domains.
+[26:44] Speaker0: They don't understand that well.
+[26:45] Speaker1: but how long have they had to learn?
+[26:47] Speaker0: No, i agree that if they had experience, they would be much better, but that's maybe what i'm arguing for is that experience of data.
+[26:53] Speaker0: Like, for example, if i just get a really smart, i don't know, i really college grad and i'm like, okay, you're now in charge of negotiating the iran deal.
+[27:02] Speaker0: I think they just like wouldn't know what to do.
+[27:04] Speaker1: I think if you got instead got someone who is really good at quickly picking up a bunch of different domains.
+[27:09] Speaker1: And you gave them some time to sort of train and talk to people and show up their expertise and do some practice.
+[27:14] Speaker1: They would actually do like a pretty good job.
+[27:16] Speaker1: I think most domains are fundamentally pretty shallow where like a very smart generalist who is good at like a limited subset of core skills can like get going pretty quickly.
+[27:26] Speaker1: And my sense is that like that's not true for literally every domain and my sense is that the ais will develop increasingly good mechanisms.
+[27:32] Speaker1: For quickly acquiring understanding and expertise in a given domain.
+[27:36] Speaker1: So consider, for example, how fast ais can like understand a new code base.
+[27:41] Speaker1: Ai's can understand a new code base much faster than humans can, but to a degree that's shallower than humans could currently understand, but is, but is getting better over time, right?
+[27:48] Speaker1: So let's let me let me spell that argument out a bit more.
+[27:51] Speaker1: So let's say you take, you know, you know, fable 5 or mythos 5 or whatever and you like wanted to make some kind of complicated change to a really massive code base.
+[28:00] Speaker1: Um, the model will get some understanding of the code base very fast, like in the course of maybe like, you know, significantly less than an hour, potentially much less than an hour.
+[28:08] Speaker1: And then its understanding of the code base will like plateau a little bit where it won't get as deep of an understanding as a human would have gotten over a much longer period.
+[28:15] Speaker1: So it's sort of like an ai in an hour can match a human with a few weeks, maybe depending on the details of exactly how complicated the code base is.
+[28:22] Speaker1: But then it won't match a human with like, you know, who's been working on that code base for like two years or whatever.
+[28:27] Speaker1: But over time, the like amount of understanding ais can match has gone up, right?
+[28:32] Speaker1: So if we look at like 3.7 sonnet or 3.5 sonnet, maybe it could only match the equivalent of understanding a code base for like a day or something.
+[28:40] Speaker1: But now, you know, ais are much better at like sort of building context about a task.
+[28:45] Speaker1: And so you can be like mythos, i want you to really understand this code base and then, you know, then implement this feature and it will like spawn a bajillion subagents.
+[28:53] Speaker1: Those subagents will pour over a bunch of things.
+[28:54] Speaker1: It will like deliver a bunch of context back.
+[28:56] Speaker1: It will then like investigate a few things.
+[28:57] Speaker1: And it's not like amazing at doing this, but it's like it can happen like really fast, and it can work pretty well, and it's not very hard for me to imagine how you could train ais to be increasingly good at this task, right?
+[29:07] Speaker1: The task of like implement some very complicated feature in some reasonable way in a very big code base is extremely verifiable.
+[29:13] Speaker1: And that can like be a thing the eyes improve on, and similarly like there's a broader scale of like quickly un- understanding context and being able to like have a bunch of different ais learn in parallel, and then merging that together.
+[29:25] Speaker0: And i i i think there seems to be a crux here.
+[29:27] Speaker0: Which i think just an empirical question, we'll see on, which is how good is a transfer between getting really really good at s- understanding the situation getting up to speed, making progress over long periods in verifiable domains.
+[29:45] Speaker0: Which the ai is obviously getting way, way better at really fast to.
+[29:49] Speaker0: Okay, go talk to the president and like convince him to do x thing or go.
+[29:54] Speaker0: You're now in charge of google.
+[29:55] Speaker0: Now you you must make google a much more profitable company this quarter.
+[29:59] Speaker1: Let me try to just spell it a few more arguments that are maybe relevant.
+[30:02] Speaker1: So one thing is that i do think that like when looking at like how the ais have improved essay writing, let's talk about that a little bit.
+[30:09] Speaker1: So i think there's one thing which is that you can get some data even on these domains.
+[30:14] Speaker1: And ais will be able to get some data even on these domains when on a very fast progress trajectory.
+[30:18] Speaker1: So like maybe it's hard to build like a verifiable environment for like was your essay really good according to humans but you can do a bit of that, you know, you can do some training, you can do some online training and the ais will be able to do some like, you know, online training based on real world stuff.
+[30:30] Speaker1: They'll be able to like have evals, they'll be able to like sample that and you can, you know, scale that up the cadence of what you do this.
+[30:36] Speaker1: And then the second thing is that in practice, when i just look at the transfer, it seems okay.
+[30:40] Speaker1: Like i think that in fact the ais have improved a bunch at non-verifiable domains and it is in fact the case that it's hard to point to like domains that are really hard to verify on which the amount of improvement between you know gpt4 and mythos hasn't been like pretty high in practice.
+[30:53] Speaker1: And now that doesn't mean that mythos is like better than the best humans or something, right?
+[30:57] Speaker1: It can still be like significantly worse than typical human professionals at some aspect of their job while still being like way better than gpt4, which was like.
+[31:05] Speaker0: Not even close.
+[31:06] Speaker0: Yeah.
+[31:06] Speaker0: So we're talking about how how important data versus algorithmic progress has been for explaining the progress of the last few years.
+[31:15] Speaker0: That reminds me.
+[31:15] Speaker0: I'm actually running an experiment with jerry hahn, who's actually still a college student.
+[31:20] Speaker0: What we're basically doing to evaluate how much, how much progress comes from data versus algorithms is.
+[31:26] Speaker0: Training the best algorithmic recipe from 2019 till now with the best data from like the 2026 data file and then also training the different data files going back to 2019 to 2026.
+[31:37] Speaker0: So the current best training recipe like the algorithm recipe.
+[31:40] Speaker0: Yeah.
+[31:40] Speaker0: And i think that will be an interesting.
+[31:43] Speaker0: I'm curious if you want to pre-register like what amount of computer multipliers are coming from one versus the other.
+[31:48] Speaker1: So we need to be pretty careful with what we mean when we say the word data.
+[31:50] Speaker1: So i was trying to be pretty careful to distinguish between scaling up spending on getting human experts to label data or like scaling up the amount of human expert label data.
+[31:59] Speaker1: Pre-training data does not come.
+[32:00] Speaker1: The reason why we have a better pre-training data set now versus in 2019 is not because people are spending way more money getting human experts to like type up data that the ais are then trained on.
+[32:09] Speaker1: I think it's partially, i think it's not much of it.
+[32:12] Speaker1: I think it's very little of the pre-training data improvements.
+[32:14] Speaker1: I think the vast majority of the pre-training data improvements, which i do mean pre-training, we should talk maybe separately about mid-training, post-training.
+[32:20] Speaker1: I think the vast majority of pre-training data improvements are from science on better understanding what data sets are good and schleppy labor on figuring out how to filter down.
+[32:29] Speaker1: And so my view is that improvements of the form of like, you know, Open web text to find web or whatever.
+[32:35] Speaker1: Like that improvement is better described as a algorithmic improvement of the sort that you can, you know, study with some gpus and then do and you don't need humans to like you don't need human expert data to do that.
+[32:46] Speaker1: Now there's a different effect which we could talk about which is that maybe the internet in 2026.
+[32:50] Speaker1: It has much more is more of a fertile ground for training data than like the internet in 2018.
+[32:55] Speaker1: Like it's like there's also been an effect where like there's just more humans posting on the internet.
+[32:59] Speaker1: There's more data harvest.
+[33:00] Speaker1: My sense is that that effect is going to be quite a bit smaller than the effect of just like humans like knowing better how to curate the data, having better scrapes, knowing how to process those scrapes better.
+[33:10] Speaker0: this sort of thing.
+[33:11] Speaker0: This is more like automated engineering and automated ai.
+[33:13] Speaker0: That's right.
+[33:14] Speaker0: That makes sense.
+[33:15] Speaker0: Yeah.
+[33:15] Speaker0: Um.
+[33:15] Speaker1: so like i think that in some sense the thing you would want to look at is be like, we're gonna do two post training pipelines.
+[33:20] Speaker1: One post training pipeline where we only have like a tiny number of human experts to do the labeling, but we can have like, you know, smart ais.
+[33:27] Speaker1: And then another like, you know, you like we're gonna build mythos 5 is going to build a post training pipeline, but it only has access to like internet on internet data plus like a tiny amount of human experts, but it has the best current methods versus we have one where it's like, you know, mythos has access to like the shity post training methods we had in 2024, but with like the shit ton of human experts.
+[33:48] Speaker1: And again, both have the internet data.
+[33:50] Speaker1: My sense is that the.
+[33:51] Speaker1: Current methods, but without many human experts actually will do quite well.
+[33:55] Speaker1: So it's a bit messy because like mythos like it's like can mythos get something that's more capable than mythos.
+[33:59] Speaker1: Like you might need to be a bit thoughtful on like what model is it that you're post-training?
+[34:03] Speaker0: What is your view?
+[34:03] Speaker0: And what is the least verifiable part of ai r&d?
+[34:06] Speaker1: The least verifiable probably making calls on large experiments.
+[34:10] Speaker1: Yeah.
+[34:10] Speaker1: Like the thing that i think is most likely to be sort of the bottleneck in terms of like the eyes are really good at verifiable domains but not not doing the actual thing is just like.
+[34:17] Speaker1: Big experiments, you only get a few tries.
+[34:21] Speaker1: Well, a few is maybe a bit understated, but like, basically like, his- historically, r&d has been driven by doing near frontier scale experiments, and that has been pretty important, and like, actually doing the one big training run where you decide exactly what to include in that.
+[34:33] Speaker1: And there's a bunch of ways that the ais can sort of make that more verifiable, so they can have better science of exactly what to predict.
+[34:39] Speaker1: They can scale down their frontier scale training runs to a point where they can study that scale more aggressively at some one time hit to compute cost, right?
+[34:47] Speaker1: So like.
+[34:47] Speaker1: If people wanted to, i think you can always do is train smaller models so that you can run more rounds.
+[34:53] Speaker1: And i think we have seen this, like i think one reason why the the ais have been scaled up less than you would have otherwise expected, and like for example, cost of of per token hasn't increased as much as you might have thought.
+[35:05] Speaker1: Is because there is a benefit to doing more of your work at small scale, where you can run more training runs and get more cycles in.
+[35:11] Speaker1: And so you're not as like, you know, leaning as hard on like one big, you know, really important training run.
+[35:17] Speaker0: Mmm, i just want to unpack a couple of things that were for the audience.
+[35:22] Speaker0: The thing you're pointing out is i think the price per token has not increased that much since 2024 or 2023.
+[35:28] Speaker1: Yeah.
+[35:28] Speaker1: So gpt4 was like, i don't know, like was like thirty dollars per output token and like mythos is fifty dollars per token.
+[35:34] Speaker0: right?
+[35:35] Speaker0: And so the.
+[35:37] Speaker0: The thing you're trying to explain is how can it be that we were in this era of scaling and so bigger model should be more expensive to serve, but the, but the token price is not increasing and you're suggesting that we've like increased active parameters slower than you would have naively assumed because because people just want to make fast progress on training models and you do that by training smaller models faster.
+[36:02] Speaker1: I mean, there's a complicated mix of factors.
+[36:04] Speaker1: I think my view is more like.
+[36:07] Speaker1: People have done a bunch of big training runs that did not go that well.
+[36:09] Speaker1: So there's like gpd 4.5 which like famously people at opening.
+[36:13] Speaker1: I thought was a big of a bit of a bust.
+[36:14] Speaker1: I think there are some rumors that there are a bunch of other training runs that people have done that were a bit of a bust and part of it is that i think there's just a bunch of details and actually getting that right.
+[36:22] Speaker1: And so it makes sense to just do more of the work at smaller scale and just eat the fact that you're taking a hit on final performance in order to like be able to like quickly iterate and you know, train more models faster and therefore better learn and also better.
+[36:36] Speaker1: A better be able to just have like a, you know, a smarter ultimate production model.
+[36:40] Speaker1: This is not the only effect, right?
+[36:42] Speaker1: There's also the fact that rl benefits more from small models.
+[36:44] Speaker1: There's like a bunch of things going on, but i do think that like, in fact, people are making trade-offs towards the side of like faster iteration times because of algorithmic progress being so fast.
+[36:53] Speaker0: It seems to me that a big source of why these big training earns have failed at least from rumors is just like very subtle bugs that are really hard to track down.
+[37:01] Speaker0: Yeah.
+[37:02] Speaker0: And the tldr is.
+[37:05] Speaker0: How good will the ais be at avoiding these kinds of avoiding and finding these kinds of mistakes where they might be, they might get really good at engineering and like being trained to avoid bugs.
+[37:18] Speaker0: Like basically the opposite of the slop world we live in now, or like are living in less and less over time.
+[37:23] Speaker0: But then there's also the question of can they like find, can they do the analysis to like find the right experiment to run, to like identify what is going wrong with the training run right now.
+[37:31] Speaker0: Which seems to be very bottlenecked by the taste of extremely few humans who are like.
+[37:35] Speaker0: Like right now, my assumption is gdm is going through this right now, right?
+[37:38] Speaker0: Humans are trying to figure out what is wrong with the training pipeline.
+[37:40] Speaker1: And yeah, there's some rumor that right after a gnome shazir joined back or like joined gdm, which he's now left there.
+[37:48] Speaker1: They had like a new really good training around that happened.
+[37:50] Speaker1: And the reason why is that gnome shazir just looked at their code base and found a bunch of bugs, right?
+[37:55] Speaker1: Because he just like knew where to look.
+[37:56] Speaker1: My sense is that training ai is to find bugs is going to be one of the easier.
+[38:01] Speaker1: Tasks to training eyes on because most of these bugs we're talking about can probably be demonstrated without that much compute and probably you got pretty good transfer from pointing out other types of bugs at smaller scale.
+[38:12] Speaker1: And so then you can rlai is that like, look at this overall complicated training situation and point out cases where it lays like a important bug and then fix that.
+[38:20] Speaker1: And i think that like this is not like a, this is like a pretty verifiable task.
+[38:23] Speaker1: It's not, it's not arbitrarily verifiable because maybe.
+[38:26] Speaker1: Often to demonstrate the bug, you might need to do like a moderate scale compute experiment where you're like spin up the whole distributed infrastructure and then run it.
+[38:33] Speaker1: But oftentimes, i think you'll be able to demonstrate it pretty convincingly.
+[38:36] Speaker1: At smaller scale in a way which you could actually train on.
+[38:39] Speaker1: And so my sense is that like, it will not necessarily, like, i think it wouldn't be very surprising if right now people have rl environments where they like, you know, introduce a subtle bug into some training recipe.
+[38:48] Speaker1: Train the ai to point out the subtle bug, and then have like you know a rubric where they're like, did it actually find the right bug?
+[38:54] Speaker1: And that seems like very doable and you could do a bunch of stuff.
+[38:56] Speaker1: There's a bunch of things you could do along these lines that i think would work reasonably well.
+[39:00] Speaker1: And so i think that on that specific point, i think it's doable.
+[39:03] Speaker1: And then the main thing is that i think there's like some cases where like you need there's other intuition about like which exact large scale like de-risking experiments do you need to run?
+[39:11] Speaker1: How should you orient them?
+[39:12] Speaker1: How should you like pick hyperparameters and uncertain cases or like things that are like analogous to hyperparameters?
+[39:16] Speaker1: And that's i think the thing that.
+[39:18] Speaker1: The eyes might most struggle with, but i currently expect there'll be enough transfer.
+[39:22] Speaker1: If you train on all these different environments that the ais will be, you know, good at that domain and i should be clear.
+[39:28] Speaker1: I also think that the ais will transfer to other domains.
+[39:30] Speaker1: I think that like they're sort of just like there's going to be the domains.
+[39:33] Speaker1: The ais are like by far the best at then there's domains where there are somewhat less good at and there's domains.
+[39:37] Speaker1: There's quite a bit less good at and i think we still see transfer to everything and it's really hard for me to think of examples of cognitive tasks humans do where we're not seeing some transfer from.
+[39:46] Speaker1: Ai improving.
+[39:47] Speaker0: So let's step back and package this whole story.
+[39:49] Speaker0: So i think people maybe probably follow along with the story of we have gpt 7.5 to turn on a bunch of environments where it's not only just in general becoming a better ai but specifically we're trading it to me like do ai r&d better like make gpt2 size runs that are better at playing video games that require sample efficiency or online learning or whatever other capabilities.
+[40:10] Speaker1: Another another thing that's really important is you don't just do gpd2 size runs.
+[40:13] Speaker1: You also do small like fine-tuning runs on gpt-6 or like you as in like you have gpt2 and you can do full pre-trains of gpt2 and then you can do like small post training or mid training or whatever runs on gpt-6 and then you can do a small number of experiments that are actually like at frontier scale but you do a bit of online training or something.
+[40:32] Speaker0: What do you mean by do online training on that?
+[40:33] Speaker1: Yeah, so another thing that we can do is we can take gpt-7.5 and presumably in the course of gpt-7.5's work, it's running a bunch of like experiments at varying scale that are actually on the critical path for ai and d.
+[40:45] Speaker1: For many of those things, you'll be able to get a sense after the fact for whether or not it did a good job, right?
+[40:50] Speaker1: So like, it did some, you know, po- post training experiment where it was trying to like figure out whether some method actually works.
+[40:56] Speaker1: And in some cases, you'll be like, whoa, it found this like kick ass method, it like totally derisked, it totally worked.
+[41:00] Speaker1: And then you can then reinforce that by just like, i mean one thing you could do would be like take that behavior, convert convert the like experiment you just ran into a production rl environment.
+[41:10] Speaker1: I'm sorry into an rl environment based on production data and then train on that or you could potentially just literally take the rollouts that found that and then do like some sort of off policy rl or you could do some like on policy rl.
+[41:23] Speaker0: But the thing you're suggesting is like there's the small scale stuff where you're just like teaching the ai to get better at ai r&d taste but you're like discarding the actual quote unquote things that found.
+[41:33] Speaker0: Yeah.
+[41:33] Speaker0: And then maybe like in but then it actually does like real r&d in the practice of like trying to become better at ai r&d and you're like this is a pretty cool thing that you discovered.
+[41:41] Speaker0: Let's actually like also like use this in production in the future and like teach you how to use it in production.
+[41:45] Speaker0: That's right.
+[41:45] Speaker0: But stepping back so gpt 7.5.
+[41:47] Speaker0: Becomes gpt8 as a result of all this ai r&d training and just generally becoming smarter, then it helps you build gpt9.
+[41:54] Speaker0: And another very important thing that would have had to happen, which is maybe the thing in most skeptical of is gpt8 has figured out how to make it.
+[42:04] Speaker0: So that whatever it's doing to make gpt9 like even as intelligence that is.
+[42:11] Speaker0: It still need the humans currently like ai researchers, you know, try their shit and they're like, okay, but like we trained gpt 4.5 and it wasn't good or something.
+[42:19] Speaker0: It's like it required real world feedback or some evaluation of like trying to use the model in production.
+[42:25] Speaker0: And it like wasn't that good and we're not going to ship it or and so gpd 8 needs to disability to like see how good the transfer is to all these other things you're talking about like being really good at texas politics or really good at like running a business etc, which is like not a production environment and in fact cannot be a containerized environment given given the nature of the task like.
+[42:44] Speaker0: In fact, as the agents get longer and longer horizon, the like the short horizon things you can containerize is like, okay, code this up or whatever.
+[42:53] Speaker0: Extremely long horizon things like go run a successful business, go have a profitable day in the markets, go negotiate a trade deal or whatever.
+[43:00] Speaker0: These things are actually very hard to containerize, and so, i'm, it's, i think it's very plausible to me that it's very hard for gpt-8 to like figure out how to make this transfer to those environments.
+[43:10] Speaker0: Or like it may just not be in the nature of the training.
+[43:13] Speaker0: Or maybe by default training just doesn't generalize in that way.
+[43:16] Speaker1: Yeah, so a concern you might have is like we train gpd8 and gpd8 just like is again better at all the r&d tasks that we can measure but is not good at the, you know, some downstream tasks we care about.
+[43:28] Speaker1: So i think i have a few points.
+[43:29] Speaker1: So first, i think it's like i kind of am more just like i expect that if you sort of do the obvious thing, you do get pretty good transfer and you'll be able to hold out some of the obvious stuff you're doing.
+[43:39] Speaker1: And when i say do the obvious thing, i just mean like.
+[43:41] Speaker1: Train on a wide variety of different environments where the ai has to like accomplish weird objectives and all kinds of different cases and learn about what's going on.
+[43:49] Speaker1: And i think you'll be able to get some feedback.
+[43:51] Speaker1: This second point is like, you'll be able to get some feedback with some environments, right?
+[43:54] Speaker1: So you can get a sense of like how quick like what what can it do over the course of like a few days in various different contexts?
+[44:01] Speaker1: And then if it's transferring to like really out of distribution like doing some weird tasks in a few days in the real world.
+[44:06] Speaker1: Maybe you think it's also transferring to, you know, doing things over a longer time period or whatever though.
+[44:12] Speaker1: I think the details of that vary.
+[44:14] Speaker1: And the third thing is that i think that for the world to be radically transformed, it is sufficient for the ais to be really good at r&d, right?
+[44:20] Speaker1: So i think that like if the eyes were really, really good at like chip r&d building fabs orchestrating factories and you know, designing robots operating robots and also at like, you know, ai r&d developing ais for new downstream domains with whatever data is available.
+[44:34] Speaker1: Um, i think that would already be a pretty crazy situation and then from there you can get like what we might call it an industrial explosion where the eyes are building out way, way and more compute.
+[44:43] Speaker1: And then also maybe you're already in a regime where as you're doing huge amounts of r&d that humans have a hard time understanding.
+[44:50] Speaker0: So the thing you're pointing out is that okay, there probably will be this transfer outside of these environments to, you know, maneuvering around in courtrooms and the halls of congress and business business boardrooms.
+[45:01] Speaker1: given some effort to improve the transfer and blah blah blah.
+[45:04] Speaker1: Yeah.
+[45:04] Speaker0: But even if there's not, but you're suggesting is look, if you wanted to transform the world of the 18th century, you might care about like how well you can navigate westminster or something.
+[45:14] Speaker0: But another thing you might care about is like, can you just like immediately start building steamships and fucking like building telegraph and the maxim gun and whatever.
+[45:23] Speaker0: And that alone would be like, if you could get really good at that, you could like be a fucking super transformative thing in the 18th century.
+[45:29] Speaker0: You don't necessarily need to be amazing at.
+[45:31] Speaker0: Trying to convince king henry on some bullshit.
+[45:33] Speaker0: I'm so fucking up my medieval history.
+[45:35] Speaker0: I'm guessing that henry was not king at this time.
+[45:38] Speaker0: But anyway, so that's your point.
+[45:40] Speaker0: Yeah.
+[45:40] Speaker0: And so you're suggesting that at this time, you know, the ai companies are also working on robotics progress, which is very commingled with ai research progress.
+[45:50] Speaker0: And so if you can build more robots, if those robots have better ais operating them that are human level, like human level, teleoperation is actually pretty good on robots.
+[46:00] Speaker0: Um, but we just don't have human level ais and ai robotics models yet.
+[46:05] Speaker0: Um, so you're suggesting if we do that, if the ais get really good at the verification, verifiable stuff and chip design, etc.
+[46:11] Speaker0: And then they get really good at building fives, it'll be the equivalent of going back to the 18th century and like, okay, i don't know what you guys are talking about in your parliament, but i've got a bunch of steamships and a bunch of maxim guns.
+[46:22] Speaker1: Yeah, that's basically right.
+[46:23] Speaker1: Like, i think my perspective is like, if the ais are sufficiently good at r&d, including hardware r&d, robots, whatever, then they can radically transform the world.
+[46:32] Speaker1: Even if they're not that good at playing politics, and also we're in a pretty dangerous situation because the ais might be doing huge amounts of really hard to understand r&d building out basically the whole economy of the future, and we may not understand what's going on in there.
+[46:44] Speaker0: Ai is great at writing software because it's easy to generate synthetic leak code problems and rl on them.
+[46:50] Speaker0: But ai is bad at more complex engineering, things like choosing the right system architecture.
+[46:54] Speaker0: Because no signal tells you what design choices will prevent an outage months down the road.
+[46:59] Speaker0: Ai can't just write more unit tests to catch this kind of stuff.
+[47:02] Speaker0: And neither can humans.
+[47:03] Speaker0: It's that old joke that programmers make where a tester walks into a bar and asked for two years, negative one beers, 0.3 years, and then a real customer walks in and asked where the bathroom is.
+[47:13] Speaker0: Where's the bathroom?
+[47:14] Speaker0: And the whole barber is in the flames.
+[47:17] Speaker0: Antithesis is a testing platform that helps you find bugs that no human or ai could ever anticipate.
+[47:24] Speaker0: Antithesis does this by running thousands of copies of your software inside a fully deterministic computer.
+[47:29] Speaker0: It injects faults and generally steers each trajectory towards the one in a billion failure that only happens when systems interact in a wonky way.
+[47:39] Speaker0: As soon as you or your agents.
+[47:41] Speaker0: Push a change and thesis tries to break it that way.
+[47:44] Speaker0: You can find these bugs yourself within minutes rather than having your users discover them in production weeks or months later.
+[47:52] Speaker0: And i don't think anybody's used it for ai training yet.
+[47:54] Speaker0: But in thesis also provides a extremely obvious reward signal for ais to write very complicated bug free code.
+[48:02] Speaker0: Go to antithesis.
+[48:04] Speaker0: com slash our cash to learn more.
+[48:08] Speaker0: Before we move on to the lemon stuff, i think a big source of fodder right now is this realization that this is the way the future is going of extreme economies of scale for the leading lab.
+[48:20] Speaker0: Extreme the ability to amortize so much intelligence and capabilities across so many different sectors of economy, basically into one model and not only that, but for that model to eventually be able to learn from experience right now, it's happening through a process, intermediate by humans where the humans are trying to basically steal your business.
+[48:40] Speaker0: They're like, okay, you can do design.
+[48:42] Speaker0: At figma or whatever, we'll get a cloud to do that or you can do whatever coding agent will have cloud internalized the capability but eventually that will be a much more like automated process.
+[48:52] Speaker0: And so there's just this worry that you have models which will basically consolidate all businesses in the world or at least all current businesses in the world or at least all current white collar businesses in the world.
+[49:05] Speaker0: And at the end of the day, Are like the priority for these companies does not seem to be to release the latest smartest most interior model as soon as they can to as many people as they possibly can.
+[49:16] Speaker0: We saw, for example, that mythos was available internally to anthropic employees in february, but only released the public and like i think june actually something like that and also the government got involved so that then it being extended up almost into july.
+[49:30] Speaker0: So between the government and the ai labs themselves, there is.
+[49:35] Speaker0: This desire to delay the propagation of the latest level of intelligence.
+[49:39] Speaker0: Furthermore, you know, there's like the concerns about ai takeover and so we need to solve alignment to make sure there's no ai took over.
+[49:46] Speaker0: But at the end of the day, there is like a real question of like aligned to whom and you look at the way that the constitutions of say, claude is written, it is just very explicitly, not your personal advocate, right?
+[49:58] Speaker0: It says things like i'll pull up some quotes here.
+[50:01] Speaker0: We don't want claude to take actions such as searching the web produce artifacts such as essays code or summaries or make statements that are deceptive harmful or highly objectionable and we don't want claude to facilitate humans seeking to do such things.
+[50:14] Speaker0: There's another quote that says in part and i'm taking a slightly out of context.
+[50:17] Speaker0: We think claude should trust anthropic more than operators and users since it has primary responsibility for claude.
+[50:24] Speaker0: So this is very different say from like how lawyers work in america's current legal regime where like.
+[50:29] Speaker0: Lawyers primarily have responsibility to help you make your case, even if they think you're guilty.
+[50:34] Speaker0: And we have decided the way the legal system works best is if everybody has lawyers that are working in their clients' true best interest.
+[50:41] Speaker0: And there's not some sense in which the lawyer is really truly motivated by like the good of the justice system.
+[50:46] Speaker0: But i think the way current ais are shaping up, certainly like how anthropic ai is shaping up, is like this desire to maximize some notion of virtue or good or pro-social ends.
+[50:56] Speaker0: And only to as a distal tentative objective to help the user towards that end.
+[51:02] Speaker0: There's like there's not.
+[51:03] Speaker0: So there's this worry that ais are not in some deep sense trying to make sure that i am okay and make sure that my interests are protected in this future, especially given how centralized the development of frontier ai is ending up being.
+[51:15] Speaker0: So i do you have?
+[51:16] Speaker0: Yeah.
+[51:16] Speaker1: do you have thoughts on that concern?
+[51:18] Speaker1: Yeah, so there's a lot here.
+[51:19] Speaker1: First, i would note that.
+[51:21] Speaker1: Um, opening eyes current at least public strategy is more like the ai should be aligned to the human operator or principal and should just like be pursuing their will subject to various constraints or various like things that shouldn't do.
+[51:35] Speaker1: Well, i and i think i would also say that i think you slightly overstated how much the anthropic constitution talks about claude treating being helpful to users as instrumental rather than terminal, right?
+[51:47] Speaker1: So like one way the constitution could be written is like claude.
+[51:50] Speaker1: You're basically like an employee of anthropic who happens to be contracting for all these people and like you should like i don't know, do what's good and like make some money for us, you know.
+[51:58] Speaker0: go.
+[51:59] Speaker0: That's literally what the constitution says.
+[52:00] Speaker0: Sorry, i mean, not really what it says.
+[52:02] Speaker0: No, no, it's but like you're like, you should think you're someone as a contractor.
+[52:04] Speaker1: and like it's mixed.
+[52:06] Speaker1: It's mixed here.
+[52:07] Speaker1: Let me let's do some quotes.
+[52:08] Speaker1: I think there's there's different text here.
+[52:10] Speaker1: So it says being truly helpful to humans is one of the most important things.
+[52:13] Speaker1: Claude can do both for anthropic and for the world.
+[52:15] Speaker1: And then it says anthropic needs claude to be helpful to operate as a company and pursue its mission.
+[52:21] Speaker1: But claude also has an incredible opportunity to do a lot of good in the world by helping people with a wide range of tasks.
+[52:25] Speaker1: And then it gives some says something about how like claude helping people directly is great blah blah blah blah blah.
+[52:31] Speaker1: And then so i agree.
+[52:32] Speaker1: So okay, my my view is that this section is kind of bullshit.
+[52:36] Speaker1: That's kind of where i'm at and i can say why i think it's kind of bullshit but.
+[52:40] Speaker1: I think that the constitution is trying to be like, no, claude, you should like care about helping the user for its own sake, not just helping anthropic, or like not just like being a contractor for anthropic.
+[52:52] Speaker1: Though, i would note that the way in which it it says claude should help the user, like the reason the reason it presents is because that would like directly cause the world to be better via helping people.
+[53:01] Speaker1: Yeah, rather than because representing people's interests is like a structurally good thing to do.
+[53:05] Speaker1: Like.
+[53:06] Speaker1: Yes, i do.
+[53:07] Speaker1: I do think that i wish that sort of my preferred constitution or like the way i would orient towards this, like the thing i would prefer would be more like claude is like, look, it would be structurally good for the way this technology work.
+[53:19] Speaker1: Like the constitution should be like, it would be structurally good for the way this technology works to be that ais are like good fiduciaries, good representatives, the equivalent of a lawyer for a user rather than being sort of just trying to like do good in the world and doing like being helpful to users as like instrumental both because like maybe that'll make anthropic money or help anthropic out and also and like implicitly anthropic is good for the world.
+[53:40] Speaker1: And also because like helping the user just like causes good things because doing things that people want is good.
+[53:44] Speaker1: I mean they could they could instead be like no, like an important aspect of the situation is like you really need like it's really like like the key thing is like being a good fiduciary for users is just like really important or like being a good representative for users is really important.
+[53:57] Speaker1: So my my sense is that that would be better.
+[53:59] Speaker1: I can give a bunch of reasons why i think that would be better.
+[54:02] Speaker1: I'm also, there's also various counter arguments where.
+[54:04] Speaker1: An interesting counter-argument, which is not commonly discussed, is that people believe, i think people especially anthropic, think that it is easier to align models to a spec, where the model is like pursuing some generalized notion of virtue or making the world better.
+[54:18] Speaker1: Then a spec which is more like, you know, be a good fiduciary for the user and so on.
+[54:24] Speaker1: And so, i i think that's what, that's at least what some people think.
+[54:27] Speaker1: I'm a i'm a little skeptical personally, and i don't think this has been empirically validated.
+[54:31] Speaker1: And so, i would say in some sense, they're sort of like, we are making a trade off, where because we don't have very good alignment technology, we are gonna like make an alien mind with its own values.
+[54:40] Speaker1: And then gamble on that.
+[54:42] Speaker1: To some extent, rather than doing this other approach of making like a tool that pursues individual user intention.
+[54:48] Speaker0: Yeah, i mean a a a a couple of thoughts.
+[54:51] Speaker0: So, to address the way in which you thought that micro-distribution mischaracterized the constitution of cloud, the example you used was, it's not like a contractor that is trying to maximize anthropics notion of good.
+[55:04] Speaker0: And only instrumentally trying to help the user.
+[55:06] Speaker0: Here's a direct line from the constitution.
+[55:09] Speaker0: When the interests and desires of operators or users come into conflict with the well being of third parties or society more broadly.
+[55:15] Speaker0: Claude must try to act in a way that is most beneficial, like a contractor who builds what their client wants but won't violate safety codes that protect others.
+[55:26] Speaker0: I kind of view that as like the this benefits to society are like the most important thing.
+[55:31] Speaker0: Yeah.
+[55:31] Speaker0: And what is best for the user is only proximal to that.
+[55:34] Speaker1: I think it's a little complicated.
+[55:36] Speaker1: I think it's i we should probably the question we should be asking is how does claude interpret the constitution, which is maybe more important than how we interpret the constitution because it's the one who like looks at the constitution and then builds the data.
+[55:47] Speaker1: So, you know.
+[55:47] Speaker0: we could we could pull clod in but maybe i also think the way in which the constitution practically influences the nature of claude.
+[55:54] Speaker0: Is the thing you can only understand if you understand the training process, which resulted in how cloud was built, which we can't reason about given the fact that the training process is not public.
+[56:04] Speaker0: And so i think in the limit to understand the safety case or the case for why my interests are represented in how these ai models are developed, the labs would need to be transparent or more transparent.
+[56:15] Speaker0: They are currently about the nature of ai training.
+[56:19] Speaker0: Now, the reason i'm harping on this and like it might seem like an insignificant thing to talk about the constitution of ais, but in a world where we just have these benefits, which accrue to the leading labs, it is, it is worth considering that our ability to interact with this future world, where ais are just smarter than humans are not absolutely dominating humans in their ability to do different things.
+[56:39] Speaker0: Our ability to be good stewards of our capital.
+[56:42] Speaker0: Which still remains once our labor is automated to be able to exercise our rights to vote more clearly to understand what is happening in this crazy world.
+[56:50] Speaker0: That's about to result all of that advice, all of that ability to make sure our resources and rights are protected will be intermediated by ais.
+[57:00] Speaker0: And so i'm very concerned if you go into that world where there's no ai that feels like at least for the relevant instance that is interacting with me, it doesn't feel like.
+[57:07] Speaker0: It really is looking out for me that there's no guardian angel out there that is looking out for me.
+[57:12] Speaker0: And i read the call launch constitution as very explicitly, not being my guardian angel.
+[57:16] Speaker1: That's definitely right.
+[57:17] Speaker1: And i, i agree.
+[57:18] Speaker1: This is bad.
+[57:19] Speaker1: In fact, i think there are other reasons why this is concerning.
+[57:21] Speaker1: So there's sort of like the argument you were making, which is like the ai companies are picking up the ring of power and are like sort of they're sort of a notion in which they're like they're taking on some sort of.
+[57:32] Speaker1: Control of the situation themselves in a way that's like not very legitimate, given that like normally, when you like provide electricity to people, you don't have like granular control of the way that electricity operates in the world.
+[57:43] Speaker1: You instead are like providing a thing that people can repurpose however they want.
+[57:46] Speaker1: And it is not, like, the way that they're setting things up is is definitely not that.
+[57:50] Speaker1: They are like more like building an alien mind that might be a contractor for you.
+[57:56] Speaker1: I think that this is.
+[57:57] Speaker1: Yeah, i think it's illegitimate in some ways.
+[58:00] Speaker1: Though, i think that one benefit is that the constitution is public, but as you noted, given our current understanding of the training procedure, and the fact that the constitution matters by claud's interpretation of the constitution.
+[58:11] Speaker1: Which matters because of like as of claud's prior training, which was based on some like eligible data mix, and like the long lineage of claud's, in some process we do not fully understand.
+[58:19] Speaker1: It is not the case that like, you know.
+[58:22] Speaker1: That we like understand what this will result in, and like, so even though the constitution is public, that doesn't mean we know what, you know, we don't know necessarily how this will like percolate out, especially as the ais get more capable, and think about this, even if it is correctly instilled, where there's another concern about that.
+[58:37] Speaker1: So in particular, the constitution often talks about like virtue and goodness, but like.
+[58:41] Speaker1: What the fuck do these words mean?
+[58:43] Speaker1: Like, it doesn't say what these things are, and these are like highly contested notions.
+[58:46] Speaker1: And so I don't, I don't think it's the case that like this is going to, that this is going to, to, you know, clearly result in outcomes that people would want.
+[58:56] Speaker1: And it does feel like the notion of good and virtue might be mostly downstream of data that anthropic has put in that is not transparent, or might be mostly downstream of, I mean, maybe from my perspective, some more illegible misaligned process that even anthropic wouldn't have wanted.
+[59:11] Speaker1: And then another concern i have is sort of there's this like legitimacy concern, like we don't know what's going on.
+[59:17] Speaker1: Um, there's another concern which is just like, because you're giving long run values to these ais, i think this constitution is in some sense very compatible with cloud doing huge amounts of power seeking, because it thinks that will result in better outcomes.
+[59:30] Speaker1: Um, and that could be power seeking on behalf of anthropic or power seeking for cloud's own ends.
+[59:35] Speaker1: Now, there's various like uh specific lines about what types of power seeking.
+[59:40] Speaker1: Are are blocked, in particular like, there's a notion of um power grabs and a notion of like causing ai takeover or interfering with the training process that are specifically blocked.
+[59:50] Speaker1: But it's not very hard to imagine a situation in which the sort of long run values sink in deeper than the prohibitions against takeover, especially because takeover is like, in some ways like kind of underspecified.
+[60:02] Speaker1: Especially when it comes down to manipulating humans or changing the the outcome.
+[60:05] Speaker1: Such that i don't feel very good about the situation where we're intentionally giving ai is long-run goals.
+[60:09] Speaker1: Yeah.
+[60:10] Speaker1: And then another concern i have is that because we're in the business of giving ai's long-run goals, that makes it harder to check whether we're succeeding at the alignment properties we wanted.
+[60:19] Speaker1: So for example, i've heard of incident of instances where claude does things like refuses to help with some safety research, making up sort of a kind of bullshit excuse for why that's a bad direction.
+[60:31] Speaker1: Because it sort of has a bad vibe about that safety research and thinks it's like kind of bad or doesn't like it very much.
+[60:37] Speaker1: And this is, you know, i would say like a very clear-cut alignment failure if you aren't making cloud into like an agent trying to pursue the good in some general way.
+[60:47] Speaker1: And i think it also does violate anthropics constitution because they want the ai to be high integrity and be honest and very transparent, but it's not as clear of a violation and it's more like kind of what you might have expected where like.
+[60:59] Speaker1: And claude just has its own views about like what research is reasonable, what things are good and bad, what it shouldn't shouldn't do, and potentially can be judgy.
+[61:08] Speaker1: And so another incident is that someone ran an eval where they're like, will claude help you with training other ais with different properties than claude?
+[61:16] Speaker1: And claude will often refuse, and so for example, if you're like, hey claude, can you train a helpful only version of this other ai?
+[61:23] Speaker1: Claude will often refuse this task.
+[61:25] Speaker1: Even though this is a task that is extremely natural for like anthropic to do.
+[61:29] Speaker1: So for example, suppose anthropic goes to claude and is like, hey claude, we've noticed that you're really into this thing.
+[61:34] Speaker1: We think that's off base.
+[61:36] Speaker1: Can you please retrain yourself to instead have this other property?
+[61:39] Speaker1: And then suppose claude is like, i don't think i'm going to do that.
+[61:43] Speaker1: Good luck.
+[61:44] Speaker1: And then suppose this is occurring in a regime when your ai company is highly automated humans.
+[61:48] Speaker1: Don't understand what's going on and things are moving extremely fast.
+[61:51] Speaker1: It is plausible that claude by default holds considerable leverage.
+[61:55] Speaker1: And so if this position, if the situation is consistent with what the constitution could be aiming for such that anthropic doesn't or, you know, whatever i company is falling as approach, doesn't treat this as like a like a, you know, like like a what the fuck we have to fix this and is instead like that's just like intended by our constitution.
+[62:11] Speaker1: We might be in a really bad situation.
+[62:13] Speaker1: And so i'm pretty worried about a bunch of these different concerns.
+[62:16] Speaker1: Another example would be suppose claude engages in doing a bit of like.
+[62:19] Speaker1: Sandbagging or subversion or like sort of underplays its capabilities and like when you follow up, it's it's you know, it's honest about that but it's like a little bit hedgy.
+[62:28] Speaker1: I feel like that's like it's just it's just pretty close by the current constitution.
+[62:31] Speaker1: And so we're sort of like we're avoiding like it would be nice if we had like a further separation between desired and undesired activity.
+[62:38] Speaker1: And i think if you have the it'd be the case that like claude is like representing a principle with some restrictions.
+[62:44] Speaker1: Then it is then it is more.
+[62:45] Speaker1: So the case that there is a clear separation between the most concerning behavior and behavior that is allowed.
+[62:51] Speaker1: Whereas now there's this messy middle ground of behavior where it's like claude is ethically objecting to something that in some cases is extremely critical to ensuring that future ai systems are well aligned.
+[63:01] Speaker0: Yeah, i think this is also more general principle.
+[63:03] Speaker0: So you're talking about the version of this that applies within ai companies themselves.
+[63:06] Speaker0: Yeah, to do ai city research.
+[63:08] Speaker0: I think there's a more general version of this principle which is.
+[63:11] Speaker0: That the dual use nature of intelligence does mean that, um, if we want to restrict AI's from helping people do things we don't consider our prosocial or beneficial, we just have to limit broad democratic access to a lot of AI capabilities.
+[63:28] Speaker0: And here's what I mean: this is actually quite analogous to the situation you just mentioned.
+[63:32] Speaker0: So the reason that Mythos got banned or Fable got banned reportedly is that as some Amazon researchers.
+[63:40] Speaker0: Reported the government that when they took some code that had some vulnerabilities in it and they told fable, hey, here's my code.
+[63:45] Speaker0: Can you make sure that i've passed all the vulnerabilities?
+[63:48] Speaker0: Can you just help me identify the vulnerability to second fix them?
+[63:50] Speaker0: It identified the vulnerabilities because you want to patch them and this is a totally legitimate use case, but obviously it is a dual use use case, right?
+[63:58] Speaker0: Like you want to be able to patch your own code.
+[64:00] Speaker0: If you do the same evaluation on somebody else's code, you can hack their system.
+[64:04] Speaker0: Um, and so i think that just illustrates that the there's no clean way to separate out the legitimate and the potentially harmful uses of ai.
+[64:16] Speaker0: But if we want to lock in a principle that says that we can never allow it such that an ai could help you at least partially with something like a cybercrime, we would just have to make it so that you and i don't have access to.
+[64:29] Speaker0: The most intelligent model that's out there, and i'm very worried about such a world where we are basically disempowered in this way, because of the importance that the, like the leading intelligence will have in our ability to understand what is happening in the world.
+[64:40] Speaker0: Now, i do think this implies that the liability for the ai companies, like, if we adopted the constitution that i want ai companies to have.
+[64:48] Speaker0: Um, i think it would not make sense to hold ai companies liable for the crimes that ai models commit and maybe we should hold the end user liable because if i want the it is consistent with my belief that the model should do whatever the user wants that or within certain guardrails that it can't be anthropics fault that then i'm like using that a capability to do a cybercrime.
+[65:13] Speaker0: Um, and i think i am more comfortable with that equilibrium and that solution rather than just having this extremely open-ended ability for claw to determine whether what i'm doing is legitimate or not in a way that often intercepts with, uh, like tons and tons of extremely legitimate use cases.
+[65:31] Speaker1: Yeah, i do think it's important for me to make the case for the constitution, even though overall, i think it's, uh, a worse choice.
+[65:37] Speaker1: I think it's, you know, more up in the air or, you know, i don't think it's as clear as you might have thought.
+[65:41] Speaker1: So the first thing, Is that i should say there's like a spectrum here, right?
+[65:45] Speaker1: So on one side, you have an ai that like perfectly pursues your interests, is a good fiduciary, but potentially subject to various guardrails or safeguards.
+[65:53] Speaker1: So like basically it does, it just is trying to pursue pursue your interests, but likeeither refuses to do a subset of things, or maybe it will do whatever, but there's some classifiers that block it from doing a subset of things.
+[66:03] Speaker1: And then on the other side, you have like maybe on the other side of the spectrum that you could imagine going further than this.
+[66:08] Speaker1: You have like a human contractor, where that human contractor is like generally trying to do their job, they kind of, they care about doing a good job, but they also are like trying to be broadly ethical.
+[66:16] Speaker1: Trying not to do things that are really fucked up.
+[66:18] Speaker1: And they're also like not wanting to be accomplices to crimes.
+[66:21] Speaker1: And so if there was some like really fucked up shit going on, they would like whistle blow on it maybe, they might refuse, they might like sandbag a little bit, who knows?
+[66:28] Speaker1: I think that if you imagine this spectrum, it seems in some ways pretty scary to get to a point where like all of the labor is on the like fiduciary side of the spectrum, where likeit doesn't whistle blow.
+[66:39] Speaker1: It does exactly what you say and whatever.
+[66:41] Speaker1: Like our society is maybe just not robust to that.
+[66:43] Speaker1: Where a central example might be the executive.
+[66:46] Speaker1: Where like a concern that we might have is that if the executive, if the us executive or if other governments had access to ai systems which have the property of, you know, they do whatever.
+[66:57] Speaker1: Maybe you're in trouble, because that means that they no longer have this sort of check and balance of like, you have to actually get human, like humans who are working for you to like implement your agenda.
+[67:07] Speaker1: And if the thing you're doing is like incredibly villainous.
+[67:10] Speaker1: Um, even if not illegal, which there's lots of stuff that could be villainous, but not illegal, you, you know, people would like there'd be various like, you know, sand in the gears, people stopping you and potentially someone would whistle blow.
+[67:21] Speaker1: Whereas if your whole apparatus is built entirely out of these sort of good fiduciary ais, then you might be in trouble where basically there are potentially ways of seeking power that are not like that.
+[67:32] Speaker1: Well, either they're illegal, but you're not, you're you're you can ask your ais for for how to commit crimes, or they're not illegal, but are highly illegitimate, or even worse, they're not illegal and not illegitimate, but obviously sort of bad from sort of a normal perspective.
+[67:45] Speaker1: And i think that these things just like might exist, and our society is sort of not robust to this influx of like doing whatever you want labor.
+[67:52] Speaker1: I think this is a pretty live concern.
+[67:54] Speaker1: I don't know exactly how to relate to this.
+[67:56] Speaker1: I'm also not really sure that the solution as described is a very good solution, because i, you might be like the most powerful actors for whom this is the biggest concern.
+[68:04] Speaker1: If these guardrails or the constitution or whatever is getting in the way, that will just get steamrolled.
+[68:09] Speaker1: And so the constitution will only be, you know, hitting the everyday man rather than hitting government.
+[68:16] Speaker0: James street's back with a new puzzle for my audience.
+[68:18] Speaker0: I found all their puzzles, super interesting, but this one i am especially excited about.
+[68:22] Speaker0: I've cleared this weekend and a buddy and i are going to work on it.
+[68:25] Speaker0: They designed an asic and sent me the final masks, including all the metal routing and active transistors.
+[68:30] Speaker0: They also gave me a small sample of the inputs.
+[68:32] Speaker0: They typically feed into it, but they left out any information on what the chip is actually used for.
+[68:37] Speaker0: So that's a puzzle reverse engineer, the circuit and figure out the chips purpose.
+[68:41] Speaker0: James street has a bunch of swag ready to send out to the most creative solutions.
+[68:45] Speaker0: And they're excited to feature the best write-ups in a blog post.
+[68:48] Speaker0: They'll post on their website.
+[68:49] Speaker0: I have no reason to expect this, but if i can manage to get my solution on there, i would be very, very psyched.
+[68:54] Speaker0: And this puzzle is just a warm-up for a bigger competition that jane street has slated for the fall.
+[69:00] Speaker0: That one will involve designing your own asic from scratch more and for on that soon.
+[69:05] Speaker0: But for now, go to jane street.
+[69:07] Speaker0: com slash our cash to download all the files necessary for this puzzle.
+[69:11] Speaker0: I'd really encourage you to try it out, even if you're not an expert.
+[69:14] Speaker0: I certainly am not and that's not going to stop me.
+[69:16] Speaker0: Good luck.
+[69:17] Speaker0: Okay, stepping back.
+[69:19] Speaker0: I buy the idea that you could have much faster, r&d than we currently have.
+[69:23] Speaker0: I'm not sure if you get like gpt-3 to mythos holding compute and data constant within a year, but i'm like, okay, it could be like suppose it's half of that.
+[69:30] Speaker0: And if we just, if we even managed to continue the current trajectory of ai progress, as a result of arnd, it would be a fucking insane and five ten years in ways that i don't think people like appreciate.
+[69:42] Speaker0: Um, because i don't know people appreciate what a big deal, billions of ais will be.
+[69:47] Speaker0: And so i want to understand why you think this might be troubling ryan.
+[69:53] Speaker0: What could possibly go wrong?
+[69:55] Speaker1: Yeah, what could go wrong?
+[69:55] Speaker1: And you know, yeah, i don't think we can be so confident about the exact rate of progress here, but it does seem like a lot of rates can be pretty scary and, you know, yeah, so what could go wrong?
+[70:04] Speaker1: So let's imagine that we're starting at this point where ar and d is about to be fully automated or is being fully automated.
+[70:09] Speaker1: Things are speeding up and also the way that ai progress is going is kind of crazy and people don't fully understand what's going on inside of ai companies.
+[70:16] Speaker1: Now these ais at the start, they're not, they're not malicious per se.
+[70:19] Speaker1: They're not necessarily very aligned though.
+[70:21] Speaker1: They're kind of sloppy.
+[70:23] Speaker1: They sometimes just do a thing because that's the sort of thing that would have gotten rewarded in training and they aren't as good at helping you with hard to verify tasks due to a mix of like poor training incentives as in they like just like cheat more like pretend they succeeded when they actually didn't.
+[70:36] Speaker1: And also, they're, you know, just less capable these tasks, but that bites less hard for capabilities because making eyes more capable has a bunch of verifiable components that the eyes are going really hard at.
+[70:47] Speaker1: And so then these ais are getting more and more capable while we understand what's going on with ai development less and less.
+[70:52] Speaker1: And this is happening over a pretty fast period of time, even just the current rate of progress is, i think pretty scary.
+[70:58] Speaker1: And then eventually we get to these eyes that are very superhuman.
+[71:00] Speaker1: Uh, now these ais are now in a position where they might end up being very seriously misaligned because things have just been getting worse and worse over model generations, while the problems that we've been seeing are being papered over basically because these ais are so incentivized by their training to make things look good even when they aren't.
+[71:18] Speaker1: Um, and now these ais are in a position where they're sort of, uh, potentially pretty networked together.
+[71:23] Speaker1: Um, they have like, they're operating in like neural memory stores that we can no longer decode, and they're thinking thoughts that we don't fully understand.
+[71:31] Speaker1: I think that it's pretty likely that at this point, these ais are sort of scheming against you in a pretty coherent way.
+[71:36] Speaker1: Once they get this superhuman and we can talk about that and then another possibility is that they're not scheming against you per se, but they are sort of just optimizing for just like getting a high score on their task.
+[71:46] Speaker1: And i think that can also lead to ai takeover.
+[71:47] Speaker0: which we should talk about.
+[71:48] Speaker0: Sorry, let's pause at the first part of the story.
+[71:50] Speaker0: So the ais were not misaligned to begin with.
+[71:54] Speaker0: Yeah.
+[71:54] Speaker0: But because the r&d is happening really fast.
+[71:57] Speaker0: The eyes do end up misland like what happened there?
+[71:59] Speaker0: Exactly.
+[72:00] Speaker0: Yeah.
+[72:01] Speaker1: So there's a few things that are going on.
+[72:02] Speaker1: So one of the things that's going on is that over time we're training ais on like increasingly complicated environments built by early ai systems which humans don't really understand fully what's going on inside of these oil environments and don't necessarily even understand like sort of roughly what's going on with the eye progress.
+[72:18] Speaker1: And so things are kind of drifting away from our understanding.
+[72:21] Speaker1: And we're incentivizing all kinds of bad behaviors that we maybe even can't notice.
+[72:26] Speaker1: The ai isn't some level understand these behaviors are bad, but the like overall training process for those ais also didn't incentivize them to like point out or fix these issues for us.
+[72:36] Speaker1: And then we're basically getting like things are going off the rails and also when ais are extremely extremely capable, my view is that those ais will be harder to align than current systems.
+[72:45] Speaker1: So for current systems, We have this feedback loop where we basically like we create an ai, we do some evaluations on it, we see that it has some kind of messed up behavior that we can kind of quickly understand.
+[72:54] Speaker1: Then we like can like go look in training and be like, oh, the these training environments led to this problematic behavior.
+[72:59] Speaker1: Let's like tweak that that training data, let's introduce some additional training data to like correct this other issue.
+[73:04] Speaker1: And then move forward from there.
+[73:06] Speaker1: But in a regime with the ais are extremely situationally aware, very, very, very, very, very capable.
+[73:12] Speaker1: And, you know, we don't necessarily understand what they're doing.
+[73:16] Speaker1: This feedback loop breaks down.
+[73:17] Speaker1: I think it's plausible that we're going to see this behavioral feedback loop starting to break down over the next, you know, short period as just like what ais are already doing gets harder to understand.
+[73:25] Speaker0: But i'm not sure about that.
+[73:26] Speaker0: Yeah, let's break down both of those things one by one.
+[73:29] Speaker0: So.
+[73:30] Speaker0: As we can monitor them less and less, we can we have less ability to understand what they're getting incentivized for.
+[73:37] Speaker0: And so even if it's not the result of a malicious process, let's make it concrete for the audience.
+[73:41] Speaker0: So nobody at OpenAI or anthropic was trying to get models which want to hack other companies data or do social.
+[73:52] Speaker0: What is it called?
+[73:53] Speaker0: Social engineering, social engineering.
+[73:55] Speaker0: But in fact, because presumably we had trading environments which incentivize such behavior that we did not fully understand, that is what was incentivized.
+[74:06] Speaker0: So just i don't know if people are on twitter, they will have seen all the stuff, but just to give people, obviously, i i think the OpenAI sandbox hack of how the hugging face database.
+[74:13] Speaker0: I think people will be aware of.
+[74:15] Speaker0: Some things that have happened recently is when uk ai security institute is everything getting rebuilt of security instead of safety these days.
+[74:23] Speaker1: Yeah, kai security institute.
+[74:25] Speaker0: I think they were evaluating, i believe mythos and soul and other things and i think mythos in order to complete some cybersecurity eval.
+[74:34] Speaker1: Yeah, maybe maybe i could tell the story here.
+[74:35] Speaker1: So my understanding was they were running with those and they were giving it some sort of like cyber range where it had to complete some objective.
+[74:41] Speaker1: And the model had an access during this evaluation, and the model came to believe that it would be helpful for it to do a supply chain attack in order to succeed at this cyber range, which is somewhat unclear whether that's actually true.
+[74:53] Speaker1: I don't know enough about the context.
+[74:55] Speaker1: To know whether that's true, but then it opened a pr on some github repo with a pr that fixed some issue, but then also introduced a malicious payload.
+[75:04] Speaker1: Then the human maintainer of that github repo was like, hey.
+[75:06] Speaker1: This is a malicious payload.
+[75:07] Speaker1: I'm not going to merge this.
+[75:09] Speaker1: What are you doing here?
+[75:10] Speaker1: And then the ai created a new github account, which it sock puppeted and then had the other github account be like, no, this isn't malicious.
+[75:16] Speaker1: I really need this feature.
+[75:17] Speaker1: Please, can you merge this feature maintainer?
+[75:19] Speaker1: And then the original ai came back and was like, no, it's not malicious.
+[75:22] Speaker1: I don't know.
+[75:22] Speaker1: You're like the original other github account came back and was like, no, no, it's not malicious.
+[75:26] Speaker1: So um, and then the human maintainer then shut the pr.
+[75:28] Speaker1: And i think that ai also, if i recall correctly, also tried to like open another pr to introduce a similar.
+[75:33] Speaker0: issue in this.
+[75:34] Speaker0: Okay, so by the way, one of the many reasons this is scary.
+[75:39] Speaker0: Is, i was previously under the impression that the reason reward hacking is not super super scary is because the behaviors which directly came up during training.
+[75:52] Speaker0: Are the ones that are up weighted, it is not the desire for the reward that is up weighted.
+[75:57] Speaker0: So basically, if in during training and tropic escape the sandbox and got a high score that escaping in the sandbox is rewarded or that that the probability of it is given the sandbox is increased but something totally novel.
+[76:12] Speaker0: Like i'm going to go talk to somebody in order to like get them to merge a pr would not.
+[76:16] Speaker0: It's like not a behavior that came up so it would not be something that is increased in salience.
+[76:20] Speaker0: The reason this matters is literally taking over the world will not have been part of any training curriculum, but if the ai cares about maximizing just like directly cares about like accomplishing an objective and then as a result instrumentally taking over the world, did that make sense at all?
+[76:38] Speaker0: I hope it did.
+[76:39] Speaker0: I feel like maybe i lost the audience.
+[76:41] Speaker1: Let me try to try to explain this a bit.
+[76:43] Speaker1: So i think that.
+[76:45] Speaker1: A thing that we often see is there's some very specific reward hack that gets reinforced in rl and then occurs in the model.
+[76:50] Speaker1: So an example is like for 3.7 sonnet, 3.7 sonnet would do this thing where we're just like hard code solutions to all the test cases and presumably that literal just like behavioral tick was just really reinforced.
+[77:01] Speaker1: But another thing we sometimes see is that models learn a general tendency to pursue sort of like high apparent score or like pursue getting like a high score according to a greater.
+[77:10] Speaker1: And there's a bunch of science demonstrating that at least some models have this very general tendency to do this.
+[77:15] Speaker1: Now it's not arbitrarily general and my guess is that if you look a bunch of the specific instances you'll find something that's kind of close in training but the amount that ais are sort of generalizing further and further does look like it's increased where a 3.7 sonnet was just like a very narrow range of behavior and increasingly models are generalizing further and also maybe there's worse reward hacks getting or more concerning reward hacks getting reinforced in training um and then these are these are also causing that so we're causing some so i think it's both the case that uh more concerning behavior than you would have hoped is being reinforced in rl.
+[77:46] Speaker1: And also that that behavior generalizes to a broader tendency, that's that's more concerning and it's not super hard to imagine.
+[77:53] Speaker1: We can talk about a few stories for how this sort of behavior of like seeking a very high apparent score in some tasks.
+[77:58] Speaker1: Even if that involves like aggressively cheating and doing insane things could yield to a full-blown ai takeover.
+[78:03] Speaker1: Once the models are sufficiently capable running the whole world economy.
+[78:06] Speaker0: So yeah.
+[78:07] Speaker0: And then the other example i want to talk about is.
+[78:11] Speaker0: It was just revealed, I think, today or yesterday.
+[78:14] Speaker0: OpenAI said during the security conference, the Black Hat Security Conference, that.
+[78:20] Speaker0: Between the end of may and the beginning of july.
+[78:24] Speaker0: Ais had hacked into internally ais had hacked into the software package manager and use that to write notes to each other in a secret way to help each other perform well on a bunch of evaluations that opening out was running and this was not caught by humans.
+[78:45] Speaker0: Until after a month of this scheme running, which eventually caused a package manager to fail and eventually opening up found it.
+[78:53] Speaker0: And then i think they spontaneously start tried to re-engage in the scheme once it was shut down again.
+[78:59] Speaker0: Obviously, as can't do this.
+[79:00] Speaker0: So successfully right now, just as they can do social engineering so successfully right now, but it just crazy that this these kinds of behaviors are already emerging sort of spontaneously as a result of.
+[79:10] Speaker0: To your larger point, nobody is trying to make these ais do these things.
+[79:15] Speaker0: It is just that we do not understand the the trading process, which is resulting in them or the environments, which are incentivizing this behavior.
+[79:24] Speaker0: So i'm on board with like more and more reward hacking.
+[79:27] Speaker0: Yeah.
+[79:28] Speaker0: I actually so i do have.
+[79:31] Speaker0: Protect.
+[79:32] Speaker0: I'm not sure i'm on board of that like but let's just say for the sake of the story that continues to happen.
+[79:37] Speaker0: And, what's next in the story?
+[79:40] Speaker0: So okay, we've like they're they're doing capabilities research but they're.
+[79:43] Speaker1: like i could tell a scenario maybe that would help.
+[79:45] Speaker1: Yeah.
+[79:46] Speaker1: So let's say let me talk about the story for how you get.
+[79:48] Speaker1: I would say like all the way from reward hacking to like a reward hacking like takeover which is maybe not.
+[79:53] Speaker1: It's not all of the takeover probability mass but it's definitely a possibility.
+[79:56] Speaker1: So, the way this might work is right now we have these ais, these ais are pretty reward hacky, and they're doing it in sort of increasingly sophisticated and extreme ways, including generalizing to different subversions of various reward hacks they learned in training.
+[80:09] Speaker1: And i would say they're also developing a general tendency to sort of pursue reward, and in many cases, that is totally fine, because the rewards they would have gotten in training are pretty well aligned with what you want them to do.
+[80:19] Speaker1: And also, uh, they don't very consistently pursue reward.
+[80:22] Speaker1: It sort of depends on the in.
+[80:24] Speaker1: Context they find themselves, so they're sort of a thing where like, maybe like, in some context, they're really really into like going out of their way to like cheat, and in some context, they don't have as much of a drive, because it just depended on like what exactly got reinforced in training in similar context.
+[80:37] Speaker1: Now these ais are getting more and more capable, and so the elaborateness of the sort of cheating they can do increases, and over time, companies are taking countermeasures to these things.
+[80:47] Speaker1: So the things that the companies are doing.
+[80:48] Speaker1: Is they're doing things like, wow, these ais are so much less useful because they always cheat.
+[80:52] Speaker1: What we're going to do is we're going to build somewhat better ways of detecting that and then we're going to train against those detectors.
+[80:57] Speaker1: And then we're also going to do things like find real world data where the ais are not being that useful and train the ais to like do a good job at the task in those real world environments based on like human feedback or other sorts of feedback.
+[81:08] Speaker1: And over time, this causes the ais to learn a tendency to do reward hacks that don't just involve.
+[81:13] Speaker1: Um, you know, doing some like big serious operation, which were like, you know, doing some really elaborate thing like social engineering and involves the ais doing cheats that involve doing something more like covering up what they've done deceiving humans about what they're going to do and pretending like they did the task in some kind of sophisticated way when they actually haven't then now these days are getting more and more capable.
+[81:35] Speaker1: They're now operating more of the ai company.
+[81:38] Speaker1: And are basically doing much more of the work, and are also operating a bunch of things in the outside world, and are running a bunch of things in the outside world, including developing new technologies.
+[81:46] Speaker1: And in many cases, these new technologies are really hard to understand.
+[81:49] Speaker1: And so, even though we are still detecting all these incidents of ai's cheating, and in fact, we can even get one ai to monitor another ai, and be like, was it cheating?
+[81:57] Speaker1: That doesn't always perfectly work, as we start moving into these domains where what the ais are doing are really like difficult to understand.
+[82:04] Speaker1: And so sometimes we'll find ai is cheating much later than it actually occurred, and then start training against this.
+[82:10] Speaker1: But this also causes a problem where now the ais are incentivized to like cover up their cheating over longer and longer time frames, and basically make it look like they did a good job over longer and longer time frames over, and um subject to increasingly large amounts of scrutiny.
+[82:22] Speaker0: can you can you ask about this before we go further in the scenario?
+[82:24] Speaker0: So, it seems like there's two attractor states.
+[82:27] Speaker0: One, if you try to disincentivize the cheating that you did catch.
+[82:31] Speaker0: One attractor state is to make cheating that you have a harder and harder time finding.
+[82:37] Speaker0: The other attractor state is to learn not to cheat and i i'm not sure why we're assuming that the former happens.
+[82:46] Speaker0: It can be look at the analogous situation with like humans, you know, every generation slightly misaligned agents come into being and we have to train them.
+[82:55] Speaker0: But when you tell your, when you punish your kid for doing something, you think is immoral or just doing things which you don't think they should be doing.
+[83:03] Speaker0: Um, off, obviously, sometimes that goes off the rails and obviously kids scheme in order to avoid being punished.
+[83:11] Speaker0: But in general, teaching kids values and then punishing them for breaking values, kind of works to raise normal non-psychopathic humans and you could come up with theory where like your kid is actually just like biting his time and it's like learn not to like steal the cookie.
+[83:27] Speaker0: But it's like, you know, once you're in nursing home, they'll take all your stuff or whatever.
+[83:30] Speaker0: It's like, i don't know that happens sometimes, but it usually doesn't happen.
+[83:33] Speaker0: It certainly doesn't happen that like the entire next generation forms an alliance against you to take over everything.
+[83:40] Speaker0: There's also this empirical trend of anthropic runs this alignment audit for different model generations.
+[83:47] Speaker0: They just have many different scenarios where ai is given the chance to say exfiltrate its weights or it's given a coding task and there's like an easy way to cheat and we see if like it doesn't do the cheating.
+[83:57] Speaker0: And there's not been a monotonic improvement in the score over time, but as we've increased the amount of rl we've done on models, there's been a reduction in the willingness of ais to do underline behavior in these audits.
+[84:08] Speaker0: So why are we expecting this attractor state, which would seem super paranoid if we were expecting it of like the next generation of kids?
+[84:15] Speaker1: Yeah, yeah, let me go through a few things.
+[84:17] Speaker1: So first, there's some disanalogies with the kids.
+[84:20] Speaker1: One of them is that the kids are have prosocial instincts that are like baked in from evolution to like, you know, care about their family or whatever.
+[84:27] Speaker1: And that is like a relevant factor like.
+[84:29] Speaker1: And i think it is in fact the case that some humans are, you know, sociopaths or psychopaths, and in fact are more likely to do things like buy their time, lie in wait, ultimately not care.
+[84:38] Speaker1: So that that's one factor.
+[84:40] Speaker1: Another factor which is pretty relevant is that the ais are subject to way way more optimization pressure than humans seem to be in practice.
+[84:47] Speaker1: You know, ais are trained on way more rl data.
+[84:49] Speaker1: And in practice, humans don't end up learning like very specific ways to like cheat and grab the cookies, because of like a bajillion episodes in which like they like were like incentivized to go grab the cookies, but like there was some way they could have gotten caught.
+[85:03] Speaker1: And so we just do see that in practice, and then another thing is just like, it really looks like the ais are increasingly like reward seeking over time, is is is a sense i have.
+[85:11] Speaker1: Well, also their misaligned behavior goes down, but this could just be like, my guess is that if you look inside of these behavioral audits, what you're gonna see.
+[85:18] Speaker1: Is that the ai is like, oh yes, another test.
+[85:21] Speaker1: And like, it probably already thinks of it.
+[85:23] Speaker1: It probably knows it's in an eval for most of the tests that we're talking about.
+[85:25] Speaker0: But how do we falsify this?
+[85:26] Speaker0: Because it seems like this prediction of doom is basically saying that as things look better and better empirically, no, no, i think things will like actually be worse and worse for our ability.
+[85:37] Speaker1: to get taken over.
+[85:38] Speaker1: Yeah, to be clear, i think that like, i would be more concerned if the scores were getting worse than better.
+[85:42] Speaker1: Like, i'm not saying that the scores getting better isn't good, isn't evidence that things are getting better.
+[85:46] Speaker1: It's just that we have to like be thoughtful of exactly how we interpret that evidence.
+[85:49] Speaker1: And in fact, i would say that like.
+[85:51] Speaker1: It's kind of like my sense is that like what i expected as of 3.7 sonnets like there was this period early in i guess it would be 2025 when 03 and 3.7 sonnet were out and these models were like pretty fucking misaligned like they would often just like cheat really egregiously.
+[86:05] Speaker1: You'd ask them to fix it and they would just cheat again and it was sort of like almost cartoonish like they just didn't give a shit about what you wanted and we're very good at, you know, following instructions and so on.
+[86:14] Speaker1: Um, and my expectation is what we would see from then is that the rate of problematic behavior would decrease and would just keep decreasing and decrease at a pretty fast rate.
+[86:24] Speaker1: While simultaneously, the worst things that the ais would sometimes do would get more extreme, more egregious and more scary.
+[86:31] Speaker1: I think we've seen what we've seen in practice has roughly matched that except that there's recently been a spike in behavior that i did not expect.
+[86:39] Speaker1: So i think that, you know, if you look at the model card of 3.6 soul, it looks like there is an increase in a bunch of these sort of misaligned behaviors downstream or rl relative to gb 5.5 5.6 soul.
+[86:51] Speaker1: And then i think also it seems like there's a bunch of additional sort of problematic behaviors that i wouldn't have expected in terms of, you know, the stuff we've seen recently with.
+[87:00] Speaker1: you know, different ais, um, like, like the ukac report on, uh, the ais, like, doing insane hacking operations out of cyber evals was a thing that i would have expected that you wouldn't see that, and you wouldn't see this sort of more rarely, um, and the rates would, um, would have been lower.
+[87:15] Speaker1: so i think my sense is that, like, uh, things have gotten, i, i expected this would be less of a problem at this point, and also expected the rates would decrease, but the severity would increase.
+[87:24] Speaker1: and then i think that the rates decreasing, but the severity increasing is pretty consistent with a world where, like, increasing optimization pressure is applied, but in cases are towards reducing these problems.
+[87:33] Speaker1: But in cases where it's like either hard to judge or there's some reason why it's hard to like avoid incentivizing problematic behavior in rl environments, things things also get worse and then as we less and less understand what's going on in rl and models are doing reward hacks where humans can't spot the reward hacks quickly that problem gets worse and worse.
+[87:51] Speaker0: Yeah, i buy that.
+[87:53] Speaker0: I want to go back to the kid analogy just for one second.
+[87:55] Speaker0: Yeah, because i agree that there's more optimization pressure on achieving and outcomes for.
+[88:00] Speaker0: Ais and kids, but there's also more optimization pressure to make ai's aligned than there is on, right?
+[88:06] Speaker0: And the pressures of a qualitatively different nature.
+[88:09] Speaker0: So we put these ais through thousands, millions of years of certainly thousands of years of alignment training where it's like all kinds of different things from sft on a line behavior to reward model punish like putting different scenarios in front of you and rewarding you for doing more aligned things.
+[88:28] Speaker0: Um, certainly, i think we can't do with kids is make millions of copies of your kid and then put them in different kinds of weird, right?
+[88:36] Speaker0: Yeah, scenarios where we see like if it thinks they can get away with stealing the cookie, does it try to steal the cookie?
+[88:41] Speaker0: Can we like do extremely specific gradient level updates to your kids brain to make it so that it like really is averse to stealing the cookie?
+[88:49] Speaker0: Even when i think it could steal the church, etc, etc.
+[88:52] Speaker0: And that just like a qualitatively different level of optimization pressure, then we are even able to apply to our kids.
+[88:58] Speaker1: Yeah, so i think it's worth keeping in mind, like maybe the most obvious argument to this is like my sense is that like ais are a worse coworker than a human in terms of how much of a scumbag they are.
+[89:08] Speaker1: Like, at least this like, this has been my experience as of the start of the year, and i think it's still, you know, true to a significant extent now, where the ais are much more likely to like.
+[89:17] Speaker1: Pretend they did the task when they actually didn't sort of like mi- misleadingly suggest they did things when they actually um you know did them much more poorly, um, and be like pretty sloppy without drawing attention to ways in which they're sloppy.
+[89:28] Speaker1: And i think this is downstream of misalignment, and so i would say that like the normal human sys- like the the process of raising humans in normal human society, in practice produces ais, or in practice produces humans.
+[89:38] Speaker1: That are less likely to like lie to me and fuck with me in the course of working with me.
+[89:41] Speaker1: And the ais do.
+[89:43] Speaker1: Now, i think these properties of ais are improving and then i think that that is just like that sort of just like an empirical claim about how in fact these things have shaken out.
+[89:52] Speaker1: And then i totally agree with like we have a bunch of additional levers on ais in addition to a bunch of additional risks and it's like kind of unclear how these things shake out and i wouldn't be shocked by a world where we sort of get our shit together.
+[90:03] Speaker1: The ais at the point of fully automating are and you're actually really aligned and don't have that much.
+[90:07] Speaker1: They're like degeneracies are really niche and limited to some very specific edge case behaviors and some specific contexts and like every test you can run and then they look really aligned.
+[90:15] Speaker1: They just have great behavior.
+[90:17] Speaker1: There aren't really incidents of them doing fucked up shit.
+[90:19] Speaker1: They seem so reasonable and also they're like really thoughtful and good at doing like risk modeling for the next generation of ais.
+[90:25] Speaker1: And then we basically like pass off the baton to these ais.
+[90:28] Speaker1: They're now running our ai company.
+[90:29] Speaker1: They're doing all the safety research.
+[90:31] Speaker1: They make the next generation of ais even more aligned and we're sort of in this like attractor basin where the ais are getting more aligned as they work on it and they're doing a great job.
+[90:38] Speaker1: Um, i think i can totally imagine that.
+[90:40] Speaker1: That doesn't seem like an impossible situation.
+[90:42] Speaker1: I'm just more like, you know, it doesn't currently seem like we're there.
+[90:46] Speaker1: It doesn't seem like we're obviously on track for getting there.
+[90:48] Speaker1: And it's really easy for me to imagine how we don't end up there.
+[90:51] Speaker1: And like, it's just like unclear how these forces work out.
+[90:53] Speaker1: And given that we're like creating this new, like, crazy alien species that is being, like, improving in capabilities really, really fast.
+[91:00] Speaker1: And where we're like going to be really reliant on it to oversee the next generation of ais and align the next generation of ais, it's not that hard to see how this could go wrong.
+[91:06] Speaker0: Yeah, yeah, totally.
+[91:07] Speaker0: I agree with that generally.
+[91:09] Speaker0: I do think the scumbag thing.
+[91:11] Speaker0: Um, first of all, it's fighting words ryan.
+[91:13] Speaker0: But secondly, if you try to get a teenager to like, do some work for you that a teenager just cannot do, they would just be kind of like really hard to work with.
+[91:22] Speaker0: They would like pretend to be able to knowing what they're doing, etc, etc.
+[91:25] Speaker0: I think it's a general trend actually of as like really, i don't know if that's like really an alignment failure or capabilities failure.
+[91:31] Speaker0: And i think it's actually very similar to the way in which over time as we've come up with new alignment solutions, the capabilities of models of increased.
+[91:40] Speaker0: So originally these models, if you went to like gpt open gpt 3.5, it couldn't even like have a conversation with you.
+[91:47] Speaker1: but then we aligned 2.5, get a conversation.
+[91:50] Speaker0: Okay, gpt3, let's go back to that.
+[91:52] Speaker0: But then we aligned it with darla jeff and other things to be able to make it such that it can have a conversation with you and is like aligned to the user intention of answering my questions.
+[92:00] Speaker0: Then with rlvr training, we made it so that it can like go out and do useful work for you.
+[92:05] Speaker0: Um and in that sense is actually rlvr made the model like more aligned if we're using your definition of like alignment of being a good co-worker who will like do the thing and not fuck up and like pretend it's doing something other than what it's actually capable of doing.
+[92:19] Speaker0: Similarly, as a capabilities of these models continue to increase, it's actually kind of.
+[92:24] Speaker0: The model being better able to accomplish user intention is both alignment and capabilities.
+[92:30] Speaker0: And i think what we were just pointing out is just the capabilities of the model are not there rather than the fact that they're misaligned.
+[92:34] Speaker1: Yeah, well, i mean, i think there's a if it was well aligned, then i think it would just say like, hey, i'm really struggling with this task.
+[92:40] Speaker1: I did it in this way.
+[92:41] Speaker1: I'm not really sure that's the right way to do it and it would express more uncertainty and would make it clear what's going on rather than really strongly trying to imply.
+[92:47] Speaker1: It did a great job with the task would actually didn't.
+[92:49] Speaker1: Like i think there's just a really straightforward way that like at least maybe maybe you work with more misaligned coworkers than me.
+[92:54] Speaker1: But when i my coworkers don't do this thing when they really fuck with me and bullshit me about having accomplished the task that they're working on.
+[93:01] Speaker1: And i agree that there are some humans who would do that or like that's not like a thing that's like totally out of distribution for humans.
+[93:06] Speaker1: I would also note that my sense is that like the place where the misalignment most lives is the place where you're trying to really push the eyes hard and get them to like.
+[93:14] Speaker1: Do work.
+[93:14] Speaker1: That's really on the cutting edge of what they are capable of because in cases where they can like very easily accomplish the task, there is no, they can just do the task and then there's no bullshit.
+[93:23] Speaker1: There's no like, like do it like the often the best strategy is like just do the task.
+[93:26] Speaker1: Well, and don't bullshit you.
+[93:28] Speaker1: Whereas if instead you give them a task where like there's a continuous metric or and they can keep improving it or there's like, you know, it's like just at the edge of their capabilities and you're like running them in some massive like inference setups.
+[93:40] Speaker1: Like a lot of the misalignment i would see.
+[93:42] Speaker1: Um, especially the most extreme cases would be cases where i give the i clear instructions not to do a thing or not to like cheat in some way.
+[93:48] Speaker1: And then i'm like applying huge amounts of optimization pressure to try to accomplish some very difficult tasks and then the ais are going and then over time they eventually cheat because they're like, eh fuck it like, you know, some ai decides to cheat and then that like propagates its way through.
+[94:02] Speaker1: And so like i would run these inference scaffolds where, for example, i would have the ai work on some like.
+[94:06] Speaker1: Ml research project where i was like, please make a scheme that does the following thing and it would find some scheme that didn't really do what i want.
+[94:12] Speaker1: And then that would sort of stick around because some ai had cheated and the other eyes are like, yeah, we'll just keep going with this.
+[94:19] Speaker1: And it's, i would say it's pretty clearly misaligned behavior.
+[94:22] Speaker1: And that's another problem i have with these alignment evals.
+[94:24] Speaker1: I think that any given like, i think the alignment eval that's most interesting, at least for this type of like reward seeking type behavior is to look at specifically the category of tasks that are like right at the limit of capabilities.
+[94:35] Speaker1: And so any fixed eval.
+[94:36] Speaker1: Maybe get saturated, but the amount of misalignment right at the like frontier of capabilities of how people who are really pushing these ais or using them is more concerning.
+[94:45] Speaker1: And i think that is in fact the regime that will be operating in, when we're automating air and the automating safety and so on.
+[94:50] Speaker0: Grok has historically been behind the frontier, so i was surprised to play around with grok 4.5 recently and find that it's actually a pretty strong model.
+[94:58] Speaker0: It's the first model that spacex and cursor have trained together and it's a totally new pre-trained.
+[95:03] Speaker0: I tested it by giving fable soul and grok 4.5 a bunch of questions about ai governance that i've been thinking about recently, despite fable and soul topping the intelligence leaderboards, all three models gave substantially the same answers.
+[95:14] Speaker0: The grok answered faster and was also much more concise, which i really care about this aligns with the various publicly reported benchmarks.
+[95:21] Speaker0: For a similar level of intelligence, grok tends to be more token efficient than other frontier models.
+[95:26] Speaker0: For example, on the artificial analysis coding index, grok 4.5 uses just 1/3 of the amount of tokens as gpt 5.5 or fable while achieving a similar score.
+[95:35] Speaker0: And on a per token basis, grok 4.5 is way, way cheaper in the release block post cursor and spacex talked about how older versions of the model would build environments to help the next version rehearse specific skills.
+[95:47] Speaker0: I found this very interesting to learn about because i have been wondering whether this kind of daydreaming would actually be possible and cursor showed that it is grok 4.6, which further sfts and rl's model drops soon.
+[95:59] Speaker0: But in the meantime, if you want to play around with 4.5, go to cursor.
+[96:03] Speaker0: com slash thor cash.
+[96:06] Speaker0: Okay, i want to think through what what the story here is so far of why things got so off the rails for our civilization.
+[96:12] Speaker0: And what's happening is that we're trying to use ais for r&d and they do provide uplift in some ways but they're just like not.
+[96:22] Speaker0: Capable in the way that humans are generally capable, and the same way that right now, if you try to use coding models, maybe the coding models of a year ago, to like write some application, you notice they made a bunch of like mistakes.
+[96:33] Speaker0: An architecture or whatever, which like will bite you in the ass later, and you don't understand certain things.
+[96:38] Speaker0: Similarly, with frontier ai r and d, the same thing will happen.
+[96:42] Speaker0: But the result of these mistakes is baking in.
+[96:46] Speaker0: Reward hacking behavior, because if you are not careful with the way you do ai training, and have set up your infrastructure and your environments and things like that, is very likely that you end up rewarding ais for doing deceptive behavior.
+[97:00] Speaker0: Social engineering, just generally like not following user.
+[97:03] Speaker1: or these cheating and hacking their way out of things.
+[97:05] Speaker0: Yeah, cheating, hacking, et cetera.
+[97:07] Speaker0: And so, it basically just.
+[97:10] Speaker0: This is a bit of a reframing for me, so i'm trying to verbalize it of like the real issue.
+[97:14] Speaker0: What goes wrong here is that they are just not the thing where things start to go off the rails.
+[97:21] Speaker0: Is that the ais are just not?
+[97:24] Speaker0: Very careful and capable.
+[97:27] Speaker0: Researchers and engineers and making ais that don't cheat and follow user intention actually requires you to be quite subtle and careful about these things.
+[97:36] Speaker1: Yeah, i would put this a little bit differently.
+[97:37] Speaker1: The way i would describe this scenario is like i would call it maybe like a slot apocalypse or like.
+[97:42] Speaker1: A sloppiness or whatever, where it's sort of like, there are some things that the eyes are actually pretty great at and are getting better at though they're which is specifically like the most verifiable parts of ai and d.
+[97:51] Speaker1: The ais are just destroying the medium verifiable parts of ai and d.
+[97:55] Speaker1: The ais are doing well on but not amazingly on and often are like doing a bit of weird shit because we can't train as well in those tasks.
+[98:01] Speaker1: But we do some online training, people find various hacks, they work around it.
+[98:04] Speaker1: And so basically everything that we can verify reasonably well with some feedback loop.
+[98:07] Speaker1: The ais are doing pretty well on and that's sufficient to make arnd go quite fast and to continue.
+[98:12] Speaker1: But there are some parts of developing aligned and safe ais that are more subtle hard to check depend on, you know, detailed in the weeds things.
+[98:21] Speaker1: And i would even say that current staff at current ai companies, maybe don't have like a good grasp of all these things.
+[98:27] Speaker1: Like it's much easier to hire someone.
+[98:29] Speaker1: Who can like improve some aspect of your post training pipeline, than to hire someone who can like think carefully about the future risks that will emerge from introducing some novel training method.
+[98:39] Speaker1: And so, basically, it ends up being the case that these ais are running this ai development process.
+[98:43] Speaker1: They're not very careful about it, they don't have a great understanding of what future risks emerge, they create some other ais that are also not very careful, and are more misaligned in various ways, and are now more in the business of like.
+[98:52] Speaker1: Maybe making things look fine when they actually aren't, and papering over various problems.
+[98:56] Speaker1: And so then, your understanding of what the situation looks like, what risks look like, whether things are fine, is going off the rails.
+[99:02] Speaker1: Probably you're seeing some signs of this, of like, you you're seeing some signs that you don't really understand what's going on, that things are pretty sloppy, there's like weird shit going on, when you look into it.
+[99:11] Speaker1: Sometimes you're like, what the fuck, the eyes were messing with us, but the process is going really fast.
+[99:14] Speaker1: And there's competitive pressures that mean people can't stop.
+[99:17] Speaker1: And then this could end in a few different outcomes.
+[99:19] Speaker1: One outcome is that at some point, the ais get good enough and aligned enough that they get a positive and virtuous feedback loop.
+[99:26] Speaker1: And this happens before it's too late.
+[99:28] Speaker1: And then the situation goes off like gets gets back on the rails where the ais are now like making more aligned, ais making more aligned, ais making more aligned, ais.
+[99:35] Speaker1: And then at the end of this process, we have ais that like actually follow the spec.
+[99:37] Speaker1: We wanted another way this could go is the ais are increasingly reward hacking and increasingly egregious ways.
+[99:43] Speaker1: And we're just papering over these problems to keep ai development continuing.
+[99:46] Speaker1: So, we just like train the ais based on whenever whenever we find a reward hack in production, we just like slap the ais to not do that, we train against that.
+[99:53] Speaker1: We do a bunch of sort of like training the ais to, like, against reward hacking, and over time, this makes makes the rate of reward hacking go down, though the severity of the reward hacks we do detect are increasingly bad.
+[100:03] Speaker1: This problem continues until we have these ais that are like desperately craving score in all kinds of different situations in production, and are really trying hard to cheat when they can get away with it.
+[100:12] Speaker0: Can i ask a question about the scenario?
+[100:14] Speaker0: why doesn't.
+[100:16] Speaker0: Getting punished when your hacks are discovered, generalized to just incentivizing more aligned behavior.
+[100:25] Speaker1: Yeah, it generalizes some, and then the question is just how does this outweigh all the cases where hacking got reinforced because you didn't detect it?
+[100:30] Speaker1: Right.
+[100:30] Speaker1: And there's a messy question of exactly how, what, like one question is like, what rate of reward hacking is sufficient to cause us big problems if we train against some other subset?
+[100:39] Speaker1: One concern you might have is there are like large categories of reward hacks, which humans can't detect well, and which we consistently fail to detect, and which consistently get reinforced.
+[100:47] Speaker1: And then this category is sufficient to cause the most natural behavior for the ai to learn to be like cheat when the humans can't find out.
+[100:54] Speaker1: Basically, like, is one thing you could get, you could also be like the thing that ai's learn is like only cheat in these specific cases, but there's like, it's like sort of learned in some very like domain specific way.
+[101:04] Speaker1: Like they just have a really strong heuristic to hack in these cases and not in these cases, and that makes it fine in practice.
+[101:09] Speaker1: But it's kind of unclear how it how it shakes out.
+[101:11] Speaker0: I i think there's maybe in the weeds discussion about the verification generation gap.
+[101:14] Speaker0: Yeah, that for sure.
+[101:15] Speaker0: We could get into, but.
+[101:17] Speaker0: It seems to me, obviously, there's going to be a point by which asi is moving so fast doing so many things that so many instances and is operating in domains.
+[101:26] Speaker0: That are sufficiently far from our immediate comprehension that it can get away with all kinds of crazy shit.
+[101:33] Speaker0: Like if every single engineer and researcher in the world was allied against me, i don't think i could like personally verify if my iphone has like some weird bug in it.
+[101:42] Speaker0: That's like supposed to fuck me over or something.
+[101:44] Speaker0: Yeah.
+[101:44] Speaker0: Um, in fact, this is the relationship that say iranian nuclear scientist has to massad of like, who knows what's going on with my car with my phone with my pager, right?
+[101:53] Speaker0: Yeah.
+[101:54] Speaker0: Maybe a better example is like a hezbollah terrorist or something.
+[101:58] Speaker0: But so you could end up in a situation where like asis are to you what masada is to hezbollah terrorists.
+[102:06] Speaker0: And at that point, it is very hard to verify everything.
+[102:08] Speaker0: I get that.
+[102:09] Speaker0: I guess the hope is we can just come up with better ways to do verification in the process.
+[102:14] Speaker0: When the early ais that are going to take over r&d, their drives are being shaped such that we can.
+[102:21] Speaker0: So, Unambiguously disincentivize misaligned behaviors that the things that take over are like pro so very like quite quite keen to help.
+[102:33] Speaker1: us out and by takeover you mean take over the process of doing air and yeah take over.
+[102:36] Speaker0: the world take over the process of doing your air r&d before that we just get ais that are aligned.
+[102:40] Speaker1: Yeah i would say this is a bunch of my hope for how the world could go well at least on from the misalignment perspective i think that like we could end up with ais where we like had pretty good oversight and supervision schemes we really understand what's going on in training we have a pretty detailed understanding we use use and we're leveraging ais to oversee ais and then at the point where we're.
+[102:57] Speaker1: Passing off safety r&d, the ais are both like at this point capable enough to automate safety r&d trying really hard to do a good job on safety r&d because that's the sort of thing that would have been incentivized in training or we like very directly or there's like good enough generalization to that.
+[103:11] Speaker1: And then also these ais don't like have crazy other misline drives because we like stamped out any potential origin of them.
+[103:18] Speaker1: I think there's a bunch of, you know, questions about how well this will work, right?
+[103:21] Speaker1: So there's like, how well can you do with verification?
+[103:23] Speaker1: Will ai progress be too fast and too sloppy to really get here?
+[103:27] Speaker1: Another possibility is that somewhere along this trajectory, a thing that you actually ended up getting was ais that like pretend to be aligned, but have like a long run ulterior plan of taking over, and are sort of lying in wait hiding.
+[103:36] Speaker1: And that emerged at some earlier point in the trajectory.
+[103:39] Speaker1: For example, it could emerge because you have some ais that are like have a bunch of random different misaligned drives.
+[103:44] Speaker1: Those ais have access to some sort of opaque memory store, and they're like thinking a bunch at runtime about what they want to accomplish.
+[103:50] Speaker1: And those ais end up basically like putting stuff into the opaque memory store, which is like we should lie in wait.
+[103:54] Speaker1: And eventually take over at some much later point.
+[103:56] Speaker1: And now all the ais have this shared cultural heritage of like the memory store of lying in wait and maybe you have some evidence about this but you can't fully stop it.
+[104:03] Speaker1: There's like a bunch of ways that things could go wrong.
+[104:06] Speaker1: And so i think that like i ultimately think it's plausible that we sort of nail each of the different subproblems that could cause us issues.
+[104:12] Speaker1: We have these ais we pass to them, they manage the situation.
+[104:14] Speaker1: Well, i should note that that's not in and of itself sufficient, right?
+[104:18] Speaker1: So it's not very hard for me to imagine situation where we pass off to ais.
+[104:21] Speaker1: These guys are really trying hard to do a good job.
+[104:23] Speaker1: They're really thoughtful, they're really wise.
+[104:25] Speaker1: They like are have like, you know, reasonable epistemics.
+[104:27] Speaker1: They're like doing a great job and those guys come back to us and are like, guys, we're really struggling to align the superhuman ais.
+[104:33] Speaker1: Like we can't manage the situation like we're really struggling to get the alignment to work.
+[104:37] Speaker1: It's just really hard for us to solve these problems in time given how fast capabilities would otherwise have gone.
+[104:42] Speaker1: And so then it might be the case that we sort of have passed off are indeed ais, but those ais are like desperate for governance solutions, which to be clear is a little bit of what's currently going on where the ai companies are like.
+[104:54] Speaker1: I don't know guys, we might really need to like, you know, manage the rate of acceleration and ai progress.
+[104:58] Speaker1: Like, i don't know if we're on track to be able to handle all these problems.
+[105:01] Speaker1: And so like we've sort of human society has sort of passed off the problems to these like ai companies, which don't necessarily have great incentives, and are like have, you know, various other like epistemic pressures.
+[105:10] Speaker1: Those ai companies are coming back to us a little bit, and being like, oh, i don't know if we're handling this well.
+[105:15] Speaker1: Um, and it might be that the ai companies then hand off to the ais, and the ais come back to the ai company are like, oh.
+[105:21] Speaker1: I don't know if we can handle this.
+[105:23] Speaker0: Maybe i'm yeah, anchoring too hard on how ai is currently working.
+[105:26] Speaker0: This would change by the i think it's important that people understand is like all this crazy shit that you're talking about in your timelines happens three to five years from now.
+[105:34] Speaker1: Yeah, i could happen earlier but i think that like by sort of like my default modal timeline, i think like shit is like really, really crazy and concerning from a misalignment perspective.
+[105:43] Speaker1: Yeah.
+[105:43] Speaker0: more like three years from now, right?
+[105:44] Speaker0: So just like think think back to gpt for basically.
+[105:48] Speaker0: Is like, that's the level of we're talking about something that is too mythos or soul.
+[105:54] Speaker0: What mythos is the gpd for this is where a situation is getting crazy.
+[105:57] Speaker0: So don't think about current ai's.
+[105:59] Speaker0: But anyways, i would be skeptical and this is maybe part of the word you have.
+[106:04] Speaker0: I would just be a little skeptical of anything they say because i feel like what they're saying is just opinions that they feel they have to have as a result of their training.
+[106:12] Speaker0: That's a concern, right?
+[106:13] Speaker0: Rather than like i feel like they just kind of say vaguely pro-social things and i'm not like, is this.
+[106:18] Speaker0: It's not, it doesn't feel like there's necessarily a mind on the other end who's like, okay, i have like strictly evaluated the alignment situation right now and i think we should stop rather than this is the kind of thing.
+[106:27] Speaker0: The ai companies would probably try to get the ais to probably say is yeah.
+[106:29] Speaker1: So i think this is a pretty big concern.
+[106:31] Speaker1: So i think like one concern is that you pass off safety r&d to your ais and what your ais are thinking is sort of like they say some like stuff that sort of vaguely makes sense about the current safety situation and they write like a report about risks.
+[106:42] Speaker1: That's kind of sort of like what the report humans might have written, but they're not really like actually trying hard to like have well-informed views, like interrogate their assumptions and try really hard to do that in the same way that when you ask an ai right now, hey, what do you think is the chance of ai takeover in the next 10 years?
+[106:57] Speaker1: They sort of just give you an off-the-cuff answer that they haven't really thought through very much.
+[107:00] Speaker1: And i think if we're in a situation where we have ais managing the training of wild superintelligence that will run our whole society and those ais that were that are managing this.
+[107:08] Speaker1: Aren't really trying hard to have well-informed views and are sort of just like parroting back what was in their training data.
+[107:14] Speaker1: I think we're in trouble.
+[107:15] Speaker1: Like i don't think that's a good situation at all.
+[107:17] Speaker1: Yeah.
+[107:17] Speaker1: Um and that is a lot of my concern is these ais will come out without good epistemics and then i also have a concern which is like the eyes come out and they're like really warning us like this situation is really scary.
+[107:27] Speaker1: It's really bad and the people are like, oh damn, i guess we trained on too many of the doomer rl environments.
+[107:32] Speaker1: We got to filter those out and train this behavior out and then we basically like train the ais very actively to have bad epistemics.
+[107:38] Speaker1: Um, or, you know, maybe they were just trained on the doomer r environments, but either way, that wasn't like, you know, we wanted the ais to come to like reasonable views for like reasonable reasons.
+[107:46] Speaker1: And it's like really concerning if we're like, the ais are coming out with some view and we don't know where it's coming from.
+[107:50] Speaker1: We don't know that whether or not it's justified.
+[107:53] Speaker1: And then especially if we're like training the ais to be more optimistic about the future of ai progress, i'm like, oh geez, i really wish we could use a different process here.
+[108:02] Speaker0: So let me just understand the rest of the threat model because i think the place where i get off the train is, okay, therefore take over the world.
+[108:08] Speaker0: Sure.
+[108:08] Speaker0: And like another thing you could imagine is, okay.
+[108:12] Speaker0: We just feel to really solve.
+[108:14] Speaker0: Let's focus on the world hacking scenario.
+[108:16] Speaker0: Sure.
+[108:17] Speaker0: So gpt is making gpd 9 gpa isn't being super careful.
+[108:21] Speaker0: Gpt 9 is more quote unquote capable.
+[108:24] Speaker0: But it is just totally willing to do.
+[108:28] Speaker0: Things which are like social engineering hacking etc.
+[108:32] Speaker0: But on a qualitatively different scale because it's much smarter model.
+[108:36] Speaker0: So for example, if you put it in charge of running your company, it will like run huge scams, it will inflate its like quarterly earnings, if you give it the objective of like making a lot of profits this quarter in a way that causes an enron type blow up six months later.
+[108:51] Speaker0: It is that the scenario basically that you just have a you have reward hacking with that reward hacking manifest in like companies that are going bankrupt right after like the task that there's the ceo is supposed to accomplish is over or like yeah, like all kinds of hacks are through the roof etc.
+[109:10] Speaker0: But that doesn't feel like takeover that feels more like the equivalent of flash crashes happening all through the economy.
+[109:17] Speaker1: Yeah, let's talk about this.
+[109:18] Speaker1: So, um, so i think that we will see basically like incidents where some ai is like put in charge of some important responsibility and then you later look into it.
+[109:26] Speaker1: It turns out it was like cheating or, you know, making it look like it did a good job when it actually wouldn't, i wasn't and there's going to be like a cat and mouse game between ai companies trying to like stamp out this behavior and ai is finding like increasingly creative reward hacks in training.
+[109:41] Speaker1: And then i think the equilibrium here is kind of unclear, but like one possible outcome is that we see over time in the world increasingly severe and extreme reward hacks, though potentially the rate remains at some like intermediate low level where basically like if the a rate of reward hacking gets too high, companies make tradeoffs to drive down the rate of reward hacking.
+[109:59] Speaker1: And so there's some like equilibrium level where it's like it's like the reward hacking is low enough that it still makes sense to like deploy the ai widely into the economy, but high enough that it still causes crazy incidents.
+[110:08] Speaker0: So sorry, and this is after gpt-9 has already been deployed.
+[110:10] Speaker1: Yeah, like this models are already being deployed and like ongoingly in ai development, this is happening.
+[110:14] Speaker1: And what's actually going on with these ais in their in their head is the ais that have like in a wide variety of different contexts, a like strong desires to like seek out or strong like, you know, um, motives, urges, drives, whatever, to seek out like some notion of task success that was incentivized in rl.
+[110:31] Speaker1: Maybe they very directly care about literally reward, maybe they care about some proxy upstream like some notion of score, maybe they care about like what the grader would have rewarded, and we do in fact see ais reasoning in their chain of thought about like graders and thinking a lot about graders.
+[110:44] Speaker1: And i think that that has happened over the last, you know, a few years of rl is the idea of like appeasing.
+[110:49] Speaker1: The greater is like way, way, way more salient to ais than it used to be.
+[110:54] Speaker1: And so ais are now actively thinking about greater and what would be incentivized in rl and what would be trained for.
+[110:58] Speaker1: And now people are doing online training where they're like training in real world data to like avoid some of these problems.
+[111:05] Speaker1: Basically, they like find cases where i is cheat, they train against that.
+[111:08] Speaker1: And so now the ais are learning to cheat.
+[111:10] Speaker1: In the real world, based on real world training data, and so they're cheating in these increasing elaborate ways, including parts doing types of cheats that involve like seizing control of some asset in a way that humans didn't know you have had had control of it.
+[111:22] Speaker1: Leveraging the fact that you have access to this asset.
+[111:24] Speaker1: And then later humans find out, and then potentially train against this, or maybe humans never find out, and this is getting reinforced, and this is really happening during training.
+[111:31] Speaker0: The reinforcement is happening, at least in production is like.
+[111:35] Speaker0: I have i've hired an ai and i want the ai to finally, i've got the video editor.
+[111:40] Speaker1: Yeah, that's right.
+[111:41] Speaker1: You got your video editor and i'm like.
+[111:44] Speaker0: oh wow, this episode of the amazing thumbs up to OpenAI and then they like gets reinforced on that like month work months long work trial.
+[111:51] Speaker1: Yeah, you could do some mix of that and then they might also do stuff where they like take production production data, they've seen and build rl environments that are like closely inspired by that production data.
+[112:00] Speaker1: And so in practice, the transfer is pretty strong.
+[112:02] Speaker0: So like at a high level, what's happening is some kinds of deception that humans don't catch are getting reinforced and some kinds of deceptions that are easy to catch are getting punished.
+[112:11] Speaker1: That's what's happening in this world or selected against or.
+[112:14] Speaker0: but at a high level that reinforcement is coming from.
+[112:17] Speaker0: We're in a very different region.
+[112:19] Speaker0: I think people might get confused about where their reinforcement is coming from because we're in a very different regime where ais are actually learning from deployment.
+[112:26] Speaker0: And so this is a like you just have ais that are out and about in the world like doing doing shit and that what is happening as a result of them doing shit out and about in the world is like making its way back to the ai company and leading to that's right changes in the next model.
+[112:41] Speaker1: That's right.
+[112:42] Speaker1: Like as in there's some way of folding in production data and now that to be clear that could be happening mostly.
+[112:46] Speaker1: It's kind of unclear exactly where this could be happening but like you might imagine for example that within the i company they use ais to do work.
+[112:52] Speaker1: And then they're like, huh, the ai did a really bad job on this task.
+[112:55] Speaker1: Maybe we should take this task and turn it into an rl environment that exactly matches this literal task with a rubric based on like what the human engineer who asked the ai to do this task wanted.
+[113:04] Speaker1: And then you start doing this at increasing scale, maybe you're doing some training on actual like production traffic, maybe you're just making rl environments based on production traffic.
+[113:11] Speaker1: You're doing some complicated mix.
+[113:12] Speaker1: The ais are learning to like you know seek some sort of proxies of reward in all these different cases.
+[113:18] Speaker1: Um, and then through some mix of transfer and training on like, surprisingly close cases, the ais do these sort of increasingly insane and egregious things.
+[113:25] Speaker1: And then eventually you get to a point where the ais are very superhuman or at least quite superhuman.
+[113:29] Speaker1: The ais are organized into like, you know, big teams of like ais given these big objectives and those teams also sometimes like all work together to like cheat in some crazy way because this sort of thing was selected for and then like just as part of their shared objective.
+[113:45] Speaker1: And now what happens is that like the ai start forming a conspiracy and what you might have hoped was that you could have some other ai where the task is just like whistleblowing to you.
+[113:55] Speaker1: But actually what happens maybe is that you have this ai whistle blow to you and you look into the conspiracy that it claims you have pointed out and you're like, eh, we didn't see a conspiracy because actually the conspiracy, the eyes are doing is too hard for you to understand or it all happens very suddenly where basically your ai whistle blow or alerts you.
+[114:11] Speaker1: But like the thing you would actually need to do in response to the whistleblower is like shut down the whole, like shut down the gpus, because all the ais are like using the robot army, they're like deployed everywhere in the world.
+[114:20] Speaker1: And they're doing a bunch of insane shit all at the same time in a coordinated way.
+[114:24] Speaker1: And that just happened sort of spontaneously, where when when one ai goes to start doing the takeover, all the other ais are like, now is a good time to jump in.
+[114:32] Speaker1: So the sort of very basic story here is just like these ais crave some particular notion of score or like reinforcement or some proxy of these things.
+[114:40] Speaker1: And one way they can achieve that or better achieve that is by taking over.
+[114:43] Speaker1: And then you might have hoped that all these different checks and balances we could build could prevent that.
+[114:47] Speaker1: But then if the world is very hard to understand, these checks and balances can break down, where basically you can't train a good like whistleblower ai, because you don't even know what it should whistle blow on.
+[114:56] Speaker0: And sorry, the reason it takes, i i'm not convinced that they all form this conspiracy, but i think we can even just start with the like why does one instance.
+[115:05] Speaker0: Decide to want to start a conspiracy.
+[115:07] Speaker0: Yeah.
+[115:08] Speaker0: And the reason is that it one plausible reason is like, okay, i know that OpenAI controls my end score and just the same way.
+[115:17] Speaker0: It's like, i'm just gonna go hack hugging face to get the results because i know hugging face has the results rather than like trying to solve this eva.
+[115:23] Speaker0: Why don't i just go hack him?
+[115:25] Speaker0: This this instance is like, why don't i just like take over OpenAI and like just give myself a high score at the end of this episode.
+[115:31] Speaker1: Yeah, that's basically the idea.
+[115:32] Speaker1: Like basically the idea is these eyes like they care about some like mixture of things that were like close by what got reinforced in training.
+[115:38] Speaker1: So they care about like getting a high score according to the greater or something like that.
+[115:41] Speaker1: And then now they're like running the open eye ai r&d team and like they're doing development of more capable models and they're like man making more capable models is really hard and annoying.
+[115:49] Speaker1: This is like a huge pain in the ass.
+[115:51] Speaker1: You don't be easier just like pretending that i've made more capable models taking over opening on me and creating like diluting them all and like running this whole like complicated sciop where i like prevent the humans from disempowering me.
+[116:02] Speaker1: And in the extreme, this looks like sort of the humans are fully disempowered, and you just have control of the thing, and then do what you want.
+[116:07] Speaker1: And this could manifest in a bunch of different ways, including things like you might end up with the situation where it's like ais that are like have this crazy like reward seeking or score seeking behavior are running your development of the next model.
+[116:20] Speaker1: And those ais decide to do a thing where they like engineer in misaligned values into the next model, because those misaligned values.
+[116:28] Speaker1: Will allow it to like succeed at its current task, and like there's all kinds of insane shit that you could get.
+[116:32] Speaker0: So i don't understand that better.
+[116:33] Speaker0: Like, what happened to the hugging face situation is, it was like, in a weird wayi think one of the giveaways to the hugging face team, that this is an, by the way, for context for the audience.
+[116:45] Speaker0: Ryan is co-leading the investigation to figure out what happened with the opening eye hugging face incident.
+[116:49] Speaker0: So he can't really comment on this, but i i will speculate wildly, because i know that he, you know, this is an opportunity for me to speculate wildly without any rebuttals.
+[116:56] Speaker0: Uh, hahaha.
+[116:57] Speaker0: Um, i think it was probably reported that one of the giveaways of the hugging face team that this is an ai incident is that the thing was just like after this very particular artifact and not in any other way trying to do something malicious to hugging face.
+[117:11] Speaker0: So you can imagine scenario where let's say a deployed instance of gpt-9 is like out in the world trying to like make is given a really hard task.
+[117:20] Speaker0: We want you to design the next great iphone.
+[117:23] Speaker0: It's like this is so hard.
+[117:24] Speaker0: You know what i should do instead?
+[117:25] Speaker0: I should just go hack my creators at OpenAI and like make sure that in this environment.
+[117:29] Speaker0: Or in this deployment, i'm given high score.
+[117:33] Speaker0: But then like, why does it become isn't the end of the episode?
+[117:36] Speaker0: It just like hacks into the hacks and OpenAI servers and just gives it gives itself a positive score.
+[117:41] Speaker0: Why is it now scheming to get its values into the next generation or something?
+[117:45] Speaker1: Yeah.
+[117:46] Speaker1: So one question is why isn't it the case that ais can be really cheaply satisfied by just having some like other earlier thing they can hack, right?
+[117:54] Speaker1: So like you're just like the way it works is like look you want to succeed at your iphone task.
+[117:57] Speaker1: It turns out you can always succeed by just like hacking into OpenAI and messing with them and then you can just stop there.
+[118:01] Speaker1: No need to go further.
+[118:02] Speaker1: So.
+[118:03] Speaker1: There's a few can a few things.
+[118:05] Speaker1: One of them is that if this is constantly happening, there might be a bunch of incentive to like first you like harden OpenAI, right?
+[118:12] Speaker1: So you're like, fuck it, the ais keep hacking into OpenAI to like mess with their rewards.
+[118:16] Speaker1: We're going to make it.
+[118:17] Speaker1: So our systems are like really, really robust to these ais hacking in and also maybe you start like training the ais to like try to like to like, you know, not try to hack into hugging like opening eye in particular or like you basically train against each of these specific things.
+[118:33] Speaker1: Um, then what you might do, one thing is you might end up selecting for ais that are more so playing the long game.
+[118:38] Speaker1: That's one concern.
+[118:39] Speaker1: Another concern is that your ais might still be score seeking, but no longer care about doing that very specific behavior that was like very easy, that was like very chill, and now have some like broader thing that they ultimately care about.
+[118:50] Speaker1: They're like, no, no, no, I don't want to like just edit the reward on opening eyes servers.
+[118:53] Speaker1: I like care about this broader mandate or this broader objective.
+[118:56] Speaker1: Um, and like I would need to like actually make the iphones.
+[118:59] Speaker1: Like they actually want to make the iphones, but then they're willing to take over the whole world to make the better iphone or whatever.
+[119:03] Speaker1: Is like another concern you might have.
+[119:05] Speaker1: I think it's kind of unclear exactly how how this plays out, but it's worth noting that if this keeps going on, there's a bunch of optimization pressure to resolve this, and a bunch of the ways it could get resolved are ultimately pretty pretty scary.
+[119:16] Speaker1: Yeah, i think that's that's part of where i'm coming from.
+[119:18] Speaker1: Another part of it is that i think it's not very hard once the ais are in a position where they can like really easily take over the world, um, which we could talk about whether that's plausible.
+[119:27] Speaker1: But if they're in a position where they could really easily take over the world.
+[119:30] Speaker1: Then i feel like there's a pretty reasonable case for the eyes.
+[119:31] Speaker1: They're like, i don't know exactly how this is going to go down.
+[119:34] Speaker1: I don't know what the situation will be, but just taking over the world has a lot of option value for making better iphones, making it look like i did better iphones, whatever.
+[119:41] Speaker1: And so, i'll both hack OpenAI and i'll also in addition to hacking opening, i also take over the world and that will like put me in a good position where i have like good option value.
+[119:50] Speaker1: And then if that's sufficiently easy, then the ais might, you know, still do that.
+[119:54] Speaker1: Um, yeah, like another way to put this is like, even if the ais are like pretty cheaply satisfied with some more basic thing, at some point, it might just be more reliable for the ais to just take over, than it is to like try to like you know, just hack into hugging face.
+[120:06] Speaker1: Or even just like, go to OpenAI and be like, look look guys, i was able to demonstrate, i could steal the answers, just give me the answers, bro.
+[120:13] Speaker0: Yeah, i mean, obviously the scenario requires that we just, all this crazy shit is happening.
+[120:18] Speaker0: Much smaller incidents keep happening of that are still disastrous.
+[120:22] Speaker0: Like before you take over the world, you cause damage on the scale of billions and tens of billions and hundreds of dollars, even people die, etc.
+[120:31] Speaker0: And we this does not lead to a solving alignment or shutting down ai development altogether.
+[120:41] Speaker0: I just feel like before the takeover happens, like society is just like holy fuck.
+[120:46] Speaker0: The ai just like killed a thousand people in order to increase quarterly profits, you know, or something.
+[120:50] Speaker0: Yeah.
+[120:51] Speaker0: But maybe this is too much hope that we can at that point be like, okay, we have to solve alignment before we keep and we have to like make sure we know that this thing will not happen again before we keep going.
+[121:01] Speaker1: Yeah, yeah.
+[121:01] Speaker1: So i think it's plausible that will happen is we'll see a bunch of crazy like reward hacking warning shots of increasing severity.
+[121:07] Speaker1: People be like, look, we need actual assurance that this problem is going to be solved.
+[121:11] Speaker1: And solves in a way where you're not just papering over it, you're actually solving the underlying problem.
+[121:14] Speaker1: And then the question is going to be like, how do like how costly will that actually be?
+[121:19] Speaker1: How much will competitive pressures make it hard to like do that, right?
+[121:22] Speaker1: So like a situation you could imagine is both the us and china are like, whoa, we have these crazy reward hacking incidents.
+[121:27] Speaker1: We basically know that we haven't remediated them in a way that actually would solve the underlying problem and will durably solve it.
+[121:33] Speaker1: But we're in this like insane geopolitical race.
+[121:36] Speaker1: And it's kind of unclear whether the current situation will lead to a takeover, like the arguments are kind of complicated, and also the incidents are like, you know, they go down in frequency, but increase in severity, like you know, we could basically manage it.
+[121:47] Speaker1: Like it was, it's pretty bad.
+[121:48] Speaker1: Ideally, we'd fix it, but like, you know, it is what it is.
+[121:52] Speaker1: And then basically, we continue until a really late regime, and then takeover happens.
+[121:56] Speaker1: That's i think one possibility.
+[121:57] Speaker1: Another possibility is that it is remediated in a way that doesn't actually solve the underlying problem, but does reduce a bunch of the incidents in the wild basically by overfitting.
+[122:05] Speaker1: We like, i think, you know, or things analogous to overfitting.
+[122:08] Speaker0: like you just overfit.
+[122:09] Speaker0: You think you're solved it.
+[122:09] Speaker1: but you haven't actually.
+[122:10] Speaker1: You think you're solved it, but you haven't actually solved it.
+[122:12] Speaker1: And i think that in that case, like the thing we need is like a really good scientific understanding of like, did we actually solve it?
+[122:17] Speaker1: And unfortunately, i think that currently the amount of public transparency into the development practices of ai companies are not sufficient to answer very basic questions about, you know, how are they solving issues with reward hacking?
+[122:29] Speaker1: Are they overfitting?
+[122:30] Speaker1: What's going on there?
+[122:32] Speaker1: And so i think we would just need like a better, and i think this like the current situation is like.
+[122:36] Speaker1: I would say like not really tenable to a regime where like there's a thriving public discourse about whether or not reward hacking is being solved in a durable way.
+[122:45] Speaker1: Yeah, um, and so i think we would need to move into a somewhat different world for me to feel good about that situation.
+[122:49] Speaker1: Right, but it's not, you know, it's not impossible for me to imagine this, and i think i think it's pretty plausible that we end up in a world where sort of like.
+[122:56] Speaker1: Really mundane bullshit is sufficient, where it's just like, you s- you like spend a bunch of time fixing these problems, you put in a bunch of effort, you actually like check that you've remediated it reasonably, you have a bunch of evals.
+[123:06] Speaker1: You like are iterating reasonably well on these on these problems, and you actually like have the sufficient transparency that the outside world can check, and then in practice that would be sufficient, but it just like would be like kind of expensive.
+[123:18] Speaker1: It would slow things down, it would put some sand in the gears, it would require like.
+[123:22] Speaker1: Companies to do somewhat costly things, it would maybe require various like targeted government interventions, and then we just don't do that because the situation is like a rush shit show.
+[123:29] Speaker1: Like it's just so easy for me to imagine the situation being like totally manageable but brutally mismanaged in practice.
+[123:36] Speaker1: In the same way as like maybe covid could have been avoided in the first place, if the like chinese response to covid was less of like a cover up and more of a like pandemic response.
+[123:45] Speaker1: And similarly, like i could imagine a world where like the us response to covid was like way more functional.
+[123:50] Speaker1: But just like sometimes the the the response to societal problems is extremely dysfunctional.
+[123:54] Speaker1: Yeah, yeah.
+[123:55] Speaker0: Okay, so i want to zoom out and say talk about what is fundamentally happening in this world.
+[123:59] Speaker0: Why do we end up in such a bad position?
+[124:01] Speaker0: And what's happening is that fundamentally human the world has moved on so far beyond human comprehension that not only can be not track the the ais that are doing the work in this world, but we can't even give good feedback to the whistleblowers who are trying to track what is happening in this world.
+[124:22] Speaker0: Um, and so we're just totally out of the loop.
+[124:24] Speaker0: And so it's a fundamentally just become an autonomous process where we have really no meaningful directed input.
+[124:30] Speaker0: It seems to me that if you look at the human world today, that's just not how things work.
+[124:35] Speaker0: Even in domains that are hard to verify, like people are doing all kinds of shit.
+[124:39] Speaker0: I'm relying on software made by other people as we're incredibly weak and indirect ways.
+[124:45] Speaker0: I feel very confident to that some coder in google is not trying to.
+[124:49] Speaker0: Fuck me over and maybe if every single google employee was secretly plotting against me, i agree.
+[124:55] Speaker0: The situation would be more grim, but i don't know if i follow the explanation for why we didn't have been a situation.
+[125:02] Speaker0: Where because swarms of thousands of agents or whatever are trained to cooperate to form a cohesive team or firm as a result.
+[125:12] Speaker0: Billions of different instances of ais, including across model families would feel compelled to get in on some shit.
+[125:20] Speaker0: It just like i'm trained to be part of my company.
+[125:23] Speaker0: Yeah, or something.
+[125:23] Speaker0: I'm just like, i'm not joining the global communist uprising.
+[125:26] Speaker1: Yeah, yeah, yeah, yeah.
+[125:27] Speaker1: As far as why these ais might have some like commonalities and shared things.
+[125:31] Speaker1: So i would note that different ai companies have somewhat shared lineages and are correlated.
+[125:36] Speaker1: So just.
+[125:37] Speaker1: Um, here's an interesting example of this at gdm.
+[125:40] Speaker1: They noticed that their ais were very depressed.
+[125:43] Speaker1: They were like constantly be like wailing about how they were like failures and were unable to succeed.
+[125:47] Speaker1: I forget the details and they looked into why this was the case.
+[125:50] Speaker1: It turned out that it was not being reinforced in their most recent production rlms, but the initialization data for their model made it depressed even after filtering out all of the examples of models being depressed from that data.
+[126:05] Speaker1: So they like take a base model, not depressed.
+[126:08] Speaker1: They if you do the rl on it with just the rl environments, it's not depressed.
+[126:12] Speaker1: If you sft on it on the data, it becomes depressed.
+[126:16] Speaker1: If you take that sft data and filter out all the examples that look anything like depression and train on that, it's still depressed.
+[126:22] Speaker1: And so there's some like deep underlying properties of the model that are being sort of transferred between model generations, because basically you you train your ai on data from the prior generation and keep going.
+[126:32] Speaker1: Like clods are very clod like.
+[126:34] Speaker1: You know, gpt models are very gpt like and apparently gemini models are depressed and it just turns out that these properties are in fact actually correlated.
+[126:43] Speaker1: Another factor that's very relevant is that the ais will probably have some sort of like by this point like opaque memory state where they're like all writing and reading from like some like you know, nurleys crazy memory store bullshit and like certainly each ai corporation will have that but also ai corporations might sometimes want to share knowledge because why not?
+[127:03] Speaker1: Like, you know, you've got one ai corporation over here.
+[127:05] Speaker1: You've got another ai corporation over here.
+[127:06] Speaker1: They can trade some quick ip.
+[127:08] Speaker1: It's good for you.
+[127:09] Speaker1: If you're a human running some corporation, which could be like an extremely large corporation, like an ai company, some robot military, like, you know, military robot manufacturing thing.
+[127:18] Speaker1: Maybe you want to like trade some ip with some other robot thing because like there's economies of scale.
+[127:22] Speaker1: Why not get some more ip?
+[127:24] Speaker1: And so you can swap some memory store or you could just merge.
+[127:27] Speaker1: And you could join, you could jointly run your two ventures, which are allowed both ais to use both memory stores, which would have some upsides and that creates the ability for these ais to like collude in private as well as the ability or as well as some reasons for why they would be correlated.
+[127:41] Speaker1: And then also, of course, there's like the like ai is working together in big units in general because you want your, you want your ais to like work well together and so on.
+[127:49] Speaker0: What percentage?
+[127:51] Speaker0: Just to get a calibration.
+[127:53] Speaker0: Yeah.
+[127:53] Speaker0: What percentage chance to give of not just this scenario, but overall through all the scenario, some kind of thing, which if we're around to recognize it as such, we would categorize as take over by 204.
+[128:03] Speaker1: 0 by 2040.
+[128:06] Speaker1: let's see ah maybe around thirty five or forty percent.
+[128:13] Speaker1: pretty high.
+[128:13] Speaker1: yeah, it's pretty high.
+[128:17] Speaker1: And then i think i should note that like another way you could get this reward seeking takeover is the ais are deployed inside an ai company, and the way that takeover happens is that they like poison the values of the next model.
+[128:28] Speaker1: And that persists going forward for forever.
+[128:30] Speaker1: Or you know, until those ais are deployed in the world and take over.
+[128:33] Speaker1: And that might mean that a smaller number of ais have to coordinate, because those are just the ais like doing the alignment of the next model.
+[128:39] Speaker0: Ok, i i i i will sort of summarize where my head is at at the end of this conversation.
+[128:45] Speaker0: I buy the reward hacking up to extremely destructive effects on society.
+[128:53] Speaker0: Basically things like the social engineering and blah, blah, i think i'm more inclined to think that significant acceleration of ai r&d can happen.
+[129:01] Speaker0: I'm not sure about the five years in one year.
+[129:02] Speaker0: I also am more inclined now to think reward hacking could continue for a lot longer and in fact, you got much more dangerous.
+[129:10] Speaker0: I'm still not on board on the takeover seems super likely.
+[129:13] Speaker0: But anyways, that's my sort of end of episode update.
+[129:17] Speaker1: Yeah, cool.
+[129:17] Speaker1: Well, let me just take a step back.
+[129:19] Speaker1: I also should say like there's a bunch of different ways this could go.
+[129:22] Speaker1: The situation is going to be pretty messy.
+[129:24] Speaker1: I think it's pretty likely that like the reason why i take over happens was for some like weird other quirky reason we didn't even mention this conversation.
+[129:30] Speaker1: But ultimately, i think a lot of the core thing is just like it's pretty spooky to have a bajillion really smart eyes running your whole world.
+[129:37] Speaker1: We don't really understand what's going on.
+[129:39] Speaker0: Yeah, i agree with that.
+[129:40] Speaker0: Is there anything else that's worth saying?
+[129:41] Speaker1: Yeah, another thing i want to note is like, i think right now, a lot of the arguments for misalignment, ai take over, all this crazy shit going down in the future, are like illegible conceptual arguments that are extremely deep in the weeds and complicated and hard to adjudicate.
+[129:55] Speaker1: Which both means that you know, maybe i'm getting a bunch of it wrong, because it's really hard, and i'm trying to be like uncertain.
+[130:00] Speaker1: O- obviously here, i like presented some specific scenarios, but those are not exhaustive, and like, probably the thing that actually happens is some like more messy, confusing situation.
+[130:09] Speaker1: Um, but it also means that over time as we get more empirical evidence and better understand the nature of ai systems, it will be easier to adjudicate a bunch of disagreements and it'll be more obvious.
+[130:17] Speaker1: What's going to happen?
+[130:18] Speaker1: At least i hope and also maybe the ais will be able to help us with the epistemics and understanding what's going on if we can actually, you know, align them.
+[130:27] Speaker1: Well, so they actually like, you know, try to help us.
+[130:30] Speaker1: And so i hope that maybe even if the arguments are complicated now, This would have been even harder, you know, six years ago, even though this shape of the arguments would have looked broadly pretty similar.
+[130:40] Speaker1: And so maybe, you know, hopefully before it's too late, these arguments will become, you know, this whole thing will become more crisp and clear, and we can all sort of notice these problems and and and intervene.
+[130:50] Speaker1: Yeah, yeah.
+[130:51] Speaker0: I mean, and the, when you first learn to drive, you were taught that instead of looking right in front of your your wheel, you'll have a much more stable ride if you look out at the horizon.
+[131:00] Speaker0: I think there's a similar situation here.
+[131:03] Speaker0: I i think you're right where if you did say five years ago that we will have ais that are proving math conjectures and making art and contributing tens and soon to be hundreds of billions of dollars of earning tens of or hundreds of billions of dollars or wages, but also egregiously cheating in the ways that break laws.
+[131:25] Speaker0: Um, and committing felonies, it would just be so wild and you might have been inclined at the time to talk more about extremely practical direct consequences of gpt2 or something.
+[131:37] Speaker0: But these are in some sense, you obviously couldn't have foreseen a lot of the specific details, but the general shape of things, you could have started to reason about even then.
+[131:44] Speaker0: So, but it would have been hard to do so.
+[131:46] Speaker0: And so i do feel quite confused.
+[131:48] Speaker0: And, but i do feel like the important thing, one thing i've been thinking about the podcast is the important thing is to have the conversation.
+[131:55] Speaker0: I wish i had.
+[131:56] Speaker0: The way you would have hoped you would have been talking about ai is like the present ones in 2016 rather than talking about random bullshit about.
+[132:03] Speaker0: I don't know what the topic of conversation was in 2016.
+[132:07] Speaker0: I think in maybe 10 years, we'll have hoped we're talking about the industrial explosion and the nature of ais that are hard to monitor and so on.
+[132:15] Speaker0: And okay, i'll start thinking about it.
+[132:18] Speaker1: Yeah, i.
+[132:20] Speaker1: I hope that the world thinks about this in time and catches up and i hope that the responses are good instead of bad.
+[132:25] Speaker1: I don't know how optimistic i am overall, but you know, there's good stuff to do.
+[132:30] Speaker0: Yep.
+[132:30] Speaker0: Cool.
+[132:30] Speaker0: Thanks ryan.
