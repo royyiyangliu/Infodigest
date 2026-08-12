@@ -1,0 +1,74 @@
+{
+  "date": "2026-08-13",
+  "generated_at": "2026-08-12T23:35:16.905668+00:00",
+  "stats": {
+    "tweets": 7,
+    "podcasts": 1,
+    "articles": 2
+  },
+  "tweets": [
+    {
+      "author": "Josh Woodward",
+      "handle": "joshwoodward",
+      "summary_zh": "Google Labs 与 Gemini 应用负责人 Josh Woodward 公布了一组 Gemini 用户数据：iOS 端月活已超 **1 亿**，且 macOS 重度用户的提问频率约为其他平台的 **2 倍**。他还强调 Gemini 在 Android 上可跨 **40 多个**热门应用自动执行操作（如叫车、订座），并预告将在 @madebygoogle 发布更多更新。"
+    },
+    {
+      "author": "Boris Cherny",
+      "handle": "bcherny",
+      "summary_zh": "Anthropic Claude Code 创造者 Boris Cherny 指出，大模型仍会产生 bug，但错误性质已变——不再是 off-by-one 之类的低级错误，而是系统设计、UI 可用性、缺失更广上下文等问题；部分编码任务已被解决，但并非全部。他力荐用\"对抗式代码审查\"来捕捉这类 bug，方法可以简单到一句提示词，或直接使用 Claude 内置的 /code-review（支持 low/medium 等档位）。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI Codex 负责人 Thibault Sottiaux 透露 Codex 用户增长已远超预期：此前承诺每新增 100 万活跃用户就重置一次额度、直到 1000 万，如今已突破 1000 万门槛，并预告明天会有\"惊喜\"。他同时宣布 Codex 与 ChatGPT 桌面版正式登陆 Linux，称体验足够好、让还没等到的用户可以取消手头的 MacBook 订单。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品人、创作者 Peter Yang 直言 ChatGPT 桌面应用体验混乱：Chat、Work、Codex 三者的划分以及网页、桌面、移动端之间缺乏一致性，作为 Codex 的支持者他认为团队应做一次清理/质量打磨，甚至可以让 Codex 自己来做。此外他的开源项目 /human-review 已获得 **717 个** GitHub star。"
+    },
+    {
+      "author": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "summary_zh": "Madhu Guru（@realmadhuguru）提出一个逆主流的机会判断：真正的大钱在于把开源权重模型打磨到在\"枯燥、具体\"的业务领域里表现卓越——选定一个\"规模 x 领域\"组合深耕（如中端市场法律、中小零售、企业物流），超大厂虽握有底层能力，却难有领域深度与死磕一件事的意志，这正是创业者的机会。他还回顾 2023 年首次看到大量\"帮我做个 X 应用\"的用户提示词时觉得极其激进，而三年后端到端设计、构建、部署应用已基本成真；并认为在\"造软件已变得廉价\"的当下，分发才是最大的解锁点，兼具社媒能力与技术功底的开发者关系（DevRel）人才极为稀缺可贵。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic Claude Code 团队的 Thariq 宣布，所有 Claude 生成的文本都将嵌入水印，例如可用于检测某个 PR 是否由 Claude Code 生成。此举是配合欧盟《AI 法案》、其他实验室也在采用类似水印；他坦言该技术存在局限，并预告 Anthropic 还将推出可供外部自行调用的文本检测 API。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch 称 AI SDK（@aisdk）增长惊人：每 30 天下载量约 **8050 万次**，增速快于所有 AI 实验室自家的 SDK；他强调其最重要的特质是开放且与厂商无关（provider-agnostic）。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "Lex Fridman Podcast",
+      "title": "#500 – Khabib Nurmagomedov: Dagestan, MMA, UFC, Islam, Conor, Fedor & Football",
+      "date": "2026-08-12 13:11 UTC",
+      "duration": "",
+      "link": "https://podcasts.apple.com/us/podcast/500-khabib-nurmagomedov-dagestan-mma-ufc-islam-conor/id1434243584?i=1000782963648&uo=4",
+      "summary_zh": "Lex Fridman 对话综合格斗传奇 Khabib Nurmagomedov：聊达吉斯坦、UFC、伊斯兰信仰与 29-0 不败战绩。"
+    }
+  ],
+  "articles": [
+    {
+      "source": "Citrini",
+      "title": "Missile Restocking",
+      "date": "2026-08-12 16:32 UTC",
+      "link": "https://www.citriniresearch.com/p/missile-restocking",
+      "chars": 6406,
+      "summary_zh": "Citrini 研究提出\"现代战争（Modern Warfare）\"投资主题，核心观点是全球防务开支仍远低于和平时期常态、更谈不上\"战时状态\"，被市场低估。乌克兰与伊朗两场冲突揭示两大结构性变化：一是昂贵传统军事资产与低成本高效能自主无人机、巡飞弹之间的**不对称性**加剧；二是持续作战要求供应链从和平时期的力量投射转向真正的工业化量产。当前最尖锐的瓶颈在**导弹**领域。\n\n美国在**5**个月内发射的导弹与拦截弹数量，超过自海湾战争（Desert Storm）以来任何一年，且面对俄罗斯、伊朗的先进无人机与弹道导弹，属被动防御性消耗，远超年产能与交付节奏。CSIS 估计爱国者（Patriot）与 THAAD 库存已分别消耗约 **66%** 和 **44%**，且\"无良好替代品\"。白宫已于 **2026年6月11日**援引《国防生产法》第708条发布总统令。**FY2027** 国防预算提案对各类导弹的拨款接近 **5倍**增长。\n\n历史包袱：\"最后的晚餐\"（1993年）后美国主承包商从 **51** 家整合至 **5** 家，形成反竞争寡头、20年成本超支、产能受限的战略风险。如今政府以\"胡萝卜加大棒\"逆转此趋势——既扩产能又引入竞争。投资含义：短期依赖现有主承包商及分包商补库存（制造周期以年计），需附带长期需求信号；Citrini 就此提出四部分框架映射到全球股票。注意：去年欧洲、韩国防务股及纯无人机/高超音速概念股已大涨，美国防务股在 **2月27日**伊朗冲突爆发时反而见顶（buy-the-rumor, sell-the-news），恰在基本面信号转强之际回落。"
+    },
+    {
+      "source": "a16z",
+      "title": "What It Takes to Get Paid",
+      "date": "2026-08-12 14:20 UTC",
+      "link": "https://www.a16z.news/p/what-it-takes-to-get-paid",
+      "chars": 11038,
+      "summary_zh": "a16z 联合 Stuut（一家为 B2B 公司做 AI 催收 agent 的公司，其视角覆盖任一时点数十亿美元应收账款）发布数据报告，剖析 B2B \"已售出但未回款\"的鸿沟，并展示 AI agent 如何重塑催收职能。\n\n市场规模：截至 2025 年底，美国非金融企业手握 **7.2 万亿美元** 贸易应收账款；在典型催收速度下，平均延迟每多 1 天就相当于约 **1500 亿美元** 被占用。Fed 基准利率维持在 **3.5%–3.75%**，等待并非免费。\n\n回款分布极度不均：**10%** 的发票 1 天内付清，**50%** 在 **25 天** 内变现；但从 70% 回款到 90% 回款，要从第 **37 天** 拖到第 **74 天**，最后 10% 更是遥遥无期。行业惯用的 DSO（销售未收回天数）具误导性——DSO 在 40 多天的两家公司，一家最慢 10% 发票当天付清，另一家却拖 **599 天**；样本内 DSO 从 **8.8** 到 **280** 不等，均值无法区分健康与坏账。\n\n集中度是关键：逾期金额中最大 **10%** 的发票占了 **65.7%**（中位区间 55.5%–74.1%），最小 80% 的发票只争夺最后 1/5 的钱——催收是\"搜索问题\"而非\"体力活\"。各金额区间发票均在 **28–34 天** 付清，但最慢 10% 随金额从小额的 **83 天** 拉长到大额的 **119 天**。约 **1/4** 的集中逾期款已超 **90 天** 未动，正是坏账温床。按 4% 资金成本，100 万美元晚到 2 个月约烧掉 **6600 美元**。\n\n催收靠\"问\"：到期的付款承诺仅约 **50%** 兑现，但守诺与违诺的买家此后回款中位数同为 **41 天**，承诺几无信息量。**50%** 逾期发票 2 次催收内结清，**90%** 在 6 次内，均值 3.2 次。大额发票走关系维护——仅 **5.4%** 的 25 万美元以上发票收到催收提醒，小额则达 **16.8%**。\n\nAI agent 落地：**81.7%** 的催收邮件全自动发出，约 10% 由 agent 起草人工审核，仅 **7.5%** 由人从头写；升级、争议、人工电话等判断类工作 **100%** 仍由人处理。新核心指标：每回款 1000 美元发出 **1.35** 次催收（即每 739 美元 1 次），**3/5** 的催收任务全自动完成。投资含义：催收正从人力密集转为 agent 驱动的高杠杆职能，成本坍缩至每美元几分之一美分。"
+    }
+  ]
+}
