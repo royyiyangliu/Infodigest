@@ -1,0 +1,57 @@
+Source  : a16z
+Title   : What It Takes to Get Paid
+Date    : 2026-08-12 14:20 UTC
+Link    : https://www.a16z.news/p/what-it-takes-to-get-paid
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+The contract was signed, the price was agreed, the product was delivered, the work was done, the customer is happy. The only question left is when the money actually arrives, and the honest answer is that nobody quite knows. Next week, maybe. October, maybe.
+Identical invoices to similar customers can pay in days or drift for months, and past a certain point someone on your side has to start asking about it, carefully, because the person on the other end is also your customer.
+That is the odd bargain at the center of B2B: the sale is settled, the timing is not. On paper, the terms are tidy: net 30, meaning payment due 30 days after the invoice. There is a whole profession built around the gap between those terms and reality. This piece is about what getting paid actually takes.
+This edition of our weekly chartpost series goes inside the most awkward recurring conversation in business: asking to be paid for what you already delivered. That is where our data comes from. Stuut builds the AI agent that runs collections for B2B companies. Its vantage point covers billions of dollars worth of receivables at any given moment. This is data from the ledger and the inbox, where money moves or refuses to, and the work that gets done to move it.
+Let’s start with the size of the problem:
+US nonfinancial businesses were sitting on $7.2 trillion of trade receivables at the end of 2025, money owed for goods and services already delivered. At trillions with a T scale, small delays are expensive: at the collection speeds typical in this data, one extra day of average delay is $150 billion or so. And with the Fed funds rate holding at 3.5 to 3.75%, none of the waiting is free. And the pile keeps growing.
+Unpaid Invoices Are Unevenly Distributed
+There is no single answer to how long the money sits in this pile. The time from when an invoice is issued to the moment the cash lands is a “results may vary” process:
+The typical invoice is fine. A tenth of invoices are paid within a day (nice), and half of all invoices turn to cash within 25 days, with little drama or chasing. Then the axis stretches: moving from 70% paid to 90% paid takes you from day 37 all the way to day 74, and the last tenth drifts far beyond that. If the median invoice shows up on its own inside a month, collections as a profession exists for the other half.
+The finance world grades this entire struggle with one number: DSO, days sales outstanding, which is essentially the average age of the money you are owed. Boards track it. CFOs get compensated on it. But that turns out to be an oversimplification, and a good DSO does NOT mean collections is healthy. Turns out that reporting the average over a very skewed distribution can hide almost anything.
+Take the companies scoring in the 40s, a respectable DSO by most standards. Inside that band, one company’s slowest tenth of invoices pays same-day, and another’s takes 599 days. Same headline number, opposite problems. The first book is healthy: its stragglers come loose with a phone call. The second only looks healthy: fast payers up front hide money that may never arrive. That is a write-off waiting to be admitted, and likely a big one (we’ll get to that). Across the companies in the data, the same May snapshot spans DSO 8.8 to 280. For a number of reasons, the scoreboard cannot tell sick from healthy.
+So, if the DSO as an average will not tell you where the money is, what will?
+Bigger Invoices, Bigger Problems
+Start with where the late money actually sits. Collections folklore treats it as a volume game: thousands of small invoices, an army of reminders, grind down the long tail. The data shows the opposite.
+For the typical company, the biggest tenth of past-due invoices holds 65.7% of the overdue dollars, and the middle half lands between 55.5% and 74.1%. Count the leftovers: the smallest 80% of past-due invoices are fighting over the last fifth of the money. Collections is less of a grinding problem and more of a search problem: find the few invoices that move the number, and put your best effort there.
+The largest receivables books are the most top-heavy of all. The bigger the book, the more its money crowds into a few invoices, so the operators sitting on the most overdue dollars are the ones for whom the search problem is most extreme.
+The concentration is not an accident of bad luck. It is inherited from where B2B revenue comes from in the first place:
+Welcome to today’s episode of “everything is an 80/20 rule”. The pattern varies little from company to company. For most B2B companies, a tenth of your buyers are the meat of your business, so when money goes missing, it goes missing in size.
+Conventional accounting wisdom says big invoices pay slow. The $250,000 invoice crawls through procurement and approvals while the $2,000 one sails through. This is correct but not the meat of the issue.
+The typical invoice pays in 28 to 34 days in every size band, from under $1,000 to over $250,000. Yeah, it is a little slower for bigger invoices, but a quarter-million-dollar invoice is not meaningfully slower than a small one, most of the time. What grows with size is the pain for the slowest tenth, which stretches 36 days, from 83 days on the smallest invoices to 119 on the largest. Size predicts how badly an invoice can stall.
+So what do all these unpaid invoices cost? At a 4% cost of money, a million dollars arriving two months late quietly burns about $6,600. That is a friendly scenario, since in this data, about a quarter of the concentrated overdue money has already sat untouched past 90 days, which is where write-offs are born. Late money is a financing cost; stuck money is a haircut.
+Getting Paid Requires Asking
+So how do you get paid? It’s as simple as asking.
+Some definitions, because the industry has its own vocabulary for this. Any outbound nudge about an unpaid invoice, an email, a call, a text, is what we will call an ask. The trade calls them touches, and arranges them into dunning ladders: preset escalation sequences, seven to ten steps deep, each step a little sterner than the last.
+First, the ritual every collector knows. You reach out about the overdue invoice, and the buyer says the magic words: “We’ll pay Friday.” In this data, only about half of the payment promises that came due were kept. But broken promises tell you very little about a buyer. Buyers who broke at least one promise and buyers who kept every single one pay at an identical 41-day median afterward. The data tells us a promise, broken or kept, is worth very little.
+But how many times should you expect to have to ask for your money?
+Half of collected past-due invoices close within two asks, and nine in ten close within six. The average sits at 3.2 because a few stubborn invoices soak up attention. Remember the ladder: seven to ten steps, each politely angrier. Barely one in ten invoices that get paid ever climbs past the sixth rung.
+None of which makes the early asks pointless: a reminder is part of the choreography of selling to another business. But it means that the choreography is shorter than legacy playbooks assume (a stat that we can likely thank better technology for).
+Which brings us to the tricky dance of collections. Every ask lands on someone who is also your customer, so the question is never just how often to ask. It is how hard you can afford to press, and the answer changes with the size of the invoice:
+Only 5.4% of $250K+ invoices ever receive a collections nudge, versus 16.8% of the smallest. Please enjoy the image of the $250,000 invoice that nobody emails. It is not neglect. In fact, it is quite the opposite; invoices that size are relationship-managed, handled in phone calls between humans who know each other, not fed into reminder sequences. This is the art of white-glove service, balancing today’s cash-flow needs and the future value of a relationship.
+Now Something Does the Asking for You
+Add up what the data has said so far. The money that matters is concentrated in a few invoices. Most of it is still movable. The loudest warning signal carries no information, and when an invoice does get collected, it takes a median of two well-aimed asks. That is a precise job description: read everything, find the few invoices that matter, ask early and often enough, and hand the genuinely stuck cases, and the relationships that matter, to a person with judgment. It is also a job description that is misshaped for a human team, because the reading spans millions of invoices and the asking never ends.
+81.7% of outbound collection emails go out with no human involved at all, a tenth are drafted by the agent and reviewed by a person before sending, and just 7.5% are written by a human from scratch. The division of labor is sharper than those email numbers suggest. Judgment work: escalations, disputes, manual calls, and broken-promise follow-ups are still 100% human-resolved, as they should be. The machine does the asking. People handle the fights, and only the fights.
+So the asking is concentrated, brief, and mostly automated, and the cost of an ask has collapsed. That changes what the whole function watches. Forget the average age of your money for a moment. Here is the number an agent-run collections team manages: 1.35 outbound asks per $1,000 collected, one ask for every $739 that comes in, with three in five completed collection tasks resolving fully automatically.
+The invoice from March is still out there somewhere, waiting in a queue behind nine hundred others. The difference is that something is now asking after it: at dawn, again Thursday if needed, politely every time, for a fraction of a cent per dollar. For as long as businesses have sold to each other, the space between sold and paid has been a void you shouted into.
+Now something shouts back, and it never gets tired of asking.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

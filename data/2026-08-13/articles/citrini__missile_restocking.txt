@@ -1,0 +1,51 @@
+Source  : Citrini
+Title   : Missile Restocking
+Date    : 2026-08-12 16:32 UTC
+Link    : https://www.citriniresearch.com/p/missile-restocking
+────────────────────────────────────────────────────────────
+
+Our goal at Citrini is to identify trends that are going to sustain longer than a few good earnings reports. And while the collective attention of market participants has been fixated on building out compute, capital cycles where the duration and magnitude are both underpriced…
+2018 was likely the cheapest year for organized protection in recorded history
+: Pax Romana and Pax Britannica can’t hold a candle to the supposed “End of History” in the late 2010s. Today, even as regional conflicts have pushed spending higher, allocation to global defense is still well below the peacetime norm, let alone “wartime footing” by historical standards.
+But our thesis is more than just “bigger budgets”. It’s about understanding how the battlefield is evolving – which is why our dynamic thematic basket is titled
+Modern Warfare
+.
+Both Ukraine and Iran drive home two points. First is the growing
+asymmetry
+between the expensive traditional military assets and the low-cost but highly capable world of autonomous drones, loitering munitions, and guerrilla tactics – weapons that are far more easily accumulated and deployed by lesser powers. Second, the ability to
+sustain
+active warfare requires a reinvigoration of the supply chain from peacetime power projection to actual industrial production.
+We aren’t the only ones who have picked up on these trends. Last year, European and Korean defense contractors surged as Trump hammered allies to start pulling their weight or risk the alliance. Pure-play drone and hypersonic beneficiaries meanwhile have been popular momentum stocks since at least 2024. A look at some of the popular single-name expressions shows the narrative inflation -> deflation playing out over the past year.
+And ironically, the Iranian conflict beginning on February 27 essentially marked the top for many US defense stocks which have traded off in a
+buy-the-rumor, sell-the-news
+fashion. These names lost their mojo just as their fundamental signals started to scream.
+The case for military procurement has moved from think-tank PDFs to battlefield necessity, with global energy, trade, and power hanging in the balance.
+The most acute bottlenecks we see today are in the missile complex
+.
+Empty Clip
+“Systemic constraints in the munitions industrial base, including limited production capacity, fragile supply chains, long-lead dependencies, and related production bottlenecks, may impair the ability of the United States to produce, sustain, and expand the availability of munitions, missiles, and equipment required for the national defense.”
+- Presidential Determination and Delegation of Authority Under Section 708 of the Defense Production Act, June 11, 2026
+In just five months, the US military has fired more missiles and interceptors than it has in any year since Desert Storm. And unlike bombarding and occupying ill-equipped adversaries in the GWOT, this is not a unilateral (and inherently voluntary) offensive.
+Rather, the massive expenditure of costly interceptors is a response to advanced Russian and Iranian militaries who have developed both abundant autonomous drones and high-powered ballistic missiles that threaten nearly every military asset or allied infrastructure throughout the region.
+Military planners have been ringing alarm bells about inventory drawdowns for some time, and (for national security reasons) no one knows
+exactly
+what the true numbers are. Prior estimates across a wider range of munitions show that expenditures (through five months) have dramatically exceeded annual production capacity and current delivery cadence.
+But it’s the White House’s own actions that underscore the severity of the situation – and the administration has been preparing to increase capacity well before first contact.
+The hardest numbers come from the FY2027 DoW budget proposal. The request shows a nearly 5x increase in dollars allocated to missiles across the spectrum.
+Interceptor depletion is at the top of mind, not just for the US but for anyone who relies on these systems for their own protection. The most recent estimates from CSIS (below) show that Patriot and THAAD stockpiles have been drawn down by ~66% and ~44%, respectively, adding that there are
+“no good alternatives to Patriot and THAAD for ballistic missile defense.”
+This is urgent. The assumption of comprehensive missile interception capability has been central to both the US and its allies.
+It has allowed US bases and warships to operate comfortably in the Gulf, while also providing the cover for military, civilian, and energy infrastructure to allies in the Middle East (and well beyond).
+America’s umbrella of protection is leaking.
+The response demands a multipronged approach – one that addresses both the practical reality of today and technical shifts of tomorrow.
+The Demand Signal
+Stockpiles of existing weapons platforms will be replenished. But DoW planners face manufacturing lead times measured in years and an asymmetric landscape that demands modern platforms
+— which means the shift in procurement has to come with long-term demand signals attached
+.
+Both primes and subcontractors have had to manage “just enough” capacity because they can’t run the risk of getting rugged when priorities shift in the next administration. Primes have a long memory, including “The Last Supper” from 1993 when Deputy Secretary of Defense William Perry sat down with top defense companies to explain what a peace dividend actually meant. Capacity was cut, there were no bailouts, and the Clinton Administration gave the regulatory greenlight for consolidation, shrinking the number of prime contractors from 51 to 5.
+First order necessity means leaning heavily on the existing prime incumbents and their subcontractors. But the second order consequences are clear: an anti-competitive oligopoly that has had a 20-year record of cost overruns and a capacity-limited environment that has turned into a strategic risk in the Iranian conflict.
+Now see this trend going in reverse.
+Instead of shutting down capacity and allowing consolidation, the US government is using both carrots and sticks to expand production capacity, while also introducing increased competition.
+And of course, since you are reading investment research, we’ve laid out a four-part framework of how this will ripple through global equities…
+(Missile Framework backtest, constituents and weighting below)
+Read more

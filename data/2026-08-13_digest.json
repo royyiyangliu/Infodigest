@@ -1,0 +1,302 @@
+{
+  "fetch_date": "2026-08-13",
+  "fetch_time": "2026-08-12T17:55:43.651218+00:00",
+  "stats": {
+    "new_podcast_episodes": 1,
+    "new_articles": 2,
+    "new_tweets": 21,
+    "total_podcasts": 1,
+    "total_articles": 2,
+    "total_tweets": 21,
+    "transcribed_this_run": 0
+  },
+  "podcasts": [
+    {
+      "source": "Lex Fridman Podcast",
+      "title": "#500 – Khabib Nurmagomedov: Dagestan, MMA, UFC, Islam, Conor, Fedor & Football",
+      "date": "2026-08-12 13:11 UTC",
+      "link": "https://podcasts.apple.com/us/podcast/500-khabib-nurmagomedov-dagestan-mma-ufc-islam-conor/id1434243584?i=1000782963648&uo=4",
+      "orig_link": "https://lexfridman.com/khabib-nurmagomedov/?utm_source=rss&utm_medium=rss&utm_campaign=khabib-nurmagomedov",
+      "audio_url": "https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_khabib_nurmagomedov.mp3",
+      "duration": "",
+      "summary": "Khabib Nurmagomedov is one of the greatest fighters of all time, who retired from the UFC undefeated with a perfect 29-0 record. We did this conversation entirely in Russian. It’s translated and dubbed into English. Both language audio tracks (and subtitles) are available on YouTube. Here, only the English audio is available. We worked hard to make it enjoyable to listen to, by carefully dubbing the translation using voice-cloning, as we’ve done for previous foreign-language podcasts.\nThank you for listening ❤ Check out our sponsors:\nhttps://lexfridman.com/sponsors/ep500-sc\nSee below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc.\nTranscript:\nhttps://lexfridman.com/khabib-nurmagomedov-transcript\nCONTACT LEX:\nFeedback\n– give feedback to Lex:\nhttps://lexfridman.com/survey\nAMA\n– submit questions, videos or call-in:\nhttps://lexfridman.com/ama\nHiring\n– join our team:\nhttps://lexfridman.com/hiring\nOther\n– other ways to get in touch:\nhttps://lexfridman.com/contact\nEPISODE LINKS:\nKhabib’s Instagram:\nhttps://instagram.com/khabib_nurmagomedov/\nKhabib’s YouTube:\nhttps://youtube.com/@KhabibTheEagle\nKhabib’s Facebook:\nhttps://facebook.com/KhabibTheEagle/\nKhabib’s X:\nhttps://x.com/TeamKhabib\nKhabib’s Telegram:\nhttps://t.me/khabib_nurmagomedov\nKhabib’s Website:\nhttps://khabib.com\nSPONSORS:\nTo support this podcast, check out our sponsors & get discounts:\nWispr Flow:\nAI-powered voice dictation app.\nGo to\nhttps://wisprflow.ai/lex\nLMNT:\nZero-sugar electroly",
+      "lang": "en",
+      "chars": null,
+      "text_file": null
+    }
+  ],
+  "articles": [
+    {
+      "source": "Citrini",
+      "title": "Missile Restocking",
+      "date": "2026-08-12 16:32 UTC",
+      "link": "https://www.citriniresearch.com/p/missile-restocking",
+      "summary": "The Bottleneck Moves to the Battlefield",
+      "chars": 6406,
+      "text_file": "data/2026-08-13/articles/citrini__missile_restocking.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "What It Takes to Get Paid",
+      "date": "2026-08-12 14:20 UTC",
+      "link": "https://www.a16z.news/p/what-it-takes-to-get-paid",
+      "summary": "How to ask for the money you're owed",
+      "chars": 11038,
+      "text_file": "data/2026-08-13/articles/a16z__what_it_takes_to_get_paid.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2087244948441792543",
+      "date": "2026-08-11T18:29:09.000Z",
+      "text": "if you have a better skill cutting policy or skill cutting skill lmk\n\nhttps://t.co/ZkOxnGX5Md https://t.co/qXoMl8Vyd2",
+      "url": "https://x.com/swyx/status/2087244948441792543",
+      "likes": 2,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Josh Woodward",
+      "handle": "joshwoodward",
+      "tweet_id": "2087223963525284091",
+      "date": "2026-08-11T17:05:46.000Z",
+      "text": "🌏On behalf of the whole Gemini team, thank you\nWhether you use Gemini on the Web, Android, iOS, or inside Chrome, we’ll keep listening to your feedback as we keep building for the next billion!",
+      "url": "https://x.com/joshwoodward/status/2087223963525284091",
+      "likes": 91,
+      "retweets": 3,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Josh Woodward",
+      "handle": "joshwoodward",
+      "tweet_id": "2087223962229186577",
+      "date": "2026-08-11T17:05:45.000Z",
+      "text": "🍎Apple users are turning to Gemini\n+ Over 100M+ active users on iOS\n+ macOS power users prompt ~2x more frequently than other surfaces",
+      "url": "https://x.com/joshwoodward/status/2087223962229186577",
+      "likes": 66,
+      "retweets": 4,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Josh Woodward",
+      "handle": "joshwoodward",
+      "tweet_id": "2087223960807330234",
+      "date": "2026-08-11T17:05:45.000Z",
+      "text": "🤖Android users love Gemini\n+ Gemini can automate actions across 40+ popular apps\n+ Great for booking rides, reserving tables, and more\n+ More updates coming tomorrow at @madebygoogle!",
+      "url": "https://x.com/joshwoodward/status/2087223960807330234",
+      "likes": 50,
+      "retweets": 4,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Boris Cherny",
+      "handle": "bcherny",
+      "tweet_id": "2087284684103537011",
+      "date": "2026-08-11T21:07:03.000Z",
+      "text": "LLMs still produce bugs, but those bugs are different than what they used to be. It’s less off-by-ones and more about system design, ui usability, missing broader context. Some kinds of coding has been solved, but not all.\n\nWhile models continue to improve, adversarial code review has been an incredibly powerful tool to catch many of these kinds of bugs.\n\nIt can be as simple as a one line prompt - “use a dynamic workflow to adversarial test every edge case in an iOS simulator”, or use Claude’s built in /code-review (or /code-review low, /code-review medium, etc.)",
+      "url": "https://x.com/bcherny/status/2087284684103537011",
+      "likes": 2447,
+      "retweets": 127,
+      "is_quote": true,
+      "quoted_id": "2087139563110363419"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2087423996115681767",
+      "date": "2026-08-12T06:20:37.000Z",
+      "text": "I previously promised a reset for every 1M in additional active users for Codex, until 10M. \n\nWe blew past that and have been silent since 10M. Little surprise for you tomorrow.",
+      "url": "https://x.com/thsottiaux/status/2087423996115681767",
+      "likes": 2737,
+      "retweets": 176,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2087254026232775052",
+      "date": "2026-08-11T19:05:13.000Z",
+      "text": "We did it, finally... Codex &amp; ChatGPT desktop, now on Linux. \n\nThanks for waiting and you can cancel that MacBook order if you got impatient. It’s that good.\n\n👀 https://t.co/QiiDPFct2v",
+      "url": "https://x.com/thsottiaux/status/2087254026232775052",
+      "likes": 9329,
+      "retweets": 456,
+      "is_quote": true,
+      "quoted_id": "2087231350134980830"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2087252528513814773",
+      "date": "2026-08-11T18:59:16.000Z",
+      "text": "Import your world. Codex. Run. https://t.co/Epj4ULlAC6",
+      "url": "https://x.com/thsottiaux/status/2087252528513814773",
+      "likes": 2099,
+      "retweets": 69,
+      "is_quote": true,
+      "quoted_id": "2087242829076791392"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2087345374633824486",
+      "date": "2026-08-12T01:08:12.000Z",
+      "text": "Getting many messages like these for /human-review.\n\nIt's now at 717 GitHub stars! \n\nTry it here for free and ⭐ it if you like it: https://t.co/iKZH4GceFn https://t.co/xVT7rH0nEI https://t.co/AfjdpMbwTX",
+      "url": "https://x.com/petergyang/status/2087345374633824486",
+      "likes": 101,
+      "retweets": 2,
+      "is_quote": true,
+      "quoted_id": "2085006701984698712"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2087340277874995223",
+      "date": "2026-08-12T00:47:57.000Z",
+      "text": "Trying to onboard my parents to ChatGPT desktop app and the separation between Chat, Work, and Codex and the lack of consistency across ChatGPT web, desktop, and mobile apps is all incredibly messy.\n\nI think the team should do a clean up / quality pass or maybe ask Codex to do it.\n\n(I say all this as a Codex fan)",
+      "url": "https://x.com/petergyang/status/2087340277874995223",
+      "likes": 269,
+      "retweets": 5,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2087300215388979282",
+      "date": "2026-08-11T22:08:46.000Z",
+      "text": "I think @X should ship this button or better yet make @CommunityNotes cover this use case. https://t.co/sKJkqrqpGP",
+      "url": "https://x.com/petergyang/status/2087300215388979282",
+      "likes": 28,
+      "retweets": 2,
+      "is_quote": true,
+      "quoted_id": "2087289666764689853"
+    },
+    {
+      "source": "Nan Yu",
+      "handle": "thenanyu",
+      "tweet_id": "2087264637817409586",
+      "date": "2026-08-11T19:47:23.000Z",
+      "text": "Even my 9-month old understands the parable of the hungry caterpillar https://t.co/Bg3BrEVgJI",
+      "url": "https://x.com/thenanyu/status/2087264637817409586",
+      "likes": 4,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2087222402350448913"
+    },
+    {
+      "source": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "tweet_id": "2087362394280599641",
+      "date": "2026-08-12T02:15:50.000Z",
+      "text": "dev rels are having their moment.\n\nsince building software has become trivial, distribution is your biggest unlock. \n\npeople with great social media game + tech chops are invaluable. https://t.co/yTrUFcQdHZ",
+      "url": "https://x.com/realmadhuguru/status/2087362394280599641",
+      "likes": 9,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2086872866692186444"
+    },
+    {
+      "source": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "tweet_id": "2087355597851390220",
+      "date": "2026-08-12T01:48:50.000Z",
+      "text": "story time..\n\nin 2023 (my previous role) I remember the first time some customers volunteered their prompt logs to us. \n\nWe were surprised by the number of “build me an app for X” prompts.\n\nfelt wildly ambitious at the time. models were barely graduating from code completion to generating a useful block of code.\n\nBut it was a great signal of what people actually wanted, and shaped a lot of our vision: systems that could design, build and deploy an app end to end from a simple ask.\n\nPretty wild that 3 yrs later we’re basically there.",
+      "url": "https://x.com/realmadhuguru/status/2087355597851390220",
+      "likes": 15,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2087284684103537011"
+    },
+    {
+      "source": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "tweet_id": "2087198985685750013",
+      "date": "2026-08-11T15:26:31.000Z",
+      "text": "There’s going to be a ton of money in making open-weight models exceptional at boring, specific business domains.\n\nPick a size x domain combination and go deep. Eg mid-market legal, smb retail, enterprise logistics. \n\nThe hyperscalers have the primitives but will struggle with domain depth, scrappiness and sheer will to make a model exceptional for one particular kind of business.\n\nAnd that is your opportunity.",
+      "url": "https://x.com/realmadhuguru/status/2087198985685750013",
+      "likes": 168,
+      "retweets": 10,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2087258093499695106",
+      "date": "2026-08-11T19:21:23.000Z",
+      "text": "There are more details in the help center &amp; we’ll share more as we roll this out: https://t.co/td69rBzrr4",
+      "url": "https://x.com/trq212/status/2087258093499695106",
+      "likes": 57,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2087258091821949074",
+      "date": "2026-08-11T19:21:23.000Z",
+      "text": "All Claude generated text will have this embedded watermarking. For example, you could check if a PR was generated by Claude Code.\n\nThat said, it does have limitations. https://t.co/umfn6nU5up",
+      "url": "https://x.com/trq212/status/2087258091821949074",
+      "likes": 97,
+      "retweets": 4,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2087258090169414008",
+      "date": "2026-08-11T19:21:22.000Z",
+      "text": "This is part of working with the EU AI Act, other labs are adding similar watermarking.\n\nIt’s hard to identify AI-generated text, and this gives people better tools to do that.  We’ll also be a shipping text detection API that you can use yourself. https://t.co/OZtG0fNsqc",
+      "url": "https://x.com/trq212/status/2087258090169414008",
+      "likes": 946,
+      "retweets": 46,
+      "is_quote": true,
+      "quoted_id": "2086898041882030353"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2087354092914122896",
+      "date": "2026-08-12T01:42:51.000Z",
+      "text": "Many people are saying https://t.co/iluZF3d1Iu",
+      "url": "https://x.com/rauchg/status/2087354092914122896",
+      "likes": 100,
+      "retweets": 3,
+      "is_quote": true,
+      "quoted_id": "2087234465919844364"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2087339038781161858",
+      "date": "2026-08-12T00:43:02.000Z",
+      "text": "The growth of @aisdk has been astonishing. ~80.5M downloads every 30 days, and growing faster than all AI labs SDKs. Most importantly: open and provider-agnostic. https://t.co/EZxyu94gk0 https://t.co/sdVZTZhsCP",
+      "url": "https://x.com/rauchg/status/2087339038781161858",
+      "likes": 289,
+      "retweets": 16,
+      "is_quote": true,
+      "quoted_id": "2087207697972367508"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2087314071519707288",
+      "date": "2026-08-11T23:03:49.000Z",
+      "text": "Keep an eye on this view\nhttps://t.co/iir02GoUUw https://t.co/iYEI1rO9Jy https://t.co/0ey1ut4h70",
+      "url": "https://x.com/rauchg/status/2087314071519707288",
+      "likes": 257,
+      "retweets": 15,
+      "is_quote": true,
+      "quoted_id": "2087313511386878347"
+    }
+  ]
+}
