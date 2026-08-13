@@ -1,0 +1,87 @@
+{
+  "date": "2026-08-14",
+  "generated_at": "2026-08-13T23:36:51.983080+00:00",
+  "stats": {
+    "tweets": 8,
+    "podcasts": 2,
+    "articles": 2
+  },
+  "tweets": [
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "AI 工程师、Latent Space 播客与 Smol AI 创始人 Shawn Wang（swyx）。他称某篇新论文\"已经是今年最重要的论文之一\"，并因原文方法论解释不清而附上了自己的笔记和进一步提炼。（他另一条关于 Perplexity 一年前提出收购 Chrome 的定时推文属玩笑性质，无实质内容。）"
+    },
+    {
+      "author": "Josh Woodward",
+      "handle": "joshwoodward",
+      "summary_zh": "Google 副总裁、Google Labs 与 Gemini 应用负责人 Josh Woodward。他宣布 Gemini 新一批第三方应用集成开始上线，让 Gemini 能在用户日常使用的应用中直接完成任务，合作伙伴包括 Angi、Fever、GetYourGuide、Granola、iHeartRadio、OpenTable、Otter、Pandora、Thumbtack、Ticketmaster、Wix、Zocdoc、Zoho 等十余家。这体现了 Google 把 Gemini 打造成跨应用\"办事型\"助手的战略。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品与增长专家、科技写作者 Peter Yang。他大胆预判\"我们使用电脑的方式很快将永久改变\"：从用键盘、鼠标、笔记本手动操作，转向用语音指挥云端的智能体。他在新文章中提出三点核心观点：1）语音正在成为编排层；2）个人电脑将迁移到云端；3）信任将成为关键差异化因素。"
+    },
+    {
+      "author": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "summary_zh": "产品建设者 Madhu Guru（realmadhuguru）。他认为未来几年 AI 产品最大的超额收益（alpha）在应用层：模型会持续变得更便宜、更强、更本地化，真正的差异化来自深度理解特定用户工作流并有想象力地围绕它们重新设计体验。他还指出能构建 AI 产品的人群基数即将暴增，因此跻身顶尖 0.1% 的建设者比以往任何时候都更重要。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 创始人兼 CEO Guillermo Rauch。他力推 Vercel Sandbox 的重大更新，称 npx sandbox@latest 体验\"惊艳\"、感觉比本地机器还快，现已预装一套合理的默认工具且可完全自定义。他还展示了在 Vercel AI Gateway 上运行的视频生成模型 Seedance 2.5。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 联合创始人兼 CEO Aaron Levie。他称 DeepSeek 与 Grok 同日发布的新模型都在能力上实现巨大跃升、成本却极低，正是\"AI 版杰文斯悖论\"的体现——降低 AI 成本会让需求持续加速。他观察到企业想让智能体处理的用例（扫描代码库安全隐患、审阅全部文档、处理大量工作流）远多于当前预算所能覆盖；他还认为模型选择越多，越凸显应用层中负责按任务路由与优化的环节的价值。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator 总裁兼 CEO Garry Tan。他发布 GBrain v0.45.6.0，新增 17 项经由其个人 OpenClaw 智能体、在数十万个 markdown 文件上打磨过的\"大脑技能\"，现已支持 Codex 和 Claude Code。他主张\"个人 AGI 就是为你服务的 AGI\"，并强调运行 GBrain 应作为独立智能体、而非塞进主编码智能体，可视为一个拥有自己 git 记忆库和自定义技能的个人版 ChatGPT/Claude。"
+    },
+    {
+      "author": "Matt Turck",
+      "handle": "mattturck",
+      "summary_zh": "FirstMark Capital 董事总经理、风险投资人 Matt Turck。他以调侃口吻点评 AI 工程术语的快速更迭：\"图工程（graph engineering）是新的循环工程，循环工程是新的 harness 工程，harness 工程是新的上下文工程，上下文工程是新的提示词工程。\"以此讽刺行业热词的层出不穷。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "张小珺Jùn｜商业访谈录",
+      "title": "150. 对英伟达研究副总裁刘洺堉的4小时访谈：功夫、Cosmos 3、开源世界模型、黄仁勋、你不需要击败所有对手",
+      "date": "2026-08-12 23:00 UTC",
+      "duration": "03:36:12",
+      "link": "https://podcasts.apple.com/us/podcast/150-%E5%AF%B9%E8%8B%B1%E4%BC%9F%E8%BE%BE%E7%A0%94%E7%A9%B6%E5%89%AF%E6%80%BB%E8%A3%81%E5%88%98%E6%B4%BA%E5%A0%89%E7%9A%844%E5%B0%8F%E6%97%B6%E8%AE%BF%E8%B0%88-%E5%8A%9F%E5%A4%AB-cosmos-3-%E5%BC%80%E6%BA%90%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B-%E9%BB%84%E4%BB%81%E5%8B%8B-%E4%BD%A0%E4%B8%8D%E9%9C%80%E8%A6%81%E5%87%BB%E8%B4%A5%E6%89%80%E6%9C%89%E5%AF%B9%E6%89%8B/id1634356920?i=1000783036067&uo=4",
+      "summary_zh": "英伟达研究副总裁、Cosmos Lab副总裁刘洺堉（加入英伟达约**10年**）深谈世界模型与Cosmos 3。核心投资看点如下。\n\n**产品与定位**：Cosmos是面向\"物理AI\"(physical AI)的开源世界基础模型，直属团队约**80-90人**，整个Cosmos约**200-300人**（论文作者近**290人**）。定位是\"卖水/建生态\"而非竞争——为机器人、自动驾驶、工厂开发者提供底座，并投资且合作李飞飞World Labs、LeCun等。已投入\"**万级**\"(万卡)GPU，日运算成本达\"几百万美元\"。\n\n**Cosmos 3技术**：把前代reason/predict/transfer/policy多个模型统一为单一模型；采用\"双塔\"架构（离散塔做理解、连续塔做生成）；首次将Mixture-of-Transformer扩到大规模，把language/video/audio/action融合，并将action作为\"first-class citizen\"。开源模型+训练框架+部分数据。承认技术创新不算多、胜在工程细节与融合；下一步(3.1/3.2)将走向单塔、更简单，主攻泛化能力。受DeepSeek(一年迭代3次至V3、首个开源MoE)影响强调迭代速度。\n\n**关键判断（对二级市场有参考价值）**：①模型能力终将收敛/同质化，单靠模型无法差异化，须靠生态整合，\"不神话模型公司\"；②physical AI是巨大市场，其\"ChatGPT时刻\"或今明年到来，核心难题是泛化(observation→action)；③英伟达逻辑是\"造市场\"非存量竞争——若家家有机器人，算力需求将大幅增长，直接利好英伟达；④黄仁勋名言\"zero billion dollar business\"、\"备多则力寡\"（曾把计划的**22个**模型精简为1个）、\"做到Cosmos 97代\"(每半年一代需40多年，示决心)。\n\n**中国观察**：中国模型公司(DeepSeek/千问/豆包/MiniMax/Kimi/MiMo/智谱)\"very impressive\"，且大量招实习生利于know-how扩散；中国制造业优势利于机器人软硬一体垂直整合，美国做本体的公司少(Tesla、Figure AI)。\n\n**英伟达管理**：不裁员、无末位淘汰、mission is the boss、top-5邮件、\"torture you to greatness\"；黄仁勋每天自称\"只剩30天现金流\"。OpenAI收缩Sora线，系因Anthropic在coding agent上产生巨大token经济效应、被迫集中资源。"
+    },
+    {
+      "source": "AI & I by Every",
+      "title": "Microsoft’s Vision for an Internet Made for Agents With CTO Kevin Scott (Best of the Pod)",
+      "date": "2026-08-12 16:55 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "summary_zh": "本期为微软CTO Kevin Scott在Build大会期间接受Every《AI & I》专访，核心是微软对\"面向智能体的互联网\"（agentic web）的构想。他指出去年的关键词是\"智能体无处不在\"和\"规模定律（scaling laws）\"，而今年重心转向agentic web。原因有三：其一，规模定律经过**四年**逐年验证已被普遍接受，不再需要反复论证；其二，模型的推理能力已\"跑在\"产品应用之前，出现\"能力过剩\"（capability overhang）——全行业需补课，缩小模型真实能力与实际交付给用户的能力之间的差距；其三，过去一年涌现出大量智能体，除推理外还需解决记忆、工具调用等瓶颈。当前智能体记忆偏\"事务性\"，任务结束即清零，制约了委派复杂任务的能力。\n\n投资/产业要点：智能体要真正有用，必须能代表用户采取行动、调用工具、访问多样信息源，因此需要一个类似互联网的生态。他类比：MCP之于agentic web如同HTTP之于互联网，NL web则对应HTML——强调简单、可组合、开放的协议。作为CTO，他推动微软内部所有系统用统一标准协议对接内部智能体，避免\"组织架构即产品\"（康威定律/ship your org chart）的低效。微软定位为经营**五十年**的平台公司，重点是帮助解决agentic web涌现出的底层问题，而非仅做自家智能体。\n\n安全模型：他承认MCP缺乏类似同源策略的安全机制，但因协议足够简单，社区能较快共建。微软正推动智能体拥有身份标识、权限体系（entitlement）、按需向用户申请授权等企业级能力，主张开放而非专有。他认为\"垂直封闭保安全 vs 开放促创新\"是伪二分法，可借助AI能力（如个人安全代理监测异常）兼得两者，并强调无需许可（permissionless）创新的价值、中间层gatekeeper正在贬值。\n\n关于编程未来：他自称编程**41年**、木工也近40年，认为AI编程只是软件开发史上又一次非平凡变革；工具选择因人而异（他仍用vi），建议保持好奇心去尝试。软件工程智能体不会一家独大，会是多元共存。最有意思的初创并非做差异化基础设施，而是对某类用户问题理解更深、再调用或微调现有基础设施去解决。预测：一年内将从同步交互转向异步——智能体接受任务后长时间自主调用多系统、多轮迭代，再返回结果供用户接手；并劝诫以\"太贵/能力不足\"为由观望的人会落后，因为成本会持续下降、能力会持续提升。"
+    }
+  ],
+  "articles": [
+    {
+      "source": "a16z",
+      "title": "This Essay is 10% AI Generated",
+      "date": "2026-08-13 14:01 UTC",
+      "link": "https://www.a16z.news/p/this-essay-is-10-ai-generated",
+      "chars": 14099,
+      "summary_zh": "a16z 这篇观点长文借\"法国理论\"探讨 AI 写作时代的\"作者身份\"问题。作者指出，\"这篇文本 **100%** 由 AI 生成\"已成为社交媒体上羞辱他人的新式\"红字\"标签，且这种指认多来自科技圈内人士（而非纯粹的 AI 反对者），说明其社会功能并非\"AI 不好\"，而是围绕\"作者身份\"（authorship）本身。作者引用 1967 年巴特（Barthes）《作者之死》——文本意义源自语言本身而非作者，词一旦进入脑海就已被既有含义与约束预填充（作者认为这恰好描述了 LLM 的 token 预测机制）；以及 1969 年福柯（Foucault）\"什么是作者\"——即便词义独立于书写者，社会仍需\"作者身份\"来对文本分类、压缩、监管。\n\n从产业观察角度，作者给出两个 AI 文本的可辨识\"破绽\"：一是句式构造略显异类（如 Claude 写出\"Give the pruning logic real attention\"而非人类的\"Pay attention to the pruning logic\"），源于 LLM 逐词优化、保留选项、从统计上高概率的入口推进；二是过度自信的限定词与\"这才是其精妙之处\"式表达，倾向于把多个概念强行归并为\"一个大想法\"。作者推测 LLM 因训练自察其\"无作者性\"，在微调中回填了\"作者功能\"。\n\n值得关注的商业信号：近几周多家模型公司及生态玩家宣布将对输出加**水印**以便 AI 检测，作者认为姗姗来迟，并指出检测方（如 Pangram）与规避方已进入军备竞赛，前沿模型可靠检测的窗口或已关闭；他还提到用 Pangram 检测自己 2019–2020 年博客竟得 **70–75%** \"AI 生成\"评分。结论：AI 支持者反而热衷揪出\"纯 AI 文本\"，恰证明人们仍看重\"作者身份\"即意义本身。文末作者称本文 **0%** 由 AI 直接生成（全部手打），但与 Sol 5.6 反复讨论过思路，故自评 **10%** 作者身份分成。"
+    },
+    {
+      "source": "a16z",
+      "title": "Investing in Vals",
+      "date": "2026-08-13 13:30 UTC",
+      "link": "https://www.a16z.news/p/investing-in-vals",
+      "chars": 5798,
+      "summary_zh": "a16z 宣布投资 AI 评测公司 Vals，并阐述其投资逻辑：随着前沿模型纷纷\"刷满\"学术基准测试，公开数据集因饱和、泄漏进训练语料或被针对性优化而失去参考价值——模型在排行榜上表现亮眼，却往往无法胜任真实世界中多步骤、繁杂的工作。与此同时，AI 正从\"回答问题\"转向\"完成工作\"（分析财务文档、处理法律案件、写代码调试、跑复杂企业工作流），且任务时间跨度拉长至数小时乃至数天的自主运行；选错模型不仅浪费数千美元的 token，还损耗时间与客户满意度。\n\nVals 的差异化在于：不用人为设计的考试，而是测模型\"人们真正想让它做的事\"。团队联合各领域专家，把真实工作流转化为严谨基准，并构建能以专家标准评判最终产出的自动化打分系统——不测法律模型能否通过律师资格考试，而测其能否做法律研究；金融领域测复杂文档分析；编程领域测能否构建可运行的应用。Vals 还搭建了可快速、可复现、安全的大规模评测基础设施：私有测试集保密并限制运行次数以防污染与作弊，且能在拿到模型访问权后**数小时内**产出结果，跟上前沿模型发布节奏。\n\nVals 认为好的基准注定要被淘汰：当模型几乎全部满分（即\"benchmaxing\"刷分），基准就完成使命、该造更难的了。团队持续退役饱和评测、引入新任务，例如**今年 5 月**因 CorpFin 已无法区分模型优劣，将其替换为新的 Excel 建模基准。\n\na16z 将 Vals 类比为 AI 时代的独立第三方评级机构——正如信用市场有穆迪与标普、公开市场有独立审计、产品有 UL 安全认证；当卖方信息更充分且有动机美化自己时，可信的第三方度量能让市场更有效运转。两位联合创始人 Rayan Krishnan 与 Langston Nashold 均为斯坦福计算机专业出身，创立 Vals 前已合作研究现实度量问题多年。a16z 视其为将支撑 AI 经济的\"信任层\"。"
+    }
+  ]
+}
