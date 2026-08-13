@@ -1,0 +1,303 @@
+{
+  "fetch_date": "2026-08-14",
+  "fetch_time": "2026-08-13T17:55:57.583828+00:00",
+  "stats": {
+    "new_podcast_episodes": 2,
+    "new_articles": 2,
+    "new_tweets": 20,
+    "total_podcasts": 2,
+    "total_articles": 2,
+    "total_tweets": 20,
+    "transcribed_this_run": 1
+  },
+  "podcasts": [
+    {
+      "source": "张小珺Jùn｜商业访谈录",
+      "title": "150. 对英伟达研究副总裁刘洺堉的4小时访谈：功夫、Cosmos 3、开源世界模型、黄仁勋、你不需要击败所有对手",
+      "date": "2026-08-12 23:00 UTC",
+      "link": "https://podcasts.apple.com/us/podcast/150-%E5%AF%B9%E8%8B%B1%E4%BC%9F%E8%BE%BE%E7%A0%94%E7%A9%B6%E5%89%AF%E6%80%BB%E8%A3%81%E5%88%98%E6%B4%BA%E5%A0%89%E7%9A%844%E5%B0%8F%E6%97%B6%E8%AE%BF%E8%B0%88-%E5%8A%9F%E5%A4%AB-cosmos-3-%E5%BC%80%E6%BA%90%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B-%E9%BB%84%E4%BB%81%E5%8B%8B-%E4%BD%A0%E4%B8%8D%E9%9C%80%E8%A6%81%E5%87%BB%E8%B4%A5%E6%89%80%E6%9C%89%E5%AF%B9%E6%89%8B/id1634356920?i=1000783036067&uo=4",
+      "orig_link": "https://www.xiaoyuzhoufm.com/episode/6a7cbeb017676351c5710266?utm_source=rss",
+      "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/626b46ea9cbbf0451cf5a962/6a7cbeb017676351c5710266/media.xyzcdn.net/626b46ea9cbbf0451cf5a962/lghqbPI7EHExAvJv1gjRFV_24k8Y.m4a",
+      "duration": "03:36:12",
+      "summary": "每次见到刘洺堉，他都穿一件黑色夹克，背着一个有点旧的斜挎包。\n现任英伟达研究副总裁的刘洺堉，是英伟达第一位从研究员擢升至副总裁之位的管理者，他领导英伟达最重要的模型项目之一——世界基座模型Cosmos。\n刘出生于中国台湾，是金庸小说爱好者。18岁起，刘洺堉就师从著名的武术家徐纪（神枪李书文一脉传人），练习中国功夫，一直至今。最近他又有了一个ice plunge（冰水浴）的新嗜好。凌晨4点多，刘洺堉起床后会依惯例进行武术训练：一个人蹲桩、打拳。做完全套后，再只身跳进冰桶，帮助身体修复。\n这种锻炼习惯与我对刘洺堉的印象截然不同——他看起来谦和，说话音量也不大。\n“中国武术最重要的是控制自己。”刘洺堉说，“我并不是为了展现强大的破坏能力。”\n某种程度上，这反映了他以及他所代表的英伟达这样巨型的基础设施型企业的竞争观。\n访谈中，他反复强调，他没有任何竞争对手，他没有和任何人竞争，所有人都可以是合作伙伴。\n“什么叫战争呢？我没有打算把别人杀死。”刘洺堉说，“我们的心态不是说想把别人给杀死，我们的心态是我们要怎么去造市场。你懂我意思吗？”\n“Jensen（英伟达创始人兼CEO黄仁勋）经常说，要造市场，而不是存量竞争。他讲我们就要做zero-billion-dollar business（从零到十亿美元的业务）——你可以不赚钱，但当这个生意成功的时候，必须是很influential（有影响力）的。不能说满足每年赚100个million（1个亿）——这种scale（规模）对很多公司都很大，但对英伟达而言，这是一个distraction（分心）。”刘接着说，“你要去解最重要的问题，产生最大的贡献。”\n英伟达正在“造”的市场，即面向物理世界的人工智能（Physical AI），世界基座模型Cosmos被寄予厚望。这个项目从2024年立项，经过两年多已发布至Cosmos 3。Cosmos直属团队不到100人，虚线汇报规模是200至300人。黄仁勋对刘洺堉表达战略决心，称：“你就做到Cosmos 97。”\n如今，刘洺堉已在美国生活20年，在英伟达工作10年，他仍然用一些朴素的东方智慧进行技术表达——比如，他把大模型比作中医，时常援引《孙子兵法》“备多则力寡”来思考世界模型的技术趋势。\n本次访谈，我们详细地聊了聊Cosmos系列（尤其是前不久发布的Cosmos 3）、世界模型、物理世界的人工智能、英伟达的竞争观、组织哲学，当然还有绕不开的黄仁勋。\n接下来，就是我对刘洺堉的访谈。\nOUTLINE:\n00:02:35\n英伟达的赌注与边界\n00:29:57\n意外、顿悟、转变\n01:02:46\n如何在英伟达拿到GPU\n01:21:57\n从研究员到英伟达VP：“我可能是第一个吧”\n01:37:00\nCosmos的诞生\n01:51:39\n从Cosmos 1到Cosmos 3的演变\n02:36:33\n“黑客帝国”\n02:44:20\n下一个CUDA?\n02:47:04\n关于黄仁勋：Mission is the boss\n03:12:20\n模型竞争不是鱿鱼游戏\nLINKS：\n我们的播客在\n小宇宙\n、\nApple Podcast\n、Spotify等全音频平台播出；\n我们的视频播客在\n小宇宙\n、\nBilibili\n、\n小红书\n、视频号、抖音等全视频平台播出；\n如果你想服用文字版，请搜索我们工作室的公众号：语言即世界language is world。\nDISCLAIMER:\n本内容不作为投资建议。\nCONTACT:\nxiaojunzhang@lisw.ai\nJump into the new ",
+      "lang": "zh",
+      "chars": 118742,
+      "text_file": "data/2026-08-14/podcasts/张小珺jùn商业访谈录__150_对英伟达研究副总裁刘洺堉的4小时访谈功夫cosmos_3开源世界模型黄仁勋你不需要.txt"
+    },
+    {
+      "source": "AI & I by Every",
+      "title": "Microsoft’s Vision for an Internet Made for Agents With CTO Kevin Scott (Best of the Pod)",
+      "date": "2026-08-12 16:55 UTC",
+      "link": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "orig_link": "",
+      "audio_url": "",
+      "duration": "",
+      "summary": "",
+      "lang": "en",
+      "chars": 29372,
+      "text_file": "data/2026-08-14/podcasts/ai_i_by_every__microsofts_vision_for_an_internet_made_for_ag.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "a16z",
+      "title": "This Essay is 10% AI Generated",
+      "date": "2026-08-13 14:01 UTC",
+      "link": "https://www.a16z.news/p/this-essay-is-10-ai-generated",
+      "summary": "Pangram, Authorship, and French Theory",
+      "chars": 14099,
+      "text_file": "data/2026-08-14/articles/a16z__this_essay_is_10_ai_generated.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Investing in Vals",
+      "date": "2026-08-13 13:30 UTC",
+      "link": "https://www.a16z.news/p/investing-in-vals",
+      "summary": "a16z invests in Vals",
+      "chars": 5798,
+      "text_file": "data/2026-08-14/articles/a16z__investing_in_vals.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2087691099691475285",
+      "date": "2026-08-13T00:02:00.000Z",
+      "text": "Perplexity offered to buy @googlechrome one year ago today\n\n(this is a scheduled tweet) https://t.co/EdFp28P2qO",
+      "url": "https://x.com/swyx/status/2087691099691475285",
+      "likes": 1223,
+      "retweets": 14,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2087437017840046156",
+      "date": "2026-08-12T07:12:22.000Z",
+      "text": "this is already one of the most important papers of this year.\n\nhttps://t.co/0f3ma9POEG\n\nthe methodology doesnt seem clearly explained so here are some notes with a further distillation https://t.co/VHBTmiwx3e",
+      "url": "https://x.com/swyx/status/2087437017840046156",
+      "likes": 316,
+      "retweets": 15,
+      "is_quote": true,
+      "quoted_id": "2087147042888114428"
+    },
+    {
+      "source": "Josh Woodward",
+      "handle": "joshwoodward",
+      "tweet_id": "2087751559606407615",
+      "date": "2026-08-13T04:02:15.000Z",
+      "text": "Gemini gets things done across the apps you use every day. Starting today, another wave of integrations are rolling out. If you want to partner with us, DM me.\n\nAngi (formerly Angie's List)\nFever\nGetYourGuide\nGranola\niHeartRadio\nLocaliza\nOpenTable\nOtter\nPandora\nThumbtack\nTicketmaster\nWix\nZocdoc\nZoho",
+      "url": "https://x.com/joshwoodward/status/2087751559606407615",
+      "likes": 241,
+      "retweets": 11,
+      "is_quote": true,
+      "quoted_id": "2087567329567904048"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2087706104814023111",
+      "date": "2026-08-13T01:01:37.000Z",
+      "text": "Old news actually from a bunch of days ago, but crossed that 15M. Enjoy a nice reset everyone. Landing in the next hour or so, go /fast.",
+      "url": "https://x.com/thsottiaux/status/2087706104814023111",
+      "likes": 10790,
+      "retweets": 580,
+      "is_quote": true,
+      "quoted_id": "2087423996115681767"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2087614555203809395",
+      "date": "2026-08-12T18:57:50.000Z",
+      "text": "Typical conversation with @ajambrosino \n\nA: core alignment has been reached\nT: core alignment you say\nA: i say\nT: say more\nA: more\n\nAnd yet I’ve never been more excited about what him and the team are building.",
+      "url": "https://x.com/thsottiaux/status/2087614555203809395",
+      "likes": 2480,
+      "retweets": 35,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2087439859493617908",
+      "date": "2026-08-12T07:23:39.000Z",
+      "text": "Also don’t say Linux, we just shipped that.",
+      "url": "https://x.com/thsottiaux/status/2087439859493617908",
+      "likes": 2173,
+      "retweets": 9,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2087656368341966904",
+      "date": "2026-08-12T21:43:59.000Z",
+      "text": "This is such a beautiful eulogy from Messi to his dad. Got me a bit teary eyed. https://t.co/Bn6GBBJwqj",
+      "url": "https://x.com/petergyang/status/2087656368341966904",
+      "likes": 164,
+      "retweets": 5,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2087547168764862495",
+      "date": "2026-08-12T14:30:04.000Z",
+      "text": "I believe the way we use computers will soon change forever.\n\nWe’re moving from doing work manually with a keyboard, mouse, and laptop to directing agents in the cloud using our voices.\n\nIn my new essay, I cover why:\n\n1. Voice is becoming the orchestration layer\n2. Personal computers will move to the cloud\n3. Trust will be the key differentiator\n\nRead it here (it’s 100% free): https://t.co/cPvIqq0mge",
+      "url": "https://x.com/petergyang/status/2087547168764862495",
+      "likes": 90,
+      "retweets": 11,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "tweet_id": "2087706598542290958",
+      "date": "2026-08-13T01:03:35.000Z",
+      "text": "I miss when teams actually whiteboarded. Sad casualty of the Covid wfh era.\n\nThere was something playful about standing around a board, drawing half-baked ideas, interrupting each other and jointly shaping things.\n\nYears of Zoom and Google Meet seem to have beaten that instinct out of people.",
+      "url": "https://x.com/realmadhuguru/status/2087706598542290958",
+      "likes": 30,
+      "retweets": 1,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "tweet_id": "2087553833098723547",
+      "date": "2026-08-12T14:56:33.000Z",
+      "text": "The biggest alpha in AI products over the next few years is in the application layer.\n\nModels will keep getting cheaper, better and more local.\n\nThe differentiation will come from deeply understanding specific user workflows and having the imagination to redesign the experience around them.\n\nThe denominator of people who can build AI products is about to get enormous.\n\nSo being in the top 0.1% of builders will matter more than ever.",
+      "url": "https://x.com/realmadhuguru/status/2087553833098723547",
+      "likes": 178,
+      "retweets": 12,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Amanda Askell",
+      "handle": "AmandaAskell",
+      "tweet_id": "2087606022961865148",
+      "date": "2026-08-12T18:23:56.000Z",
+      "text": "The bar for \"ethical\" playthroughs of different games is interesting. In Bioshock, the bar is literally not murdering children. Murdering adults is fine.",
+      "url": "https://x.com/AmandaAskell/status/2087606022961865148",
+      "likes": 143,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Amanda Askell",
+      "handle": "AmandaAskell",
+      "tweet_id": "2087597131800674495",
+      "date": "2026-08-12T17:48:36.000Z",
+      "text": "When I started playing Skyrim, I quickly realized you can make a lot of progress without doing any killing. You can also adopt orphans and build them nice houses, so I focused on that. I honestly don't really remember the plot beyond \"that challenging fantasy philanthropy game\".",
+      "url": "https://x.com/AmandaAskell/status/2087597131800674495",
+      "likes": 968,
+      "retweets": 37,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2087736311885218160",
+      "date": "2026-08-13T03:01:39.000Z",
+      "text": "Endless opportunity everywhere you look",
+      "url": "https://x.com/rauchg/status/2087736311885218160",
+      "likes": 1091,
+      "retweets": 87,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2087698195120116064",
+      "date": "2026-08-13T00:30:11.000Z",
+      "text": "This is such a nice improvement.\n\nTry 𝚗𝚙𝚡 𝚜𝚊𝚗𝚍𝚋𝚘𝚡@𝚕𝚊𝚝𝚎𝚜𝚝 𝚜𝚑 – it's mind-blowing. It feels faster than your local machine. \n\nSandbox now comes with a reasonable default set of pre-installed tools, and you can fully customize them. https://t.co/sJM6bvpc18",
+      "url": "https://x.com/rauchg/status/2087698195120116064",
+      "likes": 185,
+      "retweets": 7,
+      "is_quote": true,
+      "quoted_id": "2087682908576416172"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2087631388359242050",
+      "date": "2026-08-12T20:04:43.000Z",
+      "text": "Seedance 2.5 on @vercel AI Gateway 🐇 https://t.co/Ql9zpuJpBD",
+      "url": "https://x.com/rauchg/status/2087631388359242050",
+      "likes": 238,
+      "retweets": 9,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Aaron Levie",
+      "handle": "levie",
+      "tweet_id": "2087719356763672917",
+      "date": "2026-08-13T01:54:17.000Z",
+      "text": "Awesome day in terms of new model releases from both Deepseek and Grok. Both of these new model updates represent huge jumps in capability at insanely low costs. \n\nThis is truly Jevons paradox for AI playing out. By bringing down the cost of AI, demand will continue to accelerate. When I talk to enterprises, they have vastly more use-cases for what they’d like agents to handle than generally what they’re able to budget for today. \n\nThey want agents to scan their codebases for security issues. They want agents to review all their documents. They want agents to process information in a large portion of their workflows. And so on. When we bring down the cost of AI or drive up capability levels, it opens up all new use cases in the enterprises, which drives even greater demand.\n\nThis is also great for the applied AI layer. The more choice of models - especially those tuned for different types (or costs) of work - the more value there is in being at the layer that can route and optimize based on the task. Great for the entire stack right now.",
+      "url": "https://x.com/levie/status/2087719356763672917",
+      "likes": 212,
+      "retweets": 13,
+      "is_quote": true,
+      "quoted_id": "2087577925919068639"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2087625178293604438",
+      "date": "2026-08-12T19:40:03.000Z",
+      "text": "We are gonna be markdown skill-maxxing from here\n\nThank you @illscience for a fun conversation https://t.co/SvyGMlmclh",
+      "url": "https://x.com/garrytan/status/2087625178293604438",
+      "likes": 337,
+      "retweets": 21,
+      "is_quote": true,
+      "quoted_id": "2087624058649321869"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2087597829065945249",
+      "date": "2026-08-12T17:51:22.000Z",
+      "text": "Running GBrain with Codex or Claude Code should be a *separate agent* and I wouldn't expect you to run it in your main coding agent.\n\nThink of it more like a personal AI version of ChatGPT or Claude that has its own git repo for memory and custom skills.",
+      "url": "https://x.com/garrytan/status/2087597829065945249",
+      "likes": 20,
+      "retweets": 2,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2087594114372259890",
+      "date": "2026-08-12T17:36:37.000Z",
+      "text": "GBrain just dropped v0.45.6.0 which added 17 new brain skills hardened through my own personal OpenClaw agent with hundreds of thousands of markdown files. \n\nA personal AGI is one that works for you. GBrain now works with Codex and Claude code, btw.\n\nhttps://t.co/yFpFU4pn5b https://t.co/MqpMfX4wsX",
+      "url": "https://x.com/garrytan/status/2087594114372259890",
+      "likes": 616,
+      "retweets": 45,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Matt Turck",
+      "handle": "mattturck",
+      "tweet_id": "2087528600849252696",
+      "date": "2026-08-12T13:16:17.000Z",
+      "text": "Graph engineering is the new loop engineering which is the new harness engineering which is the new context engineering which is the new prompt engineering. \n\nHope this clarifies any confusion.",
+      "url": "https://x.com/mattturck/status/2087528600849252696",
+      "likes": 34,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    }
+  ]
+}

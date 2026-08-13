@@ -1,0 +1,35 @@
+Source  : a16z
+Title   : Investing in Vals
+Date    : 2026-08-13 13:30 UTC
+Link    : https://www.a16z.news/p/investing-in-vals
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+We all know AI is getting smarter day by day. For the majority of the users, there’s a more important question now: is it getting better at what I need it to do?
+For years, the industry has relied on academic benchmarks to track model progress. They gave us a common language for comparing models and, for a while this has been the most useful proxy for capability.
+However, frontier models are increasingly acing the same tests. Public datasets get saturated, leak into training corpora, or become targets that models are explicitly optimized against. A model can look brilliant on a leaderboard and still struggle when asked to perform the messy, multi-step work that actually matters in the real world.
+At the same time, the stakes are getting higher. Models are moving from “answering questions” to “doing the work”: analyzing financial documents, resolving legal cases, writing and debugging software, navigating complex enterprise workflows.The horizon of such tasks is getting longer too: agents are operating autonomously over hours and days. A bad choice of model for the task could cost not just thousands of dollars in tokens, but also time and customer satisfaction.
+That’s where Vals comes in: building the trust layer between models and the people who rely on them.
+Vals takes a fundamentally different approach to evaluation:
+test models on the work people actually want them to do, not on contrived exams.
+The team works with domain experts across different fields to turn real workflows into rigorous benchmarks, then builds automated grading systems that can evaluate the final work product to an expert standard. Instead of asking whether a legal model can pass the bar, Vals tests whether it can perform legal research; in finance, whether it can analyze complex documents; in coding, whether it can build a working application. The team works with domain experts to turn real workflows into rigorous benchmarks, then builds automated grading systems that can evaluate the final work product to an expert standard.
+Just as importantly, Vals has built the infrastructure to run these evaluations quickly, reproducibly, and securely at scale. Private test sets are kept private and have limited runs to protect against contamination and gaming, while Vals’ evaluation stack can produce benchmark results within hours of receiving model access. The result is a grading system that is both closer to real economical work and practical enough to keep pace with frontier model releases.
+Vals understands that benchmarks are perishable and adaptive. A good benchmark is supposed to become obsolete. If models have improved until every system scores nearly perfectly (so called “benchmaxing”), the benchmark has done its job, and it is time to build a harder one. Vals has been retiring saturated evaluations and continuously introducing new tasks as the frontier moves. In May, for example, the team swapped CorpFin for its new Excel Modelling Benchmark after CorpFin stopped providing enough differentiation between models.
+We believe this ability to continuously define the frontier is what’s needed by the industry to keep pace and make smart, informed decisions when it comes to AI adoption.
+Every market eventually needs an independent scorekeeper. When vendors grade their own homework, buyers need someone they can trust. Credit markets developed Moody’s and S&P; public markets rely on independent auditors; product manufacturers rely on UL to certify safety. These institutions emerged for the same reason: when sellers have more information than buyers - and every incentive to present themselves favorably - trusted third-party measurement makes the market work better. That’s where we’re at with AI which is evolving to be one of the biggest markets in the industry. The opportunity, and the responsibility, is enormous.
+Rayan Krishnan and Langston Nashold have been remarkably tenacious and thoughtful about this problem from the very beginning. Building AI’s independent scorekeeper requires an unusual combination: technical depth, skepticism, and the patience to keep rebuilding the test as the frontier moves. Rayan and Langston have all three. At Stanford, both co-founders studied computer science, had already been collaborating on real-world measurement problems years before starting Vals. That makes them uniquely suited not just to publish another leaderboard, but to build the trusted, adaptive evaluation layer the AI market will depend on.
+We’re thrilled to partner with Rayan, Langston, and the entire Vals team as they build the trust layer that will underpin the AI economy.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
