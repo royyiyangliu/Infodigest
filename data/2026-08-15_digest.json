@@ -1,0 +1,301 @@
+{
+  "fetch_date": "2026-08-15",
+  "fetch_time": "2026-08-14T17:49:47.184698+00:00",
+  "stats": {
+    "new_podcast_episodes": 1,
+    "new_articles": 2,
+    "new_tweets": 21,
+    "total_podcasts": 1,
+    "total_articles": 2,
+    "total_tweets": 21
+  },
+  "podcasts": [
+    {
+      "source": "No Priors",
+      "title": "What Chess.com Teaches US About Superhuman Capabilities, with CEO Erik Allebest",
+      "date": "2026-08-13 17:29 UTC",
+      "link": "https://www.youtube.com/@NoPriorsPodcast",
+      "orig_link": "",
+      "audio_url": "",
+      "duration": "",
+      "summary": "",
+      "lang": "en",
+      "chars": 50546,
+      "text_file": "data/2026-08-15/podcasts/no_priors__what_chesscom_teaches_us_about_superhuman_cap.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "a16z",
+      "title": "Charts of the Week: Head In The Neoclouds",
+      "date": "2026-08-14 14:11 UTC",
+      "link": "https://www.a16z.news/p/charts-of-the-week-head-in-the-neoclouds",
+      "summary": "Return of Horizontal SaaS? Equity Disinflation?; Towards an efficient frontier of token-maxxing; Lab Talent Wars;",
+      "chars": 12576,
+      "text_file": "data/2026-08-15/articles/a16z__charts_of_the_week_head_in_the_neoclouds.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Cursor + SpaceXAI: the fastest iterating team wins",
+      "date": "2026-08-14 14:07 UTC",
+      "link": "https://www.a16z.news/p/cursor-spacexai-fastest-iterating-team",
+      "summary": "Move in the right direction, faster than anyone else.",
+      "chars": 23859,
+      "text_file": "data/2026-08-15/articles/a16z__cursor_spacexai_the_fastest_iterating_team_wi.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2088120493224362487",
+      "date": "2026-08-14T04:28:15.000Z",
+      "text": "top singaporeans  agree\nhttps://t.co/2WBi1hPotT",
+      "url": "https://x.com/swyx/status/2088120493224362487",
+      "likes": 3,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2087977008253071816"
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2088074149260673441",
+      "date": "2026-08-14T01:24:06.000Z",
+      "text": "matt's latest: https://t.co/Dnukubm9Yk\n\nthariq's latest: https://t.co/BChJxtezPp\n\nbonus dont miss @_philschmid's banger https://t.co/zHEvfq72MP\n\nall 3 of these frontier skills guys contributing to the discussion is a beautiful thing to see",
+      "url": "https://x.com/swyx/status/2088074149260673441",
+      "likes": 10,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2088073777779515615",
+      "date": "2026-08-14T01:22:37.000Z",
+      "text": "human i/o is costly, so after listening to @mattpocockuk and @trq212 i made an /align-me modification which allows for batches of questions instead of round-by-round. same intuition as spec decoding, you speed up by looking ahead 2-10 steps\n\nworks INCREDIBLY for design explorations",
+      "url": "https://x.com/swyx/status/2088073777779515615",
+      "likes": 100,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2088057260807532867"
+    },
+    {
+      "source": "Josh Woodward",
+      "handle": "joshwoodward",
+      "tweet_id": "2088016871710957587",
+      "date": "2026-08-13T21:36:30.000Z",
+      "text": "3.7 Flash: Fast, 50% cheaper, happened in ~3 weeks https://t.co/LUq90z935F",
+      "url": "https://x.com/joshwoodward/status/2088016871710957587",
+      "likes": 498,
+      "retweets": 36,
+      "is_quote": true,
+      "quoted_id": "2087948481721962669"
+    },
+    {
+      "source": "Boris Cherny",
+      "handle": "bcherny",
+      "tweet_id": "2088014489438621990",
+      "date": "2026-08-13T21:27:02.000Z",
+      "text": "A weird experiment I've been trying the last few weeks is having Claude take over day-to-day maintenance of our apps. Seeing early signs of life that this might be possible.\n\nThe setup is straightforward: we have a Slack channel called proj-claude-maintains-apps. In it, Claude Tag runs a bunch of daily routines across iOS, Android, Desktop, web, CLI, and Agent SDK:\n\n- Crash fuzzer: open the app in a simulator and tap around to find ways to crash it, then root cause and fix the crashes\n- Dup unifier: scans the codebase for similar-yet-slightly-divergent abstractions, and puts up PRs to unify them\n- Dead-code remover: removes statically unreachable code, and adds logging to suspected dead code to check if it's really dead and if so, remove it the next day\n- Abstraction police: fixes leaky abstractions\n- a bunch more..\n\nResults have been surprisingly positive. Over the last few weeks, these routines have opened 388 PRs across our repos, 180 of which we merged after Claude Code Review + human review. We're now thinking about how to streamline this to make merging these kinds of mechanical changes easier.\n\nClaude generally gets these PRs right on the first shot, and if it doesn't, we ask Claude to tune its routines so it's better the next day. Sometimes it takes a few days of tuning. \n\nTo try a similar workflow, ask Claude Code or Tag, or create some routines directly at https://t.co/Z70hStEBH6. A few of the actual prompts I used below.\n\nHas anyone experimented with similar workflows?",
+      "url": "https://x.com/bcherny/status/2088014489438621990",
+      "likes": 2939,
+      "retweets": 160,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2088133823619895712",
+      "date": "2026-08-14T05:21:13.000Z",
+      "text": "Ask ChatGPT to roast your computer usage after a day. Install the Computer History plugin, do things as usual and kindly ask it to roast your behavior. It's ... insightful 👀\n\n=====\n\n- You don’t use Slack. Slack uses you. It accounted for 48% of your recorded activity. Your Mac is essentially a $3,000 Slack notification with a keyboard.\n- Your productivity system is clicking “Clear” until God intervenes. You clicked it 339 times while submitting 253 Slack messages. You are playing Whac-A-Mole against an organization chart.\n- Your most-used keyboard shortcut is Delete. 1,191 times, including 1,065 in Slack. You’re not drafting messages. You’re negotiating peace treaties between your first thought and your executive function.\n- You pressed ⌘C 133 times and ⌘V just 26 times. You acquire information like a Victorian gentleman collecting exotic birds and then apparently release most of it into the clipboard wilderness.\n- You opened 42 tabs and closed 53. Technically, this makes browser-tab management your most successful project of the day.\n- You switched between actual applications more than 200 times, while reading an X post that literally said, “You probably hate tab switching.” The call is coming from inside the Chrome window.\n- Your busiest hour was 9 p.m., with more than 1,500 Slack events. Apparently “end of day” is less a time than a theoretical concept you enjoy discussing in meetings.\n- Your document at the center of several important workstreams was called “Hello.” Nothing says organizational clarity like running half the company through a Google Doc named after the first thing software prints.",
+      "url": "https://x.com/thsottiaux/status/2088133823619895712",
+      "likes": 1280,
+      "retweets": 59,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2088103609477238858",
+      "date": "2026-08-14T03:21:10.000Z",
+      "text": "Work with Google docs, sheets and slides right inside ChatGPT.\n\nThis has changed how I write documents, brainstorm or proofread things. I just open it and then chat or talk my way through changes and it all happens right there in the flow. https://t.co/iiz1eKyp46",
+      "url": "https://x.com/thsottiaux/status/2088103609477238858",
+      "likes": 1560,
+      "retweets": 84,
+      "is_quote": true,
+      "quoted_id": "2088044956091089281"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2088019704803897705",
+      "date": "2026-08-13T21:47:45.000Z",
+      "text": "Sometimes you have have to go /ultrafast. https://t.co/rMP7sfxpB5",
+      "url": "https://x.com/thsottiaux/status/2088019704803897705",
+      "likes": 2723,
+      "retweets": 79,
+      "is_quote": true,
+      "quoted_id": "2087947721936359705"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2088108304274960667",
+      "date": "2026-08-14T03:39:49.000Z",
+      "text": "What do people include in their product specs these days to make them friendly and concise for both humans and agents? Or two separate sections for each?",
+      "url": "https://x.com/petergyang/status/2088108304274960667",
+      "likes": 7,
+      "retweets": 1,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2088036303816519734",
+      "date": "2026-08-13T22:53:43.000Z",
+      "text": "The biggest compliment I can give @maticrobots is that my wife runs it non-stop which is getting pretty annoying but keeps our floors super clean. 😅 https://t.co/42EphBF3aP",
+      "url": "https://x.com/petergyang/status/2088036303816519734",
+      "likes": 24,
+      "retweets": 1,
+      "is_quote": true,
+      "quoted_id": "2087962897267990915"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2087946170274570385",
+      "date": "2026-08-13T16:55:33.000Z",
+      "text": "I'm dealing with a family health situation and thought I would be using AI to research and understand the illness but in reality it's been most helpful to navigate the healthcare system bureaucracy.",
+      "url": "https://x.com/petergyang/status/2087946170274570385",
+      "likes": 123,
+      "retweets": 1,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "tweet_id": "2088074515188519182",
+      "date": "2026-08-14T01:25:33.000Z",
+      "text": "AI industry: this is an era of unlimited creativity, thanks to AI.\n\nAlso AI industry: we will all name our products ‘Studio’.\n\nI counted 20+. Here are a few :\n\nGoogle AI Studio\nVertex AI Studio\nWorkspace Studio\nCopilot Studio\nAgentforce Studio\nJoule Studio\nWriter AI Studio\nBox AI Studio\nAlibaba cloud Model Studio\nLabelbox Evaluation Studio\nSageMaker Studio\nCortex AI Studio\nLangGraph Studio\nAI Agent Studio x 4\n\nat least these guys make studio things :\nCanva Magic Studio\nElevenLabs Studio\n\nPS: If your AI product is also called Studio and I left you out, apologies. It’s not personal.",
+      "url": "https://x.com/realmadhuguru/status/2088074515188519182",
+      "likes": 12,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "tweet_id": "2087916590964851172",
+      "date": "2026-08-13T14:58:01.000Z",
+      "text": "Prompt debt is the new tech debt. \n\nWith every model update, you should be cutting at least 50% of your prompts.\n\nMost AI products have bloated prompts that are making your product quality worse.\n\nThe typical flow is: model fails at something -> add 10 rules. Tool call fails -> add 10 examples. Output is weird -> add formatting constraints.\n\n3 months later, your system prompt is a novel. \n\nMeanwhile the model is way smarter and your micro-managey prompts are turning it into a dumb rules machine.",
+      "url": "https://x.com/realmadhuguru/status/2087916590964851172",
+      "likes": 49,
+      "retweets": 1,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Cat Wu",
+      "handle": "_catwu",
+      "tweet_id": "2088006642189361564",
+      "date": "2026-08-13T20:55:51.000Z",
+      "text": "Join office hours with the Cowork team \n\nIf you're in marketing, sales, finance, legal, ops, or any non-eng role, book a 15 min slot to show us how you use Cowork so we can make it better for you: https://t.co/UxOKEjoala\n\nThank you for sharing your feedback!",
+      "url": "https://x.com/_catwu/status/2088006642189361564",
+      "likes": 100,
+      "retweets": 8,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2088049989306192106",
+      "date": "2026-08-13T23:48:06.000Z",
+      "text": "everything truly is code https://t.co/DbVE4jdQ7x",
+      "url": "https://x.com/trq212/status/2088049989306192106",
+      "likes": 463,
+      "retweets": 13,
+      "is_quote": true,
+      "quoted_id": "2087522034351796728"
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2088124774824521786",
+      "date": "2026-08-14T04:45:16.000Z",
+      "text": "ARC-AGI-3 is nearly solved by merely adding a coding harness. As predicted, coding generalizes LLMs. https://t.co/ynhHVkdObE https://t.co/8KPQvVsNb0",
+      "url": "https://x.com/amasad/status/2088124774824521786",
+      "likes": 100,
+      "retweets": 7,
+      "is_quote": true,
+      "quoted_id": "2087633198822117446"
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2088112901852971056",
+      "date": "2026-08-14T03:58:05.000Z",
+      "text": "It’s certainly true at Replit. https://t.co/tYRRVJYUf6",
+      "url": "https://x.com/amasad/status/2088112901852971056",
+      "likes": 305,
+      "retweets": 4,
+      "is_quote": true,
+      "quoted_id": "2087949300882190830"
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2088110851681386864",
+      "date": "2026-08-14T03:49:56.000Z",
+      "text": "By next year, using a computer will be optional. Work will radically change.",
+      "url": "https://x.com/amasad/status/2088110851681386864",
+      "likes": 717,
+      "retweets": 41,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2088020529039180204",
+      "date": "2026-08-13T21:51:02.000Z",
+      "text": "One command to rule them all (tokens).\n\nI predict that this will become the default way of using coding AI at scale. Uptime, model choice, lower costs, observability, ZDR…\n\nThe cool thing is that this command configures every *existing* coding harness, like Claude Code & Codex!",
+      "url": "https://x.com/rauchg/status/2088020529039180204",
+      "likes": 148,
+      "retweets": 13,
+      "is_quote": true,
+      "quoted_id": "2088018757189009515"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2087982033499042205",
+      "date": "2026-08-13T19:18:04.000Z",
+      "text": "Try https://t.co/L9YIua3HSf with 🆓 GLM 5.2 @ up to 500TPS from @blackboxai https://t.co/A6TgFHSIlR",
+      "url": "https://x.com/rauchg/status/2087982033499042205",
+      "likes": 244,
+      "retweets": 14,
+      "is_quote": true,
+      "quoted_id": "2087970380762013760"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2087900672083857815",
+      "date": "2026-08-13T13:54:46.000Z",
+      "text": "The best things in life are free https://t.co/OHr6NcWPnD",
+      "url": "https://x.com/rauchg/status/2087900672083857815",
+      "likes": 311,
+      "retweets": 10,
+      "is_quote": true,
+      "quoted_id": "2087899402379882808"
+    }
+  ]
+}
