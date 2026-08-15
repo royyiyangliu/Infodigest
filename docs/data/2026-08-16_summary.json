@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-16",
+  "generated_at": "2026-08-15T23:35:22.858639+00:00",
+  "stats": {
+    "tweets": 8,
+    "podcasts": 0,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Josh Woodward",
+      "handle": "joshwoodward",
+      "summary_zh": "Google Labs 与 Gemini 应用负责人 Josh Woodward 集中发布产品更新：**Gemini 3.7 Flash** 已上线 Gemini 应用；面向小企业的 Google Labs 实验产品 Pomelli 新增能力，可将商品照片一键转为短视频或 GIF。整体延续 Google 把 AI 模型能力快速下沉到营销与中小企业场景的节奏。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI Codex 团队负责人 Thibault Sottiaux 预告 ChatGPT 一批新功能上线，其中在 ChatGPT 内查找并快速预订餐厅现已变得非常便捷。他还发帖征集\"本周 Codex 帮你解决的难题\"，意在收集前沿编码用例、推动能力边界。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品经理、创作者 Peter Yang 研读了 X 的开源算法，指出其反垃圾模型 TweetSpamBot 会分析账号最近多达 **512** 个行为信号（发帖爆发、引用推文行为、时间间隔与浏览停留等），识别 TWEET_CREATE_BURST、QUOTE_TWEET_SPAMMER、CONTENT_AMPLIFIER 等模式，但高分只触发账号验证、并不直接给垃圾内容降权。他的核心洞见是该模型不读帖子正文，因此成熟的 AI 内容工厂只需用固定模板（钩子→数字→背景→结论）每天跨话题引用洗稿 **10** 余次即可绕过；若 X 不想变成 LinkedIn，就应针对这类高频模板化洗稿账号加强治理。"
+    },
+    {
+      "author": "Nan Yu",
+      "handle": "thenanyu",
+      "summary_zh": "与主流\"锯齿状智能（jagged intelligence）\"说法相悖，Notion 产品负责人 Nan Yu 认为 AI 并非\"锯齿状\"，而只是\"AI 形状的\"——正如不能因为狗在特定任务上与人类有强弱之分就说狗是\"锯齿状\"的。他还强调：若相信同事聪明，其想法必有触及真实问题或值得深思的动机在支撑，团队最出色的成果往往是多个想法的融合或对原始概念的多次衍生。"
+    },
+    {
+      "author": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "summary_zh": "Madhu Guru（@realmadhuguru）借经济学的杰文斯悖论类比 AI 编程：蒸汽机更高效反而抬高了煤炭需求、高级语言与电子表格降低成本后带来了更多软件与分析，AI + 软件工程同样会让远多的软件去解决远多、甚至过去经济上不可行的问题。他还认为 Cursor 对 AI 产品文化的影响被低估，\"Cursor for X\"开创了新的产品范式；当人人都能用 AI 构建时，真正的差异化在于产品感、领域知识、分发与执行力。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad 分享经验：即便不打算上架 App Store，通过 TestFlight 构建个人自用 App 的体验也非常好，鼓励开发者借此打造属于自己的应用。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 联合创始人兼首席执行官 Aaron Levie 复盘 Cursor 的成功，直言多数人严重低估了 AI 编程的市场规模——历史上最大的开发者工具退出量级也仅为低个位数十亿美元，且该赛道当时被普遍认为竞争激烈、近乎饱和。他认为 Cursor 一举击碎多重旧有认知：智能体编码的市场远比想象更大，在用户与底层模型之间、乃至模型本身都存在大量创新空间。其\"应用型 AI 打法\"值得所有做 applied AI 的人借鉴：找到智能体编码的正确产品形态、做模型与工作流之间的中立层、针对性后训练模型以降本或提效、搭建配套基础设施、并建立与品类契合的 GTM，预计这类案例会越来越多。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator 总裁兼首席执行官 Garry Tan 分享 AI 编码体验：用上新一代工具（GStack、Fable 5 之后）后，面对 Claude Code 里许多\"单向门\"式（不可逆）的抉择问题，如今可以直接回答\"采纳全部建议（Take all recommendations）\"并放心接受，显示对 AI 代理决策的信任度显著提升。他还力挺 YIMBY 阵营，调侃反对者反而在帮忙整理一份需要废除的加州法律清单。"
+    }
+  ],
+  "podcasts": [],
+  "articles": []
+}
