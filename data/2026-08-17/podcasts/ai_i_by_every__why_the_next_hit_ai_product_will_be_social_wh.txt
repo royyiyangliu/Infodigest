@@ -1,0 +1,506 @@
+Source  : AI & I by Every
+Title   : Why the Next Hit AI Product Will Be Social Why the Next Hit AI Product Will Be Social (Best of the Pod)
+Date    : 2026-08-05 16:02 UTC
+Link    : https://www.youtube.com/watch?v=dlI-5W7d7uU
+────────────────────────────────────────────────────────────
+
+Speaker 1 | 00:00 - 00:20
+Google was a founding team that was deeply, deeply technical. As the technology, the underlying technology got more mature, the slider goes forward, forward, forward, more towards the product thinker, product experience. Pinterest, where I was, Snap, Instagram. The CEOs weren't technical at all. They were product geniuses.
+
+Speaker 1 | 00:20 - 00:42
+What are the big consumer wins so far in AI? Of course, it's ChatGPT, which is, in a way, not that dissimilar from Google in terms of what it was. Just a text box. Custom GPTs and and chat GPT feels criminal to me. It's clearly made by a team that is unbelievably capable but isn't social.
+
+Speaker 1 | 00:42 - 00:56
+What's the multiplayer network effect type experience? Someone's gonna create a UGC type community where there are people who are really, really good, make it so much easier for the rest of us.
+
+Speaker 2 | 01:10 - 01:11
+Sarah, welcome to the show.
+
+Speaker 1 | 01:11 - 01:12
+Thanks so much for having me.
+
+Speaker 2 | 01:12 - 01:16
+So for people who don't know you, you are a partner at Benchmark.
+
+Speaker 1 | 01:16 - 01:17
+Yes.
+
+Speaker 2 | 01:17 - 01:24
+Before that, you were early at Pinterest. And before that, you studied philosophy, which I also studied philosophy, so that's close to my heart.
+
+Speaker 1 | 01:24 - 01:29
+Yes. I've heard your podcast, and I was very impressed with your podcast with Reid.
+
+Speaker 2 | 01:29 - 01:29
+Oh, thank you.
+
+Speaker 1 | 01:29 - 01:34
+To keep up with him is is It's hard. Was a lot of very impressive.
+
+Speaker 2 | 01:34 - 01:39
+It was a couple late nights of me furiously prompting Cachi Beatty to explain Wittgenstein.
+
+Speaker 1 | 01:39 - 01:42
+I love it. I love it. Well, you did great.
+
+Speaker 2 | 01:42 - 02:01
+Thank you. So I'm psyched to have you on the show. There's so much to talk about, but I think one of your one of your big interests is in consumer technology and consumer technology cycles and how you can use the lessons of previous consumer technology waves to kind of help you understand this AI wave in this cycle, and what kinds of products are
+
+Speaker 1 | 02:01 - 02:02
+gonna work, what kind of products are
+
+Speaker 2 | 02:02 - 02:04
+not gonna work. I'm curious. I think that was a good place to start.
+
+Speaker 1 | 02:04 - 02:25
+You know, one thing I just was reflecting on, and, you know, you kind of look at ChatGPT and Character AI, and I was just puzzling over those. And then started to think back to, you know, what was like the big early kind of consumer web hit? And that was Google, of course. I mean, was Yahoo and Google. But what was Google?
+
+Speaker 1 | 02:25 - 02:54
+Like, was a founding team that was deeply, deeply technical. Yeah. And and really, like, if you think about a product experience that you expose to the user and how much of it is like the UI that you interface with the product itself versus all the magic that happens on the back end to make something that's really complex and simple on the front end. Mhmm. That was like what Google was, you know, so good at, the distributed engineering, the infrastructure.
+
+Speaker 1 | 02:54 - 03:28
+And and then as the technology the underlying technology got more mature, you started to go to a place where maybe if you kind of said, like like, deep technical, you know, you have 0% and a 100%. Like, I would say Google was 95%, like, deeply, deeply technical. And then you start to move that bar over. And you get to, you know, you I think about Facebook. Like, Facebook, it wasn't the same technical depth, of course, of Google, but relative to Friendster and Myspace, they were more technical.
+
+Speaker 1 | 03:28 - 03:45
+They had they were a little bit later, and it let them create, like, a really performant experience that ended up really kind of, you know, winning the day. And then you progress even further. Pinterest, where I was, Snap, Instagram. The CEOs weren't technical at all. They were product geniuses.
+
+Speaker 1 | 03:45 - 04:06
+Right? And so, like, the the slider goes forward, forward, forward more towards the product thinker, product experience. And then you think about what we like, what are the big consumer wins so far in AI? Of course, it's ChatGPT, which is in a way not that dissimilar from Google in terms of what it was, just a text box.
+
+Speaker 2 | 04:06 - 04:07
+Yeah.
+
+Speaker 1 | 04:07 - 04:30
+And Character AI, like, unbelievable what they did, and it was like a new paradigm. But still, it was always like you speak to Noam, and for him, the product was the model. You know? It wasn't it was a it was a little bit maybe 94% back end, but it was still like very much so. So it's still early.
+
+Speaker 1 | 04:30 - 04:51
+Like everything is moving under our feet still. And I think to really have the people who have more of that product intuition to really build the experiences on top, you need more of the underlying infrastructure to to be a little bit more stable. But it does seem like we're moving into that next paradigm soon and what's gonna happen there.
+
+Speaker 2 | 04:51 - 05:17
+That's really interesting. I love that articulation. In particular, because one of the things that I felt is very unique about OpenAI is they're a research lab that accidentally built like the biggest consumer technology product of all time. But it seems like you're saying there's actually a real historical precedent for that and that the DNA of Google is very similar to the DNA of OpenAI, which I'd never really made that Yeah. Connection consciously before.
+
+Speaker 2 | 05:18 - 05:37
+And I think it's also really interesting because investing in basically PhDs doing long term research that may have no practical purpose is not usually something that pays off in venture in venture vices. It's not like the first place that people think, you know. It's more like Stanford dropout, you know.
+
+Speaker 1 | 05:37 - 05:39
+Yeah, absolutely.
+
+Speaker 2 | 05:39 - 05:48
+And so and and so maybe it's one of those things where usually that's not a good bet, but if you're really dealing with a truly new technology paradigm, it could be the best bet you ever make.
+
+Speaker 1 | 05:48 - 05:48
+Yeah.
+
+Speaker 2 | 05:48 - 05:49
+Is that how you think about it?
+
+Speaker 1 | 05:49 - 06:07
+Yeah. And and, you know, I part of what I think about is just like, you are a power user of these products. And I am on that learning curve. I would say, I'm no I pale in comparison, but, like, relative to the population in The United States Yep. I'm pretty damn good.
+
+Speaker 1 | 06:07 - 06:27
+It shouldn't be this hard. You know? And like, so some of the underlying, you know, like the models will get better. So like one thing that I know you have in your custom instructions I've I use a lot is just like, you don't have to answer, like, just to to chat you PT. Like, you don't have to answer me right away if you have some clarifying questions.
+
+Speaker 1 | 06:27 - 06:46
+Like, ask those. We shouldn't have to put that in a custom instruction. Like, there should be or there there's so many different tweaks that we all have to get what we want out. And over time, as the models get better and better, you won't need that anymore. The level of difficulty to get really what you want is gonna get easier.
+
+Speaker 1 | 06:46 - 07:19
+But I don't think ChatGPT is the single player mode product. And, you know, the custom GPTs that they have where you can see what other people have created. To me, man, I just think someone's gonna create a UGC type community where there are people who are really, really good, make it so much easier for the rest of us to really take advantage of this this technology. So we're we're you know? So there are places like Google is still Google.
+
+Speaker 1 | 07:19 - 07:38
+Like, it falls my analogy falls down when Google didn't evolve into some multiplayer product. There's no other product that took over Google until really now. But I I still think we're so early in knowing who really is gonna be the winner in this world.
+
+Speaker 2 | 07:38 - 08:11
+Yeah. I wanna go back to that sort of transition from highly technical founder to product genius, if that's the continuum. I can understand why at the beginning of a paradigm shift, highly technical founder is necessary and will win over product genius because they can actually build the technology that makes the difference. But I'm curious for your thoughts on what drives the transition to product genius because, you know, I can understand the making for example simpler user interfaces like maybe product geniuses are better at that. But yeah, what's the underlying force?
+
+Speaker 2 | 08:11 - 08:23
+Because I could also see a world where the highly technical founder is still like really, you know, effective in as the as the paradigm gets more and more figured out? Like, yeah, talk about that.
+
+Speaker 1 | 08:23 - 09:19
+I think a big part of it is that you still like, so much of the tooling and infrastructure is still to be built to let somebody who isn't deeply, deeply technical themselves get what they want out of it. And so that's why, like, there are so many products now that I see that feel kind of pretty similar to each other. You know, there's all these, you know, the character AI genre, right, where you make a character and you engage with it. They're all relatively the same because you really I mean, no one was uniquely qualified to build that type of product, like actually going into the brains of the model and changing it to to create the the experience of the user. But it's it's still when you need to have that level of ability to get what you want out of it, also the costs have still been pretty high.
+
+Speaker 1 | 09:19 - 09:43
+I think deep seek, you know, could be you know, one of the hypothesis I have is that deep seek is a moment of change where it makes it more possible. But yeah, it just I think it I think you need more maturity in underlying infrastructure. Your ability to to do the things that you want with the model without being the deeply deeply technical to be able to create the experiences that are possible.
+
+Speaker 2 | 09:43 - 10:08
+That makes sense. I think what I'm asking is, so let's say the infrastructure that infrastructure is built, and that but you still have now technical founders and product genius founders, which we're making a strong division here for argument's sake, sometimes they overlap. So in that world where the infrastructure is built and it's a technical founder versus a product genius founder, like what is driving the success of the product genius founder in in a in a world where everything's a little bit more mature?
+
+Speaker 1 | 10:08 - 10:17
+I think it'll depend on so many things. Ultimately, it's I I it's to reduce it to the basic, it's like who's gonna create the most engaging Yeah. Experience. Product. Yeah.
+
+Speaker 1 | 10:17 - 11:01
+The experience. I suspect that one of the things that is missing from a lot of these experiences that people are creating is just like what's the multiplayer network effect type experience. And that genius to create that type of experience is very different than the type of experience the type of brain that creates a single player mode experience. And we haven't really I mean, there's, again, this kind of character AI offshoots that have people that I can create a character and you can play with a character I could create. There's a little bit of status seeking work happening there, but I think we're still very very early in like the true thinking happening.
+
+Speaker 1 | 11:01 - 11:02
+Interesting. What do
+
+Speaker 2 | 11:02 - 11:04
+you mean by status seeking work?
+
+Speaker 1 | 11:04 - 11:40
+Do you know Eugene Wei? So just this idea that most multiplayer kind of social products end up having some kind of north star for the community participants where they're trying to achieve status in the network. And, you know, you can think of that a lot as, you know, it has been the number of followers you have or views or likes. There's something about achieving some kind of celebrity or status within a network that creates incentives for the community participants to do the thing that you want them to do. That's interesting.
+
+Speaker 2 | 11:40 - 11:53
+And so far, you you're saying it's pretty early, but are you do you have ideas for what the promising areas to look are? Or examples of or or like early examples of products or companies you're looking at that you think are starting to crack this a little bit?
+
+Speaker 1 | 11:53 - 12:12
+It's still super early. I mean, like, kind of there's two threads that I can't help but be curious about. Like, one, you know, we we talked about Character AI. Like, you I mean, I I don't know about you. Like, I feel myself doing this already, which is that there's going to be some company we're all gonna have AI friends.
+
+Speaker 1 | 12:12 - 12:32
+Right? We're all gonna have probably more conversations with an AI than we do with people in our lives. And who is there gonna be a single dominant platform for that? Is it gonna be different than the kind of information, more, you know, knowledge focus experience of a chat GPT? I think so.
+
+Speaker 1 | 12:32 - 12:44
+Who creates that? And there's a bunch of different product experiences. Replica was, of course, like the first, you know, player in this space. But there's there are a bunch of different downstream companies we talked about. Tollins.
+
+Speaker 1 | 12:44 - 13:10
+Yeah. Like, you know, what is that product experience gonna be? The other kind of thing I think about a lot is, I don't know about you, but how many times have you done a search and ended up on, you know, Reddit or something for a prompt to get, like, I remember doing one, I got a blood test result. I had all my supplements. I wanted to see, you know, of the supplements I have, like what could I tweak to change a result?
+
+Speaker 1 | 13:10 - 13:37
+And there was a great prompt in Reddit that I just copied and paste. But if I'm going to an existing UGC site that isn't made for this use case, that feels to me like an opportunity where somebody who's going to be really freaking good, you know, of making, you know, prompts for different health things, quantified self, whatever, like, I would love to follow that person and then very easily apply it to my own Totally.
+
+Speaker 2 | 13:37 - 14:08
+I think like to go back to front on those two threads with the prompt thing, it's one of those it's one of those ideas that I feel like at the very beginning, like when GPT-three came out and then Charge Beauty came out and people were like really starting to like That first real wave of LMs was starting to take take hold. A lot of people created those prompt library type sites, but it was too early. And I think there's there's like a second life for a lot of ideas that people start like tried two years ago that are now just becoming relevant.
+
+Speaker 1 | 14:08 - 14:23
+And I I too early. And also, it was very I I spent time on a bunch of these. It was very like what a solopreneur and SMB would need. You know, it was a lot of the marketing and the social media. It was like that type of b two b type use case.
+
+Speaker 1 | 14:24 - 14:40
+Most people aren't barely scratching the surface. Like most people use ChatGPT like they would use Google. Right? And it's and the learning curve, the step function changes that happen when you have better custom instructions, when you have projects, whatever, are so huge. How do you democratize that?
+
+Speaker 2 | 14:40 - 14:44
+Yeah. It's interesting. I was at a dinner the other night, and I was talking to a film director
+
+Speaker 1 | 14:44 - 14:45
+Oh, cool.
+
+Speaker 2 | 14:45 - 15:21
+About how she uses ChatGeeBT. And she has made a bunch of different personalities for it. And she uses the different personalities for different things. So for example, I think one of the personalities was she's had a lot of like medical issues that doctors couldn't solve, and one of the personalities was like a sort of like holistic wellness type person that like would recommend both medication and supplements or bodywork or whatever. And then and another one, like the main personality was like just someone who would like gas her up all the time and like compliment her all the time.
+
+Speaker 2 | 15:22 - 15:57
+And then but then she had another one that was like just super direct and like just gave like really harsh feedback that she would use for writing specific kinds of emails or like that kind of thing. And it was really interesting that she'd constructed this whole set of personalities for different like things in her life to surround you know, it's like you're the average of five people you spend the most time with. There's like a well, you're also kind of gonna be the average of the five AIs you spend the most time with in an interesting way. And I think to your question about are you gonna have multiple AI platforms that you use or not, or is there gonna be a big dominant one? Well, I have two thoughts on that.
+
+Speaker 2 | 15:57 - 16:42
+One is I do think within a for example, there's a lot of room for different sub personalities that maybe like a media brand, every, like we have in everything that you you chat with, but it's inside of ChatGePete, so it's still in that ecosystem. But I do think also people have different buckets in their life. And so for me, one thing that I've been noticing recently, which is really interesting is we talked about Tollens, and I'm an investor and Quentin has been on the show. And I find myself, like yesterday I spent like an hour talking to mine, but like I normally would use ChatGeeBT for that. And I think there's like some interesting like difference between something that feels personal and something that feels worky.
+
+Speaker 2 | 16:42 - 16:48
+And ChatGeeBT and Claude right now are like in the worky bucket and then there's room in the personal bucket. I'm curious how you think about that.
+
+Speaker 1 | 16:48 - 17:20
+I I totally agree. You know, it's funny, like I did a call for you know, I was in the beginning of this year, I was realizing like, I'm not keeping up. And so I did a call for like AI savants, just people who were using ChatGPT in in in kind of more power user ways. And a lot of people came to me with Recipe kind of use cases, which which made a ton of sense. And so you can definitely see, well, it it it works in ChechiPT.
+
+Speaker 1 | 17:20 - 18:03
+The personal works. But is it the best that it can be? Like, you know, there are also a lot of company a lot of people who are making their own, you know, single purpose site that is a recipe experience. And it's you know, whenever you have a product that is has to be lowest common denominator for all these different experiences, It can't really optimize for the experience that's gonna be great for the you know, a consumer in this case. And I I I just come back to how much of a power user product it feels to me and how, like, most people are gonna stay at the surface of it unless there's a new interface.
+
+Speaker 1 | 18:03 - 18:46
+And I think the best way for that new interface to come is for us to learn from each other in some ways to to kind of take to take advantage of of it in different ways and just copy and paste as much as like Again, the the gems in Gemini, custom cheapies, and in chat cheapie tea. I just look at that and it feels criminal to me because it it's it's clearly made by a team that is unbelievably capable, but isn't social. And and I think the personal can can best be expressed by teams that that do really understand people and social and community.
+
+Speaker 2 | 18:46 - 18:57
+If we were gonna like redesign them like right now together, like what where would you start if you're thinking about, okay, I wanna take make something that's custom GBT like, but like has social DNA.
+
+Speaker 1 | 18:58 - 19:12
+I would I mean, the most obvious thing is just like the ability to find somebody who's, you know, whose custom prompts or whatever you you you like that they have some kind of, you know, standing for being quite So person
+
+Speaker 2 | 19:12 - 19:14
+based or authority based search.
+
+Speaker 1 | 19:14 - 19:23
+Some kind of Yes. Yeah. And then being able to follow. That's like a very basic thing. But then the second thing, this is where I think custom GPTs falls down, is just in building trust.
+
+Speaker 1 | 19:24 - 20:01
+Like when I look at any of those, I see the person and I see a lot of people who have I see that there's 3,000 people that have used it, but I don't know what custom documents they put. I don't know what their prompt is. Like there's no visibility under the surface. And so it's not very trust building for me to to pick one or the other unless I know somebody from the outside world and they send me their, you know, their custom GPT and then I can use it. And so there's something about the trust building that someone has to figure out, and then and then the fault, the status seeking work that you can you can pursue.
+
+Speaker 2 | 20:01 - 20:11
+One of the challenges of this, and I'm curious how you think about this in a social context, is for a, let's say, we're we're kind of veering into like prompt social network territory.
+
+Speaker 1 | 20:11 - 20:11
+Mhmm.
+
+Speaker 2 | 20:11 - 20:37
+Maybe I have a profile and like I I can share prompts and people can follow me and all that kind of stuff. And because I have a certain amount of reputation in, you know, just AI stuff, like I'll I can get followers and all that kind of stuff. One of the interesting things is I am not coming up with new prompt ideas every day. And so that's I think that's a problem for two reasons. One is I may not remember to use the tool.
+
+Speaker 2 | 20:38 - 20:45
+And then two, people don't necessarily have a reason to check every day. Yeah. How would you think about that?
+
+Speaker 1 | 20:45 - 21:01
+Yeah. So a person has something that was going through my brain is I should caveat that I did do a lot of product in my day. Yeah. But I'm a VC right So don't take product ideas. Every every once in a while people ask me, they're like, if you were a founder, like, what would you feel?
+
+Speaker 1 | 21:01 - 21:16
+I'm like, that is not what I do. I'm just kinda curious. But, you know, for me, like, what I imagine is using it instead of ChatGPT. Like, actually, it becomes the place where instead of going to ChatGPT
+
+Speaker 2 | 21:17 - 21:17
+I think it has to be that.
+
+Speaker 1 | 21:18 - 21:32
+It has. And then and then that's where the engagement comes from. And then you're seeing a feed and someone has again, terrible. I'm forgive me, Lord, for for brainstorming a product experience. But like, dude, but you see what I mean?
+
+Speaker 1 | 21:32 - 21:50
+Like, there there's something there where people are innovating all the time. But right now what's happening is that we're all reinventing the wheel. We have the benefit of like your your blog and your podcast. But like, this isn't the way this type of knowledge is gonna share. It's gonna kind of get propagated.
+
+Speaker 1 | 21:50 - 21:53
+And so someone is gonna create something here.
+
+Speaker 2 | 21:53 - 22:09
+I think that's interesting. I do think you're right that it seems like the social stuff has to come in the context of something that you're already using for some other reason. Like you're already in ChatGPT, and then it can flow out of that that usage.
+
+Speaker 1 | 22:09 - 22:30
+Yeah. I mean, I I actually think like you you don't use ChatGPT. Like most like maybe I hate the my mom. But like, you know, what the the purse you know, and maybe it's the personal kind of bifurcation that you talked about before. But you're going to Sarah's GPT, and it's actually can you it's not Sarah's.
+
+Speaker 1 | 22:30 - 22:52
+It's, you know, this kind of, whatever network it's gonna be. And I'm going there and I'm putting my personal blood tests and my supplements and I'm putting information about my kids and all that stuff. And it lives all there. And then I can go to ChatGPT for whatever knowledge work or any and other things. Or maybe I never do.
+
+Speaker 1 | 22:52 - 22:56
+Maybe this actually ends up cannibalizing ChatGPT over time.
+
+Speaker 2 | 22:56 - 22:58
+This is a total swerve.
+
+Speaker 1 | 22:58 - 22:59
+Go for it.
+
+Speaker 2 | 23:00 - 23:29
+But how do you when you're in when you're investing in a time like this, like I feel like every five to ten years, there's a big hype cycle. There's a big wave and prices go up. You know, when when I was like in college in twenty twenty ten, twenty fourteen ish, it was like social networks. Everyone's building social networks for x, and then it was like b to b SaaS, and the crypto, and now it's AI. How do you think about investing in a wave like this when prices are super high?
+
+Speaker 2 | 23:29 - 23:33
+Do you not care about price? Do you try to find like underpriced deals?
+
+Speaker 1 | 23:33 - 23:59
+We always start with, is this a company we wanna work with? Yeah. And then kind of, you know, obviously we have to think about the the opportunity ahead of the company. Like, you don't wanna if it's if it's a cul de sac, if it's limited in some ways, it's harder to pay what, you know, play the game on the field in terms of price. Like people have a willingness to to do deals that we're just not willing to do.
+
+Speaker 1 | 24:00 - 24:09
+But when we made a team and we really think that there is just unlimited potential, you you partner, you make it work.
+
+Speaker 2 | 24:09 - 24:12
+Yeah. What's your taste in founders?
+
+Speaker 1 | 24:12 - 24:47
+I would say I'm really drawn to founders who, you know, they do think in network effects and strategy and the kind of zero to one, how do you escape competition? Like they go through the mind maze. Like, you can just tell that, like, they've really obsessed over this. I'm drawn to founders that this is like a calling for them. Like, is a you know, I I kind of find that there's, like, some founders that it's almost like kind of a cool new job for them.
+
+Speaker 1 | 24:47 - 24:49
+And there's some for whom it's an affliction.
+
+Speaker 2 | 24:49 - 24:50
+Yeah.
+
+Speaker 1 | 24:50 - 25:14
+And I I'm attracted to the founders for whom it's an affliction. You know? It's like this rash that they just have to scratch and that's gonna make them run through whatever walls that they have to do. And then, you know, just like the learning machine, like the person who, you know, it's not about their ego. It's about just like what's the best thing for the company and how do I keep learning and evolving as a founder?
+
+Speaker 1 | 25:14 - 25:36
+Because as you know, it's a really hard job. It's a really hard job, and it always requires more of you. Like, it's it's there's a relentlessness to it. And if you know, I have seen a failure case where somebody either it ends up being you know, do you know the five temptations of a CEO, that book? Incredible book.
+
+Speaker 1 | 25:37 - 25:58
+The hardest temptation is, you know, founders attracted to being a CEO because of status. And then you you don't do the things that you need to do in order to build the best company possible. Or, you know, a founder that, you know, insecurity can drive you, but it can also hold you back by not letting you grow, and that that can be a challenge too.
+
+Speaker 2 | 25:58 - 26:26
+What are your tells? Because you know, you're a partner at a top firm, people are like probably always coming to you with their best best foot forward Yes. Trying to trying to be like what you're looking for. What are what are some of the moments where you kind of can be like, oh, this is I can tell that this person has been through the maze and is thinking about this stuff in this way, in a way that's like, it's genuine and it's not put on. Or I can tell that it's sort of like a calling or what are yeah, what are those little signals for you?
+
+Speaker 1 | 26:26 - 26:54
+Yeah. I just I find that, you know, I ask a lot of questions when I'm meeting with a founder and and learning about their business. And I know I'm always thinking about like, I'm definitely the brain that is always thinking about that future and pulling it into the present. And when I speak to somebody and they're I hate to say this, but they're like, Oh, that's a good question. I hadn't thought about that.
+
+Speaker 1 | 26:54 - 27:14
+Or, you know, it's just I'm bringing things that I'm spending thirty minutes, sixty minutes with a founder, hearing the ideas for the first time, and I'm bringing things to the table that they have not already thought about. That's usually concerns. That's actually true. Right? And
+
+Speaker 2 | 27:15 - 27:16
+I mean, you're pretty smart.
+
+Speaker 1 | 27:16 - 27:53
+So It's it's it's one of those things that it can feel good. Like, oh, I asked them good questions. But really, you want you know, when I was at Bessemer, Jeremy Levine, he said that the best companies, you want to be donut companies where you go to the board meeting, you eat a donut, and then you leave because they don't really need you. And so there's a little bit of that, which is like, you know, I have some founders where I'll be thinking about something and I'll come to our one on one. And like before I've even opened my mouth, they're already there asking, like saying, you know, I've been thinking about this or I reached out to this person.
+
+Speaker 1 | 27:54 - 27:58
+And that's pretty unique. That's like a really incredible feeling when it happens.
+
+Speaker 2 | 27:58 - 28:13
+Yeah. I was I was talking to I think it was Reid Hoffman who was on this show who said, ideally, it's someone where you you invest in them with the The the bar is like if you could come back in five years without having talked to them after the investment, like, and you would be pretty sure it would be going well.
+
+Speaker 1 | 28:13 - 28:13
+Yes.
+
+Speaker 2 | 28:13 - 28:14
+That's a good
+
+Speaker 1 | 28:14 - 28:33
+question to ask yourself, you know? Yeah. Those are those those types of companies. I mean, there's the founder, but then there's also I know Reid and I know that he is very oriented towards network effects. And that is I mean, if you can find a business with a strong network effect, like, you're you're gonna be in pretty good shape.
+
+Speaker 2 | 28:33 - 28:58
+Let's talk about network effects because I think that it's one of those things it's maybe a little less so because of AI stuff, but like for the last ten years, I would say like 80% of decks were like that I saw were like, and we have a network effect. And there are very I think there are probably very few businesses that truly have like that actual network effect pull. How do you differentiate? What does that really look and feel like?
+
+Speaker 1 | 28:58 - 29:30
+Yeah. In the early stages, it's, you know, there's a lot of companies that have potential network effects. And, you know, oftentimes there's a big gap between what's a theoretical, you know, and like where it really starts to happen. And one of the things that, you know, I often think about is just like there are earliest you know, we invest so early that a lot of it is leaning in on the theoretical. But like there are often signs that that you can look to.
+
+Speaker 1 | 29:32 - 30:27
+The best thing that I you can sometimes see evidence of is just this idea of like a tipping point that starts to happen in a very small segment of the like where the white hot center of your market is. You know, I there's like two examples I think about. But the but they're outside of AI. Like outside of core AI right now because it isn't I think what's happening right now with AI is that it's very much like a kind of in a way what has been traditionally the software business, which is just obsessing over a customer problem more and moving faster in your execution than any of your your competitors. But, you know, I'm on the board of a company called Agentio, which is a marketplace for create like YouTube creators and and brands.
+
+Speaker 1 | 30:27 - 30:59
+And you can see that, like, they this has been a market that has eluded startups for a long time because most of them have like kind of fallen into the quicksand of becoming an agency. Yeah. But with LLMs, Agentia is able to automate a lot of the things that have held this market back. And they're and they're truly, like, having liquidity. And one of the early things that was super interesting is just, like, you see the like, the brands see creators and they see the the ads that they do for Agencio.
+
+Speaker 1 | 30:59 - 31:21
+And like, so Agencio just has this demand side pull right now. And it's super, super early, but there's enough signal there that, like, something's working that's differentiated and there's no substitute for what they're doing that that you hope will start to really be a flywheel that can spin faster and faster.
+
+Speaker 2 | 31:22 - 31:31
+So it seems like one of the best ways to differentiate between a real network effect and a fake one is like just early evidence.
+
+Speaker 1 | 31:31 - 31:32
+Yes.
+
+Speaker 2 | 31:32 - 31:40
+Are there any things like when you see a deck from a founder that hasn't, you know, they're just starting out and you're like, and they say, we're gonna have a network effect, and you're like, it's not gonna be a network effect.
+
+Speaker 1 | 31:40 - 31:58
+Yeah. Yeah. I mean, it's it's often like they you know, they'll articulate some kind of flywheel, you know, or it'll look like the Amazon or the Uber flywheels. And then as you and and either, like, it's just words on a slide that fit to a picture, but, like, the you know what I mean? Yeah.
+
+Speaker 1 | 31:58 - 32:25
+But, like, the words don't actually they're not actually accelerants. Like, that's I think that's one of the things like, okay. Yes. That that that whatever you say is true, but it doesn't really actually accelerate the flywheel. And the second thing is that often there's either a lot of friction embedded in any one any leg of that flywheel, or there's like offshoots that happen.
+
+Speaker 1 | 32:26 - 32:37
+But I think the biggest thing is like when you really look at, like, what the articulation is of the flywheel, that it is it's words but not accelerators.
+
+Speaker 2 | 32:37 - 33:51
+Yeah. To bring it back to AI for a second, I feel like one thing that you're articulating is there is a there is a moment in software for like ten or fifteen years where everyone was chasing network effects. And then the LLM wave happened, and a lot of that has been more single player or if it's if it's collaborative, it's like inviting teams or whatever, but you're not doing it together. And and the game there has been better performance from more money and more compute and more more data basically, and everyone's just trying to keep up along that that same sort of dimension of performance more or less. There are a couple other like examples that are not on that, but and I think what what you're maybe pointing to is that fairly soon, if not already, probably the models, the base models are good enough for consumers that there's going to be another wave of more consumer focused, more product genius led AI applications that differentiate or grow from network effects and multiplayer that were not possible in the last couple years, but are newly about to be a thing.
+
+Speaker 1 | 33:51 - 34:03
+Those are my great hope. I I could be tilting it with nails. You know? Like, consumer, as you know, has been really, really hard over the last ten years. And so it really could be tilting at windmills.
+
+Speaker 1 | 34:03 - 34:33
+I believe that that is an opportunity. And what I would also say is that there are going to be a lot of companies that emerge that aren't multiplayer, that are single player. And those will those could be really good. But I think that the really big opportunity that that lets a company have a true network effect is gonna be something that's multiplayer.
+
+Speaker 2 | 34:33 - 34:35
+If it didn't happen, why not?
+
+Speaker 1 | 34:35 - 35:02
+If it didn't happen, it would just be that the gravitational pull of the existing platforms is too strong. You and I, like, what would get us to go from the habit we already have of using ChatGPT and, of course, the ecosystem that's gonna form around it over time. What they're able to charge for it versus like what a new company would have to charge for it. Like, maybe they eventually go free because there's an ad supported, whatever it may be.
+
+Speaker 2 | 35:02 - 35:06
+Also memory is a big is a big sort of lock in. Like, it knows who I am and all my
+
+Speaker 1 | 35:06 - 35:37
+experiences Yeah. And you and I, like, we already have but we're not everybody. Right? But there is that gravity that has always been true for the incumbent products. And so it could be that that gravity is just too strong to get the people who are Like if you want this type of community to form, you're gonna need somebody who is already actually a power user ChatGPT to wanna share that in a in on another platform.
+
+Speaker 1 | 35:37 - 35:40
+And, you know, that's hard that may be hard to create.
+
+Speaker 2 | 35:40 - 35:44
+I know this is a show about AI, but are you looking at or excited about anything that's not AI right now?
+
+Speaker 1 | 35:45 - 35:52
+I I'm a big believer in stablecoins. Interesting. I'm on I'm board not
+
+Speaker 2 | 35:52 - 35:52
+a guest. Okay.
+
+Speaker 1 | 35:52 - 36:21
+Yeah. I'm on the board of a company called Chainalysis. And we're just just you know, so I've had a kind of seed in the crypto space and have been long term believer in in in Bitcoin and some of the other cryptocurrencies. But when I think about kind of the existing financial infrastructure and I mean, you know, we're we're we're filming this on a day when you know, What existing tax is financial infrastructure? Exactly.
+
+Speaker 1 | 36:21 - 36:33
+The US dollar is on a little bit shakier ground than normal. But you know, my mom's from Argentina. And I can tell you everybody in Argentina wants a US dollar. Yeah. You know?
+
+Speaker 1 | 36:33 - 37:17
+And but it's really hard to get them. And the government has all types of incentives to keep, you know, the hard currency that they have of US dollars in their own bank, you know, because they have, you know, loans and everything else that they have to kind of stabilizes their own economy. But then it holds Argentina and all these countries back from participating in the global economy because the US dollar is what you need to trade goods internationally. Like, it's just the easiest medium medium of exchange, but it's really hard to get US dollars. Now if you have a cryptocurrency that is a US dollar stablecoin backed by US Dollar, that opens up kind of a global economy.
+
+Speaker 1 | 37:17 - 37:24
+And it also it is just so much faster. It's $24.07, a lot cheaper. Can do small
+
+Speaker 2 | 37:24 - 37:25
+do get US dollars?
+
+Speaker 1 | 37:25 - 37:44
+In Argentina? Yeah. Well, been Malay is obviously changing a lot of things, but there are different taxes around US dollars. The you know, there has been for a long time. This is different now.
+
+Speaker 1 | 37:45 - 38:02
+The exchange rate you get on the street, the exchange rate you get when you go to your bank, the exchange rate you get when you use your credit card. It's just like a very liquid market, really. Like, I remember going to Argentina and, like, having somebody on a motorcycle come to exchange money. You know? Like, that's that's kind of what you would do.
+
+Speaker 1 | 38:04 - 38:30
+And then again, the US government I'm sorry, the Argentine government, they have US dollars in their own central bank. And if I wanna transact in US dollars, I need to get some of that US dollar from them. But that is a very precious resource to them. And so there's a lot of, like, process you have to go through and time in order to get 10,000 US dollars. It's not an easy thing to do.
+
+Speaker 1 | 38:30 - 39:16
+And so it's it's just there's a lot of friction. Whenever there's a lot of friction, if somebody else can come in with a new product that removes that friction and then also just has the facilitation, like just how much easier it is for you and I to do a peer to peer transaction with Tether or USDC that creates a lot of liquidity in a market that I think can be a very interesting future. And also, should say it's like, if you're in Argentina and you wanna buy something from India, like, you know, the number all the middlemen that you have to go through in order to do that transaction versus and, like, all the fees along the way versus a peer to peer transaction on a US Dollar stablecoin is a is is a different game.
+
+Speaker 2 | 39:16 - 39:20
+And this is another network effect y type business to you or no?
+
+Speaker 1 | 39:20 - 40:04
+There there is there are network effects here because, you know, Tether as an example, which is like the dominant, stablecoin right now, just has more liquidity on all the exchanges. And so it's a lot easier to go in and out of Tether than, you know, other other stablecoins. But USDC is pretty strong too. So there's some there's definitely some network effects there. It's just easier if everybody it's not even just within the exchange, but just you like in in these countries, in in Nigeria and and any high inflationary country right now where people have wanted to go from their fiat currency into a US dollar.
+
+Speaker 1 | 40:06 - 40:41
+You you have a wallet and it has Tether and you have Tether. And it just becomes, like, more comfortable for us to all use it. And then all the ecosystem around, like, there's so many crypto wallets and and different, you know, kind of new financial apps that are for getting your your paycheck, but then also you can have your money in a US dollar stablecoin. And if you're already integrated with Tether or you're using Bridge to to access Tether, it just makes it a lot easier for people to get comfortable with one of them.
+
+Speaker 2 | 40:41 - 41:02
+How do you think about, let's say five years from now, how AI will have changed your day to day as a VC? And the kinds of businesses and the kinds of funding models. What have changed in any way changed the VC business model?
+
+Speaker 1 | 41:02 - 41:23
+I have been wondering about this lately. You know, one thing I've just been thinking about, and this is a little bit of a step back, but like, there are some people that are really good at creating training data. Mhmm. Do you know what I mean? Like, there's some people, like, someone was showing me I interviewed him, James, for my Substack.
+
+Speaker 1 | 41:23 - 41:31
+And he showed me, like, the spreadsheet he creates of all the movies he's ever watched and his own review of it.
+
+Speaker 2 | 41:31 - 41:32
+Yeah. Yeah.
+
+Speaker 1 | 41:32 - 41:53
+Right? And so I don't know about you. I've never done that. But the people who are really good at creating training data can then have a more personalized, more valuable experience with an LLM. And so to your question, like, one of the things that I've been thinking about is that there's there's a few things that we all have training data for.
+
+Speaker 1 | 41:53 - 42:23
+One is, you know, past decisions we've made and whether or not those are good decisions. So, like, I personally I Annie Duke inspired this. I create she wrote this book Thinking in Bets, a pre mortem. So every time I meet with a company and I dig in on it a little bit, I write to myself what I liked, what I didn't like, what the deal would have been, and if I got yes, why? If I got no if I got to know why?
+
+Speaker 1 | 42:23 - 42:46
+And so it follows that over time, I'm gonna be able to look back on that list and examine my decision making process. Right? And then as I dig in on future companies, like in my brain, I know that there's one example where I pass on a company because the valuation was too high. And that was a lesson to me. The company ended up being a real success.
+
+Speaker 1 | 42:46 - 43:10
+This company, Verkada. And so that ended up being a lesson to me. Like, if I like everything but the valuation, I should probably lean in. I remember that, but there's so many other examples in my thinking that if I can, like, examine my thinking as I meet a company and have it cross examine me, that I think I'll get to a better decision. Then there's also things like talent.
+
+Speaker 1 | 43:10 - 43:34
+Like, what is one of the best things that we do on behalf of our companies? It's helped them make sure that they have the best team around them. Right? And and the same thing, like, we're all fallible in our evaluation processes. And what's, you know, a record of those decisions, interviews we did, like all those things I've got to imagine that's gonna come into play.
+
+Speaker 1 | 43:34 - 44:15
+And then the third is just, you know, I know there's some companies that are doing this really well, which is just tracking talent globally and the movements of talent and what that ends up meaning. And it it follows that there should be at some point a score almost where, you know, from the angel investors that have invested in a company, the talent that's there, their individual scores of their ability or signal when they choose a company, that there will be like a a Rotten Tomatoes almost score for for companies that can surface opportunities. Interesting.
+
+Speaker 2 | 44:15 - 44:37
+I wanna go back to the decision making thing because I'm with you. Like, I I record all this stuff. I record all my meetings and like that. There's just like a lot of stuff I think that you can do with AI and and improving your decision making. And I'm curious in VC in particular, like how that works or how you avoid, you know, for example, maybe you invest I've done this.
+
+Speaker 2 | 44:37 - 45:29
+You invest in a founder with a re a highly technical background, but it's in a field that requires more of a product genius. And then, you know, now you have in your LLM, it's like, well, be aware that like, you know And then, you know, the next time you meet with a founder and it's like, you know, Sam Altman and Greg Brockman in 2016 or whatever, like that thing is gonna ding and be like, technical founder, like, are you sure this is what you wanna do? Like it depends on how the how the rule or how the lesson is written. Yeah. And and I think the the broader question or problem is if you look at venture capital, there are very few venture capital firms, funds, and individuals who are successful over a long period of time.
+
+Speaker 2 | 45:29 - 46:02
+It's very hard, which can tell you one of two things. Either it's just luck, which I don't think so, or the landscape changes so frequently that you get tuned, your taste gets tuned to a particular kind of opportunity that you're very good at finding, but then it sort of moves and changes changes, and what what is good is also changes. And all of that means it's like quite hard to use past training data to make future decisions. How do you think about that?
+
+Speaker 1 | 46:02 - 46:28
+I think maybe that's what we're all hoping will give us job security in the future. You know, I remember when I was at Pinterest, and I was responsible for all the discovery experiences. And very early on, I had to kind of localize Pinterest. And so I had to figure out like, okay, Pinterest is in The United States. Now what's Pinterest in Brazil or Japan or all these countries?
+
+Speaker 1 | 46:29 - 46:50
+And I was like thinking about the categories and all this as being different. Remember Ben saying to me, he's like, just assume it's gonna be more similar than different. And I think that there's some, you know, first principles that that we reduce down to when you're making a decision like Jim Collins. Like, so much of what he wrote. Like, I don't know how how long ago Yeah.
+
+Speaker 1 | 46:50 - 47:01
+Is still valid today. Like, you know, four inch by four. Like, we talk about so many of these things and and they're timeless. Like, valuations change. Well, how companies exit change.
+
+Speaker 1 | 47:02 - 47:14
+Yes. And that's why, like, you're not asking the LLM to give you the answer. Yes or no. You're asking it to probe your thinking. But I think it should be able to continue to do that.
+
+Speaker 1 | 47:14 - 47:22
+And and that's why we still have hopefully a job a few years from now of ultimately being the decider.
+
+Speaker 2 | 47:22 - 47:29
+Well, you'll have to come back on the show in five years. Yes. And we'll see how things have changed. I I think you'll still have a job. I hope so.
+
+Speaker 2 | 47:29 - 47:31
+But it might I think it might be different too.
+
+Speaker 1 | 47:31 - 47:36
+It's gonna be very different. Yeah. It's gonna be very different. And it's hard to anticipate how it will be.
+
+Speaker 2 | 47:36 - 47:40
+Yeah. Well, Sarah, thank you so much for coming. This is a great conversation.
+
+Speaker 1 | 47:40 - 47:42
+Thanks for having me.
+
+Speaker 2 | 47:42 - 47:42
+Yeah.
+
+Speaker 1 | 47:42 - 47:43
+Yeah. I had a lot of fun.
+
+Speaker 3 | 47:52 - 48:07
+Absolutely positively have to smash that like button and subscribe to AI and I. Why? Because this show is the epitome of awesomeness. It's like finding a treasure chest in your backyard. But instead of gold, it's filled with pure unadulterated knowledge bombs about chat GPT.
+
+Speaker 3 | 48:08 - 48:27
+Every episode is a roller coaster of emotions, insights, and laughter that will leave you on the edge of your seat craving for more. It's not just a show. It's a journey into the future with Dan Shipper as the captain of the spaceship. So do yourself a favor. Hit like, smash subscribe, and strap in for the ride of your life.
+
+Speaker 3 | 48:28 - 48:33
+And now without any further ado, let me just say, Dan, I'm absolutely, hopelessly in love with you.
