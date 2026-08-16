@@ -1,0 +1,62 @@
+{
+  "date": "2026-08-17",
+  "generated_at": "2026-08-16T23:34:33.362203+00:00",
+  "stats": {
+    "tweets": 8,
+    "podcasts": 1,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "AI 工程师、Latent Space 主理人 Shawn Wang（swyx）分享了一则职业观察：与外界想象中\"顶级人物都在秘密小圈子群聊里互通有无\"不同，他惊讶地发现顶尖人物之间实际见面、彼此相熟的频率相当低，那种密室小圈子确实存在但都很短命、属于例外而非常态。他认为大众从头条看到的信息，基本也就是这些人所看到的全部；这说明大部分精力仍花在做实事上，而非经营叙事或八卦，他觉得这一点相当令人安心。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI 的 Thibault Sottiaux 撰文提醒：不能把\"每百万 token 单价\"当作标准化计量单位来比较 AI 成本，因为不同模型对同一段文本的 token 切分数量不同，单价低不等于账单低。他给出实测：在一组跨英文、技术、多语言和数字文本的对比中，GPT-5.6 Sol 的分词器用了 **766** 个 token，而 Claude Opus 5 估计需 **1,170** 个，相差约 **34.5%**。他强调真正该看的是\"每次成功产出的成本\"，必须在自己的实际用例上实测；同时他公开发问，企业为何仍用 Opus 而不换用更便宜的 Sol，透露出 OpenAI 当前主打性价比抢占竞品份额的姿态。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品主理人、播客主 Peter Yang（petergyang）认同 Dario Amodei 的观点：用 AI 攻克疾病、并加速医疗领域 AI 突破的监管审批，可能带来相当于其他一切收益总和 **10 倍**的人类福祉。他还预告了与 Riley Brown 的新一期节目，展示如何用 Codex 运营整个内容业务，例如让 Codex 抓取同领域 100 个高表现 YouTube 缩略图放进 Paper 画布，再与自己的照片混搭生成新缩略图。"
+    },
+    {
+      "author": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "summary_zh": "Madhu Guru（realmadhuguru）提出观点：在 AI 时代，B2B 软件再没有借口维持糟糕的用户体验，每一款软件产品都能够也应该做到像最好的消费级软件一样易用。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "工程师 Thariq（trq212，Anthropic）指出\"在不损失质量的前提下给内容加水印\"这件事有点反直觉、感觉不该奏效。为帮助自己理解其原理，他用 Claude 做了一个可交互 artifact 来演示水印机制，并分享出来供他人参考。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad（amasad）反驳\"AI 会因算力饥渴而在结构上集中权力\"的论调：这忽视了 **125 年**来算力性价比的超指数级增长，算法进步与硬件效率提升意味着没理由认为 AGI 级能力永远需要数据中心才能运行。他强调 scaling laws 并非物理定律，只是特定架构、目标、数据集下观察到的经验关系，换任一因素曲线就变；若以大脑为参照，真正的 AGI 很可能极其高效，当前的 scaling laws 甚至可能是\"缺陷\"而非特性，暴露了现有 ML 算法的低效。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch（rauchg）认为人们低估了 shadcn 对 React 成功的贡献。他曾把 React 比作\"成年人的乐高积木\"，但如今他觉得 React 更像是对积木几何形状（规范）的描述，而 shadcn 才是人们真正想要的东西——高质量、可复用又可调的组件；它是一种\"伪库\"，代码存在但本意是被吸收进你的上下文窗口里再加以重混。"
+    },
+    {
+      "author": "Nikunj Kothari",
+      "handle": "nikunj",
+      "summary_zh": "投资人 Nikunj Kothari（nikunj）分享了一段感悟：一位身处\"不性感\"领域的隐身期被投创始人抱怨，关键合同与合作卡在纯官僚流程的最后一码线上、可能拖累激进的时间表。他却笑着告诉对方，正是这种旁人极难复制、需要靠关系和忍受痛苦才能啃下的进展，长期看会成为最强的护城河。他总结：不必要的、表演性的 996 式痛苦不是护城河，但构建根植性的软件与关系所付出的痛苦才是。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "AI & I by Every",
+      "title": "Why the Next Hit AI Product Will Be Social Why the Next Hit AI Product Will Be Social (Best of the Pod)",
+      "date": "2026-08-05 16:02 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/watch?v=dlI-5W7d7uU",
+      "summary_zh": "Every 的《AI & I》主持人 Dan Shipper 对话 Benchmark 合伙人 Sarah（曾早期就职于 Pinterest），核心论点：下一个消费级 AI 爆款将是\"社交型\"产品。\n\n**技术型创始人向产品天才的滑块迁移**：从消费互联网史看，早期赢家依赖极深技术功力，随底层技术成熟，主导权逐步移向产品直觉。她将 Google 定为 **95%** 深度技术型，Facebook 相对 Friendster/Myspace 更技术化，到 Pinterest/Snap/Instagram 时 CEO 已\"完全不懂技术、是产品天才\"。当前 AI 的消费赢家 ChatGPT 类似 Google（\"就是个文本框\"），Character AI 约 **94%** 是后端模型驱动。她认为底层基础设施需更稳定，产品直觉型团队才能在其上构建体验，而这一\"下一范式\"临近。\n\n**单机 vs 多人（网络效应）**：她判断 ChatGPT/Gemini 的 custom GPTs、gems 是\"由极强但不 social 的团队做的\"，缺多人网络效应与状态激励（引用 Eugene Wei 的\"status seeking\"）。看好两条线：一是 AI 伴侣/朋友（人们与 AI 对话将多于与真人；Replica 为先行者，另提及 Tolans），二是\"提示词/知识社交网络\"——可关注某个健康/量化自我领域的高手并一键复用其 prompt，且需解决信任（现有 custom GPT 看不到底层 prompt/文档）与每日活跃留存问题；此类社交须寄生于用户已在使用的场景，甚至可能反噬 ChatGPT。她强调消费赛道过去十年极难，此判断或是\"与风车搏斗\"。\n\n**投资框架**：先问\"是否想合作的团队\"，再看机会天花板；偏爱把创业当\"必须挠的痒（affliction）\"而非\"酷工作\"的创始人，以及\"甜甜圈式公司\"（董事会上吃个甜甜圈就走、无需你）。识别真假网络效应看早期\"引爆点\"证据，警惕 PPT 上\"是词句但非加速器\"的伪飞轮；举例所投 Agentio（YouTube 创作者与品牌的市场平台），借 LLM 自动化打破过往沦为代理公司的困境，已现需求侧拉力。\n\n**非 AI 看好稳定币**：任 Chainalysis 董事，看好 USD 稳定币（Tether/USDC）为阿根廷、尼日利亚等高通胀国家提供获取美元、点对点跨境交易的低摩擦通道；稳定币也具网络效应（Tether 流动性最强）。\n\n**AI 对 VC 自身的改变**：善于\"创造训练数据\"者（如记录每次投资的 pre-mortem、决策复盘、人才评估）将获更个性化价值；她受 Annie Duke《Thinking in Bets》启发做投前记录，曾因估值太高错过 Verkada 而得教训。设想未来出现类似\"烂番茄评分\"的公司/人才信号评分。AI 不给是/否答案，而是\"拷问思路\"，VC 仍是最终决策者。"
+    }
+  ],
+  "articles": []
+}
