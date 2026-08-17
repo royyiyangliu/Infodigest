@@ -1,0 +1,281 @@
+{
+  "fetch_date": "2026-08-18",
+  "fetch_time": "2026-08-17T17:23:42.378018+00:00",
+  "stats": {
+    "new_podcast_episodes": 1,
+    "new_articles": 1,
+    "new_tweets": 20,
+    "total_podcasts": 1,
+    "total_articles": 1,
+    "total_tweets": 20,
+    "transcribed_this_run": 1
+  },
+  "podcasts": [
+    {
+      "source": "晚点聊 LateTalk",
+      "title": "179: 蒸馏风暴：一场无人公开谈论的技术竞赛",
+      "date": "2026-08-17 06:45 UTC",
+      "link": "https://podcast.latepost.com/179",
+      "orig_link": "https://podcast.latepost.com/179",
+      "audio_url": "https://aphid.fireside.fm/d/1437767933/19a49f52-28ee-4e25-b8e9-4f0ee70917e0/da707393-af0f-4607-9712-93f469508667.mp3",
+      "duration": "49:33",
+      "summary": "「关于蒸馏：误解、门槛与代价」\n这期播客，又是一次“编辑部”节目：我和《晚点 LatePost》的主笔高洪浩一起来聊蒸馏。\n这是一个所有人都在关注、却很少有人愿意公开谈论的话题，所以也很难邀请外部嘉宾。本期中，我们对蒸馏的讨论，来自过去一段时间，我们和数位来自不同中国 AI lab 的从业者的讨论以及一些公开资料。\n相关文章\n蒸馏风暴：AI 公司不愿公开谈论的技术竞赛\n已在上周发布。\n播客里，编辑了《晚点独家丨字节讨论训超 5 万亿参数模型，张一鸣：不蒸馏、别被 Coding 这种短期热点影响》的洪浩，也和我一起讨论了更多公司，如字节的更多做法和可能的原因。\n蒸馏这种诞生多年的技术到底是什么？为何在 2026 年出圈？大规模蒸馏如何实现？蒸馏能否成为一个模型研发团队的壁垒？它的代价又是什么？\n本期节目是一个引子，希望更多从业者、听友在评论区分享你们的想法、观察和思考。\n图注：斩杀线。处在一个模型，右边（比它贵），和下方（智能程度比它低）区域的模型，被该模型”斩杀“。不过这个图里没有反映另一个非常重要的维度，就是推理速度。\n本期嘉宾：\n程曼祺，《晚点 LatePost》科技报道负责人\n本期主播：\n高洪浩，《晚点 LatePost》主笔\n本期剪辑：甜食\n时间线：\n-蒸馏不是“抄答案”，蒸馏为何在 2026 年出圈\n02:04 典型蒸馏：让学生模型逼近教师的输出行为\n04:26 智能体轨迹蒸馏：可被“蒸”的数据越来越丰富\n06:41 不是所有使用强模型输出的训练都是蒸馏，但都违反用户协议\n08:05 蒸馏规模扩大的两个关键节点\n10:17 从为了压缩，到为了变强\n-字节为什么不蒸馏？\n13:51 张一鸣的判断：最多只能逼近，很难真正超越\n17:44 一个运动员可以既嗑兴奋剂，也勤加训练吗？\n24:41 其它公司的蒸馏讨论\n-蒸馏难在哪，如何实现？\n28:52 账号、真实问题与数据管线：大规模蒸馏的 know-how\n32:08 蒸馏行为可以被隐藏吗？\n34:56 学生模型超越教师模型的可能性\n37:29 一直逼近而不超越，问题是什么？\n-学生能否超过教师：技术、规则与更大的商业问题\n38:35 蒸馏的红线与“双标”争议\n44:05 更便宜的智能，如何改变前沿模型商业逻辑\n相关链接：\n蒸馏风暴：AI 公司不愿公开谈论的技术竞赛\n晚点独家丨字节讨论训超 5 万亿参数模型，张一鸣：不蒸馏、别被 Coding 这种短期热点影响\n177 期：\n详解 Kimi K3：强到冲击 Anthropic 估值的模型什么样？\n176 期：\n姚顺雨，来到腾讯 300 天\n163 期：\n详解 DeepSeek V4：Infra 巨鲸、百万上下文走进现实、极致效率优化\n80 期：\nOpenAI o1 来了！与硅流袁进辉聊 o1 新范式和开发者生态\nAnthropic：Detecting and preventing distillation attacks\nGoogle Threat Intelligence Group：Distillation, Experimentation, and (Continued) Integration of AI for Adversarial Use\nDeepSeek-R1 技术报告\nOpenAI 使用条款\n小红书@\n曼祺_火柴Q\n即刻@\n曼祺_火柴Q\n小红书@\n高洪浩 ALaNGo\n即刻@\n高洪浩 ALaNGo\n☆《晚点聊 LateTalk》建立「 播客听友群」啦！☆\n欢迎关注科技、商业大公司动态和创业创新的小伙伴进群交流，第一时间收听新节",
+      "lang": "zh",
+      "chars": 30111,
+      "text_file": "data/2026-08-18/podcasts/晚点聊_latetalk__179_蒸馏风暴一场无人公开谈论的技术竞赛.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "$12B of US ratepayers' money wasted on a modeling mistake and PJM wants to do it again",
+      "date": "2026-08-16 22:27 UTC",
+      "link": "https://newsletter.semianalysis.com/p/12b-of-us-ratepayers-money-wasted",
+      "summary": "American Grid design needs an overhaul, Why it is good to be full of cold air.",
+      "chars": 52154,
+      "text_file": "data/2026-08-18/articles/semianalysis__12b_of_us_ratepayers_money_wasted_on_a_modeli.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2089221797254459822",
+      "date": "2026-08-17T05:24:26.000Z",
+      "text": "5 years later and most of the best players here have been bought https://t.co/SemLNVzXXx https://t.co/Ow9t5om5zd",
+      "url": "https://x.com/swyx/status/2089221797254459822",
+      "likes": 19,
+      "retweets": 1,
+      "is_quote": true,
+      "quoted_id": "1429888354192019476"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2089149255382438340",
+      "date": "2026-08-17T00:36:11.000Z",
+      "text": "Codex\n\n✅ Almost 100% reliable\n✅ Occasional resets\n✅ Open-source\n✅ (will have Astra) https://t.co/DxNdAgpag5",
+      "url": "https://x.com/thsottiaux/status/2089149255382438340",
+      "likes": 7429,
+      "retweets": 245,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2089143488696705077",
+      "date": "2026-08-17T00:13:16.000Z",
+      "text": "GPT-5.6 Sol 1M in Codex. This used to only work for API keys, but we just flipped the switch and works for usage through ChatGPT accounts now too. \n\nThe same warning applies, there is a reason the current context length is the default, we have tuned it to ~perfection. But you do you!",
+      "url": "https://x.com/thsottiaux/status/2089143488696705077",
+      "likes": 3686,
+      "retweets": 171,
+      "is_quote": true,
+      "quoted_id": "2089082893804896524"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2089082893804896524",
+      "date": "2026-08-16T20:12:29.000Z",
+      "text": "Here is how to enable a 1M-token context window in Codex for GPT-5.6 Sol. \n\nEven though we have tuned the context limit in Codex to be set optimally when it comes to performance and cost, this is a common ask, so here it is documented.\n\nA larger context window lets Codex retain more code, tool output, and conversation history before summarizing older material. You need a model that supports it. And GPT-5.6 Sol, for example, has a documented 1,050,000-token window. \n\nOpen ~/.codex/config.toml and add or update these settings at the top level, before any [section] headers:\n\n```\nmodel = \"gpt-5.6-sol\"\nmodel_context_window = 1000000\nmodel_auto_compact_token_limit = 900000\n```\n\nThe first setting selects the model. The second tells Codex to use a one-million-token context budget. The third starts automatic history compaction around 900,000 tokens, leaving some headroom. Restart Codex client and start a new session after saving. \n\nTo try the configuration for a single CLI session without changing your defaults:\n\n```\ncodex -m gpt-5.6-sol \\\n  -c model_context_window=1000000 \\\n  -c model_auto_compact_token_limit=900000\n```\n\nHave fun, but also know that we tuned the default carefully!",
+      "url": "https://x.com/thsottiaux/status/2089082893804896524",
+      "likes": 11811,
+      "retweets": 925,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2089205978877268334",
+      "date": "2026-08-17T04:21:35.000Z",
+      "text": "I want to use this feature but I'm paranoid that it'll eat up all my tokens. Is it pretty token efficient? https://t.co/zjNnpGb4tJ",
+      "url": "https://x.com/petergyang/status/2089205978877268334",
+      "likes": 39,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2089182111282729470",
+      "date": "2026-08-17T02:46:45.000Z",
+      "text": "How do I set up this thing to work across all apps not just codex? https://t.co/2N2odVoXix",
+      "url": "https://x.com/petergyang/status/2089182111282729470",
+      "likes": 28,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2089111410219556916",
+      "date": "2026-08-16T22:05:48.000Z",
+      "text": "Damn nevermind https://t.co/h94Zwu2yio",
+      "url": "https://x.com/petergyang/status/2089111410219556916",
+      "likes": 0,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Nan Yu",
+      "handle": "thenanyu",
+      "tweet_id": "2089146409152872764",
+      "date": "2026-08-17T00:24:53.000Z",
+      "text": "Moving house, and I’m finally ready to let these old friends go https://t.co/UoTPwoe8sU",
+      "url": "https://x.com/thenanyu/status/2089146409152872764",
+      "likes": 19,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Nan Yu",
+      "handle": "thenanyu",
+      "tweet_id": "2088978519594352875",
+      "date": "2026-08-16T13:17:45.000Z",
+      "text": "History rhymes \n\nhttps://t.co/zy7sAmH9Hn https://t.co/vZTsJrH4x3",
+      "url": "https://x.com/thenanyu/status/2088978519594352875",
+      "likes": 2,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2088866513008873560"
+    },
+    {
+      "source": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "tweet_id": "2089022997407686663",
+      "date": "2026-08-16T16:14:29.000Z",
+      "text": "the more you earn, the more you crave the things money can’t buy.",
+      "url": "https://x.com/realmadhuguru/status/2089022997407686663",
+      "likes": 57,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2089085004966207679",
+      "date": "2026-08-16T20:20:53.000Z",
+      "text": "it says a lot that the creators of three of the most iconic web frameworks: django (@simonw), flask (@mitsuhiko) and rails (@dhh) were so AI pilled so early",
+      "url": "https://x.com/trq212/status/2089085004966207679",
+      "likes": 1630,
+      "retweets": 54,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2089069905375351169",
+      "date": "2026-08-16T19:20:53.000Z",
+      "text": "18x improvement in intelligence per joule in 16 months. https://t.co/lP62kI5rpr https://t.co/LAPXQHLgxJ",
+      "url": "https://x.com/amasad/status/2089069905375351169",
+      "likes": 976,
+      "retweets": 124,
+      "is_quote": true,
+      "quoted_id": "2089028986932470156"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2089179650891432270",
+      "date": "2026-08-17T02:36:58.000Z",
+      "text": "https://t.co/BaVgd3k0dc",
+      "url": "https://x.com/rauchg/status/2089179650891432270",
+      "likes": 1418,
+      "retweets": 35,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2089126690043916495",
+      "date": "2026-08-16T23:06:31.000Z",
+      "text": "We ran evals on GLM 5.3 cybersecurity capabilities. It's the new open frontier.\n\nGiven its lower costs, I expect this to be a boon for defensive security work. e.g., it means you can run https://t.co/KwrlahlCiK at least 3× more often! https://t.co/aCQDMoxAXI",
+      "url": "https://x.com/rauchg/status/2089126690043916495",
+      "likes": 537,
+      "retweets": 27,
+      "is_quote": true,
+      "quoted_id": "2089123749572616645"
+    },
+    {
+      "source": "Aaron Levie",
+      "handle": "levie",
+      "tweet_id": "2089209131391729763",
+      "date": "2026-08-17T04:34:07.000Z",
+      "text": "Pretty good way to think about the value of AI agents and where the opportunity lies. You have a technology that will tirelessly do all the things that you could never fully do before. Not because you didn’t want to or it wasn’t valuable, but because it was just not even remotely practical.\n\nThe upside with AI is to think about everything you can now throw intelligence at that won’t give up and what would the returns be. \n\nYou just couldn’t possibly find every security vulnerability in your codebase, because you couldn’t simulate every risk vector. You couldn’t read every contract or document to process the data and capture it to query later. You couldn’t comb through your customer base and look for every relevant data point for doing upsells. And so on. \n\nThis is a pretty clear way to think about how to deploy AI to get real gains, but also where the startup opportunities are as well. Go after the markets where more compute on a problem will qualitatively change what customers can now do in that domain.",
+      "url": "https://x.com/levie/status/2089209131391729763",
+      "likes": 88,
+      "retweets": 5,
+      "is_quote": true,
+      "quoted_id": "2089020697876275202"
+    },
+    {
+      "source": "Aaron Levie",
+      "handle": "levie",
+      "tweet_id": "2088995821056659901",
+      "date": "2026-08-16T14:26:30.000Z",
+      "text": "AI spend is nowhere close to hitting any walls. Obviously this data is weighted toward engineering-centric companies, with the top 1% spending $7,500/mo and top 10% spending $660/mo per employee on AI. But the general trend of continued exponential growth is occurring throughout all firm types. \n\nAnd what the top 10% is doing today may easily be what the top 50% is doing in 3 years from now, at least in terms of token volume if not in dollars. This is why there’s still so much opportunity right now in the diffusion of AI in the enterprise.\n\nEspecially as token costs come down, we will throw larger portions of work at agents. They’ll be scanning all our code for security issues, testing all of our software, writing coding for much larger projects, processing nearly all data, and much more. So this trend has no end in sight.",
+      "url": "https://x.com/levie/status/2088995821056659901",
+      "likes": 361,
+      "retweets": 50,
+      "is_quote": true,
+      "quoted_id": "2088314089659662799"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2089012934953599263",
+      "date": "2026-08-16T15:34:30.000Z",
+      "text": "Everyone go follow this guy on instagram, he's amazing https://t.co/zSIaTRCjpf",
+      "url": "https://x.com/garrytan/status/2089012934953599263",
+      "likes": 20,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2089012811007688746",
+      "date": "2026-08-16T15:34:00.000Z",
+      "text": "There's nothing more conservative than a liberal with a house. https://t.co/GshcvD1duN",
+      "url": "https://x.com/garrytan/status/2089012811007688746",
+      "likes": 322,
+      "retweets": 17,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Nikunj Kothari",
+      "handle": "nikunj",
+      "tweet_id": "2089212708621291766",
+      "date": "2026-08-17T04:48:20.000Z",
+      "text": "What are your favorite technical papers that you have read end to end this year? \n\nAnd separately what are the most riveting reads (scifi ideally) that I should read this year?\n\nI try to parallelize both to keep things interesting 😅",
+      "url": "https://x.com/nikunj/status/2089212708621291766",
+      "likes": 3,
+      "retweets": 1,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Steinberger",
+      "handle": "steipete",
+      "tweet_id": "2089154019885490449",
+      "date": "2026-08-17T00:55:07.000Z",
+      "text": "Was wondering what this new icon in my menu bar is that I didn't enable and that loaded a slow html box.\n\nTime for Chrome Lite? https://t.co/4Q64q7vdfl",
+      "url": "https://x.com/steipete/status/2089154019885490449",
+      "likes": 147,
+      "retweets": 4,
+      "is_quote": false,
+      "quoted_id": null
+    }
+  ]
+}
