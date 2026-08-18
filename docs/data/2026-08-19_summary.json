@@ -1,0 +1,52 @@
+{
+  "date": "2026-08-19",
+  "generated_at": "2026-08-18T23:34:38.655161+00:00",
+  "stats": {
+    "tweets": 6,
+    "podcasts": 0,
+    "articles": 1
+  },
+  "tweets": [
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "AI 工程师社区 Latent Space 创始人、AI Engineer 大会组织者 Shawn \"Swyx\" Wang 高度评价了 Trajectory 团队在\"持续学习（Continual Learning）\"方向的工作，称其在雄心勃勃的目标上执行得很有品味。他转述该团队的 @rronak_ 系统阐述了持续学习中尚待解决的核心数据问题，重点指出仅靠 GRPO 并不够，必须转向 on-policy（在线策略）方法，并逐一修复由此带来的各种问题。"
+    },
+    {
+      "author": "Josh Woodward",
+      "handle": "joshwoodward",
+      "summary_zh": "Google 旗下负责 Gemini 应用的副总裁 Josh Woodward 公布了一份 Gemini 产品改进进度清单：未来 1-2 周将测试改版后的 Workspace 工具；新版 3.7 Flash 在工具调用（tool calling）能力上已有提升、后续还会加强；全新的\"Projects\"设计已完成、正在实现中；目前已支持 49 个连接器并持续增加；同时修复了触发过度（over-triggering）等多个最严重的 bug。整体显示 Gemini 正密集迭代以对标竞品体验。"
+    },
+    {
+      "author": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "summary_zh": "Madhu Guru（@realmadhuguru）分享了做好 AI 评测（evals）的实操方法论：先挑一个自己非常熟悉的工作流，想办法把它的质量变得可度量；深入研究真实的调用轨迹（traces）——典型用户的提示序列、每一步及端到端的理想响应；针对产品失败之处（如混乱的工具调用返回、上下文缺失）专门构造能捕捉这些问题的轨迹。有了好的 eval 后，要让它能自动、可重复地运行，并随用户行为演变持续保持与线上真实流量一致。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic（Claude Code 团队）的 Thariq（@trq212）提出一个与主流相悖的判断：近期程序化生成艺术、视频编辑和 3D 游戏 demo 让他更倾向于认为，在大量创意工作上 LLM 代码模型正胜过扩散（diffusion）模型。他认为代码的优势在于更容易编辑、朝想要的方向微调，并能导出与现有工具协同。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad 强调 AI 时代的安全实践：仅扫描代码漏洞还不够，更重要的是通过渗透测试（pen testing）主动尝试攻破它们。他还观察到一支被投团队的现象——其融资材料里完全没提\"AI\"，却拥有 AI 级别的增长率，并因高度\"AI 化\"而把团队规模压到本可膨胀 10 倍的水平，暗示 AI 正让高增长与精简团队并存。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch 借新产品 Cursor Origin 调侃了 GitHub：现在可以把代码仓库托管在 Cursor Origin 上并通过它部署到 Vercel，而 Cursor Origin 本身就跑在 Vercel 上——他打趣道\"与 GitHub 不同，它是在线的\"，影射 GitHub 近期的宕机。"
+    }
+  ],
+  "podcasts": [],
+  "articles": [
+    {
+      "source": "a16z",
+      "title": "Your Favorite Creator Isn’t Real—Does it Matter?",
+      "date": "2026-08-17 19:35 UTC",
+      "link": "https://www.a16z.news/p/your-favorite-creator-isnt-realdoes",
+      "chars": 13477,
+      "summary_zh": "a16z 作者用一个由 AI 生成的虚拟角色\"Janie\"（自称参加阿拉巴马大学姐妹会招新 Bama Rush）做了一次生成式媒体实验，观察观众如何判断\"真人 vs AI\"、以及当他们发现是 AI 后态度会如何变化。核心投资看点在于成本曲线与模型能力的迭代速度：整套内容仅需每天约 **30 分钟** 投入 + 约 **100 美元** 算力额度即可产出。角色由单张 ChatGPT 生成图起底，视频用 **Minimax 3**（说话）、**Grok Imagine 1.5**（跳舞/无声片段）、**ElevenLabs**（音效）拼装；刻意跳过被视为拟真标杆但更贵（每 8 秒片段 **2–5 美元**）、且作为 TikTok 自研模型更易被平台标记的 **Seedance 2.5**。\n\n数据侧：账号一周内涨到 **1,300** 粉丝、单条视频数万播放，首条视频近 **10 万** 播放、**100+** 评论（约 **70/30** 分为\"可爱\"与\"这是 AI\"）。TikTok 自动给 **20** 条视频中的 **8** 条打了\"含 AI 生成内容\"标签，但对播放和评论无可见影响。作者提到关键的能力跃迁：去年的角色\"Tinsley\"因帧间人脸/声音不一致、腿部渲染不可靠而\"不够真\"，今年已解决角色一致性问题，Janie 甚至\"太真\"以致作者主动把分辨率从 2k 降到 720p 以模仿手机拍摄。\n\n值得注意的行业信号：观众的\"AI 鉴别力\"进步快于模型造假力——用户靠抽屉数量不一致、衣物文字乱码、手部等破绽识破，去年 **28** 条视频才揭晓、近 **9 万** 人观看，今年数天即被集体判定为 AI。但被识破后互动不降反升，观众转而点评创作与叙事。作者的投资/产业判断：\"是否用了 AI\"将逐渐成为无意义的问题，真正重要的是创作者用 AI 做了什么；生成工具降低了资金、技能与外形门槛，让更多人表达创意。同时强调**披露（disclosure）**的价值：隐藏 AI 会让人把它当\"骗术\"，公开则能重建人与作品间\"有人构思、做选择、用 AI 实现\"的信任契约——这也是对抗\"AI slop\"标签、推动技术被接受的关键。参照案例包括 CGI 网红 Lil Miquela（**2016** 年推出、涨到数百万粉丝、接过 Calvin Klein/Prada 合作）与去年播放量达数十亿的\"Italian brainrot\"。结论：此类内容\"供给\"即将爆发式增长，Janie 只是早期样本。"
+    }
+  ]
+}
