@@ -1,0 +1,76 @@
+Source  : a16z
+Title   : Meet the a16z Talent Engineer Fellows
+Date    : 2026-08-19 18:01 UTC
+Link    : https://www.a16z.news/p/meet-the-a16z-talent-engineer-fellows
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+We are excited to announce the fellows who will be part of the inaugural a16z Talent Engineer Fellowship, an 8-week cohort of talent leaders for the people building the next operating system for recruiting.
+We received thousands of applications from talented people around the world. Today, we’re thrilled to share more about the inaugural cohort of 50 fellows who are leading talent at companies like Jack & Jill, Ashby, OpenAI, AirBnB, Clay, Decagon, and Ramp.
+Many are talent engineers who are building 0-to-1 AI-native talent systems and now lead- or are the powerhouses behind those functions at high growth AI companies. Folks like
+Jared Long
+,
+Scott Bianco
+and
+Samantha Moberly
+from Cursor,
+Dan McCarthy
+at Zapier,
+Cynthia Chen
+at Decagon,
+Danielle Poreh
+and
+Ryan Ellis
+at Clay,
+Umesh Khanna
+and
+Ishan Deshpande
+at SpaceXAI,
+Johnny Sanchez
+at Airbnb,
+Saya Iwasaki
+at Notion,
+Jaime Jose
+at Ramp,
+Tommy Kilmer
+and
+Brian Hickey
+at OpenAI
+, and more.
+Some are technical leaders redefining talent, building agentic headhunters, career development platforms, and talent-matching systems at scale like
+Jeffrey Li
+from Paraform,
+Shahriar Tajbakhsh
+at Metaview and Fillmore,
+Matthew Wilson
+at Jack & Jill,
+Sahil Seth
+at Talent Pluto,
+Edmund Cuthbert
+at Superposition,
+Seb Cuadros
+and
+Ali Alobadi
+at Fonzi, and more.
+Others are founders taking people graphs to the next level, scaling the infrastructure behind how people and networks connect like
+Pieter Ouwerkerk
+at Happenstance, and
+Jan van der Vegt
+at Exa.
+Congratulations and welcome, a16z Talent Engineer Fellows!
+Sign up here to stay in the loop about future fellowships and a16z opportunities.
+Sign-up
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

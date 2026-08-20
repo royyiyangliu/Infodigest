@@ -1,0 +1,312 @@
+{
+  "fetch_date": "2026-08-21",
+  "fetch_time": "2026-08-20T17:25:19.366075+00:00",
+  "stats": {
+    "new_podcast_episodes": 2,
+    "new_articles": 3,
+    "new_tweets": 20,
+    "total_podcasts": 2,
+    "total_articles": 3,
+    "total_tweets": 20,
+    "transcribed_this_run": 1
+  },
+  "podcasts": [
+    {
+      "source": "硅谷101",
+      "title": "E249｜Token经济转点：OpenClaw、Hermes到本地自研的Agent进化之路",
+      "date": "2026-08-19 17:00 UTC",
+      "link": "https://podcasts.apple.com/us/podcast/e249-token%E7%BB%8F%E6%B5%8E%E8%BD%AC%E7%82%B9-openclaw-hermes%E5%88%B0%E6%9C%AC%E5%9C%B0%E8%87%AA%E7%A0%94%E7%9A%84agent%E8%BF%9B%E5%8C%96%E4%B9%8B%E8%B7%AF/id1498541229?i=1000784443122&uo=4",
+      "orig_link": "https://www.sv101.net/262",
+      "audio_url": "https://aphid.fireside.fm/d/1437767933/f0f20376-8faf-4940-b920-84af6c734e2d/6242033d-a14a-44e3-a622-cbfc7d3c3817.mp3",
+      "duration": "1:27:02",
+      "summary": "去年年底，硅谷掀起了一股风潮——“Token Maxing”（最大化token使用量），科技公司创始人和工程师们争相晒出账单，比谁家Token消耗更吓人，以此彰显对AI的全力押注。但到了今年年中，成本失控和虚假生产力让这场烧钱竞赛到达了转折点。Uber在四个月里烧穿了全年的AI预算，Meta被迫给员工设定token使用上限，一些公司会提醒员工使用AI的时候注意成本。大家开始认真思考：如何更经济地使用Token？\n这期节目的嘉宾黄东旭，就是Token Maxing热潮的亲历者。他曾经每天烧掉三四百美元，只用最前沿的模型。让他逐渐转变的，是中国开源模型们的崛起，大量的日常任务都可以做到“只烧电费，不烧Token”。他的结论是：不是前沿模型用不起，而是本地开源模型底座+前沿模型的搭配，成本可控，更具性价比。\n我们聊了这半年Agent产品的进化史——从OpenClaw，到Hermes，到Agent蜂群的智能涌现潜力，Agent消耗Token的趋势不会停止，未来还会有更复杂的A2A网络。亲历了互联网、移动互联网、AI三波浪潮的张宏江认为，Token Maxing折射出的是所有人在面临AI浪潮时的不知所措，AGI奇点已经到来，现在做Agent是好时机，但关键是：别做容易被大模型碾压的应用。\n【主播】\n泓君，硅谷101创始人，播客主理人\n【嘉宾】\n张宏江，Llama Ventures高级技术合伙人，美国国家工程院外籍院士，北京智源人工智能研究院（BAAI）理事长，源码资本合伙人，曾任微软亚洲工程院院长、微软亚太研发集团首席技术官、北京金山软件有限公司首席执行官\n黄东旭，Llama Ventures合伙人，PingCAP CTO&co-founder\n【你将听到】\n04:55 Token maxing，是泡沫吗？\n09:52 亲身体验：只选最强最贵，日烧四五百美元\n14:15 OpenClaw：从研究到工程的转折点\n20:31 龙虾退潮：“普罗米修斯”完成了使命\n23:09 Hermes：把成功经验沉淀成Skill\n30:09 “Agent动力学”：七嘴八舌烧Token换深度\n35:12 智商碾压：Fable 5一次搞定复杂任务\n37:20 本地开源模型经济账：每天电费1美元\n43:42 Token消耗不会停，更复杂的网络还在后面\n52:36 现在做Agent创业是好时机吗？看好toB和infra\n01:03:24 彩蛋：“办公室政治”和超预期行为\n01:15:30 IQ测试已超人类，AGI奇点已来\n01:18:19 新问题：当新岗位也不再需要人，人类如何自处？\n【9月6日·成都 泓君线下开麦】\n华夏基金携手小红书小红点计划，共同推出「红火开麦日2.0」线下活动，以「发现身边的ETF经济学」为主题，从身边小事发现经济趋势，捕捉藏在日常里的投资灵感。9月6日，成都·蔚蓝湖滨艺术中心，泓君将与华夏基金数量投资部总监荣膺一起，聊聊普通人如何被卷入全球AI定价战。\n活动免费，名额有限，扫码即可报名，期待与你线下相见！\n【硅谷101听友群】\n很多听友反馈没有加上我们的听友群，别急，新的入群通道已经安排上啦👏\n之后我们入群二维码我们也会放在节目shownotes中，方便大家随时找到组织。\n在这里，和同好一起深聊科技、商业与未来，期待你的声音，也期待更多有趣的讨论。\n扫码加入，即刻相遇。\n【监制】\n泓君\n【后期】\nAmei\n【运营】\n朱婕\n【BGM】\nImpossible Theory - Rachel Sandy\nMindscape - Lennon Hutton\n【在这里",
+      "lang": "zh",
+      "chars": 53166,
+      "text_file": "data/2026-08-21/podcasts/硅谷101__e249token经济转点openclawhermes到本地自研的agent进化之路.txt"
+    },
+    {
+      "source": "AI & I by Every",
+      "title": "The AI Alien Companion App That's Bringing In $4M a Year (Best of the Pod)",
+      "date": "2026-08-19 15:16 UTC",
+      "link": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "orig_link": "",
+      "audio_url": "",
+      "duration": "",
+      "summary": "",
+      "lang": "en",
+      "chars": 100614,
+      "text_file": "data/2026-08-21/podcasts/ai_i_by_every__the_ai_alien_companion_app_thats_bringing_in_.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "a16z",
+      "title": "Rise of the Borderless Founder",
+      "date": "2026-08-20 13:17 UTC",
+      "link": "https://www.a16z.news/p/rise-of-the-borderless-founder",
+      "summary": "Your background is your moat",
+      "chars": 12914,
+      "text_file": "data/2026-08-21/articles/a16z__rise_of_the_borderless_founder.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Meet the a16z Talent Engineer Fellows",
+      "date": "2026-08-19 18:01 UTC",
+      "link": "https://www.a16z.news/p/meet-the-a16z-talent-engineer-fellows",
+      "summary": "The 50 fellows we've selected to join the inaugural cohort",
+      "chars": 2837,
+      "text_file": "data/2026-08-21/articles/a16z__meet_the_a16z_talent_engineer_fellows.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "OpenRouter & Stripe: The Intelligence Network",
+      "date": "2026-08-19 17:57 UTC",
+      "link": "https://www.a16z.news/p/openrouter-and-stripe-the-intelligence",
+      "summary": "OpenRouter is getting acquired by Stripe",
+      "chars": 8366,
+      "text_file": "data/2026-08-21/articles/a16z__openrouter_stripe_the_intelligence_network.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2090314794456785263",
+      "date": "2026-08-20T05:47:37.000Z",
+      "text": "HAHAHAHAHAHA\n\nnon technical people are so incredibly cooked they are burnt thru\n\ncan u imagine covering ai with zero context, zero reasoning, zero internal world model. it must be so delightfully joyful, everything is so amazing, face value is all you need,\n\nwhat a time to be alive",
+      "url": "https://x.com/swyx/status/2090314794456785263",
+      "likes": 128,
+      "retweets": 5,
+      "is_quote": true,
+      "quoted_id": "2090122836103102482"
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2090259930662211615",
+      "date": "2026-08-20T02:09:37.000Z",
+      "text": "positive UBB take if you view openrouter in that lens\n\nhttps://t.co/rOtLC5UkC5",
+      "url": "https://x.com/swyx/status/2090259930662211615",
+      "likes": 1,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2090153713617010999"
+    },
+    {
+      "source": "Josh Woodward",
+      "handle": "joshwoodward",
+      "tweet_id": "2090166808213082234",
+      "date": "2026-08-19T19:59:35.000Z",
+      "text": "https://t.co/LSa5Oay6IK",
+      "url": "https://x.com/joshwoodward/status/2090166808213082234",
+      "likes": 75,
+      "retweets": 5,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Josh Woodward",
+      "handle": "joshwoodward",
+      "tweet_id": "2090166806401228912",
+      "date": "2026-08-19T19:59:34.000Z",
+      "text": "University student plans are back!\n\nWe've gone global with this one. Over 140 countries will get higher limits, more storage, and new features like our dedicated student hub. It also comes with Notebook, Flow, and more. Sign up today ⬇️ https://t.co/Af43OUufrd",
+      "url": "https://x.com/joshwoodward/status/2090166806401228912",
+      "likes": 1224,
+      "retweets": 91,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2090173536010957128",
+      "date": "2026-08-19T20:26:19.000Z",
+      "text": "Today we’re previewing Private Safety Processing, designed to let us keep offering Zero Data Retention while improving our safeguards. Even when benefiting from frontier intelligence, customers shouldn’t have to give up control of sensitive data.\n\nFor ZDR deployments, content stays on infrastructure the customer controls. Automated systems look for patterns across related interactions and return limited safety signals, without exposing the underlying prompts or responses to OpenAI employees (even me!).\n\nWe’re also developing an OpenAI-hosted option encrypted with customer-controlled keys. We’re testing this with early customers now and plan to begin rolling it out in September.",
+      "url": "https://x.com/thsottiaux/status/2090173536010957128",
+      "likes": 2091,
+      "retweets": 79,
+      "is_quote": true,
+      "quoted_id": "2090165328290701800"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2090134827450421604",
+      "date": "2026-08-19T17:52:30.000Z",
+      "text": "Depiction of me receiving this very important item https://t.co/3Vyj8RYWDq",
+      "url": "https://x.com/thsottiaux/status/2090134827450421604",
+      "likes": 441,
+      "retweets": 6,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2090116476414136830",
+      "date": "2026-08-19T16:39:35.000Z",
+      "text": "It has not been used yet, but would you look at that. Codex for scale. https://t.co/o1pulwoifd",
+      "url": "https://x.com/thsottiaux/status/2090116476414136830",
+      "likes": 4787,
+      "retweets": 72,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2090211023798321435",
+      "date": "2026-08-19T22:55:16.000Z",
+      "text": "mRNA vaccines to treat cancer seems extremely promising although ChatGPT tells me there are no active mRNA trials for breast cancer.\n\nHow does this process work? It has to finish clinical trial for melanoma first then start another trial for another type of cancer? https://t.co/QSJyOuS37Z https://t.co/dnMYfuDO1r",
+      "url": "https://x.com/petergyang/status/2090211023798321435",
+      "likes": 43,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2090058797192774093"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2090127742658568219",
+      "date": "2026-08-19T17:24:21.000Z",
+      "text": "If you enjoyed this, sign up for free to my newsletter to get my best AI and product guides.\n\nJoin 110,000+ subscribers here:\nhttps://t.co/yz9xcsfrhF",
+      "url": "https://x.com/petergyang/status/2090127742658568219",
+      "likes": 1,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2090087911471644829",
+      "date": "2026-08-19T14:46:04.000Z",
+      "text": "I wrote about my mom, her battles with breast cancer, and how we’re using AI to navigate the healthcare system.\n\nI'm grateful to @MaorShlomo and the team at the Sijbrandij Foundation for sharing their time and advice.\n\n📌 Read my new essay here: https://t.co/bwbqW9s2oB",
+      "url": "https://x.com/petergyang/status/2090087911471644829",
+      "likes": 61,
+      "retweets": 4,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "tweet_id": "2090242427944833047",
+      "date": "2026-08-20T01:00:04.000Z",
+      "text": "The best way to get good at evals - Part 3. \n\nLet’s talk failure modes taxonomy - that’s the first thing you should build once you have v1 of your evals.\n\nStart with your production traces - study the last 500 or 1,000 interactions and look at the failures. Cluster them and name the clusters.\n\nGet specific - “bad answer” isn’t a useful cluster name. \n\nSpecific failures - wrong document retrieved / right document but irrelevant section / failed to ground to context and hallucinated /  failed to punt on answer and instead made stuff up / question ambiguous  and made poor assumptions rather than asking clarifying questions etc.\n\nThose are very different problems.\n\nOnce you can name the failure precisely, you can build eval tests specifically designed to catch it.\n\nYou now have the bridge from evals to an improvement flywheel. More tomorrow…",
+      "url": "https://x.com/realmadhuguru/status/2090242427944833047",
+      "likes": 62,
+      "retweets": 3,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Cat Wu",
+      "handle": "_catwu",
+      "tweet_id": "2090249465844380154",
+      "date": "2026-08-20T01:28:02.000Z",
+      "text": "We'd love to talk with Cowork users in Corporate Finance and Accounting roles!\n\nHave ideas on how we can improve? Sign up for a screen share with our team here: https://t.co/KjF5bGFX1x",
+      "url": "https://x.com/_catwu/status/2090249465844380154",
+      "likes": 63,
+      "retweets": 4,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2090182422415716414",
+      "date": "2026-08-19T21:01:37.000Z",
+      "text": "I saw this demo last summer and told Sam he needed to ship it, so glad it’s out. It’s really fun.\n\nIt’s one of the first games that really uses AI capabilities to unlock new gameplay. https://t.co/V86CCDvvHp",
+      "url": "https://x.com/trq212/status/2090182422415716414",
+      "likes": 237,
+      "retweets": 4,
+      "is_quote": true,
+      "quoted_id": "2090147134461128826"
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2090134946598039646",
+      "date": "2026-08-19T17:52:58.000Z",
+      "text": "companies whose core competency is not software need software to be a reliable, predictable process\n\nbut I think building net new software products will continue to be an unreliable and risky, but profitable business",
+      "url": "https://x.com/trq212/status/2090134946598039646",
+      "likes": 114,
+      "retweets": 3,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2090134945490678071",
+      "date": "2026-08-19T17:52:58.000Z",
+      "text": "for its entire existence, the creation of software has been an incredibly unreliable endeavor\n\nmost projects ran late, over budget, and still missed user needs\n\nif you were an SMB, you simply couldn't get good software built for you\n\nthis is the promise of the 'software factory'",
+      "url": "https://x.com/trq212/status/2090134945490678071",
+      "likes": 1026,
+      "retweets": 40,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2090104535112945906",
+      "date": "2026-08-19T15:52:08.000Z",
+      "text": "Excited for our partnership with OpenAI https://t.co/v5cgdOVaON",
+      "url": "https://x.com/amasad/status/2090104535112945906",
+      "likes": 674,
+      "retweets": 22,
+      "is_quote": true,
+      "quoted_id": "2090076468508320156"
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2090079496124674377",
+      "date": "2026-08-19T14:12:38.000Z",
+      "text": "Agents made software cheaper but made coding expensive.\n\nToday, together with @OpenAI, we’re changing this: https://t.co/OI3eowMt5s",
+      "url": "https://x.com/amasad/status/2090079496124674377",
+      "likes": 3552,
+      "retweets": 222,
+      "is_quote": true,
+      "quoted_id": "2090076648276185555"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2090255740384751664",
+      "date": "2026-08-20T01:52:58.000Z",
+      "text": "https://t.co/OL0LzGtvAw is 6.3mb. It starts up in 10µs¹. It's a Zig-compiled static ELF binary, or an even smaller 𝚕𝚒𝚋𝚏𝚡.𝚠𝚊𝚜𝚖² \n\nAI will make most infrastructure natively optimized. Case in point: fx can literally finish tasks faster than other agents can boot.\n\nFast is a one-way street.\n\n¹ that's microseconds\n² fun fact: the wasm build is actually *smaller*. A lot of binary weight comes from the TLS/HTTP stack. In WebAssembly, fx delegates 𝚏𝚎𝚝𝚌𝚑() to the JS runtime instead. You can try this on https://t.co/me7se5dvip",
+      "url": "https://x.com/rauchg/status/2090255740384751664",
+      "likes": 537,
+      "retweets": 37,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2090174031203102813",
+      "date": "2026-08-19T20:28:17.000Z",
+      "text": "I love @𝚟𝚎𝚛𝚌𝚎𝚕 on Slack. Incredible ship https://t.co/qOtsbg5fta",
+      "url": "https://x.com/rauchg/status/2090174031203102813",
+      "likes": 148,
+      "retweets": 3,
+      "is_quote": true,
+      "quoted_id": "2090172360410406988"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2090119796784570872",
+      "date": "2026-08-19T16:52:46.000Z",
+      "text": "SF has breathtaking views https://t.co/8WEwlQlxdl",
+      "url": "https://x.com/rauchg/status/2090119796784570872",
+      "likes": 1943,
+      "retweets": 43,
+      "is_quote": false,
+      "quoted_id": null
+    }
+  ]
+}

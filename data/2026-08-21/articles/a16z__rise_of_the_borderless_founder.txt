@@ -1,0 +1,138 @@
+Source  : a16z
+Title   : Rise of the Borderless Founder
+Date    : 2026-08-20 13:17 UTC
+Link    : https://www.a16z.news/p/rise-of-the-borderless-founder
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+To hear more from Gabriel and Angela on Borderless Founders,
+watch the companion podcast on the A16Z Show
+.
+Silicon Valley has always run on the magic of paying it forward. Everyone here has been helped by someone, at a critical moment - for no reason other than just to be helpful.
+There’s a special version of this pay-it-forward culture for international founders. When you are from another country and you make it here, you find a community of people who have done the same. They, too, left behind their friends, family and primary language to pursue an idea they couldn’t quit. So when these founders get together, believe us, they have each other’s backs.
+The emergence of these international-tech-mafias has changed the playing field for international founders. There is now an
+advantage
+to having one foot in your home country, and one foot in Silicon Valley. You know the strongest engineers in your home market before the rest of the market catches on. You can get early customers from large companies at home that give you big proof points early. Your diaspora will answer your calls before your traction would normally warrant it - future hires, advisors, and design partners.
+We call these people “Borderless Founders.”
+If that’s you, you’ve already excelled across multiple dimensions at home. And you gain a genuine, underappreciated advantage in company-building by building your Silicon Valley reputation while compounding your network abroad. But - here’s the thing -
+you
+have to make it in the door here, first
+. You need to find someone who’ll sponsor your visa; you need to find somewhere in SF to crash. And before you even think about those things, you need the right introductions to Silicon Valley
+while
+you’re still back home.
+Borderless Founders: the a16z network is here to help you.
+The Borderless Founder advantage
+Startups are an exercise in
+preferential attachment.
+As Marc Andreessen says:
+“A startup needs to get into a loop where it’s accruing more and more resources as it goes... qualified executives, technical employees, future downstream financing, positive brand momentum, public perception, customers, revenue, and the ability to carry weight with the government... Economists call it
+preferential attachment
+.”
+Borderless founders possess three critical advantages when it comes to driving preferential attachment for their companies:
+Customers:
+Knowing leaders at home and across their diaspora gives Borderless Founders an outsized ability to land key design partners or customers early. This early traction with large organizations builds enterprise credibility much faster.
+Pit
+, a seed-stage company building AI platforms in Stockholm, closed H&M (a publicly listed company) and Stena Metall (a multi-billion dollar private firm in the industrial sector) as its first customers. While Pit’s CEO, Adam Jaffer, was previously the founder of Voi Mobility, he was not yet a household name on the global stage. His local reputation enabled him to land local brand name customers sooner, putting Pit on a global path much faster.
+Supersonik
+founder Daniel Carmona had won global hackathons and bootstrapped several companies in Spain, but he was not yet well-known in the U.S. He leveraged the Spanish diaspora to connect with the CRO of Salesforce—who had studied at the same university in Barcelona—and secured Salesforce as their first major contract. Daniel’s reputation among trusted Spanish peers as a top-tier expat helped accelerate the deal.
+Brand:
+Founders can receive significant press coverage in their home markets and become representatives of their country’s technology sector. Strong recognition early in their lifecycle can accelerate their brand internationally.
+For
+ElevenLabs
+, the Polish government recently joined the cap table and even opened an AI lab in Poland with the goal of inspiring more AI companies from its 45,000 technical graduates each year. This triggered a wave of international press for ElevenLabs.
+Talent:
+This may be the most significant advantage of all. In today’s fierce market for talent, especially in the Bay Area, Borderless Founders can identify and hire the best talent in their home countries before the rest of the market catches on.
+Segura,
+an insurance AI company in Brazil, recruits from lesser-known university robotics teams that attract some of the best and most highly motivated students.
+Pit
+knew several former founders ready to “get off the bench” and try again. The company hired 6 technical leaders who had each served as CTO at a Swedish unicorn.
+Tako
+identifies high slope Brazilians in the US who are looking for a big mission to work on back in their home country.
+Just look at the data!
+A16Z’s borderless playbook
+A16z was founded to give founders a bridge loan of power and momentum on their journey toward inevitability. We help Borderless Founders
+accelerate their preferential attachment
+, when they first land in the U.S. and as they scale globally.
+Here is our playbook (built over 1M+ airmiles!):
+Map the nodes from each country and help them continue to “pay it forward.”
+Start with local luminaries: the founders and operators who built significant companies in the region and are trusted by the next generation. Each country has a handful of founders focused on giving back. In Latin America, these include Sebas Mejia (co-founder of Rappi), Guillermo Rauch (founder of Vercel), and Pedro Franceschi (co-founder of Brex). In Europe, these include Fredrik Hjelm (founder of Voi) and Kristo Käärmann (founder of Wise), among many others.
+We begin by hosting intimate dinners where established founders share their journeys with a curated group of next-generation founders (but in the meantime, potential hires). These luminaries already enjoy giving back; we simply make it scalable by handling the curation. By bringing top talent into the room, we help established founders with recruiting and branding. As one attendee recently noted:
+“He was so impressive! I’ve been telling all my friends they should go work there!”
+The best future founders often seek to work for these luminaries, viewing the experience as the ultimate “CEO training.”
+A16Z General Partner Angela Strange with Guillermo Rauch, CEO of Vercel
+A16Z Partner Gabriel Vasquez with Eno Reyes, CTO and Co-Founder at Factory
+Go deep with the relationships that matter most—in person.
+A physical presence in home countries is vital for building trust. Ben Horowitz hosted a dinner in Stockholm for a group of Swedish builders. The government representatives in attendance better appreciated the momentum of the Swedish tech sector (including companies like Lovable and Legora) and doubled down on their support. They provided ministerial access, included the companies in trade diplomacy, and featured them in regulatory discussions.
+Consistent presence matters more than one-off trips. Gabe flew to Sweden nine times last year!
+Sometimes these luminaries become repeat founders themselves! Two people at the table, who had previously built
+Kry
+and
+Voi
+, later started new companies, and we invested in both at seed.
+Build strong communities within each diaspora. Help the next generation of talent before it becomes obvious.
+We build relationships with people in major global cities who remain connected to their home countries. By engaging with a network across all experience levels, we identify the smartest people early in their careers.
+We aim to be the “welcome committee” for the smartest global founders (regardless of where they choose to place their HQ).
+Our Borderless Founder dinner series has hosted 600+ founders and founding hires over the past 5 years. Our most recent speaker was Victor Cardenas, CEO of Slash, which recently achieved unicorn status. He remembers attending a Borderless Founder dinner three years ago, when Slash was just getting started.
+We play the long game. At a Borderless Dinner where Guillermo spoke about dropping out of high school to build NextJS, another guest mentioned Gabriel Petersson, a student in Sweden with a similar background. Gabriel Vasquez reached out to Petersson and began building a relationship long before he joined OpenAI. We supported him by making him an a16z scout and connecting him with mentors.
+Getting the snowball rolling
+To quote Marc again:
+…the question becomes how do you get [this preferential attachment process] started… to the point where the next resource that you need is more likely to attach to your thing as opposed to somebody else.
+How does the a16z ecosystem help? It provides a faster path to preferential attachment, within your own diaspora and by bridging to others.
+Customers:
+We help our companies cross borders. TelevisaUnivision needed to distribute its Spanish-language library globally while preserving the actors’ original intonation and humor. We connected them with
+ElevenLabs
+. Within months, their programming could travel across languages seamlessly, supporting a subsequent agreement with Netflix. No stage is too early: we introduced
+Factor
+, a German-led company, to a large bank in Latin America that became one of their first pilot customers.
+Brand:
+The a16z New Media team offers “go-direct as a service” for our portfolio startups, providing:
+In-house creative (Video, design, editorial)
+Owned channels (Our X account, Substack, podcast feeds, and more)
+Full service from a dedicated team, from pitch to launch and beyond
+A big network of people, with structure, software, and AI to help leverage it
+All of these motions work really well for Borderless Founders and their companies: they are already differentiated in a cool way, and New Media can help amplify their stories (which are often both amazing and undertold!). Listen to the CEO of
+Addi
+on building a bank from scratch in Colombia (
+link
+), CEO of
+Jeeves
+on solving cross-border payments with Stablecoins (
+link
+), CEO of
+Kavak
+on how his car marketplace is run by agents (
+link
+&
+link
+) and the CEO of
+hyperexponential
+on building an AI platform in insurance (
+link
+).
+Talent:
+While Borderless Founders start with strong networks at home, we accelerate their U.S. transition by providing access to trusted operators, advisors, and experts. For example, we often help founders transition from founder-led sales to scalable models. One company tripled its top-of-funnel and increased ARR by 70% in just a few months through our network.
+Sometimes we introduce Borderless Founders to one another. We backed Fernando Gadotti’s second company at the pre-seed stage and had been building a relationship with Sebastian Mejia while he was still at Rappi. We connected them, and they co-founded
+Tako
+, a company reducing bureaucracy in Brazil starting with payroll.
+Your background is your moat
+More than half of America’s billion-dollar companies were founded or co-founded by immigrants. Because
+Silicon Valley is now a state of mind rather than just a place
+—with AI and remote work collapsing physical distance—you no longer have to choose between your home network and the American market. In fact, 44% of investments made by a16z Apps in the last two years feature international founders, split evenly between HQ in the US and abroad.
+The best founders leverage their multi-country advantage to win globally. Talent, customers, brand—compounding across borders, not despite them. The founders who internalize that treat their home country as an unfair advantage to capitalize on. If you’ve been told your background is something to overcome, you’ve been given bad advice. Your background is your moat. Our job is to help you widen it. If you’re a Borderless Founder, we’d love to meet you.
+Thanks to
+Chris Schnabl
+for his help on this piece and with our all Borderless Founders.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
