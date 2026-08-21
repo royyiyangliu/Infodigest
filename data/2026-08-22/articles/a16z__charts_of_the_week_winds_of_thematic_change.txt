@@ -1,0 +1,115 @@
+Source  : a16z
+Title   : Charts of the Week: Winds of Thematic Change
+Date    : 2026-08-21 14:03 UTC
+Link    : https://www.a16z.news/p/charts-of-the-week-winds-of-thematic
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+Winds of Thematic Change
+ETFs have become an increasingly prominent feature of public markets, especially for retail. Among other flavors, there are thematic ETFs, active and passive ETFs, index-tracking ETFs, credit ETFs, and all of them offered with varying degrees of leverage and without. Why it’s the case that ETFs are on a tear is some combination of low fees, low barriers to entry, easier distribution, and good marketing (as well as
+more retail market participation
+, generally).
+According to data from Citadel, ETF net inflows are pacing for their strongest year ever, with July setting an all-time record.
+One thing that ETFs are definitely able to do is capitalize on whatever happens to be the theme
+du jour
+. “Oh, you think robots are the next big thing? We’ve got an ETF for that. You want to ride the memory rocketship? You’ll
+love
+the taste of DRAM. And for a more adventurous experience, it pairs nicely with PHOX, our recent photonics vintage.”
+That’s interesting so far as it goes, but what’s perhaps more interesting is just some perspective on how much the ETF “themes” have shifted in a relatively short period of time:
+Back in 2020, the top 5 themes included clean energy, emerging markets tech, and healthcare. By 2026, the thematic story is completely different: AI, Nuclear, Space, Defense and Infrastructure are dominating the leaderboard.
+It’s a total ETF takeover for the ambitious, capital-intensive world of atoms over bits. Whether it all works out is not for Charts to say, but ngl, 2026 is
+way
+more exciting.
+Data Centers Are A Blue Collar Bonanza
+People may love data centers in their ETFs, but for whatever reason, they increasingly do not love data centers anywhere remotely nearby.
+Without weighing in too strongly into that whole debate (not yet, at least), suffice it to say that, like ‘em or not, data centers are economically a very big deal, and in some cases, the
+biggest
+deal in town.
+For the states actually building data centers, the buildout is a substantial chunk of all non-residential construction spending:
+States like New Mexico and Wyoming aren’t actually building all that much—less than 3 gigawatts under construction—but because neither state builds much of anything, data centers represent ~60%(!) of all private non-residential construction. Even for a much larger state like Pennsylvania, just ~3 GW of data center is nearly 30% of non-resi spending. Texas, by contrast, is building far more capacity, but it amounts to just 10% of total spending, which is still quite substantial, just not as substantial as 60%.
+In all events, whatever one’s views of data centers, the fact remains that they are one of the more important (if not most important) economic impulses in the game.
+Wells Fargo took a stab at tabulating some of the “significant economic benefits” that run concurrently with data centers (either in operation or under construction):
+Since 2024, for the counties with already operating data centers, the picture is uniformly better:
+more housing,
+higher home values,
+less unemployment; and
+more job growth.
+For the counties currently building data centers, the employment picture is definitely better, but arguably the drawdown in new housing has been worse and home values haven’t appreciated quite as much.
+To be fair, causation and correlation are not obvious here. A lot of extant (and new) data centers are in Loudoun County, VA, one of the wealthiest counties in the country. Likewise, a lot of the new data center builds are in Texas, which experienced an historic level of residential building (and home value appreciation) prior to 2024, so the housing retreat is coming off a much higher base.
+But, to return to the point above, building data centers is almost certainly good for the employment picture. In addition to the
+hundreds and thousands of new hard hat jobs that are being created
+, data centers pay
+a lot
+better than comparable employers:
+According to data from Indeed, the wage premium offered by data centers runs as high as 64% (for a facilities manager) to a still substantial 10% (for electrical engineers).
+Data centers are making it an increasingly good time to be in the skilled trades. A recent comment in a
+Dallas Fed Report
+highlights the point:
+A heavy industrial construction contractor said, “We have been paying what I believe to be a very competitive wage for skilled concrete workers, $28–32 per hour. The data centers are offering $45 per hour and a $150 per diem for concrete workers.”
+That’s a
+~50% wage premium
+for data center concrete workers—a life-changing kind of raise.
+Data from ADP tells a similar story. If you look at the pay premium for job-switchers—usually a proxy for where demand is hot, since a pay bump is necessary to induce the switch—the premium is absolutely cooking for data center-adjacent categories:
+Wage-growth for job-switchers in Construction, Manufacturing, and Nat’l Resources/Mining is 6-9.5 pp higher than for job-stayers. That job-switching premium is far higher than in any other sector.
+Again, the point here isn’t to write the definitive case for data centers, one way or another. The point is, however, to note that saying “no” to data centers almost certainly involves saying “no” to much higher wages for blue collar workers (and the most substantial investment impulse around).
+It’s Not Your Imagination–Ridesharing Really Is More Expensive
+If it feels like taking an Uber is more expensive these days, then that’s probably because
+it is
+more expensive, at least according to data from Gridwise Analytics.
+Since 2024, both the average and median Uber fare have increased ~20% (and appear to be rising still):
+Notably, it’s only Uber that’s gotten more expensive over that period—the median and average Lyft rides are slightly
+cheaper
+than they were at the beginning of 2024 (and run ~24% cheaper than Uber overall), although prices are rising lately.
+A big part of the price increase seems to originate with rising platform fees, especially for Uber:
+Uber’s platform fees have been rising for the past year+ (and the median really stepped up in October), while Lyft’s platform fee only started rising recently, after a period of substantial decline.
+Good for Uber and good for Lyft.
+To be fair, it’s not only good for Uber and good for Lyft—it’s also been good for Uber/Lyft drivers:
+Average gross driver pay per trip has also been rising since 2024, and recently hit an all-time high.
+It remains to be seen over the longer term if higher ridesharing prices put any downward pressure on demand, but for now, the rides are getting more expensive, and the benefits are flowing through to both the platforms
+and the drivers.
+Another interesting aside is that while the overall hiring market remains pretty tepid, in addition to more people starting their own businesses, more people are pursuing “gig work,” as well—presumably, drawn by the increased pay (at least, in part).
+But while ridesharing gig work is getting more popular, it’s far from the fastest growing kind of gig. The hottest new thing in gig-work is unequivocally “social commerce,” i.e. QVC for the social media age:
+Among BofA’s customer accounts, all categories of gig-work have increased (except for vacation rentals), but social commerce has increased by more than 30%, which is way more than any other category, albeit off a smaller base.
+Why precisely social commerce is booming is anyone’s guess. It could be shifting media consumption (from tv to social) combined with the broader ecomm boom. It could also very well
+be that AI has lowered the cost of all the
+other
+aspects of running a social media QVC-styled operation
+, making social commerce overall a more sustainable vocation for more people. Or maybe that Insta ad-targeting is just too good to resist. Or all of the above.
+Agents Are Early, But They’re Already Changing Things (And More Tales From The Frontier)
+Charts has observed before that while AI demand is rising overall,
+the growth is far from normally distributed
+. There is a huge divergence in usage between the median and the power users, and some recent data from OAI suggests that the divergence is getting even bigger.
+Output tokens have more or less doubled across the typical firm, but the top decile of firms is pulling farther and farther away:
+Across all industries, there’s an ~8-fold gap in token output between the typical and top-decile enterprise, where the latter has increased output by more than 17x since April 2025. Within select industries, the gap is even wider, rising to almost 12-fold in Information (i.e. tech), where the top decile of firms is outputting 32.5x(!) as many tokens as they were a little over a year ago.
+Unsurprisingly, the power users aren’t generating more tokens because they’re chatting with their AI companions. Power users have mostly graduated beyond chat to more advanced AI tools:
+Plug-in and Skills adoption for the top decile of enterprises is ~2x and 6x as high as the typical firm, respectively, although even the power users have a long way to go before they reach OAI’s own internal adoption levels.
+Interestingly, though, tech isn’t the fastest growing adopter of higher powered tools, at least of late. If you want to measure usage sophistication by Codex adoption, then knowledge workers are getting more sophisticated across the board, but none more so than legal:
+Legal workers have increased their Codex adoption by a staggering 108x since February of 2026. Query how much of this shift is driven by the broader Codex rollout, but either way, Legal stands out from the pack.
+The other implication from this shift to more sophisticated AI adoption is that it’s changing both the growth and composition of token consumption dramatically.
+While only a small portion of AI adopters are actually using fully-deployed agents, agents are nonetheless driving a massive share of tokens:
+According to data from OpenRouter (and chartmaker Peter Walker), agents are using nearly 5x as many tokens as humans, and agent usage has grown ~14X since just February.
+Not only do agents use far more tokens than people, they use tokens very differently. Agents do far more work with cached tokens than people do:
+Again, according to OpenRouter, more than 85% of agentic token burn comes from the cached prompt—and cached tokens account for nearly all of the relative growth of token usage.
+The reason is pretty straightforward: while humans tend to have a “prompt and response” styled dialogue, agents are designed to iterate (and iterate) towards a goal. The initial prompt contains the token-intensive “pre-fill” (i.e. the core context around the goal, whether it’s policies and procedures, code guidelines, etc.), but then the agent begins to read-write incrementally—progressively adding to the cache—as the agent progresses towards a final result.
+Cached tokens are far cheaper than the pre-fill—which is good, and makes the economics of agents increasingly viable—but are also (by definition) memory-consumptive. You see, now, why
+high bandwidth memory especially is in such hot demand
+—all those agents busily at work (without going back to the drawing board with each cycle) need memory to cook. And agents are proliferating rapidly, despite being very very early in their overall development.
+There’s another possible second-order effect of agents worth noting: agents may be decreasing demand for legacy automation and workflow tools.
+According to data from Similarweb, outside of Gumloop, traffic to automation tooling sites has been in serial decline:
+N8N, Zapier, and Make all predate LLMs, and while they dominate the overall automation segment (by site visits), each is experiencing double-digit declines on a trailing 12-week basis. Gumloop, by contrast, was launched in 2023 as an “AI native agent builder,” and is the only automation platform gaining traction (according to Similarweb).
+It’s still far too early to stick a fork in Zapier et al—they have AI at their disposal, too, after all—but agents have barely arrived, and they’re already beginning to change the landscape in substantial ways.
+More to come.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
