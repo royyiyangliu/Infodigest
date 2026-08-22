@@ -1,0 +1,48 @@
+{
+  "date": "2026-08-23",
+  "generated_at": "2026-08-22T23:34:32.080481+00:00",
+  "stats": {
+    "tweets": 7,
+    "podcasts": 0,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "AI 工程师、Latent Space 播客主理人、Smol AI 创始人 Shawn Wang（@swyx）。他一反此前的怀疑态度，认为\"模拟（Simulation）是一条新的 Scaling Law\"并非营销炒作：若认真对待 AI 的递归自我改进（RSI），当模型逐步自动化 ML 研究与 AI 工程后，最后（或倒数第二）的瓶颈就是模拟人类及人类反馈。他因此理解了 Karpathy、李飞飞等人为何押注 Simile 团队（当年 Smallville 项目毫无商业化前景），并指出 Simile 在早期阶段已在多家世界 500 强企业找到 PMF。此外他还在推进用 AI\"消灭 SaaS\"（Kill My SaaS）的实验，下周将公布首个案例结果。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI Codex 负责人 Thibault Sottiaux（@thsottiaux）。他通报了 Codex 的限流（rate limit）进展：为 ChatGPT Work 与 Codex 全体付费用户上线的\"banked reset\"（额度重置）已于太平洋时间晚 8 点前落地。同时承认本周部分用户的缓存命中率（cache hit rate）低于此前数周的稳定水平，导致额度消耗更快——因为持续命中缓存是效率的关键，团队正在排查并将跟进。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品增长专家、前 Roblox/Twitch 产品负责人 Peter Yang（@petergyang）。他体验了 AI 助手 Instinct，盛赞其接入 iMessage、Google Workspace 与 MCP 的引导（onboarding）极为顺滑，且比同类助手更主动、能在连接 MCP 后立刻建议可执行的操作，认为\"最优秀的构建者都优先打磨引导与新用户需求\"。但他批评 Instinct 所有对话挤在单一线程、无法开多个并行会话，难以胜任真正的工作，只能当作打杂助手；实际工作他仍坚持用 ChatGPT Work 与 Codex。他还提出严重隐私质疑：Instinct 未经许可索引并保留其邮件、且不允许删除，在此问题解决前他无法推荐。"
+    },
+    {
+      "author": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "summary_zh": "曾参与 Gemini 研发的 Madhu Guru（@realmadhuguru）在\"如何构建优秀评估（evals）\"系列第 5 篇中提出反主流观点：不要把复杂评估套件压缩成单一分数，这是\"平均值的暴政\"，AI 系统的质量并非单一维度。他举例：一个模型在简单摘要上从 **85%→89%**、基础事实问答从 **80%→85%**，但在复杂金融分析上却从 **70% 退步到 63%**——单一分数会掩盖它在最前沿用例上的退化。他也反对用加权分数，认为那是给主观判断套上虚假的数学精确性；正确做法是维护分优先级的评估清单、让懂细节的人深入理解每项评估的成败再做判断。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic Claude Code 团队成员 Thariq（@trq212）。他分享了 Anthropic 内部近期高频使用的一个技能 ELI5：用 `/eli5 <想解释的内容>`，让模型\"以面向门外汉的方式、用带大图少字的 HTML artifact\"来讲解，适用于代码模块讲解、设计权衡原因、故障复盘等场景（如 `/eli5 how does this module work`）。团队正在考虑将其做成官方插件，目前可通过 `claude plugin marketplace add anthropics/claude-plugins-community` 后安装 `eli5@claude-community` 试用。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 创始人兼 CEO Guillermo Rauch（@rauchg）。他发布多项工具进展：v0 现已支持用户的 Grok 与 Codex 订阅，可在 sandbox 中即时安装试用；团队让 is-agentic 基准在循环中反复运行、直至刷到 **100/100**，过程中补上了不少能力缺口，并强调评测标准力求高质量、值得投入 token；此外 Python 团队正在快速推进。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 创始人兼 CEO Aaron Levie（@levie）。他认为当下 AI 的进步速度在整个科技史上前所未有——同等任务下模型持续变得更便宜、更通用、更快，并在几乎每个领域走得更深。当智能变得\"便宜到无需计量\"（too cheap to meter）时，最大的机会在于推动 AI 向经济各领域扩散（diffusion）；因此这是做应用型 AI 公司的绝佳时机，海量的创新与竞争都会成为自身进步的顺风，对初创公司是巨大机遇。"
+    }
+  ],
+  "podcasts": [],
+  "articles": []
+}
