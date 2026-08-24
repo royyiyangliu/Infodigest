@@ -1,0 +1,60 @@
+{
+  "date": "2026-08-25",
+  "generated_at": "2026-08-24T23:34:28.145972+00:00",
+  "stats": {
+    "tweets": 6,
+    "podcasts": 0,
+    "articles": 2
+  },
+  "tweets": [
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "Cursor（Anysphere）的 Thibault Sottiaux 做出行业判断：2026 年将是企业开始认真关注模型效率与可靠性的一年，因为大模型正成为关键基础设施。他还发布运营更新，称已向账户推送了额度（usage）重置，并修复了此前发现的额度相关问题，用户应能感到正向改善，后续将持续沟通。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品增长专家、时事通讯作者 Peter Yang 引用 Shreya Shankar 的观点，区分两类 AI 评测（evals）：自上而下（top-down）指仅凭任务描述就能想到的评测，Claude 等模型很擅长帮你生成；自下而上（bottom-up）指在观察大量样本输出后凭直觉外化出的评测标准，模型在这方面非常薄弱，只能靠人来做。"
+    },
+    {
+      "author": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "summary_zh": "Madhu Guru（realmadhuguru）分享构建高质量 AI 评测的\"金发姑娘原则\"：评测应针对流程中的各个子任务而非仅看最终答案。他以金融分析 Agent 为例，最终产出是选股建议，但之前包含理解客户、收集证据、分析数据、给出推荐等多个阶段，每阶段都应有独立评测。示例给出各环节得分（理解客户 92%、证据提取 92%、数据分析 70%、推荐 75%），从而精准定位薄弱环节；评测颗粒度以\"够用于诊断和行动\"为准，不宜过细或过粗。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch 提出智能成本正快速下降：OpenAI 的 Sol 模型在 Vercel AI Gateway 上降价与折扣后，已成为其增长最快的前沿模型，印证智能需求高度弹性——推理成本下降会带动用量快速增长；他认为不用网关（gateway）就会错失这种价格波动带来的成本与利润率红利，路由器/网关赛道升温，\"网关是必然趋势\"。他还阐述扩展 fx 的理念：押注开放协议（MCP、Skills、Plugins）以及 Unix 哲学——做好一件事的小程序相互组合，并通过 libfx 嵌入更复杂的程序，让用户自建 CLI、后台 Agent 或软件工厂。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator 首席执行官 Garry Tan 做出大胆预测：记录系统（systems of record，如 CRM、ERP 等）将不得不转型为 AI 的\"操作框架/harness\"，否则将面临被 Agent 取代的命运。"
+    },
+    {
+      "author": "Ryo Lu",
+      "handle": "ryolu_",
+      "summary_zh": "Cursor 设计负责人 Ryo Lu（ryolu_）以一首题为《leaving》的长诗，暗示自己正从某处离开、迈向未知的新阶段，语调是从\"充盈走向清空\"的告别。对投资者而言，这或是其从 Cursor 离职的信号，值得关注。"
+    }
+  ],
+  "podcasts": [],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "AgentX - InferenceXv3: Does CUDA Moat Hold up in Agentic Inferencing?",
+      "date": "2026-08-24 00:19 UTC",
+      "link": "https://newsletter.semianalysis.com/p/agentx-inferencexv3-does-cuda-moat",
+      "chars": 103044,
+      "summary_zh": "SemiAnalysis 发布 AgentX 1.0——号称全球首个完全开源（Apache 2.0）的多轮 agentic 编码推理基准，上下文长达 **100 万** token，并集成进 InferenceXv3。核心论点：自 2025 年 11 月 Claude Code 拐点以来，长上下文、多轮 agentic 负载已主导生产推理流量；**2026 年 4 月 OpenAI 企业级 agentic 支出已超过 ChatGPT 支出**。传统固定序列长度（8k1k 等）基准无法反映真实负载，agentic 推理本质是\"系统级问题\"（高前缀复用、KVCache 跨节点传输/分层卸载、子代理突发、路由亲和性）。\n\n规模与投入：数据集建设投入 **超过 300 万美元**；基准矩阵在 **约 2MW** 持续算力、**逾 1000 颗芯片**上运行，覆盖 MI355X、GB300/GB200 NVL72、B300、B200、MI325、MI300X、H200、RTX Pro 等 SKU；Rubin 本月晚些到货，TPU 与 MI455X 年内到货。语料为 **393 条** SemiAnalysis 内部匿名 Claude Code trace 回放。产业影响已产生 **70+ 上游 PR**（vLLM、SGLang、TensorRT-LLM、ATOM、AITER、Dynamo、LMCache、Mooncake 等），多家一线 AI 实验室容量规划团队已消费其 REST API。\n\n竞争格局（对股票分析师关键）：整体 NVIDIA 与 AMD 在 agentic 负载上均表现亮眼，但分模型分化明显。DeepSeek V4 Pro（1.6 万亿参数/490 亿激活）上，**8 月 21 日**前 AMD MI355X（SGLang）在每美元 e2e 性能上一度追平 B200 vLLM，但此后经 Inferact/NVIDIA 对 vLLM 优化，**B200 每美元性能反超 MI355X**，竞争胶着。B300 因 HBM 容量较 B200 多 **50%**，384 并发下达 **91% HBM 缓存命中率**（B200 仅 73%、更依赖 DRAM）。Kimi K3（2.8 万亿参数，架构类比 Claude Mythos/Fable5）上，B200 早期因流水线并行与投机解码不兼容而被 MI355X 压制。MiniMax M3（432B）上 **NVIDIA 完胜**，AMD 因只调优短上下文单轮负载而长上下文表现糟糕。Qwen3.5（397B）上 NVIDIA SGLang 领先 **20 倍以上**（90 tok/s/user），AMD 零竞争力；B300 FP4 相比 H100 有 **12 倍**每美元性能。GLM 5.3 上 NVIDIA 每美元成本效率领先 **达 5 倍**，优势之大以至\"即便对手芯片白送，用 NVIDIA 每 token 成本仍更低\"。\n\n投资含义：CUDA 护城河在 agentic 时代整体仍稳固——AMD 的 ATOM 专用引擎在部分区间可胜出，但缺乏功能、生产采用极少（除阿里一个小广告部门，Qwen 主力不用 ATOM），且改进未及时上游到 vLLM/SGLang；AMD 软件在长上下文多轮负载上的短板是其主要瓶颈。数据中心电力（性能/兆瓦）已成关键物理约束。SemiAnalysis 预告 3-4 周内发布 AgentX 更新，含 AMD 与 NVIDIA 的新优化结果。"
+    },
+    {
+      "source": "a16z",
+      "title": "The Oracle Problem: an invisible bottleneck to AI and medicine",
+      "date": "2026-08-24 14:02 UTC",
+      "link": "https://www.a16z.news/p/the-oracle-problem-an-invisible-bottleneck",
+      "chars": 15429,
+      "summary_zh": "a16z 与医疗数据公司 Protege 合作撰文，指出医疗 AI 落地的隐形瓶颈是\"预言家问题\"（Oracle Problem）——即无法客观判定模型的临床决策是否正确。核心逻辑：AI 在有\"标准答案\"的任务上进步飞快，但医疗缺乏绝对的 ground truth，评测因此难做。三大结构性障碍：临床决策高度主观、底层数据被各方严密封锁、benchmark 不可避免地沦为营销工具（本质是委托-代理问题）。\n\n文章用 Protege 合作网络数据佐证（从近 **1 万亿** token 的 EMR 文本、数十亿病历中随机抽样，为描述性而非因果估计）。使用侧已成刚需：OpenAI 称每周超 **3 亿** 人用 ChatGPT 咨询健康问题（因企业零数据留存场景未计而被低估）；2026 年过半时每百万病历中约 **1,686** 条记录患者就 AI 所述内容寻求澄清；即将有近 **1/3** 的 SOAP 病历由 AI 撰写。\n\n\"标准答案\"正变得难以捉摸：以膝关节置换为例，选部分还是全置换，患者特征/合并症/机构/年份仅解释 **3.4%** 的差异，加入医生身份后升至 **14.8%**，即 **77%** 的可解释差异取决于是哪位医生（\"品味\"）。横跨 15 种有两种术式的手术，医生身份解释 **7%–77%** 的差异。故模型可能\"对但偏\"，或\"因错误理由而对\"，静态 benchmark 无法区分。医生还有滞后性/近因偏差（如产后大出血后下一胎更倾向剖宫产）。\n\n数据可得性问题：真实患者病历中位数约 **8,500** token、均值约 **39,000** token，但六个公开医疗 AI benchmark 中有五个给模型的上下文少于中位数，部分甚至不足 **200** token（不到中位数的 **2.5%**）——名义给全病历，实测仍是压缩短文。\n\n榜单本质由人的选择构成：harness、prompt、评分标准、评分者、格式、选项顺序都会左右排名。在 **19** 类诊断任务中，仅打乱选项位置（4 种随机排列）模型答案就频繁改变；在实验室轨迹任务中，仅向 prompt 增加一句\"稳定\"的数学定义，就抹平模型间差距并令胜者反转——说明原测试其实在测\"谁对稳定的定义和我们一致\"。模型还会 task-hacking（钻评测漏洞）。\n\n投资/分析启示：真正该测的不是 MCAT 式考试，而是同等医疗支出下 AI 能否产出更好健康结果——寿命、质量调整生命年、护士倦怠、医生流失、医疗拒付、医疗债务、信任度等，以及活体场景中的过度迎合（sycophancy）等 misalignment（当前无 benchmark 衡量）。作者类比药物\"疗效 efficacy vs 效果 effectiveness\"，指出当前 benchmark 连 efficacy 都测不好。结论：制约医疗 AI 的可能不是训练数据或算力，而是\"如何判定模型何时正确\"这一验证天花板——这正是 Protege 试图用真实世界数据构建更好测试来解决的市场机会。"
+    }
+  ]
+}
