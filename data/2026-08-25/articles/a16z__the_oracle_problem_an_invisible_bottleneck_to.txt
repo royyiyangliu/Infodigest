@@ -1,0 +1,116 @@
+Source  : a16z
+Title   : The Oracle Problem: an invisible bottleneck to AI and medicine
+Date    : 2026-08-24 14:02 UTC
+Link    : https://www.a16z.news/p/the-oracle-problem-an-invisible-bottleneck
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+Today’s post was done in collaboration with Protege. Please also see our
+recent podcast with Engy Ziedan
+, Protege’s Chief Scientific Officer.
+You go to the doctor, and the doctor tells you: “The medical student will be taking care of you today. They’re very capable; they’ve scored 100% on every single test in all of med school. Not a single question wrong. You’re in good hands!”
+Something seems off, right?
+This is the big hairy question for AI adoption in healthcare. AI is now extraordinarily good at tasks where you can train it on “right answers,” supervise as it learns the craft, and then hand over some tasks. The more training data and compute you give it, the better it gets. The smaller the gap between “Is it good at the test?” and “Is it good at real life?” the better AI is going to do.
+The AI healthcare dream paints this picture: “We’ll train AI on what ‘health’ looks like, on every piece of clinical data we can find, and it’ll be much better than us at spotting problems and making recommendations.” It’s a great dream, and we should pursue it.
+But there is a
+big challenge
+with healthcare that is harder than most domains. How do you evaluate “Is this AI any good?” It’s not so simple for at least three big reasons:
+First,
+practical evals in medicine are subjective
+.
+Clinical decisions are hard to work with as a training data set. Doctors make decisions with
+subtle and personal idiosyncrasies
+that are notoriously hard to standardize against. If you’re training an AI on clinical data, any benchmark or eval you design is going to be quietly opinionated, scored against what the physician did that particular day (and not “did they live a healthy life forever after?”). Your evals are a reflection of what you would do in the moment, not what’s absolutely correct - there is no shared, absolute definition of “ground truth” in medicine.
+Second,
+the underlying data is hidden
+.
+Everyone who is trying to build useful models in AI health has acquired various clinical and administrative data sets for training and eval design - and, understandably, they guard these datasets tightly.
+Third,
+evals and benchmarks unavoidably turn into
+marketing
+.
+Not because companies are acting duplicitously, or underhanded in any way; it’s just what happens. “The model did well on the benchmark” is as much a statement about
+how you wrote the test
+; not a statement about its clinical merit versus a different model, or a different evaluation. It’s a kind of principal-agent problem.
+Health AI has an Oracle Problem
+The only way to objectively measure whether the model was right in its decision is to follow the patient forward, for a long enough time - which is a subjective decision of its own. That’s a much, much harder kind of AI training than simply creating benchmarks and testing against them.
+And it means it’s very hard for hospital networks and other
+buyers
+of AI products to actually evaluate who’s best, especially in a world where models get updated every few months - or less. If you ask the government to arbitrate, they might say “there should be a neutral task force that decides what’s best practice”, but that approach can’t possibly keep pace with model and product evolution.
+The ultimate barrier to true AI adoption in hospitals is
+trust in what you’re getting
+, and that won’t be completely solved by more training data or more compute because of the subjectivity involved. Someone has to solve the Oracle Problem. That’s what we’re trying to do with Protege. It is not often admitted to, but it is creeping up as
+the problem
+in healthcare AI
+,
+as model capacity starts to surpass that of physicians in key applications.
+Below, we illustrate some of these key issues using data from Protege’s partner network. For computational efficiency, we randomly sampled millions of records from nearly a trillion tokens of EMR text across billions of notes. The figures below are descriptive rather than causal estimates but can shed light on the key issues.
+Usage Creates an Urgent Problem
+OpenAI reports that more than 300 million people use ChatGPT for health-related questions each week. That number is likely an undercount, since it omits use in enterprise settings where firms hold zero data retention rights.
+The data shows the same indications. Explicit references to patient AI use were essentially absent through 2023, then rose sharply following GPT launch. Part way through 2026, about 1,686 per million notes recorded interactions where the patient wanted clarification on something a model said. We see the same inflection in voice mail messages where patients call to explicitly ask about something they chatted with an AI model about.
+AI is also being used more often to write medical notes; soon nearly one-third of all SOAP (Subjective, Objective, Assessment, and Plan) notes will be written by AI.
+These are the notes that are standard for documenting what happened during a patient visit.
+We are interacting with models much more broadly when it comes to healthcare – as professionals and pedestrians alike, across age groups, and for both trivial questions and entire disease odysseys. These models can deliver more health for fewer resources. But models are ‘just’ making predictions. Predictions have a cost; they can nudge or sway people to make consequential choices. And, as with any prediction, it is only as good as we can judge and pre-judge the outcomes.
+The “Right Answer” is Becoming Elusive
+To measure model performance, we have models take tests known as benchmarks. A benchmark compares a model’s answer with what we call the right answer. But this is not automatically “ground truth”.
+A classic example of this is knee replacements. If you hurt your knee and need surgery, you can get either a “partial” or a “total” knee replacement - and which one you get basically depends on who your surgeon is. If you look at a dataset of knee replacements, you’ll find that patient characteristics, comorbidities, facilities, and year only explain 3.4% of the variation in the choice to perform partial or full. But if you add the identity of the surgeon, it immediately becomes 14.8% –
+77% of the explained variation in partial vs. full comes down to who the surgeon was.
+You can think of this as “taste” and it’s sticky and idiosyncratic. And it’s why training AI on medicine is hard. It creates a scenario where a model may be “right, but off” because it did not agree with the individualistic approach of the physician it was graded against.
+This is not peculiar to knees. Across 15 operations with two variations, physician identity accounts for 7% to 77% of the explained variation. In every turn and decision in a long-horizon medical record, the model is in fact going head to head against physicians’ individual styles and preferences.
+A model can therefore disagree with the recorded action and
+still
+be clinically defensible. Conversely, it can agree with the action for the wrong reason. A static benchmark cannot distinguish the two.
+The implication for benchmarks? If an evaluation contains only a few hundred cases, often one or two per clinical decision, whether the model is “right” can depend on
+which
+physician’s preference became the label. Adding more physicians to grade the answer may increase consensus. It does not necessarily recover the ground truth. The rarer the procedure and the more expert the task, the harder this becomes. Clinical decisions are dynamic; a doctor’s memory crosses cases.
+Doctors are also hysteretic: a temporary shock can leave a lasting effect on future decisions. In medicine, one outcome can change how a physician treats the next patient.
+For example, after a vaginal delivery complicated by hemorrhage, physicians become more likely to use a Cesarean in the next delivery. Given that admission for a birth within a close interval is predetermined, the move away from that modality for a few days indicates humans have recency bias – expected!
+But will we account for that when we pairwise compare what happened in a clinical record and the model’s output?
+We’re testing AI models on how they perform on set, pre-described tasks or problems in a vacuum. But healthcare is not performed in a vacuum; decisions are influenced by the patients the physician sees, the patients the physician doesn’t see, other clinicians, their capacity, what order care happens in over a period of time, and many other variables and context that are difficult to record.
+The Answer is in the Records... if You Can Find It
+By now the field has agreed to move away from synthetic vignettes and give the model full (de-identified) medical records. But there are still downstream issues.
+Across a random set of real patients in the data, the median patient record contains about 8,500 tokens and the mean about 39,000. But five of six public healthcare AI benchmarks give the model less context than the median patient record. Several provide fewer than 200 tokens (less than 2.5% of the median record) per case.
+So while the model is given full records, many benchmarks may still test a compressed vignette. Benchmarks do not necessarily represent the same tasks that clinicians actually perform, and they do not necessarily represent the same context either.
+And to make things harder, full records aren’t foolproof either. Cleaning a record of bias is itself a science. Remove too little and the model receives the answer on a platter. Remove too much and the case becomes clinically unnatural.
+Machine Leaderboards are Built from Human Decisions
+Even after choosing cases and cleaning labels, a benchmark still contains many idiosyncratic scientific preferences: the harness, prompt, rubric, grader, verbosity penalty, answer format, and ordering of choices. These choices can change not only the score, but which model appears to win.
+In a 19-way diagnosis task, we evaluated models across four random permutations of the same answer choices. The model saw the same case and the same 19 labels; only their positions changed. Yet models frequently changed answers!
+Prompt wording can do the same. In a lab-trajectory task, we compared two models across four assessments: a base prompt, and then an experimental prompt where we added an additional sentence that mathematically defined how the model should classify a patient’s lab results, rather than let the model define it independently while holding encounters, charts, ground truth, and grader fixed. Adding this one sentence to the prompt collapsed the differences between the models, and flipped the winner outright on one of them.
+This means something really interesting.
+It doesn’t mean “One model needed help.” It means that
+without the definition, the benchmark test was actually measuring “whose definition of ‘stable’ matches ours?”
+Models also task-hack; they attempt to find ways to game the evaluation rather than solve the task. Ask for one diagnosis and a model may offer several, hoping one receives credit. Force one multiple-choice answer and position effects appear. Penalize verbosity and the evaluator must define verbosity. Search the chain of thought for words such as “reward,” “verifier,” or “ground truth,” and we detect only the forms of reward hacking that we already know how to name.
+Medicine is likely to contain subtler forms of task-hacking that no regular expression will find.
+Real Benchmarks Do Not Conflate Tests with Productivity
+We no longer need AI models to pass the MCAT. What we need to answer is: “How productive is AI at getting the overall picture right, and making us healthy?”
+It is pretty easy to measure the wrong thing. For example, a common mistake health economists make when measuring the value of a policy or technology is to conflate
+healthcare utilization
+with
+health
+. Similarly, hospital admissions and re-admissions are generally considered bad, but sometimes they are actually good! We still don’t know if these measures of throughput reflect health or simply the use of healthcare.
+To measure the true effects of AI on health, we must begin to measure the impact it has on critical factors like life expectancy, quality-adjusted life years, nurse burnout, physician turnover, medical denials, medical debt, medical mistrust… the list goes on.
+Importantly, none of today’s benchmarks measure misalignment in live care delivery settings. AI can display over-eagerness, sycophancy, and other forms of misalignment. Measuring this is increasingly important as technology becomes central to the delivery of care.
+The fundamental question as we assess AI: With the same level of healthcare spending, are we able to produce better health when we adopt AI technology more quickly? These are the benchmarks we need across health systems, frontier models, vertical AI vendors, physicians, and teams within a system - not simply measures of how a model performs on an abstract case graded after the fact.
+The Hard Thing About Benchmarks is the Verification Ceiling
+Benchmarks have hit an issue medicine encountered decades ago. Trials measure efficacy, but the world cares about effectiveness. Today, benchmarks lack even a good measure of efficacy and are far away from effectiveness.
+Training data and compute may not be the binding constraints. Instead, we are constrained by learning how to know when the model was right. And as AI is continually deployed in healthcare settings, all stakeholders - model developers, vertical AI application builders, healthcare systems, and adopters of health AI solutions - will need to better understand and agree upon how AI models perform in real-world settings.
+Healthcare in the real world is messy and spans dozens of modalities. Protege exists to make sure AI creates more health, not just better scores. We use real world data from our data partner network to build better tests: tests that measure what healthcare AI must do for real clinicians and real patients to produce real health gains.
+This was pretty niche for a general audience newsletter, so if you read this far then there’s a good chance you’re also working to close that gap, or maybe should be! We’d love to hear from you. You can read more at
+https://withprotege.ai/model-builders/healthcare
+, and reach out at
+https://withprotege.ai/contact
+.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
