@@ -1,0 +1,92 @@
+{
+  "date": "2026-08-26",
+  "generated_at": "2026-08-25T23:35:20.978157+00:00",
+  "stats": {
+    "tweets": 9,
+    "podcasts": 2,
+    "articles": 2
+  },
+  "tweets": [
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI 负责 ChatGPT/Codex 的 Thibault Sottiaux。宣布明日将为 Plus 账户在 ChatGPT、Work 和 Codex 上重新启用 **5 小时**使用上限，理由是这既能平滑算力负载、保持每周额度充裕，也能避免偏休闲的 Plus 新用户误将整周额度一次用尽而困惑。未来数月 Pro **$100** 与 Pro **$200** 订阅仍不启用该 5 小时限制。（另高调预告 OpenAI DevDay 2026 将是公司史上最佳，营销色彩较浓。）"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品人、newsletter 作者 Peter Yang。指出面对需要注册登录的新网站/应用、或被困在某个网页/应用里的 agent 时，他通常直接放弃使用该产品（娱乐或游戏除外）。他认为登录与授权带来的摩擦是导致用户流失的重要原因。"
+    },
+    {
+      "author": "Nan Yu",
+      "handle": "thenanyu",
+      "summary_zh": "Notion 产品负责人 Nan Yu。分享用 Codex 配置新电脑的体验——只需一句\"下载安装 handy、slack、chrome、cleanshot、rectangle\"即可完成，感叹 agent 已能可靠执行系统级操作，也让人更嫌 Siri 不够好。"
+    },
+    {
+      "author": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "summary_zh": "Madhu Guru（@realmadhuguru）在其\"如何构建优秀评测（evals）\"系列第 8 篇中，强调评测的\"区分度\"：好的爬坡式评测应能区分出真正存在能力差异的系统。他举例五个系统得分分别为 **94/93/95/94/92**，若已知 A、C 明显强于 D、E 却无法体现出来，就说明区分度低，如同让一群博士做五年级数学题、人人满分却毫无信息量。他认为理想评测应\"真实 + 有难度 + 对能力差异敏感\"，并提出当评测随着模型与工程进步而饱和后应如何应对的问题。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad。表示 Replit Agent 在其日常工作中已完全取代 Claude CoWork，因为它更持久、更细致（fastidious），并能更有效地借助代码/软件来完成任务。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 创始人兼 CEO Guillermo Rauch。分享一则工程趣事：终端陷入乱码\"坏状态\"时常用的 reset 命令出奇地慢，根源竟是 1979 年 3BSD 的 tset 里加了一句 sleep(1)、用于等待机械打印终端\"稳定下来\"；他用 fx 让其以 Zig 重写，耗时从 **1 秒**降到 **1 毫秒**，并借机深入了 ncurses/terminfo。他感叹好的系统设计极其耐久，并推介其新产品\"更快、更便宜、更强且更小\"，从架构上刻意避免软件随演进而变得臃肿、缓慢和膨胀。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie，发表两点观点。其一：在 AI agent 将比人类多做 **100 倍**工作的世界里，\"记录系统（systems of record）\"比以往任何时候都重要，治理、可靠性、安全、访问控制与业务逻辑变得更加关键，OpenAI–Hugging Face 事件只是 agent 四处执行目标的未来的小小预演，整个软件领域正迎来巨大的机遇与颠覆。其二：ZDR（零数据保留）是 AI 增长的重要推手，因为它大幅简化了企业处理子处理方数据的合规流程；主流应用型 AI 工具普遍只向客户提供带 ZDR 的模型，企业内部治理也大多要求仅使用 ZDR 模型，若没有 ZDR，AI 的扩散将陷入停滞。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator 首席执行官 Garry Tan。反驳对数据中心的抵触情绪，主张\"数据中心其实能创造就业与繁荣\"。他还分享了一条关于认知方法的箴言：形成观点 → 做成可检验的产物或实验 → 与现实接触 → 不自欺地读取结果 → 修正后再来一遍。"
+    },
+    {
+      "author": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "summary_zh": "Zara Zhang（@zarazhangrui）。抛出一个\"非主流观点\"：（至少按传统方式举办的）黑客松已是一种过时的活动形式。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "卫诗婕｜漫谈Light the Star",
+      "title": "84.49 家央企采买进场，史上最热WRC：泡沫被挤压，具身行业进入实战阶段｜14 年从业者的行家鉴别指南",
+      "date": "2026-08-25 03:23 UTC",
+      "duration": "01:02:50",
+      "link": "https://podcasts.apple.com/us/podcast/84-49-%E5%AE%B6%E5%A4%AE%E4%BC%81%E9%87%87%E4%B9%B0%E8%BF%9B%E5%9C%BA-%E5%8F%B2%E4%B8%8A%E6%9C%80%E7%83%ADwrc-%E6%B3%A1%E6%B2%AB%E8%A2%AB%E6%8C%A4%E5%8E%8B-%E5%85%B7%E8%BA%AB%E8%A1%8C%E4%B8%9A%E8%BF%9B%E5%85%A5%E5%AE%9E%E6%88%98%E9%98%B6%E6%AE%B5-14-%E5%B9%B4%E4%BB%8E%E4%B8%9A%E8%80%85%E7%9A%84%E8%A1%8C%E5%AE%B6%E9%89%B4%E5%88%AB%E6%8C%87%E5%8D%97/id1754955836?i=1000785666495&uo=4",
+      "summary_zh": "卫诗婕对话仙工智能联合创始人、14年从业者叶阳生，复盘本届世界人形机器人大会（WRC）。核心判断：行业泡沫被挤压，进入算ROI、看真实出货、拼落地的实战阶段——去年比拼后空翻、跳舞，今年\"进展（DEMO视频）不好意思拿出来秀了\"。\n\n**出货量与真实需求的巨大落差**：2026上半年全球人形出货突破**2.2万台**，中国厂商占**97%**；智元**9700台**全球第一，宇树**7000+台**，银河通用**1100台**，前五家合计占全球**86%**。但叶阳生认为，剔除跳舞表演等，真正有价值的落地需求占比\"有**10%**已经非常好了\"，对外公布订单量\"要除以**10**\"；其余多在工厂吃灰或用于科研教育。太空舱零售等被判为伪需求（ROI算不过来、无泛化数据价值）。\n\n**戳破预训练神话**：市面人人都讲\"VLA+世界模型+全栈自研\"，但水分极大——真正砸钱做预训练（买千卡以上+疯狂买数据）的纯创业公司\"可能只有**一到两家**\"（点名许华哲/皮卡丘团队），大厂（字节、蚂蚁等）除外。等效**H100千卡**集群一年投入需**几个亿**，很多号称千卡实际财报未体现，且国内也没这么多卡。出现\"永续公司\"心态：融几十亿不花，靠每年**小几个亿**利息养几百名研发，等国外趟出路径、行业拐点再all in。\n\n**技术水位**：机器人速度达人类**70%-80%**已很快（此时ROI可算平，因机器不休息，到**50%**都可接受），但多数任务远未达到——叠衣服需**2分钟**vs人**10秒**，仍差一个数量级；人形ROI相较工业机器人差距未见明显缩小。头部demo认可自变量（物流分拣、节拍快）、星海图（超市拣货封袋，长程高难）。今年进步主因是**后训练/强化学习**+数据质量与工程能力提升，非世界模型。\n\n**行家鉴别指南**：定时演示=对成功率不自信或硬件撑不住长时运行；双手能独立异步动作更可能是自主而非遥操；搭展期需现场补采数据；成功率注意分母口径。三层架构中\"神经\"（高速总线/协议栈、需几十纳秒级硬件对时）与数据（格式、标注、时序不统一）是今年增量痛点，仙工欲复制其控制器做到全球第一的打法、以数据子公司推动事实标准与开放benchmark。\n\n行业侧：央企/大型企业设采购日进场，具身开始解决酒店送餐等真实场景；宇树上市利好，但20多家排队上市中收入确认（是否真实使用、代理商压货、素材厂体内循环）审计从严。人形本体成本已降至**10万以内**（单电机曾要1万）。各家差距\"可能在半年以内\"，叶预计明年数据与世界模型会有惊喜成果。融资流行制造稀缺性（晾投资人、一月一轮）。"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "title": "Dylan Patel – Anthropic & OpenAI will have most of the world’s compute by 2028",
+      "date": "2026-08-25 15:32 UTC",
+      "duration": "1:16:53",
+      "link": "https://podcasts.apple.com/us/podcast/dylan-patel-anthropic-openai-will-have-most-of/id1516093381?i=1000785793715&uo=4",
+      "summary_zh": "SemiAnalysis 创始人 Dylan Patel 做客 Dwarkesh 播客，核心判断：算力将极度向 Anthropic、OpenAI 两家实验室集中，到 **2028 年底两家或掌握全球大部分\"可用 FLOPs\"**。\n\n**算力集中路径**：今年新增算力约 **30%** 流向两家实验室，明年升至 **40–50%**，到 **2027 年底**增量算力过半、**2028 年底达 70–80%**。两家算力从年初的 <2 倍、约 2GW 增至年底 **5GW+**（一年 3–4 倍）。全球增量算力：今年 **30GW**、明年 **50GW**、2028 年 **70GW**、2029 年 **90–100GW**；2028 年底全球存量约 **200GW**，两家合计约 **100GW**。新一代芯片（GB300、TPU v7）每瓦性能是旧代的 **3–5 倍**，故新增算力\"含金量\"更高。\n\n**经济性**：算力基础成本约 **每兆瓦 1000–1500 万美元**；服务旧模型（GPT-4）曾是负毛利，如今 Anthropic 单兆瓦收入最高达 **5000 万美元**（10 美元投入产出 50 美元）。Anthropic 已于 **Q2 转正**，OpenAI 或 Q3 转正。预计 2027 年底单兆瓦收入达 **7000–8000 万美元**。实验室会把越来越多算力从推理转向训练/研发（当前约 60% 训练、40% 推理，其中研究占 50%、开发仅 10%；单次预训练 <200MW、约两月），因为内部做 AGI 回报远高于卖 token——多数价值目前仍被终端用户（如 Jane Street、Meta）而非模型层捕获。\n\n**资本与利率风险**：全年 capex 今年 >**1 万亿美元**、2028 年 >**2 万亿**、十年末年 capex 或近 **10 万亿**（占美国经济 1/4–1/3）。2024–2029 累计 capex 约 **11 万亿美元**，其中 **6 万亿现金、5 万亿举债**。巨额发债推高利率（Meta 从 5–6% 或升至 **8%**，即 +250bps），挤出效应下新兴市场（巴基斯坦、尼日利亚）恐违约、非 AI 股权因贴现率上升而承压，或现\"第二次沃尔克冲击\"。\n\n**供应链瓶颈**：ASML/蔡司 EUV 工具 2030 年约需 **100 台**，扩产受资本约束、传导缓慢（牛鞭效应）。**中国**当前仅占全球算力 <10%（美国 70%），2028 年约 30GW、2029 年增量或达 50GW，但因国产芯片较弱，实际仅相当于约 20GW 美国芯片；出口管制被认为确有成效。\n\n**权力集中**：前沿实验室\"有效 AI 劳动力\"以 **每年约 10 倍**增长，本十年末单家实验室的等效劳动人口或超全球总人口，各种规模经济与 RSI 效应都指向极度中心化——这是两位对话者共同的忧虑。"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "OpenAI Jalapeño: Better Than Nvidia Blackwell",
+      "date": "2026-08-25 14:00 UTC",
+      "link": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
+      "chars": 31155,
+      "summary_zh": "SemiAnalysis 独家披露：OpenAI 联手 Broadcom 从零打造的推理专用芯片\"Jalapeño\"（墨西哥辣椒）已在 Hot Chips 亮相，并首次让第三方进实验室实测。核心结论：这颗首代 ASIC 罕见地做到业界领先，在多个开源模型上于 perf/W（每兆瓦 token 吞吐）指标上击败了他们测过的所有 Nvidia、AMD、Google 芯片。\n\n投资要点与关键数据：\n- 研发极快：设计始于 **2024 年年中**，约 **16 个月** 完成流片；**2025 年 11 月** 完成 CoWoS 流片，仅 **9 个月** 后、实体硅片 bring-up 仅 **3 个月** 即拿出优异成绩，且软件栈从零起步。\n- 性能：DeepSeek R1 在并发为 1 时达 **700+ tok/s/用户**；Kimi-K2.5、GPT-OSS 约 **1,400 tok/s/用户**——且全程无投机解码（speculative decoding）、无 prefill-decode 分离（PDD）、无 MTP。GSM8k 评测精度与 Nvidia 芯片持平。\n- 芯片规格：采用 **HBM4**，单封装带宽 **15.4TB/s**（引脚速率 **10Gbps**，略胜 Rubin 的 **9.6Gbps**）；B0 步进单 die 提供 **13.4 PFLOPs** MXFP4（Rubin 约 **17.5 PFLOPs** 密集 NVFP4），但 TDP 仅 **700W**（Rubin 为 **900–1,150W**）；B0 较 A0 perf/W 提升约 **25%**。AI 辅助设计使 SIMD 面积减 **8%**、矩阵引擎面积减 **10%**。\n- 竞品对标：作者认为对标对象应是同用 HBM4 的 **Vera Rubin**（而非 Blackwell）。即便如此，Jalapeño 的 STP perf/MW 仍超过 Nvidia/CoreWeave 7 月公布的 Rubin MTP 结果；perf/TCO 二者接近，但 Jalapeño 尚未上投机解码（可再带来 **3 倍+** 成本改善），后续成本优势更大。\n- 系统与量产：两机架系统含 **128 颗** ASIC/机架，scale-up 域最多 **2,048** 颗（16 机架），总功耗约 **160kW**（近似双宽 GB300）。量产将于 **2027 年** 逐步爬坡，多数产出排在明年底。\n\n战略含义：OpenAI 用软硬件协同 + 内部 Codex 自动写内核（含 Gluon 语言、Linear Layouts）快速 bring-up，作者直言\"CUDA 护城河可能已死\"。风险提示：所有数据由 OpenAI 提供，仅现场验证了 InferenceX，尚无更能反映真实 agentic 负载的 AgentX 结果，且测试模型非最前沿。"
+    },
+    {
+      "source": "a16z",
+      "title": "Intelligence is the Primitive. Applications are the Diffusion Layer.",
+      "date": "2026-08-25 14:03 UTC",
+      "link": "https://www.a16z.news/p/intelligence-is-the-primitive-applications",
+      "chars": 1692,
+      "summary_zh": "a16z（作者 Danco）以时事通讯形式分享了一份原本面向内部小范围受众的幻灯片，标题为《Intelligence is the Primitive. Applications are the Diffusion Layer.》（智能是原语，应用是扩散层）。其核心论点体现在标题：将\"智能\"视为最底层的基础原语（primitive），而各类应用及应用层（Application Layer）则是智能向消费者（Consumer）扩散、落地的通道。文中列出的框架结构包括：整体格局概述（Overview）、应用与应用层（Apps & the Application Layer）、消费者（Consumer）等板块。a16z 表示这是首次尝试对外公开此类内部制作的材料，若反响良好将定期发布。\n\n（注：本文实为幻灯片分享，正文可提取的文字内容有限，主要为板块标题与免责声明，未包含具体的数据、图表数值或详细论述，故无量化指标可保留。）"
+    }
+  ]
+}
