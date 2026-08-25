@@ -1,0 +1,29 @@
+Source  : a16z
+Title   : Intelligence is the Primitive. Applications are the Diffusion Layer.
+Date    : 2026-08-25 14:03 UTC
+Link    : https://www.a16z.news/p/intelligence-is-the-primitive-applications
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+Today we’re trying something new. We’re sharing a slide deck,
+“Intelligence is the Primitive. Applications are the Diffusion Layer”
+by
+, that he originally put together for a smaller audience. There’s a lot of great stuff that gets made internally at a16z, and we look forward to sharing more of it here on a regular basis, when we’re able. - Danco
+Overview: what is the overall situation?
+Apps & the Application Layer
+Consumer
+Thank you for reading! If people like them, we’ll publish these on a regular basis.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
