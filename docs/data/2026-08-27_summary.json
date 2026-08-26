@@ -1,0 +1,89 @@
+{
+  "date": "2026-08-27",
+  "generated_at": "2026-08-26T23:34:44.422787+00:00",
+  "stats": {
+    "tweets": 10,
+    "podcasts": 2,
+    "articles": 1
+  },
+  "tweets": [
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "AI 工程师、Latent Space 主理人 Shawn \"swyx\" Wang 发出使用警告：不要用 Codex 的 \"locked use\" 功能，它目前依赖不稳定的 macOS 特性，本周已两次把他锁在自己的 macOS 钥匙串（keychain）之外。他引用 Apple 开发者论坛确认这是\"已知 bug\"，建议直接避开；并感叹理想状态是全部放到云端跑，但云端能力目前还不成熟。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI 工程/研究负责人 Thibault Sottiaux 介绍面向团队与中小企业的 ChatGPT Business 方案，称需求非常旺盛，定位类似 Pro 100 美元档但为团队设计：包含全部 ChatGPT、ChatGPT Work 与 Codex 功能，可连接 Google Workspace、Slack、GitHub、Microsoft 365，支持 SAML/SSO/MFA 安全工作区、集中式计费与管理、用量分析与支出管控，且没有 5 小时使用上限。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品人、Behind the Product 作者 Peter Yang 开源了名为 /fuck-cancer 的 AI skill，帮助癌症患者及照护者应对诊断与治疗、并为自己争取权益。该 skill 会基于用户提供的文档和背景，生成并持续更新一份含五个板块的实用简报（患者与医疗团队信息、接下来要做的三项具体行动、已确认事实与未明事项、医学术语通俗解释、护理更新日志），需要检索时调用美国国家癌症研究所、ClinicalTrials.gov API 等可信来源，可搭配 ChatGPT/Codex 与 Claude Code 使用，并能存为本地 Markdown 或同步到可共享的 Google Doc。"
+    },
+    {
+      "author": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "summary_zh": "Madhu Guru（@realmadhuguru）发布\"如何构建优秀 evals\"系列第 9 篇，核心观点是：多数 evals 失败是因为团队把它当作静态产物，而用户的期望和行为已经演进。他以金融研究 agent 为例说明用例会从\"总结 5 页财报\"演进到\"综合 15 份文件构建投资论点\"再到\"主动监控组合并预警\"，对应 evals 需从短上下文到长上下文、单轮到多轮、简单问答到复杂综合、被动聊天到主动 agent 同步升级。他给出建设路线：绘制用量演进维度、排优先级、访谈用户并挖掘生产 trace、为下一阶段构建 P0 evals、跑测找失败模式并迭代，强调 evals 要跑在用量前面。"
+    },
+    {
+      "author": "Cat Wu",
+      "handle": "_catwu",
+      "summary_zh": "Anthropic Claude Code 产品经理 Cat Wu 宣布：根据用户反馈，Claude 已在 Chat 与 Cowork 之间统一了记忆（memory），现在只需告诉 Claude 记住一次，它就能在不同界面间共享该上下文。"
+    },
+    {
+      "author": "Boris Cherny",
+      "handle": "bcherny",
+      "summary_zh": "Claude Code 创造者、Anthropic 工程师 Boris Cherny 发布记忆（memory）功能的小改进，称其现在更简洁也更强大。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic Claude Code 团队成员 Thariq（@trq212）预告：团队很快将分享更多关于如何让 Claude Code 变得更\"可魔改/可扩展\"（hackable）的进展。"
+    },
+    {
+      "author": "Google Labs",
+      "handle": "GoogleLabs",
+      "summary_zh": "Google Labs 推出新实验项目 Play with Putty——一款支持实时协作的 \"vibe coding\" 工具，让用户可以多人一起构建工具和网站。现开放候补名单（waitlist），仅限美国、18 岁以上。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 创始人兼 CEO Guillermo Rauch 连发两项面向 AI agent 的产品。其一 Run SDK：为动态 Code Mode 执行提供安全的 eval，主张当 agent 写代码时并不总需要完整沙箱，可在轻量的 QuickJS 安全上下文中运行，更快也更省成本（npm i run）。其二 Vercel Connect 正式 GA，用于解决构建 agent 时最难的问题——与各类服务和数据的安全连接：执行如 vercel connect create notion 后，即可获得一个代表已认证用户进行查询的 MCP 客户端。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 联合创始人兼 CEO Aaron Levie 谈规模化的应用型 AI 战略：AI 模型与企业底层工作流之间存在巨大鸿沟，这为应用型 AI 公司留下大量机会。他强调世界要的不是原始模型和 agent，而是问题被解决、结果被达成——溢价将归于能把智能扩散到各行业、把 token 转化为真实世界成果的公司；这需要理解上下文、推动变革管理、构建可路由多模型的 harness、接入垂直行业关键业务系统、解决用户与 agent 衔接的 UX、掌握该领域的 evals 等，价值远超模型智能本身，当下正是打造这些领域标杆公司的窗口期。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "张小珺Jùn｜商业访谈录",
+      "title": "152. 领读Kimi K3技术报告：从架构创新聊起，注意力美学、多教师蒸馏和开源MoE",
+      "date": "2026-08-26 09:33 UTC",
+      "duration": "02:04:19",
+      "link": "https://podcasts.apple.com/us/podcast/152-%E9%A2%86%E8%AF%BBkimi-k3%E6%8A%80%E6%9C%AF%E6%8A%A5%E5%91%8A-%E4%BB%8E%E6%9E%B6%E6%9E%84%E5%88%9B%E6%96%B0%E8%81%8A%E8%B5%B7-%E6%B3%A8%E6%84%8F%E5%8A%9B%E7%BE%8E%E5%AD%A6-%E5%A4%9A%E6%95%99%E5%B8%88%E8%92%B8%E9%A6%8F%E5%92%8C%E5%BC%80%E6%BA%90moe/id1634356920?i=1000786009137&uo=4",
+      "summary_zh": "张小珺访谈清华博士候选人、上海创智学院普瑞学者孙宇涛（研究方向为LLM架构与推理高效性），逐篇领读Kimi K3技术报告并串联十余篇相关论文。\n\n模型层面：K3是全量开源的MoE，总参数**2.8T**、激活约**100B**、上下文**1M**，相比K2（总参**1T**、激活**32.6B**）总参增约近3倍、激活增3倍多。嘉宾核心判断是\"更大的模型才有更高智能上限\"，参数量是决定智能最本质的因素，K3最令他惊讶也正是激活做到**100B**这一量级——这是需要魄力的非技术性决策，其余创新均在预期内。K3从K2的\"沿用DeepSeek V3、先把结果跑稳\"转向大量吸收全行业一年内的架构创新。\n\n架构要点：①混合注意力（线性+全注意力，约**3:1**、全注意力占**1/4**，可无损换取约**4倍**上限加速）；②Kimi Delta Attention把衰减从标量升级为channel-wise，并用lower-bound decay与kernel做co-design（16 token窗口内控制在bf16动态范围）；③Gated MLA（延续K2的MLA、加gating提训练稳定性，而DeepSeek V4已弃MLA转MQA/稀疏）；④attention residual/hyper-connection（源自DenseNet，推理近乎免费）；⑤Latent MoE（降通信、近似free lunch）；⑥C2GLU用tanh软截断压制激活outlier；⑦Quantile Balancing替代loss-free路由、少一超参；⑧混合架构下全注意力层改用NoPE，长度外推无需调参。K3未采用稀疏注意力（Blackwell上decode收益小、与混合/MLA/预训练不兼容）。\n\n训练/推理：用cosine decay替代WSD（更好调参），K3对K2的scaling efficiency约**2.5倍**；先高精度训练、SFT阶段再引入低精度QAT；后训练采用multi-teacher on-policy蒸馏（OPD）简化post-train合板；工程侧涉及线性注意力CP分层chunk、动态冗余专家EP、FP8 offloading、Muon优化器切分等。\n\n产业判断（投资视角）：嘉宾\"暴论\"称大模型已无本质创新、后续均为改良性进步（泰修斯之船），里程碑更多是非技术叙事。战略分化上，Kimi主打冲开源能力上限、不以性价比为首要（K3 API相当贵），DeepSeek更强调性价比（1.2T旗舰+更小flash）。模型规模因互联网数据有限不会无限增大，但仍会更大。嘉宾评价Kimi团队\"科学、团结、不依赖个人英雄主义\"。"
+    },
+    {
+      "source": "Training Data",
+      "title": "Parallel’s Parag Agrawal: Building a New Web for AI Agents",
+      "date": "2026-08-25 09:00 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
+      "summary_zh": "前Twitter CEO、现Parallel Web Systems创始人Parag Agrawal分享其为AI智能体重建搜索基础设施的思路。核心判断：智能体使用网络的频次将是人类的**1000倍**，需为其重造搜索技术与商业模式。\n\n**核心观点**：Parag认为\"人类点击数据是个bug\"，智能体搜索应依赖智能体反馈而非人类反馈；大模型擅长压缩信息，可用于搜索的索引与排序。公司定位不是\"新实验室\"（NeoLab），产出不是模型而是\"模型的补充\"——别人发布更强模型，Parallel反而解锁更多可服务的用例。技术上把问题抽象为\"千亿网页对千亿查询\"的匹配：每次查询本质是\"从万亿网页中取回最对的1000个token\"。\n\n**冷启动策略**：不先做搜索引擎，而先做\"搜索智能体\"，靠查询到达后实时爬取（深度研究可容忍1分钟甚至10分钟延迟），以此绕开前期海量基建投入，边服务客户边增量建索引。早期用例包括保险核保、销售数据补全、金融建模取数，替代原本外包给人工的网络数据搜集。\n\n**关键数据**：先攻质量与成本、暂放延迟；近期推出最快产品**TurboNow**，搜索延迟从**3秒**压到**200毫秒**。相比反复调用Google，用Parallel搜索\"通常只消耗智能体不到一半的token\"，更准更快。单个搜索智能体每次问答会做**5-20次**搜索；后台智能体（如信贷组合监控1万家小微企业、会议准备文档）可把搜索量放大到数十万乃至百万级。引用Cloudflare数据：AI流量在页面读取量上已约等于人类流量。\n\n**商业化/生态**：宣布与Google Cloud合作，成为其企业级智能体API的搜索与grounding提供商（GCP上Gemini等模型接网络搜索时，选项为Google搜索或Parallel）。针对互联网经济被AI打破（广告依赖稀缺人类注意力、Stack Overflow等流量暴跌），Parallel用博弈论的**Shapley值**为内容方按\"内容独特性×使用场景价值\"做差异化定价与归因；虽精确计算成本极高，但可用模型估算。宏观测算：若把LLM知识工作推理支出的**2%-10%**分给网络数据，规模将超越当前墙外花园（Facebook、LinkedIn）之外的全部网络数据商业模式，预计**12-24个月**内可为广泛内容方带来有意义收入。愿景：网络从\"拉取\"转向\"推送\"——网页变化成为触发智能体工作的信息流。（公司原名Shapley Inc.）"
+    }
+  ],
+  "articles": [
+    {
+      "source": "a16z",
+      "title": "Faking a brand is easy. Making it stop is hard.",
+      "date": "2026-08-26 14:00 UTC",
+      "link": "https://www.a16z.news/p/faking-a-brand-is-easy",
+      "chars": 14067,
+      "summary_zh": "a16z 联合品牌保护公司 Doppel，基于其\"威胁图谱\"对数百个品牌在 **2025 年 Q2 至 2026 年 Q1**（覆盖社交、付费广告、仿冒域名、移动应用、消息、加密钱包等表面）经分析师核实的冒名攻击数据，剖析了品牌仿冒这门生意，并借此论证\"始终在线的社会工程防御\"这一新兴软件品类的投资逻辑。\n\n核心数据：美国消费者 **2025 年** 因冒名诈骗损失 **35 亿美元**，较上年 **29.5 亿美元** 增长约 **19%**，是 FTC 举报最多的欺诈类别——检测投入与损失同步上升。品牌自身几乎\"盲视\"：接入 Doppel 前 90 天，品牌及其原有合作方仅发现约 **9%** 的确认仿冒，其余 **91%** 由 Doppel 发现；**94%** 的品牌抓到的仿冒不足一半，中位数品牌一个都没抓到。\n\n攻击天然多头并发：超 **80%**（精确 **80.6%**）被仿品牌同时遭 **2 个及以上**表面攻击，近乎同时的多表面攻击两年内增长约 **7 倍**；只盯域名注册的传统厂商仅覆盖约 **6%**。行业差异明显：软件/媒体几乎全在社交，医疗/制造主要在移动应用，酒店业集中在仿冒域名。\n\n下架难且不彻底：已提交下架请求的威胁约 **97%** 内容/托管被移除，顽固的 **3%** 集中在拒不响应的少数平台；半数仿冒两天内消失，但长尾可存活数月，风险敞口主要集中于此。域名是唯一\"打不死\"的表面：被下架域名近 **60%** 在 **24 小时**内、近 **70%** 在 **90 天**内重新武装为新仿冒；约半数恶意域名一月内注册指向品牌，但超 **1/5** 是沉睡多年的老域名（最老的沉睡近十年）。下架后两周同一品牌新仿冒反而上升。\n\n作恶者高度集中：最活跃的 **1/10** 运营者制造了近半数仿冒；但 **9 成**共享技术指纹只对应单一品牌，跨数百品牌的指纹多是通用托管/现成套件，无中心\"幕后主脑\"可打击。结论（投资视角）：单个下架是徒劳的\"treadmill\"，价值在于持续监控全表面 + 分钟级响应 + 追踪运营者基础设施——Doppel 即以此定位为对抗诈骗\"九头蛇\"的赫拉克勒斯。"
+    }
+  ]
+}
