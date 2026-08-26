@@ -1,0 +1,73 @@
+Source  : a16z
+Title   : Faking a brand is easy. Making it stop is hard.
+Date    : 2026-08-26 14:00 UTC
+Link    : https://www.a16z.news/p/faking-a-brand-is-easy
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+Most forms of theft take something from you. You notice the car is gone, the account is drained, the files are locked.
+Brand impersonation is a strange one. Nothing of yours ever leaves. A copy of you, your company, your logo, your login page, goes to work somewhere else on the internet, collecting passwords and payments in your name. And, to make matters worse, if you’re being copied you’re usually the last to find out.
+That is what makes it so hard to fight. Impersonation is hard to find, because it runs on other people’s platforms, aimed at other people, in your name. It is harder to stop, because a single takedown rarely ends it. Like the Hydra of Greek myth, cut off one head and two grow back: a new lookalike domain, a fresh ad, another cloned account. How did Hercules beat Hydra? Only by searing each neck shut so nothing could regrow.
+The modern equivalent is an always-on social engineering defense, one that watches every surface at once and cauterizes the regrowth so the heads stay gone. The machinery for stopping impersonation has never been larger. Every big platform runs a trust-and-safety team, brand protection is a mature software category, and ‘AI-powered detection’ sits on every vendor’s homepage.
+The losses keep climbing anyway. Americans reported losing $3.5 billion to imposter scams in 2025, up ~19% from $2.95 billion the year before, and imposter scams were the single most-reported category of fraud, according to the FTC. We’re seeing more detection and more losses, at the same time.
+Doppel hunts fake versions of real brands (all industries) across the internet. The fakes turn up wherever their customers are: lookalike domains, social accounts, mobile apps, paid ads, marketplaces, and messaging. Doppel’s Threat Graph sits across the surfaces where impersonation lives: social, paid ads, domains, mobile app stores, and messaging, and it records what happens to a fake from the moment it is spotted to the moment it’s brought down. These are confirmed fakes, reviewed by analysts, across hundreds of brands, over the four quarters from spring 2025 to spring 2026.
+For once, we do not have to ask the victims what happened. We can watch. To map this, we have to look at the graph: the shared infrastructure connecting seemingly isolated attacks.
+Most impersonation goes undetected
+Let’s start with how many impersonators companies actually notice.
+Before continuous monitoring begins, brands are nearly blind to their own impersonation: across their first 90 days with Doppel, brands and their existing partners surfaced only about 9% of the confirmed fakes targeting them. Doppel found the other 91%.
+94% of brands caught fewer than half of their own impersonators, and the median brand caught none at all. Impersonation isn’t a visibility problem at the margins; for most brands, the fakes simply never cross their radar.
+In general, less than 10% of all brand impersonations are self-discovered:
+This is not a knock on those teams. Impersonation lives outside a company’s walls, on platforms they don’t control, aimed at people who aren’t their employees. No internal security stack can see it, no matter how good. That blind spot is the whole reason continuous external monitoring exists as a category.
+Impersonators usually operate on multiple platforms
+Seeing it is only half the challenge, because the attack is built to appear in many places at once. There is no single pane of glass. A campaign is many-headed by design: a head on social, another on a search ad, another on a lookalike domain, all at once, and operating 24/7 with the help of AI.
+The usual human math doesn’t apply here. Spinning up a new head costs the attacker minutes; finding and cutting one off costs a defender hours, and increasingly the heads appear everywhere at the same time: near-simultaneous multi-surface campaigns have grown roughly sevenfold in two years. No team scales with that by hand.
+Over 80% of impersonated brands are faked across two or more surfaces at once. A tool that only watches domain registrations, which is what most legacy takedown vendors were built to do, only catches a ~6% sliver of the picture, and misses the rest of it entirely.
+Of the brands that had confirmed impersonations, 80.6% were hit on two or more of the surfaces monitored for them. That figure only counts surfaces each brand actually has monitored: a brand that’s only bought domain and social modules can never show up as more than two surfaces, however many surfaces attackers actually use against them. So the true multi-surface rate is almost certainly higher than what’s shown here; this is a floor, not a ceiling.
+Where those surfaces land shifts by industry:
+Software and media brands are impersonated almost entirely on social media. Healthcare and manufacturing get hit mostly through mobile apps. Hospitality lives on lookalike domains. There is no universal channel, and a defense that watches only one surface stays blind to most of the attack.
+Impersonations are hard to kill
+Say a brand does see all of it. Getting it down is the next fight. Once a fake is found, someone still has to get it removed, and a brand almost never owns the platform it lives on. So the main lever is the takedown request, a formal note to whoever hosts the fake asking them to pull it down. Most of those amount to little more than ‘please remove this.’
+Of every threat Doppel filed a takedown request on over the past year, roughly 97% had their content removed and/or the hosting pulled. The 3% that survive cluster almost entirely on the handful of platform types that ignore takedown requests altogether.
+Even the fakes that do come down are not down instantly, and the harm is not spread evenly across a fake’s life. What stretches takedown times into weeks is not slow removals; it is the platforms that never answer at all.
+The good news is that half of all fakes are gone within a couple of days. A stubborn few live for months, and that long tail is where most of the total exposure sits, costing customers their money or a brand its trust. The longer a fake stays live, the more time it has to reach new victims, steal credentials or payments, spread across channels, and repeatedly erode trust in the brand.
+Where a fake lands on that curve depends less on the fake than on who you have to ask to remove it, and you do not get to pick who that is. The clock belongs to the platform, each with its own timeline and willingness to act, and most of a fake’s life is the wait for the host to move.
+Dirty domains (no, not those) deserve their own look.
+Once removed, a fake page seldom returns. The domain behind it usually survives, because the industry grants blocking and content removal far more readily than registrar-level removal, and it re-arms fast: almost 60% of taken-down domains serve a new confirmed fake within 24 hours, and close to 70% within 90 days. One-asset-at-a-time enforcement is a treadmill no vendor escapes.
+About half of malicious domains are registered and pointed at a brand within a month. But over one-in-five are aged domains that sat quietly for years before someone woke them up. Domains are the Jason Bourne-style sleeper cells of the scam world. In fact, the oldest in this data had been sitting untouched for the better part of a decade before it was aimed at a brand.
+Domains are also the one surface where beating a scam doesn’t last.
+Take a bad domain down and, hydra-like, a fresh head grows back on the same neck: most within 90 days, and often within a single day, on the same registrable name. Every other surface stays down once it is removed. On domains, a takedown buys you a day.
+Across the board, most scams don’t go quietly into the night, and campaigns push back with an almost hydra-esque quality.
+In the two weeks after a takedown, the same brand tends to see a rise in brand-new fakes.
+Why? Threat actors keep trying variations and iterations to test the waters on what is and isn’t being blocked or monitored. And, with AI, this is done much faster.
+Read one way, this is a losing battle: The services hosting the fakes may not answer, and the impersonations could grow back overnight. Read correctly, it’s a targeting problem. Most fakes end up dead; what survives is the operation behind it, respawning for pennies. Chasing fakes one at a time concedes that math. Mapping the operator’s infrastructure (every domain, account, and kit they run) and cutting it down at once is how the math flips.
+A small number of impersonators do the lion’s share of the impersonating
+So who is actually behind all this? Fewer operators than the noise suggests.
+Group the fakes by who runs them and the busiest tenth accounts for nearly half of everything. A relatively small set of professional operations, rather than a planet of lone opportunists, produces most of the damage.
+They also share tooling. Plenty of fakes are built from the same kit, a ready-made bundle of page code and templates that clones a brand’s login page in minutes. It would be easy if you could follow those connections to a single kingpin behind everything, but the data will not take you there.
+Nine in ten shared fingerprints show up on just one brand, which is one operator reusing a tool against a single target and tying only their own fakes together. The rare fingerprints that span hundreds of brands turn out to be commoditized plumbing, a popular host or an off-the-shelf template that unrelated attackers all happen to use.
+That is what makes fakes so hard to track. There is nothing central to grab hold of, no master list and no single cluster to strangle. The operators are few, but they hide behind disposable, off-the-shelf infrastructure they can rebuild overnight, so watching any one fake tells you almost nothing. Keeping pace means watching every surface at once and without pause, because a fake taken down is usually a fake already regrowing somewhere else. The heads keep coming back.
+Fake detection doesn’t have to be a Herculean task
+So what actually stops this? An always-on social engineering defense does three things at once: it watches every surface continuously, it acts on a fake within minutes of finding it, and it tracks the operator behind the regrowth rather than just the artifact in front of it. Recurrence and the balloon effect are why: kill a single fake and a new head grows back. And because a few operators and shared kits drive most of it, mapping them aims at the half of the problem that matters, instead of chasing artifacts one at a time.
+Which brings us back to the copy of you, out there on the internet, working under your name while you are the last to know. Finding the fake was only the start. The hard part is everything that comes after.
+This is where the modern internet can borrow from the ancient Greek tales, with Doppel serving as the Hercules to the scammers’ Hydra. Hercules did not win by swinging faster. He won by stopping the necks from sprouting new heads, searing each one shut before it could grow back. The takedown-by-takedown fight is the swinging. The win is an always-on social engineering defense: watching every surface at once and choking off the regrowth, so the heads stay gone.
+Methodology
+All figures come from Doppel’s Threat Graph and cover confirmed, analyst-validated brand impersonation across hundreds of brands over Q2 2025 through Q1 2026 (April 2025 to March 2026). The data is customer-anonymized, with raw volume counts withheld and shown as shares or indices. Coverage is impersonation only, across social media, paid ads, lookalike domains, mobile apps, marketplaces, messaging and telecom, and crypto and wallet services.
+Multi-surface figures are bounded by two factors: the brand population (Doppel-monitored brands with at least one confirmed impersonation in the window) and the surfaces counted per brand (only the surfaces monitored for that brand, per purchased modules). Both factors cap the published rate from above. The true multi-surface rate is very likely higher.
+Takedown outcome figures measure end-state removal (content and/or hosting no longer live) rather than formal per-request acceptance, across all threats with at least one takedown request filed in the window.
+Takedown time figures measure median time from filing to removal, calculated only over requests that resulted in removal, across all phishing/impersonation takedown requests filed in the window.
+Domain recurrence figures require the follow-on alert to be analyst-confirmed malicious (the same standard used elsewhere in this study), measured over a full 90-day post-removal observation window per domain.
+Domain age is measured from a domain’s registration date to first detection. Operators are grouped by shared technical fingerprints such as page code, tracking IDs, hosting, and kits. A few summary statistics were calculated by a16z from Doppel’s data.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
