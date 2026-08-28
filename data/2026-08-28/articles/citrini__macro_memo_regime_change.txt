@@ -1,0 +1,111 @@
+Source  : Citrini
+Title   : Macro Memo: Regime Change
+Date    : 2026-08-27 12:49 UTC
+Link    : https://www.citriniresearch.com/p/macro-memo-regime-change
+────────────────────────────────────────────────────────────
+
+One of the first reports Citrini ever circulated was a thesis arguing that Silicon Valley Bank was technically insolvent and at serious risk of failing. In March 2023, SVB collapsed and the report (along with a handful of
+tweets
+detailing the setup) began to make the rounds.
+When the Bank Term Funding Program (BTFP) backstopped interest rate risk from being realized in the banking system, we viewed that as an “all clear” signal to invest in growth. The last transmission mechanism for monetary policy to slow the economy had been taken off the board and tech looked appealing after a year-long brutal bear market.
+Six weeks later, that thesis had become the spine of the first ever paywalled piece on this newsletter,
+Artificial Intelligence: Global Equity Beneficiaries
+. CitriniResearch was born.
+For this month’s macro memo, we’re returning to our roots and examining a setup three years in the making. One that has been brewing since the SIVB/FRC pseudo-crisis put GFC-era liquidity regulations back under the microscope.
+But the implications of this setup extend beyond just the banks. They are part of a larger regime change that explains the motivation behind the Bessent “Twist”, Warsh’s balance sheet hawkishness, and what both mean for the bond market and money supply.
+Our view:
+We see bank liquidity reform as the Trojan Horse for a new Treasury-Fed Accord, one in which the Fed shrinks and the banking system expands, both the Fed and the banks buy bills, the Treasury sells bills instead of bonds, and long duration paper gets scarcer.
+Shrinking, Not Tightening
+TLDR: We expect that monetary and fiscal authorities – Fed Chair Kevin Warsh and Treasury Secretary Scott Bessent – are aligned on a framework that solves for two critical problems,
+while still stimulating growth
+:
+Reduce the Fed’s Balance Sheet
+Improve US fiscal sustainability and reduce higher long-term rates
+The plan looks like this:
+First - Banks:
+Reform bank liquidity regulations, stimulating the private sector and expanding money supply via bank leverage.
+Second - Twist:
+A new
+Fed-Treasury
+Accord 2.0
+results in dual efforts focused on reducing open market UST duration (by increasing bills issuance). The Treasury alone is not doing a “Twist”, and investors are underestimating the role of the Fed in attempting it.
+The result is a smaller balance sheet, lower coupons, and greater private sector growth.
+If we believe them, three trades follow…
+Part I – Liquidity Reform: The Banking System Re-levers
+Secretary Bessent in March fired a warning shot that the banking system was about to be unshackled:
+“To unlock the vast promise of this transformation and secure America’s Golden Age, we confront the pressing necessity of unlocking hundreds of billions—potentially trillions—in new lending capacity to finance AI infrastructure, domestic supply chains, and the defense industrial base.
+The problem, however, and the reason this roundtable is timely, is that the framework for supervising and regulating bank liquidity created in response to the 2008 financial crisis has excessively and unnecessarily limited banks’ ability to do what they are supposed to do—lend […]
+Which is all to say, liquidity regulation is an area of steady and serious focus for the Treasury Department.
+”
+The two footnotes in Secretary Bessent’s speech that referenced liquidity policy proposals cite Jeremy Stein, a former Fed Governor from 2012-2014. The same Jeremy Stein now helps lead Warsh’s Federal Reserve “balance sheet task force”.
+On the surface, liquidity regulation is presented as improving the safety and soundness of the banking system by preventing a repeat of the mechanics that led to SVB’s failure. In reality, however, we see it as the thread tying together Secretary Bessent and Chair Warsh’s goals – shrinking the Fed’s balance sheet without tightening.
+Regime change is in the air.
+Note: While we do our best to explain our view on banking liquidity regulation in plain English, if you need a refresher on how banks work, consider re-visiting our 2023 article “
+Evaluating Banks and Insurers
+”.
+Safety & Soundness: A Trojan Horse
+A bank can be insolvent for a long time and not die. Illiquidity is what kills a bank. Or, at least, illiquidity at a time when liquidity is in high demand among your depositors. You never want to run out of cash on the same afternoon all of your depositors want theirs back.
+SVB was already technically underwater well before it collapsed. In fact, in October 2022, it was
+more
+insolvent than it was before the bank run started. But it wasn’t the number on paper that killed them.
+The Fed’s post-mortem report on SVB indicates the bank had $40 billion of outflows on Thursday, March 9, 2023, and expected another $100 billion the following day.
+This $140 billion comprised 85% of SVB’s deposits, its “runnable” funding. This is the type of crisis envisaged by the writers of the Federal Reserve Act in 1913 in creating the discount window; the Fed is supposed to be the
+‘lender of last resort’
+for the banking system, to prevent panics that crunch confidence (liquidity).
+SVB had only $31 billion of borrowing capacity in collateral prepositioned at the Fed’s discount window/FHLBs, and it had not properly tested its pipes to draw on the discount window in years.
+Despite this, SVB had a securities portfolio of $120 billion ($106.9 billion MTM) that was almost entirely Treasuries and MBS. This portfolio would’ve been eligible collateral to borrow against even if it was trading below par. It was
+contingent liquidity
+, but it could not be accessed as it was not properly positioned at the discount window.
+In theory, SVB may have had sufficient contingent liquidity to get to the weekend if it was properly positioned. (It likely still would have failed, though).
+In any case, the deposits ran, and SVB didn’t have the money to give them back. The FDIC Grim Reaper closed the bank on March 10, 2023.
+The failure of SVB demonstrated that
+a bank positioned to borrow from the Fed’s facilities is more liquid than one that isn’t.
+You might be thinking: “Wow, this victory lap is oddly informative”. But we aren’t taking a trip down memory lane for the sake of tallying past wins. This is more important now than it was in the immediate aftermath of SVB.
+Bank regulations move slowly. More than three years ago,
+SVB exposed a mismatch between economic liquidity and regulatory liquidity.
+The focus shifting to liquidity regulation matters
+now
+.
+On March 3 of this year, Treasury Secretary Bessent gave a speech with the explicit ask that liquidity rules recognize borrowing capacity at the Fed’s discount window and the FHLBs against prepositioned collateral. The same day, Michelle Bowman, the Fed’s Vice Chair for Supervision, also gave a speech on the bank liquidity framework, echoing Bessent’s explicit call for recognition of borrowing capacity at the discount window.
+So, what does reforming liquidity regulation mean for the banks?
+Less cash required. More loans. More securities. In other words –
+more leverage on tangible liquidity
+.
+Put simply,
+contingent liquidity
+may start counting as
+liquidity
+. That may sound tautological, but it would be a transformative development for the banking system.
+Banks have to carry high quality liquid assets (HQLA) to comply with the key current liquidity regulation, the Liquidity Coverage Ratio (LCR) rule.
+The LCR rule identifies how much money theoretically could flow out in a 30-day panic and forces each bank to hold enough HQLA to cover that potential outflow.
+A few weeks after Secretary Bessent and Vice Chair Bowman’s remarks in early March, then-Fed Governor Stephen Miran wrote ‘
+A User’s Guide to Reducing the Federal Reserve’s Balance Sheet
+’, described as a menu of options rather than any policy endorsement. On that menu, Miran proposed to recognize prepositioned discount window capacity in the numerator of the Liquidity Coverage Ratio, capped at 20% of the bank’s HQLA.
+Say a bank holds $114 of cash and government bonds against a theoretical $100 of deposits that could leave in a panic: a 114% LCR. If it prepositions its collateral at the discount window, it can count up to $23 more (20% of $114) towards the ratio (now a 137% LCR).
+But banks do not need higher ratios – they need the same ratio with less collateral. To stay at 114%, the bank can now hold just $95 of cash and bonds, count 20% of that ($19) and still show the same $114 of liquidity against the $100 of deposits.
+What does this mean when extrapolated to the entire banking system, or rather the entire economy?
+In plain English, Miran outlined $500 billion to $1 trillion of cash that the banking system could redeploy from potential liquidity regulation reform.
+I understand that the past few years have made large numbers lose a bit of their impact, so let’s recharacterize –
+that’s 1.5-3% of nominal GDP
+that could become freed up to be lent out (with a multiplicative effect).
+There’s already some evidence that banks are frontrunning what’s coming. JP Morgan specifically is running its liquidity book to the framework Bessent and Bowman described in March, rather than to the rule that is still on the books.
+JP Morgan has reduced its cash asset ratio to 6% – the lowest level of the post-GFC era. Only a small portion of that ($52 billion) sits in reserves at the Fed. But if JPM, the largest bank in the country – with nearly $5 trillion of assets (19.5% of the banking system!) – can operate with just 6% of its assets in cash, why is the rest of the banking system operating with ~13%?
+In Jamie Dimon’s shareholder letter in April 2026, he included a regulatory proposal:
+“The liquidity component of loans and securities should be equal to what the Fed discount window would lend against those securities. We should eliminate duplicative or unnecessary liquidity buffers. These actions would create an enormous amount of lendable liquidity and also allow banks to use their capital far more flexibly in a crisis. They would also reduce the need for the Fed to step in every time there is a kerfuffle in the market. Credit for the Fed discount window alone would increase JPMorganChase’s lendable liquidity by almost $500 billion.”
+Consider that Jamie Dimon has spent the last two years explicitly warning of higher rates… while JPM rotated >$250 billion of overnight-earning cash reserves at the Fed largely into buying Treasury bonds.
+If you thought rates were going higher, why would you materially lengthen your asset duration?
+We don’t know what JPM is sniffing out from regulators or the administration. But we do know what JPM has committed to:
+The SRI funds the exact sectors that have been used to justify the reform, demonstrating the channel by which the administration can get the banking system instead of the Fed to finance the economy the way the US did post-WW2.
+More interestingly, the sizing rhymes with the reform math. Dimon’s letter puts discount-window recognition at “almost $500 billion” of new lending liquidity for JPM. This initiative raises JPM’s decade-long financing commitment by up to $500 billion over a previous baseline of $1 trillion. They’re not identical, but one of the largest banks in America sizing an incremental lending push in the same general size as the capacity it believes reform will unlock… Well, I guess it
+could
+be a coincidence.
+The Trade: Bank Stock Implications & Basket Idea
+Liquidity reform transmits to bank earnings through three channels:
+Funding Relief
+– or paying down borrowings whose costs exceed what they earn on cash – is the most immediate, albeit small and balance sheet reductive.
+Asset Mix Shift
+– or redirecting liquidity towards higher yielding assets – is the most earnings accretive, but will take a few years and is discretionary to risk appetite.
+Growth
+via incremental balance sheet capacity (higher leverage) is likely the most multiple accretive.
+Below the paywall, we detail the banks most likely to benefit from this and those who wont and could be used as a hedge. We also detail Part II of the plan, the Treasury’s Twist and the role the Fed will (and is already) playing in it.
+Read more
