@@ -1,0 +1,62 @@
+{
+  "date": "2026-08-30",
+  "generated_at": "2026-08-29T23:34:26.893707+00:00",
+  "stats": {
+    "tweets": 8,
+    "podcasts": 1,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI 研究与产品负责人 Thibault Sottiaux 宣布 OpenAI 将终止与 AI 编程工具 Cursor 的合作，自 **11 月 12 日** 起不再通过 Cursor 提供其模型，称这\"归根结底是信任问题\"。他强调开发者仍可通过自带 OpenAI API key 及 OpenAI 官方 IDE 扩展继续使用，并承诺继续支持包括开源在内的广泛工具与 harness 生态。他另外放风称 Codex 明日或将迎来新的里程碑。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品增长专家、Newsletter 作者 Peter Yang 抛出一个与主流相悖的观点：Claude Cowork 和 ChatGPT Work 都只是不完整的过渡方案，而 Grok Bot 才是面向非技术人群的、真正正确的 AI agent 产品终局形态。他的理由是普通人能直观理解 Grok Bot 就是\"一台跑在云端的电脑\"，而多数人根本说不清 ChatGPT Work 与 Codex 的区别，或 Claude Cowork 到底如何运作。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad 借 OpenAI 终止与 Cursor 合作之机推销 Replit：在 Replit 上可免费使用 OpenAI 模型，其模型路由（router）能让高端模型极具成本效益。他公开表示愿意出资资助那些寻找独立、多模型 Cursor 替代方案的企业完成迁移。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch 认为 Web 正走向两个极端：一端是服务于愉悦、探索与品牌的超炫酷人类体验（由 threejs、typegpu 等推动），另一端是面向 agent 的内容、数据与 API，即为机器提供纯粹无损的信号（markdown 与 MCP 只是冰山一角）；中间地带将被 agent 即时生成的 UI 取代，agent 成为新的浏览器。他还指出 MCP 正爆发式增长（不止 Vercel MCP，mcp-handler 的 npm 下载量亦可佐证），并推广其 eve 产品——让开发者通过 Git repo 真正拥有从运行时、模型选择到 skills、工具、连接与沙箱的整个智能栈。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie 提出，如今 AI 领域一个被普遍坚信的观点半衰期最多只有 **6 个月**。他列举了行业已轮番相信又抛弃、目前毫无共识的一系列判断：开源已落后到无法追赶、实验室无法规模化盈利、所有软件都将被 agent 取代、无法在模型之上建立护城河、更便宜的模型意味着更少算力需求、不需要 evals、RAG 已死、AI 将大幅削减工程岗位、prompting 将不再重要、训练已撞墙、前沿模型太危险不能发布等。他认为关键是保持思维灵活，因为行业将长期处于持续变化中。"
+    },
+    {
+      "author": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "summary_zh": "AI 从业者 Madhu Guru（realmadhuguru）指出，AI 产品构建的\"打法\"（playbook）半衰期约为 **3 个月**：传统产品团队习惯于发现一套打法后吃老本五年，而 AI 实验室因很快看到边际收益递减，会主动每隔几个月就抛弃旧打法。他建议 AI builder 聚焦于两条元原则——持续学习市场当下及未来 3 个月的需求、以极致的紧迫感执行——并打造能以此节奏学习和适应的团队；传统团队为\"吃老本\"优化，AI 团队则需为\"持续发明\"而优化。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic 的 Thariq（trq212）在 OpenAI 宣布退出 Cursor 之际表态，称长期敬佩 Cursor 团队、认为少有团队为 AI 编程的普及做出更多贡献，并明确表示 Anthropic 将继续与 Cursor 合作——与 OpenAI 的做法形成鲜明对比。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator 首席执行官 Garry Tan 就 AI 基础设施建设表态，认为数据中心能创造繁荣与优质就业岗位，为当前围绕数据中心扩张的争议提供了正面立场。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "No Priors",
+      "title": "Rethinking Legacy Data Infrastructure with Eon Co-Founders Ofir Ehrlich and Gonen Stein",
+      "date": "2026-08-27 10:00 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/@NoPriorsPodcast",
+      "summary_zh": "No Priors 对话数据基础设施初创公司 Eon 联合创始人 Ofir Ehrlich 与 Gonen Stein（二人曾创办 CloudEndure，后被 AWS 收购）。核心论点：AI 时代模型、算力几乎是\"零切换成本\"的准商品，企业唯一真正的护城河是自有数据。标志性事件——两天前**谷歌以 1000 万美元**从破产的精神航空（Spirit Airlines）手中买下的不是飞机，而是数据，用于训练模型；另一竞标方是 Mercor。他们预判\"破产资产数据收购\"将成大趋势：AI 实验室已在向对冲基金、Wall Street 买数据；企业积压多年、原本落灰的磁带数据如今变成黄金。\n\nEon 定位为 AI 时代的云备份/灾备+数据基础层，解决四件事：跨多家云厂商映射/分类/打标数据、识别敏感信息（PII、财务）、高效低成本存储、并对接 AI 工作流；关键在于客户数据\"已存在但被锁死且昂贵\"，Eon 负责在不牺牲生产、安全、合规的前提下解锁。\n\n安全是重点议题。过去威胁来自人（如勒索软件——曾有 AWS 大客户因未正确分类打标，**60% 环境被勒索软件攻陷**）；如今威胁来自拥有合法权限的非人类 AI agent，\"表被突然 drop\"的速度极快。作者称半年前无人讨论此事，如今几乎每位企业高管要么害怕、要么已亲历。非人类身份（NHI）与端点安全因此成为爆发赛道。CIO 被董事会\"必须上 AI、不许拦\"与\"极度不安全\"两头夹击；连非技术人员用 Lovable 等工具就能把公司数据接入 agent，形成不受组织规则约束的\"影子建设者\"。\n\n其他观点：数据量因 agent 生成而爆炸式增长、噪声大；Fivetran、dbt、Monte Carlo 等老工具虽优秀但过于垂直；Databricks 在\"打不过就加入\"、自建 agent 与数据库。已过\"token maxing\"时代，需为每个 token 榨取价值、控成本。AI 转型比当年云迁移\"更快、like on steroids\"，客户因怕数据/IP 泄露而暂停。新消费模式：前向部署工程师（FDE）兴起、PLG 重新奏效（点名 Cognition），以及 Long Lake 式\"直接收购传统公司再 AI 化\"提升利润率。结论：革命才刚开始，多数公司仍处早期。"
+    }
+  ],
+  "articles": []
+}
