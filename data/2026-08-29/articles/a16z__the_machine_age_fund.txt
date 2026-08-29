@@ -1,0 +1,46 @@
+Source  : a16z
+Title   : The Machine Age Fund
+Date    : 2026-08-28 13:07 UTC
+Link    : https://www.a16z.news/p/the-machine-age-fund
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+To hear more about Machine Age Fund, watch the
+companion podcast on the A16Z Show
+.
+We’ve raised
+$1.1B for a16z’s newest fund: the Machine Age Fund
+. It’s time to open the throttle and accelerate the physical buildout of AI: the strongest tool ever developed for solving problems and bestowing abundance. It is our social and national imperative.
+For anyone paying attention, this shouldn’t be a surprise. We’re seeing an upward inflection point in utility and variety of work that AI can do, just over the past year. And as we evolve from chat to reasoning to coding and other forms of knowledge work, both the demand for work and the token intensity of the work increase by orders of magnitude. Machine intelligence is going vertical.
+This fund will invest into all of the computer infrastructure on which AI runs, including chips, memory, networking, and storage. It also includes full systems for running AI: from data centers to robotics to home AI appliances. The common thread among all of these layers of the AI stack is that they are
+all
+hitting the wall of today’s supply chain capability, and the limits of physics and computer science. So there is an urgent need for innovation and investment, and a once-in-a-generation opportunity to rearchitect them as platforms, all the way down to the electricity.
+Reinventions like this happen at each epoch of compute, from the shift from mainframe to client server, to the Internet, cloud and mobile. However, what is different this time is the magnitude and breadth of change needed to keep up with demand, and the speed required to do so. Everything needs an upgrade, now:
+Compute density per rack increased by 28X from an H100 rack to a Rubin rack.
+Networking within a rack has grown similarly, hitting the limits of copper cabling
+Rack power moved from roughly 5-10 kW to
+100-250 kW
+to support today’s systems and will increase to 1MW over the next 3 years.
+Data center scale is moving from tens to hundreds of MW and, in some cases, GW-scale campuses.
+Power is increasingly supplied not only from grid-only to grid plus behind-the-meter or captive sources.
+We need faster, more efficient systems. We need cheaper and higher-bandwidth memory across the memory hierarchy. We need faster and more scalable interconnects between nodes and systems. We need power efficient edge devices for AI to explore and interact with the world. And of course we need all the cooling, materials, electrical, and real estate build out to support them. The hardware industry supply side is used to growing 20% to 30% per year at most; not the triple-digit growth that’s needed to catch up with demand. This will change, quickly.
+Founders understand the opportunity. Over the last couple of years
+we’ve seen hardware startups grow from a small amount of deal flow to now over 20%.
+While we at a16z are generally known as software investors, we have always paid attention to hardware. Recently we’ve backed a number of hardware companies including Unconventional AI, Nexthop, Volta, Atoms, Heron Power and Mind Robotics. And we have selectively invested in hardware companies since our earliest days. In 2016, we led the series A in Skydio; we invested in SpaceX; we wrote our first check into Anduril in 2019, and were among the first venture investors in Waymo’s 2020 raise.
+Hardware is in our team DNA, and it’s great to get back to our roots. Guido Appenzeller was the CTO for Intel’s Data Center Group (DPG). Raghu Raghuram and Martin Casado spent multiple decades in the data center space with system software, much of which required deep hardware partnership. Shangda Xu and David George have led investments across the AI infrastructure stack, from silicon and networking to large-scale systems and compute platforms. David Ulevitch and Erin Price-Wright lead many of the firm’s hardware and U.S. manufacturing investments through our American Dynamism practice.
+We’re excited to make hardware an official motion for a16z and announce the Machine Age Fund to support it. Our GTM, talent, and marketing machine that we’ve built at a16z is now ready to serve hardware founders. And the a16z network has exceptional access to customers, suppliers, and everybody else that’s relevant, for a new age of hardware reinvention.
+Ambitious founders who are reinventing AI hardware and founding the machine age, please reach out. We’re ready for you.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
