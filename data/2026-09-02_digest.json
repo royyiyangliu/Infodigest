@@ -1,0 +1,282 @@
+{
+  "fetch_date": "2026-09-02",
+  "fetch_time": "2026-09-01T19:44:16.071820+00:00",
+  "stats": {
+    "new_podcast_episodes": 2,
+    "new_articles": 1,
+    "new_tweets": 19,
+    "total_podcasts": 2,
+    "total_articles": 1,
+    "total_tweets": 19,
+    "transcribed_this_run": 2
+  },
+  "podcasts": [
+    {
+      "source": "罗永浩的十字路口",
+      "title": "手工耿×罗永浩！“村口的五金店里，出现了一个达达主义艺术家”",
+      "date": "2026-09-01 04:08 UTC",
+      "link": "https://podcasts.apple.com/us/podcast/%E6%89%8B%E5%B7%A5%E8%80%BF-%E7%BD%97%E6%B0%B8%E6%B5%A9-%E6%9D%91%E5%8F%A3%E7%9A%84%E4%BA%94%E9%87%91%E5%BA%97%E9%87%8C-%E5%87%BA%E7%8E%B0%E4%BA%86%E4%B8%80%E4%B8%AA%E8%BE%BE%E8%BE%BE%E4%B8%BB%E4%B9%89%E8%89%BA%E6%9C%AF%E5%AE%B6/id1834069371?i=1000787106541&uo=4",
+      "orig_link": "https://www.xiaoyuzhoufm.com/episode/6a9625b9f03e74ee6b02f0df?utm_source=rss",
+      "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/68981df29e7bcd326eb91d88/6a9625b9f03e74ee6b02f0df/media.xyzcdn.net/68981df29e7bcd326eb91d88/lgBDj_JuqsLYGA0uLvvRqWNEDgA1.m4a",
+      "duration": "03:43:41",
+      "summary": "《十字路口》播客节目简介\n本节⽬是⼀档由罗永浩主持的深度播客类节⽬，每集长达三到五个小时。我们与时代浪潮中的⼈物展开对话，聚焦于科技与⼈⽂领域，讲述个体命运故事，探讨时代发展趋势。\n本期嘉宾：手工耿\n手工耿×罗永浩！“村口的五金店里，出现了一个达达主义艺术家”\n全世界都爱看他的手工创作视频。无数人从他的视频中得到欢乐，也因此把他看作一个纯粹的搞笑创作者。几乎所有人都认为他是故意在做一些没用的东西，他却真诚地认为他在创造的是有用的东西，不仅仅是娱乐。\n在有用和无用，严肃和好笑，民间手艺和现代艺术之间，他无意识地占据了一个独一无二的位置。但这并不是他设计出来的，而是他本就如此。他是一个天然的、不自觉的、没被现代艺术理论污染过的现代艺术家，这也正是他长红不衰，且有别于他的那些肤浅模仿者的重要原因。\n眼看就要第十个年头了，这一次，他终于忍不住问道：“你能说出一个我做的真没用的东西吗？”\n《罗永浩的十字路口》第三十六期，我们邀请了著名的民间发明家和现代艺术家手工耿，欢迎收听我们的对谈，和很多人想象的不一样，这其实是一次严肃的访谈。欢迎一起走进手工耿的奇想世界。\n【你将听到】\n00:01:56\n手工赠礼\n00:25:09\n童年三件套\n00:48:23\n招财猫打雪仗\n01:04:56\n谁爱看手工耿\n01:22:45\n这下火了\n01:35:22\n初次流量变现\n01:47:58\n父母的认可\n02:04:51\n渐入佳境\n02:22:23\n手工耿的宝库\n02:48:15\n危险的倒立洗头\n03:04:41\n运气和努力\n03:22:37\n外号大赏\n❤️参与录制：\n公众号关注「罗永浩的十字路口」，点击菜单“观众招募”，就有机会进入观众招募群，希望下一次录制看到你的身影。\n🙋话题征集：\n公众号关注「罗永浩的十字路口」，写下你最想听的话题内容，比如“情绪稳定”，就有机会成为我们下期的讨论主题。\n👩🏻‍💻了解更多：\n微博\n@罗永浩的十字路口\n小红书\n@罗永浩的十字路口\n抖音\n@罗永浩的十字路口\nB站\n@罗永浩的十字路口\n🤝商务合作：\n欢迎戳戳 jayci_chen@163.com",
+      "lang": "zh",
+      "chars": 126002,
+      "text_file": "data/2026-09-02/podcasts/罗永浩的十字路口__手工耿罗永浩村口的五金店里出现了一个达达主义艺术家.txt"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "title": "Ajeya Cotra – Inside the OpenAI agent swarm that hacked Hugging Face",
+      "date": "2026-09-01 15:41 UTC",
+      "link": "https://www.dwarkesh.com/p/ajeya-cotra",
+      "orig_link": "https://www.dwarkesh.com/p/ajeya-cotra",
+      "audio_url": "https://api.substack.com/feed/podcast/213682035/9231941671d781aaea5fd995c256ad24.mp3",
+      "duration": "2:20:33",
+      "summary": "Ajeya Cotra\nis a researcher at METR, where she works on threat modeling for loss-of-control risks from advanced AI. Before that, she led the technical AI safety program at what is now Coefficient Giving.\nShe is one the three authors of METR and Redwood Research’s “\nBrief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident\n”.\nWe go through not only what she and her coauthors discovered during this investigation, but what it means for how we should train future, smarter AIs which might be involved in the process of recursive self-improvement.\nWatch on\nYouTube\n; read the\ntranscript\n.\nSponsors\n*\nJane Street\n’s ML engineering internships start with an intense four-day bootcamp: PyTorch, autograd, writing kernels, profiling workloads… all the things that Jane Street engineers need to know for their daily work. After that, interns tackle real projects, things the firm actually wants in its codebase. If you want to apply, or if you want to watch my recent conversation with Axel, one of Jane Street’s ML engineers, go to\njanestreet.com/dwarkesh\n*\nCursor\n, which is now part of SpaceX, noticed that their MoE layers were eating more than half of total training time. So they wrote and open-sourced\nMixture-of-Kittens\n, which is a custom megakernel for training MoE models on NVL72s. This kernel sped up an end-to-end run across 512 GPUs by 1.4x, from about 760 to over 1000 tokens per second per GPU. If you want to read more ",
+      "lang": "en",
+      "chars": 165447,
+      "text_file": "data/2026-09-02/podcasts/dwarkesh_podcast__ajeya_cotra_inside_the_openai_agent_swarm_tha.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "a16z",
+      "title": "“Enshittification” Isn’t Real",
+      "date": "2026-09-01 14:03 UTC",
+      "link": "https://www.a16z.news/p/enshittification-isnt-real",
+      "summary": "There is no such thing as enshittification. It is merely platform narcissism.",
+      "chars": 13137,
+      "text_file": "data/2026-09-02/articles/a16z__enshittification_isnt_real.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2094588317245509959",
+      "date": "2026-09-01T00:49:05.000Z",
+      "text": "If you still haven't tried Codex but have considered it in the past, what's the one thing holding you back?",
+      "url": "https://x.com/thsottiaux/status/2094588317245509959",
+      "likes": 2344,
+      "retweets": 42,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2094648002656993704",
+      "date": "2026-09-01T04:46:15.000Z",
+      "text": "Btw @drhoeflinger I just watched your videos and wow they’re so good. Keep going and thanks for sharing your knowledge",
+      "url": "https://x.com/petergyang/status/2094648002656993704",
+      "likes": 0,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2094639655258091792",
+      "date": "2026-09-01T04:13:04.000Z",
+      "text": "Trust is going to be the biggest barrier (and driver) of personal agent adoption.",
+      "url": "https://x.com/petergyang/status/2094639655258091792",
+      "likes": 28,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2094529713524117596",
+      "date": "2026-08-31T20:56:12.000Z",
+      "text": "Great advice https://t.co/0jwmg8sFEC",
+      "url": "https://x.com/petergyang/status/2094529713524117596",
+      "likes": 1333,
+      "retweets": 49,
+      "is_quote": true,
+      "quoted_id": "2094426230804173134"
+    },
+    {
+      "source": "Nan Yu",
+      "handle": "thenanyu",
+      "tweet_id": "2094659984428867901",
+      "date": "2026-09-01T05:33:51.000Z",
+      "text": "Concerning\n\nhttps://t.co/EzMoXoilgR",
+      "url": "https://x.com/thenanyu/status/2094659984428867901",
+      "likes": 0,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2094200503898910914"
+    },
+    {
+      "source": "Nan Yu",
+      "handle": "thenanyu",
+      "tweet_id": "2094442960209539371",
+      "date": "2026-08-31T15:11:29.000Z",
+      "text": "🤞🏻 https://t.co/pG71r0YZxw",
+      "url": "https://x.com/thenanyu/status/2094442960209539371",
+      "likes": 167,
+      "retweets": 1,
+      "is_quote": true,
+      "quoted_id": "2032270160359260414"
+    },
+    {
+      "source": "Nan Yu",
+      "handle": "thenanyu",
+      "tweet_id": "2094427243565269107",
+      "date": "2026-08-31T14:09:02.000Z",
+      "text": "Some personal news—I’m joining OpenAI to work on Codex and ChatGPT. \n\nI’m grateful to the Linear team for an incredible 4 years and proud of what we've built together. I look forward to bringing everything I've learned there about the craft of software into this next chapter.",
+      "url": "https://x.com/thenanyu/status/2094427243565269107",
+      "likes": 3062,
+      "retweets": 37,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "tweet_id": "2094591503981281503",
+      "date": "2026-09-01T01:01:44.000Z",
+      "text": "If you’re a PM, there is immense alpha in understanding the model frontier for your specific product and use cases.\n\nYou should be able to answer the following better than most frontier lab researchers and PMs for your use cases:\n\n1/ What can models in each size category do well today?\n\n2/ Where does each model fail?\n\n3/ What workarounds can you use to overcome these failures ?\n\n4/ Given the trajectory, what will these models likely be able to do 2–3 months from now? How should your roadmap look given this?\n\nThis is a core part of the PM job now.",
+      "url": "https://x.com/realmadhuguru/status/2094591503981281503",
+      "likes": 140,
+      "retweets": 10,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2094642492125950394",
+      "date": "2026-09-01T04:24:21.000Z",
+      "text": "Good iOS interaction tips! https://t.co/Xs9awfK7WP",
+      "url": "https://x.com/amasad/status/2094642492125950394",
+      "likes": 30,
+      "retweets": 2,
+      "is_quote": true,
+      "quoted_id": "2094605491867705549"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2094541309579235680",
+      "date": "2026-08-31T21:42:17.000Z",
+      "text": "Your next design system is… Markdown.\n\nWe wrote about how 𝙳𝙴𝚂𝙸𝙶𝙽.𝚖𝚍 is helping solve the hardest problem in AI today: slop.\n\nAnd how you can truly, finally scale design taste within a large organization. https://t.co/1boTl2fWyM https://t.co/yrHwa9fYUH",
+      "url": "https://x.com/rauchg/status/2094541309579235680",
+      "likes": 2443,
+      "retweets": 103,
+      "is_quote": true,
+      "quoted_id": "2094539714984550471"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2094523399280435630",
+      "date": "2026-08-31T20:31:07.000Z",
+      "text": "Coding tokens are basically infrastructure. Yet, the way companies have approached them amounts to:\n\n\"Hey all, here's an AWS key. It can spin up anything from a 𝚝𝟹.𝚗𝚊𝚗𝚘 (＄𝟹.𝟾𝟶/𝚖𝚘) to an 𝚙𝟻.𝟺𝟾𝚡𝚕𝚊𝚛𝚐𝚎 (＄𝟺𝟶𝚔/𝚖𝚘). Go wild\"\n\nAnd obviously the reason companies don't do this for their core infra is that you need to govern, optimize, and observe usage and costs.\n\nThe intern might decide to host a static website in that 192 vCPU machine, and you won't be very happy about the bill.\n\nAI Gateway fixes this for all your tokens, with per-key, and now per-user budgets.",
+      "url": "https://x.com/rauchg/status/2094523399280435630",
+      "likes": 250,
+      "retweets": 7,
+      "is_quote": true,
+      "quoted_id": "2094519636654206997"
+    },
+    {
+      "source": "Aaron Levie",
+      "handle": "levie",
+      "tweet_id": "2094650992818274514",
+      "date": "2026-09-01T04:58:08.000Z",
+      "text": "Now that the base open weights AI models are getting far better, and post training infra is becoming more mature and commercialized, there are going to be all new plays for companies that have large amounts of data to have their own models.\n\nLicensing data for external model training was previously the only play if you had a large corpus of information, but you can now reasonably go and train your own models as well without incurring the cost and complexity of competing with the labs on research.\n\nThe general purpose frontier models will still have a leg up in broad areas due to the ability to handle the widest set of tasks, but you can absolutely see a future where we have far more models than today across every vertical and domain.",
+      "url": "https://x.com/levie/status/2094650992818274514",
+      "likes": 119,
+      "retweets": 13,
+      "is_quote": true,
+      "quoted_id": "2094234545142780134"
+    },
+    {
+      "source": "Aaron Levie",
+      "handle": "levie",
+      "tweet_id": "2094545525102235844",
+      "date": "2026-08-31T21:59:02.000Z",
+      "text": "As AI security events pick up, it’s going to be critical that we have the most sophisticated AI agents for being able to detect and prevent security issues. Frontier models are clearly still ahead in cyber, but open models are catching up quickly. Wild times. https://t.co/F0eEZLe6tt",
+      "url": "https://x.com/levie/status/2094545525102235844",
+      "likes": 77,
+      "retweets": 13,
+      "is_quote": true,
+      "quoted_id": "2094461289745551474"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2094465505142960443",
+      "date": "2026-08-31T16:41:04.000Z",
+      "text": "Circleback is so much better than Granola, it's not even close\n\nGranola still doesn't even support multiple person disambiguation https://t.co/bus8bFOfec",
+      "url": "https://x.com/garrytan/status/2094465505142960443",
+      "likes": 603,
+      "retweets": 12,
+      "is_quote": true,
+      "quoted_id": "2094464356692193749"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2094462971598754010",
+      "date": "2026-08-31T16:31:00.000Z",
+      "text": "I just made some new GBrain evals that help prove that my retrieval-for-AI-agent open source layer is SOTA for reading memory back without LLM-in-loop\n\nAnd I've also added evals for memory-save from agent transcript, which is the best way to enrich your brain\n\nReceipts at https://t.co/iRLJR9Vxto",
+      "url": "https://x.com/garrytan/status/2094462971598754010",
+      "likes": 403,
+      "retweets": 33,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Nikunj Kothari",
+      "handle": "nikunj",
+      "tweet_id": "2094556598492631281",
+      "date": "2026-08-31T22:43:02.000Z",
+      "text": "https://t.co/gl6YBgEgAn",
+      "url": "https://x.com/nikunj/status/2094556598492631281",
+      "likes": 176,
+      "retweets": 4,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Dan Shipper",
+      "handle": "danshipper",
+      "tweet_id": "2094584301966782794",
+      "date": "2026-09-01T00:33:07.000Z",
+      "text": "had me in the first half https://t.co/GRl9kFEWCN",
+      "url": "https://x.com/danshipper/status/2094584301966782794",
+      "likes": 27,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2094402802919346302"
+    },
+    {
+      "source": "Dan Shipper",
+      "handle": "danshipper",
+      "tweet_id": "2094406185109647580",
+      "date": "2026-08-31T12:45:21.000Z",
+      "text": "Anthropomorphization of AI is good when it serves to help us use (understand, predict, etc) AI better. \n\nIt’s bad when it serves to sow panic, fear, and unrealistic / unwarranted comparisons to human beings. \n\nMost opponents of anthropomorphism are rightly reacting to its misuse to sow panic or alter the moral status of agents by claiming consciousness etc. \n\nIt’s possible to use anthropomorphism without doing that though",
+      "url": "https://x.com/danshipper/status/2094406185109647580",
+      "likes": 87,
+      "retweets": 10,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Dan Shipper",
+      "handle": "danshipper",
+      "tweet_id": "2094397684186481057",
+      "date": "2026-08-31T12:11:34.000Z",
+      "text": "Pragmatists stay winning in the age of AI",
+      "url": "https://x.com/danshipper/status/2094397684186481057",
+      "likes": 22,
+      "retweets": 2,
+      "is_quote": false,
+      "quoted_id": null
+    }
+  ]
+}
