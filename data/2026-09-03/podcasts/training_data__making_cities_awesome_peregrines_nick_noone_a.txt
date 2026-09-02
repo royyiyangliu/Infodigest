@@ -1,0 +1,461 @@
+Source  : Training Data
+Title   : Making Cities Awesome: Peregrine’s Nick Noone &amp; Ben Rudolph
+Date    : 2026-09-01 09:00 UTC
+Link    : https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
+────────────────────────────────────────────────────────────
+
+Speaker 1 | 00:00 - 00:40
+Peregrine is really around this idea of how can we leverage technology to work with our cities, our counties, our states to to impact the the places that we live in. At the bottom of the pyramid, really, when it comes to how to make cities awesome, is the idea of safety. The idea that people need objective safety and also need to feel safe. And when that stability is there, it's amazing what's possible. And there are all these kind of contrasting, but actually similar concepts that we were wrestling with at the time.
+
+Speaker 1 | 00:40 - 01:11
+We were thinking about how to deploy inside of institutions and also find ways to eliminate the mishandling of information inside of really complex organizations that have access to super, super sensitive data. And then, if we could create an the backbone infrastructure level Yep. Of the modern city, then we could help to preserve individuality. We talk about privacy and other aspects of what it means to be, like, an individual person, but also bring people together.
+
+Speaker 2 | 01:28 - 01:57
+One of the most important stories in AI is from a company that you may not have heard of, but is almost certainly keeping you and your loved ones safe. Peregrine is building AI that protects cities and communities, and they're rejecting the surveillance state while doing that. And this should be a fantastic conversation about one of the most important applications of AI, forward deployed engineering, civil liberties, and much more. So let's get into it. Nick, you ran Palantir's SOCOM unit.
+
+Speaker 2 | 01:57 - 02:07
+You deployed into dangerous high stakes intelligence operations in The Middle East. Tell me, what does forward deployed engineering actually mean, and what does Silicon Valley get wrong about it?
+
+Speaker 1 | 02:07 - 02:28
+Palantir was a really fun experience and a really formative one because before joining the company, I had no idea what this concept of forward deployed engineering meant. But I was surrounded by people that were running into customer environments and doing who knows what.
+
+Speaker 2 | 02:29 - 02:29
+Yeah.
+
+Speaker 1 | 02:30 - 03:26
+I watched them, I watch them leave the office. I watch them come back to the office and tell stories. It's felt to me like the adventure of a lifetime, to be able to go into a customer context and own the customer's problem, but also take pride in the fact that the problem belongs to the customer, and then take pride in getting the customer to the win. And so there are these two kind of these two truths that I learned when I was an early forward deployed engineer and that we try to embrace as we built our company, and those are that we psychologically go in and own or co own the problem. We talk internally about getting all the way to the outcome with and on behalf of our customers.
+
+Speaker 1 | 03:26 - 03:59
+Technology and all of the the skills and ways of delivering our tech is part of the answer, but the real answer is just getting to the outcome at all costs. Ideally, three to five times faster than any other person or team could do. And, everything flows from there. But, recognizing that at the end of the day, it's the customer's win, it's not our win, and taking deep pride in the impact that we have on the institution and on the people that we're sitting across the table from, I think that's where the magic is, culturally. What
+
+Speaker 2 | 03:59 - 04:01
+does Silicon Valley get wrong about it?
+
+Speaker 1 | 04:01 - 04:36
+When we first started building Peregrine, the forward applied engineering concept had been around for a while, and we got feedback that when really smart people from top five, top 10, or equivalent schools would go into a really complicated place, like the LAPD, and quickly try to understand thirty years of institutional context, not just at the data level, but at the human level.
+
+Speaker 2 | 04:36 - 04:36
+Mhmm.
+
+Speaker 1 | 04:36 - 04:57
+Like, how does this organization work? How are decisions made? How do teams interoperate with each other? The idea that moving fast is even possible in that environment is very counterintuitive to the customer. And, unfortunately, I think that shows up as ego to a lot of organizations where people have dedicated their entire lives to a particular role.
+
+Speaker 1 | 04:58 - 05:23
+And I think Silicon Valley misses that sometimes, that letting go of our intelligence, letting go of our own skills and abilities, trying to suspend our ego, and then really get into the customer's context is an easy thing to say, but it's like, it's such a high empathy patient Yeah. Way of working.
+
+Speaker 2 | 05:23 - 05:46
+Yeah. I love that. Ben, you while while Nick was off deploying into Middle East, you were in almost the opposite part of the world in every sense of the world word. You were doing refugee work in Africa, in India, but you landed on a similar thesis of the world and technology's role in it. Maybe say a word on that.
+
+Speaker 3 | 05:46 - 06:45
+Yeah. Absolutely. So I for for me, I've always been obsessed with this idea of how do you make impact with technology. I graduated school and I remember I had these two offers, one was to go work at a small startup at the time, Airbnb, and the UN Refugee Agency, which is an organization that goes and helps refugees who are making these extremely dangerous treks across country lines, usually because of war, to try and get help. And so I took that path and deployed to the Sudanese border, the Colombian border and you know, was deeply humbled and really under, deeply understood these types of situations and where technology can help and where honestly it can't help.
+
+Speaker 3 | 06:45 - 07:31
+And I remember the thing that I took away from that experience is, you UNHCR is this deeply disconnected organization. It does phenomenal work, it's deeply disconnected. They have some data, it's often in spreadsheets, and it's very difficult to actually make make sense of. And so that's where I started to like form this thesis of, okay, a lot of these problems are downstream of data problems where you can have a lot of impact. After UNHCR, the UN Refugee Agency, I left to join an organization that you probably haven't heard of, it's called Demagi, they're a small company, they work building last mile healthcare solutions in under resourced places around the world.
+
+Speaker 3 | 07:31 - 08:25
+And so, like, one specific example, one project that I worked on while I was there, we were working with the Indian government on this project, building applications to help folks in rural India adhere to their tuberculosis drugs. And at the end of the day, we did get it deployed and that technology rapidly spread throughout the country. And that was a really cool moment for me and really formed my thesis and idea around how Peregrine can have impact and how you can how technology can have impact in in the communities that that we live in. And so, Peregrine is really around this idea of how can we leverage technology to work with our cities, our counties, our states to impact the the places that we live in.
+
+Speaker 2 | 08:25 - 08:34
+Take us back to 2017. You cold called your way into the San Pablo Police Department. What was going through your heads when you did that?
+
+Speaker 1 | 08:34 - 09:25
+In 2016, when Ben and I got together, actually, on a on a vacation with a bunch of our gymnastics teammates, we had a conversation basically ten years after we graduated saying, should we build something together? We got together in San Francisco, and with my experience in the national security space and similar in the US government, Ben's experience working on humanitarian causes, and, you know, on my end, I'd been flying back and forth between Baghdad and similar places in The Middle East, and Ben was commuting God knows how many flights into Africa, and we looked at ourselves and said, this is the place where people live. This is the place where people thrive. This is where the majority of our lives are spent. And then, we started thinking about how to deconstruct working with American cities.
+
+Speaker 1 | 09:25 - 10:08
+And what we came to is, at the bottom of the pyramid, really, when it comes to how to make cities awesome, is the idea of safety. The idea that people need objective safety and also need to feel safe. And when that stability is there, it's amazing what's possible. And there are all these kind of contrasting, but actually similar concepts that we were wrestling with at the time. We were thinking about how to deploy inside of institutions and also find ways to eliminate the mishandling of information inside of really complex organizations that have access to super, super sensitive data.
+
+Speaker 1 | 10:08 - 10:40
+And then, if we could create the backbone infrastructure level of the modern city, then we could help to preserve individuality. We talk about privacy and other aspects of what it means to be an individual person, but also bring people together. And the idea that we could do both of those things, preserve and protect individual privacy, while also bringing people together and help them realize that if we're staring at the same same information, we kind of want the same thing.
+
+Speaker 2 | 10:40 - 10:40
+Yeah.
+
+Speaker 1 | 10:40 - 10:45
+Like, that's what I find really beautiful about cities, and I think we're very aligned on that.
+
+Speaker 2 | 10:45 - 10:50
+Totally. Beautifully said. How many people said no before San Pablo said yes?
+
+Speaker 1 | 10:51 - 11:21
+You know, it's such a blur at this point, but it's definitely over two dozen. In my opinion, we started the company on 02/26/2018. We'd incorporated the company a month or so earlier. But February 26 is the day that the San Pablo Northern California Police Department permitted us to step into the building with our badges. We had desk space and we had access to information so that we could actually get to work.
+
+Speaker 1 | 11:21 - 12:24
+And the reason we got there is we started to research subject matter experts in the art of public safety at city scale, at the municipal level, and we found this amazing article about a young, up and coming commander in a local police department named Brian Bubar, who was catapulting up the ranks inside of a paramilitary organization. It's very structured that takes years and years to reach higher levels of leadership. And he was young and intelligent and creative, and there's this article we found online about Operation Red Reach, which was one of the most iconic cross jurisdictional gang affiliated narcotics investigative, you know, work that happened in Northern California at the time. And Brian was a covert operator trying to figure out how to move this stuck investigation forward. Mhmm.
+
+Speaker 1 | 12:24 - 12:55
+And I thought that took so much courage for someone like Brian to come in and be the reason Operation Red Reach, and it was, obviously, wasn't just Brian, but so many people surrounded that work and did something so impactful and made headlines, but more importantly, you know, changed the state of safety in Contra Costa County. Mhmm. We just called him and said, Brian, we don't know that much.
+
+Speaker 2 | 12:56 - 12:57
+Mhmm.
+
+Speaker 1 | 12:57 - 13:19
+We may have some utility, but I don't know. Can we come in, ask you some questions, learn from you, try to understand some of the awesome things you've done, including some of these amazing prior investigations? Yeah. And then maybe build something over time, and just see what happens, and lead with that level of trust. And that was what finally got us access.
+
+Speaker 2 | 13:20 - 13:21
+It took a chance on you.
+
+Speaker 1 | 13:21 - 13:23
+Yeah. Truly. Yeah.
+
+Speaker 2 | 13:25 - 13:27
+Do you do ride alongs?
+
+Speaker 1 | 13:28 - 13:33
+We have amazing photos from those days. Our first ride along was actually with Oakland PD.
+
+Speaker 3 | 13:33 - 13:40
+Yeah. Which was which was way when we were still in this, like, deep research phase, and that was a really eye opening and interesting
+
+Speaker 1 | 13:40 - 13:43
+experience. Overnight, I think? Yeah. Was a ride. Super tired, overnight.
+
+Speaker 1 | 13:43 - 14:02
+Yep. Yeah. Yeah. It was also eye opening. It's so I mean, the most people that are coming, I think, from from Silicon Valley going on ride alongs are not necessarily engineers at the time, you know, reporters or other other types of, you know, community interest organizations.
+
+Speaker 1 | 14:02 - 14:18
+And so, you know, I think we we had the white glove service at the time. Yeah. And it it really was it was eye opening that it's so difficult to penetrate and and build trust with these organizations. And so there were so many lessons at the time that signaled us that we just have to take our time. Yeah.
+
+Speaker 1 | 14:18 - 14:18
+Yeah.
+
+Speaker 2 | 14:18 - 14:35
+You started this company twenty seventeen, twenty eighteen. I think Defund the Police was, you know, was starting to get going maybe in the early days of the company. What did that feel like? And how did it make you dig deep and think about your values?
+
+Speaker 1 | 14:35 - 15:46
+I'll share that, you know, on a personal level, I think I'm a very, I tend to be a very experience based learner, like, tactile, very, you know, under, wanna hear the concepts, but build a bottoms up understanding through action. And, I have found in my life, with that mentality, it fundamentally leads me to question assumptions. And, intent is not to question assumptions in low trust way, in a skeptical way at all times. It's not, you know, I think there's a danger of becoming overly cynical, but to really understand truth and love, like, curious adventure, I I think that is the the the kind of that the the psychological backing that led us to build our business in the midst of a really tumultuous time in America. You know, I have a personal affinity for working with people who sometimes feel misunderstood, frankly, and it just is.
+
+Speaker 1 | 15:46 - 16:40
+It's a very intuitive passion for me to help them feel more understood. I think many people at our company probably have character qualities like that, frankly. And, when I think about moments like COVID and the protests that were happening at the same time, the convergence of social unease in America, we were holding a lot of complexity. We had very close friends that we've graduated with and built things with in the past that were standing outside of the women's center in San Francisco protesting the police, and we were driving a Honda Accord across the Bay Bridge out of San Francisco every day to work with gang homicide investigators. And we were holding those two truths at the same time.
+
+Speaker 1 | 16:42 - 17:16
+I To And me, it's not enough to look at a very difficult situation from the outside. Like, the privilege is jumping into the pool and swimming. And I think through that process, we establish empathy. We realize that, oh, this, you know, this thing that we thought was wrong is actually really complicated. There are a lot of gray zones, and actually, the deeper we go, the more nuanced and textured the problem actually is.
+
+Speaker 1 | 17:16 - 17:39
+Like, how empowering is that? Right? And And so, in some ways, even though in that period of time, our business is much more diverse now, right? I mean, we work, like, the through line is delivering safety and prosperity to cities, but at the time, we were only working with police departments. Now, fire, emergency management, health services, you know, all kinds of stuff going on.
+
+Speaker 1 | 17:39 - 17:39
+But
+
+Speaker 2 | 17:40 - 17:45
+engineers wouldn't even
+
+Speaker 1 | 17:45 - 18:16
+respond when we made a recruiting call. I mean, was a fascinating time. And I think that that level of polarization, to me, for both of us in our lives, I think we've seen the pendulums shift. And we're trying to deliver solutions that are apolitical, that are what people, communities, groups of people, these institutions that serve them truly want and need. And in many ways, I I actually don't think that's controversial at all, if done well.
+
+Speaker 2 | 18:16 - 18:22
+How is your business structurally different from the data collection companies like a Flock or an Axon?
+
+Speaker 1 | 18:22 - 19:11
+So, we've we've been operating in public safety since since 2018 and I think most of the companies that have come before us have built their business, like, fundamentally on the back of data collection. So, the idea that a hardware or software solution is installed inside of a customer base and is fundamentally about the input, whether it's passive collection through a sensor or, you know, human beings inputting information directly, the collection and storage of that information. Historically, those companies have grown because once they have information that it belongs to the customer inside of their system, plus distribution advantage, they can kind of sell more stuff. And those, the additional stuff tends to be more collection systems. Peregrine is like the inversion of that entire model.
+
+Speaker 1 | 19:11 - 19:53
+The idea for us is we're we're fundamentally in the business of joining disparate information to provide a more secure, properly governed solution that sits on top of the pre existing systems that helps people do better work, helps people get more precision and accuracy in the answers to their And I think for companies like ours, being not in the business of bringing more data to a customer, but in the business of building solutions that drive greater levels of precision and how a human being interacts with their data is kinda like flipping the historical model on its head, so to speak.
+
+Speaker 2 | 19:53 - 20:03
+So, structurally, almost, the business incentive is the opposite almost. It's not about maximizing the amount of data that you're collecting and creating network effects of that data.
+
+Speaker 1 | 20:03 - 20:40
+It's I think the world's very concerned about the idea of, like, the amalgamation of data and the and the kind of, like, central, you know, whether public sector or private sector, kind of authoritarian body that has access to this privileged information, and what will they do with it? And, for us, we we almost wanna decentralize that to get to a world where, like, we are actually not in any shape or form in the business of bringing more data to the customer that they don't already have. The fundamental problem is that they can't utilize the data that they have Mhmm. Or utilize it in a way that's secure and high trust for the communities that they serve.
+
+Speaker 3 | 20:41 - 21:21
+I'll just say from day one, we've been really focused and thinking about this idea of permission controls, data governance, sovereignty. These are necessary ingredients to kind of deploy to these types of high stakes institutions. And Nick is right when he talks about trust, and we think a lot about trust, trust both at the community, these public servants are ultimately serving the community members, we have trust with those public servants and the community that we have to uphold, and so we think a lot about this, and how we how we build, what we build, and and how it interacts with the with the end user.
+
+Speaker 2 | 21:21 - 21:48
+Yeah. It seems like the data governance and data being so locked down is almost the way to reconcile the tension between public safety and not be humming the surveillance state. That is the answer. Kind of this idea of you have local intelligence, local data, everything's locked down. Actually, maybe share a bit about your philosophy on data, data ownership and data sharing.
+
+Speaker 2 | 21:48 - 21:49
+Yeah.
+
+Speaker 3 | 21:49 - 22:57
+We we deeply believe in the idea that each customer, each institution owns their own data. This is ultimately the that organization is serving the community, that is the community's data, that is the organization's data, it's not Peregrine's data. And we think about providing the the controls and capabilities to allow them to very securely roll this out within their own department, but also share this with select pieces of information when they need to. Without these types of solutions, you get folks, you will put a bunch of data in the back of a car and drive it across a city, and there's there's there's actually less control there. And so we think a lot about where where can we actually enable the outcome for our user and provide the controls that are specific and robust that enable them to not overshare, share too much, and that they can trust in what they're what they're actually delivering.
+
+Speaker 3 | 22:57 - 22:57
+What
+
+Speaker 2 | 22:58 - 23:05
+are the biggest use cases you see for your customer base? Maybe what are people starting to play with now, and then where do you see that going?
+
+Speaker 3 | 23:05 - 23:07
+Yeah, this is what excites me the most.
+
+Speaker 2 | 23:08 - 23:09
+Me too.
+
+Speaker 3 | 23:09 - 23:49
+Yeah, I think when you initially do deploy this type of AI to these organizations, you often just get what I'd say, a nice search. You know, maybe you were looking for a dress, and now you don't have to look at a bunch of rows and you see everything that happened in that dress in a nicely formatted way. I think as we have had users get more used to the product and understand it better and how it works, you start to see the floor get raised for everybody across the department. You start seeing these really interesting deep types of analysis that previously were just impossible. So, I'll give a couple examples here because this stuff's really interesting to me.
+
+Speaker 3 | 23:49 - 24:02
+We're working with this county in Florida, and the other month they had to do over a 100 water rescues. And they're like, why? We've never had to do this many water rescues before.
+
+Speaker 1 | 24:02 - 24:12
+Water rescues is a when there's a flood, rescuers need to get on a boat and literally go out and rescue someone from their car that might be stalled in the middle of the flood or their home.
+
+Speaker 3 | 24:12 - 24:53
+Yes. So they started asking Peregrine and started interrogating this question, and what they started to uncover is that, okay, these weather patterns, they've happened before, But after the couple iterations and the agent doing some deep research, it came out with the pattern that, oh, these weather patterns have never occurred for three consecutive days. And those types of weather patterns, they create these sand channels. And those sand channels are the perfect conditions for rip currents. Those rip currents cause a lot of issues for people who are in the water at that time.
+
+Speaker 3 | 24:54 - 24:59
+And that is actionable for the agency, and they can think deeply about that.
+
+Speaker 1 | 25:00 - 25:04
+And overlay their terrain maps and all of the unique things that are Exactly. Counties
+
+Speaker 3 | 25:04 - 25:20
+is all fed by a bunch of like, they obviously have to have incidents, information, 911 calls, they have to have weather information. All that information is integrated and then kind of at at the disposal of the AI to help the the the customer.
+
+Speaker 1 | 25:20 - 25:35
+Yeah. And we just can't, I mean, there's no way we could have made this up. Right? Like we we were sitting in in our headquarters trying to pontificate on what, you know, emergency responders in a in a hurricane needed. Like, there's zero chance we would have figured that out.
+
+Speaker 3 | 25:35 - 26:07
+Super interesting. Another, I mean, another one that I'm, like, excited about, you know, there was a detective who was investigating a threat against a synagogue. And the what he was trying to do was trying to figure out were there any other anti Semitic threats that had happened to these two synagogues in the area. Now when you think about that question, and you're a detective, what are the keywords that you search for to try and find that information? It's actually very difficult for for keywords to to find that.
+
+Speaker 3 | 26:07 - 26:33
+And what gets me excited, this is another area that's just previously impossible, and with the help of AI, they're able to semantically understand a lot of the information, all deep, that they have access to, and they're able to actually pull out, and they were able to find a bunch of pattern of these threats that were occurring against these these synagogues. And I thought, you know, that that was that was pretty interesting to me and a novel use case. Yeah.
+
+Speaker 2 | 26:33 - 26:51
+Interesting. Okay. So you got semantic search and embeddings going on. You got, sounds like reasoning models that uncovered the use case. So one of the most interesting thing is is because you've brought in all this context and you've stitched it together, you can kinda let the AI do its thing.
+
+Speaker 3 | 26:51 - 27:10
+Certainly, 95% of the work is what happens before the user types in the question. Yeah. What is all the preparation that you do to get to a place where the AI can act answer accurately, cite those questions accurately. That's a really hard problem. We spend a lot of points on that.
+
+Speaker 3 | 27:10 - 27:42
+We have a lot of agentic use cases. And I, you know, are a lot of our engineering points are spent on that data preparation, getting that that AI ready. There's also this idea that AI allows you to write software rapidly and what happens when the cost of generating the software is virtually zero? And what if we could apply provide the platform for our deployment team that gives them the security and government's controls, that gives them the APIs they need, and then they're allowed to write the world Mhmm. With software.
+
+Speaker 3 | 27:42 - 27:56
+Mhmm. And so what we're seeing is that these deployment strategists, you know, not every customer needs a a an agent. Maybe they need a hurricane simulator. Mhmm. And the way they're able to write this really well and is with is with AI.
+
+Speaker 3 | 27:56 - 28:00
+And and I think this rapid innovation cycle is just super interesting to me. So
+
+Speaker 2 | 28:01 - 28:17
+cool. Is it your deployment strategists that are kind of coding things in customer environments? Or do you think your customers might even, you know, they they have all these ideas in their head of what they they want. Can they go from idea to working application themselves in your environment?
+
+Speaker 3 | 28:18 - 28:42
+Mhmm. 100% we enable that. I think the you know, what we see most often is a partnership with our deployment team to to provide that kinda technical expertise and be able to take the idea and bring it to fruition. We do have some customers that are able to to kind of leverage the platform in that way, but a lot of that motion comes with our with our deployment team.
+
+Speaker 2 | 28:43 - 28:45
+Do you think that'll change over the coming years?
+
+Speaker 1 | 28:45 - 28:58
+I see it changing right now. I mean, I'd love to get your thoughts on on the spend we've I think it takes confidence to embrace that and say, you know what? Like, let's let's innovate and, you know, may
+
+Speaker 3 | 28:58 - 29:25
+the best method win. So much of what Peregrine does on the technology side is emergent. Peregrine has been providing domain expertise for our customers, we deeply understand and empathize with law enforcement, fire departments, EMTs. And then we provide technology to enable them to achieve their most important missions. And that technology can change over time.
+
+Speaker 3 | 29:25 - 29:45
+And that's like the great thing about it. Most of that stuff is downstream of really high quality data. And you can build charts and that chart could be completely useless if it's not accessing the right information and accurate information. Yeah. The same is true with agents.
+
+Speaker 3 | 29:45 - 29:59
+And the same will be true with the next technology. And so, I believe, like, the core strategy of Peregrine has remained very unchanged in the in this new age of of AI, and it's just we are applying a new technology to Yeah. See how it impacts our customers.
+
+Speaker 2 | 29:59 - 30:03
+Are you doing anything on the long horizon agent side or background agents?
+
+Speaker 3 | 30:04 - 30:24
+Yeah. Absolutely. A couple couple things here. So I think, stepping back a little bit, like, is the Peregrine platform? We think about 50% of our engineers spend most of their time working on the data platform that enables our deployment team to integrate data that the the customer already owns.
+
+Speaker 2 | 30:24 - 30:25
+And
+
+Speaker 3 | 30:26 - 31:06
+we've, at this point, integrated, you know, tens of thousands of datasets across all these customers. And we have built an agent that enables our deployment strategy team to integrate this data agentically. And I think at this point we have this amazing eval set where we can, you know, deterministically evaluate these agents for completeness and correctness on on integrations. At this point, we're seeing about 90% of our we use a version of of Python notebooks to do a lot of our integrations. About 90% of that is written by agents with the oversight of our deployment team.
+
+Speaker 3 | 31:06 - 31:23
+And these agents run for hours, right? And they will analyze, look at the databases, understand the ontology, start to piece together different pieces that need to be integrated. Those split off into sub agents that all do a bunch of work communicating back to kind of the orchestrator agent.
+
+Speaker 2 | 31:24 - 31:24
+Yeah.
+
+Speaker 3 | 31:24 - 31:28
+That's one bit on kind of long horizon agents.
+
+Speaker 2 | 31:28 - 31:36
+Reminds me of how people are using these coding agents for, like, code based migrations. Also, similarly, just long running, unglamorous work.
+
+Speaker 3 | 31:36 - 31:53
+100%. I love this problem because it's verifiable. And that makes the problem a lot easier. This is why coding agents are, in a lot of ways, a lot easier. And so, second piece that we spend a lot of time on is, what do our agents look like for operational outcomes for our end users?
+
+Speaker 3 | 31:53 - 32:28
+And the very first agent that we built was a cold case agent. And this agent, you know, just to give you some context on what some of these very high profile investigations look and feel like. You are uploading 200 to 300 gigabytes of data. These are videos. They are audio, it is images, it is a ton of PDF files, and the detective is tasked with going through all that.
+
+Speaker 3 | 32:28 - 33:02
+So that in and of itself takes a really, really long time. I've been in these police departments where they actually have paper records of all these, and they are boxes that are like this big, and you know, they have all these CDs attached to it. It's really an outrageous amount of data. And so our cold case agent, we did, we built this with customer, and again, like this comes back to like how we like to build, and we were working with a customer who had worked a case where a man was wrongly convicted, and they were able to exonerate this individual. Cool.
+
+Speaker 3 | 33:03 - 33:35
+And they said, hey, can you reproduce this result with an agent? And so we took all of the evidence and data that they had on that case, and started to work on an agent that would run for thirty minutes, sixty minutes, to start to glean insights. And eventually, we got to the place where it could reproduce the results that those detectives had gotten to. So that was where, that was like kind of the manifestation of our first kind of cold case agent. Now we're using this in a few departments across The US.
+
+Speaker 3 | 33:35 - 34:25
+We recently were working in a county in Wisconsin where this, again, similar type of case, 300 gigabytes of data, and they were able to identify and place the suspect at not just the scene of the crime, but where the body was found. And this was a single it was about a few cell records, cell call detail records, kind of ping of a phone, that was scattered amongst, yeah, a lot of data. And so this side this was really interesting to me, and I think points to this area where we could really up level and help our public servants unburden them with all this administrative of watching hours and hours and hours of video, and listening to hours and hours of audio.
+
+Speaker 1 | 34:25 - 34:57
+As a quick comment, this this example, Ben Bro, was so impactful to the organization. As a culture for our business, we have the way that we maintain trust is not actually taking credit and shouting from the rooftops about the awesomeness of of of what happened here. I think that is one of the fastest ways to break trust, frankly, with these organizations. The idea that, you know, we're gonna scoop up the work and trumpet our skill and the way that we impacted the world. So, think being the quiet professionals in a context like this Yeah.
+
+Speaker 1 | 34:57 - 35:01
+And empowering the the customer is why we have access to the next problem.
+
+Speaker 2 | 35:02 - 35:11
+I wish you would talk about it more though because I think that we're in this moment where public distrust in AI is so high.
+
+Speaker 1 | 35:11 - 35:11
+Yeah.
+
+Speaker 2 | 35:11 - 35:15
+And this is a wonderful story. Right?
+
+Speaker 1 | 35:15 - 36:02
+I think that coming back to an earlier example of, you know, trying to identify threats to a synagogue. I think about network effects and I think about what motivates us to tell our story. I think the convergence of this idea of a, kind of a centralized authoritarian AI capability and surveillance in American national society, the convergence of these forces has created this immense pressure and I think distrust in in many of the the the organizations and and frankly, the communities that that we work with. Mhmm. I that can't be ignored, first of all.
+
+Speaker 1 | 36:03 - 36:56
+And I I think if we look at the the organizations we work with and also the data landscape, the network effects are there and they are unbelievably strong. Like, for example, it would be very easy for an organization that's trying to kind of hack their way to building something useful to go and hit open source and pull in data that they might not, there might be a gray zone on whether they can or should access that based on laws, regulations, ordinances, standard operating procedures of the department. And for us, like, we have to protect against those moments where the it's not, like, we don't need to we don't need to break the rules nor, obviously, should any organization break the rules in order to find a way to, like, introduce AI or technology into these complex environments. The opposite is true. We have to protect the data.
+
+Speaker 1 | 36:56 - 37:18
+Right? And we have to protect these organizations that, by virtue of their structure, have astounding network effects. Right? It's almost like the anti network effect proposition. Like, how do you preserve the sanctity of the data and the ownership of the data and the ways of working for every individual agency, every individual organization.
+
+Speaker 1 | 37:18 - 37:44
+And then, building the connective tissue, building the interoperability is going to happen. But, and this is where things that might sometimes seem mundane, but we find really fascinating, like, how do you think through data governance, How do you think through permissioning logic in the context of AI become unbelievably important? So I feel really motivated to talk about that in particular.
+
+Speaker 2 | 37:44 - 38:06
+Peregrine, the anti network effects business. I think it's important, given the heat now around AI is so powerful. And so a lot of this data that used to exist, I think people now fear what happens when it's all swooped up into a central For sure. Panopticon.
+
+Speaker 3 | 38:06 - 38:06
+For sure.
+
+Speaker 2 | 38:06 - 38:08
+That's deeply un American.
+
+Speaker 1 | 38:08 - 38:10
+Yeah. Yeah. Yeah. Yeah. Yeah.
+
+Speaker 1 | 38:10 - 38:40
+And I think that as a business, it's like the the I find that our business is a big practice in letting go. It's how do we build high integrity, transparent solutions for our customers? How do we make that transparent to our customers and their constituents? And then, how do we effectively let let go and not try to, grow too fast?
+
+Speaker 2 | 38:40 - 38:52
+Are there technology decisions that you have to make that are morally nuanced? So for example, facial recognition. I'm curious your stance on that. And then more generally, what what is your North Star for hard decisions?
+
+Speaker 1 | 38:52 - 39:36
+Yeah. Quickly on facial recognition. I think the idea of, like, a Silicon Valley company imposing a decision that is kind of general purpose for an industry is fundamentally wrong. I think the idea that we as an institution would assert, whether it be, you know, the utilization of a technology or a retention policy, I mean, it's very much not how we think. Instead, the idea is to to help a customer understand the context in which they're operating and actually bring to light all of the considerations they may or may not know and then help them, and this requires patience,
+
+Speaker 2 | 39:37 - 39:37
+help
+
+Speaker 1 | 39:37 - 40:13
+usher in the right way of doing business, the right way of thinking about deploying these technologies. On facial rec, most public safety agencies in America and their communities choose not to implement facial recognition. Some take a very strong stand, and some are it's just a matter of subjective preference that they'll assert, but the idea of creating, you know, a technological red line without understanding the texture and context is is not not a boundary line that we think that we can assert on top of our customer.
+
+Speaker 2 | 40:13 - 40:15
+So, follow the customer, follow the law.
+
+Speaker 1 | 40:15 - 40:30
+Yeah. And and expose it and and and create clarity around, you know, what left right limits and and what what the institutional norms may be, what, I mean, it's astounding how cities call each other. Oh. Right? They call each other for advice.
+
+Speaker 1 | 40:30 - 40:47
+And so, if you really just listen to the way that people learn inside of the industries that we serve, what we realize is helping them streamline the way that they can get the best possible information so they can make their best decision, even about things like what technologies to use or not, goes a really long way.
+
+Speaker 2 | 40:48 - 41:09
+Maybe in a similar vein, I wanna talk about delivering technology to the underdunks and how you're able to scale this very deep customer motion into a very different customer base than, you know, the other company that notoriously has scaled this motion Palantir, which notoriously doesn't take anything plus an 8 figure contracts.
+
+Speaker 1 | 41:09 - 41:09
+Did
+
+Speaker 2 | 41:11 - 41:21
+your mentors try to convince you not to do this? Did people tell you like the economics of this are not gonna scale? And Mhmm. What made you think it was gonna be possible to deliver technology to the underdogs and serve them in this way?
+
+Speaker 1 | 41:21 - 42:17
+I think it takes confidence. I think it takes confidence to to believe that if you build something well, you can solve problems that have never been solved before that will scale later. Mhmm. And, the idea of going deep to build a vertically integrated tech stack, that everything from network access to the permissioning and the governance and the ETL and the pipeline and the ontology and the UX and the APIs, it's like, to to configure all of that and create a system that's open, interoperable and can check these boxes, the audacity, I think, is real. And to build each of those components in a way that's first class, not just a check the box, I mean, it's We were truly thinking about how to deliver these types of technology solutions to an end market that has never been able to use these solutions Yeah.
+
+Speaker 1 | 42:17 - 42:40
+Before. Yeah. Let alone at the price point that we were able to Yeah. To deliver them. I think the the uniqueness about Peregrine is for each organization, we'll take the time to deliver solutions all the way to the outcome, and then we'll own the responsibility with our customers of getting to that outcome, which might seem extremely manual, extremely laborious, extremely unstable or unscalable.
+
+Speaker 1 | 42:40 - 42:54
+And, what we found is being able to do that resulted in a technology platform that could show up and do something very different for these organizations and also scale.
+
+Speaker 2 | 42:54 - 43:10
+I've had the chance to talk to a few deployment strategists at Peregrine, and they are they're amazing. They're so smart, so humble. They so deeply embody the mission. And so I think you guys have selected for and trained a really extraordinary group of people. How do you do it?
+
+Speaker 2 | 43:10 - 43:15
+What do you look for? What do you what do you what do you interview for? How do you train these people up?
+
+Speaker 1 | 43:15 - 43:53
+First of all, I mean, I it's it's the great it's the greatest compliment because I and we love our team. When you can build a culture where people are trying really hard and can achieve excellence, it's almost like how could you not create the environmental factors and the the feedback culture, which sometimes isn't easy, right? Sometimes it's, it can be really intense. Ben and I would say, you know, we've aligned, we've taken tests and we've aligned on some character qualities, one of which is definitely the pursuit of excellence. I think a lot about these environmental factors of trusting the individual contributor.
+
+Speaker 1 | 43:53 - 44:32
+It's a very important thing that we're trying to hold onto. And to do that with a forward deployed engineer, truly do it, really requires trust. Because we use this analogy of a dark cave, right? We'll send a person into a cave and they have a tool belt and hopefully the tools are pretty good, right? And there might be a rope, you know, with a friend at the entrance of the cave that, you know, if they yell for help, you kinda pull them out, but truly, we are sending people into these zones and we're saying, maintain your integrity, like, maintain your principles, Here are the tools.
+
+Speaker 1 | 44:32 - 44:59
+Go do good. And, to do that at scale, I really believe, requires institutional trust and and a belief system that innovation actually happens at the farthest fringes of our organization, that the way that our engineering product design organizations are fed Absolutely. Is through that innovation process Yep. Across the country and and now now across multiple countries with our with our Forward Deploy team. Yep.
+
+Speaker 2 | 44:59 - 45:10
+It's fascinating. So different from when I talk to companies who view forward deployed as a cost center. You guys are it's fundamentally very different talking to you.
+
+Speaker 1 | 45:10 - 45:34
+Definitely r and d. Definitely r and d and and growth. I mean, that we, there, after we land inside of a customer base, we have these models where we'll we'll do these within customer pilots for all intents and purposes, where we'll keep sprinting on additional use And, in many ways, the, you know, how we land and then how we expand in the in the customer base is fundamentally about leading from the front through our forward deployed engineers.
+
+Speaker 2 | 45:34 - 45:37
+Have you discovered any new products through this motion?
+
+Speaker 3 | 45:39 - 45:40
+A 100 I mean, a 100%.
+
+Speaker 2 | 45:40 - 45:41
+It's just the
+
+Speaker 3 | 45:41 - 46:03
+whole thing. Like, think it's hard to even separate that. I mean, I remember walking or walking, driving across the Bay Bridge, San Pablo, typing on the computer, Nick's like, okay, gotta get these reports done. And this is what this detective needs and literally typing as fast as I could to try and code what we needed at the time and when you're And
+
+Speaker 1 | 46:03 - 46:08
+it wasn't theoretical, it was Aaron Blaisdale who had an extraordinarily urgent request.
+
+Speaker 3 | 46:09 - 46:23
+Yeah. And like, you feel it. So, it's so hard to separate. Very rarely are we in a room pontificating about, you know, what to build. I really think about the FDE motion and how it impacts products, our product in two ways.
+
+Speaker 3 | 46:25 - 47:00
+One is, what are the primitives, basic primitives that the technology platform needs? And there's a couple of examples of this that I think are are fascinating and reflect the ingenuity of our forward deployed team. For the longest time in Peregrine, we had no ability to edit specific fields and properties. And so, one forward deployed engineer to get around that made an integration based on the comments people would write on these objects. And that comment would be read by Peregrine and then update a property, and that was the way they implemented editing.
+
+Speaker 3 | 47:00 - 47:04
+And so we saw that and we're like, we need to implement editing. And by the
+
+Speaker 1 | 47:04 - 47:27
+way, the reason that teammate did that is because our intent was, and this is the way that the coaching and leading happens, it's like, your job is to hit the objective. Like, to hell with the technology. Yeah. I mean, our our job is to build the technologies and the tools that empower you to do higher and higher levels of work, but your job is to achieve. Yeah.
+
+Speaker 1 | 47:27 - 47:39
+And that's what creates these crazy things that might look very unscalable, very hacky, but ultimately are the absolute best signaling network. It's great signal for what actually works, and it's it's it's like the quintessential rapid prototyping.
+
+Speaker 3 | 47:39 - 48:15
+Yeah. That's like category one. Get these these product primitives that you know that you need to provide the team in order to to achieve the objective they're trying to achieve. I think like category two is almost what I call like innovation lab, where the deployment strategist goes and builds something totally unique that we're probably not gonna integrate back into the product just because it's it's such a unique capability, specifically for that customer. And this stuff gets me really excited and I love watching and seeing what our deployment team builds.
+
+Speaker 3 | 48:15 - 48:47
+I was just looking at one the other day where someone had built a hurricane simulator in Peregrine. And I was like, how did you do that? I didn't know you could do that. And so, that was really interesting. There was another deployment strategist who built this thing where you could, it it integrated a bunch of data from all these different sources, nine one one call times, like budgets, and you could place a fire department in in the city and it would give you an estimate on how many people that would impact.
+
+Speaker 3 | 48:47 - 48:48
+It's unbelievable.
+
+Speaker 1 | 48:48 - 48:49
+And she was at the company for a month.
+
+Speaker 2 | 48:50 - 49:11
+Maybe last last set of questions. Ten years from now, suppose everything's gone right. Peregrine is the institutional memory layer for 10,000 cities. I think that's great power that outlasts any one administration. And with great power comes great responsibility.
+
+Speaker 2 | 49:11 - 49:12
+How do you think about that?
+
+Speaker 1 | 49:13 - 50:01
+I think there's the outcome and then I think there's the path to get there. The end game of 10,000 cities, I think, requires an operating model that is fundamentally about infrastructure, actually. It's like we, as a technology organization, are delivering technology infrastructure that empower these organizations to do with their data as they would like and as they are required to do. And every city, every jurisdiction, I deeply believe is unique, and I think the idea of preserving that uniqueness is actually beautiful. And so, I'm really excited about that.
+
+Speaker 1 | 50:01 - 50:48
+How do you make how do you make each, you know, the potpourri of cities, make each one more awesome in their unique way? That's cool. The path to get there requires serious integrity, moral compass, core values, not just in words, but in our ways of working, our actions, and that never goes away. It never goes away. The way that we think about the next marginal customer that we support requires a level of hand holding and delicacy that, candidly, I don't think was possible even five years ago, because the marginal cost of doing what we do to drop it below a million bucks a year, I mean, it's radical.
+
+Speaker 2 | 50:48 - 50:49
+Mhmm.
+
+Speaker 1 | 50:49 - 51:28
+Right? Coming back to the origin stories, in many ways, you know, supporting state, county, and city level public safety was, you know, there are lineage of failed business units, of major astounding organizations that tried to do it and failed, because to deliver these solutions in a way that's tailored at a price point that these organizations can afford was never possible. And so, to drop the, to create the efficiency, to drop the price by an order, orders of magnitude has earned us the right to try, to deliver on what you just said. It's like, who are we to think that we hold any power over that? I mean, it's the institution that has the power.
+
+Speaker 2 | 51:28 - 51:30
+You're make every city awesome.
+
+Speaker 1 | 51:30 - 51:31
+I love that.
+
+Speaker 2 | 51:32 - 51:54
+I think you're in a very, very serious seat. Just in this, for the course of this conversation, it's clear that you're approaching this with great care and great stewardship. So thank you for what you do. I think the world needs more examples of AI being used, to improve lives, to improve communities. And, thank you for what you're doing and thank you for joining the pod today.
+
+Speaker 3 | 51:54 - 51:55
+Thank you, Sonya.
