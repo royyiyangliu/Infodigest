@@ -1,0 +1,79 @@
+{
+  "date": "2026-09-04",
+  "generated_at": "2026-09-03T23:34:46.717520+00:00",
+  "stats": {
+    "tweets": 8,
+    "podcasts": 2,
+    "articles": 1
+  },
+  "tweets": [
+    {
+      "author": "Josh Woodward",
+      "handle": "joshwoodward",
+      "summary_zh": "Google Labs 与 Gemini 负责人 Josh Woodward 发布了 Gemini 3.8 Flash，主打\"高质量兼具好价格\"，并宣布该模型正在向 Gemini App 推送。定位延续 Flash 系列以性价比走量的策略。"
+    },
+    {
+      "author": "Boris Cherny",
+      "handle": "bcherny",
+      "summary_zh": "Anthropic 的 Claude Code 创造者 Boris Cherny 展示了 Fable 5.1 让 Claude Tag 更实用：它能从一份指标电子表格及 Slack 中的其他数据，临时生成一份高管演示 deck，并发现某供应商报告的数字与表格相矛盾、在继续之前主动标记出来；Claude Tag 现已在 Slack 的 Team 和 Enterprise 套餐中可用。他还认为\"后台计算机使用\"（background computer use）能力被严重低估。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI 的 Thibault Sottiaux 形容 OpenAI 的文化是一家\"超级创业公司\"（mega startup）：极致的主人翁精神、责任心与节奏，不身处其中很难相信。他还称 ChatGPT 桌面应用已成为自己的主浏览器，生产力达到前所未有的高度。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品创作者 Peter Yang 观察到顶尖实验室把职能头衔统一改称\"member of product/design/technical staff\"。他借此指出：即便在最好的实验室，把所有职能合并为单一\"AI builder\"通吃者的设想并未真正发生，人们仍按各自擅长的专长分工；他支持这种对层级和头衔的扁平化。"
+    },
+    {
+      "author": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "summary_zh": "Madhu Guru 提出，所有 AI 产品都应致力于把\"模型选择\"从用户面前彻底抽象掉——用户只关心事情被做好，让其挑模型认知负担过重。他认为要做到这一点需三个条件：对不同权重级别模型前沿的深刻理解、针对自身工作流的优秀评测、以及一支具备 AI 原生运作模式、能随前沿移动持续调整的团队；并称 Lovable 团队三者兼具。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 联合创始人兼 CEO Aaron Levie 认为本周 AI 发布密集、Muse 又推出重大模型更新，能力进步正逼近\"逃逸速度\"。他做出大胆判断：若该模型以开放权重（open weights）形式发布，将彻底改变美国开源权重阵营的竞争格局。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "YC 首席执行官 Garry Tan 呼吁把\"增加住房供给\"作为 11 月投票的首要议题（延续其 YIMBY 立场）。他还强烈反对在旧金山开设公共银行，认为此举等于招致大规模欺诈。"
+    },
+    {
+      "author": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "summary_zh": "投资人 Zara Zhang 提出一个反直觉的洞见：我们录制会议已不再是给人看的——没人会去读 AI 生成的摘要笔记或回听录音；如今捕捉会议转录的真正目的，是把它喂给 agent。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "张小珺Jùn｜商业访谈录",
+      "title": "153. 和曾鸣聊产业史观：残酷的真相、会消亡的公司、优秀≠卓越、“OAI、Anth大概率不是原生时代大赢家”",
+      "date": "2026-09-03 00:00 UTC",
+      "duration": "02:34:18",
+      "link": "https://podcasts.apple.com/us/podcast/153-%E5%92%8C%E6%9B%BE%E9%B8%A3%E8%81%8A%E4%BA%A7%E4%B8%9A%E5%8F%B2%E8%A7%82-%E6%AE%8B%E9%85%B7%E7%9A%84%E7%9C%9F%E7%9B%B8-%E4%BC%9A%E6%B6%88%E4%BA%A1%E7%9A%84%E5%85%AC%E5%8F%B8-%E4%BC%98%E7%A7%80-%E5%8D%93%E8%B6%8A-oai-anth%E5%A4%A7%E6%A6%82%E7%8E%87%E4%B8%8D%E6%98%AF%E5%8E%9F%E7%94%9F%E6%97%B6%E4%BB%A3%E5%A4%A7%E8%B5%A2%E5%AE%B6/id1634356920?i=1000787534675&uo=4",
+      "summary_zh": "阿里前总参谋长曾鸣（新书《智能》）以商业史视角拆解AI产业。核心框架：颠覆性通用技术必经三阶段——①技术成为社会基础设施；②应用大爆发；③原生应用。他判断**2026年是第一阶段（基础设施）基本完成的标志**，依据是token成为标准度量衡（黄仁勋称英伟达未来是token factory、Sam称OpenAI核心是卖token）；同时也是第二阶段\"智能体（agent）\"的开端。\n\n投资含义（多为反共识）：\n\n1）模型公司本质是\"AI云\"/基础设施服务商（类比炼油厂、AOL），终局是寡头垄断+政府强监管，同质化竞争压低利润、成为好的成熟生意但非当红。中国年底看谁能跑到**3T**参数模型，是淘汰赛：智谱领跑、Kimi已在**3T**交卷（K2约**2.8T**），MiniMax、千问跟进；美国XAI、Meta已掉队（战略不聚焦、组织被过度消耗）。\n\n2）大胆预测：**OpenAI、Anthropic大概率不是原生（第三）阶段的大赢家**，会活得不错但非应用赢家。历史先例：雅虎2000年市值**1200亿美元**（按通胀≈今天**1万亿**）、AOL巅峰**2200–3000亿美元**，谷歌2005年破千亿，第一阶段龙头极少活到第二阶段（历史上跨时代成功仅IBM、微软各一次）。Anthropic今年收入同比增长**80倍**，但仍属基础设施。他相信未来会出现**10万亿美元**公司，但未必是现领跑的两家。\n\n3）当前\"连浏览器都还没出现\"，更谈不上雅虎/谷歌。下一最大机会是统一agent标准+抢占用户入口的\"类浏览器\"；agent入口约**3年**出现，agent OS属第三阶段（约**8–10年**）。AI时代的\"抖音/拼多多\"要到第三阶段。\n\n4）巨头无一安全：Google、字节大概率能成AI云，但大to C应用高度不确定（豆包只是第一代聊天机器人、无行动力）；腾讯社交、阿里电商关系都将被重构。应用公司今年融资到冰点，但应做复杂任务、找\"十倍以上切入点\"（教育、健康等大垂类），可稳定调用模型、不必自训传统大模型。数据飞轮升级为\"智能复利/黑洞效应\"。\n\n5）组织层面：科层制公司将衰亡，转向以任务（而非岗位）为中心、全员合伙人的\"球队/new lab\"形态。战略从\"规划\"变\"生成\"，越不确定越需战略思考，\"看十年、想三年、干一年\"关键在中期节点。人的价值转向\"无中生有\"的原创造力。"
+    },
+    {
+      "source": "AI & I by Every",
+      "title": "How a Professional Writer Writes With AI",
+      "date": "2026-09-02 15:01 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "summary_zh": "本期为 Every 旗下播客《AI & I》特辑，由 Natalia Quintero 访谈 Every 专职撰稿人 Katie Parrott，主题是专业写作者如何用 AI 工作，并预告发布实验性插件 Compound Writing（复利写作）。\n\n核心叙事：Katie 两年前从一家加密公司被裁、正处于心理健康危机，因请不起 **每小时 150 美元** 的职业教练，转而用 **每月 20 美元** 的 ChatGPT 作为\"思考工具\"和职业教练，最终被引荐加入 Every。她由此确立方法论——\"上下文工程\"：把品牌信息、产品与受众画像、风格指南等基础资料预先喂给模型，前期投入大、后期即可\"快速奔跑\"。她曾在两周内交付 **8 篇博客、3 本电子书、24 条 LinkedIn、24 条 X、16 条 Instagram** 帖子。她强调 AI 存在\"最后一公里\"问题（知识截止、无法接触现实世界），人的价值在于提供独家数据、研究与真实体验这些\"新鲜食材\"，而模型只是\"厨房\"。\n\n产品/工具演进（对投资者有信号意义）：其工作流已从 ChatGPT 聊天窗口 → Projects → 迁移到 Claude/ChatGPT 桌面应用 + Codex 项目。她用 Codex 做\"职业教练/参谋长\"，维护看板、OKR、优先级排序，且越来越多通过语音完成；还用 Codex 处理\"电脑杂务\"（如预约医生、整理收件箱、报保险）。她本人有双相情感障碍，认为 AI 不仅是生产力工具，更是\"支持型技术\"。\n\nCompound Writing 插件：脱胎于 Kieran Klassen 的 Compound Engineering（复利工程）理念——反馈只需给一次、codify 后永久生效。她 fork 该插件、用 Claude 改造为写作流程（头脑风暴→大纲→初稿→实质编辑→行文编辑→终稿），并把 Vonnegut、Hitchcock、Sorkin、Sedaris 等名家写作框架做成可调用的 skill（\"技能\"），当作\"写作健身房\"。插件已在 Every 的 GitHub 开源。她提到自制的 Tastemaker 应用曾被 AI 写入 **5 个安全漏洞**，后由 Codex 审查发现。\n\n结论/主题：Katie 的 AI\"论点\"是教育与可及性将空前重要——AI 的复利效应可能只惠及少数早期玩家，她呼吁把技术推广给更多人、更多地区（她本人在俄亥俄州哥伦布市）。投资视角看，本集折射出 Every 将内部写作方法论产品化（插件化、skill 化）的趋势，以及 Claude/ChatGPT 桌面端 + Codex 作为专业内容创作者主力工作台的采用路径。"
+    }
+  ],
+  "articles": [
+    {
+      "source": "a16z",
+      "title": "The Incumbents Are Coming",
+      "date": "2026-09-03 14:03 UTC",
+      "link": "https://www.a16z.news/p/the-incumbents-are-coming",
+      "chars": 12405,
+      "summary_zh": "a16z 探讨 AI 时代\"在位者（incumbents）\"与垂直 AI 初创的竞争格局。核心观点：AI 会让\"记录系统（system of record）\"更重要而非更弱——客户可把系统数据接入 Claude、Codex 等通用 agent，从而绕过 AI 原生应用。在位者正积极行动：Salesforce 与 Anthropic 合作推出 **Claudeforce**，让用户在 Claude 内直接操作 CRM 而无需打开 Salesforce；Docusign 的 Iris 审合同、Atlassian 的 Rovo 路由请求、Klaviyo 的 Composer 建营销活动，均从\"存储信息\"迈向\"执行工作\"。这意味着界面与记录系统正在\"解绑\"，为 AI 原生初创围绕\"任务\"重新捆绑留出机会。\n\n作者提出 agent 四层等级：检索助手（找信息、总结、起草）→ 流程 agent（规则化的记录更新、审批路由）→ 政策 agent（把组织的规则/先例应用于模糊情形）→ 主理 agent（做涉及战略、风险、资源的开放式判断）。一年前多数在位者仅停留在检索阶段，如今正沿层级向上迁移，但其判断始终受限于自己拥有的记录。\n\n关键论点：\"任务大于记录\"。合同不等于法律事务、工单不等于客户问题的解决、商机不等于成交——真实的任务跨越应用、团队乃至公司，涉及多方主体与不同诉求。在位者只能构建\"局部工作系统\"，通用 agent 虽能跨系统访问（即便用 MCP）却有延迟、语义不一致、且无法触及外部方数据。\n\n垂直 AI 靠\"专注\"取胜：更深的数据访问、更具体的上下文、以及每次任务后基于专家反馈与结果的\"学习闭环（learning loop）\"——模型+harness 持续改进。作者区分\"记忆 vs 学习\"：通用记忆能回忆偏好，但不能判断工作好坏或该如何改进。学习又分两类——学习\"专业（profession）\"如何做好，以及学习\"特定机构（institution）\"的模板、风险阈值与升级规则。\n\n案例：Harvey 的 Tenet 用合成数据、公开法律数据和专家数据后训练开源权重模型，未依赖客户数据起步，构建约 **1,750** 个法律任务环境，每个模拟合伙人分派的事务并含专家评分标准，平均每项约 **50** 条具体标准——\"制造\"出可训练评估的课程，而非等数年积累客户历史。\n\n评估优质垂直 AI 市场的四轴：专家能否快速判断对错并指出改进；工作是否足够难以致判断重要；工作是否高频以便学习；能否从单一任务成长为承担整个任务。法律、税务、会计及工业质量工程（如制造缺陷调查）等符合条件。结论：在位者拥有记录、大厂控制\"前门\"，垂直 AI 仍可凭\"把任务本身做到最好\"胜出。"
+    }
+  ]
+}
