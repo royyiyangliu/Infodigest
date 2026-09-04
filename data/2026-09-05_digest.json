@@ -1,0 +1,301 @@
+{
+  "fetch_date": "2026-09-05",
+  "fetch_time": "2026-09-04T19:16:46.083183+00:00",
+  "stats": {
+    "new_podcast_episodes": 1,
+    "new_articles": 2,
+    "new_tweets": 21,
+    "total_podcasts": 1,
+    "total_articles": 2,
+    "total_tweets": 21
+  },
+  "podcasts": [
+    {
+      "source": "Unsupervised Learning",
+      "title": "Ep 93: CEO of Redwood Research Buck Shlegeris on OpenAI/HuggingFace Revelations, Fixing AI Safety &amp; Takeover Odds",
+      "date": "2026-09-03 13:03 UTC",
+      "link": "https://www.youtube.com/@RedpointAI",
+      "orig_link": "",
+      "audio_url": "",
+      "duration": "",
+      "summary": "",
+      "lang": "en",
+      "chars": 66641,
+      "text_file": "data/2026-09-05/podcasts/unsupervised_learning__ep_93_ceo_of_redwood_research_buck_shlegeris_.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "a16z",
+      "title": "Investing in Gimlet",
+      "date": "2026-09-04 16:01 UTC",
+      "link": "https://www.a16z.news/p/investing-in-gimlet",
+      "summary": "a16z invests in Gimlet",
+      "chars": 6626,
+      "text_file": "data/2026-09-05/articles/a16z__investing_in_gimlet.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Charts of the Week: Experience > Skills",
+      "date": "2026-09-04 14:01 UTC",
+      "link": "https://www.a16z.news/p/chart-of-the-week-experience-skills",
+      "summary": "Netflix Having a Blockbuster Moment?; Cyber Game Done Changed; Data Center Job Boom Continues Apace",
+      "chars": 9892,
+      "text_file": "data/2026-09-05/articles/a16z__charts_of_the_week_experience_skills.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2095757526726025348",
+      "date": "2026-09-04T06:15:06.000Z",
+      "text": "the reception is unlike anything i thought possible for a 2026 OAI launch\n\nhttps://t.co/Aq3y6fT6Ip",
+      "url": "https://x.com/swyx/status/2095757526726025348",
+      "likes": 1,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2095757111854866639"
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2095621819667751202",
+      "date": "2026-09-03T21:15:51.000Z",
+      "text": "https://t.co/Od9xM46qi5",
+      "url": "https://x.com/swyx/status/2095621819667751202",
+      "likes": 18,
+      "retweets": 2,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2095621785953984782",
+      "date": "2026-09-03T21:15:43.000Z",
+      "text": "sorry for the radio silence folks - got sucked into extreme LLM psychosis. but i can confidently say we have crossed over into a new age of AI Engineering and we are never, ever, looking back. \n\nthis isnt even EVERYTHING i did with Astra but i'll append more reports as I publish them on LS!",
+      "url": "https://x.com/swyx/status/2095621785953984782",
+      "likes": 780,
+      "retweets": 35,
+      "is_quote": true,
+      "quoted_id": "2095621025887396217"
+    },
+    {
+      "source": "Boris Cherny",
+      "handle": "bcherny",
+      "tweet_id": "2095590515765060076",
+      "date": "2026-09-03T19:11:27.000Z",
+      "text": "Your input needed: would you use this?\n\nThis is an early look at how we're thinking about making Claude Code way more extensible. It's a little crazy, and very exciting.\n\nMore details here: https://t.co/X2SbdZYxvi https://t.co/nqWcTliaXL",
+      "url": "https://x.com/bcherny/status/2095590515765060076",
+      "likes": 880,
+      "retweets": 49,
+      "is_quote": true,
+      "quoted_id": "2095572891941351550"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2095651088502591861",
+      "date": "2026-09-03T23:12:09.000Z",
+      "text": "We will give one banked reset for every day you don't have access to Astra on your paid ChatGPT plan, starting today.  Team is moving mountains to give access as fast as we can.\n\nFirst one will land in ~ 3 hours. There is still time to create your account if you don't have one.",
+      "url": "https://x.com/thsottiaux/status/2095651088502591861",
+      "likes": 38250,
+      "retweets": 2955,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2095601101701820752",
+      "date": "2026-09-03T19:53:31.000Z",
+      "text": "We are going to need a different AGI benchmark. Where is the goalpost moving next? https://t.co/tOmRaIScCt",
+      "url": "https://x.com/thsottiaux/status/2095601101701820752",
+      "likes": 11392,
+      "retweets": 560,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2095597659545591917",
+      "date": "2026-09-03T19:39:51.000Z",
+      "text": "Across the plans Astra will be included in the normal usage allocation and you will be able to use 100% of it towards Astra.",
+      "url": "https://x.com/thsottiaux/status/2095597659545591917",
+      "likes": 7943,
+      "retweets": 273,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2095662778459766984",
+      "date": "2026-09-03T23:58:36.000Z",
+      "text": "I live in Codex and think it's the best software shipped in the past 5 years.\n\nBut the combination of influencers posting non-stop about how great Astra is and paid users unable to get access at the same time is pretty rough IMO. \n\nI realize I'm an \"influencer\" now too and maybe am just jealous. I also recognize there are multiple parties involved in these decisions.\n\nBut just wanted to be real. Back to working with good ol' Sol and what's left of my Fable limits.",
+      "url": "https://x.com/petergyang/status/2095662778459766984",
+      "likes": 599,
+      "retweets": 9,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2095599352941334772",
+      "date": "2026-09-03T19:46:34.000Z",
+      "text": "Wait so we don't get to play with Astra today?",
+      "url": "https://x.com/petergyang/status/2095599352941334772",
+      "likes": 528,
+      "retweets": 4,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2095544851047878882",
+      "date": "2026-09-03T16:10:00.000Z",
+      "text": "I have one codex thread that's still working and i'm hanging onto it for dear life lol",
+      "url": "https://x.com/petergyang/status/2095544851047878882",
+      "likes": 75,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Nan Yu",
+      "handle": "thenanyu",
+      "tweet_id": "2095580048116080746",
+      "date": "2026-09-03T18:29:52.000Z",
+      "text": "Time to touch grass https://t.co/u9rgppRToh",
+      "url": "https://x.com/thenanyu/status/2095580048116080746",
+      "likes": 24,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2095528073835782452"
+    },
+    {
+      "source": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "tweet_id": "2095680779267584371",
+      "date": "2026-09-04T01:10:08.000Z",
+      "text": "I was just in a meeting where someone casually used \n\n“load-bearing argument”, \n“that’s the spine of our plan”,\n “one honest callout “ \n\nin conversation.\n\nI think the machines have successfully RL’d us",
+      "url": "https://x.com/realmadhuguru/status/2095680779267584371",
+      "likes": 59,
+      "retweets": 3,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "tweet_id": "2095526844653302269",
+      "date": "2026-09-03T14:58:27.000Z",
+      "text": "The hard part with becoming more ambitious is changing the how.\n\nWe’re living in a time where AI and market conditions make asymmetric outcomes far more possible.\n\nThat applies to scale, velocity, breadth of product, personal career and wealth goals.\n\nYou need to drop the ideas that aren’t serving you - rethink team structure,  roadmapping. \nOn the personal front, rethink how you see yourself and how you engage with people.\n\nThe blocker is often inertia - institutional, personal.\n\n“We’ve always done it this way.”\n\n“That feels too risky.”\n\n“That would be cringe.”\n\nWrite down current goals for your product or for you.\n\nThen ask what 100X would look like.\nChallenge yourself on the habits and assumptions you need to drop to get there.",
+      "url": "https://x.com/realmadhuguru/status/2095526844653302269",
+      "likes": 111,
+      "retweets": 4,
+      "is_quote": true,
+      "quoted_id": "2095262542839050336"
+    },
+    {
+      "source": "Amanda Askell",
+      "handle": "AmandaAskell",
+      "tweet_id": "2095662935603552337",
+      "date": "2026-09-03T23:59:14.000Z",
+      "text": "I still don't know how to convey my enthusiasm in a way that Americans will read as enthusiasm and not something more like unwilling resignation. Has any British person achieved this? If so, how is it done?",
+      "url": "https://x.com/AmandaAskell/status/2095662935603552337",
+      "likes": 427,
+      "retweets": 14,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2095653053282292013",
+      "date": "2026-09-03T23:19:57.000Z",
+      "text": "We’re working on making Claude Code way more hackable, give us feedback! https://t.co/NJXXRRW1xo",
+      "url": "https://x.com/trq212/status/2095653053282292013",
+      "likes": 329,
+      "retweets": 8,
+      "is_quote": true,
+      "quoted_id": "2095572891941351550"
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2095746838490198375",
+      "date": "2026-09-04T05:32:38.000Z",
+      "text": "Marvin Minsky wrote about this in The Emotion Machine. Emotions are a core part of human intelligence, not some epiphenomenal side effect of human evolution (which presumably many AI folks believe it is).\n\nMinsky describes a selector of sorts for different thinking strategies. https://t.co/c1IygFBmPi",
+      "url": "https://x.com/amasad/status/2095746838490198375",
+      "likes": 61,
+      "retweets": 4,
+      "is_quote": true,
+      "quoted_id": "2095248879142707565"
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2095608811868524679",
+      "date": "2026-09-03T20:24:09.000Z",
+      "text": "GPT-6 is a major jump in capabilities and will unlock new use-cases. Will launch on Replit very soon for you to try it!",
+      "url": "https://x.com/amasad/status/2095608811868524679",
+      "likes": 1124,
+      "retweets": 40,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2095594200889012593",
+      "date": "2026-09-03T19:26:06.000Z",
+      "text": "Really cool to see Foster City, where Replit is HQ’d, councilwoman is building on Replit to help the community! https://t.co/BzulmjbQk4",
+      "url": "https://x.com/amasad/status/2095594200889012593",
+      "likes": 77,
+      "retweets": 4,
+      "is_quote": true,
+      "quoted_id": "2086725578166849723"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2095720463397753000",
+      "date": "2026-09-04T03:47:49.000Z",
+      "text": "“Feedback is a gift” has always been a favorite mantra of mine and a strongly-held belief.\n\nNow it’s fact. Each piece of feedback is someone gifting you a prompt for you to give your agents to improve your product ☺️\n\nThankful for everyone who takes time (or tokens) to critique our products, write to us or forward your agents’ transcripts.",
+      "url": "https://x.com/rauchg/status/2095720463397753000",
+      "likes": 257,
+      "retweets": 17,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2095640323892629726",
+      "date": "2026-09-03T22:29:22.000Z",
+      "text": "If you intern at Vercel, you can work on incredible projects like this one. Improving Next.js chunking can yield massive efficiency improvements at internet scale. Excellent writeup by @sam_poder https://t.co/yiBtRFa6CN",
+      "url": "https://x.com/rauchg/status/2095640323892629726",
+      "likes": 430,
+      "retweets": 14,
+      "is_quote": true,
+      "quoted_id": "2095567008385626199"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2095534442198839758",
+      "date": "2026-09-03T15:28:38.000Z",
+      "text": "Run \n▲ ~/ vercel ai-gateway coding-agents setup\n\nPoints all coding agents to AI Gateway, getting you 100% uptime, observability, budgets, and ease of switching. https://t.co/XSq0OHvTh4",
+      "url": "https://x.com/rauchg/status/2095534442198839758",
+      "likes": 171,
+      "retweets": 6,
+      "is_quote": true,
+      "quoted_id": "2088018757189009515"
+    }
+  ]
+}

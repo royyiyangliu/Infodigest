@@ -1,0 +1,81 @@
+Source  : a16z
+Title   : Charts of the Week: Experience > Skills
+Date    : 2026-09-04 14:01 UTC
+Link    : https://www.a16z.news/p/chart-of-the-week-experience-skills
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+Experience > Skills
+Charts has already observed that one of the challenges for prospective entry-level hires (other than the fact that entry-level hires have always been a relatively small share of tech hiring) is that existing tech workers appear to be getting older. Why that’s the case is some combination of aging-in-place, plus remote work unlocking a broader pool of talent, plus perhaps some premium for more experienced workers–and while AI may have something to do with it, as well, the evidence for that is pretty weak.
+On the experience point, there’s some recent data from Revelio Labs that suggests experience is, indeed, becoming a higher priority for tech hiring:
+Since January 2025, tech job postings have seen a marked rise in preferred years of experience, with a concomitant drop in preferred number of skills.
+The change is small–~5-10% in both cases–but noticeable, and it’s consistent with the notion that tech is looking for more experienced workers, rather than workers with any particular set of skills, let alone a broad range of skills.
+That
+could very well be an AI-driven shift: grappling with a new technology means that extant “skills” are less applicable, and the new set of skills is still a bit of a whitespace. When you’re operating on a new frontier, you don’t yet know what you’ll need, other than the need to be able to figure it out–and that’s where experience goes a long way.
+If you look at the types of jobs that require the largest premia to experience, it does seem like AI is the likely driver:
+It’s data and systems work (and Java) that dominate the leaderboard for the recent hiring premium to experience.
+AI has created new urgency around data wrangling, but the shape of wrangled data (and the process of wrangling) has changed dramatically, with optimal solutions still very much a moving target. If you don’t know what needs to be done, then the skillset hasn’t been defined yet, and someone who can figure it out as they go is the better choice. Eventually, though, as implementation matures, one would expect new skills to be defined, and it’s likely the skills/experience mix will shift again.
+Netflix Having a Blockbuster Moment?
+A funny thing about social media consumption is that aggregate time spent in the US is still rising (albeit barely), but not for everyone:
+According to Apptopia, aggregate time spent on social media apps has risen (after a small drop), but it’s really the 17-25 yos doing all of the work–the folks 36+ appear to have tapered off their social media time since October ‘25.
+But that’s not actually the funny thing.
+The funny thing is that while social media usage is rising, social media’s share of screentime has actually dropped pretty substantially of late:
+Since April of this year, social media’s share of mobile has dropped ~3pp. OK, perhaps “substantially” is a bit of a stretch, but after years of steady growth (including double-digit growth as of last year), the dropoff is meaningful.
+So people are spending more time on social media, but even
+more
+screen time on other things. What other things? Apps perhaps. AI could also be drawing more attention. But a more likely culprit for social media’s diminished share of mobile is none other than short-form video, particularly via YouTube.
+OK, great, so more social media, more YouTube, and more screentime overall–a win-win-win for staying glued to our phones. That’s true so far as it goes, but there does, in fact, appear to be at least one victim of YouTube’s assault on our attention-spans, and that’s Netflix:
+Again, according to Apptopia, the number of YouTube users who also use Netflix has declined ~20% since the beginning of the year, while the number of Netflix users who also use YouTube has remained pretty steady.
+YouTube viewers seem more inclined to live without Netflix than the other way around.
+In general, Netflix’s active users and viewing time in the US have both been in mostly serial decline for the past 3+ years:
+Weekly users and time spent for Netflix have dropped ~15% and 30% respectively.
+Why that’s the case is anyone’s guess; it could be the rise of short-form video, more streaming competition, or streamflation more generally. Netflix stands out for having the highest customer LTV by far, at least according to this estimate from Owl & Co.
+A Netflix premium customer has an LTV of nearly $1,500 per customer, which is nearly 2x the next best offering.
+LTV reflects a combination of higher subscription prices and strong retention–good for Netflix–but one could see why customers might begin to balk at the price. One could also see why Netflix is branching out into live sporting events and clips and shorts of its own.
+Bigger picture, though, it’s fair to wonder if Netflix is having its Blockbuster moment, roughly two decades after Netflix gave Blockbuster its Blockbuster moment. It’s too soon to tell, of course, but in a different timeline, where AI was not such a big deal, this would be a much bigger deal.
+Cyber Game Done Changed
+Have you heard of the
+‘Hugging Face Incident’
+? I mean, you probably have, but if you haven’t, you probably shouldn’t, and then you’ll sleep easier at night. (Old heads might be reminded of the
+Noodle Incident
+, but sadly, these are not the same.)
+Anyways, HFI aside, there’s plenty of recent data to suggest that the threat landscape for cyber events has changed dramatically. Consider this nightmare fuel from Epoch AI:
+The number of reported critical and high severity vulnerabilities from major firms has gone vertical this year, since the beginning of the spring.
+Whether there are actually more vulnerabilities, or whether there’s some reporting or definition change, it’s hard to say just by looking at the chart, but it’s likely that at least some of this parabolic growth is attributable to a major substantive change in either how vulnerabilities are discovered and/or what is still considered secure.
+Here’s another bit of nightmare fuel for the cyber-minded:
+According to the ZeroDayClock, the Zero-Day Rate (i.e. the percent of vulnerabilities exploited on the day of disclosure (or before)) has basically quadrupled since 2020–including a ~60% increase from last year alone. The Zero-Day Rate is now just under 87%, with a median time to exploit at just one day . . . but projected to reach 1 minute sometime next year.
+To repeat, the ZeroDay estimate is that it will take only a minute between discovery and exploitation of a vulnerability (at the median) by sometime next year.
+Even now, the “Exploit Survival Curve” falls to 0% at just 1.5 months:
+Back in 2022, a full 50% of exploits were still there for the taking after 1.5 months (and at 3 months, too), but now, if you haven’t plugged all the holes, by then, someone else will have already found them.
+Clearly AI has changed the game, not only for identifying vulnerabilities, but also exploiting them. The good news is that AI will also change the game for the defense.
+Either way, the urgency for cyber has intensified, and as Charts has observed before, investors are way out in front of this one:
+Of the $IGV constituent stocks, Cyber has massively outperformed the field, and forward revenue multiples are consistently higher, as well.
+Whether and to what extent the incumbents successfully step into the breach, or whether some new cyber platforms emerge to face the challenge, remains to be seen, but there are surely going to be a whole bunch of new sheriffs in town (or else).
+Data Center Job Boom Continues Apace
+One final aside on the
+economic driver that is the AI buildout
+.
+BLS released its latest estimate of data center construction spending, and while there was no reason to think otherwise, the pace is blistering:
+Data center construction spending jumped by ~$25B in just half a year, which is roughly the same amount it jumped over the past two years.
+But, more to the point, alongside the jump in construction spending is a jump in construction job openings, which have otherwise been in steady decline since interest rates went up, and most other construction slowed substantially.
+Goldman estimates that ~300,000 construction and specialty trade workers have been added to the workforce since 2022 that are attributable to the AI buildout, with nearly 75,000 of those coming in the past year alone:
+Again, while the overall trend for hard hat workers has been directionally negative since rates went up, that trend has reversed to the upside since the middle of last year.
+Like ‘em or not, data centers are major jobmakers, bringing
+a pretty wage premium, as well
+–and it’s fair to say that
+without
+data centers, the employment picture, especially for blue-collar types, would be substantially worse.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

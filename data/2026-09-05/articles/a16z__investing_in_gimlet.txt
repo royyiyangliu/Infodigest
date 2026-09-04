@@ -1,0 +1,39 @@
+Source  : a16z
+Title   : Investing in Gimlet
+Date    : 2026-09-04 16:01 UTC
+Link    : https://www.a16z.news/p/investing-in-gimlet
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+We are running out of watts.
+AI inference is one of the fastest-growing markets in the history of capitalism, and we are running out of nearly every physical input required to serve it: powered land, turbines, transformers, data centers, GPUs, advanced-node wafers, and high-bandwidth memory. GPU capacity is being leased at record prices, while OpenAI’s and Anthropic’s growth is constrained by how quickly they can expand their compute fleets. You feel that scarcity firsthand: rate limits tighten and responses slow as providers trade latency for throughput to produce more tokens from the same watts.
+This is why the largest capital investment cycle in contemporary history is underway. Seven of the ten most valuable companies in the world are hyperscalers or supply them. Five U.S. hyperscalers alone are expected to spend $1 trillion in capex next year. NVIDIA has gone a step further, working with capital partners to mobilize more than $500 billion for AI factories.
+But expansion alone will not be enough. Inference demand compounds at software speed; power plants, data centers, and semiconductor fabs do not. Serving the most consequential workload of our lifetime requires squeezing more intelligence from every watt. That starts with recognizing that inference is not one workload.
+The End of One-Size-Fits-All Compute
+Without the GPU, today’s AI would not exist.
+Its flexibility enabled the early experiments with transformers. Then enormous clusters built around a single accelerator architecture powered the training runs that proved scaling laws and produced today’s frontier models.
+But the diversity of AI applications is exploding. A voice assistant lives or dies on latency; batch processing maximizes throughput; a research agent may prioritize cost per token; a coding agent must balance all three. Even a single model call splits into compute-intensive prefill and memory-bound decode. Agents multiply the variation by routing among small specialized and larger reasoning models, retrieving files, executing code on CPUs, and calling external tools. Inference is no longer a single workload.
+At the same time, hardware choices are proliferating. Some architectures optimize arithmetic throughput; others optimize memory capacity, bandwidth, or low-latency connectivity. No single processor can deliver the best combination of cost, throughput, and latency across every application and every step. GPUs will remain foundational, but they will increasingly operate alongside CPUs, memory-optimized systems, and other purpose-built silicon.
+The optimal system must match each piece of work to the architecture that handles it best, producing more useful work from the same resources. It must be heterogeneous.
+The challenge is making all of this hardware operate as one system. Large-scale infrastructure is designed around homogeneity with standardized servers, networking, power, cooling, and operating models. Introducing multiple architectures creates complexity across every layer. The software must coordinate processors that were never designed to work together, while the physical facility must accommodate different networking topologies, rack densities, power profiles, and cooling requirements. Cerebras and NVIDIA systems, for example, require different inlet-water temperatures. Sometimes heterogeneous compute is a compiler problem; sometimes it is a plumbing problem.
+The Multi-Silicon Inference Cloud
+Making heterogeneous compute work at scale is key to unlocking what we believe will be the world’s largest market. We believe Gimlet Labs has built the solution: the first multi-silicon inference cloud, designed to produce more intelligence from every watt.
+For each workload, Gimlet determines an execution plan that balances latency, throughput, and cost. It can route different models and tools onto different processors, separate prefill from decode, or divide a model at the layer or operation level. Its compiler optimizes each piece for the target hardware, while its runtime coordinates execution across the system. To developers, all of that complexity sits behind a single inference API.
+Gimlet extends that orchestration into the physical data center. It integrates GPUs, CPUs, and purpose-built accelerators into one pool of capacity, managing the differences in networking, power, and cooling that make heterogeneous infrastructure difficult to operate. This system is already delivering up to 10X gains in throughput and interactivity on frontier models within the same power envelope.
+In a world where scale matters, Gimlet has done this at the largest scale possible, counting both a frontier lab and a hyperscaler as customers. In a market starved for compute, efficiency is net-new capacity and latency is product differentiation.
+We believe there is no better team than Zain, Michelle, Natalie, Omid, and James to tackle this problem. They’ve seen this movie before and are one of the few teams that have the range to follow a problem through every layer of abstraction. When kernels and compilers were not enough, they pushed into high-speed networking. When software was not enough, they moved into power, cooling, and data center construction. Wherever the existing stack ends, the Gimlet team starts.
+The future of inference is heterogeneous, and Gimlet is building the infrastructure layer that makes it possible. We could not be more excited to partner with the entire Gimlet team.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
