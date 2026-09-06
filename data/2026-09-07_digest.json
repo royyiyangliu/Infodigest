@@ -1,0 +1,88 @@
+{
+  "fetch_date": "2026-09-07",
+  "fetch_time": "2026-09-06T18:50:09.752169+00:00",
+  "stats": {
+    "new_podcast_episodes": 0,
+    "new_articles": 0,
+    "new_tweets": 6,
+    "total_podcasts": 0,
+    "total_articles": 0,
+    "total_tweets": 6
+  },
+  "podcasts": [],
+  "articles": [],
+  "tweets": [
+    {
+      "source": "Dan Shipper",
+      "handle": "danshipper",
+      "tweet_id": "2095925615467659637",
+      "date": "2026-09-04T17:23:01.000Z",
+      "text": "can’t help myself https://t.co/ZEZh9OlqvI",
+      "url": "https://x.com/danshipper/status/2095925615467659637",
+      "likes": 27,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2095925525424259308"
+    },
+    {
+      "source": "Dan Shipper",
+      "handle": "danshipper",
+      "tweet_id": "2095885899871449385",
+      "date": "2026-09-04T14:45:12.000Z",
+      "text": "can you tell Astra is running my @every office fantasy team\n\nthis is my team name: https://t.co/2t1fY52eFh",
+      "url": "https://x.com/danshipper/status/2095885899871449385",
+      "likes": 11,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Dan Shipper",
+      "handle": "danshipper",
+      "tweet_id": "2095882683729490108",
+      "date": "2026-09-04T14:32:26.000Z",
+      "text": "i've got Astra doing film study for our @every fantasy football draft \n\nwe going to take over this league 😤 https://t.co/kMKz5XscV8",
+      "url": "https://x.com/danshipper/status/2095882683729490108",
+      "likes": 62,
+      "retweets": 1,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Aditya Agarwal",
+      "handle": "adityaag",
+      "tweet_id": "2095910036652577028",
+      "date": "2026-09-04T16:21:07.000Z",
+      "text": "Me: I totally understand how RL, inference time scaling, modern data-verification loops work.\n\nAlso Me: These models are total sorcery. There is no way that they should be able to do what they do.",
+      "url": "https://x.com/adityaag/status/2095910036652577028",
+      "likes": 88,
+      "retweets": 3,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Sam Altman",
+      "handle": "sama",
+      "tweet_id": "2096008528834244741",
+      "date": "2026-09-04T22:52:29.000Z",
+      "text": "Now out to all Plus and Business users.\n\nHappy building! https://t.co/66tabg3Yid",
+      "url": "https://x.com/sama/status/2096008528834244741",
+      "likes": 12851,
+      "retweets": 549,
+      "is_quote": true,
+      "quoted_id": "2095973658867171733"
+    },
+    {
+      "source": "Sam Altman",
+      "handle": "sama",
+      "tweet_id": "2095973658867171733",
+      "date": "2026-09-04T20:33:56.000Z",
+      "text": "GPT-6 Astra is now available to all Pro, Enterprise, and Business Premium users in Work/Codex, and is available in the API.\n\nWe will start rollout to Plus and Business users next.\n\nThank you for the patience.",
+      "url": "https://x.com/sama/status/2095973658867171733",
+      "likes": 15960,
+      "retweets": 711,
+      "is_quote": false,
+      "quoted_id": null
+    }
+  ]
+}
