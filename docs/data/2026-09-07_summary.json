@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-07",
+  "generated_at": "2026-09-06T23:34:12.873922+00:00",
+  "stats": {
+    "tweets": 1,
+    "podcasts": 0,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Sam Altman",
+      "handle": "sama",
+      "summary_zh": "OpenAI 首席执行官 Sam Altman 宣布 GPT-6 Astra 正式发布：先向所有 Pro、Enterprise 和 Business Premium 用户在 Work/Codex 中开放，并同步上线 API。随后进一步扩大推送，现已面向全部 Plus 和 Business 用户开放。这标志着 OpenAI 新一代旗舰模型 GPT-6 Astra 完成从高端付费层到大众付费层的全面铺开。"
+    }
+  ],
+  "podcasts": [],
+  "articles": []
+}
