@@ -1,0 +1,101 @@
+{
+  "fetch_date": "2026-09-08",
+  "fetch_time": "2026-09-07T20:21:21.913096+00:00",
+  "stats": {
+    "new_podcast_episodes": 1,
+    "new_articles": 1,
+    "new_tweets": 5,
+    "total_podcasts": 1,
+    "total_articles": 1,
+    "total_tweets": 5,
+    "transcribed_this_run": 1
+  },
+  "podcasts": [
+    {
+      "source": "卫诗婕｜漫谈Light the Star",
+      "title": "86.「明年科技公司就只招 AI 人才了！」和脉脉CEO林凡聊全球 AI 人才动向、组织变革与大模型季报",
+      "date": "2026-09-07 01:00 UTC",
+      "link": "https://podcasts.apple.com/us/podcast/86-%E6%98%8E%E5%B9%B4%E7%A7%91%E6%8A%80%E5%85%AC%E5%8F%B8%E5%B0%B1%E5%8F%AA%E6%8B%9B-ai-%E4%BA%BA%E6%89%8D%E4%BA%86-%E5%92%8C%E8%84%89%E8%84%89ceo%E6%9E%97%E5%87%A1%E8%81%8A%E5%85%A8%E7%90%83-ai-%E4%BA%BA%E6%89%8D%E5%8A%A8%E5%90%91-%E7%BB%84%E7%BB%87%E5%8F%98%E9%9D%A9%E4%B8%8E%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%AD%A3%E6%8A%A5/id1754955836?i=1000788215680&uo=4",
+      "orig_link": "https://www.xiaoyuzhoufm.com/episode/6a9daa7ea0210c197dce7a8b?utm_source=rss",
+      "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/6627fda4b56459544087d86a/6a9daa7ea0210c197dce7a8b/media.xyzcdn.net/6627fda4b56459544087d86a/luaCs2DaO_BRmuF9GRBxIX-7Izf-.m4a",
+      "duration": "01:25:05",
+      "summary": "过去半年间，AI行业最大的趋势已经从模型能力探索，步入了“Agentic 化（智能体化）与深度组织渗透”的实操阶段。AI 已不再只是后台的算法演进，而变成了一种全新的工作流和生产力底座。\n巧合的是，我和脉脉创始人兼 CEO 林凡总，最近都刚从硅谷回来。林凡总深入拜访了 OpenAI、Anthropic、Google 和 Meta 等顶尖大模型厂商及一线AI 前沿团队。本期节目可以视作一份当下全球大模型发展态势与动向的“AI 季报”。\n我们的对话将涉及几个硬核议题：\n中美大模型的真实差距\n“AI 人才”的新标准\n人才市场正在及未来即将发生的结构性震荡。\n作为中国最大职场社区与社交平台的掌舵人，林凡不仅在密切观察全行业的人才流向，更在企业内部推进着一场近乎“激进”的 AI 组织变革。希望这一期对话能为大家找到个人价值的核心锚点、摆脱焦虑，共同进步～\n一些 takeaways：\n生产力的颠覆性跨越\n：在 OpenAI 内部，过去专属于程序员的 Coding Agent（如 Codex），在短短 9 个月内已经渗透到了法务、财务等全体非技术岗位，人人每天平均让 Agent 自主跑上 1 小时以上；\nAgent 开始“主动抢活”\n：在 Anthropic，Claude 已经能够在 Slack 等协作社区中自主识别任务，甚至主动接管工作；\n星辰大海的科学目标\n：OpenAI 的核心关切早已超越了简单的工种替代或商业蒸馏，他们正全力冲刺用 AI 攻克数学菲尔兹奖级别的前沿科学难题（AI for Science）。\n本期嘉宾：林凡（脉脉创始人 & CEO）\n本期 Shownotes：\n硅谷调研核心发现\n中美大模型差距现状：当前中美sota模型差距处于收窄状态，美国一线技术人员普遍认可中国的技术进展，并非外界所说的单纯蒸馏。\n模型成本走势判断：未来6-12个月sota模型仍将维持高价，后续小模型能力追平当前头部水平后，token价格将显著回落。\n头部厂商布局方向：OpenAI当前核心目标为1年内拿下数学菲尔兹奖，重点攻坚AI for Science，30%训练工作已交由AI优化，目标1年内达70-80%。\n行业共识方向：硅谷创业公司普遍达成工种替代的共识，Coding Agent对程序员的替代趋势已十分明确，人力资源产业存在巨大商业机会。\n核心技术迭代逻辑\n过去一年核心突破：推理类RL、agentic RL的落地是AI能力跳变的核心原因，可打破人类顶尖水平的能力天花板。\n能力释放规律：任务闭环越短、评价标准越清晰，AI能力释放速度越快，当前Coding、数学领域的替代进度领先其他领域。\n落地进度变量：各领域替代进度不取决于模型能力，而取决于对应赛道的商业价值规模，资源将优先向高价值行业倾斜。\nAI人才的定义标准与招聘市场变化\nAI人才的三类划分框架\n基座技术人才：负责大模型预训练、后训练、底层infra搭建，对应大众认知中的高精尖AI技术人才。\n应用开发人才：负责agent开发、工具链搭建、记忆与功能模块开发，需具备基础的技术背景支撑。\n业务效能人才：核心衡量标准为能否让agent自主、自动运行超过1小时，需具备清晰的目标拆解与约束设计能力。\n人才评估的核心维度\n基座技术人才：以顶级论文发表、开源项目核心贡献者、顶级竞赛获奖经历为核心硬核评估标准。\n应用开发人才：以真实AI应用落地案例、业务指标提升效果、流程自动化程度为核心评估依据。\n业务效能人才：以能否实现agent超1小时自主运行为核心门槛，同时考察架构设计与约束条件的设置能力。\n一小时分水岭的由来：普通任务",
+      "lang": "zh",
+      "chars": 47284,
+      "text_file": "data/2026-09-08/podcasts/卫诗婕漫谈light_the_star__86明年科技公司就只招_ai_人才了和脉脉ceo林凡聊全球_ai_人才动向组织变革与大模型.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "TPU Inference Externalization Full Steam Ahead - InferenceX",
+      "date": "2026-09-07 20:00 UTC",
+      "link": "https://newsletter.semianalysis.com/p/tpu-inferencex-full-steam",
+      "summary": "InferenceX, Up to 50% Better Performance per Dollar, Rapid Externalization of TPU stack, Growing Customer Base, Ironwood, TPUv8i, Reducing CUDA Moat",
+      "chars": 50682,
+      "text_file": "data/2026-09-08/articles/semianalysis__tpu_inference_externalization_full_steam_ahea.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2096815819997204639",
+      "date": "2026-09-07T04:20:23.000Z",
+      "text": "This man isn't even on Time's 100 Top AI List so why are we listening to him /s https://t.co/TzSjTfEb5d",
+      "url": "https://x.com/petergyang/status/2096815819997204639",
+      "likes": 74,
+      "retweets": 1,
+      "is_quote": true,
+      "quoted_id": "2096741462574497805"
+    },
+    {
+      "source": "Nan Yu",
+      "handle": "thenanyu",
+      "tweet_id": "2096796392102752507",
+      "date": "2026-09-07T03:03:11.000Z",
+      "text": "J-dog calling AGI https://t.co/5iDIHYUxyK",
+      "url": "https://x.com/thenanyu/status/2096796392102752507",
+      "likes": 8,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2096700264569090384"
+    },
+    {
+      "source": "Aaron Levie",
+      "handle": "levie",
+      "tweet_id": "2096735726750908464",
+      "date": "2026-09-06T23:02:07.000Z",
+      "text": "The internet is almost entirely unprepared for a future where everyone’s personal agents are running around executing tasks for them. \n\nThere are going to be endless new challenges and opportunities at the infrastructure layer, for user experiences, new business models, and more. https://t.co/lmbQNJAeF6",
+      "url": "https://x.com/levie/status/2096735726750908464",
+      "likes": 451,
+      "retweets": 41,
+      "is_quote": true,
+      "quoted_id": "2096676801204404604"
+    },
+    {
+      "source": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "tweet_id": "2096824861108928701",
+      "date": "2026-09-07T04:56:18.000Z",
+      "text": "One of the biggest crises of our time is the shortening of the human attention span \n\nAgents just make things worse",
+      "url": "https://x.com/zarazhangrui/status/2096824861108928701",
+      "likes": 78,
+      "retweets": 2,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Nikunj Kothari",
+      "handle": "nikunj",
+      "tweet_id": "2096798671547646134",
+      "date": "2026-09-07T03:12:14.000Z",
+      "text": "Fable reviewing literally every Astra code change..\n\n\"this fix is the real deal\"\n\nFable PM, Astra engineer is undefeated 🤝",
+      "url": "https://x.com/nikunj/status/2096798671547646134",
+      "likes": 26,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    }
+  ]
+}
