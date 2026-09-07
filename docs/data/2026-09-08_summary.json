@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-08",
+  "generated_at": "2026-09-07T23:34:22.336398+00:00",
+  "stats": {
+    "tweets": 2,
+    "podcasts": 1,
+    "articles": 1
+  },
+  "tweets": [
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 联合创始人兼首席执行官 Aaron Levie 认为，整个互联网几乎完全没有为\"人人都有个人 AI 代理（agent）四处代为执行任务\"的未来做好准备。他预判这将在基础设施层、用户体验以及全新商业模式等方面带来层出不穷的新挑战与新机会。"
+    },
+    {
+      "author": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "summary_zh": "Hyperbound 联合创始人、前 GGV 投资人 Zara Zhang 抛出一个偏悲观的观点：当今时代最大的危机之一是人类注意力持续时间（attention span）的不断缩短，而 AI 代理（agents）只会让这一问题进一步恶化。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "卫诗婕｜漫谈Light the Star",
+      "title": "86.「明年科技公司就只招 AI 人才了！」和脉脉CEO林凡聊全球 AI 人才动向、组织变革与大模型季报",
+      "date": "2026-09-07 01:00 UTC",
+      "duration": "01:25:05",
+      "link": "https://podcasts.apple.com/us/podcast/86-%E6%98%8E%E5%B9%B4%E7%A7%91%E6%8A%80%E5%85%AC%E5%8F%B8%E5%B0%B1%E5%8F%AA%E6%8B%9B-ai-%E4%BA%BA%E6%89%8D%E4%BA%86-%E5%92%8C%E8%84%89%E8%84%89ceo%E6%9E%97%E5%87%A1%E8%81%8A%E5%85%A8%E7%90%83-ai-%E4%BA%BA%E6%89%8D%E5%8A%A8%E5%90%91-%E7%BB%84%E7%BB%87%E5%8F%98%E9%9D%A9%E4%B8%8E%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%AD%A3%E6%8A%A5/id1754955836?i=1000788215680&uo=4",
+      "summary_zh": "脉脉创始人兼CEO林凡刚走访OpenAI、Anthropic、Google、Meta等硅谷一线厂商后，与主持人复盘全球AI人才与组织变革。核心\"暴论\"：**明年科技公司基本只招AI人才**。脉脉内部数据显示AI人才自25年起连续两年以**同比10倍**速度增长，当前占比已达**30%~40%**，若再增10%，明年将有**80%~90%**的公司主要招AI人才。\n\n技术判断：中美SOTA模型差距\"现状在缩小\"（后训练/RL对算力要求低于预训练，中国有天然价格优势），过去一年能力跃迁核心是reasoning RL到agentic RL，机器自演化(RSI)将进一步加速——Anthropic和OpenAI已有约**30%**的训练(pre/post-train)交由AI优化，预计一年内提至**70%~80%**。SOTA token高价或再持续半年到一年，但小模型(如DeepSeek Flash、GLM 27B)蒸馏后能力已可覆盖多数工种，价格将回落。OpenAI目标转向AI for Science(冲刺数学菲尔兹奖)，Anthropic更务实(Claude在Slack主动\"抢活干\")。OpenAI内部**9个月**从程序员到全员用Codex，脉脉预计**10~11个月**完成。\n\n投资/组织启示：会用AI的关键分水岭是**让agent自主工作超1小时**(需清晰架构+上百个test case约束，某案例跑700多个后台task)。可清晰验证闭环的岗位(coding、数学)最先被替代；关系型/情感型岗位较难。程序员将从大厂向传统行业扩散、\"一人即一团队\"。林凡预判人力资源服务将\"上云\"——从终身雇佣转向小时/天级灵活用工，由AI管理平台统一调度；并称**20年后所有人出生即退休**，此前十年极度动荡。脉脉自身从工具型撮合转向自动化人岗匹配。瓶颈在消费侧信心而非供给侧，一切\"公众替代\"技术已不是问题，只看商业价值。"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "TPU Inference Externalization Full Steam Ahead - InferenceX",
+      "date": "2026-09-07 20:00 UTC",
+      "link": "https://newsletter.semianalysis.com/p/tpu-inferencex-full-steam",
+      "chars": 50682,
+      "summary_zh": "SemiAnalysis 发布了 TPUv7 Ironwood 首次第三方推理评测（InferenceX 预览），核心结论：TPU 对外开放推理正全速推进，对英伟达在关键经济性指标上构成实质挑战。\n\n性价比（每美元性能）是投资要点：在 FP8 聚合服务、单 token 预测的同等对比中，Ironwood 每美元性能最高比 B200/B300 高 **50%**。在 100 tokens/s/用户 的交互性下，Ironwood 每百万 token 成本约 **$0.181**，B200 为 **$0.222**、B300 为 **$0.276**，即比 B200 低 **19%**、比 B300 低 **34%**。在 20 tok/s/用户 下 Ironwood 甚至原始吞吐领先，达 **9,364** tokens/s/芯片（B200 **8,903**、B300 **8,925**，高约 **5%**），叠加更低时租，使每美元 token 比 B200 多 **50.4%**、比 B300 多 **96.0%**。若按 Google 内部 TCO（**$1.03/芯片·小时**），并发 256 下优势扩大到超 B200 **76.7%**、超 B300 **130.2%**，但延迟有代价（TTFT 达 **5.41 秒** vs B200 **3.75 秒**、B300 **2.40 秒**）。\n\n局限：TPUv7 无原生 FP4，在 NVIDIA FP4 上仍落后；预计下一代 **TPUv8i**（Boardfly）具备原生 FP4，将对标 Rubin NVL72。当前外部栈缺优化的 disaggregated（分离式）服务，故 GB200/300 NVL72 在 disagg 对比中约有 **30%** 每美元优势，但预计数月内追平。\n\n需求侧：Anthropic 已成最大 TPU 用户，承诺超 **100 万** 颗（直接采购 **40 万+**、经 GCP 租用 **60 万+**），预计 2029 年用量超过 DeepMind 自身。Ironwood 是首代可外购/自租的世代。\n\n软件栈：Google 从 TorchAX 转向原生 TorchTPU（PyTorch 原生设备，底层仍用 XLA/Pallas），联合 vLLM、SGLang、Inferact、RadixArk、Red Hat 共建，预计 **10 月中旬** PyTorch 大会期间开源。文章还详述了 DP attention、MoE 路由/GroupedGEMM、GDN 核等大量 Pallas 内核优化（如单层省约 **80 微秒**、部分场景吞吐提升 **4.1%–14.2%** 等），显示外部软件成熟速度快，且优于仍在建立测试文化的 AMD。投资含义：Google TPU 正从内部专用走向外部商用，长期或分流英伟达推理市场份额。"
+    }
+  ]
+}
