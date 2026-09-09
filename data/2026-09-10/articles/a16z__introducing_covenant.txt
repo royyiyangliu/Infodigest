@@ -1,0 +1,54 @@
+Source  : a16z
+Title   : Introducing Covenant
+Date    : 2026-09-09 14:01 UTC
+Link    : https://www.a16z.news/p/introducing-covenant
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+The U.S. needs more long-range missiles.
+In the first five weeks of the war against Iran, the United States fired more than a thousand Tomahawk cruise missiles. It did this against Iran: a mid-sized regional power.
+The West needs to be prepared for wars against countries such as Russia and China: vast territories with thousands of hardened targets, layered air defenses, and the will and capability to fight for years.
+The real challenge is not replacing the weapons that have already been consumed. It is building a new arsenal capable of overwhelming scale.
+Europe is in no better position.
+Europe’s long-range strike gap is even more pressing. In May 2025, Germany and the UK committed to develop a deep precision strike weapon under the Trinity House Agreement. France, Germany, Italy, Poland, Sweden, and the UK have banded together in ELSA, the European Long-Range Strike Approach, to field a long-range ground-launched missile. And in July of this year, a host of European countries pledged more than $50 billion to build deep precision strike capabilities.
+These initiatives are excellent, but they are years away from results.
+Enormous distances separate European soil from war-winning targets in Russia, and today, Europe has almost no sovereign way to reach them. If Europe wants to deter, it needs the ability to strike.
+Cheap mass transformed the tactical fight but left the strategic one untouched.
+When Deputy Secretary of Defense Kathleen Hicks launched the Replicator initiative in 2023, she made affordable mass a mission: thousands of small, cheap, autonomous systems to offset China’s greatest advantage – its sheer numbers. Arming the West with low-cost drones and munitions is one of the most important defense shifts in a generation.
+But affordable mass has mostly reached the small end, and while small, tactical drones are deadly, they are not war-winning: Russia and Ukraine have traded them across the front for years, and the line has barely moved.
+Even the new class of affordable American missiles is not enough. A hundred-pound warhead can destroy a truck, but it cannot close a port, crater a runway, or bring down a hardened weapons plant. Our adversaries have thousands of these targets, often tucked hundreds of miles behind enemy lines, and each of them needs heavy payloads to be destroyed.
+For the West to reach these targets, strategic weapons need the same revolution as tactical ones. We cannot deter with exquisite, expensive weapons built in the dozens. We need greater reach, heavier payloads, and tremendous mass.
+Introducing Anthem.
+Today, Covenant is announcing Anthem: a heavy-payload deep precision strike weapon system meant to fill the biggest gap in the arsenal of the West.
+Anthem delivers multiples of the range and payload of anything in its price class.
+Crucially, Anthem is more than just its specs; it was designed to be affordably stored and fielded at scale. The reality of many weapons programs is that the sticker price is often a fraction of the lifecycle cost: bunkers and launchers can cost more than the effectors themselves and are often available in quantities too small for mass fielding. We’ve put as much thought into the storage and handling of Anthem as we have into its performance.
+Beyond delivering end-to-end hardware solutions, Covenant is also delivering the mission-planning and command-and-control software to make mass strike missions a reality.
+The result is a deep precision strike capability which can be affordably stored, launched, and controlled in the thousands.
+Since Anthem’s maiden flight in August 2025, Covenant has flown Anthem in over 200 tests, including multiple flight tests with the U.S. military both on U.S. soil and abroad.
+Local Production, Local Supply Chains
+In just under two years since our founding, we have raised $250 million, hired hundreds of the most talented engineers and operators, and opened factories to produce Anthem in 3 countries – the US, Germany, and Israel. Our priority is getting thousands of Anthems into the field, fast.
+Anthem was designed to be produced quickly and at scale. Most of Anthem’s parts are commercial off the shelf, and where they are not, we did not wait for a supplier to scale up on their own: we either brought the part in house or partnered with the supplier to stand up an entirely new production line to meet our demand.
+Covenant is producing Anthems locally for our customers so that they will be ready to launch when each country needs them.
+Today, we cut the ribbon on our new 105,000 square foot production facility in Dallas, Texas, home to our American production line and supply chain. Later this year, we will unveil two more production facilities: 110,000 square feet in Germany, which will feature an almost entirely European supply chain, and 30,000 square feet in Israel.
+Beginning in 2027, we will deliver thousands of Anthems per year.
+We believe Covenant is building the best missile engineering team in the world.
+Building an excellent affordable strategic weapon is hard. At our core are some of the most experienced missile engineers in the world, led by my co-founder Ofir Dayan. Ofir understands our customers’ problems as well as they do and has the tenacity to fight requirements that stand in the way of the best solutions. He leads our band of renegades – the engineers who ran as if with ankle weights inside the American, Israeli, and German primes, and still managed to deliver the most advanced offensive and defensive weapons in service. At Covenant they run free.
+No less important are the Covenant operations and flight test teams that support them. Flight-testing large missiles is intense and dangerous work, but it’s the way to get a missile into service quickly. Covenant has staged flight tests nearly every week since our founding.
+Covenant’s relationship with our customers is led by Abby Denburg, our President and Chief Growth Officer. Abby’s job is not just to sell, though she does that as well as anyone. She is the force converting our customers’ urgency into Covenant’s speed.
+This is Covenant.
+We’re proud of what we’ve built, but the hardest work — producing at scale, delivering reliably, and servicing our customers — is still ahead.
+We open with Anthem.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

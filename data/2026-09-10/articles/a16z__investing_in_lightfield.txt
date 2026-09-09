@@ -1,0 +1,31 @@
+Source  : a16z
+Title   : Investing in Lightfield
+Date    : 2026-09-09 16:01 UTC
+Link    : https://www.a16z.news/p/investing-in-lightfield
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+Every company runs on a CRM, and almost no one likes the one they have. It’s the system of record for how you find, win, and keep customers—the most important software a company owns, and somehow the most dreaded. CRMs are supposed to help drive productivity and efficiency for sales and support teams, while helping deliver insights on how to improve. It turns out they often do the opposite, and the promised “insights” are a stack of dashboards you have to build yourself.
+Enter Lightfield, the CRM for the agentic era. That means a fundamentally different data architecture: a flexible data model that needs no configuration, builds itself from your emails and calls in minutes, and fits your business rather than the other way around. The feat underneath is a temporal context graph that captures the why behind every deal. The advantages compound from there: agents and humans work from the same platform through the same API, and the data model scales to track complex, high-touch, multi-threaded enterprise deals that play out over months without a single schema change. The classic CRM headaches, the stale fields, the weeks of configuration, the reports nobody trusts, go away because the data model is finally right.
+More than that, Lightfield comes with agents that do the work that piles up around the record, the updates, the follow-ups, the handoffs, the reporting, and pricing follows the work done and value delivered instead of static seats you buy. And because it holds every customer conversation, Lightfield becomes the business world model, shaping what you build next and for whom. In a world where context is the rate limiter, Lightfield delivers a compounding context moat.
+Customers have noticed. Since launching late last year, thousands of companies have adopted Lightfield, and teams are ripping out Salesforce, HubSpot, and Attio to switch. As one operator put it after moving off the largest incumbent:
+“If you’ve only ever ridden a horse, the only thing you ever want is a faster horse. Well, this is a car.”
+Special products are built by special people. We’ve known Keith Peiris and Henri Liriani for a long time. They previously built Tome, an AI presentation tool that grew to 25 million users, and when they decided that wasn’t the right strategy to build a massive company, they did the hardest thing founders can do: they pivoted. They shrank the company to a core group of engineers and rebuilt around a problem they had experienced firsthand scaling Tome
+—
+there was no AI-native CRM for growing companies.
+History says this is how generational systems of record are born. Siebel was born on client-server, Salesforce on cloud, HubSpot on inbound SMB. Each won a greenfield generation of companies the incumbent couldn’t see, and the AI-native generation is being founded right now, choosing its system of record for the first time.
+We could not be more thrilled to lead Lightfield’s $47M Series A. If your company is growing fast and the tooling that got you here is starting to break, check them out. And if you want to help build the system of record that humans and agents actually love, they’re hiring!
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
