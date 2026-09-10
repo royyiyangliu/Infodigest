@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-11",
+  "generated_at": "2026-09-10T23:35:28.466238+00:00",
+  "stats": {
+    "tweets": 5,
+    "podcasts": 0,
+    "articles": 2
+  },
+  "tweets": [
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 创始人兼 CEO Aaron Levie（@levie）。他提出与主流相悖的观点：降低写代码的成本不会减少工程师，反而会大幅提升工程师的杠杆，让世界需要更多而非更少的工程师；编码 agent 的用途将远超此前想象，涵盖全新品类的工具、为过去负担不起软件的公司开发、用 agent 抵御网络风险、自动化生命科学研究、处理海量复杂数据工作流、升级遗留系统等数百种场景。他还认为 AI 能力与 GDP 影响之间落差的关键在于\"扩散\"（diffusion）比人们想象的慢得多——即便把最强超级智能接入工作流，仍受制于\"企业物理定律\"（数据准备与入管道、流程再造、变更管理、对齐新工作方式）以及现实世界速度（等客户回复提案、拿项目许可、药物研发管线需数年）；他判断 AI 扩散将是未来十年的主题，机会在于搭建超级智能与现实工作流之间的桥梁。"
+    },
+    {
+      "author": "Dan Shipper",
+      "handle": "danshipper",
+      "summary_zh": "Every 联合创始人兼 CEO Dan Shipper（@danshipper）。他针对一份关于 AI 自动化对就业影响的报告提出质疑，认为其两个关键假设一旦被审视就会显著改变结论：一是假设工作可被拆解为任务，二是假设自动化总是减少（至多不增加）人类劳动。他反驳称，以其经验自动化往往为人类创造成倍的新工作，任何诚实的 AI 经济影响分析都必须认真对待\"工作创造\"这一项；他进一步借维特根斯坦与海德格尔指出，工作是一种\"看待并关切世界的方式\"，随着工具与环境变化，同样的关切会不断催生全新任务，而这一过程恰恰是最难建模、也最容易被此类分析遗漏的部分。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 创始人兼 CEO Guillermo Rauch（@rauchg）。他强调\"为模型做基准测试、引导世界走向能力、真相与效率\"的公司是这一代最重要的软件品类之一，并联合 Benchmark 举办 AI Benchmarks 活动。他同时晒出 Vercel 过去六个月的定价优化成绩：8 次降价、取消费用及结构改进，外加 16 次模型折扣，并表示还有更多在路上。"
+    },
+    {
+      "author": "Peter Steinberger",
+      "handle": "steipete",
+      "summary_zh": "独立开发者、PSPDFKit 创始人 Peter Steinberger（@steipete）。他分享其 AI 工具 OpenClaw 的进展：云端会话已跑得很快，支持远程终端、WebVNC 与 CUA（computer use）；两个月前他推动的 Dashboards/Mini-Apps 功能如今已取代团队围绕 OC 自建的大量工具，一切都被统一为侧边栏条目、仪表盘或插件形态运行在团队服务器上。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品人、Creator Economy 作者 Peter Yang（@petergyang）。他分享测试新模型思考能力的偏好方法：用一段提示词让模型对拖累你的盲点给出\"残酷诚实\"的反馈（可直接把整张图粘进 ChatGPT），并提到新模型 Astra 给出的反馈尤为直白。"
+    }
+  ],
+  "podcasts": [],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "What is So Hard About Behind-The-Meter Power For Datacenters? Part 1",
+      "date": "2026-09-10 14:28 UTC",
+      "link": "https://newsletter.semianalysis.com/p/what-is-so-hard-about-behind-the",
+      "chars": 49697,
+      "summary_zh": "SemiAnalysis 指出，\"表后（Behind-The-Meter, BTM）自建发电\"已从马斯克的实验变为所有 AI 实验室与超大规模厂商的主流供电方案。其能源模型追踪到供应链中已有 **75GW** 的确定性绑定订单专供 BTM AI 算力，其中仅 **2026 年 Q2** 就下单约 **20GW**（不含数百 GW 投机性公告）。到年底约 **3GW** 美国在运数据中心 IT 容量将由表后供电，并将连续多年三位数增长。\n\n案例：微软 2026 年内已签超 **5GW**（含与 Joulent&Chevron 的 2.7GW、与 Crusoe 等 2GW+ 租赁）；谷歌部署 **930MW** 离网航改燃机、**900MW** Bloom 燃料电池加 **1GW+** 三菱 J 级燃机；Anthropic、Meta 各与 Enchanted Rock 签 **300-500MW**，Anthropic 德州旗舰园区（谷歌背书）另有 **1.5GW+** 离网发电；OpenAI 即将启用德州 **1.4GW** 离网园区（超 **500** 台 4.25MW Jenbacher J624 引擎），加新墨西哥 1.3GW，代表其与 Oracle 签约超 **$150B** 支出。\n\n驱动逻辑是 AI 经济学：**1GW** 电厂约 **$5B**，而每 GW 推理 API 年收入可达 **$100B**、毛利 **90%+**，Anthropic 等约 **20 天**推理收入即可回收电厂成本；多付 2 倍钱或牺牲 30% 效率换速度都值得。电网建新增发电需 5 年以上，跟不上需求。\n\n供应商从一年前 **12** 家离网大单厂商增至 **22** 家（模型追踪 30+ OEM）。但执行风险浮现：许可延迟迫使 Oracle Jupiter、Nebius 新泽西紧急改用 Bloom 燃料电池；管道、可靠性、劳动力短缺问题增多。文章拆解 BTM 六大关卡：合同与可融资性、许可、燃料、设备、劳动力、离网运行物理。融资\"鸡生蛋\"困境催生 EaaS\"表后公用事业\"新玩家（VoltaGrid、Williams、Solaris）。许可方面各州差异巨大，德州最友好，故将承载最多 BTM 机组；空气许可 PTE 超 **250 吨/年**触发重大源审查、超 **100 吨**需 Title V。"
+    },
+    {
+      "source": "a16z",
+      "title": "Investing in Highstock",
+      "date": "2026-09-10 14:05 UTC",
+      "link": "https://www.a16z.news/p/investing-in-highstock",
+      "chars": 5310,
+      "summary_zh": "a16z 宣布领投库存清理平台 Highstock 的 **3000 万美元** A 轮融资，合伙人 Olivia 加入董事会，marketplace 名将 Jeff Jordan 担任顾问。\n\n投资逻辑：消费品牌普遍面临\"生产多于销售\"的结构性难题——为防缺货而乐观备货，导致行业沉淀数万亿美元过剩库存。传统处理方式只有两种糟糕选择：低价甩给清算商（伤害品牌资产、易在折扣渠道回流），或直接销毁。核心痛点在于过剩库存是\"非标品\"：碎片化、无可比价格、每批货对应不同买家，过去只能靠人力做定价与撮合，因而沦为关系驱动的清算和逐底竞价。a16z 认为这正是 AI 擅长的非结构化问题，胜出者将是\"AI 原生 + 品牌安全\"的平台。\n\nHighstock 定位为 AI 驱动的 B2B 市场，连接持有过剩库存的品牌与经审核的全球批发买家，品牌可低调出货、避免\"清仓甩卖\"的负面观感，平台则用 AI 处理撮合、物流、合规、支付及订单文书。\n\n团队壁垒：CEO Camille van Horne 与 CTO Sean Cashin 均出身 Instacart，Camille 曾任产品管理总监 **6 年**，主导端到端履约。\n\n经营数据（成立仅 1 年多）：平台已挂牌库存超 **10 亿美元**，合作 **100 多个**主流品牌，约 **60%** 交易额来自年营收超 **5 亿美元**的品牌与集团；买方端有 **100 多家**企业买家（含直播卖家、国际电商）；累计已使超 **1000 万磅**产品免于填埋。\n\n美妆个护为切入点，正拓展至服饰及更广消费品类，随品类扩张数据与关系形成复利。"
+    }
+  ]
+}
