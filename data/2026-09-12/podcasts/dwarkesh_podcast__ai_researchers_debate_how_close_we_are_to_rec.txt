@@ -1,0 +1,1017 @@
+Source  : Dwarkesh Podcast
+Title   : AI researchers debate how close we are to recursive self-improvement
+Date    : 2026-09-11 16:28 UTC
+Link    : https://podcasts.apple.com/us/podcast/ai-researchers-debate-how-close-we-are-to-recursive/id1516093381?i=1000789067132&uo=4
+────────────────────────────────────────────────────────────
+
+[00:00] Speaker0: Today, i'm chatting with three of my ai researcher friends from whom i learned a lot.
+[00:04] Speaker0: Every time we talk and who also happened to be at somewhat openish labs and companies.
+[00:09] Speaker0: So you guys can actually say things on the record.
+[00:12] Speaker0: I'm joining me, baron millage, who is a cto of zyfra, which is developing open source models.
+[00:16] Speaker0: John schulman, who is the chief scientist at thinking machines previously, the co-founder of OpenAI led the rl chef work that led to check a pt.
+[00:24] Speaker0: And charlie o'neill, who is head of model training at base 10.
+[00:29] Speaker0: The first question i have, if we're in 2036, it's been 10 years.
+[00:33] Speaker0: We don't have like crazy billions of crazy super intelligence that are running around that are like radically transformed the world.
+[00:39] Speaker0: What is the most likely reason?
+[00:42] Speaker0: That that doesn't end up being the case other than sort of exogenous political shocks or like there's a war or they banned ai or something.
+[00:49] Speaker0: But what is the most likely technical reason?
+[00:51] Speaker0: That we don't like 2036 isn't like a crazy alien superintelligence world.
+[00:55] Speaker1: I mean, like my reason would just be like it's got to be that sort of like there's been a classic thing almost like more of x paradox, right?
+[01:03] Speaker1: Well, like we see like, you know, we think of the ai be like if it can do, this is going to be amazing.
+[01:07] Speaker1: Like if it can solve these hard math problems, if it can win a chess, blah, blah, and then it solves these things and then it's like not that impactful.
+[01:13] Speaker1: Obviously, it's someone impactful but like not everything.
+[01:15] Speaker1: It's like if somehow that continues and like.
+[01:17] Speaker1: There's never like the true like spark of generalization that occurs.
+[01:21] Speaker1: I think that could lead to like the ai is just being like extremely good at kind of everything that people like put into a benchmark, put into an environment, but like there are still some persistent like sim to real, which is somehow blocking everything.
+[01:31] Speaker1: I think this is kind of unlikely.
+[01:33] Speaker1: I think we do actually see this kind of generalization even from our own practice already.
+[01:37] Speaker1: But like, if it is just like ridiculously hard to like generalize meta learning, plus like we don't solve continual learning, it is just like super hard and impossible.
+[01:44] Speaker1: Yeah, like this would be my like default scenario in that case.
+[01:47] Speaker2: Yeah, i agree with that.
+[01:49] Speaker2: Humans have a lot of advantages over models now and each time a new model comes out, it'll sort of, it'll catch up in some of these areas, but like you end up getting bottlenecked by the places where the model is weaker and where it has worse judgment or the models can't check themselves well enough.
+[02:11] Speaker2: Yeah, so there's this cycle that keeps repeating where people think where a new model comes out and people are blown away and they're like, this is it.
+[02:18] Speaker2: This is the, this is agi, but then they use it a bit and and then it starts to feel dumb after a month or so.
+[02:25] Speaker2: So that cycle just might keep going and it's hard to predict how many times it's going to repeat.
+[02:30] Speaker2: And like right now, you don't get explosive growth in capabilities because.
+[02:36] Speaker2: You still get bottled back enough when you're trying to do research and engineering that even if the model can write way more code than a person, it doesn't make you like 100 times more productive.
+[02:46] Speaker2: But yeah, so maybe maybe they're just more of these cycles than we would.
+[02:51] Speaker3: than we would expect for me.
+[02:52] Speaker3: It's like a question of how far off like this global optimum of a learner.
+[02:57] Speaker3: You could have on a chip is like the transformer plus like rl.
+[03:02] Speaker3: Basically like the current recipe.
+[03:03] Speaker3: So like i think people imagine that even want like once you have a an agent which is better than all humans at ai research, even if it's like 0.1% better than all humans, then the fact that you can run like, you know, hundreds of thousands, if not millions of these in parallel, you can run them much faster.
+[03:20] Speaker3: Like she was going to speed up, that's going to outweigh every other like bottleneck and like you're eventually just going to like hit this like very fast takeoff with rehearsal of improvement.
+[03:27] Speaker3: I could imagine that if we continue along the trajectory that we're currently on with that paradigm where, you know, it's basically just like self-attention rl scaling up our real environments.
+[03:37] Speaker3: The i guess like if you think about what happened with moore's law, right?
+[03:41] Speaker3: Like we had this very like nice straight line and that held for a really, really long time.
+[03:45] Speaker3: But there were so many like discrete like discontinuities and innovations that had to happen to keep that scaling law going.
+[03:51] Speaker3: And the same thing has kind of happened with llms.
+[03:53] Speaker3: Like, we had this pre-training like scaling law, and then that was kind of like, you know, hitting the diminishing returns, and then we came up with like rl and solve that, and then we got this new like, you know, diminishing returns.
+[04:03] Speaker3: Curve to hit that made it keep looking like a straight line going up.
+[04:06] Speaker3: And so, like, if it requires another one of those discontinuities to solve, like, i'm not sure that like the current method of like training llms with these rl environments, even like rsi targeted rl environments.
+[04:18] Speaker3: Would be able to discover that discontinuity and if not like we're probably going to hit this like asymptotic like curve where.
+[04:25] Speaker0: like so do you think this continuity will be harder than anything that's come since 2012?
+[04:31] Speaker3: If we had the answer that we kind of have the ability to implement it but like maybe there's the distinguished we should distinguish between a discontinuity which adds to the current paradigm again.
+[04:40] Speaker3: It's like cumulative like there's some thing beyond the rl that we have to discover and maybe they're capable of like.
+[04:45] Speaker3: You know, connecting the dots in that straight line or like, but like again, how far off the global optimal week do we have to go back and throw out like, you know, gradient descent and like neural nets in general.
+[04:56] Speaker3: And i don't think like if you continue to scale up the current paradigm and llm, no matter how many elements you're running are capable of necessarily discovering that if it's too far away.
+[05:05] Speaker0: Yeah, the only hope really is if deep learning.
+[05:09] Speaker0: Just can't get us to an ai, which is at least.
+[05:14] Speaker0: Can dominate human research and human development, including the human ability to come up with new paradigms and so forth.
+[05:20] Speaker0: Or like, i don't know, maybe human, maybe humans would never also never have discovered the next learning architecture, but to the extent human squad have discovered it eventually, but it just seems like, i don't know.
+[05:31] Speaker0: If you just look at the progress, this happens in 2012 till now.
+[05:35] Speaker0: And you just continue that on.
+[05:37] Speaker0: I mean, i know if that's been powered by a huge amounts of compute scaling and so forth, but it would be weird if like it just didn't get to the point where it could like dominate humans at least in r&d, especially.
+[05:49] Speaker0: Over the next few years, there's going to be ryan greenberg was on the podcast recently and he made this point that you could imagine as the guys get more and more capable and are capable of making progress on.
+[06:01] Speaker0: Simulations, which incentivize getting better at not only ai r&d, but generally at science.
+[06:06] Speaker0: So this is a thing that all the labs targeting many startups are targeting or another intuition pump is if you look at the elo score of chess bots since the 80s, there's just like a very linear increase in elo over time.
+[06:18] Speaker0: But there's a huge discontinuity as they cross the human range of human experts, always win against ais to like human experts never win against ais as this linear increasing evil happened and you could think i agree with your point that so far yeah capabilities have not been that big of a deal in terms of their end economic impact in the world but that just because like they're slowly rising in elo relative to humans.
+[06:39] Speaker1: Yeah, yeah, i mean, i agree.
+[06:40] Speaker1: It would be very, i mean, the only way for this to not happen is if like, as you said, somehow asymptote like just before basically because we're already pretty close to my opinion to like.
+[06:48] Speaker1: Where we'll start crossing like the human elos score and so we'll need to ask them to before that and like that's the only way you know in this scenario opposed where like somehow we're sitting here in 2035 and like everything is normal for this to happen.
+[06:58] Speaker1: I think the i mean the only other way is like there's like some dramatic like regulation on ai.
+[07:02] Speaker1: It's like this is kind of what i see is like the most likely way for this and i happen actually rather than the technical thing.
+[07:07] Speaker3: Yeah, i think there's different kinds of research.
+[07:10] Speaker3: There's like research where it's like the order research style where the objective is already specified very clean.
+[07:15] Speaker3: I'm sure optimizing that objective and i think.
+[07:17] Speaker3: Everyone is picturing like if we continue along this path, like you know, making pre-training loss, go down, making our environments, water, let's go up.
+[07:24] Speaker3: That's going to lead to like improvement.
+[07:25] Speaker3: But like, you know, maybe what ryan is talking about is like this much more open-ended type of science, which is required for like paradigm shifts where we can't specify the objective and the ais are definitely not able to specify that objective either.
+[07:35] Speaker3: Like we have to be really, really careful about how we specify objectives for any of these things.
+[07:39] Speaker0: And maybe your point is that like the nature of the breakthroughs that have happened since 2012.
+[07:43] Speaker0: Is that we have found like in 2012 people weren't saying or i'm assuming i don't know you guys were there or at least johnny were there but i was i was in primary school.
+[07:53] Speaker0: I actually john i'm curious where you're like sort of wisdom of the ages of or wisdom of like being in the trenches way back when but presumably a big breakthrough was realizing that next token prediction is the like you wouldn't have thought that nanos nano gpt speed run.
+[08:09] Speaker0: Is the thing to be optimizing for in 2014.
+[08:12] Speaker0: But now that we have come to this new paradigm, that's you wouldn't think to do a speed run on that and have you guys get really good at that?
+[08:17] Speaker0: But maybe there's like a next inner loop to optimize that the ais wouldn't anticipate and there's an outer loop of like revenue or something that eventually should be strong but it's a very slow outer loop.
+[08:29] Speaker2: Yeah.
+[08:30] Speaker2: In fact, i remember in the early OpenAI days having the.
+[08:34] Speaker2: Intuition that actually just do like minimizing log loss wasn't going to get you to intelligence because like the important bits are accounting to for such a small fraction of the loss that like it was going to be overwhelmed by noise.
+[08:52] Speaker2: So just training a language model on next token prediction, just wasn't going to learn the interesting things you wanted to learn and.
+[09:01] Speaker2: We needed to craft better objectives that would put more emphasis on the important things and like you can make all sorts of arguments for this and you could say, oh humans probably don't learn how to like we don't learn how to model everything in our environment.
+[09:17] Speaker2: We can't most like people can't create a photorealistic reproduction of some kind of scene.
+[09:24] Speaker2: They've looked at.
+[09:26] Speaker2: so.
+[09:27] Speaker2: Um, there must be, we must need a better objective, but then it turned out that it just worked anyway.
+[09:33] Speaker0: As you were pointing out the inner loop, even in current ai research of like post-training benchmarks or whatever, or doesn't necessarily translate into what users like.
+[09:41] Speaker2: Oh yeah, i mean, the whole field relies a lot on generalization and it's very hard to predict when you're going to get generalization or when you're going to get some kind of out of distribution generalization.
+[09:52] Speaker2: So we know that if you train on the task, you care about, you're going to do better.
+[09:55] Speaker2: Yeah, but like the most important advances are often the opposite are types of generalization that we have no right to expect.
+[10:06] Speaker2: So for example, from just pre-training on this very naive.
+[10:11] Speaker2: Um, next token prediction objective to like various tasks of interest where some very that require understanding of the input in some deep way or learning some skill from pre-training.
+[10:26] Speaker2: That's like very rare and like not very like heavily represented.
+[10:32] Speaker2: And then like also generalization from these verifiable tasks to less verifiable ones.
+[10:38] Speaker2: This is also a type of generalization that.
+[10:40] Speaker2: There's no reason how prior to expect it.
+[10:43] Speaker0: Yeah, this is an interesting question because one intuition pump that you could have for why you would see some sort of singularity very rapidly without even scaling up the inputs to ai progress that are not just ai labor is that before every single experiment you run that's you know like a seven figure experiment you spend an equivalent amount of compute on.
+[11:04] Speaker0: Ai labor.
+[11:05] Speaker0: And so you just have automated versions of you guys spending a century thinking about like what is the optimal experiment to run?
+[11:14] Speaker0: Do you like small scale ablations developing literally like in a century's worth of theory?
+[11:20] Speaker0: So going back even before like deep learning it in before you decide what experiment to run doing extremely optimal like setting up of the experiment, then you do a century of thinking after the experiment is over.
+[11:29] Speaker0: Where you're like analyzing what happened and what the next experiment to run is.
+[11:33] Speaker2: Yeah, well, i think if if you think hard enough, you probably could have expected some of these things beforehand, like like there is probably some very clever way to do a small scale experiment that'll let you build the theory that then will generalize to the large scale experiment.
+[11:47] Speaker2: So i would expect that like we're nowhere near the ceiling of how well you can do research and like.
+[11:54] Speaker2: I would imagine a future where, um, where AI is like, um, is doing a lot of, uh, like analysis and theory building, um, like spending a comparable amount of compute to the amount that you're spending on the experiments themselves, uh, doing various kinds of analysis and building a theory around what we've seen so far.
+[12:15] Speaker3: I think there's like really concrete examples of this when the objective is well specified.
+[12:19] Speaker3: So again, like, all thinking can do is like update your posterior based on like, you know, the bits that you've gotten since you formed your prior.
+[12:25] Speaker3: Like, you can't gain any new bits from like just thinking.
+[12:28] Speaker3: But when the objective is well specified and there is like this data sitting around, like i imagine there will be this big speed up in the current paradigm we're in and like good example.
+[12:35] Speaker3: This is like, you know, if you got an ai to think about like the cap plan scaling was like an ai at this point would have noticed that like, you know, oh like they've just taken these intermediate checkpoints and didn't account for like the annealing.
+[12:47] Speaker3: And so like this is wrong and like that would have called that like years earlier.
+[12:50] Speaker3: We would have made like, you know, progress like.
+[12:53] Speaker3: Like what a cut off a year or two of progress just from that like observation from an ai and like again once the objective is well specified which is like lower pre-training loss or whatever like there's many many good examples where if you just thought about it a bit more you would have been able to like cut down a significant on things that you've done so like mu p and like how learning rate scales with like model size and like realizing the model width is important in that as well like i feel like you can。
+[13:17] Speaker3: You can really back out a lot of these things and cut off like a lot of low hanging fruits.
+[13:20] Speaker3: I would imagine like a 10 times speed up if our thing is just like maximize the objective we're currently on, but i don't see that how that generalizes at all to, you know, come up with the right objective in the first place.
+[13:30] Speaker3: Like just thinking doesn't necessarily buy the right objective in the first place.
+[13:33] Speaker1: I mean, yeah, i think this is really the key question to like any kind of like very rapid rsi is like from current ais is like how well can ai is generalized like learning though and objectives.
+[13:42] Speaker1: 'cause have any kind of like self-propelling automated loop, you need the ai to like propose objectives, optimize them, figure that out, propose a new objective, and like have this like not go off the rails at like any point for like a long long time.
+[13:53] Speaker1: Come back to more of its products that might be like a case of more of its products where like we think this kind of like autonomy and sort of like being like self encapsulated, so we can you know think of what we should do ourselves.
+[14:02] Speaker1: And then go do it, and like have this loop is like super easy, cause we always do this.
+[14:06] Speaker1: And like obviously evolution needs to create creatures that can like survive on by themselves like long period of time.
+[14:10] Speaker1: And like this just might be something that for some reason it's like really hard for the ai in the same way that like locomotion stuff is really hard.
+[14:16] Speaker1: It's like math is super easy despite being super hard fast.
+[14:18] Speaker0: I don't know, isn't the time horizon increasing suggested that's you would.
+[14:21] Speaker1: Yeah, exactly.
+[14:22] Speaker1: I mean this is another possibility which like but i agree like there's no obviously evidence for this.
+[14:26] Speaker1: Like in fact the fact that you know our agents now but like super persistent and it's crazy to do this.
+[14:31] Speaker1: It's kind of evidence against this but like this would be you know potentially like.
+[14:34] Speaker1: One of the reasons why like we just don't get this like immediate takeoff is like if this is hard.
+[14:39] Speaker0: if you look back from 2012 till now or maybe from when you started doing your research till now, what part of.
+[14:49] Speaker0: Of all the innovations that have happened since that time, including purely engineering ones, including purely conceptual ones, what seems like the thing that is the thing that would be the last things humans would have to do before AI is totally automate AI RD?
+[15:05] Speaker1: Probably just like iteratively asking the right questions.
+[15:07] Speaker1: Like if you can get the AI to like do any experiment, but like you need to decide what experiments to do.
+[15:12] Speaker1: And like right now, I think AI is not very good at this compared to coding the experiment at all.
+[15:16] Speaker1: Yeah, like whenever we talk about research, they propose like a bunch of like miscellaneous things, which are like very, very tiny steps.
+[15:22] Speaker3: or even going from like, you know, deep minds approach of like we're going to solve intelligence by learning to play games to the superhuman level.
+[15:28] Speaker3: That's going to be the approach to like one random research.
+[15:30] Speaker3: I like radford being like i'm gonna try and just predict the next token of a very wide swath of data like and then even once radford to discover that right like it took a while before people decided to scale up because we had to come with the idea of scaling walls and the fact that like you could very reliably predict these things.
+[15:47] Speaker2: Yeah, i would say that the last job for humans or the the role for humans that will last the longest is like defining the objective and like deciding what we actually want.
+[16:01] Speaker2: So like in that vein.
+[16:05] Speaker2: Something like deciding what how is it like the ai, the assistance should behave or what it means to be helpful or what's like the objective when we're doing are all from human feedback is one such thing.
+[16:17] Speaker2: And then like then later like defining like constitutions and model specs is another one.
+[16:24] Speaker2: And i think even if the ais can do all the technical work, we'll have to still do a lot of that and decide what we actually want.
+[16:31] Speaker0: Yeah, alignment is the final job.
+[16:33] Speaker2: Yeah, alignment is sort of the answer, but it's also.
+[16:36] Speaker2: Alignment itself can be kind of decomposed into into like specification of the objective or figuring out what the right objective should be.
+[16:45] Speaker2: And then like actually like achieving or optimizing the objective you've defined.
+[16:51] Speaker2: And i think the first one is not going to go any way anytime soon.
+[16:56] Speaker2: And like, if i think about like a post-training team and.
+[17:00] Speaker2: Uh, why you need a lot of people to be on the team?
+[17:04] Speaker2: It's it's just because there are a lot of different like areas where you have to figure out like how the model should behave and like there's no way of like there's no way of what it would be very hard to automate the whole thing just because someone has to think about how how should the model behave in this area.
+[17:24] Speaker0: Jane street started using antithesis to test their software in early 2025, and they were so impressed by the product that they decided to invest in the company.
+[17:32] Speaker0: I recently caught up with ron minsky, who co-leads jane street's tech group, to ask about how antithesis actually plugs in.
+[17:38] Speaker3: The thing that i think is most impressive about antithesis is we started using it in a team that was building high assurance software and being really careful, and nonetheless, it was able to shake out bugs that were otherwise gonna be really hard to find.
+[17:52] Speaker3: And that's important both because it helps make those systems more reliable, but also because it helps the teams that build it to just move faster.
+[17:59] Speaker0: This matters more and more as code production is increasingly automated.
+[18:02] Speaker3: I think in general, as we've been using agents more and more, the key problem that you run into is the verification bottleneck, just the the time it takes from people to look at code and figure out, is that actually something you want to accept in your production software?
+[18:16] Speaker3: And tools that make testing better are just incredibly helpful there.
+[18:19] Speaker3: They just ease the verification bottleneck and make it possible for you to get more stuff done and move faster, because you can have more confidence.
+[18:26] Speaker3: That the code generated by the agent is actually not introducing new problems.
+[18:30] Speaker0: To see how antithesis fits into your development process, go to antithesis dot com slash thorcash.
+[18:40] Speaker0: What is the story for why there isn't huge consolidation and model providers?
+[18:44] Speaker0: There's just so many things that point to centralization here.
+[18:47] Speaker0: Is there is it?
+[18:49] Speaker0: Yeah, if you step back over the course of years, is there something that is going to prevent that?
+[18:54] Speaker2: Yeah, i think distillation is the main thing that fights against the centralizing force because basically anything that can be learned through rl can be distilled very easily.
+[19:04] Speaker2: Because like it's a small number of bits, it's something that you can learn from a small amount of data.
+[19:11] Speaker2: So if you can collect, if you can get trajectories from the model that show a behavior, you can easily distill it.
+[19:19] Speaker2: So i think i think distillation is one of the things that fight central centralization.
+[19:26] Speaker2: There's also.
+[19:29] Speaker2: I mean, there is a possibility that there'll be company-specific models that it'll, it'll be possible to learn from deployment and have a company continually improving its own model.
+[19:41] Speaker2: And such a system could be provided by the current oligopoly of model providers or some other currently smaller company.
+[19:51] Speaker2: But i think that'll, that'll change the game a bit.
+[19:53] Speaker1: Yeah.
+[19:54] Speaker1: And i also want to point out that like continual learning and obviously doesn't stop distillation, right?
+[19:57] Speaker1: Like even if your model is improving every day, like people could be distilling it every day.
+[20:01] Speaker1: So it's like the loops could just operate at the same pace, right?
+[20:04] Speaker1: That makes sense.
+[20:05] Speaker0: Okay, so copying model behavior.
+[20:09] Speaker0: Um, you i guess you need to know yourself what the right distribution to prompt is in order to get like the relevant model behavior.
+[20:16] Speaker2: Oh yeah, for just distilling with supervised learning.
+[20:21] Speaker2: The prompt distribution is extremely important.
+[20:23] Speaker2: So it's very non-trivial to distill a model, even if you have full access to it and have the cot, the chain of thought and everything.
+[20:32] Speaker2: Yeah, it's it's not trivial to distill all of the.
+[20:35] Speaker2: All of the useful capabilities from it because you need to prompt the model with something and you need to prompt it with like realistic prompts.
+[20:45] Speaker2: You need to have a really wide distribution of realistic prompts.
+[20:49] Speaker2: So yeah, one thing that's been coming out recently is some of the some of the chinese companies are probably using these router services which are designed to allow people in china to use the us frontier models which would otherwise be blocked in china.
+[21:05] Speaker2: But there are all these.
+[21:06] Speaker2: A router or proxy services that allow people in china to use these models mostly for coding and and these router services are collecting and selling some of the data.
+[21:16] Speaker2: So i think this is like a very useful data set for distillation because it gives you the perfect prompt distribution.
+[21:25] Speaker1: I think this is one of those things where ai is help a lot here.
+[21:27] Speaker1: Like if you're actually look at like you know the front end pipelines are say like the chinese models that they actually put in their papers.
+[21:33] Speaker1: It's a lot of like humans or like they get seed prompts from somewhere, which is some combination of humans this kind of data, and then they like synthesize a vast coverage from those seed prompts using their existing models or like the other frontier models.
+[21:44] Speaker1: And so it's like you can automate like an awful lot of this like prompt distribution gathering and like environment creation.
+[21:49] Speaker1: It is like humans need to provide like increasingly few amounts of bits, it's like the models get better.
+[21:52] Speaker0: Right, or somebody, it seems it still seems your bottleneck by.
+[21:56] Speaker0: Um, like having a service which has users or users are going through.
+[22:00] Speaker1: So they don't necessarily, i mean, like, yeah, that's always very helpful.
+[22:03] Speaker1: But like, theoretically, you can just think about like what users want.
+[22:06] Speaker0: or like nobody's like the whole point is that we don't the user says make me an application like this.
+[22:11] Speaker0: Oh, that didn't work.
+[22:12] Speaker0: I actually want you to make this new feature but actually let's step back and do this other thing in capturing that whole trace is the.
+[22:19] Speaker0: Or to the extent you could have done that anyways, then you just have like rsi.
+[22:23] Speaker0: And you.
+[22:23] Speaker1: yeah, i mean, like ultimately, like if you have this, like fully automated loop, that is basically our side, right?
+[22:28] Speaker1: Like the ai society, the data society, the training that that is the loop.
+[22:31] Speaker1: But yeah, i mean, like it depends how much human information you need.
+[22:34] Speaker1: Like at some point, if you're just like, i want traces that look like this, you prompt that to the model, the model will be able to like come up with like a pretty good approximation.
+[22:40] Speaker0: But what if you want to do like make me a really good politician and it does like anticipate de novo like how would a discussion like the senate halls go or something?
+[22:49] Speaker0: Yeah, i mean like this is a lot of things which i want to see.
+[22:51] Speaker1: This is actually i think easier for the distillers than the frontiers labs, right?
+[22:54] Speaker1: Because the distill is just like i want to forget politician.
+[22:56] Speaker1: They go to the like frontier model, the front end model already knows how to be a politician.
+[22:59] Speaker1: So we just like generates this traces.
+[23:01] Speaker1: Whereas like if you actually want to build the first model that does this, you have to like actually somehow like get data on like what politicians do every day and like build that.
+[23:08] Speaker1: So it's actually much easier to like say like i want something like this and then like get like the idea to produce like a billion variations than to like actually create the thing like this to begin with.
+[23:15] Speaker3: I think you can actually make a really concrete prediction based off like this observation that the chinese labs have this router data.
+[23:22] Speaker3: So like i think the thing that just did this originally was i was saying.
+[23:25] Speaker3: Isn't it weird how sonnet 5 and opus 5 are like like almost objectively worse models than like glm 5.3 kimi k3 even though they've had access to like not only distillation but logic distillation from like mythos.
+[23:38] Speaker3: And so the counter here was that like okay the prompt distribution really, really matters like you need to see what users are doing so that you can distill like kind of these behaviors and things in.
+[23:47] Speaker3: I think the prediction from this is that.
+[23:49] Speaker3: The frontier labs don't necessarily have much of advantage if at all in our environments now because yes, like user distribution matters for like general like behavior and and so on.
+[24:00] Speaker3: But like the best measure of a capability is the very, very hard, our environments you've made at the frontier.
+[24:05] Speaker3: And so if you have access to those areal environments as anthropic and you have access to logic distillation and you've still made a worse model, then maybe like the real world.
+[24:13] Speaker0: deployed matters more than the environment.
+[24:15] Speaker0: Yeah, that's really interesting.
+[24:16] Speaker0: But they had to incentivize those capabilities in the first place in in fable or the frontier model.
+[24:24] Speaker0: And since we heard that they can't incentivize them again, all like with like a smaller.
+[24:29] Speaker3: model or maybe like maybe we're just in this weird like uncanny valley where you know like actually trying to copy that front to mobile too much like the student teacher gap or whatever it is.
+[24:39] Speaker3: It's just like too large and like i think maybe people made this point with opus is it's like.
+[24:43] Speaker3: The difference between opus forming six and opus 5 is that opus 5 really feels like it's got this like ai as a judge checking every possible thing.
+[24:50] Speaker3: It's done.
+[24:50] Speaker3: It's like that's why it uses so many tokens that like tries to think about all these things but it doesn't necessarily have the big model smell of fable to know when to like stop doing that or like when's a good path to go down.
+[25:00] Speaker0: or the research is the grass.
+[25:01] Speaker0: Yeah.
+[25:02] Speaker2: Yeah, it offer a slightly different hypothesis.
+[25:06] Speaker2: So i would say there are a couple of different axes for the environments you can create and like one of them is difficulty and the other is realism.
+[25:15] Speaker2: It's sort of easy to create or it's comparatively easy to create a lot of difficult environments like.
+[25:23] Speaker2: That are just like involved like doing a much more complicated task or doing something that requires a lot more cleverness.
+[25:31] Speaker2: And you could, you could say this is like the benchmarking distribution because a lot of the most prominent benchmarks just involved doing some very hard puzzle like tasks that's easy to verify.
+[25:42] Speaker2: And then there's sort of like the realism axis where you want the model to be good in the realistic coding agent setting where there's like multiple back and forth through the human and there's like multiple objectives.
+[25:52] Speaker2: And like, i'd say, like the people like the labs who are crafting the model behavior for the first time need to push in both directions and to get good mild behavior.
+[26:04] Speaker2: You need to really push on the realism axis and have like rubrics or some kind of human feedback.
+[26:10] Speaker2: That's informing the reward function you use there.
+[26:14] Speaker2: Um, but i think when if you try to do distillation naively, you end up just sort of matching the teacher on the bench, maxing distribution and but if you don't have enough of the environments that really exercise the capabilities in these like trickier realistic settings, then you're not going to, you're not going to get those into your student model.
+[26:36] Speaker2: And i think maybe one thing that's happening is the big models.
+[26:39] Speaker2: A generalized better from the like the tricky narrow tasks to these sort of more realistic tasks.
+[26:48] Speaker2: So if you have a really good like realistic prompt distribution for distillation, you can match the big model really well.
+[26:56] Speaker2: But if you only have this like this distribution of easily verifiable tasks and you can match the big model on all the benchmarks, Um, but you do worse on this broader distribution.
+[27:09] Speaker2: So you might that might even explain something about the smaller anthropic models like sonic 5 though.
+[27:17] Speaker2: It's hard to predict exactly what what they're doing to post-train those models.
+[27:22] Speaker2: It could also be that they're always changing their post-training stack and they just made they just got a few things wrong in some of these models.
+[27:30] Speaker2: So they like.
+[27:32] Speaker2: I don't know, they they turned up like some something too high and created some quirks that people really don't like.
+[27:39] Speaker2: So it's like really easy to screw up post-training in some way that doesn't show up in benchmarks.
+[27:44] Speaker1: I mean, just one of the sort of very basic point is just like the like the frontier labs by all the data from the data companies and like the chinese can also just buy the same data from data companies and they are like they are exactly.
+[27:55] Speaker1: There's a lot of people like, you know, being annoyed about this but like.
+[27:58] Speaker1: If they have exactly the same data and like they can buy that, they can also distill.
+[28:02] Speaker1: It's like it's it means it's quite easy to like keep up really.
+[28:05] Speaker0: Yeah, yeah, yeah.
+[28:06] Speaker0: Okay, the other question i had is.
+[28:09] Speaker0: How the first models that are capable of automating ai r&d will actually be trained because there's a toy version which is this thing that ryan was talking about, which is you just have gpt8 try to build gpt3 size models that are really good at like inner loop type challenges of beating video games that require continual learning or just getting to a certain loss with like the least amount of compute etc.
+[28:35] Speaker0: But john, i think you had an interesting point that maybe that's not the way it actually will happen in practice.
+[28:39] Speaker0: So i'd be curious about yeah by the point in which you have you guys that are actually capable of bottoming out r&d, how are they probably trained?
+[28:45] Speaker2: Yeah, i think we'll probably do some combination of learning from human feedback to absorb like the researchers taste and just like creating a lot of practice environments, which involve like doing multi-step research projects.
+[28:59] Speaker2: So i think yeah, people will in practice do some combination of those two things and just each iteration like patch, whatever seems to be most broken.
+[29:12] Speaker2: In the last iteration.
+[29:13] Speaker2: So like researchers will be using the ais a lot and and we'll notice that they have some consistent weaknesses and then those things will either be patched by like collecting human feedback or like creating environments.
+[29:28] Speaker3: Yeah, maybe maybe useful.
+[29:30] Speaker3: I think about this is like how much of the lineage we roll back and then let's self play from there.
+[29:35] Speaker3: Like i think in the limit like you're picturing like you know just giving them.
+[29:39] Speaker3: Like a gpu and maybe neural nets or something and saying like, okay, figure out how to train a model to like do these particular tasks.
+[29:47] Speaker3: Like the way it currently works is like we go up to the very like edge of the of the lineage and say, okay, like here are the bugs like, you know, anthropic is found in their training stack in the last few months will turn those into environments.
+[29:56] Speaker3: Like you need to train and get better on the frontier.
+[29:59] Speaker3: And so you obviously lock in all the previous history of the lineage, but you could imagine a world in which you roll back to like.
+[30:04] Speaker3: You know, before grpo or something and then you have environments which like trying to get it to discover like the best will form to like rl models on and then maybe roll further and further back.
+[30:14] Speaker3: But i think we will be still so computer model that like people just keep like staying at the frontier and like diffing essentially the bugs and whatever improvements they found since the last model version turning those into training environments.
+[30:24] Speaker0: which is also really good for having non-stale like new data between your model generations is just.
+[30:30] Speaker0: Again, this is basically a continual learning within the ai lab of distilling the last three months of ai research progress through environments and like rlhf type stuff back into the model itself.
+[30:41] Speaker3: And it is distilling, right?
+[30:42] Speaker3: And that's maybe why some of us feel like it's asymptotic is like you're always like just trying to get the last three months of progress and that progress is being contributed to by as of course, but it also still has humans in the loop and it feels like, you know, He was constantly inching closer and closer to what the human researchers are like finding capable of doing.
+[31:00] Speaker1: Yeah, i mean the one thing i'll say though is like, obviously, if you're just distilling on like trajectories, you can never go above it, but environments can go quite a far away above what a human can do.
+[31:07] Speaker1: Like, it's very easy to design environment that like no human can solve, but the ai can always still try and solve it.
+[31:12] Speaker1: And so that would be the path to like go ahead of just like what the human ai research.
+[31:15] Speaker3: Do you have like an example of like, in terms of rsi or like like.
+[31:19] Speaker0: you know, what kind of training, but doing it even faster than a human speed runner?
+[31:22] Speaker1: Yeah, i mean, i feel like an area research, especially is very easy to define like goals, which like, you know, you could say like the last needs to be like 1.3 or something and like no human can get that, you know, now, but like that's a very extremely measurable verifiable task in the air.
+[31:35] Speaker1: If the air gets there.
+[31:36] Speaker0: then then great, right?
+[31:37] Speaker0: I don't know, building like 100 million parameter model that beast minecraft.
+[31:41] Speaker0: That's maybe too easy, but like, be like a much more complicated game or something.
+[31:45] Speaker3: Isn't it crazy that 100 million parameter models to be minecraft?
+[31:48] Speaker3: We calling that too easy like i mentioned that like five years ago.
+[31:52] Speaker2: I would say a lot of research is not exactly like that though where it's like hill climbing on a well-defined goal.
+[31:58] Speaker2: It's sort of more like here's an intuition.
+[32:00] Speaker2: We have about some way models should be better and then we also have some idea for an algorithm that seems to go a little bit in this direction.
+[32:10] Speaker2: So, Let's come up with a task that is sort of designed to show signs of life on this approach and like see if we get some get those signs of life and then if we do we can make successively more realistic versions of the task.
+[32:25] Speaker0: right?
+[32:26] Speaker0: It's like a lot more guided by intuition and then the the out the inner loop is to elicit the or make tests for that intuition rather than like.
+[32:37] Speaker0: The the test itself leading to the insight.
+[32:40] Speaker2: right?
+[32:40] Speaker2: Like you're not directly optimizing for the eventual objective you care about or the practical like production objective.
+[32:48] Speaker2: It's it's sort of your you're relaxing your objective a little bit.
+[32:53] Speaker2: You're saying, yeah, let's relax on the realism axis a little bit and find some methods that actually work and then like then try to get back to realism later after the method matures a little bit.
+[33:04] Speaker2: And then there's also like more.
+[33:06] Speaker2: Uh, there's research that's more oriented towards explaining things and like developing a theory or a sort of.
+[33:15] Speaker2: Yeah, often we don't have like mathematical theories in machine learning that are that predictive, but we have like a lot of like more informal theories for what's going on.
+[33:26] Speaker1: Yeah, i mean, like, presumably the models will be trained on like some combination of all of these tasks and like some will be very easily verifiable.
+[33:32] Speaker1: Some will be like, lm is just like just ask the human like, does this look reasonable?
+[33:36] Speaker1: And then you will set the hope would be that like these would all generalize to like these much sort of hard sort of more vague fuzzy kind of tasks and like a poly world to some extent whether it's generalized enough that like we could the loop can become like self-healing without humans being in the loop at all.
+[33:49] Speaker1: It's like unclear.
+[33:50] Speaker1: Yeah.
+[33:51] Speaker0: maybe taking a step back.
+[33:53] Speaker0: Here's what i here's what it seems to me that the plan for ai research going forward is and you tell me if you think it's going to work or if you agree with this characterization, So the bed is that we will scale up our lvr training across millions of diverse environments across hundreds of different kinds of domains.
+[34:13] Speaker0: And what will emerge at the other end is an agent which has like learned these basic skills or less than basic skills around being persistent, being able to triage information and context eventually having like end-to-end optimization of working with other agents and things like that.
+[34:30] Speaker0: And such an agent will be very sample efficient within the context.
+[34:35] Speaker0: You know, you've done research on how you actually scale up in context learning to make it like arbitrarily long, but you keep scaling it up.
+[34:40] Speaker0: And so, what comes out the other end, will something will be something that it basically functions like a hu- drop in remote worker over the course of a week or a month.
+[34:48] Speaker0: First of all, do you agree that that is the bet the labs are making, and second, is it, is that enough?
+[34:53] Speaker0: Like basically learning how to learn within the simulacra within a data center.
+[34:58] Speaker0: And then been getting deployed into the real world, but not actually like learning from real world deployment, only learning these meta skills from the simulated environments in the data center.
+[35:07] Speaker3: Yeah, i i think it's now hard to separate out like how much of the lab's effort is going towards like direct rsi versus like making generally intelligent models that they can continue to deploy to collect revenue to fund the next big training run.
+[35:20] Speaker3: Yeah, i think for the latter, like yes, that's probably just the bet they're making.
+[35:25] Speaker3: Like, and it's very clear, like the pattern of like where these environments are going over the last few years.
+[35:30] Speaker3: I mean, like anthropics lineage of environments is like a very clear example of this.
+[35:34] Speaker3: Like, you know, first, like we just focus on coding and like we're going to get really, really good at that.
+[35:38] Speaker3: And then the task horizon that we've got from coding, which is probably the lowest hanging fruit in terms of like data available on the internet to create environments, like their own internal stuff that they can turn into environments.
+[35:49] Speaker3: Then we're going to generalize, we're going to go after finance next and like literally like just so much excel data and all that sort of stuff in the in the training.
+[35:56] Speaker3: And then, you know, it's powerpoints.
+[35:57] Speaker3: It's like this long tail of like the working economy and like that seemed to work really well and like a lot of the other labs and even the open source labs have now realized that that was the correct.
+[36:06] Speaker0: But what is the implication from that?
+[36:08] Speaker0: When i had dario on the podcast, the thing i asked him was if you truly expect models, which will be human like in their ability to learn on the job, why would you try to bake in all these skills of like working with powerpoint or something?
+[36:20] Speaker0: What did you just expect the model to be able to pick that up on?
+[36:23] Speaker0: While it's deployed.
+[36:24] Speaker0: And so yeah, there's multiple different explanations.
+[36:26] Speaker0: One is just that this is we expect models to get there soon, but they're not there yet.
+[36:30] Speaker0: So why not amortize these skills into the model training?
+[36:35] Speaker0: Another is that we're not concentrated on making it really good at widely deployed work.
+[36:40] Speaker0: We just wanted really good at rsi and this is just like a way up for us to like get revenue so that we can pour it back into a model that is actually like really good at doing.
+[36:49] Speaker0: Um, our side development and then like what's the singularly happens?
+[36:52] Speaker0: The thing that comes out the other end will be really good at all the things which seem like bottlenecks to the current generation of models.
+[36:58] Speaker0: Yeah, john, i don't know if you have takes on like what how much i construe why there is so much task specific knowledge in these models that if the path is like this kind of generalization.
+[37:08] Speaker2: Yeah, i mean, if the models were good enough at learning in context, then in theory, you wouldn't be, you wouldn't need to train them on finance.
+[37:15] Speaker2: They would just be able to figure out.
+[37:17] Speaker2: I read all the, all the books on the fly and figure out how to, how to do everything in the appropriate jurisdiction.
+[37:26] Speaker2: Yeah, and you could argue that you need to do a lot of this domain-specific training just to make the to make them more efficient.
+[37:34] Speaker2: So even if they were smart enough to figure this out on the fly, you still might want to do a bunch of rl and bake the.
+[37:42] Speaker2: They call these intuitions into the weights, so the model would be more efficient at runtime.
+[37:47] Speaker2: Yeah, yeah, i'd say in practice, it does seem like model providers are going domain by domain and trying to strengthen the models in the highest value domain.
+[37:56] Speaker2: And i'd say that that's one of the answers to why the models have gotten so much better.
+[38:01] Speaker2: It's just because the model providers have covered a lot of the high value domains and.
+[38:07] Speaker2: The most common types of skills.
+[38:10] Speaker1: I mean, i think another thing is just like it's not that expensive to do both at the same time, right?
+[38:14] Speaker1: Because like the models are massive, they can easily afford in terms of that parameter to like learn everything.
+[38:18] Speaker1: Yeah, and like there is likely some transfer in sort of even just even if like finance is not specifically like the information is important for like rsi, just the general like meta learning of like how to figure what's important.
+[38:27] Speaker1: How to have taste, how to like do long horizon work, is potentially generalizable and like.
+[38:31] Speaker1: There's not that much rsi like data in the world as well.
+[38:34] Speaker1: Like it's kind of hard to generate and like that requires a lot of effort to like if you can sort of advertise in this other data, get some transfer format.
+[38:40] Speaker1: You already have masses of compute and massive parameters space to like, why not do that as well as like, obviously the direct like commercial intent of like selling a model.
+[38:47] Speaker2: That makes sense.
+[38:48] Speaker2: Oh yeah, i'll add that.
+[38:49] Speaker2: I mean, there's one question about whether this current paradigm of doing like sim to real will be the dominant one forever.
+[38:58] Speaker2: So basically you.
+[39:00] Speaker2: You look at what the real world tasks are like, and then you try to create a bunch of environments that can be simulated, like in the data center, and you can do rl on them, and i think obviously this has been very successful successful.
+[39:14] Speaker2: But it has a lot of weaknesses, because a lot of things are just kind of hard to simulate, especially if they involve like interact interacting with a bunch of humans in real time.
+[39:25] Speaker2: Yeah, so there's some question about like similar like whether sim to real will be the dominant framework forever.
+[39:31] Speaker1: I think some real has to be the donor framework.
+[39:32] Speaker1: Well, like sample efficiency is kind of low because like it right now you need like you know, thousands of thousands of interactions with the humans and no human is going to sit there and like deal with this basically be in the loop of rl training.
+[39:42] Speaker1: Yeah.
+[39:42] Speaker1: And so like we kind of have to simulate that now to like get the samples you need.
+[39:45] Speaker1: But like obviously if sample efficiency improves a lot, you'd expect learning from deployment like.
+[39:49] Speaker1: Become like a much bigger part of it.
+[39:51] Speaker2: Though there are also other things you could do, like you can learn off policy, so you can take all the traces and even without resimulating everything, you can potentially learn something from them.
+[40:01] Speaker0: Jane street just launched a new competition, and it's their most ambitious one yet.
+[40:06] Speaker0: Design a protocol emulator asic.
+[40:08] Speaker0: Basically, if you have a chip that you want to test, you can connect it to this asic, and then this asic will simulate realistic traffic.
+[40:14] Speaker0: That way, you can see how the chip responds without having to plug it into a live system.
+[40:18] Speaker0: Jane street is looking for flexible, general purpose designs.
+[40:22] Speaker0: Not single protocol emulators.
+[40:24] Speaker0: When I was chatting with them, they suggested that I start off by trying to implement what are apparently three very common protocols: UART, SPI, and I squared C.
+[40:32] Speaker0: James Reed also mentioned that they hoped that more ambitious designs will also tackle low-speed USB and Ethernet, and any other protocols that flex Yorkship's specific architecture.
+[40:43] Speaker0: Importantly, your design should be reprogrammable, rather than smashing a bunch of specific protocols onto a chip.
+[40:49] Speaker0: If a new protocol comes out after your ASIC is taped out, Your chip still needs to be able to handle it.
+[40:55] Speaker0: How exactly does it is up to you?
+[40:57] Speaker0: But there is one hard constraint, your design must target an open source 130 nanometer process node.
+[41:03] Speaker0: That's because gene street will pay to tape out the most novel submissions and send the physical copies to the winners.
+[41:09] Speaker0: The competition is open till january 18th 2027 and working in teams is highly encouraged.
+[41:15] Speaker0: Go to jane street.
+[41:17] Speaker0: com slash our cash to download the template code and get started.
+[41:22] Speaker0: I want to ask more about this because it's sort of weird that.
+[41:26] Speaker0: You have 50% of computer that spent on inference that is not directly helping the model become better.
+[41:32] Speaker0: Like one of the key advantages you'd expect eventually digital minds to have is unlike a human who gets to have 50 years of like real world experience.
+[41:40] Speaker0: A model will get to through all its instances.
+[41:43] Speaker0: We'll get to experience, i don't know, millions of years of.
+[41:47] Speaker0: Deployment across all kinds of economically relevant work in the economy.
+[41:51] Speaker0: And right now, that data is just not in a meaningful sense, helping the model get better.
+[41:55] Speaker0: Like it just seems so obvious that eventually model should be able to learn from this data.
+[42:00] Speaker0: And once they do, you would have something that almost feels like a widely deployed intelligence explosion because the model is assimilating so much information across all these deployed instances.
+[42:09] Speaker0: But when do you expect this kind of hive mind kind of crazy shit to be starting?
+[42:13] Speaker1: I think broadly like at a very basic level, this is already happening, right?
+[42:16] Speaker1: Like just in the next generation of models.
+[42:18] Speaker1: So like right now, you can always see take your deployment data.
+[42:20] Speaker1: And put this in the pre-train or the mid-train of like future models, especially if you do like some kind of filtering or some kind of like judgment or annotation or like recent, you know.
+[42:27] Speaker0: synthesis of that.
+[42:28] Speaker0: How much do you think that explains the generation over generation improvement?
+[42:31] Speaker1: I think it explains like quite a bit.
+[42:33] Speaker1: I mean, especially like, i mean, this is, you know, i don't know whether the labs do this because, you know, theoretically, they claim not to train on people's data, but like the chinese 100% do and like they definitely get this advantage both like obviously deploying.
+[42:43] Speaker1: This is basically what distillation is like they take out the models.
+[42:46] Speaker1: They get some of their like deployment data, they get some fraction of that by like pinging the model, and then they train their next generation models on it, and they can suddenly do it on their own models as well.
+[42:53] Speaker1: Like, there's no reason not to whatsoever.
+[42:55] Speaker3: I completely agree, so i think if you zoom out far enough, this is like definitely happening.
+[42:59] Speaker3: Like, you're all picturing this like, and we're all picturing this, is like what continual learning like the holy grail is, is like this very very organic, like live loop of like an individual model.
+[43:08] Speaker3: Like getting an experience and like live updating on the spot and learning from that.
+[43:11] Speaker3: And like a lot of things break when you like zoom into that level of granularity, but like, yeah, the big labs are doing this, like the closed, the closed models are doing this.
+[43:18] Speaker3: There's also early signs of life of like people using open source models doing this at a much faster cadence.
+[43:23] Speaker3: So like a good example is probably like composer, like you have some sort of model and you are able to or like you know harvey's doing the same thing with like legal legal agents.
+[43:34] Speaker3: Like it is getting very specific environments from the data that you have for that particular task and things that like you know users are complaining about.
+[43:42] Speaker3: And like all the feedback that you're somehow extracting from like your specific deployments and a lot of these companies have the advantage over the big labs and that they can use this data really, really well.
+[43:51] Speaker3: And then they will create environments.
+[43:52] Speaker3: They will like, you know, do a big post-train of kimi k3, they will go to play it.
+[43:56] Speaker3: They might do some online learning as well, like composer did online, basically like reinforce for a long time.
+[44:03] Speaker3: So yeah, like there's still a human in love.
+[44:04] Speaker3: There's still human saying, okay, this is the signals we care about.
+[44:07] Speaker3: Here's how we're going to create environments from the data that we have.
+[44:09] Speaker3: And it's like still a longer cadence than maybe the one that you're thinking of, but like it really is happening and like eventually that loop will become like faster and faster.
+[44:16] Speaker0: I mean, the composer thing is interesting because this is where the model like in cursor or people like press tab or they don't press tab on the next completion of the model suggests and based on that every single day composer gets better at like predicting the next.
+[44:29] Speaker3: So that was that was the old type model like they actually did the same thing for the actual not just like the tab model but the actual like generative.
+[44:35] Speaker3: Oh, that's interesting.
+[44:36] Speaker3: And they it was it's hard because when you do online reinforcement learning, You don't have groups, right?
+[44:41] Speaker3: You just have one user saying one thing and then you get one rollout.
+[44:43] Speaker3: And so like you have a big variance reduction problem and like cursors kind of fuzzy answer to this was like oh you know we have very good heuristics which are able to estimate like like what the what how much better than average like this response was or how much worse than average this response was and then they would do like this big you know like reinforce update and then their solution to like whether it got worse or not was like if it improved on cursor bench they would deploy the new model like every 5 hours and if it didn't they would like throw that version out interesting.
+[45:09] Speaker2: yeah i think your biggest problem is actually just not knowing what the reward function should be from natural data and。
+[45:14] Speaker2: If you use some kind of superficial signal, like did they accept the code, the edit, you might that might get reward hacked in some way.
+[45:24] Speaker0: But this seems like a bigger issue with the sim to real thing where the longer and longer horizon tasks get the harder they are to simulate within a data center, right?
+[45:34] Speaker0: It seems to me already potentially at least even in coding we're getting to a point where there's like not some year-long coding task that doesn't eventually require you to like.
+[45:45] Speaker0: Talk to a client or interact with the company or interact with users.
+[45:49] Speaker0: And if you think about the gamut of things, we would want ai to be capable at you want eventually a superintelligence to be able to like run a business or like start a new business and make it profitable or like have a profitable day trading in the markets or win a court case.
+[46:02] Speaker0: And these are all things which are very hard to simulate in a data center.
+[46:05] Speaker0: Like a inherent part of the learning.
+[46:07] Speaker0: There is interacting with the real world and so maybe maybe the idea they made a learn how to get better at these things from like the transfer between sim to real.
+[46:14] Speaker0: But alternatively, maybe you do need weight updates from these kinds of interactions in order to get better at them.
+[46:21] Speaker0: And then, if that is the case, if transfer isn't strong enough and you need to do need weight updates, then the fact that the models are quite sample inefficient.
+[46:28] Speaker0: Is like maybe a deeper problem.
+[46:29] Speaker0: And the reason i'm curious about this, i feel like by default, i don't see how you don't get some kind of crazy recursive stuff and prevent within the next 10 years.
+[46:39] Speaker0: But the one reason why that might not happen is in terms of like weight updates, the sample efficiency of weight updates, they just seem way far behind humans, right?
+[46:48] Speaker0: Like, plausibly million fold behind humans in terms of how much data a human sees from birth to adulthood versus how much a model sees from you know, like cold start to like finish finishing training.
+[46:58] Speaker0: And so, yeah, this is all to say, first of all, is there is there gonna be a good transfer between simulations and extremely long horizon, really complicated real shit that we want the ais to do in the real world.
+[47:07] Speaker0: And if not, does that really mean that like the the lack of sample efficiency in these models comes to bite us?
+[47:13] Speaker3: I think maybe the way i'd break down like the two types of tasks in which models get good and models will like still continue to struggle is whether the task is like cumulative or like you kind of have to, you have this like non-stationary distribution, you have to keep learning, and like relitigating a bunch of stuff.
+[47:28] Speaker3: So like maybe an example of a cumulative task might be rsi.
+[47:31] Speaker3: Like it's theoretically possible to maybe like have less than a million token like you know python file which like from scratch trains a model that is capable of recursive self-improvement and like every discovery that you make is kind of a line in the sand that you hold.
+[47:44] Speaker3: Like if it's true that you know for rsi we don't need to discover a new attention variant or whatever like once you've discovered attention and then once you've discovered you know mixture of experts and once you discover grpo that you just add that to the training stack and like that's that's there and like a good example of this is like you know 5.6 or.
+[47:59] Speaker3: Training 5.6 terro, whichever one opening, i told it to train like it didn't have to go back and discover attention.
+[48:05] Speaker3: Like it basically probably would have called a bunch of like scripts which is like pre-training dot sh and post training on sh and just did that.
+[48:11] Speaker3: So like that's an example of like a cumulative task.
+[48:14] Speaker3: I think the real world and the reason like people are thinking so much about like continual learning is it's it's not really a cumulative task.
+[48:19] Speaker3: Like imagine like in a law firm.
+[48:22] Speaker3: You have an agent acting as a legal associate, like that's a very non-stationary distribution.
+[48:27] Speaker3: You have to be able to fit in your context, like all the relationships between all the important people that company which are also changing all the time.
+[48:33] Speaker3: Yeah.
+[48:33] Speaker3: Um, you have like all these like implicit like ways about how things are done, where to find information, et cetera, and like that's not as as clean of an example of a cumulative house like rsi is.
+[48:43] Speaker3: So, i think that there will be this breakdown between tiles, but you know, like if the labs realize that, and they they do believe that rsi is cumulative in the sense that like we don't need to go back and discover some brand new like architecture or whatever.
+[48:53] Speaker3: Yeah.
+[48:53] Speaker3: Then maybe more and more effort and compute gets focused on that versus the.
+[48:56] Speaker0: It's so unfortunate that rsi happened to be easier than.
+[49:02] Speaker0: Um, yeah, i don't know if you guys have thoughts on this.
+[49:04] Speaker2: Yeah, i would say there's like models are today's models are weaker than humans in a lot of different ways and some of them might have to do with sample efficiency in a certain regime where i mean in some regimes models are very sample efficient like learning in context.
+[49:23] Speaker2: But then there might be some like medium length regime where they're less sample efficient because humans can.
+[49:29] Speaker2: Do some kind of weight update more efficiently than models.
+[49:34] Speaker2: So so i think like being less sample efficient in certain regimes might be one of the sources of weakness but then i think there are other sources of weaknesses that are completely different than that.
+[49:45] Speaker2: For example, having lower diversity of thought than humans or being bad at certain kinds of long horizon judgments.
+[49:55] Speaker2: I mean, i think a lot of.
+[49:56] Speaker2: What people call taste is is something about behavior that works in the long run and that people have realized works in the long run, not everything, but like some some aspect of taste like, especially for something like software engineering.
+[50:14] Speaker2: Like i think a lot of taste is like, what are the systems that are going to be maintainable and work well in the long run of this project.
+[50:23] Speaker2: So, Uh, yeah, i think the weakness is a few minutes, which limit rsi along with other things are.
+[50:33] Speaker2: Yeah, there's a variety of them and some of them are related to sample efficiency and some of them aren.
+[50:37] Speaker3: 't maybe interesting thought experiment is like if you were able to give a model like a context window of, i don't know, a trillion tokens or whatever you would have needed to fit in like your experience prior to like, let's say rlhf.
+[50:49] Speaker3: And like it's got all that experience in the context window and it has the same sample efficiency and in context learning ability as it does at a million tokens.
+[50:57] Speaker3: Like, do you think taste is then solved?
+[50:59] Speaker3: Like, would it be able to like make the same judgments that you did?
+[51:02] Speaker3: Or is it like something fundamentally missing apart from just a longer context window with the same sample efficiency?
+[51:07] Speaker2: Yeah, i mean it would have to be trained to learn from that context.
+[51:10] Speaker2: So i'm not sure.
+[51:14] Speaker2: Yeah, either it would have to be trained to learn the right update to make from that.
+[51:20] Speaker3: context or just like dump it all in like your whole like life like research experience.
+[51:25] Speaker1: I mean, like you still need the data to train it along context, right?
+[51:28] Speaker1: Like even if you could theoretically get like a trillion context, you would need a trillion lengths of data to train it.
+[51:32] Speaker1: Like right now you have like I'm just asking if you had that.
+[51:37] Speaker1: I think yes.
+[51:38] Speaker1: I mean this really just comes down to the question of like how meta-learnable is taste from like shorter horizon episodes.
+[51:44] Speaker1: And like i feel like there's no obvious reason.
+[51:46] Speaker1: It's super long because like humans somehow developed taste with not having many long episodes.
+[51:49] Speaker1: Like we don't live to be like 10,000.
+[51:51] Speaker1: We have like, you know, we developed pretty quickly, right?
+[51:54] Speaker1: And so like, you know, if you think about like even like in a phd, the difference between like a first year, phd student and like a final like postdoc or something that's like five years maybe and they've only done like maybe like 10 50, research projects in total, but somehow they developed taste quite quickly from like a relatively short succession of like small things.
+[52:10] Speaker1: And so like theoretically it's, you know, possible to develop it like that.
+[52:13] Speaker1: The ai obviously will have vastly more experience in which to develop taste like meta learning.
+[52:17] Speaker1: And there's like how well does that generalize to like really long horizon things?
+[52:21] Speaker1: As i think the question, which i think is really unsolved at this point.
+[52:23] Speaker1: Like we don't know.
+[52:25] Speaker0: going back to this question.
+[52:27] Speaker0: Eventually, there should be a regime where ais are learning a ton from each individual instance of deployment that they have.
+[52:33] Speaker0: We're currently, you could say there's a meta fuzzy process by which models.
+[52:38] Speaker0: Doing for deployment, but i feel like it's a very weak, very weak feedback loop.
+[52:43] Speaker0: Do you see this around the horizon where there's just like hive mind kind of learning?
+[52:46] Speaker0: That's very rapid and and if so, how exactly does it happen?
+[52:52] Speaker2: Actually, i would say that around will we get a hive mind that learns from all of its deployment experience.
+[52:59] Speaker2: I mean, a big part of that is actually about incentives rather than being a technical question.
+[53:05] Speaker2: So like companies aren't going to want to have the model provider learn from all of their deployment because that might just reduce the advantage of their business.
+[53:16] Speaker3: I think that maybe the economics of this will pressure not necessarily weight updates to one big like common shared model, but like kind of like modules that get subdained.
+[53:26] Speaker3: So, a very obvious example, this is a laura, but it might be something else like you know, there's been a lot of work to try and fit like an arbitrary context length into a fixed size.
+[53:34] Speaker3: Like this is all the linear attention stuff, and and all that sort of stuff, and like cartridges, which are essentially kv caches trained to be very very compressed kv caches to fit in a lot of information.
+[53:43] Speaker3: That's another example of like, you know, something that like companies may be willing to sign up for if that's get subbed into the model and it's not like actually changing the base on the line model itself.
+[53:51] Speaker3: So like there's many different versions of like learning from from your data in real time and like the latter ones are not really helping the big labs because they are just these modules.
+[54:00] Speaker3: But i think the like the like the economic pressure will force like the labs to go down that path first before they can embark on this like, you know.
+[54:09] Speaker1: Which economic pressure there because i feel like even if you have like a bunch of cartridges or laws or whatnot, you can still just like take all these traces and just like distill this dub this to the pre-training of like your next generation of.
+[54:18] Speaker3: Yes.
+[54:19] Speaker3: So it may be a more indirect form of learning that the big labs are getting and that's obviously still really valuable to them.
+[54:24] Speaker3: But i can't imagine a world in which we start off with like, you know, we're going to just like directly train this one big model on like all the exact data.
+[54:31] Speaker1: No, i think it will definitely like go through stages because because i mean, this is assuming this like one discontinuous event where it's like suddenly we fix like weight updates continuously and like in practice, i think it's been more likely to be like.
+[54:40] Speaker1: The cartridges and stuff allow you specialize in deployment, then you generate traces, you put that in your model, like three months later, you come out with a model which is better at this stuff, you specialize it again, and you like consolidate it again.
+[54:50] Speaker1: And then eventually, we will just like make the sleep faster and faster, so instead of like every three months we release a model, now it's like every week, and then every like day, and then every hour.
+[54:56] Speaker1: And in which point we basically have obviously solved it.
+[54:58] Speaker3: Yeah, and i i think this is a good point as well, because you asked like kind of how far off the current paradigm we are from being able to do this.
+[55:05] Speaker3: I think we've done a bit of research to this and people have done a lot of research like at a really large scale like when you wash out enough noise and you have a lot enough patches like this outer loop process of like putting data into mid-train and creating our own environments.
+[55:17] Speaker3: Like it does work in like some sort of continual learning regime.
+[55:20] Speaker3: But the problem is like when you zoom in close enough at like a micro level, it's like i've got one model and i'm trying to update it again for like a law firm or something and i'm trying to do that very continuously like with a relatively small amount of data.
+[55:31] Speaker3: Um, like all the methods kind of break down a bit.
+[55:34] Speaker3: So like if i sft the model, i'm just like, you know, successful traces off policy on policy, like eventually in the very iterative regime, like when you're doing like, you know, hundreds of these micro updates, you see both catastrophic forgetting, you see forgetting of like previous information.
+[55:50] Speaker3: I've learned on top of the base model that was much earlier on and i see degradation of general like use general capabilities.
+[55:57] Speaker3: Um, you know, just on policy, just relation seems to like push this horizon out a little bit, but it's still eventually succumbs to the same thing.
+[56:04] Speaker3: And rl is not very good at like it is good at like getting capabilities in but it's not as good as getting like knowledge in and like just this very explicit knowledge of like okay like this person does this at this law firm and like this is a very specific process we find and you have to pour in a lot of computer to create the right environments to get the knowledge of.
+[56:20] Speaker0: Do you think that the fundamental issue here?
+[56:23] Speaker0: Why you get worse at these other skills or there's forgetting and stuff?
+[56:26] Speaker0: Do you think it's a fundamentally initiative capacity or is an issue of.
+[56:29] Speaker3: techniques a little bit of both?
+[56:31] Speaker3: I think like sft and even like distilled like on policy distillation can be like way too destructive.
+[56:38] Speaker3: Like are the reason rl is so nice is because like yeah it changes a very very small amount of about the model and there's like a lot of evidence for why this is the case.
+[56:46] Speaker3: And so like it kind of just like tweaks it in this very very small like loss value to like get into the right point.
+[56:52] Speaker3: Um, but that also then limits what you can do with rl, like how much you can actually change the.
+[56:56] Speaker0: world versus are you saying like the reason this is the winner take all potentially is that is just like very hard to distill that much information into the base.
+[57:03] Speaker3: model without ruining something in a network.
+[57:05] Speaker1: Yeah, i can see you to distill it into like a different base model.
+[57:08] Speaker1: Like this is why i think it's mostly technique is not like it's definitely not like just like there isn't capacity.
+[57:13] Speaker1: Like if you had some modeling with all this data and you take like really the same size model and pre-trainer from scratch with like all of this stuff in mid-training.
+[57:19] Speaker1: It will be better and i think that's a lot of what's happening today.
+[57:22] Speaker1: And so it's very much like this, you know, a bottleneck that stops us from just keeping training the same model forever versus just like getting all the data from the old model and like training a new model from scratch.
+[57:29] Speaker1: And this is exactly trying to say like some combination like plasticity and like catastrophe forgetting in it like the it you know if you just naively train on like non-stationary data because you're adding new data as you go basically this is messing with the data distribution.
+[57:41] Speaker1: So like the old stuff is just forgotten.
+[57:43] Speaker1: And we don't really have good methods to like stop that from happening.
+[57:45] Speaker0: And maybe in the limit, you're like just bottleneck by retraining the model from scratch with all this new information.
+[57:50] Speaker1: Yes, which of course is like very expensive.
+[57:52] Speaker1: Like training model from scratch is expensive.
+[57:54] Speaker0: but you're going to do that anyways.
+[57:55] Speaker1: I mean, not necessarily.
+[57:56] Speaker1: I mean, like maybe eventually, if you have continual learning, you never train any model, you just like just have a model and it keeps learning and like expanding.
+[58:02] Speaker0: right?
+[58:02] Speaker0: But there's there might be like some deep technical reason why that's very difficult because of these like, i mean.
+[58:06] Speaker3: that's like question.
+[58:07] Speaker3: That's the question.
+[58:08] Speaker3: I think we have pushed back like how much from scratch we need to do.
+[58:11] Speaker3: Like it is definitely possible now to take like the pre-trained base.
+[58:14] Speaker3: And like do very good bit training on top of that, like kind of continuously plus some rl from like different checkpoints that are later on in the training and like that's looking more like a digital line about certainly not the case of like, you know, take the most recent model apply a couple of very small updates and like iteratively like never lose.
+[58:29] Speaker0: Everybody's in this like i'm a bit confused because this in this literally what happens during training where during post training or something you just have like you have a model that's already gone through so much training and then you like distill some fork that's been further rl or something.
+[58:42] Speaker0: Isn't that literally what happens?
+[58:44] Speaker3: And like it's still at a large enough scale.
+[58:46] Speaker3: I think that you're washing out a lot of like the noise and like you're not just focused on one distribution which is baren said is like you know that is now a very if you're just like focusing on one task, right?
+[58:54] Speaker0: Like that's sure.
+[58:56] Speaker0: I mean in the eventual regime you'd be doing, i don't know.
+[58:59] Speaker0: There's billions of deployed instances.
+[59:01] Speaker0: You're like doing.
+[59:03] Speaker0: You're learning from all of them at once, and so hopefully there's some washing out of noise and stuff from that, right?
+[59:09] Speaker0: Maybe that scale, yeah.
+[59:10] Speaker1: Yeah, i mean i i think like definitely is as i was saying like you can do continual mid training for like a long time, and you can like roll back to a checkpoint, give a new mid training data.
+[59:17] Speaker1: Yeah, but at the same time like you can't do this like indefinitely, like if you just keep continuing training the same base forever.
+[59:22] Speaker1: It just like get, it does, it sort of asymptote at some point, like you can't just learn new stuff in that base.
+[59:27] Speaker1: And this is why people end up training new bases, like otherwise you would just keep me training the same base forever.
+[59:32] Speaker0: Whenever i finish recording an interview, i immediately brain dump all my thoughts into slack.
+[59:36] Speaker0: Things like, what was the most interesting, and what should get cut.
+[59:39] Speaker0: This ensures that my editors have all the context they need to start editing the episode.
+[59:43] Speaker0: But it's not like these brain dumps have any clear time stamps, and my unedited recordings are many hours long.
+[59:48] Speaker0: It can take a ton of editor time to even find the exact moments that i was referencing.
+[59:53] Speaker0: So we decided to try adding a grokbot producer to our chat.
+[59:58] Speaker0: Now, whenever one of my editors post a rough cut of the episode, grokbot opens a transcript on its own computer and starts working.
+[60:04] Speaker0: Usually before i even seen the message, it takes the notes that i dropped in a slack and it highlights the relevant snippets in the transcript.
+[60:10] Speaker0: It also uses a big case file that i've compiled with all my preferences, so it can suggest potential edits.
+[60:15] Speaker0: And when it's done, it sends me its top clip candidates, so that i can review everything from my phone.
+[60:20] Speaker0: This is work really well, being able to send informal messages, like i'm texting my editor, and then having the transcript.
+[60:26] Speaker0: Immediately reflect my preferences has just been so helpful.
+[60:29] Speaker0: Try grok about yourself at x.
+[60:31] Speaker0: ai slash bot.
+[60:33] Speaker0: Okay, let's talk a bit about data now.
+[60:36] Speaker0: So i'm generally interested in this question of how much of ai progress is just explained by data progress.
+[60:42] Speaker0: It doesn't mean it will be necessarily hard to automate but this is ever question.
+[60:45] Speaker0: So is there some data distribution which if you're trained.
+[60:50] Speaker0: Current architectures on would result in a super intelligence that totally dominates human experts across every single field.
+[60:58] Speaker3: Are we talking about like pre-training plus post-training data, like environments as well?
+[61:03] Speaker3: Like i think the existence of this is obvious.
+[61:05] Speaker3: It's just like whether we can create the right environment.
+[61:08] Speaker1: Yeah.
+[61:08] Speaker1: And in the trivial case, we could just train it to output the python file which like trains the actual super intelligence like just have them rise in the way it'.
+[61:14] Speaker3: s like yes, there's probably like a ladder of rl environments that is possible to construct such that you would get a researcher which is at least as good as a human researcher.
+[61:26] Speaker3: But the effort to climb each successive wrong.
+[61:29] Speaker3: Grows like kind of exponentially and that's going to be the two things that you have to trade off against us to whether like like how fast we're going to hit like that final wrong where it's where it's better.
+[61:40] Speaker3: I think that's fairly clear and i think there's like, you know, we're still relatively early in like our environment creation.
+[61:45] Speaker3: Like there's a lot of asymmetries that we exploit in order to create good environment.
+[61:49] Speaker3: So one of the asymmetries which we've talked about before is like it's.
+[61:54] Speaker3: There's environments where it's easier to go backwards and forwards.
+[61:56] Speaker3: And like what i mean by that is like, it's very easy to define this like complex data generating process, and this is like this kind of latent variable you keep hidden from the model.
+[62:04] Speaker3: You can generate like arbitrarily complex like environments, and the model has to do a lot of like irreducible like token spend, and irreducible work to figure out what that data generating process was.
+[62:14] Speaker3: There's asymmetries in terms of like, you know, you can inject information from the real world, like anthropic finds a bug.
+[62:19] Speaker3: Um, through like, you know, tens of thousands of human and llm was combined and like turn that into a very, very neat environment, which in a single element because they're already fine within like, you know, a few million tokens.
+[62:29] Speaker3: So like there's all these assets which were cherry picking and like we're counting on like kind of this task horizon generalization.
+[62:36] Speaker3: But i think yeah, again there's just going to hit diminishing returns at some point.
+[62:39] Speaker3: Like at some point is diminishing returns and how hard it is to create this environments in the first place.
+[62:43] Speaker3: Like.
+[62:43] Speaker3: Coming up with them because you can't necessarily just like have these really like these process where it's easier to go backwards and forwards.
+[62:50] Speaker3: Like you actually have to sit down and construct like something that looks like with humans like you know a long enough time horizon like it's going to be a really complex task to create and then it's also going to be like the compute and time bullet next for the agent to actually do those tasks.
+[63:03] Speaker3: So like i think you're just going to start seeing this like curve to flatten out.
+[63:06] Speaker2: I saw something about how someone fine-tuned the talkie model.
+[63:11] Speaker2: Which is only trained on data up to 1930 on this like modern coding agent data and and it did better than claude 3 opus on sweet bench.
+[63:23] Speaker2: So so this model that has like no knowledge of code whatsoever can be fine-tuned on a moderate amount of data and like behave better as a coding agent than this much larger pre-trained model.
+[63:35] Speaker2: Is pretty crazy and it kind of shows you that like once you have an example of like the right expert behavior, it's actually surprisingly easy to like copy that into a like relatively weak model.
+[63:47] Speaker3: Yeah, but a counter example to like that kind of is that those are paper recently where they trained it up to like fifth grade maths.
+[63:55] Speaker3: Like also like primary school like english and stuff.
+[63:57] Speaker3: So it's like a decent language model.
+[63:59] Speaker3: And they tried to rl it to do like, you know, late high school and college maths and the gap was just too large.
+[64:04] Speaker3: Like they couldn't get it to climb at all like but if you did like successive wrong.
+[64:08] Speaker3: So like you know you seven maths and then you're eight maths and so on like you could obviously climb to your 12.
+[64:13] Speaker3: So like again it's just like what is the distance between the wrongs on those letters and how hard is it to create?
+[64:18] Speaker1: Yeah.
+[64:18] Speaker1: And this just comes back to like the rl signal problem.
+[64:20] Speaker1: Like our is not very good at like exploring right now.
+[64:22] Speaker1: And so if you if the model can't like it in like you know 128 well that's it's very unlikely to get signal to like progress.
+[64:28] Speaker1: And this is why i like in rl, we need like curricula, whereas like in pre-training, we don't because like it's that's not a problem for training at all.
+[64:34] Speaker3: Yeah.
+[64:34] Speaker3: And again, pre-training data is different to post-training data and i imagine as we continue on like, yeah, humans will be involved less and less, but that doesn't change the fact that your bottom neck on like how much signal you can extract from the real world.
+[64:48] Speaker3: So like.
+[64:49] Speaker3: There's a lot of signal in the world and that's true.
+[64:51] Speaker3: Like, you know, there's people doing like spreadsheet tasks, there's people doing like legal tasks and all this sort of stuff.
+[64:56] Speaker3: But, you know, the capability frontier of where the models are at now, like how many bits in the world actually like really relevant to like improving the models capabilities.
+[65:06] Speaker3: Like, you know, how many new math problems are being solved?
+[65:08] Speaker3: Like, couldn't the just be on the reach or grasp of the current models?
+[65:11] Speaker3: Like how many coding problems are being created or solved that would be on the reach of the current models and like.
+[65:16] Speaker3: I think that's why the diminishing returns kicks in because even the world as a whole is not giving you the bits that are useful for tipping you into the next like basin of capability.
+[65:25] Speaker1: Yeah, i totally agree with this.
+[65:26] Speaker1: It's like really a question like where the signal is coming from.
+[65:28] Speaker1: And so like the signal doesn't, you know, in pre-training, the signal is like already in common core, right?
+[65:33] Speaker1: Like for the tasks that you care about in pre-training.
+[65:36] Speaker1: The problem is there's not just like getting signal at all.
+[65:38] Speaker1: It's like filtering out all the noise that exists.
+[65:40] Speaker1: Yeah.
+[65:40] Speaker1: And that's quite an automatable process.
+[65:41] Speaker1: But like as the models get better as we end and to mitigate and post training, the signal just like doesn't exist anywhere in the original data.
+[65:47] Speaker1: We have like no amount of filtering will like get this, you know, there's no like hidden proof of like the millennium prize problem sitting in common core.
+[65:54] Speaker1: We can just like filter until we see it, right?
+[65:56] Speaker1: And so like at that point you have to get bits some other way either from humans like directly like asking them to like write out their reasoning or like by like creating environment while like human society like what environment should be created.
+[66:05] Speaker1: What the objectives of these environments are or like, you know, some kind of like training or like the human data that exists in deployment, like you have to get the bits from somewhere.
+[66:13] Speaker0: Yeah, yeah, there's a question of how much of the progress in pre-training is being driven by data.
+[66:17] Speaker0: Yeah, i did this investigation with jerry han who's a student at princeton where we basically trained all the recipes from 2019 till now, pairwise with all the data sets from 2019 to now.
+[66:31] Speaker0: So you say like gpt2 on the newest data set like ultra fine web.
+[66:35] Speaker0: And you train delphi, which is the newest training recipe or the open source training recipe on like the pile or some old data set and you do like the whole grid and you see the getting to some level of capabilities.
+[66:49] Speaker0: How much less compute does it take across this grid?
+[66:52] Speaker0: And you see that the data seems to explain like 9x of a computer efficiency gain, but the architecture improvements explains like a 3x computer efficiency gain at a very small scale.
+[67:03] Speaker0: Um, and so to the extent that that is true at large scale that most of the pre-training computer efficiency gains are coming from better data.
+[67:11] Speaker0: How much can that continue?
+[67:13] Speaker0: Like, can you keep just filtering data more and more and building more and more synthetic data until?
+[67:18] Speaker0: Yeah, do you have a sense of how much you produce kind of free training progress can continue?
+[67:22] Speaker3: I think my my prior is that like, again, the low hanging fruit is like somewhat exhausted with like, like we got the internet is this big block and like there's it's not like the internet is necessarily like growing at the same like racial useful stuff in the internet is growing the same rate.
+[67:37] Speaker3: So like we've probably got like a bunch of like 0.1% loss drops to go but like not definitely not as many as have currently occurred.
+[67:44] Speaker3: Yeah.
+[67:44] Speaker3: But like that's also really interesting that like you know you find this like.
+[67:47] Speaker3: What cumulative like 27 times improvement across both.
+[67:51] Speaker3: I think like it was a pock or someone who estimated like three times a year since 2019, which would imply something like, you know, three to the seven like over 2000 like times improvement.
+[68:01] Speaker3: So like where's that missing, you know, 100 times or whatever coming from like that probably gives you a good signal.
+[68:06] Speaker3: Like how much is this is like post-training.
+[68:08] Speaker0: I think the explanation has to be that a lot of the computer efficiency gains are scale dependent.
+[68:14] Speaker0: And we're starting at extremely small scale and that raises a question of do the data computer efficiency gains or the algorithmic computer efficiency gains have more scale dependence.
+[68:26] Speaker0: I don't know if you guys are prior on that.
+[68:27] Speaker0: We just don't have enough computer investigate that question.
+[68:28] Speaker3: I mean like just naively right like the theoretically the scale dependence of the architecture is like fairly well known.
+[68:35] Speaker3: Yeah.
+[68:36] Speaker3: And like you can fit a straight line to it.
+[68:38] Speaker3: Whereas like i would have no idea how to do that for like combining pre-training plus post-training data and mid-training data.
+[68:44] Speaker1: I feel like data is actually more like more important with scale.
+[68:48] Speaker1: Like i feel like architectures are kind of like a one-time like an architect.
+[68:51] Speaker1: I think like combining like saying just like an x percent efficiency against kind of misleading because like what an architect does is like let you each like a qualitative new regime which you couldn't reach with the old architecture.
+[69:00] Speaker1: And then within that regime, obviously the data is like the prime we think determining it.
+[69:04] Speaker1: But like, you know, if we say didn't have like, even like gq way, we're doing like full attention all day, we wouldn't be able to do like a million, it would like ridiculous expenses to a million context.
+[69:11] Speaker1: And then like, because of that, we couldn't, we can never use the data which is like actually at a million context.
+[69:16] Speaker1: And so we couldn't get these capabilities, even though like if you just do a naive like how much does this do it like 2k context where the architecture isn't unlocking anything, then like the data you know.
+[69:25] Speaker1: That will look much more important than in some sense it is, right?
+[69:27] Speaker1: It's unclear to me that these things are like really just like multiplicative gains in this way.
+[69:31] Speaker0: Hmm.
+[69:32] Speaker0: I see so but then what does it take over the scale dependence of data?
+[69:36] Speaker1: So i mean on scale dependence, i think like a lot of the like mid training and post training data we have now is like actually but gets better with scale because like a lot of it like the very long context horizon vibe and stuff really requires like big models to be able to like make use of them.
+[69:49] Speaker1: Yeah.
+[69:50] Speaker1: And like this is not, you know, if you try and train like your 100 million parameter model on like three bench traces, it's not going to get anywhere.
+[69:55] Speaker1: Like it's not going to show you.
+[69:57] Speaker1: The same kind of improvement that you would get if you train like an actual sensible size model on it.
+[70:00] Speaker3: Yeah.
+[70:01] Speaker3: And like it's hard as well now because so many of the architecture changes like you look at like kimmy for instance like or deep seek they're doing these architectural modifications with not just like dropping the pre-training loss in mind but like for instance how the models are going to be used in the real world.
+[70:14] Speaker3: So like yeah the inference efficiency like having some form of compressed attention in the deep seek models is not necessarily geared around.
+[70:21] Speaker3: You know, this is fundamentally like a tremendous improvement.
+[70:23] Speaker3: It's just like, okay, we're considering how the molds are going to be used, right?
+[70:27] Speaker0: One question, i'm curious about to understand the future is how parameter scaling will go as we're getting into more rl heavy regime.
+[70:34] Speaker0: Like, i don't know, i don't know how fast historically.
+[70:37] Speaker0: Yeah, you can look at sort of open source architectures and see how fast parameters have been scaling and maybe it's like roughly 2x every year for frontier open source models.
+[70:46] Speaker0: And to the extent that like even frontier closed source models that like 100 b or 200 b active parameters.
+[70:52] Speaker0: Do you think that like keeps 2x in year over year or another rl regime where you also want to conserve compute on a rollouts that and also maybe there is like a threshold effect where you have enough capacity and at the point does increasing parameters arbitrarily doesn't matter as much.
+[71:06] Speaker0: Do you guys have a sense of in 2030?
+[71:08] Speaker0: How many active parameters will a frontier model have?
+[71:10] Speaker3: Yeah, i think for the next few years, we're going to be like, like because we have so focused on doing longer and longer horizon rollouts for rl where like inference efficiency matters a lot.
+[71:20] Speaker3: Yeah, it feels like the moles aren't necessarily saturated on their ability to that where the bottleneck is still the environments.
+[71:27] Speaker3: And so we might see like a little bit of plateau.
+[71:29] Speaker3: Like i have a feeling that, you know, like mythos and and the gpt models are much smaller than like, you know, the 10 trillion parameter range that.
+[71:36] Speaker3: The people are talking about even just naively comparing the open source models, you can probably back out that conclusion.
+[71:43] Speaker3: So yeah, probably for the next few years, i wouldn't imagine a huge growth in the number of parameters.
+[71:47] Speaker3: But again, like there's so many different different things to trade off here.
+[71:50] Speaker3: Like you decide the size of your model based on like how much pre-training data you have.
+[71:55] Speaker3: And then like the difficulty of the rl environments that you've got to train on and you ideally want to like get to the optimal point where.
+[72:02] Speaker3: You know, you can get like a decent pass at one or something on like the the hardest environments you have and like it wouldn't make sense to like make a bigger model pass there because then you're just paying like much more inference swat than you need to.
+[72:12] Speaker3: So there's a lot of inputs.
+[72:14] Speaker3: This is like depends on how quickly, you know, like mccall and then in-house these these guys can scale up the complexity, the rl environments, they're training on.
+[72:20] Speaker2: I would expect the models to keep getting bigger just because people are scaling up compute and the gpus are getting bigger.
+[72:26] Speaker2: But i would say exactly how much they get bigger depends a bit on the scaling laws in non-obvious ways.
+[72:33] Speaker2: So, one thing is that i think um like data efficiency is gonna be a bigger driver than compute efficiency.
+[72:39] Speaker2: Of uh like the exact architectures people use.
+[72:42] Speaker2: Uh, now that we're getting to the uh regime where we're sort of running low on umlike high quality pre-training data, so that might affect how sparse you want to make the model.
+[72:53] Speaker2: And then i also think we don't understand sparsity that well and it's like parameters are a different resource than active parameters but it's and like sparsity has definitely increased a bit but it's not clear that it's going to keep increasing without bound.
+[73:11] Speaker2: There might be some kind of sweet spot.
+[73:13] Speaker2: There's an argument that sparsity should make data efficiency worse because you might have to learn the same thing on.
+[73:19] Speaker2: multiple experts.
+[73:22] Speaker2: So that's debatable.
+[73:24] Speaker2: So i think we don't, i don't think we we have a good enough theory of scaling laws that we really understand why sparsity is helping and to what how much it'll help.
+[73:34] Speaker2: And if that'll like plateau at some point at a certain level of sparsity.
+[73:39] Speaker0: can you spell out exactly what the implication of data efficiency would be on?
+[73:43] Speaker0: For as it sounds like you'd say, well, it should be less sparsity, but what are the other implications on parameter scaling?
+[73:49] Speaker2: I guess just that the scaling law, you're you're not necessarily looking for the most, you're not trying to optimize computer efficiency.
+[73:56] Speaker2: So you have all your choices you can make on the architecture and each of these gives you a different scaling law.
+[74:02] Speaker2: And then like traditionally you would look at some kind of envelope based on compute.
+[74:06] Speaker2: So you look at performance versus compute and take the envelope of like.
+[74:11] Speaker2: The yeah, the best models.
+[74:15] Speaker2: But like if we're making that decision based on data.
+[74:19] Speaker2: So it's like, yeah, we're sort of assuming we can spend a lot of compute and like we're sort of data is on our x-axis instead of for instead of compute, then we just get a different.
+[74:35] Speaker2: Set of optima or a different set of models that are on that frontier.
+[74:38] Speaker3: Yeah.
+[74:39] Speaker3: And i also don't think that we've necessarily like, you know, doubled like the size of the models every year for the last few years.
+[74:46] Speaker3: Like the people have been training like one trillion parameter models for at least a few years.
+[74:50] Speaker3: Like there was even an open source one called falcon but like liam from periodic labs like i think post yesterday on twitter about how like an early experiment at OpenAI was like training a one trillion parameter model that was very, very sparse.
+[75:00] Speaker2: Oh yeah, that was what they did before OpenAI that was like google this was transforming.
+[75:05] Speaker3: Yeah.
+[75:05] Speaker3: So like it was like.
+[75:07] Speaker3: You know, very, very good at like knowledge but terrible at reasoning because it was so sparse.
+[75:11] Speaker3: And so like, yeah, it feels like we've been playing in this like 100 billion to, you know, up to 2 trillion parameter range for like, at least a little bit and like it certainly hasn't been.
+[75:19] Speaker3: This is like nice linear increase.
+[75:21] Speaker1: Yeah, i mean, i feel like those two things there is charlie was saying like influence efficiency is super important for rl rollouts.
+[75:27] Speaker1: And so like this will really push down active parameters quite a lot.
+[75:31] Speaker1: And then i think the total parameters really depends a lot on the hardware as well.
+[75:34] Speaker1: So like you really need to get like very high memory bandwidth and like vm size to like actually be able to serve like multi-trillion parameter models.
+[75:41] Speaker1: And so like, you know, right now, you know, people still use still using a lot of like h100s and stuff.
+[75:44] Speaker1: And so as everyone used to gbs and then their rubens will get like more actually the ability to scale and like actually serve and i do like large rl influence.
+[75:52] Speaker1: I'd like different at larger scales.
+[75:54] Speaker1: The data question i think is interesting because naively like larger bottles are much more sample efficient in like the actual data points.
+[76:00] Speaker1: And so like even if you're like not saturating the model, it's still better to get bigger because like the models were larger models generalized better and like get to a better loss for the same amount of data.
+[76:09] Speaker1: And so right now, i think we kind of have a lot of data and like that's not the constraint rather than compute.
+[76:13] Speaker1: So we're having like smaller models which are like very influential but if computers no longer the bottom like it might come back to larger models which are like under sort of undersaturated but like they have this generalization ability because they're much larger.
+[76:25] Speaker0: If you just look at like the basic general scaling law and you just maximize out parameters.
+[76:32] Speaker0: Yeah, it actually decreases the amount of data you need to get to the same loss.
+[76:35] Speaker0: Very little.
+[76:36] Speaker0: Yes, if you go to infinity on parameters, the amount of data you need, i think goes on listen 10x just because the nature of like the power.
+[76:43] Speaker1: But we're now on the way too much data side of the chinchilla laws, right?
+[76:46] Speaker1: So right now we overtrain more of the chiller and so we could easily get back to point to which as we're running out of data, we move back to like the chinchilla optimal point.
+[76:53] Speaker1: We've been like a bit on the overtraining, you know.
+[76:56] Speaker3: under training model side, but surely like even with these new chips that come online and stuff.
+[77:00] Speaker3: Like we're just gonna be so compute bottleneck for the next few years that that won't necessarily.
+[77:03] Speaker1: I mean this could well yeah this depends on like the ratio you have like training and inference computer really it's like if you're super bowl next on data not on compute you should go bigger.
+[77:11] Speaker1: If you're super bowl neck don't compute you should always go smaller and then like yeah but you can also use computer generate synthetic data.
+[77:17] Speaker1: So it's like one of these.
+[77:18] Speaker1: Very hard things to predict.
+[77:19] Speaker2: Yeah, i think part of the reason it took people so long to figure out the scaling laws in the first place was that if you don't get all these things right, then you don't get such a clean relationship and like the beautiful stray lines on graphs like hide a lot of complexity and how you have to make sure like to scale every hyperparameter the right way or like parameterize your optimizer in a way that.
+[77:43] Speaker2: Scales and where you don't have to change your hyperparameters as you change the model.
+[77:46] Speaker3: size and bugs have their own clean scaling laws as well, right?
+[77:49] Speaker3: Like, you know, like west kaplan for getting the cosine and healing thing or like even just like not considering embedding parameters, i think.
+[77:56] Speaker3: And so that messed up the estimated smaller models because embedding parameters are a decent size of the model.
+[78:03] Speaker0: A bit on rl.
+[78:05] Speaker0: So i feel like a year ago, a lot of people were making this argument that rl will not be super successful at scaling for models.
+[78:14] Speaker0: I think john you wrote a research paper where you were pointing out that models learn one bit per episode when you are able to basically learn that i get the answer right or did i get it wrong?
+[78:24] Speaker0: And i wrote some block west earlier this year.
+[78:26] Speaker0: I was like it's even worse than that because in the past rate is low and the models are very unlikely to get the answer, right?
+[78:30] Speaker0: It's it learns almost almost nothing at all from an rl episode, but we i look at the models today.
+[78:37] Speaker0: And they seem pretty smart and it seems to be the result of scaling up rl baron.
+[78:41] Speaker0: You had a post, i think a few weeks ago where you're trying to explain what's going on, but why has rl been more successful than one would have naively thought?
+[78:50] Speaker1: I mean, so i think the success of our comes down to a bunch of different things.
+[78:53] Speaker1: So first, i think what is slightly underestimated is actually the mid-training.
+[78:57] Speaker1: So an awful lot of like what we see is successes of our actually comes from like very, very good mid-training data, which is basically where we're like essentially doing pre-training but on like synthetic reasoning data and like the kind of environments that like get the model warm started for rl.
+[79:10] Speaker1: And so this actually takes the model like almost like 80% of the way to like the final rl checkpoint often.
+[79:15] Speaker1: And then what rl does on top of that is it does like a lot of, you know, essentially tweaking to the policy.
+[79:20] Speaker1: And so this is one of the reasons why it doesn't need like as many bits as you would naively think.
+[79:23] Speaker1: It doesn't have to learn all of these behaviors from scratch.
+[79:26] Speaker1: It needs just like a few bits from these episodes, which you do get.
+[79:29] Speaker1: And then the other thing that i really point out in my blog is that these bits are actually extremely high signal compared to like regular like pre-training, which is why you need rl at all versus just like sfting on like successful reasoning traces.
+[79:40] Speaker0: Because it's exactly the bits about how to get the answer right.
+[79:44] Speaker1: Well, there's two things.
+[79:44] Speaker1: So yes, one, it's exactly the bits about how to get the answer right, but like this is not exactly how you think of it because.
+[79:51] Speaker1: In s of t, you have a trace, right?
+[79:52] Speaker1: You have like a bunch of math reasoning and then the answer at the end, the bit is still there.
+[79:55] Speaker1: Like you still sft on the answer token.
+[79:58] Speaker1: So that bit is still there.
+[79:58] Speaker1: What's important is that the objective ignores all the other bits.
+[80:01] Speaker1: So in sft, you like have like, you know, to try and match like the exact reasoning tokens of the model produces.
+[80:07] Speaker1: So you're essentially getting like too many bits about like the exact way this other model you're training on reasons for rl.
+[80:12] Speaker1: You only get the one bit and that means that like this that signal is not drowned out in the noise of like all the other bits the model has.
+[80:19] Speaker1: And so that's what really like it's really a super dramatic like increase into the signal to noise ratio during training.
+[80:24] Speaker1: Which is why i like rl is like so dramatically efficient in terms of steps.
+[80:28] Speaker3: And if you guys have thoughts on that, yeah, i like there's been so much debate about like what rl does to the model versus like, you know, mid training or sot or whatever.
+[80:36] Speaker3: And like, you know, everyone talks about how, you know, positive one will go up, but positivity six will go down like very rare.
+[80:42] Speaker3: Correct reasoning traces will be like down weighted and kind of like, outweighed by a gradient signal from like easier, kind of reasoning traces.
+[80:49] Speaker3: And i, i think the simple like way to view rl now is that.
+[80:53] Speaker3: If you have a large enough, like a large enough amount of compute to sample a large enough group size, such that your probability of getting a bunch of correct answers is like pass some, like not insignificant probability.
+[81:04] Speaker3: Then like, it will be upweighted, and like, to to to veron's point, like, basically mid training, and you know, more pre training, like the the pass at one, the starting point for rl, like scales in a log number of pre training tokens.
+[81:16] Speaker0: It it can answer very basic questions.
+[81:19] Speaker0: I guess that answer makes sense and maybe there's empirical research shows that this is what's happening.
+[81:26] Speaker0: But then i just look at the models themselves.
+[81:30] Speaker0: And i don't know what's happened.
+[81:31] Speaker0: So like maybe you can give me a sense of what is the basis of the ai progress over the last year.
+[81:36] Speaker0: But if it's.
+[81:39] Speaker0: Yeah, maybe it's just up waiting the the policies which were gonna do the correct thinking anyways, but it just seems like qualitatively the models have gotten so much more capable and.
+[81:52] Speaker0: Anyways, maybe there's nothing to there's no inherent contradiction there, but how do we square like the relatively small impact?
+[82:00] Speaker0: This take would imply that rl would have from the actual qualitative capabilities.
+[82:04] Speaker1: The model seem to be gaining.
+[82:06] Speaker1: So like one thing i want to point out here is that like it doesn't necessarily imply that rl has a small like effect, right?
+[82:11] Speaker1: Even if you have a few bits and like you only change the prompt to a small amount like the actual impact on like function space.
+[82:16] Speaker1: The model lands like the input to upper mapping can still be like super dramatic, you know, even if it's like even like one bit can change like your function space a lot in the can like will like half the hypothesis space, which is huge.
+[82:25] Speaker1: So like i don't think it's necessary the case.
+[82:27] Speaker1: It's like small amounts of bits, small amounts of rl.
+[82:29] Speaker1: Once you're starting from a really good point means that like you don't have dramatic impacts and behavior at least like not necessarily.
+[82:35] Speaker3: I think it comes down to two things.
+[82:36] Speaker3: I think the first thing is that everyone was hoping that rl would like generalize this reasoning across like all these different domains.
+[82:42] Speaker3: And i don't think we necessarily got this like horizontal generalization, like just training on math doesn't necessarily make you the greatest coder, like you do have to do rl on on code environments.
+[82:51] Speaker3: I think what we did get though is like horizon generalization.
+[82:55] Speaker3: Like the models just learned how to use more tokens for for longer, and still make progress on some sort of task.
+[83:01] Speaker3: And so like you can train on environments where they get longer and longer and longer, and then put them into a completely new environment, and just like.
+[83:08] Speaker3: They may not have generalized the reasoning patterns, which allow them to do well in that environment, but they've at least generalized the ability to like continue on that task longer, which is correlated with like success.
+[83:15] Speaker3: I think there's a paper called edge bench which show that the rate at which models can work for longer is like doubling every three months.
+[83:23] Speaker3: And so that's a clear evidence of generalization.
+[83:25] Speaker3: And i think like the final way to think about is like in pre-training, there's this idea of like quanta.
+[83:31] Speaker3: So you have this very smooth like pre-training loss curve.
+[83:34] Speaker3: And when you actually look at what's happening in the model, like the model is learning all these like very discrete like tasks and there's like all these like emergent points, there's like kind of a phase transition like it didn't have induction heads.
+[83:44] Speaker3: Now it has induction heads and there's like tens of thousands millions probably like hundreds of millions of these things and you average them all together and you get this very like smooth loss curve.
+[83:53] Speaker3: I think like to us to an extent like a similar thing is happening happening for our o.
+[83:57] Speaker3: Like there is this very slow out of loop as baron mentioned of, you know, we will train a model and then our ella and then like the next kind of model iteration of training, we will dump a bunch of these synthetic reasoning traces into the mid-training data.
+[84:09] Speaker3: Like we're kind of hitting all these quantum for all these different tasks and like on an individual task level, it may look like a phase transition and like you're suddenly going from.
+[84:17] Speaker3: Like a 0.5% pass rate to a 90% pass rate on like a particular like finance task or excel task or whatever.
+[84:23] Speaker3: But you average all these things together and plus the horizon generalization you kind of would go up.
+[84:27] Speaker3: Wow, we've got like qualitatively better models.
+[84:30] Speaker1: Yeah, i mean i think a lot of this as well is just like i think rl does generalize a bit like suddenly you get like some transfer between like math and code or like puzzles and math and this kind of stuff.
+[84:38] Speaker1: Also just like the amount of the share amount of environments.
+[84:40] Speaker1: I think the people are targeting is just like vastly greater.
+[84:43] Speaker1: So like, you know, before when you try to do, you know, some task which like you do in your daily life, like two years ago, like the labs wouldn't really care about this.
+[84:49] Speaker1: They wouldn't like train them on for it.
+[84:50] Speaker1: And now, like, it's just so much porter, right?
+[84:52] Speaker1: They have a lot of environments targeting this specific thing.
+[84:55] Speaker0: Early in the conversation, we're talking about哈尔在the context of causing this entropy collapse or potential just you know concentrating probability on solutions the base model were already done um and causing relatively sparse updates in the policy.
+[85:08] Speaker0: But when I think about.
+[85:11] Speaker0: I think there's also another story about rl, which is going back to the atari games and then off a go coming up with move 37, the super creative move that because it was never initialized on human data.
+[85:23] Speaker0: It can like think in ways that humans are not even thinking and come up with extremely creative solutions.
+[85:29] Speaker0: Yeah, would you have a sense on when we should expect or if we should expect rl on llms to result in things like move 37, just extreme creativity.
+[85:38] Speaker0: Even beyond human creativity because like there's just day noble, they know by initialization of intelligence.
+[85:45] Speaker1: I mean, so a couple of things here like first off, i think that the alpha go is using mcts which obviously does like more exploration and like stuff than regular policy gradients.
+[85:54] Speaker1: But i kind of also think that like rl doesn't necessarily like reduce the creativity and like i mean even if we i think you know this is always equal to but if we look at like.
+[86:02] Speaker1: That, you know, the OpenAIr hugging face incident, like these models were coming up with like multiple zero days at a time to like break out of the sandbox and like this is clearly like some level of like move 37 creativity.
+[86:12] Speaker1: I think already which we just get from just like the general generalization properties of the lms.
+[86:16] Speaker1: Like i don't think it's definitely not the case of like ours like totally destroying their like entropy.
+[86:20] Speaker1: Yeah.
+[86:21] Speaker1: Especially on long horizons.
+[86:23] Speaker2: Yeah, i mean, one thing that people call creativity is just solving hard search problems.
+[86:28] Speaker2: So and so that's like, like move 37 is obviously an example of that or like writing some kind of poem that satisfies a ton of different constraints.
+[86:39] Speaker2: So that's something ai is obviously going to be extremely good at if trained for it then.
+[86:46] Speaker2: Uh, there's another way in which the models like the diversity of their outputs is a lot lower after rl and they sort of develop these ticks and like even though the model seem like they're good at writing when you do some kind of like distributional analysis, you find that like they're reusing certain themes like all the time and they're using the same character names all the time.
+[87:12] Speaker2: So there's actually, it's not like you're getting the same kind of diversity that you get when you like from human authors, you're sort of getting one really good like style.
+[87:21] Speaker2: So I think that like that kind of diversity has definitely been like cut down by RL a lot.
+[87:28] Speaker2: And in fact, yeah, since we were talking about distillation earlier, that's sort of something.
+[87:36] Speaker2: Yeah, one thing that's happening is that so many people are distilling mostly from Claude that like, like all the open weight models write the same way as Claude and use the same.
+[87:46] Speaker2: Like i have the same ticks.
+[87:47] Speaker2: So this seems kind of concerning to me that we're having this like this monoculture emerge.
+[87:53] Speaker2: Yeah.
+[87:54] Speaker1: again, i don't think this is like fundamental to rl is like a method though and same with distillation.
+[87:59] Speaker1: Like even with this relation, like you're just training on the data.
+[88:01] Speaker1: It's like just because your data is not like super bored.
+[88:03] Speaker1: That doesn't mean like the training method itself is somehow wrong.
+[88:06] Speaker1: It's like a problem with the data and i think a lot of instance like the rl like entropy collapses basically due to like.
+[88:12] Speaker1: Exploitation of fairly simple like verifiers when you don't have like a huge diversity of environments because like for instance, like the writing, i think the writing is presumably graded by some judge and like the judge has some specific text and like the models learning to a what hack the judge and that's why i like it collapses.
+[88:26] Speaker1: But like this is really a problem with the judge is not a problem with like rl in general.
+[88:31] Speaker0: Okay, it was super rapid fire predictions about the future.
+[88:34] Speaker0: So i want timelines on the following.
+[88:37] Speaker0: A couple questions.
+[88:38] Speaker0: By when do we have models, which you can here's what the if you was like to a user.
+[88:46] Speaker0: You basically hire them as a drop in remote worker for all kinds of white collar work, not just coding, but i don't know, video editing law, paralegal, etc.
+[88:59] Speaker0: Like it's like literally an actual remote worker.
+[89:01] Speaker0: Like full computer use with like literally a month of seamless learning and operation and executing on like complex projects and it required interacting with other people, et cetera, et cetera.
+[89:12] Speaker0: Take everything a human worker could do over a month.
+[89:15] Speaker3: If if you like mandated to use like a browser or whatever, rather than like these, the again the firm setting up the information to be like, yeah, programmatically accessible, like maybe a couple years but.
+[89:24] Speaker3: If it's not like browser-based, like you can send slack messages, it can do all this stuff, but still probably say around you.
+[89:30] Speaker1: Yeah, i mean, i would say maybe like for the like full generality, maybe like three years, but i think to charles point, we will end up with like a lot of people like making their organizations easier for the ais to use.
+[89:41] Speaker1: And so you get like 1890% of the way there before that.
+[89:45] Speaker0: So, but the thing that's the the death between one year and three years, there was just literally like.
+[89:49] Speaker1: Like that.
+[89:50] Speaker1: I think there's going to be like a long tail of like miscellaneous stuff which like some human can do which like we'll take the models like quite a while to do.
+[89:55] Speaker0: Yeah, give me everything you have sort of computer your stuff or like basic cognitive capabilities.
+[89:59] Speaker1: I mean, i think this is this really comes down to questions like how quickly can we solve this kind of like online learning and like whether we can like get like 80 90% of the way that would like compaction and like writing files to yourself and stuff and like that's my big uncertainty.
+[90:11] Speaker1: I really don't know.
+[90:12] Speaker3: and another like maybe an example something that wouldn't be good at is like.
+[90:16] Speaker3: You know, if i have to like yell at someone to get something at work or like really push someone to get something done, like the model isn't just going to do that.
+[90:22] Speaker3: It's just going to be too nice.
+[90:23] Speaker3: Yeah, yeah.
+[90:24] Speaker2: I'd say there's a wide variation in quality of human remote workers.
+[90:28] Speaker2: So if you, if you try to hire someone like off of upwork to do a software engineering project, there's going to be a huge variation.
+[90:35] Speaker2: It's like often quite hard to get them to do like to do a good job or like pay attention to all the feedback you're getting.
+[90:42] Speaker2: And like i would guess that in some cases it like it'll be worse like the the pre ai version of this was worse than what you can get now from existing ai.
+[90:54] Speaker2: So i think it might end up being a little complicated because maybe the son of some extent we already have this like for some like not so high quality of work but then like then it's obviously like we're not.
+[91:08] Speaker2: Yeah we're not matching human level in certain like higher quality.
+[91:11] Speaker2: Like forms of work.
+[91:13] Speaker2: So but i basically agree with charlie and barron that maybe yeah, well yeah, we'll have some version of this in a year.
+[91:20] Speaker2: So that's like okay and it will be able to do.
+[91:24] Speaker2: Maybe we'll have that form factor and it'll be able to do some things really well.
+[91:29] Speaker2: Some things not so well and yeah, things will be improving from there.
+[91:33] Speaker3: Like we shift the goal post based on the very long tail all the time like.
+[91:36] Speaker3: I think you feel like he uses example for like doing your taxes or something like this year.
+[91:40] Speaker3: I literally just like told codex to like go get everything i needed to do and send it to the accountant and like there was a massive list of stuff.
+[91:46] Speaker3: It had to use computers to click through and like download some stuff and i didn't know it was like fine.
+[91:51] Speaker3: So like i don't know a lot of this stuff it can already.
+[91:54] Speaker0: Yeah.
+[91:55] Speaker0: Okay.
+[91:56] Speaker0: Give you 10x total productivity uplift.
+[92:00] Speaker0: Basically, if you, if it takes you a year to make a breakthrough, now you make a breakthrough every month.
+[92:05] Speaker2: I think i would just refuse to give you a scalar on this.
+[92:09] Speaker2: Like, like we might already be past that in some like types of work.
+[92:14] Speaker2: Like, let's say you're just trying to prove you're trying to do like certain types of math.
+[92:20] Speaker0: Oh, sorry, but for you as a researchers trying to make like advance, you know, the state of ai research.
+[92:27] Speaker0: This how much are like yeah, researchers sped up, yeah, we're uplifted.
+[92:31] Speaker3: somewhere between five and ten years.
+[92:33] Speaker0: Oh, really?
+[92:33] Speaker0: Okay, that's far away.
+[92:34] Speaker0: Well.
+[92:34] Speaker1: you think it's longer than like for general remote worker.
+[92:37] Speaker1: Yeah, interesting.
+[92:39] Speaker0: I think you're right.
+[92:40] Speaker0: I think i'm realizing you probably have very different definitions of fully general remote worker.
+[92:43] Speaker0: I could have said.
+[92:44] Speaker1: yeah, this is true because i mean like yeah because obviously like an ai research, it can be a remote worker.
+[92:48] Speaker1: And so like yeah.
+[92:50] Speaker3: no, i'm picturing like, you know, normal white collar work over the period of a month.
+[92:54] Speaker3: Yeah, i think it starts to a little bit past a month.
+[92:56] Speaker0: a very competent white collar worker, but not necessarily like a super creative researcher.
+[93:00] Speaker2: I would say like two years, two years.
+[93:03] Speaker0: yeah, ten x, okay.
+[93:04] Speaker1: How are you, bert?
+[93:05] Speaker1: I can kind of see that actually because like it really is just like right now it's already like definitely more than 10x of like coding stuff.
+[93:11] Speaker1: And so it's like if it can do it even like one or two loops of like experimental feedback that would actually be massive already.
+[93:17] Speaker0: So 10x uplift of ai researchers within two years.
+[93:22] Speaker0: If you just plug it into like a very naive model of like ai progress and how much is coming from ai researchers and they're like there's like a 10x increase in their productivity.
+[93:31] Speaker0: Yeah, you have like radically accelerated pace of ai progress starting two years from now.
+[93:36] Speaker1: Yeah, i mean, i think like this will mean that ai progress doesn't get ball connected on like ai researchers ability to run like small experiments that gets ball connected on other things.
+[93:43] Speaker0: Of course, of course, but it just happens 10x faster.
+[93:45] Speaker0: So sure.
+[93:46] Speaker0: Yeah, it's a huge deal and that also like helps the next thing which makes gives you 100x speed up happen sooner etc.
+[93:53] Speaker3: Yeah, i'm happy to stick with a longer on that.
+[93:54] Speaker0: one and what's like the crux?
+[93:58] Speaker3: Like my capacity to absorb information and make the like beige and optimal decision on the next.
+[94:02] Speaker3: Yeah, that makes sense.
+[94:04] Speaker1: Yeah, i mean i'm assuming that like you can delegate some of this to the ai.
+[94:07] Speaker1: So like the ai is becoming decent to like deciding, you know, it's run this experiment, just got this result.
+[94:11] Speaker1: It runs like the next experiment and then if it can run like two or three experiments in row without like crashing, then like that is actually big update in like.
+[94:18] Speaker0: uplift and okay, final question.
+[94:20] Speaker0: Um, an AI which is.
+[94:24] Speaker0: which dominates top human experts across every single field of work that can be done over a computer.
+[94:31] Speaker0: So not only a research, but all cognitive work.
+[94:35] Speaker0: And not just like short horizon work, but like literally, if it takes like three years or something, they will still do better than humans.
+[94:41] Speaker1: This is basically just like as i okay.
+[94:44] Speaker2: i would say like three or four years the fuck.
+[94:49] Speaker0: I mean that's that doesn't seem wrong.
+[94:50] Speaker2: I mean i would say like like ai is obviously being more getting more attention.
+[94:55] Speaker2: So it's like one of the harder things.
+[94:58] Speaker2: But it's like a lot of energy is being put into it and it's also like not one of the hardest things for ai because it's like involves a lot of code and math which models are really good at maybe for things that involve like 3d and like spatial stuff and physical stuff.
+[95:14] Speaker2: I think that that will take a little longer.
+[95:18] Speaker2: So especially if it's not like yeah if it's like mechanical engineering or something and it's not getting.
+[95:24] Speaker2: Like the most attention right now that might take a little longer.
+[95:27] Speaker0: But it also doesn't include fields where there is relatively little data because of the nature of the field, and it has to like learn that data on the fly.
+[95:35] Speaker0: So for example, has to become a superhuman at like being an engineer at tsmc or something.
+[95:42] Speaker2: Oh yeah, so you would have to assume that like the on.
+[95:45] Speaker2: Like the onboarding.
+[95:46] Speaker2: Yeah, you can give the ai the same onboarding material and oh yeah, then there's some like some something has to be solved about like sort of longer horizon learning or yeah.
+[95:57] Speaker3: I'd say five to ten.
+[95:58] Speaker0: So it means that yeah, it's you think.
+[96:02] Speaker0: Automating ai research is like asi complete or something.
+[96:06] Speaker3: Yeah, i think so.
+[96:07] Speaker3: Yeah, i think there's so many things in the world which like even if you have some sort of memory system external to the model and even if like context length grows a little bit like there are just fundamentally things like even if you could research the information or write notes yourself like you need more than a minute to the context field today.
+[96:23] Speaker3: Yeah.
+[96:23] Speaker1: Yeah, i mean i kind of agree like the five year way into these for like the stuff that like labs focusing on but i think like there's going to be a long tail of stuff which like yeah i could theoretically go out and learn about but like no one has bothered to do it and like the computer hasn't been allocated to that so that might take longer for like literally every single human expert.
+[96:41] Speaker0: That's right.
+[96:41] Speaker0: But by this i also included like the ability to learn as fast as a human a new domain.
+[96:45] Speaker1: I mean, i think that's not necessarily necessary actually because like the air will have vast majority experience than like any human.
+[96:51] Speaker0: Right.
+[96:51] Speaker0: That's not sure to do this.
+[96:52] Speaker0: Yes, I feel like this is a great format for getting different experts to disagree and debate and discuss things together was very productive.
+[96:59] Speaker0: Thank you.
+[97:00] Speaker0: Absolutely.
