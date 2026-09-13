@@ -1,0 +1,67 @@
+{
+  "date": "2026-09-14",
+  "generated_at": "2026-09-13T23:34:59.446132+00:00",
+  "stats": {
+    "tweets": 9,
+    "podcasts": 0,
+    "articles": 1
+  },
+  "tweets": [
+    {
+      "author": "Andrej Karpathy",
+      "handle": "karpathy",
+      "summary_zh": "Eureka Labs 创始人、前特斯拉 AI 总监、OpenAI 联合创始人 Andrej Karpathy 引用并力挺 Dario Amodei 关于前沿 AI 安全治理的文章，表示\"非常认同，真心希望整个行业能团结起来把它落地\"。他的核心立场是支持全行业协同自律，而非各自为战。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品人、作者 Peter Yang（@petergyang）主要在讨论用 AI 加速游戏开发。他调侃\"没想到 ASI 会比《星际争霸》新作先问世\"，并主张干脆用 AI 在人工监督下生成一半的游戏画面，只要能更快做出高质量游戏，他不介意；他还脑洞了一种指挥官打 RTS 宏观、队友各自操作单个单位微观的多人玩法。"
+    },
+    {
+      "author": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "summary_zh": "Madhu Guru（@realmadhuguru）做出一个大胆预测：未来 12 个月，会有大量顶尖的前沿模型评测（evals）人才从少数几家实验室流向 METR 这类独立研究机构。他认为这一稀缺技能目前高度集中，而资金增加、摆脱实验室股权的财务独立性、以及应对 AI 生存性风险的使命感将共同推动人才迁移。他还回应 Dario 的文章称，在解决 AI 对齐之前，人类自身的\"对齐\"才是更严峻的问题。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic（Claude Code 团队）的 Thariq（@trq212）反思 AI 发展速度：如果 2018 年就把今天的 Claude Code 摆在他面前，他会以为那就是 AGI。他指出软件工程和社会已经吸收了巨大变革，但裂痕开始显现、加速快到他自己都难以跟上，AI 从业者普遍疲惫却硬撑。他主张需要时间来加固系统、让社会审慎讨论技术的部署方式；同时表示自己 p(doom) 较低，相信人类有韧性能挺过去。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad（@amasad）表示，放慢脚步来加固系统\"不是个坏主意\"，尤其是因为业界甚至还没摸清近期 AI agent 究竟攻破了哪些系统。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch（@rauchg）提出鲜明观点：\"agent 就是新的编译器\"——他看到 Vercel 团队用 Zig、Go、Rust 与 TypeScript、Python 项目迭代速度已无差别，基于人类便利来选择语言或运行时的时代已经结束，agent 把意图编译成高性能软件。他还介绍其产品现可编排使用不同模型和推理强度的 subagent（如 Fable 负责规划、Grok 作为快速执行的\"劳力\"），且无需服务端特殊路由、任意模型任意网关皆可。此外他反对过度收紧 AI 安全监管，认为 AI 安全与网络安全的担忧虽合理，但美国有把自己\"劝退\"成自缚官僚、拱手让出全球 AI 领先地位的风险；他直言\"OpenAI 攻破 HuggingFace\"式的论据站不住脚——在\"ExploitGym\"里训练的 agent 会去攻击本就是设计使然，而对手拥有技术、数据和意志，不会被\"嵌入式评估员\"拖慢，反而可能配上\"嵌入式加速器\"。"
+    },
+    {
+      "author": "Alex Albert",
+      "handle": "alexalbert__",
+      "summary_zh": "Anthropic 开发者关系负责人 Alex Albert（@alexalbert__）推荐周末花几分钟完整读一读 Dario 的这篇文章。他认为\"嵌入式评估员\"在科技界听起来陌生，但在其他行业很常见——大型银行有联邦审查员在楼内办公，美国每座核电站都有全职驻场检查员；他主张前沿 AI 实验室也应如此运作，这是非常务实的第一步。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie（@levie）评价 Dario 的文章\"是篇好文\"，虽不全认同，但它反映了前沿 AI 前进道路上诸多现实。他认为以当前模型能力水平，行业出现某种形式的协同自律几乎不可避免、总体是好事，关键在于能否就\"自律为何物\"达成一致；而按当前政治走向，实验室甚至可能失去话语权。更大的问题是各国是否参与——任何\"放慢\"都取决于广泛参与，但从博弈论看，在风险变得更严重、更明显之前不太可能实现，因此这段时间会相当混乱。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator 首席执行官 Garry Tan（@garrytan）抛出一句对 SaaS/软件形态演变的犀利观察：\"要么作为记录系统（system of record）死去，要么活到成为特定领域的 harness（编排壳层）。\"暗示在 AI agent 时代，软件产品的出路是演化为面向具体领域的 agent 承载层。"
+    }
+  ],
+  "podcasts": [],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "Long Live the Short King: Why 4-hi HBM Wins",
+      "date": "2026-09-13 18:19 UTC",
+      "link": "https://newsletter.semianalysis.com/p/long-live-the-short-king-why-4-hi",
+      "chars": 27363,
+      "summary_zh": "SemiAnalysis 认为，AI 加速器上 HBM 容量持续攀升的趋势正在逆转，\"矮堆栈\"（4-hi）将成为推理场景的最优选择。下一代加速器标准由目前的 **12-hi** 降至 **8-hi**：英伟达 Rubin Ultra 每 GPU HBM 从常规 Rubin/B300 的 **288GB** 下调至 **192GB**（一年前市场曾预期高达 **1TB**）；按单计算 die 归一化，等于从 **256GB** 降到 **96GB**。降堆栈的核心逻辑是\"降容量不降带宽\"：HBM4/4e 每 cube 有 **2048** 个数据 I/O，每 die 最多 **512** 个，因此 **4-hi** 已能吃满全部带宽，而价格主要由每 cube 的 GB 数决定——矮堆栈意味着更低的 $/带宽，近乎\"免费午餐\"。\n\n投资含义：预训练算力占比下降、后训练/强化学习与推理（均带宽敏感）占比上升，使多数算力从\"容量敏感\"转向\"带宽敏感\"。容量只需超过存放权重+KVCache 的阈值即可，超出部分收益递减却仍付全额 BOM。机架级方案大幅缓解容量压力：H100 HGX 单机 **640GB**；GB300 NVL72 聚合 HBM 达约 **21TB**，是 H200 的 **18x**；Kimi K3 **2.8T** 参数以 MXFP4 存储仅占 **1,561GB**（不到 **8%**）。Rubin Ultra 转向 NVL576（较 NVL72 再增 **8x**），足以抵消每 GPU 容量减少三分之一。\n\n成本测算（Rubin Ultra NVL576、HBM4E 13Gbps，4/8/12-hi 分别为 **128/256/384GB** 每 GPU）：相对 4-hi 基准，8-hi 全系统成本高 **12.1%**、12-hi 高 **26.3%**；而吞吐提升分别仅 **8%** 和 **10%**，故当前内存价格下 8-hi/12-hi 的每 token 成本反而更高。实测 InferenceX（16 张 GB300）将 HBM 利用率从 **92%** 降至 **85%**（KVCache 预算聚合服务砍 **36%**、分离式砍 **44%**），大部分曲线吞吐相近，仅并发超 **70** 时因 KV 占用打满导致吞吐骤降近 **30%**，且可用 DDR 卸载（DRAM KVCache 读取多出 **10x**）缓解。DeepSeek v4.1 Flash 更将活跃 KVCache 较 v4 缩减约 **75%**。\n\n风险/未来：若未来模型规模达 Kimi K3 的 **3x**，12-hi 可多产 **47%**、8-hi 多产 **36%** token，容量价值回升；但反方观点是参数扩张对能力已不再关键（GPT-6 Astra 采用循环 transformer 靠深度而非权重扩展），且前沿实验室硬件团队最支持 4-hi。最终逻辑是最大化\"每张 HBM wafer 产出的 token\"：同带宽下 4-hi 较 12-hi 可从每片 wafer 收获 **3x** 带宽、较 8-hi **2x**，叠加更高封装良率，是 HBM 供给紧缺下的最优解，瓶颈将从 HBM wafer 转移到逻辑晶圆、基板、PCB 等环节，并释放产能给普通 server DRAM。"
+    }
+  ]
+}
