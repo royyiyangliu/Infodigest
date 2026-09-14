@@ -1,0 +1,302 @@
+{
+  "fetch_date": "2026-09-15",
+  "fetch_time": "2026-09-14T20:44:07.412309+00:00",
+  "stats": {
+    "new_podcast_episodes": 1,
+    "new_articles": 2,
+    "new_tweets": 21,
+    "total_podcasts": 1,
+    "total_articles": 2,
+    "total_tweets": 21,
+    "transcribed_this_run": 1
+  },
+  "podcasts": [
+    {
+      "source": "乱翻书",
+      "title": "273.逛完外滩大会，发现蚂蚁找到了新位置",
+      "date": "2026-09-14 03:13 UTC",
+      "link": "https://podcasts.apple.com/us/podcast/273-%E9%80%9B%E5%AE%8C%E5%A4%96%E6%BB%A9%E5%A4%A7%E4%BC%9A-%E5%8F%91%E7%8E%B0%E8%9A%82%E8%9A%81%E6%89%BE%E5%88%B0%E4%BA%86%E6%96%B0%E4%BD%8D%E7%BD%AE/id1591595410?i=1000789457725&uo=4",
+      "orig_link": "https://www.xiaoyuzhoufm.com/episode/6aa76141492687f6aad974bc?utm_source=rss",
+      "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/61358d971c5d56efe5bcb5d2/6aa76141492687f6aad974bc/media.xyzcdn.net/61358d971c5d56efe5bcb5d2/loTxOgfoqqWcJigxIHTIxvNCbfc3.m4a",
+      "duration": "01:28:28",
+      "summary": "🎙【本期嘉宾】庄明浩、阑夕\n庄明浩\n（「\n屠龙之术\n」主播）\n阑夕\n（科技博主）\n主播：潘乱（「乱翻书」主理人）\n本期节目由「乱翻书」×「\n屠龙之术\n」联合制作\n⏰【时间线】\n一、过去6年的战略转变\n00:15\n逛完今年外滩大会，有什么感受？\n01:19\n这届大会离普通人的生活更近\n04:45\n「蚂蚁今天应该被单算成一个厂商」\n06:11\n往期推荐：《\n支付宝20年对话陈亮\n》\n06:22\n过去这6年，蚂蚁集团的战略重心经历了哪几次转变？\n07:26\n「它的幸运和不幸都在那个节点。幸运是正好赶上了AI，不幸是AI变得太快。」\n08:50\n支付宝要保住那个“1”的焦虑\n10:36\nAI时代还需不需要入口？\n11:17\n用什么框架理解蚂蚁的AI布局？\n14:34\n诺亚方舟：带哪些动物上船\n二、产品侧：阿宝和阿福，中美Agent对照\n16:39\n放到中美个人Agent的框架里看阿宝\n18:41\nCode、worker、design，这几个叙事风水轮流转，但听起来都太牛马了\n21:16\n阿宝是给支付宝加了一个聊天机器人，还是要用AI要把超级App重做一遍？\n25:02\n「从争夺注意力到赢得意图」\n25:45\n从流量漏斗到意图放大器，这个意图放大器以后可能是个什么样的画面？\n31:47\n模型必须往前走\n34:34\n阿福可能是蚂蚁离意图最近的产品？\n38:11\n阿福的竞争优势来自医疗模型本身，还是来自看病就医各环节构成的服务闭环？\n41:36\n村医助手和“医生的阿福对我的阿福”\n42:09\n健康AI的竞争重点不在模型问答，在谁能获得连续的身体数据\n44:05\n阿福可以成为健康领域的Workbuddy，它需要一个大家觉得确实好用的时刻\n三、基建层：Stripe与AI支付，Agent怎样才能放心花钱？\n46:07\n支付宝这种从入口到交易再到生态的模式，优势和挑战是什么？\n50:25\n商家接一次，分发给所有终端\n51:56\n“碰一下”的三千万个触点能变成什么？\n57:39\n权限、风控与责任归属\n62:01\n移动互联网这波以来，市场一直在奖励那些再多做一步的人\n四、公司架构层：四家子公司密集融资背后\n63:35\n四块业务被拆成四个可单独定价的资产，信号是什么？为什么是现在？\n66:39\n集团公司的定价困境\n69:39\n国际化：Alipay+与时光机理论\n75:06\nOceanBase：从数据库变成Agent的上下文容器\n77:31\n“主权AI”本质是个销售主导的概念，翻译到企业身上就是企业主权\n80:24\n蚂蚁数科的定位是一家金融科技解决方案公司、AI企业服务公司，还是蚂蚁内部技术商业化的集合？\n81:42\n一只翅膀是应用，一只翅膀是基础设施，中间的模型、数据库、技术后台为两侧提供支撑\n84:55\n如果重新介绍蚂蚁，第一句话怎么说？\n【相关推荐】\n本栏目第187期：《\n支付宝20年对话陈亮：既然选择了做先行者，干苦活累活就是我们的宿命\n》\n🎵【开场&结尾音乐】\n开场&结尾音乐：Mount Dreams - Wolfs\nℹ【关于「乱翻书」】\n「乱翻书」是一档关注商业、科技和互联网的圆桌对话节目。关心How和Why，以及少有人注意到的What。内容主要方向是科技考古、行业观察和前沿思考，研究公司的兴衰循环，希望能够为你带来信息增量。\n「乱翻书」主理人是潘乱，代表作品有《\n腾讯没有梦想\n》、字节跳动/快手早期关键节点的系列特写。\n【图】▲录制合影（左起：潘乱、庄明浩、阑夕）\n本期编辑：怀杭",
+      "lang": "zh",
+      "chars": 48909,
+      "text_file": "data/2026-09-15/podcasts/乱翻书__273逛完外滩大会发现蚂蚁找到了新位置.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "A Brain Too Big to Carry — On-Device vs Datacenter Inference",
+      "date": "2026-09-14 16:37 UTC",
+      "link": "https://newsletter.semianalysis.com/p/a-brain-too-big-to-carry-on-device",
+      "summary": "Robot Models, Silicon Efficiency, Jetson Thor vs. B300 TCO, Deployments, The Network Wall",
+      "chars": 45615,
+      "text_file": "data/2026-09-15/articles/semianalysis__a_brain_too_big_to_carry_on-device_vs_datacen.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Product Management is Still All About Telling Stories",
+      "date": "2026-09-14 14:02 UTC",
+      "link": "https://www.a16z.news/p/product-management-is-still-all-about",
+      "summary": "What AI is changing. What it’s not.",
+      "chars": 20117,
+      "text_file": "data/2026-09-15/articles/a16z__product_management_is_still_all_about_telling.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Boris Cherny",
+      "handle": "bcherny",
+      "tweet_id": "2099322487603634395",
+      "date": "2026-09-14T02:20:59.000Z",
+      "text": "Fable solved the Cyphral Distich (a 370 year old cypher). Super cool way to use Claude\n\nhttps://t.co/0fgTdITSfO",
+      "url": "https://x.com/bcherny/status/2099322487603634395",
+      "likes": 1937,
+      "retweets": 86,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2099345068893298816",
+      "date": "2026-09-14T03:50:43.000Z",
+      "text": "I'm really curious who's actually managing this account https://t.co/BWu6Imtxuy",
+      "url": "https://x.com/petergyang/status/2099345068893298816",
+      "likes": 39,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2099324752863379523"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2099200231820963891",
+      "date": "2026-09-13T18:15:11.000Z",
+      "text": "While we're all debating whether AI will lead to a bad outcome for humanity, it's important to remember that most of the world hasn’t even started using it yet.\n\nPedro, Brex’s CEO, likes to refer to a specific chart (see the clip):\n\n“Each dot is 3.2 million people. Every gray box is someone that never used AI in the world (84%). Green boxes are free chatbot users (16%). Orange boxes are people who pay $20 a month for AI (~0.3%).\n\nAnd this tiny red box is people using agents effectively (~0.04%).”\n\nI think the chart is from February 2026, so things have probably picked up since then, but we're still super early.\n\n📌 Watch the full episode here: https://t.co/0E7XHvBEBR",
+      "url": "https://x.com/petergyang/status/2099200231820963891",
+      "likes": 44,
+      "retweets": 5,
+      "is_quote": true,
+      "quoted_id": "2099139853170733280"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2099175305818890472",
+      "date": "2026-09-13T16:36:08.000Z",
+      "text": "Record &amp; Replay seems broken and won't trigger @nickbaumann_ @OpenAIDevs https://t.co/RYm8F1y3vT",
+      "url": "https://x.com/petergyang/status/2099175305818890472",
+      "likes": 8,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Nan Yu",
+      "handle": "thenanyu",
+      "tweet_id": "2099216347138011190",
+      "date": "2026-09-13T19:19:13.000Z",
+      "text": "37 signals would have called the the Nuse Feed https://t.co/RigssbRcMo",
+      "url": "https://x.com/thenanyu/status/2099216347138011190",
+      "likes": 13,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2099150117156888757"
+    },
+    {
+      "source": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "tweet_id": "2099224198732517750",
+      "date": "2026-09-13T19:50:25.000Z",
+      "text": "Stud traders like Kaushik love Muse! https://t.co/UPhEaGi5g6",
+      "url": "https://x.com/realmadhuguru/status/2099224198732517750",
+      "likes": 6,
+      "retweets": 1,
+      "is_quote": true,
+      "quoted_id": "2099154608325267720"
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2099343474734911917",
+      "date": "2026-09-14T03:44:22.000Z",
+      "text": "Nominal determinism strikes again. https://t.co/rFD1V1y2D9",
+      "url": "https://x.com/amasad/status/2099343474734911917",
+      "likes": 126,
+      "retweets": 4,
+      "is_quote": true,
+      "quoted_id": "2099320447057961233"
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2099197117013340450",
+      "date": "2026-09-13T18:02:48.000Z",
+      "text": "It was painful to see so many users being priced out of AI coding for a while. But now it’s free to build again! https://t.co/LBe5fPBBGC https://t.co/VwkZ2a5QAN",
+      "url": "https://x.com/amasad/status/2099197117013340450",
+      "likes": 179,
+      "retweets": 12,
+      "is_quote": true,
+      "quoted_id": "2097229192157188361"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2099248037507797164",
+      "date": "2026-09-13T21:25:08.000Z",
+      "text": "You don't get it, I build software to relax",
+      "url": "https://x.com/rauchg/status/2099248037507797164",
+      "likes": 2523,
+      "retweets": 213,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Aaron Levie",
+      "handle": "levie",
+      "tweet_id": "2099167992835924301",
+      "date": "2026-09-13T16:07:04.000Z",
+      "text": "“Pacing” can be somewhat of a trigger word because it sounds like an arbitrary slow down of capability or a way to hobble competitors through undue regulation. \n\nHowever, the specific improvement goals laid out in Dario’s are absolute necessities in AI development. We expect equivalent in areas like aerospace, life sciences, health care, and other industries, and AI development likely shouldn’t be that different. \n\nAI is going to be the technology underpinning our financial trading systems, our medical devices, our biotech breakthroughs, defense systems, government workflows, and many more mission critical domains. So it completely stands to reason that we want these systems to be safe and “aligned”. \n\nHow we get there -without meaningfully slowing down innovation progress or reducing competition- is one of the most complex questions in the 21st century, but the need is clearly real.",
+      "url": "https://x.com/levie/status/2099167992835924301",
+      "likes": 168,
+      "retweets": 30,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2099181676039704870",
+      "date": "2026-09-13T17:01:27.000Z",
+      "text": "The content about startups we do is merely the teaser for the specific advice we give 1:1 when you actually are a YC startup https://t.co/MZ2tMlxLzJ",
+      "url": "https://x.com/garrytan/status/2099181676039704870",
+      "likes": 219,
+      "retweets": 9,
+      "is_quote": true,
+      "quoted_id": "2099142144917159984"
+    },
+    {
+      "source": "Matt Turck",
+      "handle": "mattturck",
+      "tweet_id": "2099257395708879286",
+      "date": "2026-09-13T22:02:20.000Z",
+      "text": "Seed investor when a company he forgot about years ago gets acquired out of nowhere https://t.co/X6NWlHRNle",
+      "url": "https://x.com/mattturck/status/2099257395708879286",
+      "likes": 333,
+      "retweets": 10,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "tweet_id": "2099348631291883945",
+      "date": "2026-09-14T04:04:52.000Z",
+      "text": "Anyone else notices this problem with Astra?\n\nAstra: I have done X\nMe: This is wrong, you should do Y instead\nAstra: You're right. I should do Y\nMe: ...\n\nWhy doesn't it just go and do Y, like the other models??",
+      "url": "https://x.com/zarazhangrui/status/2099348631291883945",
+      "likes": 170,
+      "retweets": 3,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Nikunj Kothari",
+      "handle": "nikunj",
+      "tweet_id": "2099272635926671532",
+      "date": "2026-09-13T23:02:53.000Z",
+      "text": "All the questions to ask when you’re joining a startup https://t.co/m3c5GRQ7kI",
+      "url": "https://x.com/nikunj/status/2099272635926671532",
+      "likes": 0,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2000708700823335051"
+    },
+    {
+      "source": "Nikunj Kothari",
+      "handle": "nikunj",
+      "tweet_id": "2099271686969569309",
+      "date": "2026-09-13T22:59:07.000Z",
+      "text": "When a seed investor realizes their marked down investment is suddenly going to return half the fund..  https://t.co/5V4BhqW7Dx",
+      "url": "https://x.com/nikunj/status/2099271686969569309",
+      "likes": 35,
+      "retweets": 1,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Nikunj Kothari",
+      "handle": "nikunj",
+      "tweet_id": "2099198567923765357",
+      "date": "2026-09-13T18:08:34.000Z",
+      "text": "I get at least 1x text a day from a founder facing this exact conundrum..\n\nApplicants your entry valuation being higher and your total comp being higher is often a bug and not a feature. \n\nJust because a company has raised at a higher valuation doesn’t mean they are realistically more secure and the better place to go. \n\nYou have to really look at the numbers objectively - what’s the market, what’s the traction and how well positioned are they. And if they are worth 100x ARR, well they have to grow into it. \n\nThen, do your own analysis on what do you think this company exits at. Not to mention your 409a prices and tax implications. \n\nIt’s so freaking important right now when everything is upside down and numbers are not rooted in reality.\n\nPS: I have first hand personal experience with this. I worked at a company that raised $60M from probably one of the best investors on this planet. And the company folded 3 years in, all equity wiped out.",
+      "url": "https://x.com/nikunj/status/2099198567923765357",
+      "likes": 75,
+      "retweets": 1,
+      "is_quote": true,
+      "quoted_id": "2099189835982315905"
+    },
+    {
+      "source": "Peter Steinberger",
+      "handle": "steipete",
+      "tweet_id": "2099262092633411832",
+      "date": "2026-09-13T22:20:59.000Z",
+      "text": "And yes, I'll test this for a few weeks and if we see that this helps the majority of users I'll try to get this into codex!",
+      "url": "https://x.com/steipete/status/2099262092633411832",
+      "likes": 45,
+      "retweets": 1,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Steinberger",
+      "handle": "steipete",
+      "tweet_id": "2099201162922938418",
+      "date": "2026-09-13T18:18:53.000Z",
+      "text": "This is all written in Rust.\nBecause you can't escape Rust. https://t.co/WnauslO08k",
+      "url": "https://x.com/steipete/status/2099201162922938418",
+      "likes": 102,
+      "retweets": 5,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Steinberger",
+      "handle": "steipete",
+      "tweet_id": "2099197266636783989",
+      "date": "2026-09-13T18:03:24.000Z",
+      "text": "Next release (or dev channel) does worktrees ~80% faster via apfs/brtfs/xfs/ReFS folder clones.\n\nAlso saves lots of disk space.",
+      "url": "https://x.com/steipete/status/2099197266636783989",
+      "likes": 643,
+      "retweets": 18,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Dan Shipper",
+      "handle": "danshipper",
+      "tweet_id": "2099231248027730195",
+      "date": "2026-09-13T20:18:26.000Z",
+      "text": "started using Astra medium for simple tasks\n\ncall that pacing the frontier",
+      "url": "https://x.com/danshipper/status/2099231248027730195",
+      "likes": 285,
+      "retweets": 7,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Dan Shipper",
+      "handle": "danshipper",
+      "tweet_id": "2099152769080828197",
+      "date": "2026-09-13T15:06:35.000Z",
+      "text": "we’re going to the moon https://t.co/f02uVIYNHS",
+      "url": "https://x.com/danshipper/status/2099152769080828197",
+      "likes": 9,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2099152064072790468"
+    }
+  ]
+}
