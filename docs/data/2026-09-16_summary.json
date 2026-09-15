@@ -1,0 +1,65 @@
+{
+  "date": "2026-09-16",
+  "generated_at": "2026-09-15T23:35:04.859561+00:00",
+  "stats": {
+    "tweets": 7,
+    "podcasts": 0,
+    "articles": 2
+  },
+  "tweets": [
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 联合创始人兼首席执行官 Aaron Levie 认为业界应重新校准对 agentic workloads 规模的预期：随着智能体集群（agent swarms）、更强的电脑操作能力、新一批 API 与 MCP、以及 Muse/Instinct 等新形态涌现，我们会把智能体用于远超此前想象的任务，后台智能体主动搜集信息、替我们干活的信息量将是单次会话手动提示的 **100 倍**。他举例智能体将 7×24 小时为你精准挖角人才、扫描客户业务的每个信号、处理每一份会议记录、审查每一行代码的安全漏洞等，并称我们目前仅走到这一形态的约 **1%**。他同时强调 AI 时代安全与生产力密不可分：智能体对企业系统的访问量是人类的 100 倍，若放开信息访问则数据难以管控、若全部锁死又拿不到生产力收益，因此需要全新的治理方式；Box 正通过 Box Shield 按文档密级对智能体可访问内容做细粒度管控，并研发对异常访问的自动检测/告警/拦截。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch 提出一个与工程主流略有不同的判断：智能体的能力上限取决于你给它的证明检查器、编译器、类型系统和 linter，\"验证器（verifiers）+ 技能（skills）正在成为新的'框架'\"，并以 shadcn/lint 为例说明它能让智能体守住设计系统的规则。他还宣布延揽 Google Cloud Run 之父 Steren 加盟 Vercel，主管 Fluid 系列计算产品（Functions、Containers、Sandbox、Builds），认为 serverless 是云的上一章，而智能体是下一个前沿、需要为其专门设计的新计算原语。"
+    },
+    {
+      "author": "Matt Turck",
+      "handle": "mattturck",
+      "summary_zh": "FirstMark 合伙人 Matt Turck 提醒市场：不要误以为 AI 进展会放缓——参与者太多、经济激励太强、且国内与全球都陷入囚徒困境，这些因素决定了 AI 的推进不会停下。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI Codex 工程负责人 Thibault Sottiaux 预告本周 OpenAI 的发布密度将达到\"你原本以为要留到 DevDay 2025 才会有\"的水平，暗示将有一波密集的产品更新。"
+    },
+    {
+      "author": "Nikunj Kothari",
+      "handle": "nikunj",
+      "summary_zh": "投资人 Nikunj Kothari 宣布领投燃油支付公司 Piston 的 A 轮并加入董事会（与 Spark Capital、Pear VC 同投）。他长期关注\"闭环支付\"，认为美国每年数千亿美元的燃油支出多经由易被盗刷、盗用的油卡完成，车队要承担欺诈损失、加油站又需付交换费却触达不到车队；Piston 的思路是干脆去掉卡片，走自有支付轨道、由 Piston 先付加油站再向车队开票，每笔交易绑定具体司机、时间、地点与油品。关键指标：支付额增长 **8 倍**、商户网络增长 **40 倍**、留存率保持在 **98%** 以上，已覆盖 **48** 个州的 **2000** 家加油站，车队免费使用即可获得油卡无法提供的反欺诈能力。"
+    },
+    {
+      "author": "Boris Cherny",
+      "handle": "bcherny",
+      "summary_zh": "Anthropic 的 Claude Code 负责人 Boris Cherny 宣布 Claude Mods（社区扩展）正式上线，并称已有人用它做出了\"在 Claude 里跑 Tetris\"的 mod，附带社区更新、技术细节与更多演示。"
+    },
+    {
+      "author": "Josh Woodward",
+      "handle": "joshwoodward",
+      "summary_zh": "Google Labs 与 Gemini 负责人 Josh Woodward 分享：两个月前发起的 Gemini 高级用户测试群已测试了 20 多项早期功能，如今新一批用户正获得 Daily Brief 与 Personal Intelligence 下一步功能的抢先体验，并会持续扩招。"
+    }
+  ],
+  "podcasts": [],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "Vera Rubin NVL72 Agentic Inference: 67x better Performance per Dollar",
+      "date": "2026-09-14 22:08 UTC",
+      "link": "https://newsletter.semianalysis.com/p/vera-rubin-nvl72-agentic-inference",
+      "chars": 15103,
+      "summary_zh": "SemiAnalysis 发布了英伟达新一代 Vera Rubin NVL72（VR NVL72）平台在智能体推理（agentic inference）场景下的首批实测数据，基于其行业标准基准 AgentX（重放真实智能体流量）测得，即使跑在预发布软件上，Rubin 的表现已远超黄仁勋在 GTC 2026 的宣称——作者认为老黄再次\"藏拙\"（如同 2024 年称 GB200 比 Hopper 快 **30 倍**、实测却达 **98 倍**）。\n\n核心结论是能效与经济性的代际跃升。按\"每美元 TCO 产出 token\"衡量：在 **170 TPS**、Apples-to-Apples 的 TRTLLM NVFP4 Dense 下，VR NVL72 达到 GB300 的约 **67 倍**吞吐/TCO；在多数厂商实际部署区间（**60–100 TPS**），也有 **1.4–3 倍**优势。相较单节点 B300，在 80 TPS 下每美元可多产 **10 倍** token；相较 H200，80 TPS 时 **18 倍**、120 TPS 时 **39 倍**。最大 P90 交互速度达 **276.24 TPS**，比 GB300 Dynamo TRTLLM 的 171.53 高约 **61%**。\n\n每兆瓦吞吐（tok/s/MW）：GTC 老黄称仅 3 倍，实测已达 **7 倍**。以 DeepSeek V4 Pro 负载，100 TPS 时 Rubin 约 **5940 万** tok/s/MW，是最强 GB300 引擎的 **2.09 倍**、MI355X 的 **29.5 倍**；170 TPS 对 GB300 TRTLLM 达 **62.9 倍**、对 GB300 SGLang 为 **5.56 倍**（引擎标注很关键）。Rubin 还首创动态调power \"DSX MaxLPS\"，可在同等数据中心功耗下塞入更多 GPU。\n\n经济性：75 TPS、60% 利用率、无授权费下，每全含兆瓦（GW）年营收 **1595 亿美元**、模型化利润 **1499 亿美元**，比最强 GB300 配置（Dynamo SGLang，营收 1149 亿/利润 1053 亿）多约 **39% 营收、42% 利润**（每 GW 多约 **446 亿美元**利润）。即便按 2026 年 7 月 3 年租赁价（Rubin **$8.5/芯片/时** vs Blackwell Ultra **$5**）Rubin 每美元租赁 TCO 仍能多产 62%–最高 **16 倍** token。作者结论直白：有钱就该买/租 VR NVL72，token 更便宜、更赚钱。整体利润/GW 已比 Blackwell 高 **2 倍**以上，且随软件成熟差距会扩大；Rubin 优势在在线智能体推理与训练最明显，离线批处理较小。"
+    },
+    {
+      "source": "a16z",
+      "title": "Magazine Depth Affordability Is a Choice",
+      "date": "2026-09-15 14:03 UTC",
+      "link": "https://www.a16z.news/p/magazine-depth-affordability-is-a",
+      "chars": 25413,
+      "summary_zh": "a16z 撰文论证美国\"弹药库深度\"（munitions magazine depth）问题的核心不是钱不够，而是采购结构错配，这对国防科技新创的投资逻辑意义重大。当前五角大楼弹药计划中，**97%** 预算投向传统弹药，仅 **不足3%** 投向低成本新入局者。作者认为该比例应大幅调整。\n\n成本对比是关键论据：战斧巡航导弹单价 **200万–400万美元**，而 Covenant 的 Anthem、Anduril 的 Barracuda 系列仅为其 **1/5 到 1/10**；洛马 PrSM Increment 1 初期 **270万美元**（规模化后 **170万美元**），性能却不及 Castelion 的高超音速 Blackbeard GL（成本 **低于50万美元**）。计入政府自担的研发费用（约占传统弹药生命周期成本 **25%+**），单发传统导弹实际比新入局者贵 **12–15倍**。\n\n作者以 **100美元** 预算做简化推演：按当前 97:3 分配约得 73 发传统弹+30 发新弹；若参照俄乌战场\"每 1 发昂贵导弹配 3–10 发廉价无人机\"的比例，同样 100 美元可买 61 发传统弹+180 发新弹。\n\n需求端已成型：Castelion Blackbeard 签约年产 **500+** 发、海军规划 FY27–31 采购 **4,510** 发；空军\"可负担质量弹药\"计划 **1.26亿美元** 采购近 **2.8万** 件武器；Anduril 向陆军供 **至少3,000** 枚 Barracuda-500M。新入局者用私募资本（含 a16z）自建产线，绕开政府\"善变需求\"——不稳定订单使 JAGM 单价从均值 **21.2万** 飙至 **36万美元**。\n\nFY27 NDAA 授权国防总额 **1.15万亿美元**（史上最高），导弹采购请求增 **188%**，弹药军费向占陆军采购 **41%** 攀升。参院军委会 **18–9** 通过条款要求加速采购低成本弹药。防空拦截弹是下一战场（爱国者 **390万** 打 **2万美元** 无人机的成本失衡；Golden Dome 若按旧模式建 20 年将耗 **1.2万亿美元**），但拦截弹降本更难、尚无人验证。文末披露 Anduril、Covenant、Castelion 均为 a16z 投资组合公司。"
+    }
+  ]
+}
