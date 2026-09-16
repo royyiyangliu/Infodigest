@@ -1,0 +1,102 @@
+Source  : Citrini
+Title   : Robotics Tipping Point: A Citrini Field Trip
+Date    : 2026-09-16 14:34 UTC
+Link    : https://www.citriniresearch.com/p/robotics-tipping-point-a-citrini
+────────────────────────────────────────────────────────────
+
+It was 60 degrees, damp and windy – August in San Francisco.
+Between graffitied picnic tables in a dive bar’s backyard, between local IPAs and cheap lagers, I listened to the “
+reindustrialize bros”
+talk about slicing US-sourced magnet slabs, building electric motors for military drones, and machining actuators for robots
+Made in America
+.
+The energy was palpable – a group of mostly young guys passionate about building technology that exists in your hand rather than on a screen. No one could doubt their enthusiasm, but I needed to see it for myself.
+Under its new branding of
+“Physical AI”
+, is
+robotics
+evolving from Bay Area backwaters to a true technological renaissance? Or was this happy hour more like a renaissance fair – a romantic longing for an irretrievable past when the US made things?
+As a Citrini analyst on a field trip – I wasn’t leaving without some answers.
+At Citrini, we’ve dubbed robotics a thematic mega-trend. We’ve followed the industry and its enablers dating back to our
+Humanoid Robotics
+primer last April, and have held “robotics” as a core basket in the Citrindex since. Last year,
+I traveled to China
+to meet their top robot shops and the factories promising the actuators and roller-screws to feed them.
+But it’s been an admittedly hard sector to tackle, especially from behind a keyboard. The problem with robotics today is that its most impressive versions live behind a shroud. Everyone has talked to ChatGPT, most readers have probably used a coding agent, yet very few have seen an AI-enabled robot fold laundry, pack a mixed pallet, or speak with a pedestrian.
+I went to pull back the curtain.
+Across a week in the Bay, I met with a dozen of the leading labs, watched bots in action, and prodded engineers and investors to understand the
+true
+state of US robotics. Most importantly I saw it with my own two, biological, eyes.
+What I found changed my view of Robotics broadly, my understanding of form factors and neural networks, my handicap of commercialization timeline,
+my view of the trade…
+Note to Readers on Citrini’s New Ownership
+Waiting on its (ChatGPT) Moment
+In theory, the computational architecture that ushered the AI revolution – generalized intelligence of LLMs – should also unlock a new wave of instruments that both understand and manipulate the physical world. Jensen called Physical AI the “next frontier” of intelligence, Goldman Sachs called humanoids the next leg of the robotics trade.
+But… where are the robots today? Not in mass commercialization, but mostly in development training and tele-op’ed demos, often in controlled environments, optimizing clicks over durability. Early real-world deployments, where they exist, are closer to pilots than obvious ROI investments. The best stuff is mostly held behind tightly monitored, closed doors.
+The unavoidable cliché (which I heard plenty of times) is that robotics is waiting for its “ChatGPT moment”.
+But what does that even mean? For stock-watchers, they are probably asking
+“when do the charts go up?”
+In my opinion, a true ChatGPT moment is more of a
+universal recognition
+of a broadly applicable and highly disruptive technology. I doubt OpenAI’s own engineers needed the public release to understand what they were sitting on.
+Part of the problem: there are plenty of candidates earning partial credit, and plenty who have cried wolf. Take just the last month, as an example.
+In August, GeneralistAI
+announced GEN-1.5
+, a “one-shot” learner to significant fanfare, showing that a bot could complete simple tasks of manipulation based on instructions
+without
+task-specific training.
+This “in-context” learning suggests the bot has enough broad understanding of the physical world (what are objects, how do they move) that it doesn’t need to be fed mountains of data to brute-force specific tasks.
+Technical detractors, however, question whether this is true generalization, or whether the “distribution” of pretraining data provided sufficiently similar (but technically distinct) examples. Non-technical detractors suggest that opening a pencil case is far from “technological revolution”.
+Seeing an infant begin to understand and manipulate the world is
+awe-inspiring
+but a far cry from high utility. Even if you know it’s learning, you know there is a long way to go.
+Not to be outdone,
+Skild AI
+followed up with a very similar announcement of “in-context” demonstrations of its S1 model though with more complex tasks lasting up to 10 minutes – most amusing in my opinion, cooking and flipping a pancake!
+(We’ll get much deeper on this brain development later.)
+The language here is intentional. The obvious allusion is
+OpenAI’s May 2020 paper:
+“Language Models are Few-Shot Learners”
+which showed a massive breakthrough in GPT-3’s generalized reasoning, which improved dramatically with pre-training scale – implicitly suggesting their own future will follow that of
+TradAI
+(“traditional AI”, as I’m trying to coin it).
+But if the ChatGPT litmus test is
+universal recognition
+, last month’s World Robotics Games in China was arguably closer to the mark.
+A flood of viral videos emerged from Beijing showing the advancements in humanoid-form hardware: bots running faster than Usain Bolt, high jumping to ceiling height, and occasionally crashing in comical plumes of sparks and smoke. Unitree’s concurrent IPO helped attract the financial world’s attention.
+Humanoid Olympics may seem like an exercise in the absurd, but really are a top-down strategic effort to push the limits of hardware in a competitive, visible and verifiable setting.
+Sending a humanoid at full sprint into a crash wall is literally
+“moving fast and breaking things”.
+Scoff at your own risk. Americans watching this little guy going out in a literal blaze of glory should be upset it’s not happening in their country.
+The
+locomotion
+of these bots, the speed of iteration in hardware, and a growing list of serious builders, is undoubtedly impressive. But we’ve seen impressive, tele-operated and pre-programmed acrobatics for years. Remember Boston Dynamics caught the world’s attention with its humanoid back in 2009. But these machines remain a
+Sharper Image
+novelty without a brain.
+Ok… but what about back in May, when Figure AI hosted a nine day livestream of a furiously-dedicated humanoid (team) sorting 250,000 packages – a blend of both autonomous cognition, dexterous manipulation and full body, locomotion, and real world application?
+Each of these examples misses the mark in some way. We’ve shown the key attributes – early intelligence and autonomy, highly impressive locomotion, real-world automation. What’s less obvious is all three rolled into one indisputably useful package.
+I think the “ChatGPT moment” is a red herring
+(perhaps a cliché of its own)
+.
+There might be a massive “aha” moment, but more likely it will be a
+mosaic of signals
+that tell us we’ve reached the tipping point. It will be only
+after
+the breakthroughs occur and products appear in the real world that their utility is widely acknowledged.
+As far as where we stand today, here’s what I think is true. The basic locomotion of humanoids is a solved problem that’s only getting cheaper and more accessible (geopolitical and supply chain considerations notwithstanding). Complex dexterity is meaningfully more complicated but is being successfully attacked through multiple hardware approaches. Simple repetitive tasks like package sorting are already readily trainable, unlocking automation opportunities and near-term commercialization while models and bots improve. Complex tasks are coming along faster than you think.
+Robotic autonomy is more of a
+curve
+than a switch, and it looks something like this.
+Broad generalizability is the furthest goal, but all the ingredients are there so clearly that it seems hard to bet against. Every day the curve pushes a bit further to the right.
+Maybe the best answer to the cliché is to embrace it. If you had a time machine,
+would you invest in AI before its ChatGPT moment
+?
+But before you get robo-pilled, we need to get into the details. There’s a lot of ground to cover, but if you bear with me, it will be well worth it
+(between you and me, this is my favorite piece I’ve written)
+.
+The Body: Hardware and Humanoids
+The Brain: Grading the Class
+Capability and Commercialization
+Four Predictions for Robotics
+What’s the Trade?
+Read more
