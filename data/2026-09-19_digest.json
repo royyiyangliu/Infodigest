@@ -1,0 +1,290 @@
+{
+  "fetch_date": "2026-09-19",
+  "fetch_time": "2026-09-18T19:25:48.279332+00:00",
+  "stats": {
+    "new_podcast_episodes": 1,
+    "new_articles": 2,
+    "new_tweets": 20,
+    "total_podcasts": 1,
+    "total_articles": 2,
+    "total_tweets": 20,
+    "transcribed_this_run": 1
+  },
+  "podcasts": [
+    {
+      "source": "硅谷101",
+      "title": "外滩大会线下圆桌｜敢把钱包交给AI吗？聊聊Agent交易爆发前夜的信任基建",
+      "date": "2026-09-17 17:00 UTC",
+      "link": "https://podcasts.apple.com/us/podcast/%E5%A4%96%E6%BB%A9%E5%A4%A7%E4%BC%9A%E7%BA%BF%E4%B8%8B%E5%9C%86%E6%A1%8C-%E6%95%A2%E6%8A%8A%E9%92%B1%E5%8C%85%E4%BA%A4%E7%BB%99ai%E5%90%97-%E8%81%8A%E8%81%8Aagent%E4%BA%A4%E6%98%93%E7%88%86%E5%8F%91%E5%89%8D%E5%A4%9C%E7%9A%84%E4%BF%A1%E4%BB%BB%E5%9F%BA%E5%BB%BA/id1498541229?i=1000790423085&uo=4",
+      "orig_link": "https://sv101.fireside.fm/265",
+      "audio_url": "https://aphid.fireside.fm/d/1437767933/f0f20376-8faf-4940-b920-84af6c734e2d/78ec2d74-0ad7-4c6f-9764-728eec0e6e87.mp3",
+      "duration": "35:43",
+      "summary": "本期节目来自2026 Inclusion·外滩大会主论坛圆桌——“当Agent成为交易主体”。\nAgent的爆发不止于应用层，当应用不断涌现，底层的交易和支付方式也在被重写。今年的AI交易正沿着两条线同时展开：一条是Agent帮人完成任务，比如今年6月上线的AI版支付宝，一句话就能打车、点咖啡；另一条是Agent-to-Agent，比如两个月前，Mastercard发布了专为机器间支付设计的网络服务。\n当Agent从对话走向办事、从推荐走向交易，“信任”成了绕不开的关键词。它替你花出的每一分钱，都真的经过了你授权吗？发起交易的Agent究竟是谁？它的支付权限有多大？出了问题又该由谁负责？这些围绕授权、身份、权限、责任的一个个问题，决定了我们距离“钱包交给AI”有多远。\n【主播】\n泓君，硅谷101创始人，播客主理人\n【嘉宾】\n韩歆毅，蚂蚁集团CEO\nJorn Lambert，万事达卡首席产品官\n刘作虎，OPPO高级副总裁兼首席产品官\n周靖人，阿里巴巴集团首席科学家\n（Jorn Lambert先生的发言为后期中文配音呈现）\n【你将听到】\n04:25 “先有鸡还是先有蛋”：智能体商业为什么卡住了\n06:26 当Agent开始交易，支付网络一切都要彻底重写\n10:15 手机将成为意图入口、个人智能和主动智能\n12:34 模型还缺什么？长期上下文、提问能力与可靠执行\n16:00 信任基建：授权、身份、KYA、资金安全与可追溯\n19:59 手机厂商视角：能力信任、风险信任与A2A行为规范\n22:55 “普拉提课测试”，授权、沙箱与安全执行\n26:03 未来5年新商业机会：800亿Agent的商业想象\n28:44 一杯咖啡怎么选出来？大模型推荐机制拆解\n30:36 未来20年，手机仍是最核心设备吗\n31:15 A2A商业，海量微交易所需的支付轨道\n【硅谷101年会来了，线下见】\n10月10日—11日，我们将在【硅谷】举办Alignment 2026年度大会，从大模型、Agent、机器人到AI Infra，从实验室里的突破，到真实世界的商业化，我们直击AI变化最剧烈的前沿。 来自OpenAI、Anthropic、NVIDIA、Meta、Google DeepMind、SemiAnalysis、Cerebras等公司的研究者、创业者与投资人将齐聚现场，分享正在发生的机遇和挑战。\n报名链接\n【硅谷101听友群】\n在这里，和同好一起深聊科技、商业与未来，期待你的声音，也期待更多有趣的讨论。\n扫码加入，即刻相遇！\n【监制】\n泓君\n【后期】\nAmei\n【运营】\n朱婕\n【BGM】\nStill Waiting For You STEMS INSTRUMENTS - Wave Saver\nSeven Daughters - Fabien Tell\nReclaim - Megan\n【在这里找到我们】\n公众号：硅谷101\n收听渠道：Apple Podcast｜Spotify｜小宇宙｜喜马拉雅｜蜻蜓FM｜荔枝FM｜网易云音乐｜QQ音乐\n其他平台：YouTube｜Bilibili 搜索「硅谷101播客」\n联系我们：\npodcast@sv101.net\nSpecial Guests: Jorn Lambert, 刘作虎, 周靖人, and 韩歆毅.",
+      "lang": "zh",
+      "chars": 19378,
+      "text_file": "data/2026-09-19/podcasts/硅谷101__外滩大会线下圆桌敢把钱包交给ai吗聊聊agent交易爆发前夜的信任基建.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "Engrams Embedding Entendre: Codesign for Efficient DRAM/SSD Offloading",
+      "date": "2026-09-18 14:34 UTC",
+      "link": "https://newsletter.semianalysis.com/p/engrams-embedding-entendre-codesign",
+      "summary": "New Model Architecture Implications for TAM of DRAM/NVMe, DeepSeek V4.1 Flash, AgentX, InferenceX, NVMe experiments",
+      "chars": 11882,
+      "text_file": "data/2026-09-19/articles/semianalysis__engrams_embedding_entendre_codesign_for_effic.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Charts of the Week: So Many Apps, So Little Time",
+      "date": "2026-09-18 14:04 UTC",
+      "link": "https://www.a16z.news/p/charts-of-the-week-so-many-apps-so",
+      "summary": "New Breed of Unicorn; Citrini Called the Bottom; MA and CA Make it Very Expensive to Start a Business",
+      "chars": 10182,
+      "text_file": "data/2026-09-19/articles/a16z__charts_of_the_week_so_many_apps_so_little_tim.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Josh Woodward",
+      "handle": "joshwoodward",
+      "tweet_id": "2100665648825483726",
+      "date": "2026-09-17T19:18:13.000Z",
+      "text": "Have a family? We ❤️ this in ours. https://t.co/qGXb6Xtl9J",
+      "url": "https://x.com/joshwoodward/status/2100665648825483726",
+      "likes": 185,
+      "retweets": 14,
+      "is_quote": true,
+      "quoted_id": "2100653821907366366"
+    },
+    {
+      "source": "Josh Woodward",
+      "handle": "joshwoodward",
+      "tweet_id": "2100616682431807860",
+      "date": "2026-09-17T16:03:39.000Z",
+      "text": "If you're not using @Gemini_Notebook on your phone yet, you're missing out. This is such a cool story! https://t.co/UZdm9Knj1f",
+      "url": "https://x.com/joshwoodward/status/2100616682431807860",
+      "likes": 131,
+      "retweets": 8,
+      "is_quote": true,
+      "quoted_id": "2100612880047767553"
+    },
+    {
+      "source": "Boris Cherny",
+      "handle": "bcherny",
+      "tweet_id": "2100669598995816511",
+      "date": "2026-09-17T19:33:55.000Z",
+      "text": "Projects have changed not only how I interact with Claude but how I code.\n\nI stopped managing sessions. I just send thoughts as they come, Claude splits them into threads, and the project remembers how I work. It's where I do a ton of my coding now.\n\n[screenshot: my actual prompts for claude code cli yesterday]",
+      "url": "https://x.com/bcherny/status/2100669598995816511",
+      "likes": 2352,
+      "retweets": 85,
+      "is_quote": true,
+      "quoted_id": "2100633571543367691"
+    },
+    {
+      "source": "Boris Cherny",
+      "handle": "bcherny",
+      "tweet_id": "2100639991244427490",
+      "date": "2026-09-17T17:36:16.000Z",
+      "text": "Projects are how I write a lot of my code these days. Really excited for everyone to try the new experience! Rolling out now https://t.co/bpaufmEweL",
+      "url": "https://x.com/bcherny/status/2100639991244427490",
+      "likes": 1926,
+      "retweets": 50,
+      "is_quote": true,
+      "quoted_id": "2100632677904744716"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2100645454245720513",
+      "date": "2026-09-17T17:57:59.000Z",
+      "text": "Has anyone yet tried to get Astra and Fable to agree on the perfect styleguide? And then host it somewhere with a web mcp.",
+      "url": "https://x.com/thsottiaux/status/2100645454245720513",
+      "likes": 5524,
+      "retweets": 88,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2100740523539751337",
+      "date": "2026-09-18T00:15:45.000Z",
+      "text": "My little @Muse red panda is both cute and saving me money - a winning combination https://t.co/c6nLKL53MC",
+      "url": "https://x.com/petergyang/status/2100740523539751337",
+      "likes": 17,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2100683741878468768",
+      "date": "2026-09-17T20:30:07.000Z",
+      "text": "Aww it's so cute https://t.co/YKbSkYVrbG",
+      "url": "https://x.com/petergyang/status/2100683741878468768",
+      "likes": 8,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Cat Wu",
+      "handle": "_catwu",
+      "tweet_id": "2100641163120423057",
+      "date": "2026-09-17T17:40:55.000Z",
+      "text": "In the new Projects experience, Claude coordinates all of your sessions. \n\nI've been using it every day since it lets me operate at a higher level of abstraction. I fire off a batch of tasks and move on. Claude has context on everything I'm working on and can give me an aggregated status update whenever I ask. It also has long-lived memory that evolves as I use it. \n\nWe're rolling this out over the coming weeks. Let me know what you think!",
+      "url": "https://x.com/_catwu/status/2100641163120423057",
+      "likes": 356,
+      "retweets": 10,
+      "is_quote": true,
+      "quoted_id": "2100633571543367691"
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2100638355872706571",
+      "date": "2026-09-17T17:29:46.000Z",
+      "text": "Projects brings the architecture of Claude Tag to Claude Code.\n\nIt has one agent per project that manages memory and spins off subagents for tasks. \n\nYou can ask it to be proactive, to do things on a schedule, etc.\n\nIt feels a lot nicer than a bunch of sessions, try it out! https://t.co/qzyEgLUyN4",
+      "url": "https://x.com/trq212/status/2100638355872706571",
+      "likes": 1041,
+      "retweets": 51,
+      "is_quote": true,
+      "quoted_id": "2100632677904744716"
+    },
+    {
+      "source": "Google Labs",
+      "handle": "GoogleLabs",
+      "tweet_id": "2100653821907366366",
+      "date": "2026-09-17T18:31:14.000Z",
+      "text": "CC the entire fam 🤝!\n\nToday, we’re announcing the new CC – an AI agent built for families to spend less time on logistics and more time together.\n\nYou can now:\n\n👤 Add up to 5 members to your CC agent\n☀️ Start mornings aligned with a shared \"Your Day Ahead\" brief email\n🗓️ Autosync schedules & to-dos with a shared Google Calendar and Tasks\n💬 Coordinate in Google Chat with CC to offload relevant tasks (ie., crafting weekly meal plans, school supply shopping lists, etc)\n📝 Delegate paperwork (ie., permission slips, forms, and more) for CC to complete under your direction\n📌 Keep tabs on the details – CC remembers what applies to everyone (ie., family grocery lists, favorite restaurants) versus what applies to one person (ie., dietary restrictions, local timezones)\n\nReady to keep everybody on the same page? Join the waitlist or upgrade your existing CC (US only, 18+): https://t.co/6Id5GRBrVc",
+      "url": "https://x.com/GoogleLabs/status/2100653821907366366",
+      "likes": 539,
+      "retweets": 54,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2100829093923320083",
+      "date": "2026-09-18T06:07:42.000Z",
+      "text": "This is why we need a gazillion data centers (worth it) https://t.co/2KWTPFSy0i",
+      "url": "https://x.com/amasad/status/2100829093923320083",
+      "likes": 62,
+      "retweets": 1,
+      "is_quote": true,
+      "quoted_id": "2100739356889932012"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2100745015362552312",
+      "date": "2026-09-18T00:33:36.000Z",
+      "text": "Vercel is the Vercel for Java https://t.co/ecDvMhqppr",
+      "url": "https://x.com/rauchg/status/2100745015362552312",
+      "likes": 182,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2100740662236955041"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2100698591417499972",
+      "date": "2026-09-17T21:29:07.000Z",
+      "text": "It's likely that more software will be produced next year than in all of the history of computing. It took Vercel 10 years to get to 1 billion deployments, but then we added another 1.4 billion in the last 10 months alone.\n\nSome of this will be tiny, personal and even disposable software. An HTML file with some javascript (\"artifacts\"), a report, a pricing calculator, a slide deck, all the way to sophisticated apps, agents and platforms.\n\nDeployment speed is one of our obsessions. We've brought down the time to deploy, upload, assign a domain and globally propagate an artifact to 1 second.\n\nThis is quite a feat considering we serve these artifacts with uncompromising performance and security. This sub-second deployments include our global CDN, Firewall, immutable deployments, domain assignment, observability, rollbacks…\n\nAnd we're not done yet. Follow @melkeydev for more.",
+      "url": "https://x.com/rauchg/status/2100698591417499972",
+      "likes": 508,
+      "retweets": 31,
+      "is_quote": true,
+      "quoted_id": "2100695928093167698"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2100682030170489160",
+      "date": "2026-09-17T20:23:19.000Z",
+      "text": "This is really cool. When you pressure your agent to ship a hotfix really fast, it can now 𝚟𝚎𝚛𝚌𝚎𝚕 --𝚝𝚞𝚛𝚋𝚘 --𝚙𝚛𝚘𝚍 😊\n\nIt'll use the fastest available build machine. h/t @garberchov for tweeting this idea to us https://t.co/iLXPsP2m3R",
+      "url": "https://x.com/rauchg/status/2100682030170489160",
+      "likes": 79,
+      "retweets": 2,
+      "is_quote": true,
+      "quoted_id": "2100681322889191852"
+    },
+    {
+      "source": "Aaron Levie",
+      "handle": "levie",
+      "tweet_id": "2100799668573946191",
+      "date": "2026-09-18T04:10:46.000Z",
+      "text": "Agents already make up the majority of inference. This will quickly trend toward nearly all inference over the next year or two.\n\nThe vast majority of tokens used in the world will be agents that are executing unbelievable amounts of tasks for us in the background 24/7. \n\nAgents will be deployed to read all code changes to secure our software, process all of our data inside of workflows, handle a significant majority of the research that goes into recruiting and customer prospecting, review every event stream and log from every system in the world, go out and execute tasks for us in our personal lives, and hundreds of other use cases. \n\nThe rate of new agents coming online that will be consuming insane amounts of tokens is not slowing down. Just in the past week I’ve introduced multiple completely new workflows that would not have been possible technically even a month ago.\n\nIncredible time to be doing anything in inference and of course building on top of all of this.",
+      "url": "https://x.com/levie/status/2100799668573946191",
+      "likes": 79,
+      "retweets": 7,
+      "is_quote": true,
+      "quoted_id": "2100600804038099217"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2100668489178456268",
+      "date": "2026-09-17T19:29:31.000Z",
+      "text": "Memorable found a way to optimize memory with embeddings instead of more tokens which is a powerful new way to do memory https://t.co/Y8wowo41WF",
+      "url": "https://x.com/garrytan/status/2100668489178456268",
+      "likes": 477,
+      "retweets": 20,
+      "is_quote": true,
+      "quoted_id": "2100668011673731441"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2100636443127210112",
+      "date": "2026-09-17T17:22:10.000Z",
+      "text": "Be careful what you wish for\n\nThis is why we need alignment to humankind vs any other goal https://t.co/E3dxymT1aV",
+      "url": "https://x.com/garrytan/status/2100636443127210112",
+      "likes": 140,
+      "retweets": 8,
+      "is_quote": true,
+      "quoted_id": "2100420034694967643"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2100612808568172830",
+      "date": "2026-09-17T15:48:15.000Z",
+      "text": "The future is already here\n\nWe just have to choose it and spread it faster https://t.co/zmLEsXQU65",
+      "url": "https://x.com/garrytan/status/2100612808568172830",
+      "likes": 1316,
+      "retweets": 70,
+      "is_quote": true,
+      "quoted_id": "2098384840844358061"
+    },
+    {
+      "source": "Nikunj Kothari",
+      "handle": "nikunj",
+      "tweet_id": "2100718806004064730",
+      "date": "2026-09-17T22:49:27.000Z",
+      "text": "Website here: https://t.co/KSiodPdZHT\n\nPS: There's a full blown MCP (and WebMCP) for this as well if you want to direct your agent towards it. \n\nhttps://t.co/eo0oIkJUX2",
+      "url": "https://x.com/nikunj/status/2100718806004064730",
+      "likes": 4,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Nikunj Kothari",
+      "handle": "nikunj",
+      "tweet_id": "2100714665571737885",
+      "date": "2026-09-17T22:33:00.000Z",
+      "text": "I have been obsessed with self driving companies  for more than a year now.. tried a LOT of products, none of them met the bar and decided to just build one myself with \"claude\" in the loop.\n\nIntroducing my first experiment: nosugarforkids (dot com) 🙅‍♂️\n\n> catalog of only healthy snacks for kids (surprisingly this didn't exist)\n> you can chat to get recommendations for school, lunches, snack boxes\n> built a \"tier\" list based on the nutrients and what's actually good\n\nOn the autonomous side, I have a Claude agent that wakes up once a day to do the following things:\n\n> checks catalog for new additions\n> prunes any products that may be dead\n> finds new content ideas to help increase reach\n> checks dataforSEO and Google Search Console for performance\n> writes and edits new pieces that might be useful to help\n> keeps quality high, and tries to not introduce slop\n> (new) reaches out to publications to get backlinks\n\nEven with ZERO backlinks today and no social presence whatsoever, site has organically grown to ~6k impressions a day and 60 clicks. \n\nLots of rough edges still, but parents give it a try and tell me if it's helpful!",
+      "url": "https://x.com/nikunj/status/2100714665571737885",
+      "likes": 69,
+      "retweets": 1,
+      "is_quote": false,
+      "quoted_id": null
+    }
+  ]
+}
