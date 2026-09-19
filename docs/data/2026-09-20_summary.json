@@ -1,0 +1,52 @@
+{
+  "date": "2026-09-20",
+  "generated_at": "2026-09-19T23:34:56.707094+00:00",
+  "stats": {
+    "tweets": 6,
+    "podcasts": 1,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "知名产品人、Creator Economy 时事通讯作者 Peter Yang 力荐 Meta 推出的个人 AI 助手 Muse，称其为迄今用过最好的个人 agent。他晒出实测：Muse 每年为他节省 800 美元以上的有线电视和话费，其中仅 Comcast 账单就通过 AI 代打客服电话谈下 288 美元/年的优惠。他认为 Muse 有望成为 Meta 下一个十亿级用户的应用，并顺带指出多数企业的客服热线还没准备好应对 AI agent。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic Claude Code 团队成员 Thariq 宣布：从 2.1.277 版本起，Claude Code 开始支持 AGENTS.md——若某文件夹内没有 CLAUDE.md，Claude 会自动查找并使用 AGENTS.md（可在 /config 中开关）。他透露该功能基于即将推出的 Claude Code \"mods\" 机制构建，未来用户将能自行定制项目指令乃至整个 Claude Code harness。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 创始人兼 CEO Guillermo Rauch 给出一组反主流的数据：Vercel AI Gateway 上开源模型的 token 用量占比或创纪录地达到 78.4%，闭源仅占 21.6%；虽然按花费排名通常不同，但当日花费第 3、4 名已是 Moonshot AI 与 DeepSeek，加上 Z.ai 后三者合计花费超过了排第 2 的 OpenAI（不过这是跨各推理服务商——多在美国——的推理花费，并非直接流向开源权重实验室的收入）。他还观察到 Typeface 的 Jev 模型被大规模快速采用，认为这背后是\"AI 太贵/太慢\"的时代情绪，促使人们急于优化成本、把 AI 塞进更多场景。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 联合创始人兼 CEO Aaron Levie 看好 Jev 这类快而廉的模型用于企业 agent 的即时判断。他演示了 Box 结合 Jev 的流程：从 Box 拉取一份事故报告，判断其是否涉及客户、严重程度如何，据此把文件移入 escalate/monitor/review 文件夹并写入元数据模板——几乎瞬时完成、成本近乎为零。他认为这可推广到保险理赔、合同管理、贷款处理、安全审查、客户日志分析等大量场景，是一类很好的新 AI 用例。"
+    },
+    {
+      "author": "Nikunj Kothari",
+      "handle": "nikunj",
+      "summary_zh": "投资人 Nikunj Kothari 用具体数字展示 Typeface 旗下 Jev 模型的成本与速度优势：用 Jev 按多重标准对 3000 款儿童零食打分，仅耗时 28 秒、花费 0.11 美元。他还搭建了一个名为 Jevable 的网站，按类别汇总并可筛选 X 上各种 Jev 演示项目，供人寻找灵感、提交自己的作品。"
+    },
+    {
+      "author": "Peter Steinberger",
+      "handle": "steipete",
+      "summary_zh": "PSPDFKit 创始人 Peter Steinberger 分享其 AI 编码工作流实践：团队用 \"roboclaw\" 运行团队服务器，接入 Discord、与 gpt-live 对话，并掌握所有正在并行进行的编码 session 上下文，可在开会时随时询问当前及历史 session 的情况。他还提到可让 agent 帮忙重新整理归类各个 session，且 CUA（计算机操作能力）在这些场景中都可用，使 agent 不必只靠截图、效率更高。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "No Priors",
+      "title": "Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon",
+      "date": "2026-09-18 10:00 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/@NoPriorsPodcast",
+      "summary_zh": "本期 No Priors 对话 Inception 联合创始人兼 CEO、斯坦福教授、\"扩散模型之父\"之一 Stefano Ermon，核心论点是：推理（inference）而非训练将主导 AI 经济学，而扩散模型在推理端结构性优于自回归模型。\n\n技术逻辑：自回归模型推理时只能从左到右逐 token 串行生成，严重内存受限、GPU 利用率低；扩散模型采用\"由粗到精\"的并行去噪，一次输出多 token，推理负载与训练负载相似，能充分利用 GPU 的矩阵乘算力。Ermon 援引\"苦涩教训\"（bitter lesson），认为更并行的方案终将胜出。**2019 年**其实验室（与博士生 Yang Song）提出基于分数的生成模型，奠定现代扩散模型基础；**2024 年**论文首次在 **GPT-2 规模（<10 亿参数）**上让扩散模型达到与自回归模型相同的 perplexity，同时生成速度快 **10 倍**。\n\n商业化进展：公司成立约 **2 年**、约 **50 人**，仍重研发。其 **Mercury** 系列扩散语言模型在基准上与前沿实验室的速度优化型模型（如 OpenAI 的 flash / mini / nano）持平，但明显更快，已在生产环境服务真实客户。因无法用 vLLM/SGLang，团队自建推理引擎——这本身构成 IP 护城河。API 兼容 OpenAI（text in/text out），支持指令遵循与 JSON 结构化输出。\n\n客户与市场：语音 agent 场景对延迟最敏感，客户 Open Call 原用 Cerebras 定制芯片，转用 Mercury 后在 **NVIDIA GPU** 上即可获得同等速度，供给更充足、成本更低、质量更高。软硬件加速为乘性叠加关系。Ermon 估计约 **20%–30%** 的用例对延迟高度敏感，是扩散模型的可寻址市场下限；未来 **2 年**扩散与传统模型的负载切分仍取决于前沿智能水平。\n\n其他要点：扩散模型更易受外部奖励函数/约束\"引导控制\"，学术证据显示其数据效率更高（去噪即数据增强），在数据成为瓶颈时更具价值；护城河来自 IP、自建 serving/后训练栈（SFT/RLHF/RL）及真实客户反馈数据，故选择不完全开源。投资视角看，这是一个押注\"效率与推理成本（intelligence per watt/dollar）\"、挑战大厂自回归范式的差异化标的，但尚未达到前沿智能水平，主要卖点仍是速度。"
+    }
+  ],
+  "articles": []
+}
