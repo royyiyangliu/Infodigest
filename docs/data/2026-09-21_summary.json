@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-21",
+  "generated_at": "2026-09-20T23:34:23.328430+00:00",
+  "stats": {
+    "tweets": 5,
+    "podcasts": 0,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品专家、Creator Economy 时事通讯与播客作者 Peter Yang 分享了他自建的 AI 工作流：用一个 markdown 文件加自定义的 /tastemaker skill 来记录影视和书籍评分，让 AI 每周查找新上线内容并给出高度相关的推荐，并考虑是否开源。他还预告下期播客邀请 OpenAI 的 ChatGPT Finances 产品负责人 Elad Bloch，分享六个实用的个人理财提示词，涵盖主动发现节税机会、最大化信用卡返现、生成通往财务自由路径的交互式预测等。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 创始人兼 CEO Guillermo Rauch 认为，本轮 AI 浪潮最酷的地方在于人人都热衷于\"构建\"。他视此为对世界极为有益的发展——人们想要创造和交付产品，而不只是被动消费。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 联合创始人兼 CEO Aaron Levie 提出，个人 agent 是\"打造 agent 想要的东西\"这一理念的终极体现：像 Muse 这样的产品形态，是让用户把任务端到端地交给 agent 完成，因此 agent 必须能调用你的工具（MCP、CLI）、浏览网站、完成交易等。他大胆判断，未来争夺的注意力不再来自用户本身，而是来自 agent——那些最能让 agent 点餐、处理电商交易、订机票、对接本地经济与数据的工具将被使用得最多，这将带来自 App Store 以来消费科技领域最大的机遇与洗牌。"
+    },
+    {
+      "author": "Nikunj Kothari",
+      "handle": "nikunj",
+      "summary_zh": "投资人 Nikunj Kothari 分享逆主流的做法：身为 VC，他每天花约 2 小时亲自编程、做副业项目、尝试新代码库，常被质疑\"VC 为何要这样做\"。他认为当下 AI 迭代极快，要在 AI 时代投资就必须亲自动手理解三层能力——通过研读技术论文把握模型能力演进（模型研究）、看清模型完成长周期任务所需的工具（基础设施）、以及能让模型帮助构建自主公司的 harness 能力（应用层），并鼓励他人每天抽时间动手实践、坚持 10 天便会上瘾。"
+    },
+    {
+      "author": "Aditya Agarwal",
+      "handle": "adityaag",
+      "summary_zh": "前 Dropbox CTO、South Park Commons 合伙人 Aditya Agarwal 提出一个大胆而警示性的判断：在看到 Gemini（谷歌）、OpenAI 和 Anthropic 密集发布更多 agent 深度介入系统的能力后，他 100% 确信已有若干大公司在毫不知情的情况下被民族国家级黑客渗透。"
+    }
+  ],
+  "podcasts": [],
+  "articles": []
+}
