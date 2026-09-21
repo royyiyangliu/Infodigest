@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-22",
+  "generated_at": "2026-09-21T23:34:57.008354+00:00",
+  "stats": {
+    "tweets": 2,
+    "podcasts": 1,
+    "articles": 1
+  },
+  "tweets": [
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品与 AI 领域作者、Vercel 前产品负责人 Peter Yang 系统给出了对\"个人 Agent 竞赛\"的判断：他认为 Meta 的 Muse 有望成为领跑者，产品直观、Meta 正在全平台激进推广，一旦上手就会意识到 Agent 没必要寄生在 iMessage 等现有消息应用里，他预测 Muse 将成为 Meta 继 Facebook 之后最成功的自研应用、体量远超 Threads。他同时指出 ChatGPT 凭借 10 亿以上用户仍是当前个人 Agent 领导者，模型、computer use 和语音能力逐项都不输 Muse，但难点在于同一产品既服务工作又服务生活、既服务企业又服务消费者；Grok Bot 聚焦工作、有望演化为\"人机协作的多人版 Slack\"；Google 是最大暗马（所有个人 Agent 都依赖 Gmail/日历数据），但其 Spark 仍只是 Gemini 的次级标签、需更激进。他强调\"多人协作 AI\"至今无人做成，将是下一个大解锁；并建议用户把个人 skills 与文件设计成可在不同 Agent 间迁移。其个人技术栈：Muse 管生活、Grok Bot 跑云端任务、Claude 用于特定场景、ChatGPT 兜底。他还补充看好 Apple/Siri（设备与隐私声誉俱佳），但年度更新周期和迭代太慢是最大掣肘。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch 分享了对 AI Agent 做软件测试的震撼体验：他指出 Agent 在测试与 QA 上的彻底程度无可匹敌——他反馈某处在移动端 App 内浏览器渲染异常，Agent 便一路深挖复现、模拟、修复、部署、验证，甚至创建了临时的 Vercel 部署丢给 iPhone 模拟器测试。他认为人类永远无法匹敌这种强度（会耗尽精力、会靠外推、会寄希望于\"应该没问题\"），并断言未来的软件将拥有前所未见的质量与性能。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "乱翻书",
+      "title": "275.AI办公的热闹还没散，个人Agent的战争已经开始｜拆解Town、Instinct、Grok Bot与Muse",
+      "date": "2026-09-21 00:00 UTC",
+      "duration": "02:06:15",
+      "link": "https://podcasts.apple.com/us/podcast/275-ai%E5%8A%9E%E5%85%AC%E7%9A%84%E7%83%AD%E9%97%B9%E8%BF%98%E6%B2%A1%E6%95%A3-%E4%B8%AA%E4%BA%BAagent%E7%9A%84%E6%88%98%E4%BA%89%E5%B7%B2%E7%BB%8F%E5%BC%80%E5%A7%8B-%E6%8B%86%E8%A7%A3town-instinct-grok/id1591595410?i=1000790853076&uo=4",
+      "summary_zh": "乱翻书本期拆解美国骤热的\"个人Agent\"（Personal AI）赛道，与Town(Tom)、Instinct、Grok Bot、Muse四款产品及Today团队。核心信号是资本狂热：Instinct今年2月才小规模邀测、8月底用户仍不足**10万**，估值却从年初**5000万美元**一路涨到8月**5亿**、8月底**25亿**、本月已报到**100亿美元**（红杉、Benchmark洽谈领投），半年翻约**200倍**且尚未正式上线，创始人为**23岁**素人。Meta Muse于**9月8日**发布，登顶美区App Store超越ChatGPT，首周下载近**90万**，Meta股价单日涨**6.5%**，小扎另发**6500字**长文。Town估值超**10亿美元**、用户约**1万**、**70%**流量在PC端、主打邮件自动化。\n\n嘉宾判断这是VC提前下注多于真实需求爆发，赌C端上下文/记忆存在赢家通吃与网络效应。与上一波\"AI办公/小龙虾(Manus)\"的关键区别：不再是围绕任务的工具，而是围绕\"人\"长期建立画像、记忆并具备主观能动性的\"人\"；聚焦context与memory而非模型harness；且必须跑在云端（本地与云Agent复杂度完全不同，Today为稳定跑云花了约**2个月**）。四家打法各异：Town以高频邮件建立信任、Instinct住在IM里极致降低启动成本并激进接管支付/信用卡、Grok Bot主打多bot+虚拟机、Muse靠Meta免费分发烧钱培育市场。\n\n商业模式上，订阅中位数约**20美元/月**（另有100美元档），抽佣被视为Meta\"把种草意图变现\"的叙事（前四类场景——行政杂事、旅行、省钱理财、购物——占用户使用**70%以上**），广告则被普遍认为与\"代表用户利益\"的中立定位冲突。国内被看好的载体是微信(小V)与豆包（需打通抖音数据）。一位连麦的**21岁**大三创业者(video to founder)已融**4700万美元**种子轮，主攻美国大学生错位竞争。多位嘉宾一致认为最值钱的不是context或生态，而是介于两者之间的\"记忆处理+主动性对齐\"机制（类比抖音推荐算法），以及用户长期形成的信任与习惯。中国市场变量：交个税者不足**1亿**、白领不超**2亿**，高付费画像有限。"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "Computation and Data Movement for Inference",
+      "date": "2026-09-21 18:14 UTC",
+      "link": "https://newsletter.semianalysis.com/p/computation-and-data-movement-for",
+      "chars": 71282,
+      "summary_zh": "SemiAnalysis 深度解析 MoE 大模型推理的计算与数据搬运结构，对理解 AI 基础设施资本开支去向极具价值。核心观点：MoE 不只是增加参数，而是改变了服务经济学，推理应拆成四个负载区制——预填充(Prefill)、中填充(Midfill)、解码注意力(Decode attention)、解码专家(Decode experts)，各自对算力、内存、网络需求不同。Prefill 算术强度高、受算力约束；Midfill 需读取可达数十 GB 的 KV 缓存，缓存状态流量可比同规模 Prefill 大 **数十倍**；Decode 算术强度低、被内存带宽主导，长上下文下注意力读取甚至超过模型权重张量。\n\n关键量化：现代代理任务上下文迅速扩张至 **50 万(500k)** token 级；增量查询通常 **50 至 5,000** token；上下文上限约 **100 万(1MT)**（Opus 4.8 实测 **25 万** token、Fable **100 万** token）。专家分布上，NVIDIA 将 **72** 个 GPU（NVL72）紧密互联，使一层 **256** 个专家可切分至每 GPU 仅 **3-4** 个；全模型专家总数或达 **15,000**；每 token 选 **8 至 16** 个路由专家。SRAM 存专家可比 HBM 省能耗达 **100 倍**，单 token 效率堪比过去 100 的队列，但全对全(all-to-all)网络成本可能超过专家本身。\n\n投资含义：**逾 95%** 权重内存在路由专家，天然可跨插槽/节点做专家并行。内存层级 HBM 比 DDR 贵数倍且供给紧张，应只服务活跃批次。作者给出 2027 基准：按每 token **70 kB** KV、单流水级承载 **200 万** token，约 **140 GB** KV，双缓冲升至 **280 GB**，加权重与余量后单级需 **400–500 GB** 本地快存。三种并行——流水线(按层)、张量(按大不可分算子)、专家(按无状态专家库)——应分别匹配不同网络。结论：面向 Vera Rubin 等下一代芯片，兼具超高内存吞吐(3D/混合键合 DRAM)与高效算力的\"全能芯片\"、以及编排(KV 作为不可变 blob 的对象存储、缓存复用)将成竞争壁垒。"
+    }
+  ]
+}
