@@ -1,0 +1,209 @@
+{
+  "fetch_date": "2026-09-22",
+  "fetch_time": "2026-09-21T20:46:11.798296+00:00",
+  "stats": {
+    "new_podcast_episodes": 1,
+    "new_articles": 1,
+    "new_tweets": 14,
+    "total_podcasts": 1,
+    "total_articles": 1,
+    "total_tweets": 14,
+    "transcribed_this_run": 1
+  },
+  "podcasts": [
+    {
+      "source": "乱翻书",
+      "title": "275.AI办公的热闹还没散，个人Agent的战争已经开始｜拆解Town、Instinct、Grok Bot与Muse",
+      "date": "2026-09-21 00:00 UTC",
+      "link": "https://podcasts.apple.com/us/podcast/275-ai%E5%8A%9E%E5%85%AC%E7%9A%84%E7%83%AD%E9%97%B9%E8%BF%98%E6%B2%A1%E6%95%A3-%E4%B8%AA%E4%BA%BAagent%E7%9A%84%E6%88%98%E4%BA%89%E5%B7%B2%E7%BB%8F%E5%BC%80%E5%A7%8B-%E6%8B%86%E8%A7%A3town-instinct-grok/id1591595410?i=1000790853076&uo=4",
+      "orig_link": "https://www.xiaoyuzhoufm.com/episode/6ab029b7ac389df82734ebb6?utm_source=rss",
+      "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/61358d971c5d56efe5bcb5d2/6ab029b7ac389df82734ebb6/media.xyzcdn.net/61358d971c5d56efe5bcb5d2/lpOS2Jcsbaob2mPwqaUzV5xQ4_hD.m4a",
+      "duration": "02:06:15",
+      "summary": "🎙【本期嘉宾】莫唯书、Suki、Vanessa\n莫唯书Mark\n（前TikTok产品，公众号：莫思Moss）\nSuki\n（Today founding PM）\n郦橙锦妖Vanessa\n（前字节AI PM）\n主播：潘乱（「乱翻书」主理人）\n💡【本期概要】\nAI办公的仗还没打完，硅谷已经开始争抢下一个入口。\nInstinct今年才开始小范围测试，估值便从早期的5000万美元一路涨到25亿美元，随后又传出以100亿美元目标估值融资的消息；Meta推出Muse后迅速登上美国App Store免费榜榜首。资本、创业公司和科技巨头突然形成了一个新共识：Chatbot只能回答问题，Personal Agent却可能长期理解一个人，替他处理邮件、订票、购物、预约、退款和家庭事务。\n一旦AI开始替人办事、花钱和作出决定，它争夺的就不再是一款工具的使用时长，而是用户意图产生后的第一入口。搜索、推荐、电商、支付和超级App原来的位置，都可能重新排列。\n这期节目，我们邀请Today产品经理Suki、前字节AI产品经理Vanessa，以及前TikTok产品经理莫唯书，从Town、Instinct、Grok Bot和Meta Muse出发，讨论Personal Agent为什么突然爆发，上一批Agent为什么成了先烈，独立App和IM谁更接近终局，以及这场战争最后比拼的究竟是模型、Context、执行能力、生态，还是用户的信任。\n直播中途，还有一位正在美国读大三的创业者临时连麦。他想从课程、作业、选课和求职切入，为美国大学生做Personal Agent。听着很像十多年前移动互联网时代的“超级课程表”——时代没有简单重复，却总押着相似的韵脚。\n这里也顺便预告一下\n，\nToday\n中国版将于9月24日正式在国内首发上线\n。\n下载注册可以获得三个月免费会员\n，这可能是国内真正意义上的第一个专属于你的AI ，感兴趣的话可以体验一下。\n网址：\nhttps://today.ai/\n🎬 本期视频播客同步上线于@潘乱的视频号、哔哩哔哩、微博、小红书、Youtube等平台。\n⏰【时间线】\n一、硅谷为什么突然开始争夺Personal Agent\n07:42\n产品还没真正普及，估值已经冲上百亿美元：真实需求爆发，还是VC提前制造恐慌？\n15:13\n从Siri、ChatGPT到办公Agent，为什么这一轮还需要一个新的“Personal Agent”概念？\n16:16\n工具与“人”的分界线：长期理解、持续记忆，以及不等指令的主动性\n18:09\n办公Agent围绕任务组织Context，Personal Agent围绕用户本人组织Context\n21:40\nPersonal AI并不站在工作的对立面：你是什么样的人，它就会长成什么样\n25:17\n第一印象决定AI的用途：从桌面端开始，它更像同事；从手机和IM开始，它更像生活助理\n二、四款产品，四种关于未来的赌注\n30:14\nTown、Instinct、Grok Bot与Muse：四款产品都在做助理，为什么走出了四条完全不同的路线？\n30:28\nTown的赌注：先把邮箱做深，用一次次谨慎交付换取用户的委托权\n31:46\nInstinct的赌注：取消独立App，把交代任务的成本压缩成一条消息，并进一步接管支付\n32:24\nGrok Bot的赌注：给每个人组建一支Bot队伍，但多Bot究竟是执行力，还是情绪价值？\n33:22\nMuse的赌注：免费、分发和专用虚拟机，用Meta的现金流直接培养整个市场\n34:40\n小扎的补贴战争：当巨头直接免费送算力，靠订",
+      "lang": "zh",
+      "chars": 64200,
+      "text_file": "data/2026-09-22/podcasts/乱翻书__275ai办公的热闹还没散个人agent的战争已经开始拆解towninstinctgrok.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "Computation and Data Movement for Inference",
+      "date": "2026-09-21 18:14 UTC",
+      "link": "https://newsletter.semianalysis.com/p/computation-and-data-movement-for",
+      "summary": "Mapping MoE models onto inference hardware: structure, flow, and efficient serving",
+      "chars": 71282,
+      "text_file": "data/2026-09-22/articles/semianalysis__computation_and_data_movement_for_inference.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2101873256097804529",
+      "date": "2026-09-21T03:16:49.000Z",
+      "text": "Jev pod tomorrow\n\nsubscribe on apple /youtube @latentspacepod \n\nthanks to @allenpark and Ke for making this happen! https://t.co/5kDekuLbuS https://t.co/vgkesXELrf",
+      "url": "https://x.com/swyx/status/2101873256097804529",
+      "likes": 173,
+      "retweets": 5,
+      "is_quote": true,
+      "quoted_id": "2099925682726002904"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2101917073081598255",
+      "date": "2026-09-21T06:10:56.000Z",
+      "text": "If you enjoyed this, sign up for free to my newsletter to get my best AI and product guides.\n\nJoin 110,000+ subscribers here:\nhttps://t.co/yz9xcsfrhF",
+      "url": "https://x.com/petergyang/status/2101917073081598255",
+      "likes": 0,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2101865476145959373",
+      "date": "2026-09-21T02:45:54.000Z",
+      "text": "6. I forgot to mention Apple and Siri. They have all the devices and a great reputation on privacy. \n\nThey can easily win this race but what holds them back imo is their annual release cycle for major updates and not being on @X and all the other platforms seeking user feedback. The iteration speed for Siri (from the outside) just feels far too slow to compete.",
+      "url": "https://x.com/petergyang/status/2101865476145959373",
+      "likes": 21,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2101862331345154469",
+      "date": "2026-09-21T02:33:25.000Z",
+      "text": "My “armchair” thoughts on the personal agent race:\n\n1. Muse is poised to become the leader. The app is intuitive, and Meta is aggressively promoting it across all its properties. Once you use the Muse app, you realize that it makes little sense for an agent to live in an existing messaging app like iMessage. Unless Meta runs out of compute or something, I think this will become the company’s most successful homegrown app after Facebook. It will be much bigger than Threads.\n\n2. ChatGPT is probably still the personal agent leader because it already has 1B+ users. OpenAI’s models, computer use, and voice are arguably better than Muse feature by feature. But it’s hard to build one product for both work and personal use, and harder still to serve enterprises and consumers with the same UX. Even for work, I started using Grok Bot because the Work/Codex split remains too confusing. I’m sure the team is cooking, and we’ll see something good in the next few weeks.\n\n3. Grok Bot isn’t really a Muse competitor because it’s focused on work. Multiple bots naturally fit team-based knowledge work IMO. My bull case for Grok Bot is that it's a few features away from becoming multiplayer agentic Slack for both bots and humans.\n\n4. Google is obviously the dark horse candidate. All these personal agents live off Gmail, Google Calendar, and your Google app's data. Google has their own personal agent in Spark but the last I checked it's a secondary tab in Gemini. I think Google needs to be far more aggressive in making Spark the primary experience and making it intuitive and competitive with Muse. Google however doesn't have a great track record in multiplayer AI...\n\n5. Speaking of multiplayer, nobody has figured this out yet. I can’t easily add my spouse to a Muse chat to plan a vacation. I also can’t loop coworkers into ChatGPT or Grok Bot threads. Multiplayer AI today mostly means tagging bots in Slack. Every major provider is probably working on this, and I think it will be the next big unlock.\n\nMy personal AI stack right now is Muse for personal, Grok Bot for cloud tasks, Claude for specific use cases, and ChatGPT for everything else.\n\nBut I think we’re going to see some major updates this week.\n\nEveryone should design their personal skills and files so they’re easy to port between harnesses and agents. Otherwise, you’ll spend half your time moving from one tool to another.",
+      "url": "https://x.com/petergyang/status/2101862331345154469",
+      "likes": 591,
+      "retweets": 29,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2101844435353145452",
+      "date": "2026-09-21T01:22:18.000Z",
+      "text": "there is something about video games that give high stakes and responsibilities to young people who couldn’t really get them irl\n\nbut it is a fine line and at some point you need to graduate https://t.co/wwRAmV7Sce",
+      "url": "https://x.com/trq212/status/2101844435353145452",
+      "likes": 627,
+      "retweets": 12,
+      "is_quote": true,
+      "quoted_id": "2101215169837691356"
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2101852258468299182",
+      "date": "2026-09-21T01:53:23.000Z",
+      "text": "Built my son his first computer https://t.co/9tQWZFSkku",
+      "url": "https://x.com/amasad/status/2101852258468299182",
+      "likes": 944,
+      "retweets": 13,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2101846262840799251",
+      "date": "2026-09-21T01:29:34.000Z",
+      "text": "The thoroughness with which agents can test and QA software is unrivaled. I pointed out something wasn't rendering right in a mobile (in-app) browser. The thing goes to the depths of Mordor to reproduce, simulate, fix, deploy, verify. It created an ephemeral vercel deployment to throw at an iPhone simulator! The absolute grind on these things.\n\nHumans could simply never match this level of intensity. We'd run of energy, we'd extrapolate, we'd hope it'd work out. The software of the future will be of a quality and performance we've never experienced before. It's amazing to watch this shift.",
+      "url": "https://x.com/rauchg/status/2101846262840799251",
+      "likes": 376,
+      "retweets": 19,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2101728091710341176",
+      "date": "2026-09-20T17:39:59.000Z",
+      "text": "https://t.co/mioa6FKIqK https://t.co/JyaI4gQMYW",
+      "url": "https://x.com/rauchg/status/2101728091710341176",
+      "likes": 860,
+      "retweets": 16,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Aaron Levie",
+      "handle": "levie",
+      "tweet_id": "2101731574668747081",
+      "date": "2026-09-20T17:53:50.000Z",
+      "text": "Literally impenetrable from agent swarms https://t.co/tg7SZ4d0xu",
+      "url": "https://x.com/levie/status/2101731574668747081",
+      "likes": 2691,
+      "retweets": 121,
+      "is_quote": true,
+      "quoted_id": "2101378791184744865"
+    },
+    {
+      "source": "Matt Turck",
+      "handle": "mattturck",
+      "tweet_id": "2101820308009206077",
+      "date": "2026-09-20T23:46:26.000Z",
+      "text": "Everyone is obsessed with Jev now, but I'm old enough to remember when people couldn't shut up about Instinct, all the way back to mid last week.  Simpler times.",
+      "url": "https://x.com/mattturck/status/2101820308009206077",
+      "likes": 62,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Nikunj Kothari",
+      "handle": "nikunj",
+      "tweet_id": "2101742225906655315",
+      "date": "2026-09-20T18:36:09.000Z",
+      "text": "Jokingly thinking of starting a new cloud kitchen called “next day curry”.. \n\nWhere I order the best curries, store it overnight and serve it the next day. \n\nSaying this as I devour my leftover Manchurian. Have the exact same experience with Ramen, Indian food, Thai curry and others. \n\nMight be blasphemous to the purists but they taste so much better!",
+      "url": "https://x.com/nikunj/status/2101742225906655315",
+      "likes": 36,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Steinberger",
+      "handle": "steipete",
+      "tweet_id": "2101748928274419843",
+      "date": "2026-09-20T19:02:47.000Z",
+      "text": "Your claw can now FaceTime you! https://t.co/bUFzBG4e7h",
+      "url": "https://x.com/steipete/status/2101748928274419843",
+      "likes": 646,
+      "retweets": 30,
+      "is_quote": true,
+      "quoted_id": "2101727325947863430"
+    },
+    {
+      "source": "Peter Steinberger",
+      "handle": "steipete",
+      "tweet_id": "2101748820237500557",
+      "date": "2026-09-20T19:02:22.000Z",
+      "text": "New benchmark dropped https://t.co/5lFZNcDNCh",
+      "url": "https://x.com/steipete/status/2101748820237500557",
+      "likes": 1358,
+      "retweets": 136,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Dan Shipper",
+      "handle": "danshipper",
+      "tweet_id": "2101816740741329218",
+      "date": "2026-09-20T23:32:15.000Z",
+      "text": "highly recommend\n\nthis is my favorite book https://t.co/H4wpR6eQ5O",
+      "url": "https://x.com/danshipper/status/2101816740741329218",
+      "likes": 53,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2101672911757103119"
+    }
+  ]
+}
