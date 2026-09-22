@@ -1,0 +1,66 @@
+Source  : a16z
+Title   : Introducing The Horowitz Andreessen Academy
+Date    : 2026-09-22 12:05 UTC
+Link    : https://www.a16z.news/p/introducing-the-horowitz-andreessen
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+To learn more about The Horowitz Andreessen Academy, watch the a16z Show episode with
+,
+, and
+here
+and check out the Academy’s website
+here
+.
+We’re launching
+The Horowitz Andreessen Academy
+. It’s a highly selective school in San Francisco for the most ambitious young builders after high school (or the first or second years of college) - giving them the skills, network, and real-world experiences to excel in a world being fundamentally re-shaped by AI.
+Today’s students are growing up in a completely different world with new capabilities. The kind of world where teenagers can learn from intelligent machines how to train a robotics model from terabytes of newly open-sourced egocentric video or envision a new business in the morning and earn revenue by sundown.
+The focus of The Academy is on
+building
+- which we believe is the most valuable thing humans can do to learn to become a productive, curious and happy adult. Our goal is to help high school graduates thrive by cultivating this instinct. Building is an underlying skill that helps you create lifelong friendships, be indispensable at work, create jobs by providing value to society, and discover your inner joy. That’s why we’re doing this.
+There will be no traditional grades, tests, or homework. Instead, you’ll get to learn from Silicon Valley’s most storied founders and operators in short, high-impact classes and spend the rest of your time working and exploring. And by “working,” we mean - starting companies, operating at companies, and tinkering on projects that will make you an indispensable addition to any fast-growing startup in the Valley. We also believe students will enjoy a robust social life in one of the most vibrant cities in the world–San Francisco, California.
+We created The Academy to be a network: we’re bringing together a wide array of companies, people, and opportunities to help our students thrive. We’re launching with 10 of the world’s most innovative companies as our Founding Partners: Anduril, Anthropic, Coinbase, Google, Meta, NVIDIA, OpenAI, Palantir, Replit, and Stripe. Depending on the partner, these companies will offer access to compute and hardware, co-create the curriculum, and provide hands-on learning and co-op opportunities. They’ll also be joined by over 40 additional hiring partners that will be considering students for co-op and full-time opportunities.
+This network is overlaid on top of the three main aspects of The Academy’s educational philosophy:
+Pursuits
+Courses
+Co-Ops
+Pursuits
+are the core unit of education at The Academy. They are personal projects, quests, startup ideas, and rabbit holes that define the student experience. At any given point, students will be working on one or multiple Pursuits, and personally choose what they work on. Our goal isn’t to tell students what to build - it’s to inspire them to set audacious goals and exercise extreme ownership and agency over the outcome. If a Pursuit involves a three-week trip to Japan, The Academy will help pay for the trip and connect you to the right people when you land.
+Courses
+are short, high-impact programs ranging from two days to four weeks long - all taught by legendary tech founders and operators. Our faculty and guest speakers will include Sam Altman, Brian Armstrong, Dylan Field, Amjad Masad, Naval Ravikant, Marc Andreessen, and hundreds of additional industry leaders that will walk The Academy’s halls to give you direction, introductions, and inspiration. The idea is simple - instead of learning from the people who write your textbooks, you’ll learn from the people that your textbooks are written about.
+Co-ops
+are immersive learning experiences at real-world companies like Stripe and Google, so students can “learn by doing.” These opportunities are abundant and right next door. The Academy already has dozens of world-class hiring partners eager to hire and connect with students - not to mention, the a16z portfolio alone has 19,000+ open roles across 850+ companies. You could dig deep with one company throughout your time at The Academy - or you could create your own mini rotational program, and try different roles at companies at different stages to see what it’s like.
+When you graduate, you could either start your own venture - or join a fast-growing tech company. Some of the world’s most impactful builders today work inside our greatest companies - crafting Claude Code at Anthropic, or reimagining our military at Anduril. They’re the product, finance, marketing, and technical leaders that are the cornerstone of incredible organizations and founding teams. The network we’re building will help students discover the right path for them and find the opportunities they need to achieve their potential.
+It’s San Francisco or nowhere
+The Academy is located in the heart of San Francisco. This city has the highest density of tech talent on Earth. It’s where highly open, smart, energetic, and optimistic people convene. Proximity to that density isn’t a nice-to-have - it’s critical.
+Our physical campus for The Academy is designed to be a honeypot for ambitious builders, founders, and operators to gather, co-work, and draw inspiration from each other. The kind of place where you might run into the next billion-dollar entrepreneur over lunch or dinner.
+We also believe that post-high school is a critical time for young people to personally mature and grow - social life matters. We’re not just creating opportunities for late night 3am conversations about philosophy and early morning jam sessions on math and science. There will be family dinners, book clubs, nights out, museum visits, weekend trips, and more. The Academy will be a place to create lifelong friendships and build a community that’s behind you for life.
+A final note, for the parents
+You’ve known your child was exceptional for years. You’ve watched them do things most adults couldn’t, teach themselves skills nobody assigned, and outgrow every room they’ve been put in. You’ve seen their spark, and you know it needs a place to flourish.
+With exceptional operators teaching them, access to the a16z network, and alongside some of the most exceptional young builders on the planet, they’ll be in the place most optimized for their special kind of magic.
+You were always right about how special your child is. We built The Academy to prove it.
+Applications are officially
+open
+for the Founding Class Fellowship
+, our inaugural one-year program, which will begin in Fall of 2027. Notably, our Founding Class Fellowship will be tuition-free. We’ll accept applications from students currently attending four-year universities and from international applicants, though priority will go to graduating high school seniors. Some students may treat the Founding Class Fellowship as a gap year or a deferral of college admission.
+Separately, The Academy intends to seek regulatory approvals for a two-year program that we hope to begin in Fall 2028. That program is not currently offered or enrolling students. We’ll be filing an application for this soon and, if approved, expect to charge an annual tuition similar to that of an elite private university.
+Founding Class Fellowship students will have access to $50,000+ of compute credits, a $5,000 travel and research budget, and a network of the most inspiring peers on the planet. We plan to announce more offers in the coming months leading up to our September 2027 start.
+It’s time to build
+When I co-founded Udemy and Maven, I imagined a future where learning would be a lifelong pursuit. The Horowitz Andreessen Academy is the next evolution of that vision.
+To make this possible, we’ve raised a total of $42M in funding, led by a16z - with Marc Andreessen and Erik Torenberg joining the board. We also have a great group of angels such as Adam D’Angelo (co-founder, Quora), Tobi Lütke (CEO, Shopify), Tony Xu (CEO, DoorDash), Fidji Simo (recently CEO of Applications, OpenAI), Garry Tan (CEO, Y Combinator), Joe Liemandt (Principal, Alpha School), and Shyam Sankar (CTO, Palantir).
+We are thrilled to partner with incredible mentors, guest lecturers, founding partners, and hiring partners. We’ll see you on campus next year.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

@@ -1,0 +1,67 @@
+Source  : a16z
+Title   : Incubating The Horowitz Andreessen Academy
+Date    : 2026-09-22 13:07 UTC
+Link    : https://www.a16z.news/p/incubating-horowitz-andreessen-academy
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+To learn more about The Horowitz Andreessen Academy, watch the a16z Show episode with
+Gagan Biyani
+,
+Ben Horowitz
+, and
+Erik Torenberg
+here
+and check out the Academy’s website
+here
+.
+The internet made it possible to know anything. AI makes it possible to do anything.
+We live in an age of infinite knowledge, and we are entering an age of infinite doing. One in which we are constrained only by our creativity. That changes what it means to be educated. It changes what it means to be young. And it demands a new kind of institution.
+We are thrilled to announce
+The Horowitz Andreessen Academy
+. HAA is a private, full-time, in-person school in San Francisco for young people coming out of high school. Our mission is to nurture the best young people in the world, and equip them with the tools to shape it.
+The campus will be humming. Jensen Huang, Satya Nadella, Travis Kalanick, Mira Murati, Ali Ghodsi, Patrick Collison and countless other luminaries in tech will visit and give lectures. Students will be excitedly sharing their projects, workshopping ideas with their mentors, and constantly pushing their peers.
+Student experience at The Academy
+The Academy is for students to both explore and go deep. This materializes in 3 principal ways: Co-ops, Courses, and Pursuits.
+Co-ops are the opportunity to work during the year (not just over the summer). It can be a rotation program across countless different roles and companies. We want you to have so many work opportunities that you’ve tried everything and directionally know what you like and what you don’t. Or if you know what you like on the first one, you keep doing it. Students may have opportunities to work at our founding partners Anduril, Anthropic, Coinbase, Google, Meta, NVIDIA, OpenAI, Palantir, Replit, and Stripe or any of our hiring partners
+here
+.
+Courses are taught by legendary people. Students will study the complete work of individuals and then be speaking with them directly. Our instructors have founded unicorn companies. We also have the investors who invested in those unicorn companies. There will be people who write textbooks. As well as the people the textbooks will be written about.
+And most importantly, it’s about Pursuits. It’s about personal projects, quests, startup ideas, rabbit holes that define the student experience. At any given point, students will be working on one or multiple Pursuits. It’s what they spend their free time pursuing, what they workshop with their coaches and mentors, and what they talk to guests who host sessions. A pursuit can also be three weeks in a different country, where the Academy will connect you to the right people when you arrive.
+Training for the AI Era
+What are the genuinely hard challenges, assignments, and projects of this era akin to the challenges that once pushed us to our limits?
+Some of the answers are already visible. The best assignments now are problems so hard they cannot be solved without AI or the opportunity to generate problems that AI cannot yet solve (and their accompanying solutions) to create data sets.
+The Academy courses follow the same logic and will be taught by world-class leaders. Here’s a sampling:
+Frontier Systems
+Origins and Innovations in Digital Computing 1940-2025
+The Craft of Selling
+The Modern Software Developer
+AI Inference Engineering
+Networks and access matter. Life skills matter. Ask any GSB student what are the most over-subscribed classes, and they’ll report Interpersonal Dynamics “Touchy Feely” and Paths to Power with Jeffrey Pfeffer. HBS students will talk about Negotiations with Deepak Malhotra and real-world exercises. Classes like these will be central to the HAA curriculum in developing core life skills.
+SF is where highly-open, smart, energetic, and optimistic people convene
+San Francisco is meritocratic and accessible in a way that is hard to explain. The doors are literally open. People read cold emails. They read replies and cold DMs. If you can find the address to an event and show up, you will seldom be turned away. The city loves hustlers and rule breakers. And the leaders at the highest level of the tech industry show up every day at every day events. In what other place or what other industry, would you be able to walk up to the equivalents of Jamie Dimon or David Solomon at an event and have a great conversation?
+Patrick Collison’s advice to his younger self and to those
+who are 10-20
+is to figure out a way to travel to San Francisco and to meet other people who’ve moved there in pursuit of their dreams. It’s WeirdHQ. And that’s why our in-person program cannot be centered anywhere else.
+The Academy
+Higher education’s most underrated function is that it is a low-stakes environment to test not just ideas but collaborators. Group projects are how you discover who you work well with and countless great founding teams of the last two decades came out of exactly those networks.
+Think about what college actually compresses. In four years you meet more people, in more contexts, than most people meet in the following twenty. You trade music with the person down the hall and discover a shared obsession. You join a club on a whim and end up running it together. You suffer through difficult homework problems with the same three people until you know exactly who shows up, who quits, and who gets funnier as things get harder.
+The most talented high school students today might miss this opportunity if they don’t pursue college. When they’re in high school, they rarely have dozens of their sharpest peers within walking distance. Their network is online. In Discord servers, group chats, and hackathon circuits. Those networks are real, but they’re thin. That’s why a physical space to convene after high school matters so much.
+The next generation will not be taught the way the last one was. They will not work the way the last one did. They will not live in the same world either. The Academy is built for that world. And it begins by bringing the most talented young people from around the world together to San Francisco.
+If you’re young, hungry and love to build, apply
+here
+for the Founding Class Fellowship. The Horowitz Andreessen Academy is excited to meet you.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

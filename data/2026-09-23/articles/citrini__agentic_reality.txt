@@ -1,0 +1,108 @@
+Source  : Citrini
+Title   : Agentic Reality
+Date    : 2026-09-22 19:15 UTC
+Link    : https://www.citriniresearch.com/p/agentic-reality
+────────────────────────────────────────────────────────────
+
+Seven months ago, we pontificated on a scenario called
+The 2028 Global Intelligence Crisis
+– a future in which AI disruptions sent ripples across the global economy. In this thought experiment, we made no directional market calls but rather laid out a series of potential disruptions and how they could interact. Our caveat, that we would be “right about a few and almost certainly wrong about more” got overlooked by a crowd more concerned with the next three months of price action.
+But things are changing – and we are already beginning to see where our thoughts about the impact of agents removing friction were right and wrong. People are starting to take notice…perhaps most hilariously summed up by our friend
+BuccoCapital
+(second time one of his tweets has made it into an article, third time gets a prize).
+Obviously, the “Citrini Trade” is based off of our February article. But this has been a focus for us since the beginning, our first article was on the beneficiaries of the AI trade, but our second was on the losers - titled
+“Less Deus, More Machina”
+. And while each individual instance may appear to be “sell first, ask questions later”, the cumulative effect will - in our view - be a gradual pricing in of the most likely to occur disruptions due to AI.
+After all, we’re spending trillions of dollars, nobody is left that doubts this is a paradigm shift in technology. It’s unlikely that this is the only paradigm shift that  causes disruptions to incumbent business models.
+Just as the market has evolved in its understanding, so have we. And we’ve come a long way from 2023’s hate-selling of Chegg… back in February, most of the people selling the intermediaries were using a frame of reference that was
+“the chatbot can show you a hotel”
+. Now, we’re past the tipping point.
+Consumer-facing agents have been kicking around for a while but Meta’s consumer agent –
+Muse
+, with a free tier at 100 million tokens per week – seems like a watershed moment, not necessarily because of its technical abilities but because of its reach.
+Relative to other bots out there, it feels less robust than other solutions. Yet that’s the lament of every tech geek when a more consumer friendly version enters the market.
+It probably means they are on the right track.
+Meta is deliberately targeting consumers, not enterprises, with Muse.
+In our little bubble, “AI Agents” have been a topic of discussion for the past few years. But, we think it’s safe to say that this is the first time the broader population will derive utility from consumer agents. Muse is achieving product market fit, having rocketed to the #1 spot in the App Store, with more than 700,000 downloads on the first day.
+Agentic’s Studio Ghibli moment is here.
+First, let’s revisit our thought piece from February:
+It’s far from a
+fait accompli
+, but if you look at the moves in the market since Muse came into the zeitgeist you’d be hard pressed to say we haven’t benefitted from beginning to think about this back in February (actually,
+back in June 2023
+) instead of last week. We got some things right, and other things wrong (the card companies
+are probably not going to be the losers here
+)
+.
+But it does seem like many of the other stars are aligning.
+Tactics that worked when consumer behavior was dictated by human psychology will fall by the wayside, and those that fail to adapt will be left behind.
+Every day from now on we will see new examples of areas where friction was profitable becoming cost centers for companies that don’t react in a timely enough manner.
+Today you might realize just how many flight credits, loyalty points or promotional offers you’ve never used that will end up utilized  by agents. You may use an agent to save you money on subscriptions, services or recurring expenses. “What impact will that have?” is a question that won’t be asked just by niche investment research firms, but by the populace at large.
+Tomorrow, you might see something that makes you ask how much money health insurers make simply because people won’t sit on the phone for 5 hours trying to get coverage approved unless it’s a massive expense and/or life or death matter.
+What about your savings account or cash balances earning little to no yield? That money could be in a money market fund, but you haven’t bothered to move it. How much in net interest income is made because of that friction?
+The coming years will be some of the most interesting for investors who are intrigued by  paradigm shifts and their ripple effects.
+Thankfully, with the benefit of more information and observing real-world implementation, it feels like an apt time to revisit the question:
+Who wins? And who loses?
+Revisiting Our Agentic Frameworks
+We’ve been writing about the impact of AI since we began, and not just limited to the data center.
+We can see the back-end, though. Despite our efforts to cover the second and third-order impacts from AI use rather than the first-order impact from its scaling, we know many of you have glossed over these in favor of reading yet another article about semis supply chain bottlenecks. That’s okay, that was the right thing to do in the first half. But now the market is a bit different.
+So, rather than repeat in depth, here’s the recap:
+[Original Framework]
+In June 2023, our second ever paid article was titled
+Less Deus, More Machina
+and detailed losers due to AI in chatbot form (with some hints at the potential for agentic disruption). Our standalone short basket heavily favored call centers, BPO, stock images, expense products, staffing agencies, legal tech and no-code website building solutions.
+SPY climbed 75% since publication while our short basket dropped nearly 40%. However, many of these businesses are either extremely small now or consensus shorts at high risk of a squeeze.
+The underlying question of the piece, though, remains useful…
+how much of a company’s economics survives when its customers can accomplish the same task more easily?
+Consumer agents extend that question to the effort involved in comparing, switching, negotiating and cancelling.
+So far, in 2026, our coverage has been primarily centered on the impact of Agents – the shift from
+“who builds it”
+to
+“who uses it”
+. And for the most part, we’ve been looking for the beneficiaries rather than losers.
+[Cybersecurity]
+Earlier this year the market had a conniption when it understood the second order effects of coding bots. The baby, along with the bathwater, was thrown out in a fire sale of software equities. Some of the selloff was justified, but we felt there was a large overreaction.
+“Selling cybersecurity names because of agentic coding advancements is, for lack of a more apt word, stupid.
+If AI agents are truly about to proliferate across every enterprise on Earth, performing tasks autonomously, accessing systems, making API calls, and moving data around, does that make cybersecurity less important? No. With great confidence, definitely not. And yet the market sold CRWD, NET, RBRK, PANW and ZS alongside TEAM and CRM as if they were the same trade.”
+[Infrastructure Software, Networking, Observability]
+In our
+Agentic Utilities
+piece from March, we saw that infrastructure software businesses – spanning CPaaS, networking, observability, and more – were unfairly punished for the risks posed to its GICS peers. Meanwhile, the evolving character of the internet and the explosion of agentic AI meant that these services would be even more vital during the forthcoming cycle.
+[Strategically-Aligned Retailers]
+Then, in June’s
+State of the Themes
+, we highlighted
+Shopify (SHOP US)
+as a winner amidst the disaggregation of online shopping. The stock had also been caught in the wash of the software selloff, despite the fact that AI would empower the long tail of retailers to meet the bespoke needs of consumers.
+“Shopify (SHOP US): A second-order winner of the agentic boom lives in the e-commerce universe – specifically, the long tail of retailers. Disaggregation and unique purchasing habits are levered to AI, as consumer tastes are more accurately and uniquely targeted – driving increased conversions for niche products”
+[Meta]
+Finally, in
+All Along the AI Watchtower
+, we borrowed a term from our high school maths teachers in
+PEMDAS
+(
+P
+lease
+E
+xcuse
+M
+eta’s
+D
+eliberate
+A
+I
+S
+pending),
+where we rebuked the market’s view that it was the black sheep of the hyperscaler complex and likened the setup to Google circa July 2025.
+“Despite the prevailing negative narrative on Google (GOOGL US) web search and Gemini disappointment, we highlighted the company as an unappreciated winner and it’s up nearly 80% since. Now, a year later, does Meta (META US) provide a similar setup?”
+(It’s certainly starting to look like it).
+Our broad lines of thinking haven’t changed, but we continue to sharpen our views as this moves from theory to real world observation.
+The idea is simple:
+agents work for consumers.
+Their raison d’être is to make people’s lives better by getting them the best products and the best prices, personalized to their preferences, without the hassle.
+The clearest cut beneficiaries are those that either build the agents, make them better, or provide the infrastructure for them to operate. The losers are those that have no way to adapt to the new way of doing things.
+As we stand today, here are three ways to play the Agentic Reality:
+Beneficiaries: Agentic Enablers
+Pairs: Disintermediation
+Losers: Subscriptions and Aggregators
+Read more
