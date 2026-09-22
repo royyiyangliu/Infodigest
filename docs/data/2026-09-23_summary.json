@@ -1,0 +1,77 @@
+{
+  "date": "2026-09-23",
+  "generated_at": "2026-09-22T23:37:44.652412+00:00",
+  "stats": {
+    "tweets": 6,
+    "podcasts": 1,
+    "articles": 3
+  },
+  "tweets": [
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品经理、\"Behind the Craft\" 作者 Peter Yang（@petergyang）抛出一个与广告业主流相悖的警示：如果你的生意很大一部分靠向人类展示定向展示广告，那么当 AI agent 直接浏览网站、替用户把事情办完、根本没有真人看到广告时，广告市场将迎来\"粗暴的觉醒\"。他认为交互范式正在迁移——自己已不再活在邮件和短信里，而是活在与 agent 的对话中；并以 ChatGPT Finances 为例，展示 agent 能自动发现漏扣/错扣费用、代替用户与客服周旋直到退款到账。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 联合创始人兼 CEO Aaron Levie（@levie）看好\"个人 agent 代你交易\"的巨大变现潜力：当 agent 能端到端处理任意复杂任务，大量商业消费必然经其流转，用户会从甩给它琐碎任务逐步升级到复杂任务，摩擦下降反而会带来比以往更多的支出，这既利好 agent 提供方（如 Muse），也催生出面向 agent 的商务/本地/B2B 服务新层。他还预测 AI agent 使用软件的强度将是人类的 100 倍，界面虽淡出但 CRM/ERP、数据平台等核心原语反而更重要；能充当 agent 安全护栏、管理数据并编排业务逻辑的平台正迎来巨大机会。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel CEO Guillermo Rauch（@rauchg）宣布 AI Gateway 新增支持通过 HTTP 使用 Jev，并推广其类型安全的 AI SDK API。他还实测称给了 Grok 4.7 一道相当难的题——逆向分析一个运行中的二进制程序，结果被\"漂亮地解决\"，且速度非常快。"
+    },
+    {
+      "author": "Nikunj Kothari",
+      "handle": "nikunj",
+      "summary_zh": "投资人 Nikunj Kothari（@nikunj）长期把 Codex 当作主力 agent，称 Instinct 和 Muse 在手机端浏览器使用上零配置、体验出色，而搭配 Computer Use 的 Mac 版 Codex 在实际工作量上\"无可匹敌\"，可一次性完成原本手动的工作流。他还提出一个与主流相悖的观点：那些鼓吹\"token 堆料\"(tokenmaxxing) 的公司产品体验往往最差，好产品靠的是精心策划与打理，而非把所有东西一股脑丢给 agent，\"少即是多\"从未如此贴切。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator CEO Garry Tan（@garrytan）力荐 capy.ai 作为过去一周的\"agentic 编码秘密武器\"：它能追踪多步骤工作流、自动并行化任务、产出干净的 GitHub PR 与 CI 流程，在完成大型 PR 上比 Codex 或 Claude Code 单打独斗更快。他还认为 Cluely 这类带持续上下文、半对抗性的实时思考助手其实是个好主意。"
+    },
+    {
+      "author": "Peter Steinberger",
+      "handle": "steipete",
+      "summary_zh": "开发者、PSPDFKit 创始人 Peter Steinberger（@steipete）围绕自建 agent（\"claw\"）发声：针对\"Meta 使用 OpenClaw\"的传言，他澄清 Meta 是受启发后自研了自己的 agent，并称赞 Nat 及其团队做得出色。他强调自己托管 agent 的最大好处是\"没人能封禁你\"，并晒出安全审计结果——他们做足了功课，审计未发现任何严重问题。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "乱翻书",
+      "title": "276.当AI给出所有答案，年轻人如何找到自己的问题？",
+      "date": "2026-09-22 10:20 UTC",
+      "duration": "01:12:33",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6ab2546493d5eb3bdc794b18?utm_source=rss",
+      "summary_zh": "本期是「乱翻书」在复旦一场欧莱雅校园宣讲上的圆桌，主题「人生苦短，值得精彩」，探讨AI时代年轻人的学习、成长与择业。嘉宾为上外公关系大三生金贤婷、港科大（广州）数据科学博士兼「同频回响」（情感智能）创业者、去年欧莱雅美妆科技黑客松冠军李俊伟，以及欧莱雅中国公关部、2021届管培生徐轶凡。对投资者而言，节目更像一手的AI应用与人才需求田野观察，而非产业分析。\n\n**AI渗透率与使用习惯**：受访者称AI可省去**95%以上**的市场资料搜集时间，并普及到会议纪要、邮件、财务、人力等职能；创业者的电脑**24小时**不关机跑Codex，用「目标模式」在睡眠时段做方言等全量调研，并把耗时超过**1到2名实习生8小时**的任务交给AI。工具栈已从豆包升级到Codex、Claude、DeepSeek harness的区分使用，礼盒打样用nano banana即时出图。\n\n**企业AI转型（欧莱雅）**：公司现推三大转型——面向消费者、面向内部业务、面向员工；曾设首席元宇宙官，今年中国区设AI转型负责人，积极参与世界人工智能大会，强调联动中国AI人才与科技初创的生态圈。欧莱雅**117岁**、明年中国区满**30年**，本质是精细化化学加生物公司，主持人提出AI for science（对标AlphaFold）或是其更大战场。\n\n**人才与劳动力含义**：核心焦虑是入门/学徒型岗位被AI接管、传统「执行→判断→决策」成长路径被打断。共识是工具能力被拉平后，企业筛选的是审美、创造力、共情、灵活性等软技能；反复出现的风险概念是「认知缴械」（IEEE大模型标准议题，即全员变成对AI说yes的工程师）与「局部最优解陷阱」——团队须保留能对AI说「不」的主心骨。多位嘉宾强调「不做二传手」、为署名内容负责，未来五年最值得训练的是理解他人、建立信任、承担结果、理解自我。整体基调乐观且偏教育/雇主品牌宣导，量化产业信息有限。"
+    }
+  ],
+  "articles": [
+    {
+      "source": "Citrini",
+      "title": "Agentic Reality",
+      "date": "2026-09-22 19:15 UTC",
+      "link": "https://www.citriniresearch.com/p/agentic-reality",
+      "chars": 9484,
+      "summary_zh": "Citrini 研究认为\"智能体现实（Agentic Reality）\"已越过临界点，市场正逐步为 AI 智能体消除交易摩擦所带来的颠覆定价。标志性事件是 Meta 推出面向消费者（而非企业）的智能体 **Muse**，免费档提供每周 **1 亿** tokens，首日下载量超 **70 万**次并登顶 App Store 榜首，被视为智能体的\"吉卜力时刻\"——首次让大众从消费级智能体获得实际效用。\n\n核心投资逻辑：\"摩擦即利润\"的商业模式将变成成本中心。当智能体能自动比价、切换、谈判、取消时，那些依赖用户惰性获利的公司受损：消费者未用完的机票额度/积分/促销、健康险因人们不愿长时间电话申诉而省下的赔付、以及现金因懒得转入货币基金而为银行贡献的净息差收入等。作者复盘 2023 年 6 月《Less Deus, More Machina》做空篮子（呼叫中心、BPO、图库、报销软件、人力中介、法律科技、无代码建站），期间 SPY 上涨 **75%**、该空头篮子下跌近 **40%**，但如今这些标的多已很小或成为拥挤空头、有逼空风险。\n\n框架要点：① 网络安全被错杀——智能体普及反而更需安全（CRWD、NET、RBRK、PANW、ZS 曾被与 TEAM、CRM 一同错误抛售）；② 基础设施软件（CPaaS、网络、可观测性）遭误伤但更关键；③ Shopify（SHOP）受益于电商长尾与个性化；④ 看好 Meta（META），类比 2025 年 7 月被低估的 Google（此后涨近 **80%**）。\n\n三种交易思路：受益方\"智能体赋能者\"、配对交易\"去中介化\"、输家\"订阅与聚合商\"。（正文后段为付费墙内容）"
+    },
+    {
+      "source": "a16z",
+      "title": "Incubating The Horowitz Andreessen Academy",
+      "date": "2026-09-22 13:07 UTC",
+      "link": "https://www.a16z.news/p/incubating-horowitz-andreessen-academy",
+      "chars": 7390,
+      "summary_zh": "a16z 宣布孵化\"霍洛维茨·安德森学院\"（The Horowitz Andreessen Academy，HAA）——一所位于旧金山、面向高中毕业生的私立全日制线下学校，定位为 AI 时代的新型教育机构（\"互联网让人无所不知，AI 让人无所不能\"）。学院将邀请黄仁勋、Satya Nadella、Travis Kalanick、Mira Murati、Ali Ghodsi、Patrick Collison 等科技领袖来校授课。\n\n学生体验围绕三大支柱：**Co-ops（工作轮岗）**——全年在不同岗位与公司实习；**Courses（课程）**——由创立独角兽的创始人、投资人及教科书作者亲自授课；**Pursuits（个人探索）**——个人项目、创业点子乃至赴海外三周的探索。课程样例包括前沿系统、数字计算的起源与创新（1940-2025）、销售的艺术、现代软件开发、AI 推理工程等，并借鉴斯坦福 GSB、哈佛 HBS 的\"软实力\"热门课（人际动力学、权力路径、谈判）培养核心生活技能。\n\n从投资/产业视角看几点值得关注：**创始合作伙伴**（提供实习机会）阵容包括 **Anduril、Anthropic、Coinbase、Google、Meta、NVIDIA、OpenAI、Palantir、Replit、Stripe 共 10 家**，几乎覆盖 AI 与前沿科技头部公司，显示 a16z 在人才管道上的整合能力与生态卡位。学院强调旧金山作为科技人才聚集地（\"WeirdHQ\"）的独特网络价值，并瞄准\"选择不上大学的顶尖高中生\"这一空白——用线下物理空间替代 Discord/群聊等\"单薄\"的线上网络，本质是以精英人才网络为核心资产。文末面向年轻建设者开放\"创始班 Fellowship\"申请。这可视为顶级 VC 从投资企业向\"投资并培育人才源头\"延伸的又一动作。"
+    },
+    {
+      "source": "a16z",
+      "title": "Introducing The Horowitz Andreessen Academy",
+      "date": "2026-09-22 12:05 UTC",
+      "link": "https://www.a16z.news/p/introducing-the-horowitz-andreessen",
+      "chars": 9367,
+      "summary_zh": "a16z 宣布创办 The Horowitz Andreessen Academy（霍洛维茨·安德森学院），一所位于旧金山、面向高中毕业或大学一二年级最有野心的年轻建设者的高选拔性学校，目标是在 AI 重塑世界的背景下培养其技能、人脉与实战经验。学院没有传统的成绩、考试和作业，教育理念由三部分构成：Pursuits（学生自选的个人项目/创业点子，为核心单元，学院甚至会资助如为期三周的日本考察）、Courses（由传奇创始人与运营者授课的 2 天至 4 周短课）、Co-Ops（在 Stripe、Google 等真实公司的沉浸式实习）。\n\n对投资者/产业观察的看点：\n- **10** 家创始合作伙伴阵容极强，涵盖 Anduril、Anthropic、Coinbase、Google、Meta、NVIDIA、OpenAI、Palantir、Replit、Stripe，将提供算力、硬件、共建课程与实习机会；另有超 **40** 家招聘合作伙伴。\n- 师资与嘉宾包括 Sam Altman、Brian Armstrong、Dylan Field、Amjad Masad、Naval Ravikant、Marc Andreessen 等数百位行业领袖。\n- 实习资源丰富，仅 a16z 投资组合就有 **850+** 家公司、**19,000+** 个开放岗位。\n- 首届 Founding Class Fellowship 为期一年、**免学费**，将于 **2027 年秋季**开学，优先招收应届高中毕业生，也接受在读四年制大学生与国际申请者。学员可获 **$50,000+** 算力额度与 **$5,000** 差旅研究预算。\n- 学院另计划申请监管批准、于 **2028 年秋季**开设两年制项目，若获批将收取与精英私立大学相当的年度学费。\n- 融资方面，共募集 **$42M**，由 a16z 领投，Marc Andreessen 与 Erik Torenberg 加入董事会；天使投资人包括 Adam D'Angelo（Quora 联创）、Tobi Lütke（Shopify CEO）、Tony Xu（DoorDash CEO）、Fidji Simo（OpenAI 前应用 CEO）、Garry Tan（YC CEO）、Joe Liemandt（Alpha School）、Shyam Sankar（Palantir CTO）。\n\n该项目由 Udemy、Maven 联合创始人发起，本质是 a16z 把其网络、资本与顶级公司资源打包成一种\"反传统大学\"的人才培养与招募管道，强调旧金山的技术人才密度不可替代。"
+    }
+  ]
+}
