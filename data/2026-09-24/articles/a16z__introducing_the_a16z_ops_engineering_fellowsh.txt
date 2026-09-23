@@ -1,0 +1,70 @@
+Source  : a16z
+Title   : Introducing the a16z Ops Engineering Fellowship
+Date    : 2026-09-23 17:03 UTC
+Link    : https://www.a16z.news/p/introducing-the-a16z-ops-engineering
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+Today, we’re introducing the
+a16z Ops Engineering Fellowship
+, a six-week cohort for the innovators redefining how organizations operate with AI.
+AI is no longer just an individual productivity tool. The fastest growing companies in tech are now deploying it at the systems level: rolling out agents to handle cross-team tasks, redesigning workflows to eliminate manual handoffs, and building durable infrastructure that enables a company to up-level its capabilities.
+The people leading this shift are cross-functional leaders who sit at the intersection of operations and engineering. They might be AI-native operations leaders, scrappy engineers, or technical founders who are transforming the infrastructure of their organization and operational stack. They identify how to leverage AI internally, then build and implement the systems that empower each team member.
+We’re launching this fellowship to bring these builders together to share what’s working, level up, and define the frontier of internal AI playbooks.
+Apply Here
+How it works
+Six weeks
+Starts in October 2026
+Flexible time commitment
+What you’ll get
+Tight network of AI-pilled leaders at the fastest growing companies in the world
+In-person dinner series in San Francisco (additional cities based on demand)
+Candid, tangible learnings from those building and implementing internal AI
+Who you’ll be joining
+You’ll break bread with founding fellows and industry leaders such as:
+Seb Goddijn
+- Builder of Glass @ Ramp
+Claire Vo
+- Founder @ ChatPRD and CXO.dev
+Matt Portnov
+- Internal AI Lead @ Decagon
+Ann Miura-Ko
+- General Partner @ Floodgate
+Brandon Gell
+- COO @ Every
+TK Kong
+- Co-founder @ Concept and Prev. Lead @ Ramp Labs
+Owen Williams
+- Design Manager, Developer AI @ Stripe
+…and many more.
+Apply Here
+The rising need for AI Operations
+Every company is asking the same question:
+How do we leverage AI to transform how our team operates?
+Granting teams access to AI tools is only the beginning. The fastest-growing companies in tech are turning this patchwork of siloed team-wide productivity gains into one shared system. The leaders of Internal AI understand existing operational systems, see how AI drives productivity team by team, and translate those gains into infrastructure that scales across the company.
+Operations is now an engineering problem, and this group is solving it.
+We’re looking for fellows who
+Built or deployed AI agents and systems that redesign workflows across functions (operations, product, go-to-market, etc.)
+Turned AI from an individual productivity tool into durable organizational infrastructure
+Think in systems rather than isolated features or one-off automations
+Can navigate both the technical and organizational realities of deployment
+Care deeply about measurable outcomes, internal adoption, and the craft of building better companies
+You might call yourself an Internal AI Lead, Chief of Staff, Internal Tools Engineer, Platform Lead, or something else entirely. Titles matter less than what you’ve built, the work speaks for itself.
+Questions? Contact Brooke Martin -
+bmartin@a16z.com
+. Thank you!
+Apply Here
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
