@@ -1,0 +1,87 @@
+{
+  "date": "2026-09-25",
+  "generated_at": "2026-09-24T23:38:51.380277+00:00",
+  "stats": {
+    "tweets": 8,
+    "podcasts": 3,
+    "articles": 1
+  },
+  "tweets": [
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "Latent Space 播客与 AI 新闻通讯创始人 Shawn \"swyx\" Wang。他把 Latent Space 旗下 AINews 用 5.5 Opus 与\"6 Sol\"并排对比后宣布，5.5 Opus 成为 AINews 今后的默认模型——报告更简洁、更有品味，\"水词/废话\"(slop) 比 5 Opus 还要少，差距是\"天壤之别\"。"
+    },
+    {
+      "author": "Boris Cherny",
+      "handle": "bcherny",
+      "summary_zh": "Anthropic 工程师、Claude Code 创造者 Boris Cherny。他披露 Claude 正用类似形式化方法的方式修 bug：对程序中最棘手的状态机/易竞态部分建模、在模型里寻找反例(疑似 bug)、复现并修复，而非对整个代码库做完整形式化验证。他还分享了 Anthropic 近几周如何大幅提升 claude.ai 与桌面应用的速度，并发布面向工程师的性能优化技术博客。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI 工程副总裁 Thibault Sottiaux。他预告下周二的 DevDay，称这是团队最雄心勃勃的一次冲刺，内部工具 Astra 在极短时间内让许多新东西成为可能，会\"改变你的工作方式\"。他还盛赞语音能力：已习惯直接打电话给 ChatGPT 处理工作、查邮件、写代码、管理日程，且能跨全生态插件(含第三方开发的插件)协同运作。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品人、Creator Economy 作者 Peter Yang。他体验 Opus 5.5 后印象深刻：聪明、快、健谈、写作好、速率限制宽松、能力屡屡超出预期。他提出一个行业观察——当前\"一家实验室有最好的模型，另一家有最好的 harness(框架)\"，认为像 Claude Code 这样的强模型还亟需更好的实时语音与浏览器/computer use 能力。"
+    },
+    {
+      "author": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "summary_zh": "在 Google 与 Meta 多年打造消费者及 SMB 产品的 Madhu Guru。他公开反驳 Ben Thompson：消费者对\"做事\"并非只有单一关系——逛衣服可以是娱乐，但找修屋顶工人对多数人却是煎熬(需搜索、读十条评论、电话来回、协调保险、约检查、比价、防隐藏费用)。他把 Thompson 的论调类比 2000 年代初\"为何要网购衣服或电视\"的质疑，认为技术会不断带来更好的做事方式，而能替消费者消除此类摩擦的 agent，其潜在需求极其巨大。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic(Claude Code 团队)的 Thariq。他推出一种新形式的分享帖——公开团队用具体 prompt 与技巧完成工作的细节，供他人直接复制，并征求反馈。他也点破行业现实：所谓\"Claude 一次搞定(one-shot)\"的帖子背后，其实是长达 1 万字符、包含大量优质思路、skills、示例乃至 API key 的 prompt。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad。他主张需要年轻人来打破常规、深入质疑根深蒂固的信念、去尝试看似不可能之事，理想中的大学正应培养这种特质。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch。他提出所有成功 agent 都由三部分构成：大脑(模型+harness)、双手(工具/计算机/浏览器)、文件(记忆/skills/仓库)；\"省事\"做法是全塞进一台有状态电脑(如常开的 Mac Mini)，但要在云端低成本运行就必须拆解——harness 跑在 Fluid compute 上、用 Workflow 让事件日志持久化以扛住重启与崩溃，双手改用 Browserbase/Kernel 浏览器集群、Sandbox 计算机及 just-bash 等轻量工具。为补齐存储这一环，Vercel 发布新产品 Drives(可随时挂载的 agent\"外置硬盘\"，解耦存储，例如夜间\"做梦\"式记忆整合 cron 无需启动完整 agent 电脑即可读写文件)；他称这种拆分不仅大幅降本，更极大提升安全性与可审计性。他另分享 ShellPerfBench：自己对新 shell 会话启动速度很\"神经质\"，Opus 5.5 找到了许多其他模型忽略的启动优化，建议让 agent 去优化 .zshrc 等配置。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "硅谷101",
+      "title": "E252｜硅谷睡眠外挂：富人的玩具，还是预防医疗的入口？｜对话Eight Sleep创始人",
+      "date": "2026-09-23 17:00 UTC",
+      "duration": "54:32",
+      "link": "https://podcasts.apple.com/us/podcast/e252-%E7%A1%85%E8%B0%B7%E7%9D%A1%E7%9C%A0%E5%A4%96%E6%8C%82-%E5%AF%8C%E4%BA%BA%E7%9A%84%E7%8E%A9%E5%85%B7-%E8%BF%98%E6%98%AF%E9%A2%84%E9%98%B2%E5%8C%BB%E7%96%97%E7%9A%84%E5%85%A5%E5%8F%A3-%E5%AF%B9%E8%AF%9Deight-sleep%E5%88%9B%E5%A7%8B%E4%BA%BA/id1498541229?i=1000791370551&uo=4",
+      "summary_zh": "硅谷101对话智能床套公司Eight Sleep（节目中口播为\"A Sleep\"）两位创始人Matteo Franceschetti与Alex Zatarain。核心产品Pod是铺在现有床垫上的智能床套，用水循环动态调温、左右两侧独立控温，并追踪心率、HRV、睡眠阶段，宣称最多可提升睡眠表现**30%**。\n\n投资看点（商业模式与护城河）：\n- 财务与规模：**2014**年创立，YC申请两次被拒、第三次录取；早期众筹卖爆**8000**套但定价倒挂\"卖一台亏一台\"，四五次濒临现金流断裂（最惨仅剩三四周工资）。**去年已实现盈利**、单位经济健康，售往**35个以上国家**，估值百亿的睡眠独角兽，管理层明确提到未来会**IPO**。\n- 定价与打法：美国一套床套约**3000美元**（国内约2万元）。对标Apple/Tesla，自认处于\"Model S阶段\"，走高端而非价格战路线，长期目标覆盖全球80亿人。\n- 护城河=工程+数据。自研传感器、**40多项**专利、Pod已迭代到**第六代**；解决静音/制冷/可靠性\"不可能三角\"。数据壁垒是关键：积累近**10年、约10亿小时**、每天数TB健康数据，且是\"干预→反应\"的因果数据，管理层强调\"有钱和大模型都买不到\"。\n\n增长与转型信号：\n- 中国是**增长最快市场**（今年4月开卖，Pod 6节目当日在华发布，30天免费试睡）；中国用户偏好更暖，反馈超预期。\n- 从消费硬件转向\"Eight Medical\"预防医疗：正为睡眠呼吸暂停检测与缓解申请**FDA**认证；斯坦福研究显示单晚睡眠数据可识别约**130种**疾病，其自有数据对糖尿病/高血压等相关性早期测试准确率近**90%**，并可提前**3-5天**预警发病（静息心率升、HRV降）。远期愿景为睡眠期全身扫描、乃至癌症早筛。AI作为\"睡眠管家\"实时调节温度是产品内核。孕期模式、女性健康、职业运动员（F1、NBA、环法冠军波加查）为高粘性场景。"
+    },
+    {
+      "source": "晚点聊 LateTalk",
+      "title": "182: 对话梁琛奇：抖音、猫箱、创业，「他们都搞生产力，我想用 AI 创造开心」",
+      "date": "2026-09-24 07:00 UTC",
+      "duration": "3:22:00",
+      "link": "https://podcast.latepost.com/182",
+      "summary_zh": "对话动念引线创始人梁琛奇（前字节、抖音与猫箱负责人）：押注 AI 泛创作+轻游戏娱乐，探索如何用 AI 让人开心。"
+    },
+    {
+      "source": "乱翻书",
+      "title": "277.从提醒你，到替你办：Today想把Personal AI带到哪一步？",
+      "date": "2026-09-24 05:46 UTC",
+      "duration": "01:39:41",
+      "link": "https://podcasts.apple.com/us/podcast/277-%E4%BB%8E%E6%8F%90%E9%86%92%E4%BD%A0-%E5%88%B0%E6%9B%BF%E4%BD%A0%E5%8A%9E-today%E6%83%B3%E6%8A%8Apersonal-ai%E5%B8%A6%E5%88%B0%E5%93%AA%E4%B8%80%E6%AD%A5/id1591595410?i=1000791410200&uo=4",
+      "summary_zh": "乱翻书主播潘乱对话中国首款正式上线的 Personal Agent 产品 Today 团队（创始成员 Suki、技术负责人高策）。Today 去年 **10 月**立项、**2 月**组队、**4 月**内测，现于国区+美区同步上线，核心差异化是\"记忆(memory)+主动性(proactive)\"，定位是能记住你、主动替你办事的\"赛博生命\"，而非又一个需要学习的工具。\n\n行业格局与估值信号（投资者重点）：海外 instinct 不到 **10 万**用户，半年估值从 **5000 万美金**飙至 **100 亿美金**、正融 **10 亿美金**；Meta 的 muse 口碑罕见地好，靠钱和 agent-in-sandbox（24 小时云电脑）架构快速迭代，但成本极高；Tom/汤主打 email 这一 killer feature，付费转化据称达 **15%**，被两位嘉宾认为是最适合创业公司的\"深度+订阅\"打法。\n\n关键判断：嘉宾认为该赛道**短期被高估、长期被低估**——PMF 尚未验证，当前潜在市场对大厂太小（对比国内 to B 核心：钉钉约 **40 亿**、飞书 **30 亿**、企微约 **30 亿**，三者相加不足 **100 亿**）。大厂擅长在 TAM 变大后烧钱吃下，而非早期下注。\n\n模型侧观点：高策称模型自今年 **2 月**起在 coding 上已达 AGI 水平，coding 能力仍可每年 **8-10 倍**提升、成本每年降 **10 倍**；但模型泛化性没想象中强，尤其在交互层，故**产品经理/人类先验(rubrics)价值越来越大**，模型日益同质化后产品即壁垒。供应商选择：DeepSeek 做 deep research 的 sub-agent 又快又便宜；Kimi t3、GLM 5.3 在长程任务上不劣于海外次世代大模型；交互与指令依从上开源模型普遍偏弱（举例小米 RL 数据配比约 **60%-70%** 为 coding、仅 **3.5%** 为 chat）。\n\n其他要点：Personal Agent 现阶段更适合数字资产丰富的高净值/繁忙人群（VC、founder），国内可挖掘安卓手机端上下文；商业模式（订阅 vs SaaS 分成/佣金/广告）仍在摸索；执行闭环（提醒→准备→确认→自动执行）与隐私可控是下一阶段方向。"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "ClusterMAX 3.0: The Industry Standard GPU Cloud Rating System Returns",
+      "date": "2026-09-23 21:20 UTC",
+      "link": "https://newsletter.semianalysis.com/p/clustermax-30-the-industry-standard",
+      "chars": 183379,
+      "summary_zh": "SemiAnalysis 时隔 **8** 个月发布 ClusterMAX 3.0，对 **77** 家 neocloud 做了全面实测，市场覆盖面从 2.0 的 **209** 家扩至 **323** 家，累计访谈超 **200** 位终端用户。测试涵盖算力、网络、存储、编排、监控、支持等 **10** 大类，分 3 阶段（Audit / Performance / Reliability），最狠的是 **8** 小时 GPU+网络同时压测的 burn-in 与\"故意搞破坏\"的破坏性测试（注入 XID 故障、重启节点）。\n\n投资要点（评级变动）：\n- 铂金级（Platinum）：Nebius 加入 CoreWeave 行列；CoreWeave 仍是技术标杆，Nebius 则凭商业运作稳定收取溢价。\n- 黄金级（Gold）：Google Cloud 升入，与 Oracle 同级。\n- Azure 降至白银；Fluidstack 跌至 Unavailable；Crusoe 掉到青铜；Lambda/Firmus/TensorWave 留白银，GMI 升白银。\n- 门槛提高：全球仅 **19** 家获奖牌级评级；新设\"参与奖\"（Participation Ribbon）档，**15** 家入列，即\"仅够及格\"。\n\n行业趋势：\n- 融资是最热议题。有信用的客户合同（IG offtaker）可让 neocloud 拿到低于自身信用评级的债务成本；无锁定客户者融资更贵。保险商推出\"合同终止\"参数化产品（提供约 1 个月过桥期）为放贷方降险。\n- NVIDIA\"资产负债表即服务\"：通过收入下限、租约背书等 backstop 帮 neocloud/labs 拿到投资级融资，除首销 GPU 毛利外还能分享 AICP 收入下限以上的收成。折旧多为 **6** 年假设，但残值风险无人愿担。\n- 硬件迭代：Hopper→Blackwell 跨度巨大（Grace ARM CPU、强制液冷、单机柜 **130kW**+ 高压供电、NVL72 机柜级 NVLink）；而 Blackwell→Vera Rubin 改动小得多（NIC 从 800G CX-8 升至 1.6T CX-9、单柜功率升至约 **200kW**、含 800V DC），多家厂商称 VR 交付有望早于预期。\n- 需求分化：最大 labs（OpenAI/Anthropic，模型预计 YE2027 占全部 lab 算力 **56.3%**）自建裸金属、自管调度；OpenAI+Anthropic 带 Kubernetes 的招聘薪资区间合计达 **$27.77M–$42.69M**。中小 labs 则更愿用托管集群与推理端点。\n\n其他：安全仍普遍薄弱；Agentic 编码正压缩托管集群利润（客户更愿选裸金属），但 CoreWeave 用 LLM（NodeBot）做故障诊断，进一步拉开与 vibecoding 新贵的差距。SemiAnalysis 预告下一步将纳入推理端点与 RL 基础设施测试。"
+    }
+  ]
+}
