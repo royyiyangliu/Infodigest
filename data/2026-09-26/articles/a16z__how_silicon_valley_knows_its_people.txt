@@ -1,0 +1,125 @@
+Source  : a16z
+Title   : How Silicon Valley Knows Its People
+Date    : 2026-09-25 14:38 UTC
+Link    : https://www.a16z.news/p/how-silicon-valley-knows-its-people
+────────────────────────────────────────────────────────────
+
+America
+|
+Tech
+|
+Opinion
+|
+Culture
+|
+Charts
+Today’s article shines a little light on why a16z is launching
+Cosign
+. To learn more about the product, watch the a16z Show episode with
+,
+,
+, and
+here
+.
+One of Silicon Valley’s great talents is turning early belief into consensus.
+Belief
+is private conviction. When you believe in someone, you can invest something based on that belief. Time, attention, access, reputation, and, of course, money.
+Affiliation
+is what makes those investments legible to everyone else. What changes as people read all these signals is
+status
+.
+It is a well-known trope that VCs all want to be
+non-consensus
+and
+right
+about companies because that’s the most lucrative bet. But really, being “early” matters far more than being “non-consensus.” Because if you’re early enough to something, there’s little to agree or disagree with yet. So someone can be captivated by a little signal, give it some attention or resources, see some lift, and double down. Soon others see this and follow.
+Silicon Valley knows people by watching other people know them.
+One person’s visible belief becomes a signal to someone else, and the network updates its priors. It’s a kind of live, recursive price discovery for people. A more romantic way to put it is that all of these signals build a person’s lore.
+People
+used to earn status through rites of passage like graduating college and landing prestigious jobs. It still doesn’t hurt to get into Stanford, drop out, become a Thiel Fellow, join YC. And yes, it helps to know people who know people. But even these stamps and side doors matter less than they used to. People collect status in bits now, 24/7, often outside any formal system. And unlike the old stamps, a lot of these are earned in public.
+Showing your work in public has become the new “warm intro” (and, in turn, gets you plenty of those). Someone unknown makes something good and puts it out there. A few people notice. They follow, reply, DM. Others notice who’s noticing them and tell a friend. Soon they’re invited to an IRL thing, then onto a podcast, and maybe another.
+You are built by your achievements and by others’ belief in you.
+I’ve
+written
+that ascendancy is a game of two moves:
+self-made wins
+and
+high-status vouches
+. The earlier someone is in their trajectory, the less proof there is to go on, and the more meaningful the vouch. Belief compounds.
+Being an
+early believer
+is a stamp of skill and
+taste
+. Everyone wants to be the guy who discovered the band when it was still underground. Pharrell’s viral reaction to hearing Maggie Rogers play “Alaska” was career-making. Paul Graham included Sam Altman in his Five Founders
+essay
+,
+in
+2009.
+“Non-consensus” people are just unknown, until they aren’t.
+Vouches take many forms. A tweet, an invite, an introduction, an angel check. These are all their own versions of a
+co-sign
+. Being undeniable and getting credible people to say so is how you become somebody in Silicon Valley.
+Twitter is, of course, where so much seeing and associating happens online.
+Tech people want to just hang out there, launch products, publish essays, monitor the situation, opine on the current thing; audition for a theoretical job and collect job offers in the DMs; win friends and influence people and maybe find romantic partners through it all. Twitter owns the live game because so much of the Valley’s social life has been bundled onto the same graph, and Twitter wants to bundle more media and behavior into it still.
+The graph tells on everyone. Who follows whom, who’s mutuals with who. And if the graph doesn’t, the anonymous “watch” accounts do.
+The game of Tech Twitter is a bit like if MySpace Top 8 was back, but you didn’t have to lock in your few favorites.
+Tech Twitter is Top 8 by soft, constant, often-public affiliation
+. You follow someone, reply to them an earnest but suspicious amount, quote-sweet their latest launch, invite them onto your podcast and go on theirs, post a photo together, and confess that you think they’re one of the smartest and coolest people you know.
+These affiliations spill into broader
+new media
+. Once someone gets noticed enough, they start showing up in newsletters and profiles, on podcasts and shows. The media itself becomes part of the affiliation graph. Hosts and guests vouch for each other. Then the quotes and clips get fed back into the timeline as social proof and discourse prompts. And on we go.
+Insider media
+is the Valley’s breaking news and reality TV, covering the action and entertaining us while making its people legible even faster.
+Not all vouches are the same, obviously.
+If Marc Andreessen tweeted tomorrow that I was one of the best writers of our time, that’d be a strong signal. If you tweeted it, it might mean considerably less (No offense, I mean
+the average you
+. And Marc, if you’re reading this, this experiment remains available.) Of course, some of the highest signal vouches go unseen. In backchannels and group chats, the question is still: Are they good? How good?
+Top 10%? Top 5%? Top 1%? I’d-regret-it-forever-if-I-passed-good?
+If likes are pennies now, IRL time is expensive.
+IRL signal is stronger because seats are scarce, an invite puts the host’s reputation on the line, and you can’t split-screen the conversation with Subway Surfers. But even offline vouches make their way back online. If you attend a private dinner, there’s a good chance it’ll show up on the timeline soon. The timeline is the tabloid multiplier.
+All of which makes the timeline a very efficient place to watch people watch each other. Silicon Valley’s bankable social graph is much less about who worked where and with whom, or even who knows whom, than who chooses to be associated with whom, how and when. The nice thing is that belief isn’t tied to where you started. It’s much more about what you’re up to and where you’re headed.
+The affiliation graph is the visible layer of the belief graph.
+The social capital machine is part of the magic that makes this place work.
+We say we don’t care about legibility (we do). We say we don’t care about comparisons and rankings and lists (we do). We say we don’t care about status (we really do, because everything else feeds into this).
+And, in the right dose, the game is fun!
+To be clear, this is all very human. We just get to watch more of it play out in public now.
+It’s 2026, and every game feels like it’s gotten faster and more competitive. AI has made even the most complex and technical things radically easier to attempt. As output gets abundant and attention stays scarce, it gets harder to tell what and who stands out. Which makes the human layer matter more.
+Who noticed? Who believes?
+We start reading the second-order signals closer.
+Being illegible can be charming, but not for long.
+You still have to be good. It just helps enormously if people can watch you be good. You can bid for legibility with your thoughts, with experiments, by building things, sharing art, or anything that helps people watch you play the game. What’s new is that reach and virality don’t bank permanent social capital anymore. Having 10K followers isn’t as exciting as seeing someone get them in
+a week
+.
+That last bit is all about momentum. Companies are told to fundraise with killer metrics or no metrics at all; for people, the no man’s land of status is being legible but moving at a pace that inspires neither love nor fear. We’re in a continuous-proof-of-potential world now. Up and to the right, if you can.
+And maybe it’s fine that we notice all of this.
+Because in this AI-pilled, attention-first era of Silicon Valley, it’s all still part of the machine that helps outsiders become insiders and insiders become undeniable as fast as code ships and word travels.
+The game only works if new people can win.
+The thing about praising people on Twitter or anywhere is that the generous and strategic motivations are hard to separate. You might genuinely want someone to win. You might also like what believing in them says about your own taste. And if you’re early and right about them, you get some status for it. The nice thing is that all three incentives can work together for some greater good:
+You get credit for seeing someone early, and they get seen.
+Alex Danco has
+written
+about this very thing as the “social subsidy” of angel investing, and more broadly written on gift culture – that generous and useful behavior can be self-interested and still be helpful to others. In
+Social Capital in Silicon Valley
+, he calls some of this useful ambiguity around status the “Social Fog of War,” which helps keep the network open.
+Another game rule I’ve internalized from the reality TV show
+Survivor
+(yes, people still watch it): “
+Treat everyone like they could be on top tomorrow”
+(i.e. whoever’s on the bottom of the tribe today could hold all the power tomorrow). And Danco’s “Golden Rule” of Silicon Valley is to
+treat people as if they might be the next great founder
+. Just like VC funds have anti-portfolios of companies missed, plenty of us have anti-portfolios of people we saw early, believed in fast, and wish we’d vouched for sooner.
+It’s fine if we know who
+has
+status, as long as we don’t know who will
+next
+.
+More people are finding the game now, and there are more ways to play it. We see the work, the network forming around the person, and belief compounding. We watch private belief become public consensus in real time. And everyone benefits when good people get pulled into the game faster.
+Poetically enough, technology itself helps keep Silicon Valley’s order from being set in stone
+. Every new technical era reshuffles the order - who the promising unknowns are, who sees them first and how, who’s best fit to play the newest game of legibility. And yes, we’re in one of those moments now.
+If you believe in someone early, say so.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
