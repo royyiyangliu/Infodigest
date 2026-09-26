@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-27",
+  "generated_at": "2026-09-26T23:37:46.602104+00:00",
+  "stats": {
+    "tweets": 7,
+    "podcasts": 1,
+    "articles": 1
+  },
+  "tweets": [
+    {
+      "author": "Boris Cherny",
+      "handle": "bcherny",
+      "summary_zh": "Anthropic Claude Code 核心开发者 Boris Cherny 展示了内部 Slack agent「Tag」的实战效果：Tag 每天替他写超过 50% 的 PR、承担约 100% 的数据分析，并修复大部分产品反馈与 bug。他强调这不是普通的 Slack 机器人，而是具备主动性、可编程、有记忆、能接入各种 connector，并借助 Opus 5.5 与 Fable 5.1 拥有较强判断力；示例指令包括让 Claude 自动复现并修复频道里的每个 bug、生成上百条假设并用 workflow 验证、乃至制作交互式游戏与讲解幻灯片。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic Claude Code 团队成员 Thariq 深入研究了「effort（推理投入档位）」参数，通过 eval 与自测得出与直觉相悖的结论：并不应对所有任务都用 max effort。他表示自己更常用 low effort 以保持对过程的掌控，而 max effort 基本只在希望完全放手或查找安全漏洞时才使用，并在新的开发者站点上发布了相关基准与 demo 的交互式讲解。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch 做出大胆判断：一旦企业把业务数据接入 agent，长尾 SaaS 应用将「不再被购买、而是被生成」，且这些定制应用会更安全、更高性能、更贴合每家公司与员工的需求。他指出新的采购标准将从「对人是否好用」转向「对 agent 是否好用」——即 agent 能多容易地理解产品的本体（ontology）并操作其数据，这也是大型企业 SaaS 突然争相推出 CLI/MCP、重新激活闲置多年 API 的原因；Vercel 正帮助 Klaviyo 等一流机构搭建可接入 Claude、Codex、Cursor 等 agent 并通过 Okta、Entra 配置 SSO 的部署平台。此外他感慨 skills 增长迅猛、「npx skills」已出现在全网各处 README，「我们过去写代码，现在写英文」。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie 提出核心观点：「无法度量的东西就无法自动化」，因此 eval 是 AI 在企业扩散的关键门槛。他指出企业能用软件测试确定性流程，却缺乏手段理解 agent 承担的非确定性工作，而所有变更、升级和部署都是良好 eval 的下游产物；未来不仅各实验室会产出更多领域专用 eval，每家企业也都需要评估 agent 在自身环境中的表现，这是巨大机会。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad 宣布收购并欢迎 Atta 团队（Omar、Amine 等）加入 Replit。他阐述了打造「自动驾驶公司（self-driving company）」的构想，核心是把理解业务的能力交到每个人手中，而 Atta 在商业分析与数据可视化上的优雅方案与 Replit「有用的智能应人人可及」的理念一致。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品专家、创作者经济作者 Peter Yang 实测对比了 Grok Bot 与「Muse」两款 AI 助手：让二者跟踪同一条日本航班行程，Muse 给出的价格比 Grok Bot 贵了 1000 多美元，且解释称自己搜索的是 Duffel 而非 Google Flights。他评价 Muse 拥有极佳的 UI 与吉祥物，但底层模型「有多聪明存疑」——考虑到它意在服务十亿量级用户，模型不那么强也说得通。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI Codex 负责人 Thibault Sottiaux 通报了一次简短的服务中断：Codex 曾宕机，团队紧急抢修后恢复正常，并宣布为 Codex 与 ChatGPT 的所有付费用户重置使用额度以作补偿。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "No Priors",
+      "title": "Re-Founding Incumbents for the AI Era with Sequence Holdings Co-Founder and CEO Michael Lee",
+      "date": "2026-09-24 10:00 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/@NoPriorsPodcast",
+      "summary_zh": "Sequence Holdings 联合创始人兼 CEO Michael Lee 阐述了一种全新的 AI 时代投资模式：以\"永久控股公司\"(permanent holding company) 收购并\"重新创立\"(refound) 具备护城河的行业在位者，用前沿工程团队把它们改造成市场领导者。他曾在高盛、Apollo、Lone Pine（2017 年即开始覆盖 AI）任职，Sequence 成立仅 **20 个月**。\n\n核心事件：Sequence 联手戴尔家族办公室(Dell family office)以 **77 亿美元**对保险经纪商 Baldwin 进行私有化，为迄今最大的 AI take-private 交易，双方共同控股。\n\n投资逻辑：AI 是\"下一次工业革命\"，多数软件只是给流水线上每个人配\"小机器\"提速；真正的机会是重组织织架构。他把 CEO 自我改造的三条路都否定——自建团队招不到人才、用服务商(埃森哲/麦肯锡/Palantir)有\"侵占钱包\"的激励错配、买软件则人人可得(beta)且只能适配现有工作流。唯有\"拥有权+崇尚工程师文化+超长期限\"才能对齐激励。\n\n选标的三条件：市场规模大(目标可做成 **1000 亿美元+**公司)、在位者占尽优势的行业、AI 能力与业务高度重叠。偏好\"组织物理学\"致密、运营中枢集中(如银行所有承销集中在总部、可摊薄)的公司。保险经纪符合：年保费 **2 万亿美元+**、毛留存率 **90%**、客户不付费(由承保方付)、不拼价格，创业公司极难切入。\n\n平台 Atlas 四层：数据本体论、Agent 构建器、编排引擎 Lattice、应用构建器 artifacts；判断业务 **80%**同质、**20%**垂直专属，基础设施可跨公司复用。\n\n首个案例 BankSouth(去年 8 月起、今年 3 月完成投资)已见成效：消费贷平均承销时间自 3 月起下降 **94%**，单笔贷款端到端从 **30 天**降至 **11 天**；Q2 贷款量环比 Q1 翻倍，却用更小的承销团队(一人退休、一人调往前台)消化。与传统 PE 的差异：不受基金\"部署节奏\"驱使，只求\"一年一单\"，甚至可以一单不做。Michael 强调：终究是\"押注在大市场做难事的杰出人才\"，并以 2017 年结识黄仁勋为例。"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "Intel Panther Lake Teardown",
+      "date": "2026-09-26 13:36 UTC",
+      "link": "https://newsletter.semianalysis.com/p/intel-panther-lake-teardown",
+      "chars": 59835,
+      "summary_zh": "SemiAnalysis 对 Intel Panther Lake（Core Ultra 7 365）做了实物拆解，核心结论：Intel 的制造已从\"路线图\"变成\"出货硅片\"，是其重返先进制造竞争力的重要里程碑，但尚未反超台积电/三星。\n\n关键工艺看点：\n1）Panther Lake 首次商用**背面供电（BSPDN，Intel 品牌名 PowerVia）**，并首次采用**全环绕栅极晶体管（GAAFET，Intel 称 RibbonFET）**，配合 Foveros-S 先进封装。\n2）封装结构：1 个计算 tile + 1 个 GPU tile + 1 个 I/O tile 叠在无源基底 tile 上。两种计算 tile 均用 **Intel 18A**；GPU 有两档——**4 核 GT1 用 Intel 3**、**12 核 GT2 仍用台积电 N3E**；I/O tile 用 **台积电 N6**。即高端 GPU 仍外包台积电。\n\n密度对比（最重要的投资含义）：\n- 实测 **18A 计算逻辑与台积电 N3E GPU 逻辑密度相近**；18A 比 Intel 3 的 GPU 样本密度高 **18.6%**。\n- 但 **18A 峰值密度并未领先台积电 N3P、N2 或三星 SF2**。CPU 核心只是渐进式升级。\n- 18A 逻辑单元为 **5 轨（five-track）**库，而 N3E 与 Intel 3 为 **7 轨**库；三处样本栅距几乎一致，密度差异主要来自单元高度。PowerVia 把电源轨移到背面，使 18A 能在小单元高度下用更宽的 M0（18A P 核 M0 单线截面积达 N3E 的 **2.63 倍**，按布线间距归一后 **1.84 倍**），降低线阻。\n\n结构细节：RibbonFET 堆叠 **4 层纳米片**，三星 SF2 的 MBCFET 为 **3 层**（作为缺乏 BSPD 的 GAA 对照）；三星 S26 用 SF2、苹果 A20 Pro 用台积电 N2，SemiAnalysis 后续会拆。18A 前段 M0-M14 信号栈、背面 BM0-BM5 电源栈；用 Mo 衬里 W 接触/纳米 TSV 替代高阻 TiN，Nb 作粗层扩散阻挡层降阻；栅介质用 HfOx + La 偶极调阈值。\n\n投资视角：Panther Lake 证明 Intel 18A 已量产可行、BSPDN 与 GAA 双双落地，制造执行力显著改善；但高端 GPU 仍依赖台积电 N3E、18A 密度未取得领先，说明 Intel 距离在最先进节点全面自给和反超竞争对手仍有距离。Panther Lake-U 布局基本沿用 Lunar Lake。"
+    }
+  ]
+}
