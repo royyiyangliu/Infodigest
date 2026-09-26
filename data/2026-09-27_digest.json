@@ -1,0 +1,280 @@
+{
+  "fetch_date": "2026-09-27",
+  "fetch_time": "2026-09-26T19:31:38.022713+00:00",
+  "stats": {
+    "new_podcast_episodes": 1,
+    "new_articles": 1,
+    "new_tweets": 20,
+    "total_podcasts": 1,
+    "total_articles": 1,
+    "total_tweets": 20
+  },
+  "podcasts": [
+    {
+      "source": "No Priors",
+      "title": "Re-Founding Incumbents for the AI Era with Sequence Holdings Co-Founder and CEO Michael Lee",
+      "date": "2026-09-24 10:00 UTC",
+      "link": "https://www.youtube.com/@NoPriorsPodcast",
+      "orig_link": "",
+      "audio_url": "",
+      "duration": "",
+      "summary": "",
+      "lang": "en",
+      "chars": 52490,
+      "text_file": "data/2026-09-27/podcasts/no_priors__re-founding_incumbents_for_the_ai_era_with_se.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "Intel Panther Lake Teardown",
+      "date": "2026-09-26 13:36 UTC",
+      "link": "https://newsletter.semianalysis.com/p/intel-panther-lake-teardown",
+      "summary": "Looking inside Intel 18A and Intel’s Panther Lake. \nA free SemiAnalysis STEEL teardown.",
+      "chars": 59835,
+      "text_file": "data/2026-09-27/articles/semianalysis__intel_panther_lake_teardown.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Boris Cherny",
+      "handle": "bcherny",
+      "tweet_id": "2103691327699550598",
+      "date": "2026-09-26T03:41:11.000Z",
+      "text": "Can’t wait to see what you build. https://t.co/IzsiejH1fa",
+      "url": "https://x.com/bcherny/status/2103691327699550598",
+      "likes": 481,
+      "retweets": 12,
+      "is_quote": true,
+      "quoted_id": "2103577007938228300"
+    },
+    {
+      "source": "Boris Cherny",
+      "handle": "bcherny",
+      "tweet_id": "2103538666597691552",
+      "date": "2026-09-25T17:34:34.000Z",
+      "text": "Tag writes >50% of my PRs every day. It also does ~100% of my data analysis, and fixes most of our product feedback + bugs.\n\nIt's not like a regular Slack bot. It is proactive, programmable, it has memory, it has access to your connectors. With Opus 5.5 and Fable 5.1, it has strong judgement.\n\nExample prompts I use:\n\n- \"@Claude react to threads in this channel with ✅ when resolved\"\n- \"@Claude from now on, attempt to repro every bug in this channel end to end, running the full app. once you reproduce the bug, put up a pr to fix it and tag the right team for code review\"\n- \"@Claude brainstorm ~100 hypotheses for what could explain this weird data, use a workflow to in/validate. spend 10m tokens or so digging very deep. draw a chart with the result.\"\n- \"@Claude make me an interactive game explaining how this part of the code works, then make a slide deck explaining it for others on the team\"\n\nhttps://t.co/gmsALM8Lvs",
+      "url": "https://x.com/bcherny/status/2103538666597691552",
+      "likes": 1096,
+      "retweets": 52,
+      "is_quote": true,
+      "quoted_id": "2103223133843145035"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2103637477760311522",
+      "date": "2026-09-26T00:07:13.000Z",
+      "text": "o yes… we’re back in action and we’ll reset usage limits for all paid users across codex and ChatGPT work\n\nsorry about the brief disruption!\n\n(and yes we have a special spare codex when things are down to help us out) https://t.co/Qy0da4L1jq",
+      "url": "https://x.com/thsottiaux/status/2103637477760311522",
+      "likes": 12780,
+      "retweets": 671,
+      "is_quote": true,
+      "quoted_id": "2103622639386574979"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2103622639386574979",
+      "date": "2026-09-25T23:08:15.000Z",
+      "text": "o no :(",
+      "url": "https://x.com/thsottiaux/status/2103622639386574979",
+      "likes": 2687,
+      "retweets": 44,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2103620061156290622",
+      "date": "2026-09-25T22:58:00.000Z",
+      "text": "We are aware that codex is down and are working hard to bring back normal service.",
+      "url": "https://x.com/thsottiaux/status/2103620061156290622",
+      "likes": 10596,
+      "retweets": 574,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2103696644558704796",
+      "date": "2026-09-26T04:02:19.000Z",
+      "text": "I think Muse has an incredible UI and mascot but the underlying model it’s questionable how smart it is.\n\nMakes sense if it’s not that smart since this is meant to scale to a billion people",
+      "url": "https://x.com/petergyang/status/2103696644558704796",
+      "likes": 12,
+      "retweets": 1,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2103693608729932025",
+      "date": "2026-09-26T03:50:15.000Z",
+      "text": "Ok all memes aside I had Grok @bot and Muse track the same Japan flight itinerary and Muse suggested a price that was $1K+ more than Grok Bot. \n\nWhen I asked Muse why it said it searched Duffel instead of Google Flights...wtf is Duffel? https://t.co/l2vTOsPIRd",
+      "url": "https://x.com/petergyang/status/2103693608729932025",
+      "likes": 83,
+      "retweets": 1,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2103690110726558123",
+      "date": "2026-09-26T03:36:21.000Z",
+      "text": "Where's Jack Bauer and 24 https://t.co/FNcSb6sBAt",
+      "url": "https://x.com/petergyang/status/2103690110726558123",
+      "likes": 28,
+      "retweets": 1,
+      "is_quote": true,
+      "quoted_id": "2103489320606675028"
+    },
+    {
+      "source": "Nan Yu",
+      "handle": "thenanyu",
+      "tweet_id": "2103639287367696603",
+      "date": "2026-09-26T00:14:24.000Z",
+      "text": "basically",
+      "url": "https://x.com/thenanyu/status/2103639287367696603",
+      "likes": 0,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Nan Yu",
+      "handle": "thenanyu",
+      "tweet_id": "2103623390842294609",
+      "date": "2026-09-25T23:11:14.000Z",
+      "text": "AGI https://t.co/MBqJzksRob",
+      "url": "https://x.com/thenanyu/status/2103623390842294609",
+      "likes": 52,
+      "retweets": 1,
+      "is_quote": true,
+      "quoted_id": "2103493980591669712"
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2103577116445175948",
+      "date": "2026-09-25T20:07:21.000Z",
+      "text": "If you want to see interactive explainers of benchmarks and demos I built, you can read it on our new dev site here: https://t.co/oSTZrBggXM",
+      "url": "https://x.com/trq212/status/2103577116445175948",
+      "likes": 140,
+      "retweets": 6,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2103577115010687067",
+      "date": "2026-09-25T20:07:21.000Z",
+      "text": "I use effort low a lot more when I want to stay in the loop, and effort max is basically only if I want zero input or want to find security vulnerabilities. https://t.co/KdDBikNwCL",
+      "url": "https://x.com/trq212/status/2103577115010687067",
+      "likes": 321,
+      "retweets": 23,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2103576349499855160",
+      "date": "2026-09-25T20:04:18.000Z",
+      "text": "What is effort really? When do you change it it and why not just use max effort for everything?\n\nI dove deep into this problem, looking into evals and doing my own tests and I was quite surprised by the results. https://t.co/KO2D51j34H",
+      "url": "https://x.com/trq212/status/2103576349499855160",
+      "likes": 3517,
+      "retweets": 260,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2103632415185133992",
+      "date": "2026-09-25T23:47:06.000Z",
+      "text": "We’ve been thinking a lot about what it means to build the self-driving company. A big part of that is putting the ability to understand a business in everyone's hands. \n\nAtta has built a beautiful approach to business analysis and data visualization, and they share our belief that useful intelligence should be accessible to everyone.\n\nWelcoming Omar, Amine, and the Atta team to Replit!",
+      "url": "https://x.com/amasad/status/2103632415185133992",
+      "likes": 242,
+      "retweets": 10,
+      "is_quote": true,
+      "quoted_id": "2103515238243221725"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2103580284021354795",
+      "date": "2026-09-25T20:19:56.000Z",
+      "text": "Cool https://t.co/cPDSk0E6oZ 😂",
+      "url": "https://x.com/rauchg/status/2103580284021354795",
+      "likes": 178,
+      "retweets": 6,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2103564484602384855",
+      "date": "2026-09-25T19:17:10.000Z",
+      "text": "We're helping world-class organizations like @klaviyo build agentic deployment platforms.\n\n① Connect every agent (claude, codex, cursor…)\n② Configure SSO via their IDP (Okta, Entra)\n③ Now everyone can cook, securely®\n\nWhat happens to SaaS once every company sets this up? I get this question a lot 😁\n\nFirst, the data must come from somewhere. These apps only work if they can be infused with business data.\n\nThis is why we see the big enterprise SaaS players suddenly prioritize shipping CLIs and MCPs. Or dust off APIs they were neglecting for years.\n\nThe new 'procurement bar' will be how ergonomic your product is for *agents*, rather than humans. How easily they can navigate your ontology and work with your data.\n\nOnce that's in place, there's a long tail of SaaS applications that I suspect will never be bought again. They'll be generated. They'll be more secure, more performant, more modern, and tailored to each company's and employee's needs.",
+      "url": "https://x.com/rauchg/status/2103564484602384855",
+      "likes": 183,
+      "retweets": 14,
+      "is_quote": true,
+      "quoted_id": "2103560561577636126"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2103543983557517340",
+      "date": "2026-09-25T17:55:42.000Z",
+      "text": "The growth of https://t.co/5JpYvhlpkR has been mind-boggling. I watched it grow from idea, to first ship, to 𝚗𝚙𝚡 𝚜𝚔𝚒𝚕𝚕𝚜 being on every README of the internet.\n\nWe used to write code, now we write English. https://t.co/jrmPFjQKms",
+      "url": "https://x.com/rauchg/status/2103543983557517340",
+      "likes": 331,
+      "retweets": 7,
+      "is_quote": true,
+      "quoted_id": "2103541839399907424"
+    },
+    {
+      "source": "Aaron Levie",
+      "handle": "levie",
+      "tweet_id": "2103629073595728372",
+      "date": "2026-09-25T23:33:49.000Z",
+      "text": "You can’t automate what you can’t measure. This means that evals are one of the gates to diffusion of AI in the enterprise. \n\nWe can test our deterministic processes through software, but most enterprises have no useful way of understanding how their non-deterministic processes are working today. Specifically the work that agents are doing for them.\n\nEvals are mission critical for enterprises adopting AI because you have no other way of knowing what’s working, what’s broken, what changed, what improved, what you can do more of, etc. if you don’t have a good sense of how agents work in your environment today. All changes, upgrades, and deployments are downstream from good evals.\n\nNot only are we going to get vastly more domain specific evals over time for the labs and across the industry, but every enterprise will also need a clear sense of how agents are performing in their environment as well. Huge opportunity.",
+      "url": "https://x.com/levie/status/2103629073595728372",
+      "likes": 195,
+      "retweets": 22,
+      "is_quote": true,
+      "quoted_id": "2103294972590018584"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2103649988282905001",
+      "date": "2026-09-26T00:56:55.000Z",
+      "text": "Astra is very impressive https://t.co/7BMRh6zl1Y",
+      "url": "https://x.com/garrytan/status/2103649988282905001",
+      "likes": 204,
+      "retweets": 6,
+      "is_quote": true,
+      "quoted_id": "2103648679169257737"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2103470568104468517",
+      "date": "2026-09-25T13:03:58.000Z",
+      "text": "Legalize personalized education https://t.co/LHb0NwzZnZ",
+      "url": "https://x.com/garrytan/status/2103470568104468517",
+      "likes": 3345,
+      "retweets": 480,
+      "is_quote": true,
+      "quoted_id": "2102415623288660002"
+    }
+  ]
+}
