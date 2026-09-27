@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-28",
+  "generated_at": "2026-09-27T23:38:24.614091+00:00",
+  "stats": {
+    "tweets": 5,
+    "podcasts": 0,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品专家、\"Creator Economy\" newsletter 作者 Peter Yang（@petergyang）分享了几条一线使用体验：他注意到 Claude 的用量限制从\"几乎不可用\"骤然放宽到\"基本无限\"。他正用 Google 新发布的 Gemini 音频 API 开发一款教自己日语会话的应用（10 节课、每节 10 个短语），并首次试用了 Google 的 Antigravity 来测试这些音频 API。整体传递的信号是 Google 的多模态/音频 API 已可用于快速搭建实用应用，同时 Anthropic 在放宽速率限制。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 创始人兼 CEO Guillermo Rauch（@rauchg）发出一个与\"唯 AI 产量论\"相悖的警告：他呼吁\"拒绝不求甚解\"，认为 AI 制造的\"垃圾\"不止是代码和 PR，更大的风险是\"阅读\"本身被彻底贬值——因为人们被大量低质量、未经核实的 AI 文本轰炸而精疲力竭。他举例一个疯传的帖子把性能提升归因于编译器改动，但其 PR 描述里 AI 自己都说提升并非来自编译器、而是算法与数据结构的变化。他主张 AI 应服务于理解世界、增强人类认知与创造力，而非制造不可验证的内容。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator 总裁兼 CEO Garry Tan（@garrytan）分享了他目前最爱的修 bug 方式：用 @capydotai 配合 GStack 的 /autoplan 处理一个生产环境问题，底层跑的是 GPT-6 中等推理档（medium reasoning），显示 agentic 编码工具已能自动规划并修复真实线上问题。"
+    },
+    {
+      "author": "Dan Shipper",
+      "handle": "danshipper",
+      "summary_zh": "Every 联合创始人兼 CEO Dan Shipper（@danshipper）展示了模型的生成式视频能力：他先把柏拉图的《普罗塔戈拉》写成小说化文本，再用 Opus 5.5 将其改编成短片并已放出第一、二幕，作为 AI 从文本到影像端到端创作的一个能力实证。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic Claude Code 团队的 Thariq（@trq212）回顾称，大约一年前他发布了最早一批用 Claude Code 制作视频的帖子之一，当时每段都要反复与 Claude 迭代、逐一指出错误细节；他感叹一年间进展之快，侧面反映 Claude Code 在多媒体/视频生成上的能力显著提升。"
+    }
+  ],
+  "podcasts": [],
+  "articles": []
+}
