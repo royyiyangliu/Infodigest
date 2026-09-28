@@ -1,0 +1,74 @@
+{
+  "date": "2026-09-29",
+  "generated_at": "2026-09-28T23:38:18.959776+00:00",
+  "stats": {
+    "tweets": 7,
+    "podcasts": 1,
+    "articles": 2
+  },
+  "tweets": [
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "AI 工程师 Thibault Sottiaux（@thsottiaux）提出一个与主流软件工程相悖的观点：随着 AI 编码普及，发布前的\"代码冻结\"（code freeze）已基本不再成立。他进一步预测，未来代码甚至可能根据某些约束条件在线上按需实时生成，而非预先写好并冻结。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 创始人兼 CEO Guillermo Rauch 宣布用 Rust 和 Swift 重写了他的 Mini 浏览器，效果比原先的 Electron + Bun 方案更快、更安全，且开发迭代体验更好；他借助 cef crate 打包最新版 Chromium，并通过 ACP 协议让本地 fx CLI 经 MCP server 管理浏览器、嵌入 agent 而不臃肿。他大胆预测软件世界\"原生化（nativify）\"的速度会远超预期，无论桌面还是云端，原生都是未来，并称 Vercel 对 Fluid 的押注将支持这一趋势。该应用由 Opus 5.5 与 Sol 6 构建。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 联合创始人兼 CEO Aaron Levie 分析了 agent 替用户做出最优/最高效选择后的经济影响：一方面，那些依赖客户惯性摩擦获利的市场，转换成本将大幅下降、竞争急剧加剧，直到颠覆者与在位者达到新均衡；另一方面，此前因摩擦过高而难以成交的市场（医疗、旅行、本地服务、部分信息服务及全新市场）将成为净受益者，agent 会释放大量原本无法实现的经济活动。他认为由 agent 深度中介的未来不可能与今天完全相同。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic 的 Thariq（@trq212）表达了对 agent 时代的核心担忧：他最害怕的是人们因为变懒而把 agent 带来的生产力提升白白消耗掉，而非转化为真正的产出增量。该观点获得逾 4300 个赞。"
+    },
+    {
+      "author": "Matt Turck",
+      "handle": "mattturck",
+      "summary_zh": "FirstMark Capital 风险投资人 Matt Turck 指出一个耐人寻味的现象：真正懂 AI 运作原理的 AI 研究者，大多既不相信 AI 末日论、也不相信不可控的大规模加速；反倒是知识有限的非研究者，对这一议题持有非常笃定和绝对的看法。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator 总裁兼 CEO Garry Tan 就浏览器自动化与反爬（anti-bot）连发观点，态度鲜明地表示\"搞反爬的都是 loser\"，并调侃那些以为用 CDP 就能绕过检测的人其实根本没遇到过真正的反爬机制；他呼吁\"不要削弱（Do not nerf）\"相关能力，隐含看好 agent 自主浏览网页的方向。"
+    },
+    {
+      "author": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "summary_zh": "投资人 Zara Zhang（@zarazhangrui）提醒：新技术往往过于炫目耀眼，反而让人看不到它实际不奏效的地方；而且在人人都显得遥遥领先、世界高速变化的氛围下，一旦某件事没跑通，人们容易误以为是自己的问题、而非技术本身的问题。这对当下 AI 热潮中的理性评估颇具警示意义。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "硅谷101",
+      "title": "E253｜谁在给大模型出题、卖题、判卷？聊聊AI数据行业的野蛮生长",
+      "date": "2026-09-27 19:30 UTC",
+      "duration": "58:04",
+      "link": "https://podcasts.apple.com/us/podcast/e253-%E8%B0%81%E5%9C%A8%E7%BB%99%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%87%BA%E9%A2%98-%E5%8D%96%E9%A2%98-%E5%88%A4%E5%8D%B7-%E8%81%8A%E8%81%8Aai%E6%95%B0%E6%8D%AE%E8%A1%8C%E4%B8%9A%E7%9A%84%E9%87%8E%E8%9B%AE%E7%94%9F%E9%95%BF/id1498541229?i=1000791945867&uo=4",
+      "summary_zh": "硅谷101对话Scale AI后训练/评测负责人何允中与伯克利博后、Agents Last Exam(ALE)研究者孙逸游，剖析AI数据行业的\"野蛮生长\"，对投资者有几点关键信息。\n\n一、赛道估值狂飙。一家由三名20多岁年轻人创办的数据公司，今年4月A轮估值仅**3亿美元**，9月新一轮已推到**32亿美元**，不到半年涨**10倍**，创YC公司从启动到独角兽的最快纪录。头部数商已达百亿级：Meta入股Scale AI给出**超290亿美元**估值，Mercor去年10月融资估值达**100亿美元**。\n\n二、数据范式迁移是核心逻辑。需求从预训练用的人工标注，转向后训练的可验证信号：先是rubric（专家写的评分标准，靠\"弱模型监督强模型\"），再到RL environment（配任务、工具、沙盒与多样验证的强化学习环境）。今年主线是卷coding，因软件领域开放、易verify，小团队可快速合成大量环境；但两位嘉宾认为rubric远未做到头，主观/决策类任务仍缺量化手段。\n\n三、benchmark与卖数据须严格切分。benchmark面向未来（衡量模型差距），卖数据面向现在；把评测数据拿去卖是\"绝不能碰的红线\"，会污染权威性。SWE-bench因过去6个月分数仅从**74%升到80%**、剩余题目脚本过严或不可解，OpenAI已于2月停止报告。数据污染尤以\"编造数据\"最难查，需等agent能力远超题目才暴露，验证成本极高。\n\n四、真正壁垒在采购与研发。垂直领域原材料越来越贵——某几千人体量MOBA游戏源码要价**两三百万人民币一条**；生物领域benchmark覆盖率不足**5%~10%**，仅子学科树展开到第三级就约**3000个节点**。数商难躺赢、估值杠杆弱，比拼的是持续研发的flywheel。新玩法：PE买公司+AI提效+挖掘其数据变现。Mercor平台制造业工程师报价约**一两百美元/小时**，限制了可招募专家层级。"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "How GLM5.3 Sparse Attention Affects HBM Memory Usage",
+      "date": "2026-09-28 19:26 UTC",
+      "link": "https://newsletter.semianalysis.com/p/sparse-savings-persistent-demand-inside-glm53",
+      "chars": 20778,
+      "summary_zh": "SemiAnalysis 分析稀疏注意力（sparse attention）对内存 TAM（HBM/NAND）的影响，核心结论对内存产业链偏正面：稀疏注意力通过 top-k 只选取最相关 token，降低了 SDPA 环节的显存带宽消耗，但**并不能消除内存容量瓶颈**——top-k 选择仍需全部上下文常驻 HBM。SGLang 团队的 HiSparse 采用分层内存、按 LRU 把 KV cache 从 HBM 卸载到主机 DRAM，并用 layer-wise overlapping 隐藏读取延迟，在高并发、长上下文下大幅提升吞吐。含义：系统优化可绕过稀疏注意力的容量限制，因此稀疏注意力本身不代表内存需求下降，DRAM/主机内存反而成为承接层。B200 实测显示并发从 **8 升到 16** 时，GPU 内存复用占比从 **90.3% 降到 54.8%**，主机内存复用从 **6.0% 升到 40.3%**，整体缓存命中率始终 **>95%**。\n\n服务成本（InferenceX 9/28 AgentX 快照，150 tokens/秒）：**GB300** 建模服务成本最低，单 GPU 吞吐约 **13950 tokens/秒**，较 GB200 的 **11873** 高 **17.5%**；但假设 GB300 每小时 **$2.31** vs GB200 **$1.86**，多数场景 GB300 时租溢价抵消吞吐优势。GB200 约 **$0.044/百万 token**，MI355X（ATOM）约 **$0.049**，GB200 低约 **12%**；仅算输出 token 时 GB200 **$5.92** vs MI355X **$6.68**（低约 11%）。但 GB200 最低成本档 p90 首 token 延迟高达 **14–19 秒**（MI355X 仅约 **1.1–1.2 秒**）；限首 token≤2 秒时 MI355X **$0.0607** 反低于 B200 **$0.0666** 约 9%，放宽到 10 秒则 GB300 降至 **$0.0451**（低约 26%）。\n\n模型侧：GLM-5 为 **744B** 总参、**40B** 激活的 MoE（256 选 8，稀疏度 32），采用 DeepSeek 稀疏注意力（lightning indexer + 稀疏 MLA/MQA 模式）。GLM-5 query head 数为 **64**（DeepSeek V3.2 为 128），算术强度约 **120.8 FLOP/B**，SemiAnalysis 推测其为摩尔线程 MTT S4000（约 128 FLOP/B）优化，印证 Z.ai 与国产芯片合作。IndexShare（每 4 层共享一个 indexer）减少 **75%** indexer 缓存与 FLOPs、吞吐提升 **1.5–1.8x**。后训练用 slime 框架、GRPO/IcePop/SAO 等 RL 方案。投资含义：稀疏注意力利好推理效率但不减 HBM 容量需求，长上下文推动主机 DRAM 承接，国产算力（摩尔线程）适配值得关注。"
+    },
+    {
+      "source": "a16z",
+      "title": "OpenAI Understands Something Important and Rare",
+      "date": "2026-09-28 14:03 UTC",
+      "link": "https://www.a16z.news/p/openai-understands-something-important",
+      "chars": 16996,
+      "summary_zh": "a16z 撰文论证：OpenAI 的护城河不在于模型、芯片或成本曲线最优，而在于\"创造新型客户\"的能力与最持久的分发（distribution）战略。作者提出前沿 AI 公司构建持久业务的四个杠杆：**1）创造新行为、2）分发触达大量用户、3）定价捕获价值、4）高转换成本**。文章判断杠杆 4 基本失效——模型层高度可替代、可逐任务切换（\"红皇后赛跑\"）；杠杆 3 竞争激烈、终将由规模领先者胜出；因此胜负取决于 1 和 2，而 OpenAI 在两者都最强。\n\nOpenAI 擅长发现\"事后看来简单而显而易见\"的突破：ChatGPT 对话界面、推理、工具调用、Computer Use 均由其引领（唯一例外是编程，但已追平）。三大关键要素：像平台型公司一样思考、深耕技术栈全层、以及被低估的消费者广度（覆盖消费者、专业用户、企业）。作者强调\"通用知识\"的构建依赖分发战略——只有让海量用户\"做任何想做的事\"，才能从局部突破走向通用突破。\n\n分发三种方式对比：独立产品、合作伙伴、平台。平台虽慢且 take rate 较低，但能建立关于世界的强大\"学习循环\"，最持久最有价值。文章引用 Marc Andreessen 的三类平台，指出真正的 Type 3（可编程运行时，如 iOS、AWS、以太坊、Cloudflare）最难建但最具魔力；模型本身是一种运行时，但仅有模型不构成防御，关键在约束与原语的上层结构。一个实践洞见：智能体要有用就必须\"写代码\"——让 AI 生成程序完成任务，效果远好于直接调工具。\n\n核心论点（因果反转）：在智能充裕的世界里，不是\"最好模型/芯片/产品→赢得分发\"，而是\"最好的分发→带来最好的模型/芯片/产品\"。OpenAI 已布局算力、自研芯片 Jalapeno 等，但真正的持久优势是从被其\"唤醒\"的用户处持续获取世界信息并自我改进的飞轮。文中引用 Steve Hou：\"真正重要的弹性不是模型间的替代弹性，而是 AI 总需求的弹性。\"Sam Altman 设想 OpenAI 未来只有两种形态：要么做出你想要的任何东西，要么就和 ChatGPT 对话。作者认为目前只有极小群体在生活中大量使用 AI，更多用户尚未被\"唤醒\"成客户，而 OpenAI 最懂如何唤醒他们。（本文为 a16z 观点，非投资建议。）"
+    }
+  ]
+}
