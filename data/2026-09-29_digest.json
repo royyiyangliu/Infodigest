@@ -1,0 +1,290 @@
+{
+  "fetch_date": "2026-09-29",
+  "fetch_time": "2026-09-28T22:23:36.991898+00:00",
+  "stats": {
+    "new_podcast_episodes": 1,
+    "new_articles": 2,
+    "new_tweets": 20,
+    "total_podcasts": 1,
+    "total_articles": 2,
+    "total_tweets": 20,
+    "transcribed_this_run": 1
+  },
+  "podcasts": [
+    {
+      "source": "硅谷101",
+      "title": "E253｜谁在给大模型出题、卖题、判卷？聊聊AI数据行业的野蛮生长",
+      "date": "2026-09-27 19:30 UTC",
+      "link": "https://podcasts.apple.com/us/podcast/e253-%E8%B0%81%E5%9C%A8%E7%BB%99%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%87%BA%E9%A2%98-%E5%8D%96%E9%A2%98-%E5%88%A4%E5%8D%B7-%E8%81%8A%E8%81%8Aai%E6%95%B0%E6%8D%AE%E8%A1%8C%E4%B8%9A%E7%9A%84%E9%87%8E%E8%9B%AE%E7%94%9F%E9%95%BF/id1498541229?i=1000791945867&uo=4",
+      "orig_link": "https://sv101.fireside.fm/267",
+      "audio_url": "https://aphid.fireside.fm/d/1437767933/f0f20376-8faf-4940-b920-84af6c734e2d/0a1dd0c4-a1f7-4f7c-b334-bd807ca72a5d.mp3",
+      "duration": "58:04",
+      "summary": "随着AI模型能力提升，训练需求更复杂，一批为模型公司提供训练数据的新公司正在快速增长：AfterQuery今年4月宣布A轮融资时，估值为3亿美元，到了9月，据媒体报道，新一轮融资已经将其估值推至32亿美元。另一家提供训练数据与智能体环境的公司Bespoke Labs，也在今年7月宣布，种子轮与A轮融资合计达到4000万美元。\n虽然估值水涨船高，AI数据行业对外界来说却极其不透明。问题来了：这些公司究竟在卖什么？\n过去提到数据标注，我们容易想到给图片打标签、给模型回答打分。但随着AI从回答问题走向执行任务，数据公司的交付物也在变化：从专家写出的评分标准，到包含任务、工具和验证机制的强化学习环境。它们需要找到懂行的人，获得真实的行业资料，再把专业知识与工作经验转化成模型能够学习的训练信号。\n与此同时，新的AI评测层出不穷。榜单分数提高了，究竟代表哪些能力变强了？针对评测生产数据，什么时候能改善真实用户体验，什么时候又会变成单纯的刷分？对于每天训练模型的研究员来说，他们最需要的数据，到底是什么？\n本期节目，我们邀请到在Scale AI负责后训练与评测研究的何允中，以及加州大学伯克利分校博士后、Agents’ Last Exam项目研究者孙一铀，从产业与研究两个视角，拆解这门透明度不高、又变化极快的生意。\n我们聊了Scale、Mercor、Surge等数据公司的不同背景，也讨论了小团队在合成环境与垂直领域中的机会。从采购一份游戏源码，到验证专家提交的任务，再到设计让人愿意交出经验的激励机制，好数据的难点，往往藏在榜单之外。\n【主播】\nYiwen，硅谷101主持人\n【嘉宾】\n何允中，Scale AI研究总监（后训练与评估方向）\n孙一铀，加州大学伯克利分校博士后\n【你将听到】\n拆解数据生意和玩家\n05:03 数据公司之间的区别：招聘平台、众包标注、合成数据\n08:27 从预训练到后训练，模型需要的数据发生了哪些变化？\n09:32 Rubric数据：把专业判断变成评分标准\n10:46 强化学习（RL）环境：从回答问题到动手干活\n12:18 从vibe coding，到vibe everything：详解Agents’ Last Exam\n14:10 游戏好不好玩、作品好不好看，主观判断能被量化吗？\n17:33 Rubric 与环境如何配合：人与Agent协作\n评测与模型真实能力\n20:05 从做评测到卖数据：benchmark的生意\n23:25 什么样的评测值得刷？核心能力与真实场景\n27:29 没上热门榜单的评测，也可能带来真实的数据需求\n31:39 模型公司如何权衡内部评测、公开榜单与用户反馈\n什么是好数据：采购、版权与小众行业工作流\n33:30 两三个人的数据创业公司，为什么也能找到机会？\n38:56 模型越来越会自己造数据，外部供应商的机会还能持续多久？\n40:48 模型公司为什么仍然需要外部数商？研发周期与行业采购的难题\n有了数据，之后呢？\n44:04 数据买回来之后怎么用？从 SFT、强化学习到模型训练模型\n47:03 训练数据不是越难越好：为不同模型匹配难度与解题轨迹\n48:22 SWE-bench Verified 的争议：测试缺陷与数据污染\n50:04 专家交来的数据也可能造假，如何验证真实的工作过程？\n54:03 数据行业的下一步：收购企业、获取数据，还是持续投入研发？\n【感谢科沃斯对本期节目的大力支持】\n这期我们聊了很多验证和评测：写代码跑一遍沙盒就知道对错，家务却是每天都在变的开放任务，对机器人来说，真实家庭环境就是最严格的评测现场。\n",
+      "lang": "zh",
+      "chars": 36911,
+      "text_file": "data/2026-09-29/podcasts/硅谷101__e253谁在给大模型出题卖题判卷聊聊ai数据行业的野蛮生长.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "How GLM5.3 Sparse Attention Affects HBM Memory Usage",
+      "date": "2026-09-28 19:26 UTC",
+      "link": "https://newsletter.semianalysis.com/p/sparse-savings-persistent-demand-inside-glm53",
+      "summary": "GLM-5.3, KV Cache Offloading, HiSparse, DeepSeek Sparse Attention, IndexShare, Single-rollout Asynchronous Optimization, Cybersecurity",
+      "chars": 20778,
+      "text_file": "data/2026-09-29/articles/semianalysis__how_glm53_sparse_attention_affects_hbm_memory.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "OpenAI Understands Something Important and Rare",
+      "date": "2026-09-28 14:03 UTC",
+      "link": "https://www.a16z.news/p/openai-understands-something-important",
+      "summary": "The purpose of a business is to create a customer",
+      "chars": 16996,
+      "text_file": "data/2026-09-29/articles/a16z__openai_understands_something_important_and_ra.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2104383749723128052",
+      "date": "2026-09-28T01:32:38.000Z",
+      "text": ". . . . . .",
+      "url": "https://x.com/thsottiaux/status/2104383749723128052",
+      "likes": 6512,
+      "retweets": 168,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2104108167806550046",
+      "date": "2026-09-27T07:17:34.000Z",
+      "text": "Code freeze isn’t really a thing anymore before releases and in the future the code might even be generated online per request according to some constraints.",
+      "url": "https://x.com/thsottiaux/status/2104108167806550046",
+      "likes": 6051,
+      "retweets": 165,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2104414495376564517",
+      "date": "2026-09-28T03:34:48.000Z",
+      "text": "Notice how almost nobody has fond memories of SaaS or business software that they used back in the day but everyone remembers their favorite games. \n\nGames really are the software that has the longest staying power in our memories.\n\nLLM models are probably the inverse of that 😂",
+      "url": "https://x.com/petergyang/status/2104414495376564517",
+      "likes": 57,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2104406922216808505",
+      "date": "2026-09-28T03:04:42.000Z",
+      "text": "Btw follow the goat @David_Wise for composing the amazing donkey Kong country music",
+      "url": "https://x.com/petergyang/status/2104406922216808505",
+      "likes": 1,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2104405655406923922",
+      "date": "2026-09-28T02:59:40.000Z",
+      "text": "Yes I am a millennial 🙂 https://t.co/Lngb9TdCzO https://t.co/bqSDgGkRpE",
+      "url": "https://x.com/petergyang/status/2104405655406923922",
+      "likes": 66,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2104396978935484877"
+    },
+    {
+      "source": "Nan Yu",
+      "handle": "thenanyu",
+      "tweet_id": "2104424388309496182",
+      "date": "2026-09-28T04:14:07.000Z",
+      "text": "We came up in the golden era https://t.co/wEcyVOZQps https://t.co/HyuPtFIrnf",
+      "url": "https://x.com/thenanyu/status/2104424388309496182",
+      "likes": 19,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2104421377893970148"
+    },
+    {
+      "source": "Amanda Askell",
+      "handle": "AmandaAskell",
+      "tweet_id": "2104266890726309908",
+      "date": "2026-09-27T17:48:16.000Z",
+      "text": "Admittedly I'm averse to a lot of smells, but I like things like the smell of a fresh orange. The perfumes that are supposed to be realistic and citrusy smell at best like orange layered over skunk.",
+      "url": "https://x.com/AmandaAskell/status/2104266890726309908",
+      "likes": 104,
+      "retweets": 1,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Amanda Askell",
+      "handle": "AmandaAskell",
+      "tweet_id": "2104261424625381528",
+      "date": "2026-09-27T17:26:33.000Z",
+      "text": "I wanted to know if I only hate perfume because I've never owned a nice one. So I researched a bunch of the fanciest and most well reviewed perfumes and bought a tiny sample bottle of each. I can now confidently confirm that all perfume smells disgusting.",
+      "url": "https://x.com/AmandaAskell/status/2104261424625381528",
+      "likes": 869,
+      "retweets": 14,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2104403711699423680",
+      "date": "2026-09-28T02:51:57.000Z",
+      "text": "dating myself with neopets I fear https://t.co/Dz5CMnfLd8",
+      "url": "https://x.com/trq212/status/2104403711699423680",
+      "likes": 395,
+      "retweets": 1,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2104273243599405395",
+      "date": "2026-09-27T18:13:31.000Z",
+      "text": "I am most afraid of us eating the productivity gains of agents by just becoming lazier.",
+      "url": "https://x.com/trq212/status/2104273243599405395",
+      "likes": 4322,
+      "retweets": 92,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2104428789417857436",
+      "date": "2026-09-28T04:31:36.000Z",
+      "text": "Cool to see Replit being popular at Chan-Zuckerberg household! https://t.co/JbuFL0HN3m",
+      "url": "https://x.com/amasad/status/2104428789417857436",
+      "likes": 167,
+      "retweets": 5,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2104344877798719516",
+      "date": "2026-09-27T22:58:10.000Z",
+      "text": "Love to see it 😂 https://t.co/wzKM5TseSi https://t.co/4cHj9x5f2M",
+      "url": "https://x.com/amasad/status/2104344877798719516",
+      "likes": 55,
+      "retweets": 4,
+      "is_quote": true,
+      "quoted_id": "2103891491404013900"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2104428800134013205",
+      "date": "2026-09-28T04:31:39.000Z",
+      "text": "I¹ ported my Mini web browser to Rust & Swift. It's faster, more secure, and shockingly, nicer to iterate on than Electron + Bun.\n\nI always wanted Safari-like UX but… Chrome 😁. Thanks to the 𝚌𝚎𝚏 crate, I can bundle up-to-date Chromium.\n\n𝚏𝚡 𝚊𝚌𝚙 lets me embed an agent without bloating the app. It talks to my local fx CLI over ACP. fx can then manage the browser via an MCP server².\n\nBy ditching Electron, I was able to get Liquid Glass, faster boots, and a more Mac-native feeling. Little things like fine-grained focus and input control, which are nightmare fuel in JS, just work®.\n\nNative is the future, both on the desktop and in the cloud. I suspect the entire software world will \"nativify\" faster than people realize, as DHH hinted at Rails World. Excited that Vercel's bet on Fluid will help support this, whether you choose to go Rust, Go, Zig, scriptc…\n\n¹ Built on https://t.co/OL0LzGsXKY with Opus 5.5 and Sol 6\n² In the process I learned about https://t.co/sJoQWFreGF, which I'm now really excited about. This will allow a more secure and direct way to expose MCP tools",
+      "url": "https://x.com/rauchg/status/2104428800134013205",
+      "likes": 508,
+      "retweets": 15,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Aaron Levie",
+      "handle": "levie",
+      "tweet_id": "2104350592290406849",
+      "date": "2026-09-27T23:20:52.000Z",
+      "text": "Interesting to think about all the implications in a world where agents begin to make the best or most efficient choice for their users.\n\nOn one hand, there is some subset of the economy that benefits from the friction customers traditionally have changing something about their habits. In those parts of the market, switching costs will come down and competition is going to increase dramatically until some equilibrium is reached between the disruptive alternatives and the incumbents.\n\nOn the other hand, there are lots of markets that are hurt by a significant amount of friction, where agents will begin to unlock all kinds of economic activity by making it far easier to buy products or services that were too frictionful before. Healthcare, travel, local services, certain information services, and other entirely new markets probably are net beneficiaries of agents as a result.\n\nNo matter what, a future meaningfully mediated by agents that work tirelessly for us and our goals can’t possibly function exactly the same as today. Going to be wild.",
+      "url": "https://x.com/levie/status/2104350592290406849",
+      "likes": 174,
+      "retweets": 19,
+      "is_quote": true,
+      "quoted_id": "2104213040937812262"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2104402742517420517",
+      "date": "2026-09-28T02:48:06.000Z",
+      "text": "Anti-bot is for losers tbh https://t.co/kFAhqE1cCB",
+      "url": "https://x.com/garrytan/status/2104402742517420517",
+      "likes": 418,
+      "retweets": 14,
+      "is_quote": true,
+      "quoted_id": "2104397316673462339"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2104288345547591747",
+      "date": "2026-09-27T19:13:32.000Z",
+      "text": "\"Oh I can do this with CDP\" Haha you have not actually hit any real anti-bot then",
+      "url": "https://x.com/garrytan/status/2104288345547591747",
+      "likes": 16,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2104231083701420282",
+      "date": "2026-09-27T15:25:59.000Z",
+      "text": "Do not nerf\n\nMade in San Francisco https://t.co/m4XDmQKaZW",
+      "url": "https://x.com/garrytan/status/2104231083701420282",
+      "likes": 446,
+      "retweets": 20,
+      "is_quote": true,
+      "quoted_id": "2103534482930491441"
+    },
+    {
+      "source": "Matt Turck",
+      "handle": "mattturck",
+      "tweet_id": "2104331402385002831",
+      "date": "2026-09-27T22:04:37.000Z",
+      "text": "It continues to be notable how many AI researchers (who understand how AI actually works) believe in neither AI doom nor massive uncontrollable acceleration, while non AI researchers (who have limited knowledge) have very definite and certain views on the topic.",
+      "url": "https://x.com/mattturck/status/2104331402385002831",
+      "likes": 53,
+      "retweets": 5,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "tweet_id": "2104253882025341231",
+      "date": "2026-09-27T16:56:35.000Z",
+      "text": "People who ask “why do you keep posting without monetizing your content” don’t understand that:\n\n1. Self-expression is an innate human instinct that requires no justification or utilitarian motive\n2. Influence is so much more valuable than money",
+      "url": "https://x.com/zarazhangrui/status/2104253882025341231",
+      "likes": 354,
+      "retweets": 22,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "tweet_id": "2104112917264126195",
+      "date": "2026-09-27T07:36:26.000Z",
+      "text": "New technology can be so dazzling and flashy that it blinds us to the ways in which it’s not working \n\n(and sometimes makes you feel that if something is not working, it’s probably your fault not the technology’s fault, because the world is moving so fast and everyone seems ahead of you)",
+      "url": "https://x.com/zarazhangrui/status/2104112917264126195",
+      "likes": 68,
+      "retweets": 1,
+      "is_quote": false,
+      "quoted_id": null
+    }
+  ]
+}
