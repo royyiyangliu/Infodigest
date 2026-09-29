@@ -1,0 +1,60 @@
+Source  : a16z
+Title   : Who Gets Paid When AI Does the Shopping?
+Date    : 2026-09-29 16:53 UTC
+Link    : https://www.a16z.news/p/who-gets-paid-when-ai-does-the-shopping
+────────────────────────────────────────────────────────────
+
+No one wants to be disintermediated. It happened to Yelp and Tripadvisor with Google. It happened to everybody, with Apple. As a general rule, marketplaces want to own the customer relationship and payments, but whoever
+has
+the customers may get other ideas.
+When the power dynamics shift around “who owns the customer”, everyone scrambles for a chair - but some people lean in, while others move out. Everyone saw the contrast last week, when Amazon said, “Muse is banned!” while Shopify (who doesn’t have a scaled ad business like Amazon’s at risk here) leaned in and welcomed the integration. The stakes are that
+AI assistants don’t need to replicate Amazon’s warehouses to put pressure on Amazon’s profits.
+They need to become the place where you decide what to buy.
+The future state isn’t hard to imagine at all. Imagine asking an assistant to order dinner. It knows your budget, dietary preferences and when you will be home. The assistant chooses a restaurant, places the order through Toast and arranges delivery through DoorDash Drive. Toast can process the payment. DoorDash delivers the food. You never browse a marketplace or see a sponsored listing.
+Whether you like this or not will depend on two primary dimensions:
+1)
+How much incremental demand can an agent bring to you?
+How much market share do you have, and stand to gain further (can you gain more customers and orders that offset the risk to your profit pool?)
+2)
+How much of the platform’s profit depends on controlling discovery and the customer relationship?
+How important is customer screen time to your business? (In other words: what percentage of your operating income is commissions and/or ad revenue?)
+Those incentives are different from bargaining power. A platform may want the demand an assistant brings, but the terms will depend on whether the assistant has credible alternatives for fulfilling the order. A company can welcome another sales channel while negotiating hard to preserve its economics.
+The operations earned the distribution
+Amazon, DoorDash and Instacart earned their consumer relationships by doing difficult things reliably: providing comprehensive selection and a delightful user experience, delivering the order, handling substitutions, fixing whatever goes wrong. Those capabilities created habits and
+valuable advertising businesses
+.
+Muse, ChatGPT, Grok Bot and Instinct cannot recreate the networks tomorrow. They can compare existing providers and route orders among those that meet the customer’s needs.
+The incumbents may maintain their fulfillment advantage, but that does not guarantee preserving their profit pool. In 2025, Amazon generated $69 billion in advertising revenue compared to $34 billion in operating income ex-AWS.
+Advertising revenue is not profit, but at an assumed 70% contribution margin, advertising contributed more than reported operating income. The same is true for DoorDash and Instacart.
+Advertising revenue and commissions are key to the consumer internet, and we could be on the precipice of a major shakeup. In 2025, Alphabet and Meta combined for nearly $500 billion in advertising revenue from being the center of gravity for distribution. These dollar flows have been so large and so durable, for so long, that if even
+some
+of them redistribute meaningfully, that funds an entire new business model and competitive ecosystem.
+Who welcomes another channel
+For a marketplace, an agent can bring a new customer (great) or intercept an order it would have won anyway (less so). The first can be attractive even on less favorable terms. The second may leave the platform delivering the same order for less profit. The decision depends on how much new demand the agent brings and how much the marketplace earns from discovery and advertising.
+Domino’s was arguably the most important restaurant holdout from DoorDash and Uber Eats for years. (The “Garth Brooks holding out from Spotify” of pizza chains, you might say.) Management did not want to lose customer relationships to an aggregator which it would pay for a delivery service it already offered. But Domino’s came around to appreciating that aggregators were more than delivery infrastructure, and could help with discovery and customer acquisition. Domino’s kept its loyalty program for its own ordering platforms, but bet on new demand. Agents could now put DoorDash on the other side of the same negotiation.
+The early split is telling: Instacart is integrating with Muse, while Amazon is attempting to block it. Both choices can make economic sense. Amazon’s breadth and established shopping habits give it a stronger negotiating position: an assistant that cannot buy from Amazon is less useful to customers who already want to shop there. So Amazon can negotiate here, and if it ever welcomes Muse back, it’ll probably preserve some of the old economics. Instacart, on the other hand, has more room to gain orders which do not already begin their grocery shopping on its marketplace.
+Shopify, Toast and Square have a different incentive. They give agents access to merchants’ inventory, checkout, and operating workflows, opening another sales channel while continuing to earn software and payments revenue. Shopify’s Muse integration makes that incentive concrete. There is no comparable marketplace advertising business to protect.
+That changes the options available to agents. In the dinner example, Toast enables the order and payments, while DoorDash Drive provides delivery. The agent can bring the restaurant a customer without sending that customer through DoorDash’s marketplace. That puts pressure on commissions and advertising even if DoorDash still handles the order. My partner Seema has described the enterprise software version of this separation as
+going headless
+.
+Who funds the order
+We know that customers will
+sometimes
+pay up for convenience. They accept higher menu prices on DoorDash, which was necessary in order for the economics to work for restaurants. Would people accept higher prices shown to assistants, if they can order on Amazon and pay for you? Would we pay up for it to coordinate dinner with my friends’ agents, reconcile preferences and place the order? If that saves enough time and effort, a fee could support another business on top of the existing marketplace. But that fee to the assistant would not replace the marketplace’s lost advertising profit. Some of that spending would need to reach the marketplace, or be accompanied by enough additional volume or cost savings. Instacart has seen orders placed with its AI assistant include more items than Instacart’s typical basket and exceed its typical basket value.
+There is an optimistic possibility: less human browsing could mean more buying. Consumer platforms have spent years removing steps between wanting something and purchasing it. Assistants could remove much of the remaining work: researching, comparing, coordinating and checking out. The trip you never get around to planning becomes a booking. The dinner that stalls in a group chat becomes an order.
+That could change the economics of sharing the customer relationship. A marketplace might earn less on each order but more in total if assistants generate enough additional purchases. The question is whether they create enough new business to offset the profit lost on business that would have happened anyway.
+Travel illustrates how these forces can pull in different directions. If Expedia pays an assistant instead of Google to acquire a booking, it may be replacing one acquisition cost with another. If an assistant charges for an Airbnb booking that would otherwise have arrived directly, it introduces a new cost. Yet Airbnb’s differentiated inventory may give it leverage over those terms: an assistant that cannot offer the property a traveler wants is less useful. Airbnb could therefore have both a strong negotiating position and a strong incentive to protect its direct customer relationships.
+Moreover, how these economics will shake out depends on whether businesses are acquiring
+customers
+from new agentic traffic, or merely acquiring
+orders
+. If an agent takes me to Expedia and I actually really like the service, I might become a repeat customer who subsequently books directly. But if I return to the assistant for my next trip, Expedia has to win the order again. More bookings would not necessarily mean more customers who return directly.
+A third consideration is physical infrastructure that’s already in place. This is a double-edged sword for bargaining power, because having that infrastructure gives you genuine leverage for economics, but leaves you vulnerable in another sense, because you need volume to keep those assets utilized. For example, if you’re Amazon, you’re facing the prospect of retaining an order but losing advertising (and losing contribution margin for that order), you’d still prefer it to losing the order at all, and therefore having to spread infra costs across fewer orders.
+An assistant cannot assume fulfillment remains available tomorrow on the same terms it can get today. Higher fees, lower profits or less investment could absorb the gap. More volume and lower acquisition costs could offset part of it, especially when orders are new rather than rerouted. Assistants may also charge providers for access to their customers. The result will depend on how much business each side needs from the other.
+I expect the underlying networks to remain valuable. I’m less sure they keep the same share of the economics once someone else brings the customer. But the profit pools incumbents are defending could also support an entirely new generation of commerce companies, built on the infrastructure those incumbents made possible.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
