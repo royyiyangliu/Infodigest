@@ -1,0 +1,281 @@
+{
+  "fetch_date": "2026-10-01",
+  "fetch_time": "2026-09-30T21:11:52.048296+00:00",
+  "stats": {
+    "new_podcast_episodes": 1,
+    "new_articles": 1,
+    "new_tweets": 20,
+    "total_podcasts": 1,
+    "total_articles": 1,
+    "total_tweets": 20,
+    "transcribed_this_run": 1
+  },
+  "podcasts": [
+    {
+      "source": "硅谷101",
+      "title": "E254｜超级厄尔尼诺来了，我们的日常所需真会因它涨价吗？",
+      "date": "2026-09-29 16:00 UTC",
+      "link": "https://podcasts.apple.com/us/podcast/e254-%E8%B6%85%E7%BA%A7%E5%8E%84%E5%B0%94%E5%B0%BC%E8%AF%BA%E6%9D%A5%E4%BA%86-%E6%88%91%E4%BB%AC%E7%9A%84%E6%97%A5%E5%B8%B8%E6%89%80%E9%9C%80%E7%9C%9F%E4%BC%9A%E5%9B%A0%E5%AE%83%E6%B6%A8%E4%BB%B7%E5%90%97/id1498541229?i=1000792275946&uo=4",
+      "orig_link": "https://sv101.fireside.fm/268",
+      "audio_url": "https://aphid.fireside.fm/d/1437767933/f0f20376-8faf-4940-b920-84af6c734e2d/0b644f51-461c-4ddb-b707-d2a39b9a7d80.mp3",
+      "duration": "1:02:03",
+      "summary": "这个夏天，来自全球各地的多个气象机构都拉响了同一个的警报，一场史无前例的超级厄尔尼诺正在上演。\n来自摩根大通的经济学家预计，全球的食品通胀将在2027年的上半年上升到5%，明显高于今年同期的2.8% 。这其中有来自霍尔木兹海峡封锁和黑海冲突的因素，也部分归因于我们正深处的这场、50年来颇为罕见的超级厄尔尼诺。\n它究竟会通过什么方式影响到全球供给？它所带来的危害是否真的像媒体报道的那么大？在一次次与极端气候变化的对抗中，人们又为应对厄尔尼诺做了怎样的准备？\n【主播】\n麻花，硅谷101特约研究员\n【嘉宾】\n张思齐，资深大宗商品期货交易员\n【你将听到】\n超级厄尔尼诺，如何影响农业生产\n03:17 农业几多产，起决定因素的不只是气候\n08:56 超级厄尔尼诺，以及它的影响边界\n16:03 厄尔尼诺如何影响棕榈油、天然橡胶和咖啡豆\n19:26 哪些终端商品，价格可能受到大波动\n22:20 秘鲁禁捕鳀鱼，受波及的除了日料水产，还有宠物食品\n25:10 都说厄尔尼诺导致减产，但也有产区因它收益\n极端气候之外，生产资料的供应紧张和农民的应对之策\n27:53 作物减产是否影响终端价格，还要看产区和出口集中度\n29:52 推高全球粮食价格的，还有供应紧缺的氮肥\n32:27 大宗商品期货交易员会有哪些工具关注气候变化\n35:25 不确定性对于期货交易，究竟是好是坏\n40:08 与不确定性对抗多年，农民如何应对极端气候变化\n42:07 上有厄尔尼诺，下游农民活用期货\n45:22 气候变化引起的出口限制，可能进一步加剧供给危机\n巴拿马运河和全球铜矿的减产，厄尔尼诺要背多大的锅\n47:02 极端气候带来的干旱，让巴拿马运河的运力更紧张了\n50:23 全球铜矿产量下降的锅，厄尔尼诺背不了太多\n56:25 做服装的人，也在厄尔尼诺面前为难了\n57:41 被极端气候影响的电力、加工食品和保险行业\n59:48 大宗商品交易门外汉，可以怎么观察这个行业\n【延伸阅读】\n•\n《纽约时报：This Year’s Record-Breaking El Niño in 3 Charts》\n• NOAA: 美国国家海洋和大气管理局，隶属美国商务部。它负责监测海洋、大气和气象变化，提供天气预报、气候预测和海洋资源管理服务。\n•\nEl Niño set to become very strong, raising risks of extreme weather into 2027\n• 澳洲小麦升贴水（Basis）：澳洲本地小麦现货价格与国际小麦期货价格之间的差价，主要反映澳洲当地的供需、物流及汇率等因素。\n•\nIFPRI: Will extreme weather lead to multiple breadbasket failures and threaten global food security?\n•\nForbes: 巴拿马运河运力使用经济体Top20\n•\nUSDA:U.S. Department of Agriculture\n【硅谷AI视频黑客松招募】\n最懂内容的影视团队，与最懂AI的一群科学家，在硅谷相遇，会碰撞出如何的火花？\n今年，硅谷101把一次现场创作实验带到 Alignment 2026：STORY101 LAB — AI Storytelling Challenge。我们邀请你用AI，完成一部不超过三分钟的视频作品。\n比赛设【探索组】与【专业组】双赛道，资深AI影片团队与零基础新手皆可参与。我们提供免费workshop培训，优胜者更可获丰厚奖金与千人线下展映机会。\n时间：2",
+      "lang": "zh",
+      "chars": 29484,
+      "text_file": "data/2026-10-01/podcasts/硅谷101__e254超级厄尔尼诺来了我们的日常所需真会因它涨价吗.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "a16z",
+      "title": "State of Markets II",
+      "date": "2026-09-30 12:03 UTC",
+      "link": "https://www.a16z.news/p/state-of-markets-ii",
+      "summary": "100+ Charts On The State of Markets (1H’26). It's the best. You wouldn't want to miss it.",
+      "chars": 8482,
+      "text_file": "data/2026-10-01/articles/a16z__state_of_markets_ii.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2105057391490498660",
+      "date": "2026-09-29T22:09:26.000Z",
+      "text": "annual ranking of best ai podcasts just dropped https://t.co/qEQBCutMcU https://t.co/tR3IF9IXSG",
+      "url": "https://x.com/swyx/status/2105057391490498660",
+      "likes": 58,
+      "retweets": 2,
+      "is_quote": true,
+      "quoted_id": "2105039180887900186"
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2105000738745376769",
+      "date": "2026-09-29T18:24:19.000Z",
+      "text": "for friends of @latentspacepod we are gonna be asking all your burning Dots, Sol 6.1, CUA, and Decisions API questions for @AriX and @nikunjhanda 🔜 at the gateway pavilion on a few mins, come by! https://t.co/BLVP5yihJn",
+      "url": "https://x.com/swyx/status/2105000738745376769",
+      "likes": 72,
+      "retweets": 2,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2104984576703844750",
+      "date": "2026-09-29T17:20:06.000Z",
+      "text": "i have the best reply guys\n\nhttps://t.co/ZmdjBKsWaP https://t.co/Czzh8qJcno",
+      "url": "https://x.com/swyx/status/2104984576703844750",
+      "likes": 3,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2103676600290283614"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2105178959327756396",
+      "date": "2026-09-30T06:12:30.000Z",
+      "text": "What’s up dot",
+      "url": "https://x.com/thsottiaux/status/2105178959327756396",
+      "likes": 857,
+      "retweets": 29,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2105105086506840421",
+      "date": "2026-09-30T01:18:58.000Z",
+      "text": "We will have a few million dots online within days, working on all sorts of things across such a diverse and large community. \n\nExcited to learn from all of you on what you love and what doesn’t yet feel magical. Personally I felt a jump after 2-3 days of use after teaching it more about my preferences and things on my mind. It learns very quickly to be most useful and it can take on surprisingly ambitious tasks on its own.\n\nWe’re learning from how you all use your primary dot before releasing the ability to create an entire team of them.",
+      "url": "https://x.com/thsottiaux/status/2105105086506840421",
+      "likes": 3634,
+      "retweets": 95,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2105102820706058498",
+      "date": "2026-09-30T01:09:58.000Z",
+      "text": "It was so nice to connect with so many of you in person at DevDay. Immaculate vibes from the crowd and fun to see so many build things throughout the day.",
+      "url": "https://x.com/thsottiaux/status/2105102820706058498",
+      "likes": 1891,
+      "retweets": 38,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2105127506701644024",
+      "date": "2026-09-30T02:48:03.000Z",
+      "text": "Wow I had no idea this toggle exists \n\nGoing to try this now I hate the ai slop shorts on YouTube https://t.co/Z7xEmaBNWs",
+      "url": "https://x.com/petergyang/status/2105127506701644024",
+      "likes": 128,
+      "retweets": 4,
+      "is_quote": true,
+      "quoted_id": "2105101530281935350"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2105114973819244676",
+      "date": "2026-09-30T01:58:15.000Z",
+      "text": "I had so much fun at @OpenAI Dev Day despite not attending a single session other than the keynotes 😅\n\nInstead, I spent the day catching up with some great folks, so I'm going to embarass some of them now:\n\n1. @lennysan the nicest most humble successful person I've had the pleasure of being friends with \n\n2. @bb_fresh the comedy legend, search \"krazam microservices\" on YouTube for a laugh. My dream is to appear in one of Ben's sketches as the PM.\n\n3. @danshipper the vibe checks are legendary\n\n4. @bentossell the tall Welsh gentleman in pink - has an amazing newsletter in Ben's Bites\n\n5. @thenanyu the man who brings taste and craft to everything he touches from Linear to OpenAI\n\n6. @illscience my favorite a16z partner that I've met (because @joshelman still hasn't met me in person 😅)\n\n7. @fishmanaf a great product leader but more importantly the most buff dad ever\n\n8. @tomkrcha the founder behind @pendev one of my favorite AI design tools\n\n9. @victornunez who still makes time to answer my dumb DMs at 11 pm despite working at OpenAI and having 3 kids",
+      "url": "https://x.com/petergyang/status/2105114973819244676",
+      "likes": 138,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2104781373433377030"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2105097073448407083",
+      "date": "2026-09-30T00:47:07.000Z",
+      "text": "@nealmohan how about letting users (or at least parents) opt out of shorts entirely",
+      "url": "https://x.com/petergyang/status/2105097073448407083",
+      "likes": 5,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Nan Yu",
+      "handle": "thenanyu",
+      "tweet_id": "2105154553327026643",
+      "date": "2026-09-30T04:35:32.000Z",
+      "text": "New benchmark to climb https://t.co/r9NRjd0i8n",
+      "url": "https://x.com/thenanyu/status/2105154553327026643",
+      "likes": 7,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2105147329254920234"
+    },
+    {
+      "source": "Nan Yu",
+      "handle": "thenanyu",
+      "tweet_id": "2105049816388755620",
+      "date": "2026-09-29T21:39:20.000Z",
+      "text": "https://t.co/SskpMm0usL",
+      "url": "https://x.com/thenanyu/status/2105049816388755620",
+      "likes": 20,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2105065175711924492",
+      "date": "2026-09-29T22:40:22.000Z",
+      "text": "from our blog post on how we made Claude faster: https://t.co/At9YfAhSE1",
+      "url": "https://x.com/trq212/status/2105065175711924492",
+      "likes": 124,
+      "retweets": 6,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2105065127892734076",
+      "date": "2026-09-29T22:40:11.000Z",
+      "text": "have you tried telling Claude \"we have the power to do anything, please be braver\"\n\nalso, have you tried telling yourself https://t.co/HCztPpmXVq",
+      "url": "https://x.com/trq212/status/2105065127892734076",
+      "likes": 2450,
+      "retweets": 88,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2104983042536460435",
+      "date": "2026-09-29T17:14:00.000Z",
+      "text": "See it here: https://t.co/mmgZgbCjFe",
+      "url": "https://x.com/trq212/status/2104983042536460435",
+      "likes": 12,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2104996638817386820",
+      "date": "2026-09-29T18:08:02.000Z",
+      "text": "How to design and build a harness to reach frontier performance at a fraction of the cost! https://t.co/UXxvPNEsbP https://t.co/1CD6OE989g",
+      "url": "https://x.com/amasad/status/2104996638817386820",
+      "likes": 512,
+      "retweets": 29,
+      "is_quote": true,
+      "quoted_id": "2104976589180252218"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2105053919642829001",
+      "date": "2026-09-29T21:55:39.000Z",
+      "text": "Plotted: the inverse correlation between product defects and downloads. h/t @anthonysheww https://t.co/7xdB8DgZpd",
+      "url": "https://x.com/rauchg/status/2105053919642829001",
+      "likes": 18,
+      "retweets": 1,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2105043144975011982",
+      "date": "2026-09-29T21:12:50.000Z",
+      "text": "AI SDK has hit 30M weekly downloads.\n\nOne-shotted this video in fframes + https://t.co/3Z4NESzNKd + opus. I asked 𝚏𝚡 to look at https://t.co/dnlawxpWR6 and highlight the 5M/10M/20M/30M milestones.\n\nYes, this video was written in Rust and rendered on the GPU. h/t @neogoose_btw https://t.co/dS4UpwzbbN",
+      "url": "https://x.com/rauchg/status/2105043144975011982",
+      "likes": 299,
+      "retweets": 12,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2105012176952164777",
+      "date": "2026-09-29T19:09:46.000Z",
+      "text": "You can just ship things\n(and wallow in cartographic filigree)",
+      "url": "https://x.com/rauchg/status/2105012176952164777",
+      "likes": 61,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2104949645197910404"
+    },
+    {
+      "source": "Aaron Levie",
+      "handle": "levie",
+      "tweet_id": "2105111520913039530",
+      "date": "2026-09-30T01:44:32.000Z",
+      "text": "It’s entirely plausible that the AI industry can deal with safety and security through a set of shared standards and practices for the foreseeable future. \n\nAt some point in capability progress there will inevitably be greater oversight, testing, and layers of liability and regulation, but we are still in a phase where the industry can absolutely align on these efforts collectively.\n\nAwesome to see this come together so quickly and for the whole industry to support progress without reducing competition. This certainly points to a much brighter future for AI.",
+      "url": "https://x.com/levie/status/2105111520913039530",
+      "likes": 91,
+      "retweets": 8,
+      "is_quote": true,
+      "quoted_id": "2105087367686025454"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2105049005147525231",
+      "date": "2026-09-29T21:36:07.000Z",
+      "text": "Just merged a version of OpenClaw’s test-audit skill into GStack. Test bloat is a real problem. \n\nLuckily intelligence is on tap these days! https://t.co/zJkdosDOv3",
+      "url": "https://x.com/garrytan/status/2105049005147525231",
+      "likes": 146,
+      "retweets": 7,
+      "is_quote": false,
+      "quoted_id": null
+    }
+  ]
+}
