@@ -1,0 +1,303 @@
+{
+  "fetch_date": "2026-10-02",
+  "fetch_time": "2026-10-01T21:33:14.131587+00:00",
+  "stats": {
+    "new_podcast_episodes": 2,
+    "new_articles": 2,
+    "new_tweets": 20,
+    "total_podcasts": 2,
+    "total_articles": 2,
+    "total_tweets": 20,
+    "transcribed_this_run": 1
+  },
+  "podcasts": [
+    {
+      "source": "Dwarkesh Podcast",
+      "title": "Si Sheppard – How did a few hundred Spanish soldiers topple two empires?",
+      "date": "2026-10-01 15:28 UTC",
+      "link": "https://podcasts.apple.com/us/podcast/si-sheppard-how-did-a-few-hundred-spanish-soldiers/id1516093381?i=1000792593373&uo=4",
+      "orig_link": "https://www.dwarkesh.com/p/si-sheppard",
+      "audio_url": "https://api.substack.com/feed/podcast/218345956/4b5f7bc6865a6ab2f2eeea047dff6d8b.mp3",
+      "duration": "1:37:23",
+      "summary": "New episode with military historian\nSi Sheppard\n.\nThe conquests of the Aztec and Inca empires might be the most shocking events in human history.\nHernan Cortés and some hundreds of Conquistadors landed on a new continent they knew basically nothing about, and within 2 and a half years, conquered the 6 million strong Aztec empire.\nThen, a decade later, Francisco Pizarro did the same thing to an Incan Empire of some 10 million inhabitants.\nIn both cases, the Conquistadors consistently beat native armies while being literally 100x (or even in some cases 1000x) outnumbered - and in many cases, did so without taking a single casualty.\nAnd they did this with 99% of their military forces being made up of the very natives they were trying to subjugate.\nWe often forget how wild human history is. People talk about AI takeover as if it would be some crazy, unprecedented sci-fi outcome. But this would not be the first time an alien force whose motives the defenders barely understand use more advanced technology and diplomatic cunning to outmaneuver and then take over a much larger and long established existing order.\nWatch on\nYouTube\n; read the\ntranscript\n.\nSponsors\n*\nJane Street\n’s intern projects are even more ambitious than I realized. One intern spent his summer researching LLM memorization, figuring out how to quantify and reduce it. This matters because, when Jane Street tests their models on historical data, they need to know that performance reflects predictive power, not just me",
+      "lang": "en",
+      "chars": 121182,
+      "text_file": "data/2026-10-02/podcasts/dwarkesh_podcast__si_sheppard_how_did_a_few_hundred_spanish_sol.txt"
+    },
+    {
+      "source": "AI & I by Every",
+      "title": "How Sam Altman Uses Dots to Take Back His Time",
+      "date": "2026-09-30 20:05 UTC",
+      "link": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "orig_link": "",
+      "audio_url": "",
+      "duration": "",
+      "summary": "",
+      "lang": "en",
+      "chars": 35156,
+      "text_file": "data/2026-10-02/podcasts/ai_i_by_every__how_sam_altman_uses_dots_to_take_back_his_tim.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "a16z",
+      "title": "Investing in doxxnet",
+      "date": "2026-10-01 16:00 UTC",
+      "link": "https://www.a16z.news/p/investing-in-doxxnet",
+      "summary": "a16z leads doxxnet’s Series A",
+      "chars": 4690,
+      "text_file": "data/2026-10-02/articles/a16z__investing_in_doxxnet.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Investing in Armadin",
+      "date": "2026-10-01 10:02 UTC",
+      "link": "https://www.a16z.news/p/investing-in-armadin",
+      "summary": "a16z leads Armadin’s Series B",
+      "chars": 5256,
+      "text_file": "data/2026-10-02/articles/a16z__investing_in_armadin.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2105538561672085751",
+      "date": "2026-10-01T06:01:26.000Z",
+      "text": "is it normal to crop out other people's logo and not attribute to a simple youtube video or how does this work in professional tech media https://t.co/RMciDG1IJS https://t.co/Wfmcnmv9b7",
+      "url": "https://x.com/swyx/status/2105538561672085751",
+      "likes": 93,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2104201900723700068"
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2105419486383964544",
+      "date": "2026-09-30T22:08:17.000Z",
+      "text": "i genuinely dont do anything to optimize for apple  podcasts (and actively hate spotify) so being on the top podcast list here among some industry legends  and even beating @MKBHD is pretty fkin nuts https://t.co/myUbdjzfyr",
+      "url": "https://x.com/swyx/status/2105419486383964544",
+      "likes": 5,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2105348724331606411",
+      "date": "2026-09-30T17:27:06.000Z",
+      "text": "Flow is doing for hardware engineering what Git+GitHub did for software engineering. It's enabled so much acceleration due to aligning thousands of stakeholders for complex, irreversible, high value pipelines from cars to rockets. \n\nYou cannot go back to spreadsheet_final_FINAL_v23 once you've been in Flow.\n\nproud to be a friend first, and smol investor second.",
+      "url": "https://x.com/swyx/status/2105348724331606411",
+      "likes": 67,
+      "retweets": 2,
+      "is_quote": true,
+      "quoted_id": "2105328725978132494"
+    },
+    {
+      "source": "Josh Woodward",
+      "handle": "joshwoodward",
+      "tweet_id": "2105396307250782446",
+      "date": "2026-09-30T20:36:10.000Z",
+      "text": "Gemini 4 Argon! https://t.co/my712dCXrs",
+      "url": "https://x.com/joshwoodward/status/2105396307250782446",
+      "likes": 1319,
+      "retweets": 59,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2105519215092584786",
+      "date": "2026-10-01T04:44:34.000Z",
+      "text": "One more thing, you can now build and deploy MCP servers right through ChatGPT. And restrict its access to anyone you want or share it with the world. https://t.co/KZwGmxL9ew",
+      "url": "https://x.com/thsottiaux/status/2105519215092584786",
+      "likes": 2082,
+      "retweets": 126,
+      "is_quote": true,
+      "quoted_id": "2105428405571428785"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2105464274747527543",
+      "date": "2026-10-01T01:06:15.000Z",
+      "text": "GPT-6.1 Sol is our most demanded model pretty much ever both across both the API and subscriptions. \n\nWithin ChatGPT & Codex, we were under heavy load, but have brough more capacity online and the speed should get much better in the coming hours, reaching almost twice the speed compared to what we served yesterday.",
+      "url": "https://x.com/thsottiaux/status/2105464274747527543",
+      "likes": 8735,
+      "retweets": 358,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2105395200248156556",
+      "date": "2026-09-30T20:31:46.000Z",
+      "text": "Asked my dot to paint me. After sending me something cartoonish, I asked it to try a bit harder and to find a recent picture of me on the internet. It did better.\n\nBelow video is me clicking through my dot's computer. https://t.co/AutVg2erlh",
+      "url": "https://x.com/thsottiaux/status/2105395200248156556",
+      "likes": 2284,
+      "retweets": 42,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2105486915147645063",
+      "date": "2026-10-01T02:36:13.000Z",
+      "text": "People I met at DevDay: I love your channel! Thank you!\n\nPeople in YouTube comments: Fing AI shill \n\n🥲",
+      "url": "https://x.com/petergyang/status/2105486915147645063",
+      "likes": 48,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2105427638236180883",
+      "date": "2026-09-30T22:40:40.000Z",
+      "text": "This is getting nuclear 🌶️ https://t.co/vFIgF8GRFH",
+      "url": "https://x.com/petergyang/status/2105427638236180883",
+      "likes": 99,
+      "retweets": 2,
+      "is_quote": true,
+      "quoted_id": "2105412175707902198"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2105393240392585359",
+      "date": "2026-09-30T20:23:59.000Z",
+      "text": "Google cooked on Gemini 4! \n\nNow they just need to be more competitive on coding harness (Antigravity) + personal agent (Spark). https://t.co/shCRH678Ow",
+      "url": "https://x.com/petergyang/status/2105393240392585359",
+      "likes": 171,
+      "retweets": 5,
+      "is_quote": true,
+      "quoted_id": "2105388084154056939"
+    },
+    {
+      "source": "Nan Yu",
+      "handle": "thenanyu",
+      "tweet_id": "2105316751802348005",
+      "date": "2026-09-30T15:20:03.000Z",
+      "text": "It’s interesting to contrast, what different companies take for granted in their internal cultures\n\nI’ve only been at OpenAI for about a week, and the thing that stands out is absurdly high bias towards action\n\nThis shows up in ways big and small…\n\nSometimes you have a casual discussion about a possible feature, and the PR is sitting in front of you by the time you get back to your desk \n\nOr you meet someone on Slack and say: “let’s grab lunch next week” and the meeting invites on your calendar within the next five minutes\n\nThis has its downsides. because it often feels like everything’s behind a hair trigger, and things just change out from under you— but you can’t really teach this energy, and if you ever lose it, it’s unbelievably hard to get it back\n\nOpen AI is not a tiny company anymore. It’s got several massive buildings in San Francisco, it’s impressive that this energy still persists",
+      "url": "https://x.com/thenanyu/status/2105316751802348005",
+      "likes": 180,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2105333509246386546",
+      "date": "2026-09-30T16:26:38.000Z",
+      "text": "While prototypes are fun, I think ideally I'd work on this with a small group of 2-3 people. \n\nThe animations, design, etc. are fine but someone with expertise could help make it much better.",
+      "url": "https://x.com/trq212/status/2105333509246386546",
+      "likes": 103,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2105333507711271060",
+      "date": "2026-09-30T16:26:38.000Z",
+      "text": "This all prototype quality. The graphics and feel are not high quality enough for you to play.\n\nTo make a real game I'd probably go through 3-4 variations of this character, and have maybe 8-10 characters in the game.",
+      "url": "https://x.com/trq212/status/2105333507711271060",
+      "likes": 73,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2105333506226503710",
+      "date": "2026-09-30T16:26:37.000Z",
+      "text": "I want this character to have a big jump, but so far I haven't been able to fit into the control scheme in a way I like. \n\nI've tried maybe 2-3 variations. https://t.co/gRoR3HOw9j",
+      "url": "https://x.com/trq212/status/2105333506226503710",
+      "likes": 55,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Google Labs",
+      "handle": "GoogleLabs",
+      "tweet_id": "2105352889665564838",
+      "date": "2026-09-30T17:43:39.000Z",
+      "text": "💠 Opal shines on in Skills! 💠\n\nWhen we launched Opal in Google Labs, it was an experiment to learn how you customize your workflows. Your incredible creativity taught us so much — first inspiring Gems made by Labs, and today, supporting the global launch of skills in @GeminiApp! ✨\n\nSkills are a faster way to automate repetitive tasks and save custom instructions right in chat - built from the learnings we had from Opal. As skills roll out globally, we will be saying a bittersweet farewell to Opal. The experiment will be shutting down on Nov 17, 2026.\n\nWhether you built mini-apps on https://t.co/YOHh8P89yg or tried Gems in Gemini, thank you for shaping the future of customizable AI. Opal lives on in every skill you build next. 💙",
+      "url": "https://x.com/GoogleLabs/status/2105352889665564838",
+      "likes": 312,
+      "retweets": 19,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2105321112389443805",
+      "date": "2026-09-30T15:37:22.000Z",
+      "text": "Make and one-click publish Meta VR apps. https://t.co/LW53Qw7CfJ",
+      "url": "https://x.com/amasad/status/2105321112389443805",
+      "likes": 137,
+      "retweets": 10,
+      "is_quote": true,
+      "quoted_id": "2105319681259147583"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2105476587756138942",
+      "date": "2026-10-01T01:55:11.000Z",
+      "text": "Most token aggregators have extreme noise from ① token promos from/to providers that train on your data or ② providers that *claim* to be ZDR.\n\nVercel AI Gateway is the largest trustworthy datasource to understand global AI token flows, because we have real usage, from real customers, an at-scale platform (400k+ paying customers and thousands of enterprises), and zero markup.\n\nNotably… every week we turn down \"free token\" promos from companies that come to us with dubious claims of Zero Data Retention (ZDR) and questionable reputations. We also don't get a kick out of having the \"most providers\". Most providers suck. You want the *best* providers.\n\nWe put in as much work in engineering our gateway, as in our legal, compliance, privacy, and backoffice operations to responsibly serve trillions of tokens every day. We're here for the long haul.",
+      "url": "https://x.com/rauchg/status/2105476587756138942",
+      "likes": 132,
+      "retweets": 4,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2105390544096841942",
+      "date": "2026-09-30T20:13:16.000Z",
+      "text": "If you run a service and want to get in front of 20M+ developers and the billions of agents they'll ship, add yourself to Connect.\n\nWith code now being 'free', the final boss of building is connecting to stuff. Connect is both easier and more secure¹. For agents and for apps.\n\n¹ The world of building agents is plagued with static credentials. You're supposed to give a bunch of keys to each agent or app you build. It's DX hell, but it's also a massive liability. Connect fixes this.",
+      "url": "https://x.com/rauchg/status/2105390544096841942",
+      "likes": 441,
+      "retweets": 20,
+      "is_quote": true,
+      "quoted_id": "2105382468782370950"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2105285688820400259",
+      "date": "2026-09-30T13:16:37.000Z",
+      "text": "Faster https://t.co/Uw0ftBmUwe",
+      "url": "https://x.com/rauchg/status/2105285688820400259",
+      "likes": 137,
+      "retweets": 4,
+      "is_quote": true,
+      "quoted_id": "2105266410792341801"
+    },
+    {
+      "source": "Aaron Levie",
+      "handle": "levie",
+      "tweet_id": "2105354449795621179",
+      "date": "2026-09-30T17:49:51.000Z",
+      "text": "There's a huge opportunity right now in being the deployment layer for AI into the economy. The amount of work it takes to change out workflows in enterprises tends to be far greater than anyone realizes or would prefer. Clearly this is what the applied layer of AI is going to look like in the form of software and agents, but also it opens up new services firms opportunities.\n\nLegacy systems need to be moved to the cloud, data organization and access needs to be updated, software needs to be connected to agents in new ways, workflows need to be reengineered for agents, HITL needs to be figured out for the process, evals need to be generated and maintained, and the entire system needs to be continually updated as new models get released and new capabilities emerge. And the full list may even be longer.\n\nAI is not the same as just deploying software. Software you generally did the implementation of an existing, well understood category of technology, then stepped back and the customer kept running. With AI agents, you're delivering actual work augmentation to the organization, which has a completely different set of complexities associated with it. You're no longer deploying tools that the company is merely enabled by, you're deploying work output in a process. Completely different implementation and enablement process.\n\nAs a result, this is going to open up lots of new kinds of firms and plays for existing firms to diffuse AI into organizations. We're going to see approaches by industry, by size of company, and by problem inside of companies. Traditional SIs will modernize and adapt (some will clearly not adapt as well), and new entrants will also be founded in this period that take advantage of this window. Great time to be an FDE or FDE firm.",
+      "url": "https://x.com/levie/status/2105354449795621179",
+      "likes": 853,
+      "retweets": 90,
+      "is_quote": true,
+      "quoted_id": "2105288737408131326"
+    }
+  ]
+}

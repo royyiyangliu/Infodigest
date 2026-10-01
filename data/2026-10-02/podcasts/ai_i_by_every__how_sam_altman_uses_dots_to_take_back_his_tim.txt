@@ -1,0 +1,885 @@
+Source  : AI & I by Every
+Title   : How Sam Altman Uses Dots to Take Back His Time
+Date    : 2026-09-30 20:05 UTC
+Link    : https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+────────────────────────────────────────────────────────────
+
+Do you do all your prompting on Ultrafast?
+
+I do.
+
+That's sick.
+
+Yeah.
+
+That's crazy.
+
+You know, seven people's dots can, working together, create something new that kind of existed in all of our heads to some degree, but was like an emergent thing.
+
+Hey, this is Dan Shipper.
+
+You might be wondering what happened to AI and I.
+
+This is the same show, we are just rebranding it to the Every Podcast.
+
+I'm really excited for our first episode with Sam Waltman.
+
+Here it is.
+
+Sam, welcome to the show.
+
+Thanks for having me.
+
+Psyched to have you here.
+
+So we're here at Dev Day.
+
+I think if you had told me four years ago that the coding models were at this level of capability, I would have been like, wow, I don't know if there would be a lot of developers at Dev Day.
+
+but there's more developers than ever, it seems like, and more work to do than ever.
+
+So what has the, like, riding the increasing capabilities of coding models and seeing the impact on engineering taught you about the future of engineering and more broadly, like, the future of work with AI?
+
+I think people just want so much more stuff.
+
+People's expectations are so high.
+
+And I think that's a wonderful thing.
+
+I think this is why we'll all have this incredible future in front of us to explore.
+
+But developers, they've never been able to do more, but there's never been a higher bar either.
+
+And I think that's great.
+
+I think that's like a nice thing about society.
+
+Is that something that surprised you?
+
+Did you expect that to happen?
+
+I think I was never as doomery about the job stuff as other people, but it still has surprised me somewhat on the upside of just how much latent demand existed in the world and also how much people have remained at the center of everything that is happening with AI.
+
+Do you think there's a limit to that, or do you think that translates pretty cleanly to other areas of work?
+
+I think there will be some areas of work
+
+where there's actually not much creativity required and we don't care about the person doing it.
+
+And many of those tasks or jobs will be done by AI.
+
+But I think there's so much other stuff people want in the world, there's gonna be no shortage of new things to go do.
+
+I think that's been one of the lessons of recent time.
+
+Why do you think it's so human-centered even though we talk a lot about automation?
+
+I mean, one observation is we just, we don't care that much about what the machines do.
+
+And in some sense we never have.
+
+And we're just like, we're obsessed with other people.
+
+We want to know about the person behind the art or the person behind the company or the idea or the product.
+
+And I think this is like a wonderful, positive surprise that we probably should have all known before.
+
+I agree.
+
+I've been thinking, if an agent solves a Navier Stokes in a data center, but no one finds out, did it really solve it?
+
+You know?
+
+I think that was a great example where 10,000 agents worked super hard for four days in perfect coordination with each other and did this amazing thing.
+
+And almost none of the public reaction was about that actually the problem being solved.
+
+A lot of talk about the interpretation, a lot of talk about like the people involved in it in different ways.
+
+That was a good thing.
+
+Yeah.
+
+So it's Dev Day.
+
+You launched, by my count, 22 new things today.
+
+Which I've been at all four Dev Days.
+
+And I think last year was like nine.
+
+And the year before that was like four or five.
+
+So it's a lot more than usual.
+
+Just wait for next year.
+
+OK.
+
+I'm tired.
+
+I'm tired.
+
+We cut a bunch of things that we were going to launch today just because you have to fit it in the 50 minutes.
+
+But we were going to launch a lot of things.
+
+try to practice what we preach.
+
+And if we are saying these tools can make people much more productive and build more and that people want more stuff, like, we better build more ourselves.
+
+What are the new kind of bottlenecks and best practices for doing that?
+
+Because I can see for myself, and I assume you guys are seeing this too, like, now that you can build everything, you're like, what should we build and how do we make it all coherent?
+
+How do you think about that?
+
+Moving to...
+
+this world of sort of persistent intelligence, active intelligence, whatever people wanna call it, this idea that you're gonna have these agents that are running in the background 24 seven, connected to your systems, doing stuff proactively for you.
+
+This is clearly a direction that feels important to explore.
+
+I think we're gonna see amazing stuff happen there.
+
+Another thing we really wanted to do is there's just, there are now so many ideas that are capable of being built and what we are missing is the creative spirit
+
+to figure them out and build them.
+
+So we wanted to really open up our ecosystem, let people build apps in ChatGPT in the same way that we get to do them, let people bring their subscription wherever they'd like, have the marketplace, and really try to let people get connected to all the stuff that people will now be able to build.
+
+Yeah, I mean, just looking at all the platform features that you launched and the way that you talk about platforms, it reminds me a lot of the way that Bill Gates used to talk about Windows as a platform, where you create more value than you capture.
+
+What have you learned, you know, you said this in your keynote and I've observed it as well, there's, at DevDay, there's always an app store.
+
+You've been taking swings at app stores for a while.
+
+What have you learned about building a platform and what do you think makes this one different?
+
+I mean, we clearly have not yet figured out the App Store equivalent, but we have figured out how to build a platform that a lot of people are building incredible value on top of.
+
+I think there are really kind of two schools of thought among people building AI model companies.
+
+There are people that believe or hope that there's only going to be one company in the world.
+
+And then there are people like us that believe we are going to see a renaissance in the number of companies and just an absolute...
+
+lowering of the bar to people, one-person companies, small team companies, creating incredible new products and services.
+
+And we want to go as hard as we can with the platform to enable people to do that.
+
+And although I think we haven't figured out the App Store yet, that's totally fair.
+
+I think we have figured out how to help millions of people build and create significant new products and companies.
+
+If you had to narrow in, you said you talked at the keynote about an industrial revolution versus a renaissance, which you just mentioned now.
+
+If you had to narrow in on the key things that make the difference between those two worlds and maybe opening the eyes part in it, but maybe even the broader ecosystem, what do you think those things are?
+
+One take on this would be that the renaissance was fundamentally centered around people and the industrial revolution was fundamentally centered around machines.
+
+There were a lot of good things about the Industrial Revolution.
+
+It had a hugely positive impact on the world in many ways.
+
+But I think a lot of people did not have a purely positive personal impact from that.
+
+And this feeling that people had these like rich lives and did all these things.
+
+And yeah, of course, they like struggled and wanted more and better stuff.
+
+And that's the part the Industrial Revolution did deliver in some ways.
+
+But they were kind of turned into, in many cases,
+
+It's like cog in a machine doing some extremely specialized thing and kind of like disconnected from a lot of the parts that made life good.
+
+I get sad to hear people talk about like, oh, AI is going to automate everything.
+
+There's going to be no role for humans.
+
+We're going to be like,
+
+house cats and the AI will decide how to reward us and tell us what to do.
+
+I have heard people say that.
+
+That's certainly not what we think.
+
+Yeah.
+
+What I am hopeful for is that this is just a huge new wave of scientific discovery, art, company formation, like everybody that wants to start a new thing.
+
+And that people do get the benefits of all the economic growth and the new stuff happening here.
+
+But also people get to,
+
+back in control of their lives and ability to kind of do the things they want and spend their time the way they want.
+
+One of the things that strikes me about the Renaissance versus the Industrial Revolution is, in the Renaissance, you have a sort of different understanding of what it means to be a person and like an individual.
+
+Yeah.
+
+as opposed to sort of the cog in the machine.
+
+Do you feel like you're starting to see any difference in how we think of ourselves as human that's comparable to the way that we changed how we think of ourselves during the Renaissance?
+
+I mean, so much happened during the Renaissance.
+
+It's hard to say there's like this one thing, but definitely a big part of it was about people sort of reconnecting to a lot of things that had in the distant past.
+
+And you do hear...
+
+And then also like this kind of combination of that with this crazy futurism and discovery of science and engineering and just sort of this feeling that the human potential had massively expanded.
+
+And you do hear people talk about both of those things simultaneously with AI, which is kind of how I got interested in this as an analogy in the first place.
+
+I mean, this is like a very trivial example relative to what is going to be possible or already is possible.
+
+But...
+
+The Dots, the new thing we launched today, is the first thing that has given me back control of my mornings and my mental space in the mornings.
+
+I used to love the early mornings.
+
+It's my favorite time of the day to work.
+
+It's like maximum creativity.
+
+That's when I would do the really deep, complicated project of the day.
+
+And then now I run this big company and something is going wrong all the time.
+
+And overnight, a lot of stuff happens.
+
+And if I don't check my phone right away, then...
+
+you know, sometimes it was fine.
+
+And sometimes there was like a real disaster that if I ignored for an hour, just got much worse.
+
+The problem had been that as I checked my phone, I polluted my brain with all these other things and I lost the deep work period.
+
+But now I trust my dot to go have good judgment about what I need to think about, not think about if there's something very urgent, otherwise handle things for me.
+
+And I get this space for kind of like creativity or to just hang out with my kids back.
+
+And that has been like,
+
+you know, it sounds small, but like a significant improvement to my life.
+
+That's what I was going to ask is so it look, it seems like it's deflecting a lot of things that you might have had to deal with immediately that you can just like leave for later because you're confident you get the thing you need when, when you check it in the moment.
+
+Yeah.
+
+I mean, two, two things that happened today about that, um, during the
+
+The keynote, we had like a big seven production.
+
+This is the risk of live demos and trying to deploy many new features at once.
+
+I was recurring.
+
+So that happened.
+
+Tebow got a message from his dot five minutes before the demo saying, just to let you know, I see that you're in the Dev Day keynote.
+
+I know you were working on it.
+
+I know what the demo is because I was able to look at the presentation in space or whatever.
+
+And this set is probably going to make the demo not work.
+
+would you like me to try to fix it?
+
+There's like a few minutes to go.
+
+And now it couldn't fix it yet, but like maybe the next version will be able to go fix that in prod.
+
+And like, think about that whole, like all the stuff that had to come together to make that work.
+
+Just right now, before I came here, I've been in like back-to-back stuff all day.
+
+very, very behind on all of my normal stuff.
+
+My dot, just before I had walked into the last thing said, you have one little break between now and this thing you're gonna go to with Dan, you have to pay attention to this one thing.
+
+I never would have found that otherwise.
+
+And like, it would have been a big mess.
+
+And just the fact that I don't have to worry about that feels super different.
+
+What's your Dot's name?
+
+Dottie.
+
+I had Alfred earlier.
+
+And then many people are calling it Dottie for now.
+
+But I'm trying to think of a great name.
+
+Mine's name is Boo.
+
+That's a good one.
+
+What do you think so far?
+
+I know it's super early and still rough.
+
+I like it.
+
+It has become the default way that I use chat, which I think is a very promising thing.
+
+Me too.
+
+And I shared with you, I think I'm in the beta.
+
+So I was in the early period.
+
+So I think it has limits.
+
+It has been a little bit buggy for me.
+
+There's a lot of different surfaces that it can be used on, like mobile and it has its own cloud computer and all that kind of stuff.
+
+And I think those kinds of things, getting that cleaned up is a big deal, but yeah.
+
+I think this is the kind of thing where it's going to get better rapidly each week from here, but it's going to definitely take some time to smooth it all up.
+
+I had a similar example where I was trying to reschedule a flight, and it was like, hey, you have a meeting during this flight that you're rescheduling, but it wasn't on my calendar.
+
+It had just read it in Slack.
+
+Yeah.
+
+And then it was like, yeah.
+
+That thing about the ability to bring context together from across your entire life and really do things in ways that would be hard even for an attentive person to get right has been super impressive.
+
+That's been one of the things I found most useful about it.
+
+What had to happen from a research perspective to make this possible?
+
+This is a very complicated system with a lot of stuff, but maybe most important was Astra.
+
+We needed a, you needed a smart enough model.
+
+And then there were a lot of other things you had to build too, but getting the model over the intelligence
+
+bar was a key part.
+
+You've told me that there's been a couple times, not just for scheduling or things that are urgent, like filtering, but there have been a couple times where it's helped you see something or make a decision with OpenAI that you could not have, you said you couldn't have hired someone to do that.
+
+Like it'd just be too complicated.
+
+Do you have any specific examples you can share?
+
+There was one new feature that I was kind of excited about, and it would have been very hard to explain it,
+
+to people in enough detail to get it built.
+
+And even then there were like a lot of ways to do it and I wouldn't have been confident in which one.
+
+And I just like, I would just like constantly jot notes as I thought of something or as I was like on a walk or whatever to my dot.
+
+And then the dot went off and built like five or six versions.
+
+I was able to give feedback.
+
+I was able to iterate.
+
+And it was just like whenever I had a spare moment or had an idea and the kind of like,
+
+the ability to just like dump that in raw form, the ability to like get and give pretty continuous feedback on it was very cool.
+
+And then, so there's like many categories like that where like,
+
+an idea that would be, you'd be so unsure about, or it would be too much effort for you or for someone else to build, you can actually just kind of like continually iterate on.
+
+And it's like, it's pretty cool to go to sleep and like just leave a long voice note as you're kind of drifting off with a bunch of thoughts and like wake up in the morning, not only is the thing built, but it like went off and did like the next seven steps.
+
+It's the best.
+
+And it's like, all right, this is like a very cool way to express
+
+stuff.
+
+And then also, there's a set of tasks that I would normally give up on, or that I would have given up on before.
+
+There was a thing that I was sure I had seen in Slack.
+
+And Slack search is obviously terrible, so I mostly use Codex to search it.
+
+And I had been searching for this thing, because I wanted to find it again.
+
+I wanted to reference it.
+
+And I spent a good 10 or 20 minutes trying to search with Codex and find this, and I kept trying different things.
+
+And
+
+didn't find it.
+
+And I was like, man, maybe I dreamed it and this didn't really happen because Codex doesn't usually fail.
+
+And I kind of gave up on it.
+
+And then the next day, my dot was like, hey, I noticed you were trying to do this thing and you didn't find it.
+
+But I kept thinking about it overnight and I found it for you.
+
+And I was like, what?
+
+And it was a screenshot.
+
+I had forgotten in my head it was a screenshot, not text in Slack.
+
+And it just sat there very patiently looking for something to do to be helpful to me and looked at image-react every screenshot and found the thing.
+
+And I was like, that's really...
+
+I would have given up on that.
+
+I think there's a... We're constantly feeling there's way too much to read in Slack, on email, and all that kind of stuff.
+
+And it's perfect for that amount of context to just get you the right thing at the right time.
+
+People have talked about the need to have an agent...
+
+deal with the just onslaught of the internet and all of the various things trying to like hack our attention and distract us and whatever.
+
+And I have definitely learned in the few weeks that I've been using dots that although technology is very wonderful in many ways, the kind of like crazy attention hacking of social media and phones and notifications had gotten way worse than I realized for me personally.
+
+You hear a lot about AI tools on this show, but the one that's truly at the center of your work is your CRM.
+
+It's where all of your customer context lives and where the work either happens or gets missed.
+
+Adio delivers the work that you never had time to focus on before and more.
+
+It picks up leads at 2 a.m., it catches renewals before they slip, and drafts the follow-up before you've even thought to send one.
+
+Ask Adio anything about your business from this week's forecast to which deals have gone quiet and get the answer in seconds.
+
+And because it's extensible with an API and an MCP, your agents work right alongside your team to build pipeline, advance deals, and grow accounts around the clock.
+
+Try Adio for free at adio.com slash every.
+
+That's adio, A-T-T-I-O dot com slash every.
+
+And now back to the episode.
+
+Tell me about space.
+
+It's a big bet to do three like office suite type tools in one launch.
+
+We didn't set out wanting to do this.
+
+And then we realized, and I'm sure you've realized your own version of this too, that software was really not designed on the whole for collaborating with AI.
+
+And you can use it yourself, or you can have AI use it on your behalf.
+
+But to really collaborate closely, especially when it's multiple people and multiple people's AIs all working together, like a lot of the current abstractions we have break down.
+
+So this is definitely an ambitious bet, but I think the space of human AI collaboration is really important to explore.
+
+How are you working with it?
+
+Like, are you reviewing docs in space, or are you making docs, and do you have expectations for how much of it you're typing versus how much of it your dot is doing for you, and also with the docs that you get?
+
+Like, are you reviewing it from that perspective, too?
+
+If there's, like, a new idea, I like writing the old-fashioned way because it helps me, like, think about it.
+
+So I still do that and then maybe have my dot or other people's dot, like,
+
+do the follow-ups.
+
+But one of the things that I have found most amazing about it, and I don't think we have a word for this yet, but for lack of a better word, these live documents, creating a doc that is going to automatically update as people interact or as other things change in the world.
+
+And something that like many of our dots can work with together, not only to like share information, but actually like, you know, seven people's dots can working together create something new that kind of existed in all of our heads to some degree, but was like an emergent thing.
+
+That's been very fun as we think about new features to explore.
+
+Is there a specific live doc that has been most useful for you?
+
+I have switched.
+
+Like the dashboard, I think everybody's probably got like a dashboard that they look at every day for how the company's doing and the way they care about.
+
+And I used to share one with everybody else or many other people.
+
+And I now have one that is kind of like a changing summary of the business just for me based off of like the evolving things that I'm caring about or not caring about.
+
+like looks at all my Slack messages, makes me a new thing, like constantly updates it.
+
+And it's like, oh, this just feels like a living document.
+
+That's sick.
+
+What do you care about now?
+
+A lot on my mind recently is just how we're thinking about the safety alignment and security challenge in front of us.
+
+But, you know, six months ago, I probably cared more about
+
+revenue and growth and metrics of this sort of traditional part of the business.
+
+So watching that evolve, I've actually been thinking about how I can like, because I'd be very curious to see what my dot thinks I care about each day the most over time.
+
+And we don't currently have a good way to visualize that.
+
+That is really interesting.
+
+I have not been able to get my dot to figure out a cool way to do that.
+
+I've been one.
+
+I would love to see that over the course of years.
+
+I think that's really cool.
+
+I've been wanting one that just like, it's a live dashboard of my mood.
+
+Because I have my dot, like when I get a Slack message and I'm like, I don't know if I wanna look at this Slack message, I have my dot go look at it.
+
+And then I'm like, should I look at this now or later?
+
+And it's like, you should look later.
+
+And I kinda want like a live thing of my mood so it knows.
+
+Totally, yeah, yeah, I want that too.
+
+I would use that.
+
+Very cool.
+
+Tell me about Decisions API.
+
+I feel like the Decisions API is one of the sneaky, most important things today, because Jev is this new hot thing that has honestly changed how we think about building things internally.
+
+Decisions API, did you start that from Jev, or has it been in the works for a while?
+
+How do you think about it?
+
+Diogo used to work at OpenAI, and Diogo's awesome, and he was talking about this class of ideas for a long time.
+
+And we had been...
+
+working on trying to figure out how to make it work.
+
+We, like the number one request of Luna, and this is like an example of how people always want like more cheaper, faster, better.
+
+But the number one request with Luna, even though people love that model, was I want it to be even cheaper and even faster.
+
+And so we have been thinking about how we could push it further in that direction.
+
+Definitely seeing the response to JEV made us more excited to prioritize things in that direction.
+
+And like Diogo has inspired me for a long time on thinking about this.
+
+But I think you will see us try to push in different ways in the spirit of make the technology super fast and super low cost for common use cases.
+
+How do you think about, you know, if something like Jeff comes out, it's a kind of new type of model, and then OpenAI can add like a decisions API.
+
+How do you think about how that changes the race between NeoLabs and labs and what OpenAI can cover and what a new lab can focus on?
+
+As I understand the approach of JEV, it's pretty different.
+
+And I don't think we can go, well, maybe we could go do something from scratch like that.
+
+But I think we have other things to go do.
+
+You know, like we wanna make the best, cheapest, fastest, most capable model at every point on the Pareto curve of cost and speed and modality.
+
+But I think there will be new approaches, new architectures, new technologies that are things we just can't cover all of.
+
+But for the mainline workhorse, we will try to deliver that.
+
+So I've been in your ear a lot about Codex Native apps for a little while now.
+
+DAN GALPINIUSSKI- You finally did it.
+
+I'm psyched.
+
+So plug-in extensions.
+
+Yeah, and also being able to bring your tokens from your ChatDBT subscription to an app developer, it changes the equation for someone like me where normally you're thinking about, okay, how much AI can I let my users use so that it doesn't bankrupt me?
+
+And then you're like, should I use lower-priced models and then the experience is worse?
+
+But if someone can bring their subscription, I'm like, great, you can use whatever model you want under your subscription.
+
+What are you most excited about for the kinds of applications and products that can be built at the application layer in this new world?
+
+I mean, I'm most excited for the ones that we haven't thought of.
+
+Like, there's many reasons that we wanted to do this.
+
+But one of the biggest is, and why we do this Big Dev Day thing, is just this very deep belief that there are way more good ideas outside of our building than inside.
+
+And I don't know what I'm going to love the most as like a ChatGPT native app, a plugin extension, but I am very confident that there will be things that I really do love that I cannot imagine today.
+
+And that no one at OpenAI really could imagine with conviction today.
+
+And that's why, I mean, that's one of the reasons why this is so important to do.
+
+Like we want to find a way to get that creative spirit into people's hands and we want to find a way to help.
+
+builders connect with people who are going to find the technology useful.
+
+In terms of bringing your ChatGPT subscription with you everywhere, we just want that ourselves.
+
+There's all this great stuff that people are building.
+
+There's all these new apps.
+
+We want to try them.
+
+And I hate having to sign up for 100 subscriptions.
+
+And also, when I try something, I'm like, hey, I'd like to be able to use this with full juice AI.
+
+So we want to make it just super easy for people to take it with them.
+
+And it's your subscription.
+
+Like, you should get to use wherever you want.
+
+Do you think anyone at the app layer is doing this well today?
+
+Like building interesting apps?
+
+Well, not with the new stuff just because it's brand new.
+
+But yes, I mean, I think there's an unbelievable, for all of the fear people had a couple of years ago about, man, AI model companies are just going to eat everything.
+
+There is an unbelievable amount of
+
+significant new companies, great new products, building this stuff all of the time.
+
+I've never seen startups get as successful as quickly.
+
+Does that change, you know, you were part of Y Combinator before OpenAI, does that change how you think about when people ask you about how do I start a startup or how do I think about how to grow, like all that kind of stuff?
+
+I would love to be a startup investor again.
+
+I mean, because like, oh man, what a fun time.
+
+Like the watching what people are doing right now, getting to spend time with some of these founders, which I don't get nearly as much as I like,
+
+It is just a golden age.
+
+What are you looking for?
+
+I mean, obviously, besides the founder themselves, what are you looking for in the shape of things that you'd be like, oh, man, I want to invest in that?
+
+I was always a very founder-driven investor.
+
+Like, I have my pet project, like anybody else.
+
+But my whole MO as an investor was, like, find the absolute best founders I can.
+
+that are working on the ambitious projects and be willing to take a lot of risk with them.
+
+Yeah, I feel like there's always that narrative of the net labs are gonna eat everything and Dev Day is like, the tweet that always works is like, OpenAI just killed X startup or whatever.
+
+The tweet works because people like Doomerism, but it never actually happens.
+
+Yeah, why is that?
+
+Why does it never happen?
+
+Yeah.
+
+Well, A,
+
+I think we have a lot of conviction that empowering builders and not just trying to be like the one giant evil megacorp is important.
+
+So I think we took a lot of steps today that no other AI lab would do about saying, we're going to give you all of the same tools we use.
+
+We've always pushed the frontier on model access.
+
+And so I think we're uniquely committed in the industry to doing this and we really do love developers.
+
+I think that's partly I just also love startups, and that's where I came from.
+
+But I also think, speaking of like a new renaissance, it's just there is so much to explore.
+
+People are going to do such incredible stuff.
+
+We are going to have such a tiny fraction of that vision ourselves that, you know, like the world has a fundamentally new enabler.
+
+I mean, I don't even know what this is like fire or something.
+
+This is like a real change to what's possible.
+
+You know, maybe we like brought it down from the mountain, but we want to give it to everybody and we want people to like do stuff with it.
+
+There's a lot of basic startup lore.
+
+Like you should always have a co-founder or, you know, even the structure of how Y Combinator does investments that is based on a previous, for example, cost structure.
+
+Yeah.
+
+If you were going to start those things from scratch or think about them from scratch, like what do you think changes?
+
+There are a few things that are probably just like
+
+In variance, you know, you've got to like make something people want that device was good or agents want one years ago.
+
+Yeah, okay.
+
+Well Yes, but at least By our understanding of the world today like at some level people.
+
+Yeah, you got it.
+
+Um so there's some stuff that just hasn't changed and then there's a lot of other things like How much work you can get done with one person or two people or whatever that feels totally different and I don't
+
+think there has been enough re-examination of that in this sort of startup conveyor belt of Silicon Valley yet.
+
+As a person who's running a gigantic company and generally probably wouldn't have time for building stuff, and it now seems like you are, how does that change how you are able to lead or what you're able to do that you can make stuff on the side?
+
+I mean, we are not a gigantic company, first of all.
+
+I don't know, like maybe the big tech companies have like 100 times more people than we do, something like that.
+
+But I am way, I really believe in if you lower friction a little bit, people build way more.
+
+And I have really felt that now with dots and these like, you know, little chunks of time I have, or even like a long chunk of time where I can like have this interactive thing and get a lot done.
+
+I feel like I will do something that is not just like a little side project for myself like I used to do with Codex, but I hope I launch something into the world.
+
+I hope I actually make a cool new thing and get it over the threshold.
+
+And does that go out on Sam Altman.com or are you talking about a real OpenAI product?
+
+I meant like I would try to build a plugin extension or something and put it out.
+
+DAN GALPINIUSSKI- Maybe I'll ship a real OpenAI product.
+
+Who knows?
+
+It feels like all bets are off now.
+
+DAN GALPINIUSSKI- And so you have to make that decision.
+
+Do I?
+
+DAN GALPINIUSSKI- You know what?
+
+I will do that.
+
+I'm inspired now.
+
+DAN GALPINIUSSKI- What's do you have?
+
+DAN GALPINIUSSKI- No, I don't know.
+
+I don't even think about it.
+
+Now I want to do something.
+
+DAN GALPINIUSSKI- I love it.
+
+I love it.
+
+But you do have to make that decision of you could just put a team on that.
+
+So what does that add that instead of having to put a team on it, you can now be like, oh, I'm going
+
+Well, I think today was an example of this.
+
+Like you talked about how the amount of stuff every dev day has gone up.
+
+Like we could not have done all of this stuff without having AI to help us.
+
+And if this works, like next year we will put the teams on it and I will do something and more people will do something.
+
+And we'll have like a crazy amount of amazing stuff.
+
+Or just one really great thing, that'd be fine too.
+
+But hopefully, the total amount of utility we put out into the world goes up.
+
+Do you do all your prompting on Ultrafast?
+
+I do.
+
+That's sick.
+
+Yeah.
+
+That's crazy.
+
+No, I've been thinking about this.
+
+I worry that in some ways, we kind of get out of touch with people building on our tools.
+
+And we try to put all these constraints on ourselves.
+
+I'm very aware that not everybody is going to be able to use Ultrafast all the time for everything, but I have such a hard time dragging it back over.
+
+Given that you're living in that future, that I think all of us can experience a little taste of it, what is different about the Ultrafast world in terms of how you can use these tools?
+
+There was an amazing talk, I don't know, 15, 20 years ago from Brett Victor about kind of the principles that he thought people...
+
+how he did his work.
+
+And one of the things, I'm gonna get this a little bit wrong, but it was something like creators should have an immediate connection to what they're creating.
+
+And how speed and the feedback loop was so important.
+
+And I did not realize what a difference that makes to my kind of iterative thinking loop to have responses come in so quickly.
+
+But in terms of trying to build something, trying to think through a problem, it's like a wild difference.
+
+I know you've been thinking for a long time about AI as a democratizing force to allow anyone to build stuff.
+
+And in the sort of ultra-fast world or in the Astros and more expensive model world, I know you're also thinking about that means something, that people can pay more for better intelligence.
+
+So what are you thinking there?
+
+So historically, what we have mostly focused on and I think done a great job of is bringing down the price of IQ.
+
+And we have made hugely more capable models that get dramatically, dramatically cheaper every few months or every year.
+
+Now, there's this new vector that is clearly going to be very important of speed.
+
+And we are putting the investments in place.
+
+Like our own chip is going to be an incredible contributor to letting us get very fast inference in the hands of everybody to say nothing of what the models will do to
+
+improve research and our inference stack and everything else.
+
+And I think we now realize that we've got to go invest in the democratization of this like we have for model intelligence.
+
+So when can I expect to use Ultrafast for all my prompts?
+
+you can pay us for it and do it now.
+
+I don't think I can afford it.
+
+I think we can deliver 8X at a great price in the not distant future, but then we'll have 100X faster.
+
+And they'll also be like GPT-7 galaxy or whatever.
+
+So I think the right way to think about this is as far as I can see,
+
+There will always be a real frontier in terms of intelligence or speed or whatever else at a higher price.
+
+But I think you can also bet that we will keep doing what we've done of just a ridiculous, like put Moore's law to shame, relentless focus on driving value per dollar up and up and up kind of in this big compounding way.
+
+Amazing.
+
+Sam, thank you so much.
+
+Thank you.
+
+Thank you all for coming.
+
+I didn't realize there was going to be like a live audience, but that was fun.
+
+See you.
