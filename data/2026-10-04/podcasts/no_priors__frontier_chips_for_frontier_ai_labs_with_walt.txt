@@ -1,0 +1,296 @@
+Source  : No Priors
+Title   : Frontier Chips for Frontier AI Labs, with Walter Goodwin, Founder/CEO of Fractile
+Date    : 2026-10-02 10:00 UTC
+Link    : https://www.youtube.com/@NoPriorsPodcast
+────────────────────────────────────────────────────────────
+
+Speaker 1 | 00:00 - 00:30
+Right now, we're trying to build a single chip. If you crack open an NVIDIA system, it has anywhere between kind of six and nine custom chips all built by NVIDIA to come together to build something that is really, really potent. So there's already a gap there. You know, it'd be great to be productive enough that we could start to build our own responses in that same kind of way. This idea of being able to have at any given moment a kind of rolling frontier of bets that you hope are deeply aligned in which you're ready to trigger the ramp of, this is a huge advantage if you can kind of build that machine and build that engine.
+
+Speaker 1 | 00:30 - 00:39
+It's equivalent of the frontier model for the chip space is if you can just find a way to structurally carve out a three to six months advantage, you will be winning all of those deployments.
+
+Speaker 2 | 00:46 - 01:16
+Hi, listeners. Welcome back to No Priors. Today, I'm here with Walter Goodwin, founder and CEO of full stack AI chip company, Fractile. We talk about what it means to be full stack as a company, the technical bets they're making, why he's so focused on memory bandwidth, his predictions for frontier model architectures in the future, and the structure of the chip market at the frontier today and tomorrow amongst NVIDIA, AMD, internal efforts, and this new class of accelerators. Welcome, Walter.
+
+Speaker 2 | 01:16 - 01:18
+Walter, thanks so much for doing this.
+
+Speaker 1 | 01:18 - 01:19
+Very good to be here, Sarith.
+
+Speaker 2 | 01:19 - 01:24
+You started this incredibly interesting company called Fractal. Can you give us a overview of what you guys do?
+
+Speaker 1 | 01:24 - 01:39
+Fractal is a chip company. We build very, very fast inference chips for the world's largest models. This sort of bet on speed is something which we've had right from the outset. Started the company in summer of twenty twenty two. And I think at the time, we were starting to see two things.
+
+Speaker 1 | 01:39 - 02:21
+You know? One was obviously the arrival of foundation models trained on the Internet and generalizing across everything. And the other was, you know, a few kinda wise people saying, you know, we need to find a way to pour more compute into these models at test time. We need to find a way to take what we had for kind of alpha go where you have a capable neural network, but then it becomes superhuman as you roll it out at scale and bring that to kind of language modeling, for example. And so our big pursuit over the past four years has been to find a way to build chips that will allow for kinda simultaneously taking these huge models and running them much, much, much faster than the chips of today, but do that in a way that kind of scales.
+
+Speaker 1 | 02:21 - 02:29
+So scales to models beyond the frontier today, scales to extraordinarily long contexts. And so that's the the mission that we've been on.
+
+Speaker 2 | 02:29 - 02:41
+It's become a much more interesting chip landscape in the four years since you started the company. Where would you place yourself in the overall GPU and accelerator landscape for inference?
+
+Speaker 1 | 02:41 - 02:59
+Yeah. It's a... There's a kind of extraordinary zoo now of options available. And if you look across this kind of entire space of kind of AI a six, one of the things that I think is very striking is there's a lot of relatively identikit chips out there. And this is kind of a structural...
+
+Speaker 1 | 02:59 - 04:11
+It's a kind of structural industry property where if you look especially across kind of hyperscaler efforts and, you know, Google kinda kicked this off with the TPU more than ten years ago, You see this paradigm where although there are a number of kind of proprietary internal chips, you know, Google with the TPU, Meta with MTIA, Microsoft with Maya, OpenAI now with Jalapeno, These chips that are ultimately developed and delivered in partnership with kind of a relatively small number of what we might call ASIC houses, these kind of back end delivery houses. Broadcom is is the largest, you know, $2,000,000,000,000 company that help people kind of realize these designs. And so when you kind of zoom into this this sort of seeming embarrassment of riches in the spectrum of what exists today, you see that actually there's a lot of similarity across these platforms. You know, all of these chips, you have HBM, this type of DRAM memory that is, you know, common to NVIDIA GPUs, AMD GPUs, and all of these other ASICs. You have the same kinds of bets on Tensor Cores to do your matrix multiplications, the same advanced packaging with TSMC.
+
+Speaker 1 | 04:12 - 04:56
+And so I think one of the things that we see in the landscape is there's a relative dearth still of kind of efforts that go all the way up and down the silicon stack and try and build kind of fundamentally new capabilities. And this is kind of a structural thing. There's just not that many teams that have decided we're gonna build from, you know, what you might call the kind of, you know, the architecture layer, the front end design layer, which mostly looks like kind of writing code, but also all the way down to what we call kind of physical design, the process technology, the kind of foundry interactions, the stuff that essentially has you flying back and forth to Taiwan or Korea every week, that's something which actually tends to still be left to a relatively small number of companies.
+
+Speaker 2 | 04:56 - 05:08
+For people who don't work in the chip industry, what is the common abstraction or handoff between what their... What, you know, architecture focused players are doing and a player like Broadcom? Yeah. So I think the... If you're...
+
+Speaker 2 | 05:08 - 05:08
+Let's say
+
+Speaker 1 | 05:08 - 06:08
+you're Google and you're designing the TPU, you have a number of people in your team who have a really strong understanding of the workloads that they're trying to accelerate. And so, you know, going back over ten years, this is a world that then sees you conceive of things like the Tensor Core, which is a designated circuit dreamt up by an architect that is exceptionally good at matrix multiplications because you have this insight that matrix multiplications are the overwhelming majority of the kind of flop count in these models that you're running. That's kind of the preserve of the architect, I guess, is somebody who really understands the way that chips behave, but also ideally has a very strong understanding of the kind of target workloads. What you'll then see inside those same organizations is a set of sort of, you know, very smart people that kind of lower that down into, I guess, you know, essentially a kind of circuit level description of how this chip should behave. And so a lot of this is what we call front end design.
+
+Speaker 1 | 06:10 - 06:41
+You know, mechanistically, it still looks like like writing code on a computer, and it's still code that is then handed off to a player like Broadcom. And so, you know, that kind of front end design that describes the kind of underlying intent of the chip, the underlying logic of the chip is then transformed ultimately into something that... You know, what gets shipped to TSMC in the end is literally a kind of bitmap. You know, we would have this file type you call g d s two, and it's literally, you know, where do I put the metal layers? Where do I put each individual transistor?
+
+Speaker 1 | 06:41 - 07:11
+And so it's a it's a full layout. And so you go through this process of synthesis of that RTL into a kind of set of circuits that then ultimately get laid out. And a lot of the complexity there is around, you know, in Broadcom's case, you know, it would be ownership of analog IP that is used for chip to chip connectivity. And it is this kind of physical placement that is specific to a given process node at TSMC. So, you know, we talk about like three nanometers, five nanometers, etcetera.
+
+Speaker 1 | 07:12 - 07:18
+So that piece is still today, you know, generally, it is a kind of outsourced activity for all of these projects.
+
+Speaker 2 | 07:18 - 07:36
+You are describing what feels like a very large project to do end to end new chip creation. From a workload perspective, you're working with several frontier players to sort of characterize that and make sure that you can serve them. How did you think about... Like, what does the Fractal team look like today? How can you do that as a start up?
+
+Speaker 1 | 07:36 - 07:51
+Yeah. I think there is a... You know, it's funny. There's a lot of industries where there will be a kind of waterfall style approach to doing things, and then suddenly, you know, along comes a new way of thinking, and it's kind of more agile to borrow from like management philosophy. Right?
+
+Speaker 1 | 07:51 - 08:24
+And I think for us as a very full stack company, so we have a team that does span very deep workload understanding. I think we actually try to you know, run ahead in many places and look at, you know, where would we change a model architecture to be more exceptionally aligned with our bet? What do we think is, like, kind of the scaling law vector for the particular bets that we are taking? And then we can advocate to our customers and our partners on that. And it also helps us inform a set of bets for a chip that, you know, isn't going to necessarily exist in volume for, you know, one or two years.
+
+Speaker 1 | 08:25 - 08:46
+That becomes a really important sort of part of the muscle that we have to build. But then as we look across this kind of, you know, ability to spin a very kind of agile loop, it means that inside Fractal, we do have front end designers. We have our own physical design team. We have our own kind of back end implementation team. We do our own work on advanced packaging, for example.
+
+Speaker 1 | 08:48 - 08:56
+And that's not an enormous headcount. Right? I mean, Fractile today is about a 150 people. We're sort of skinny in in every single one of those sectors.
+
+Speaker 2 | 08:56 - 08:58
+But what it allows us to
+
+Speaker 1 | 08:58 - 09:28
+do is have this kind of much more agile closed loop. And I think that's becoming increasingly essential as you look at the sort of cadence needs that are set by this industry. You know, the chasing, you know, perennially of the sort of chasing of the tail of the workloads is, you know, you have to... In the AI chip space more than any other kind of chip play before, you have to really place your bets correctly. So you have to have a lot of, you know, skill and a lot of luck, and you also then need to strike very fast.
+
+Speaker 1 | 09:28 - 09:49
+And so this kind of structural setup where we have the entire story in house, it's very, very different to this kind of, I guess, prior approach where there's almost like a handoff point. And so you get to a certain level, and then you hand off to another partner. And at some... To some extent, you're kind of at the mercy of of how that other partner then behaves.
+
+Speaker 2 | 09:49 - 09:54
+What do you think are the single most important technical bets that the company has made?
+
+Speaker 1 | 09:54 - 10:24
+So for us, I think, you know, one is the direction. You know, four and a half years ago, you were obviously right in the heart of an inference story, but I still felt that we were educating the world about what inference meant for two years or so following that. Some of the inference chips today, including one that recently went public, was a training chip until about eighteen months ago. You know? There was a real avoidance of this idea that this sort of small, you know, final marginal cost.
+
+Speaker 1 | 10:24 - 10:45
+You know, marginal cost, I think, has two senses. Right? It either sounds like it's a small cost. What it in fact means is this is the cost that you pay every single time you deploy these models. So I think firstly, just the the sheer bet that we were going to slip into a kind of deployment era and the bet on speed, that was something that kind of really informed a lot of what we then did as a kind of architectural response.
+
+Speaker 1 | 10:46 - 11:06
+On the architectural side, you know, we've been through a journey, I think, for the first kind of two years or so of the company's life. We were working on... A little like Grok or Cerberus, working on an SRAM based chip. So we'd sort of made the observation that SRAM is this super high bandwidth memory. It lives on the same piece of silicon as your logic.
+
+Speaker 1 | 11:07 - 11:24
+And so you have this extremely high bandwidth between your compute where you're running the maths as you run these models and, let's say, the weights of your model or the KV cache of this model as you're rolling it out. And that's something which then then can drive you to thousands of tokens per second on these language models.
+
+Speaker 2 | 11:25 - 11:25
+But I think one of
+
+Speaker 1 | 11:25 - 11:57
+the things that we started to worry about in kind of towards the end of 2023 and certainly in 2024 was the scalability of this approach. And, you know, I think there are two things that grow with AI today. One is obviously the parameters of the model. But the other... This was the one that kind of really got us nervous about that architectural approach was, you know, this kind of growing context length that was becoming more and more part of the story for for how we saw these models rolling out.
+
+Speaker 1 | 11:58 - 13:06
+And it's that that has taken us over the past couple of years to a a kind of what we see as a more exciting bet, I guess, in some ways, which is working more closely with memory vendors as well as our sort of logic foundry partners to find ways to get extremely high bandwidth access to higher capacity memories. So for the past couple of years, we've been involved in these kind of skunkworks projects to move away from SRAM, you know, looking at how we can get, for instance, much, much, much higher bandwidth to DRAM memories. And this has been a very exciting bet for us because it's allowed us now to put together a platform which will be ramping in the second half of next year, which kind of unites, I guess, the scalability of these kind of higher capacity, lower cost DRAM memories that you have on a GPU, on a TPU with all of the speed advantages that you get from a Grok chip or a Cerberus chip. And I think where we see this as especially vital is if you look at where it is that speed really moves the dial today, there is a kind of...
+
+Speaker 1 | 13:06 - 13:45
+There's a version of this which is like a snappier chatbot. But I think this is like, you know, when Henry Ford sort of asked the rhetorical question of what people would have said they wanted and, you know, faster horses rather than a car. The Snappier chatbot is kind of the faster horses of kind of fast inference. The place where the ability to take a multi trillion parameter model and run it comfortably at many thousands of tokens per second, in our view, is a kind of fundamental elevator on capability for AI is in taking these kind of very long running agents and making them radically faster. And so that's kind of a...
+
+Speaker 1 | 13:45 - 14:36
+It's a tantalizing mismatch today between the properties of the fast inference chips that we have, which have super high bandwidth memory but incredibly low capacity. And if you look at the sort of technical detail of how they actually get employed and deployed today, they're not running long context attention. You still flip back to a GPU to do that. And so there's this sort of tantalizing mismatch where precisely the area where we are almost able to go and take these things and make them much faster, we also don't have that technical capability. And so in a sense, this is, you know, like many technical challenges, it boils down to a slightly mundane technical observation, which is we need chips that have this kind of particular ineffable property, which is incredibly high bandwidth to memory so we can load the weights, we can load this state, many thousands of times per second, but also have economical memory.
+
+Speaker 1 | 14:36 - 15:04
+Because when you look at what it looks like to run inference at data center scale for thousands of users, the economics actually collapse down to essentially a kind of cost per gigabyte of the memory that you're implying. And so that's been the sort of other key focus for us is unlocking this kind of fundamentally new building block, which is finding a path to get aggressively high bandwidth from this kind of... You know, from the world's lower cost memory, DRAM memory.
+
+Speaker 2 | 15:04 - 15:44
+You've said a few things that I I think are not the conventional wisdom. One, in in terms of making a bet yourselves on where the workloads are going. And then two, the idea that you can you know, traditional chip people might think of delivery of chips in a generation, you know, every year or a little faster than that. And, you know, big architectural changes come slower than that sort of tick rate. But you've aspirationally said within Fractal that you think the speed of like change in architecture and change in, you know, the technical plays you're making can be much faster than that.
+
+Speaker 2 | 15:44 - 15:56
+Can you talk a little bit about like what would enable that to happen? Because the... You know? I I I think people have a better understanding of the physical limits of the supply chain today than they used to. So what is the flexibility that the industry could have?
+
+Speaker 1 | 15:56 - 16:18
+Yeah. So I think there's a nuance on on this. But what what you want at any given moment in time for an AI chip is you wish that you had a chip that was precisely targeting the workload that you care about and in your hand today in volume. But if you had that chip, you know, you're gonna want something else again in six months' time. Like, these workloads move on very fast.
+
+Speaker 2 | 16:18 - 16:24
+Well, today, you know, we have a model coming out about every two weeks. So so we'll talk. And so
+
+Speaker 1 | 16:24 - 16:53
+so sanity comes from looking across those models and saying, well, okay. What's what's common to all of these? And, like, thankfully, there's enough that is common. So, you know, it's always the case that a new LLM desperately wants to have orders of magnitude more bandwidth to memory in order to run faster. It remains the case today that, you know, these LLMs tend to be autoregressive, very low batch as you generate text with this sort of fundamental trade off again between kind of throughput efficiency and cost and the speed that you can serve these models at.
+
+Speaker 1 | 16:53 - 17:11
+So there are certain things that these models are unified and kind of crying out for and and memory bandwidth is one of them. But then, you know, as you say, there are these evolutions. And especially if you look at the kind of frontier of open source Chinese models, you know, the exact nature of an attention mechanism will churn every couple of weeks in terms of Well,
+
+Speaker 2 | 17:11 - 17:12
+the sparsity.
+
+Speaker 1 | 17:12 - 17:48
+Frontier. The sparsity the sparsity level of the MOEs that you have, the sparsity on the attention itself. And, you know, we may be in for, like, bigger shocks as well. There may be kinda more fundamental shifts. And so I think there's this duality around sort of the limits of the physical and the kind of financial world, I guess, and then these demands of, you know, workloads that churn at the pace of essentially software where although there is this sort of clear desire to be able to kind of ship new platforms, you know, aggressively faster, I think there are also some sort of fundamental breaks on this.
+
+Speaker 1 | 17:48 - 18:13
+So so at Fractile, you know, we're extremely excited about being AI forward in how we do chip design. I think we've seen this ability to own the entire end to end gamut of the problem as really enabling a kind of fundamental rethink of how we do things. You know, if you think about classic CS law as Amdahl's law. Right? Everything I can paralyze becomes very, very fast, and the part that I can't paralyze doesn't.
+
+Speaker 1 | 18:13 - 18:53
+And I think it's similar when you're in a, like, long chain of organizations that, you know, there isn't necessarily an overwhelming need to... Or return on radically changing your processes as a front end focused chip design startup, adopting AI in aggressive ways to shorten your timelines from being, you know, maybe twelve months of front end design work to a tiny fraction of that if there's then going to be kind of the conventional bottlenecks and the conventional pace on the next piece. And I think that's sort of... You know, at some extent, there will always be those bottlenecks. You know?
+
+Speaker 1 | 18:53 - 19:27
+We all have the same kind of fab cycle times with our foundry partners. So so from the moment you send the chip to them to getting it back is, you know, three to five months even in a kind of super hot lot scenario. And so these are the kind of innate latencies, I guess, in the industry. And then when you get that chip back, I think it is vital to look at the the way that these chips actually become financializable, which is that they do have a kind of payoff period. You have to have really a kind of three to five year amortization window for that chip to make it a sensible financial decision.
+
+Speaker 1 | 19:28 - 19:29
+And
+
+Speaker 2 | 19:29 - 19:29
+so there's these sort of
+
+Speaker 1 | 19:29 - 20:15
+two things that are intention in which I I guess I believe two slightly conflicting things at the same time. One is there is a huge value in being able to take the overall chip design cycle and compress that and compress that. There is also, I think, what we don't lose is the need to place really thoughtful and subtle bets architecturally because the chip you actually end up making does still need to have a a three year plus, you know, useful lifespan. And so I think for for me, you know, what it means to be able to over time compress that kind of chip design cycle is essentially that you get to have more shots on goal. You want to be forever ready to take a given flagship platform and say, right.
+
+Speaker 1 | 20:15 - 20:40
+That's it. That is actually the flagship, and this is the one we're gonna ramp. But then it's a, you know, twelve month, eighteen month volume ramp, and you're expecting it to have longevity. You're expecting it to actually continue to drive value to your customers. And so I think that the the sort of subtlety here is, you know, I'm not a believer in the idea that we will ultimately get to a place where we are shipping a fundamentally new chip, you know, every few weeks just because we've shortened that down.
+
+Speaker 1 | 20:41 - 21:08
+Because I think this is a this is a physical world. There is a certain amount of constraint on, you know, data center power. There are latencies to installing these things, and you need to finance the actual underlying silicon. So it needs to have that payoff period. But I think what you can get to is a world where the shorter you can make that latency, that gap between an observation and realizing that bet in volume, that is where there's an enormous amount of value to be captured.
+
+Speaker 1 | 21:09 - 21:13
+And I think it's also an area where, you know, Fractile is a
+
+Speaker 2 | 21:13 - 21:19
+If only because the decisions that you make about what to ramp are the correct ones. That's right. I think you, you
+
+Speaker 1 | 21:19 - 21:22
+know, you want to be... And maybe you get
+
+Speaker 2 | 21:22 - 21:23
+to have more irons in
+
+Speaker 1 | 21:23 - 21:41
+the fire as well. So, you know, one of the things that I think is so exciting about AI capability rising is as we do become more productive in doing things, you know, there's obviously these kind of two responses, you know, generally across the economy. One is, oh, no. We're not gonna have as much to do. We may...
+
+Speaker 1 | 21:41 - 22:04
+Maybe there's jobs lost. The other is we get to do more things. And I think, you know, standing here from from Fractile, you know, right now, we're trying to build a single chip. We know that we're up against competitors that have... You know, if you crack open an NVIDIA system, it has anywhere between kind of six and nine custom chips all built by NVIDIA to come together to build something that is really, really potent.
+
+Speaker 1 | 22:05 - 22:39
+So there's already a gap there. You know, it'd be great to be productive enough that we could start to build our own responses in that same kind of way. And so I think this idea of being able to have at any given moment a kind of rolling frontier of bets that you hope are deeply aligned in which you're ready to trigger the ramp of, this is a huge advantage if you can kind of build that machine and build that engine. And the six month gap that that might then perennially give you against your competition, that is the kind of, you know, wedge that allows you to drive. And then we see this in in Frontier Labs.
+
+Speaker 1 | 22:39 - 22:49
+So it is the equivalent of the Frontier model for the chip space is if you can just find a way to structurally carve out a three to six months advantage, you will be winning all of those deployments.
+
+Speaker 2 | 22:49 - 23:00
+There's a meme in here somewhere of CEO saying, wow. This AI stuff is great, and we structure the organization in a way that can consume it. Instead of one program, we're gonna have six guys, and everybody cheers.
+
+Speaker 1 | 23:00 - 23:02
+Yeah. And you're gonna tell the truth about that.
+
+Speaker 2 | 23:02 - 23:23
+I was talking to one of the top three semi CEOs, and he wouldn't let me put this prediction, you know, actually on air. But I asked him like, how soon until we can have essentially like intent from chief architect into a fully usable GDS two file? And he's like, ten years. Yeah. That's not gonna happen like now.
+
+Speaker 2 | 23:23 - 23:27
+What is your view on that? Or or where do you see the impact first in your organization?
+
+Speaker 1 | 23:27 - 24:09
+You know, a a heuristic that has been successful over the past couple of years is to just always question your your sort of logical assumption and then divide it by four on time scale. So there is a world in which ten years seems like a very sensible time frame for that, but I would divide it by four. And I'd probably subtract a bit from that. You know, I think that we will have a space where there is a kind of prototyping that goes end to end, you know, in the next few years. I think one of the things about chip design that is very interesting is there are still these loops in the middle of it that have kind of conventional solutions to NP hard problems.
+
+Speaker 1 | 24:09 - 24:49
+And so you have these sort of... You know, if you really wanna output that g d s two file, today, you are still running through a bunch of layout tools that are doing place and route with conventional kind of algorithmic approaches, which will run for days on end. You know, I think this is a a really interesting thing that we see, and actually to bring it back somewhat to the sort of workloads we're excited about as well, A lot of hard problems in the world, I think, look a bit like this, where there is a lot of thinking that can now be automated. There's a lot of cerebral work. But then there is also, you know, this kind of intrinsic latency to something that you do.
+
+Speaker 1 | 24:49 - 25:09
+So I think we see this in, you know, AI for guiding AI model development today. So the RSI work. You know, yes, we can now have extreme intelligence that is guiding our experiments, but now we're just experiment bottlenecked. Know, we're compute time bottlenecked. And so I think with with chip design, it's a little bit like this.
+
+Speaker 1 | 25:09 - 25:33
+Maybe to take the kind of, you know, architects intent through to GDS two question, it's a little bit like the RSI question. In the the things that will prevent us getting there extremely fast is the fact that actually in that flow, there are a number of things that are genuinely kind of computationally expensive in a more conventional way. I think what we will generally see for all of these sorts of problems
+
+Speaker 2 | 25:33 - 25:35
+and And they won't be replaced by surrogate models?
+
+Speaker 1 | 25:36 - 26:00
+Well, I think, you know, there's definitely these sort of simulation models. I think driving approximations, you know, all of the models that we see today for kind of finite element analysis and sort of thermal estimation and so on, I think there is a huge return to that kind of work precisely because of this kind of Amdahl's Law that as we accelerate the intelligence, as we accelerate the period between these experiments, between these trials
+
+Speaker 2 | 26:00 - 26:00
+They become the bell.
+
+Speaker 1 | 26:00 - 26:15
+It becomes much more important to accelerate those trials as well. And so, you know, we are looking internally at, you know, what is actually... What are in the guts of some of those algorithms? And is there a crude approximate way that you could do some of this? You know, the...
+
+Speaker 1 | 26:15 - 26:48
+I think chip design is not going to change in the final sign off for quite some time. It's incredibly valuable to have Cadence and Synopsys who've been working with TSMC and the other foundries for decades to build the sort of, you know, the final check mark that says this thing is what we call DRC and LVS clean. It conforms to the rules that that foundry has set. That is actually where, you know, that sort of work is immensely valuable. But could you have some kind of fuzzy placement algorithm in the meantime that gets you almost all the way to your
+
+Speaker 2 | 26:48 - 26:49
+final design? Faster.
+
+Speaker 1 | 26:49 - 27:15
+Gets you iterate faster. You know, I think that is exactly where people should be should be doing more work because otherwise that is the bottleneck. The other part there, and I think this is true of, you know, RSI for AI experiments as well, is as we do become... You know, as our intelligence levels on the the thinking that then drives that experiment gets higher and higher. And as that experiment therefore becomes the bottleneck, I think we do more thinking.
+
+Speaker 1 | 27:15 - 28:00
+And this is just generally Fractile's workload bet. It's the reason we're so excited about hard problems. And it's kind of the reason that we see Fractile as the chip that takes us toward accelerating the solution to hard problems in general, is I think it becomes absolutely... It's like almost moral compunction to think harder before every single experiment that you fire off. I think it was maybe Baron Milledge on Dwarkash recently who said, you know, that perhaps you should think for a hundred years, you know, before you fire off an experiment and then think for another hundred years of human equivalent with these models about the results of that AI experiment because the experiment in the middle is pretty expensive and takes takes a certain amount of wall clock time.
+
+Speaker 1 | 28:00 - 28:16
+And so I think you get there also with things like chip design where the... There are these kind of fundamental wall clock time bottlenecks for the more conventional algorithms. We're gonna be generating a lot of reasoning tokens before we go and place a given circuit.
+
+Speaker 2 | 28:16 - 28:30
+You are making workload bets and then collaborating closely with design partners on the model architectural, you know, shifts, hopefully a little ahead so you can actually do some planning. What are you seeing?
+
+Speaker 1 | 28:30 - 29:03
+The biggest thing that we're doing, of course, is this kind of speed chasing. Right? Maximizing memory bandwidth in order to be able to run these models faster. And one of the dualities I think you have to span as a chip company is to build something that is both exceptionally good at the kind of gamut of workloads that are coming down the pipe under this idea of the kind of hardware lottery where these will be trained on HBM based GPUs or XPUs. And so it's great that this is then the chip that's exceptional at taking kind of today's auto aggressive MOE transformers and running them much faster and more efficiently.
+
+Speaker 1 | 29:04 - 29:39
+But I think what's exciting about building chips with kind of fundamentally new capabilities is you then also get to explore whether there are kind of gravitational pulls that you yourself get to pull the new model landscape in because of those properties. And so for Fractile, you know, this idea of having, like, 25 times more bandwidth per chip than a... Than an HBM based chip, we get to explore, for instance, internally these kind of ideas of, like, scaling laws for bandwidth, basically. You know, the scaling laws, traditionally, we think of them as like flop scaling laws. You know, we we get better and better performance the more flops we pour into these models at train time and and test time.
+
+Speaker 1 | 29:41 - 30:17
+And if you look at just, like, the known landscape of ideas today, we already see some scaling laws for bandwidth. So one is these mixture of expert models. It's pretty well known that actually, ideally, we would make them sparser and sparser and sparser. So for, like, ISO intelligence, you will save a ton of flops if you go from being, like, one in 16 sparse on your MOE to one in a 128, one in 256. But one of the challenges, one of the headwinds to doing that is actually that it becomes incredibly prohibitive on today's HBM based GPUs, XPUs to serve those models efficiently.
+
+Speaker 1 | 30:17 - 30:41
+You end up often bandwidth bottlenecks. You end up serving at really, really low MFU, low FLOPS utilization. And so there are these areas where even as you build for today's world, you get to kind of look at where you can unlock greater capability. And with LLNs today, it's very similar actually with attention. There are forms of attention that are less bandwidth hungry.
+
+Speaker 1 | 30:41 - 31:06
+They tend to be more FLOPS hungry for a certain level of intelligence. And so one of the things I think we're excited about is as we elevate this other quality, this property of memory bandwidth, which hasn't really been scaled so much on chips recently. We've scaled FLOPs like a million fold in the last twenty years. Memory bandwidth has gone up about 40 x in the same time frame. So as you scale that frontier, you get to conserve more of the other thing.
+
+Speaker 1 | 31:06 - 31:16
+We get to reduce the number of FLOPs that we're using on these models to get to a certain level of intelligence. And so that's the kind of really a multiplying factor on global throughput for these models.
+
+Speaker 2 | 31:16 - 31:48
+I'll resist asking you if that changes people's ideas about how they should train for now. One last question for you just on market structure here. It's very unclear to me, you know, five years from now, what a large AI player or a hyperscaler buys in terms of, or what what chips they consume between the NVIDIA and AMD's of the world, the new accelerator class, and, you know, four, at least four of these players have their own internal efforts. Like, how do you make sense of this?
+
+Speaker 1 | 31:48 - 32:24
+So I think that today we see, you know, behavior where really everybody who is deploying at scale is kind of trying to deploy as many separate platforms as they can. I think one thing that will remain the case is that there will be a real need for kind of a diversity of supply as something like compute becomes so existential to these players. There's a bit of a joke today that the sort of first party efforts, their primary purpose is to reduce the price that people pay NVIDIA. And there may be some truth to that as well because those efforts are kind of architecturally quite similar. Right?
+
+Speaker 1 | 32:24 - 33:00
+So it's a it's a bet that is not on enabling a fundamental capability that those other chips cannot enable. And so there, I think it is this kind of gamesmanship of, you know, can we build some of this over here, or can I buy something from AMD so that maybe I then get a better price from NVIDIA and so on? And and a play also for kind of aggregate capacity and a bit of control. I think as you then see this move into chips that actually give new capabilities, you know, that's a place where, you know, I suddenly see for what we're doing a real need for everybody that wants to deploy AI at the frontier. They have to have some solution to running these models orders of magnitude faster.
+
+Speaker 1 | 33:01 - 33:26
+You know, for the frontier labs, there's this window of kind of premium capability, premium intelligence that is their entire raison d'etre. You know? Otherwise, we'd all be using Kimi models all the time. And so as you do have this pressure from behind from open source, you know, it does become clearly even more important for folks who wanna deploy at the frontier to have every aspect of what that means. So the best model waits, but also then the fastest deployment.
+
+Speaker 1 | 33:26 - 33:57
+So you can do the most reasoning in the in the shortest amount of time. And so I think this kind of premium end of of of the chip space where you're optimizing for speed over everything else becomes a kind of very important part of this part of this world. I think one thing that is notable about, you know, the dynamic between a chip vendor and a frontier lab, you know, if you look at Fractal, we try to be as aligned as possible with the needs of the frontier. We try to look a bit like some of those teams as well. We have people that really think deeply about these workloads and so on.
+
+Speaker 1 | 33:58 - 34:32
+So one of the cases that I think we sometimes need to make is explaining why we believe that over, you know, multiple decades, the world sustains some kind of frontier third party chip players. You know? Why does this not just roll up into these into these labs? And I think that comes down to the kind of asymmetric game that all of these labs and Frontier players have to play where they're exposed to an enormous risk if they go all in on a hardware bet. Suppose I'm, you know, I'm lab one, and I've gone all in on some proprietary silicon.
+
+Speaker 1 | 34:33 - 35:00
+And then lab two discovers some new computational breakthrough that delivers far better computational efficiencies for the same level of intelligence, but it only works on the chip that they've decided to deploy. I could die in the nine months before I get to deploy enough of that chip that I've also now gained that kind of five x in computational efficiency. And so there is a really urgent need for these chips to actually deploy the same... These companies to deploy the same platforms as one another. They're playing different games.
+
+Speaker 1 | 35:00 - 35:14
+Right? They're trying to now compete, you know, in the model where I think having deeply differentiated bets and going all in on those differentiated bets at the chip player is sort of an irrational and a very dangerous move for anybody that is playing at the frontier.
+
+Speaker 2 | 35:14 - 35:17
+Well, I think that's a great place to end. Thanks so much, Walter.
+
+Speaker 1 | 35:17 - 35:18
+Thanks very much, Sarah.
+
+Speaker 2 | 35:20 - 35:37
+Find us on Twitter at no priors pod. Subscribe to our YouTube channel if you wanna see our faces. Follow the show on Apple Podcasts, Spotify, or wherever you listen. That way you get a new episode every week. And sign up for emails or find transcripts for every episode at nopriors.com.
