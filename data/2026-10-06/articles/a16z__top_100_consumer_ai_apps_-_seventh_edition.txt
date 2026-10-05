@@ -1,0 +1,137 @@
+Source  : a16z
+Title   : Top 100 Consumer AI Apps - Seventh Edition
+Date    : 2026-10-05 14:01 UTC
+Link    : https://www.a16z.news/p/top-100-consumer-ai-apps-seventh
+────────────────────────────────────────────────────────────
+
+Want to dig deeper into the Top 100 Consumer AI Apps? Watch the companion podcast
+here
+, and see the full list
+here
+.
+Three years into tracking consumer AI, the leaderboard is becoming familiar. This is the seventh edition of our Top 100 AI Consumer Apps, where we rank the top web and mobile AI products by monthly traffic. (You can read our previous ones -
+I
+,
+II
+,
+III
+,
+IV
+,
+V
+,
+VI
+- to see how these have evolved over time.) Just 11 products make their first-ever appearance in this edition - the smallest number of debuts across our seven lists so far.
+But traffic data alone increasingly conceals the real trends in consumer AI. For the first time, we’re adding a ranking by observed spending on U.S. consumer cards, thanks to YipitData. This gives us another way to see the market, including dozens of vendors absent from our web and mobile lists - like desktop apps, and agents inside existing messaging platforms.
+The biggest takeaway from this new data? Consumer AI usage is wide, but not very deep…for
+almost
+everyone. While
+nearly half
+of U.S. consumers now report using AI, only 25% are engaged with it daily. And as of August, just 4.5% of U.S. consumers had an active paid personal subscription to ChatGPT, Gemini, or Claude. You can get more data on broad AI adoption in our
+State of Markets presentation
+we shared last week.
+However, AI’s consumer power users are extremely engaged - and highly monetizable. The top 10% of spenders account for roughly half of all observed spending. These high spenders disproportionately buy coding, productivity, and creative tools.
+In these users, consumer AI has found its first real market: people who pay - often a lot - for tools that help them build, create, and get work done. Reaching everyone else will likely take different products. We’re seeing glimmers of this now with the launch of personal assistants that, unlike their ancestor OpenClaw, are usable by non-developers - and free.
+Alongside these product capability improvements, consumer AI likely needs a new business model - or possibly, an old one. Essentially all AI revenue has come from direct subscriptions or usage charges, unlike prior eras where consumers were monetized indirectly via ads or transactional revenue. This has likely been a limiting factor in deeper consumer adoption.
+As in our previous editions, we rank the top 50 web products by monthly visits, using Similarweb, and the top 50 mobile apps by monthly active users, using Sensor Tower. Generative AI must be central to the product experience; both AI-native companies and established products can qualify.
+We’re making one change to eligibility from this list forward: products primarily designed for NSFW use cases will be excluded. This should not be interpreted as a decrease in demand for these products - we’re treating them as a distinct category rather than ranking them alongside SFW products.
+1. Three LLMs, three different games
+Consumer AI’s headline is the same as our very first report in September 2023 - ChatGPT was the pioneer, and remains the leader. It has a roughly 2x lead on Gemini in August web visits and an even wider lead over Claude (6x). This gap is more significant on mobile, where ChatGPT has a 2.5x lead on Gemini and a 14x lead on Claude in monthly active users.
+Our new revenue data tells a similar story. Per YipitData’s panel, ChatGPT has 3x more U.S. consumer paid subscribers than Claude or Gemini.
+The most significant shift in this landscape has been Claude emerging as the clear #3. Claude did not even rank on our first web list in September 2023, but has now passed competitors like DeepSeek and Perplexity in traffic. Even more significantly, Claude passed Gemini on U.S. consumer subscribers earlier this year. Even after Google migrated legacy paid users over to the AI plan (inorganically inflating subscriber count), Gemini and Claude are neck and neck.
+Claude’s run came on the back of new products (
+Cowork
+in January,
+Claude Design
+in April), new models (
+Fable 5
+in June), and a burst of public attention. Amid Anthropic’s late-February
+dispute with the Pentagon
+, Claude hit #1 among free U.S. mobile apps for the first time.
+Unlike OpenAI and Google, Anthropic has been clear that they will not run ads in Claude, and instead monetize users via subscription. They have been doing so aggressively. Claude has 7.3% of consumer payers on their most expensive individual plan, Max - which starts at $100/month. This compares to 1.3% for Google and 1.1% for ChatGPT on their corresponding $100/month subscriptions.
+By mid-summer, the winds had shifted. YipitData’s global desktop panel recorded declines in Claude’s average daily sessions in July and August, while its U.S. e-receipt panel showed gross additions slowing and churn rising. ChatGPT, meanwhile, re-accelerated with the July launch of GPT-5.6 Sol, Terra, and Luna and the debut of ChatGPT Work.
+Increasingly, the question may be less “who is winning” - and more “how is each company executing on their own opportunity.” Per YipitData’s panel, only 8% of U.S. ChatGPT subscribers are also subscribed to Claude. ChatGPT has a more equal split of consumers across genders and incomes - and is also dominant in all U.S. states aside from California, Montana, and Massachusetts.
+This difference in users is at least partially a result of the products being pointed in different directions. Between Anthropic, Google, and OpenAI, there were 127 new launches over the past six months. Anthropic has focused almost entirely on the prosumer (Claude Design, Code Review, Claude Science). Google has led on creative models (Lyria 3 Pro, Gemini Omni). OpenAI has tackled both consumer and enterprise - with tools for enterprise (ChatGPT Work, Sites, Dots) and for consumers (Images 2.0, Health, Personal Finance, job search).
+2. AI spending follows a power law
+For the first time, we’re adding a ranking based on observed consumer spending, using data from YipitData. The data is U.S.-only and drawn from panels rather than a census; so it should not be read as total company revenue. However - it gives us a new view of how consumers pay for AI, with a clear takeaway: heavy concentration.
+The base of consumers paying for AI is growing, but still narrow. In August, 4.5% of eligible consumers in YipitData’s U.S. e-receipt panel had an active paid personal subscription to at least one of ChatGPT, Gemini, or Claude, up from 2.1% a year ago.
+Even among the relatively narrow band of paying consumer users, spending follows a power law. Only 13% of users who pay for one AI product pay for even one other AI tool. And, spend from the top 1% of payers accounted for 19.5% of all observed consumer AI spend. This is more than the bottom 50% of spenders combined (16.6%).
+This top 1% pays an average of $903 per month on consumer cards for AI (work usage may be even higher), as of August 2026. And, they’re still growing this spend - up 80% in the last 18 months. The difference from the median AI payer is stark: they are spending $25 per month, and have barely expanded this spend over time.
+Who are these power spenders? They look less like mainstream consumers and more like prosumers, individuals buying software to build, create, and get work done.
+Across the panel, the top 1% of spenders disproportionately purchase tools for automation and product building, like n8n, fal, Manus, and Nous Research (Hermes Agent). These heavier spenders also over-index to creative tools like Higgsfield, Figma, and HeyGen.
+As a result, there are significant differences between consumer traffic and consumer revenue,  made tangible by our first spending ranks. 29 of the top 50 vendors by spend do not appear anywhere on our web or mobile traffic lists. For those who do appear, their ranking by traffic and ranking by spend can vary drastically depending on how aggressively they monetize power users.
+Only seven companies make all three lists - and one (ChatGPT) ranks at the top of each. This includes three model companies (ChatGPT, Claude, and Suno), two AI-native applications (Perplexity, Photoroom), and two incumbents who have added AI (Canva, Notion).
+We expect the paying base to broaden as business models open up. Personal agents, in particular, show potential to monetize on transactions rather than seats, offering something closer to unlimited usage without a subscription. More on that later in the report.
+3. The race to become your personal assistant
+In March,
+we wrote
+that agents like OpenClaw were not yet usable by most consumers - but would be. Six months later, multiple startup consumer or prosumer agent products now report hundreds of thousands of users, including Instinct, Tomo, Poke, Lindy, and Town. And, the incumbents have struck back with agents of their own - Meta’s Muse, OpenAI’s Dots, and xAI’s Grok Bot.
+Most of these agents strive to be available everywhere - like a human assistant, you can text, email, or call. The channel du jour is iMessage, where viral agent Instinct launched in August 2026. Companies like
+DoorDash
+have since launched their own iMessage agent for text-to-order. More prosumer-oriented agents, or consumer agents focused on a specialized use case, often also have their own mobile or web app to provide a deeper experience.
+Who is using these agents, and for what? As with our spending data, it’s still largely an early power user game - and these power users look similar to those who are spending on AI. Per David Pawlan, who runs
+AssistantBenchmark
+, the most frequently discussed task domain for agents across seven early user group chats (n = 1,502) was coding and technical automation.
+Instinct founder Noah Shinn reported that 40% of users connect a personal credit card within three weeks - and these users spend an average of $1,300 / month through Instinct once they make a purchase. Shinn claims more than $1 billion in annualized transaction volume is already flowing through Instinct - with half of this attributable to travel.
+As agents start to drive meaningful traffic (and revenue),
+the platforms are choosing sides
+. Amazon
+shut down
+access for Meta’s Muse in under two weeks, while Shopify, Instacart, OpenTable, Expedia, Ticketmaster, Plaid, and others have signed official integrations.
+Prosumers are spending time on Grok Bot, Dots (from OpenAI), and Town. But as of late September, the consumer headline matchup is Instinct versus Muse. Instinct, founded by ex-Sierra researcher Noah Shinn, reportedly passed 100,000 users in three weeks between late August and early September, while still invite-only.
+Meta launched Muse on September 9
+, a personal agent that runs in the browser, desktop and mobile apps, and WhatsApp. It reportedly reached 250,000 daily actives in its first week - and crossed 5M downloads in less than a month. Muse is still only available in the U.S. and Canada.
+But as with every new consumer product, the primary battle is against apathy. Muse’s early traction still pales next to Meta’s Threads launch, which racked up more than 15M downloads in its first 22 days across the same two markets.
+4. The incumbents have arrived. Here’s where startups are still winning.
+In our last list, we expanded eligibility to include existing products where generative AI had become a core part of the experience.
+Those products are now prominent: Canva and Notion rank in the top ten on web, and Figma in the top 15. Superhuman (fka Grammarly) has consistently made the top half of the web list - and debuted at number four in spend. Google alone has five web entries: Gemini, NotebookLM, AI Studio, Labs, and Antigravity.
+Some of these products may merely educate consumers about AI, sending them to AI-native products for deeper usage. Others look like serious long-term threats to new entrants. Among the startups attracting durable attention, a few themes stand out:
+Own a differentiated model.
+Creative products are the clearest examples:
+Suno
+ranks #19 on web traffic and #7 on spending;
+ElevenLabs
+ranks #25 and #10. Midjourney, HeyGen, Kling, and Topaz Labs also make the spending list - all of these products are built around proprietary models. Consumers are still paying for specialized creative products, even as Google expands Nano Banana and Veo and ChatGPT saw massive success with Images 2.0.
+A distinctive sound, visual style, or training dataset can matter more for a particular creative task than which lab has the strongest general-purpose model.
+Own a multi-model experience.
+Cursor supports models from several labs
+;
+OpenRouter
+gives developers access to multiple providers. Choosing models around the customer’s task can be a product advantage. A lab selling its own model may have less incentive to send that customer to a competitor.
+Coding and productivity products have been early beneficiaries here: Lovable, Cursor, Base44, and Replit all make the web list. Cursor moved from #41 to #35, while Base44 debuts at #46.
+Own an audience with specific needs.
+OpenEvidence
+enters the web list at #47 serving physicians;
+Venice
+debuts at #43 with a focus on private AI. Sources, privacy, and fit with the customer’s work can matter as much as the underlying model.
+Content policies create openings, too: the NSFW products excluded from this edition would have composed more than 20% of the web traffic list. They serve an audience the mainstream assistants have been reluctant to cater to - OpenAI told users in 2025 that Adult Mode was on the way, but indefinitely paused plans earlier this year.
+Own an experience that would require changing a legacy interface.
+“Legacy” can mean Google Docs or Calendar, or the blank prompt box of ChatGPT or Claude. Startups have fewer existing user habits and revenue streams to protect, which may give them more freedom to change how the product works.
+One example - the labs have also not ventured (far) into hardware. Notetaker Plaud, which sells both a physical device and a subscription, debuted at #16 on the consumer spend list. Whether or not this is an advantage that sustains is to be determined. Meta announced an expansion into hardware with Muse in their smart glasses and an AI tamagotchi, while OpenAI’s acquisition of io Products hints at hardware ambitions.
+The clearest way to think about what comes next may be to look at the companies that defined the last two consumer internet eras. Many of the biggest businesses were built around transactions and networks - almost none of the top consumer AI products today have any real multi-player appeal. AI may also create categories of consumer attention and spend that we haven’t seen before.
+5. Most consumer AI products monetize via subscription. We need new business models.
+Consumer AI has found an audience - but as our revenue data shows, deep usage remains fairly constrained.
+Why? Almost all of the most-trafficked consumer AI companies gate their most valuable features, or even just extended session time, behind a paywall - either subscriptions, or one-off credit purchases. Consumers who can pay for AI are paying a lot, but the vast majority of users still cannot or will not pay for software. In the U.S.,
+only about half
+of active AI users report that they use it daily.
+Of the 44 AI-native products in our top web rankings, all of them already have some monetization model live. The most popular by far is paid subscriptions, with 84% of products offering it, followed by usage charges / extra credits at 64% adoption (companies can monetize in multiple ways). Only 14% have ads, and 2% make revenue via transaction or platform fees.
+This is an inversion of the pre-AI consumer Internet, where consumers
+were
+the product instead of paying for the product. In 2025, advertising generated 97.6% of Meta’s revenue and 73.2% of Alphabet’s. Amazon’s separately reported subscription-services business generated $49.6 billion, but represented just 6.9% of its total revenue.
+Subscriptions are not an unprecedented model for massive consumer businesses, but they’ve largely been concentrated in media - where users are paying for proprietary content, or ad-free access to it. Of the top 20 global consumer subscription products, 65% are media businesses (Netflix, Hotstar, Spotify, etc). ChatGPT already ranks in the top 20 with three and a half years of growth - representing how difficult it is to build a massive paid consumer subscriber base.
+There is a good reason why AI companies monetize via subscription or credits. Selling ads or making transactional revenue often requires a large user base. When users were nearly free to serve, consumer companies could fairly easily eat the burn to build density. But given high model costs, forgoing early revenue has not been an option in consumer AI. In all likelihood, this will get easier as open source models continue to proliferate - and as product builders can
+separate tasks
+that need the most expensive frontier models from those that can use cheaper intelligence.
+As more consumer AI products reach scale, we are also starting to see other business models emerge. OpenAI said ChatGPT advertising reached a
+$1 billion annualized revenue run rate
+in August, on a base that  totals 1.2 billion weekly active users. An estimated
+50-60% of U.S. physicians
+use OpenEvidence, which also now (partially) monetizes via ads.
+Personal agents could open another path, as consumers are now making attributable purchases entirely via AI. The standard model might look like an affiliate fee or take rate. Both Instinct and Muse have described plans to earn a fee from transactions over time, though neither is doing this yet - and ChatGPT also currently does not charge for purchases that start in-product.
+Our spending data shows how valuable AI has become to people who use it to build, create, and get work done. The next opportunity is to make it just as useful for more of everyday life. Subscriptions will remain a natural fit for many of those products. Advertising and transaction fees could give founders more ways to serve consumers - and, give consumers a real shot at accessing the magic of AI.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
