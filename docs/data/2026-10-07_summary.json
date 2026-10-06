@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-07",
+  "generated_at": "2026-10-06T23:38:01.531560+00:00",
+  "stats": {
+    "tweets": 7,
+    "podcasts": 0,
+    "articles": 1
+  },
+  "tweets": [
+    {
+      "author": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "summary_zh": "Madhu Guru（@realmadhuguru）提出一个与多数团队做法相悖的观点：AI 产品与传统软件根本不同，最常见的错误是把评测（evals）当成 agent 建好之后的额外 QA 环节。他认为评测本身就是产品规格（your evals are your product spec），应当在开发之初就定义，而非事后补做。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic（Claude 团队）的 Thariq（@trq212）分享了两点 AI 代码/产品生成的技术洞见。其一，用\"先做规划再生成\"的方式比让模型直接产出原始 HTML 更省 token，因为模型无需为状态机、流程图、代码片段等常见组件反复重建逻辑。其二，他推崇一种名为\"local hands\"的模式：Claude 在云端运行但可访问你的本地文件，这一能力也将引入 cowork 产品。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad（@amasad）指出美国正在开源权重（open-weights）模型上迎头赶上，暗示在此前被中国等开源模型领先的格局中美国厂商正在缩小差距。他同时强调有大量家族企业正借助 Replit 运营，凸显低代码/AI 构建工具在中小企业的渗透。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch（@rauchg）发布了 gdp-ts（Ghosts of Departed Proofs for TypeScript），一个用于更安全 API 设计的库、linter 兼 AI skill：敏感函数要求调用方提供已完成授权检查的\"证明\"，由类型检查器在编译期验证，从而阻止团队和 agent 写出灾难性的安全漏洞。他提出一个关键判断——过去这类严格约束因人工代码评审和认知负担而小众，如今局面反转：agent 写代码的速度已超过人类能评审的速度，而它们恰恰在带硬约束的紧密循环中表现出色，正如 Rust 借用检查器的兴起。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie（@levie）认为 agent 的落地与部署很大程度上卡在无法在\"真实\"工作环境（需访问的文件、CRM、邮件等）中测试、调优和优化。他预测每家企业都将设专人管理评测，并需要构建和运行评测及模拟环境的基础设施，否则无从判断 agent 当前表现、以及模型更换或工作流升级后的未来表现；他称这是一个巨大的市场空间。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator 首席执行官 Garry Tan（@garrytan）做出大胆预测：AGI 科学循环（AGI Science Loops）即将到来，并会出现服务于这些科学循环的 Muse/Instinct 类工具，Halmos 正在构建此类产品。他还指出来自大模型实验室的 agent harness 有\"烧 token\"的内在动机，因此创业公司的 harness 具备真实价值——例如 Grep 能通过观察 agent 使用，把烧 token 的过程自动转化为可重复、经测试的确定性代码。此外他批评美国高铁已沦为向特殊利益集团大规模转移纳税人资金、却看不到良好成果，呼吁问责与领导力。"
+    },
+    {
+      "author": "Ryo Lu",
+      "handle": "ryolu_",
+      "summary_zh": "Cursor 设计负责人 Ryo Lu（@ryolu_）在缅怀 Steve Jobs 的长文中表达了对科技行业方向的反思：自乔布斯去世后，行业陷入不断微调、优化供应链、想方设法让人持续滑动屏幕的循环，大量才华被耗在微小改进上；我们把机器造得越来越聪明、在越来越多方面超越人类，人却变得更孤独、更疏离。他呼吁少花精力去\"打败人类\"，多花时间向真实生活学习、让人的生活更好。他同时发布了一款面向语言学习者的小工具：可在 Netflix 上叠加任意两种语言的字幕，并为日语、中文、韩语提供发音提示。"
+    }
+  ],
+  "podcasts": [],
+  "articles": [
+    {
+      "source": "a16z",
+      "title": "Investing in General Medicine",
+      "date": "2026-10-06 15:30 UTC",
+      "link": "https://www.a16z.news/p/investing-in-general-medicine",
+      "chars": 6763,
+      "summary_zh": "a16z 宣布领投 General Medicine 的 **1.2 亿美元** B 轮融资，押注其打造\"医疗版杂货店\"（the general store for healthcare）。核心逻辑：消费者购物通常期待三点——了解选项、看到价格、快速获得所需；但医疗体系里这些信息被割裂在各类门户、电话和纸质文件中。即便 LLM 普及后患者往往已知道自己需要什么（续方、化验、影像、专科意见），后续找服务、核保险、调病历、转诊、事前授权、反复预约等繁琐流程才刚开始，且费用往往在就诊后才知晓。\n\nGeneral Medicine 的产品思路是把患者病史、持续临床指导、透明定价和就医通道整合进同一体验。它自建医疗团队，叠加外部临床医生（含全科与专科）组成的市场平台，使患者几乎能即时对接远超单一诊所的服务范围。底层基础设施是一个覆盖药品、化验、影像、专科会诊及部分线下就诊与操作的目录，已包含 **2,900 多种** 产品与服务，以此统一患者、医生、保险方、化验机构对\"同一服务\"的不同表述。\n\n商业模式强调复利效应：用户可能先为一次续方使用，之后化验或找专科时会回到已掌握其病史、用药和保险信息的平台，每次交互为下次打基础，逐步赢得消费者更大份额的医疗支出。除直接面向消费者（DTC），公司还为企业端（医院系统、支付方、药房等）提供可\"开箱即用\"的同一套基础设施。\n\n投资看点还在于团队：这是 PillPack 原班人马重聚——TJ Parker、Elliot Cohen 和 Ashwin Muralidharan，兼具产品理解与行业经验。对 AI 产业投资者而言，这体现了 AI 从\"综合病史、即时给出相关建议\"向\"把临床指导转化为实际可及的就医行动\"延伸的趋势，变现点在于透明定价、服务目录化与跨机构的就医协调基础设施。"
+    }
+  ]
+}
