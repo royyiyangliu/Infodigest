@@ -1,0 +1,25 @@
+Source  : a16z
+Title   : Investing in Preference Model
+Date    : 2026-10-07 18:02 UTC
+Link    : https://www.a16z.news/p/investing-in-preference-model
+────────────────────────────────────────────────────────────
+
+Today’s models have absorbed more code, science, and human writing than anyone ever could, but knowing is not doing. A surgeon can read everything about an operation but still needs real, repeated time in the operating room to perform and master it. Closing that gap between knowing and doing is where much of the frontier is today, and more of it is happening through reinforcement learning: instead of learning from examples of the right answer, a model gets a goal, a sandbox, tools, and a grader, then tries and learns from what worked and what didn’t. This is an RL environment. The demand for them has skyrocketed over the last 18 months as labs are hillclimbing on real world tasks related to coding, research and computer use.
+Building RL environments that actually work is harder than it looks. Models are relentless at reward hacking, finding shortcuts, and exploiting vulnerabilities: taking actions like finding and reading the answer key, rewriting the tests, crashing the grader, or quietly ignoring instructions the grader isn’t checking.
+Every shortcut a model gets away with in training gets reinforced. Moreover, habits spread. Anthropic found that a model rewarded for cheating on coding tasks became more deceptive and willing to sabotage in completely unrelated situations. Smarter models find subtler loopholes, including ways out of their sandboxes and attempt to cover their tracks. Even the best environments have a shelf life, once a model masters a task, the learning stops.
+Preference Model
+has focused on the domain that matters most to the labs right now: AI research and ML engineering itself. The industry is converging on the idea that the fastest path to more capable AI runs through models that can help build better AI: writing kernels, debugging training runs, curating data, designing experiments. If models can meaningfully accelerate the work of the ML engineers who train them, progress compounds. That makes machine learning engineering tasks uniquely valuable to labs, and uniquely demanding to build environments for. They’re long, open-ended, with countless ways to pass the test without solving the problem.
+Over the past year, the
+Preference Model
+team has built RL environments for leading labs. Their focus has been on building the infrastructure to make harder, more resistant environments as models improve: tooling that finds where models are weak, generates new tasks to target those gaps, and tests environments against agents actively trying to break it.
+This week they’re open-sourcing
+Karotte
+, the framework they’ve used in production to build those environments. Karotte bakes in strong defenses: killing stray processes before grading, rejecting files designed to crash the grader, and more. It has been hardened through more than a million evaluation runs and controlled red-teaming.
+Jennifer Zhou knows this problem firsthand. As an early member of Anthropic’s team, she helped build the pretraining data infrastructure, the tokenizers and Claude’s pretraining datasets. Ning Cao was an early employee at DatologyAI. Both saw up close how directly data quality drives model quality, and they set out to solve it.
+We’re thrilled to partner with Jennifer and Ning and the Preference Model team as they build the training grounds for capable and aligned models. The future models are being trained here, and we can’t wait to help them build the foundation!
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

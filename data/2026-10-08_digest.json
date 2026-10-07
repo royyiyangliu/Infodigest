@@ -1,0 +1,289 @@
+{
+  "fetch_date": "2026-10-08",
+  "fetch_time": "2026-10-07T21:45:32.439380+00:00",
+  "stats": {
+    "new_podcast_episodes": 1,
+    "new_articles": 2,
+    "new_tweets": 20,
+    "total_podcasts": 1,
+    "total_articles": 2,
+    "total_tweets": 20
+  },
+  "podcasts": [
+    {
+      "source": "Unsupervised Learning",
+      "title": "Ep 94: Applied Compute CEO on the Limits of RL, the New AI Hyperscaler &amp; Why Post-Training Wins Inference",
+      "date": "2026-10-06 12:50 UTC",
+      "link": "https://www.youtube.com/@RedpointAI",
+      "orig_link": "",
+      "audio_url": "",
+      "duration": "",
+      "summary": "",
+      "lang": "en",
+      "chars": 65546,
+      "text_file": "data/2026-10-08/podcasts/unsupervised_learning__ep_94_applied_compute_ceo_on_the_limits_of_rl.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "a16z",
+      "title": "Investing in Preference Model",
+      "date": "2026-10-07 18:02 UTC",
+      "link": "https://www.a16z.news/p/investing-in-preference-model",
+      "summary": "a16z invests in Preference Model",
+      "chars": 4552,
+      "text_file": "data/2026-10-08/articles/a16z__investing_in_preference_model.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Why Texas Is Making Data Centers Wait",
+      "date": "2026-10-07 14:01 UTC",
+      "link": "https://www.a16z.news/p/why-texas-is-making-data-centers",
+      "summary": "And how America will power the next wave of growth",
+      "chars": 35054,
+      "text_file": "data/2026-10-08/articles/a16z__why_texas_is_making_data_centers_wait.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2107646238585950540",
+      "date": "2026-10-07T01:36:36.000Z",
+      "text": "what is your default/workhorse coding agent today, Oct 2026?",
+      "url": "https://x.com/swyx/status/2107646238585950540",
+      "likes": 19,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Josh Woodward",
+      "handle": "joshwoodward",
+      "tweet_id": "2107679061854273656",
+      "date": "2026-10-07T03:47:01.000Z",
+      "text": "Mask-based editing is my favorite from today, much more coming soon! https://t.co/Y0VeDg2P4j",
+      "url": "https://x.com/joshwoodward/status/2107679061854273656",
+      "likes": 92,
+      "retweets": 4,
+      "is_quote": true,
+      "quoted_id": "2107521202466046453"
+    },
+    {
+      "source": "Boris Cherny",
+      "handle": "bcherny",
+      "tweet_id": "2107565497680314831",
+      "date": "2026-10-06T20:15:45.000Z",
+      "text": "Another example, my actual prompts https://t.co/xOyjaC8xrn",
+      "url": "https://x.com/bcherny/status/2107565497680314831",
+      "likes": 232,
+      "retweets": 7,
+      "is_quote": true,
+      "quoted_id": "2102543349102338309"
+    },
+    {
+      "source": "Boris Cherny",
+      "handle": "bcherny",
+      "tweet_id": "2107565388250874193",
+      "date": "2026-10-06T20:15:19.000Z",
+      "text": "I am surprised that people are surprised this is how I prompt Claude.\n\nTalk to Claude the way you would a coworker. There's no secret to prompting. There's no need to be overly scaffolded or prescriptive for most tasks -- give Claude a goal, and it will figure it out.\n\nBack in the Sonnet 3.5 days, your prompt mattered a lot. Nowadays, it's much more important to communicate to the model:\n\n1. What you want it to do\n2. How much effort you want it to spend\n3. How it should verify that it did the right thing",
+      "url": "https://x.com/bcherny/status/2107565388250874193",
+      "likes": 8943,
+      "retweets": 503,
+      "is_quote": true,
+      "quoted_id": "2107532985897771152"
+    },
+    {
+      "source": "Boris Cherny",
+      "handle": "bcherny",
+      "tweet_id": "2107532985897771152",
+      "date": "2026-10-06T18:06:34.000Z",
+      "text": "Prompt https://t.co/eUUYfOlppH",
+      "url": "https://x.com/bcherny/status/2107532985897771152",
+      "likes": 1119,
+      "retweets": 33,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2107676653895967106",
+      "date": "2026-10-07T03:37:27.000Z",
+      "text": "Also! Good evening!!",
+      "url": "https://x.com/thsottiaux/status/2107676653895967106",
+      "likes": 1309,
+      "retweets": 6,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2107676261099426030",
+      "date": "2026-10-07T03:35:54.000Z",
+      "text": "And we won't unship the improvements. You get to have your cake and eat it too. See you tomorrow for Day 3!",
+      "url": "https://x.com/thsottiaux/status/2107676261099426030",
+      "likes": 2256,
+      "retweets": 17,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2107676072871600470",
+      "date": "2026-10-07T03:35:09.000Z",
+      "text": "We shipped four things that were deemed good to great and some math proofs, but the vote is clear and the community demands a reset. I did calibrate it and it *seems* that the game is rigged in reset's favor, but such are the rules at the moment.\n\nTherefore ... the reset has been processed. Enjoy!",
+      "url": "https://x.com/thsottiaux/status/2107676072871600470",
+      "likes": 10173,
+      "retweets": 497,
+      "is_quote": true,
+      "quoted_id": "2107575657014468879"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2107669485549400474",
+      "date": "2026-10-07T03:08:58.000Z",
+      "text": "Do I know anyone at @Fourthwall or a related platform? My 8-year-old and I want to use her drawings to sell t-shirts and make her first dollar online. \n\nHere’s a design what do you all think? :) https://t.co/Jeto2wsHOW",
+      "url": "https://x.com/petergyang/status/2107669485549400474",
+      "likes": 7,
+      "retweets": 1,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2107639917287440537",
+      "date": "2026-10-07T01:11:28.000Z",
+      "text": "The flip side of this is that if you live in the boring suburbs like me a glass of wine a few days a week is totally worth it https://t.co/XaC05U710o",
+      "url": "https://x.com/petergyang/status/2107639917287440537",
+      "likes": 19,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2107560980167459161"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2107605650398462178",
+      "date": "2026-10-06T22:55:19.000Z",
+      "text": "@dps not sure if this is possible but it’ll be incredible if muse can wait on a call for me then dial me in when there’s a human on the other line",
+      "url": "https://x.com/petergyang/status/2107605650398462178",
+      "likes": 43,
+      "retweets": 2,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Nan Yu",
+      "handle": "thenanyu",
+      "tweet_id": "2107506074370920796",
+      "date": "2026-10-06T16:19:38.000Z",
+      "text": "I worry, though, that this will cause extreme degradation in systems that no one loves to maintain, but someone has to https://t.co/SLUmGaKHjL",
+      "url": "https://x.com/thenanyu/status/2107506074370920796",
+      "likes": 25,
+      "retweets": 2,
+      "is_quote": true,
+      "quoted_id": "2107423771090915775"
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2107580787277340835",
+      "date": "2026-10-06T21:16:31.000Z",
+      "text": "there are some tricky technical problems to figure out! \n\nif Claude can only access your files when your computer is online, it might be effectively blocked on doing work until your computer is back on, so perhaps you want some sort of sync but there are edge cases there",
+      "url": "https://x.com/trq212/status/2107580787277340835",
+      "likes": 33,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2107580785456976085",
+      "date": "2026-10-06T21:16:30.000Z",
+      "text": "we're increasingly going to be moving towards Claude's \"brains\" in the cloud and giving Claude \"local hands\" to operate on your computer\n\nI talked about this a bit on latent space https://t.co/m6NVHyweBp",
+      "url": "https://x.com/trq212/status/2107580785456976085",
+      "likes": 633,
+      "retweets": 23,
+      "is_quote": true,
+      "quoted_id": "2107340217070035425"
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2107504677143368163",
+      "date": "2026-10-06T16:14:05.000Z",
+      "text": "working at a higher level of abstraction has always required understanding the lower level ones, I don't think coding agents changes this",
+      "url": "https://x.com/trq212/status/2107504677143368163",
+      "likes": 4206,
+      "retweets": 287,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2107671204639465961",
+      "date": "2026-10-07T03:15:48.000Z",
+      "text": "What’s happening in the AI-powered reverse engineering and decompilation is absolutely insane. Pretty soon all software will be de facto open-source.\n\nAI is coming for everything and everyone.",
+      "url": "https://x.com/amasad/status/2107671204639465961",
+      "likes": 3239,
+      "retweets": 257,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2107544111482118237",
+      "date": "2026-10-06T18:50:47.000Z",
+      "text": "Full conversation here: https://t.co/aKn5QFuNO3 https://t.co/yVtQjk9xIO",
+      "url": "https://x.com/amasad/status/2107544111482118237",
+      "likes": 170,
+      "retweets": 17,
+      "is_quote": true,
+      "quoted_id": "2107023776294555745"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2107606246350266469",
+      "date": "2026-10-06T22:57:41.000Z",
+      "text": "“Thinking fast and s̶l̶o̶w̶ a bit less fast under a confidence threshold.”\n\nA very simple feature that I think will be extremely impactful for at-scale AI decision-making. https://t.co/ivWDKynSpm",
+      "url": "https://x.com/rauchg/status/2107606246350266469",
+      "likes": 164,
+      "retweets": 6,
+      "is_quote": true,
+      "quoted_id": "2107603954091851883"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2107449561451274688",
+      "date": "2026-10-06T12:35:04.000Z",
+      "text": "At this rate AI will get us GTA 7 before GTA 6",
+      "url": "https://x.com/rauchg/status/2107449561451274688",
+      "likes": 5598,
+      "retweets": 211,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Aaron Levie",
+      "handle": "levie",
+      "tweet_id": "2107680435644039269",
+      "date": "2026-10-07T03:52:29.000Z",
+      "text": "Cyber will be one of the most defining domains for AI in the coming years, and a huge area of focus for most enterprises.\n\nAI is going to now create a whole new level of work for security dealing with the increase of vibe coded issues, agentic attacks, and even accidental agent swarms hunting for data. OpenAI + Hugging Face is just a preview of what’s to come.\n\nSecurity teams have often been the most strapped for resources teams in the enterprise, and now it’s only going to get more intense. AI agents of course become the solution to this problem as well, and we’ll see a range of new agentic products for protecting code, enterprise systems, mission critical infrastructure, and enterprise data. Huge opportunity here right now.\n\nAnd it’s going to be a booming market for cyber professionals that can effectively deploy agents for security purposes in the enterprise. Great time to be in security.",
+      "url": "https://x.com/levie/status/2107680435644039269",
+      "likes": 164,
+      "retweets": 24,
+      "is_quote": true,
+      "quoted_id": "2107523804184678485"
+    }
+  ]
+}
