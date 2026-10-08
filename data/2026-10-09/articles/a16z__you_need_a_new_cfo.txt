@@ -1,0 +1,85 @@
+Source  : a16z
+Title   : You Need a New CFO
+Date    : 2026-10-08 14:02 UTC
+Link    : https://www.a16z.news/p/you-need-a-new-cfo
+────────────────────────────────────────────────────────────
+
+In 2020,
+CFOs needed new tools
+. Now the tools are changing the role.
+The role was becoming more strategic, but the software was still stale. CFOs were part data analyst and part architect, stitching together exports from a constellation of point solutions and Excel orbiting thirty-year-old ERPs. The data was the bottleneck. It lived in too many places and was hard to wrangle, and the tools on top were brittle and limited in what they could do.
+Now AI is removing those constraints. Assembling the data has gotten easier, and the software has started doing more of the work itself. And when that changes, both how the work gets done and who does it change too. That means the finance function itself changes, along with the team and the archetype of the person leading it.
+From accountant to banker to builder
+You can see this in who companies have hired for the job over time:
+The dimensions of a great CFO have held up remarkably well across eras
+. The best CFOs don’t just deliver numbers or board decks. They also use data to guide an opinion on the direction the business should take. What the job asks of them is what keeps changing with the scarce skill of the moment.
+Each era’s archetype has tracked this shift. When the job was to clean books, establish controls, and report results, companies hired CFOs out of the Big 4 accounting firms. When the job was raising capital and getting the deal done, they hired out of investment banking. When the job became planning, metrics, and business partnering, the planning (“FP&A”) skillset rose in importance, with companies often still hiring from banking or private equity backgrounds.
+Today’s scarce skill is something new: designing the operating system the company runs on
+. This means the data, workflows, agents, skills and controls that turn context into intelligence and decisions. You can see this in
+the rise of the “finance engineer”
+inside finance teams, and in CFOs increasingly playing that role themselves.
+The finance leaders operating this way describe the function differently than their predecessors did. Sarah Friar, OpenAI’s CFO,
+frames finance as a real-time function
+. Finance is building toward a zero-day close and a continuously updated forecast, a big shift from the traditional monthly close rhythm. Whether for allocating compute or capital, the best finance leaders now sound less like scorekeepers and more like builders.
+More data, better tools, slimmer team
+The shift in the archetype of the CFO, and the broader finance organization, is being driven by the rapid progress of AI-native tools. Easier, faster data access unlocked better tools, changing how the work gets done and by whom, and in turn how finance teams are structured and how they operate.
+1. Data stopped being the bottleneck.
+The central complaint of our 2020 piece was that the CFO’s raw material - the data - was out of date, fragmented, and painful to pull together. Finance teams were spending most of their energy at the bottom of the pyramid stitching together inputs: pulling exports and reconciling spreadsheets and chasing down the explanation for a variance buried in an email thread, or worse, in Slack DMs and channels. AI makes it faster and easier to extract, ingest and interpret data scattered across different systems and formats. Teams can spend less time acquiring information and more time actioning it.
+2. The finance stack is becoming part of the finance team.
+In 2020, we mapped the finance stack layer by layer and argued that a wave of modern tools was coming for each one. With AI helping solve the data issue, that wave came. The new generation stands up in days rather than quarters, automates the data collection itself rather than waiting to be fed, and delivers insight in real time rather than at month-end. Every area of that original market map now has an AI-native contender for everything from an ERP to tax to procurement.
+A few examples from our portfolio:
+Rillet
+’s ERP cuts implementation from months to days or weeks, automatically pulls in data, and turns a monthly close into a daily one.
+Concourse
+deploys agents for financial planning and forecasting, pulling in real-time pipeline data to build live scenarios.
+Lio
+uses a multi-agent model for procurement and whose agents conduct vendor diligence, negotiate contracts, oversee internal sign-offs, and monitor fulfillment.
+Stuut
+manages the end-to-end accounts receivable cycle from outreach to follow-up to collection and dispute resolution, automating the cash application process.
+Sphere
+turns complex indirect tax compliance into an end-to-end automated process.
+Petual
+automates SOX testing and enterprise internal audit workflows.
+CFO.ai
+is a personal CFO that builds and maintains real-time financial models while answering questions before they’re asked.
+These are all workflows that previously needed dedicated teams or external service providers.
+The last generation of software helped finance professionals manage the work. This generation does the work itself. The best AI-native finance software now
+does finance
+.
+3. The rise of the finance engineer.
+With the data problem receding, something we didn’t predict in 2020 has emerged. The most advanced finance teams are not only using AI software tools but building their own automations, dashboards, and more internal tools. Many of these people had never written code, were skeptical of AI, and didn’t have access to engineering resources. Over the last 9-12 months, they’ve become AI-pilled.
+Anthropic’s finance team has built
+and maintains a library of 70+ finance-specific AI skills they treat like production code. One of them produces a 90-95% complete monthly financial review, compressing hours of human work into about thirty minutes. At OpenAI, Friar’s team builds custom GPTs for investor relations and procurement, as well as live dashboards to replace static board books.
+One growth-stage CFO in our portfolio asked their team to create agents and within two weeks they had 50. They weren’t all useful but they gave everyone a chance to experience the magic moment when an agent actually produces real work. Another said their finance and accounting teams are becoming product managers, working with engineers to create their own tools.
+Just as we’ve seen the rise of the GTM engineer, the growth engineer, the talent engineer, many companies are starting to have a “finance engineer.” Similar to the other roles that combine domain expertise and the ability to build, this is commonly a finance person, frequently with an engineering background, who has become proficient in Codex or Claude Code and leads the charge on building tools for the team. They are often connecting systems and fixing workflow bottlenecks. For example, this could mean building a tool that combines customer revenue with model inference costs, cloud usage, and support costs, then flags accounts where margins are deteriorating or usage has made a particular contract unprofitable.
+Historically, this required unlikely support from core engineering teams or attempting to hire engineers on to the finance team. Many CFOs themselves now spend more time building with AI or using AI-native tools, and less time in meetings. “These new products are fun to use” is feedback we hear often.
+The operating discipline behind the finance engineer is simple: if you do something twice, write a workflow; if you write the workflow twice, write an agent.
+4. The finance team gets smaller and higher leverage.
+Most finance teams are still organized the old way: a controller layer, an FP&A layer, an ops layer, and a CFO. All of this is built for a monthly cadence and one-person-per-task ownership. That structure made sense when every layer existed to move and reconcile data.
+The old heuristic of finance at ~5% of headcount is changing too. The leanest teams we see are targeting 2% and prioritize talent density over headcount. The new finance hire can wire multiple systems together with an API call, write SQL, and prototype an automation. AI fluency is becoming a baseline requirement. “Walk me through your model” is becoming “walk me through your prompt sequence.”
+Senior domain experts can get the most leverage out of AI. At Anthropic, the heaviest user on the finance team is the head of tax. As one of our growth stage CFOs put it, it’s tempting to assume the most junior people will be the strongest adopters, but they lack the experience and context to know what “great” looks like, or what to build.
+5. Planning becomes continuous.
+Usage-based revenue (e.g. tokens, minutes, API calls) has always been complex to forecast. Moreover, standard processes and tools that operate on a monthly cadence aren’t fast enough, especially since agents have become actors in the P&L. Many finance leaders are now leaning into continuous forecasting, which provides a live view using statistical models, account-level evidence, and finance judgment. FP&A is evolving from annual budgeting to continuous operating decisions. You can now run complex scenarios live in the meeting.
+6. Controls become a critical feature of the product.
+With software taking on more work in finance, an auditable, trusted chain from each of finance’s numbers to its source is critical. Finance needs to know where each number came from and how it was calculated, and where and which agents were involved. If an agent is drafting a journal entry, for example, it needs to keep the supporting work papers and evidence and follow approval rules before posting it. AI can still be used to reconcile records and flag and explain variances and exceptions, but finance sets the rules and owns sign-off. Having controls enables speed. The team can focus on the strategic work without having to reconstruct and check every step by hand.
+7. Finance gets a bigger mandate.
+With real-time data and the ability to run scenarios quickly, finance is being pulled into many more strategic decisions.
+For many AI companies, compute is one of the biggest operating expenses and most consequential capital allocation decisions. Now finance teams can pull together a current view of usage data, infrastructure costs, and customer revenue, and AI tools can help determine how a new feature or an increase in customer usage would affect margins. That gives finance a stronger basis for weighing in on pricing, product launches, and spending commitments.
+Companies are also making many more decisions where the CFO is a key arbiter. For example, how teams divide work between people and software is a key question across organizations and is a finance decision. With more granular data on the tradeoffs across time spent, token usage, software utilization, and more, finance can assess these tradeoffs. Build versus buy is part of this decision set. Building might now mean a big engineering project or just a non-technical team vibecoding a smaller tool. Buying might mean paying for usage or completed work, so costs change based on adoption. Now with AI, finance can model these more complex scenarios more quickly and accurately.
+The role, rewritten
+The CFO job has changed before. What feels different now is how much of the finance function and the org itself is being redesigned. The CFO historically built finance teams around layers of people needed to collect, reconcile, and review data spread across many tools, all set up to track and manage the work. Now the CFO, with a smaller team and greater leverage, can
+build
+and use the tools that
+do
+the work. Decisions that happened at weekly or monthly intervals can now happen continuously.
+The CFO is becoming a builder and architect of the company’s operating system.
+That means figuring out what’s best done by the team and by software. The AI-native CFO has to be automation-first and know how to build, train, and resource a modern finance team. They also need new frameworks for what to build, what to buy, and how to calculate the ROI of those decisions. The upside is more time spent on the business itself and on being a strategic partner to the CEO. The job is still finance, but more of the job now is designing how finance gets done.
+Thank you
+and
+for their help on this piece!
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

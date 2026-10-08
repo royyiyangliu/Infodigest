@@ -1,0 +1,298 @@
+{
+  "fetch_date": "2026-10-09",
+  "fetch_time": "2026-10-08T21:48:22.973857+00:00",
+  "stats": {
+    "new_podcast_episodes": 1,
+    "new_articles": 3,
+    "new_tweets": 20,
+    "total_podcasts": 1,
+    "total_articles": 3,
+    "total_tweets": 20
+  },
+  "podcasts": [
+    {
+      "source": "AI & I by Every",
+      "title": "Why Every Traded Personal Agents for One Company Agent",
+      "date": "2026-10-07 17:11 UTC",
+      "link": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "orig_link": "",
+      "audio_url": "",
+      "duration": "",
+      "summary": "",
+      "lang": "en",
+      "chars": 36725,
+      "text_file": "data/2026-10-09/podcasts/ai_i_by_every__why_every_traded_personal_agents_for_one_comp.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "Beijing Will Not Pace the Frontier: China’s Speed-First AI Safety Regime",
+      "date": "2026-10-08 17:46 UTC",
+      "link": "https://newsletter.semianalysis.com/p/beijing-will-not-pace-the-frontier",
+      "summary": "AI safety is on fire.",
+      "chars": 29597,
+      "text_file": "data/2026-10-09/articles/semianalysis__beijing_will_not_pace_the_frontier_chinas_spe.txt"
+    },
+    {
+      "source": "Citrini",
+      "title": "Breaking The Wall",
+      "date": "2026-10-08 13:52 UTC",
+      "link": "https://www.citriniresearch.com/p/breaking-the-wall",
+      "summary": "Has Blockchain Finally Reached Its Moment?",
+      "chars": 8214,
+      "text_file": "data/2026-10-09/articles/citrini__breaking_the_wall.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "You Need a New CFO",
+      "date": "2026-10-08 14:02 UTC",
+      "link": "https://www.a16z.news/p/you-need-a-new-cfo",
+      "summary": "In 2020, CFOs needed new tools. Now the tools are changing the role.",
+      "chars": 13338,
+      "text_file": "data/2026-10-09/articles/a16z__you_need_a_new_cfo.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Boris Cherny",
+      "handle": "bcherny",
+      "tweet_id": "2108013947144085714",
+      "date": "2026-10-08T01:57:44.000Z",
+      "text": "Ok back to reading https://t.co/Kdph4vZuGt",
+      "url": "https://x.com/bcherny/status/2108013947144085714",
+      "likes": 55,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Boris Cherny",
+      "handle": "bcherny",
+      "tweet_id": "2108008010253533397",
+      "date": "2026-10-08T01:34:09.000Z",
+      "text": "It was one prompt, claude verified pretty well too! No bugs so far https://t.co/jjnUzGkdoC",
+      "url": "https://x.com/bcherny/status/2108008010253533397",
+      "likes": 28,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Boris Cherny",
+      "handle": "bcherny",
+      "tweet_id": "2108006118966665463",
+      "date": "2026-10-08T01:26:38.000Z",
+      "text": "Try it https://t.co/isXGOnEXd5",
+      "url": "https://x.com/bcherny/status/2108006118966665463",
+      "likes": 57,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2108084615349170480",
+      "date": "2026-10-08T06:38:33.000Z",
+      "text": "Day 3 (encore)/\n\nWe silently re-shipped codex cloud. It’s pretty good now https://t.co/Fau14sCke8",
+      "url": "https://x.com/thsottiaux/status/2108084615349170480",
+      "likes": 433,
+      "retweets": 23,
+      "is_quote": true,
+      "quoted_id": "2107836671605551217"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2108040921044639779",
+      "date": "2026-10-08T03:44:55.000Z",
+      "text": "Confirmed landed across all accounts. How are we doing so far? https://t.co/tzw7dNX4pN",
+      "url": "https://x.com/thsottiaux/status/2108040921044639779",
+      "likes": 4525,
+      "retweets": 72,
+      "is_quote": true,
+      "quoted_id": "2107913674593644711"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2107913738791596286",
+      "date": "2026-10-07T19:19:33.000Z",
+      "text": "Will be there by EOD PST.",
+      "url": "https://x.com/thsottiaux/status/2107913738791596286",
+      "likes": 2203,
+      "retweets": 22,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2108046949291315385",
+      "date": "2026-10-08T04:08:52.000Z",
+      "text": ".@suno is so damn good honestly. It's probably going to overtake Spotify at some point.",
+      "url": "https://x.com/petergyang/status/2108046949291315385",
+      "likes": 40,
+      "retweets": 2,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2108032922527862851",
+      "date": "2026-10-08T03:13:08.000Z",
+      "text": "AI already solved images, music, and video. It’s going to solve gaming soon",
+      "url": "https://x.com/petergyang/status/2108032922527862851",
+      "likes": 45,
+      "retweets": 2,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2107981547102245101",
+      "date": "2026-10-07T23:48:59.000Z",
+      "text": "It seems like anything you ship can now be decompiled and rebuilt by AI.\n\nI think it'll soon be incredibly hard to make money from software unless you have proprietary data, distribution, or some other edge.\n\nTraditional SaaS is especially vulnerable, since it's expensive and full of features built for humans that agents don't need.",
+      "url": "https://x.com/petergyang/status/2107981547102245101",
+      "likes": 6,
+      "retweets": 1,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Nan Yu",
+      "handle": "thenanyu",
+      "tweet_id": "2108049498648051747",
+      "date": "2026-10-08T04:19:00.000Z",
+      "text": "Dread it. Run from it. The One True Productivity App Layout arrives all the same. https://t.co/fczbE1PHEk",
+      "url": "https://x.com/thenanyu/status/2108049498648051747",
+      "likes": 21,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2107535687482576996"
+    },
+    {
+      "source": "Cat Wu",
+      "handle": "_catwu",
+      "tweet_id": "2107967210467803152",
+      "date": "2026-10-07T22:52:01.000Z",
+      "text": "One of my favorite PM use cases for Claude is asking \"who used &lt;feature&gt; the most last week? make me a artifact of the top 10 by usage, then reach out and schedule 15 min to chat.\" It's the fastest way to get user feedback! https://t.co/SYL4JOitsB",
+      "url": "https://x.com/_catwu/status/2107967210467803152",
+      "likes": 246,
+      "retweets": 8,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2108021248966135891",
+      "date": "2026-10-08T02:26:45.000Z",
+      "text": "and because agents make it easier, almost everyone is operating outside their expertise at some point\n\nbut luckily, you can just ask the model to teach you what you don't know",
+      "url": "https://x.com/trq212/status/2108021248966135891",
+      "likes": 148,
+      "retweets": 7,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2108021247301062894",
+      "date": "2026-10-08T02:26:45.000Z",
+      "text": "the most common failure case I see is when people are working outside their domain of expertise and don't know how to be precise with their prompts and plans, so they have to spend a lot of turns iterating imprecisely https://t.co/mRT3knojCP",
+      "url": "https://x.com/trq212/status/2108021247301062894",
+      "likes": 1296,
+      "retweets": 41,
+      "is_quote": true,
+      "quoted_id": "2107959902174142725"
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2107957206327173484",
+      "date": "2026-10-07T22:12:16.000Z",
+      "text": "I think it's probably an incredible time to be a game dev content creator, for many people making games is a form of having fun and they're willing to pay for it! https://t.co/iS08bGZZnJ",
+      "url": "https://x.com/trq212/status/2107957206327173484",
+      "likes": 453,
+      "retweets": 17,
+      "is_quote": true,
+      "quoted_id": "2107879332609667481"
+    },
+    {
+      "source": "Google Labs",
+      "handle": "GoogleLabs",
+      "tweet_id": "2107800195748737042",
+      "date": "2026-10-07T11:48:22.000Z",
+      "text": "🚨NEW EXPERIMENT 🚨\n\nPlayground is an experimental gaming platform that lets you create your own games with zero coding experience. If you can think it, you can play it.\n\nGo to https://t.co/fRUukpuoqM to learn more! Available to users 18+ in the US. https://t.co/p0X8JR7JMn",
+      "url": "https://x.com/GoogleLabs/status/2107800195748737042",
+      "likes": 23081,
+      "retweets": 2384,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2107934939287273551",
+      "date": "2026-10-07T20:43:47.000Z",
+      "text": "Math was bound to fall first. The purer the field the easier it is for AI to crack. https://t.co/OETDJ1JSIz",
+      "url": "https://x.com/amasad/status/2107934939287273551",
+      "likes": 1095,
+      "retweets": 90,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2107927076926038273",
+      "date": "2026-10-07T20:12:33.000Z",
+      "text": "That’s because Replit is not a consumer app. Most of our creators are building businesses or working on one. https://t.co/B70WFQldgU",
+      "url": "https://x.com/amasad/status/2107927076926038273",
+      "likes": 513,
+      "retweets": 21,
+      "is_quote": true,
+      "quoted_id": "2107591815511826740"
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2107926712277438503",
+      "date": "2026-10-07T20:11:06.000Z",
+      "text": "Desktop AI apps are great but expose users to supply-chain attacks and catastrophic mistakes by agents.\n\nWe’re building a powerful desktop experience with focus on security &amp; reliability.\n\nExcited to partner with @Microsoft on this and be an early adopter of @nvidia’s OpenShell. https://t.co/YixaxIXhpb",
+      "url": "https://x.com/amasad/status/2107926712277438503",
+      "likes": 224,
+      "retweets": 12,
+      "is_quote": true,
+      "quoted_id": "2107896848044437766"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2107962327169675566",
+      "date": "2026-10-07T22:32:37.000Z",
+      "text": "One thing the engineering community will (re)discover is that every program can be ① hardened (edge cases squashed, inputs tightened, errors handled) and ② optimized (profiled, benchmarked, rewritten) basically ad infinitum.\n\nThere are real costs in every direction: time, attention, opportunity. You can literally explore input spaces that will never be hit or optimize performance of something that will never be used (\"you have no users\".) Even in an infinite token world, you need to know when to stop and what tradeoffs to accept. Agents will happily drill no matter what.",
+      "url": "https://x.com/rauchg/status/2107962327169675566",
+      "likes": 605,
+      "retweets": 39,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2107861196506595398",
+      "date": "2026-10-07T15:50:46.000Z",
+      "text": "gm from the best city in the world https://t.co/aPDFNR7KhT",
+      "url": "https://x.com/rauchg/status/2107861196506595398",
+      "likes": 784,
+      "retweets": 11,
+      "is_quote": false,
+      "quoted_id": null
+    }
+  ]
+}

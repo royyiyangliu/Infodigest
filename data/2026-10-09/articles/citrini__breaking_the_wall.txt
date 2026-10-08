@@ -1,0 +1,104 @@
+Source  : Citrini
+Title   : Breaking The Wall
+Date    : 2026-10-08 13:52 UTC
+Link    : https://www.citriniresearch.com/p/breaking-the-wall
+────────────────────────────────────────────────────────────
+
+The wall between traditional finance and crypto is starting to come down.
+Imagine that your personal AI has access to all your finances. With the flick of the wrist, it puts your idle cash balances to work, makes investment decisions and negotiates the best mortgage for you.
+“Claude, find me the cheapest $500K loan and refinance me into it.”
+Taken far enough, the implications get rather uncomfortable. What happens when millions of agents continuously move deposits toward the highest bidder?
+Could banks lose the cheap funding they rely on?
+Is an agentic bank run coming?
+With consumer-facing agents hitting the mainstream, what would’ve sounded like the premise of a Hollywood sci-fi movie a few years back doesn’t feel all that improbable today.
+Our financial system was not designed for this future. It’s slow, fragmented and gate-kept by layers of intermediaries, legal authorities and KYC processes.
+It was built by humans, for humans.
+The walls that protect our financial systems from ourselves have so far protected them from agentic interference. As we pointed out in
+Agentic Reality
+, consumer software is in some ways more immediately exposed to agentic disruption. Agents can already navigate websites, applications and, if we let them, our phones and devices. Software that used to require a human to search, compare, click and transact can now be operated by
+agentic software
+.
+The archaic world of finance is different –
+understandably so
+. Yet, we are beginning to see the signs of a crack.
+We are rapidly moving toward a world where information and resources become increasingly machine-readable, programmable and transferable. That logic doesn’t stop at consumer data but applies to money, bandwidth, compute and, eventually, financial assets themselves.
+AI agents move programmatically, 24/7, across applications, and it’s only logical that money and financial assets eventually will, too.
+Broadly speaking, there are really only two ways that can happen. Either our existing consumer-facing financial institutions rebuild themselves around more open, programmable standards, or they are eventually disrupted by a new system that does.
+This brings us back to an industry that, for most of the last decade, has looked like a solution in search of a problem:
+Crypto
+.
+The blockchain industry has spent fifteen years building something that looks surprisingly useful in an agentic world: always-on, programmable financial infrastructure where assets, ownership and settlement can co-exist.
+Until recently, it was a technology with limited purpose. Agents didn’t exist, and humans were left wrestling with seed phrases, wallet permissions, bridges and gas fees, only to be rewarded with the ability to buy the latest Shiba-Inu-themed memecoin. Meanwhile, stocks, treasuries, credit, commodities and other financial assets people actually want to own remained inside the traditional financial system.
+Both of those things are now changing.
+Financial assets are being tokenized and brought
+onchain
+. The worlds of traditional finance and crypto are merging. Meanwhile, agents provide a new class of users that don’t care about the terrible UX of a block explorer.
+Blockchains have finally found their raison d’être.
+At the risk of being
+that guy
+for a moment, we’ve seen this movie before. Do you know what
+HTTPS
+,
+TCP
+and
+IP
+are (maybe), or how they work (probably not)? Unless you’re an old nerd, you shouldn’t have to. The internet didn’t reach billions of people because they learned networking protocols. The underlying infrastructure was eventually abstracted away by browsers until people stopped thinking about the technology at all.
+Wouldn’t it also be ironic if the industry that has enabled so much capital destruction, that most “serious” investors have written off, turned out to be the birthplace of a technology that
+actually
+mattered? And wouldn’t the converging cyclical trough these assets are now emerging from imply an attractive starting point for investors?
+This left me wondering…if we’re right, the relevant question for any investor isn’t simply whether more assets become tokenized. It’s
+where the economics accrue.
+Rather than speculate, I felt the urge that strikes any thematic investor on the cusp of a big idea:
+to
+investigate
+. So I downloaded Coinbase Wallet, loaded up $1,000 and went where very few investors return from with a positive ROI:
+the onchain trenches.
+Expecting to get rug-pulled, I was surprised by my findings.
+I found that while most investors (including us at Citrini Research) were busy arguing over GPUs and memory bottlenecks, an ecosystem of financial applications has slowly been built that in many ways resembles existing
+TradFi
+. A world that goes far beyond the typical get-rich-quick schemes: from tokenized treasuries, equities and options, to programmable debt, lending, payments, yield protocols, and entire financial applications that simply didn’t exist a few years ago.
+Here’s what I found, how it changed our view on crypto, and
+perhaps more importantly, the trade.
+The Moment Crypto Was Waiting For
+For the past decade, it would have been easy to dismiss crypto as a technology that never fully lived up to its promise. If you were more direct, you could even point to failures such as FTX and argue that it has been destructive for a lot of people.
+The problem
+was always that Decentralized Finance (DeFi) and Wall Street lived in their own separate universes, with their own sets of assets, primitives and infrastructure. The DeFi tech was interesting, but if it’s only used for gambling on memecoins and moving dollars, then what’s the point?
+Tokenized
+Real World Assets (RWAs)
+are the product of taking
+any
+asset, be it gold, NVIDIA stock, US treasuries or debt, and making it globally available, 24/7,
+on the blockchain
+. The promise is that any asset can be tokenized and price discovery can happen outside of the traditional financial system.
+It may not have caught front-page headlines, but there has been a slow drip of advances and a quiet shift toward regulatory acceptance that has been going on for years.
+But the first
+“oh sh*t”
+realization for many happened when the Iran conflict escalated over a weekend in March, and Hyperliquid became one of the only liquid venues where traders could price crude oil.
+Since then, RWA adoption has really shifted into higher gear. We’ve seen massive moves starting to happen across crypto in the past month, marking what appears to be an inflection point.
+So what’s going on?
+First
+,
+tokenized equities have become composable and exist outside of the issuer venue
+. This means that unlike on Hyperliquid, assets can move between apps and rails that previously only worked for stablecoins and native crypto assets.
+Robinhood Chain (HOOD US)
+was the first to open the floodgates with “Stock Tokens”. This has snowballed to more chains, leading to a massive uptick in activity.
+To grasp the scale… In September, Solana temporarily processed more trades than the NYSE…and while most of this activity is surely bots, meme pairs and other nonsense, that still says quite a lot about the traction this is getting.
+Second
+,
+regulators are moving tokenized assets from an offshore experiment toward regulated US market structure
+. Two days after the CLARITY Act fell short in the Senate, the SEC issued an innovation exemption for tokenized stock trading. Meanwhile, US stock perps are next, with Coinbase’s proposed product now
+listed
+by the CFTC as “approval pending”.
+Source:
+Reuters
+With TradFi’s bastion,
+the
+Bloomberg Terminal
+, listing Hyperliquid perps and tokens at
+WSL HYPE <GO>
+,  there’s little question about the direction of travel.
+Source: Bloomberg
+For the first time, we have an environment where both institutions and individuals can, and are willing to, engage with a plethora of RWAs.
+It’s clear to us that legislation is being pieced together with or without a huge bill, and the question for investors should shift from “will tokenization be legal?” toward “who captures the economics when these products eventually enter the US?”
+But before we jump to that, let’s take a quick step back and answer… Why do assets coming onchain matter in the first place?
+Read more
