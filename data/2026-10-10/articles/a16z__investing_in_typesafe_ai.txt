@@ -1,0 +1,32 @@
+Source  : a16z
+Title   : Investing in TypeSafe AI
+Date    : 2026-10-09 16:28 UTC
+Link    : https://www.a16z.news/p/investing-in-typesafe
+────────────────────────────────────────────────────────────
+
+The Jev launch is the biggest narrative violation we’ve seen this year, in the best possible way.
+The reason behind the instant take-off is obvious in hindsight. While AI is incredibly useful for creating software like a human, at superhuman speed, it’s been far more difficult to integrate into code. “AI is eating software” has ironically meant that it’s writing a lot more traditional software a lot faster, but not necessarily making the software more intelligent.
+The real economic unlock should be that
+all software is imbued naturally and natively with the intelligence of the latest models, at performance and cost that makes sense with traditional software economics
+. This is exactly what TypeSafe AI accomplished with Jev, and is why it’s that fastest growing model we’ve ever seen - reaching 1 trillion tokens generated in merely 3 days post launch.
+Two important properties set Jev apart from every other large language model. Rather than encoding a model decision output into text, and leaving the software to parse and normalize it, Jev hands the decision directly to your code as a typed value. The output is so small that they don’t even bother charging for it.  The modality innovation is accompanied by an economical one. Jev is roughly 1/100 to 1/500 the cost of frontier models while being 100x faster for classification tasks at the comparable accuracy.
+However, the significance of the Jev model is not that it’s faster, cheaper and more accurate (though it is all three), but that it opened a new path of how we think about AI and its relationship to software. Jev is the first of a new class of
+System One models
+, which are built to be deeply integrated with code (rather than talked to by people) that returns instinctive decisions in the native language of software. While the big labs chase more parameters, longer context, deeper chains of reasoning that’s “human-like”, this is an entirely new direction to truly make AI ubiquitous.
+From the first conversation with Diogo, we found ourselves philosophically aligned with the mission behind this movement. Jev and TypeSafe as a company are much more aligned with developers ethos: pragmatic, composable, and deeply respectful of people who build. It’s a refreshing take in contrast to the rhetoric around the big labs about replacing software engineers and killing SaaS. TypeSafe believes AI is a tool that can make software more intelligent, and returns the power to the developers hands.
+The developer community responded with enthusiasm and creativity at a level we’ve never seen before. Within the first week, thousands of use cases appeared, from
+generative UI
+, to interactive gaming, to
+data analysis
+. Each one is proof that System One models belong
+everywhere
+in software. Enterprises followed just as fast - 25% of the fortune 500 enterprises have integrated Jev.
+Call it the Jev-ons paradox: make intelligence cheap enough to call anywhere, and it gets called everywhere.
+We’re so excited to announce that we’re leading the investment in TypeSafe to partner along this journey. Like TypeSafe, we believe the future of SaaS and software is bright. And AI should make software more powerful, and not just automate the recreation of existing software. This spiritual alignment goes back many years. We’ve long been fans of Diogo, the founder and CEO of TypeSafe, and have resonated strongly with his vision that the true bitter lesson is not necessarily about building a new being, but returning the power to builders by giving them the primitives of intelligence then letting them unleash their imagination.
+The entire a16z team is excited to partner with TypeSafe. Software continues to eat the world.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
