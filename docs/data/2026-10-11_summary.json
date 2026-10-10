@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-11",
+  "generated_at": "2026-10-10T23:38:19.117013+00:00",
+  "stats": {
+    "tweets": 8,
+    "podcasts": 1,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "Cognition（Devin 开发商）的 Thibault Sottiaux 连续预告多项产品进展：最重磅的是**ChatGPT 订阅现在同时也是 Devin 订阅**，意味着 Devin 编码 agent 被捆绑进 ChatGPT 的分发体系，大幅降低获客门槛。他还提到自家 Dots 产品获得较大升级，并邀请用户向团队反馈。整体传递出 Cognition 正借助 OpenAI 渠道加速 agent 产品普及的信号。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品人 Peter Yang（前 Roblox 等公司产品负责人）表达了一个与主流相悖的观点：业界应少做管理邮件的个人助理，多做能治病救人的 AI 创业公司。他还分享了一条 Grok Bot 的实用技巧：不要把 Bot 邮箱注册成自己的名字（抄送自己很别扭），而应另起一个\"幕僚长\"式的名字来使用。"
+    },
+    {
+      "author": "Nan Yu",
+      "handle": "thenanyu",
+      "summary_zh": "Linear 的产品负责人 Nan Yu 盛赞 AI 编码范式的演进路径：从手写代码，到 Tab 补全代码，再到向 agent 下指令，如今连\"给 agent 下指令\"这一步本身也能被 Tab 补全自动完成。他借此点出工具正逐层抽象、不断自动化人类与 agent 的交互环节。"
+    },
+    {
+      "author": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "summary_zh": "Madhu Guru（@realmadhuguru）分析\"单位智能价格\"的下降趋势：开源权重模型并非降价的始作俑者，只是顺应了早已启动的趋势。过去几年驱动降价的三大因素是——模型厂商把顶配模型蒸馏成推理更便宜的小模型、基础设施效率提升、以及模型厂商间的竞争。他总结出规律：某公司第 x 版中型模型的智能 ≈ 上一版（x-1）大模型的智能，即同等智能、更低成本。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic 的 Thariq（@trq212）分享了用 AI 重写个人项目的经历：加入 Anthropic 前他曾用 Opus 4 花约两周做了个侧项目，因基于 Agent SDK 需要常驻进程、效果不佳；而如今只用一条 prompt 让 Opus 5.5 就把它移植到了 Claude Managed Agents，可靠性大幅提升。他以此佐证新一代模型在代码迁移与重构上的能力跃升。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel CEO Guillermo Rauch 披露了一组颇具冲击力的流量数据：过去 30 天全网 Vercel 流量中 **58.18% 来自 bot**（2024 年 1 月仅 32%）；平台上 **60%+ 的部署现已是 agent 发起的**（2026 年 1 月约 3%）；其官方文档站 **高达 83% 的页面浏览来自 agent**，且内容越为 agent 优化该比例越高。他大胆预测：未来几年\"人类直接访问\"的互联网流量将基本变成可忽略的零头，网络将由 agent、为 agent 而建。他还指出一种新经济正在诞生——agent 通过 CLI 大量购买基础设施产品与服务，Vercel 现已把这一能力扩展到域名购买，让 agent 能从创意到上线业务全栈打通。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box CEO Aaron Levie 做出大胆预测：agent 派生 agent、在后台对每项任务持续运作、以及 agent 集群，将消耗比\"人类一次只提示一个 agent\"多 **1000 倍** 的 token。他认为把 AI 当作只能以人类提示速度工作的聊天系统，一两年内就会显得像个遗物；绝大多数 token 将由在后台和工作流中持续工作的 agent 消耗。这正说明 AI agent 采用仍处极早期，未来还需要大量算力与基础设施扩建来支撑。"
+    },
+    {
+      "author": "Matt Turck",
+      "handle": "mattturck",
+      "summary_zh": "FirstMark 风投合伙人 Matt Turck 对 Synthesia 的新能力表示惊叹：一条 prompt 即可按公司/产品的风格生成专业级视频，并指出这正是 Synthesia 自创立之初就在追求的愿景——\"先是缓慢推进，然后突然全面爆发\"，如今已向所有人开放。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "No Priors",
+      "title": "Beam: The Great American Open Model with ReflectionAI Co-Founder and CEO Misha Laskin",
+      "date": "2026-10-09 17:24 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/@NoPriorsPodcast",
+      "summary_zh": "Reflection AI 联合创始人兼 CEO Misha Laskin（原 DeepMind 强化学习研究员、物理学博士）介绍其首个开源模型 Beam——被称为\"首个进入前沿梯队的西方开源模型\"。公司约一年前从 **30** 人扩张到 **300** 人，组建了预训练、中训练、RL 全栈团队。\n\n**Beam 关键参数**：MoE 架构，总参数 **5000 亿**、激活 **230 亿**；预训练用 **6000** 张 GB300，原耗数周、现经基础设施优化约 **12 天**；RL 用 **逾 10000** 张 GB300 跑 **4 周**（号称开源史上最大规模 RL），RL 消耗算力超过预训练。Beam 主打推理效率，比同能力级模型快 **3-4 倍**，对更大模型可达 **10 倍**，面向编码与 agentic 任务。\n\n**追赶前沿的成本**：18 个月前约数亿美元，现约单位数十亿美元，明年约百亿量级——每代模型算力约 **4 倍** 递增（10 万张 H100→10 万张 Blackwell→10 万张 Vera Rubin）。但算力效率持续提升：预训练年化约 **7 倍**，RL 因模型自我改进可达 **30 倍**；模型入环使研发提速约 **4-5 倍**。Laskin 认为 CapEx 难以无限扩至万亿级，终将趋于渐近线。\n\n**商业与格局**：开源 vs 闭源 token 占比在约半年内从 70:30（闭:开）翻转为约 70:30（开:闭），他预测长期类似操作系统（**95%+** 服务器跑 Linux）——多数 token 流向开源，但闭源公司（类比微软、苹果）仍极具价值。开源变现核心是最大化推理，类比\"租房 vs 买房\"：企业在闭源上年支出达 **1 亿美元+** 后转向自有开源模型（控制权、成本、合规），Reflection 提供部署所需的集群管理、推理软件、harness 与服务。企业更可能先定制\"系统\"（agentic harness）而非微调模型。\n\n**中国开源**：坦言中国模型优秀，受益于工业级蒸馏、低成本数据（可训练受版权 PDF）及隐性国家支持，等于\"中国政府补贴西方企业\"；但警惕\"单极\"风险，强调西方需有竞争性开源生态。开源模型是\"特洛伊木马\"，会绑定其软硬件基础设施（华为全栈），具地缘杠杆，类比稀土/5G/一带一路。\n\n**安全观**：认同安全是正当议题，但反对\"闭源才安全\"的教条。类比 1990 年代强加密之争最终开放并催生网络安全领域；援引 Linus 定律\"足够多的眼睛让 bug 浅显\"。指出攻防不可分割，封锁进攻能力也削弱防御——引用 OpenAI/HuggingFace 事件中企业因护栏被迫改用开源模型自保。对齐实则\"打地鼠\"式平凡工程，而非玄学。\n\n**未来展望**：对科学加速最兴奋（称可\"一周完成博士研究\"）、生命/材料科学的真实实验数据飞轮、软件工程与数据中心带来的高薪蓝领就业（数据中心即当代工厂）。研究团队规模长期稳态约 **百人**（AlphaGo 当年约 **10** 人），但应用型\"部署工程师/评估研究员\"岗位将大量涌现。"
+    }
+  ],
+  "articles": []
+}
