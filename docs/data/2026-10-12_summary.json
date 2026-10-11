@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-12",
+  "generated_at": "2026-10-11T23:37:02.870363+00:00",
+  "stats": {
+    "tweets": 5,
+    "podcasts": 0,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie 断言\"未来 token 将在哪里被消耗\"的答案就是 Agent 集群（agent swarms）：多个 Agent 可围绕同一目标并行展开、协同工作，规避人类在沟通、同步状态、共享上下文上的瓶颈，将在软件开发、网络安全、生命科学、AI 研究、金融等企业领域带来质变，这也是为何\"我们将需要 **1000 倍**的算力\"。另一方面，他认为随着 Agent 承担远超人类的任务量、接触企业最核心数据，安全、治理、审计与问责将变得至关重要——AI 需要迎来类似安全行业的\"零信任\"时代（把前沿闭源与开源模型都当作\"内部人风险\"来管控），这对相关系统的构建者是巨大机会。"
+    },
+    {
+      "author": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "summary_zh": "Madhu Guru（@realmadhuguru）预判 Agent 能力即将以 RSI（递归自我改进）的速度进化，Agent 安全（身份、权限、可观测性）必须跑得比能力更快。他认为 Agent 领域的演进路径是\"能力 → 信任 → 自主\"：第一阶段解决\"模型 + harness + 工具 + 上下文能否可靠完成工作\"，如今能力已相当成熟，重心正转向信任——系统是否以正确权限采取正确行动、能否被观测、审计并建立问责。"
+    },
+    {
+      "author": "Nan Yu",
+      "handle": "thenanyu",
+      "summary_zh": "Linear 产品负责人 Nan Yu 提出与主流相悖的观点：Agent 让工程师变得极其强大，但 PM 仍受限于与客户沟通的带宽，因此理想的 PM 与工程师配比应是 **1:1**。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator 总裁兼 CEO Garry Tan 分享了其 AI 编程工作流：用 GStack 的 /autoplan 让 Agent 生成计划并以\"像给 5 岁小孩解释\"的方式讲清楚，他仍亲自审批计划，但\"很少需要干预，如今的前沿模型非常出色\"；同时开启 Captain 等实验模式，由一个线程统筹 PR 合并队列、确保只有完整 CI 通过的代码进入 master。对于 GBrain 这类检索/延迟型数据任务，他建议围绕检索质量、延迟和单位算力成本建立清晰评测，其仓库包含 **40+** 个可自动研究、自动优化的评测类别。"
+    },
+    {
+      "author": "Nikunj Kothari",
+      "handle": "nikunj",
+      "summary_zh": "FPV Ventures 合伙人 Nikunj Kothari 就近期一起 VC 风波指出，创始人在\"哲学上不能两者兼得\"：一边要求基金展现信念、在困难时加注，一边又为了自身稀释或领投方的持股目标而拒绝履行合同约定的 pro rata（按比例跟投权）。他认为 VC 应在每一轮赢得留在股权表上的资格，但这个行业依赖合同与承诺，为短期利益毁约会侵蚀本已脆弱的信任；并提醒创始人务必慎选合作伙伴与条款，聘请独立律师。"
+    }
+  ],
+  "podcasts": [],
+  "articles": []
+}
