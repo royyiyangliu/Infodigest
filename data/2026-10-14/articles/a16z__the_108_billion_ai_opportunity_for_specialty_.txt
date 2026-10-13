@@ -1,0 +1,104 @@
+Source  : a16z
+Title   : The $108 Billion AI Opportunity for Specialty Practices
+Date    : 2026-10-13 14:04 UTC
+Link    : https://www.a16z.news/p/the-108-billion-ai-opportunity-for
+────────────────────────────────────────────────────────────
+
+Across the United States, specialty medical practices are under growing financial pressure. The cost of running a practice is rising faster than revenue.
+While the discussion around AI in healthcare has mostly focused on its potential to lower costs and increase efficiency, AI can have a meaningful impact on the other side of the ledger: revenue. Prosper AI conducted a study to quantify the revenue opportunity tied to where practices can introduce AI to provide more consistent, reliable care and improve practice economics in the process.
+Prosper AI leveraged data from interactions across patients and insurance companies accounting for more than $3 billion in care managed, and combined that data set with specialty-specific data from the Medical Group Management Association (MGMA). Prosper AI then conducted original research, a phone-access study called CallIQ, to assess the current state of patient access, covering approximately 2,000 practices across 29 states; the specialties included dermatology, ophthalmology, gastroenterology, OB-GYN, primary care, and orthopedics.
+Data on total gap and contributions for each of four levers; Revenue gaps per physician
+Key Findings
+Our research identifies four actionable levers within practice leaders’ control, representing an estimated annual revenue opportunity of approximately $125,000 per physician.
+CAPTURE DEMAND: Convert missed calls to appointments.
+Even during office hours, 1 in 6 calls go unanswered. Using AI to answer calls and optimize how schedules are filled can generate an average of
+$44,800
+per physician in annual revenue.
+RECAPTURE DEMAND: Re-engage existing patients.
+Only 54 percent of patients due for a follow-up visit return on schedule; 40 percent come back late and 6 percent never return. Proactive outreach with the help of AI to bring these patients back sooner can unlock up to
+$37,400
+in additional revenue per physician.
+PROTECT REIMBURSEMENTS: Prevent avoidable denials.
+Front-end errors, such as billing an inactive insurance plan, skipping a required insurer approval, or misspelling a patient’s name, drive nearly half of claim denials. Accurate benefits checks done using AI in advance of a visit can eliminate avoidable denials and translate into an average of
+$28,500
+a year per physician.
+RECOVER REVENUE: Recover the patient responsibility.
+Patients now pay 36 percent of the cost of their care, and nearly 8 percent of what they owe goes unpaid. Outbound AI calls to patients to recover the amount they are responsible for, for care that has been provided, adds up to
+$14,100
+annually per physician.
+The Growing Operational Squeeze in Specialty Practices
+Specialty practices face compounding margin squeeze as rising costs collide with stagnant reimbursements and severe administrative overhead. Heading into 2027, this squeeze is likely to intensify as inflation persists. Meanwhile, Centers for Medicare & Medicaid Services (CMS) announced that it has no plans to renew a temporary 2.5 percent boost in Medicare reimbursements set to expire at the end of 2026.
+1
+The expiration of these temporary payment cuts will cascade across specialty practices and add additional pressure on practices. Crucially, these Medicare cuts impact all insurance reimbursements, as commercial health plans benchmark their contract rates directly against Medicare fee schedules. These cuts come at a tough time for practice leaders; 84 percent of medical groups report higher operating costs than a year ago, with an average increase of 11 percent.
+2
+Meanwhile, inflation-adjusted Medicare physician payments have declined 33 percent since 2001.
+3
+The $125,000/Physician Revenue Opportunity
+CAPTURE DEMAND: Convert missed calls to appointments
+As basic as it sounds, reaching a provider’s office by phone remains a fundamental breakdown in patient access. Prosper’s proprietary CallIQ data analyzing 2,000 practices reveals an 18 percent daytime missed-call rate, with answered callers facing an average wait of 1.5 minutes, and 20 percent stranded on hold for over 5 minutes. After hours, the missed-call rate rises to 81 percent.
+4
+Every missed call – and long wait time – creates the possibility of a lost patient or unfilled appointment slot. This adds to a growing problem. Our data shows that 19 percent of provider schedules go unfilled across practices; at some individual practices, as much as half of available capacity remains unused.
+5
+The impact of calls that go unanswered can extend beyond a single lost appointment. Poor phone responsiveness can create a negative patient experience that affects reviews, referrals, and the likelihood that patients that need care come back for it.
+AI-enabled patient communication delivers 24/7 coverage, enabling practices to handle more inquiries, convert higher call volumes, and maximize provider capacity. When scheduling is fast and frictionless, patient behavior shifts — elevating provider appeal and actively driving patient acquisition. Practices that are easy to reach and schedule actively grow practice volume by attracting patients looking for accessible care.
+At Piedmont Plastic Surgery and Dermatology in North Carolina, with Prosper AI handling its calls, the practice saw a 17 percent lift in appointments booked in August 2026, compared to August the year prior. Across their 37 providers, appointments booked rose from 19,209 in August 2025 to 22,524 in August 2026.
+Wait times during peak hours fell from seven minutes to zero, and the practice was able to serve 50 callers simultaneously, up from 15 the year prior. Based on an MGMA benchmark of $392 on average for a dermatology visit, the additional 3,315 appointments booked would translate to an estimated $1.3 Million in revenue for that month alone.
+RECAPTURE DEMAND: Re-engage existing patients
+One of the least visible sources of lost revenue is patients who simply fall out of the care cycle. A patient may be told to return in six months, schedule an annual skin check, come back after surgery, or return for ongoing management of a chronic condition. Unless the next appointment is booked before the patient leaves or the practice has an effective recall system, some of those visits never happen. Unlike a no-show, which creates a visible opening in the schedule, an unscheduled follow-up may never register as lost revenue at all.
+Missed appointments that are never rescheduled create a similar problem. Across medical specialties, the average no-show rate reaches 18.8 percent with gastroenterology being the highest, at 25.7 percent.
+A Massachusetts General Hospital study found that nearly 19 percent of dermatology appointments were missed, and only 41 percent of those patients returned to the practice within the following year.
+Cost concerns are a key factor contributing to missed care. The problem is also growing, likely due to patients’ sensitivity to rising cost: 32 percent of medical practices reported more no-shows in 2026 than in 2025, while just 10 percent reported fewer, amid mounting affordability pressures on patients.
+AI-enabled recall and 2-way SMS outreach systems can systematically identify patients who are due for follow-up and engage them to schedule, reducing the number who fall out of the care cycle.
+PROTECT REIMBURSEMENTS: Prevent avoidable denials
+Ensuring full reimbursement starts long before claims are submitted. For practices operating with increasingly tight margins, financial performance depends on accurate, pre-visit insurance eligibility and benefit verification. Prosper AI’s research reveals that practices see an average of 10 percent of their first-submission claims denied. Denial rates for more complex care, such as orthopedics and gastroenterology, are higher at 22 and 16 percent respectively. Every denial creates additional work for staff while delaying, reducing, or potentially eliminating the probability of successful reimbursement.
+The sheer volume of denials and appeals has become a major operational burden. Eighty-four percent of healthcare finance professionals describe managing them as a significant challenge, including 35 percent who call it their “biggest challenge” and another 49 percent who describe it as “very challenging.” For practices already struggling with staffing, the problem can become self-reinforcing: Fewer employees are available to ensure claims are accurate before submission or to pursue reimbursement after a denial.
+A meaningful share of this leakage is preventable. Missing or inaccurate claim information, incomplete patient registration data, and coding errors are among the leading causes of denials. In ACA Marketplace plans, for example, administrative errors or omissions account for roughly one-quarter of in-network claim denials.
+AI-enabled, pre-visit benefit checks can automatically verify coverage details, confirm authorization status, and flag missing patient details before the visit occurs, eliminating simple administrative errors and stopping preventable denials at the source. At a time when practices have limited control over reimbursement rates, capturing more of the revenue they have already earned is one of the financial levers they can directly influence.
+RECOVER REVENUE: Recover the patient responsibility
+As patients shoulder a larger share of healthcare costs, recovering the amount that patients are responsible for has become increasingly important to ensuring practices can continue to provide quality care.
+Patient balances include deductibles, coinsurance, copays, and self-pay bills. According to our internal data from completing over five million calls across providers and payers, patients pay an average of 36 percent of the cost of their care across specialty practices. At dermatology practices, patients are responsible for a majority of the costs, at 55 percent.
+Yet most patient responsibility is not taken when care is delivered. Medical practices recover an average of just 39 percent of patient-due balances at the time of service, leaving the majority to be recovered afterward. This creates additional administrative work and increases the likelihood that balances will go unpaid.
+The challenge is growing. In a 2025 survey, 29 percent of medical practices said recovering outstanding patient balances had become more difficult over the previous year, compared with 26 percent that reported improvement.
+At one multi-location dermatology practice, AI reminder calls helped recover 48 percent more outstanding patient balances than standard follow-up. In a randomized comparison, households whose balances had reached a third billing statement received either AI calls or the practice’s usual statements and follow-up.
+The AI calls explained balances, answered questions about charges and insurance, and offered payment links, payment plans, or a transfer to the billing team. Over approximately 50 days after the third statement, the practice recovered 31.2 percent of outstanding balances in the AI group, compared with 21.1 percent in the standard-follow-up group.
+Calculate Your Practice’s Revenue Opportunity
+Practice leaders can determine how much revenue they can add through a 2-step process:
+Identify your specialty’s annual impact per physician
+. Locate your medical specialty to see the estimated per-physician revenue opportunity across the four levers (convert calls to appointments, re-engage existing patients, avoid preventable denials, recover the patient responsibility).
+Calculate your total annual opportunity.
+Take the total per physician for your specialty, and multiply that by the number of full-time physicians in your practice for your total annual revenue opportunity.
+The New Frontier: Putting Revenue-Guaranteed Appointments into Practice
+Macroeconomics are out of practice leaders’ hands. These four levers are not.
+By using AI to convert calls to appointments, re-engage existing patients, avoid preventable denials, and recover the patient responsibility, specialty practices can capture an estimated $125,000 in additional annual revenue per physician. The bigger opportunity is what happens when the four levers work together.
+That starts with a benefit-verified appointment: an AI-enabled system confirms the patient’s coverage, calculates what the patient will owe, and tells them before the visit. The result isn’t just a fuller schedule. It’s a schedule filled with revenue the practice can count on, because every booked visit has already been checked against how it will be paid.
+Each step also strengthens another lever. Accurately verified benefits prevent denials. Patients who know their costs upfront are more likely to show up and then pay for the care provided after the visit. And as patients shoulder more of their care costs, a practice that is easy to book and clear about costs stands out, which brings in new patients and starts the cycle again.
+Methodology
+The CallIQ Study
+To measure the current state of patient access, Prosper AI created the CallIQ phone access study. Prosper AI attempted to reach 2,000 practices across 29 states and 6 specialty types: dermatology, ophthalmology, gastroenterology, OB-GYN, primary care, and orthopedics. No appointments were booked. For every call, we tracked two things: the time it took for a live person to answer, and how long it took to begin scheduling.
+Public and industry benchmarks
+MGMA reports:
+revenue, visits and revenue per visit by specialty, which give each practice’s baseline. MGMA DataDive Financials and Operations. Used with permission from MGMA.
+Federal health data (CMS, AHRQ, CDC)
+: visit patterns, how often patients return, time since last check-up, and payer mix
+Peer-reviewed studies:
+follow-up adherence, claim denials and patient responsibility. These fill gaps where no national dataset exists
+About Prosper AI
+Prosper AI is the patient access platform that helps exceptional specialty practices grow. Its AI workforce connects patient access and reimbursement across the front and back office—from scheduling and patient outreach to benefits verification, prior authorization, claims follow-up and patient billing. By handling patient and payer conversations directly within practice workflows, Prosper AI helps practice leaders grow appointment volume, protect reimbursements and recover outstanding revenue—giving their teams more time to focus on care. Prosper AI is live in 100+ outpatient groups and covers 150,000+ providers across more than 27 medical specialties, with deep integrations across athenahealth, ModMed, Veradigm, ECW, ImagineSoftware and other leading EHRs. Founded in 2023 by Xavier de Gracia and Josep Mingot, Prosper AI is backed by a16z, Emergence Capital, and Y Combinator and headquartered in New York. Learn more at
+getprosper.ai
+.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
+1
+Healthcare Finance News, “CMS Proposes Medicare Physician Pay Cuts for 2027,” July 15, 2026,
+2
+2026 MGMA Stat poll.
+3
+American Medical Association, “Medicare Updates and Inflation Chart,”
+4
+Prosper AI Call IQ dataset
+5
+Prosper AI internal data
