@@ -1,0 +1,50 @@
+Source  : a16z
+Title   : Introducing Securing America’s Infrastructure Foundation
+Date    : 2026-10-15 13:03 UTC
+Link    : https://www.a16z.news/p/introducing-securing-americas-infrastructure
+────────────────────────────────────────────────────────────
+
+America’s small cities are on the front lines of a fight most of the country doesn’t see. A ransomware attack shuts down a county’s 911 dispatch system. A school district’s student records end up for sale on the dark web. A rural hospital pays a six-figure ransom it can’t afford because paying is cheaper than losing patient care for a week. These aren’t hypotheticals — they are a regular occurrence across the United States, and the institutions absorbing the damage rarely have the budget, staff, or technical bench to defend themselves.
+I spent the last several years working on exactly this problem from inside the U.S. government, first at the NSA and then as Deputy National Security Advisor for Cyber and Emerging Technology in the White House. The pattern is consistent: the same institutions expected to protect the most sensitive data and systems in our communities — student records, patient files, water systems, emergency services — are the least resourced to do it. Meanwhile, the AI wave that is improving productivity, diagnostics, and cyber defense in well-resourced organizations is largely passing these institutions by. This isn’t because the technology doesn’t apply, but it may not be accessible, affordable, and practical for smaller institutions.
+That’s the gap we built Securing America’s Infrastructure Foundation to try to close.
+We believe that the best thing that a society can do for a person is to give them a chance. Give them a shot at a great life regardless of their circumstance, background, ethnicity, religion, gender or any other attribute. That’s the best we can do. We know across America, there are places where people don’t have an equal shot, where the social infrastructure, hospitals, municipal services don’t have the resources or training to get the benefits of AI, and may bear more of the risks. The goal of the Foundation is to change that. —Ben Horowitz
+What it is
+Securing America’s Infrastructure Foundation (SAIF) is a new 501(c)(3) nonprofit, incubated by a16z, built to deliver AI and cybersecurity tools, hands-on support, and training to public institutions across America that otherwise lack access to AI tools — think small municipalities, school districts and rural hospitals.
+This isn’t a grants program in the traditional sense. We’re not writing checks and hoping the right thing gets built. Instead, the Foundation will deliver software, hands-on training, and cyber incident response at no cost to the recipient. The model is closer to “forward-deployed engineering” than philanthropy as usual: our experts show up, help stand up real defenses, and stay long enough to make sure the capability sticks.
+Concretely, that means:
+A deliberately mixed pilot:
+We will launch with a pilot in two small cities in different geographic regions because the vulnerabilities we’re addressing — ransomware, digital exclusion, underinvestment in public IT — affect communities across America.
+Sectors:
+We want to focus on specific sectors - the nation’s 1,800 rural hospitals for example - that provide critical services to communities where they are the only providers.
+Cybersecurity:
+We’re focused on AI based cybersecurity to start, given the risks of more and more sophisticated cyber attacks and the way AI is a game changer for cybersecurity (e.g., using AI to find and fix vulnerabilities in code for devices like MRI machines or hospital monitors)
+A five-year path to scale:
+From that pilot, we’re building further. We aim toward roughly 5-10 anchor cities over five years, beginning with $25 million in committed funding from a16z’s founding partners.
+Why cyber-defense and public benefit, first
+There is a lot AI and advanced technology could do for the public sector, but our first-year focus is deliberately narrow because we know these are hard problems: cybersecurity, digital literacy, and responsible AI use for public benefit. As we evaluate recipients, factors like leadership buy-in, digital vulnerability, infrastructure readiness, and the diversity of communities we can reach will be key. A program like this only works if it’s built
+with
+the people it’s meant to serve.
+Who’s building it
+I’m leading this effort and will initially run the nonprofit as a volunteer, establishing its strategy and building the founding team. Over time, we will hire an executive director to lead the organization’s day-to-day operations and continue building the team on the ground. I am proud to be joined by board members who have demonstrated exactly the kind of expertise — across cybersecurity, technology, and public-sector leadership — that this work demands.
+Brian Barrios
+is Vice President and Chief Security Officer at Southern California Edison (SCE), one of the nation’s largest electric utilities, where he leads the company’s cybersecurity and physical security strategy. Before SCE, he was the Executive Director, Threat Management and Intel for IT for Southern Company and spent years at MITRE supporting national cybersecurity infrastructure and the FBI’s Cyber Division.
+Stephen Goldsmith
+is the Derek Bok Professor of the Practice of Urban Policy at Harvard’s Kennedy School, where his work focuses on how cities use data and technology to better serve residents. Having served as Deputy Mayor of the City of New York and Mayor of Indianapolis, he brings direct governing experience to that research and firsthand knowledge of what it actually takes to get new technology adopted inside a city government.
+Bob Lord
+has spent his career securing high-profile cybersecurity targets, serving as Twitter’s first security hire, CISO at Yahoo, and later as a Senior Technical Advisor at CISA focused on making basic cyber practices accessible nationwide.
+Vishal Misra
+is the RKS Family Professor of Computer Science and Vice Dean of Computing and AI at Columbia’s Engineering school. His research spans network systems, AI, and global technology policy, including work shaping India’s net neutrality framework. As part of the founding team at CricInfo (later acquired by ESPN), he pioneered live sports coverage online, and he later built a commercial GPT-3 application before ChatGPT’s release — reflecting a career spent bridging research with entrepreneurial deployment.
+Phil Venables
+spent 17 years as Goldman Sachs’ first Chief Information Security Officer (CISO) and later became Google Cloud’s founding CISO, where he led the risk, security, compliance, and privacy teams for one of the world’s largest cloud platforms. His experience securing a systemically important bank and then building security for a hyperscaler serving thousands of customers gives him a rare view into both the enterprise-grade defenses under-resourced institutions need and how to make them practical at scale. Phil is now a Partner at Ballistic Ventures.
+Why now
+AI brings opportunity and risks. For small cities and municipalities, it’s harder to take advantage of AI to make city services better or more secure. We intend to show up, understand their specific constraints, and build alongside them. We know these are hard problems and we will approach them with hard work and humility.
+That’s what Securing America’s Infrastructure Foundation is for. We’re starting small and focused deliberately — two cities, one sector, one clear mission.
+If you lead a municipality, school district, hospital system, or community organization that’s trying to hold the line on cybersecurity, we want to hear from you. Contact us at
+info@secureourinfra.org
+.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

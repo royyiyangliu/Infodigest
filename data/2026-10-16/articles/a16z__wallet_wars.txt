@@ -1,0 +1,76 @@
+Source  : a16z
+Title   : Wallet Wars
+Date    : 2026-10-15 14:08 UTC
+Link    : https://www.a16z.news/p/wallet-wars
+────────────────────────────────────────────────────────────
+
+To hear more from Terry, watch the companion a16z Show podcast
+here
+and check-out the open roles at VGS where Terry serves as Chief Strategy Officer
+here
+.
+We’re also excited to announce Securing America’s Infrastructure Foundation today. SAIF is a 501(c)(3) nonprofit, built to deliver AI and cybersecurity tools, hands-on support, and training to public institutions across America that otherwise lack access to AI tools. View it’s full mission
+here
+.
+Agents such as Instinct, OAI’s Dots and Meta’s Muse are bringing personal assistants into text messages and familiar apps. The promise is no longer just better answers; it is getting things done. If my agent can organize my kids’ soccer schedule, it can also order their cleats. If it can plan a trip, it can book the hotel. An assistant that understands my life becomes the starting point for much of my spending.
+But completing those tasks requires something intelligence alone cannot provide: permission to pay. If your agent doesn’t have your credit card number, any recommendation from an agent becomes a “to do” list for me. With payment credentials in hand, the agent can complete the task
+for me
+.
+So, of course, there is a scramble underway for what products and companies are going to help agents pay: enter the Wallet Wars.
+Below the waterline, as wallets get connected to agents, there are two battles going on: one is over who can help my agent pay, and the other (more consequential one) is over who
+lets it transact as me
+. These seem like the same question but they are not! And the difference between the two is important, both for the user experience of “personal payment flows” (think loyalty programs) and for the economics of payments.
+This is not a new challenge
+In the early years of the internet, people were skeptical that anyone would ever buy something online. Giving your card number to a website seemed risky and unfamiliar. But online shopping was enough of a draw that people learned to trust the process. If history is a guide, just like last time, people will have no problem trusting agents to make payments on their behalf.
+Part of what makes an online payment seem scary is that, to the user, the 16 digit card number represents both the identity of the paying account and the authority to initiate a payment. In reality, we’ve worked for decades on the underlying mechanics to make payments easy, safe, and secure, by effectively separating these two concerns. In the industry we call this “payment tokenization”.
+Whenever you trust someone to
+save your card information
+(whether it be a merchant, a service, a wallet, or something else), they often also create a payment token. In addition to making the whole process more reliable and trustworthy, they also do nice things like, when your card expires, your Netflix subscription doesn’t have to pause - the actors behind the scenes coordinate, “you’re probably still you”, and keep your shows going. Payment tokenization is the site of many “inside-industry” power struggles for how you pay, that the user never sees - and I won’t inflict those stories on you, but payments professionals are very used to these kinds of standoffs.
+Now we have these things called agents, which are a further evolutionary step in separating “the identity of the person / the account that’s going to pay” from “the authority to initiate a payment.” And, while it presents some new and interesting challenges which we’ll go through here, we’re not starting from zero - we’re building on years of precedent of how internet payments already work.
+The war to connect
+The fastest way to give an agent spending power is to connect a wallet that already holds the consumer’s credentials. Stripe’s Link (300M users), Shopify’s Shop Pay (250M users) and PayPal (400M+ users) bring existing payment relationships to that contest, rather than asking consumers and merchants to start over.
+For agent developers, the questions are straightforward: How many of my users already have a payment method stored with you? How many of the merchants support this wallet? Stripe and Shopify have moved quickly, powering payments for Muse and Instinct. But speed of integration is only one advantage. PayPal brings an established network of consumers and businesses. Perhaps agents can give PayPal a second act because the winning wallet needs not the prettiest checkout.
+The war for reach
+Because no wallet’s checkout button is accepted everywhere, wallets offer alternative paths to reach merchants. For example, Link gives an agent a single-use virtual card to make purchases on behalf of the customer.  In this flow, a merchant does not need to integrate Link; instead the agent can present its own virtual card during checkout.
+While this expands its merchant acceptance, it doesn’t make the purchase equivalent to using the original card. Instead, two transactions are occurring. One between me and Stripe Link (using my card in the wallet) and one between Stripe Link and the merchant.
+This can lead to some sub-optimal experiences. For example, imagine your agent buys something from Walmart. Walmart sees an opportunity to strengthen their customer relationship, and tells you: “We’d love to sign you up for Walmart+!” But if you try to accept their offer, what happens? The whole experience breaks, because the credit cards don’t match.
+Stripe is building the AOL of agentic commerce
+AOL packaged a messy online world into a curated experience; rather than read the news on an unknown website, AOL fetched the news and brought it to you, inside AOL.
+For agentic payments, Stripe is building a similar walled garden where transactions occurring inside Stripe’s ecosystem never need to exchange credentials. If your agent shops at a Stripe merchant, Stripe can already charge the card on file without an agent touching it.
+When transacting at non-Stripe merchants, Link has been the most aggressive wallet to use its own virtual cards for payment. This means that Stripe is actually buying the item
+on-your-behalf
+, rather than the agent acting as you. The good news is that the transaction succeeds. The bad news is the relationship between you and the merchant has changed and this creates problems outside the AOL-like walls.
+Suppose I tell my agent to use my Chase Mileageplus card to book a flight at United. If my Link wallet charges that Mileageplus account, but pays United with a Stripe issued virtual card, the money may move without delivering everything I intended (where are my promised miles?). Link’s own terms warn that underlying card offers, benefits and rewards do not carry through in certain separate-payment-method transactions.
+Stripe can reproduce the payment without necessarily preserving the relationship. That is the distinction between payment interoperability and relationship interoperability.
+The war for routing
+Now imagine my agent can access Link, Shop Pay and PayPal, with several cards available across them.
+Which should it use?
+I might prefer my airline card for airfare, another card for groceries, or the payment method already saved with a particular merchant. I may prioritize rewards for one purchase and purchase protection for another.
+As we use agents going forward, “buy it” is not a complete payment instruction. The agent needs to understand my preferences, the merchant relationship and the consequences of each payment route. And when those interests conflict, whose economics should it optimize, the consumer’s, the merchant’s or the agent platform’s?
+We are headed to a world where an agent needs a payment policy, not just a payment credential.
+The war for liability
+With so many intermediaries between me and my purchase, who bears liability for mistakes? Suppose I authorize my agent to spend $500 on a hotel. It stays within budget but books the wrong dates. The hotel delivers exactly what the agent ordered.
+Who gives me my money back?
+We are re-writing the rules for liability as each of the participants define their role. For example,- the card networks have frameworks for scoped payment credentials that restrict spending by amount and merchant and preserve the cardholder rights to chargebacks. Most wallets treat transactions from a connected agent as authorized even when the agent misinterprets instructions. The agent too will have to show that it followed the guidance set by the user.
+So we have overlapping permissions and recourse. Authorization, correct execution and purchase protection are different problems. Authorization is addressed by payment tokens. Execution by the agent and purchase protection by the wallet and card issuer.
+For consumers, the question will be much simpler: when my agent gets it wrong, who makes it right?
+The Future is Open Standards
+As agents scale, the AOL-era will give way to open standards where agents preserve my relationship with the merchant, use my preferred issued card and ensure my transaction earns the right loyalty and benefits rewards.
+The card networks announced a set of standards for Agentic Commerce that allows agents to safely receive my card and (more importantly)
+transact as me.
+Each network has its own world salad approach:  Visa has Visa Intelligent Commerce, Mastercard has AgentPay and AMEX has ACE.
+These standards from the card networks move us from the “AOL of agentic payments” to something more like the open web. The best of all worlds is a future where my agent can
+use
+my credit card, without
+having
+my credit card. How could we achieve this?
+I store my card in a trusted wallet
+Before a transaction starts, the wallet creates a scoped agentic token that can safely be handed to the agent and given to the merchant. The token can’t be used by another party or merchant and has built-in safeguards that match the prompt (“don’t spend more than $100”)
+The merchant receives the agentic token and can transact using this credential, which maps back to my original card and preserves all loyalty and cardholder benefits.
+AOL was a helpful set of training wheels for getting everyone online, but the open web ultimately won. We think the same thing will happen with agents as well.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
