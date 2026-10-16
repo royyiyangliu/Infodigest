@@ -1,0 +1,105 @@
+Source  : a16z
+Title   : This Week in Charts: Agents Denied
+Date    : 2026-10-16 14:00 UTC
+Link    : https://www.a16z.news/p/this-week-in-charts-agents-denied
+────────────────────────────────────────────────────────────
+
+Agents Denied
+Agentic commerce
+is a thing. Muse and others advanced the timeline to “
+agentic commerce is here right now—it was nice knowing you, old-school ecomm
+” but then more recently, some big etailers (like Amazon) responded, “
+not so fast—agent shoppers are officially instablocked
+.”
+Now, the battle between what agents and bots can do vs. what the rest of the internet will allow them to do has been going on for some time, but the recent escalation does appear to show up in the data:
+According to data from Cloudflare, the share of 403 “Forbidden” responses received by agents and bots has fattened considerably since the summer (and is ~double what it once was).
+Whether that’s a response specifically to “agentic commerce” is a separate question, but presumably that’s at least some part of what’s going on. Etailers understandably don’t want to be disintermediated, and not only lose their customer relationships, but also lose those customer eyeballs that are a substantial source of advertising revenue for the large ecomm platforms.
+There are likely other reasons why the Amazons of the world are apprehensive about agentic commerce, beyond simply eroding their platform advantages. First among those other concerns are likely fraud and returns, both of which have been a rising plague for ecomm more broadly:
+According to data from the NRF, return rates and the total cost of returns have basically doubled and tripled, respectively, since 2019. Likewise, reported fraud is pervasive, with the most common concern being “dispute abuse,” i.e. customers buying something and then later disputing the charge. If the card issuer takes the customer’s side, the merchant is SOL.
+It’s not hard to understand why etailers would be concerned that agentic commerce could make a worsening problem even worse. “
+Oh, my agent bought that personalized varsity jacket with my name in sequins, not me, I’d never do that
+” or “
+I told my agent to buy socks at the best price, but I didn’t expect it would find the ‘10,000 pairs of argyles, wholesale special,’ so please send a return label and a forklift.
+”
+OK, so fraud, returns, customer relationships, and ad monetization are all throwing sand in the gears of the agentic commerce wave, but presumably those are solvable problems with better tech and commercial ingenuity.
+There’s another problem, however, that may be holding back the bot-buying-spree: it’s possible that consumers don’t actually
+want
+their bots to do their shopping for them (yet).
+As of now (according to
+some
+data, at least), consumers seem broadly open to the idea of AI helping them find what they’re looking for, and especially helping them find the best price, but when it comes to actually making the purchase, consumers appear to be somewhat resistant:
+~25% of respondents said they’d be comfortable letting AI buy them a variety of consumer goods (except for luxury goods), but 42% said they would not trust AI at all to make purchases on their behalf. That’s less than half, but it’s still more than one would expect.
+It would seem, that for now, consumers—like the etailers—are
+also
+worried about mistaken purchases, annoying returns, and chargeback disputes. That, and it may be the case that people just like to do their own shopping, at least when it comes to the final purchase decision.
+Along those lines, there is some clickstream data from Similarweb (albeit a little stale) that seems to bear that out: AI is good for a consult, but
+buying
+is (for now) a human affair. There appears to be an increasing share of “shopping journeys” that visit AI before hitting the actual checkout page, but really the vast majority of AI shopping sessions appear to be in the “middle phase” of the journey, i.e. between discovery and purchase:
+It’s fair to take this data with a grain of salt (because that is the nature of clickstream data), but the implications are otherwise pretty clear: for now, consumers seem to be using AI predominantly to do their homework on products they’ve already discovered, rather than either (a) discovering them with AI or (b) using AI to make the final purchase decision.
+That makes the case for agentic commerce a bit less straightforward, but it especially makes the question of AI advertising attribution even less straightforward. If someone sees a recommendation in their AI-led middle shopping journey, but then makes the final purchase decision in a different session, then who will know what moved the consumer spirit to which outcome and when?
+Again, the data appears to end in June, so whether that’s still true, let alone will remain true, is an open question, but either way, the relationship between shopper and bot is more complicated than it seems.
+Super-Pareto TikTok Shop
+While on the subject of ecomm, and potential disruption (or not) from agentic commerce, it turns out that social commerce on TikTok Shop has an
+incredible
+right-tail skew, for both the social part and the commerce part.
+According to data from Marketplace Pulse, 8.4% of TikTok Shop sellers generate 1,000+ videos and capture ~60% of overall sales. Make a lot more videos, sell a lot more stuff.
+But the distribution of sales to sellers is actually even more extreme.
+Again, according to Marketplace Pulse, ~60% of sales are driven by the top 1% of sellers, and
+~93% of sales are driven by the top 10%
+.
+It’s hard to know what to make of this really, other than simply to marvel at the persistence of (super) pareto distributions, but Charts will try to, anyway.
+On the one hand, it seems that making a lot a lot of videos is a good way to drive sales, which implies there’s something evidently “personal” about the shopping experience that would be hard for an agent to replicate (although perhaps if Muse live-streamed its journey, that could change).
+On the other hand, if agentic commerce really does take off, then what would it mean for this small, but mighty cohort of prolific content creators who drive sales through a medium that has no relevance to an agent whatsoever?
+Of course, agentic commerce and social commerce do not have to be mutually exclusive. Retail is really big, and there’s plenty of room for more than one model. But, it does seem broadly true that the way we shop now is optimized for a human interface to a degree that “just add agents” may be underestimating.
+Cure To High Prices Is High Prices
+Charts has no intention of weighing in one way or another on the “inflation: will it, won’t it” debate, but it will take a moment to reflect on the old saying that “the cure to high prices is high prices,” because it certainly seems worthy of some consideration.
+The basic premise is straightforward: if prices get high enough, they suppress demand—either for that thing, or some other thing(s) that demand can no longer afford because demand is paying so much for the now more expensive thing. As everyone knows, when demand falls, prices tend to follow . . . so if high prices eventually suppress demand, and suppressed demand leads to falling prices, then the cure to high prices is . . . high prices.
+Simple enough.
+In this case, most everyone knows by now that AI capex has led to a surge in demand for chips and electrical components that is causing the price of those components to rise substantially:
+According to the BLS, the prices paid for semis etc., by manufacturers of computers and computer-like things have skyrocketed over 25% YoY.
+Now, those high prices do not appear to be dampening hyperscaler demand for chips—if anything, capex forecasts have gone higher, in part because the components have gotten more expensive.
+But that doesn’t mean high prices are having no effect on demand. Hyperscalers may still be on a chip-buying spree, but
+everyone else
+appears to be saving their hardware upgrades for another day:
+Just taking PCs as an example, according to IDC, PC shipments have dropped substantially since the beginning of the year.
+It’s not just PCs that are facing some demand headwinds, but iPhones, as well, all of which have gotten more expensive, partly as a result of the AI buildout. Now, is it definitely the case that high prices are the reason that fewer PCs and iPhones are shipping? No, but it seems like a pretty good guess. And if that’s true, then the old adage appears to be working its way through the system (and will perhaps be reflected in softer prices, soon enough).
+Consider, perhaps, another example of high prices being the cure to high prices.
+Many, including the
+State of Markets
+, have observed the rising prominence of debt, when it comes to financing the buildout. Increased demand for borrowing (among other things) has, unsurprisingly, led to rising prices on that debt:
+Rates for bonds linked to the tech sector have meaningfully diverged from the broader universe of corporate issuance, beginning roughly in September of ‘25, when capex borrowing began to take off.
+More demand generally means higher prices, so it all checks out. And if higher prices eventually mean less demand, well, that too also appears to check out:
+After growing substantially throughout the first half of the year, AI-linked debt issuance has fallen off since its June peak, with September issuance checking in at barely half of what was issued in August (which was already less than what was issued in July).
+Of course, there are other reasons beyond supply and demand that would cause debt pricing to rise and fall, but supply and demand surely matter. And in this case, it appears as though the high price of borrowing has indeed put a damper on the inclination to borrow.
+If demand falls, does that mean the cost of borrowing will fall in turn, and score another win for the old saying? We don’t know yet, but we’ll probably know soon enough.
+Zoomers Living Large?
+How’s this for a narrative violation?
+According to some data and analysis from PNC Bank, Zoomers are actually doing pretty well, from a financial standpoint. Not only are they doing well, but Gen Z is doing considerably better in 2025 than Millennials were doing 10 years ago (when Millennials were Zoomer-aged):
+Zoomers enjoy
+real
+incomes that are 20-40% higher than what their Millennial elders suffered at every part of the income distribution. Point-in-time generational comps are imperfect, but it’s still not the result most would expect to find.
+It’s also not just higher incomes where Zoomers are winning. There’s also data that suggests Zoomers face
+lower
+unemployment, have
+higher
+net worths,
+more
+liquid assets, and
+bigger
+retirement accounts, then the previous generation did at an equivalent stage of life.
+Indeed, with all that extra cheddar, it would appear as though Zoomers are living relatively large:
+According to PNC’s internal data, Zoomers spend more of their income than Millennials and leave less in the rainy-day fund, as well.
+In terms of what Zoomers are spending their money on, they allocate more to retirement, shelter, and transportation, and substantially less to education and energy:
+At the category level, Zoomers also allocate relatively more to gambling and devices, but relatively less to clothing and sustenance.
+Save more for retirement (but keep less in the rainy-day fund), while also hitting the tables and the money line, but sparing the booze. It’s an odd combination, but it’s Zoomer money, and they can spend it how they please.
+Well, perhaps, “please” is the wrong word, because whatever their material advantages over generations prior, the Zoomer mood is decidedly dour:
+Since 2017 (with a partial reprieve during pandemania), the traditional “sentiment” advantage that 18-34 year-olds typically enjoy relative to the broader population has all but evaporated. The Zoomers are not as cheerful as young folks of yore.
+Now, consumer confidence is a very noisy series that has lost even more signal since the pandemic, likely because of falling response rates (among other things), but even if it’s noisier, it’s strange (but possible) that the noise would be isolated to 18-34 year-olds. In other words, even if the headline “confidence” figure is less reliable, one would think the ratios within ought to stay relatively stable . . . and in this case, it appears they haven’t: Zoomers are no more confident than anyone else, which makes them unlike all the young people of generations prior (at least through the ‘70s).
+Taking this at face value, it would appear that the data does validate the vibe . . . but however bad the vibes may be, it’s hard to blame finances. That doesn’t mean Zoomers are without other reasons to feel relatively less optimistic, but certainly when it comes to making and spending money, they seem to be doing just fine.
+Why so serious, Young Zoomer?
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
