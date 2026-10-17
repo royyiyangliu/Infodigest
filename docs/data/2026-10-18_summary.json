@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-18",
+  "generated_at": "2026-10-17T23:33:01.253736+00:00",
+  "stats": {
+    "tweets": 5,
+    "podcasts": 1,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie 大胆判断：AI 训练模型的能力将很快超过人类，递归自我改进（RSI）已从\"遥不可及\"变成\"已初见端倪\"。他认为模型能力超过多数人类工程师、长时运行 agent 的框架与基础设施进步、数据日益丰富，以及可并行海量 agent 执行远超人力的任务/测试/方案，正形成强大飞轮，将以前所未有的速度推高前沿模型上限；他提醒投资者，若尚未把 RSI 的影响计入定价，很可能是个错误。"
+    },
+    {
+      "author": "Boris Cherny",
+      "handle": "bcherny",
+      "summary_zh": "Anthropic Claude Code 负责人 Boris Cherny 表示，Claude Code Review 已运行在他所有的 PR 上，几乎能在上线前抓出所有 bug，是团队既能快速迭代又能抬高质量门槛的\"秘密武器\"。他同时力推 Claude Slides，称现在已用它制作幻灯片，不再需要手动找素材拼图。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI Codex 负责人 Thibault Sottiaux 介绍了新产品 ChatGPT Space，并征集用户对后续功能的需求。他还宣布 ChatGPT 刚上线幻灯片（slides）支持，目前面向 Pro、Business 和 Enterprise 用户开放，将根据反馈迭代——与 Anthropic 的 Claude Slides 形成正面竞争。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad 宣布 Replit 支持部署到客户自有云环境、数据不出本地，主攻政府、金融、医疗等高敏感场景，意在切入企业私有化部署市场。他还评论称，数学家群体在极短时间内经历了面对 AI 的\"悲伤五阶段\"（否认、愤怒、讨价还价、沮丧、接受），目前正处于沮丧尾声、步入接受阶段。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch 转发称，经 scriptc 编译后的 TypeScript 性能比微软原生 Go 版编译器 tsgo 快 **2-4 倍**。他还将 Roadster 演示重建为一个可交互、高度还原真实细节的物理模拟。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "No Priors",
+      "title": "The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman",
+      "date": "2026-10-15 10:00 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/@NoPriorsPodcast",
+      "summary_zh": "OpenAI 联合创始人兼总裁 Greg Brockman 做客 No Priors，谈数学突破、新产品 Astra/DOTS、药物研发与网络安全。背景：OpenAI 本周向**超过10亿**用户推出 GPT-6。\n\n**1. 数学：AI 已能产生新知识。** Brockman 称本周数学成果是里程碑，OpenAI 公布了近**400个**重要开放问题获得解决，包括百年难题；AI 能否创造新知识\"已无法否认\"，但尚未提出全新理论。数学界正从证明中挖掘新洞见，不同于四色定理式\"机器穷举\"。他认为核心驱动力是数据（算力+数据+算法=能力），可迁移至理论物理；生物的瓶颈在数据。\n\n**2. 药物研发是首要方向。** 主持人引述：新药研发约**15年**、**约15亿美元**，其中**14亿美元以上**花在临床阶段。Brockman 认为人类天生不擅长生物，而神经网络无理由在自然语言上强于\"生物语言\"。短期可提效环节：提高并行度、缩短各步骤时长、AI 撰写耗时约**1年**的临床申报材料、为 N-of-1 罕见病从文献中检索既有疗法；数据缺失处需依赖湿实验与模拟创新。监管需在\"证明物理规律已变\"后跟进（类比自动驾驶安全**10-100倍**于人类），预计**80%**的潜力会很快兑现。材料科学是另一方向。\n\n**3. 产品：DOTS 与无界面。** DOTS 是基于 Astra 级模型、拥有独立云电脑、\"始终在线\"的主动式 agent，整合邮箱、Slack、日历，主动发现待办与日程冲突，被称为\"形态而非能力的变革\"。消费与企业产品将融合，差异主要在算力成本；OpenAI 拥有 ChatGPT **12亿**消费用户加领先的编程/企业业务，\"无人同时兼具\"，战略是统一为单一战线。\"最好的 UI 是没有 UI\"，GPT-6 支持先快答再深思，并上线生成式 UI。\n\n**4. 网络安全：安全支出应远超软件支出。** 当前处于\"防御者窗口期\"：前沿能力尚未扩散，但普及能力逐代上升，韩国已出现模型驱动的银行入侵。OpenAI 通过 Daybreak 计划向防御者开放模型，并做出**10亿美元**承诺支持一线防御者，与 CrowdStrike 等合作。内部曾抽调约**25名**生产工程师暂停项目、用最强模型扫描全部基础设施直至\"漏洞饱和\"，每次新模型发布都需重复。传统安全预算仅占 IT 的低个位数百分比，而 Brockman 判断软件变得极其廉价后，可靠与安全才是价值所在，形式化验证、供应链审计将变得可行，长期可迎来更安全的世界。\n\n**5. 使命**：坚持人类\"在驾驶座上\"，AI 放大人类能动性。"
+    }
+  ],
+  "articles": []
+}
