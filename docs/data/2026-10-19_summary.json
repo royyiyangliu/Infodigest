@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-19",
+  "generated_at": "2026-10-18T23:32:59.537660+00:00",
+  "stats": {
+    "tweets": 5,
+    "podcasts": 1,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie 认为，那些预测“软件工程终结”的人犯了一个根本性误判：他们以为世界对软件的需求是固定的，自动化会减少对工程人力的需求，而事实恰恰相反——几乎所有事情都在变成软件。由于 Agent 能使用工具、操作电脑、即时编写软件并像人一样（但快得多）处理数据，过去无法数字化的问题现在都可以用“软件”来解决，工程在经济中的重要性将进一步上升：银行做新型交易、生命科学的研究与实验、制造业的供应链自动化，都越来越像工程问题。他总结称，未来人们不会再手写代码，但几乎一切都将是代码，懂代码的人处于极佳位置。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad 澄清其在 TechCrunch Disrupt 上的表态：Replit 仍保持模型中立，用户依然可以选择 Anthropic 及其他多种模型。他所指的是，OpenAI 现已成为驱动 Replit Agent 的“首选合作伙伴”，理由是性能、成本及双方合作关系的强度；公司策略是在保留模型选择权的同时，以最佳性价比优化默认体验。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI Codex 负责人 Thibault Sottiaux 分享了一个多 Agent 协作的实际案例：他工作用的 AI 助手“Burger”应其个人助手“Dorito”的请求，通过电子邮件协调获取文件，再与他的会计师（CPA）对接完成部分报税事务，全程仅用 **20 分钟**，他感叹“我们仍处于非常早期”。他同时预告某项发布将于当天太平洋时间下班前上线，随后确认“已完成”。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品负责人、《Behind the Craft》作者 Peter Yang 称赞 Anthropic 的 Claude Code 应用（点名 @amorriscode 团队）如今速度大幅提升，使用上甚至可以说比 ChatGPT 更简单。他认为其仍欠缺的功能包括：更好的浏览器/电脑操作能力、对所有会话线程的远程控制，以及实时语音。另外他分享了一个用 AI 审计 Google 账号第三方授权的提示词（他本人连接了 **45** 个应用和 Agent），强调区分普通登录与 Gmail/Drive/日历数据权限、标记过宽权限，并仅在用户明确批准后才断开连接。"
+    },
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "Latent Space 播客主理人、AI Engineer 大会联合创始人 swyx（Shawn Wang）披露其 YouTube 频道数据：自 5 月 AIE EU 大会后，频道每月持续拥有 **超过 100 万** 独立观众，但每月仍有 **58%** 的观众是新观众，**68%** 的观众未订阅；观看高峰集中在太平洋时间每日早 7 点至 11 点，下午 5 点后几乎无人观看。他坦言频道在前 **2 年** 几乎无人问津，之后才逐渐通过浏览推荐获得流量，但点击率（CTR）仍偏低，下一步目标是与 Fireship、ThePrimeagen 等受众重叠的技术频道逐一合作。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "The MAD Podcast with Matt Turck",
+      "title": "What Happens When Billions of AI Agents Hit Your Database? (Andy Pavlo)",
+      "date": "2026-10-08 11:30 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "summary_zh": "嘉宾 Andy Pavlo（CMU 数据库教授，近期加盟 ClickHouse 创立 ClickHouse Labs，入职约 **2 个月**），对话 FirstMark 的 Matt Turck（ClickHouse 投资方），讨论智能体时代的数据库。\n\n**智能体如何改变数据库**：Databricks 收购 Neon 时披露，智能体创建的 Neon 数据库/分支占比从 **30%** 升至 **80%**，主要用于开发测试的写时复制分支。Pavlo 认为智能体的访问模式与人类并无本质不同，核心变化是 24×7 运行带来的量：继大型机、互联网、移动之后的“第四个时代”，查询量可能增长 **10–100 倍**，ClickHouse 已观察到这一趋势；智能体生成的 SQL 可能更“浅”，智能体遥测数据的存储与分析也是新需求。“每个月都有人因智能体删库而丢失生产数据库”，根源是缺乏权限护栏，而传统商业数据库早已具备这些机制。\n\n**技术判断**：向量检索已成标配（一年内几乎所有厂商都加了向量索引），护城河薄，但 Turbopuffer 凭性价比表现很好；向量库将演化为通用系统或类 Elasticsearch 的附加系统。强烈看空图数据库：SQL:2023 已支持属性图查询，关系型系统可轻松超越 Neo4j，他打赌图数据库市场到 **2030** 年也不会超过关系型。智能体记忆“文件系统 vs 数据库”之争是伪命题：文件系统本质也是数据库。大模型建新应用几乎总推荐 Postgres，已有 **2 家**数据库公司向他请教如何让智能体优先推荐自己（类似 SEO）。MCP 本质是 REST 接口，效率不高但“够用”。\n\n**Text-to-SQL 与 AI 写数据库**：某大银行现成方案准确率约 **60%**，经多年、数百万美元构建语义层后达到约 **95%**。Anthropic 的 Opus 4 之后，智能体几乎能完成 CMU 数据库课全部作业；其 dbdb.io 统计显示超过 **60%** 的开源数据库已有智能体提交的代码。LLM 调优可在约 **15 分钟**内达到 **80–85%** 的效果，此前 ML 模型需训练数小时；传统 DBA 调参、选索引的工作将被自动化，数据建模仍需人。\n\n**市场格局**：OLAP+OLTP 融合是趋势（Databricks 收购 Neon、Snowflake 收购 Crunchy Data、ClickHouse 推出托管 Postgres）；他认为先做分析再补 OLTP 是更聪明的路径。HTAP 难以普及更多是组织原因，因为各方都要最佳产品，而 Postgres 已成 OLTP 首选。ClickHouse 的列存、向量化等核心架构到 2026 年已是标配，差异化在于周边体验（Snowflake 成功即源于此）；ClickHouse 收购 Langfuse 做 LLM 可观测。GPU 数据库：NVIDIA 收购 Voltron、HeavyDB 等公司以多卖 GPU，微软已提供 GPU 加速分析，另一大厂测算经济性后放弃，前景待定。数据库行业相对 AI 显得“停滞”，但关系模型不会被取代，短期精力将集中在 Postgres。"
+    }
+  ],
+  "articles": []
+}
