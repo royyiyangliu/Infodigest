@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-20",
+  "generated_at": "2026-10-19T23:33:30.245035+00:00",
+  "stats": {
+    "tweets": 7,
+    "podcasts": 0,
+    "articles": 1
+  },
+  "tweets": [
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie（@levie）判断\"智能体集群（agent swarms）将是一件非常重大的事\"：它首次让算力成为经济中大量重要任务的关键变量。他认为研究、数据处理、探索性工作、测试等大量工作此前受制于人类规划、执行、审查与协调的能力，因此相对其经济价值目前做得很少；而智能体集群可将这类工作并行化，理论上唯一的参数就是投入多少算力。他点名网络安全、生命科学与材料科学研究、交易、QA 测试、数据处理等领域在模型足够强后本质上都是\"算力约束型\"问题，只要设定正确目标并投入足够 token 即可求解任意复杂问题，这将改变这些行业乃至其竞争格局。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI Codex 负责人 Thibault Sottiaux（@thsottiaux）表示，OpenAI 团队已与 OpenCode 合作，让同时是 OpenAI API 客户的 OpenCode 用户在遭遇攻击后恢复使用，并退还因该攻击被消耗的全部额度。他同时呼吁开发者申请\"Daybreak Blue\"权限，以使用 OpenAI 面向防御用途的\"网络安全宽松（cyber permissive）\"配置，\"不要等到出事才处理\"。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch（@rauchg）称在 Vercel AI Gateway 上试用了新模型 deepseek-v4.1-flash-1017-fast 来改进一个赛车小游戏，模型加入了音效、更好的碰撞检测、改进的坡道和跟随车辆的镜头等，总成本约 **30 美分**，体现了新一代低价模型的高性价比。他还调侃科技热词让一些国家域名经济\"垂直起飞\"：.co（哥伦比亚）、.io（英属印度洋领地）、.md（Markdown→摩尔多瓦）、.rs（Rust→塞尔维亚）、.ai（安圭拉）等，并预言 .ar（增强现实→阿根廷）将是下一个。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic Claude Code 团队成员 Thariq（@trq212）坦言，自己现在常常更愿意用 vibe coding 做游戏的小部分，而不是真正去玩游戏（尤其是《英雄联盟》这类烧脑游戏），他认为这对游戏行业意味着某种重要变化。他正在构思一款以\"创作即乐趣\"为核心卖点的游戏：以开源形式发布，玩家可自己 vibe code 角色、由系统自动平衡，具体玩法（角色自动对战如 Salty Bet，或 Persona/Heavy Rain 式的电影化战斗）仍在探索中。"
+    },
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "Latent Space 创始人、AI Engineer 大会联合创始人 Swyx（@swyx）提出\"数据工程师 > AI 工程师\"：他认为\"RAG 工程师\"与真正懂\"数据密集型应用\"的人之间存在巨大差距，而后者的需求之旺盛是他整个科技职业生涯（搜索引擎大战之后）从未见过的。他正为此类人才招聘（旧金山优先，可协助搬迁及签证）。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品经理、播客主持人 Peter Yang（@petergyang）主张招聘应以\"工作试用\"取代面试，并引用 Anthony Pompliano 在其节目中的经历：直接给候选人两周时间开发一个具体功能，候选人做出来了，既无需再质疑其能力，又省去了约四周的面试流程，同时还上线了一个新功能。他还预告本周将发布一个免费开源的 skill 及配套视频。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator 总裁兼首席执行官 Garry Tan（@garrytan）发出大胆预测：大约一年内，所有人都会在自己的智能体（agents）中使用 @AsideAI。"
+    }
+  ],
+  "podcasts": [],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "Datacenters 2027: The Year of Acceleration, +50GW in a Single Year",
+      "date": "2026-10-19 05:39 UTC",
+      "link": "https://newsletter.semianalysis.com/p/datacenters-2027-the-year-of-acceleration",
+      "chars": 10277,
+      "summary_zh": "SemiAnalysis 认为，尽管电力、劳动力、供应链和资本都有约束，2027 年全球 AI 数据中心仍将显著提速，单年新增约 **+50GW**（文中另提及此前预测为 **+43GW**），这相当于全球截至 2024 年的累计数据中心规模在一年内建成。文章直接反驳了 Altimeter 的 Brad Gerstner：他在 All-In 播客上称这一预测\"过于激进\"，凭\"直觉\"判断只能建成约 **25GW**。\n\n核心证据：\n1）**在建实物**：已有 **>24GW** 数据中心处于后期施工阶段，大部分将在 2027 年交付，其中多数已完工过半，外部冷却和电气设备已经装好。这只是前 **40** 个园区，后期施工的站点共有数百个。案例包括 Crusoe Abilene、AWS Indiana、QTS/微软 Georgia。\n2）**领先指标一：自建开工**。美国 hyperscaler 每季度新开工的 MW 数呈抛物线式增长，创历史新高，主要由两家 hyperscaler 驱动。\n3）**领先指标二：租赁**。开发商在没有客户时一般只投入项目资本的 **5-10%**，需要先签预租约，通常为 **15-20 年**期，每 GW 合同总价值（TCV）约 **300-500 亿美元**。2026 年至今已签署并完成交割的租约价值 **超 1 万亿美元**（具约束力、不可撤销）；SemiAnalysis 的 Compute, Capital & Markets Model 显示，对应的大部分债务已经融到。2026 年增速相对 2025 年不算高，原因是 2023H2 至 2025H1 季度租赁量基本持平，主要因为微软暂停了数据中心扩张。2025H2 起，Oracle 在 2025 年 8-10 月间于三个站点锁定约 **4.5GW** IT 容量，开启了巨型租约时代。之后 Meta、AWS、微软、Google、Nvidia、AMD、Anthropic、OpenAI 都在寻求 GW 级租约，另有大量 Neocloud 签下百 MW 级合同。\n\n建设方式的变化：\n- 设计模块化和预制化：Google 电气架构模块化；Meta 采用帐篷式设计；AWS 推出简化外壳的\"SAMDC\"和预制数据大厅的\"Project Houdini\"。施工周期降到 **10 个月以内**，MEP 人工（原需 **7-11 个月**）最多可减少 **63%**。\n- 新加坡开发商 DayOne 自 2023 年初首单以来累计租出约 **3GW**，建设周期由传统的 **>18 个月**压缩到约 **9 个月**，因此拿下了 Firmus、OpenAI、Nvidia 的大单。\n- 电力：电网余量预计在 2027 年底转负，并网周期长达 **5-10 年**，促使 AI 实验室和 hyperscaler 转向表后自建电厂（behind-the-meter）。GEV 等燃机龙头一度产能受限，但新 OEM 以及燃料电池、卡车发动机、翻新燃机等方案涌现，SemiAnalysis 认为发电问题已\"基本解决\"。\n- 地域分散：美国以外的建设在 2027 年明显加速，预计 2028 年将因美国本土的约束进一步提升份额。\n\n投资含义：算力供给大增，意味着 AI 更便宜、更聪明，模型进步加快，头部 AI 实验室和 token 供应商的收入可能明显加速；同时资本开支将达到\"难以想象\"的规模，资本需求会推高利率。文章提到 SemiAnalysis 提前预判了 Vertiv、ABB、Sterling Infrastructure 等工业供应商的订单激增。文章还提出，真正的问题可能是数据中心是否会过剩：2027-28 年的头号约束可能从数据中心和电力转向存储与逻辑芯片（该部分为付费内容，正文未展开）。"
+    }
+  ]
+}
