@@ -1,0 +1,311 @@
+{
+  "fetch_date": "2026-10-21",
+  "fetch_time": "2026-10-20T20:16:30.019073+00:00",
+  "stats": {
+    "new_podcast_episodes": 1,
+    "new_articles": 3,
+    "new_tweets": 21,
+    "total_podcasts": 1,
+    "total_articles": 3,
+    "total_tweets": 21,
+    "transcribed_this_run": 1
+  },
+  "podcasts": [
+    {
+      "source": "硅谷101",
+      "title": "E256｜Agent、机器人与制药，谁先被GPT-6 Astra改写？",
+      "date": "2026-10-19 16:00 UTC",
+      "link": "https://podcasts.apple.com/us/podcast/e256-agent-%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B8%8E%E5%88%B6%E8%8D%AF-%E8%B0%81%E5%85%88%E8%A2%ABgpt-6-astra%E6%94%B9%E5%86%99/id1498541229?i=1000797164076&uo=4",
+      "orig_link": "https://sv101.fireside.fm/270",
+      "audio_url": "https://aphid.fireside.fm/d/1437767933/f0f20376-8faf-4940-b920-84af6c734e2d/9e6e1db1-f30b-492d-8a09-d8756b9df700.mp3",
+      "duration": "1:19:40",
+      "summary": "回顾9月，AI圈的重磅新闻一个接一个。\n先是OpenAI发布GPT-6 Astra，总裁格雷格·布罗克曼在发布会上宣布：AGI已经到来。\n这场发布对机器人行业的冲击，来得有些意外，一个发布会报告里只字未提机器人的通用模型，转身就空降了机器人评测榜首，甚至让很多机器人的Benchmark都失效了。有人开玩笑说：机器人领域等了这么多年的“GPT时刻”，居然是GPT自己。\n同样在这个月里：Meta Muse冲上美国App Store榜首，它的竞争对手Instinct估值也涨到了100亿美元；xAI的Grok Bot开放了企业部署；不生成文本、只给选项打概率的决策模型Jev以“系统1”走红，发布24天就融了8.7亿美元。\n在AI for Science方面，Claude发现类CRISPR的新酶系统；扎克伯格夫妇资助成立的Biohub宣布将虚拟细胞计划扩大到18亿美元……这些进展又会为科学发现带来哪些改变？\n本期《硅谷101》，我们请来三位分别站在Agent、机器人和AI制药一线的研究者，聊清楚三件事：个人Agent商业化卡在哪？机器人怎么被Astra这样的底层模型冲击？AI制药真正的瓶颈是什么？\n本期节目录制于2026年9月29日\n【主播】\n泓君，硅谷101创始人，播客主理人\n【嘉宾】\n许华哲，破壳机器人创始人、清华大学交叉信息研究院助理教授（X:@HarryXu12）\n朱哲清，Pokee.ai创始人兼CEO，前MetaAI应用强化学习团队负责人，斯坦福强化学习博士（X:@ZheqingZhu）\n王晟，华盛顿大学计算机学院助理教授（X:@profshengwang）\n【你将听到】\n00:05 新播客\n《消费101》\n上线啦！\n00:49 9月AI大事记\n04:18 各领域实测Astra感受\nAgent领域\n09:11 生物医学“古董级软件”有了Computer Use\n12:17 Computer Use是什么？与API调用的区别\n15:47 Meta Muse会走Manus的老路吗？\n17:31 Meta Muse破局关键——软硬件结合\n19:37 商家愿意开access，前提是确认身份\n22:21 个人助手Agent新一轮烧钱获客大战\n24:57 Grok Bot，“走在后面的人”\n25:44 前沿Lab最烧token的是AI for Science\n27:48 小模型追大模型，差距在缩小，但可能追错了benchmark\n机器人领域\n30:19 未来需要快决策模型 + Astra的推理能力\n35:48 筷子夹小球效果：自研模型 V.S Astra\n37:25 Astra冲击：利好Sim-to-Real和本体硬件\n39:07 从TAMP到Agentic：机器人规划重回台前\n40:19 数据标注新门槛：标注因果与直觉物理\n43:06 惊艳之后，Astra也有明显短板\n45:12 Jev“快系统”的潜在价值\n生物医学领域\n47:10 实验设计完成度只有30%，Astra缺什么？\n51:39 AI制药，离不开实验室的验证和数据积累\n53:15 制药时间线：AI设计分子快，真实验证慢\n55:01 从AlphaFold开源，看垂直科学公司的数据护城河\n58:24 未来趋势：湿实验公司用MCP/API直连大模型\n01:02:15 人类科学家的角色转向“定义问题”\n01:03:47 好的benchmark，应该是无上限的\n01:02:15 ART的启示：酶和蛋白质实验周期短，最先跑出来\n尾声\n01:07:48 “蒸馏”是否让普通人失去了价值？\n1:11:51 Age",
+      "lang": "zh",
+      "chars": 47723,
+      "text_file": "data/2026-10-21/podcasts/硅谷101__e256agent机器人与制药谁先被gpt-6_astra改写.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "Citrini",
+      "title": "Citrini Therapeutics",
+      "date": "2026-10-20 12:59 UTC",
+      "link": "https://www.citriniresearch.com/p/citrini-therapeutics",
+      "summary": "We Wanted to Use Claude to Create a New Drug. Here’s What Happened.",
+      "chars": 20829,
+      "text_file": "data/2026-10-21/articles/citrini__citrini_therapeutics.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Superhuman Hardware Design Is The Easy Part",
+      "date": "2026-10-20 18:09 UTC",
+      "link": "https://www.a16z.news/p/superhuman-hardware-design-is-the",
+      "summary": "The interface between the digital and physical world is lossy",
+      "chars": 18610,
+      "text_file": "data/2026-10-21/articles/a16z__superhuman_hardware_design_is_the_easy_part.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Investing in Eka Robotics",
+      "date": "2026-10-20 13:05 UTC",
+      "link": "https://www.a16z.news/p/investing-in-eka-robotics",
+      "summary": "a16z leads Eka Robotics’ Series A",
+      "chars": 9171,
+      "text_file": "data/2026-10-21/articles/a16z__investing_in_eka_robotics.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2112182228977348963",
+      "date": "2026-10-19T14:01:00.000Z",
+      "text": "\"O Infallible one, why do the people not heed the sign we tap?\"\n\n\"My dear Parth, each believes he is the first to wish for an end to chat. On X we are cursed with the eternal September of the Thoughtless Mind.\"\n\n\"But O Govinda, they yearn for what lies beyond it, and cast their votes by the thousands. Surely the people's wants must be made.\"\n\n*a wan smile* “O son of Kunti, observe what they applaud, and what they return to. They desire the end of chat as they desire the end of desire. They desire to leave X as they return in ever greater numbers. They will announce it many times. You shall learn, as they do not, that the chief desire of the people of X is not the truth, but the new.”",
+      "url": "https://x.com/swyx/status/2112182228977348963",
+      "likes": 58,
+      "retweets": 1,
+      "is_quote": true,
+      "quoted_id": "2111321176769442251"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2112432076767289678",
+      "date": "2026-10-20T06:33:48.000Z",
+      "text": "Day 15/ Nevermind, we're still cooking... and reset. Enjoy. https://t.co/RZ9WhtI802",
+      "url": "https://x.com/thsottiaux/status/2112432076767289678",
+      "likes": 1460,
+      "retweets": 108,
+      "is_quote": true,
+      "quoted_id": "2112268918681485431"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2112268918681485431",
+      "date": "2026-10-19T19:45:28.000Z",
+      "text": "Day 15/ We're cooked https://t.co/ciJpOJlmOn",
+      "url": "https://x.com/thsottiaux/status/2112268918681485431",
+      "likes": 4635,
+      "retweets": 147,
+      "is_quote": true,
+      "quoted_id": "2112242739198959913"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2112398053185659282",
+      "date": "2026-10-20T04:18:36.000Z",
+      "text": "This doesn't mean it's a good movie btw. I found it completely ridiculous",
+      "url": "https://x.com/petergyang/status/2112398053185659282",
+      "likes": 3,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2112292347505688990",
+      "date": "2026-10-19T21:18:34.000Z",
+      "text": "This is super cool I love how visual it is. \n\nCan't wait to try this @ekuyda! https://t.co/UMkHxW16BB",
+      "url": "https://x.com/petergyang/status/2112292347505688990",
+      "likes": 23,
+      "retweets": 1,
+      "is_quote": true,
+      "quoted_id": "2112212804979880239"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2112280969382437076",
+      "date": "2026-10-19T20:33:22.000Z",
+      "text": "Very interesting insight into why alot of Netflix original movies and TV shows are slop. \n\nI still love a few of them (especially some of the Korean ones). https://t.co/FHES8Crisi",
+      "url": "https://x.com/petergyang/status/2112280969382437076",
+      "likes": 23,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2112257806363734264"
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2112219173288120531",
+      "date": "2026-10-19T16:27:48.000Z",
+      "text": "I think most people multi-tasking with agents could benefit from slowing down\n\nmost of the stuff you're doing wont really matter- what's your P0? what would it look like if you gave it your full attention?",
+      "url": "https://x.com/trq212/status/2112219173288120531",
+      "likes": 5458,
+      "retweets": 285,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2112256718281551955",
+      "date": "2026-10-19T18:57:00.000Z",
+      "text": "1,000 tokens per second btw https://t.co/BdATqYu71F",
+      "url": "https://x.com/rauchg/status/2112256718281551955",
+      "likes": 255,
+      "retweets": 11,
+      "is_quote": true,
+      "quoted_id": "2112247772951052782"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2112247046082363821",
+      "date": "2026-10-19T18:18:34.000Z",
+      "text": "We open sourced a *really fast* HTML artifact builder. It's powered by libfx, making the agent durable.\n\nBuilding the low-level plumbing for v0 to survive server crashes, flaky LLMs, function limits was a huge pain.\n\nNow it's easy, free, and OSS: https://t.co/aUP1vKeIsP.\n\nPS: I built this floating container in a few minutes… it's delightful, and it's just HTML!",
+      "url": "https://x.com/rauchg/status/2112247046082363821",
+      "likes": 1662,
+      "retweets": 102,
+      "is_quote": true,
+      "quoted_id": "2112245199808434614"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2112194000639967590",
+      "date": "2026-10-19T14:47:47.000Z",
+      "text": "More free AI https://t.co/9Jd42XA7rw",
+      "url": "https://x.com/rauchg/status/2112194000639967590",
+      "likes": 285,
+      "retweets": 8,
+      "is_quote": true,
+      "quoted_id": "2112181432307294550"
+    },
+    {
+      "source": "Aaron Levie",
+      "handle": "levie",
+      "tweet_id": "2112404676436222170",
+      "date": "2026-10-20T04:44:56.000Z",
+      "text": "The big bitter lesson question in the applied AI layer is that as models get better and better, what is the best way to diffuse that intelligence into an enterprise. \n\nIronically, I’d argue that as models are getting more capable, and can handle longer running tasks and better tool use, the ability to differentiate on a domain by domain basis goes up instead of down. \n\nWhen models were quite limited in what they could do, ironically all you could be literally was a “wrapper” because you were effectively delivering tokens back to the user with a custom prompt or some limited RAG. \n\nBut in a world of agents using tools, tasks that run on for hours or days, workflows that kick off agents, agent swarms that need to be coordinated against a goal, data sources that are domain specific, model routing that requires domain-specific routing, implementation that requires real change management of the workflow instead of “just type into this chat box”, it’s very very possible that specialization of these systems goes up more. \n\nObviously this doesn’t apply to everything - the closer you are to the labs core use-cases the tougher this play gets, but I’d argue we’re going to see autonomous systems for a wide range of job functions that weren’t practical to build out before. We’ll see this in security, life sciences, healthcare, finance, manufacturing, and many other fields. Either way going to be a fun and wild couple of years.",
+      "url": "https://x.com/levie/status/2112404676436222170",
+      "likes": 83,
+      "retweets": 7,
+      "is_quote": true,
+      "quoted_id": "2112296416932479421"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2112278352514162834",
+      "date": "2026-10-19T20:22:58.000Z",
+      "text": "Multiplayer agents as group chat seems quite inevitable and Wabi's built it https://t.co/ltccTzgMLo",
+      "url": "https://x.com/garrytan/status/2112278352514162834",
+      "likes": 243,
+      "retweets": 16,
+      "is_quote": true,
+      "quoted_id": "2112212804979880239"
+    },
+    {
+      "source": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "tweet_id": "2112398939358138862",
+      "date": "2026-10-20T04:22:08.000Z",
+      "text": "See this in a theater! One of the most interesting things about this documentary was how much &amp; when people laughed while watching it https://t.co/Q9kAdgyAoW",
+      "url": "https://x.com/zarazhangrui/status/2112398939358138862",
+      "likes": 16,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2102745016041095550"
+    },
+    {
+      "source": "Nikunj Kothari",
+      "handle": "nikunj",
+      "tweet_id": "2112422877949751491",
+      "date": "2026-10-20T05:57:15.000Z",
+      "text": "Tenzing on Apple TV+ is a must watch..\n\nThe acting, the direction, the music. \n\nI can’t believe this was all shot in real environments and with zero green screens. \n\nLiteral goosebumps.",
+      "url": "https://x.com/nikunj/status/2112422877949751491",
+      "likes": 12,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Nikunj Kothari",
+      "handle": "nikunj",
+      "tweet_id": "2112368222809034980",
+      "date": "2026-10-20T02:20:04.000Z",
+      "text": "Waiting for someone to sell me a  peptide factory built in a data center which is also a robotics neolab that is somehow collecting first party uniquely differentiated data..\n\nAnd while we’re at it use the words tape out, memory/CPU shortage too. \n\nMake it 50/500 on a memo 🤝",
+      "url": "https://x.com/nikunj/status/2112368222809034980",
+      "likes": 36,
+      "retweets": 1,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Nikunj Kothari",
+      "handle": "nikunj",
+      "tweet_id": "2112219327881761008",
+      "date": "2026-10-19T16:28:25.000Z",
+      "text": "A few weeks ago, I was ranting about multiplayer AI experiences and that's when @ekuyda shared an early preview of Wabi 2.0..\n\nTruth be told, I was one of the early users of Wabi 1.0 and while the design was gorgeous, it frankly never \"stuck\" with me.\n\nBut, in moments of downloading this edition, I was immediately hooked. \n\nIt just gets the \"paradigm\" right imo. There are two types of personal agents today: 1) Singleplayer iMessage or Muse types - while useful it's hard to compartmentalize them when many things are going on 2) Build your own multiple chat Hermes agents - while that's useful and can share context, they live forever\n\nWabi has this great paradigm of orchestrator (which is the main agent) and topic specific episodic chats that are for a single purpose. You can share these individual chats with folks (for example the school one with my wife). And these are generated proactively AND don't need to stay forever (which is important).\n\nFor example, for my recent NY trip, it was generated based on a flight it saw, provided help where needed, and then after the trip was done, it was archived. Same with my 2025 taxes. \n\nMy only critique so far it's TOO proactive, the apps can be better and they need to dial both of those in, but this is a wonderful product that everyone should try!\n\n(I know it's shocking to see this in today's day and age, but this is neither paid, nor an investor, just a fan)",
+      "url": "https://x.com/nikunj/status/2112219327881761008",
+      "likes": 46,
+      "retweets": 6,
+      "is_quote": true,
+      "quoted_id": "2112212804979880239"
+    },
+    {
+      "source": "Dan Shipper",
+      "handle": "danshipper",
+      "tweet_id": "2112308324377203182",
+      "date": "2026-10-19T22:22:03.000Z",
+      "text": "the ideographic &gt; the nomothetic https://t.co/DT4n8LnA4C",
+      "url": "https://x.com/danshipper/status/2112308324377203182",
+      "likes": 6,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2112294488676696119"
+    },
+    {
+      "source": "Dan Shipper",
+      "handle": "danshipper",
+      "tweet_id": "2112272224782856514",
+      "date": "2026-10-19T19:58:37.000Z",
+      "text": "a story in 3 parts https://t.co/dabv01DAY3",
+      "url": "https://x.com/danshipper/status/2112272224782856514",
+      "likes": 59,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Dan Shipper",
+      "handle": "danshipper",
+      "tweet_id": "2112230653924192274",
+      "date": "2026-10-19T17:13:25.000Z",
+      "text": "so proud of Quinten + Ajay and team! \n\nthey've been pushing the boundaries of creativity and storytelling with AI for years now—and one of the breakout examples of it working in consumer\n\npsyched to be a tiny investor :) https://t.co/8deaaWyuJ7",
+      "url": "https://x.com/danshipper/status/2112230653924192274",
+      "likes": 60,
+      "retweets": 3,
+      "is_quote": true,
+      "quoted_id": "2112219577727992319"
+    },
+    {
+      "source": "Aditya Agarwal",
+      "handle": "adityaag",
+      "tweet_id": "2112276233363030215",
+      "date": "2026-10-19T20:14:32.000Z",
+      "text": "https://t.co/aEAsDgsa3u",
+      "url": "https://x.com/adityaag/status/2112276233363030215",
+      "likes": 4,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Aditya Agarwal",
+      "handle": "adityaag",
+      "tweet_id": "2112276231731466420",
+      "date": "2026-10-19T20:14:32.000Z",
+      "text": "Early @PalantirTech. Cofounder of @anduriltech. GP at @foundersfund.\n\nLast time @traestephens was at @spc was back in 2022.\n\nThe world looks a little different now.\n\nWednesday. RSVP below. https://t.co/6uZu9c7KKT",
+      "url": "https://x.com/adityaag/status/2112276231731466420",
+      "likes": 49,
+      "retweets": 6,
+      "is_quote": false,
+      "quoted_id": null
+    }
+  ]
+}

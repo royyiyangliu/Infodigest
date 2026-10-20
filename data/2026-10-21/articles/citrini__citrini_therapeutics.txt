@@ -1,0 +1,231 @@
+Source  : Citrini
+Title   : Citrini Therapeutics
+Date    : 2026-10-20 12:59 UTC
+Link    : https://www.citriniresearch.com/p/citrini-therapeutics
+────────────────────────────────────────────────────────────
+
+Introduction
+For the past three months, the Citrini Research team has been working with Anthropic’s internal research model
+1
+to see if we could create novel proteins in a computer that would do what we wanted them to in an actual lab.
+On the morning of August 12th, I woke to a Slack notification that our autonomous drug design campaign was concluding and the results were being compiled.
+The previous day, from a nondescript conference room in the Anthropic offices, we prompted Claude to go from an idea to a package ready to submit to a physical lab. Overnight, Claude spawned more than 300 sub-agents using more than 300 concurrent GPUs to design, score, and deliver a set of proteins. At our direction, it sent them to the lab for synthesis and testing without any further input from us.
+“But I thought you guys did, like, stocks and stuff?”,
+you may be questioning.
+In early June,
+we began searching for opportunities outside of AI infrastructure, concerned about crowding. One particular area struck us as asymmetric:
+Life Sciences & Healthcare.
+The sector had endured the reversal of the pandemic boom and a difficult funding environment as investors found more exciting places for their money. Over the past half-decade, it has been a graveyard for returns.
+While everyone focused on which Japanese semi-doodad-producer would sell out next
+2
+, the cycle had seemingly turned. However, the stocks had yet to climb in any meaningful way. And we kept hearing about AI’s promise in drug discovery.
+3
+A neglected sector with the chance for AI upside…it had the markings of our favorite type of setup - a
+secular story at cyclical lows.
+Finally, our chance to write an article offering a reprieve from the threats of a dystopian-AI-future dominating the news (not that
+we
+have ever been guilty of fueling fears about the future of AI, of course).
+Only one problem...
+none of us could claim to know anything about AI as it related to biology.
+Our usual process would involve deep research and dozens of calls with experts. But survey a dozen experts in biology and you’re going to hear both “
+AI has not created a single important drug, and it won’t in the future either
+” to “
+AI will cure all disease in the next five years
+” and everything in between, depending on each individual’s degree of AI-pilledness. We weren’t going to get a clear answer by simply asking.
+4
+We needed to try it out for ourselves.
+So, we did. We used the model to design proteins, contracted a lab to synthesize them and conduct experimental validation and again used the model to interpret the results. The experience helped form our view…
+Paradoxically, AI in biology will progress in a manner that is both alarmingly fast and not fast enough
+.
+Our project gave us a small,
+unusually expensive
+opportunity to experience both sides of that argument and better understand its investment implications.
+P.S. We’re hiring to expand our healthcare and bio coverage. If you’re interested in this space and have experience,
+apply here
+.
+Learn by just doing things.
+“Why don’t we try to use AI to create a new drug?”
+Five of us – three with no background whatsoever in science and two
+5
+with a little
+but who weren’t exactly veteran drug developers – would see if this was possible.
+Our hypothesis was simple, if a bit glib: if
+we
+managed to use AI to create a molecule that worked (in a test tube, unless we accidentally vibe-coded a ten billion dollar drug…), we could reasonably underwrite that
+something
+had changed. There was no chance that this group was going to design a novel molecule that did anything without AI.
+Maybe we would fail miserably, maybe we’d end up pivoting Citrini into biotech
+6
+. After all, Claude Code had shown us someone with essentially no experience coding could use AI to turn ideas into shipped software products…maybe it would work that way with molecules, too. Failure or success, by the end of this process we’d understand more about what “AI drug discovery” actually entailed.
+Most importantly, our primer would be a hell of a lot more interesting to read.
+We committed to getting as far as we could, with our ultimate goal being an
+in vitro
+study package. We budgeted $200,000 of Citrini cash
+7
+for compute, tokens, lab work and anything else we figured out was necessary along the way.
+We would enforce the AI acting as autonomously as possible – outsourcing everything we could between the decision and the physical lab to the model. Our involvement would be limited to reviewing the outputs and (mostly) gentle encouragement
+8
+. The idea was, essentially…
+“Claude, find us a drug target. Make no mistakes.”
+At the Citrini offices, we spun up a Linux machine on AWS, installed Claude Science, hooked up our cloud inference provider (Modal), and got to work planning the roadmap and drafting the prompt.
+With an irrational amount of fear that we’d hit enter on a prompt and accidentally bankrupt Citrini Research
+9
+, we sent our first prompt to rank candidates. And then…
+We were
+immediately
+guardrailed
+.
+We’d forgotten about the whole biosecurity thing. We could have tried to get it done on Opus 4.8, but with the pace of acceleration, that felt kind of like trading off a 13F. We wanted to see what the technology was really capable of
+now
+, but only
+carefully-selected institutional experts
+currently had any expanded access to Claude Science models.
+Naturally, I did what anyone in this situation would do and spam called anyone in my contact list who worked at an AI lab. I pitched
+Sholto Douglas
+at Anthropic with a simple proposal:
+“Hey, everyone is worried that AI is going to take people’s jobs and generally lead to a bad time. I would really love to see the other side of it. You know, the one where AI could help humanity.”
+A few introductions to members of the Anthropic Life Sciences team
+10
+and we had a plan.
+In response to our request to bypass the bio-classifier, they sent a questionnaire that asked more than 60 questions about security measures that we
+absolutely did not have.
+Therefore, to eliminate the risk of Citrini unwittingly developing any potential bioweapons, we decided the best course of action would be to do the prompting in person, at the Anthropic offices, on their local network and machines, using an internal research model that is more advanced than what’s been released to the public
+11
+.
+We’d have two sessions: the first would determine the target, prepare, and send the prompt to design the candidates. The second to review and refine the output.
+An investment newsletter walks into a lab…
+“I love fools’ experiments. I am always making them.”
+- From The Life and Letters of Charles Darwin, 1887
+On the morning of our visit to Anthropic, I spent several minutes complaining in Slack that the visitor QR code wasn’t working. Eventually, we established I was trying to enter the wrong building.
+Once in the right one and past security, I was on my way to becoming an AI-enabled drug discover-er.
+We had to determine what we were pursuing.
+What exactly were we asking for? Which constraints mattered? What should count as a promising result? What would the laboratory need in order to make and test it?
+We came up with a short list of two must-haves and one nice-to-have.
+MUST HAVE:
+Tractable to test
+in vitro
+quickly and cheaply, and ideally the same for
+in vivo
+MUST HAVE:
+Largely bottlenecked or at least enabled by molecular design
+Nice-to-Have:
+Beneficial impact potential, currently neglected
+Proposals abound! Rare childhood diseases, a treatment for C. diff (a diarrhea-causing bacterium that plagues skilled nursing facilities with a smell that is burned into my memory from my time as an EMT), a “vaccine” that blocked powerful fentanyl analogs. Among those with the most support was an anti-tick agent that could reduce the incidence of Lyme disease
+12
+.
+But choosing a disease and choosing a testable design problem were two different things.
+We wanted to give the model a challenge where molecular design mattered and something truly novel was being attempted, but also one where the underlying biology was sufficiently established and a lab could tell us whether we had made progress without first building an entirely new experimental system.
+13
+Through two passes, antivenoms kept surviving all those criteria.
+The Winner: Scorpion Antivenom
+The first candidate, snakebite envenomation, had
+been worked on using AI by the Baker lab
+. This gave us a scientific precedent and the prospect of feedback from someone who had done this professionally. We wanted to attempt something new, though, so we turned our focus from snake to scorpion toxins.
+Antivenom also offered an acute treatment setting. A candidate intended for one or a few doses faces different development hurdles than a protein administered chronically
+14
+.We could plausibly create something that was a lot closer to the path for an actual product than with other conditions.
+As a final push
+over the edge for Scorpion Antivenom
+,
+Analyst #3 proposed that once we’d gotten the lab data back, he was willing to volunteer to cut to the chase, skip the animal trials and get stung by a scorpion to see if it worked - provided we conducted this exercise outside of a hospital that stocked the FDA-approved antivenom.
+15
+Existing scorpion antivenoms are the result of a process that involves injecting horses with controlled doses of venom that are harvested from live scorpions, collecting their plasma and then purifying the antibodies they produce.
+At
+$39 million per gallon
+, scorpion venom is considered the
+most valuable liquid in the world.
+It is a laborious process from scorpion to stable to hospital, and US prices are in the thousands of dollars per dose (although much cheaper in Mexico). At scale, a cocktail of synthetically produced proteins would be cheaper. And the horses, for their part, deserve some reprieve.
+Ultimately, we decided on a minibinder addressing scorpion toxins. A minibinder is a small protein that binds a target protein, like a toxin. The toxins were identifiable proteins, and designing a binder against an individual toxin would be useful evidence of what AI could enable.
+Why a protein minibinder?
+One of our first lessons was on the kind of molecule we should make if we wanted the highest likelihood of actually succeeding. The state of AI for large molecules (like insulin or antibodies - large chains of amino acids folded into intricate shapes) is much more advanced than for small molecules (like aspirin, organic chemical compounds). Proteins are a structured design problem with an evolutionary alphabet.
+We ensured that we’d be able to source the toxins from the wet-lab and set Claude to work doing research on these targets.
+Our first objective was a binder that would work against a single toxin, followed by a test of whether it actually blocked toxin activity.
+We added a
+moonshot
+to give Claude a chance at a breakthrough. Claude cautioned us that a single molecule designed to bind all 5 toxins was very likely to fail. Still, we figured it was worth a shot to see if AI could accomplish something that was currently viewed as impossible.
+Luckily, Anthropic was willing to play ball on the compute/token bill and go for it as well.
+Agents Working Through the Night
+From there, we set to work creating the prompt that would produce the package to send to the lab. Or, rather, we spent the day using Claude to design our prompt, along with the Anthropic team ensuring we avoided traps they’d become familiar with.
+16
+Our instructions grew into a roughly 35-page prompt, essentially all of which was prepared with Claude. The prompt specified the targets, design constraints, evaluation tools, and allocation of candidates.
+The agents used an extensive body of human science and specialist tools with a degree of persistence and coordination that our team obviously could not have supplied. Those specialist tools
+17
+performed much of the underlying molecular computation, but Claude made them usable as a connected (and extremely sped-up) research process.
+We could describe the objective and drill down on the reasoning, but we didn’t need to personally know how to operate every piece of software required to get there.
+While not everything from the moment we hit enter went smoothly, nothing was smoother than the 24-hour period between sending the initial prompt and being presented with the designs and a very nicely formatted “hero PDF” describing what Claude had done and accomplished (as well as what it hadn’t).
+Claude searched the literature, coordinated specialist design and prediction software, managed computational resources and assembled the candidate package. If it ran into issues or needed additional information from vendors, it could email them.
+And it did!
+At one point, under our supervision, we had Claude draft and send an email to the scientist at Twist in charge of procurement. In the email, Claude asked a numbered set of manufacturing-feasibility questions about what fusion and bispecific construct formats Twist could actually build and express. The subset of fusion designs was paused until the email was answered hours later, after we had left for the day, and Claude integrated the response and continued the design according to what it had learned.
+Around 4pm, we returned our visitor badges to security and went home. The Claude plugin in our Slack channel would alert us if anything went wrong.
+We had asked Claude to compile a report
+18
+that would show simulated predictions of whether these molecules would actually stick the way we wanted them to.
+Seeing the first protein designs on the screen was, honestly, surreal. We were already much further than I figured we’d be in a campaign that genuinely was entirely AI-run up to this point.
+The initial campaign resulted in 180 designs and ended 64 hours after it began, including the four follow-up prompts that grew the pool of designs to 211 we ultimately sent for synthesis in a lab, and our best design (Cn2-B1) was produced during the third follow-up. In total, t
+he entirety of the design process that produced the original 180 designs involved a total of five messages sent by humans to Claude.
+Overall, we sent 367 messages to Claude
+19
+. The entire design campaign used a little more than 10,000 H100 GPU-hours.
+By the end of Claude’s run, we had structures, rankings, vendor specifications, and a full report that looked like it belonged in an academic journal.
+We could (and did) message Claude asking to inspect them in three dimensions or to explain its reasoning.
+Our picture of an AI assistant for biology research was becoming more akin to a coordinated dry-lab team inside a computer. There was a significant temptation to treat that as a result, but luckily for our scientific integrity we had already arranged to pay people to see if we should disagree with the computer. None of what we’d done so far was enough to qualify whether Claude had actually accomplished anything of note.
+We’d need the real world for that.
+The Digital-to-Physical Transition
+We hit enter on our 35-page prompt on one of those August afternoons in New York that’s so oppressively humid it makes you wonder how anything got done before the invention of air conditioning.
+By the time we had enough data to publish anything remotely scientifically respectable, the highs were in the 60s and the first Halloween stores had reemerged from wherever they go for the rest of the year.
+Our virtual biologist may have compressed a year’s worth of work into a couple days, but biology works at the speed of life. DNA had to be synthesized, proteins produced and purified, toxins obtained in usable form, and appropriate controls established. Our digital invention was now set to create work for human scientists.
+In order to maximize the robustness of our data that we could feed back to Claude, we used the services of two CROs - Adaptyv Bio (private) and
+Twist Bioscience (TWST US)
+.
+The CRO bill across the two for DNA synthesis, expression and purification,  binding measurements and a developability assay had come just shy of $150,000. We had spent $49,997 on compute (Claude managed to undershoot by $3), we’d need to spend more seeing if that compute actually generated something useful.
+20
+Five days later, with 211 out of the 250 designs from the quote sent, I got the alert on an Amex charge that suggested our designs were headed for test tubes and petri dishes
+21
+.
+Over two days, we watched Claude work through problems at a speed that was difficult to comprehend.
+For the next two months, we spent much of the time becoming familiar with laboratory turnaround times
+22
+.
+What the Results Showed (So Far)
+Anthropic has published a much more technically in-depth
+blog post
+, explaining our results, with an accompanying report and data release
+23
+for the assay-level details.
+Anthropic's Technical Blog Post
+For casuals like us, however…
+There were three questions we needed the experiments to answer in order to feel good about what Claude did:
+Did a designed protein attach to its target?
+Did it appear to occupy a relevant part of that target?
+Did it prevent the toxin from disrupting a cell’s function?
+17 of our designs bound to the target
+across
+four out of five toxins.
+These proteins had been designed
+without
+using laboratory feedback to improve them.
+Thirty-five design-toxin pairs “hit”,
+but only 17 passed our criteria.
+24
+We tested our binders in Surface Plasmon Resonance (SPR), which is a fancy way of saying we attached the binders to a gold plate, washed toxins over them, and shined light on the surface. Affinity – how strongly the binders attach to the toxins, measured with a “Kd value” (the lower the better) — is only one part of the evidence that would suggest something promising.
+The tests then compared these results to one or several
+known antibodies
+against specific types of toxins to see how our binder stacked up against them. These would act as positive controls and give us a sense of how our binders compared with existing antibodies.
+Cn2 produced the strongest leads. Two designs, Cn2-B1 and Cn2-B2, bound tightly, with affinities in the low-nanomolar range. A known antibody also blocked the Cn2 binders in every competition test that could be scored, suggesting they attach to an overlapping or nearby part of the toxin. That is encouraging evidence about where they bind.
+Like Claude had warned us, the moonshot failed – none of our designs qualified as binding more than one toxin. Of 91 designs aimed at all five, just one qualified, and only against AaH I.
+What Would Come Next
+No experiment has yet tested whether they actually stopped the toxin working. A good binding measurement does not establish that a binder actually blocks the toxin, remains in the body long enough, or can become a useful therapy.
+The immediate next question would be whether our best binders can stop toxin activity. We would first establish that the toxin preparations disrupt the electrical signaling they are supposed to affect. Then a patch-clamp assay, which measures currents through cells’ ion channels, could test whether a binder prevents or reverses that disruption.
+Those measurements, including the failures, would go back into Claude to guide another round of design and testing. For example, our strong result with Cn2-B1 could give us a starting point for a
+regional Mexican scorpion antivenom
+provided we got results that established it actually prevents toxin activity. We would assess other important toxins and add complementary binders wherever protection is missing.
+25
+Then, we’d move on to protection studies in suitable animal experiments. We would run studies to discover the effective dose, the time it takes to reach the target, how long the drug remains in the body, and whether it causes issues like unwanted immune reactions or toxicity. In parallel, we would need a stable formulation and a reliable way to manufacture consistent batches. The safety, activity and manufacturing evidence would support an application to begin human trials.
+We began with an investment question and ended with newly designed proteins that were partly experimentally validated. A great deal of science made that possible and a great deal of science remains before anyone could call the result a treatment.
+But
+still…
+The frontier has moved.
+And we’re still an investment research firm, not a biotech. So, what was our takeaway as investors from our research into the space and escapade into drug discovery?
+The Lessons
+Below the paywall, we provide our overview of the AI Bio space, the nuances necessary to position wisely and to avoid the many traps recent indiscriminate attention has set, and our favorite 3 single stocks most exposed to our thesis on the real impact of AI in biology over the next few years.
+Read more

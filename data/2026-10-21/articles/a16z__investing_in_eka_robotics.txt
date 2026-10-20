@@ -1,0 +1,68 @@
+Source  : a16z
+Title   : Investing in Eka Robotics
+Date    : 2026-10-20 13:05 UTC
+Link    : https://www.a16z.news/p/investing-in-eka-robotics
+────────────────────────────────────────────────────────────
+
+The human hand may be the most economically important machine ever built.
+Much of the world’s physical economy—from manufacturing and electronics assembly to logistics and food production—still depends on people using their hands. Industrial robots have transformed highly structured production, where fixtures hold every part in place and robots repeat the same motion quickly and precisely.
+But enormous categories of physical work remain hard to automate, because the real world is variable. Parts move. Materials deform. Objects slip. Connectors don’t align perfectly.
+That creates an enormous economic opportunity. If robots can reliably perform the dexterous tasks people do every day, automation can expand beyond repetitive, engineered processes into a much larger share of physical work. Labor is already a constraint across many of these industries, and the value of a machine that combines human versatility with machine speed, reliability and uptime is difficult to overstate.
+We believe solving dexterous manipulation is one of the largest opportunities in robotics. It’s why we’re excited to lead the Series A in
+Eka Robotics
+.
+Intelligence Meets Physics
+Modern AI is making extraordinary progress in helping robots understand
+what to do
+. Vision models can recognize objects and estimate their position. Language models can interpret instructions and reason about complex topics. World models can increasingly reason about scenes and plan actions.
+But knowing what should happen isn’t the same as physically making it happen.
+Consider inserting a connector. Vision can tell a robot where the socket is. But once contact begins, the important information changes. Has one edge caught? Is the connector beginning to bind? Should the robot push harder, rotate slightly, or pull back?
+Humans answer these questions almost effortlessly through our sense of touch.
+The human hand has roughly two dozen degrees of freedom, but mechanics are only part of what makes it remarkable. Our fingertips and palms contain
+thousands of specialized sensory receptors
+. Some detect sustained pressure and shape; others detect light touch and the first signs of slip, high-frequency vibration, or the stretching of our skin. Combined with proprioception from our muscles and joints, they give the brain a remarkably rich, continuous picture of what is happening at the point of contact.
+That is why you can pick up an egg without crushing it, tighten your grip on a glass the instant it starts to slip, or find the thread of a screw you can barely see. We don’t calculate every movement in advance. We continuously sense the consequences of our actions and adjust.
+But
+we can’t practically rebuild this biological sensing system receptor by receptor in a robot hand
+. Thousands of specialized sensors would add enormous complexity, cost, wiring, compute and potential points of failure. The challenge is therefore not to mechanically reproduce the human hand. It is to give machines enough physical information—and intelligence—to achieve the same outcome with a much simpler sensing and actuation system.
+Eka has built a
+Vision-Force-Action
+model that combines visual perception with force feedback from its robotic hands. Rather than treating the model, sensing, controller and hardware as independent systems, Eka designs them together so the robot can use physical contact itself as information.
+That changes the nature of manipulation. A grasp that starts to slip can be corrected. Contact with a surface can help locate an object. Resistance during insertion can change the robot’s motion rather than simply trigger an error.
+The goal is to preserve performance as conditions change without requiring an engineer to retune the robot for every material, object or fit.
+That ability to recover from variation is what can move robotics from controlled automation toward general physical work.
+Learning Through Experience
+Eka also takes a different approach to how robots acquire physical skill.
+Much of modern robotics learns from human demonstrations, whereby the robot learns its “policy” for how to behave in a given situation. This has produced impressive progress so far, and we don’t want to be unappreciative, but physical demonstrations have two inherent problems. First, they take up human time; so you can’t practically show a human demonstrating one million different slight variations on picking up an egg. Second, it’s hard for humans to demonstrate all of the ways you can
+fail
+at picking up an egg, in a way that conveys useful information.
+Eka trains its manipulation policies through reinforcement learning in physics simulation. Virtual robots can practice millions of variations in object position, friction and contact before a policy ever reaches physical hardware. They can experience failure modes humans rarely demonstrate and learn how to recover from them.
+If this approach works at scale, the implication is profound:
+robot experience can increasingly scale with compute rather than human labor.
+The historical problem is that simulation isn’t reality. Contact dynamics are notoriously difficult to model. Small errors in friction, compliance or actuator behavior can turn a successful simulated policy into a useless real-world one. Closing this sim-to-real gap has been one of robotics’ hardest problems.
+It is also the problem Eka’s founders are unusually well suited to solve, and they have been demonstrating that the real-to-sim gap is falling:
+Pulkit Agrawal
+is one of the leading researchers in robot learning and a pioneer in computational sensorimotor learning—essentially, how machines develop physical intuition through experience. His work spans reinforcement learning, force-aware control, dexterous manipulation and moving policies from simulation into the real world through his Improbable AI Lab at MIT CSAIL.
+Tuomas Haarnoja
+co-created Soft Actor-Critic at Berkeley, one of the foundational algorithms in modern reinforcement learning, and later worked at Google DeepMind training complex humanoid behaviors in simulation and deploying them on real machines.
+They have spent much of the last decade attacking the same fundamental question from complementary directions:
+How can machines learn sophisticated physical behavior through experience—and have that intelligence survive contact with reality?
+Performance Changes the Economics
+Ultimately, none of this matters if the robot isn’t productive. Industrial automation has a brutally simple scoreboard: units per hour, error rates, uptime and cost per unit.
+Eka reports up to
+1,500 picks per hour
+in laboratory induction and bin-picking tasks, two and a half times faster than humans. More importantly, the underlying system has demonstrated manipulation across fragile objects, slippery industrial parts and contact-rich insertion tasks. Sustaining that performance through full production shifts is the next test.
+If these capabilities transfer reliably across production tasks, the economics of automation change.
+Today, many automation projects make sense only when the volume of a task justifies the engineering required to constrain the environment and tune the robot. Every new object, material or process can create another integration project.
+A robot that adapts to those variations changes the equation. Manufacturers can introduce new products without starting the learning process from scratch, and tasks that were never worth a dedicated automation project become addressable.
+The next major frontier in robotics isn’t simply machines that see and understand the world. It’s machines that can
+interact with it, adapt to it and perform reliably at economically meaningful speed.
+If dexterity becomes a general capability rather than something engineers have to painstakingly program for every task, the boundary of economically automatable work expands dramatically.
+We believe Eka is building that capability.
+We couldn’t be more excited to lead Eka Robotics’ Series A and partner with Pulkit, Tuomas and the entire Eka team.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
