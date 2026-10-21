@@ -1,0 +1,302 @@
+{
+  "fetch_date": "2026-10-22",
+  "fetch_time": "2026-10-21T20:26:38.324705+00:00",
+  "stats": {
+    "new_podcast_episodes": 1,
+    "new_articles": 2,
+    "new_tweets": 21,
+    "total_podcasts": 1,
+    "total_articles": 2,
+    "total_tweets": 21,
+    "transcribed_this_run": 1
+  },
+  "podcasts": [
+    {
+      "source": "张小珺Jùn｜商业访谈录",
+      "title": "155. 和科沃斯钱程聊，父与子、企二代接班的样本与肌理、机器人，和我内心的追寻",
+      "date": "2026-10-21 00:00 UTC",
+      "link": "https://podcasts.apple.com/us/podcast/155-%E5%92%8C%E7%A7%91%E6%B2%83%E6%96%AF%E9%92%B1%E7%A8%8B%E8%81%8A-%E7%88%B6%E4%B8%8E%E5%AD%90-%E4%BC%81%E4%BA%8C%E4%BB%A3%E6%8E%A5%E7%8F%AD%E7%9A%84%E6%A0%B7%E6%9C%AC%E4%B8%8E%E8%82%8C%E7%90%86-%E6%9C%BA%E5%99%A8%E4%BA%BA-%E5%92%8C%E6%88%91%E5%86%85%E5%BF%83%E7%9A%84%E8%BF%BD%E5%AF%BB/id1634356920?i=1000797352291&uo=4",
+      "orig_link": "https://www.xiaoyuzhoufm.com/episode/6ad4dacd641ef406308d86e5?utm_source=rss",
+      "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/626b46ea9cbbf0451cf5a962/6ad4dacd641ef406308d86e5/media.xyzcdn.net/626b46ea9cbbf0451cf5a962/ltpY6K_PLBv7SfR1D4RZchFHwzII.m4a",
+      "duration": "01:59:51",
+      "summary": "今天我们的嘉宾是科沃斯CEO钱程（David）。\n他出生于1990年，曾是中国最年轻A股上市公司CEO，也是一名企二代、创二代。我很好奇的是，当一代中国企业开始从创业进入传承，真正在经历这个过程的当事人，他所面临的现实与所思所想？\n钱程有一种不符合自己年龄的云淡风轻，非常在意经营。他最喜爱的食物是燕麦碗；\n朋友圈头像是自己家的狗， 特意把狗眼睛颜色换成会发光的红色，是为了提醒自己要更具有狼性。\n从我们的谈话中，你能看到创二代和创一代不同的性格底色。\n随着一代中国企业开始面临接班，科沃斯也许能提供一个企业传承的样本。\n接下来，就是我对钱程的访谈。\nOUTLINE:\n00:02:11\n云淡风轻的企二代\n00:11:37\n我靠，那个失落感还是挺大的\n00:18:28\n德国，6个月拿到30%市场份额\n00:31:22\n当上CEO的一刻：成功之巅，即愚昧之巅\n00:43:20\n欲望与克制\n00:58:18\n我们像农耕，不像是游牧\n01:14:45\n今天AI还没到抢肉的状态\n01:35:04\n父与子的传承与接班\n01:50:04\n我内心的追寻\nLINKS：\n如果你想服用文字版，请搜索我们工作室的公众号：语言即世界language is world。\nDISCLAIMER:\n本内容不作为投资建议。\nCONTACT:\nxiaojunzhang@lisw.ai\nJump into the new world-and explore with us!\n😉",
+      "lang": "zh",
+      "chars": 67883,
+      "text_file": "data/2026-10-22/podcasts/张小珺jùn商业访谈录__155_和科沃斯钱程聊父与子企二代接班的样本与肌理机器人和我内心的追寻.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "The Huawei-DeepSeek Symbiosis",
+      "date": "2026-10-21 17:34 UTC",
+      "link": "https://newsletter.semianalysis.com/p/huawei-deepseek",
+      "summary": "Huawei Ascend 950PR Deep dive & µbenchmarks, DSv4.1 Flash Analysis, DeepSeek support for Ascend",
+      "chars": 18910,
+      "text_file": "data/2026-10-22/articles/semianalysis__the_huawei-deepseek_symbiosis.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Why Hardware Specialization is Back",
+      "date": "2026-10-21 19:51 UTC",
+      "link": "https://www.a16z.news/p/why-hardware-specialization-is-back",
+      "summary": "Thirty years ago, general-purpose chips beat specialized ones in the semiconductor industry’s great strategy debate. Today the same debate is back, but with new constraints.",
+      "chars": 18545,
+      "text_file": "data/2026-10-22/articles/a16z__why_hardware_specialization_is_back.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2112772374823407870",
+      "date": "2026-10-21T05:06:02.000Z",
+      "text": "opus is great for writing... when you dont happen to have any random no-no words in your prompt.\n\njfc, @CompleteSkeptic is right, give me prod, not god. i cant build an ai media org with this in the critical path. https://t.co/U8MOOmykJO https://t.co/ORcvXeH7xz",
+      "url": "https://x.com/swyx/status/2112772374823407870",
+      "likes": 36,
+      "retweets": 3,
+      "is_quote": true,
+      "quoted_id": "2102650014552182920"
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2112764130197451209",
+      "date": "2026-10-21T04:33:16.000Z",
+      "text": "i tried to make codex make animated explainer videos but ngmi https://t.co/UT7xloxtXc",
+      "url": "https://x.com/swyx/status/2112764130197451209",
+      "likes": 4,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2112662180105699802",
+      "date": "2026-10-20T21:48:09.000Z",
+      "text": "https://t.co/Tv89Jzgkp3",
+      "url": "https://x.com/swyx/status/2112662180105699802",
+      "likes": 14,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2112588380416647205"
+    },
+    {
+      "source": "Josh Woodward",
+      "handle": "joshwoodward",
+      "tweet_id": "2112679011839344651",
+      "date": "2026-10-20T22:55:02.000Z",
+      "text": "Sundar: \"We are so committed to being at the frontier. It’s in our DNA. We won’t do it any other way.\"\n\nCome build with us! https://t.co/p66ngm6sUi",
+      "url": "https://x.com/joshwoodward/status/2112679011839344651",
+      "likes": 426,
+      "retweets": 23,
+      "is_quote": true,
+      "quoted_id": "2112664584293167535"
+    },
+    {
+      "source": "Josh Woodward",
+      "handle": "joshwoodward",
+      "tweet_id": "2112676778779238583",
+      "date": "2026-10-20T22:46:10.000Z",
+      "text": "Sign up here: https://t.co/HF3sXiqKUU",
+      "url": "https://x.com/joshwoodward/status/2112676778779238583",
+      "likes": 48,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Josh Woodward",
+      "handle": "joshwoodward",
+      "tweet_id": "2112676777290248675",
+      "date": "2026-10-20T22:46:09.000Z",
+      "text": "We just crossed a big milestone for our @GeminiApp Trusted Tester community yesterday. TLDR: Lots of people want to try early stuff on Web, Android, and iOS! If you’ve signed up before, you’re fully in. If you want to sign up… 👇 https://t.co/SShYS6GnAd",
+      "url": "https://x.com/joshwoodward/status/2112676777290248675",
+      "likes": 500,
+      "retweets": 23,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2112712984644784534",
+      "date": "2026-10-21T01:10:02.000Z",
+      "text": "Day 16/\n\nYou can now cache for 12h in the API and for logged in users across Codex &amp; Work we keep cache forever and you don’t have any penalty for coming back to an old conversation or resuming after a few hours and are now guaranteed to hit the cache. https://t.co/0HYeB01KVh",
+      "url": "https://x.com/thsottiaux/status/2112712984644784534",
+      "likes": 10518,
+      "retweets": 510,
+      "is_quote": true,
+      "quoted_id": "2112603916076781778"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2112592264686149749",
+      "date": "2026-10-20T17:10:20.000Z",
+      "text": "There were reports of usage draining faster than anticipated for some users over the weekend. We've identified approximately 40,000 accounts that had an inconsistency on which usage limits where the actual usage that was applied did not correspond to their actual selected plan. We are reaching out individually to all these users and have corrected the issue. If this affected you, we'll add credits to your account. Sorry we got this wrong.",
+      "url": "https://x.com/thsottiaux/status/2112592264686149749",
+      "likes": 10601,
+      "retweets": 325,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2112683163633975713",
+      "date": "2026-10-20T23:11:32.000Z",
+      "text": "📌 Check out Mercury Payroll here: https://t.co/xZhi3mhocl\n\nMercury is a fintech company, not an FDIC-insured bank. Banking services provided through Choice Financial Group and Column N.A., Members FDIC.\n\nMercury does not provide legal, tax, accounting, or investment advice and does not act as your employer, professional employer organization (PEO), employer of record (EOR), or plan fiduciary.\n\nAI-generated information may be incomplete or inaccurate and should not be relied upon as legal, tax, or accounting advice. You are responsible for reviewing and confirming information before submitting or approving payroll actions.",
+      "url": "https://x.com/petergyang/status/2112683163633975713",
+      "likes": 1,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2112683151504159073",
+      "date": "2026-10-20T23:11:29.000Z",
+      "text": "Putting myself on payroll was one of the more painful parts of running my one-person S-corp.\n\nI'm partnering with @mercury on Mercury Payroll, which brings payroll into your Mercury account, with a team that handles state-tax registration paperwork and live-balance checks that flag potential shortfalls before payday.\n\nHere's what would have made my setup easier.\n\nPaid partnership with Mercury",
+      "url": "https://x.com/petergyang/status/2112683151504159073",
+      "likes": 25,
+      "retweets": 2,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2112607957586452724",
+      "date": "2026-10-20T18:12:42.000Z",
+      "text": "I predict Fable 5.5 will come anywhere from 5 seconds from now to a few weeks from now.\n\nAnd it'll be breathtaking. You heard it here first folks.",
+      "url": "https://x.com/petergyang/status/2112607957586452724",
+      "likes": 62,
+      "retweets": 2,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Google Labs",
+      "handle": "GoogleLabs",
+      "tweet_id": "2112606263163203970",
+      "date": "2026-10-20T18:05:58.000Z",
+      "text": "What would happen if Dreambeans ☁️ dreamt up ☁️ your morning ☀️?\n\nWe brought together Google Labs’ very own Sahana R. (Product Manager), Brian R. (VP of Product), and his impossibly adorable floof Nala to dance with destiny in an exercise we’re calling “Dreambeans Roulette”!\n\nHere’s the rundown:\n1️⃣ Open Dreambeans\n2️⃣ Select a story\n3️⃣ Go out and do it!\n\nDiscover where Dreambeans takes us in “Dreambeans Roulette: Part 1” and follow along in this three-part series!\n\nDreambeans is available in the US, for users 18+. More regions coming soon. Learn more at https://t.co/jCdAzMHvOD",
+      "url": "https://x.com/GoogleLabs/status/2112606263163203970",
+      "likes": 65,
+      "retweets": 13,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2112658577110520122",
+      "date": "2026-10-20T21:33:50.000Z",
+      "text": "Much like we did with @aisdk, we're bringing a truly open-source, runtime-agnostic solution to harness durability.\n\nWe're extending the durability infra that powers @eve and Workflows to all harnesses, like Pi and OpenCode. Local, Vercel, or DIY.\n\nFun fact: even Claude Code and Codex can be made durable (and observable!) this way. The catch: they're not (currently) designed for embedding, which makes them less efficient, less portable, and brings an extra sandbox requirement compared to Pi or Fx.",
+      "url": "https://x.com/rauchg/status/2112658577110520122",
+      "likes": 435,
+      "retweets": 24,
+      "is_quote": true,
+      "quoted_id": "2112653833382027729"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2112638107749355867",
+      "date": "2026-10-20T20:12:30.000Z",
+      "text": "AI will be able to compute the perfect delta of what you understand and don't, helping you progressively learn any idea and unravel any mystery.\n\nIf you so desire, you'll reach the maximum of your capability and intelligence. The ultimate education. For free.",
+      "url": "https://x.com/rauchg/status/2112638107749355867",
+      "likes": 2466,
+      "retweets": 201,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Aaron Levie",
+      "handle": "levie",
+      "tweet_id": "2112769686798832013",
+      "date": "2026-10-21T04:55:21.000Z",
+      "text": "Pretty cool that we clearly have an emerging form factor for what AI might look like for the foreseeable future as autonomous systems dedicated to specific tasks or domains.\n\nThis is a huge leap past the LLM wrapper days because the new expectation is that you can finally farm out more sophisticated work to the agent to tackle for you. And you can reliably trust that work can get accomplished properly (still with a human in the loop) because of far better tool and computer use, and the general intelligence of the models improving. \n\n1) The tool and computer use capability increases in the models mean that you can provide the agent with far more granular access to external data systems and other software to operate. This means, in effect, the agent begins to execute workflows similar to how a person would have in that same function. And where there isn’t existing software, the agent just builds it itself. This is a huge unlock. \n\n2) Next, the actual capability of the models are improving in just about every vertical domain. The models can make far better judgment calls in legal, do deeper bio research, scan for security issues in code, understand supply chain processes, and more. Obviously in many of these spaces then models still have worse intuition than people, but that will only get better.\n\n3) Finally, the harnesses and surrounding infra — sandboxes, file systems, data pipelines, etc. — allows for longer running agents, agents to be able to work on arbitrarily complex or long tasks, process data at enormous scale, and more. Few of these components worked well for AI even a year ago, but we now have many of the core primitives necessary for more autonomous systems.\n\nWhen combined with the right UX, implementation, and change management for the human oversight and coordination, it’s clear that these autonomous systems will become quite powerful in a wide variety of enterprise workflows. \n\nWe’re starting to see them in IT automation, cyber operations, drug discovery, manufacturing, AI research, and more spaces. You can almost imagine one or more of these systems for every role in the economy. Quite a bit of opportunity ahead.",
+      "url": "https://x.com/levie/status/2112769686798832013",
+      "likes": 89,
+      "retweets": 6,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2112698243553579485",
+      "date": "2026-10-21T00:11:27.000Z",
+      "text": "GStack is now Capy aware and works great with their software factory feature Captains https://t.co/9WIBtPdmbd",
+      "url": "https://x.com/garrytan/status/2112698243553579485",
+      "likes": 69,
+      "retweets": 6,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2112611824432742493",
+      "date": "2026-10-20T18:28:04.000Z",
+      "text": "Greatest unlock for any startup founder or anyone who has to get in touch with the right people https://t.co/FWdMrZ8VzV",
+      "url": "https://x.com/garrytan/status/2112611824432742493",
+      "likes": 693,
+      "retweets": 41,
+      "is_quote": true,
+      "quoted_id": "2112610920589562083"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2112553922753864109",
+      "date": "2026-10-20T14:37:59.000Z",
+      "text": "Asset seizure tax destroying California\n\nYou can bet they will keep trying to do it because it’s all the same goal: eat the Golden Goose\n\nBetter off just enjoying unlimited golden eggs but no, gotta eat that goose https://t.co/txJv5u5ZE6",
+      "url": "https://x.com/garrytan/status/2112553922753864109",
+      "likes": 584,
+      "retweets": 25,
+      "is_quote": true,
+      "quoted_id": "2112257675857707160"
+    },
+    {
+      "source": "Matt Turck",
+      "handle": "mattturck",
+      "tweet_id": "2112696155519775041",
+      "date": "2026-10-21T00:03:10.000Z",
+      "text": "Fun day for the @FirstMarkCap family \n\n* Series B announcement at @daytonaio \n* Series A announcement at @BabaHQ \n* Big launch of @GradiumAI’s new SOTA open source on-device voice AI model\n* and just this morning, @synthesiaIO and @RilletHQ officially taking over the NYC subway lol",
+      "url": "https://x.com/mattturck/status/2112696155519775041",
+      "likes": 35,
+      "retweets": 6,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Matt Turck",
+      "handle": "mattturck",
+      "tweet_id": "2112623582098428015",
+      "date": "2026-10-20T19:14:47.000Z",
+      "text": "Big news in *open source* voice AI: a suite of tiny text-to-speech, on-device SOTA models 🔥🔥🔥 https://t.co/VDc10vh3Ub",
+      "url": "https://x.com/mattturck/status/2112623582098428015",
+      "likes": 28,
+      "retweets": 5,
+      "is_quote": true,
+      "quoted_id": "2112563128487514512"
+    },
+    {
+      "source": "Matt Turck",
+      "handle": "mattturck",
+      "tweet_id": "2112570721499042246",
+      "date": "2026-10-20T15:44:44.000Z",
+      "text": "Thrilled to double down at @daytonaio: @ivanburazin, @JukicVedran and team are building one of the iconic companies of the AI era.  We're grateful that they let us lead the Series B, after leading the Series A earlier this year. https://t.co/0cTtZhI1UG",
+      "url": "https://x.com/mattturck/status/2112570721499042246",
+      "likes": 58,
+      "retweets": 3,
+      "is_quote": true,
+      "quoted_id": "2112559682720055454"
+    }
+  ]
+}
