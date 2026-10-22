@@ -1,0 +1,67 @@
+Source  : a16z
+Title   : Meet the a16z Ops Engineering Fellows
+Date    : 2026-10-22 16:30 UTC
+Link    : https://www.a16z.news/p/meet-the-a16z-ops-engineering-fellows
+────────────────────────────────────────────────────────────
+
+We’re excited to announce the fellows who will be part of the inaugural a16z Ops Engineering Fellowship, an 8-week cohort of leaders who are transforming their organizations with AI.
+We received thousands of applications from talented people around the world. Today, we’re thrilled to share more about the inaugural cohort of 50 fellows who are leading operations engineering at companies like Ramp, Decagon, Luma AI, Opendoor, and ElevenLabs.
+See a full list of the fellows here!
+Many sit at the intersection of operations and engineering, scaling operational rigor within and across teams.  They’re leading the charge by building the internal tools that consolidate the tooling stack, designing the data and context layers that agents draw on, deploying agentic workflows with human checkpoints, and driving adoption. Folks like
+Ben Booi
+and
+Rushaabh Saliya
+at Opendoor,
+Chris Jones
+at Shopify,
+Dilan Shah
+from Cresta,
+Jordan Shapiro
+at Handshake,
+Kevin Chu
+from ElevenLabs,
+Saya Iwasaki
+at Notion,
+Christina Huang
+at Cognition, and
+Keith Gliksman
+at Tennr.
+Some are world-class COOs and chiefs of staff redefining how AI gets used across organizations. They’re deciding which workflows to automate first, the KPIs that prove it’s working, and are leading the teams that put it to work. Folks like
+Caroline Ingeborn
+at Luma AI,
+Gabriella Garcia
+at Warp,
+Brandon Gell
+at Every,
+Rohan Shah
+at Datavant (ex-Ramp),
+Matt Stehle
+at Formation Bio, and
+Meera Shah
+at Glean.
+Others are taking how software gets built to the next level, creating new products and leading the teams that ship them, like
+Claire Vo
+at ChatPRD,
+Seb Goddijn
+at Yaklabs (ex-Ramp Glass),
+TK Kong
+at Concept,
+Matt Portnov
+at Decagon,
+Owen Williams
+at Stripe,
+Andrew Qu
+at Vercel, and
+Max Nardi
+at Runlayer.
+Congratulations and welcome, a16z Ops Engineering Fellows!
+Sign up
+here
+to stay in the loop about future fellowships and a16z opportunities.
+Stay in the loop
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

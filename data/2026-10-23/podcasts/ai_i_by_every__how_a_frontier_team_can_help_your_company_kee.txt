@@ -1,0 +1,1003 @@
+Source  : AI & I by Every
+Title   : How a Frontier Team Can Help Your Company Keep Up With AI
+Date    : 2026-10-21 18:31 UTC
+Link    : https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+────────────────────────────────────────────────────────────
+
+You need a frontier team.
+
+Here's why.
+
+Every single person in your company is caught in this dilemma.
+
+Do I get my work done or do I stay up to date with AI and figure out what all these new tools and workflows mean for what work I should do?
+
+That's just crazy.
+
+It's so hard to figure out.
+
+Every single company is struggling with this right now.
+
+Because, I mean, on the one hand, you could ignore the frontier and that'll probably work for a little while until you get disrupted by some agent native version of your product that you didn't see coming.
+
+Or you can keep up with the frontier and just chase shiny objects and never build anything that lasts.
+
+The reason why you need a frontier team is it separates things out.
+
+So you get this nice separation of concerns where you're both keeping up with what's going on on the frontier and you're actually getting your work done.
+
+And I had my co-host, Natalia.
+
+Welcome, Natalia.
+
+Hey, Dan.
+
+Good to be here.
+
+Who is our head of enterprise AI adoption.
+
+Come in and do a little bit of digging into our Frontier team.
+
+So we've been running the Frontier team at Every for, I guess, a couple of months now.
+
+And it has been kind of transformative.
+
+And I think Natalia is one of the best people to come in and take a peek and be like, what are we actually doing?
+
+So actually, I might turn the tables a little bit to you because it was your idea to have a frontier team.
+
+Yeah.
+
+I mean, yeah, the frontier team, I think has been a huge unlock and it's because of this separation that, that I've been talking about.
+
+I think there's so many people at every like me who just love playing with new things and that's super important.
+
+But if that's all you're doing, then you're, you're not going to make progress as a business.
+
+Like you actually do need to go execute on products and services, things that people can rely on.
+
+And it felt like we needed to choose one or the other.
+
+Yeah.
+
+either just constantly be playing with new stuff or make a product that we just build once and then we add features to and we support forever.
+
+And the Frontier team was in a sort of an attempt to say, okay, what if we take all the people like me who love all the new stuff and we just unleash us to just run experiments?
+
+And at the low end, the experiments are just, they're just really good content.
+
+They just teach us something interesting and they become good tweets or YouTube videos or anything like that.
+
+And then on the high end, they get pushed up from the frontier into the products that we build, into the services that we offer, without the rest of the company feeling like they always had to be paying attention to every single model that drops in every single new experiment that we're running.
+
+So I felt like it's allowed me and the other people on the frontier team the space to just figure out what the future looks like without forcing that on the rest of the company until it's actually ready for them to pay attention to it.
+
+Now, one of the things that you seem to have figured out pretty early in the formation of the Frontier team is that you wanted to have both pirates and architects.
+
+Can you describe what that is?
+
+I think there's two archetypes that work really well together, pirates and architects.
+
+Pirates are people like me who are just like, I just want to go really fast and I'm going to do stuff that's kind of be a little bit sloppy, but I'm going to try like a billion things in the space of a couple days.
+
+And I'm going to figure out what's useful.
+
+but it's gonna be a mess.
+
+Architects are people who are really good at being like, there's a whole big messy thing
+
+what would it look like to compress it a little bit and form it into a shape that actually works, that we can actually use?
+
+Because what we try to do on the Frontier team is we're experimenting with lots of stuff.
+
+Most of that stuff gets thrown out.
+
+And some of it ends up getting pushed into the rest of the team to see if the rest of the team likes it.
+
+And at that point, there's a point right before we do that that an architect becomes really useful to come in and say like,
+
+this is messy, we can't actually maintain this and it wouldn't work for these five different ways for the people internally at the company and helps turn it into a system that we can actually understand and build on instead of just being like a kind of one-off vibe-coded project.
+
+Dan, what do you think has been the most impactful thing you've seen about having a Frontier team at every?
+
+I think it lets us move incredibly quickly on what's new.
+
+without distracting the whole team.
+
+And that has a deeply, um, it's like confidence building for the team because you feel like, Hey, I'm going to know when things change, we're going to, we'll be able to handle it.
+
+And I'm not feeling crazy and frazzled and distracted all the time.
+
+And I think that is like the core important thing that affects the day-to-day experience of building and working in and running a company in this environment.
+
+Absolutely.
+
+Thanks, Dan.
+
+Thank you.
+
+So, Mike Taylor, welcome.
+
+We're so excited to learn about the work that you're doing on the Frontier team as the head of evals.
+
+So, can you tell us a little bit of what you're doing as part of the Frontier team?
+
+Yeah, so it feels like it's different every week or maybe every day, sometimes every hour.
+
+But the goal of the Frontier team is really just to kind of push the models to the limits and see what is now possible and what is a new way to work, given that the models are constantly getting better.
+
+And there's still a lot of...
+
+capability overhang.
+
+What I mean by that is the models are able to do much more than we have had time to try.
+
+And so we're trying to find those edges.
+
+And specifically, what is your title as part of the Frontier team?
+
+Yeah, so I made up my own job title, which is very me, but it's head of evals.
+
+So what that means, evals is short for evaluations.
+
+And so it's my job to kind of take the kind of vibe checks that we've been doing with models that are more like qualitative and then try and put some numbers behind them.
+
+So I've been working with a lot of the team to help them build their own personal benchmarks.
+
+including with you.
+
+And we're trying to roll that out as more of an internal product initially to get more people involved with testing the models.
+
+And I can talk a bit more about that, but also just running more experiments.
+
+When we say that AI is sycophantic, what do we mean by that?
+
+How do we define that?
+
+And can we test that?
+
+Those sorts of things.
+
+And then just also just pushing it a little bit further.
+
+So...
+
+And so what are you most excited about now?
+
+Yeah.
+
+One of the things I've been finding more is that Opus is like very good at video editing.
+
+And this is, uh, you know, maybe obvious to some people who have been testing it, but I've been testing AI on video editing for a while.
+
+I have a popular Udemy course, uh, and, uh, it's like the worst part of that side project is having to edit the videos afterwards.
+
+Um, so, uh, for me, I've
+
+like a lot that I can do that I couldn't previously have done.
+
+So one of the things I did recently was I made an explainer video for the Chex product for the personal benchmark product that we're making.
+
+I asked Opus to go back through all my Slack messages, go back through all my granola notes, and then pull the narrative of the video together with receipts, right?
+
+Like with references to the specific things that I'd said in Slack or in meetings.
+
+And then it like cut that whole video together
+
+Uh, and, and like, then I had an explainer video.
+
+So I feel like that that's opening up a lot for people who are like me, who may be too busy running experiments to ever like tell anyone what we're doing.
+
+So cool.
+
+Can you show us an example?
+
+So this is the one I was talking about.
+
+So this prompt goes back really, really long way.
+
+But I went back and forth with Opus on this.
+
+And initially it was in UltraCode, which if you don't know, is like one of the settings that is like the highest effort setting.
+
+And so it will use hundreds of agents
+
+basically that it's orchestrating to do the task.
+
+And the reason I chose UltraCode for this is I knew that had a lot of context that I wanted it to read.
+
+And like one model can't read all of that context.
+
+So what it does is it sent hundreds of agents, you know, one agent per meeting that I had, and then pulled everything back into this like library essentially.
+
+These are all the sources, right?
+
+So you can see all the different calls I had with different people, and it found all the ones that are relevant.
+
+But now we have it all.
+
+We have this big library of sources.
+
+But it didn't just do that, right?
+
+It also then created this story spine, which is like it tried to boil it down to what is the narrative?
+
+Like if someone doesn't know the Chex product, what is Chex?
+
+And it boiled it down to like these 12 sentences.
+
+So like personal benchmark is a small set of your own real work,
+
+saved so that am.org can run on it again.
+
+So that's the definition I just gave you earlier.
+
+But now we have the receipts, right?
+
+I can click in and see where did that sentence come from?
+
+Back to the insight card, and then from the insight card back to the specific things I said in meetings.
+
+So it's all auditable.
+
+And then it puts everything together, and then we have this explainer video, right?
+
+Yeah, so.
+
+So the interesting thing is, so like see all these screenshots?
+
+Like it went and found those screenshots from my Slack.
+
+These are things that I shared, you know, and then like it put everything together.
+
+It annotated the screens.
+
+It did the voiceover.
+
+I used Google Gemini.
+
+I gave it a Gemini API key.
+
+And so these are the 12 sentences, but like shown in video form.
+
+And that is
+
+Again, pretty amazing.
+
+And then I can share that with the rest of the company.
+
+And then now they understand, like, oh, yeah, a score is a count of yeses, right?
+
+So, like, now they understand the Chex product.
+
+So maybe last question for you would be, you know, as head of evals, you're evaluating a bunch of models.
+
+You're seeing what actually works, what the new capabilities are.
+
+What is the cheat sheet that you could give someone?
+
+I know it's late October 2026, so this might be outdated in a matter of days.
+
+But can you give us a cheat sheet for what we should know about using models today?
+
+Yeah.
+
+So what is my cheat sheet?
+
+So I think one thing that people are not doing enough of is just giving all their context over to AI.
+
+I think previously, if you've tried this in the past and you've asked AI to look through your call notes or maybe been hesitant to give it access to your Google Drive or whatever...
+
+And I was that person like earlier in the year.
+
+I didn't have it cooked up to my Gmail or my Slack and living within the every community, like being in the team.
+
+It's like now I'm like full on like AI has access to everything.
+
+And I would say like just make that leap because it's amazing how good it is at picking out good context once you give it access.
+
+So I'd say like that's gotten so much better and people need to do more of that.
+
+And you can trust it more to use its judgment in what it brings into that task.
+
+The second thing is that I feel like it's your job, like now that you're producing a lot more, hopefully if you're using AI more, it's your job now to protect other people's context.
+
+So I'm like regularly accused of saturating the company LinkedIn, like every channel I'm posting in.
+
+It's like Mike, Mike, Mike.
+
+And I'm really conscious of that.
+
+So creating that video, creating more videos like that, making the work that I'm doing more digestible, I think is now actually my job.
+
+I'm coming up with good ideas.
+
+I'm giving it to Claude.
+
+Claude's finding those ideas more automatically for me when I've said them.
+
+But now I'm flooding people with new ideas.
+
+So that's the other part that I'm working on.
+
+I think that that's where a lot of people's jobs are going to go.
+
+Super cool.
+
+Thanks so much for joining us, Mike Taylor.
+
+Yeah, yeah.
+
+Good to talk to you.
+
+So welcome, Arielle.
+
+So excited to have you.
+
+And can you tell us what your role is as part of the Frontier team at Every?
+
+Yes, I'm officially the Frontier Wrangler, which means that I help make sure that our experimentation is in some ways organized enough for us to then harvest and synthesize learnings and digest it for the outside world and direct our
+
+exploration internally.
+
+So I work on the systems and processes that allow us to do that internally.
+
+And I partner closely with Dan on that.
+
+And then I'm also running my own experimentation.
+
+So unlike other folks on the team, I'm less technical, but I'm an operator.
+
+And so there's
+
+A lot of interesting opportunity for practical systems that we can experiment with using some of these new tools and techniques on the inside that I'm playing around with pretty consistently.
+
+Why does the Frontier team need a Wrangler?
+
+I think one of the cool things about working with folks in the org is that everybody is a meta thinker.
+
+People are so creative and they're so excited to just sort of chase the next thing.
+
+And that's great.
+
+We need people like that.
+
+And then we also need a organizational layer to say, like, what are we learning from this?
+
+And how can we actually digest everything that's coming out of these experiments?
+
+for our audience.
+
+And so I think it's pretty important to have a layer that basically looks at everything that people are doing
+
+maps it to digestible themes and tries to find some of the meaning in all of this experimentation, and then creates a layer that allows us to turn it into content and products and even concepts that we're teaching in consulting.
+
+So it's a way of harvesting all of this and then translating it into other areas of the business.
+
+So what are you working on now?
+
+With all of these models coming out constantly, the frontier of AI capability keeps pushing forward.
+
+And that's really exciting.
+
+That also means that there's so much to play with and experiment with that we are constantly burning through tokens like Wildfire.
+
+And that's an important investment in our business and experimentation.
+
+But also understanding at a meta level, like what experimentation are we doing?
+
+How much money are we spending on that?
+
+And what are we getting out of it in return is pretty important.
+
+Can you show us an example of kind of like a recent like insight or maybe process that you've tried to apply lately in your job as a Wrangler?
+
+Yeah, definitely.
+
+So this is what the usage dashboard looks like.
+
+Some of this is going to be a retrospective because we don't have a full month of spend for October yet.
+
+But what this basically allows us to do is understand, like, what is the total dollar value that we've spent?
+
+What are the tokens?
+
+Like, what's the token count that we've spent it on?
+
+And then...
+
+There's actually a breakdown by person.
+
+So we created a skill that looks across all the different harnesses that you're using on your computer to harvest.
+
+These are the tokens that you used across each of these harnesses.
+
+You can also click in and see...
+
+There's, we're collecting data in real time.
+
+So it gives you the actual like model and effort level.
+
+And this dashboard also includes a workflow that basically looks across all of your sessions and categorizes at a high level what you want.
+
+spent those tokens on and then runs it by you for approval so that you can see, you know, both the percentage share of the work of the token spend that's gone to each different work bucket and then what the estimated dollar value of those tokens are.
+
+So you can make a sort of quick calculation of like, oh, like, was that worth it or not?
+
+All right.
+
+And Ariel, maybe last question for you.
+
+What are you most excited about next as the Frontier Team Wrangler?
+
+I think what I'm most excited about is as these models get smarter and smarter, my ability to actually build the capacity for that grows.
+
+It's not a power that I've had before, and it feels magical, and it feels really exciting.
+
+And being able to take some of the ideas that I have and –
+
+And will them into existence is actually a totally new thing.
+
+So in my previous life as an operator, I would have waited had to wait for different model companies to add this kind of tracking capability that I'm looking for, or I would have had to partner with an engineer to do any of this.
+
+And now I actually have the ability to create some of it myself.
+
+So what I'm looking forward to is as these models get better and better, my capacity to actually build systems to do this work for us gets better and better.
+
+And I'm really excited about diving into that.
+
+I'm excited to see you, Arielle.
+
+Thank you for joining us, Arielle.
+
+Cool.
+
+Thanks so much.
+
+One of the great things about working with AI is you can just talk to it now.
+
+If you're interested in groundbreaking voice experiences, you need to check out Gemini Audio.
+
+Gemini Audio is the new voice models from Google DeepMind.
+
+Gemini 3.5 Transcribe turns speech into clean formatted text.
+
+If you say, let's meet Tuesday, no Wednesday, it'll detect the correction and handle it automatically and remove filler words.
+
+There's less cleanup between a rough thought and something you can actually use.
+
+And now with Gemini 3.8 live extended thinking, you can talk through more complex work.
+
+It can reason and speak simultaneously, which keeps conversations going while it's working in the background on your behalf.
+
+You can even ask follow-up questions and give feedback as you go on together.
+
+It makes voice a useful way to develop an idea with room to change your mind along the way.
+
+You should check out the link in the description and learn more about Gemini 3.5 Transcribe and Gemini 3.8 Live Extended Thinking.
+
+And now, back to the episode.
+
+Yeah, so I'm Jack Chang.
+
+I'm a senior editor at Every.
+
+And yeah, part of the Frontier team.
+
+I think my role on the Frontier team...
+
+I think we're all figuring out what our roles are on the Frontier team.
+
+And I've definitely been testing more of the early access models that we've been getting.
+
+And something I've really started doing more of there is basically just creating these interactive experiences and games and things like that, and to just really
+
+try to push at what is even capable now with each new model release.
+
+What can it do that it maybe wasn't good enough?
+
+It wasn't good enough that I would even think to try with a model before.
+
+Yeah.
+
+And so lately that's kind of meant I'm just like creating video games and things like that.
+
+And then the other piece of it is just actually like making my own applications.
+
+So, you know,
+
+I was finding that I was really getting overwhelmed by my browser's tabs and being constantly forced to contact switch.
+
+And I was like, well, wouldn't it be nice if I had a browser that didn't have tabs and that you could turn off the tabs?
+
+And I think before, I would have maybe built a Chrome extension or something like that.
+
+But now the models are so good that I was like, no, I can just build my own.
+
+So here is my browser, basically.
+
+Yeah, like I mentioned, it's a tabless browser.
+
+And that was the original intent, is to have this browser where I'm not tempted to switch tabs and open things in the background and never get to them.
+
+But once I had this going, I was like, well, in order for me to use this day-to-day, I have my whole editing workflow that I normally use ChatGPT in the browser for.
+
+So basically, I added this agent pane.
+
+That could let me pick any model provider and use any model for editing, which I couldn't really even do with Claude and the Gemini models because their plugins for Chrome weren't as good.
+
+but there are things like, you know, like just in sort of daily use, I'm like, oh, there are times when I actually do need to like peek at something.
+
+And so the latest thing I added was sort of this kind of like peak mode where I could like very quickly temporarily open up a page and then like, you know, like look up something and then go back to my document.
+
+And I think like what I'm starting to learn with this is just the way that like
+
+I think we had this concept of plugins and extensions for a while, but those things never really let you get close to the actual application and changing how the application worked.
+
+And now with sort of the latest generation of like frontier models, it's really like possible to build this like, you know, fully like personalized to you or personalized to your team and their workflows application that you couldn't do before.
+
+All right.
+
+I think maybe a good closing question might be, what are you most excited about building next?
+
+I think I'm most excited about building more things that help basically protect my attention.
+
+And I think with all this, first of all, I have ADHD, have a diagnosis of ADHD, and
+
+And that's always just been a huge challenge throughout my life.
+
+And I've kind of had to come up with like these like adaptive strategies throughout the years in order to manage it.
+
+And, and I think like now, you know, it's even more kind of like tempting to kind of just like try to do a million things.
+
+And, and, and yeah, and I do feel like I am like doing much so much more now, but at the same time.
+
+I've never felt such strain on my ability to focus and ability to like keep my attention, um, on something for long enough that, you know, that, um, uh, it's, it's sort of, yeah, for, for long enough that I think it, it makes a meaningful difference, uh, in my life.
+
+Um, and, you know, experimenting and experimentation is definitely like, um,
+
+important to me.
+
+But I think there's also this other side of me that's like, yeah, you know, I want to build things that like, help me write more help me like create more beautiful things in the world.
+
+I want to build things that, you know, connect me closer to like my local community.
+
+And so really, like thinking about it, not as just like,
+
+building something for creativity sake, but like doing it in a way that like also helps, um, you know, reinforce and serve and deepen my values.
+
+Wonderful.
+
+Thank you so much for joining us, Jack.
+
+Welcome Katie.
+
+Uh, so excited to be back on the pod with you and to be talking about your role as part of the frontier team.
+
+What do you do in the frontier team?
+
+Yeah, so there are a couple different things that I do on the Frontier team.
+
+Number one, I'm on the testing team for the new Frontier models that come out from OpenAI, Anthropic, Gemini, Grok.
+
+We are on the test.
+
+We get early access to these models.
+
+We're putting them through our workflows and just seeing, okay, what is it like to use this model properly?
+
+So we can turn around and pass that information along to the people who read our vibe checks.
+
+So that's kind of one of my lanes.
+
+The other lane is writing the vibe checks themselves and in other ways, kind of like sharing out what we're learning on the Frontier team.
+
+So I'm kind of like...
+
+the resident writer embedded inside the Frontier team to write about what the Frontier team is learning.
+
+And then I'm building stuff myself.
+
+And that's where stuff like my plugin Compound Writing comes in.
+
+That's where using new models that are fine tuned for writing comes in.
+
+And that also includes crash test driving, being a crash test dummy for some of the things that other people on the Frontier team are building, like,
+
+Kieran and Mike as well.
+
+And can you give us an example of something that you're working on now?
+
+Yeah.
+
+So right now I am, I'm continuing to build out compound writing.
+
+And so for folks who don't know, that is my plugin that sort of takes you through the writing process from ideation through.
+
+planning and outlining through drafting to finalization.
+
+And the whole thing is up to this point has been built around two core documents.
+
+The voice guide that captures how your voice sounds on like
+
+a sentence level, and like the word choice that you use, and then style.md, which covers what you write about, how you like to talk about your subject matter.
+
+And right now what I'm doing is I'm adding a third document, which actually in hindsight feels very obvious to the writing process, and that is audience.md.
+
+Um, so that, so who is the reader that is ultimately going to be receiving this content?
+
+And so I'm adding that to my plugin and saying, okay, how does this change the, the experience of using this plugin?
+
+Doesn't make it more, more useful.
+
+So I can share my screen.
+
+And so for anyone who's not familiar with Katy Parrott's compound writing plugin, you can find it on our GitHub and you can just point your AI of choice to the page and you can download it and it'll take you to this, yes?
+
+And so what are we seeing here?
+
+So this is me setting up my audience.md for my column, Working Over Time, which is where I write about my misadventures and regular adventures.
+
+you know, applying AI in my own working life.
+
+So I wanted to set up an audience.md folder for that work that's specific to this column.
+
+And it gives me this readout of who the working overtime audience is.
+
+So what the territory it covers, you know, the main reader being a combination of like the early seeker who's kind of AI curious.
+
+And then that operator who's looking for like practical applications to their day-to-day work.
+
+Something I kind of baked into how the audience.md is structured is the idea of a hero's journey, which I really like.
+
+Every piece of reading should take the reader on their own hero's journey in some form or other.
+
+You're looking to
+
+enact some kind of transformation in them.
+
+And so I wanted to include that in my audience MD.
+
+And then what that unlocks for us in compound writing, I went ahead and did a pre-bake where I just asked it to review my most recent working overtime draft for audience fit, which was my piece about how I accidentally made all of my context worse by trying to make it better.
+
+And it's using the audience MD that I updated today to then give like,
+
+an overview of what already works.
+
+So it says it's clear, context gets an explanation.
+
+The fix is personal, not universal, which is something that I've said that I don't like to prescribe things.
+
+I like to describe things.
+
+And then here is where it loses the secret side.
+
+This is really good feedback.
+
+It's like, where am I not...
+
+being accessible to people on the earlier side of that spectrum that I might want to be reaching.
+
+So this is really good stuff that I'd want to engage with.
+
+And then some smaller operator notes, like what was the damage?
+
+Like what was the cost to me when like I wasn't getting the results I wanted out of AI?
+
+So this is the kind of like higher detail feedback and like more value that I think we can bring to tools like compound writing to help empower people like make better
+
+Do you have a sense of what your next experiment might be?
+
+My next experiment, so, well, I'll be working with Kieran on every type, which is his bid to get us all to stop using Google Docs.
+
+So I'll be sort of like test driving that and being very annoying in my feedback and my particular preferences as a writer.
+
+I'm also kind of like building my own word processor.
+
+I always, I joke it's like a rite of passage.
+
+Like everyone at a certain point decides to vibe code their own word processor and,
+
+So I'm like building my own word processor word better on the side just to – because it's easier for me to articulate what I want in a tool just to build – at this point to just build it myself.
+
+And then I can show it to Kieran and say, here's what makes more sense to me.
+
+So that is kind of what I'm doing now.
+
+Like I'm just on that part of my journey where I feel like I can build a better word processor than Kieran.
+
+Yeah.
+
+Fantastic.
+
+I love it.
+
+Well, thank you for compound writing.
+
+I've personally really enjoyed using it.
+
+And thank you for joining us.
+
+So welcome, Yannick.
+
+So excited to have you.
+
+And can you tell us what is your role as part of the Frontier team?
+
+Yeah, sure.
+
+I'm mostly working as an architect on some of the projects.
+
+I took over a lot of projects from then.
+
+I think my first project here was working on proof, getting it production ready, getting it back to life, I would say.
+
+Nowadays, I'm mostly focusing on compounding.
+
+basically working on Cakebench, having like a skill which tries to replicate the judgment and taste of our editor-in-chief to reduce some of our work basically.
+
+And maybe tell us a little bit about that, because I think a lot of people, you know, have tried vibe coding something, building a product, and then it can break in all kinds of ways.
+
+You're the person that gets brought in to kind of clean up the mess and see what's really there.
+
+So what's that experience like?
+
+I think AI is really good at like bringing something to life, just making assumptions, looking up what to use and just build something that looks good and potentially also works for that demo case or initial implementation.
+
+But I think there's still need for the architect role who has that background knowledge into knowing how to build stuff that's reliable, that's maintainable over time.
+
+How you should structure code, what libraries to use, how to deploy it.
+
+Know what's important on the software side to make it ready for the future, I would say.
+
+Now, can you give us an example of something you're working on now?
+
+Sure.
+
+I think like, I'm currently working on like two work streams.
+
+One is compounding with like Cakebench I mentioned earlier.
+
+And the other one is more explorative where I see how should we work with AI.
+
+All right.
+
+So this is my orchestrator.
+
+It's called Minga.
+
+And what I can do here is, uh,
+
+create a project.
+
+For example, I created a new project called Replyguy.
+
+The idea is that we give a colleague, Becky, a tool which she can use to explore what's trending on Twitter and basically reply to it with one of our new vibe checks, for example.
+
+The main goal for this tool was
+
+I want to take the work to a higher level.
+
+I want to work on the level of goals and a plan, but not focus too much on the individual coding sessions itself.
+
+We have an orchestrator agent here.
+
+That's like my main interface.
+
+So I can talk to that agent, discuss what we're trying to build, tell it like the requirements, what tech stack I wanna use.
+
+And it can take all of that and break it down into the individual tasks of a plan basically.
+
+And this plan has separate steps.
+
+It shows the dependencies, what needs to happen in which order.
+
+And it has some autonomy to kick off work in the background.
+
+Um, so it's like implementing it and whenever it needs me, it can ping me for like a decision, um, where it needs my input.
+
+It can show me like, um, drafts or mock-ups of some UIs where I can give my input on.
+
+And I just give it my feedback and it continues working basically by itself.
+
+Super cool.
+
+Um, thanks for sharing.
+
+Uh, what do you think your next experiment might be?
+
+For this week, I'm probably going to focus on this orchestration idea.
+
+There are some questions I want to explore.
+
+For example, the idea is that this could be multiplayer as well.
+
+So you could invite other people from your team, or potentially even the whole company, and have a shared context of what you're working on.
+
+And everybody can bring their strength.
+
+So like the pirate and architect ideas, like the pirate can bring his ideas and what he wants to experiment on.
+
+And the architect can bring like the technical knowledge, but like at the same time.
+
+So we don't have to like hand off the work after one is done, but we can, yeah, like build the same project at the same time with a shared context and everybody brings in their expertise.
+
+Great.
+
+Thank you so much, Janik.
+
+Really good to see you.
+
+So welcome, Kieran.
+
+So excited to be talking about the work that you're doing as part of the Frontier team.
+
+What are you doing on the Frontier team?
+
+Yeah, it's really cool.
+
+I love the Frontier team because I basically, when I started with every, I started building Quora and experimenting with stuff.
+
+And out of that came compound engineering and so many more things.
+
+And I just felt this team was already there, but we never gave it a name.
+
+And now saying, hey, we're the Frontier team.
+
+We're allowed to do experiments to
+
+figure out what might work and what might not work.
+
+Yeah, it's great.
+
+So what I'm doing now is I'm just trying out
+
+what we can build with AI today.
+
+And that changes every time a new model comes out.
+
+I'm running an experiment every week, at least one, most of the time, multiple, and I learned something.
+
+And the big part is then to share what I learned with the team, with every subscribers, to make sure they can adopt or they can direct whatever they do in the direction that I learned from.
+
+So that's the biggest part.
+
+to do bigger things to be more ambitious and it's a little bit less scary if someone already did it and said yeah it's actually working this is a good pattern or someone says this is not a good pattern you should go this other direction so that's really my job to yeah go wide but also go deep it's both
+
+And I'd be curious, Kieran, when you started playing with the models, kind of like really testing what was possible, could you give us maybe just a, could we back up and could you share an example of how the capabilities have evolved in terms of what you were testing, say GP3-4, GPT-5-4, Opus 484, versus what you are now doing with the models that you have access to?
+
+Yeah, it's every time something new.
+
+And the whole point is to see it fail.
+
+It's like, how far can you push it until it fails?
+
+A lot of models are very good, and they do a lot of things.
+
+So the hard part is, how do we test even whether it's good or not?
+
+And how far can it go?
+
+And in the beginning, it was like, can it write code?
+
+Wow, it can write code.
+
+GPT-4 suddenly could write pretty good code.
+
+And that was the first unlock.
+
+And then we had Sonnet 3.5 that could write code across multiple files pretty well, like multiple pieces of code together and UI, like you could create UI with it.
+
+we went a little bit further and started to see agentic work.
+
+Like models could pass work along.
+
+Like before it was just like a prompt in and then something came out and then you iterate on it.
+
+And the agentic work with 3.7, Opus 3.7 with 4.4.1, like suddenly the agents could do work.
+
+And with Opus 4.5, it shifted again to...
+
+doing more complicated work.
+
+Like we could suddenly create like text editors with CRDT and like real time editing and all of that, like which is very complicated, but suddenly an AI could just do that in a week.
+
+And you saw Dan make proof.
+
+This was like the proof era, like GPT-5.5.
+
+So suddenly we're like, oh, we can be more ambitious.
+
+We can create bigger things without hand-holding too much.
+
+And especially with Fable now, with Fable 5.1, is that you have a model that can run even longer, even more deep.
+
+You can trust even more.
+
+Like, I'm a musician, so I...
+
+I always try to build a DAW.
+
+So I started maybe a year ago.
+
+And every time a new model comes out, I just try it again and say, hey, can we work more on it?
+
+And we're now at a point where I can just do that, which is insane.
+
+So maybe I should do a video editor because that's what we need.
+
+Could you tell us a few examples of things that you've built recently?
+
+So you are doing a lot of video stuff, for example.
+
+Yeah, my favorite is the video stuff.
+
+So I...
+
+do a video editor, but it's not just a video editor.
+
+It's also like a live streaming, like meeting recorder, like the whole thing that we have so many people at Avery that say and have such interesting ideas, but like they get lost in meetings.
+
+So this is also a way to record all of that, but also give that into a format that editors know, like, but also agent native, obviously.
+
+So everything agent native,
+
+And the other is an editor for writing.
+
+So this is also similar to like Proof, but we're like, I'm just experimenting.
+
+Can we make the next version of Proof?
+
+Can we make it better?
+
+Can we do even more?
+
+For anyone else who is on a frontier team, maybe at their company, right?
+
+Maybe it's a startup.
+
+Maybe it's a large enterprise team.
+
+What is one tip that you would have for them about how to succeed as someone who's operating at the frontier embedded in a larger organization?
+
+Yeah, I think the most important thing of a Frontier team is that you inspire your team, but also you listen to your team.
+
+If you do a hundred experiments and don't let it land and don't integrate it, it doesn't work.
+
+You need to listen to your team.
+
+get inspired by your team, and then do stuff, and then make sure that some things will be adopted.
+
+So it's really about integration.
+
+Yes, you should be free and have the freedom to do everything, but in the end, it is about integration and actually bringing it back to the actual organization.
+
+So I would urge everyone, make sure people get what you do and don't get overwhelmed, because it's very easy to overwhelm the entire organization by just...
+
+dumping 100 experiments in a channel.
+
+Make sure some stick.
+
+Make sure people understand what you do.
+
+That's your job as a frontier team.
+
+Amazing.
+
+Thanks so much, Kieran.
+
+If you liked this video, you should check out every.to.
+
+We have a two week free trial for anyone who's watching or listening at the link in the description.
+
+Every is the only subscription you need to stay at the edge of AI.
+
+It is the one subscription that if you're super AI-pilled and you wanna learn how to use it to do the best work of your life, it's got everything you need.
+
+It has education and equipment on the education side,
+
+We review every new model that drops and tell you what's good.
+
+On the equipment side, we have software tools specifically made for you, like an agent that helps you AI pill your whole company, all bundled together under one subscription.
+
+So get two weeks free now at the link in the description.

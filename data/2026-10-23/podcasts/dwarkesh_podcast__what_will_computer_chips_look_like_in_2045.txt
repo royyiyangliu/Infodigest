@@ -1,0 +1,825 @@
+Source  : Dwarkesh Podcast
+Title   : What will computer chips look like in 2045?
+Date    : 2026-10-22 15:02 UTC
+Link    : https://podcasts.apple.com/us/podcast/what-will-computer-chips-look-like-in-2045/id1516093381?i=1000797633702&uo=4
+────────────────────────────────────────────────────────────
+
+[00:00] Speaker0: There's never been as big a shock to the semiconductor industry as the current surge in demand from ai.
+[00:06] Speaker1: Ai is driving incredible computing demand.
+[00:09] Speaker0: Easily 40 to 50% above our maximum capacity, which i've never seen before.
+[00:14] Speaker0: Progress in ai has been driven by exponentially increasing compute.
+[00:17] Speaker0: To sustain that progress, foundries like intel will need to manufacture far more leading-edge compute, both by producing more chips and by improving what each ship can do.
+[00:26] Speaker0: But the production of these ships is bottlenecked by tools that intel buys from their suppliers, most famously asml's euv machines.
+[00:33] Speaker0: If they don't have the equipment, they can't make the chips here.
+[00:36] Speaker0: I spent two days touring intel's fabs to prepare for these interviews with its leadership.
+[00:40] Speaker0: I wanted to understand what it takes to manufacture the world's most advanced chips.
+[00:44] Speaker0: And how hardware is shaping the future of ai.
+[00:47] Speaker0: Okay, i'm joined by chris off who leads development of all the processes that are currently under manufacturing.
+[00:53] Speaker0: The thing i want to understand in more concrete detail is how the development of a new process actually happens.
+[00:59] Speaker0: So if 14a is going to come out in three years or two years from now, what is happening from now till then?
+[01:06] Speaker0: And i want you to walk me through as much detail as you can everything from like the level of.
+[01:10] Speaker0: How is the yield improving?
+[01:11] Speaker0: What kind of telemetry do you guys look at?
+[01:13] Speaker0: What is what kind of experiments you guys run?
+[01:15] Speaker0: I want to understand what is happening over the next two years as concretely as possible.
+[01:20] Speaker2: Yeah, if and if we talk about 14a 14a has actually been in development for about three plus years at this stage and so quite a bit of free work has been done to get to the stage that i set right now.
+[01:32] Speaker2: And right now we're getting very close to where we're finalizing the process for finalizing the tool sets that it will be manufactured on.
+[01:38] Speaker2: And we're working on kind of the fine tuning of each of the process steps.
+[01:42] Speaker2: There's about 2000 steps in the factory that you have to go do and you need to do really intricate work at each one of those to make sure it's fine-tuned.
+[01:51] Speaker2: It can go into manufacturing, it can run thousands of wafers a week on this process and it can be repeatable every single time.
+[01:58] Speaker0: Right now, you might have a certain yield walk me through how that increases month over month.
+[02:03] Speaker0: So there's a line running at 14a.
+[02:05] Speaker0: What happens from now till next month that will result in the yield changing?
+[02:09] Speaker0: How do you identify where the defects are?
+[02:11] Speaker2: How do you fix that?
+[02:11] Speaker2: Yeah, so there's like there's a constant process that we go through and identifying defects and there's there's kind of two main ways that will identify defects.
+[02:18] Speaker2: One is we have inline metrology.
+[02:21] Speaker2: So we have tools that will look at the wafers and say, ah, there's a defect there, there's a defect there, there's defect there.
+[02:26] Speaker2: And then also at end of line, either eat electrical test or we sort and see where the fails are and we will identify failures and then we will get.
+[02:35] Speaker2: Analysis on those failures will cross section it.
+[02:38] Speaker2: You were in the tem lab yesterday and you saw how you can get cross-sections, you'll get a cross-section of a defect and you from that, you'll be able to say, oh, that defect is between these layers.
+[02:47] Speaker2: So it must have come from this section of the flow.
+[02:50] Speaker2: Oh, we have inline metrology in that section, which is identified defects.
+[02:54] Speaker2: Those are the defects we need to go after.
+[02:56] Speaker2: I think what we've learned is is that you.
+[02:59] Speaker2: You don't want to do too much innovation in one node, because the more innovation that you did, the more complex that becomes.
+[03:05] Speaker2: And while that, yeah, you'll be able to get that to work, you need to hit a certain schedule, and that's the schedule that your customer ultimately wants.
+[03:12] Speaker2: So having that predictable schedule is a key piece.
+[03:14] Speaker2: So you've got to figure out how much innovation you can put in, in order to meet the customer's requirements in the timeline that they needed.
+[03:22] Speaker0: Intel learned how costly that trade off can be, with delays to its 10 nanometer node.
+[03:26] Speaker0: Whose original target launch date was 2016, but which didn't begin manufacturing until 2018.
+[03:31] Speaker3: You know, usually intel has been the keeper of moore's law, a new cadence of manufacturing every two years, but their last set of products slipped almost four years intel today.
+[03:41] Speaker1: having its worst day in four months, stock now down more than 15%.
+[03:47] Speaker1: I also want to point out taiwan semiconductor up 13% off of intel's.
+[03:53] Speaker0: a bad news.
+[03:54] Speaker0: Walk me through what lessons you think intel has learned from 10 nanometer.
+[03:59] Speaker2: 10 nanometer was a was a good example of where we had very aggressive targets.
+[04:03] Speaker2: We had we were doing what was called hyperscaling at the time.
+[04:06] Speaker2: So we were scaling much faster than what had been historically done.
+[04:10] Speaker2: In order to do that, we can with all sorts of innovative ideas and how we could achieve that without new tools because the tools weren't ready.
+[04:22] Speaker2: And so that put a lot of burden on the process and a lot of burden on the engineers in order to do that.
+[04:27] Speaker2: Now, at the end of the day, 10 nanometers are great technology.
+[04:30] Speaker2: It has world-class yield, it has world-class performance, it has world-class cost.
+[04:34] Speaker2: But it took us longer to do that than what we would have liked.
+[04:38] Speaker2: And so we've kind of tried to take that learning.
+[04:40] Speaker2: Into future technology nodes and say, hey, we need to limit the amount of innovation we put in there to make sure that we keep it on schedule.
+[04:46] Speaker0: What do you think was the main technology that was that should have been safe for a future version?
+[04:52] Speaker2: Euv was was probably the big thing.
+[04:53] Speaker2: When we started to define 10 nanometer.
+[04:56] Speaker2: What the conclusion was, euv was not ready.
+[04:59] Speaker0: Euv is extreme ultraviolet lithography.
+[05:03] Speaker0: It prints chip patterns with light at a wavelength of 13.5 nanometers, about 14 times shorter than that emitted by previous tools that chipmakers had relied on.
+[05:13] Speaker0: The shorter the wavelength, the finer the features that a single exposure can print.
+[05:17] Speaker0: But intel decided this technology wasn't going to be ready in time.
+[05:21] Speaker0: Tsmc transition to euv much sooner.
+[05:25] Speaker0: It put uv into volume manufacturing in 2019 and ramped it up further on its five nanometer node in 2020.
+[05:32] Speaker0: Intel's first uv process did not reach products until 2023.
+[05:36] Speaker0: So tsmc had about four more years of experience with these machines.
+[05:41] Speaker0: So yesterday we were at the research lab and we're getting a preview of 3d materials and c-fad and ruthenium interconnects.
+[05:50] Speaker0: And i'm curious about how you decide whether that technology is mature enough.
+[05:54] Speaker0: For the next node.
+[05:55] Speaker2: one thing that that did also come out of 10 engineers, we started to define a set of maturity metrics.
+[06:00] Speaker2: And so we use those maturity metrics and a and a process which you call phase gate where we would say to go from pathfinding into development.
+[06:08] Speaker2: These are the criteria that we need to go hit, and there's yield criteria, defect criteria, performance criteria, and we need to hit those in order to move to the next set of the flow.
+[06:16] Speaker2: And if there's something that doesn't make that, then it misses that.
+[06:19] Speaker2: And it goes on to the next technology and we focus on the items that are ready and we can run and put into a process because one of the key things is to stay on schedule.
+[06:29] Speaker0: Staying on schedule is hard partly because new transistor designs take decades to mature.
+[06:33] Speaker0: Modern chip transistors evolve from the planar moss transistor demonstrated in 1960.
+[06:39] Speaker0: The history of transistors since has been the progression from two dimensions into three.
+[06:44] Speaker0: Each development that chris goes on to describe from finfet to gate all around is a step in that progression.
+[06:50] Speaker0: So it'll help to first look at a basic transistor, and how its parts have changed over time.
+[06:55] Speaker0: A transistor is basically a switch.
+[06:58] Speaker0: When it's turned on, it allows current to flow between its two ends, which are called the source and the drain.
+[07:05] Speaker0: A piece called a gate sits on top of the silicon between the source and the drain.
+[07:11] Speaker0: Applying a positive voltage to the gate turns the switch on.
+[07:15] Speaker0: Because the positive voltage pulls negatively charged electrons in the silicon beneath up towards the gate.
+[07:22] Speaker0: However, a thin layer of insulation stops them from actually reaching the gate.
+[07:25] Speaker0: So, the electrons collect just beneath that insulation and form a thin conducting path from the source to the drain.
+[07:33] Speaker0: This is called the channel.
+[07:36] Speaker0: Remove the voltage, and the electrons disperse.
+[07:38] Speaker0: The channel disappears, and the switch turns off.
+[07:41] Speaker0: As transistors shrank, the source and the drain got so close together.
+[07:45] Speaker0: That current could flow through the channel, even when the switch was supposed to be off.
+[07:50] Speaker0: We needed a better way to control the channel, and prevent current from leaking through.
+[07:54] Speaker0: The fix was to give the gate a tighter grip on the channel, by touching it from more sides.
+[08:00] Speaker0: In the original planar transistor, the gate only touches the channel from the top.
+[08:04] Speaker0: The finfet transistor squeezes the channel into a thin vertical fin of silicon.
+[08:09] Speaker0: The gate drapes over the fin, so it controls the channel from three sides.
+[08:14] Speaker0: The next progression from there was to cover not only the top and the sides of the channel, but also the bottom.
+[08:19] Speaker0: This technology is called gate all around, and it slices the channel into thin ribbons.
+[08:24] Speaker0: Each of which gets completely wrapped around by the gate, but getting gate all around to work required new materials and new manufacturing steps to build these floating ribbons of silicon.
+[08:33] Speaker0: You first sandwich them between alternating layers of a temporary placeholder material, which holds the space where the gate will eventually go.
+[08:42] Speaker0: We use a placeholder because the materials in the real gate wouldn't survive the processing that comes after, which involves baking the way for it around 1000 degrees Celsius.
+[08:52] Speaker0: Once these hot steps are done, chip makers etch away the placeholder, leaving the ribbon suspended.
+[08:57] Speaker0: Then they fill the gaps around every ribbon with a thin coat of a special insulator called a high key material, whose purpose is to let the gate pull more strongly on the channel.
+[09:07] Speaker0: And then on top of this material, they put the metal of the gate itself.
+[09:11] Speaker0: Finfet was demonstrated in the lab in 1989 and reached volume production of intel in 2011.
+[09:18] Speaker0: A gate all around transistor had been demonstrated a year earlier in 1988.
+[09:23] Speaker0: But samsung didn't begin producing get all around chips until 2022.
+[09:27] Speaker0: So these ideas finfet and get all around were developed around the same time, but they reached production a decade apart.
+[09:34] Speaker0: I wanted to ask chris why it took so long to get to this current gate all around technology.
+[09:39] Speaker0: Maybe you can walk me through then the process of getting into high volume manufacturing.
+[09:42] Speaker0: I want to understand concretely once you have an idea that, hey, we're going to make the channel smaller, we're going to surround it all the other problems of material science and figuring out how to not destroy the gate.
+[09:56] Speaker0: How did they actually get figured out?
+[09:57] Speaker0: Why did it take so long?
+[09:58] Speaker2: Gator around's a good example because back in the 90s, we knew of this idea, but we knew there was these going to be these problems on how you put this into high-volume manufacturing.
+[10:07] Speaker2: And at the same time, there's other things like high-k metal gate, there's strained silicon, there's finfets that are out there.
+[10:15] Speaker2: And so it's kind of like, when's the right time to go and tackle those?
+[10:18] Speaker2: Well, you don't want to tackle something before you have to.
+[10:22] Speaker2: And so if you have these other things that can drive performance, you would go and do that.
+[10:26] Speaker2: We went through this path where we did this, we did strained silicon, high-k metal gate, we did finfets, and then it became, well, we need to do things further.
+[10:34] Speaker2: How do we get there?
+[10:35] Speaker2: Well, gate all rounds really the ultimate transistor out there.
+[10:38] Speaker2: Maybe it's time to go and start tackling some of those issues that you have.
+[10:42] Speaker2: And you're right now, you have to look at how you put high key mental gate and with gate all around.
+[10:47] Speaker2: So it's that innovation that takes time.
+[10:49] Speaker2: Sometimes it's you need new materials.
+[10:52] Speaker2: Sometimes it's you need different.
+[10:54] Speaker2: A tool in order to be able to do some of the things that you need to go do, and that requires invention from the tool vendor.
+[11:01] Speaker2: You have to go to the tool vendor and say, hey, I need a tool that can do XYZ.
+[11:05] Speaker2: I need a gas that can, you know, deposit this particular material that goes into that.
+[11:09] Speaker2: I need a heating chuck that has this characteristic to it.
+[11:14] Speaker2: All those things take time, and some of it's iterative where you have to run a gate all around transition.
+[11:19] Speaker2: You see, oh, well, that didn't work.
+[11:21] Speaker2: Let me figure out what was wrong with my hypothesis.
+[11:25] Speaker2: Try it again with some different structure.
+[11:28] Speaker0: How is the nature of r&d changed from the era of just making planner transistors smaller and smaller and just getting the benefits of denard scaling to the world.
+[11:40] Speaker0: We're in today, is it just a totally different kind of r&d process for previously?
+[11:43] Speaker0: You're just like, let's make things smaller, smaller, smaller.
+[11:45] Speaker0: Now you do look at all these other facets of performance at the same time and improvements in size.
+[11:50] Speaker0: Don't come as easily.
+[11:52] Speaker0: Walk me through whether there was some crucial change in the r&d process at that point.
+[11:55] Speaker2: If you look at the 80s and 90s, yes, it was driven really by denard scaling lithography.
+[11:59] Speaker2: We just make things smaller transistors got faster, they got more reliable and it was very predictable cadence.
+[12:06] Speaker2: When we started to hit 2000s, what we saw was that's not good enough anymore.
+[12:10] Speaker2: We need to do something different and to me, it became this golden age of innovation for each technology node.
+[12:15] Speaker2: How are you going to provide?
+[12:18] Speaker2: More scaling, how are you going to provide more performance?
+[12:20] Speaker2: And so it drove things like strain silicon, it drove high K metal gates, it drove finfets, it go gate all around, it drove backside power.
+[12:29] Speaker2: These are things that are you know were in the 80s and 90s.
+[12:32] Speaker2: You would be like, oh no, we're not touching any of that because we just continue to have the same process flow.
+[12:35] Speaker2: We just scale it, scale it, scale it.
+[12:37] Speaker2: But but that's really for somebody like me who's a transistor junkie.
+[12:42] Speaker2: It's it's awesome because now you the playbook's open, you can do all sorts of things out there.
+[12:47] Speaker2: You can bring in new materials.
+[12:49] Speaker2: I mean, just look at the number of materials we used to use in the 90s versus materials today.
+[12:52] Speaker2: It's probably gone up 10x and there's a lot of innovation.
+[12:56] Speaker2: There's there's atomic layer depositions, you know, i mean, just you're controlling atom by atom this stuff.
+[13:02] Speaker2: So it's changed a lot how you approach the process as to before it was try to not change anything to.
+[13:08] Speaker2: Now it's like take the sledgehammer and start just tearing thing up and come up with some new idea for 14.
+[13:13] Speaker0: A intel is using a new kind of lithography machine.
+[13:17] Speaker0: High na euv.
+[13:19] Speaker0: It uses the same extreme ultraviolet light as today's uv machines, but changes the optics.
+[13:26] Speaker0: Na or numerical aperture is a measure of how wide a cone of light the machines mirrors can focus onto the wafer.
+[13:34] Speaker0: The wider the cone, you can focus the smaller, the spot that your light can carve standard euv machines have an na of 0.33 high na widens it to 0.55.
+[13:45] Speaker0: So high na can print features about 1.7 times smaller in a single pass when features are smaller than the lithography machine can print.
+[13:54] Speaker0: Chip makers have to split the pattern across several passes, each printing a different set of features.
+[14:00] Speaker0: The most tightly packed patterns can require two, three, or even four passes.
+[14:06] Speaker0: Each additional pass takes up valuable time on a machine that costs around 200 million dollars, and it introduces another opportunity for defects.
+[14:14] Speaker0: High-end machines cost about twice as much, but they can reduce the number of passes that are needed.
+[14:19] Speaker0: So the question which determines whether they justify their higher price is how much more time they save and how much they reduce the risk of defects.
+[14:27] Speaker0: Now, you guys are using high in a uv tools or 14a, whereas tsmc has said that they don't make economical sense yet for them.
+[14:35] Speaker0: How do you decide whether the next litho tool is the one that is ready to adopt or not?
+[14:42] Speaker2: Yeah, and you know, hyena is a good example of where because of the architecture of art technology versus uh tsmcs, we make different conclusions off of the same tool set.
+[14:54] Speaker2: We use backside power.
+[14:56] Speaker2: That means that you actually alleviate some of the pitch requirements you have on the front side, and that allows you to print that directly with hyena.
+[15:04] Speaker2: Tsmc has to run very tighter pitches because they don't have backside power, and they can't do that with hyena, so they have to use double patterning ev.
+[15:12] Speaker2: So, for them, it's not very helpful.
+[15:14] Speaker2: For us, it is very helpful.
+[15:16] Speaker2: Now, at 14, we've left it as an option, and it's something that we'll have a discussion with the customer on, because there's some value proposition of it, there's some complexity that it adds.
+[15:26] Speaker0: Chris is referring to a feature called backside power.
+[15:29] Speaker0: A chip has two different kinds of wiring.
+[15:31] Speaker0: Power lines deliver electricity to the transistors, and they need to be thick.
+[15:35] Speaker0: Signal lines let the transistors talk to each other.
+[15:38] Speaker0: They're much thinner, but they need to be spaced apart so that the signal from one wire doesn't interfere with the signal from another.
+[15:44] Speaker0: In the past, all of these power lines and signal lines had to be crammed together on top of the transistors.
+[15:50] Speaker0: Intel's newest process moves these power lines below the transistors to the back of the wafer.
+[15:55] Speaker0: This frees up space on top, so the signal lines don't have to be packed as tightly.
+[16:00] Speaker0: This change makes high na worth it for intel.
+[16:03] Speaker0: Without backside power, the wiring is so tight that it would require multiple passes to print, even with high na.
+[16:09] Speaker0: With backside power, a single high na pass is enough.
+[16:13] Speaker0: Outside companies can now commission intel to manufacture chips that they've designed.
+[16:17] Speaker0: They follow intel's process design kit or a pdk that menu of what a given process can build in the rules for building it.
+[16:25] Speaker0: Do you need to lock that into your pdk right now for customers who are planning on developing on 14a?
+[16:30] Speaker2: It's an option in the pdk today and we're handling as a as a customer by customer discussion that we have as to whether or not they want to go down that path or not.
+[16:38] Speaker0: So for 18a, There's public reporting that there were delays and or issues with the pdk, such that some instructions didn't work, and it was difficult for people to use your foundry to build their chips.
+[16:49] Speaker0: Tell me about the process of intel becoming a foundry, and then having a pdk that other customers can use to make whatever chip that they're making as well.
+[16:58] Speaker2: There's definitely a learning curve to how you become a foundry, and that's something that our competitors have gone through as well.
+[17:04] Speaker2: PDK is a good example of that.
+[17:05] Speaker2: For decades, we've been an IDM, and we've gone to our product teams, and we've shown them our transistor data, and we share that data back and forth, and we haven't had a formal PDK type process.
+[17:15] Speaker2: So that's a new process that we've had to go implement on AT&T, and AT&T started out not having a PDK.
+[17:22] Speaker2: And so there's definitely a lot of feedback we've got from the customers as to what they expect for quality and maturity of the PDK, what sort of information that they want to see in there.
+[17:32] Speaker2: And so we've tried to incorporate that into making sure that, hey, we have a PDK that meets our customers' requirements.
+[17:38] Speaker2: And i think that's where we bend it up is that we're starting to get, you know, pdks that have this and 14a will have that from the get-go.
+[17:45] Speaker2: It has very high quality pdks.
+[17:47] Speaker2: Again, there's maturity metrics for what is a pdk.
+[17:50] Speaker2: 5 versus the dot nine versus a 1.0 and we're constantly going through and taking customer feedback and incorporating that into the quality of our pdp.
+[18:00] Speaker0: For most of its history, intel's fabs made only intel chips.
+[18:04] Speaker0: That could be part of what allowed tsmc to gain a niche.
+[18:07] Speaker0: Serving many customers gave tsmc more wafers to learn from, more revenue to reinvest, and more pressure to hit deadlines.
+[18:15] Speaker0: Basically, all enterprise customers have a shared set of product requirements that you have to meet if you want to even start talking about doing business with them.
+[18:22] Speaker0: These are things like sso, so employees can log into your app with their company accounts, or directory sync, so that whenever someone leaves, their access gets shut off automatically.
+[18:32] Speaker0: These features are harder to get right than you think, and the risk reward for building them in house doesn't really make sense.
+[18:37] Speaker0: A slightly better version of sso probably won't accelerate your growth, but a broken one will definitely stunt it.
+[18:43] Speaker0: Workos gives you access to battle tested versions of all the most common enterprise features.
+[18:47] Speaker0: Things like sso, skim, our back, audit logs, and more workos also has versions of these features that are purpose built for agents, so they can log in, grab the right permissions, and take actions within your product.
+[18:59] Speaker0: All of these features can be plugged in with just a few lines of code, so you can add them and get started selling to enterprises.
+[19:06] Speaker0: OpenAI anthropic and thinking machines as well as more than 3,000 other companies all rely on workos to meet their enterprise requirements.
+[19:15] Speaker0: If you want to join them, go to workos.
+[19:17] Speaker0: com and tell them that i sent you.
+[19:20] Speaker0: If a butterfly thought it swings in the 60s.
+[19:22] Speaker0: Could you imagine a world where get it all around is not even a word?
+[19:25] Speaker0: People have heard of an idea, people are familiar with, but people are thinking of an extremely different branch of the tech tree and how far down the tech tree do you think things could be totally different?
+[19:32] Speaker0: Could it be like we're not even using copper?
+[19:35] Speaker2: If you look at say transistors and interconnects, i think where we've gotten to, you know, as far as the transistor and gate all around and it being the ideal transistor structure that i have, i think was someone in.
+[19:48] Speaker2: As i said, in the 90s, we were already talking about these type of things.
+[19:51] Speaker2: Backside power that one's pretty out there.
+[19:54] Speaker2: I think even in the in the 90s, the idea that you're going to strip off the entire silicon substrate and put lines on the backside side, you know, that one is probably, you know, something that's a little bit out there copper.
+[20:07] Speaker2: Of course, copper wires are the best.
+[20:09] Speaker2: So i don't know how you would end up somewhere else besides copper.
+[20:13] Speaker2: You guys are explaining available.
+[20:14] Speaker2: I think for some of the very tightest pitches, you know, i think that's an able that you will replace copper.
+[20:20] Speaker2: And so that's a good example of where you will have another material that will come in there.
+[20:24] Speaker2: But for the larger lines, i think copper is about where it's at.
+[20:27] Speaker2: I think that once you start to do gate all around transistors and you do backside power.
+[20:33] Speaker2: Now you start to enter a very different regime because now you see it's not.
+[20:39] Speaker2: Hey, there's just some substrate and you stack everything on top.
+[20:41] Speaker2: Now you've got a transistor which is floating in interconnect and you're like, okay, well, why don't i have transistors interconnect on more transistors more interconnect, you know, this whole 3d stacking that we now do with just.
+[20:53] Speaker2: Discrete chips that we stack on top of.
+[20:55] Speaker2: So now you're like, why can't i just build an entire structure like this?
+[20:59] Speaker2: You see it with, you know, memory and dram, you know, they have some incredible 3d structures and already does it dram talks about it, but i think that dram in it in avali is going to go there too.
+[21:11] Speaker2: So a lot of people say, oh no, we're not going to do this because hey, we can't do it in the next five years.
+[21:16] Speaker2: Well, come on, let's put a larger time scale on this.
+[21:18] Speaker2: Let's put 10 years, 20 years in 2045.
+[21:21] Speaker2: Do you think you could do it?
+[21:23] Speaker2: And now you start to say, oh yeah, i could see us having some pretty exotic structures at that point.
+[21:27] Speaker2: So we limit ourselves by what we see as possible in the next four years because you know, as i've always said, you know, when people say hey you know how do you see technology scaling going?
+[21:36] Speaker2: Yeah, we have visibility about four years and then you get out to the four years and you go.
+[21:40] Speaker2: Yeah, i think there's something we can do another four years out of that and you get to that four years and like, yeah, i think you do something.
+[21:45] Speaker2: But if you start to talk about 10 years, yeah, it becomes hard to say what it's going to be.
+[21:48] Speaker0: Chris's idea of building upwards could start with the transistors themselves.
+[21:52] Speaker0: Chips use two types of transistors called n type and p type, which work the same way, but with the charges reversed.
+[22:00] Speaker0: Nearly every circuit is built by pairing them up.
+[22:03] Speaker0: Today, chip makers build them side by side.
+[22:06] Speaker0: The next step is to stack them directly on top of each other in order to save space.
+[22:11] Speaker0: In principle, that fits twice as many transistors into the same area.
+[22:15] Speaker0: This design is called a c-fet short for complementary field effect transistor, but every extra layer adds manufacturing steps and costs and also leads to heat building up that doesn't have a clear way to escape because logic consumes more power than memory.
+[22:30] Speaker0: You can't do stacks of dram that make hbm or you know 3d nan as easily with logic because of the heat issue is that the fundamental issue then over the long run is how you both thermals.
+[22:43] Speaker0: Yeah.
+[22:43] Speaker2: so there's three things that you have when you try to say, hey, what limits compute?
+[22:48] Speaker2: Okay.
+[22:49] Speaker2: It's how fast can you do the switch?
+[22:51] Speaker2: Yeah, so the frequency of the device, how much power does it take in order to do that switch?
+[22:56] Speaker2: So the power efficiency of it.
+[22:58] Speaker2: And the second one is how do you dissipate the heat that was generated by doing that switch?
+[23:02] Speaker2: And that's the thermal piece of it.
+[23:04] Speaker2: And i think the thermal pieces, and these are not new problems.
+[23:07] Speaker2: You can go back 20 years and you can see articles on these three things.
+[23:10] Speaker2: And so the question is, yeah, thermal, how do you deal with that?
+[23:12] Speaker2: Particularly when you start to talk about these 3d type devices, i think that there is a need for.
+[23:19] Speaker2: That sort of system level analysis and simulation tools, i think we're at its infancy, because we've just started to to look at this.
+[23:28] Speaker2: But it is a limiter, and it will be a limiter, but you know, again, these are problems that we can go solve.
+[23:33] Speaker0: The problems respond to work, but engineering time is finite, and so are the wafer for experiments.
+[23:39] Speaker0: Deciding where they go across thousands of problems is itself one of the hardest parts of bringing up a node.
+[23:45] Speaker0: I sat in on one of intel's hot topics meetings where those decisions get made.
+[23:50] Speaker0: Okay, i'm here with kevin fisher who is laying down the law this morning at the hot topics meeting where you guys were discussing how you're improving 18a and 18 ap technologies and people would come to you with these different experiments.
+[24:00] Speaker0: They're running different ideas.
+[24:01] Speaker0: They had for improving yield and improving performance and then you and your integration engineers would.
+[24:09] Speaker0: Tell them what data you need to tell them how they should proceed.
+[24:11] Speaker0: Tell them how you think could move things faster.
+[24:13] Speaker0: Oh, we would have a sense of the culture of these meetings.
+[24:17] Speaker0: So one thing that i found striking is just that there's, you know, this is bottlenecking your most advanced node, you want to progress happen fast and so you kind of lay down the hammer.
+[24:26] Speaker4: I would say the average engineer doesn't understand.
+[24:31] Speaker4: Um, the stakes or the urgency of how this is going to impact, you know, intel's bottom line, how it's going to impact our customer, they just have no visibility to those issues, right?
+[24:45] Speaker4: So they will typically have.
+[24:49] Speaker4: A certain set of criteria that they want to go capture.
+[24:52] Speaker4: They'll they'll hit boundaries of, you know, i asked for something and someone said no and you know i'm done.
+[24:59] Speaker4: I can't i can't i guess i can't have this thing that i asked for one thing you learn in this industry is that you will never have a complete data set.
+[25:08] Speaker4: If you want to wait for a complete data set, you've waited too long.
+[25:11] Speaker4: It's already too late.
+[25:12] Speaker4: So a lot of.
+[25:13] Speaker4: What i end up doing in those meetings is i i decide how much risk we're going to take on a certain decision or not take on a certain decision and you need to say, look, do we go now?
+[25:26] Speaker4: Do we start risking production because you're risking, you know, the bottom line, you're risking revenue.
+[25:31] Speaker4: I'm worried you're going to put me in the light of being an ogre because i'm putting the hammer down on just.
+[25:37] Speaker0: That's a great reputation to have.
+[25:39] Speaker4: It's really conveying urgency.
+[25:41] Speaker4: Yes, every day counts.
+[25:42] Speaker4: Yeah.
+[25:43] Speaker0: can you walk me through a particular issue that might come up?
+[25:46] Speaker4: Well, one of the examples you saw this morning, which is epi nodules.
+[25:51] Speaker0: Epi is short for epitaxy, which means growing new material on top of an existing one.
+[25:56] Speaker0: Chip makers flow gases over a heated wafer.
+[25:59] Speaker0: And the gases leave atoms on its surface.
+[26:02] Speaker0: The crystal structure of the material underneath acts as a template.
+[26:06] Speaker0: Each new atom lines up with the atoms below it, and the new layer continues the same crystal.
+[26:11] Speaker0: Chip makers use epitaxy at several stages of making a chip.
+[26:15] Speaker0: In the step kevin describes, they use it to grow the source and the drain as small crystals on either side of the gate.
+[26:20] Speaker4: So during the deposition of our epitaxy, we get abnormal growth.
+[26:25] Speaker4: A little bit like a tumor, yeah, right?
+[26:27] Speaker4: It's it's going super fast, yeah.
+[26:29] Speaker4: And that causes problems because one episode short to the wrong epi and and you get transistors not working and then you've got to narrow it down to.
+[26:37] Speaker4: How are you going to fix it?
+[26:39] Speaker0: For the past decade, intel's chips have had this feature called processor trace.
+[26:43] Speaker0: When you turn it on, it starts recording all the code, your program runs and it captures enough detail.
+[26:48] Speaker0: They can go back later and reconstruct every single function call.
+[26:52] Speaker0: Most companies don't need that level of detail.
+[26:54] Speaker0: But jane street does, they need to investigate specific fleeting moments in their sorting systems, things like a delayed response to a network packet.
+[27:02] Speaker0: Those events tend to be too brief for most debugging tools to catch.
+[27:06] Speaker0: So, when one of jane street's engineers noticed processor trace, he started playing around with it.
+[27:11] Speaker0: And then he and a summer intern turned that exploration into a new tool called magic trace.
+[27:17] Speaker0: Magic trace leverages the output from processor trace.
+[27:19] Speaker0: To give jane street a history of every function call leading up to a specific moment of interest.
+[27:25] Speaker0: This project was completely bottoms up.
+[27:26] Speaker0: It started just as something that one engineer thought will be valuable and now traders and developers across jane street, use magic trace every single day.
+[27:34] Speaker0: If you want to work somewhere where you're trusted to pursue the ideas that you think matter.
+[27:37] Speaker0: Most jane street is hiring researchers and engineers.
+[27:41] Speaker0: Go to jane street.
+[27:42] Speaker0: com slash lore cash to learn more.
+[27:45] Speaker4: One of the pieces that you observe this morning was special clean that we were looking at which would eliminate the nodule, right?
+[27:52] Speaker4: So the nodule would deposit and then we'd get rid of it.
+[27:56] Speaker4: Some of the other discussion was well the source of the nodule get rid of the source of the nodule.
+[28:00] Speaker0: right?
+[28:01] Speaker0: So how do you decide what there's some issue?
+[28:03] Speaker0: How do you decide what the source of it.
+[28:05] Speaker4: is for the most part?
+[28:06] Speaker4: We work highly parallel, right?
+[28:07] Speaker4: So how do you decide?
+[28:10] Speaker4: It's not always evident what the easiest way to fix the problem is.
+[28:12] Speaker4: So you work on all the potential fixes.
+[28:16] Speaker4: And sometimes it's not the one you expect first.
+[28:19] Speaker4: Once we've identified it as a primary problem for the technology, that's where that this hot topics meeting gets involved and that's how we align the resources into those engineering teams so that we can accelerate the work.
+[28:35] Speaker0: You said there's like some fast strike process for us wafers can move through faster if they're bottlenecks in some experiments.
+[28:40] Speaker4: So we have a tiered system of what we call hot boxes in the factory and every grade of hot box goes a little bit faster and it's just how the factory prioritizes that particular lot to that block of silicon that's running through the factory.
+[28:54] Speaker4: So our highest grade of hotbox hotbox one.
+[28:59] Speaker4: Races through the factory, it gets priority at every single tool, but it's a drag on the entire factory.
+[29:04] Speaker4: If you had a factory person in here, they don't like using playing that card because you're ending up using the tools inefficiently so that you can go super super fast.
+[29:16] Speaker4: Think of it as a highway and you set aside that one lane for the carpool, right?
+[29:20] Speaker4: Where which everyone could use, but you're saying, okay, it's just a carpool.
+[29:23] Speaker4: That's our hot box one.
+[29:24] Speaker4: Yeah, right.
+[29:25] Speaker4: Everyone clear out of that lane except for that one experiment.
+[29:28] Speaker4: And that one experiment races down the highway.
+[29:30] Speaker0: Kevin's job is deciding what goes on the production line now.
+[29:33] Speaker0: But the day before i went to intel's research lab with jack cavalieros to see ideas that aren't ready for the node yet.
+[29:41] Speaker0: We started with wiring a transistor is only useful once it's connected to others and on a modern chip that takes more than a dozen layers of metal wires stacked above the transistors called interconnect.
+[29:53] Speaker0: These wires are made of copper, and as they shrink, copper starts to run into trouble.
+[29:58] Speaker0: Intel is exploring a replacement, ruthenium.
+[30:01] Speaker0: Ruthenium has higher resistivity, so why are you guys exploring ruthenium for the future?
+[30:04] Speaker1: So interestingly enough, as you scale the dimensions of those copper wires, you run into challenges.
+[30:11] Speaker1: For example, copper requires typically a liner in order to deposit the copper to fill those lines.
+[30:17] Speaker1: Ruthenium is very different in that regard, because it's a material that we can actually etch, and as such, by etching it, we don't need that liner.
+[30:26] Speaker1: So now you scale those very fine dimensions.
+[30:30] Speaker1: And if you can trade off that resistive liner with no liner, ruthenium starts to win.
+[30:37] Speaker1: So there is a crossover point that ruthenium will have much better conductivity, better resistivity than copper, and that's roughly in the 20 nanometer pitch range, which means if you can imagine half of the pitches your metal line and the other half is the dielectric that isolates.
+[30:54] Speaker0: So what is the liner?
+[30:55] Speaker1: The liner is think of it almost like a glue layer, a transition layer that we need in order to deposit the copper and have it stick and make that connection to the copper lines below it.
+[31:05] Speaker1: These are all interlocking.
+[31:07] Speaker1: Copper lines that interconnect to each other, but every time you deposit copper, you've always had a a liner underneath it, and in the past that liner may have been a significant portion of the entirety of that conduction path.
+[31:21] Speaker1: But over time, we've scaled it, made it thinner, and so copper comes back into play as a contender.
+[31:28] Speaker0: When i'm curious about to know is how you decide that a technology is mature and ready.
+[31:33] Speaker0: For high volume manufacturing.
+[31:35] Speaker0: So with 10 nanometer, you're mentioning you guys moved on from copper to cobalt and there were potentially issues with that.
+[31:42] Speaker0: How do you decide that this technology is going to work at scale?
+[31:46] Speaker1: So the integration of these materials into such a complex system as the transistor ecosystem.
+[31:52] Speaker1: Is involves many many different components.
+[31:54] Speaker1: The scalability is one part, but its ability to integrate is another.
+[31:59] Speaker1: At the time we made a decision for cobalt, it was the forerunner, the results were stronger at the time.
+[32:05] Speaker1: But as we work with our ecosystem externally, the vendor ecosystem that provides these materials, and the tools that we integrate them with.
+[32:12] Speaker1: We find solutions down the road that may bring copper back in line as being, you know, the stronger of the two.
+[32:20] Speaker1: And that's exactly what happens every every technology that we go through.
+[32:24] Speaker1: We will evaluate multiple options, and as we get closer to our time horizon for delivering a manufacturing worthy product, we have to make a decision.
+[32:35] Speaker1: And the leading option at the time was cobalt, now it's copper again.
+[32:39] Speaker1: And perhaps in the future, it'll be a rhythmic.
+[32:42] Speaker0: I'd love to get your thoughts on cpap.
+[32:45] Speaker0: Basically stacking the transistors on top of each other.
+[32:48] Speaker0: Yeah.
+[32:49] Speaker0: What is progress?
+[32:49] Speaker0: Like their can you keep making more and more layers?
+[32:52] Speaker0: Is it just two?
+[32:53] Speaker0: Can we go three four?
+[32:54] Speaker1: How high can you get?
+[32:54] Speaker1: Yeah.
+[32:55] Speaker1: So that evaluation of cpap is currently underway, not just by us by our competition.
+[33:03] Speaker1: Labs externally are looking at it.
+[33:05] Speaker1: It is the ultimate in stackability.
+[33:07] Speaker1: We're taking transistors that had to be compressed more and more and we're relaxing that in some ways because we're going to stack them on top of each other.
+[33:15] Speaker1: But the act of stacking does not mean that they're not interconnected.
+[33:18] Speaker1: What used to be connections on the top or even on the bottom as you've seen from our press release now has to go vertically in between the transistors and that's a new challenge because the aspect ratio of creating.
+[33:31] Speaker1: Trenches and filling those trenches becomes more and more difficult.
+[33:35] Speaker1: So, it's not as straightforward as stacking the transistors, because you still have to think about interconnecting them.
+[33:40] Speaker0: Is the issue there the etch to get that deep pull?
+[33:43] Speaker1: Aspect ratio for the etch is a big part of it.
+[33:45] Speaker1: We're working with our vendors to to evolve on that.
+[33:48] Speaker1: But it's also what you fill those very tiny spaces with.
+[33:51] Speaker1: Because filling can sometimes leave air gaps or holes that never really fill and that's not ideal.
+[33:59] Speaker0: I assume there's a version of c fed that works inside this lab.
+[34:02] Speaker0: What is the kind of wafer or process or whatever that is working right now?
+[34:06] Speaker0: Then what's the next step?
+[34:06] Speaker0: What's the next step?
+[34:07] Speaker0: What's the next step until it's inside the full high volume process?
+[34:12] Speaker1: Part of the process of evolving these technologies, especially something more complex like an architecture.
+[34:18] Speaker1: Not just a basic chemistry or material, but the full architecture like c-fet is that we have to make short loop vehicles that can give us faster turnaround.
+[34:28] Speaker1: The normal manufacturing process can take a month or longer to complete the thousands of steps that it goes through.
+[34:35] Speaker1: Our goal here is to take unit cells of that process and qualify them.
+[34:41] Speaker1: So we take advantage of.
+[34:43] Speaker1: Short loop vehicles that can give us, you know, electrical parameters, chemical parameters that can resolve some of those challenges, those speed bumps.
+[34:52] Speaker1: And once we've resolved them, then we combine them into a more complex test vehicle.
+[34:58] Speaker1: So, what you would find in here is something very simple.
+[35:01] Speaker1: You might be making a diode, you might be making a capacitor, which are components of the transistor.
+[35:08] Speaker1: And as those evolve and become stronger, better performing, you combine them to make the next stage, which might be the transistor itself.
+[35:17] Speaker1: So, in the c-fet example, you might not choose to do four ribbons on top of four ribbons, you might just choose to do one on one, because naturally the aspect ratio of dealing with something that much taller becomes more and more challenging.
+[35:32] Speaker1: So, we would have a simplified version of a c-fet.
+[35:35] Speaker1: Which has only one wire for the nmos and one wire for the pmos and that simplifies our job, but it still helps us evaluate the stacking of devices and how they will interconnect.
+[35:47] Speaker0: But are the feature sizes here as small as they will be eventually or the feature size?
+[35:51] Speaker1: Oh, absolutely.
+[35:52] Speaker1: In some cases, at least a small, for example, you know, you've heard of 2d materials.
+[35:59] Speaker1: These transition layer dielectric, they're called, they're very, very thin materials.
+[36:05] Speaker1: They're essentially one monolayer of atoms that we deal with those depositions can happen in this lab.
+[36:12] Speaker1: We can evaluate those films in terms of conductivity, our ability to contact them, our ability to modulate that conductivity, which is what the transistor does.
+[36:22] Speaker1: So yes, we do.
+[36:24] Speaker1: Have the ability to not only deposit films that are very small and thin to the atomic scale, but also print very small features.
+[36:33] Speaker1: We have euv technology that can or e-beam technology that can allow us to print very small features similar to what we will eventually make in production.
+[36:42] Speaker0: So, i i i guess i am.
+[36:44] Speaker0: I don't understand.
+[36:48] Speaker0: Intuitively lacking the context in this process.
+[36:51] Speaker0: Why that you have the features that are as small for working c-fet right now?
+[36:57] Speaker0: Yes.
+[36:57] Speaker0: Why will it take 10 years for it to be in my phone?
+[37:00] Speaker0: What is what i understand it is like a process but why is it such a long process?
+[37:05] Speaker1: The answer is slightly different when you're dealing with an architecture like c-fet versus a novel material.
+[37:11] Speaker1: Uh, materials have, of course, the challenges of being deposited edged removed their compatibility with other layers above and below.
+[37:21] Speaker1: All those things have to be researched first before you put them in a production line.
+[37:26] Speaker1: An architecture may seem like a simple evolution.
+[37:29] Speaker1: Oh, you're making.
+[37:31] Speaker1: Nanoribbon transistors next to each other.
+[37:33] Speaker1: What's wrong with just stacking them?
+[37:35] Speaker1: But the act of stacking them, of course, increases the aspect ratio for etches the positions cleans and the technology may simply not be ready yet.
+[37:44] Speaker0: but if you've already made it here, like there's a version of technology that's ready, right?
+[37:49] Speaker1: Correct.
+[37:49] Speaker1: So we've made a simplified version that may not be an advantage over our current planar side by side technology.
+[37:59] Speaker1: Of nanoribbons.
+[38:00] Speaker1: Well, we need to evolve it to make it maybe two nanoribbons or to add the right type of metals and dielectrics in order to extract the maximum performance.
+[38:09] Speaker0: out of that device.
+[38:10] Speaker0: Got it.
+[38:10] Speaker0: Okay, to take a long tail.
+[38:12] Speaker1: of there is a 1000 different steps that all have to come together in a very unique way to make the performance compatible or actually supersede the prior technology.
+[38:22] Speaker0: Where do the ideas tend to fail?
+[38:23] Speaker0: So like.
+[38:24] Speaker0: You're like 20 ideas that are like 2d materials.
+[38:27] Speaker0: What is the kind of way in which you're like, this is actually not worth pursuing further.
+[38:32] Speaker1: Sometimes the the idea becomes something that we discover fundamentals about the material that were will be incompatible with the rest of the processing that we do at first.
+[38:44] Speaker1: You know, the first level of experiments may simply be very simple depositions and say, okay, I can deposit the film, i can look at it, i can measure it, but the moment i try to make a contact to it, nothing sticks.
+[38:56] Speaker1: It could be something fundamental as simple as the adhesion of the next step in the process simply has no way to adhere to the material.
+[39:06] Speaker1: So, you may rule out a material because of something as simple as that.
+[39:10] Speaker1: A more complex challenges might be the subsequent processing may have gaseous interactions with downstream steps.
+[39:20] Speaker1: So for example, i've deposited the film, i've kept it with other materials but they're not hermetic and so my third or fourth or fifth step in the process may actually still interact with it and changes properties.
+[39:34] Speaker1: That makes it unstable, and now we have to find better hermetic sealing for that process.
+[39:40] Speaker1: And if we don't find a way to control it, then it's it's a dead end for us.
+[39:45] Speaker0: Stacking transistors is still in the research lab.
+[39:48] Speaker0: Stacking whole chips is already in production, and it tackles a different problem, how separate chips communicate with each other.
+[39:55] Speaker0: Modern computers are divided into multiple parts, each optimized for a different task.
+[39:59] Speaker0: For example, nvidia's blackwell data center gpu joins two huge processor chips, and surrounds them with 8 stacks of high bandwidth memory.
+[40:08] Speaker0: These chips have to constantly send data back and forth with each other, and in ai, the speed of that trafficnot the raw computation itself, is often what limits how fast the workload finishes.
+[40:20] Speaker0: Imagine two chips side by side, communicating through their facing edges.
+[40:24] Speaker0: If you double each chip's width and length, you'd have four times the area for circuitry, but only twice the edge length for connections.
+[40:31] Speaker0: This is the area versus perimeter problem.
+[40:33] Speaker0: As transistors become denser, a chip's ability to do computations increases faster than its ability to move data around.
+[40:40] Speaker0: The industry has known about this problem for years, so multiple technologies have been invented to address it.
+[40:45] Speaker3: The completed circuits must undergo two last operations, bonding.
+[40:50] Speaker3: And packaging.
+[40:51] Speaker0: Once a chip is made, it still has to be connected to other chips, and to the rest of the computer.
+[40:56] Speaker0: That step is called packaging, and it has changed a lot in the last few decades.
+[41:00] Speaker0: At a high level, you can think of the evolution of packaging like this.
+[41:03] Speaker0: Initially, chips were laid out side by side.
+[41:06] Speaker0: Wires connecting them went out the side of one ship to another.
+[41:10] Speaker0: To allow for more communication density, the industry introduced a shared piece of silicon called an interposer for multiple chips to sit on.
+[41:17] Speaker0: A chip can talk to other chips through the wiring that runs directly through the interposer.
+[41:22] Speaker0: This type of packaging is often called 2.5 d.
+[41:25] Speaker0: Another way to increase connection density is to bond chips directly to one another.
+[41:30] Speaker0: This allows for shorter connections between chips, but the early versions of this idea use solder bumps, which are bulky and increase resistance.
+[41:38] Speaker0: It would be better to skip the solder, and fuse the signal wire connections of the two chips directly to each other.
+[41:45] Speaker0: This is called hybrid bonding, and it is one of the technologies the semiconductor industry is investing in the most.
+[41:51] Speaker0: Hybrid bonding works by aligning the copper interconnects of one chip with those of another.
+[41:56] Speaker0: And these chips are pushed together and heated, so their interconnects expand and bridge the gap between the chips.
+[42:01] Speaker0: This process makes the insulating surfaces around the copper bond as well.
+[42:05] Speaker0: And so, by removing the solder bumps, you end up with much denser connections.
+[42:09] Speaker0: But the reason this technology is only now entering volume manufacturing is because it took a while to iron out the alignment and defect challenges that it introduced.
+[42:17] Speaker0: In the packaging lab, i asked tyler osborne.
+[42:20] Speaker0: A director in intel's advanced packaging technology development group.
+[42:23] Speaker0: How they put this into practice intel has spent over 50 years optimizing its cpus for speed, but lots of these optimizations like caching and branch prediction and speculative execution reduce predictability.
+[42:35] Speaker0: The exact same instructions can take four cycles to execute one time and 300 the next.
+[42:39] Speaker0: When you stack billions of instructions together and execute them across multiple threads and course, these non-determinism.
+[42:45] Speaker0: Compound into all sorts of hard to reproduce bugs.
+[42:48] Speaker0: If you work on serious systems, you've definitely experienced this and thesis solved this by doing something a bit crazy.
+[42:54] Speaker0: They built a 100% deterministic computer.
+[42:57] Speaker0: They identified every single door in intel's x86 architecture where non-determinism could leak it network packets, discards temperature sensors, even time itself and the either welded each of these shut or slotted in a controlled simulation.
+[43:13] Speaker0: This deterministic computer is just a foundation on top of it.
+[43:16] Speaker0: Antithesis build a testing platform that compresses years of production hardening into minutes and runs your software through thousands of parallel worlds, injecting faults and intelligently steering each one towards a one in a billion failure that you'd never be able to test yourself.
+[43:30] Speaker0: This determinism is what's behind all the other insane antithesis features that I've mentioned over the past few episodes.
+[43:36] Speaker0: It's what lets you reproduce any bug in time travel to any point in a test run.
+[43:40] Speaker0: Most importantly, it's what lets you or your agents trace every failure back to its root cause.
+[43:45] Speaker0: Go to Antithesis.
+[43:47] Speaker0: com/ThorCash to learn more.
+[43:53] Speaker0: Two different ways you could do hybrid bonding is die to die and die to wafer.
+[43:59] Speaker0: And maybe you can talk about the advantages of both and which one actually practically works better.
+[44:03] Speaker5: Sure.
+[44:03] Speaker5: So actually around intel typically i think as you're referring to die to die, we typically call it wafer to wafer.
+[44:08] Speaker5: So we actually take a full wafer and another wafer and bond them together.
+[44:12] Speaker5: Um, that's an approach that's really popular right now in the cmos image sensor industry.
+[44:16] Speaker5: In fact, basically dominates it and it's being looked at for other things like memory stacking, all kinds of stuff.
+[44:22] Speaker5: People have published ideas about one of the challenges with that though, is that you need dies that perfectly match each other.
+[44:28] Speaker5: And are perfectly like left-handed and right-handed, right?
+[44:32] Speaker5: So you have to be able to apply on exactly one to the other.
+[44:34] Speaker5: So one to one die size is a challenge.
+[44:37] Speaker5: So.
+[44:38] Speaker5: If they're not the exact same design device on top and bottom, that's a problem.
+[44:41] Speaker5: So wafer to wafer, it's just challenging to make sure that you have wafers that match really well in terms of the sort, right?
+[44:46] Speaker5: So sort good array here versus sort good array here.
+[44:49] Speaker5: If they match exactly good die and bad die that they all match.
+[44:52] Speaker5: Yeah, i can get 100% yield of that operation of the good dies, but the chances of that are very low.
+[44:57] Speaker5: It's going to be some randomization of the two and whatever that randomization is, is just going to be loss of good batting batting to bonding to bad.
+[45:05] Speaker5: Where is it chipped away for?
+[45:06] Speaker5: I can dictate the terms, right?
+[45:08] Speaker5: I can singulate and have known good dies that i've tested at the chip level and then only bond known good to a known good base position.
+[45:16] Speaker0: Do you think then shipped away for is the way that you'll do hybrid bonding in the future?
+[45:19] Speaker5: I think we're going to do both.
+[45:21] Speaker5: We definitely have the capability to do both.
+[45:23] Speaker5: It's really customer and architecture driven, but certainly chipped away for in the logic.
+[45:27] Speaker5: The logic space makes a lot of sense.
+[45:29] Speaker0: So you're explaining.
+[45:29] Speaker5: that going from.
+[45:30] Speaker0: advanced packaging to hydrogen bonding.
+[45:32] Speaker0: The size of the pictures is decreasing.
+[45:34] Speaker0: How much further could i go?
+[45:35] Speaker5: That's a wonderful question.
+[45:37] Speaker5: So, you know, historically, like we were saying 15 years ago, first level interconnect was 130 150 micrometer pitch today in hcm.
+[45:45] Speaker5: We're doing 25 micrometer pitch in fulvaros.
+[45:48] Speaker5: Here we're doing sub 10 but there's already been literature out there.
+[45:52] Speaker5: In fact, the biggest conference every year in packaging is the ieee e c t c conference that happens in may.
+[45:58] Speaker5: And there was a paper there this year showing reliability data on a 0.45 micron pitch hybrid bonded device.
+[46:07] Speaker5: So you can imagine that's a whole nother order of magnitude and density again from where we are right now on hbi and scalability that's already been proven.
+[46:16] Speaker5: So i see a long runway.
+[46:18] Speaker0: there within interconnected within a single wafer.
+[46:21] Speaker0: How far separate are they usually?
+[46:23] Speaker5: So the back end of the fab, you can imagine like the few layers below packaging are typically around one micron to a half micron.
+[46:32] Speaker5: In size.
+[46:33] Speaker5: So if you can push packaging down to 0.5 microns or below, we can start.
+[46:39] Speaker5: You can almost think about taking layers off the top of the die and connecting to a lower layer within the silicon to another lower layer within the silicon, right?
+[46:46] Speaker5: That's really kind of where the beauty of hybrid bonding happens.
+[46:49] Speaker5: You could think someday about even having reduced interconnect layers on both sides that we can bond together and have less total, you know, ir drop between the two transistor layers.
+[46:59] Speaker5: It's really.
+[47:00] Speaker5: Kind of cool to think about where that could go once we get into those regimes.
+[47:04] Speaker0: Actually, i am very curious about.
+[47:06] Speaker0: For ai, it makes sense why hyperbonding is so powerful because then you can get like higher bandwidth of the memory.
+[47:11] Speaker0: Absolutely.
+[47:11] Speaker0: You're saying with issues repeated and everything.
+[47:14] Speaker0: What is the advantage for non ai applications of hybrid bonding?
+[47:17] Speaker5: Excellent question.
+[47:18] Speaker5: So there are companies out there that are looking at it for non ai applications.
+[47:22] Speaker5: Even in fact, in client devices, right?
+[47:25] Speaker5: And one of the big things i think that that can help with there is, well, number one, obviously the same raw interconnect density, especially between something like a cpu and a gpu.
+[47:35] Speaker5: But the other one is around power.
+[47:37] Speaker5: Right, so like we talked about before, as you get to finer and finer interconnects, you can reduce the total power consumption in picojoules per bit for that interface.
+[47:45] Speaker5: So with hybrid bonding, in those applications, you could think about that is another way that package you can help reduce the total system power budget.
+[47:52] Speaker5: Interesting.
+[47:53] Speaker5: So then that gives you lots of benefits, right?
+[47:55] Speaker5: Lower power, less heat for the same benefit in terms of actual electrical performance.
+[48:00] Speaker0: So far, this has been about making better chips.
+[48:02] Speaker0: The other half of the question is how many ships the industry can make if ai labs are willing to pay for far more of them.
+[48:10] Speaker0: I'm getting a chance to talk to pushkar aronde, who is the cto of intel.
+[48:13] Speaker0: I'm very interested in understanding how the fact that the entire industry has to rely on the same suppliers bottle next year ability to ramp up production.
+[48:22] Speaker0: So.
+[48:22] Speaker0: For this euv tool asml produces less than 100 of them a year.
+[48:26] Speaker0: Yes.
+[48:26] Speaker0: And they don't plan to produce more than 100 a year, even by the end of the decade or significantly more than 100 year.
+[48:31] Speaker0: And that is be split between you between tsmc between all the memory makers or a ramping up production like that ski high next.
+[48:37] Speaker0: How does that limit your ability to scale up to all this demand?
+[48:39] Speaker3: It is a limiter.
+[48:41] Speaker3: So we have to make the most of the capacity that we already have installed and we'll try to increase the output.
+[48:48] Speaker3: From our existing fleet of tools and uv or asml is not the only bottleneck.
+[48:54] Speaker3: It is definitely a bigger bottleneck than some of the other tools.
+[48:59] Speaker3: But but to us to a large extent, we're seeing all equipment seeing tremendous supply supply shortage.
+[49:08] Speaker3: Even though there are multiple providers of other tools, You know, once you lock into a process flow, let's say 18a, right?
+[49:16] Speaker3: 18a is a mature process now.
+[49:18] Speaker3: So we need a specific tool.
+[49:20] Speaker3: We can't just go out, go and get a different tool for the same for the same.
+[49:24] Speaker3: So therefore we're locked into that one.
+[49:27] Speaker3: Tool one supplier and and so we rely on that.
+[49:31] Speaker0: What lessons does this give for 14a in terms of by 2028 is going to be such a crazy world.
+[49:35] Speaker0: Yes.
+[49:36] Speaker0: How do you structure things in such a way that you can you have flexibility in random?
+[49:39] Speaker0: Yes.
+[49:40] Speaker3: Actually the way to do it and we've been doing it and generally everybody does it is you try to maintain as much fungibility as possible going from one note to the next node.
+[49:48] Speaker3: So let's say going from 188 to 14 a maybe you would say 80% of the tool set can be reused and then of course 14a for example would require some new capabilities because it's a it's a denser geometry.
+[50:01] Speaker3: So it would require some unique tools.
+[50:03] Speaker0: Do you have a sense of what is the ultimate bottleneck of how many?
+[50:07] Speaker0: Wafers, you guys could produce a month, even if even if you were decided to invest infinity money into doing capex.
+[50:14] Speaker3: given the existing constraints.
+[50:16] Speaker3: Let's say you, we had to maximize the output from a from a given footprint of tools.
+[50:21] Speaker3: Then i think it's it's incremental because the process today is already yielding pretty high and to get, you know, if you heal is already pretty high to get every 1% extra yield is extremely hard.
+[50:35] Speaker3: And because it's already a finely tuned process.
+[50:38] Speaker0: Are there enough tools in the world?
+[50:39] Speaker0: So you could 10x, it might be a way for as you're producing at the leading edge.
+[50:42] Speaker3: not 10x, but, but probably like 2x.
+[50:44] Speaker3: Yes.
+[50:45] Speaker0: that's quite interesting because the ai industry for a decade has been 3x in compute.
+[50:50] Speaker0: Yes, year over year.
+[50:52] Speaker0: Yes.
+[50:52] Speaker0: And you're saying that that just can't continue.
+[50:55] Speaker3: unless the entire supply chain starting from, you know, the equipment suppliers, their suppliers, their sub suppliers.
+[51:02] Speaker3: Unless everybody produces more.
+[51:04] Speaker3: Yeah, you you can't increase the output collectively.
+[51:07] Speaker0: just to give the audience a sense of how big the ai demand is and how well it monetizes the products.
+[51:13] Speaker0: You guys are producing, you can crush the numbers and the number seems to suggest that just a couple billion dollars of capex on intel's account results in enough chips or the logic for enough ships to produce a 100 billion dollars of revenue for the amount of companies.
+[51:29] Speaker0: And of course, There's so many other players in the and within that stack, there's also memory that and other things, but it's crazy that within us, you know, a couple billion dollars of a capex which can be amortized over many different years.
+[51:42] Speaker0: Yes, produces 100 billion dollars of revenue every single year.
+[51:45] Speaker0: Yes, which seems to suggest that at some point that were that should percolate down and there should be some, you know, at some point, the ai allows could just be say, we'll just buy everything produces mentioned.
+[51:54] Speaker0: You can't will just.
+[51:55] Speaker0: You know, guarantee future yes.
+[51:57] Speaker3: streams and stuff.
+[51:58] Speaker3: There's early signs that that could actually be be happening already.
+[52:01] Speaker3: The demand is just the demand signals are just so high, but i thought you, i think you're alluding to how the value is.
+[52:09] Speaker3: Is accumulating at the top of the technology stack, which is, which is essentially what is happening is, you know, we move from a fully vertically integrated industry like 30, 40 years ago, maybe longer to a very horizontal industry, right?
+[52:24] Speaker3: Where, you know, you have foundries, you have equipment makers, you have, you know, their suppliers.
+[52:30] Speaker3: And today, you think about it, every hyperscaler is designing their own chips.
+[52:35] Speaker3: And the scale of the hyperscalers is so large and and some of the, you know, the model companies, for example, and their demand is so high.
+[52:44] Speaker3: Yeah, they could easily just like consume an entire fabs worth of silicon on their own or multiple fabs worth of silicon on their own and they definitely have the.
+[52:55] Speaker3: The capital to fund that.
+[52:58] Speaker3: So in some sense, we are moving from a sort of a horizontal world again to a pseudo vertical world where it's like the, you know, it's it's it's not monolithically vertically integrated but it's kind of vertically integrated virtually vertically integrated interesting.
+[53:14] Speaker0: right?
+[53:14] Speaker0: What is the nature of economies of scale in this business where.
+[53:20] Speaker0: You look at how many wafers of the leading edge tsmc versus intel are shipping upwards of three x for tsmc.
+[53:28] Speaker0: What kinds of advantages do you get at this point from economics of scale?
+[53:32] Speaker0: Or do you is it that once you reach a certain point, the economies of scale get weaker?
+[53:36] Speaker3: That's a very important question.
+[53:38] Speaker3: This entire business is is just relies on on scale and economies of scale.
+[53:44] Speaker3: I mean, if you look at.
+[53:45] Speaker3: Sort of all the advanced manufacturing companies out there, probably semiconductor foundries.
+[53:53] Speaker3: The scale economics is probably the purest.
+[53:56] Speaker3: And the reason for that is the fixed cost is just so incredibly high that once you build a fab, like 80% of your cost structure is fixed.
+[54:06] Speaker3: And so what that means is every extra percentage of utilization is adding far more in sort of in revenue.
+[54:16] Speaker3: So therefore it's extremely important and we'll fight for every extra percent of fab utilization but also every extra percentage of fab output as in you know let's say i'm making some wafers today and the yield is like 60%.
+[54:30] Speaker3: But if i improve the process and the die yield becomes 65% or 70%, it's it's not a linear advantage.
+[54:38] Speaker3: It's like i'm getting way more output for the given footprint, right?
+[54:42] Speaker3: So there's always room to to improve the economies of scale and that's one of the one of the reasons why, you know, you're seeing you saw you're seeing so much consolidation in this business, right?
+[54:53] Speaker3: There's only three foundries left.
+[54:55] Speaker3: At the advanced node for that exact reason and just along the way.
+[55:01] Speaker3: Many companies just stop manufacturing.
+[55:04] Speaker3: I don't know if you've seen there's a chart where like like 40 years ago, they were like, you know, 20 foundries and you know, over time like the number of foundries kept diminishing until today.
+[55:14] Speaker3: There's only three.
+[55:16] Speaker0: What is the basically then the concrete master plan to catch up to tsmc even though tsmc is ahead.
+[55:20] Speaker0: Yes, there's so much overflow demand and they're leading edge.
+[55:23] Speaker0: Absolutely where n3 is now majority.
+[55:26] Speaker0: Yeah, accelerators, maybe majority nvidia alone that all this demand for cpus for other things, which are also, by the way, needed for ai.
+[55:34] Speaker0: Yes, you humongous influx and demand for cpus because ai, how do you see this opportunity right now?
+[55:39] Speaker0: Where intel's a few years before while tsmc is just way over saturated.
+[55:44] Speaker3: catching up to tsmc has.
+[55:45] Speaker3: Maybe has multiple facets.
+[55:49] Speaker3: I would say the catch up that we need to do is in scale, you know, like you said, they they just a much larger way for manufacturer today than we are or and even bigger than what samsung is cashing up in scale will will be a slow process in a gradual process.
+[56:08] Speaker3: If you meant, you know, catch up in terms of just the technology, I think that, um, you know.
+[56:16] Speaker3: I think we're we're already there like you know we might maybe a you know a few percent off on performance or power or area density but you know in this this sort of benchmarking of you know some one foundries ahead or one foundries behind.
+[56:37] Speaker3: It makes sense when you're like, a whole generation behind or two generations behind or ahead.
+[56:45] Speaker3: That's when it makes a meaningful difference in your die output or your, you know, die area or functionality like power.
+[56:52] Speaker3: But if you're within like, a few percent, it's really, it's really you're splitting hairs at that time at that point in time.
+[57:02] Speaker3: Um, because it's it's not very unique dimensional at this point.
+[57:06] Speaker3: It's not just about density.
+[57:08] Speaker3: It's not just about raw performance, different applications, require different vectors.
+[57:14] Speaker3: So, you know, you can, you can be off by a few percent, but you need to be on time.
+[57:19] Speaker3: Your execution needs to be such that your yields are very high to support very large and very rapid ramps.
+[57:26] Speaker3: So that's that actually.
+[57:28] Speaker3: Is more important than, you know, catching up on a few percent in performance or area.
+[57:33] Speaker0: I was looking at some semi analysis numbers that seem to suggest that in terms of transistor density.
+[57:37] Speaker0: Yes, 14a will actually be which will come out in like 2028.
+[57:40] Speaker0: Would you be comparable to n2?
+[57:43] Speaker3: Yeah, first of all, i would i don't i would dispute your benchmarking but like i said, i think, you know, it's it's important to be generally in the in the right.
+[57:53] Speaker3: Bright ballpark.
+[57:54] Speaker3: Yeah, be very predictable and also, you know, it's not uni-dimensional in terms of, you know, we don't build one type of transistor.
+[58:02] Speaker3: Let's say 14 a or 18 a, you build a few different types of transistors.
+[58:07] Speaker3: Let's say there's a low leakage transistor, there's a high performance, you know, high drive current transistor building srams.
+[58:15] Speaker3: There's a high density sram, there's a high performance sram.
+[58:18] Speaker3: There's many other function functionalities like, you know, some analog circuits rf circuits.
+[58:24] Speaker3: So it's the sum of all of those that makes a technology.
+[58:28] Speaker3: Competitive.
+[58:29] Speaker0: i guess that makes the capex you do right now even more important.
+[58:32] Speaker0: So right now or like tsmc is on track to do 50 billion in capex.
+[58:36] Speaker0: Yes, around 50 billion in capital.
+[58:37] Speaker0: Yes, you're on track to do around the 20 billion.
+[58:39] Speaker0: Yes.
+[58:40] Speaker0: But if the tools you're buying right now, will determine who can service all this crazy ai demand that's coming up.
+[58:45] Speaker0: It makes the capex right now, the difference in capex even more important for like us versus other countries.
+[58:52] Speaker3: Yes, very much.
+[58:53] Speaker3: It's a little bit of an unfair comparison between us and tsmc today, just because today they're a foundry for basically everybody and we're largely a foundry for intel will become a foundry for others.
+[59:08] Speaker3: So in due course, our capex will also grow.
+[59:11] Speaker0: intel started as a dram business in the late 60s.
+[59:15] Speaker0: And then you guys are producing dram which is sold off a couple years ago.
+[59:20] Speaker0: You sold off your flash business.
+[59:22] Speaker0: Yes.
+[59:25] Speaker0: Yeah, thoughts on that given for context with the audience.
+[59:28] Speaker0: These are now multi-trillion dollar industries because of the they've just, you know, exploded as a result of ai demand for them.
+[59:36] Speaker3: Yes, i mean clearly in hindsight, probably not the smartest time to sell off a flash memory business.
+[59:42] Speaker3: There were good reasons why we did that when we did clearly, you know, nobody could see this this demand this this enormous demand.
+[59:52] Speaker3: But no today i think i mean essentially.
+[59:58] Speaker3: The world will eat up as much compute as can possibly be made, and it'll eat up as much memory as can possibly be made.
+[60:05] Speaker3: I would argue that the supply crunch is larger for memory today than it is for compute.
+[60:12] Speaker0: So can I summarize what it seems to me the takeaways from your projections are?
+[60:16] Speaker0: And you can tell me if that's correct.
+[60:17] Speaker0: Yes.
+[60:18] Speaker0: Marginal production can increase actually very fast, you know, on the scale of 12 months.
+[60:22] Speaker0: But the amount of increase up till the end of the decade is extremely limited.
+[60:26] Speaker0: Yes.
+[60:27] Speaker0: Production could be higher next year than people are forecasting.
+[60:29] Speaker0: But production in 2030 is not going to be significantly higher than what people are.
+[60:32] Speaker3: forecasting unless the entire supply chain ramps up production very quickly.
+[60:36] Speaker3: I mean, we're already in the middle of 26.
+[60:38] Speaker3: So there's, you know, only not that many years until the end of the decade and given the lead times, you know, let's say, let's say you place an enormous order for tools today, right?
+[60:48] Speaker3: And you're looking at, let's say, 18 months to get those tools, you're already into basically 28.
+[60:54] Speaker3: And from that point on, if you have to build a new shell, build a new fab, i mean, you're basically looking at the end of the decade.
+[61:02] Speaker0: I think it'll be interesting to discuss the partnership.
+[61:04] Speaker0: You guys have with elon on terra fab.
+[61:07] Speaker0: Hmm, what's going on there?
+[61:10] Speaker3: Well, i think so.
+[61:13] Speaker3: Elon's publicly talked about his, his desire to to build a fab.
+[61:17] Speaker0: We either built the terra fab or we don't have the chips.
+[61:22] Speaker0: And we need the chips.
+[61:23] Speaker0: So we're going to build tariff.
+[61:24] Speaker3: out sort of the same thinking, you know, i think he's seeing just an enormous increase in demand for for silicon for compute and for memory.
+[61:34] Speaker3: And i think he came to the conclusion that his own businesses are going to require a lot of silicon.
+[61:40] Speaker3: And so he, you know, he thought maybe he should just do it all on his own.
+[61:46] Speaker3: Unlike building a car, for example, this is such an intricate and complicated process.
+[61:53] Speaker3: We thought we could work together to help accelerate his bringing up his fab.
+[61:59] Speaker0: But because of the bottleneck of the tool level, yes, it seems like the net amount of silicon in the world won't increase, it's just that maybe if somebody were to start a new fab.
+[62:09] Speaker0: They would get access to.
+[62:11] Speaker0: Guaranteed supply in a way that they wouldn't have if they're working with another person's foundry.
+[62:16] Speaker3: It's actually not just tools.
+[62:18] Speaker3: I mean there's a fab does require a lot of power, a lot of water, like a lot of consumables.
+[62:23] Speaker3: There's many other input variables as well.
+[62:27] Speaker0: but those can be scaled in the way that like tools cannot.
+[62:29] Speaker0: Yeah.
+[62:31] Speaker3: some more than others but but yes, but yes, in one sense.
+[62:35] Speaker3: Yes, we need a lot more.
+[62:37] Speaker3: Equipment, but we, it is true, i mean we also need a lot more just raw fab space, raw raw cl- clean room capacity.
+[62:46] Speaker0: So, if if you think of a foundry like intel, which has to build these expensive facilities by expensive tools.
+[62:53] Speaker0: I i wonder what you think the economics of that fundamentally could look like, whether it could get more economical, whether it could scale faster.
+[63:01] Speaker3: Like i s- described earlier, this is an extremely.
+[63:05] Speaker3: Capital heavy business.
+[63:07] Speaker3: And if you look at the, if you just plot the, you know, how much does it cost to build a fab?
+[63:12] Speaker3: And if you just over the last, i don't know, 20, 30, 40 years, i think it's like doubling every four to five years, even inside the fab.
+[63:20] Speaker3: If you look at the cost to do lithography, which is the most expensive module, just patterning that itself is doubling like more than that at more than that rate, right?
+[63:31] Speaker3: So like today, A high in a uv scanner costs like and all its associated equipment.
+[63:37] Speaker3: It's like 400 million dollars, right?
+[63:41] Speaker3: And so what does that mean?
+[63:42] Speaker3: If that rate were to continue, if you could, if you just look draw the line and say, okay, does that mean like four years from now?
+[63:49] Speaker3: Like cost of patterning is going to be like 800 billion, right?
+[63:53] Speaker3: Doesn't, you know, 800 million, it doesn't really make sense, right?
+[63:57] Speaker3: I think that a very interesting thought exercise to do is to say, you know, are there things that could be just very radically different that we could do today that we perhaps couldn't do?
+[64:13] Speaker3: 20 years ago, this is a very risk-averse industry for very good reason for exactly that reason, right?
+[64:19] Speaker3: You put in like tens of billions of dollars.
+[64:22] Speaker3: And you really don't want to take any risks, so you want to keep doing things the way they've been done for literally decades.
+[64:29] Speaker3: And this is not just true of semiconductors, but like everything really.
+[64:33] Speaker3: But if you've just kept on doing that for decade upon decade, many things just become like, you know, you just become indoctrinated, right?
+[64:41] Speaker3: And i mean, there are engineers who probably work at intel who are new.
+[64:46] Speaker3: Who just, you know, come in and they're taught.
+[64:48] Speaker3: This is how the fab.
+[64:49] Speaker3: This is the process flow and they just take that as gospel, right?
+[64:53] Speaker3: That that's just how it is done.
+[64:55] Speaker3: But is that really the best way to build a chip today?
+[65:00] Speaker3: It's a really valid question.
+[65:02] Speaker0: I'm very curious what you're ending at because it could be anything from, you know, we can figure out ways in which you use fewer litho passes and economies on this.
+[65:10] Speaker0: It's been a good phone into like.
+[65:12] Speaker0: Maybe we need to rethink the transistor where what is the level of.
+[65:18] Speaker3: i think i think all of the above, okay, transistor architecture and you know evolving, you know, just a silicon transistor has continued to evolve over 30, 40 years and and that will continue.
+[65:32] Speaker3: So right you've seen the evolution from like the planar transistor to finfets to now gate all around transistors.
+[65:39] Speaker3: There'll be more like that roadmap is pretty, you know, it exists and it's pretty well defined.
+[65:45] Speaker3: A lot of people working on it, but there's things like, you know, do you really need a clean room today?
+[65:53] Speaker3: Right?
+[65:53] Speaker3: Do you need the infrastructure to be as as sophisticated as as complex as it as it is today?
+[66:02] Speaker0: Surely one can run an experiment where you just, you know, have people are eating hamburgers and smoking cigars and in the research fab.
+[66:09] Speaker0: And see what happens to yield.
+[66:12] Speaker3: That would be a great experiment to run, but you know, no incumbent like, you know, intel or tsmc or samsung.
+[66:19] Speaker3: I mean, nobody would want to just willingly do that.
+[66:23] Speaker3: So, so that's what i meant really by this, you know, it's a very risk-averse business for good reason, you know, every one day lost in productivity is like, i don't know how many.
+[66:34] Speaker3: Dollars, right?
+[66:34] Speaker0: Because if so much money and not having to go clean rooms in the future.
+[66:37] Speaker3: but but you know, it's really the risk of the fear of the unknown, right?
+[66:41] Speaker3: So nobody is going to willingly take that risk, but that's why i think, you know, it's some sometimes it's good to sort of just start with a clean slate and rethink everything and it's like, okay, these things, you know, same thing applies to like, you know, chip design by the way.
+[66:59] Speaker3: Right.
+[66:59] Speaker3: Many of the ways we do cpu design were probably locked in like, you know, 30 years ago.
+[67:06] Speaker3: Does that mean it's this?
+[67:08] Speaker3: Smart to still do it the same way, probably not right.
+[67:13] Speaker3: But but this is a very complex problem.
+[67:16] Speaker3: You know, chip design is like easy to it's fairly low, you know, i guess the capacity to take risk is.
+[67:25] Speaker3: Maybe higher this one less.
+[67:28] Speaker3: So but given where the economics is today, i think it's a, it's a very valid question to ask, you know, like maybe there's a smarter way to do this.
+[67:38] Speaker0: So to close out, maybe it will start off at the same question.
+[67:41] Speaker0: We began the interview with yes, which is how does intel respond to this crazy ai demand that's incoming and has already arrived.
+[67:50] Speaker0: And, it sounds like what intel a lot of do.
+[67:54] Speaker0: If the ultimate bottleneck is you guys already have these foundries, you guys already have the ability to expand these foundries, but what you're what you will eventually like is the tools from upstream in the supply chain to just like raise as much capital as possible right now.
+[68:10] Speaker0: The same way that nvidia has locked down memory and other components for, you know, reportedly hundreds of billions of dollars worth of commitments that it's made.
+[68:18] Speaker0: Yes.
+[68:19] Speaker0: Intel should maybe do the same thing, make all these commitments so that as over the coming years, yes, the us is in good position to have the bulk of semiconductor manufacturing at the most advanced levels happening here.
+[68:32] Speaker3: You're saying you're saying we should be buying a lot more tools.
+[68:35] Speaker0: right?
+[68:35] Speaker0: Yeah, because if it sounds like it's just like, well, in a couple years, otherwise you just be in a position or you're like, oh man, we can be making trillions of dollars right now, but all the tools are in taiwan.
+[68:45] Speaker3: Yes, i mean, that's a very, very valid question.
+[68:47] Speaker3: Had we known what we know today, we would have bought.
+[68:50] Speaker3: invested more like a year ago, knowing what we know now, I think we'll be investing more.

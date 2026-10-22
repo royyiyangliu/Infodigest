@@ -1,0 +1,75 @@
+Source  : a16z
+Title   : a16z Frontier
+Date    : 2026-10-22 16:02 UTC
+Link    : https://www.a16z.news/p/a16z-frontier
+────────────────────────────────────────────────────────────
+
+Today we’re announcing that we’re expanding the scope of our new fund beyond crypto startups to the broader category of frontier startups: companies building new technologies and creating markets that may take years to develop. To reflect this, we’re renaming a16z Crypto to a16z Frontier. This is an expansion: we will continue to invest in crypto and related ventures and advocate for sensible crypto regulation.
+When we started investing in crypto, it was a world of its own. But as blockchains have become more widely used, the lines have blurred and the infrastructure has gradually receded into the background. Wall Street and fintech companies now regularly launch products built on blockchains. Does that make them crypto companies? The label matters less now. It makes more sense to define companies by
+what they do
+rather than by the technologies they use.
+Our expansion also reflects an approach that has guided many of our investments for years: backing technologies that look futuristic, well before they reach the mainstream. When I joined a16z in 2013, I made these kinds of long-horizon investments a focus. One theme was
+new computing devices
+. The growth of smartphones made cameras, sensors, and chips better and cheaper, enabling new devices like drones, AR/VR headsets, and wearables. That theme led to investments in
+Oculus
+and drone startups like
+Skydio
+and
+Zipline
+.
+The other was crypto, which I saw as a new wave built on social media and the open source movement. Social media allowed networks like
+Bitcoin
+and Ethereum to gain traction from the
+outside in
+, as people formed communities without first needing mainstream acceptance. Open source provided the model for software that anyone could inspect, modify, and build on. Blockchains
+extended
+that model from software to services and networks. This theme guided our investment in
+Coinbase
+and the creation of our
+crypto funds
+, as well as later investments in projects like Solana and Uniswap.
+Now we are in the middle of another major tech wave centered on AI. The buildout of AI models and infrastructure will continue, but the tech is already sufficiently advanced to spawn a new generation of products and services. No one knows exactly what that generation will look like, but we’re beginning to catch glimpses. We’re especially interested in the new products and markets these advances will enable, including ones that don’t fit into existing categories.
+Foremost is the emergence of
+native
+use cases: brand-new activities you couldn’t do before. Early applications of new technologies tend to focus on doing old things better. To date, AI has mostly been used to do existing activities — like coding and other knowledge work — faster, better, and cheaper. But soon native uses will open up entirely new, unexpected experiences. At first, many of these experiments will look strange and unserious, like
+toys
+and
+hobbies
+, but over time some will grow into mainstream products. The key to telling the difference is to understand their potential rates of improvement, the factors that can bend deceptively marginal growth into an
+exponential curve
+.
+We’re
+lucky enough
+to be living through one of the most consequential curves in human history today. Technological progress is accelerating rapidly, and we’re already starting to see early signals about what a post-AGI world might look like. For one thing, software and increasingly hardware are becoming easier to create. Just as the growth of smartphones fueled an earlier computing cycle, we expect a proliferation of new devices to underpin this one. Some of these will be autonomous machines that can perceive, reason, and act in the physical world. Others will draw on advances in biology and medicine. Still others will fall somewhere, cybernetically, in between.
+All these advances will present new ways of
+building companies
+. We’ll see more
+full-stack
+startups that combine software with hardware and services, as founders take advantage of new capabilities and seek new forms of defensibility. Even the idea of what it means to be a founder may change as we gain more superpowers and as AI agents become increasingly autonomous, able to act on their own. As these capabilities spread, they could change how industries are organized and even give rise to new ones.
+AI will also enable entirely new kinds of networks connecting people and intelligent agents that learn, coordinate, produce, and transact. The large-scale networks we use every day were made for humans. Networks built for machines will look very different. Many will start as
+single-player tools
+and evolve into multiplayer networks. The potential here — for machine age networks — is enormous, and builders have barely begun to scratch the surface.
+Blockchains will play a significant role in this transformation. Crypto has given the internet money rails that are fast, cheap, global, and programmable.
+Stablecoins
+are quickly becoming a standard tool for fintechs, established institutions, and others. And, because blockchains are programmable, both centralized and decentralized financial services can be built on top. Crypto can give new networks native economic capabilities, enable machine-to-machine transactions, and create new ways to bootstrap them.
+These are examples, not boundaries. The defining companies of past waves were rarely the ones anyone predicted. As always, we expect founders to surprise us and create categories we haven’t imagined yet.
+I’ll be leading the fund along with the firm’s founders Marc and Ben, and GPs
+Eddy Lazzarin
+and
+Guy Wuollet
+. Our operating teams will continue to work with our existing and future portfolio companies on regulatory, go-to-market, talent, marketing, and technical R&D.
+We believe some of the most important technology waves are
+still ahead
+. Ideas that seem
+weird or far-fetched
+today will become indispensable, era-defining products of the future. If you are a founder building what comes next, please reach out.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Not an offer or solicitation. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. Some of the companies mentioned are portfolio companies of a16z. Please see
+a16z.com/disclosures
+for more information. A list of investments made by a16z is available at
+a16z.com/portfolio
+. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
