@@ -1,0 +1,102 @@
+Source  : a16z
+Title   : Charts of the Week: Attention is All You Need
+Date    : 2026-10-23 14:03 UTC
+Link    : https://www.a16z.news/p/charts-of-the-week-attention-is-all
+────────────────────────────────────────────────────────────
+
+Welcome to this week’s charts. Before we get to them, we have something important to share first. Here’s a16z’s
+and
+, with some timely advice we sent yesterday to our portfolio company CEOs, on the current cybersecurity emergency:
+Patch or Die
+Stay safe! Now onto our regular charts.
+Attention is All You Need
+Charts has wondered about whether
+Netflix is Having Its Blockbuster moment
+, and while that may or may not be happening, the streamer’s recent report can only add fuel to the fire:
+Netflix is still growing, but topline growth has decelerated to just a shade under ~12%, which is the lowest it’s been, since the last time Netflix was supposedly reaching its peak back in ‘21-’22.
+Just to briefly restate the premise: the issue for Netflix is some combination of competition from other streaming options, but even more so, competition from an entirely different medium, i.e. short-form video. If people increasingly lack the attention-span to watch episode-length streamed shows, and prefer the Cocomelon-styled rapid frame-switching of reels, tiktok and shorts, then who is going to be the net-new buyer of the ever-more expensive premium streamer?
+It’s a fair question, and apparently, there is no good answer, just yet (which is also perhaps why Netflix is developing shorts of its own, in addition to its foray into live sports).
+But, there’s another issue for Netflix, and not just Netflix, but really for all streaming and/or content. There’s apparently an upper limit for how much media we can actually consume, and it seems like we’ve just about hit it:
+According to some data from BCG, US weekly media consumption tops out at ~26hrs/week, and has actually been in moderate decline since peak lockdown.
+In other words, if you’re competing for attention spans, either as a content-creator or app maker, then you’re increasingly playing a zero-sum game with your competition. Relatedly, a lot of the media growth recently has come from “background” consumption, i.e. listening/watching in your car, at your desk, or otherwise while doing something else. Put another way, in the battle for attention spans, content has resorted to doubling-up with other activities to stretch total consumable hours to something longer than 24hrs in a given day.
+The takeaway here is really just a continuation of a theme:
+So many apps
+and so much content
+, and yet so little time
+.
+GPUs, Still Not Obsolete
+With all the recent FUD banging around the timeline, it bears reflecting on a tiny slice of some actual hard data.
+First, GPU rental rates continue to climb:
+Every model of GPU in the series from Ornn Data, including the oldest A100 models, costs more to rent than it did at the beginning of the year.
+That’s just
+not supposed to happen for assets that are supposed to depreciate
+from the moment they’re launched.
+In fact, if you just compare a straight-line 6-year depreciation against the longer-history of available pricing, you get a pretty sizable surplus, once again, for every model:
+Prices are anywhere from 9% higher to 143% higher than they would have been, if they had depreciated steadily in-line with the supposed 6-year life of the chip.
+To be fair, the older A100s and H100s spent more time below the line than above it, so over the longer haul, pricing for those two, at least, has under-performed straight-line depreciation. But the longer haul isn’t entirely fair either, because April of this year is when things really took off.
+Token demand, per OpenRouter (which captures only a small slice of the picture), began its steep upward inflection in the Spring, and after a brief end-of-summer plateau, has once again leapt forward in the recent read:
+Token consumption for both open and closed models continues its exponential path, with proprietary models even making a modest share gain last week.
+So, if Spring ‘26 and forward is the new normal, then to repeat where we started: the new normal has been awfully good for GPUs (and token demand), even the ones supposedly too old for new tricks.
+Now, are these indexes perfect proxies for actual token spending and GPU pricing? No, of course not (for both better and worse). But, they’re certainly not nothing, and the story they’re telling isn’t FUD.
+Doing More With The Same
+One persistent, but still under-the-radar, observation about all this Capex and reindustrialization more generally, is that it’s still somewhat narrow,
+especially when it comes to rebuilding the domestic manufacturing base.
+Generally speaking, you’d think that if there was a big surge in demand for a thing, followed by a big surge in prices, then the market response would be to increase supply. Increasing supply can come via two levers: more capacity and more utilization (or some combination of both). If the customer demands more, then either build more factories or crank up the ones you’ve got to 11. That’s pretty simple, so far as it goes.
+When it comes to the key components of AI Capex, that’s sort of what’s happened, but not really, and not across the board.
+Computer capacity and utilization have both increased, leading to an even bigger leap in production;
+Communications had a big surge in capacity, with a drop in utilization, leading to a big lift in production (and presumably something of a glut in capacity);
+Semis added a lot of capacity, but no additional utilization, meaning all the production increases were driven by the former;
+Finally, the big outlier is electrical equipment, where prices have surged the most, but capacity has actually
+declined
+, leading to a modest drop in domestic production (despite an increase in utilization).
+It’s a somewhat odd thing, that with the exception of comms, the domestic manufacturing response to a surge in demand (and prices) has mostly been to try and squeeze more water from the stone, rather than bring more supply capacity online—
+no sector more so than the makers of switchgear, etc.
+that’s required for the grid-glowup to power those GPUs and the electrification of everything.
+Electrical equipment makers have basically said “
+Oh, there’s a historic backlog on electrical equipment and prices are through the roof? Yeah, we’re gonna sit this one out.
+”
+Unsurprisingly, if domestic production lags behind, then the supply shortfall has to be filled from overseas:
+The increase in imports for all four of these Capex-critical categories has far outpaced the increase in domestic production (as measured by their dollar values).
+It seems that, for whatever reason, the cost and risk of bringing more domestic production online has simply outweighed the historic onslaught of demand. Or, perhaps, domestic firms simply don’t think they can compete with offshore alternatives. But either way, faced with the largest buildout since the railroads, the industrial base has mostly responded with a “
+do a bit more (and sometimes a little less) with what we’ve got
+” approach.
+As an aside, and perhaps related to the core capacity problem, it’s not just the factories that are doing more with the same. It’s also
+the people
+working
+at the factories
+, where (by and large), the extra output is coming from existing workers working more, rather than more workers (on net):
+Per data from ADP, weekly hours/worker for the AI buildout sectors have grown substantially—more so than other sectors, and generally more so than headcount itself (which has also grown, but not as much). In other words, rather than throw more bodies at the problem, manufacturers are generally throwing more at the bodies that they’ve already got.
+Part of that might be a productivity story, where the same number of workers can produce more than before, but it’s also likely a deeper problem: there’s a shortage of people to do the work. That firms are bidding on a scarce supply of skilled labor is reflected in rising gross pay for manufacturing, and a whopping 5pp wage-growth premium for job-switchers over job-stayers—when job-switchers are getting big relative pay increases, it usually reflects a bidding war.
+The doomer cry for an
+AI Jobs Apocalypse
+has quieted somewhat since the early days, but it’s a heckuva thing if one of the main bottlenecks to hastening the compute-revolution turns out to be a shortage of people to do the work.
+SaaS Prove-It Cyber
+Charts has variously observed that
+contra an undifferentiated-SaaSpocalypse, the market has actually been rather discerning
+. For software that has real or perceived tailwinds, performance has been pretty strong. For everyone else, it’s been a bumpy ride.
+For most of the year,
+one of the standout software categories has been cyber
+. . . but over the last couple of weeks, the bloom has come off the rose, at least a little:
+Cyber stocks in the $IGV have still had a very good year, but since October they’ve sold off substantially—with the rest of the market, only more so.
+Why have cyber stocks sold off? Only Mr. Market can say, but perhaps
+perceived
+tailwinds aren’t as compelling as they once were, and actual tailwinds are the new hurdle.
+As it turns out, for however much cyber is
+supposed
+to benefit
+from the AI-driven proliferation of cyber risk
+, actual revenue acceleration is few and far between:
+Of the biggest cyber and cyber-adjacent names, revenue growth has only increased a few percentage points (and in some cases, has gone backwards), even as performance has been upwards of ~125%. Palo Alto Networks is the revenue growth outlier, but most of that growth has been acquisition-driven.
+Now, just because growth isn’t there yet, doesn’t mean it’s not on the way. Maybe it is, and maybe it isn’t, but in a
+SaaS-Prove-It regime
+, Mr. Market may not have the patience it once did.
+For what it’s worth, according to the cyber companies themselves, there is some evidence that AI may be helping things along:
+These KPIs are non-standardized, and there’s no real longer-term series to infer a trend, but it’s at least a valiant ~5-shot Codex effort to see what Cyber has cooking from an AI front.
+>800% agentic traffic in just 9 months . . . that sounds like a lot? ~200% ARR growth for SentinelOne’s Purple AI and Prompt Security (whatever those are) isn’t bad, either, but presumably it’s still too small to move the overall needle by much.
+Only time will tell whether AI turns Cyber into a growth machine (or a replacement cycle), but like all the other software cos, Cyber will have to prove-it, soon enough.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
