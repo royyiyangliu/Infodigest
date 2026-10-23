@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-24",
+  "generated_at": "2026-10-23T23:33:11.537483+00:00",
+  "stats": {
+    "tweets": 6,
+    "podcasts": 0,
+    "articles": 3
+  },
+  "tweets": [
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "Latent Space 主理人、Smol AI 创始人 Swyx 认为 Opus 5.5 是他用过的\"最佳工作量估算模型\"：随着越来越多工作委托给 AI，估时校准愈发关键，AI 不应像人类那样报\"2-3 个工作日\"，而应按自身可并行、不知疲倦的能力给出\"2-3 小时\"的估计，这对流水线式任务编排尤为重要。他还转发评论称，面对 AI 挖出的大量漏洞，正确态度不是责怪 AI，而是全力尽快清零这些 bug。"
+    },
+    {
+      "author": "Boris Cherny",
+      "handle": "bcherny",
+      "summary_zh": "Anthropic Claude Code 负责人 Boris Cherny 宣布，Anthropic 将 Agent Skills 捐赠给 Agentic AI Foundation（与 MCP 并列）。Agent Skills 最初是 Claude Code 内的一项实验，此后被业内众多公司采用，此举意在使其成为中立的行业开放标准。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI Codex 负责人 Thibault Sottiaux 盘点\"第 18 天\"进展：Decisions API 正式 GA，OpenResponses 加入 Linux 基金会，Codex 获得多项性能改进，且 Uber 宣布全面押注 Codex 及相关工作产品。他同时预告一项新功能将于太平洋时间次日上午 10 点前上线，并附带一个小更新。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel CEO Guillermo Rauch 指出本周安全事件的讽刺之处：守护互联网加密体系的关键密钥口令竟然只是\"4\"，该密钥几乎可用于定向解密\"一切\"，残余风险仍在清理中。他呼吁全行业淘汰\"静态凭据\"、改用可自毁的短期密钥，并像当年普及 TLS\"绿锁\"一样共同推广 OIDC。另外他点赞了一个生成式 UI 的实际案例：在 AI SDK 中仅用 1 行代码添加工具即可通过 AI Gateway 接入\"Google\"能力（搜索、天气、体育、股票、选举等），AI Gateway 本身也成为工具市场。"
+    },
+    {
+      "author": "Alex Albert",
+      "handle": "alexalbert__",
+      "summary_zh": "Anthropic Claude Relations 负责人 Alex Albert 大胆判断，像 Claude Duet 这样的产品对本地小企业的影响可能比 Square 或 Google Maps 还要大。他认为当下借助 AI 经营一批本地小生意是很有意思的尝试，并公开征集正在用 Claude 经营小企业的用户案例。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box CEO Aaron Levie 断言\"通过隐匿实现安全\"（security through obscurity）已彻底终结：自主 AI 系统会排查每个缝隙、尝试所有攻击排列组合。他认为由此多年积累的企业遗留基础设施都需升级，安全实践、数据管道、访问控制都要现代化，Agent 在防守端可加速这些工作并模拟风险向量；但这条路很长，这也是 AI 扩散落地时间会比部分人预期更长的原因之一。"
+    }
+  ],
+  "podcasts": [],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "Amazon’s Trainium Takes a Strike at the Training King",
+      "date": "2026-10-23 19:06 UTC",
+      "link": "https://newsletter.semianalysis.com/p/amazons-trainium-takes-a-strike-at",
+      "chars": 20455,
+      "summary_zh": "SemiAnalysis 实测 AWS Trainium3 训练软件栈，结论是：Trainium 已在推理端被验证（Anthropic 在 Trainium2/3 上跑生产推理和 RL rollout），过去短板在研究型训练，如今 AWS 正通过软件策略的重大转向补齐这一块，方向正确，但成熟度离 CUDA 生态还很远。\n\n**软件策略转向：原生 PyTorch。** 新后端 TorchNeuron 取代 PyTorch/XLA。旧方案依赖 lazy tensor 图捕获，没有 eager 模式，也不支持 torch.distributed、DTensor、FSDP 等原生 API，迁移 GPU 代码很痛苦。现在支持 eager 模式和 torch.compile，理论上只需把 .to(\"cuda\") 改成 .to(\"neuron\")。AWS 还挖来了 Google 原生 Torch on TPU 项目负责人（Google TPU 软件的初创负责人）。生态方面已支持 Hugging Face Accelerate、TorchTitan 等，并效仿 Google TPU 的路线投入 vLLM/SGLang 社区。首发聚焦 BF16，暂不支持 MXFP8。\n\n**实测性能：**\n- 在 **16 颗 Trainium2**（**64** 个逻辑核）上用 TorchTitan 训练 Qwen3-32B：eager 模式 **11,099 tokens/s**、MFU **23.89%**；compiled 模式 **14,156 tokens/s**、MFU **30.47%**，提升 **1.28 倍**。gpt-oss 20B 训练配方开箱即用。\n- 矩阵乘法：单个 Trainium3 逻辑核在约 **1 GFLOP** 的中等规模下 MFU 明显高于 GB300；**100 GFLOP** 以上 GB300/B200 反超，超过 **1 TFLOP** 后 Trainium3 再度领先。\n- FlexAttention 测试通过 **89/96**，通过率 **93%**；**7** 个失败用例全部是编译超时（batch 4、序列 **8192**），没有数值错误。\n\n**主要痛点是编译时间。** 首步耗时 **184.6 秒**（eager）和 **255.7 秒**（compiled），是平均步长的 **30-55 倍**；gpt-oss 编译长达 **27 分 17 秒**。原因是编译栈历来为推理优化。AWS 的目标是把首步时间降低最多 **2 个数量级**。另外，MoE 的 dispatch/combine 通信占通信量的 **60-70%**，对应的 PyTorch 原生 TokenSwitch API 目前尚未支持。\n\n**质量控制：** AWS 投入多达 **80,000** 个物理核做自动化质控，用 **10 万+** 个 Hugging Face 模型测试数值一致性和性能，并用 agent 集群修复失败用例。文中对比称，SemiAnalysis 花了 **9 个月**才推动 AMD 达到 **93%** 的门控测试一致率；另有某厂商向高层汇报的 CI 通过率是 **99.99%**，实际不到 **5%**。\n\n**Neuron Explorer 性能分析器**被评为业界最佳，优于 Nvidia 和 AMD：时间线按硬件单元分行显示，可视化依赖关系，精度高到能用 **16** 个 DMA 引擎\"画\"出像素画。Anthropic 性能负责人 Tristan Hume 公开表示，在 Trainium 上做性能分析远好于 Nvidia GPU。\n\n**投资视角：** Trainium 正从\"推理专用\"走向能做通用研究训练，这有助于扩大 AWS 自研芯片的客户面（尤其是 Tier 2 实验室和学术界），对 Nvidia 的 CUDA 护城河构成渐进式挑战。关键看编译提速能否兑现。"
+    },
+    {
+      "source": "a16z",
+      "title": "Patch or Die",
+      "date": "2026-10-23 14:20 UTC",
+      "link": "https://www.a16z.news/p/patch-or-die",
+      "chars": 3336,
+      "summary_zh": "a16z 基础设施团队（Joel、Zane 等）向其被投公司发出网络安全紧急提示。他们认为，过去一周的事件说明形势已经变了：漏洞被发现和被利用的速度前所未有。与此同时，AI agent 正在大规模落地，进一步放大了风险。agent 不仅能把攻击者的整个攻击流程自动化，而且**每一个 AI agent 本身都是潜在的内部威胁**。现有企业环境是为抵御外部攻击设计的，并不防范来自内部的威胁。为此，a16z 建议企业管理层考虑以下几项\"激进\"调整：\n\n1. **大幅增加安全投入**：企业平均把约 **10%** 的技术支出用于安全，建议考虑**翻倍**（约 **20%**）。企业环境中可能有**数以千计**的漏洞待修复。\"靠隐蔽求安全\"已经失效，凡是能被利用的都会被利用。\n2. **对新功能和新产品发布\"零容忍\"**：重新审视上线和发布节奏，必要时推迟发布，确保所有漏洞修补完成后再部署新功能或新产品。\n3. **清理\"僵尸\"环境**：找出所有被忽视的遗留环境，包括实验室、测试环境、僵尸 CI/CD 项目等，先全部关停。与收入无关的一律关掉。\n4. **废除风险接受流程**：过去 **10 年**，风险接受流程已经从\"为业务发展而接受风险\"的工具，变成了\"永远不修复安全问题\"的借口。建议对安全问题和风险一律零容忍。\n5. **扩充 agent 而不是扩充人力**：威胁已经以机器速度演进，防守方也必须以机器速度应对。要推动安全团队尽可能自动化检测与响应流程；安全团队普遍偏保守、采用新技术较慢，需要推动其转变。\n\n投资视角：头部 VC 罕见地以\"Patch or Die（打补丁，否则死）\"的措辞要求被投公司把安全置于产品发布之上，说明 AI 驱动的漏洞发现与利用已经成为现实威胁。这对安全预算（可能翻倍）、AI 原生安全自动化（检测与响应 agent）、agent 身份与权限治理等赛道构成明确的需求催化。另一方面，\"暂停新功能发布\"的建议若被广泛采纳，可能短期拖慢部分软件公司的产品节奏。注意：原文为一般性建议，并未披露\"上周事件\"的具体细节。"
+    },
+    {
+      "source": "a16z",
+      "title": "Charts of the Week: Attention is All You Need",
+      "date": "2026-10-23 14:03 UTC",
+      "link": "https://www.a16z.news/p/charts-of-the-week-attention-is-all",
+      "chars": 11519,
+      "summary_zh": "a16z 本周图表（Charts of the Week）涵盖四个主题：注意力见顶、GPU 价格、AI 资本开支的供给侧约束、网络安全股估值。开篇另附 a16z 致被投公司 CEO 的网络安全紧急提醒《Patch or Die》。\n\n**一、注意力是稀缺资源。** Netflix 收入仍在增长，但增速已放缓至略低于 **~12%**，是 2021–22 年\"见顶论\"以来的最低水平。压力来自其他流媒体，更来自短视频（Reels、TikTok、Shorts）对注意力的争夺；Netflix 也在做短视频和体育直播。BCG 数据显示，美国人每周媒体消费上限约 **~26 小时**，且自疫情封控高峰以来温和下降。内容和应用之间的竞争越来越接近零和博弈，近期增量主要来自开车、办公时的\"背景式\"消费。\n\n**二、GPU 并未过时。** Ornn Data 统计的各型号 GPU（包括最老的 A100）租赁价格都高于年初。与 6 年直线折旧基准相比，当前价格高出 **9% 至 143%**。不过在更长的周期里，A100 和 H100 多数时间低于折旧线，价格从今年 **4 月**才明显走强。OpenRouter 的 token 用量（只覆盖一小部分市场）从春季开始陡峭上行，夏末短暂持平后再次跃升，开源和闭源模型都在指数增长，闭源模型上周份额略有提升。作者认为，\"GPU 过剩\"的担忧（FUD）与数据不符。\n\n**三、存量设施多干活，产能扩张有限。** 在 AI 资本开支的关键环节中：计算机行业产能和利用率同时上升，产量增幅更大；通信行业产能大增、利用率下降，可能已出现产能过剩；半导体只扩产能、利用率未提高；电气设备是最大的异类，涨价幅度最大，产能反而下降，尽管利用率上升，国内产量仍小幅下滑。开关柜等电网设备厂商在历史性积压订单面前基本没有扩产。缺口靠进口填补，四大类的进口增幅都远超国内产量增幅（按金额计）。劳动力方面，ADP 数据显示，AI 建设相关行业的人均周工时增长明显快于其他行业，也快于用工人数，说明企业主要靠现有员工加班。制造业工资上涨，跳槽者比留任者的工资涨幅高出 **5 个百分点**，反映出熟练工人短缺和抢人。作者指出，算力革命的瓶颈之一可能是人手不足，而不是\"AI 导致失业\"。\n\n**四、网络安全股进入\"证明期\"。** 软件板块分化明显，有顺风的标的表现强劲。网络安全股今年整体表现突出，但 **10 月**以来随大盘回调，跌幅更大。主要安全公司股价涨幅最高约 **~125%**，收入增速却只提高几个百分点，有的甚至下降。Palo Alto Networks 的收入增长最突出，但主要来自并购。公司披露的 AI 相关 KPI 包括：9 个月内 agentic 流量增长 **>800%**，SentinelOne 的 Purple AI 和 Prompt Security 的 ARR 增长约 **~200%**，但体量仍小，难以拉动整体增长。在\"SaaS 需要证明自己\"的市场环境下，资本对网络安全公司的耐心正在减少。"
+    }
+  ]
+}
