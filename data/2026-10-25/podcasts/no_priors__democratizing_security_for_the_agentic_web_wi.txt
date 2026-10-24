@@ -1,0 +1,380 @@
+Source  : No Priors
+Title   : Democratizing Security for the Agentic Web with Cloudflare CTO Dane Knecht
+Date    : 2026-10-23 10:00 UTC
+Link    : https://www.youtube.com/@NoPriorsPodcast
+────────────────────────────────────────────────────────────
+
+Speaker 1 | 00:00 - 00:11
+AI has become the tool that's causing this kind of security apocalypse. Is also the tool that can help us solve it faster as well. It went from how to get everyone just using AI. Now all of sudden, everyone's racing to figure out what AI security means.
+
+Speaker 2 | 00:11 - 00:36
+I've heard serious technical people say things like air gap, everything important, and we're, like, not gonna be able to trust the Internet for a while, and we just assume all the critical infrastructure and government services fall down at some point. Is that your expectation for what happens? Dane, I'm so excited to do this with you.
+
+Speaker 1 | 00:36 - 00:38
+Yeah. Thank you. Thanks for coming here too.
+
+Speaker 2 | 00:38 - 00:47
+I'm sure I'm not the first person to make this joke, but your last name, Connect. That's pretty good for the Cloudflare value prop.
+
+Speaker 1 | 00:47 - 00:50
+Yeah. Yeah. There's been some jokes about renaming the show next year. So...
+
+Speaker 2 | 00:51 - 00:58
+So with everything that CloudFare is doing, what are your top few priorities as CTO right now?
+
+Speaker 1 | 00:58 - 01:30
+Well, mean, this past year, feels like ten years compacted into one. So those priorities are constantly shifting. But, you know, it all goes back to our mission of helping build a better Internet. And that really hasn't changed over the last fifteen years where we wanna make sure that the Internet's secure, that everyone has access to be able to get their content online easily and scale it up. And just, you know, over the arc of the AI changes in the past year, you know, it went from, you know, how do get everyone just using AI?
+
+Speaker 1 | 01:30 - 01:48
+How do you make it easy for them to deploy and their agents deploy? To like most technical transitions, security is kind of an afterthought. And now all of sudden, everyone's racing to figure out what AI security means. And it means things are... Different sides view it kind of differently.
+
+Speaker 1 | 01:48 - 02:35
+One side as company is how do you keep your data safe from AI leaking the data out? But it's also how do you keep people from getting in as well too? And over the last, I would say, three to six months, just the number of vulnerabilities that are being reported in CDEs has has just gone up exponentially. You know, previously on the Internet, we would see these Log4j moments or these Shellshock type of incidents maybe once a year. And it would be all hands on deck internally at Cloudflare to make sure how we protect not just our enterprise customers, but also all of our free customers because we view it as a public code of making sure that the Internet stays safe.
+
+Speaker 1 | 02:35 - 03:13
+So these things are now happening weekly. Not all of them are publicly reported on, but there are things that are as serious as the Log4j type things, but just something at a greater frequency. I expect that through the rest of this year and in the next year, by the next eighteen months, majority of Teams' time is going to be spent on security. I think there was a stat that was put up earlier today during one of our keynotes where it was showing that I think over 50% of engineering time is going to be spent on security. I don't think that will last forever.
+
+Speaker 1 | 03:13 - 03:54
+Think that will be a short transition. At some point, the AI will have surveyed majority of the code and found most of the bugs or found most of the shortcuts. There's one that's kind of coming out today and has been started to be blogged about and tweeted about where one of the keys on the Internet that protects all TLS and WebPKI, which just secures all your connections, was secured by the number four. Literally, they basically used... If know about cryptography, it's all about randomness, right?
+
+Speaker 1 | 03:55 - 04:32
+That's why software has our lava lamps is so that you can get good randomness. And when a key out there is they use the seed, they use the initial thing to kind of create it with a single number four is going to be reverse engineered. AI can just do all these things that doesn't sleep. It's not like the one engineer you had that was red teaming things. Last week, think OpenAI found the seeds for the NIST curves were back in 2000 that were released.
+
+Speaker 1 | 04:33 - 04:59
+These things are just moving so fast and the bar is going up and the models are just getting so good at cybersecurity. Midtest was just kind of the tip of the iceberg there where... Since then, it's not just been the models getting better, it's the harnesses. It's how people know how to... How humans know how to use them and use those frontier models in order to find those exploits.
+
+Speaker 2 | 04:59 - 05:24
+Given your, you know, visibility, what do you know about the humans behind, you know, these attacks and harnessing these models taking the volume of vulnerability discovery up so quickly? Like, are they, you know, nation state actors? Are they script kitties? Like, what what can you say about how the the attacker landscape has changed?
+
+Speaker 1 | 05:25 - 05:38
+Well, I actually think for some of these some of these larger vulnerabilities that have come out more recently actually haven't been nation states. They've they've been, you know, high school kids even that are
+
+Speaker 2 | 05:38 - 05:39
+We're gonna call them agent kitties now.
+
+Speaker 1 | 05:39 - 05:52
+Yeah. Yeah. That are that are just spending their time, you know, like they used to do, kinda capture the flag security contest. They're pointing their agents at an area and doing that. There's also...
+
+Speaker 1 | 05:52 - 06:12
+And there's financial award for them. There's bug bounties that they get paid out of sizable amounts. But it's given the tools that, honestly, the nation states have had in some forms for much longer either through agents or just through, you know, sure number of people that were working on the problems, giving it to the masses.
+
+Speaker 2 | 06:12 - 06:34
+This is the first time in fifteen years I've heard serious technical people say things like, well, we should just like air gap everything important. And we're like, you know, not gonna be able to trust the Internet for a while. And we just assume all the critical infrastructure and and government services fall down at some point. Is that your expectation for what happens?
+
+Speaker 1 | 06:35 - 06:52
+Humans, we are pretty adaptable and we can move fast when we need to. And I've seen the industry kind of partner together. When things like this happen. People that usually think of competitors are no longer competitors. We are just literally protecting critical infrastructure, as you said.
+
+Speaker 1 | 06:53 - 07:28
+And I think when those kind of critical moments happen, people will rise to that challenge. So I'm a little less doomsday. I do think that a lot of the things that we've done over the past five to ten years, moving away from a kind of a castle moat infrastructure for security to moving to more of a zero trust does put a lot of companies in a better position where, you know, you're saying this office is completely air gapped. You're saying, you know, these devices, these these flows are secured in a different way, everything's going to be tightened.
+
+Speaker 2 | 07:28 - 07:58
+What is it going to take for organizations to do what you're describing? Like, 50% of engineers do not work on security right now. I had Greg Brockman from OpenAI on No Priors podcast last week, and he said that he thought in 2027, people are going to spend as much money on tokens for security as engineering? Like you're saying, related idea. What is going to drive that shift?
+
+Speaker 1 | 07:58 - 08:28
+Just emergency. Right? So you're going to move forward all your security spend over the next eighteen months, both from the red team side, which is more of the offensive, trying to actively try to exploit things as well as the defensive side, how you prepare things. But I don't think that's going to be last forever. I see a world in eighteen months where new software productivity goes way up because all those resources are back focused on that.
+
+Speaker 1 | 08:28 - 08:34
+But there's definitely this period where security usually on everybody's mind.
+
+Speaker 2 | 08:35 - 09:05
+What are some of the key elements of getting to a better place in terms of overall software and Internet security? I think people discover, of course, that there are libraries and services everyone use that had vulnerabilities that took effort to discover and now do not. And I think we'll hit some of those. What else is important there? Because part of the concern that I have is the rate of software production is also going up a great deal.
+
+Speaker 2 | 09:05 - 09:13
+Right? So to some degree, we gotta go like patch everything that we have already made and then keep up and get ahead of the pace of delivery.
+
+Speaker 1 | 09:13 - 09:40
+Yeah. Well, so I mean, for one, we're right now we're patching seventy years of of software out there. So so some of it is just catch up. And then on on a go forward basis, you know, I think this the software development life cycle, the agent development life cycle is going to need to change. Luckily, the same way that we can use security right now for Red King and things like that, it'll just be built into the process every step of the way.
+
+Speaker 1 | 09:43 - 09:46
+I think the software will just get more secure over time.
+
+Speaker 2 | 09:46 - 10:15
+What have you learned about building secure production software internally already that you think people can learn from? Like, does that mean? Like shift left and like, can we... And there there are there are many theories of how to do this including, you know, broader use of formal verification, using agents for security in the development process. Like, what what do you think is going to create better software from first delivery?
+
+Speaker 1 | 10:15 - 10:46
+I kind go back to first principles there is you want to reduce your attack surface area. The easiest thing you can do is to give less places for there to be vulnerabilities. So looking at all your software and saying, How can I simplify this? How can I reduce footprint, the code? Then beyond that, things like formal verification and things that are safer programming languages and things that are built into the runtimes that make everything safer will come.
+
+Speaker 1 | 10:46 - 11:16
+But I think it just starts with AI, at least the early AI is very verbose. It likes to create complexity. So AI in a sense of what we've been dealing with is actually not been helping build a more secure stuff right now, but I think we'll get there. I think that's where humans still come in and human judgment comes in and making sure that we design the software in a way that can stand on its own securely.
+
+Speaker 2 | 11:16 - 11:29
+That was actually going to be my reaction when you say we want to reduce the surface area. I'm like, Oh yes, of course, in principle. And that's not the natural inclination of today's models. Mhmm. Right?
+
+Speaker 2 | 11:29 - 11:42
+And, you know, I asked him to do something and I'm like, well, like, with one tenth the complexity, please try again. Is is that the role of engineering and security engineering today? Is that something that's gonna be solved at the model level?
+
+Speaker 1 | 11:42 - 12:09
+The the way that humans did before agents is it needs to be solved kind of at all levels. You need to train the engineers that are writing the code, the product engineers. The security teams still need to be involved in making sure that they're getting checks and balances, second set of eyes on things. You need to build in processes. We've gone to defining things a lot more internally on how we build at Cloudflare, writing down our principles.
+
+Speaker 1 | 12:09 - 12:32
+We have a document called the Codex, which is kind of like buildup of a lot of RFCs that the teams have built for it. Here's how you build secure software in Cloudflare. Here's how you build available software in Cloudflare. Here's our best practices. And then it kind of gets pulled up into some 10 commandments that the agents know how to follow and use in every part of the review process that can help enforce those things.
+
+Speaker 1 | 12:32 - 12:48
+So you have agents out there that are just writing a lot of the slop, and then you have deeper down the factory, you have people that are doing the performance runs and the security runs. Just like helping company operate before, you need those adversarial reviews.
+
+Speaker 2 | 12:49 - 13:18
+When you zoom out a little bit and just look at overall traffic on the Internet and how much of it has become agent driven over the last year, I think it's outpaced most people's expectations. What has updated in your worldview of what web a year from now looks like either from an economic model perspective or a security or requisite infrastructure perspective?
+
+Speaker 1 | 13:18 - 13:57
+Yeah. I mean, I kind of think of it as we're in the messy middle right now where humans and agents are riding the same rails on the Internet, where, you know, agents are trying to parse a human web when one is just inefficient and was designed for humans that could do things at different speeds. Going to a website and being able to read and see the ads and participate in more of the full economic model versus an agent that now can go to a thousand web pages in the same period of time, which is great. It's just you need to find a new economic model to support that. Do we
+
+Speaker 2 | 13:57 - 14:05
+get parallel webs? Is there like a human web and a machine web? Like, everybody's trying to do... What's it called? AEO now?
+
+Speaker 2 | 14:05 - 14:06
+Yeah.
+
+Speaker 1 | 14:07 - 14:28
+I mean, yes. I think we do. I think we find ways to deliver the content and agents and humans where they are as opposed to trying to meet them in the same place. Right now, there's translation layers. There's a lot of companies that help an agent view a web page.
+
+Speaker 1 | 14:29 - 14:51
+These are just all extra burning of tokens for things that probably don't need to happen. The website usually knows what data... We've had things like this called... We've had APIs, ways that computers talk to each other for years. APIs only covered a small fraction of the information on the Internet, and agents have a thirst to understand everything.
+
+Speaker 1 | 14:51 - 15:20
+So they're going out and trying to explore the human Internet, and we need to make it easier for them. We need to make it less costly for the site owners, and we need to find a way for them to get compensated. I think it's a world where you can get very simple. Most likely, it's a good content website, like a Substack. They know what their CPM is for how much money they should be making on ads for that site.
+
+Speaker 1 | 15:20 - 16:01
+And so if an agent's reading the site, I think there is a world where you get to the point where an agent can decide whether or not they want to read the content, and then they can decide if they want to pay the CPM rate. Right? And that's where you need to then get new payment rails for the Internet that can do millions of transactions a second for all these little micro payments. All these things that we've been talking about for years, micro payments always are two away. I think agents will actually push that forward and actually we will see a world where actually there is a new economic model for content creators.
+
+Speaker 2 | 16:01 - 16:20
+Who do you think the players are or what are the variations of that infrastructure? Like, think obviously Cloudflare has an important role to play here, but the rise of personal agents like Instinct and Muse have also made this like an immediate question from a transactional perspective.
+
+Speaker 1 | 16:20 - 16:39
+I don't think everyone knows on the, you know, on the other side what the business outcome is going to look like. You know, everyone's been through these transformations where the Internet, you know, if I was going to kill Main Street, it didn't kill Main Street. There's small businesses that are still thriving. But there weren't people that were displaced. So there's always kind of some skepticism there.
+
+Speaker 1 | 16:39 - 17:18
+And so there's some natural inclination to just block them out. Right? You saw Amazon just say, no personal shopping there from an agent. I I think these are all people that that messy middle where they're trying to figure out what that path forward is and trying to keep some of the negotiation leverage there. I think we will get to a place where Muse and Dots and all those personal agents will be able to accomplish tasks seamlessly as you as a human could do even easier.
+
+Speaker 1 | 17:18 - 17:23
+But I don't know if the technology's quite caught up to that yet and the business models either.
+
+Speaker 2 | 17:23 - 17:36
+Is there anything you're personally excited about on the roadmap or just from a technical exploration perspective on the Cloudflare front that you feel like is going to enable this ecosystem in the future?
+
+Speaker 1 | 17:37 - 18:24
+Well, yeah, absolutely. On the content side, we've released a conference monetization gateway where we make it easy for people to put their sites behind us and take microtransactions for their content. Including providing wallets for agents to use and a stablecoin that's going to be able to help facilitate that transaction as well. We're also doing things with OpenAI, a project called signals where we're making it easier for agents to actually discover content instead of having to crawl the entire Internet and continually go back to pages. We're making it easier for them to know what's new content and actually kind of more proactive to do that.
+
+Speaker 1 | 18:24 - 19:09
+So it's a win for the AI labs, as well as a win for the site owners not having to get constantly crawled and pay for that infrastructure. So there's a whole set of new laws on the Internet that I'm really excited to see all those of grow to see X402 from when Stripe came out with it, I loved it because it went back to the four zero two HTTP code, which was Tim Burns Lee created twenty plus years ago or thirty plus years ago for payments. So you kind of always knew that you needed a better payments rail on the Internet, but we haven't been able to kind of figure it out. And I think agents will lead us to that as well.
+
+Speaker 2 | 19:09 - 19:33
+When you think about these initial products that you've released, is there... What what would success for a content creator or somebody who ostensibly had a website on the Internet that they were monetizing with ads before? Like, what's the what's the killer success case you guys need to see or show the world where it just becomes like a default to do this?
+
+Speaker 1 | 19:33 - 20:03
+Well, I mean, I think we're instead of them paying us, we're paying them. Right? Where it's covering their infrastructure costs, it's providing money that supports their livelihood. We can actually increase the number of content creators out there, which the last generation of the Internet has done very well, like with YouTube and TikTok and it's... I mean, actually making it even exponentially larger.
+
+Speaker 2 | 20:03 - 20:17
+And when you look at the Workspace OS release and ecosystem work that you guys have been doing, what is... What are you hoping are the biggest use cases of it coming up?
+
+Speaker 1 | 20:17 - 21:15
+This is transitioning a little to a new release called Cloudflare OS. And Cloudflare OS is our internal platform for how our employees use AI every day, where we... And it actually goes back to security roots where we were very worried about customer data, internal data leaking out, and we wanted to make sure that our employees could use all the new AI tools and models, but have a way to safely deploy them internally to understand how that data is being used and flowing and good governance over that. In addition, the reason my company called CloudflareOS is we started to realize that as we have more and more agents, we needed to be able to teach them what made Cloudflare special, how we build at Cloudflare. And for humans, we did that through Cloudflare University and the onboarding process and meeting your colleagues and working with them.
+
+Speaker 1 | 21:15 - 21:36
+But we needed to kind of more clearly define that and document that for agents. And so Cloudflare OS is both the platform where our employees can build anything that they want in a secure way without having to... Security is not something that they have to think about. The BER that's trying to create a call list, they don't have to worry about security. It's just built in there for them.
+
+Speaker 1 | 21:36 - 21:42
+But they also know that it's being done in a way that is consistent with the themes and values of how software works.
+
+Speaker 2 | 21:42 - 22:01
+And why release... I think of this as somewhat different from the other products that Cloudflare offers today in that it is not infrastructure. It's like an end user facing product for managing AI use within the organization. Why release it? Or do you think of it as a departure?
+
+Speaker 1 | 22:01 - 22:40
+Yeah. I mean, for one, it's kind of reference architecture really. Over the past ten years, we've built our developer platform where we started with just a simple serverless compute primitive and now over 100 different developer platform tools from storage to databases to durable objects. We wanted to show how you can build it completely on Cloudflare and how we build things internally and kind of give people the option to fork it and build their own version of their own company OS on top of it.
+
+Speaker 2 | 22:40 - 22:47
+And what is a way in which it is helping your people and your organization that you think is like clear success?
+
+Speaker 1 | 22:48 - 23:28
+It's actually used more by our go to market teams and our G and A teams than it is used by our engineering It's giving them a very fast... Early on, I thought we saw training was the biggest gap for people using AI. And when you just point them at a chat interface or another by putting tool, it's too much of a blank slate for them. And so this is a platform that's designed... You design everything for it for how your business works, and they immediately can go there and get access to all the data that they need.
+
+Speaker 1 | 23:28 - 24:00
+They can get guided and taken through where they quickly realize, Oh, this is not trying to replace me. This is trying to make me better at my job. That's been really exciting to see just all the different ways people at the company have done that. A lot of how the company got put together, the marketing team built hundreds of internal tools where previously they would have to go out and work with different agencies, but the speed that they can move with a smaller team now is just amazing.
+
+Speaker 2 | 24:00 - 24:18
+Assuming this is a continuation starting in May, you guys did this restructuring to be an AI first organization. What else reflecting on the last number of months has worked or not worked that you would recommend to others?
+
+Speaker 1 | 24:18 - 24:35
+Yeah. I mean, so restructuring was hard saying goodbye to some our colleagues. It was the first time Cloudflare ever did it. Had always been very careful not to overhire. This was for different reasons.
+
+Speaker 1 | 24:35 - 25:03
+This is because we saw the way AI was transforming some teams and how they work. Kind of thought of it as like a factory floor where you needed to actually rebuild, rethink how things happen. There were some processes or some... The way a product inventor would send an email before to customers, it involved three teams. It involved a team where you went to BI to go get a cohort of the people that you wanted to send an email to.
+
+Speaker 1 | 25:03 - 25:28
+You went to the marketing team to help you design the email and get the voice right. You went to the marketing operations team to get the email out. Where you're never going to be able to actually redesign that process unless you kind make some hard changes and force people to kind of rethink, well, what actually is the right way to do that? And it might not involve those three teams at all. It might just involve a new way of doing things.
+
+Speaker 1 | 25:28 - 25:49
+So what came out of that was a tool where a product manager now goes in and describes the cohort. They write an email. It rewrites it in Cloudflare's voice. It sends it to their manager, and the manager can click approve if they like it, and it goes out. We didn't go from three teams getting faster at doing that.
+
+Speaker 1 | 25:49 - 25:56
+We went to one tool that can kind of let a product manager now become a superpower they didn't have before.
+
+Speaker 2 | 25:56 - 26:19
+When you think of all of the different workflows and tasks within an organization that's got about 5,000 people like Cloudflare. Do you decide who the owner is of rethinking that process? Was it bottoms up from one of those teams in this case? Is it an organizational leader When you have so many of these things that could change to be faster and make more sense as you described.
+
+Speaker 1 | 26:19 - 26:40
+Yeah. I mean, CloudForm has always had a thousand more things that we could could ever do, whether it was products and features or things like this. And so we always look for people that are going to take initiative in ownership. And so, you know, it doesn't really matter if you're ordering it, you know, one to a 100 and try and prioritize it. Any one of those 100 things are are probably safe if someone's passionate about it.
+
+Speaker 1 | 26:40 - 27:05
+So, you know, we we kind of gave people at the beginning of last year the the tools and started seeing how they were experimenting. And people quickly kind of broke out in different cohorts of people that were really leaning in and just naturally doing those things and taking ownership of them. So I think it was very bottoms up from the... How we're going to do those things.
+
+Speaker 2 | 27:05 - 27:22
+It's been a major topic of conversation for organizations as to how they should think about token budgeting. Right? Like, you know, what's a reasonable amount to spend? How do I think about this versus human capital? We should get tokens even within our organization.
+
+Speaker 2 | 27:22 - 27:24
+Like, what is your philosophy on this now?
+
+Speaker 1 | 27:24 - 27:40
+It's definitely changed. You know, each model kind of makes you rethink it as the the cost dynamics change. But, know, in in general, you know, I think it's kinda silly that we're actually asking humans to decide which model to do each task.
+
+Speaker 2 | 27:41 - 27:43
+Like, it should be intelligently routed. Yeah.
+
+Speaker 1 | 27:43 - 27:55
+Exactly. Like, humans just aren't aren't gonna ever be good at that. Right? Like, you know... But, you know, early on, you do it kind of brute force, and you you know, people you get people to experiment, and you say, hey.
+
+Speaker 1 | 27:55 - 28:19
+Well, let's try for the planning part. Let's use the top frontier models for that. And then once the plan's written out and agreed upon and iterated on, then potentially some more the open source models can go do that. Then you go back and you have one of the frontier models do the reviews and the red teaming and things like that. Now all of that today is fairly manual.
+
+Speaker 1 | 28:20 - 28:47
+But I think as we start to learn and experiment, I think people will become intelligent over time, there'll be more governance on that. Kafware has been a place where largely we've let people use the models and tools that they see fit for the job. We don't have a token leaderboard. We don't encourage it. We encourage people to focus on the output.
+
+Speaker 1 | 28:50 - 29:06
+They're not graded on if they use it, they're graded on what they've shipped and what they've built. But then, you know, we do have some kind of... We found, like, just kind of like giving people notices. Like, you know, if you happen to use 300 a day, they'll just get an email. Right?
+
+Speaker 1 | 29:06 - 29:18
+Like, says, hey. Did you know... And because most of the time people didn't realize they were doing it. And they're like, oh, And then I think if it gets to like 500, it goes to your manager. If it goes to a thousand, goes to a VP in a day.
+
+Speaker 1 | 29:18 - 29:25
+But it's... You know, those things rarely happen, and and usually it's it's it's... People are actually happy to get those notices.
+
+Speaker 2 | 29:26 - 29:40
+Where do you think you are in your overall evolution of, like, take things just for the current level of capabilities of of models? Assume no new development of, you know, rethinking the way different things at Cloudflare are done from go to market to engineering to be
+
+Speaker 1 | 29:41 - 30:00
+I think we're still so early. Know, comfort is something... You know, two years ago, had about 200 interns. And what we saw was those interns were, you know, really the first, you know, fully kind of AI native, you know, where you took AI away from them. I don't think they would be able to work.
+
+Speaker 1 | 30:01 - 30:02
+Oh, no. And
+
+Speaker 2 | 30:02 - 30:03
+Is that good?
+
+Speaker 1 | 30:04 - 30:17
+Actually, I think it is. I I think they know how to use the tools better than us. It's just you took Google away from me over the last ten years. How would I learn anything? That's where they reached to first.
+
+Speaker 1 | 30:17 - 30:30
+We actually saw the managers that had interns from summer actually adopt AI faster. So then this past summer, this past year, we decided we're gonna hire a thousand interns. So that's, you know...
+
+Speaker 2 | 30:30 - 30:31
+For a 5,000 person company?
+
+Speaker 1 | 30:31 - 30:34
+Yes. Wow. Yeah. Over the course of the year.
+
+Speaker 2 | 30:34 - 30:35
+Yeah. Still.
+
+Speaker 1 | 30:35 - 30:57
+Yeah. And it's it's just been amazing because, you know, one, just the number of ideas that come from the interns. You know, that's something that, you know, with AI, less people experiment faster, and so having more ideas, getting more people in there. But also just seeing the the way that they use AI. They need to fill out a form.
+
+Speaker 1 | 30:57 - 31:08
+They reach for AI. I still find myself, there's so many things where I'm like, Oh, wait, just been doing this manually still. Then I'm like, Yeah. Oh, wait. Actually, I should be using AI.
+
+Speaker 1 | 31:08 - 31:19
+I don't think that that's a natural natural for most of us yet. And I think that will take time. And so, yeah, I think we're still barely in our AI journey.
+
+Speaker 2 | 31:19 - 31:51
+I love it though. The mass intern strategy. I run a very small partnership and we always have a, you know, an intern or two floating around a team of about a dozen for, you know, ideas and intern energy and all that. But we just converted one of our, you know, in college interns to full time in in Jed and had him drop out and everything. And I I I think that you're right where maybe, like, the dial should be turned up on the amount of DNA that is really, really native to these tools.
+
+Speaker 1 | 31:51 - 32:12
+Yeah. And I think it's great for them as well too. I mean, you see these schools like Waterloo and Northeastern, like, with these these co op programs. From what we've seen is people that get that type of real work experience are some of our best employees many years then and go on to do great things.
+
+Speaker 2 | 32:13 - 32:42
+It is interesting or encouraging though that instead of it being like, Hey, here's a master plan. We're going to map out every department and sub department at Cloudflare and be like, Here are the key workflows. We're going try to reengineer the workflows. It is instead a strategy of assume people are rational about their tokens if given information about their usage, hire a bunch of interns, and assume high agency people we have here are going to go shift those workflows to something more intelligent over Yeah.
+
+Speaker 1 | 32:42 - 33:00
+And then and then brute force and just try things. Early on, we had an email alias called agents at Cloudflare, where we... This is back in January of last... Of this year, where we just told people to, you you curious, can I use AI for this? Email in your jobs to be done.
+
+Speaker 1 | 33:00 - 33:31
+And that email list would reply back to the skill file. And for a while, thought it was actually thought it was all AI and automated. It was actually a bunch of interns that were helping people write skill files. But that let us kind of get to see in a way that's not going out in like hiring a consulting firm to come out and catalog every single thing to be done. It's people that are recognizing, hey, this seems harder than it needs to be.
+
+Speaker 1 | 33:31 - 33:33
+I wonder if an agent can help me here.
+
+Speaker 2 | 33:33 - 33:43
+Is there anything else about the last year that's changed beyond the intern level, like your hiring philosophy? What you look for in people to bring on?
+
+Speaker 1 | 33:44 - 34:19
+Well, I mean, one of the biggest things we always look for is curiosity. And so if people aren't using AI at home in their personal life and all that, that's a pretty big red flag. How can you not be embracing AI if you have a level of curiosity out there. So I think just doubling down on some of those key characteristics of drive and curiosity and empathy play even better for this next set of people?
+
+Speaker 2 | 34:20 - 34:46
+Well, I mean, I'm a alpha user of all products and technology forever. But I think the answer is fear and skepticism. Right? And so I guess implicit in this claim about curiosity including an experimentation with Frontier Tools is like that needs to be a core principle for people who work at Flare.
+
+Speaker 1 | 34:46 - 35:10
+Yeah. I mean, a lot of things that we're doing, we're not... We're inventing new ways of doing things. Mean, scale that we operate at for the number of sites behind us and the the amount of free services we give away, it's just not possible with off the shelf technology. So you you need people that can come in and literally invent new things, and and that that starts with curiosity.
+
+Speaker 2 | 35:11 - 35:42
+I have a couple questions for you to to close out. And so mainly about security both and how to do that in a new way both at at Cloudflare and then how you think it's gonna work in the in the broader ecosystem. What do you think is the, like, process by which if half the engineering team is going to go work on security and just fix seventy years of vulnerability? How do you attack that problem? Internally, assuming that not all software is perfect, even amazing production internet scale software, and then, you know, we'll talk about the ecosystem.
+
+Speaker 1 | 35:42 - 36:03
+Yeah. I mean, I think largely today we have one red team. I think by the end of the year next year, we will probably have four or five red teams. So break people out into groups that are actually being more adversarial and actually going out and actively trying to find vulnerabilities.
+
+Speaker 2 | 36:04 - 36:12
+Why is that the approach when instead of, Oh, we're finally going to get our patching systems right, our processes right.
+
+Speaker 1 | 36:12 - 36:19
+I mean, processes and those things can always be better. We have a VOLM process. We have a patching process. Are they perfect? No.
+
+Speaker 1 | 36:20 - 37:02
+But, you know, the best way I found for those sorts of things to get better is to out of crisis kind of comes that's how you get those things fixed. When the volumes get too big for the engineering team to just do them using their normal processes, Engineers are inherently lazy in a good way. And so they automate away those things as they need to, as they kind of realize that there's no other way to do that. So I think the focus needs to be on the discovery side and people will do the right thing and figure out how to patch it in a scalable way over time.
+
+Speaker 2 | 37:02 - 37:24
+Do you express a philosophy on just prioritization of this versus shipping new features? Because I guess my understanding of... It's not as if we didn't have a backlog of vulnerabilities vulnerabilities in every large piece of software to go fix. It was just whether or not that was a priority for engineering teams previously as one common state.
+
+Speaker 1 | 37:24 - 37:39
+I I think you need to figure out how to do both. It might come at the expense of cost optimization or other things, but I mean, companies, if you're not shipping, you're dying. This is how we think about it.
+
+Speaker 2 | 37:39 - 37:41
+So it's not gonna be freeze in order Yeah. To do
+
+Speaker 1 | 37:41 - 38:16
+Oh, no. Absolutely not. You be need able to continue building and shipping new things, but you need to be able to make sure that you're doing it securely and patching and fixing bugs. Think if we do it right, we'll actually be able to do them both faster with AI. While AI has become the tool that's causing this kind of security apocalypse, vuln apocalypse to happen, it is also the tool that can help us solve it faster as well.
+
+Speaker 1 | 38:16 - 38:18
+Right? So it's on both sides of it.
+
+Speaker 2 | 38:19 - 38:51
+Where do you fall in this debate of the role, like good and bad, of open and closed models on the cyber front? Right? Because the argument, the broad argument is, well, having defensive and offensive cyber vulner... Cyber capabilities, you know, they're parallel in the same model despite safety and guardrails being being built into them. And so you can't have open defensive models without them also being offensive.
+
+Speaker 2 | 38:51 - 39:08
+And then the argument sort of... Or the concern around only having security capabilities in a a set of frontier closed models as well, how are you gonna release them and you can't possibly get them out to the distributed set of actors that need to defend? What do you think, or did I characterize that correctly?
+
+Speaker 1 | 39:08 - 39:14
+Yeah. Mean, I think over time it'll ask you open because everyone's gonna get access to it anyways.
+
+Speaker 2 | 39:17 - 39:18
+That's how open source tends to work. Yes.
+
+Speaker 1 | 39:19 - 39:36
+The bad guys are going to find a way to get it. So all URs and the top companies will have a way of getting it as well. So you're just excluding a mass population that just doesn't have the access that probably needs it.
+
+Speaker 2 | 39:36 - 39:57
+And then so final question just because Cloudflare, very mission oriented, does carry the weight of some Internet resilience on on its back. What about all of the people who can't afford to have four red teams or, like, never had a red team to begin with that run important systems? Like, how do they how do they protect themselves?
+
+Speaker 1 | 39:57 - 40:17
+Well, so, you know, I I would say your sites behind Cloudflare. Put your protection behind Cloudflare. Build on Cloudflare. When these major vulnerabilities come out, like the React one last year, we don't just give it to our paid customers who have the advanced firewall and WAF capabilities. We give it to everyone.
+
+Speaker 1 | 40:17 - 40:47
+We view those kind of things as part of the utility that we offer. Want to provide that And just like we want to provide performance for everyone. Before Cloudflare started, there were probably 3,000 sites in the world that had a large scale CDN to cache their stuff at the edge. Now there's hundreds of millions of sites that do. Koppers always viewed our goals providing democratizing those security and performance for everyone.
+
+Speaker 2 | 40:47 - 40:57
+Awesome. Thanks so much for doing this, Dane. You guys heard it first. Have the agent kitties and the Vulnkapocalypse. Am I pronouncing that right?
+
+Speaker 2 | 40:57 - 41:01
+Yeah. Yeah. But but it's resolvable. Alright. Thanks so much, guys.
+
+Speaker 2 | 41:01 - 41:16
+Thanks. Find us on Twitter at no priors pod. Subscribe to our YouTube channel if you wanna see our faces. Follow the show on Apple Podcasts, Spotify, or wherever you listen. That way you get a new episode every week.
+
+Speaker 2 | 41:16 - 41:21
+And sign up for emails or find transcripts for every episode at no-priors.com.
