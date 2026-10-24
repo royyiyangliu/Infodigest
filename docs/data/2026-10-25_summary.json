@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-25",
+  "generated_at": "2026-10-24T23:32:57.324109+00:00",
+  "stats": {
+    "tweets": 5,
+    "podcasts": 1,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI Codex 负责人 Thibault Sottiaux（@thsottiaux）透露，Codex CLI 自 DevDay 以来使用量已**增长 2 倍**。本轮更新包括：dots 通话连接更快，对话中途切换 Codex 推理强度或工作内容不再导致缓存失效；CLI 新增可复用提示预设、内联模型与权限设置、企业级 MCP 登录，并修复长会话恢复失败问题、支持 Windows 企业代理认证。他还提醒，在 AI 时代\"拥有工具\"与\"沦为工具\"之间的界限很微妙，开发者要警惕不自觉地把自己变成工具。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic Claude Code 核心成员 Thariq（@trq212）宣布离开 Anthropic，此前他参与 Claude Code 工作**一年多**，并称亲眼见证其规模扩张远超预期。他高度评价 Anthropic 的使命与\"向上竞争（race to the top）\"理念及团队，表示将先休息一段时间再投身新项目，并推荐关注 @addyosmani、@lydiahallie、@_catwu、@ClaudeDevs 以及 Claude Code 的发起人 @bcherny 获取后续内容。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad 连发两项扩张动作：一是推出 Replit for Government（政府版），并引入曾领导 AWS 公共部门业务的 Michael Greenwald，目标是改造政府构建与运营软件的方式；二是宣布向量数据库公司 Chroma 团队（Jeff 等人）加入 Replit。他称 Chroma 在 RAG 概念流行前就已在做相关工作，加入后将攻克\"为 Agent 提供完成真实工作所需的上下文与记忆\"这一难题，是迈向\"自动驾驶式公司\"的重要一步。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch 针对 OpenAI 发现的一类 Agent 侧信道攻击指出：同一物理主机上的两个 Agent，一方可通过 CPU 缓存制造\"噪声\"，另一方通过计时自身计算与缓存访问来感知，相当于在云端玩\"通灵板\"。他强调这类共享主机 VM 计时攻击至少**自 2015 年**起已为人所知且无完整解法，过去全球网络基础设施依赖\"理论上可能但没人会这么干\"的侥幸，而 Agent 的出现打破了这一假设；唯一\"彻底\"方案是每个 Agent 独占硬件，但经济代价巨大。Vercel Sandbox 已部署所有可行缓解措施，并辅以常态化监控和红队测试。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie 大胆预测，用于网络防御的 Agent 集群（agent swarms）将成为 AI 领域最大的品类之一。他认为安全是集群的最佳用例，因为\"投入更多算力即产出更多价值\"的关系非常明确：Agent 可以审查代码与基础设施、遍历测试所有风险组合、处理海量数据，完成大量人类从未来得及做的测试工作。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "No Priors",
+      "title": "Democratizing Security for the Agentic Web with Cloudflare CTO Dane Knecht",
+      "date": "2026-10-23 10:00 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/@NoPriorsPodcast",
+      "summary_zh": "No Priors 专访 Cloudflare CTO Dane Knecht，主题是 AI 引发的“漏洞末日”与智能体网络（Agentic Web）的新经济模型。\n\n**一、安全：漏洞爆发期大约持续 18 个月**\n- 过去 **3–6 个月**，CVE 报告数量呈指数级上升。以前 Log4j、Shellshock 这种级别的事件**约一年一次**，现在**几乎每周一次**，其中不少没有公开披露。\n- 他预计未来 **18 个月**内，团队大部分时间会花在安全上。Cloudflare 主题演讲给出的数据是：**超过 50%** 的工程时间将投入安全。主持人转述 Greg Brockman 的说法：**2027 年**企业花在安全上的 token 支出会和花在工程上的一样多。\n- 他认为这只是过渡阶段，AI 把存量代码扫完以后，软件生产力会明显反弹。现在相当于在补“**70 年**积累的软件债”。\n- 案例：某个保护 TLS/WebPKI 的密钥用数字“4”做随机种子；OpenAI 找到了 **2000 年**前后发布的 NIST 曲线的种子。模型在变强，配套的 harness 和使用方法也在进步。\n- 攻击者画像：近期一些重大漏洞并不是国家级黑客发现的，而是高中生拿智能体去挖，再领取高额漏洞赏金（主持人戏称“agent kiddies”）。\n- 应对办法：减少攻击面。现阶段 AI 写的代码偏啰嗦，反而增加了复杂度。Cloudflare 把内部 RFC 整理成名为“Codex”的规范，再提炼成智能体在代码评审中执行的“十诫”。红队预计从现在的 **1 支**扩到明年底的 **4–5 支**。不会为了安全冻结新功能（“不发布就是在死亡”）。\n- 开源与闭源之争：他倾向开源，理由是坏人总能拿到能力，限制访问只会把需要防御的普通人挡在外面。\n- 普惠防御：去年 React 那类重大漏洞的防护规则免费提供给所有用户。Cloudflare 出现前，全球大约只有 **3,000** 个网站用得上大规模 CDN，现在是**数亿**个。\n\n**二、智能体网络与新的商业模式**\n- 现在处于人和智能体共用同一张网的“混乱中间期”。他认为最终会出现人类网和机器网两套并行体系。\n- 设想是让智能体按网站的 CPM 付费阅读内容，这需要每秒能处理**数百万笔**微支付的新支付通道。Cloudflare 已推出内容变现网关，提供智能体钱包和稳定币。另外和 OpenAI 合作“Signals”项目，主动向智能体推送新内容，减少全网重复爬取。他看好 Stripe 的 x402，并提到亚马逊已经禁止个人购物智能体。\n\n**三、组织转型**\n- 推出 Cloudflare OS：内部 AI 平台兼参考架构（开发者平台已有 **100+** 工具），用户以销售和行政团队为主，市场部自建了**数百个**内部工具。\n- 5 月完成公司首次裁员重组。一个例子：发营销邮件原本要 BI、市场、市场运营 **3 个团队**配合，现在 PM 用一个工具就能完成。\n- token 管理：不设用量排行榜，按产出考核。单日用量到 **300 美元**（原话只说了数字，单位推测为美元）本人会收到邮件提醒，到 **500** 通知经理，到 **1,000** 通知 VP。\n- 实习生策略：两年前约 **200 名**实习生，带过实习生的经理采用 AI 更快。今年在约 **5,000 人**的公司里计划招 **1,000 名**实习生。招聘看重好奇心，私下不用 AI 被视为危险信号。"
+    }
+  ],
+  "articles": []
+}
