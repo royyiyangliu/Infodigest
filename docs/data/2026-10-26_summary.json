@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-26",
+  "generated_at": "2026-10-25T23:33:01.216442+00:00",
+  "stats": {
+    "tweets": 4,
+    "podcasts": 0,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie 大胆预测：流经网络安全 agent 的 token 量很快将比今天多出 **1,000 倍**。他认为网络风险面持续扩大，新风险的数量已几乎无法靠人力跟上，过去只有大公司勉强有资源应对，而绝大多数企业没有；未来 agent 集群可以并行调用各类安全工具、模拟多种攻击变体、审读日志并评估企业数据风险。他指出这一能力仅在**过去几个月**才出现（得益于长时运行 agent、computer use 成熟以及模型在网络安全上的深度训练），身份、防火墙、网络、代码扫描、数据保护等安全栈各层都迎来巨大机会，也让他对攻防力量的平衡更为乐观。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch 认为，AI 在很多时候\"比你更懂、比你更聪明\"，过度指导会束缚它，指导不足又会让它跑偏、带偏见或缺失上下文，把握好这个分寸是他招人时看重的**第一号**技能。他还观察到模型偏爱 gate、evidence、culprit、provenance、contract 等\"侦探/审计式\"工程词汇，源于工程工作多为调试与理解既有系统；并设想高效工作所需的\"最小可行英语\"可能远少于 ASD-STE100 简化技术英语的约 **900** 个词。"
+    },
+    {
+      "author": "Ryo Lu",
+      "handle": "ryolu_",
+      "summary_zh": "Cursor 设计负责人 Ryo Lu 发表长文《struggle together》，对 AI agent 提出反思：他担心在弄清\"困难教会了我们什么\"之前就用工具把困难消除，人们会学会拿结果却不理解原理，也错过本该学会提出的问题。他进一步指出，随时在线、耐心的 agent 让人更容易回避与他人协作的摩擦，而这些 agent 运行在企业拥有的服务器上、受未必可见的利益塑造；他主张工具应帮助人更多地走进世界、找到协作者，而非提供\"舒适的禁锢\"。"
+    },
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "Latent Space 联合创始人 Swyx 宣布 @latentspacepod 正在组建新的编辑团队，招聘撰稿人、审稿人和记者（联系 @ricmac 与 @adlinzainal），同时欢迎兼职及一次性客座投稿，显示该 AI 媒体正从播客向更完整的编辑内容业务扩张。"
+    }
+  ],
+  "podcasts": [],
+  "articles": []
+}
