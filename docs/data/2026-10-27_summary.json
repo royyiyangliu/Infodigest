@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-27",
+  "generated_at": "2026-10-26T23:33:27.141452+00:00",
+  "stats": {
+    "tweets": 5,
+    "podcasts": 0,
+    "articles": 2
+  },
+  "tweets": [
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie 认为，企业安全的风险面高度碎片化且只会愈发复杂：库、工具、基础设施、数据与代码无限扩张，多数大企业都难以跟上，更不用说初创公司与非科技企业；数据分散导致企业无法随时掌握风险状态，部分系统权限开放过宽、另一些则依赖“隐匿即安全”。他指出，只有先把数据与基础设施现代化，才能让 Agent 集群（agent swarms）介入安全工作——并行调用各类安全工具、模拟多种攻击路径、审阅日志、评估企业数据风险等级，而这种能力是**过去几个月**才随长时运行 Agent 与足够好的 computer use 出现的。他判断这为身份、防火墙、网络、代码扫描、数据保护等安全栈的每一层都带来巨大机会，也是对攻防力量平衡保持乐观的理由之一，但前提是企业先把基础打牢。"
+    },
+    {
+      "author": "Matt Turck",
+      "handle": "mattturck",
+      "summary_zh": "FirstMark Capital 合伙人 Matt Turck 发帖讽刺风投行业的“叙事改包装”：许多 VC 正把 2021 年押注的元宇宙、游戏和加密货币挖矿项目，重新包装成“关键任务型 AI 基础设施”，暗示当前 AI 基础设施赛道中存在借概念翻新旧资产的泡沫迹象。"
+    },
+    {
+      "author": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "summary_zh": "Zara Zhang（@zarazhangrui）在转评一段访谈时提出与常见做法相悖的观点：大多数人高估了一次大型发布的重要性，而低估了每天持续在时间线上出现的力量。她主张建立每天产出一条视频的内容系统，其效果优于花费**数万美元**制作单条发布视频。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "Roblox 产品负责人、《Behind the Craft》作者 Peter Yang 分享了用 Claude 在几分钟内复刻任意短视频风格的方法：据 Jake Moran 介绍，HyperFrames studio 已将其做成原生功能，用户上传或选择参考片段，再用提示词描述想修改的部分（如字体、配色），即可在保持结构不变的前提下生成新风格视频。他还以另一则作品为例感叹“谁说 AI 没有品味”。"
+    },
+    {
+      "author": "Nan Yu",
+      "handle": "thenanyu",
+      "summary_zh": "Linear 产品负责人 Nan Yu 强调产品体验问题的滞后性：等到问题在数据或用户研究访谈中显现时往往为时已晚，损害已经造成、口碑已然受损。他还批评在 iPhone Duo 已支持分屏模式的情况下，未经适配的应用仍沿用糟糕的默认显示方式。"
+    }
+  ],
+  "podcasts": [],
+  "articles": [
+    {
+      "source": "a16z",
+      "title": "Announcing the Third a16z New Media Fellowship",
+      "date": "2026-10-26 16:58 UTC",
+      "link": "https://www.a16z.news/p/announcing-the-third-a16z-nmf",
+      "chars": 2841,
+      "summary_zh": "a16z 宣布启动第三期「新媒体研究员计划」（New Media Fellowship，NMF3）。该计划为期 **8 周**，面向顶尖创作者、作者、营销人、播客主及幕后运营人员。前两期累计已有 **130 余人** 参与。\n\n前两期成果：过去一年里，研究员们创办并融资了 Energy、Osmo、Underdog 等新公司；在 Thatch、Ghost、Exa 等快速成长的初创公司主导产品发布；打造了 MTS、Substrate Magazine、SOTA Wives 等新媒体品牌；也有人加入 OpenAI、Prime Intellect 等公司任职，还有数人加入了 a16z 自己的新媒体团队。\n\na16z 总结两期经验，认为最有价值的反而最简单：高质量的晚餐聚会，加上一个高度活跃、\"极度在线\"的群聊。因此第三期会在这两点上加码。NMF3 将于 **2027 年 1 月** 开始，为期 **8 周**，晚餐活动在旧金山和纽约两地举办，研究员不限所在地，所有人都在同一个群聊里。研究员还可以接触 a16z 被投组合公司的机会、资源和合作想法。\n\n已确定的创始研究员包括：Tyler Gold（X 创作者业务）、Samantha Trimble（OpenAI 生态）、Elsa Johnson（The Stanford Review 荣誉编辑）、Austin Lyons（半导体分析媒体 Chipstrat 创始人）、Rosie Sargsian（Ramp 叙事/品牌）、Eli Goldfine（The Supercycle 作者）。申请现已开放，滚动审核。\n\n投资视角：这则消息信息量有限，属于 a16z 的品牌与生态建设动作。值得注意的是，顶级 VC 持续把\"新媒体/叙事能力\"当作投后服务和获取项目的抓手，把创作者网络与被投公司（尤其是 AI 公司，如 OpenAI、Exa、Prime Intellect）对接起来。这也说明在 AI 赛道，分发和叙事正成为初创公司的竞争要素之一。"
+    },
+    {
+      "source": "a16z",
+      "title": "Let Chaos Reign, and Then Rein In Chaos",
+      "date": "2026-10-26 16:08 UTC",
+      "link": "https://www.a16z.news/p/let-chaos-reign-and-then-rein-in",
+      "chars": 11273,
+      "summary_zh": "a16z 借 **Replit for Business** 发布（当日上线）撰文，力挺 Replit CEO Amjad Masad 提出的「Agent Habitat（智能体栖息地）」与「自动驾驶型公司（self-driving company）」理念。核心论点：颠覆性技术往往以「混乱」方式进入职场，而混乱本身就是其价值的信号；赢家是那个借用 Andy Grove 的话「先让混乱发生，再驾驭混乱」的人。\n\n**当前痛点**：Amjad 指出，如今大多数 AI 智能体运行在聊天窗口、个人账户和一次性脚本中，持有别人随手交给它的凭据和数据——没人决定它能访问什么，也没人能看到它做了什么。\n\n**历史类比（三段）**：\n1）**个人电脑**：如同几年前的 ChatGPT，PC 最初是员工自带进办公室的，有人甚至在采购单上谎称买的是示波器、打字机或书桌；**1983 年**的文章警告会出现游离于管理层视野之外的「影子」数据处理部门。最终靠 IT 规范与工作「框架（harness）」在保留自下而上生产力的同时收拢混乱。\n2）**电子表格**：可视为最早的「职场智能体」，让非程序员也能建模业务；但「失控表格」类似今天的「失控智能体」，常有公式错误、难以审计，只有作者本人看得懂（Mitch Kapor **1984 年**语）。解法是数据访问规则、锁定单元格、版本历史、公式标准化与输出审计。\n3）**电子邮件**：打破了收发室对公司信息流的控制，一度引发管理层对权限与泄密的焦虑，甚至有人认为发邮件需经理批准；最终通过权限与访问控制体系驯服。\n\n**两点启示**：一是必须有人适度约束混乱、搭建让行为最优发展的「栖息地」；二是混乱本身预示着一种能在组织内部创造深度对齐的高价值行为——员工在为新工作方式「圈地」。\n\n**自动驾驶型公司**：真正「知道该做什么」的人借助新工具（如今是一队智能体）可获得 **100 倍**生产力提升。文中举例：Replit 客户**三井住友融资租赁（Sumitomo Mitsui Finance and Leasing）**的一名员工，独自在**一周**内完成了原计划**6 人、6 个月**的开发流程。作者认为代码是终极的「对齐产物」，因为它本身就是组织的业务逻辑；扩大能贡献代码的人群最能创造组织对齐，但这天然带来混乱，因此需要「散养（free-range）」式栖息地——既不关进笼子，也不完全放任。\n\n**投资视角**：a16z 判断未来可用「智能体栖息地」的丰富程度衡量企业的对齐度，Replit 及其客户已领先，多数公司尚未意识到；这实际是在为企业级智能体治理/平台（权限、凭据、可观测性）这一赛道及 Replit 的 B 端扩张背书（需注意 a16z 立场，文中未披露财务数据）。"
+    }
+  ]
+}
