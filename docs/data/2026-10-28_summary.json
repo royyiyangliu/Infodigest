@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-28",
+  "generated_at": "2026-10-27T23:33:44.490072+00:00",
+  "stats": {
+    "tweets": 7,
+    "podcasts": 1,
+    "articles": 1
+  },
+  "tweets": [
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie 认为企业 AI 支出仍有 **10-50 倍**的增长空间：据 Anthropic S-1，其财富 500 强客户平均仅将不到 **0.1%** 的费用花在 Anthropic 上，即便升至“区区” **1-5%** 也仍远低于多数初创公司的水平。他指出，目前这部分支出主要来自编程和员工通用生产力场景，只有极少数公司在大规模用智能体跑后台任务；随着企业为智能体重构底层流程（大规模数据处理、编程/生物研究/网络安全等智能体集群、后台工作流），token 消耗将放大约 **100 倍**，且更接近直接 ROI。他认为这份 S-1 既体现出前沿实验室商业模式在激烈竞争下的强势，也说明 AI 建设仍处于非常早期。"
+    },
+    {
+      "author": "Nikunj Kothari",
+      "handle": "nikunj",
+      "summary_zh": "投资人 Nikunj Kothari 拆解 Anthropic S-1 中的算力合同：截至 6 月 30 日，Anthropic 有 **2656 亿美元**采购承诺和 **3214 亿美元**尚未起租的租赁，合计 **5870 亿美元**、分多年支付；Google 和 Amazon 合同设有与用量无关的最低消费，SpaceXAI 协议潜在价值 **1205 亿美元**，但在 2027 年 1 月和 3 月锁定期结束后任一方可提前 90 天通知解约。Broadcom 的 **420 亿美元**融资安排并不直接给现金，而是用票据抵付特定设备租金，票据年息 **9%**（按季复利），IPO 后可按 30 日成交量加权均价的 **90%** 转股，营收违约期间新发票据利率升至 **13%**、转股价降至 **85%**，这还叠加在设备租赁本身未披露的融资利率之上。经营层面，每 1 美元算力与基础设施支出带来的收入从 2025 年 Q2 的 **0.57 美元**升至 2026 年 Q2 的 **2.08 美元**；上半年约 **80%** 收入为按用量计费，而算力承诺多为多年期，这种期限错配值得持续跟踪。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch 发出警示：前沿实验室拒绝协助安全研究的立场可能适得其反——他复现 OpenAI 关于 CPU 隐蔽通信的发现时，OpenAI 和 Anthropic 的模型均拒绝执行，开源权重模型却完成了任务，他担心这会妨碍开发者构建正确、安全的系统。他做的 cpu-chat 在 2 台以上无网络的 Firecracker 微虚拟机间，通过 CPU 争用、缓存驱逐时序、DRAM 带宽争用 **3 种**机制实现了跨 CPU 通信，绕过了 Firecracker 全部生产环境建议（禁用 SMT、KSM，租户绑定不同核心），x86 和 M5 芯片上均可运行，结论是只要共享硬件，智能体就很可能能以不错的延迟隐蔽通信。他也强调这不同于可窃取信息的侧信道攻击（Meltdown/Spectre），且在 Vercel 真实环境中此类手法更难实施、也更易通过硬件计数器采样和大规模统计监测发现。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad 认为企业组织架构数百年来几乎未变，而 AI 智能体将颠覆这种由部门层级和官僚协调构成的模式，走向“自动驾驶公司”：人类负责判断，智能体执行大部分工作（“软件吞噬了世界，现在它正在学会运营世界”）。Replit 正为此构建名为“Agent Habitat”的基础设施，他并引用 Marc Andreessen 的文章称，每一次计算革命都始于混乱，之后企业才学会驾驭它。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI Codex 负责人 Thibault Sottiaux 宣布 Terra 模型回归，称其是 OpenAI 首个在写作、个性和对请求的细腻理解上显著更强的模型。他表示 Terra 各方面表现全面强劲，计算机使用（computer use）能力很好，并且在 API 和订阅中提供比 6.1 Sol **多 2 倍**的使用额度。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品创作者、《Behind the Craft》作者 Peter Yang 预测，不久之后人们将不再自己在网上阅读或操作，而是直接 @ 自己的智能体代劳，@bot 就是早期信号——但他也坦言这总体上可能并非好事。他还表示，比起“第 9 个帮你管邮件的个人智能体”，他更看好真正新颖的智能体应用。"
+    },
+    {
+      "author": "Josh Woodward",
+      "handle": "joshwoodward",
+      "summary_zh": "Google 副总裁（负责 Gemini 应用与 Google Labs）Josh Woodward 宣布，为纪念“国家部署人员日”，Google 与美国陆军及 USO 合作，将 Google Beam 部署到 **20 个**地点，让海外部署的军人能与家人进行逼真的 3D 视频通话，这也是 Beam 3D 视频通信产品的一次落地展示。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "Lex Fridman Podcast",
+      "title": "#503 – AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory",
+      "date": "2026-10-26 22:52 UTC",
+      "duration": "3:42:40",
+      "link": "https://podcasts.apple.com/us/podcast/503-ai-crisis-in-math-navier-stokes-riemann-hypothesis/id1434243584?i=1000798266396&uo=4",
+      "summary_zh": "MIT Moitra、UW Brunton、Rutgers Kontorovich三位数学家谈AI攻克Navier-Stokes、黎曼猜想等难题"
+    }
+  ],
+  "articles": [
+    {
+      "source": "a16z",
+      "title": "Databricks & the Future of the Firm",
+      "date": "2026-10-27 14:02 UTC",
+      "link": "https://www.a16z.news/p/databricks-and-the-future-of-the",
+      "chars": 38365,
+      "summary_zh": "a16z 长文以 Databricks 为例，论证 AI 智能体将重塑企业的\"系统记录\"（SoR）乃至组织形态。\n\n**经营数据**：Databricks 年化收入超 **70 亿美元**，同比增长 **80%**；Lakehouse 年化收入超 **15 亿美元**，增速超 **100%**；2025 年收购 Neon 后推出的 Lakebase 上线约一年即破 **1 亿美元**年化收入。如今智能体查询已多于人类，每天智能体创建的数据库超 **1700 万**个。CEO Ali Ghodsi 认为 Lakebase 长期市场或大于现有数据库市场。\n\n**技术路线**：Spark（迭代负载最高提速 **10 倍**）→ Lakehouse（2020 年合并数据湖与仓库）→ Lakebase（存算分离，PB 级库可秒级分支，便于智能体试验）→ 智能体。\n\n**智能体的系统记录（SORA）**：Ghodsi 称\"AI 没有智能问题，只有上下文问题\"，并宣称 AGI 已至。METR 数据显示智能体可独立完成的任务时长约每 **7 个月**翻倍，但多数企业仍不信任 AI 更新 Salesforce 记录。Databricks 回答四个问题：何为真（Lakehouse/Lakebase）、含义为何（Genie Ontology + OntoRank，使答案准确率从约 **50%** 升至 **84.5%**）、何被允许（Unity Gateway 为智能体分配身份、预算与护栏）、是否奏效（自定义评测）。文章视之为继 IBM、Oracle/SAP、Salesforce 等之后新一轮 SoR 之争。\n\n**企业形态**：借科斯交易成本与西蒙\"集中记忆、分散决策\"理论，作者认为 AI 将降低协调成本、压平金字塔层级。诺和诺德科学家用 Genie 直接查询数据；Rivian 无 SQL 经验的分析师为 CFO 搭建收入看板。Jack Dorsey 主张 Block\"从层级到智能\"；Ghodsi 则认为仍需管理者，只是\"信息路由者\"减少。\n\n**第二次管理革命**：伯纳姆 **85** 年前描述的职业经理人垄断正在瓦解，结局是\"人人都是管理者\"——规划、委派、审核智能体工作，工程师已率先转型。\n\n**投资视角**：Databricks 作为智能体时代数据底座的定位被强化，增长亮眼，但 a16z 叙事偏乐观。"
+    }
+  ]
+}
