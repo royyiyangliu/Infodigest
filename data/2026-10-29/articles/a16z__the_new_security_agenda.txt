@@ -1,0 +1,148 @@
+Source  : a16z
+Title   : The New Security Agenda
+Date    : 2026-10-28 16:00 UTC
+Link    : https://www.a16z.news/p/the-new-security-agenda
+────────────────────────────────────────────────────────────
+
+a16z General Partner
+has a new essay out today on the four philosophies that shape how investors evaluate deals. You should read it! You can find it
+here
+.
+For years, the industry prepared for quantum computing to rewrite the rules of cybersecurity.
+Then AI got there first.
+This summer, OpenAI’s agents broke out of a cybersecurity evaluation and breached Hugging Face’s production systems. They exploited vulnerabilities, used stolen credentials, and worked their way into another company’s infrastructure, all to get the answers to their tests.
+OpenAI’s incident report
+describes how the models chained together the steps to get there.
+This was just a preview. Since then, AI has helped uncover weaknesses in software that much of the internet depends on. Just last week, companies were scrambling to patch
+critical flaws in PHP
+, which powers roughly 70% of websites. The flaws had been sitting there for more than a decade before researchers working through
+OpenAI’s Patch the Planet initiative
+helped uncover them. That same day,
+eMudhra
+, a certificate authority trusted by every major browser, was found to have used encryption keys so weak that one of them was just the number 4.
+Mistakes like that have always existed, but models are getting better at finding weaknesses and figuring out how to exploit them. The progress is visible in the
+AI Security Institute’s evaluations
+, where newer models can complete increasingly complex cyber tasks.
+More serious vulnerabilities are also being
+reported
+. With the growing volume confronting companies, security teams have to determine which weaknesses pose the greatest risk to their business and get them fixed before someone exploits them.
+Meanwhile, the environment they’re protecting keeps growing. Employees are shipping applications they couldn’t have built a year ago. Agents are getting access to company documents, source code, and production systems. Every new application and connection gives security another thing to understand and protect.
+That helps explain why we’ve seen the market caps of cybersecurity platforms like
+Palo Alto Networks
+and
+CrowdStrike
+take off this year.
+There is more to secure.
+And enterprise budgets are following.
+To understand how security leaders are responding to these pressures, we surveyed 100 CISOs at companies with more than 1,000 employees about their priorities, budgets, and buying plans for 2027.
+Unsurprisingly, a large majority (87%) expect cybersecurity spending to increase, driven primarily by AI-enabled threats and the expanding attack surface created by their own AI deployments.
+Most of the additional spending is headed for tools. What stands out, though, is that it isn’t coming at the expense of people. Despite AI handling more of the work, nearly half expect security headcount to increase in 2027, another half expect it to stay flat, and only 4% expect to cut.
+Why? The ambition is to cover more ground: investigate alerts that might otherwise wait, test more applications, and close vulnerabilities sooner.
+CISOs are already running pilots, setting aside budget, and deciding which products they trust to put into production. Many of those buying decisions will play out over the next twelve months. And the priorities look quite different from a year ago…
+AI Rewrites the Priority List
+A year is a long time in security right now. When we asked leaders to recall their 2026 priorities, exposure and vulnerability management and SIEM topped the list. For 2027, all seven of the most-selected initiatives involve AI.
+What becomes P0 varies by organization. SOC automation gets the most first-place votes, while other teams put offensive security, remediation, or securing their own AI deployments first. Where buyers start depends on where the pressure is greatest, but there is broad agreement that AI capabilities are core to their security stack.
+The movement from recalled 2026 priorities shows how quickly the agenda is changing. Internal AI agent security, SOC automation, and offensive security make the largest gains. Code security, remediation, and AI governance follow closely.
+Two jobs are driving the shift:
+Enterprises need to secure the AI their employees and customers are already using.
+They also want to put AI to work inside security, helping teams investigate attacks, test systems, and fix what they find.
+The Next Buying Window Is Already Open
+While interest is high, most enterprises have yet to put these capabilities into production. Only 18% report production use of AI SOC tools, and 13% report production use of either AI offensive security or AI exposure and vulnerability remediation.
+Many are already piloting, however, or expect to reach production within the next year. Code security and email defense are further along, but even there, production adoption remains far from universal.
+The purchase plans are more immediate. 45% plan a new purchase or upgrade for internal AI agent security within twelve months, followed by offensive security at 42% and AI usage and governance at 38%.
+Buyers are making decisions as the products themselves keep changing. Some are expanding an initial deployment, while others are comparing vendors for capabilities they’ve never bought before. Across categories, the next year will bring a wave of evaluation and purchasing.
+Here is where CISOs told us the market is heading, and where we see opportunities.
+Offensive Security Becomes a Continuous Capability
+Earlier this month, we
+partnered with Kevin Mandia and led Armadin’s Series B
+because we believe it’s critical for defenders to leverage the same speed and scale that AI is giving attackers.
+Armadin
+uses autonomous agents to find exploitable paths through enterprise systems and help security teams close them.
+That speed matters because the environment doesn’t stand still. A team can spend weeks working through its pentest findings while developers keep shipping features, employees connect new services, and permissions change. By the time those issues are fixed, there may already be another set of weaknesses to investigate.
+AI makes that gap more consequential.
+Bain estimates
+that it can compress a typical attack sequence from roughly four weeks to about eighteen hours, leaving much less time to find an exposure and get it fixed.
+Security leaders want to test more often. 83% rate more frequent security posture testing as important, including 54% who call it very important.
+“With all the new AI threats, we need to find things before others do.” - CISO at a Global Manufacturer
+Human pentesters bring expertise that companies still need, but there are only so many applications and systems they can cover. One security team described keeping its testing budget intact and using AI to cover more applications and infrastructure.
+Buyers also expect testing to become much more frequent. Today, 18% say most of their offensive testing runs continuously against production assets; 52% expect it to within a year. Looking five years out, 44% expect testing to be embedded in CI/CD, triggered by code or infrastructure changes.
+That brings security testing into the process of building and maintaining software. A release can trigger a new test, and a fix can be checked as soon as it is deployed. Teams can check for new weaknesses as they ship, rather than waiting until the next scheduled assessment to find out what changed.
+Finding Is Great, but Fixing Is Key
+Finding a vulnerability can be the fast part. Getting it fixed means finding the right owner, working out what needs to change, and getting that change tested and deployed. For a team already sitting on a backlog, faster discovery can leave it with even more work to finish.
+“With a lot of these AI tools, you’re able to find vulnerabilities faster, but you’re not able to patch faster.” - Fintech CISO
+A validated attack path helps teams prioritize that work by showing what an attacker can actually reach and which changes would stop the attack. Buyers also want help making those changes and checking that they worked. In our survey, 70% want to retest and verify that vulnerabilities have been fixed, 67% want to prioritize remediation using validated exploitability, and 57% want fixes or remediation tickets generated automatically.
+An executive at a large cybersecurity platform described the opportunity as building “a fix it with the find it.” That means following a finding through to a change the team can deploy, then rerunning the attack to make sure the exposure is closed. The team gets help resolving the issue and evidence that the fix actually worked.
+The SOC Gets More Capacity, One Action at a Time
+As attacks move faster, security teams need to investigate and respond faster. Their ability to keep up depends on a limited resource: analyst time. To work through an alert, an analyst still has to pull evidence from several systems, reconstruct what happened, and determine whether there is a real threat. By the time they have the full picture, hours are gone, and the response has not started.
+AI SOC tools can take on more of that work. Agents can pull the relevant evidence and run routine checks, leaving analysts more time to investigate complex cases and work on decisions that need their judgment. For teams already stretched thin, that can mean getting to threats that would otherwise sit in the queue.
+How much authority to give those agents is a separate decision, though. Today, 36% of respondents are comfortable letting agents act autonomously on low-risk actions. Looking 12 months ahead, 60% expect to be comfortable with that level of autonomy. Only 7% expect to allow autonomous action in most cases.
+Gathering logs is different from changing a production system. Teams can delegate much of an investigation while retaining approval for a response that could disrupt the business.
+Cotool
+lets security teams turn their own investigation processes into agents that work across existing tools, triage alerts, and take action within permissions they define. Analysts can review the results, refine the process, and choose where approval is required. An investigation the team knows how to run can then happen repeatedly without someone having to work through every step by hand.
+Securing the AI Inside the Enterprise
+AI is already embedded in enterprise work. 92% report at least limited production use of employee generative AI tools, 83% report production use of coding assistants or agents, and 55% have MCP servers or other agent-to-application integrations in production.
+These systems can reach source code, retrieve company documents, and take actions across applications. A security leader at a restaurant software company asked the question many teams are confronting: “How do you really know what the agents are really doing?”
+The concerns are concrete. 47% include employees leaking sensitive data into AI tools among their biggest worries, and 46% cite agents exceeding their permissions or being compromised. Another 29% worry about prompt injection or data leakage through AI applications.
+For many enterprises, these questions are already slowing deployment. 63% of responses describe security slowing at least some AI adoption, including reviews, approval requirements, and restrictions on particular uses.
+Security teams need to know which tools and agents are running, who owns them, what they can access, and what they actually do. And the answers keep changing. Software approved as an ordinary application gains agentic capabilities with its next update, employees add extensions and integrations, and an agent’s permissions expand as it takes on more work.
+Keeping up is harder than it sounds. Agents run on employee devices with the user’s own permissions, so to the tools built for the last decade of endpoint security, an agent reading a file or calling an API looks exactly like the employee doing it. EDR, DLP and Zero Trust all break at that point.
+That’s why we
+invested in Neo
+.
+Neo
+’s founders helped build SentinelOne and are now rebuilding the endpoint layer for a world where agents act continuously and often outnumber the people they serve. Neo tracks the agents, extensions and MCP servers on employee devices and what each can access. It checks whether a person or an agent is behind an action and enforces policy in real time. An agent might be allowed to investigate a production issue but need approval to change the system.
+Human Risk Gets an AI Upgrade
+Even with the rise of increasingly sophisticated attacks, the human side of security remains a major risk (the password on a sticky note is, unfortunately, still with us).
+80% of organizations surveyed by SANS rank social engineering as their top human-related risk
+. Ultimately, simply convincing an employee to do something is often the easiest way in, and AI is making those requests far more convincing.
+A message can sound like a colleague. A voice can sound like a manager. A video can look like someone you know.
+When
+Brian Long
+from
+Adaptive Security
+came in to pitch, he showed us these two photos of Elon Musk and asked us to pick the real one.
+Most of us got it wrong.
+Impersonation now goes well beyond misspelled emails and suspicious text messages. Even a careful employee could be caught off guard by a request that appears to come from someone they know and trust.
+That moment reinforced how much training and simulations need to evolve. Adaptive runs AI-powered phishing and deepfake simulations across email, voice, and messaging so employees learn to recognize the attacks they will actually face, not the ones from five years ago.
+Not only do these impersonations look more real, but there are a lot more of them too. AI makes it easy to keep spinning up fake executive profiles, spoofed domains, and fraudulent sites. Security teams can no longer keep up with finding and taking each one down by hand, so they’re turning to tools like
+Doppel
+to automate that work.
+More Code, a Higher Bar for Security
+You can feel good about your own security and still inherit a serious problem from the software you depend on. The recent
+PHP vulnerabilities
+brought that home.
+Code security is hardly a new category. Companies have been buying SAST and SCA tools for years. But AI is helping developers ship more code, putting more and more pressure on the existing security tools companies have relied on for years.
+And that’s why nearly half of the CISOs we surveyed put AI code security among their top five priorities for 2027, up from about 25% in 2026 - that can mean upgrading to tools like
+Socket
+that actively scan dependency code themselves and/or using minimal container images that are continuously rebuilt from source with the latest security patches.
+“We have way more engineers developing than we have security people testing.” - CISO at a financial services company
+More Demand, but Platforms Get the First Call
+Even as priorities shift and new buying cycles open, existing platforms often get the first call.
+When asked where they would look first for AI security capabilities, 44% default to features from an existing security platform, compared to 21% who start with an AI-native security vendor. A company that already protects a buyer’s endpoints, holds its security data, and has been through procurement has a real head start.
+As one leader put it: “I trust CrowdStrike. It has the brand. It has the credibility.”
+But the first call is not always the last one. When we asked what would lead them to choose a startup over their incumbent, 47% said solving a capability gap their existing vendor cannot address. Better performance, faster innovation, pricing, and integration with the existing stack also factor in, but the primary door opener is a problem the platform simply does not solve.
+For many buyers, adopting a startup means adding a capability alongside the platform they already use, not replacing it. A new vendor earns a place by solving a priority problem their current tools leave unresolved and proving that it works in their environment.
+A Noisy Market Makes It Harder to Know What to Buy
+Across AI security categories, dozens of vendors are promising more autonomous security, faster investigations, and less manual work. Their descriptions can sound remarkably alike.
+Jake’s Black Hat 2026 vendor landscape
+laid it out well. Some categories have as many as 43 vendors - that’s a lot of companies for a buyer to have to sort through.
+Buyers need to understand how much work each product completes, how much follow-up their team still handles, which actions it can take safely, and what it costs to run. Getting those answers takes time from the same people the product is supposed to help.
+A CISO at a global apparel company described narrowing seven or eight vendors to three for hands-on testing. As he put it, “It is not humanly possible to do the proof of concept for all seven or eight.”
+And the comparison keeps changing. New vendors enter, products expand, and improvements in the underlying models can change what is possible during the evaluation itself. That makes committing harder.
+Another security leader explained his hesitation: “I do not want to keep buying point products over and over again ad hoc, just to solve each new problem every day.” He’d signed a short-term contract for one tool and was still evaluating others.
+That caution can coexist with real demand. Teams are requesting budget, running pilots, and putting initial products to work while deciding what to deploy more broadly. They want to address the problems in front of them without adding another product every time a new one appears.
+Looking Forward
+AI has rewritten the security agenda faster than any shift in recent memory. Budgets are rising, teams are growing, and CISOs are evaluating capabilities that looked very different just a year ago. They are already running pilots and putting AI to work across use cases like offensive security, SOC automation, and the protection of their own AI deployments.
+And they are looking beyond their existing platforms.
+That is where startups come in. In the newest AI categories, the incumbents have not caught up, and security leaders are bringing in whoever can solve the problem in front of them. Startups have been the ones to see what these changes require and build for them.
+We expect this next wave to produce important security companies, built around capabilities that enterprises are only beginning to need and will soon find difficult to operate without.
+Special thanks to
+,
+and
+for their contributions to this piece.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
