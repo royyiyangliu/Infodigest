@@ -1,0 +1,201 @@
+Source  : a16z
+Title   : AD 50 2026: Production is Deterrence
+Date    : 2026-10-29 14:00 UTC
+Link    : https://www.a16z.news/p/ad-50-2026-production-is-deterrence
+────────────────────────────────────────────────────────────
+
+We’re excited to present a16z American Dynamism’s annual list of 50 companies that are rebuilding and protecting America. To learn more, watch our companion podcasts
+here
+.
+Introduction
+America’s ability to prevent conflict depends on what it can build, how fast it can deliver and how long it can keep going. A new generation of defense companies is moving advanced systems from testing prototypes to full-scale production. Now the industrial base has to keep pace. That means factories that build at scale, suppliers that ship on time, and domestic sources for critical materials and energy.
+The pressure is real. Russia’s war in Ukraine has sent NATO allies racing to expand weapons production and rebuild stockpiles. The conflict with Iran has exposed gaps in U.S. munitions inventories. China’s rare earth export restrictions have rattled manufacturers around the world. Strength is measured by the ability to keep producing under pressure.
+There is no scaled defense industrial base without a strong industrial base. Founders must design for mass production from day one, weighing cost and manufacturability alongside performance. And bringing production onshore means rebuilding the full chain, from processing raw materials to machining precision components to assembling finished systems.
+That is the theme behind this year’s American Dynamism 50:
+Production is Deterrence.
+The list is organized around three connected pillars: Systems, Factories and Inputs.
+Systems deliver capability. Factories provide the plants, tools and software to build them at volume. Inputs supply the materials and power that keep the line moving.
+The payoff reaches well beyond defense. The same capacity that arms the country also creates skilled jobs, revitalizes communities and makes the supply chains behind energy, housing, and everyday goods more resilient.
+The companies on this list are rebuilding the industrial foundation that protects America and strengthens her allies.
+By Pillar
+Company Overviews
+Ambrosia Energy
+Austin, TX · Founded 2024 · Inputs
+Ambrosia Energy builds solar and battery plants for businesses that can’t wait for grid power, aiming to deliver electricity roughly a year after signing a contract at about $100 per megawatt-hour.
+Founders Ben Longmier and Sara Spangelo previously led Starlink Mobile after SpaceX acquired their company Swarm.
+Construction began in West Texas in January 2026. At their June launch, Ambrosia said completed sections were running and the next phase was funded, with 200 megawatts of solar designed to deliver 20 megawatts continuously.
+Amca
+El Segundo, CA · Founded 2024 · Factories
+Amca is an engineering and manufacturing company focused on re-engineering critical components for defense and aerospace supply chains. Founder and CEO Jai Malik saw an opportunity to uplevel existing aerospace and defense component suppliers, combining their  manufacturing capabilities and deep technical knowledge with a world-class, centralized engineering team. Amca improves existing operations and develops new or replacement components for customers facing limited supply, long lead times, or missing technical data. Today, Amca  offers both direct component sales and re-engineered parts to government buyers.
+Anduril Industries
+Costa Mesa, CA · Founded 2017 · Systems
+Anduril builds defense hardware around software, connecting their autonomous systems through the Lattice platform to support force protection and unmanned combat missions. In June 2026, the U.S. Air Force awarded Anduril development and production contracts for the Fury aircraft under the Collaborative Combat Aircraft program. The following month, the first Ohio-built Fury rolled off the production line at Arsenal-1, the company’s 5 million sq. ft. manufacturing campus near Columbus. Anduril is expanding manufacturing as government demand for their systems grows. In March, the Army awarded Anduril an enterprise contract that simplifies purchases of the company’s software and hardware, with a ceiling of $20 billion over 10 years.
+Apex
+Los Angeles, CA · Founded 2022 · Systems
+At Palantir, Ian Cinnamon kept hearing satellite customers complain about their spacecraft buses. He co-founded Apex
+to offer standard buses that handle power and propulsion for satellites of different sizes, allowing customers to concentrate on their payloads. Standardization also means Apex can mass-produce spacecraft, driving down cost as they drive up quality and earn flight heritage for their designs. At Factory One in Los Angeles, the company is targeting a peak capacity above 200 satellites a year for defense and commercial constellations.
+Arda
+San Francisco, CA · Founded 2025 · Factories
+Bob McGrew, OpenAI’s former chief research officer, co-founded Arda to close the gap between designing hardware and building it. Its software turns product designs into assembly plans and work instructions, then updates them as designs change. Anduril already uses Arda within ArsenalOS, its manufacturing software, meaning instructions that previously took hours might be completed in minutes. Arda launched publicly in October 2026 with $230 million in total funding. The company is extending its planning software into robotic assembly, aiming to make production lines adapt as quickly as the products they build.
+Astranis
+San Francisco, CA · Founded 2015 · Systems
+Astranis’s MicroGEO satellites stay fixed above a single spot on Earth by flying in geostationary orbit, giving telecom operators and governments a communications option solely dedicated to their needs . Co-founder and CEO John Gedmark founded the Commercial Spaceflight Federation in 2005, and teamed up with Ryan McLinko, who led both the electrical and mechanical engineering teams at Planet Labs, to start Astranis. Astranis builds their satellites at San Francisco’s Pier 70 and reported five in orbit and five in production in May 2026. They put the value of their contracted satellite services at more than $1 billion.
+Atomic Industries
+Detroit, MI · Founded 2021 · Factories
+Aaron Slodov co-founded Atomic Industries to automate one of manufacturing’s slowest steps: making the molds that turn product designs into repeatable parts. The Detroit company combines tooling design, physics simulation, and factory production in a single operation. Its software models plastic flow, heat, and structural behavior before a mold is cut, then uses production data to improve subsequent designs. Atomic supplies injection-molded plastic parts for automotive, consumer, aerospace, and defense applications, with mold making as the foundation for scaling domestic production.
+Base Power
+Austin, TX · Founded 2023 · Inputs
+Justin Lopas, who built rockets at SpaceX and led manufacturing at Anduril, co-founded Base Power with Zach Dell.
+The home battery company opened Factory 1 in Austin’s former newspaper printing plant in October 2025, then began producing their Texas-designed Base Core there in 2026. Base Core is available in Texas and Illinois, and the company plans another Austin factory. Base installs and operates the batteries to support the grid while keeping energy in reserve for household outages.
+Castelion
+Torrance, CA · Founded 2022 · Systems
+Castelion is developing hypersonic missiles intended to be affordable enough for the military to buy in large numbers.
+Co-founder Bryon Hargis previously helped define national-security satellite products at SpaceX.
+By August 2026, the company had more than $500 million in U.S. military contracts and had broken ground on Project Ranger, a planned 21-building production campus in Rio Rancho, New Mexico. Their Blackbeard program is moving through testing and procurement toward fielding in 2027.
+CHAOS Industries
+Los Angeles, CA · Founded 2022 · Systems
+CHAOS Industries is building a distributed radar system that detects and tracks threats using arrays of smaller antennas. Their products include VANQUISH, a distributed early-warning radar, and ASTRIA, a long-range radar built for high-precision tracking. Bo Marr, formerly of Epirus and Raytheon, co-founded CHAOS alongside Gavin Hood, who previously worked at Palantir and Britain’s Secret Intelligence Servicehe company is expanding manufacturing in Southern California and reported making 40 radars a month, with a target of 100 by late summer.
+Chariot Defense
+San Bruno, CA · Founded 2024 · Inputs
+Chariot Defense builds the power systems that keep drones, sensors, communications equipment, and electronic warfare tools running when vehicles and generators are switched off. Its Amphora platform combines energy storage, conversion, and software-controlled distribution in hardware designed to work with existing military vehicles, generators, and solar arrays. Founder Adam Warmoth previously led counter-drone programs at Anduril.
+Covenant
+Founded 2024 · Systems
+Founded by Michael Kaufman and Ofir Dayan, Covenant is developing Anthem, a long-range precision-strike missile designed for affordable mass production. Commercial components and local supply chains support the company’s U.S. manufacturing, and they use the same approach in Germany and Israel. By Covenant’s September 2026 public launch, Anthem had completed more than 200 flight tests, including a live-fire demonstration near Tan-Tan, Morocco, on August 6. In September, Covenant opened a 105,000-square-foot factory in Dallas to work alongside their German and Israeli facilities. The company plans to use these plants to supply long-range strike weapons in the quantities needed for sustained deterrence. Serial production in Dallas is scheduled to begin in early 2027, with a target of 5,000 missiles a year once production ramps up.
+CX2
+El Segundo, CA · Founded 2024 · Systems
+CX2 builds electronic warfare systems that help military units locate and disrupt hostile radio signals, including those used by drones and jammers. Its co-founders include former Army helicopter pilot Porter Smith, Epirus founder Nathan Mintz, and Lee Thompson, who led radio-frequency engineering at SpaceX. The company develops airborne platforms and payloads that integrate with existing military sensors and command systems. In 2026, CX2 moved into a 30,000-square-foot headquarters and manufacturing facility in El Segundo, expanding space for engineering, testing, and production.
+Diode
+New York, NY · Founded 2024 · Factories
+Davide Asnaghi co-founded Diode after working in Apple’s Special Projects Group and studying electronics manufacturing in Hong Kong and Shenzhen.
+The company helps engineers get circuit boards built and delivered with fewer supplier handoffs, starting with schematics written as code. Engineers can export their designs into established engineering tools and check manufacturing requirements before the boards are built. Diode says their tools help customers including Saronic and Physical Intelligence move faster between revisions and produce more designs per engineer.
+Forterra
+Clarksburg, MD · Founded 2002 · Systems
+Forterra builds unmanned ground vehicles that move supplies and evacuate wounded soldiers along routes that would otherwise expose drivers to enemy fire. Under a U.S. government program, Forterra produced and delivered 105 Lancer vehicles to Ukraine in less than six months. By July 2026, the fleet had transported over 777,000 pounds and carried out 88 casualty-evacuation operations across more than 1,100 missions. In August, the U.S. Army selected Forterra for the Infantry Last Tactical Mile initiative, bringing Lancer’s AutoDrive autonomy platform and Vektor communications system to the program. The effort focuses on rapidly deployable resupply and casualty evacuation.
+Endurance Energy
+Seattle, WA · Founded 2025 · Inputs
+Andrew Redd left SpaceX to found Endurance Energy, which develops modular generators that turn heat beneath the ocean floor into electricity for coastal grids and industrial sites. In summer 2026, the company expanded into a 25,000-square-foot Seattle facility for research and manufacturing. In September 2026, Endurance deployed its Adélie prototype at Axial Seamount off Oregon, using a natural hydrothermal vent to reportedly generate more electricity than it consumed. Endurance is developing a two-megawatt commercial generator and a project in Tonga targeting first power in 2027.
+Foundry Robotics
+San Francisco Bay Area, CA · Founded 2025 · Factories
+Foundry Robotics is building a manufacturing operation around flexible robotic cells that assemble complex hardware. Its focus spans defense and commercial robotics, battery packs, and mechanical subassemblies, with the aim of moving products from prototype to production without building a dedicated factory for each design. Founder Adarsh Kulkarni previously led robotics at Scale AI. Foundry combines manufacturing engineers, robot hardware, and AI models on the assembly floor, collecting data from each task to improve subsequent builds. In October 2026, it announced that Avea Robotics was joining the company, adding technology that lets human operators intervene when robots encounter unfamiliar situations.
+General Matter
+El Segundo, CA · Founded 2024 · Inputs
+General Matter is developing domestic uranium enrichment capacity to supply America’s next generation of nuclear reactors. Their focus includes high-assay low-enriched uranium, or HALEU, a fuel that remains in limited domestic supply even though many advanced reactors need it. Founder Scott Nolan, a former SpaceX engineer and Founders Fund investor, spent a year searching for a company addressing America’s nuclear fuel gap before starting General Matter. In January 2026, the Department of Energy awarded General Matter $900 million in milestone-based funding to develop domestic HALEU enrichment capacity over ten years. Site preparation is underway at the former Paducah Gaseous Diffusion Plant in Kentucky, where the company plans to establish a new enrichment facility.
+Generalist
+San Mateo, CA · Founded 2024 · Factories
+Generalist builds AI models that help robots learn physical tasks from demonstrations, with an initial focus on dexterous manipulation. Its team brings experience from Google DeepMind, Boston Dynamics, and OpenAI. In August 2026, the company introduced GEN-1.5, showing robots learning simple tasks from a single brief demonstration and adapting to unfamiliar objects and tools. The demonstrations remain focused on short tasks, but they point toward a different way to automate factories: teach a robot what to do without writing a new program for every product change. Generalist is expanding access to the model as it works toward broader use.
+Hadrian
+Torrance, CA · Founded 2021 · Factories
+Hadrian builds highly automated factories to expand domestic production of critical programs for aerospace and defense. From components manufacturing, to in-house production lines, to dedicated factories, Hadrian’s flexible manufacturing platform ensures customers’ capacity needs are met. Hadrian’s manufacturing is powered by its Opus software, which automates key manufacturing and inspection tasks, enabling its technicians to train faster and increase throughput. In January 2026, Hadrian brought Factory 3 in Mesa, Arizona, online less than six months after signing the lease. The company now has four facilities spanning nearly 3 million square feet. Hadrian plans to expand production for U.S. defense programs with factories and production lines for munitions and autonomous systems.
+Helsing
+Munich, Germany · Founded 2021 · Systems
+Helsing builds autonomous defense systems and the AI software that enables them to operate, from strike drones to aircraft and underwater vehicles. Its HX-2 drone is designed for mass production, with software taking on functions that would otherwise require more hardware and assembly steps. The company’s Resilience Factories distribute manufacturing across allied countries, using local suppliers and workforces to build capacity close to customers. Helsing has deployed thousands of HX-2 drones to Ukraine. Its first Resilience Factory in southern Germany has initial capacity for more than 1,000 drones a month. A planned West Virginia factory would extend that production network to the U.S., with capacity for more than 2,000 HX-2s a month once fully operational.
+Hermeus
+Los Angeles, CA · Founded 2018 · Systems
+AJ Piplica helped develop the Air Force’s X-60A hypersonic test vehicle before co-founding Hermeus in 2018. The company builds uncrewed high-speed aircraft through successive prototypes, using each flight to improve the next design. In May, Quarterhorse Mk 2.1 reached Mach 1.21 on its third test flight, less than a year after the first Quarterhorse aircraft flew. In September, Pratt & Whitney licensed Hermeus to manufacture F100-PW-229 engines, expanding its planned role from aircraft development into domestic engine production.
+Heron Power
+Scotts Valley, CA · Founded 2024 · Inputs
+Heron Power’s five-megawatt Heron Link uses solid-state electronics to connect large power users and energy projects to the grid, combining functions normally handled by transformers and other equipment.
+Founder Drew Baglino formed Tesla’s energy engineering organization in 2014 and oversaw Megapack’s launch and production ramp.
+Heron plans to invest over $100 million in Factory One in Morgan Hill, California, with mass production targeted for late 2027 and a goal of up to 10,000 units a year.
+Impulse Space
+Redondo Beach, CA · Founded 2021 · Systems
+Tom Mueller led propulsion development at SpaceX from its founding through 2020, working on the engines that powered Falcon rockets and Dragon spacecraft. He founded Impulse Space
+in 2021, which builds vehicles to transfer spacecraft from orbit to orbitImpulse makes their spacecraft in Redondo Beach and propulsion components in Colorado. Helios is still in development for higher-energy transfers, with a first mission targeted for 2027, while Mira has already flown multiple maneuvering and deployment missions.
+K2 Space
+Torrance, CA · Founded 2022 · Systems
+Large satellites become more attractive as launch costs fall, and K2 Space builds them with high power and payload capacity for communications and defense.
+Co-founder Neel Kunjur previously helped develop and integrate Dragon’s avionics at SpaceX, and teamed up with his brother Karan to found K2.
+The comany makes many of their components in-house at a Torrance factory designed to produce up to 100 satellites a year. Their first spacecraft, Gravitas, reached orbit in March 2026.
+Mach Industries
+Huntington Beach, CA · Founded 2023 · Systems
+Ethan Thornton was prototyping defense hardware in his garage at 16, before his work at MIT drew Lincoln Laboratory’s attention. Mach Industries develops unmanned strike aircraft, with propulsion developed in-house. Their Forge manufacturing network is designed to produce Mach’s weapons, including their munitions and counter-UAS systems, along with partners’ systems. The factories can retool as designs and requirements evolve. Mach expects to begin production on at least three programs in 2026. They’re expanding Forge and their Mach Propulsion division while developing second-generation systems so they can make more weapons and critical components for U.S. and allied forces.
+Mariana Minerals
+San Francisco, CA · Founded 2024 · Inputs
+Turner Caldwell spent more than nine years at Tesla, moving from battery manufacturing to leading their minerals and metals programs. He co-founded Mariana Minerals
+, which bought Copper One, a copper mine and refinery in southeastern Utah, in late 2025. Mariana is automating mine and refining operations using their MarianaOS software that spans the entire lifecycle of mining development and operations. Funding raised in August 2026 supports the work at Copper One and the development of Lithium One in East Texas.
+Mind Robotics
+Palo Alto, CA · Founded 2025 · Factories
+Founded by Rivian’s RJ Scaringe in November 2025, Mind Robotics is developing AI models and hardware for robots to handle jobs fixed equipment still struggles with. Within months, they had raised more than $1 billion, including a May 2026 round to fund more deployments. Rivian’s factories give Mind a place to test their technology as the company works toward serving manufacturers outside the auto industry.
+Neros Technologies
+Torrance, CA · Founded 2023 · Systems
+Neros co-founders Soren Monroe-Anderson and Olaf Hichwa met as teenage drone racers, each already designing and selling drone components.
+Their company now supplies Archer first-person-view drones to U.S. and allied forces through a supply chain Neros says doesn’t depend on China. Archer AI and Bandit add autonomous strike and interception, with both planned for combat deployment before the end of 2026. Neros raised $250 million in August 2026 and is targeting production of one million drones a year in Torrance by 2028.
+Nominal
+Los Angeles, CA · Founded 2022 · Factories
+Nominal develops software that gives hardware manufacturers a shared view of system performance from prototype development through production. Engineers can use the platform to combine sensor data with test results and automate workflows for testing systems and validating performance as production scales. Co-founder Cameron McCord experienced those testing challenges while working at Anduril. Nominal serves customers like Anduril, HII and AeroVironment. In April 2026, the Air Force Test Center awarded Nominal a contract with a ceiling of $53 million to modernize the center’s test data infrastructure.
+Northwood
+Torrance, CA · Founded 2023 · Systems
+Northwood aims to spare satellite operators the difficulties of either renting shared space on highly-congested ground stations, or of building ground stations of their own, by offering services from their communications network. Led by MIT and Harvard-trained CEO and co-founder Bridgit Mendler, Northwood’s antennas and software already operate across multiple continents. The company opened a new headquarters and factory in Torrance in August 2026 and is preparing to move production there in October, with three dedicated lines intended to make hundreds of antennas a year.
+Peak Energy
+Burlingame, CA · Founded 2023 · Inputs
+After five years developing battery manufacturing technology at Northvolt, Landon Mossburg co-founded Peak Energy.
+Their grid batteries use abundant sodium and are designed to lower operating costs by reducing the need for cooling. In July 2026, Peak chose a Sacramento factory designed to produce up to four gigawatt-hours a year, with first shipments targeted for early 2027. The company says customer commitments already exceed six gigawatt-hours.
+Perennial Autonomy
+California · Founded 2023 · Systems
+Perennial Autonomy is building battle-tested drone systems. After successful deployments in support of Operation EPIC FURY and U.S. Central Command, Joint Interagency Task Force 401 awarded the Eric Schmidt-backed company a three-year procurement contract with a ceiling of $500 million. The contract will fund additional procurements of Perennial’s Merops interceptors, Bumblebee ISR quadcopters, and Hornet mid-range strike drones.
+Podium Automation
+Brooklyn, NY · Founded 2024 · Factories
+Jamie Niu and Jacob Buser co-founded Podium Automation to make industrial control panel production faster and more reliable. Podium combines its own design software with CNC machining and automated wire processing, then assembles and tests the finished panels in Brooklyn. The approach reduces manual work and catches design problems before fabrication, helping customers bring new production equipment online without waiting on a traditional panel shop. The company supplies UL 508A-listed panels for manufacturing, energy, aerospace, and warehouse automation.
+Prometheus
+San Francisco, CA · Founded 2025 · Factories
+Prometheus is developing AI models for engineering and manufacturing. Co-founded by Jeff Bezos and Vik Bajaj, the company trains these models on specialized data to work with the geometry and physics of complex hardware, from jet engines to semiconductors. Its tools are intended to help engineers explore designs, simulate performance, and refine products before committing to physical prototypes and tooling. Prometheus aims to shorten this development cycle, helping manufacturers resolve engineering problems earlier and move new products into production faster.
+Radiant
+El Segundo, CA · Founded 2020 · Inputs
+Doug Bernauer began exploring nuclear power at SpaceX while working out how to supply energy to a Mars colony. He co-founded Radiant
+, which is developing Kaleidos, a transportable reactor, built in a factory, and designed to supply one megawatt of electricity. The reactors are designed with military installations and remote customers in mind, offering an alternative to diesel generators that need regular fuel deliveries. The company sent their first demonstration unit to Idaho National Laboratory in August 2026 and plans an Oak Ridge factory designed for up to 50 units a year. An Army Janus agreement worth up to $750 million covers the development and deployment of 15 units.
+Redwood Materials
+Carson City, NV · Founded 2017 · Inputs
+Redwood Materials founder JB Straubel co-founded Tesla, where he served as chief technology officer from 2005 to 2019.
+Redwood recovers materials for new batteries from used cells and manufacturing scrap in Nevada and at their newer South Carolina campus. EV batteries that still have useful life go into Redwood Energy’s stationary storage business, including a 63-megawatt-hour project with Crusoe.
+Relativity Space
+Long Beach, CA · Founded 2015 · Systems
+Relativity launched Terran 1 in 2023, and brought on new CEO Eric Schmidt in 2025. Since, they have accelerated their technical development of Terran R, a new, larger reusable rocket that is expected to debut in late 2026. All 13 engines for the first flight had passed acceptance testing by June 2026, and Relativity has reported more than $3 billion in launch agreements.
+Saronic Technologies
+Austin, TX · Founded 2022 · Systems
+Dino Mavrookas served 11 years as a Navy SEAL and completed eight combat tours before starting Saronic. The company builds autonomous surface vessels and is expanding shipbuilding capacity in the U.S. to produce more of them. Their Echelon software gives operators one interface to plan missions and control a single vessel or an entire fleet. The U.S. Navy awarded Saronic a $392 million production contract late last year. In June 2026, the Navy used the company’s 24-foot autonomous Corsair boat to rescue two downed Apache helicopter pilots near the Strait of Hormuz. In July, Saronic chose Brownsville, Texas, for Port Alpha, a planned shipyard representing more than $3 billion in investment. The shipyard is targeted to open in 2028 and would add to the company’s existing capacity in Franklin, Louisiana.
+SendCutSend
+Reno, NV · Founded 2018 · Factories
+Jim Belosic founded SendCutSend to get custom parts for his garage projects without waiting weeks or paying hundreds of dollars apiece. Drawing on his software background
+, he built a service where customers upload a design for an instant quote, dramatically improving the legacy email-based quoting process. SendCutSend grew largely on their own cash after an early friends-and-family round, then took their first institutional funding in May 2026. That month, they committed more than $250 million to facilities as part of a five-year, $1 billion investment in U.S. manufacturing, including not only the laser cutting business with which SendCutSend started, but also machining, bending and forming, welding, and more.
+Senra Systems
+Redondo Beach, CA · Founded 2023 · Factories
+Senra Systems makes the wire harnesses that carry power and signals through aerospace and defense systems. Their Amp software brings engineering and production work into one system that also manages the supply chain, helping teams assemble harnesses efficiently and consistently. Co-founder Jordan Black began his manufacturing career repairing roller coasters at the Santa Monica Pier before joining SpaceX, where he developed wire-harness manufacturing processes. In July 2026, Senra opened their second factory in Cypress, California, adding about 80,000 square feet and expanding their manufacturing footprint fivefold. They plan to use the factory to increase monthly output from 1,000 harnesses to 10,000 by 2027.
+Shield AI
+San Diego, CA · Founded 2015 · Systems
+During his service as a Navy SEAL, Brandon Tseng saw situations where autonomous systems could have helped protect troops. He co-founded Shield AI
+, whose Hivemind software lets aircraft fly autonomously when GPS and communications are unavailable. Hivemind powers the V-BAT, which is built in Frisco, Texas, and has already been fielded. The software is also intended for the X-BAT combat aircraft still in development, while its role in the Air Force’s Collaborative Combat Aircraft effort extends beyond Shield’s own airframes.
+Skydio
+San Mateo, CA · Founded 2014 · Systems
+Skydio builds autonomous drones for defense, infrastructure operators, and public safety customers. Their aircraft and docking systems are produced in Hayward, California. Co-founders Adam Bry and Abe Bachrach worked on autonomous flight at MIT and helped start Google’s Project Wing before founding Skydio. Skydio announced a five-year, $3.5 billion U.S. investment plan in April 2026, to expand research and development, domestic supply chains, and manufacturing capacity through its SkyForge program. SkyForge includes a planned manufacturing facility five times the size of Skydio’s existing space. Skydio had already shipped 60,000 drones to over 3,800 customers when they announced the plan.
+Specter
+San Francisco, CA · Founded 2025 · Systems
+Specter was started by Philip Clark and Xerxes Libsch to unleash AI into the physical world. Xerxes spent 6 years at Anduril as Chief Architect, and Philip is also a partner at Thrive Capital. Specter builds vision AI for the physical world, utilizing mesh sensing, ruggedized edge compute and custom multi-modal AI models. Their AI model can understand physical environments in real-time, drastically increasing the efficiency and automation of physical industry across numerous F500 customers. Specter is deploying this technology to solve some of the hardest operational problems at the heart of physical industry today - from manufacturing optimization, critical infrastructure security to logistics and supply chain tracking.
+Stoke Space
+Kent, WA · Founded 2019 · Systems
+Co-founded by former Blue Origin rocket engineer Andy Lapsa
+, Stoke Space is developing a new launch vehicle, Nova, which is designed to lower launch costs by recovering both stages and flying them again. They completed a first-stage proto-qualification campaign in 2026 and are preparing Launch Complex 14 at Cape Canaveral for a first launch targeted for late 2026.
+Ulysses
+San Francisco, CA · Founded 2023 · Systems
+Ulysses’ founders first built drones in Ireland, then turned to underwater robots for seagrass restoration
+, work the company continues with partners such as the Great Barrier Reef Foundation. Ulysses now builds Mako underwater vehicles for inspection and defense work, with the U.S. Navy and Office of Naval Research among their customers and partners. The company makes key components in San Francisco and builds the Leviathan surface vessel and Kraken system to launch and recover their vehicles. Funding raised in April 2026 is intended to put larger fleets of those robots in the water.
+Unlimited Industries
+San Francisco, CA · Founded 2025 · Factories
+Alex Modon co-founded Unlimited Industries after watching his first major industrial construction project in Texas stretch from months into years.
+The company uses software to generate and compare designs for power and data infrastructure, then takes the projects through engineering and construction. At their December 2025 launch, Unlimited said they already had active projects and could cut design and estimating work from months to days.
+Valar Atomics
+El Segundo, CA · Founded 2023 · Inputs
+After building an auto-repair business and a software startup, Isaiah Taylor founded Valar Atomics
+, which is developing gas-cooled nuclear reactors alongside the processes to manufacture them.  Under the DOE Reactor Pilot Program, their Ward 250 completed a zero-power criticality test at Utah’s San Rafael Energy Lab in June 2026, sustaining a nuclear chain reaction.
+Varda
+El Segundo, CA · Founded 2021 · Factories
+Will Bruey worked on SpaceX’s Dragon spacecraft before co-founding Varda with Delian Asparouhov. Varda develops orbital factories to process pharmaceuticals in microgravity and return them to Earth. Its reentry capsules also carry government experiments that collect data during hypersonic flight. The company builds its spacecraft and heat shields in-house in El Segundo. In March 2026, Varda leased a 205,000-square-foot industrial and office campus to expand spacecraft and capsule production, alongside a separate biopharma development facility. On October 20, 2026, it launched W-7 to study cancer-drug crystallization in orbit, its third launch that month.
+Westmag
+South San Francisco, CA · Founded 2024 · Factories
+David Hansen learned how the motor supply chain worked while sourcing components from China for Weel’s self-balancing e-bikes. He co-founded Westmag
+in 2024, which manufactures and tests drone motors and robot actuators at Factory 01 in South San Francisco while working to control upstream parts and materials. At their June 2026 public launch, Westmag said production was growing to meet commitments for hundreds of thousands of units, with a target of more than 30 million a year before 2030.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
