@@ -1,0 +1,109 @@
+Source  : a16z
+Title   : Charts of the Week: Job FUD Fades
+Date    : 2026-10-30 14:09 UTC
+Link    : https://www.a16z.news/p/charts-of-the-week-job-fud-fades
+────────────────────────────────────────────────────────────
+
+Job FUD Fades
+Microsoft made some headlines last week when it announced an employee buyout offer to 60,000 of its employees—roughly a quarter of its workforce—that would be worth something like ~$10B, if everyone said “sure.”
+The company didn’t explicitly blame AI for the offer—in fact, Microsoft’s CFO said the goal was to “offer employees agency,” and she expected a low uptake because internal opportunities remain strong. For the most part, no one else really tried to make it an “AI Is Taking All The Jobs” story either, and to the extent that AI played any role at all, the general speculation revolved around Microsoft’s Capex commitments, as the unspoken driver for cutting expenses.
+Maybe there’s something to that, and maybe not, but in the bigger scheme of things, it does appear that the
+AI Jobs Apocalypse FUD
+has faded somewhat from its fever pitch back in May:
+News reports on AI and Job Loss have reverted to about where they were ~1 year ago, and explicit “AI-related” layoff announcements in August and September were the lowest of the year.
+That isn’t to say that AI isn’t changing the workforce, and that those changes are still likely in the early innings, but the breathless declarations of widespread AI substitution lacked the evidence then (as they do now), and it would seem as though the doomers have moved on to other things.
+The AI Job FUD Fade makes even more sense, when you consider the mounting evidence that AI (or something else) is causing a meaningful
+increase
+in demand for technical (and non-technical) roles:
+According to data from Indeed, job postings for SWEs, manufacturing, and especially engineering, continue their upward inflection from last year. Even HR roles, generally considered a signal for additional hiring, have finally returned to their prepandemic baseline.
+Zooming in a bit closer, the improving prospects for technical hires are even more pronounced, of late:
+Since October of last year, job postings for Engineers, SWEs, and Manufacturing are up ~30%, ~26% and ~13% respectively.
+It’s almost like the advent of AI has caused a surge in demand for both the people building the infrastructure that makes AI possible and the people putting AI to work. Imagine that.
+Elsewhere, because Charts likes to riff specifically
+on the boon to hard-hat jobs
+that has followed the historic surge in Capex, this is a pretty fun observation from Lightcast. It turns out that blowing things up is a fairly remunerative profession in most states, but especially North Carolina and New York:
+With a midpoint of ~$30/hr, that makes the median blaster ~20-25% better paid than the median worker.
+Here’s another fun-fact about blowing things up professionally.
+Unlike the broader universe of skilled trades, explosives workers are relatively young:
+~71% of boom-makers are aged 34 and below.
+Now, to be fair, this data shows a substantial amount of variation in median hourly pay for explosives and ordnance workers (even after adjusting for cost of living), which suggests that some skepticism is in order for the headline figures. It’s likely that composition and sample-size are doing some work here, both on the deflator (e.g., a statewide NY deflator would do a poor job capturing the variance in COL between NY’s metros and the areas of NY where the blasting likely takes place), and what it means to be an explosives worker (e.g., NC’s military munitions experts or CA’s special effects gurus v. the ammo-plant line workers in Iowa).
+Even so, if you’re young and hungry, it seems like it’s a good time to learn to code, learn to weld,
+and
+learn to make things explode.
+Not today, AI Jobs Apocalypse, not today.
+AI Referred, Shopper Approved
+Charts previously observed that while Agentic Shopping is still early,
+there’s some data that suggests humans are quite ready to let AI actually handle checkout
+. That isn’t to say that consumers aren’t increasingly using AI in the process of shopping, or that consumers are slowing their ecomm roll, more broadly.
+To the contrary, if anything, buying things online is only getting more and more popular.
+Take Visa, for example, the credit card rails giant isn’t a perfect proxy for ecomm, but it’s in the ballpark, and Visa just reported the
+largest full-year revenue bump in 15 years
+(excluding M&A and the pandemic recovery year):
+Visa generated ~$46B in revenue (on $15.7T in volume) in the past fiscal year, a nearly 15% yoy increase. That’s an awful lot of swipes and swipe-fees, for an already large and mature business.
+That’s what’s already happened, but in terms of what comes next, there too, data suggests that consumer appetite for ecomm is only growing. Bain’s consumer survey shows across the board increases in shopping intentions for ecomm’s biggest season: holiday shopping.
+More shoppers say they plan to shop Black Friday, Prime Day, and Cyber Monday, and only 10% said they’d avoid the ecomm bonanza entirely.
+The point is that ecomm is already a big deal, and that rather than plateauing, ecomm continues to capture a larger share of overall retail spending, and it shows no signs of slowing.
+OK, what’s that got to do with Agentic Shopping and AI? Well, perhaps nothing, but perhaps not.
+Recall that one thing consumers really like to use
+AI for is price comparison
+, which should mean that peak ecomm promotional season is an especially opportune time to shine. Likewise, AI appears increasingly popular in the discovery and deliberation part of the consumer journey, and there’s some evidence that “AI referred” shoppers are relatively high intention shoppers, arriving with their wallets out:
+According to data from Adobe, AI-referred ecomm traffic engages more, spends more time, views more pages, is more likely to convert (and less likely to bounce), and perhaps most importantly, has a ~50% revenue uplift as compared with non-AI-referred traffic.
+Those are some pretty solid early returns for AI-assisted shopping. Interestingly, Google itself called out the fact that AI summary searches were putting downward pressure on traditional search monetization. Google has seen the innovator’s dilemma, and it’s all-in.
+Elsewhere, there are other clues that AI is delivering ROI in the consumer journey. Meta knows a thing or two about serving ads, and rather remarkably, the average price per Meta ad (in the US and Canada) has grown 20%+ YoY for two consecutive quarters now:
+Average CPMs for Meta had mostly stabilized for most of 2024 and 2025 (seasonal spikes notwithstanding), so the recent upward inflection—driven apparently by Feed and Stories, primarily—is a real step-change, and not some longer-running theme. Meta has certainly alluded to using AI to improve its internal engines, so perhaps that’s part of the story here, but either way, it’s a notable jump in ad monetization.
+In the bigger scheme of things, whether AI Shopping Agents are inbound or not, it seems pretty clear that AI is definitely having an impact on consumer behavior, as well as an impact up and down the stack for the operators (and their economics) who make ecomm possible. It’s a boon for payments and discovery (not to mention the etailers themselves), but also a rapidly changing landscape, with potentially very different effects on incumbents and challengers, alike.
+Rack Spread Cometh (But Why)?
+On the subject of AI ROI and the implications for the biggest spenders at the heart of the buildout, Charts wants to take a moment to reflect on some of the data that’s not
+behind
+all the FUD, necessarily, but certainly seems to play a prominent role.
+And yes, in case you haven’t noticed, FUD is definitely in the air, although unlike in the spring, when the concern was that AI was so good it was going to take all the jobs, now the concern is that AI is not good enough to make all the Capex worthwhile (on a timeline commensurate with the spend). If AI does not generate sufficiently meaningful returns, then the Capex will slow, the chipmakers will fade, and the “bubble will burst,” or so the story goes. Charts offers no view whatsoever on the relative merits of either the bears or the bulls, but is here to simply observe that, for the moment, the bears preside.
+For example, the cost of insuring the debt behind the buildout (and the chipmakers) has soared since the middle of the summer:
+Generally speaking, when the cost of insuring debt rises that means that the perceived likelihood of default is also rising. Naturally, the perceived likelihood of default rises, when concerns over payback for the underlying investment are also rising.
+Now, to be fair, this isn’t all AI FUD. The cost of debt generally has risen, and with all this fresh issuance, supply-demand dynamics come into play, as well. Default risk isn’t the only thing that can drive a premium on the cost of borrowing today, relative to tomorrow or yesterday, but in this case, it’s surely not helping.
+Here’s another striking example of the sentiment shift:
+Goldman’s basket of “AI Winners” has given back all of its relative gains v. Goldman’s basket of “AI At-Risk.” And once again, it’s a tale of two seasons: January to June, the AI Winners won big, but from July to October, the winners came crashing back down to earth, even more quickly than their stratospheric rise.
+OK, but the fact of FUD was not really the point.
+The point was to focus on one of the charts that appears to be playing a prominent role in the FUD narrative.
+The chart was recently dubbed the “Crunch Spread,” but as a16z’s Editor-at-Large
+has pointed out, the
+Rack
+Spread is a far better name (as you’ll soon see). There are a few different versions of the chart, but the gist of it is this:
+Token prices are falling, while GPU rental rates are rising.
+The
+Crunch
+Rack Spread is a reference to the
+Crack Spread
+—a well-known indicator in commodities-land that refers to the price difference between crude oil and its refined products. (You see now, why “Rack,” which refers both to server racks and sounds a lot more like “Crack,” is a far superior moniker to “Crunch.”)
+For oil, the Crack Spread is an indication of where the supply-demand imbalance sits: does it come from pulling the stuff out of the ground (and/or shipping it across the sea), or does it come from getting the downstream oil-products into end-user demand?
+When it comes to AI, the idea is that GPUs are like the crude oil, and tokens are like the downstream products (which makes the models the oil refiners, in this analogy). In this case, so the story goes, the Rack Spread (i.e., the difference in compute pricing v. token pricing) is indicating that the compute substrate is in relatively high demand, while the derivative token layer has a relative surplus.
+The implication is that this is bad news for the model-layer, such that tokens are increasingly a fungible commodity, and that’s also bad news for the compute-layer, because if tokens are a commodity, then why spend lots of money on compute to train the next best thing? That’s roughly the story, at least.
+Now, there are reasons why the Crack Spread analogy is inapt, not the least of which is that oil and its downstream products are volume-bound (and the end-demand for oil-products is relatively known): you cannot make more gasoline than the oil it comes from, and so the Crack Spread (which measures the price difference of an equivalent unit of volume) tells you the specific premium for taking a certain amount of oil and turning it into a certain amount of something else. It’s a mostly fixed limit on refiner margins, and you can’t really make it up on volume, especially when the aggregate demand for oil doesn’t move all that much. In other words, the Crack Spread is a solid indication of how the energy pie is carved up, as between the drillers and refiners.
+When it comes to GPUs and tokens, by contrast, there is no equivalent unit of measurement: there is no barrel of GPUs ready to be converted into an equivalent barrel of tokens. Token
+prices
+may fall, but token
+volumes
+can still increase, which means overall spending on tokens can also increase, and not only is that good for the models (where the upper limit on token demand is very much an upward moving target), it tells you very little about the balance of power in a (not-)fixed economic pie, let alone anyone’s margins in the final account.
+Be that as it may, it remains the case that there’s an eyeball correlation between the July-ish moment that the Rack Spread began rising to prominence (featuring the decline of token costs), and the moment that AI FUD in public markets began to spread. Whether or not the analogy to the Crack Spread is sound, the market seems to be deriving some bearish “AI Demand” signal from the fact of falling token prices, especially.
+But, here is the thing, and the actual point that Charts would like to make.
+First, even if you take these weighted-average price/token indexes at face-value, they still indicate that overall token spending is increasing. But more importantly, no one should take them at face-value—they are directionally interesting and useful for sure (and Charts has used them before, and will continue to do so), but they are
+all
+derived from small and biased samples that do not remotely reflect “ground truth” demand for token volume or token spend (as those vendors freely disclose).
+Whether it’s Ramp’s data, OpenRouter, Silicon Data, or Ornn, token volumes and token spending is derived from the small subset of users that expose those things to those vendors, which most large enterprises (who comprise the lion’s share of demand) do not! In fact, it’s pretty likely that the users who expose their spend and token usage to those vendors are precisely the ones who are most focused on managing their token spend, and routing to the lowest cost models. To repeat, the sample is both small and biased, and again to repeat, none of these sources claim otherwise—they are all perfectly transparent about they’re measuring.
+That doesn’t make their $/token data bad or useless, but it does mean that it says far less about actual token consumption and spending than people seem to think. (For various reasons that Charts will not get into here, GPU index pricing, by contrast, is a much stronger signal, even if there too, there are limitations.)
+Consider the following napkin math on “token spend”:
+If you take Ornn’s blended price per token and multiply it by OpenRouter’s data on token volume—again, napkin math, not a rigorous methodology—you get a ~160% increase in token spending since May. If you take Ramp’s token spend data, you also get a token spend increase, but it’s roughly 122%.
+Those are directionally similar numbers, but even
+within
+this biased universe (which likely has a fair amount of overlap), there is
+still
+a substantial amount of variance around this all-important proxy for intelligence demand. And if that is what Mr. Market is hanging his hat on, that’s a remarkable thing indeed.
+Here’s another example of how noisy AI spend data actually is. According to a recent survey from the Atlanta Fed, mean AI spend/employee has increased to over $1,000/employee:
+Ramp’s data, by contrast, points to a median (not a mean) $/employee of $15.70/month, or $188/year. Without knowing which data is more or less correct, suffice it to say that $188/year is a lot less than $1,000/year (even if, perhaps, the mean-median difference is doing a lot of the work).
+The reality is that actual token spending and consumption are relatively opaque, for better or for worse. No one actually knows the totality of AI token spend. AI companies do not report earnings, and there is no sufficiently large or representative panel of spending data to make a sound estimate.
+It makes sense that the rough proxies that we do have would rise in prominence—again, they are interesting and useful—but it makes less sense to treat them as some definitive indicator of which way the winds are actually blowing, let alone as the centerpiece for the FUD-case (or the permabull-case, either).
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
