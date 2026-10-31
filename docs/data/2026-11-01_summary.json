@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-01",
+  "generated_at": "2026-10-31T23:33:20.987831+00:00",
+  "stats": {
+    "tweets": 7,
+    "podcasts": 1,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Boris Cherny",
+      "handle": "bcherny",
+      "summary_zh": "Anthropic Claude Code 负责人 Boris Cherny（@bcherny）宣布，将对已验证的 Ultra 账户取消“5 小时用量上限”。这是对 Anthropic 订阅方案调整的官方确认，意味着最高档订阅用户的使用限制明显放宽。"
+    },
+    {
+      "author": "Alex Albert",
+      "handle": "alexalbert__",
+      "summary_zh": "Anthropic Claude Relations 负责人 Alex Albert（@alexalbert__）确认，原先的“Max 20x”档订阅已更名为“Ultra”，Ultra 订阅用户不再受 5 小时速率限制。他还附上了一份该订阅方案的简要演变历史和现状说明，显示 Anthropic 正在重塑高端订阅产品线。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI Codex 负责人 Thibault Sottiaux（@thsottiaux）在其连续发布系列的第 26 天宣布，移动端已支持在多个账户之间便捷切换，桌面端也即将上线。他还预告接下来两天将进行用量“重置”，暗示用户可借此获得额外额度。"
+    },
+    {
+      "author": "Josh Woodward",
+      "handle": "joshwoodward",
+      "summary_zh": "Google 副总裁、Gemini 应用负责人 Josh Woodward（@joshwoodward）表示，iPhone Duo 上周五发布，Gemini App 在首发当天即已上线并针对该设备做了优化，显示 Google 在苹果新硬件生态中抢占 AI 入口的速度。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic Claude Code 团队成员 Thariq（@trq212）提出与主流相悖的观点：解决经济悲观主义的办法是“更加 AGI-pilled”。他认为几乎所有人都不擅长预测更强的智能将如何真正体现在经济中，“AI 会很贵并让所有人失业”这种最简单的答案其实并不够 AGI 思维，不应让这种叙事自我实现；他相信对齐良好、能解释自身工作的 ASI 会带着人类一起前进，让每个个体效率最大化。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad（@amasad）密集发布三项进展：推出面向政府客户的“Replit for Government”；托管在 Replit 上的应用开启“autofix”后即成为“自我维护的软件”；并发布白皮书，阐述如何正确地为 AI agent 做沙箱隔离，以在最大化生产力的同时降低风险。这显示 Replit 正向政府市场和企业级 agent 安全扩展。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch（@rauchg）称“我们正处在人类的黄金时代”，并提出“每台桌面都有一个 agent”的愿景。他还表示其团队某个项目的改进速度“令人眼花缭乱”——变得更小、更快、更节省 token，团队在开源和闭源模型上持续做基准测试，并让模型自行优化自身性能。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "No Priors",
+      "title": "Taking on ServiceNow: Coding Agents the Rest of Us with Serval Co-Founder and CEO Jake Stauch",
+      "date": "2026-10-29 10:00 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/@NoPriorsPodcast",
+      "summary_zh": "No Priors 本期嘉宾为 Serval 联合创始人兼 CEO Jake Stauch（前 Verkada），主题是用代码生成 Agent 正面挑战 ServiceNow。\n\n**定位**：Serval 做企业服务管理与自动化，底层是 codegen agent。Jake 发现 IT 团队\"花钱最多、最讨厌\"的常是 ServiceNow：开发依赖顾问，落后需求 **6-12 个月**，且越来越贵。公司第一天就瞄准 ServiceNow，不走\"巨头上做一层\"或\"先做 SMB\"的常规路径，直攻大企业。核心判断：代码是表达自动化的最佳方式，拖拽式工作流对非技术用户太复杂、对技术用户又过度抽象；AI 让人人可写代码。创业时模型尚弱，押注\"编码是可验证领域、会持续爬坡\"，如今\"只要 API 存在几乎都能自动化\"。\n\n**护城河——\"Serval 就是护栏\"**：大企业审批与权限繁复，个人 Agent 能力受限。Serval 以管理员权限接入系统，配合确定性审批流、即时提权和审计日志（本身也是工单系统），并引入 dev/staging/prod 的 SDLC 流程。Jake 认为 Agent 越强，企业越会把员工权限收紧到最小权限，例外申请增多，掌握提权环节的 Serval 越不可或缺。另推出平台管理 Agent \"Catalyst\"，管理员用对话即可搭建自动化与审批策略。\n\n**GTM**：自上而下卖给 CIO，再扩展至 HR、财务、法务；派驻部署策略师与工程师，并设 ProServal 团队承接长尾需求；不做定制功能。标杆客户 **Fox Corporation** 全公司部署，牵头迁移的员工获评公司 MVP。\n\n**行业观点**：\n- **Token 支出**：CIO 正从\"token maxing\"回调、要求证明 ROI，但总支出仍将大幅上升；Serval 按运行的工作流数量而非 token 定价。\n- **SaaSpocalypse**：自建核心系统维护成本过高，ERP、HRIS、ITSM、CRM 不会消失，但会出现新一代在位者；被淘汰的是点状 SaaS 与中间件——企业用着数百个 SaaS，实际只需几十个。\n- **后台 Agent** 是企业软件的\"终极登月\"，但自主性带来无界安全风险，现阶段只能逐步审批扩充其工具集；未来个人与工作 Agent 将分离。\n\n**公司数据**：成立约 **2.5 年**，员工 **200 人**（1 月仅 **20 人**），招聘还将提速；无独立产品职能，多数工程师每天参加客户电话。"
+    }
+  ],
+  "articles": []
+}
