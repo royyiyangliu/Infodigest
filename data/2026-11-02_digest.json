@@ -1,0 +1,196 @@
+{
+  "fetch_date": "2026-11-02",
+  "fetch_time": "2026-11-01T20:57:17.347604+00:00",
+  "stats": {
+    "new_podcast_episodes": 1,
+    "new_articles": 1,
+    "new_tweets": 13,
+    "total_podcasts": 1,
+    "total_articles": 1,
+    "total_tweets": 13
+  },
+  "podcasts": [
+    {
+      "source": "Latent Space",
+      "title": "Using Agents for Long-Horizon Financial Work — Aman Singh, Arca",
+      "date": "2026-10-31 16:00 UTC",
+      "link": "https://www.youtube.com/@LatentSpacePod",
+      "orig_link": "",
+      "audio_url": "",
+      "duration": "",
+      "summary": "",
+      "lang": "en",
+      "chars": 27722,
+      "text_file": "data/2026-11-02/podcasts/latent_space__using_agents_for_long-horizon_financial_work_.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "The Datacenter Backlash Goes Bipartisan: Next Week's Midterms and the 2028 Buildout",
+      "date": "2026-11-01 18:40 UTC",
+      "link": "https://newsletter.semianalysis.com/p/the-datacenter-backlash-goes-bipartisan",
+      "summary": "2027 is largely locked in. 2028 is less secure: a prolonged Texas permit freeze is now the biggest single risk to the US buildout, and both parties are running on tighter rules",
+      "chars": 14123,
+      "text_file": "data/2026-11-02/articles/semianalysis__the_datacenter_backlash_goes_bipartisan_next_.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2116773135668404286",
+      "date": "2026-11-01T06:03:37.000Z",
+      "text": "btw @karpathy uses medium on opus 5.5 on his latest project (Hackertube launched today).\n\noverall i think having strong opinions on effort levels is like the tabs vs spaces of our time. just tweak to taste. altho mine is definitely superior to yours. https://t.co/oSCPvlogKc https://t.co/3OIWb03BtY",
+      "url": "https://x.com/swyx/status/2116773135668404286",
+      "likes": 35,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2116642586387730593"
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2116642586387730593",
+      "date": "2026-10-31T21:24:52.000Z",
+      "text": "join me all the way on the light side guys\n\nlow effort + critique loop &gt; superultramaxhighwhatever\n\n(for the throughput-constrained; see swyxio/skills/babysit-runs) https://t.co/TuAWCwUPR1",
+      "url": "https://x.com/swyx/status/2116642586387730593",
+      "likes": 135,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2116420089411145913"
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2116544052267205093",
+      "date": "2026-10-31T14:53:20.000Z",
+      "text": "direct clip: https://t.co/fcuFuFRIpO",
+      "url": "https://x.com/swyx/status/2116544052267205093",
+      "likes": 14,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2116692529970311254",
+      "date": "2026-11-01T00:43:20.000Z",
+      "text": "Banked 1/2",
+      "url": "https://x.com/thsottiaux/status/2116692529970311254",
+      "likes": 6582,
+      "retweets": 181,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2116754343315841471",
+      "date": "2026-11-01T04:48:57.000Z",
+      "text": "Is it weird if I prefer listening to this over Spotify https://t.co/lH3wixKArx",
+      "url": "https://x.com/petergyang/status/2116754343315841471",
+      "likes": 13,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2116733034926100841",
+      "date": "2026-11-01T03:24:17.000Z",
+      "text": "Don't particularly care about the trick or treat part, just being able to dress up as whatever you want is the best",
+      "url": "https://x.com/petergyang/status/2116733034926100841",
+      "likes": 3,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2116732887265656978",
+      "date": "2026-11-01T03:23:41.000Z",
+      "text": "Halloween is honestly the best holiday and should be held every quarter",
+      "url": "https://x.com/petergyang/status/2116732887265656978",
+      "likes": 25,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2116710688550994042",
+      "date": "2026-11-01T01:55:29.000Z",
+      "text": "This would go so hard in SF https://t.co/RgE7UIADws",
+      "url": "https://x.com/rauchg/status/2116710688550994042",
+      "likes": 673,
+      "retweets": 18,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Aaron Levie",
+      "handle": "levie",
+      "tweet_id": "2116652002830963114",
+      "date": "2026-10-31T22:02:17.000Z",
+      "text": "This is one of the better litmus tests for whether you’re pushing your use of AI enough or not. \n\nUp until maybe six months ago probably the best you could do with AI was pull off something you already would produce, but just doing it a little faster. But now we’re entering a point where the output of working with AI can and should dramatically exceed what you would been able to do before, in a fraction of the time.\n\nThe product prototype should not only be fully functional and interactive, but it should probably have meaningfully better features than it would have had before. The engineering architecture should be able to deliver performance gains that you wouldn’t have been able to go after otherwise. \n\nThe research for a project should consume every single fact on the subject across every dimension of analysis possible. The business process you implement with AI should operate entirely differently and learn from all its past failures in a way no human could. \n\nWe’re unquestionably entering a period where AI will be smarter than us on most axes. Perhaps not on every dimension that matters (intelligence is still very jagged), but at least on enough dimensions that when we combine it with what we’re good at, you get qualitatively different outcomes.\n\nSo the simple test is: if you could have done what you’re doing before AI, you’re likely not pushing it enough.",
+      "url": "https://x.com/levie/status/2116652002830963114",
+      "likes": 618,
+      "retweets": 53,
+      "is_quote": true,
+      "quoted_id": "2116567219199234317"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2116640529232609515",
+      "date": "2026-10-31T21:16:42.000Z",
+      "text": "> Why does the worst rise to the top in a society rife with broken politics? \n\n“When the plan fails—and it always fails—coercion is needed. You need people willing to do what honest people refuse to do. The system doesn't promote the best; it selects those with no scruples. And to rally a majority around the plan, nothing works better than a common enemy: the rich, the foreigner, the dissenter.”",
+      "url": "https://x.com/garrytan/status/2116640529232609515",
+      "likes": 119,
+      "retweets": 10,
+      "is_quote": true,
+      "quoted_id": "2116285524516229287"
+    },
+    {
+      "source": "Matt Turck",
+      "handle": "mattturck",
+      "tweet_id": "2116653171741470990",
+      "date": "2026-10-31T22:06:56.000Z",
+      "text": "A classic that never goes out of style 🎃👻 https://t.co/4AiSR3Qg4L",
+      "url": "https://x.com/mattturck/status/2116653171741470990",
+      "likes": 17,
+      "retweets": 1,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Nikunj Kothari",
+      "handle": "nikunj",
+      "tweet_id": "2116624458198982668",
+      "date": "2026-10-31T20:12:50.000Z",
+      "text": "First snow is always special ❄️ https://t.co/FzWYVB4HUl",
+      "url": "https://x.com/nikunj/status/2116624458198982668",
+      "likes": 74,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Nikunj Kothari",
+      "handle": "nikunj",
+      "tweet_id": "2116554844207198501",
+      "date": "2026-10-31T15:36:13.000Z",
+      "text": "what do you mean you dressed up as cybersecurity awareness month for halloween\n\ni hate sf https://t.co/TLitKBVgUu",
+      "url": "https://x.com/nikunj/status/2116554844207198501",
+      "likes": 6,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    }
+  ]
+}
