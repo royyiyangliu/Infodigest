@@ -1,0 +1,307 @@
+{
+  "fetch_date": "2026-11-03",
+  "fetch_time": "2026-11-02T23:47:14.185382+00:00",
+  "stats": {
+    "new_podcast_episodes": 1,
+    "new_articles": 4,
+    "new_tweets": 20,
+    "total_podcasts": 1,
+    "total_articles": 4,
+    "total_tweets": 20
+  },
+  "podcasts": [
+    {
+      "source": "Unsupervised Learning",
+      "title": "Ep 95: Modal CEO on the Future of Inference, the Chaos of the GPU Market &amp; Origins of the Sandbox Bet",
+      "date": "2026-10-28 13:03 UTC",
+      "link": "https://www.youtube.com/@RedpointAI",
+      "orig_link": "",
+      "audio_url": "",
+      "duration": "",
+      "summary": "",
+      "lang": "en",
+      "chars": 79052,
+      "text_file": "data/2026-11-03/podcasts/unsupervised_learning__ep_95_modal_ceo_on_the_future_of_inference_th.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "GDPx: Measuring Frontier Model Capabilities Across the Most Valuable Domains",
+      "date": "2026-11-02 01:51 UTC",
+      "link": "https://newsletter.semianalysis.com/p/gdpx-measuring-frontier-model-capabilities",
+      "summary": "A frontier benchmark spanning RSI, hardware design, cyber, bio, finance, legal, quant trading, chip design, software engineering, materials science, and alignment",
+      "chars": 91506,
+      "text_file": "data/2026-11-03/articles/semianalysis__gdpx_measuring_frontier_model_capabilities_ac.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Investing in Tutor Intelligence",
+      "date": "2026-11-02 16:05 UTC",
+      "link": "https://www.a16z.news/p/investing-in-tutor-intelligence",
+      "summary": "a16z leads Tutor Intelligence’s Series B",
+      "chars": 5885,
+      "text_file": "data/2026-11-03/articles/a16z__investing_in_tutor_intelligence.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "How AI Applications Earn Their Premium",
+      "date": "2026-11-02 15:03 UTC",
+      "link": "https://www.a16z.news/p/how-ai-applications-earn-their-premium",
+      "summary": "Cheaper intelligence raises the bar for what an AI application can charge",
+      "chars": 11480,
+      "text_file": "data/2026-11-03/articles/a16z__how_ai_applications_earn_their_premium.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Welcome Andy Baker",
+      "date": "2026-11-02 14:01 UTC",
+      "link": "https://www.a16z.news/p/welcome-andy-baker",
+      "summary": "Andy Baker, former U.S. Deputy National Security Advisor, joins as an Advisor to a16z’s Global Affairs mission.",
+      "chars": 3695,
+      "text_file": "data/2026-11-03/articles/a16z__welcome_andy_baker.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Andrej Karpathy",
+      "handle": "karpathy",
+      "tweet_id": "2116957135661945283",
+      "date": "2026-11-01T18:14:46.000Z",
+      "text": "Weekend hack: HackerTube. I was annoyed with YouTube's recommendations so I had Claude filter down 43M comments over 20 years of HN to 6,454 videos that keep being recommended. *Significantly* better viewing experience, ~2 hours with Opus 5.5:\nhttps://t.co/JIhXN7OSh1\n\n- Excellent recs without any logins (state is kept in local browser session)\n- Thumbnail is a representative frame from middle of the video instead of the super duper A/B test hyper-optimized user uploads\n- Underlying data from the comment analysis as one zip file, point your Claude at it and ask for your own version\n- HackerTube Longs ✊\n\nA bit more on the process:\nI use Claude Code (desktop app for Mac), Opus 5.5 on Medium effort as my default. I only talk to Claude and have it do everything, the only \"manual work\" I helped with in tandem was in the browser (reminiscent of MenuGen): 1) I had to create some kind of API key from Google Cloud UI to query YouTube for video metadata, 2) I booted up a VPS box for serving and 3) I bought the domain name. Once the box was up I gave Claude the IP and told it update, secure, harden, deploy and optimize the code, and it did the whole thing.\n\nMany awesome projects that would have normally taken weeks/months even can now be few-shotted for breakfast. What else are we not thinking of.",
+      "url": "https://x.com/karpathy/status/2116957135661945283",
+      "likes": 36797,
+      "retweets": 3269,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2116782055665402157",
+      "date": "2026-11-01T06:39:04.000Z",
+      "text": "@karpathy https://t.co/ff9Go6a7Zd url",
+      "url": "https://x.com/swyx/status/2116782055665402157",
+      "likes": 21,
+      "retweets": 3,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2117035794678546764",
+      "date": "2026-11-01T23:27:20.000Z",
+      "text": "Day 28/ Banked 2/2",
+      "url": "https://x.com/thsottiaux/status/2117035794678546764",
+      "likes": 7495,
+      "retweets": 233,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2116936205623611781",
+      "date": "2026-11-01T16:51:36.000Z",
+      "text": "My dog just patched that bug we couldn’t find for two weeks. Clever dog",
+      "url": "https://x.com/thsottiaux/status/2116936205623611781",
+      "likes": 509,
+      "retweets": 1,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2116936031866077423",
+      "date": "2026-11-01T16:50:55.000Z",
+      "text": "My dog sent you the meeting notes from yesterday, did you see them?",
+      "url": "https://x.com/thsottiaux/status/2116936031866077423",
+      "likes": 403,
+      "retweets": 1,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2117059131349868790",
+      "date": "2026-11-02T01:00:04.000Z",
+      "text": "Upcoming episodes of Behind the Craft:\n\n1. Ashley Alexander\n\nAshley is VP of Product at @OpenAI. We had a heart-to-heart conversation about what it's like to care for parents through cancer and where ChatGPT and AI can help.\n\n2. Nate Parrott\n\n@nateparrott is the @AnthropicAI designer behind Claude Design, Dashboard, Motion, and more. He was refreshingly honest about how to get Claude to avoid designing AI slop with a live walkthrough of a real example.\n\n3. Matt Pocock\n\nMatt's AI skills for working with coding agents have 300K+ (!) GitHub stars. He teaches an excellent course on engineering fundamentals, and I can't wait to learn from him how to build software factories the right way.\n\n4. Jacob Sansbury\n\n@jsnnsa, according to my friend and a16z partner @illscience, has built the most AI-pilled gaming company in the world with just 10 people and $32M/year in Claude spend. Excited to dig into all this with him.\n\nWith all my interviews, I try to find people who are builders and practitioners who can talk about topics that I genuinely care about.\n\n📌 Subscribe to get all the episodes soon:\nhttps://t.co/NSTj7ijxE0\n\nThanks for your support!",
+      "url": "https://x.com/petergyang/status/2117059131349868790",
+      "likes": 40,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2116987415319740756",
+      "date": "2026-11-01T20:15:06.000Z",
+      "text": "\"It really makes you question, why do you want a person in your product? Is your product something that needs a UI?\"\n\nFrom @jacalulu (product director at @GoogleLabs):\n\n\"Anything that involves me creating something. Anything where I want to learn something, there might be a reason for me to interact.\n\nAnytime I want to be entertained or consume something, I'm still the one using the product.\n\nBut there are definitely products that I use today that I would be more than happy to not use, or at least not be the main person interacting with the interface.\"\n\n📌 Watch our full episode here: https://t.co/8hLt6x6atQ",
+      "url": "https://x.com/petergyang/status/2116987415319740756",
+      "likes": 17,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2116921336006410550"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2116946320674152810",
+      "date": "2026-11-01T17:31:48.000Z",
+      "text": "I wish I could just use one AI tool but right now there are clear winners in each category below:\n\nBrowser/computer use = ChatGPT + Codex\nDesign/video editing/\"taste\" = Claude\n24/7 agents and scheduled jobs = Grok Bot\n\nAlso, Gemini is underrated for writing but need to test it more.",
+      "url": "https://x.com/petergyang/status/2116946320674152810",
+      "likes": 190,
+      "retweets": 6,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2116977363728867664",
+      "date": "2026-11-01T19:35:09.000Z",
+      "text": "also had a little highlight intro video\n\nI like how its all coming together! hoping to have a vertical slice sometime next week https://t.co/YAurDfYM5S",
+      "url": "https://x.com/trq212/status/2116977363728867664",
+      "likes": 43,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2116976789046350040",
+      "date": "2026-11-01T19:32:52.000Z",
+      "text": "adding a new character: a taekwondo master that fights with fire\n\nI also updated the art style from 3d models to use generated sprites https://t.co/4F60NS4TQy https://t.co/hLIVplRPrW",
+      "url": "https://x.com/trq212/status/2116976789046350040",
+      "likes": 990,
+      "retweets": 16,
+      "is_quote": true,
+      "quoted_id": "2105333496768319969"
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2117010858845089805",
+      "date": "2026-11-01T21:48:15.000Z",
+      "text": "If you’re enjoying a subsidized AI subscription get ready to get rug pulled. https://t.co/XCjMc61pir",
+      "url": "https://x.com/amasad/status/2117010858845089805",
+      "likes": 2266,
+      "retweets": 93,
+      "is_quote": true,
+      "quoted_id": "2116996456204640264"
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2116998155925360965",
+      "date": "2026-11-01T20:57:46.000Z",
+      "text": "You can enable this on Replit with one toggle. If you enable the “feedback widget” on your site, users’ feedback become prompts for the agents to build. https://t.co/QLBwKenews",
+      "url": "https://x.com/amasad/status/2116998155925360965",
+      "likes": 245,
+      "retweets": 9,
+      "is_quote": true,
+      "quoted_id": "2116636967517798672"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2117039740096847920",
+      "date": "2026-11-01T23:43:01.000Z",
+      "text": "F1 is basically the perfect competition for our times. The celebration of extraordinary technology and extraordinary human ability. That’s what Vercel stands for! (also: winning) https://t.co/XkxVDnmWjE",
+      "url": "https://x.com/rauchg/status/2117039740096847920",
+      "likes": 555,
+      "retweets": 13,
+      "is_quote": true,
+      "quoted_id": "2117038247549231138"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2117000819623243925",
+      "date": "2026-11-01T21:08:22.000Z",
+      "text": "Own your intelligence.\n\nAnyone that opposes this has something to sell you (perhaps your own intelligence back to you.)\n\nLocal models need to continue proliferating. The “absolute unit” massive models may be out of reach for now locally, so your best option is to, indeed, keep your options open. Own your harness, data, connections, runtime: your agents. Embrace open source.",
+      "url": "https://x.com/rauchg/status/2117000819623243925",
+      "likes": 2251,
+      "retweets": 222,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2116988333096370443",
+      "date": "2026-11-01T20:18:45.000Z",
+      "text": "Working with Gemini on https://t.co/3Z4NESzNKd is hilarious 😂😂\n\nOther than being SUPER EXCITED!, I've been testing it on two high complexity projects and it's doing great. https://t.co/Vb16Fbyats",
+      "url": "https://x.com/rauchg/status/2116988333096370443",
+      "likes": 381,
+      "retweets": 9,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Aaron Levie",
+      "handle": "levie",
+      "tweet_id": "2117134917847093491",
+      "date": "2026-11-02T06:01:13.000Z",
+      "text": "Increasingly this will be the new job description for a lot of roles, not just coding. We’re clearly moving from a world where agents help us do our work incrementally better or faster, to us helping agents do their work.\n\nThis turns everyone in one of these positions to that of a manager of a team of agents, instead of an individual contributor with just some added leverage from AI. The biggest areas of impact will be information-heavy jobs, like coding, cybersecurity, legal work, biotech, engineering, and many other fields. \n\nAnd as a result, in these jobs your leverage will begin to be decoupled from the normal ratio of hours spent working to output generated. For essentially the history of knowledge work the main variable you had to play with was hours of work done (assuming fixed level talent/coordination/strategy). \n\nNow we’ve separated these variables because agents can parallelize work for us, to in theory execute as much as we need to pull off whatever goal we’re trying to accomplish. The people and organizations that discover this sooner, and orient their operations around it, will see compounding gains in their workflows.",
+      "url": "https://x.com/levie/status/2117134917847093491",
+      "likes": 67,
+      "retweets": 9,
+      "is_quote": true,
+      "quoted_id": "2116512351491084344"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2117137390016073977",
+      "date": "2026-11-02T06:11:02.000Z",
+      "text": "Particle-1 is as good as much larger models for agentic retrieval but 1/23 the price\n\nhttps://t.co/1CmqlXOx8D https://t.co/7s33EuSO0L",
+      "url": "https://x.com/garrytan/status/2117137390016073977",
+      "likes": 30,
+      "retweets": 3,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2116941191526895975",
+      "date": "2026-11-01T17:11:25.000Z",
+      "text": "Practical robotics is nigh https://t.co/uFs7HoCLvs",
+      "url": "https://x.com/garrytan/status/2116941191526895975",
+      "likes": 296,
+      "retweets": 9,
+      "is_quote": true,
+      "quoted_id": "2116727410972590380"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2116909591607099793",
+      "date": "2026-11-01T15:05:51.000Z",
+      "text": "YC is the YC for hard tech https://t.co/M9UWjjHuJo",
+      "url": "https://x.com/garrytan/status/2116909591607099793",
+      "likes": 498,
+      "retweets": 27,
+      "is_quote": true,
+      "quoted_id": "2115835503379681765"
+    },
+    {
+      "source": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "tweet_id": "2117086544586780867",
+      "date": "2026-11-02T02:49:00.000Z",
+      "text": "What if your Linktree were an actual tree https://t.co/3ozuquLIIC https://t.co/WEzBKd6aaF",
+      "url": "https://x.com/zarazhangrui/status/2117086544586780867",
+      "likes": 83,
+      "retweets": 2,
+      "is_quote": true,
+      "quoted_id": "2081103577590718865"
+    }
+  ]
+}

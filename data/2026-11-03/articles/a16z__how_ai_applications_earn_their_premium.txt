@@ -1,0 +1,67 @@
+Source  : a16z
+Title   : How AI Applications Earn Their Premium
+Date    : 2026-11-02 15:03 UTC
+Link    : https://www.a16z.news/p/how-ai-applications-earn-their-premium
+────────────────────────────────────────────────────────────
+
+Lower inference costs can improve margins for application companies, but more capable models and easier development tools can also make parts of an application easier to replace. The commercial question is what customers will continue to pay for as their alternatives improve.
+This exposure varies by product. An application is vulnerable when a customer can reproduce its core output with a general-purpose model and little ongoing effort. This is
+the question
+for AI application companies right now. Pricing is always important, but right now it’s
+extra important
+, yet it sometimes gets overlooked or postponed because fast-growing AI companies are reluctant to tackle it.
+All AI application companies need to spend time rigorously developing and pricing out these obvious-but-necessary capabilities:
+Domain expertise, deep integrations, reliable execution, and hard-to-access context. These are all pricing levers that can make buying substantially more attractive.
+Founders need to understand which advantages their customers actually value, then strengthen and price them.
+The resulting build-versus-buy test looks like this:
+Repsol’s legal team put the build-versus-buy question to a direct test. In a blind evaluation, it compared Harvey with Microsoft Copilot and its own internal AI prototype, Lexia. Harvey delivered the highest-quality output, then outperformed the alternatives on accuracy and time savings during an eight-week pilot involving 50 lawyers across 12 jurisdictions. Repsol proceeded with a full rollout. Harvey reports that lawyers now save four to six hours per week, with adoption reaching 96% across the legal department. The benefits also extend to future work: the team used Harvey to identify recurring objections across past agreements and improve its contract templates with fallback language. The case illustrates how an application can earn its premium through better execution than credible alternatives, measurable savings, and the ability to turn accumulated knowledge into reusable guidance.
+1
+From this and other examples, we gather three rules for sustained success:
+Operate the workflow better than the customer can
+Make context cheaper to rent than to rebuild
+Prove the value, then price to capture it
+1. Operate the workflow better than the customer can.
+A customer does not need to rebuild your entire application to weaken your pricing power. Moving one high-volume task in-house or establishing a credible alternative can be enough to challenge the premium.
+One buyer at a global professional-services firm told us that if a direct prompt to a frontier model produced a better work product than a vendor’s productivity tool, the firm saw little reason to pay the platform premium. For sensitive projects, the firm had built an internal AI platform that could run models locally or on premises when clients would not permit third-party products. It was also experimenting with open-source code and alternatives to commercial applications.
+To defend the premium, the vendor must outperform the customer’s alternative across the full workflow. In contract review, that means applying a company’s legal standards, keeping edits consistent across a document, and preserving context as negotiations evolve. Those requirements help explain why a specialized application can remain valuable even when customers have access to capable models.
+Harvey’s Playbook Review
+illustrates the execution this requires. A lead agent distributes review across specialized agents, reconciles conflicting edits, and checks the completed document. Harvey evaluates performance against legal rubrics and selects models based on their quality, speed, and cost for each task. The system also preserves review context so follow-up requests can build on earlier work. Harvey describes a further opportunity: learning from the redlines lawyers accept, edit, or reject, so future reviews require less guidance.
+Each completed workflow can also strengthen evaluations, validate context, and deepen customer-specific knowledge. When that learning improves the next result, the application’s advantage can compound with use. Founders should measure the gains in quality, reliability, and delivery cost that accumulated learning produces.
+What this means for founders:
+benchmark your most exposed workflow against the customer’s best credible alternative. Include implementation, human review, failures, and maintenance. Identify what gets better with every use.
+2. Make context cheaper to rent than to rebuild.
+Context can justify a premium through exclusive access, useful preparation, or both. Private observations that customers cannot obtain elsewhere have value in their own right. For information customers can access, the advantage depends on the cost of making it accurate, current, and usable.
+One vertical software company we spoke with had accumulated years of proprietary pricing benchmarks across roughly 3,000 companies and was exploring access through a Model Context Protocol (MCP) server, which would let AI systems query them directly. The economics are straightforward: the vendor can collect, organize, validate, and maintain the information once, then spread that cost across many customers. Each customer can rent reliable, current context for less than it would cost to reconstruct and maintain a comparable resource alone. The vendor earns a margin by eliminating duplicated work; the customer gets a better answer at a lower total cost.
+The same could apply to customer-owned information. Policies, CRM records, contracts, and workflow history may already belong to the buyer, but preparing them for reliable use requires permissions, normalization, retrieval, and ongoing validation. An application can earn its fee by doing that work well and using feedback to improve the context over time.
+What this means for founders:
+identify whether customers pay for access, preparation, or both. Compare your price with the engineering, validation, and maintenance effort you remove, at an equivalent level of quality.
+3. Prove the value, then price to capture it.
+Better execution and trusted context create the potential for a premium. In our August 2026 survey of 100 enterprise LLM decision-makers, 94% expected total LLM spending to increase, and 37% expected it to at least double in the next year.
+As spending grows, customers need to see what it delivers: how much work gets done, at what quality, and at what total cost relative to their alternatives. That proof provides the basis for deciding what the application can charge for.
+Start with a unit customers recognize: a contract reviewed, support conversation resolved, research task completed, or record enriched. Measure its full delivery cost, including retrieval, model calls, tools, retries, evaluation, and human review. Include failed attempts when calculating the cost per successfully completed unit.
+Then show what that work is worth. Compare the application’s price, implementation, ongoing oversight, and residual human work with the cost and quality of the process it replaces. Where an internal build is a credible alternative, include its development and maintenance costs too.
+Decagon’s Notion case study
+connects that comparison to a buying decision. Notion considered building internally, then chose an external solution so its teams could focus on the core platform. After evaluating quality, integrations, security, and partnership, it selected Decagon. The published case reports up to a 34% improvement in ticket resolution time. That gives buyers both a reason for choosing the application and a measure of the work it improves.
+Once you can demonstrate the value of completed work, choose a pricing model that lets you capture part of that value. You could set the price based on the time saved, quality delivered, and customer’s alternatives, while ensuring profitable delivery.
+As Sarah Wang and I argued in “
+You Are Not a Model. Don’t Price per Token
+,” applications should price at the highest layer of value they can reliably measure, attribute, and defend. Recognizable work—a research brief, contract review, or support interaction—can be priced directly or packaged through credits. Credits are a currency, not a value metric; they should map to tasks or intuitive levels of effort customers can plan around.
+Predictability also has to survive the economics of real workloads.
+Clay’s pricing memo
+describes how fixed AI prices overcharged simple workloads while making complex ones unprofitable. Clay responded by separating Data Credits from Actions for orchestration, retaining fixed credit pricing for more bounded AI workloads, and passing through actual token costs for more variable reasoning models with no markup. This gives customers a way to pay for orchestration while treating volatile model inputs separately.
+This separation also matters as delivery costs fall. When the price is tied to recognizable work, a vendor can use routing, caching, or better models to improve margins, reduce prices, or include more work. Customers can share in those gains without having to track every change in the underlying model mix. The flexibility is valuable only while the complete offer remains attractive relative to their alternatives.
+What this means for founders:
+measure the full cost of completed work, demonstrate its value against the customer’s alternatives, and choose a pricing unit the buyer can forecast. Model margins across typical and expensive workflows, then decide how to share efficiency gains while keeping the full offer attractive.
+Keep earning the premium.
+The test is whether buying your application offers a better combination of total cost, quality, speed, and risk than the customer’s best credible alternative. That comparison includes your price as well as the effort required to implement, operate, and maintain each option.
+Together, execution, context, proof, and pricing strengthen the case for buying. Reliable work and trusted context create the advantage; clear evidence makes its value visible; and pricing lets customers share in efficiency gains while rewarding the vendor for improving delivery.
+Model progress continually improves the customer’s alternative. Your advantage must widen faster for the application to keep earning its premium.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
+1
+Harvey’s Repsol case study
+.

@@ -1,0 +1,20 @@
+Source  : a16z
+Title   : Welcome Andy Baker
+Date    : 2026-11-02 14:01 UTC
+Link    : https://www.a16z.news/p/welcome-andy-baker
+────────────────────────────────────────────────────────────
+
+Technology is now central to how countries defend themselves, grow their economies, and provide for their citizens. For American innovators, this creates both an opportunity and a responsibility: to ensure the technologies we build strengthen America and our allies.
+In conversations with government leaders around the world, I hear a consistent message. They want to adopt American innovation, and they want to build with us—through shared capabilities, joint ventures, and partnerships that meet their countries’ needs. Turning that interest into meaningful collaboration requires understanding what governments are trying to accomplish, how they make decisions, and where technology can make a practical difference.
+Today, I’m pleased to welcome Andy Baker, former U.S. Deputy National Security Advisor, as an Advisor to a16z’s Global Affairs mission.
+Andy brings experience in diplomacy and national security at the highest levels of government. He served as Deputy National Security Advisor to President Donald Trump and National Security Advisor to Vice President JD Vance, helping develop and execute U.S. foreign policy and national security strategy. Previously, he advised then-Senator Vance on foreign policy and national security. Earlier in his career, Andy spent more than a decade as a Foreign Service Officer, including assignments in Afghanistan and at NATO headquarters in Brussels.
+That experience matters for our founders. Companies building in AI, defense, cybersecurity, energy, and critical infrastructure increasingly operate in markets where government priorities and commercial opportunities are closely connected. They need to understand how their technologies address a country’s strategic needs, which partnerships can help them succeed, and how geopolitical developments may affect their plans.
+Andy will advise Global Affairs and our portfolio companies on these questions, bringing a practitioner’s understanding of international affairs and government decision-making. His perspective will help founders assess opportunities, navigate geopolitical complexity, and build partnerships that support the adoption of American technology.
+We established Global Affairs to connect the ambition of our founders with the needs of America and our allies. The work is practical: helping countries access and build with critical technologies, helping companies navigate unfamiliar markets, and turning shared priorities into lasting capabilities.
+Andy will make that work stronger. Please join me in welcoming him to Andreessen Horowitz.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

@@ -1,0 +1,33 @@
+Source  : a16z
+Title   : Investing in Tutor Intelligence
+Date    : 2026-11-02 16:05 UTC
+Link    : https://www.a16z.news/p/investing-in-tutor-intelligence
+────────────────────────────────────────────────────────────
+
+There is a quote from Jim Barksdale, former CEO of Netscape, that rings true for building and operating any business, and especially a robotics company:
+the main thing is to keep the main thing the main thing.
+The
+main thing
+in robotics is getting the robot to complete human tasks – not the training data, not the specifics of the model, not the type of hardware used. Yet the prevailing debate in much of robotics centers on these factors.
+Tutor Intelligence
+, unlike many of its peers, knows that the
+main thing
+is getting their robots to complete specific jobs, repeatedly and with high accuracy, for customer after customer. This is exactly why we’re excited to lead the company’s Series B.
+Tutor is a robotics research and deployment company that builds generally capable robot hardware. They deploy into real production environments ahead of full autonomy, using human teleoperators (“tutors”) to train the robot foundation models and make the fleet more capable over time. It’s a novel approach that’s paying off.
+Most robotics companies start by building a general model and then finding its initial use case. To do this requires massive upfront data collection, and capital, to build even a basic model.
+Tutor took the opposite approach. First, they identified a real need and use case. Then, still before building a robot brain, they put the hardware to work using remote tutors (that were so skillful customers found real value while not being able to tell the difference between the work done by employees and the work done by tutors). With each deployment in a real scenario, Tutor could work backwards to create their model from the deployment data. The approach offers a win-win for customers and Tutor. For customers, the operating model delivers value right away. For Tutor, the company is able to collect the training data that really matters and build an increasingly capable model, cost efficiently. Every robot put to work makes the next robot smarter, cheaper, and easier to deploy.
+Being in the field early with enterprise clients has made their business stronger beyond the model too. No matter how strong a robotics company’s research is, you can’t scale without a great product experience: great hardware, great software,a simple sales process and a post-product robot support lifecycle. Tutor not only builds great robots, but is one of the few companies that has solved the full  business system for robotics.
+To date, Tutor robots are in operation across some of the country’s largest manufacturing and logistics networks, with plans to have more than 1,000 robots under contract by the end of 2027. Tutor also has a strong track record of landing and expanding as customers derive value: nearly a third of customers who received Tutor robots in the past 12 months were existing Tutor customers installing additional robots. Excellent customer service and implementation times as low as 8 hours add to Tutor’s offering.
+When we talked to Tutor customers, we also consistently heard about Tutor’s unique business model. Robotics has been typically confined to large enterprises with the ability to pay millions upfront for expensive systems and implementation. Tutor’s flexible AI brain and hourly pricing model shift capex to opex, unlocking SMB and mid-market customers where much of America’s manufacturing exists in addition to some of the largest logistics companies.
+Tutor’s first two robots start with essential work in warehousing and logistics. Cassie has a single arm for case picking and palletizing / de-palletizing workflows. Sonny has two arms and greater dexterity to serve each pick, such as in e-commerce fulfillment. Both embodiments leverage the same model, part of Tutor’s vertical integration across brain, hardware, and
+data collection
+. By building the full stack, Tutor can build toward more generally capable robots.
+Advancements in robotics and AI will be one of the biggest drivers of innovation and economic value this century, but cutting-edge research won’t be enough. Compelling product experiences will be key to adoption – which is why we believe product-focused teams will win in this market.
+Co-founders Josh Gruenstein and Alon Kosowsky are lifelong robotics enthusiasts who met as undergrads at MIT. They combine excellent research chops with a practical, ROI-driven orientation that is more typical in enterprise software. As a result, Tutor’s approach and early traction reflects not only their customer and problem solving focus, but also lays the groundwork for them to potentially build the best robot models, robot hardware, and collectively the robot company.
+We are proud to partner with the Tutor Intelligence team as they continue to deliver customer ROI through robotics.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
