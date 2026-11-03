@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-04",
+  "generated_at": "2026-11-03T23:33:41.532044+00:00",
+  "stats": {
+    "tweets": 7,
+    "podcasts": 1,
+    "articles": 2
+  },
+  "tweets": [
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic Claude Code 团队成员 Thariq 提出反直觉观点：做出好工作并不需要无限 token，**200 美元**档的订阅套餐已经非常够用。他同时判断，当下是智能“史上最贵”的时刻，此后成本只会持续下降。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch 认为，以无状态沙箱作为评测基准是错误的，Agent 只有随身携带自己的工作空间（身份、技能、代码仓库、记忆等）才真正有用。他披露 Vercel Sandbox 在达成延迟与吞吐 SLO 的同时，已在 **19 个**全球区域部署集群、每周上线新功能，客户需求呈**每周两位数百分比**的增长；他还表示非常看好 WebMCP。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator 总裁兼首席执行官 Garry Tan 表示，Capy 的 “Captains” 功能让他修复 issue 的吞吐量一夜之间提升约 **5 倍**，能够跨多个 captain 与子线程协调是关键突破。他还关注到小模型的新用法——直接操纵模型权重；政策层面，他呼吁废除加州环境质量法（CEQA），称其是阻碍医院、高铁和住房建设的主要 NIMBY 工具。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad 主张，AI Agent 应运行在由组织掌控的专用环境中，且每项任务只授予所需的最少资源访问权限。在转引一则相关内容时，他指出这类做法在金融行业已很普遍，并预言“封禁大锤即将落下”，暗示监管/合规收紧在即。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI Codex 负责人 Thibault Sottiaux 介绍，其产品中的 “dot” 会为任务自动选择最合适的模型，并在同一工作的不同环节调用不同模型。他还转发团队成果称“我们懂一些 Git 功夫”，对 @tnm 及团队在 Git 相关工作上终于可以对外披露表示兴奋。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品经理、Creator Economy 作者 Peter Yang 认为，写作与编辑能力最强的模型被其配套工具（harness）拖了后腿：他实测让 ChatGPT 和 Gemini 为文章提供修改建议，ChatGPT 的建议几乎全不可用，而 Gemini 的建议质量很高。但由于 Google Antigravity 的浏览器操作功能不可用，他只能把 Gemini 的修改粘贴回 ChatGPT 才能在浏览器中完成编辑。"
+    },
+    {
+      "author": "Nan Yu",
+      "handle": "thenanyu",
+      "summary_zh": "Linear 产品负责人 Nan Yu 提出与热门趋势相悖的看法：除少数情况外，群聊是一种糟糕的多人 AI 交互形态，“几乎注定产出垃圾内容（slop）”。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "Latent Space",
+      "title": "Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora",
+      "date": "2026-11-02 20:50 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/@LatentSpacePod",
+      "summary_zh": "Latent Space 专访 Legora（法律 AI，YC 2024，起家于斯德哥尔摩）CTO Jacob Lauritzen，核心是“看不到客户数据”时如何做法律 Agent。\n\n**产品与形态**：从“ChatGPT+瑞典法律检索”起步，现已演进为可起草、编辑 Word、整理文件、做复杂分析的 Agent，约一年前由 assistant 转向 agent。核心原语为 Agent、Tabular Review（批量抽取/审阅合同，单个表格最高约 **100 万个单元格**，先跑前 **10 行**验证再全量）、Lists（类 Linear/Notion 数据库，可挂触发器和自动化，“Agent 建 List、List 触发 Agent”）、Projects，以及 Word/Outlook 插件、Intake（Slack 法律工单入口）。已收购瑞典 Kira、英国 Wexler（诉讼事实抽取与交叉印证），另有加拿大、澳大利亚各一笔并购，均用自家产品做尽调。\n\n**模型策略**：多模型路由，按任务拆分选择，追求成本/延迟/合规的帕累托前沿（“模型套利”）；Agent 内保留模型选择器（含 Fable、Opus、Astra），但认为大量法律工作无需 Mythos 级智能——约 **60%** 的工作当前模型已能做好，剩下的是成本与延迟问题，复杂分析仍需更强智能。模型升级常带来“免费”提升：引用准确率随一次新模型发布从 **70%** 升至 **99%**。他认为 Fable、Opus 偏啰嗦，Astra 写作更简洁；长文档跨处编辑仍是难点。此前从未微调，近几个月因开源权重模型能力大增，开始对法律检索等有边界的扇出检索任务做后训练，不打算自训主模型与 Anthropic 竞争。转录用早期 Gemini 与微软模型，因 DPA 供应商名单需极度精简。\n\n**评测与数据**：因数据高度保密，无法查看任何 trace，评测团队（约 **3 名工程师 + 3 名律师**，外加约 **100 名**“法律工程师”——有 Big Law 经验、常有 CS 背景）构建万文件数据室式的 RL 环境近似真实任务；线上用廉价 LLM 打分并做 feature flag 对比。模型版本间在不同执业领域“有升有降”的情况比想象中多。基础设施全在 Azure，因律所早期不信任 AWS/Google。\n\n**商业与行业判断**：DAU/MAU 和月均使用时长在企业软件中“极高”。美国客户行动快、偏好定制集成，欧洲更倾向开箱即用。计费正从按小时转向项目制/固定价，低端工作甚至免费；价值向战略判断与客户关系集中。不认同“初级律师/助理消失”，认为优秀初级人才价值更高、分化加剧。合伙制因只有人力资本而存在，Legora 希望帮律所把方法论沉淀为可积累的无形资产。工程团队从设想的 **20 人**扩到约 **100 人**仍觉不够；纽约约 **100 人**并持续扩招。对前沿实验室进军法律不担忧：小企业用 Claude 处理法务无妨，但“做 **4 亿美元**并购，你会要 Legora”。"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "Elon Is Doing It Again: SpaceX Will Be The World’s Biggest AI Cloud",
+      "date": "2026-11-03 20:44 UTC",
+      "link": "https://newsletter.semianalysis.com/p/elon-is-doing-it-again-spacex-will",
+      "chars": 11362,
+      "summary_zh": "SemiAnalysis 认为 SpaceX 正在成为全球最大的 AI 云。两个月前它论证 2027 年 **10GW**、**3000 亿美元+ ARR** 可行，当时被质疑。现在已有 **3.6GW** 在建，SpaceX 还把 2027 年目标上调至约 **13GW**，相当于谷歌 **1999-2026 年**的全部数据中心容量，只用 **1.5 年**。SemiAnalysis 已识别出 **>9GW** 容量；Colossus 2 不到一年新增约两个 Stargate Abilene（**2GW**）。\n\n**建设速度**：行业工期普遍 **8-12 个月**，SpaceX 砍半。MiniHard 约 **5 个月**建成，密西西比 \"Gun Range\" 预计约 **4 个月**。改造项目中，Colossus 1 的 **150MW** 用了 **122 天**，Colossus 2 的 **210MW** 用 **91 天**；Project SPAM 于 **10 月 5 日**开工，目标 12 月首批上线。\n\n**新站点**：德州 Starbase 将建两座数据中心，按 Vera Rubin 时间表可能超过 **1GW**。TeraFab（**10GW+** 芯片厂）大概率也会配套数据中心，可能对第三方出租。\n\n**速度来源**：每 GW 约需 **3000 名工人**；特斯拉可能在制造模块化机电（MEP）设备，绕开交货周期。\n\n**电力**：SpaceX 有 **8GW+** 表后电力，少于 **>9GW** 算力，电力往往边建边找。Starbase 已部署 **>1GW** 的 APR，Colossus 2 的燃机可能迁到这里。Colossus 2 则转向并网：Macrohard（**700MW**）和 MiniHard（**450MW**）已向 TVA 申请供电，**500kV** 变电站计划于 **12 月 31 日**完工。Southaven 电厂可运行的容量将从 **2.7GW** 降至 **1.24GW**（**2027 年 7 月**），缺口可能约 **300MW**。SpaceX 打算靠已装 **5.9GWh** 的全美最大储能、**1.10-1.15** 的 PUE 和分层 SLA 来补。\n\n**投资启示**：借 Anthropic、谷歌的合作，SpaceX 已成为利润最高的 neocloud，利好燃机、储能和模块化电力设备链条。"
+    },
+    {
+      "source": "a16z",
+      "title": "The State of Longevity",
+      "date": "2026-11-03 15:06 UTC",
+      "link": "https://www.a16z.news/p/the-state-of-longevity",
+      "chars": 18149,
+      "summary_zh": "a16z 发布《长寿产业现状》报告，结合对 **500 名** 美国随机消费者的调研，梳理六大长寿/消费健康赛道。核心判断：新冠疫情与 ChatGPT 推动消费者自主管理健康，AI 让\"回答与解读\"变得廉价，价值将向能完成\"行动层\"（安排检测、预约就诊、开处方、随访）的公司迁移。\n\n1）**\"医疗之家\"争夺战**：Function Health（化验与影像数据）、Oura/WHOOP（日常佩戴）、General Medicine/Counsel（交付诊疗）、Ferry Health（医保覆盖导航），以及 OpenAI、Anthropic、Amazon、Apple（庞大用户基础）都在争做消费者健康需求的第一入口；a16z 认为医疗体系复杂度既是壁垒也是护城河，可容纳多个赢家。\n\n2）**\"无毒\"消费**：**63%** 受访者知晓微塑料、**35%** 表示担忧；**70%** 过滤饮用水、**39%** 以玻璃替代塑料、**24%** 更换无毒炊具、**37%** 购买空气净化器、**18%** 检测霉菌、**14%** 试图减少电磁辐射；**62%** 愿为\"无毒\"标签支付溢价。消费支出跑在证据前面，食品、家居、个护均有机会。\n\n3）**多肽热潮**：GLP-1 成功带动对 BPC-157 等未获 FDA 批准多肽的追捧，但证据不足。复配多肽市场仅**个位数十亿美元**，远不及礼来替尔泊肽单品——2026 年前九个月销售额近 **440 亿美元**。预测受监管的、兼具消费吸引力的多肽新药管线增长；诊疗端或重演 GLP-1 周期：专门处方公司先兴起，随后同质化，多数企业价值仍归药企。\n\n4）**降胆固醇走向大众**：强化降脂治疗 **18 个月**使冠脉斑块缩小约**五分之一**；糖尿病患者加用 Repatha 使五年首发心梗/卒中/冠心病死亡风险由 **7% 降至 5%**。仅 **21%** 受访者了解 PCSK9 抑制剂；首个口服 PCSK9 抑制剂 Lipfendra 于 **2026 年 7 月**获 FDA 批准。约**五分之一**人群 Lp(a) 偏高；诺华 pelacarsen 未达主要终点，但对礼来、安进在研药物乐观。机会在于连接检测、个性化治疗与用药追踪。\n\n5）**可穿戴设备第三代**：**54%** 受访者使用可穿戴设备，其中 **83%** 每日查看，但 **55%** 称数据从未促成行为改变或就医；近**四分之三**愿为新指标再戴一台设备。Clair（无创激素）、Lumia（耳环测血流）等兴起；FDA **2026 年 1 月**放宽健康类设备政策，**6 月**结案 WHOOP 警告信，监管松绑助推创新。终极目标是可测多种生物标志物的无创\"超级 CGM\"。\n\n6）**脑健康与脑机接口**：Neuralink 植入式 BCI、UCSF 皮层表面电极解码语言与手势；Conduit、Alljoined、Aleph Neuro 将无创神经解码视为数据规模化问题。**39%** 受访者愿用无创脑感设备改善睡眠/专注/情绪，**29%** 愿用意念控制设备。\n\n结论：消费者已愿意自掏腰包行动，下一批伟大消费健康公司将围绕\"帮用户把健康兴趣转化为持续行动\"的长期关系构建。"
+    }
+  ]
+}
