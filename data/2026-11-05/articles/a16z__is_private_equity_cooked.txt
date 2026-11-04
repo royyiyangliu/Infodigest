@@ -1,0 +1,115 @@
+Source  : a16z
+Title   : Is Private Equity Cooked?
+Date    : 2026-11-04 15:01 UTC
+Link    : https://www.a16z.news/p/is-private-equity-cooked
+────────────────────────────────────────────────────────────
+
+Most people I talk to agree that tech buyouts are in a tough spot right now. Yet, LP $s continue to flow into re-ups with these same managers. In other words:
+Tech buyouts have historically been the “safe” bet within private markets. To use a real estate analogy: it’s the good house, on an ideal street, with a reliable stream of buyers. Venture, in contrast, was always the undeveloped lot on the other side of town…until recently.
+Tech buyout is a late-cycle asset class. It’s most effective once a technology wave has settled and when business models are predictable enough to borrow against. When a new technology wave drops, all bets are off. By contrast, that’s when
+venture shines
+.
+Have we seen this movie before? Yes, twice. Top quartile venture beat top quartile buyout through the internet build-out and again through mobile and cloud. But in between, for the vintages caught in and after the dot-com bust (roughly 1998 to 2005), venture trailed.
+I believe we’re still at the start of the next technological wave today. The pattern you see is also why the most fatal error in venture is trying to time innovation. LPs who keep consistently committing across vintages catch the lags but can also catch the absurd highs.
+For those thinking: maybe that kind of VC lumpiness isn’t for me. Fair. But the slow-and-steady playbook in tech buyout is under a lot more stress than most people realize. You can already see it in how funds value what they own: in the first half of 2026, venture funds marked their tech companies up 16%, while buyout funds only marked their tech holdings down 4%.
+1
+Of course, some of the stress is cyclical, but IMO this is a bigger structural change.
+Most buyouts today are take-privates or companies bought from another sponsor, financed with debt, in an economy changing faster than at any point since the internet. Recall the “safe bet” house analogy earlier: if the neighborhood is being rezoned, you bought at the top (looking at you, 2021) and you have an adjustable-rate mortgage: ring ring—your lender is calling.
+Don’t get me wrong: venture got caught in the go-go days of 2021 as well. But the difference is that we mark our assets down, sigh deeply and
+move on
+, because a venture fund doesn’t depend on every house on the block surviving. In fact, venture thrives in uncertainty. Every bet we make is essentially an out-of-the-money call option, and we’re okay with the zeroes because we’re after the power-law outliers—the fund returners.
+The big private equity bonanza
+Ironically, the origins of buyout looked a lot closer to venture. Some early returns were lumpy and outlier-driven e.g., Wesray’s 1982 buyout of Gibson Greetings was $1M of equity on an ~$80M deal and the company went public 16 months later at a valuation ~$290M. That’s how leverage became the 9th wonder of the world for PE (8th wonder, of course, being ‘compounding’, per Warren Buffett!).
+The second buyout wave was buying family businesses and “professionalizing” them: improving the business, cutting costs, growing earnings and utilizing cheap leverage along the way.
+Fast forward 40 years and PE has chewed through the “fixer uppers”—back to our housing analogy—and many homes on the block have already had a PE owner at some point. What PE tends to buy today is a company that another sponsor already owned or, in the biggest deals, a public company that has been taken private, usually with a plan to cut costs. In 2025, about half of US PE exits by count were sales to another sponsor (PitchBook).
+The 2010s were the golden years for buyouts: low interest rates led to steadily rising multiples, which Bain says “powered over 50% of all buyout returns”.
+2
+That meant shorter holds and quick distributions. Meanwhile, global buyout assets under management grew from $1.6 trillion in 2015 to $3.9 trillion in 2021. Put bluntly, falling rates and a flood of new money likely bailed out a lot of deals.
+SaaS, of course, was also the manna from heaven for private equity: capital-light, consistent recurring revenue that was easy to lend against, lots of small markets with clear leaders, and a small but critical line in the customer’s budget, so prices could go up.
+But where did ‘PE investing in SaaS’ come from? Venture funded it—unlevered—in the mid-2000s when the model was new and unproven. PE bought it in the 2010s, once it was mature, predictable and easy to borrow against.
+3
+But what happens when the music stops?
+What’s left when you turn on the lights
+The math today looks different.
+Over the past decade, US buyouts have slowly underperformed the public markets, which have been increasingly powered by the tech Mag 7.
+And that’s typically with borrowed money.
+PE-backed middle-market companies carry 4.7–6.0x adjusted EBITDA in net debt across the 2019–25 vintages, roughly 2.5 to 3x the median S&P 500 company’s 2x (
+J.P. Morgan
+).
+So buyout has trailed public stocks while carrying far more debt. Over the last 10 years, US Buyout returned 14.5% a year, underperforming the Russell 3000. In contrast, US venture as a whole returned 17.6% a year over the same period (pooled across all funds), 2.3 points ahead of the Russell 3000. Unlevered.
+But what about distributions?
+PE cash back is down and exits now take an average of about 7 years, up from 5 to 6 years in 2010–21.
+4
+Venture, of course, has its own distribution problem as well: exits slowed sharply after 2021. But venture is a power-law business, and the case to invest in venture lies in the access to the top 5% of managers, not the median. So let’s compare the best with the best across both.
+A top 5% US venture fund (2007–16 vintages) was 5.3x DPI. A top 5% US buyout fund? 3.5x DPI.
+Moreover, for the top 5% performance, a top US venture fund has nearly 2.2x better TVPI than a top buyout fund.
+It’s important to consider also that in venture, winning tends to beget winning: the best firms typically get the next call from the best founders. A venture firm’s track record has stayed a meaningful predictor of its next fund, while for buyouts, since 2000, last fund’s top quartile hasn’t reliably predicted the next.
+5
+So if you’re asking yourself “how do I choose the top VC managers?”, the answer is fairly straightforward.
+Lastly, there is an extreme difference in what’s being held. DPI in venture is waiting on companies that are likely still growing and are raising their
+Series M
+, but buyout is usually waiting on levered companies whose value has gone flat, valuations have not necessarily been marked down to reality and there are no obvious buyers.
+The roughest parts: 2021-2022
+Trouble in homeownership usually starts when the unimaginable happens: you bought near the top, the rate resets higher and the appraisal goes flat. That’s exactly what happened to a large slice of what PE bought in 2021 and 2022, as we all know by now.
+Many of these companies can’t cover interest in cash anymore, so they’re adding it to the loan. For those borrowers, loan-to-value went from 44% to 75% in a year. Sadly though, when the mortgage outgrows the house, the lender takes the keys.
+Look at when those companies were bought: 70% of the debt foreclosed in 2025–26 came from 2021 or 2022 deals. Deals done after rates went up barely appear. It isn’t just the middle market. Private equity firms backed 54% of the largest US corporate bankruptcies during 2025.
+6
+Medallia is a good example here. Thoma Bravo, arguably the best software operator in private equity, bought it in 2021 for about $6.4 billion. This year, it handed the company to a group of lenders led by Blackstone, wiping out about $5.1 billion of equity for Thoma Bravo and its co-investors. If a sponsor of that caliber couldn’t make a 2021 deal work, blame the vintage. And for some LPs, there’s no escaping it: the credit fund that took the keys and the buyout fund that lost the equity often sit in the same portfolio. The risk simply moved from one pocket to the other.
+But if the house is in trouble, why don’t the appraisals show it? As the youths say: bruh, it’s because the people who own the house are the ones doing the appraising!
+In venture, a fund’s marks go up when a company raises a new round at a higher price. Meaning, more VCs show up with more checks. Yes, perhaps you can debate that VCs chase hot deals like little kids running after a soccer ball. But no one’s in the business of lighting cash on fire. If a mark goes up, it’s because the market believes the company is worth more.
+PE is the opposite: it owns the company outright and its market price is decided behind closed doors by the people who own it. Even if the business is struggling, it’s very easy to bury your head in the sand and keep the valuation where it was. As they say, more fiction has been written in Excel than in Word.
+So when no outside buyer shows up, more sponsors sell the company to a new continuation fund they also manage, with secondary investors putting up the cash. These “continuation vehicles” made up 14% of PE exit value in the first half of 2026, up from 5% in 2020 (Jefferies).
+Some funds go even a step further and borrow against the whole portfolio to send cash back to LPs, so distributions go up without a single company being sold. These NAV loans can flatter reported returns, and they add a second layer of debt on top of what the companies already owe.
+7
+Investors who trade these assets every day price them lower than the funds that hold them: BDCs (publicly traded funds that lend money to private, mid-sized companies, many of them owned by PE firms) heavy in software trade well below NAV, and default rates range from 1–3% to about 15% depending on what you count. Realized losses are still under 1%, which means the losses haven’t been taken yet.
+In summary, about $140B of risky loans owed by PE-backed companies mature in 2028, and another $160B in 2029. In 2023–25, the amount coming due two years out averaged about $60B. About a third of it is software, and a quarter is already rated CCC+ or below.
+8
+Maybe it’s cyclical, maybe it’s structural
+So what’s the outlook? Optimists will say that rates will come down and the debt will get cheaper. Then again, PE-backed tech exit value is down 77% from this time last year:
+Keep in mind, also, that many would-be buyers of application software are software companies whose own shares have fallen, so they’re not able to pay up.
+9
+Finally, the buyers who are able to buy, are buying new technology: Nvidia agreeing to buy Hugging Face for $13 billion or SpaceX acquiring Cursor for $60 billion. The old stuff is sitting on the shelf.
+And finally, buyout fundraising is seeing the same headwinds. It fell 16% in 2025, to $395 billion, and was still lagging at midyear 2026.
+It is safe to say that the 2010s aren’t coming back anytime soon: a supply of fixer-uppers, a decade of falling rates, and fast-growing funds that kept buying from each other at higher prices. A few rate cuts help the debt; they don’t re-create that decade.
+And at the very top of the market, the incentives have shifted too. Many of the biggest buyout firms are now public companies, and IMO the scoreboard has quietly moved from focusing on outperformance through returns to a business valued on AUM.
+Furthermore: 12 is the new 5. According to Bain, a typical 2015 buyout needed about 5% a year of EBITDA growth to make 2.5x in five years, with rising multiples doing much of the work. Today debt costs more and covers less of the price, while entry prices haven’t come down and aren’t rising anymore, so the same deal needs 10–12%.
+Can these companies easily go from 5% to 12% EBITDA growth? No.
+Golub Capital, one of the biggest lenders to PE-backed companies, tracks how its borrowers are doing every quarter. Its software borrowers went from 9% revenue growth to under 3% in two years. EBITDA is still growing, so it has become a margin story. And that helps pay the interest. But it isn’t the growth those deals were likely priced for.
+Compare that to venture, where companies are priced on revenue growth rather than EBITDA: the median is about 18–30% a year, and outliers like Revolut, Databricks, SpaceX and Anduril grew revenue 46%, 80%+, 92% and 100%+, respectively. These are venture growth companies, not scrappy seed bets. And because the best companies are staying private longer than ever, more of that growth is happening before they ever hit the public markets.
+What exacerbates this even more is PE increased tech exposure late product cycle: tech went from 23% of buyout deal value in 2018 to about 1/3 not long after ChatGPT launched in late 2022. And since then PE has begun to retreat from tech.
+So, is private equity cooked?
+Not overnight, no. Capital is sticky, and the best buyout managers will adapt. To be fair, smaller buyouts outside levered software can still do just fine. It’s the giants and the 2021 software that are weighing on the benchmarks. But the conditions that made the 2010s are gone: a supply of fixer-uppers, a decade of falling rates, and funds buying from each other at higher prices. A few rate cuts won’t recreate them.
+My advice is to call your manager today about those 2021-2022 vintages and find out how much interest is being added to the loan (PIK). Then find an exit route.
+And if the instinct is to trim buyout and move into private credit or secondaries, look at who’s on the other side of this essay. Private credit loans to SaaS companies grew from about $8 billion in 2015 to more than $500 billion by the end of 2025 (BIS), and the lender’s upside is capped at the interest they’re owed. Secondaries mostly buy existing buyout stakes at a discount. Either way, you’re still holding the same buyout companies, with less to gain.
+Which leaves venture. When people tell me that venture is still riskier at the median, I agree and ask: why are you in the median? Proximity to venture does not equal participation in its rewards. If you’re going to be in venture, you need to be in the top 5%. From there, the difference between the asset classes is stark.
+And venture has grown up from its cottage industry: in May, Anthropic raised $65 billion in a single round. That’s more than the $56.6 billion Electronic Arts take-private, which Bain calls the largest buyout on record.
+10
+At the current market cap speculation between $1.5-$2T, that’s almost half of the current PE NAV today.
+We believe we’re at the beginning of a massive technological wave and the white space to build and innovate is boundless. As my partner Martin Casado famously
+said
+:
+My addendum to that is about returns: if you’re re-upping into buyout today, be prepared for the soy sauce and salt grains in your eyeballs—whether intentional or not.
+Subscribe now
+The above reflects the subjective views and beliefs of a16z Capital Management, L.L.C. (“a16z”) or its respective affiliates, and is not, and is not intended to be, an offer to sell -- or a solicitation of an offer to buy -- any securities, and may not be used or relied upon in evaluating the merits of any investment. It should not be construed as or relied upon in any manner as investment, legal, tax, or other advice. Any projections, estimates, forecasts, targets, prospects and/or opinions expressed in these materials are subject to change without notice and may differ or be contrary to opinions expressed by others. Any charts provided here or on a16z content distribution outlets are for informational purposes only, and should not be relied upon when making any investment decision. Certain information contained in here has been obtained from third-party sources. While taken from sources believed to be reliable, a16z has not independently verified such information and makes no representations about the enduring accuracy of the information or its appropriateness for a given situation. All content speaks only as of the date indicated. There can be no assurances that a16z’s investment objectives will be achieved or investment strategies will be successful. Any investment in a vehicle managed by a16z involves a high degree of risk including the risk that the entire amount invested is lost. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit https://a16z.com/investment-list/ for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+.
+1
+MSCI; holding-level, gross of fees. Worth noting that venture and buyout funds generally hold companies at different stages of development, with different capital structures and valuation methodologies; comparisons between the two are illustrative only.
+2
+Bain, Global Private Equity Report 2026
+3
+https://www.bain.com/insights/software-global-private-equity-report-2022/
+4
+Bain & Company, Global Private Equity Report 2026 (February 2026)
+5
+Harris, Jenkinson, Kaplan & Stucke, Journal of Corporate Finance, 2023
+6
+Bankruptcies with liabilities of $1 billion or greater at the time of filing.
+7
+https://ilpa.org/news/new-ilpa-guidance-encourages-lp-gp-dialogue-transparency-around-nav-based-facilities/
+8
+Wall Street Journal, PitchBook
+9
+S&P Global Market Intelligence, 2026
+10
+Bain & Company, Global Private Equity Report, February 2026

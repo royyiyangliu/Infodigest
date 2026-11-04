@@ -1,0 +1,180 @@
+Source  : Citrini
+Title   : State of the Themes
+Date    : 2026-11-04 20:28 UTC
+Link    : https://www.citriniresearch.com/p/state-of-the-themes-556
+────────────────────────────────────────────────────────────
+
+The changing fall leaves in New York remind us of a fundamental truth. There is a season to everything, especially in markets.
+When Citrini Research began back in 2023, it was a good time for
+Thematic Investing™
+. Stocks were cheap, sentiment was bleak, and a technological revolution was just beginning to break out.
+It wasn’t all that difficult to cast a wide net, identify structural tailwinds, and let a rising tide lift the boats. We started in AI, and repeated the blueprint with fiscal primacy, GLP-1s, robotics, energy, defense, healthcare…
+…and it’s worked pretty well. Since inception on 5/31/23, the
+Citrindex
+total return has beaten the SPX by over 2.5x.
+But sometime over the past 12 months, our job writing “thematic” equity research has gotten harder. As the market prices in greater upside, the thematic narratives shift further out on the risk curve from “obvious, cheap companies that have already proven they are winners” to “speculative and unprofitable companies that rely on a 2030 TAM”. Stocks are no longer cheap, nor is sentiment bleak.
+While the market has become more discriminating, there are always trends that are undervalued. Catching the Life Sciences inflection over the summer was a great example. But some others have felt stretched and forced. The “pound the table conviction” started to become more of a narrative hamster wheel. The shift isn’t in our imagination (or lack thereof).
+Today is our 10th “State of the Themes” – and we are using this opportunity to completely redo the Citrindex and align it for the market’s next phase.
+We’ve overhauled the entire portfolio from the bottom up. Rather than hold onto a book of continuation trades, we are focused on
+reversals, pairs, and entirely fresh ideas
+. We are keeping most of our core themes but dramatically shifting how we’re expressing them. We are also adding several new categories in sectors we think the market continues to overlook. The new approach, we hope, is well suited for the market ahead.
+Table of Contents
+The End of the Trade (as we know it)
+State of the Themes
+Artificial Intelligence:
+Relative Value
+Life Sciences and Healthcare:
+Trimming Fat, Adding Muscle
+Fiscal Primacy:
+Catch the Pendulum
+NatGas & Energy:
+Three Key Convictions
+Robotics:
+Shiny New Objects
+Modern Warfare:
+Getting Defensive
+(NEW) Boomer Software:
+SaaS Survivors
+(NEW) Booze & Bubbles:
+Bottoms Up
+(NEW) Financials:
+Paid to Wait
+(NEW) Entertainment:
+The Scarcity Premium
+The Girlfriend Index:
+Where Brand Heat is Building
+Stocking Stuffers:
+Something for the Holidays
+The Citrindex, Reloaded
+The End of the Trade (as we know it)
+May 31, 2023 was about as good a time as any to start writing thematic research and creating a model portfolio to track it.
+This was more than “lucky timing”.
+It was recognition of where we were in the market cycle and a deliberate decision on what strategy would suit it.
+It’s no coincidence that
+AI: Global Equity Beneficiaries
+was published days after NVDA’s first blowout earnings quarter. ChatGPT had been released in late 2022 and the market was starting to believe that this fun little chatbot could do more than write poems and send emails – maybe it could pull tech out of its 18-month slump.
+The belief was forming, but NVDA’s numbers provided unequivocal proof.
+At a very minimum
+, the
+investment
+was going to be huge, and companies like NVDA
+(which had taken a 68% drawdown)
+were about to start selling a lot of chips.
+We now know the broad market had already bottomed back in October 2022, but it was not obvious at the time. The extreme labor crunch was quickly fading, the Fed was hiking rates, and the banking sector had just had its biggest scare since 2008.
+But not all was bad…mega cap tech was already clawing its way out of the hole from depressed valuations and a return to earnings growth
+(remember the Metaverse?)
+. Inflation was quickly falling and the Fed’s front-end hikes had become performative – its own forward guidance began to show it was mentally “done” hiking back in late 2022. Macro charts showed COVID whiplash, not cyclical weakness.
+Rate cuts, AI, and a Fed backstop walk into a bar…
+The early days were defined by strong companies at good valuations in a market that was still severely underestimating the investment coming down the pike.
+Trump’s election promised a wave of deregulation, tax cuts and a “highly permissive” regulatory environment with strong self-interest. Tariff threats were a bear-trap and DOGE was a dog. Fiscal spending simply shifted – from non-profit/NGO/environmental and consultants towards defense and security. Animal spirits can’t be caged forever… POTUS launching a memecoin might have been a clue. By late 2025 we reached exit velocity.
+By April, the Iranian drawdown combined with the absolute explosion in agentic/coding compute demand and lab ARR led to a three-month euphoric blowoff by our own (subjective) thermometer and more statistical metrics like Morgan Stanley’s TMT Momentum Factor index. Then, buyers ran out.
+When Artificial Weakness…
+AI is not the market, but it’s the only place to start. This year we’ve finally seen the capital
+B
+billions of explosive growth in AI revenues. But these headline numbers have evolved from underpriced upside to the table stakes required to justify the trillions of dollars being spent today. Given the enormous chasm between revenues and capex, the asymmetric risk is no longer to the upside, but to the downside.
+With the annualized capex of the hyperscalers (which doesn’t capture the full scope of AI spending) about to hit $1 trillion… that gap needs to close, and there are only two levers to pull. Either we see an order of magnitude increase in revenue or a moderation in capex that will break a lot of investment assumptions. Probably a little bit of both.
+The peak of “mega commitments” is already well past us and quarterly RPO growth has slowed to the lowest level in years. There was a time when announcing a $500 billion spending commitment got people excited, but those days seem to have passed. We talk a lot about endless compute demand — you may have heard of our friend Jevons — but who has more visibility than the leading labs that have slowed their commitments?
+In order for the capex math to work, revenue must grow faster than what’s already been a breakneck pace. Ecosystem ARR is looking to be at least $200 billion, an eye-popping number few were predicting back in 2023.
+But it’s not enough. Doubling capex here would require revenue that has a starting unit of “trillion”, and we don’t think that will happen.
+Said differently, it’s
+peak capex growth
+.
+The revenue-capex canyon is not a new argument, and some earlier takes argue using numbers that are now insignificant relative to current scale — remember Sequoia’s
+$200 billion
+question in September 2023, or its
+$600 billion
+question in June 2024? Quaint.
+It’s not hard to see potential for overhype and overbuild – we’d wager that most in the market
+expect
+that cycle to play out at some point in time.
+But the AI bear case hasn’t had any teeth — as long as there is still belief, momentum, and most importantly
+money,
+the trade is viable. Hyperscalers – with a combined market cap of well over $10 trillion – can no longer tap their cash flow to fund these projects and have been shoving debt and equity issuance into a market of “willing buyers at the current fair market price”.
+Each stock and bond sale chips away at total liquidity in capital markets, and each round of dilution deadens the prior enthusiasm of slinging tokens at an 80%+ margin.
+There is a supply and demand curve for everything, even capital, and it’s clear that demand for the issuances is starting to wane as well.
+Outside of capital, problems are now surfacing surrounding the execution of datacenter construction, where the
+Bottlenecks™
+– power, plugs, and policy – have evolved from a momentum trade to real-world risks.
+Securing interconnects, labor and supplies is holding back construction and could create a slowdown in spending on their own. If the delays stack up enough, with turbine backorders not being fulfilled and input costs cranking, investors start looking at the extended completion dates up against the existing debt maturity dates and you start hearing phrases like “takeout risk” and “completion defaults.”
+Perhaps the bottlenecks become the excuse some people need to quietly trim their own projections without causing a rush for the exits.
+And policy is no longer ambiguous. The gubernatorial elections in Texas, Ohio, and Georgia – three of the largest data center locales in the country – were effectively a referendum on the buildout. None of the incoming governors are likely to put an outright stop to the buildout, but
+the cost is almost certainly going to get a lot higher
+: larger municipal concessions, clean energy requirements, ratepayer protections, and slower permitting.
+Texas offered a sneak preview before the votes were even counted. Last week, banks got hung on $15 billion in funded bridge loans to an Anthropic-backed datacenter project that
+was halted
+by the Texas DC moratorium (which alone is one of the most potentially disruptive wildcards to the AI capex trade).
+The credit markets that
+aren’t
+backstopped by hyperscalers have ground to a total halt. Nothing will make a bank pucker faster than getting stuck with risk it can’t move. Neoclouds, high yield private credit, and BDCs?
+Good luck.
+And as for the labs? We noted to readers that Anthropic’s S-1 published last week was a lot cleaner than some expected. To its credit, the company has done a good job letting others hold much of the capital-intensive buildout risk while sitting on a massive cash pile, and breaking cash-flow positive far ahead of most expectations. But for those of us with a memory longer than a goldfish, we have seen disruptive token pricing rapidly collapse an advantage.
+On July 30, OpenAI slashed token prices to claw back market share from the other labs. It worked for OAI, but the move was a clear sign of commoditization, and price wars marked the beginning of the end of the great railroad cycle.
+Ant’s explosive growth hit a wall as its share immediately flowed to OpenAI.
+Many customers, it appears, were indeed
+price elastic
+in an industry with remarkably similar products and near frictionless, instantaneous,
+often automated
+switching
+.
+We aren’t here to dump on the labs. It seems like token pricing has stabilized for the moment, Anthropic is doing well with Opus 5.5 and we think both labs likely have a lot of long-term value. But like all revolutions, what is needed to sustain capex growth rates is likely
+not possible
+in this reality.
+When quite literally trillions of investment and wealth are hanging on the assumption that two companies are going to 10x revenue in the next several years, the bar of scrutiny is appropriately raised.
+Finally, if NVDA’s 2023 earnings were a confirmation of an upward inflection already in process, perhaps we are now seeing the evil twin to the downside –
+destructive disruption
+in things like SaaS and Search that is now finally showing up in the numbers. Of course our
+2028 Global Intelligence Crisis
+was merely a thought piece but at least parts of it are...a little on the nose.
+Citrini Research | Bloomberg
+Is this time different? We’ve had DeepSeek, Tariffs, Iran… is this just a correction?
+It’s a question of expectations. What’s the base, what’s priced, and who’s willing to fund it?
+Are lab ARR growth rates higher or lower next year than the past year?
+Are 2027/28 datacenter delivery schedules likely to accelerate or be delayed?
+Are financial markets more or less likely to lend to the theme?
+Now, to be clear, we have no doubt that token usage, token spend, and AI adoption will all continue to grow (with both productive and disruptive downstream effects). What we are less convinced about is the
+ability to invest in companies that so far have captured the bulk of value in this investment – or the Trade (as we know it).
+We’re going to introduce some nuance here because any time you take a position that is slightly different from the one you just had, the assumption is that it is a hard flip and we are going from 100% bullish to 100% bearish. That is not our intent.
+Right now, the consensus bear take is that the music has stopped, and we all start reciting Jeremy Irons’ monologue in Margin Call.
+Instead, we are expecting a coda: the music slightly changes, in either key and pacing, and it serves as a transition into a new melody
+.
+…Meets Macro Expansion
+If we are essentially making the argument here that the peak expectations in the AI infrastructure trade have passed (
+this is a fuzzy subjective on second derivatives, rates of change, and overall market hype
+), aren’t stocks, and the economy thereafter, screwed?
+On some timeframe maybe…? But maybe not. It’s certainly not what we are seeing today,
+it certainly isn’t happening tomorrow
+.
+Rather we are seeing the opposite. For the first time in four years, we are seeing an increase in broad job openings with particular strength in cyclical manufacturing, where employment is turning higher. A four-year easing cycle and investment boom from AI seems finally to have pushed the overall economy back to more signs of broad-based expansion and inflationary pressure.
+The survey data looks the same. Headline readings across both services and manufacturing are at multi-year highs, while pricing pressure continues to move higher.
+Some of this is clearly being driven from surging investment in AI, and we doubt the economy could survive a true “AI bust”, but there are plenty of other drivers like OBBBA tax breaks, tariff relief and onshoring that will persist regardless. Pricing pressure and inflation are still running well above the Fed’s target and labor market dynamics are supportive of wages.
+On job creation breakevens, the Fed Board’s
+Murray-Vidangos
+series puts breakeven at 155,000 in 2023–24 (immigration surge), 85,000 in 2025, and 5,000–10,000 by late 2026 as net immigration goes negative. Payrolls are running 51,000 on a 3-month basis and 68,000 YTD, which means the labor market is absorbing supply at or above breakeven even if the headline numbers look anemic.
+A lower supply of labor also means that what would have been relatively soft job opening numbers a few years ago can still result in decent support for wages. Indeed, this was probably part of the political calculus behind targeting immigration as a policy variable.
+And even if there is a hard reset in AI investment (which is far from a foregone conclusion), the real economy doesn’t break down at the first whiff of weakness.
+Our view on AI has to do with slowing growth colliding with a funding mismatch — but all the existing development still has years before project completion. And while increased production can help relieve bottlenecks in memory and power, you can’t spin up new electricians. Labor is a bottleneck that has not been solved, and we expect it to stick around for a while absent a total collapse.
+There’s a long way between “stocks drop on 2029 memory price forecasts” and “empty datacenter worksites,” but the market has an uncanny ability to discount and rerate before the bad news finally hits.
+It’s a risky game to simply take a prior cycle and assume it repeats in the same fashion – think about how many were offsides on the surefire “yield curve inversion” recession indicator in 2022. But there are enough similarities to take seriously.
+The market smells like “late cycle expansion”.
+Since we’re already doing some macro handwaving, let’s add real rates as an additional dimension:
+Economic data is still showing expansion, but in our
+Regime Cube
+, 9 of the 14 asset pairs we track are trading with a stagflationary tilt. The prime example would be cyclicals vs defensives (discretionary, industrials and materials against staples, utilities and health care): down 2.4% over the past month, 2.9% over three months and 6.9% over six months, with the trend pointing down. While the inflation gauge and growth gauge base the model in inflationary growth, the overlays of asset price behavior and 10-year real yields move the call towards the stagflation quadrant.
+This trend is far from nascent in some pairs, so while we remain cognizant of the big-picture shift, we also don’t want to press on this trade expression blindly. The “defensive” rotation has now been in play for months – pushing some staples into nosebleed territory while also setting the stage for a relief on the AI side and momentum.
+This is what late cycle expansion looks like.
+Do you pray for a second leg up in Beta and Momo (massive downside if you’re wrong) or do you chase low-growth dogs at even higher valuations?
+If you’re sitting on the fat gains of the bull cycle, maybe it’s time to pick up your ball and go home… or maybe it’s time to start playing small ball.
+What’s the Trade?
+To date we’ve intentionally maintained broad baskets focused on big themes with decent beta.
+High-beta stocks provide leverage and amplify returns – a feature in the bull market and a failure in a bear. It’s hard to pivot strategies at the bottom of a local selloff but some longer-term perspective is useful. We aren’t reacting to the selloff last week, or a rally today – we’re responding to a market cycle that has been years in the making, armed with a wide enough agreement across signals, subjective and quantitative.
+The high-beta factor has been a major loser in recent weeks, but on a multi-year time horizon the rate-of-change suggests the beginning of a new regime in which low-beta has
+only just begun to outperform
+.
+Similarly, other measures of momentum suggest that we are only just coming off the top of a historically long pro-momo thrust.
+This aligns well with our own finger in the air. A historic breakdown in momentum on a blowoff leads to a double-top following a few months later? Meanwhile, fundamentals in the trade are clearly shifting, financing is freezing, and even the most true believers are seeing cracks they can’t ignore.
+So what are we looking for?
+There’s a market-driven reason for this move as well. During the month of October, the Nasdaq pulled back 8% from all-time highs, but underneath the surface was a complete bloodbath as leveraged long/short trades were unwound. Just as the introduction of 0DTEs changed price action in the S&P 500, factor trading has created crowding in certain themes where it makes sense to build out smaller baskets with a more tactical nature.
+Going forward, we expect a period of reconciliation among yesterday’s winners by quality and hype and extension of forgotten real-economy opportunities.
+Here is the Citrindex,
+Reloaded.
+Read more

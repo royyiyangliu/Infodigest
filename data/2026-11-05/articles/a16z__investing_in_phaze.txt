@@ -1,0 +1,18 @@
+Source  : a16z
+Title   : Investing in Phaze
+Date    : 2026-11-04 14:35 UTC
+Link    : https://www.a16z.news/p/investing-in-phaze
+────────────────────────────────────────────────────────────
+
+A major lesson in getting productivity out of agents over the last few years has been to give them computers and applications like you would a human. This wasn’t obvious at first, and we as an industry tried to create agent APIs and other abstraction layers. But the reality is that AI models want to act more like humans, not less. And so the best thing to do is just give them a full desktop, a full browser and a full app and let them go to work.
+Now, that can be pragmatically tough, because often apps are operating system specific (e.g. Windows) or have specific hardware requirements. So the most sophisticated users allow their agents to connect to apps and operating systems remotely. Phaze enables that remote access.
+Phaze
+is a high-performance remote desktop solution for giving humans and agents a local-like experience on remote workstations. What sets Phaze apart is multi-fold. For one, it’s the best solution for interactive, latency-sensitive workloads. So if you want to give your agent access to Blender or Unreal Studio, Phaze is the way to do that. But it was also designed from the ground up for working with agents, which makes compatibility, management and administration seamless.
+It’s not a surprise Phaze is as good as it is given the team behind it. In fact, this is their second time building an industry-leading remote desktop solution. Benjy Boxer and Chris Dickson, the founders of Phaze, previously built Parsec, which at the time was the leading remote desktop solution for graphics-intensive applications. We were investors in Parsec and sat on the board through its acquisition by Unity.
+So I’m very excited to be working with this team again to bring desktops and applications to agents. And of course to humans too.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

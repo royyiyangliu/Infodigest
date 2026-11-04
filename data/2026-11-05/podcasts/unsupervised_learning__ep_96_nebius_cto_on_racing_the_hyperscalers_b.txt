@@ -1,0 +1,623 @@
+Source  : Unsupervised Learning
+Title   : Ep 96: Nebius CTO on Racing the Hyperscalers Before AWS Wakes Up
+Date    : 2026-11-02 13:54 UTC
+Link    : https://www.youtube.com/@RedpointAI
+────────────────────────────────────────────────────────────
+
+Speaker 1 | 00:00 - 00:15
+If NVIDIA could have bought... Like, could have produced, like, 10 x the chips, this whole market would have been shaped differently. Yeah. Because there is not enough capacity for their scale, this is a relatively small business for them. For the hyperscalers, it's not just a matter of, like, sales.
+
+Speaker 1 | 00:15 - 00:29
+It's also a matter of changing the infrastructure that was built at scale for other kinds of workloads. This is a massive investment on their part that needs to be justified by the size of a potential business, and it's not that there yet.
+
+Speaker 2 | 00:33 - 01:08
+The emergence of Nebius and the other hyperscaler competitors these past years has been a fascinating part of the AI story. It's something I've really been interested in, and so it was a lot of fun to have Nebius' CTO, Neela, on the podcast because we're able to dig into a bunch of interesting things about the business and how the space has unfolded. We talked about Nebius' really interesting origin story and the original relationship with Yandex and how the company came to be. We talked about what it's like to be inside one of these companies, how Nebius works, you know, with NVIDIA, what it looks like to get their next generation of chips live. We talked about why the opportunity actually existed and why AWS, GCP, Azure, didn't just capture this entire market.
+
+Speaker 2 | 01:09 - 01:30
+We also talked about Danila's view on a bunch of new technologies like Disag, Inference, among other things. All in all, just awesome to get to talk with someone who's at the epicenter of the AI infrastructure market about his thoughts on everything about where the space is headed. I think folks will really enjoy it. Without further ado, here he is. I guess I'd love to talk just maybe about the broader, like, AI cloud market, you know, today.
+
+Speaker 2 | 01:30 - 01:48
+And I think that there's a few maybe larger and prominent public, you know, I guess, neo clouds. And then, you know, it feels like there's a new one getting funded every day. I know you don't like that term. But maybe just talk a little bit about how you think about what differentiates... Like, some of our listeners are probably thinking like, you know, all that really matters is just access to GPUs and like, you know, you...
+
+Speaker 2 | 01:48 - 01:54
+Wherever you can get them, you go. Maybe maybe use that as a straw man and and tell us why that's not the case.
+
+Speaker 1 | 01:54 - 02:27
+Well, I'm obviously biased. Because like, first of all, I'm a software person. And our product and business was launched on the idea that software is the moat. Right? So your ability to serve the customers that consume, I don't know, tens of thousands GPUs, of GPUs, and then one interconnected cluster with the same platform as you serve, like a self-service customer that runs one GPU for half an hour, was our value prop from the very beginning.
+
+Speaker 1 | 02:27 - 02:52
+So we believe that this is extremely important. Being able to build large scale, but have the possibility almost like sell it in retail in a sense. This is what we think like definitely differentiates us from the market, from everyone on the market. Like a small remark, Neo Clouds. Hate that term, like with a passion.
+
+Speaker 1 | 02:52 - 03:16
+Because like, it started as a distinction, as in these are kind of cloud companies that are doing this weird, strange new thing. But then everyone wants it in that market. So like, when we started, there were like, I don't know, five, seven companies that were in this area that were called NeoClouds. Now I think it's closer to, like, three to 500.
+
+Speaker 2 | 03:16 - 03:16
+Yeah.
+
+Speaker 1 | 03:16 - 03:31
+Depending on what you even are ready to call a Neo Cloud to the scale. And we we really don't like this stretched umbrella term anymore. We are the AI Cloud. We don't care. Like, let others...
+
+Speaker 1 | 03:31 - 03:48
+Other guys beat Neo Clouds. We are the AI Cloud, And this is our mental model. We are not competing with the Neo Cloud markets. We kind of believe we are past that. Our next competition point is taking on AWS and Google Cloud.
+
+Speaker 1 | 03:49 - 04:10
+Yes, we are way smaller. Yes, our revenue is like, what, I think 1% of AWS nowadays. But we are running fast. We serve a very particular market. We have a bet that this is the market that is going to grow, that is going to explode.
+
+Speaker 1 | 04:10 - 04:42
+So people are concerned that these investments are huge. People put a lot into the infrastructure, etcetera, etcetera. My view, if I compare what we see in the market with what was there two years ago, we are barely scratching the surface. I think the overall demand in the next three years will increase tenfold, hundredfold maybe. So we are at the verge of another explosive growth.
+
+Speaker 1 | 04:42 - 04:56
+Right now, we see these huge facilities. But a lot of those are privately owned for internal needs of certain companies. Right? So they're like, Elon Musk is talking about his Colossus cluster. And it's like, it's a man's scale.
+
+Speaker 1 | 04:56 - 05:07
+Like, really, it's like real solid, large scale thing. But it's not for the broader market. Right? It's for their internal needs. Maybe for some partners that they do something.
+
+Speaker 2 | 05:07 - 05:08
+For Anthropic if...
+
+Speaker 1 | 05:09 - 05:27
+Yeah. Anthropic and OpenAI are messing the, like, the capacity, but they do it for their own product. And this is like a wholly separate discussion. These companies will essentially want to be everything. They will want to be the internet and contain everything and every product and every capacity angle within themselves.
+
+Speaker 1 | 05:29 - 06:00
+There is a question of Google, Meta, and Microsoft who have a lot of capacity but are constantly juggling and struggling between, like, giving it out to the market for... Like, to rent or giving it out to internal teams. Because all of all of these companies are extremely, like, machine learning AI enabled. They need a ton of capacity for internal usage, for runtime and for research. So they have to constantly juggle this.
+
+Speaker 1 | 06:00 - 06:15
+So our bet is that there is a niche for an independent, as in not affiliated with a large company with huge internal consumption player that will serve the markets of the mid tier players who want to be the large companies.
+
+Speaker 2 | 06:16 - 06:28
+I thought it'd be interesting for our listeners to talk a little bit about the history of Nebius. I feel like it's a really interesting path that you've you've... And, you know, had to end up here. And so maybe just talk a little bit about how the business came to be.
+
+Speaker 1 | 06:28 - 06:47
+I will start with the, like, with the moment I've joined. Right? So I am CTO of the company, but I've been with the company from the very beginning, like, since before it was called Nibius. So the new company is established, I think, during 2024 also. The deal was finalized.
+
+Speaker 1 | 06:47 - 06:57
+We finally announced our separation from Yandex. No connections to the Russian assets anymore, clean slate, etcetera, etcetera, etcetera. And that was it.
+
+Speaker 2 | 06:57 - 07:26
+You know, people have come to these AI cloud businesses in different ways. And, obviously, you know, I felt like the Yandex team was, like, legendarily really, really strong, you know, on on the engineering side. You know, a lot of folks building AI clouds came from, like, crypto or energy or, like, not not necessarily the same, you know, maybe technical heritage. To what extent, I guess, was the Yandex experience really relevant? And to what extent was it like, you know, it turns out no one knows how to build a GPU cloud because it's all kinda new and, you know, there's there's...
+
+Speaker 2 | 07:26 - 07:27
+Everyone's learning on the fly.
+
+Speaker 1 | 07:27 - 08:04
+First, we had and still have the core team that supports the hardware side of business that came from Yandex that had experience operating hardware, like, infrastructure at scale, like, real scale. Hundreds of thousands, millions of servers, span over multiple facilities, etcetera, etcetera, etcetera. These people, like, were at the core of our build outs, like initial build outs and expansion, and they're still with the with the company. So this definitely helped. I think, like, we would be way less successful if not for that core team.
+
+Speaker 2 | 08:04 - 08:05
+Yeah.
+
+Speaker 1 | 08:05 - 08:15
+On the software side, it's interesting because it's a two fold. Like, because like with hardware, it's very straightforward. We needed people with experience. We had people with experience. They started building out from the get go.
+
+Speaker 1 | 08:16 - 08:41
+On the software side, it's... It was a weird one. First of all, we had to rewrite everything from scratch. So our previous experience was kinda like garbled. Second, we had to grow so fast that by, for example, by the end of twenty twenty four, when the new platform launched, like a significant portion of our engineering team, software engineering team, was not from Yandex anymore.
+
+Speaker 1 | 08:41 - 09:00
+Because we had to hire during this period extensively. As a team, we were working on this cloud platform from, like, from the initial idea. Right? So we kinda just went with it and doubled down on software. Like, we are not doing a managed bare metal.
+
+Speaker 1 | 09:00 - 09:24
+We are not doing a patchwork of third party services. We want to build a holistic cloud experience, the holistic cloud platform. And we kind of doubled down on that even with the whole rewriting of platform, like doing it from scratch, etcetera, etcetera, etcetera. And, of course, like having a ton of talented engineers on the team obviously helped. Like, just for the scale of it.
+
+Speaker 1 | 09:24 - 09:56
+Right? You've mentioned, like, people who, like, came from crypto or came from other avenues of life. They are mostly concentrated on how to... Like, their idea is like, you need to buy GPUs, you need them to run, and then you'll find the buyer. In our case, for example, in 2024, when our hardware team that actually, like, procured GPUs, did the build outs, we're working on our own servers and chassis, writing firmware and stuff, building the network.
+
+Speaker 1 | 09:57 - 10:08
+That whole team was roughly, like, 40 to 50 people. Yeah. The software organization was already 200. Right? So we kind of concern...
+
+Speaker 1 | 10:07 - 10:15
+Like, think of ourselves as a software first company. We are building the cloud on the solid foundation of hardware. Yeah. We're not a hardware first company.
+
+Speaker 2 | 10:15 - 10:34
+Makes total sense. I guess I'd love to take our listeners, like, inside Nebius. I feel like there's so many interesting parts of the business. But maybe one place to start would just be, I imagine as you're, like, getting, you know, new NVIDIA chips that come in, like, there must be a bunch of stuff you have to do within the business to to get this all all up and running. So, like, what does that look like from, you know...
+
+Speaker 2 | 10:34 - 10:42
+I don't know. You're talking to NVIDIA folks, and they're, you know, giving you early insight into into the next generation of chips to, like, you know, actually getting these live for a set of customers?
+
+Speaker 1 | 10:43 - 10:56
+That is a mess. No. I mean, like, in a good way. You you know? Like, this whole this whole market, this whole field is running at such a pace that everyone is trying to catch up.
+
+Speaker 1 | 10:56 - 11:30
+Right? And NVIDIA, despite being in the lead of this, essentially leading and showing the direction for this market, is not the exemption. So first, NVIDIA folks, like, way before show you the prototypes of what they want to build in the next, like, year. Right? They kind of show you the schematics, like how it will be, like, optimized internally, where is your PCI connections, how would that look like, what is the future platform would look like.
+
+Speaker 1 | 11:30 - 11:43
+Then sometime later, they come to you and said, oh, like, we've optimized things. It's now gonna be different. And you're like, all right. Then they come to you and like, oh, we have, like, the first lab samples. Do we want to have a look?
+
+Speaker 1 | 11:43 - 11:54
+Yes, of course, we do want to have a look. Oh, by the way, it doesn't look like the stuff you've showed us two months ago. Oh, we've changed stuff because, like, we found, like... Right. Because they are so compressed in time, same as they...
+
+Speaker 1 | 11:54 - 12:01
+Everyone else. They are constantly iterating while these chips are being produced. Right? So they've... It's not your, like...
+
+Speaker 1 | 12:01 - 12:27
+You know, there is, like, an ocean in the consumer market. Like, Apple iPhone that you see today was actually planned three years ago, and final design more or less was settled, like, a year ago. And they take the final year to polish it to build this product. Like, AI market is running at such a pace, like, that whatever, like, they announce is it's indicative. And then teams are constantly
+
+Speaker 2 | 12:27 - 12:31
+Well, the architecture and the workflows are changing. Right? So I'm sure they're iterating as as that evolves.
+
+Speaker 1 | 12:31 - 12:44
+Like, they're iterating, like, going further and further and further. NVIDIA is a behemoth now. Right? Whatever they do influences the whole market, supply chains, just everything. So they have to, like, live with that.
+
+Speaker 1 | 12:44 - 13:06
+So at some point, you get a sample, and it's more or less like what you'll get in production. Then you start building. Like you're testing everything. You like incorporate support for the new hardware, for the new restrictions or capabilities into the software platform. You figure out a way to isolate workloads from from the chat.
+
+Speaker 1 | 13:06 - 13:16
+We are we are a cloud. We are not providing bare metal hosts. Right? Like, so we need to split. We need to make sure that our virtualization works, that our storage works, that our networking works.
+
+Speaker 1 | 13:16 - 13:39
+Sometimes we are on the bleeding edge of this. So we, like... For some of the generations, we were probably the first team... Like, maybe one of the first teams that actually built, like, a cluster of a certain size. So we've hit some issues with, like, with the software that no one has seen before.
+
+Speaker 1 | 13:39 - 13:57
+So we had to report that back to NVIDIA, like, propose a patch, get there, like fix from it, make sure that it runs, etcetera, etcetera, etcetera. So like, we kind of feel like we are at the forefront of it. But all in all, it's a pretty normalized process. It may sound messy. Right?
+
+Speaker 1 | 13:57 - 14:30
+There are like multiple iterations. You go back and forth. You're in constant contact with like NVIDIA hardware folks, with NVIDIA software folks. You're trying to solve the issues on your end at the same time, incorporating into a more complex platform, thinking how can you expose that to customers. Because, for example, working with, like, your usual black hole chip, like, you know, the b three hundreds, and then transferring that experience to g b three hundreds, which I recall different architecture in terms of isolation.
+
+Speaker 1 | 14:30 - 14:54
+You are talking racks rather than servers. So you need to find a way how to do maintenance on the rack instead of the server, which you just switch off and you move the workloads to another one. Despite all of that, this kind of works all the time. And every day, you like push it a little bit further. And then in the end, yes, there is a product and the customers use it.
+
+Speaker 1 | 14:54 - 14:55
+And that's it.
+
+Speaker 2 | 14:55 - 15:18
+One thing I think it would be so interesting to get your thoughts on is just the the differences in, you know, kind of what end customers end up wanting. Like, obviously, it can be easy to think, okay. Everyone just wants to, you know, come to you and and get similar things. But I imagine you segment your customers or think about differences in what is important to different customers. How do you think about the key differences in these customer desires today?
+
+Speaker 3 | 15:18 - 15:32
+Hi. I'm Anne Maris, and I'm the producer of Unsupervised Learning. Thank you so much for listening to the show. And if you've enjoyed the conversation, please subscribe. Subscribing helps us grow, which helps us continue to lock down some amazing guests.
+
+Speaker 3 | 15:32 - 15:35
+Thank you so much for your listenership, and see you next episode.
+
+Speaker 2 | 15:35 - 15:40
+How do you think about, like, the the key differences in in in these customer desires today?
+
+Speaker 1 | 15:42 - 16:03
+It's not that different, to be honest. Because, like, every customer is, like, its own unique flower. Right? But at the same time, workloads in principle are not that different. It's either training, and you kinda know how training looks like, or inference, and you kinda know how inference looks like.
+
+Speaker 1 | 16:03 - 16:25
+Circling back a couple of years ago, for example, we kinda underestimated the storage component. We thought GPUs are the most important thing. And they are. But alongside the whole training angle, you see a massive demand for storage. And it's not for the, like, amount of, AGDs or VMEs that you can provide to the customer.
+
+Speaker 1 | 16:25 - 16:38
+It's about throughput. It's about latency. In my prior life, pre AI workloads and infrastructure build outs, I was talking about gigabytes per second, if we were talking about network attached storage. Right? It was like...
+
+Speaker 1 | 16:38 - 17:02
+It's really... Right now, we have customers routinely kinda like hitting our... Like a common share, like one volume, right, connected to a number of GPU servers with like, I don't know, five, six, 700 gigabytes per second of throughput. This is extreme. Like two years ago, I didn't even think about that.
+
+Speaker 1 | 17:03 - 17:19
+And now this is more or less like something we expect. At the same time, if you are targeting these numbers for the highest demand... Like, the the most demanding customers, your baseline is so high, you kinda can serve anyone.
+
+Speaker 2 | 17:20 - 17:20
+Yeah.
+
+Speaker 1 | 17:20 - 17:52
+Right? So if you hit this, like, use case where the customer needs 700 gigabytes per second from a, I don't know, three petabytes of shared file storage connected to a thousand of servers or, like, 8,000 GPUs, you kind of know how to serve a massive cohort. So I'd say in terms of like performance or features per se, the customers are not that different. Then you meet another subset of, like, what the customers really want. Because there are def...
+
+Speaker 1 | 17:52 - 18:13
+Definitely different customers in terms of not their scale, not their size, not their workloads, but rather how mature they are. Now, what are their obligations, like, for their clients? Right? Because we can talk about, like, a new labs. Like, new labs routinely have seat rounds of...
+
+Speaker 1 | 18:13 - 18:32
+In the billions nowadays. Right? So most of that budget goes into commutes. So you can have like a contract for a billion dollars with a newly founded NeoLab who... Like, they don't care that much about anything but GPU, storage, performance, availability.
+
+Speaker 1 | 18:33 - 18:43
+This is it. They... Like, oftentimes, they don't even care about the location of those GPUs. Yeah. They don't care if that's US, Europe, like France or Iceland.
+
+Speaker 1 | 18:43 - 18:50
+Like, why why bother? Like Yeah. Internet connection is good. Storage is there. GPUs are working as a...
+
+Speaker 1 | 18:50 - 19:09
+And we are talking about a billion dollar contract. Right? At the same time, we now see and like start onboarding enterprise customers. These are companies whose like the contract with us will be smaller, sometimes significantly smaller. But they are more established.
+
+Speaker 1 | 19:09 - 19:24
+They have customers, and they have applications for that customers. They have procedures. They need to make sure they're compliant to a number of regulations in, like, multiple countries.
+
+Speaker 2 | 19:24 - 19:24
+Yeah.
+
+Speaker 1 | 19:24 - 19:44
+So now we are getting into that whole angle of being the real cloud, you know, like certifications, compliance Yeah. Security posture checks. Let us look at your source code. How do you solve problem x? How do you, like, protect your customers from attack vector y?
+
+Speaker 1 | 19:45 - 19:57
+Etcetera, etcetera, etcetera. And I'd say if you are talking about differentiated customers, this is the most differentiating thing as opposed to what you would expect from the size or the performance.
+
+Speaker 2 | 19:57 - 20:26
+You know, obviously, I think a lot of people are thinking through this this trade off of of, like, throughput... Or a trade off of, like, latency and and and kind of cost. And I imagine you have some customers that have workloads that are super latency sensitive and they'll do small batches or whatever is required to get to that latency. Then you have other customers that are much less latency sensitive, maybe background agents or something. Is that all just determined on the software side, I guess, if you have those different customers of, like, basically how, you know, the batch size that you're running these workloads in?
+
+Speaker 2 | 20:26 - 20:31
+Or Yeah. Do you actually construct the clusters in any different ways based on those workloads?
+
+Speaker 1 | 20:31 - 20:35
+No. No. No. No. This was the premise from the very beginning.
+
+Speaker 1 | 20:35 - 20:53
+We are building the universal cloud platform, and we need to make sure that our baseline is high enough to fit most of the workloads. Yeah. Then there is the SLA play. Right? So customers come, like, example, for the managed inference part of the business.
+
+Speaker 1 | 20:53 - 21:11
+Customers come with the different demands. And then you are in this kind of a benchmark game. Right? They want this particular footprint based on this particular traffic pattern, feeds these SLAs in terms of latency. Latency is time to first token.
+
+Speaker 1 | 21:11 - 21:30
+Or the whole like request latency. And you start optimizing for that. But this is never done on the hardware level because hardware is good enough. This is rarely done on the lower infrastructure level because it's universal. And again, good enough, no compromise for performance, etcetera, etcetera.
+
+Speaker 1 | 21:30 - 21:50
+And you're going further away to the orchestration level, to the model level, way further up the stack, all the way to how exactly does the request from the customer, like the endpoint, gets to the inferencers and what are your performance hits along the way.
+
+Speaker 2 | 21:50 - 21:51
+Yeah. That makes sense.
+
+Speaker 1 | 21:51 - 21:53
+So this is, like, 100% software.
+
+Speaker 2 | 21:53 - 22:05
+I guess a lot of people have talked to me. You it feels like this this disag, you know, splitting prefill and decode is very in the air these days, and a lot of people talking about that. Like, is that something you guys think about now? Or or at least how do you how do you think about that kind of in the future?
+
+Speaker 1 | 22:05 - 22:36
+I think we are in the stage where everyone's talking about that and no one's doing that properly. So because like, it is a complex problem to solve. And particularly in inference, you have a lot of other problems, like way lower hanging fruits that you can fix address and hit those SLAs. So we are quite cautious about that. We don't have it, for example, as a go to solution for every customer, for every workload.
+
+Speaker 1 | 22:36 - 23:01
+Because like, first, it doesn't make sense. Second, it's really hard to operate and to work with. Like, provides proper SLAs around that is, like, proving quite difficult as of today. We have some promising results in our, like, prototype services, but not as of today. At the same time, we have some, like, disaggregated setups for the most demanding customers in production right now.
+
+Speaker 1 | 23:02 - 23:29
+It's just more, you know, wide glove manual approach. Yeah. But especially for these newer architectures of, like like, you know, those gray black walls, whole node that has really fast interconnect, a lot of challenges that you've had before with disaggregate steps are kind of solved if you're able to fit in the footprint of a rack. Because, like, the throughput is so much faster. Like, interconnect is so much faster.
+
+Speaker 1 | 23:29 - 23:41
+You kinda stop caring, and that this is a way of just balancing the prefilling decode nodes to match the particular pattern that you see from the customer.
+
+Speaker 2 | 23:41 - 23:44
+What... What's your mental model for, like, the workloads that do fit in a rack?
+
+Speaker 1 | 23:44 - 23:52
+I don't know. It's a very case by case. Well, these are definitely significant workloads. Like, we are talking, like, thousands of requests per second. Right?
+
+Speaker 1 | 23:52 - 24:05
+We are talking, like, billions of tokens that flow through. But at the same time, because we are the cloud, we can, for example, like share the rack between two workloads and not be that bothered about that. Right?
+
+Speaker 2 | 24:05 - 24:06
+Yeah.
+
+Speaker 1 | 24:06 - 24:20
+So for example, on the cloud side, we... For for this particular product, we only allow to consume, like, a track level. You cannot order two Grey's Blackwell's nodes. It doesn't make sense.
+
+Speaker 2 | 24:21 - 24:21
+Yeah.
+
+Speaker 1 | 24:21 - 24:51
+Right? Like, you have to allocate the whole rack and then, like, structure workloads within it. But, for example, when you're a client of such a solution, as we do with managed inference, for example, you can collocate workloads and you can find a way to do that. So in a sense, you don't need to fit anything in the rack. It's just, is there a workload that will benefit from this disbalance, like, intentional disbalance of prefilling the code nodes?
+
+Speaker 1 | 24:52 - 24:58
+Yeah. And can you fit more than one into a single rack, and how do you solve the packing problem?
+
+Speaker 2 | 24:58 - 25:11
+Yeah. That makes sense. And you kinda mentioned there's, like, lower hanging fruit on the on the inference side, you know, than than doing that maybe. What what are, like, some of the lower hanging fruits today that you still think we're we're not as as as an industry optimized on?
+
+Speaker 1 | 25:11 - 25:46
+Well, first of I think as an industry, we didn't optimize shit. So, like, pardon my French. But in a sense, I strongly believe that running inference, particularly in the like variety of open weight, source ish models that are available today, is not a solved problem. Like, if you take something, just run with it as it's published, like in the initial support in some of the open source inference servers run with the novel models, your results will probably be underwhelming. It's not that fast.
+
+Speaker 1 | 25:46 - 26:24
+It's not that cheap, especially with like current prices on the infrastructure. It's easier to go and use like, I don't know, Fable 5.1, Astra six, etcetera, etcetera, etcetera. But because of the open architecture, because like of everything that we know as of today, you can optimize the way you process those requests. You can optimize the way the inference server is configured. You'll put a lot of effort in kernel optimizations, sometimes kernel over optimizations based, like, on the particular pattern that you see in the traffic.
+
+Speaker 1 | 26:24 - 26:42
+Right? There is a lot of underexplored potential in model weights optimization. And I'm not just talking about like stuff like speculative decoding, for example. I'm talking about like model pruning, selective pruning, compression. Because I believe that...
+
+Speaker 1 | 26:43 - 27:09
+And we see that within our customer base. 95% of our customers do not run vanilla open source models. These are modified, fine tuned, etcetera, etcetera, etcetera. It means that these are the models that start to address a particular use case that the customer has. Particular use case usually means limited domain, scoped domain.
+
+Speaker 1 | 27:09 - 27:48
+Scoped domain usually means that you need to retain like frontier intelligence and reasoning for a particular subset of tasks. And you don't care about the rest. And now we are getting somewhere in terms of like, maybe you don't need such a large model anymore. Maybe you need just like a model that is selectively compressed in a way where it works for a particular task and it doesn't work as good for the rest of it. Now, of course, that doesn't work with, like, open ended, you know, deep research or broad coding tasks anymore.
+
+Speaker 1 | 27:48 - 28:31
+But I strongly believe that for for real AI adoption, when we are talking about serious enterprise business, when we are talking about, like, practical AI that actually solves problems, You are getting more and more into these specialized agents, limited domains, where you even stop caring about the cost. You care more about predictability of the outcome, and you care about time, as in, like, real seconds and minutes till you get that outcome. Yeah. And I think there is a lot of potential there, and we still... We'll we'll we'll still see a couple of nice breakthroughs there.
+
+Speaker 2 | 28:31 - 28:59
+There's a ton of work around inference optimization, and a lot of that gets done in open source, right, or, like, you know, contributions that that share throughout the community. There's obviously a bunch of work on on on, like, smaller purpose built models and and compaction and a bunch of these things. Across all these problems, which do impact, you know, how enterprises consume inference, which ones, like, Nebia should have a solution or offer a product around, and which ones you're like, hey. It's great that that exists, and we'll benefit from that, but we don't need to be at the forefront.
+
+Speaker 1 | 28:59 - 29:27
+We want to be at the forefront of everything. In a sense, these are additive and even maybe multiplicative. Right? Like, if you have a right subset of things, optimizations that you introduce for a particular use case, it means that you can reach the targets easier, better, faster, in a more predictable fashion. So we invest in all avenues.
+
+Speaker 1 | 29:27 - 29:52
+Like, one of our acquisitions back in, like, the beginning of summer was targeting specifically that. Like, we basically bought the company for the talent in model optimization, model compression, speculative decoding, etcetera, etcetera, etcetera, combined it with existing talent. So, like, we have, like, team that is two x this size. And we... Like, we have serious manpower, like, as in tens and tens of people who are working on these problems.
+
+Speaker 1 | 29:52 - 30:08
+Like, we have specialized groups for, like, kernel optimization, specialized groups for, like, model compression problems. Because this is... Like, I feel if you want to talk about, like, running inference as a service at a serious level,
+
+Speaker 2 | 30:09 - 30:09
+this is the
+
+Speaker 1 | 30:09 - 30:11
+only way you can do it nowadays.
+
+Speaker 2 | 30:11 - 30:27
+And I guess, like, you know, maybe along those lines, you guys have done, you know, a few acquisitions, and and one of them that that caught a few people's eyes was, you know, Tavoli in the kind of, like, web search space. Maybe talk a little through a little bit, like, you know, the rationale for that, how you think about that fitting into the broader platform.
+
+Speaker 1 | 30:27 - 30:56
+So first, we were very impressed by the product and their go to market motion. It was almost a year ago now. Right? But we felt like we knew how to help them run even faster with our expertise and technology and low level stuff. Because actually running a web search engine is not a very simple task, not neither from, like, the software development perspective nor from the It's
+
+Speaker 2 | 30:56 - 30:58
+a a lot of... You used to run one.
+
+Speaker 1 | 30:59 - 31:15
+And of us dabbled a little bit in our previous lives. Yes. Right? So this was the premise. Like, we have a great team that is running real fast in terms of like market penetration and in general go to market motion.
+
+Speaker 1 | 31:15 - 31:41
+And we know how to make it complementary with our expertise on the low level stuff infrastructure and, for example, large scale web index. It's not exactly, like, embedded into the rest of the offerings that we have now today. Like, we are exploring and we have something cooking for, like, for the managed inference combined with, like, agentic tools. Because, for example, we also develop sandboxes nowadays. Right?
+
+Speaker 1 | 31:41 - 31:55
+So this is another, like, building blocks for p... Building... One of one of the building blocks that people use to build their agents. We have several other products that are in the earlier stages of development in that regard too.
+
+Speaker 2 | 31:55 - 32:10
+Yeah. I mean, it seems that there's obviously a set of tools that folks are gonna use to build agents and build on open source. And it seems like you wanna have a bunch of those tools to be able to offer to Yep. To your end customers. And web search kind of being a a a key primitive for any any long running agent.
+
+Speaker 2 | 32:10 - 32:32
+We'll consume a decent amount of tokens on on just pulling information in. So Yeah. I guess I'd love to switch gears to just like the broader, you know, industry build out and and kind of the... You know, I I think there's lots of questions folks are asking about that. Figured one place to start that actually might just be interesting for our listeners is to what extent are, like, the data centers that you work with similar and, you know, like, there's a reference design and they all kind of, like, know, I don't know.
+
+Speaker 2 | 32:32 - 32:40
+To you, it doesn't really matter which one's which. And, like, what are some of the differences in them that actually impact the business of, you know, running an AI cloud on on top of them?
+
+Speaker 1 | 32:41 - 33:22
+To be frank with you, I have no idea what the walls of the facility are made of. So they're probably different, but that doesn't really help. But in all seriousness, what's within the walls is something that we fully control. We do not rent data centers when someone like have built the, like the network on their own or brought some GPU GPUs or servers, etcetera. If we don't own the facility and we rent it, for example, we rent, well, the building, electricity, but that's it.
+
+Speaker 1 | 33:22 - 33:42
+All the internal build out is controlled by us. It's like, it's done according to our standards. So from the software side of things, there is literally no difference which data center we run. Is it our own facility? Is it something that is built within a rented facility?
+
+Speaker 1 | 33:43 - 34:13
+Or for example, we've recently announced the so called asset light model when a third party brings capital in order to set up the facility and GPUs, and we run our platform on top of that. It's gonna be the same. These data centers are built according to our... Like fitted out according to our spec. Hardware is something that is familiar to us because like unknown hardware is quite hard to adopt and make sure that you provide proper SLAs.
+
+Speaker 1 | 34:15 - 34:29
+And that's it. So we don't compromise there. We never rent something from people and present it as our own cloud. If you launch a virtual machine in Nebios Cloud, we can be sure that it runs on our stack top to bottom.
+
+Speaker 2 | 34:29 - 34:49
+Yeah. Makes makes sense. I mean, I guess there's a lot of dialogue around the the bottlenecks to the AI build out today. And I think people talk about a bunch of different ones, you know, whether it's power or labor to actually make, you know, data centers, cooling, networking, you know, HBM, GPUs, I guess, as as a as a overall. Like, how do you think about what the what the key bottlenecks are today?
+
+Speaker 2 | 34:49 - 34:55
+If you were to to kind of rank the... Across all of them, the the the few that feel most most poignant right now?
+
+Speaker 1 | 34:55 - 35:14
+I'm sorry to disappoint. There is one single bottleneck, and that's your ability to execute. Because, yes, all of those are issues. Like, there are GPU shortage in the market, components shortage in the Nowadays, it's CPU shortage in the market. Like NVMe shortage in the market.
+
+Speaker 1 | 35:15 - 35:40
+There are, like, not enough facilities, not enough electricity, not enough not enough qualified, like, workforce to help you build it out. Not enough, like, small components like network transceivers, for example. What else is not in abundance? Oh, oh, well, you know, like, those large scale... I'm not sure.
+
+Speaker 1 | 35:40 - 35:48
+I, like, I I know the proper English terminology, but, like, you know, those machines that actually convert electricity in place like transformators.
+
+Speaker 2 | 35:48 - 35:50
+Oh, transformers. Yeah.
+
+Speaker 1 | 35:50 - 35:56
+Transformers. Yeah. Like, do you know the lead times on those these days? Oh, years. Right?
+
+Speaker 1 | 35:56 - 36:33
+So, like, everything is a problem. And I think the single bottleneck and at the same time, the single, like, mode that you can impose on that is, like, your ability to execute around all these problems and concerns, your ability to source, your ability to cut corners wherever appropriate, your ability to execute in general, your ability and flexibility to move stuff between facilities. Okay. We're gonna move this one from here to there, and then we're gonna move it back, kind of like, yes, we'll postpone this one, but this means we'll be in time with this one. This is important, etcetera, etcetera, etcetera.
+
+Speaker 1 | 36:33 - 36:46
+So I think that, like, this particular field, like an experienced project manager, is probably in highest demand I've ever seen throughout my career.
+
+Speaker 2 | 36:46 - 36:50
+Yeah. That's... I I guess the the the bottleneck is really good project managers, which Yeah.
+
+Speaker 1 | 36:50 - 37:02
+Exactly. Like, your your overall ability to, like, have this large context of, like, problems everywhere in mind and navigate that becomes a moat.
+
+Speaker 2 | 37:03 - 37:12
+Yeah. It's interesting because you obviously have, you know, the hardware itself changes... Changing. You have a bunch of workloads changing. Obviously, we have much more long running agents.
+
+Speaker 2 | 37:12 - 37:27
+We have more post training going on, you know, people running open source models. How does that actually impact the way that, you know, the overall, like, I guess, the overall build out of the clusters themselves? To what extent is it like, hey, you know, a workload's a workload and, you know, we can we can run it?
+
+Speaker 1 | 37:27 - 37:40
+No. The workload's a workload. Like... Exactly like you said. It is slightly different, But in a sense, you need a high enough baseline to not be constrained by that.
+
+Speaker 1 | 37:41 - 37:54
+And then the rest is just your optimization problem. The way you pack things. The way you split things. Right? Like you don't need whole nodes for some of the workloads.
+
+Speaker 1 | 37:54 - 38:22
+So you need to collocate workloads. You need to have the right primitives. You need to expose those through the platform, etcetera, etcetera, etcetera. But in a sense, like differentiated workloads almost never like impose any changes on on on how you build on the lowest level. Yes, of course, like nowadays with like these new architectures, like what is it called?
+
+Speaker 1 | 38:22 - 38:41
+Nvidia LPX, like the outcome of the grog deal. Right? This like adds to it. But in a sense, if you have experience running other generations, this is just another like 0.5 generation. Right?
+
+Speaker 1 | 38:41 - 39:00
+Yes, this will be a little bit novel and it's connected in a in a weird... Like, compared to the previous one's way. And it kinda is... Like, there are some restrictions when you can run and not run on that. But efficiency gains.
+
+Speaker 1 | 39:00 - 39:17
+And this is like just a, like a niche local addition to the platform to what to what you offer to the broader market. But in general, no. There is like way less custom, like custom solutions that you would expect from that. The workload is a workload.
+
+Speaker 2 | 39:17 - 39:26
+Why didn't the hyperscalers, like, move into this market faster or win this market, you know, more convincingly early on in in in this first chapter, at least?
+
+Speaker 1 | 39:26 - 39:46
+First of all, sometimes there is a notion that they didn't even try. There is a solid amount of business that hyperscalers get from out of this market. Like huge deals, they are very competitive. Sometimes people say, Oh, have you seen AWS prices? Well, these are public prices.
+
+Speaker 1 | 39:47 - 40:12
+I assure you. Like for proper deals, they are doing proper prices and they're very competitive. And like they're very aware of the market. I think in a sense, like there are two two angles to that. First, like what I've mentioned before, a lot of these companies need to juggle like their internal consumption and what they can put for, like, for for the broad market.
+
+Speaker 1 | 40:12 - 40:28
+And there is... Like, we are in chip shortage world. Right? So, like, if NVIDIA could have bought... Like, could have produced, like, 10 x the chips, probably this this this whole market would have been shaped differently.
+
+Speaker 1 | 40:28 - 40:41
+Because they... Like, Microsofts and Googles of the world would both buy capacity for themselves and for the broader market to operate. This was partly... Like, simply not enough capacity for their scale. Right?
+
+Speaker 1 | 40:41 - 41:00
+Because there is not enough capacity for their scale, this is a relatively small business for them. AWS revenue is what? Like, billion or something? I mean, like, a business for, like, $2.03, 4,000,000,000. It's not insignificant paying margin.
+
+Speaker 1 | 41:00 - 41:08
+But they compared to what they... Their conservative, large scale established businesses, it's not that easy either.
+
+Speaker 2 | 41:08 - 41:24
+Yeah. But your point is basically like they're, you know, they get a chip allocation that is like, you know, not as large as they'd want. They have to use some of that, you know, a large amount of that for training themselves. There's only so big that that inference business or that that the cloud business can be given all that. And Yeah.
+
+Speaker 2 | 41:24 - 41:39
+Yeah. It's interesting to figure out how to prioritize. Do you go after like the few folks with large contracts or do you try and get this like mid market enterprise up and coming segment? But I guess you're you're kind of doomed either way if if you only have a certain number of chips to Yes.
+
+Speaker 1 | 41:39 - 42:01
+Exactly. And then... And and and then at the same time, this becomes a relatively small, like, part of your revenue portfolio. And you're like, do I even need to allocate resources to that? And that is especially a pressing question because like, for the hyperscalers, it's not just a matter of like sales.
+
+Speaker 1 | 42:02 - 42:30
+It's also a matter of changing the infrastructure that was built at scale for other kinds of workloads. The networking, the throughput performance, the storage performance, by the way, right, that I've mentioned earlier. So this, like, this requires... If you want to have it universally, like, implemented on... Through the whole stack, this is a massive investment on their part that needs to be justified by the size of a potential business.
+
+Speaker 1 | 42:31 - 43:03
+And it's not that there yet. I think if we start getting out of this, like, chip shortage in, like, I don't know, two, three, five years, maybe, we will definitely see this shift. And they will pay more attention because this will become, like, increasing a large chunk of business. And they will start investing. They will, like, reorganize and redesign their, like, internals to be more accommodating to these demands, etcetera, etcetera, etcetera.
+
+Speaker 1 | 43:03 - 43:27
+And then with their whole sales power, they'll go and try to win this market. And the question is whether the novel players, like like us, for example, will be fast enough to grow and represent, like, significant competition when they get there. Yeah. And, like, I'm 100% that... Sure that they will pay more attention in the future.
+
+Speaker 1 | 43:28 - 43:39
+Yeah. Our bet is that we'll be fast enough to be in the league with them and fight as equals rather than a small player trying to run-in their trails.
+
+Speaker 2 | 43:39 - 43:51
+Makes sense. I what do you think happens to... Like, you mentioned there's like these, like, you know, 300 to 500, like, you know, neo clouds, everyone trying to get into this market. Like, as you've kind of... You know, you mentioned that you're kinda thinking the chip shortage comes to an end at some point.
+
+Speaker 2 | 43:51 - 43:58
+Like, as you zoom five years, ten years in the future, like, how many of these businesses are still around? Or like, what is the end state of this market?
+
+Speaker 1 | 43:58 - 44:17
+Listen, I think the whole, like, AI consumption is gonna grow. And it will be like universally used everywhere. Like AI is everywhere. Like right now, like web services are everywhere. AI services will be everywhere.
+
+Speaker 1 | 44:19 - 44:39
+So in a sense, like you have AWS, right? But you also have Hetzner. You also have DigitalOcean. You also have Linode. You also have like tons and tons and tons of local hosting providers that are giving you virtual machines, sometimes bare metal, etcetera, etcetera, etcetera.
+
+Speaker 1 | 44:39 - 45:05
+So this market is gonna be vast. Will all of the current three to 500 companies survive the next five years? I'm not sure. But I am pretty sure that there will be a place for the very long tail of providers down the line. Like, some of this, the current players will consolidate, some of them will die off, new new players will be launched, etcetera, etcetera, etcetera.
+
+Speaker 1 | 45:05 - 45:31
+It's a... Like, it's not a bad market right now. It's not a bad business to be in. So they will constantly attract capital and attention and investments, etcetera, etcetera, etcetera. And I trust that, like, in five years' time, there's still gonna be, like, hundreds of players in this market who found the investment related to the, and several $100,000,000, and they can offer something to someone in the market.
+
+Speaker 1 | 45:31 - 45:42
+Same as it is with, like, with the the small scale clouds like DigitalOcean these days. Right? Like, DigitalOcean did not die because AWS is growing.
+
+Speaker 2 | 45:42 - 46:06
+You're obviously doing a lot of things in house like sandboxes and, you know, web search and, you know, helping people with their their models over time. And, you know, I I think one question a lot of people are asking is, you know, what parts of the AI infrastructure end up just being subsumed into these future AI hyperscalers and, like, live, you know, in just one combined offering? And then what are, like, the standalone pieces of AI infrastructure that will persist as companies?
+
+Speaker 1 | 46:06 - 46:50
+In a sense, I think it will, like, it will kind of mimic what's happened with like the legacy generation of clouds, previous generation of clouds. Right? When your growth kind of dictates that you need to start addressing new and like new sectors, new markets, etcetera. Because otherwise your growth is like bounded and you can't like can't show your projections, can justify your valuation, etcetera, etcetera, etcetera. So there will be a natural push for the larger companies to start like increasing their portfolio, like trying to get into new products, into new services, etcetera, etcetera, etcetera.
+
+Speaker 1 | 46:52 - 47:18
+It doesn't mean that there will be a one size fits all solution. Because in a sense, if you're concerned by that, you will... Like, we just need to stop doing whatever we are doing and just wait for, like, OpenAI to rule the world, Entropic to rule the world. Because these companies will eventually... Like, you do realize that OpenAI has models, runs inference.
+
+Speaker 1 | 47:18 - 47:37
+They have their own search that they... Like, they don't exactly expose it. But if you're building the agent on their platform, it has access to search. They have all kinds of like sandboxing, local agents, cloud agents, etcetera, etcetera, etcetera. They both...
+
+Speaker 1 | 47:37 - 48:03
+OpenAI and Entropic are now investing in forward deployed organizations and are gonna go and do the work that was traditionally like, I don't know, Deloitte's or like Accenture's piece of pie. Right? So they will be everywhere. And I think this is a natural motion for the large company to start getting into a broader markets. But it doesn't mean this is...
+
+Speaker 1 | 48:03 - 48:23
+They are gonna be the only ones. So even nowadays, there is a place for independent object storage players all of a sudden. Right? Or independent compute players or independent small scale inference players for that matter. Independent database players.
+
+Speaker 1 | 48:23 - 48:46
+Like like, on one... Like, you've seen, like, Google has, like, big BigQuery and whatever, all kinds of data stuff. But then Snowflake kinda, like, appears from out of nowhere. AWS has, like, all kinds of, like, managed databases, large scale databases, like Aurora, Redshift, etcetera, etcetera, etcetera. But then MongoDB appears.
+
+Speaker 1 | 48:46 - 49:03
+And it's pretty successful. I can't say it's, like, super large scale and probably by nowadays standards will never be. Because nowadays standards for a large company is like trillion plus. Right? But like two years ago it was a very solid and very successful company.
+
+Speaker 1 | 49:03 - 49:25
+Or someone like Clickhouse appears with their cloud offering. Right? Also a massive managed database, an independent company that finds its niche and works it real well. So I think, like, larger company, larger clouds will grow. They will have, like products in every sector and will be pretty successful at selling them.
+
+Speaker 1 | 49:25 - 49:43
+Those because of bundling, because of their sales power, etcetera, etcetera, etcetera. But there will always be a place for niche players. And because the market is huge, niche doesn't mean small. Niche doesn't mean small scale or low revenue or low valuation. This can be solid companies.
+
+Speaker 2 | 49:43 - 50:03
+Yeah. I mean, as you mentioned, you know, OpenAI and Anthropic having this kind of broad suite of offerings too. I mean, in many ways, they're obviously building their own AI clouds. And I thought one thing that was interesting recently was, you know, obviously, limitation of those AI clouds versus others is is the the, you know, having just one model family, right, to be able to call from. But I thought it was really interesting that OpenAI announced that partnership with Base ten.
+
+Speaker 2 | 50:03 - 50:09
+I'm curious what your take on... Was was on that. I mean, is that them just trying to get into this general, you know, hyperscaler game across models?
+
+Speaker 1 | 50:10 - 50:37
+In a sense, we see a lot of push and concerns about people like claiming that OpenAI models, so Entropic models are too expensive. Everyone is puzzled or surprised by the bills they get, they get to the end of the month. So this might be like an answer to that. Well, if you're like, oh, go try open open models. At the same time, open models are still behind the closed source...
+
+Speaker 1 | 50:37 - 51:01
+Closed models. Right? However good those models are, they're still lagging behind. And giving people an option to try, like, lower scale with the ability to switch back to the top frontier model, it also be a good incentive. Like, anyway, I think like OpenAI is doing a very interesting move with that partnership.
+
+Speaker 1 | 51:01 - 51:20
+And I like it really much because like, this kind of shows flexibility. Right? They're not set and so. Like, they're exploring different options, different things that they can or cannot do. Like looking for different options to like so...
+
+Speaker 1 | 51:20 - 51:35
+But I I I think in a sense, this all plays into one single thing. Like OpenAI wants... Same as Intropic. They want to be one single, like touch point. Like they want to be one single thing for everything.
+
+Speaker 1 | 51:36 - 52:07
+Even that is like, okay, but sometimes I want to use open source models within my codex controlled environment, by the way. Right? So like, well, good for them. But if the company, the person, the user is still within your ecosystem, you still have a lot of options to steer them, to upsell them, to introduce them to new services, etcetera, etcetera, etcetera. So if that, like, alleviates one of the concerns, so be it.
+
+Speaker 1 | 52:07 - 52:07
+Why not?
+
+Speaker 2 | 52:07 - 52:19
+Well, I always like to end these interviews with some, like, overly broad questions that I stuff into the to the very end. And so if you'll if you'll humor me, I guess Sure. First question is just, what's one thing that you've changed your mind on in AI in the last year?
+
+Speaker 1 | 52:19 - 52:33
+In the last year? Oh, a lot a lot has happened in the year. No. Like, the obvious answer would be software engineering. Like, a lot of people forget, but a year ago, we lived in a totally different world.
+
+Speaker 2 | 52:34 - 52:36
+It's amazing. Like dog years in AI world.
+
+Speaker 1 | 52:36 - 52:53
+Less Way less like capable. Yes. Way less capable in terms of the model capabilities and in terms of how good the modern harnesses and tools are. It's like the AI coding. Because like a year ago, it was total bullshit.
+
+Speaker 1 | 52:53 - 53:18
+Right now, it's it's a solid part of, like, your everyday tooling. But for example, if you're not talking about the industry trends or, like, talking about more, like, my personal thing, I've started relying more on the, like, AI enabled, like, local agents and harnesses to offload a part of my cognitive load, to be honest.
+
+Speaker 2 | 53:18 - 53:34
+I mean, obviously, like, run a really large technical organization. And and I think everyone's trying to figure out, you know... I mean, obviously, the models only recently got really good on the coding side. And so everyone's trying to figure out what it means to build teams given the new model capabilities and run an organization. I'm curious what you've...
+
+Speaker 2 | 53:34 - 53:39
+Where you've settled and how you've thought about that.
+
+Speaker 1 | 53:39 - 54:16
+Cautiously. Conservatively. I'm very concerned that modern models and the attractive user experience that they provide, like modern agents, modern models, etcetera, etcetera, etcetera, is something that will lead us to two issues. You like... You see slop, like, being revealed in, like, in chats, in merge requests, all over.
+
+Speaker 1 | 54:16 - 54:35
+And I, like, I try to pace that, and I try to, like, be very observant and vigilant about that. So for example, like, don't restrict talking usage. Like, people can use whatever they want. Our budget is quite significant. We don't impose, like, per person limitations or per department limitations.
+
+Speaker 1 | 54:36 - 55:04
+But the... At the same point, we try to, like, look at the usage, figure out what it is used for, look at the most ineffective ways people use it. We, like, constructed a set of policies that doubles down in the idea that whatever you've done with the agent, it's still your result. It's your responsibility. It's your pull request.
+
+Speaker 1 | 55:04 - 55:20
+It's your code. It's you who is on call. It's you who's gonna wake up during... In the middle of the night if something goes awry, etcetera, etcetera, etcetera. And if something was created by a completely autonomous agent, it is marked like that.
+
+Speaker 1 | 55:21 - 55:48
+Completely autonomous agents will not touch, like, the core services for a while because, like, this is, like, this is, like, out of bounds. Like, sometimes people are surprised that, like, I work in a company that's kind of participates in this whole Yeah. AI revolution, and I'm very conservative. But at the same time, like, I've seen how this sausage is made, and I, like, I'll be cautious.
+
+Speaker 2 | 55:48 - 55:56
+What's the biggest mistake you feel like you've made in in building Nebius so far? Obviously, a lot's gone right. But I'm curious, you know, something that in retrospect you wish you guys had done differently.
+
+Speaker 1 | 55:56 - 56:09
+It might sound funny these days, but we underestimated the scale. Like... And it's not about the growth of the company. We were pretty optimistic from the very beginning. But I personally...
+
+Speaker 1 | 56:09 - 56:35
+And that was, like, my strong bias for the first, like, significant part. I underestimated the scale that a single client operates at nowadays. Because, like, five years ago, if you're talking about a 30 megawatt data center, it was a serious facility. It hosted, like, hundreds of thousands of servers, like, run glorious... Gloriously large foreclose.
+
+Speaker 1 | 56:36 - 56:57
+By now, 30 megawatts sometimes is not enough for a single client, which I'm still getting used to. Right? The storage I've mentioned. Right? Like, four years ago when you were talking about network attached storage, you were talking about, like, hundreds of megabytes, maybe gigabytes per second of throughput.
+
+Speaker 1 | 56:58 - 57:19
+Right now, some of our clients routinely fetch, I don't know, seven hundreds of gigabytes per second from a single shared file system. I'm still... I underestimated it in the beginning, and I'm still getting used to this scale. Like, it's... Like, I'm an infrastructure person.
+
+Speaker 1 | 57:19 - 57:31
+I've worked and have seen these numbers throughout my career multiple times. And all of a sudden, you add a couple of zeros to the end and call it a new norm. Yeah. Still puzzling.
+
+Speaker 2 | 57:31 - 57:57
+It's crazy. And I guess lastly, like, there's obviously a lot of, you know, unsettled questions in the in the AI field today that, you know, lots of people trying to figure out where where the world goes. I'm curious, like, you know, what you're paying attention to. And I guess, you know, with the lens toward, you know, if it goes one way or another, it would really change kind of the strategy for for Nebius as a whole. What are you kind of most paying attention to on on, like, these these unsettled questions of where the AI world's going?
+
+Speaker 1 | 57:57 - 58:35
+Well, I stopped caring about, like, the new models being larger or smarter. I just accepted that it's a given. I'm kind of trying to look out for, like, new novel architectures and approaches, but I don't see any as of today. I hope somewhere deep down in like a stealth lab, something new is cooking. But for now, I frankly don't see anything that like is a thing that I would be, you know, like would place even a small bets on.
+
+Speaker 1 | 58:36 - 59:05
+But I'm more and more interested in the whole outcome optimization part on the agent side. Right? Because, like, we we are used to talking about models and size of models and families of models, etcetera, etcetera, etcetera. But now that we've shifted to this multi turn, long running agents that we are talking not about requests, but rather outcomes, companies are talking about bidding for per outcome. Right?
+
+Speaker 1 | 59:05 - 59:21
+I'm very interested in how that part will shape up. And we have, like, a small research group internally with the Navy that's working on this problem, actually. I always like... How do you increase the chances of getting to that out outcome? Not by increasing the model or, like, changing the model.
+
+Speaker 1 | 59:21 - 59:45
+That that is, of course, part of the discussion. But I believe there is a lot of optimization on the part where you introduce more sophisticated or maybe more simplified tools. You introduce the harnesses that start to evolve according to a particular task. And this kinda gets us back to, like, a significant CPU consumption. Because, like, a lot of that...
+
+Speaker 1 | 59:45 - 59:57
+A lot of, like, modern AI workloads actually go back to becoming code. Like, this qualified. It's, like, very formal. You see, like, quality gates. You see sophisticated tools, etcetera, etcetera, etcetera.
+
+Speaker 1 | 59:57 - 1:00:28
+And sometimes your agent works for minutes and minutes minutes without even issuing a back end request to an LLM because the workloads start to, like, to sit on this part. And this is the part that really interests me. Because I think, like, a lot of future AI adoption lies in how reliable your agentic scenarios are and how reliably you reach those outcomes. And I think, like, the whole optimization loop outside the model is important part of that.
+
+Speaker 2 | 1:00:28 - 1:00:35
+100%. Well, this has been an awesome conversation. Really appreciate you coming on the show. And, yeah, thanks so much for for coming on.
+
+Speaker 1 | 1:00:35 - 1:00:36
+Thank you for having me.
+
+Speaker 2 | 1:00:36 - 1:01:02
+I'm Jacob Efron, and this has been Unsupervised Learning, a podcast where I get to talk to the smartest people in AI and ask them tons of questions about what's happening with models and what it means for businesses in the world. As I hope is clear, I have a ton of fun doing this. It's a nights and weekends project in addition to my day job as an investor at Redpoint. But our ability to get these incredible guests on really comes from folks like you subscribing to the podcast, sharing it with friends. It's really what ultimately makes this whole thing work.
+
+Speaker 2 | 1:01:02 - 1:01:07
+And so please consider doing that, and thank you so much for your support and listening. We'll see you next episode.
