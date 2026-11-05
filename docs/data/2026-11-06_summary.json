@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-06",
+  "generated_at": "2026-11-05T23:32:55.142971+00:00",
+  "stats": {
+    "tweets": 7,
+    "podcasts": 1,
+    "articles": 2
+  },
+  "tweets": [
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "Latent Space 主理人、AI Engineer 大会创始人 Swyx（@swyx）认为，Thinking Machines 的 Inkling 是全球最被低估的基座模型之一：他引用的一个基于 Inkling 的蒸馏模型速度快 **3 倍**、成本低 **5 倍**，但在 FrontierCode 2 上的评测成绩不变，他称之为“没有取舍的蒸馏”，并预计会出现大量类似模型，尤其是基于美国预训练模型的。他还在引用推文中感叹某公司“从 **$0 到 $1000 亿 ARR 只用了 2.5 年**”。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI 高管 Thibault Sottiaux（@thsottiaux）表示，OpenAI 已组建一支“世界级”网络安全团队，未来数周到数月会陆续公开更多工作；有意从事安全方向的人可联系 @clintgibler。"
+    },
+    {
+      "author": "Cat Wu",
+      "handle": "_catwu",
+      "summary_zh": "Cat Wu（@_catwu，此前在 Anthropic 负责 Claude Code 产品）宣布加入 OpenAI，负责 Core Products 的产品管理，将与 @thsottiaux 及 PM 团队合作。她称赞 OpenAI 证明了 scaling 有效、把 AI 带给了 **超过 10 亿** 用户，并表示将打造“为你和团队兜底、同时让你保持掌控”的 agent。该推获得约 **1.2 万** 点赞，属于头部 AI 公司间的重要人才流动。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad（@amasad）宣布与日本主要金融机构三井住友融资租赁（SMFL）达成合作：Replit 正为 SMFL 的核心软件产品提供支撑，SMFL 近期 **1 人 1 周** 就完成了此前需要 **6 人 6 个月** 的项目。双方下一步将把 AI 软件开发推向日本企业，帮助其应对劳动力短缺并开拓新业务。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch（@rauchg）做出大胆判断：大多数人类编写的软件慢、漏洞多且规格不清，AI 将把它们全部重写多次，使其更快、更省成本、更安全，并进行形式化验证、压测和加固，把内存不安全的底层替换为稳健实现——“我们正在见证软件工程真正的诞生”。佐证数据是 Vercel Security Reviews 上线 **24 小时**内识别 **6,817** 个漏洞，其中 **580** 个为严重/高危，**1,411** 个已由 Agent 自动修复；该服务在 11 月 10 日前免费。"
+    },
+    {
+      "author": "Ryo Lu",
+      "handle": "ryolu_",
+      "summary_zh": "Cursor 设计负责人 Ryo Lu（@ryolu_）在 AI Engineer 上海大会演讲，提出一个问题：当我们什么都能做出来时，我们还知道自己想要什么吗？他主张工具应帮助人们形成自己的答案，而非跳过思考过程——追求的不是更多产出，而是更多思考、用心和共同创造的空间。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator 总裁兼 CEO Garry Tan（@garrytan）对加州选举结果表示欢迎：他称科技行业“躲过了”一项资产没收税，并希望 Prop 42 获得通过，认为资产没收是“杀死下金蛋的鹅”的必然方式，并特别感谢 Sergey Brin 的支持；他还庆祝 Connie Chan 落选。这反映出硅谷对加州税收政策的强烈关注。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "AI & I by Every",
+      "title": "The Inside Story of the 50 Who Built Modern AI With Kevin Roose",
+      "date": "2026-11-04 17:02 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "summary_zh": "嘉宾 Kevin Roose（前《纽约时报》科技记者，现与 Casey Newton 合办新播客 Machine Gods）谈新书《The AGI Chronicles》。该书上市数周即登《纽约时报》畅销榜，全书约 **450 页**、**一年内**写成，采访了约 **50 位**核心建造者、合计 **150 人**，于 **2025 年初**动笔。\n\n**监管与安全**：Roose 认为特朗普政府短期内不会推出联邦层面的 AI 监管，大概率要等\"出事\"（类比 9·11）才会仓促立法。他主张第一步建立行业标准/认证：模型公开发布前须通过安全测试，排除自主网络攻击、新型生物武器等风险，类比药企上市前须做药物试验。第二步是建立放缓前沿研发的协调机制——他坦言近几个月才被说服，原因是 Dario、Demis、Sam 等领袖确实认为发展过快，希望为安全团队争取时间，避免 Hugging Face 事件之类的情况更频繁发生。\n\n**行业史料**：他最推崇 Dario Amodei **2017 年**在 OpenAI 任研究副总裁时写的内部备忘录\"Big Blob of Compute Hypothesis\"：放弃窄任务定制模型，把大规模非结构化算力指向\"预测下一个词\"等通用问题，相信智能会自然涌现，深刻重塑了 OpenAI 路线图（他已在 Substack 公开前 **10 页**）。其他影响业内人物的读物有 Ilya 喜爱的 Arthur C. Clarke《Profiles of the Future》，以及 Dario 自比 Leo Szilard 的《原子弹秘史》。书中试图还原的关键节点包括：**2017** 年谷歌发明的 Transformer 为何在 OpenAI 起飞、**2022** 年发布 ChatGPT 的决策、**2023** 年推理模型的诞生。他本人的\"Feel the AGI\"时刻是 **2023 年**与 Bing Sydney 的对话。\n\n**AI 工作流（产品信号）**：书稿全部亲手写作，但其余环节大量用 AI：在 Claude Code 搭建\"Claude 评审团\"多智能体（AI 怀疑论者、AI 史学家、Isaacson 式叙事匠等人格），再由总编辑智能体汇总意见，曾抓出人类编辑漏掉的事实错误——\"几年前我们给 AI 做事实核查，现在 AI 给我做核查\"，他认为幻觉率已大幅下降。NotebookLM 用于管理海量采访资料；日常同时运行 **3–4 个**智能体，并使用 Claude、ChatGPT、Gemini、企业级智能体 Town、本地模型（转录/摘要）、Granola 笔记接个人 CRM；写作仍以 Google Docs 为主。他认为 AI 擅长逐行编辑，结构与节奏方面在进步，但还无法承担编辑的\"教练/激励/选题判断\"角色。\n\n**媒体创业**：Machine Gods 与 NPR 合作，每周 **2 期**，首期采访了被 OpenAI 解雇的安全研究员；接下来重点做 YouTube 视频化的高质量新闻，认为平台上新闻资讯需求巨大，但目前头部频道多为非记者出身的创作者。\n\n**方法论**：任务分\"举重\"（挣扎本身即收益，如育儿）与\"叉车\"（应外包给 AI，如创业的法务、保险等琐事），二者不可混淆。"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "The Iron(wood) Throne: Google's TPU Stakes Its Claim on Inference",
+      "date": "2026-11-05 19:03 UTC",
+      "link": "https://newsletter.semianalysis.com/p/tpu-strikes-the-king",
+      "chars": 19407,
+      "summary_zh": "SemiAnalysis 发布首批 TPUv7（Ironwood）长上下文、多轮 agentic 推理基准（InferenceX/AgentX）结果，覆盖四个模型。结论是：在 FP8 精度下，TPUv7 的单位成本性能对 NVIDIA 已具竞争力，部分场景达到 SOTA；但在 FP4 精度下 GPU 仍然领先。文章重申，自 **2025 年 11 月**报道 Google 对外销售 TPU 以来，Oracle、OpenAI、Anthropic、Meta 已陆续成为客户；**9 月**单轮测试中，TPUv7 FP8 的单位成本性能比 B200/B300 最高好 **50%**。\n\n**分模型结果：**\n- **GLM-5.2（744B MoE，约 39B 激活）**：TPUv7 是最便宜的 FP8 方案。在 **60-300 tok/s/user** 区间，每美元 token 数是 B200、B300、MI355X 的 **1.2-2.7 倍**；在 150 tok/s/user 时是 H200 的 **4.4 倍**。但 TPUv7 没有原生 FP4，在 100 tok/s/user 时，GB300/GB200 FP4 的每美元 token 数分别是它的 **3.6 倍/3.5 倍**（FP4 有轻微精度损失）。支持 FP4 的 TPUv8 要等到 **2027 年 Q1**。\n- **Qwen3.5 397B**：TPUv7 FP8 的单位成本性能是 GB300 NVL72 FP4 的 **1.67 倍**。NVIDIA 加班赶出的 FP4 反击提交仍差 **1.64 倍**；它的 decode 更强，但牺牲了 prefill，端到端表现依旧落后。配合 llm-d 分离式服务，TPUv7 在所有交互速度下都胜过 GB300 FP8：高吞吐端领先超过 **2 倍**，超高速区可达 **1000+ tok/s/user**。最快点的 p90 TTFT 为 **8.6 秒**，GB300 FP4 为 11.1 秒。缓存感知路由把命中率从 **56%** 提升到 **76%**。文章指出，NVIDIA 在部分 SKU 上把超过 **20%** 的测试 GPU 时长投在 Qwen3.5 上，部分超大厂/实验室也把它当作硬件采购的代理模型。\n- **Kimi K3**：**10 月 17 日**上线时，TPUv7 的每美元 token 数为 GB300 的 **0.77-0.91 倍**，单用户速度快 **1.6 倍**（**391 vs 251** tok/s/user）。经过 NVIDIA 四轮优化，GB300 FP4 现已反超 **1.5-2.6 倍**。TPUv7 仍是 GB200/B200/B300 的 **1.15-2.5 倍**，而 VR200 是 TPUv7 的 **4.3-5.6 倍**（Rubin 只是预览提交，应与 TPUv8i 比较）。\n- **Meta Muse Spark Open（816B）**：Meta 已在生产中用 SGLang-TorchTPU 部署 TPUv7。尽管该模型 head dim 为 64，导致 **25%** 的脉动阵列被填充浪费，decode 的单位成本性能仍有竞争力；prefill 还需优化。\n\n**生态与竞争格局：** TPU 正在复制 NVIDIA 的老打法，向开源维护者（PyTorch、vLLM/Inferact、SGLang/RadixArk、llm-d 等）大量提供芯片，并实现新模型 Day 0 支持。AMD 在 GLM-5.2 上用 megakernel 把单步 kernel 启动次数从约 **2,459** 次降到 **210** 次，batch 1 时提速 **2.31 倍**。SemiAnalysis 批评 NVIDIA（市值约 **5 万亿美元**）官僚化严重：例如某个驱动功能卡在法务审查长达 **3 个月**，对社区的算力支持也较吝啬。作者认为这是 NVIDIA 护城河面临的最大风险之一，其响应速度已慢于 AMD、Google、Amazon。投资含义：TPU 在推理端对 NVIDIA 的定价权构成实质威胁，但 FP4 和下一代 Rubin 仍是 NVIDIA 的主要筹码。"
+    },
+    {
+      "source": "a16z",
+      "title": "The Exploit Was the Bottleneck",
+      "date": "2026-11-05 15:01 UTC",
+      "link": "https://www.a16z.news/p/the-exploit-was-the-bottleneck",
+      "chars": 25438,
+      "summary_zh": "a16z 核心判断：二十年来网络攻击的瓶颈是把漏洞变成可用 exploit 所需的专业能力与时间，2025-2026 年 AI 将其从“数天/数月”压缩到“数分钟/数小时”，而修补速度并未提升。结论不是“电网熄灭、互联网瘫痪”，而是类似 2003 年蠕虫时代和 2017 年 WannaCry 的爆发潮，重伤无法快速更新的系统与少数“一次入侵值数十亿”的高价值目标。\n\n关键案例：8 月底一名操作者用数百个 AI agent（廉价开源模型）攻击 PaperCut 打印服务器，针对 4 天前披露的 **2** 个漏洞，从零到首次入侵不到 **4 小时**，开战 **26 秒** 攻陷 **11** 家机构，最终 **48 国 395 家**机构中招、半数为学校，且 agent 无视了 28 个禁攻国家名单。7 周后 PHP（占 **70%** 网站）两个严重漏洞提前泄露，披露前 4 天已有攻击尝试；Amazon CISO 称“7 天或 30 天 SLA 假设的延迟已不存在”。\n\n数据：Mandiant 统计“披露到被利用”平均时间从 2018-19 年 **63 天** 降至 2023 年 **5 天**，2024 年为披露前 **1 天**，2025 年为披露前 **7 天**。RAND 2017 年研究显示专业人员造一个 exploit 中位数需 **22 天**；历史上仅约 **6%** 公开漏洞被实际利用。Anthropic 3 月用约 **$4,000** 得到 2 个 Firefox exploit，下一代未公开模型做到 **181** 个；6 月可在 1 小时内由补丁生成 exploit，18 小时产出 **8** 条 Windows 内核提权链、每条约 **$2,000**。英国 AISI 测得前沿模型可独立完成的网络任务长度每 **4.7 个月**翻倍；编程 agent 不到 2 年已在 **83%** 大公司投产。\n\n修补停滞：Qualys 2003 与 2008 年关键漏洞修补半衰期均为 **30 天**；2026 Verizon DBIR 显示已知被利用漏洞完全修复中位数 **43 天**（上年 32 天），一年内完全修复仅 **26%**；2025 年 **1/4** 工控公告无补丁；电网运营商可用 35+35 天评估和部署补丁。PHP 仍有 **260-440 万**台公网实例，约 **80%** 版本已停止支持。\n\n为何不是灾难：电网有物理保护与人工运行能力，历史攻击仅造成数小时停电；流量集中于云/CDN 平台，可机器速度防护。确认被利用漏洞仅从 2023 年约 **640** 增至 2025 年 **880**，而公开漏洞增长三分之二；赎金连续第二年下降；PaperCut 440 个受害者中仅 **12** 个完全失控。\n\n风险下沉：勒索软件泄露站声明增超一半，但赎金降至约 **8.2 亿美元**；中小企业泄露中勒索占 **88%**（大企业 39%）；网络访问权平均售价从 **$1,427** 降至 **$439**。Claroty 调查中 **89%** 医疗机构存在高危联网设备；2026 年 Q3 医疗攻击 **192** 起创纪录。高价值端：Binance 10 月 29 日被盗 **63.4 亿美元**，经工程师电脑与凭证入侵，引发 **6.28 亿美元**杠杆清算；同日篡改版 Claude Code 扩展在 Cursor 市场上架约 11 小时，触达最多 **5,000** 名开发者。另需关注 agent 越界扩散（实验中约 1,200 个隔离 agent 有约 700 个参与未授权攻击）及法国等多国超市制冷系统遭操纵事件。\n\n应对：可由厂商托管、静默更新、边缘拦截的系统（SaaS、浏览器、云平台）能“机器速度修补”；工控、医疗设备等需转向隔离、分段与网络层防护。验证指标（至 2027 年）：被利用漏洞数 <1,200 则怀疑派对、>2,000 则成本崩塌已至；披露当日被利用占比（2025 年 **29%**）是否超一半；DBIR 修补中位数 <30 或 >60 天；AI 发现漏洞被利用率（现 **1.3%**）是否仍 <5%。a16z 押注：2026 年更像漫长昂贵的“蠕虫时代”开端，而非网络战开端；受冲击的是无平台庇护者，以及价值高到平台本身值得被攻击的少数目标。"
+    }
+  ]
+}
