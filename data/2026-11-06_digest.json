@@ -1,0 +1,313 @@
+{
+  "fetch_date": "2026-11-06",
+  "fetch_time": "2026-11-05T22:30:46.886145+00:00",
+  "stats": {
+    "new_podcast_episodes": 1,
+    "new_articles": 2,
+    "new_tweets": 22,
+    "total_podcasts": 1,
+    "total_articles": 2,
+    "total_tweets": 22
+  },
+  "podcasts": [
+    {
+      "source": "AI & I by Every",
+      "title": "The Inside Story of the 50 Who Built Modern AI With Kevin Roose",
+      "date": "2026-11-04 17:02 UTC",
+      "link": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "orig_link": "",
+      "audio_url": "",
+      "duration": "",
+      "summary": "",
+      "lang": "en",
+      "chars": 42505,
+      "text_file": "data/2026-11-06/podcasts/ai_i_by_every__the_inside_story_of_the_50_who_built_modern_a.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "The Iron(wood) Throne: Google's TPU Stakes Its Claim on Inference",
+      "date": "2026-11-05 19:03 UTC",
+      "link": "https://newsletter.semianalysis.com/p/tpu-strikes-the-king",
+      "summary": "Viable Alternative of CUDA Moat, NVIDIA scared and working nights & weekends, Jensen’s Counter Submission, Kimi K3, Muse Spark Open, Qwen, GLM5.3, TorchTPU, vLLM, SGLang, llm-d, Ray",
+      "chars": 19407,
+      "text_file": "data/2026-11-06/articles/semianalysis__the_ironwood_throne_googles_tpu_stakes_its_cl.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "The Exploit Was the Bottleneck",
+      "date": "2026-11-05 15:01 UTC",
+      "link": "https://www.a16z.news/p/the-exploit-was-the-bottleneck",
+      "summary": "What 23 Years of Data Say About AI and the Patch Gap",
+      "chars": 25438,
+      "text_file": "data/2026-11-06/articles/a16z__the_exploit_was_the_bottleneck.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2118208851506036989",
+      "date": "2026-11-05T05:08:39.000Z",
+      "text": "uhhh what, 3x faster 5x cheaper but evals SAME ON FRONTIERCODE 2\n\nthis is distillation without tradeoffs. i think @thinkymachines inkling is one of the most underrated base models in the world. expect to see a TON more of these esp on US pretrained models https://t.co/zvJFP9EIPL",
+      "url": "https://x.com/swyx/status/2118208851506036989",
+      "likes": 52,
+      "retweets": 1,
+      "is_quote": true,
+      "quoted_id": "2118069614521241739"
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2118169736563589350",
+      "date": "2026-11-05T02:33:13.000Z",
+      "text": "announced on aie channel. so hyped\n\nhttps://t.co/eFuOmBuROE",
+      "url": "https://x.com/swyx/status/2118169736563589350",
+      "likes": 1,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2118048131052933313"
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2118152585911869634",
+      "date": "2026-11-05T01:25:04.000Z",
+      "text": "i'm still processing. what an insane run. $0 to $100B ARR in 2.5 years. https://t.co/i56rhUUFg0",
+      "url": "https://x.com/swyx/status/2118152585911869634",
+      "likes": 234,
+      "retweets": 3,
+      "is_quote": true,
+      "quoted_id": "2118151813555945505"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2118146834325733453",
+      "date": "2026-11-05T01:02:13.000Z",
+      "text": "Reach out to @clintgibler if you want to work on securing the world.",
+      "url": "https://x.com/thsottiaux/status/2118146834325733453",
+      "likes": 227,
+      "retweets": 5,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2118146794362405231",
+      "date": "2026-11-05T01:02:03.000Z",
+      "text": "We’ve assembled a world class cyber team and I’m excited for us to share more about our work over the weeks and months. https://t.co/Hj3w8j1Xf2",
+      "url": "https://x.com/thsottiaux/status/2118146794362405231",
+      "likes": 2188,
+      "retweets": 68,
+      "is_quote": true,
+      "quoted_id": "2118119451401048497"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2118138764161913278",
+      "date": "2026-11-05T00:30:09.000Z",
+      "text": "CatGPT",
+      "url": "https://x.com/thsottiaux/status/2118138764161913278",
+      "likes": 989,
+      "retweets": 33,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2118197393229545534",
+      "date": "2026-11-05T04:23:07.000Z",
+      "text": "Was super fun hosting this event with my friends from @OpenAI and @Amplitude_HQ https://t.co/VVwHHCVofW https://t.co/TPdxuCYJxz",
+      "url": "https://x.com/petergyang/status/2118197393229545534",
+      "likes": 17,
+      "retweets": 1,
+      "is_quote": true,
+      "quoted_id": "2118169474658648110"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2118033608007139638",
+      "date": "2026-11-04T17:32:17.000Z",
+      "text": "I don't use AI to call local businesses but I literally have no sympathy for using it to call Xfinity's shitty customer support.\n\nTheir phone system won't let you talk to a human when your address has an active outage...what?! https://t.co/znuMdrusP3 https://t.co/1kqwNCppk2",
+      "url": "https://x.com/petergyang/status/2118033608007139638",
+      "likes": 34,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2117638801296380159"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2118002158201340288",
+      "date": "2026-11-04T15:27:19.000Z",
+      "text": "Read the written post for all 5 steps: https://t.co/Y03RZBpCJ5",
+      "url": "https://x.com/petergyang/status/2118002158201340288",
+      "likes": 10,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Nan Yu",
+      "handle": "thenanyu",
+      "tweet_id": "2118148902125998468",
+      "date": "2026-11-05T01:10:26.000Z",
+      "text": "CatGPT https://t.co/2teaKfXFIr",
+      "url": "https://x.com/thenanyu/status/2118148902125998468",
+      "likes": 76,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2118137612577968402"
+    },
+    {
+      "source": "Cat Wu",
+      "handle": "_catwu",
+      "tweet_id": "2118137612577968402",
+      "date": "2026-11-05T00:25:34.000Z",
+      "text": "Some news: I’m joining OpenAI to lead product management for Core Products!\n\nI have a lot of respect for OpenAI for showing the world that scaling works, for bringing AI to over a billion people, and for believing great products are core to the mission.\n\nI’m excited to work with @thsottiaux, an incredible PM team, and everyone across OpenAI. Together, we’ll build agents that have your back and your team’s, and keep you in control, so you get more time for the people and work you love.\n\nLots to learn, and lots to build. Please keep your feedback coming!",
+      "url": "https://x.com/_catwu/status/2118137612577968402",
+      "likes": 11973,
+      "retweets": 527,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2118124292500287814",
+      "date": "2026-11-04T23:32:38.000Z",
+      "text": "sorry I mean inshallah",
+      "url": "https://x.com/trq212/status/2118124292500287814",
+      "likes": 862,
+      "retweets": 5,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2118124218839859700",
+      "date": "2026-11-04T23:32:21.000Z",
+      "text": "manifesting\n\n⠀⠀⠀⠀    🕯️🕯️🕯️🕯️🕯️\n⠀⠀🕯️⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀🕯️\n 🕯️⠀⠀Apple lets apps⠀   🕯️\n🕯️⠀⠀⠀build Shortcuts      🕯️\n🕯️⠀⠀⠀⠀.   for you⠀⠀ ⠀    🕯️\n⠀⠀🕯️⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀🕯️\n⠀⠀⠀⠀    🕯️🕯️🕯️🕯️🕯️",
+      "url": "https://x.com/trq212/status/2118124218839859700",
+      "likes": 1790,
+      "retweets": 25,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2118180254300688857",
+      "date": "2026-11-05T03:15:01.000Z",
+      "text": "Excited to announce our partnership with Sumitomo Mitsui Finance & Leasing (SMFL), one of Japan’s leading financial institutions!\n\nReplit is powering SMFL’s core software products and has massively accelerated their development process: For example they recently in just one week, with one person, completed a project that previously required six people working for six months.\n\nNext we’re partnering to bring AI-powered software creation to Japanese enterprises, helping them overcome labor shortages, accelerate innovation, and unlock entirely new business opportunities.\n\nhttps://t.co/eTMLFDkIv1",
+      "url": "https://x.com/amasad/status/2118180254300688857",
+      "likes": 216,
+      "retweets": 12,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2117904733658845218",
+      "date": "2026-11-04T09:00:11.000Z",
+      "text": "Wow can’t believe Michigan is under Shawerma law now",
+      "url": "https://x.com/amasad/status/2117904733658845218",
+      "likes": 7790,
+      "retweets": 376,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2118166970273292299",
+      "date": "2026-11-05T02:22:14.000Z",
+      "text": "We will all be learning in coming weeks & months, that most human-made software:\n\n▫️ Was really slow\n▫️ Had many security vulnerabilities\n▫️ Was under-specified and incorrect\n\nAI will rewrite it all. Many times. It will make it fast, cost-efficient, and secure. It will think about failure modes we couldn't wrap our heads around.\n\nIt will prove, formally verify, load test, harden. It will turn memory-unsafe foundations into robust, optimized ones. If you ask, it'll thoroughly document it, teach you about it, make diagrams, animations, and slide decks.\n\nIn many ways, we are witnessing the true birth of software engineering.",
+      "url": "https://x.com/rauchg/status/2118166970273292299",
+      "likes": 2482,
+      "retweets": 222,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2118152230260092940",
+      "date": "2026-11-05T01:23:39.000Z",
+      "text": "In just 24 hours 🤯\n✓ 𝟲,𝟴𝟭𝟳 vulnerabilities identified\n✓ 𝟱𝟴𝟬 critical or high\n✓ 𝟭,𝟰𝟭𝟭 already patched by Agent\n\nVercel Security Reviews are 100% free until Nov 10 https://t.co/e4mHdykByr",
+      "url": "https://x.com/rauchg/status/2118152230260092940",
+      "likes": 839,
+      "retweets": 39,
+      "is_quote": true,
+      "quoted_id": "2117726156992753721"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2118075898830463048",
+      "date": "2026-11-04T20:20:20.000Z",
+      "text": "It’s so inspiring to work with people who care so much about building quality products. \n\nGreatness is the byproduct of a million iterations. Agents or otherwise. https://t.co/0hDrXe2PIX",
+      "url": "https://x.com/rauchg/status/2118075898830463048",
+      "likes": 377,
+      "retweets": 11,
+      "is_quote": true,
+      "quoted_id": "2118044364329140653"
+    },
+    {
+      "source": "Ryo Lu",
+      "handle": "ryolu_",
+      "tweet_id": "2118207967728451760",
+      "date": "2026-11-05T05:05:08.000Z",
+      "text": "gave a talk at @aiDotEngineer shanghai about about a question i keep coming back to: when we can make anything, do we still know what we want?\n\ni want tools that help us find our own answers, not skip the process of forming them. not just more output, but more room to think, care, and make together.\n\nwill share more soon!",
+      "url": "https://x.com/ryolu_/status/2118207967728451760",
+      "likes": 162,
+      "retweets": 5,
+      "is_quote": true,
+      "quoted_id": "2118197358601379910"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2118221083233206736",
+      "date": "2026-11-05T05:57:15.000Z",
+      "text": "GStack’s /review skill is actually useful for preventing bugs still https://t.co/aROfFOWDwK",
+      "url": "https://x.com/garrytan/status/2118221083233206736",
+      "likes": 29,
+      "retweets": 2,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2118154891176857608",
+      "date": "2026-11-05T01:34:14.000Z",
+      "text": "We did it guys\n\nConnie Chan is a private citizen https://t.co/0CtlQS2XNU https://t.co/kLvPG0kTUh",
+      "url": "https://x.com/garrytan/status/2118154891176857608",
+      "likes": 1450,
+      "retweets": 26,
+      "is_quote": true,
+      "quoted_id": "2056554821789073613"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2118058438714650985",
+      "date": "2026-11-04T19:10:58.000Z",
+      "text": "We dodged a bullet on this asset seizure tax. With any luck Prop 42 will pass. \n\nBuilders of tech in California had a good day yesterday: we want abundance and asset seizure is the one guaranteed way to kill the golden goose. \n\nHuge thanks to Sergey Brin here. https://t.co/HIznVbS14W",
+      "url": "https://x.com/garrytan/status/2118058438714650985",
+      "likes": 726,
+      "retweets": 39,
+      "is_quote": true,
+      "quoted_id": "2014965727695143045"
+    }
+  ]
+}
