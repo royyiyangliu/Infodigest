@@ -1,0 +1,216 @@
+Source  : a16z
+Title   : Defense in Depth, Rebuilt for Machine Speed
+Date    : 2026-11-06 17:00 UTC
+Link    : https://www.a16z.news/p/defense-in-depth-rebuilt-for-machine
+────────────────────────────────────────────────────────────
+
+In our
+last piece
+, we argued that the bottleneck in offensive cyber was the skilled work of turning a bug into a working exploit. In 2025 and 2026, that work became cheap. Patching did not get faster. This piece is about what follows. Our view is that the gap between exploit and patch won’t close by patching harder, and the products and policies that matter over the next five years will be those that protect systems even when they cannot be patched quickly.
+The short version of our last piece: more vulnerabilities, exploitation that now often comes before the fix, and patch times that have barely moved.
+In October, two critical bugs in PHP, the language behind much of the web, leaked before their fix.
+Exploit attempts began four days before public disclosure
+. Luckily, hosting and content-delivery companies could block attacks at their edge while the underlying servers remained unpatched. Meanwhile,
+between 2.6 and 4.4 million PHP installations
+outside that umbrella stayed exposed, most of them on versions that will never get a fix.
+That week is the argument in miniature. Protection did not have to wait for the patch. Someone else could stand between the attacker and the vulnerability.
+The arithmetic doesn’t close
+Patching is a per-vulnerability, human-gated process. Someone must learn about the vulnerability, find the affected systems, test the fix, schedule the patch and confirm everything is in order post patching. Those steps still take weeks. The
+2026 Verizon breach report
+put median full remediation at 43 days and found only 26 percent of known-exploited vulnerabilities fully remediated in its dataset.
+Veracode’s 2025 report
+put average flaw-remediation time at 252 days, up from 171 five years earlier.
+Discovery is moving differently. AI systems can search for vulnerabilities by the class and help turn a published fix into a working exploit in hours. In October, Anthropic reported that
+an unreleased model produced a remote, no-login exploit for a Linux kernel bug
+that had been fixed upstream weeks earlier, while
+two of the most widely used server distributions still had no fixed package
+. Red Hat had rated the bug moderate because its timing race was hard to win. The model won it in under an hour.
+Exploits take hours; fixes take weeks to years, and for some systems never arrive. Each row uses its own metric, so read them as orders of magnitude.
+Even where patching can speed up, deployment carries its own outage risk. In July 2024, one faulty CrowdStrike update
+crashed about 8.5 million Windows machines
+. And if patches need to be deployed 100s or 1000s of times a day, you just swap attacks for self-inflicted downtime.
+So the question isn’t how to patch faster. It’s how to stop needing to.
+The things that will never be patched in time
+The case is starkest for the machines whose updates are slow by design, and those are the ones where failure is physical.
+Industrial control systems.
+Grid, water and factory controllers get patched in maintenance windows, often annually, after the vendor’s regression testing. Sometimes no fix exists:
+Dragos found that about a quarter of 2025’s industrial advisories shipped with no patch or mitigation at all
+and that only 2% of industrial vulnerabilities needed action immediately - the rest wait.
+US grid rules allow 35 days to evaluate a patch and 35 more to apply it
+.
+Medical devices.
+Infusion pumps, imaging systems and ECMO machines live for 10 to 20 years, often on unsupported operating systems, and a patch can mean re-certification. FDA cybersecurity rules apply only to new devices. In one 2025 survey,
+89% of hospital systems had connected devices with a known-exploited vulnerability
+.
+Vehicles.
+Newer fleets take over-the-air updates. Older ones don’t, and software recalls move at the speed of safety regulation.
+Everything else with a chip.
+Building controllers, cameras, routers and refrigerators often have no update channel and no owner who knows they are online. In October,
+attackers heated the refrigeration in hundreds of French supermarkets in one night
+, mostly through end-of-life controllers that no longer get fixes. The national cyber agency’s only advice was to disconnect them. Three weeks later
+the same attack hit stores in Belgium, Luxembourg, Sweden and Estonia
+, and the contractor for one Belgian chain said
+the fix needs physical changes to every unit
+.
+For all of these, patching was never really the control. It was the hope. The controls that work are off the device.
+What scales, in order of reach
+Four approaches can protect equipment that cannot be patched quickly. We rank them by how far down the long tail they reach.
+Where defense works when patching can’t keep up. The gates map to the approaches below and to the opportunities we see
+1. Get it off the open internet.
+The most harmless exploit is the one that can’t reach its target. When
+researchers at Censys found nearly 400 water-utility control screens exposed online
+, including 40 that allowed control without a login, it worked with the EPA and the vendor to reach their owners. Within nine days, a quarter had been secured. By May 2025,
+fewer than 6% were still exposed
+. No patch was involved, and it moved faster than any patch cycle could.
+The practical problem is that operators and contractors need remote access. Asking them to unplug the equipment often fails. What works is giving them an affordable way to keep that remote access without public exposure, and reaching them through someone they already answer to: a regulator, the vendor, their internet provider or their insurer.
+Who delivers the message matters. In one study of infected consumer devices, a
+European internet provider’s quarantine-and-notification process cleared 92% of infections within 14 days.
+Email warnings did no better than saying nothing. AI makes finding the exposure nearly free. Informing the owner and getting them to act is the hard part.
+Exposure drops fast when someone the owner answers to steps in, with no patch involved.
+2. Segment what has to stay connected.
+In May,
+Dragos documented an intruder using a frontier model as its main operator
+who reached the boundary between a Mexican water utility’s office network and its control system, and stopped there. The control network was walled off. Segmentation is old and unglamorous, but it can keep a network intrusion from becoming a physical event. Those boundaries have to be maintained, including the routes used by contractors and remote administrators.
+3. Block the attack in the network, at machine speed.
+The PHP week showed what this looks like when it works: a protective rule written within hours and deployed in front of millions of servers. That model, sometimes called virtual patching, has mostly been a web-traffic product for big platforms. The next step is to generate those rules automatically from each disclosure, using the same AI that writes the exploits, and push them to places that aren’t behind a big platform: industrial protocols, hospital networks and the small business router.
+4. Remove the whole class.
+The most durable fix eliminates the kind of bug rather than the instance. Google reports that
+memory-safety bugs fell from 76% of Android’s vulnerabilities in 2019 to 24% in 2024
+, mostly by writing new code in memory-safe languages. Formal verification, safer defaults and hardened protocol libraries can reduce other recurring weaknesses. This is slow and reaches the long tail last, but it is the only approach that actually shrinks the number of bugs to find.
+Two more investments belong alongside these: safe fallback and replacement. A water plant needs to be able to operate by hand, a hospital needs to be able to work on paper for a week. And some devices are simply too old to protect economically and need to be retired.
+Recovery is the control everyone forgets
+All four of those defenses reduce risk. None reduces it to zero. For the long tail, what decides whether an attack is a bad week or a lost quarter is whether the backups work. And attackers know it.
+Backups are now a primary target.
+In Sophos’s 2024 survey of ransomware victims
+, 94% said attackers had tried to compromise their backups, and 57% of those attempts succeeded.
+Mandiant’s latest report
+describes leading ransomware groups going after backup infrastructure, identity services and hypervisor management together, and deleting cloud backups outright.
+CISA’s updated advisory on the Akira group
+lists exploits of backup-server software as a way in.
+Confidence has not caught up.
+In Veeam’s 2026 survey
+, 90% of leaders said they could meet their recovery targets, but only 28% of victims got all their data back. In Sophos’s healthcare survey, use of backups to recover encrypted data fell to
+51% in 2025 from 72% three years earlier
+. And losing your backups is expensive. Victims whose backups were compromised
+reported
+median recovery costs of about $3 million, against $375,000 where the backups survived.
+Recovery is assumed, not proven. Backups are now a primary target.
+The lesson is that backups are part of the attack surface, not insurance. They need protected credentials, copies an intruder cannot readily alter, isolation from the access paths attackers take first and regular restoration tests. “We have backups” is not a posture. “We restored the hospital’s records system from last night’s copy in four hours last Tuesday” is.
+The umbrella has a shape, and a cost
+If the answer is that someone else stands between the attacker and the vulnerable system, then who that someone is matters. Today it is a small number of cloud, content and security companies. The largest content-delivery network alone now sits in front of
+a quarter of all websites, up from under 4% a decade ago
+. That concentration is why the PHP week went well. It is also a single point of failure: the July 2024 outage was one faulty update from one security vendor, and it cost the largest US companies
+an estimated $5.4 billion, of which insurance was expected to cover only 10 to 20%
+. And it raises a sovereignty question that countries and regulators are only starting to ask,
+as Jason Healey has pointed out
+: whose rules apply when a handful of US platforms decide which traffic reaches the world’s servers?
+The economics push in one direction anyway. Defending a single asset costs about what it always did, while attacking it keeps getting cheaper. Over time the long tail has two choices: shelter under someone’s platform, or get its exposed infrastructure off the internet. The organizations that do neither, the county water system, the clinic and the small manufacturer, are the ones the data piece showed are already paying.
+The policy end: fixing other people’s machines
+Some owners will not act because they do not know, cannot afford it or no longer exist. Then the question becomes whether someone else may intervene.
+There is precedent. In April 2021,
+a US court authorized the FBI to remove malicious web shells from hundreds of private Exchange servers
+whose owners hadn’t acted. In a December 2023 operation disclosed the following month,
+another court order let it remove a Chinese state botnet from hundreds of small-office routers
+, most of them beyond vendor support. Both were narrow interventions against specific companies. Pressure for broader intervention will grow: notify, then quarantine, then remediate devices that endanger others. That is a real civil-liberties trade, and it is better argued now than improvised during a crisis.
+The opportunities we see
+The categories we think win share one property: they make patching unnecessary, or someone else’s job. Each also combines multiple categories into one. Finding a vulnerability, protecting the running system and verifying the fix become more useful when one product carries the work through.
+The old categories on their own are at risk of becoming a feature in this new world. The company that takes the merged category, and starts from its hardest part, is the one with a shot at being generational. We see at least 6 opportunities.
+1. Fix it live, then fix the code.
+Pentesting, vulnerability management and application security become one loop. The old rule was that source code is the truth and production follows. Security speed is breaking that rule.
+We believe the new generation of solutions will mitigate a vulnerability in the running system within hours: an edge rule that drops the malicious request, an in-process hook that checks the function’s input and refuses the exploit, or a patch applied in memory without a restart, as live kernel patching has done for years.
+Keeping up with these live fixes has been impractical: too many patches, too many versions across internal and third-party libraries. The bet is that coding agents can apply version-specific live fixes at machine speed with high confidence in compatibility. The agents then write the fix against the exact library and API versions actually deployed, open the pull request and confirm the two match.
+The sales motion follows from the same capability: break the prospect’s current versions in a day, then run the same attacks against the system with live protection and watch them fail.
+The same machinery belongs on the vendor side, where it is clearer who pays. A Linux distribution that ships a kernel fix in days rather than weeks gives all its customers a fix sooner.
+Europe’s Cyber Resilience Act
+adds pressure: since September 2026, covered manufacturers have had to issue an early warning within 24 hours of learning that a vulnerability is being exploited. From December 2027, they will also be responsible for handling vulnerabilities throughout each product’s support period.
+The risk is the one from our first piece: a bad fix shipped at machine speed creates self-inflicted downtime, so staged rollout and automatic rollback are part of the product, not an add-on.
+How it plugs in.
+The live fix needs somewhere to run, and most companies already have those places: the content-delivery edge, the API gateway, service mesh, and lightweight agents inside the application process that can hook functions or patch them in memory.
+The product reads the advisory, checks deployed versions and writes the narrowest live fix that covers the bug. It tests against live or recorded traffic, uses watch-only mode where possible, and enforces the fix in stages with automatic rollback.
+The code fix runs on a second track: AI writes the patch against the versions in production, replays recorded traffic to show nothing breaks, opens the pull request, and retires the live fix once the real fix ships.
+The numbers that matter are hours from disclosure to protection, days to the permanent fix, and how often a live fix blocks legitimate traffic. On the vendor side, the same loop backports one fix to every supported version at once.
+Fix it live in hours, fix the code in days. The live fix protects production while the real fix moves through review
+Where the live fix runs.
+The edge rule, the in-process hook and the in-memory patch each cover a known bug. A deeper layer covers the technique, including before an advisory exists.
+Writing exploits is becoming cheaper, but many still rely on familiar actions on systems the defender can watch, and the techniques exploits rely on are a short list even when the bugs are not.
+Of the 48,185 vulnerabilities published in 2025
+,
+884 were newly exploited
+, and
+CISA’s own review
+found that most of the
+weakness types behind its exploited list
+are ones the industry has known how to prevent for decades.
+The same in-process instrumentation, placed where untrusted input gets parsed or code crosses into the operating system, gives a small model places to judge whether exploitation is occurring, with possible escalation paths to larger models. The product defends against recurring techniques instead of chasing each bug. Every miss in the proof-by-exploit trial becomes training data. The hard parts are speed and false alarms. None of this makes a company unbreakable. It reduces the attack surface the attacker is counting on.
+Bugs are many; the ways to exploit them are few. That is why stopping techniques scales better than chasing bugs.
+How it plugs in.
+Most exploits pass through a few choke points: parsers and deserializers that turn untrusted bytes into objects; code that builds database queries and shell commands, runtime operations that manage memory or execute generated code and calls to the operating system to run programs, open files or make memory executable.
+Hooks at those points can catch the moment a bug turns into control, such as a web server suddenly starting a shell. A small model in the path decides within the request whether to allow, block or escalate.
+A larger model or an analyst reviews escalations in seconds and can push a new rule out to the edge, feeding into the protection above. Interventions range from dropping a request to killing a process or isolating a machine.
+Where runtime exploit prevention hooks in: the few choke points every exploit passes, with a small model deciding inline.
+2. Detect without rules, respond first.
+The AI SOC, incident response and managed detection become one service.
+Detection today runs on rules that people write and maintain, and every rule fails in one of two ways. Too specific, and it misses the next variant. Too broad, and it adds to an alert queue already longer than any team can read, which is how a real alert gets ignored with the rest.
+In Vectra’s 2026 survey
+, security teams saw about 3,000 alerts a day and never got to 63% of them.
+In a second survey
+, 40% had switched off a detection rule, or considered it, because they couldn’t keep up with what it produced, and 60% had seen an alert nobody investigated turn into a real incident.
+Another gating factor is that a good share of the evidence never reaches the SIEM at all. Ingestion and storage costs pressure teams to drop what they believe is noise. The version we think wins reads events straight off the security products already in place, develops detections, and acts while the incident is unfolding.
+That makes it the first responder, taking on work that analysts do and managed-detection and incident-response services sell today. An intruder who got in at machine speed moves at machine speed, so the response has to as well.
+How it plugs in.
+The product sits on the event streams the organization already pays for, endpoint, identity, email, network and cloud, and reads at the source rather than after they land in a SIEM. A model watches for behavior rather than signatures, including process chains, login patterns and data movement that don’t fit a host’s history, and proposes a detection it can explain. Confirmed detections ship as rules the model also retires when they go quiet.
+Response runs through the same products’ own controls: isolate the endpoint, end the session, block the sender, snapshot the host for forensics, with a human approving anything that would take a production system down.
+Buyers should measure time from the first malicious event to containment, the share of incidents contained or alerts addressed with no human in the loop, and false isolations per month.
+Detect without rules, respond first. Read the streams already paid for, let a model propose detections it can explain, and respond through the products’ own controls.
+3. Judge every request, not every login.
+Identity, endpoint security and network access become one decision. The old model assumed a user and a machine were the same thing: log in once and the session is trusted. Agents broke that.
+A developer’s laptop now carries a person, a coding agent with its own keys and a browser agent with its own sessions, and all three send requests from the same machine in the same minute. Trust has to be judged per request, by who or what produced it, and that judgment has to happen on the endpoint, because by the time traffic reaches the network the distinction is gone.
+Access becomes just in time: granted for one task from context, withdrawn when the task ends, and invisible when it works. None of this has to be disruptive. The friction today comes from standing privileges someone has to review, take those away and most decisions happen in the background.
+How it plugs in.
+An agent on the endpoint attributes each outbound request to a process and a principal, human or software, and signs it. A broker issues credentials scoped to one task and one resource, with lifetimes measured in minutes, and the network layer refuses anything unsigned or out of scope. Actions that move money, delete data or grant access get human approval, and everything an agent does is logged against the person who launched it.
+Buyers should measure standing credentials with production access, activity attributable to a principal, and time to revoke a session once it is flagged.
+4. Prove recovery.
+Backup, disaster recovery and cyber insurance become one product. Backup storage belongs to established vendors, but proof does not. The missing piece is backup posture management - continuous, independent verification that backups exist, resist alteration, sit outside the identity systems attackers take first and actually restore, with evidence an auditor or an insurer will accept.
+When prevention fails, this decides whether the outage lasts days or months.
+How it plugs in.
+The backup copies live outside the identity system attackers take over first: separate accounts with no shared administrators, write-once storage with enforced retention, and deletion that needs two people. On a schedule, the product restores real systems into an isolated clean room, boots them, checks the data, scans for implants and times every step.
+That record is the product: the last good restore, the hours to bring back each critical system and the share of data recovered, in a form a board, auditor or insurer will accept.
+The survey data show why this matters.
+In Sophos’s study, 46% of victims
+whose backups survived were fully back within a week, against 26% of those whose backups were compromised. Those with intact backups were also about half as likely to pay a ransom.
+Veeam reported full recovery at 40%
+among organizations that raised resilience budgets, which were more likely to buy immutable storage and automated backup, against 16% for the rest.
+The recovery record is also the underwriting input. Correlated losses, where one shared bug hits thousands of victims at once, are difficult to model and price and exactly what insurers exclude today. The firms that can model that risk and connect coverage requirements to tested controls will shape the market alongside the products themselves.
+5. One control at the point of install.
+Software supply chain, CI/CD security and the developer endpoint become one control. Some of October’s biggest losses didn’t begin with a missing patch.
+Binance now puts its theft at $6.3 billion,
+with its initial investigation describing one engineer’s compromised laptop. A
+tampered package also reached up to 5,000 developers through a code editor’s extension marketplace
+, attempting to install a backdoor.
+Package registries and marketplaces, developer machines and agents credentials are now another part of the attack surface.
+The model is the one email security settled on twenty years ago: hold incoming material at a gateway, open it in a sandbox, check for who really sent it, and then release or quarantine it before a person ever sees it. Today the inputs come through package managers, extension marketplaces, browsers, vendor connections and, increasingly, the skills, tools and documents or webpages that AI agents fetch on their own. For an agent a document is also an instruction.
+The product is the same three checks - hold, detonate, verify provenance, applied under one policy to every channel.
+In Verizon’s latest report
+, exploited bugs were the top single initial-access vector at 31%, but phishing, stolen credentials and pretexting together accounted for 35%. A third party was involved in 48% of breaches, up from 15% two years earlier.
+Sonatype counted more than 454,600 new malicious open-source packages in 2025
+alone.
+Many breaches start where there’s no bug to patch, and a growing share involve a vendor or partner.
+How it plugs in.
+Each path needs a control where installation or access is granted. Developer machines get allow-listed extensions and packages, device checks before they reach production, and no long-lived production credentials sitting on a laptop.
+Package registries and internal mirrors hold new versions briefly, run installs in a sandbox to watch what they do, and check signed provenance. Vendor access is scoped, expiring and reviewed. Agent skills and tool connectors get held and tested like a package (what the agent may then do with them is category 3’s job).
+The numbers to watch are time spent in screening, the share of installations tested in a sandbox, the share of agent skills and connectors that passed the hold before first use, and the number of laptops holding long-lived production credentials.
+6. The long-tail platform.
+Exposure management, secure remote access, control-network segmentation and manual fallback become one product for the organizations that will never run a security team: the water utility, a hospital’s biomedical department or a supermarket chain’s refrigeration contractor.
+Exposure removal only works as a product if it sells the alternative: a cheap way to keep remote access without sitting on the open internet, and a channel to the owner through someone they already answer to - the vendor, the internet provider or the insurer.
+The same service walls off the control network, keeps the manual fallback rehearsed and holds the inventory a regulator or insurer can check. Managed platforms already give small businesses services they could not run themselves. This is the same model for the machines that can’t move to the cloud.
+Alongside these products, migrating to memory-safe code is newly practical because AI can do much of the translation. It reaches the long tail last, but it is the only approach that shrinks the number of bugs there are to find.
+Each of these starts from a hard problem: a safe patch against the versions actually deployed, detection without manual rule-writing, a principal behind every request or a restore that is proven rather than assumed. That is the place to start. The dashboard and the reports are the easy parts and follow once the hard part works, and the hard part is what makes the combined category defensible.
+The bet
+The last piece ended with a wager: that 2026 looks less like the start of a cyber war than the start of a long, expensive worm era. The last worm era ended when one company took ownership of the problem and fixed it. Nobody owns this one.
+For many systems, the window between exploit and patch will stay open. The work is to make that matter less: fewer things exposed, fewer operations that depend on an immediate patch, and backups that actually bring systems back.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
