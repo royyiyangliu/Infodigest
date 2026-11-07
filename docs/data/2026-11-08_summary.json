@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-08",
+  "generated_at": "2026-11-07T23:33:05.764736+00:00",
+  "stats": {
+    "tweets": 5,
+    "podcasts": 1,
+    "articles": 2
+  },
+  "tweets": [
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "Latent Space 播客主理人、AI Engineer 大会创始人 Swyx（@swyx）宣布将对 Anthropic IPO 进行每周跟踪报道，直到其上市或最终未能上市为止。他提到自己曾报道过从阿里巴巴（$BABA）到 Atlassian（$TEAM）等大型 IPO，此次将结合股票对冲基金分析师与 AI 工程师的双重视角，并与 Altimeter 合伙人 Jamin Ball 合作推出该系列。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品人、播客/Newsletter《Behind the Craft》作者 Peter Yang（@petergyang）观察到，能调用多家实验室模型的应用（如 Conductor、Cursor 等）正纷纷被模型实验室自己收购，剩下的如 T3 Code、Orca 等多为开源项目。他认为用户和企业对\"可跨实验室使用模型\"的中立应用仍有大量需求，这一格局将如何演变值得关注。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic Claude Code 团队成员 Thariq（@trq212）指出一个他看好的趋势：Instagram Edits、Roblox Studio 等创作者应用开始内置 MCP，让 AI agent 承担部分工作，同时高级用户可在自己熟悉的工具中协作并接续完成。这意味着 MCP 正从开发者工具向消费级创作软件扩散。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch（@rauchg）大胆判断，\"生成式 UI\"将成为人机-智能体交互（HAI）的主导范式。他介绍可将 Vercel 的 AI SDK、Chat SDK 与 json-render 组合，直接从 LLM 输出生成 UI，并部署到 Slack、Teams 等平台上的对话式 agent 中。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator 总裁兼首席执行官 Garry Tan（@garrytan）主张 agent skills 必须采用\"评测驱动开发\"循环：每代新模型都更强，可以移除不再需要的部分——他刚因 Opus 5.5 不借助该技能表现更好而删除了 /investigate 技能，称\"能感受到 AGI 浪潮在上涨\"。他还转引一项研究：仅用 **300 万 tokens** 普通人面对复杂道德困境的建议进行训练，就将模型恶意行为降至 **0%**，且跨模型代际效率提升 **28 倍**；另外他称赞 Aside 浏览器的 computer use 功能，因其本身就是真实的 Chromium 浏览器，几乎没有网站能屏蔽。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "Latent Space",
+      "title": "Controlling Biology - Fabian Theis, Helmholtz Munich",
+      "date": "2026-11-06 14:48 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/@LatentSpacePod",
+      "summary_zh": "Latent Space「AI for Science」系列本期嘉宾是 Helmholtz Munich 的 Fabian Theis，Scanpy、AnnData、scverse 等单细胞分析开源工具出自他的团队。本期主题是“虚拟细胞”（virtual cell），也就是用 AI 预测细胞在各种扰动下会怎样反应，以及这个方向的商业化路径。\n\n**行业背景与数据规模**：主持人提到，Biohub 刚刚联合 DOE、NIH、Meta 和 Google 宣布一项 **18 亿美元**的合作，用来采集并开源多尺度生物数据，训练新一代虚拟细胞模型。Theis 认为，药企急需能区分细胞类型和具体情境的筛选手段，而目前还做不到这个规模。欧洲和中国做扰动预测的创业公司都在快速增加。数据量方面，Parse Bio 单次实验就测了 **1000 万**个转录组；如今的扰动实验常常覆盖约 **100 种**细胞系的全基因 CRISPR 敲除，或者一次加入上千种药物。\n\n**模型与基线之争**：他的实验室 **2019 年**发表的 scGen 只在潜空间里做近似线性的平移，效果就已经不错。早期的基础模型炒作过头，之后出现一批论文，证明线性模型经常能追平复杂模型。他强调一定要认真跑基线：在同一器官内预测细胞类型，逻辑回归已经接近最优（他们五六年前有篇论文题目就叫“细胞类型预测不需要深度学习”）。但跨器官预测、预测相邻细胞的表达（他们的空间组学基础模型 NicheFormer）这类更难的任务，非线性模型优势明显。Arc 研究所的 Virtual Cell Challenge 有些指标可以被钻空子；去掉这些钻空子的成绩后，真正胜出的是基于 flow matching 的非线性模型。\n\n**规模化证据**：对比学习模型 scConcert 在论文里对标 Geneformer，用了约 **3000 万**个细胞；Hugging Face 上的版本已经扩展到 **3.5 亿**个细胞、约 **1 亿**参数，覆盖 **16 个**物种，开始显现缩放规律（scaling law）。他的做法是：先用表征模型学出细胞状态空间，再用生成模型 CellFlow 预测扰动后的状态，相当于一种“世界模型”。CellFlow 已被 Nature Methods 接收。他认为在数据充足之前，融合领域知识的混合模型仍有优势，但长期看数据会胜出（类比 AlphaFold 后续版本不再把旋转对称性写进架构）。\n\n**商业化判断（投资者重点）**：很多号称“做生物基础模型”的平台公司最后都转型自研药物，因为欧洲风投更保守，只认药物资产。他认为护城河在于“模型 + 独有数据生成”：他们和多家药企组建了 Cancer Organoid Perturbation Atlas 联盟，药企出资换取扰动数据的优先使用权。他也担心大模型公司会顺手覆盖这块业务。\n\n**下一个前沿**：从“绘制图谱”到“预测”，再到“指导实验”。团队即将在 bioRxiv 发布 Lab Compass，这是一个逆向生成模型：给定目标细胞状态，反推需要做哪些实验操作。他们和剑桥的合作者跑了 **3-4 轮**实验与模型的迭代闭环（lab-in-the-loop）。目前主要还是主动学习，长远目标是用强化学习驱动整个循环；他认为实验周期仍然太长，现在上机器人自动化还为时过早。\n\n**欧洲生态**：他组建的 Computational Health Center 约有 **45 位** PI、**500-600 人**，自称欧洲最大的健康 AI 学术机构；他要求每位 PI **3 年内**至少孵化 **1 家**衍生公司。他认为欧盟新创公司数量和美国相当，差距在 A/B 轮之后的扩张融资；慕尼黑的风投、生物科技和国防科技正在快速增长。NVIDIA 曾在一个月内从他实验室挖走 **2 人**。"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "We Visited China’s Stargate in Inner Mongolia",
+      "date": "2026-11-07 19:01 UTC",
+      "link": "https://newsletter.semianalysis.com/p/we-visited-chinas-stargate-in-inner",
+      "chars": 15990,
+      "summary_zh": "SemiAnalysis 实地探访内蒙古「中国版 Stargate」：远景（Envision）乌兰察布 Galaxy 数据中心园区，规划 IT 容量最高 **800MW**，与 OpenAI 的 Stargate Abilene 核心园区（Crusoe 称 **1.2GW** 电力，约 **820MW** 关键 IT 容量）规模相当。首期 **120MW** 不到 **12 个月**交付（**2026 年 8 月**），成本仅为美国的约**五分之一**；四期均为两家互联网巨头定制，全园区预计 **2027 年底**完工，若改造邻近风机叶片厂，后续可扩至约 **1GW**。当地察哈尔高新区有近 **3 万**名建筑工人同时推进 **22 个**数据中心项目；内蒙古已宣布数据中心项目合计 **25GW**，且不像德州那样面临反数据中心情绪。\n\n垂直一体化是核心看点：远景全球装机风机超 **100GW**，自建风电场与专线供电（\"源网荷储\"模式），两座风电场相距约 **80km**、合计装机 **420MW**，约为 **240MW** 负载的 **1.75 倍**，配 **4 小时**储能，目标让前两期 **60%以上**用电来自自有风电。内蒙古拥有全国约 **57%** 的可用风能，平均满发约 **2,800 小时/年**（容量因子约 **32%**），乌兰察布达 **35–40%**。园区内远景自研低压电源模块与 **800V** 系统，储能来自关联公司远景动力（AESC），预制变电站不到 **3 个月**建成（传统约 **6 个月**）；工厂预调试可省去通常 **3–6 个月**的现场联调。远景在内蒙古数据中心规划合计 **3GW**。\n\n技术层面：一个 **5MW** 机房已用固态变压器（SST）将 **10kV** 交流直接转为 **800V** 直流送至机架，省去低压变压器、UPS 与整流环节——这一架构在美国仍处路线图阶段（英伟达为约 **600kW** 的 Kyber 机架推动 800V DC）。中国数据中心用直流已近二十年（**2007 年**中国电信 240V DC 试点、**2018 年**阿里巴巴“巴拿马”电源），过去十年新建数据中心约**四分之一**采用直流，而美国约 **97%** 仍用交流 UPS。冷却上，液冷与风冷服务器共用一套水回路、无集中冷水机组，为美国\"冷机之争\"提供参照。\n\n行业格局：能源、建筑、电气设备企业纷纷转型 AI 基础设施，但项目 IRR 极薄，回报多来自带动自家设备需求或资本市场。最接近的类似案例是世纪互联（VNET）+宁德时代+中恒电气：**2026 年**宁德时代成为 VNET 第一大股东，并拟收购中恒电气控股股东 **49%** 股权，联合开发 GW 级园区；宁德时代亦是 DeepSeek 最大外部投资者之一。中国数据中心市场竞争激烈：过去五年租金约**减半**至约 **$40/kW/月**（不含电费），资本开支下降约 **25%** 至每 MW 不足 **$3mm**，内蒙古全口径电价约 **$0.055/kWh**，全球最低之一。马来西亚已要求数据中心至少 **30%** 电力来自可再生能源。\n\n投资含义：垂直一体化目前尚未直接带来超大客户订单（客户仍主要看资源与履约记录），但随着电力获取日益成为瓶颈、机房内电力架构（高压直流、BBU/BESS 替代 UPS）重构，类似比亚迪模式的一体化玩家有望在成本与工期上形成差异化优势。"
+    },
+    {
+      "source": "a16z",
+      "title": "Hip-Hop Has No Social Security. Paid in Full Is Trying to Change That.",
+      "date": "2026-11-07 15:02 UTC",
+      "link": "https://www.a16z.news/p/hip-hop-has-no-social-security-paid",
+      "chars": 15980,
+      "summary_zh": "【a16z 周末文化特刊｜音乐记者 Jeff Weiss】嘻哈没有\"社保\"：Paid in Full 基金会试图改变这一点\n\n**核心内容**：文章介绍由 a16z 联合创始人 **Ben Horowitz** 与妻子 Felicia Horowitz 创立的非营利组织 Paid in Full Foundation，其宗旨是资助那些艺术贡献远超所获经济回报的嘻哈先驱。每位获奖者可获得为期**五年**、无附加条件的资助，模式借鉴 Quincy Jones 参与的 Jazz Foundation。往届受助者包括 Rakim、Scarface、George Clinton、Roxanne Shanté、Grandmaster Caz、Kool Moe Dee、Grand Puba、Kool G Rap 等，资金被用于购房、偿还医疗账单、完成搁置多年的创作项目。Ben Horowitz 解释命名缘由：Eric B. & Rakim 的专辑《Paid in Full》\"我花 **10 美元**买下，却得到至少 **500 万美元**的价值，这需要被回报\"。\n\n**行业\"原罪\"**：1979 年 Sugarhill Gang 的《Rapper's Delight》按厂牌自报销量至少 **200 万张**，是首支进入 Billboard **Top 40** 的嘻哈单曲，但成员 Big Bank Hank 照搬了时年 **18 岁**的 Grandmaster Caz 的歌词，Caz 从未获得版税或署名。Chic 的 Nile Rodgers 在今年颁奖礼上讲述：歌曲挪用了《Good Times》，Sugar Hill 厂牌背后金主是与黑帮有关联的 Morris Levy，曾派人持枪恐吓；Chic 最终经谈判获得版权和版税，而部分 Sugar Hill 说唱歌手则历经近 **40 年**诉讼才追回欠款。D.O.C. 自称以版权换得 Eazy-E 一条金链，并称曾被许诺 Death Row Records **35%** 股权（Vibe 估算该厂牌 1996 年价值 **1 亿美元**），但从未兑现。嘻哈奠基人 Kool Herc 在 **2011 年**因无医疗保险需网上募款做肾结石手术；Caz 在收到首笔资助前仍住在公共住房。\n\n**活动概况**：**10 月 24 日**，第**四**届 Hip Hop Grandmaster Awards 在拉斯维加斯 Bellagio 酒店举行。Nile Rodgers 获 Quincy Jones 成就奖并首次与 Caz 同台；**2026** 年荣誉获得者包括 Kurtis Blow、The D.O.C.（由 Ice Cube 致敬），《Video Music Box》创办人 Ralph McDaniels 获贡献者奖。董事会及顾问委员会成员包括 Nas、Quincy Jones III、Fab 5 Freddy、Steve Stoute 及 Apollo 剧院总裁兼 CEO Michelle Ebanks。\n\n**观点**：作者认为，嘻哈在过去**50 年**从南布朗克斯亚文化成长为**数十亿美元**规模的全球产业，但创造者鲜少分享红利，延续了美国爵士乐先驱潦倒离世的老问题。每年寥寥数笔资助无法偿还整代人，但已是开始。\n\n**投资者视角**：本文属文化/公益内容，与 AI 及 a16z 投资业务无直接关联，主要体现 a16z 创始人在文化领域的品牌与社群建设；文中揭示的早期音乐产业版权与收益分配失衡问题，可作为创作者经济与内容版权议题的历史参照。"
+    }
+  ]
+}
