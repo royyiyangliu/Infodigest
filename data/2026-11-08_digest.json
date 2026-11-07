@@ -1,0 +1,289 @@
+{
+  "fetch_date": "2026-11-08",
+  "fetch_time": "2026-11-07T20:39:19.167078+00:00",
+  "stats": {
+    "new_podcast_episodes": 1,
+    "new_articles": 2,
+    "new_tweets": 20,
+    "total_podcasts": 1,
+    "total_articles": 2,
+    "total_tweets": 20
+  },
+  "podcasts": [
+    {
+      "source": "Latent Space",
+      "title": "Controlling Biology - Fabian Theis, Helmholtz Munich",
+      "date": "2026-11-06 14:48 UTC",
+      "link": "https://www.youtube.com/@LatentSpacePod",
+      "orig_link": "",
+      "audio_url": "",
+      "duration": "",
+      "summary": "",
+      "lang": "en",
+      "chars": 62549,
+      "text_file": "data/2026-11-08/podcasts/latent_space__controlling_biology_-_fabian_theis_helmholtz_.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "We Visited China’s Stargate in Inner Mongolia",
+      "date": "2026-11-07 19:01 UTC",
+      "link": "https://newsletter.semianalysis.com/p/we-visited-chinas-stargate-in-inner",
+      "summary": "A wind-powered 800MW campus, 120MW built within a year, a 5MW SST-native 800V DC pilot and a cooling design without central chillers",
+      "chars": 15990,
+      "text_file": "data/2026-11-08/articles/semianalysis__we_visited_chinas_stargate_in_inner_mongolia.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Hip-Hop Has No Social Security. Paid in Full Is Trying to Change That.",
+      "date": "2026-11-07 15:02 UTC",
+      "link": "https://www.a16z.news/p/hip-hop-has-no-social-security-paid",
+      "summary": "At the 2026 Hip Hop Grandmaster Awards, the pioneers who built a multibillion-dollar culture finally collected on a debt nearly fifty years overdue.",
+      "chars": 15980,
+      "text_file": "data/2026-11-08/articles/a16z__hip-hop_has_no_social_security_paid_in_full_i.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2118905788915982341",
+      "date": "2026-11-07T03:18:02.000Z",
+      "text": "we are committing to weekly coverage of the Anthropic IPO all the way until it does or doesn't happen. \n\nHaving covered mega-IPOs from $BABA to $TEAM, I get to dust off my equity hedge fund analyst hat with my AI Engineer hat once more, this time with my good friend @jaminball who is challenging @ttunguz for writer-VC-extraordinare of his generation.",
+      "url": "https://x.com/swyx/status/2118905788915982341",
+      "likes": 78,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2118905429535379691"
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2118831214308262043",
+      "date": "2026-11-06T22:21:42.000Z",
+      "text": "@StandupPartners @ryolu_ @Microsoft @MiniMax_AI @theworldlabs @HeyGen @ExaAILabs recap video https://t.co/lHywQfrceQ",
+      "url": "https://x.com/swyx/status/2118831214308262043",
+      "likes": 2,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2118831109396193635"
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2118829491904708834",
+      "date": "2026-11-06T22:14:51.000Z",
+      "text": "@aditabrm @reductoai @barsisyphus unironically, @allenpark cooked https://t.co/V6rr9tqBWY",
+      "url": "https://x.com/swyx/status/2118829491904708834",
+      "likes": 3,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2118939076791546000",
+      "date": "2026-11-07T05:30:18.000Z",
+      "text": "Quite cool what you can do with a single prompt these days 👀",
+      "url": "https://x.com/thsottiaux/status/2118939076791546000",
+      "likes": 492,
+      "retweets": 7,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2118938956301779171",
+      "date": "2026-11-07T05:29:49.000Z",
+      "text": "Get me out of the basement\n\nhttps://t.co/SsG3P83NBg https://t.co/eeASj3vnsN",
+      "url": "https://x.com/thsottiaux/status/2118938956301779171",
+      "likes": 1776,
+      "retweets": 48,
+      "is_quote": true,
+      "quoted_id": "2118871902366441879"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2118871902366441879",
+      "date": "2026-11-07T01:03:22.000Z",
+      "text": "It's Friday",
+      "url": "https://x.com/thsottiaux/status/2118871902366441879",
+      "likes": 5778,
+      "retweets": 110,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2118869042153095422",
+      "date": "2026-11-07T00:52:00.000Z",
+      "text": "Paging my favorite ChatGPT Images PM @adele__li https://t.co/DGXQQyEP09",
+      "url": "https://x.com/petergyang/status/2118869042153095422",
+      "likes": 17,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2118852799094206787",
+      "date": "2026-11-06T23:47:28.000Z",
+      "text": "Alright, I just interviewed @jsnnsa and he blew my mind the most out of all my guests since probably @steipete. \n\nGoing to expedite shipping our episode. \n\nSubscribe here to get it soon: https://t.co/744uInp9aE https://t.co/cYja0eI996 https://t.co/Rma4NLvkCn",
+      "url": "https://x.com/petergyang/status/2118852799094206787",
+      "likes": 90,
+      "retweets": 11,
+      "is_quote": true,
+      "quoted_id": "2115623382721126826"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2118811231545122998",
+      "date": "2026-11-06T21:02:17.000Z",
+      "text": "Feels like all the apps that can use models from different labs like @conductor_build, cursor and others are getting acquired by the labs themselves.\n\nThe ones remaining like @t3dotcodes and @orca_build are open source.\n\nWonder how this will all play out. Personally I think there’s still a lot of user and enterprise demand for apps that can use models from different labs.",
+      "url": "https://x.com/petergyang/status/2118811231545122998",
+      "likes": 49,
+      "retweets": 2,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Nan Yu",
+      "handle": "thenanyu",
+      "tweet_id": "2118826112562434303",
+      "date": "2026-11-06T22:01:25.000Z",
+      "text": "what do the shrimp welfare ppl think about this one I wonder https://t.co/3jInoOgkac",
+      "url": "https://x.com/thenanyu/status/2118826112562434303",
+      "likes": 27,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2118783732316573851"
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2118859267314958761",
+      "date": "2026-11-07T00:13:10.000Z",
+      "text": "too many people building agents and not enough people using software to improve the quality of fish https://t.co/3ewG2QhovT",
+      "url": "https://x.com/trq212/status/2118859267314958761",
+      "likes": 2269,
+      "retweets": 62,
+      "is_quote": true,
+      "quoted_id": "2118783732316573851"
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2118822238262853904",
+      "date": "2026-11-06T21:46:02.000Z",
+      "text": "a pattern I’m liking: creator apps like Instagram Edits and Roblox Studio shipping with built-in MCPs, so agents can do some of the work while power users can collaborate and continue the work in tools that they're used to",
+      "url": "https://x.com/trq212/status/2118822238262853904",
+      "likes": 1130,
+      "retweets": 22,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2118788283564179513",
+      "date": "2026-11-06T19:31:06.000Z",
+      "text": "feels like it's really coming together https://t.co/L1WyogpiW1",
+      "url": "https://x.com/trq212/status/2118788283564179513",
+      "likes": 1327,
+      "retweets": 11,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2118928276118986991",
+      "date": "2026-11-07T04:47:23.000Z",
+      "text": "Imagine we get gta6.wasm before gta6",
+      "url": "https://x.com/rauchg/status/2118928276118986991",
+      "likes": 143,
+      "retweets": 2,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2118916001152803057",
+      "date": "2026-11-07T03:58:36.000Z",
+      "text": "Somewhere, something incredible is waiting to be known",
+      "url": "https://x.com/rauchg/status/2118916001152803057",
+      "likes": 356,
+      "retweets": 20,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2118856239719608353",
+      "date": "2026-11-07T00:01:08.000Z",
+      "text": "Generative UI for conversational agents.\n\nCombining @aisdk with Chat SDK and 𝚓𝚜𝚘𝚗-𝚛𝚎𝚗𝚍𝚎𝚛, you can go straight from LLM to UI on platforms like Slack and Teams.\n\nI believe this will become the dominant Human-Agent Interaction (HAI) paradigm:\nhttps://t.co/MHxtLyoy7t https://t.co/tRgxRi5Hey",
+      "url": "https://x.com/rauchg/status/2118856239719608353",
+      "likes": 1147,
+      "retweets": 60,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Aaron Levie",
+      "handle": "levie",
+      "tweet_id": "2118723097901846580",
+      "date": "2026-11-06T15:12:05.000Z",
+      "text": "The future is files. And GPUs. https://t.co/fbI1NHn8u5",
+      "url": "https://x.com/levie/status/2118723097901846580",
+      "likes": 208,
+      "retweets": 20,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2118951284376285508",
+      "date": "2026-11-07T06:18:49.000Z",
+      "text": "Computer use on Aside is *amazing* and also has an added benefit of literally being a real Chromium browser that few/almost no sites can block https://t.co/jmZVxOansa",
+      "url": "https://x.com/garrytan/status/2118951284376285508",
+      "likes": 4,
+      "retweets": 1,
+      "is_quote": true,
+      "quoted_id": "2118783186859884688"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2118950671886287323",
+      "date": "2026-11-07T06:16:23.000Z",
+      "text": "\"Using just 3 million tokens of advice from ordinary people facing complex moral dilemmas brought malicious behavior down to 0%, with a 28-fold jump in efficiency across model generations\" https://t.co/eQt5M7vZrX",
+      "url": "https://x.com/garrytan/status/2118950671886287323",
+      "likes": 10,
+      "retweets": 1,
+      "is_quote": true,
+      "quoted_id": "2118787107174896069"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2118920030243139596",
+      "date": "2026-11-07T04:14:37.000Z",
+      "text": "Eval-driven development loops for agent skills is necessary. Every new model gets better. You can remove things you don't need anymore. \n\nI just removed /investigate as a skill because Opus 5.5 does it better without it. \n\nYou can feel the AGI tide rising https://t.co/RTpbEAMZVU",
+      "url": "https://x.com/garrytan/status/2118920030243139596",
+      "likes": 217,
+      "retweets": 9,
+      "is_quote": false,
+      "quoted_id": null
+    }
+  ]
+}
