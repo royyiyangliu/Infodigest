@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-10",
+  "generated_at": "2026-11-09T23:33:30.310799+00:00",
+  "stats": {
+    "tweets": 8,
+    "podcasts": 1,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie 提出大胆判断：AI 已让部分开发者的产出达到 AI 前水平的**一到两个数量级**（10-100 倍），且高手与普通人之间的差距并未收敛、反而在复利放大——前提是合适的 harness、深厚的领域理解、较新的代码库、同时驾驭多个 agent 的能力以及低摩擦的测试部署流程；他预计这一现象将从软件工程扩散到科研、AEC（建筑工程）、金融、网络安全等依赖电脑操作的领域。\n另一条中他指出，长时运行的 agent 将成为常态，而 AI 推理对用户延迟并不敏感（例如一项任务创造 **500 美元**价值，多花 1 秒返回无关紧要），且推理是临时过程、无需长期存储敏感数据，因此 AI 数据中心的选址可以更灵活；这对愿意抓住机会的州、国家（甚至太空）是巨大经济机遇，放弃者则会错失。"
+    },
+    {
+      "author": "Aditya Agarwal",
+      "handle": "adityaag",
+      "summary_zh": "South Park Commons 普通合伙人 Aditya Agarwal 认为：如果新建数据中心变得更难，显然应大举做多已拥有存量算力的玩家（即超大规模云厂商），因为算力需求只增不减，\"握有香料的人将大赢\"。真正受损的是新模型训练的速度——他调侃说，在民意压力下前沿 AI 的发展最终可能被迫放缓。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI Codex 负责人 Thibault Sottiaux 澄清了 Codex 订阅额度：所有 Pro 档位均**无 5 小时用量限制**，相较 Plus 的用量分别为 Pro 100 = **10 倍**、Pro 200 = **20 倍**、Pro 500 = **50 倍**（并可使用 ultrafast 超快模式）。他还公开征询用户是否需要再推出一个 \"Pro 50\" 档位，显示 OpenAI 正在细化编程产品的定价梯度。"
+    },
+    {
+      "author": "Andrej Karpathy",
+      "handle": "karpathy",
+      "summary_zh": "前 OpenAI 创始成员、前特斯拉 AI 总监 Andrej Karpathy 将 Tristan 公布的优质 YouTube 频道清单做成了一个应用 \"TristanTube\"，收录 **4.7 万**个硬核技术视频并带有适合放松观看的 TV 模式。他特别指出，整个应用是用 Claude Code **3 分钟一次性生成**的，再次展示了 AI 编程工具的效率。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator 总裁兼 CEO Garry Tan 认为，\"能否借助超级智能在科学、医学和工程上实现人类进步\"将成为未来十年决定性的政治议题，社会面临\"拥抱丰裕\"还是\"选择黑暗\"的抉择。他同时批评 WIRED 已\"徒有其表\"，并以反 NIMBY 立场为丰裕论站台。"
+    },
+    {
+      "author": "Peter Steinberger",
+      "handle": "steipete",
+      "summary_zh": "OpenClaw 创始人、PSPDFKit 创始人 Peter Steinberger 批评 Asahi Linux 项目新增限制性政策：该项目本是把封闭受限的系统（Apple Silicon）开放出来，如今却增加让其他项目更难在其基础上构建的限制，而其拒绝 AI 辅助贡献的规定\"很愚蠢\"。"
+    },
+    {
+      "author": "Nikunj Kothari",
+      "handle": "nikunj",
+      "summary_zh": "FPV Ventures 合伙人 Nikunj Kothari 以讽刺长文揭露当下 AI 创业融资的\"FOMO 套路\"：模糊晒收入/客户增长曲线（不标 Y 轴）、让投资人转推邀功、多次发布功能视频、争取大厂/实验室背书、付费购买\"顶级媒体\"报道并定向投放给投资人、堆砌\"长程 agent 集群、世界模型、物理 AI\"等热词、声称\"没在融资、没有 deck 和 data room\"却被抢投，最终目的只是拿到最高估值——他强调整体是讽刺，但每一条单独看都是真的。他还预告将与 Arcanum Labs 联创 Daniel Rupawalla 闭门讨论 AI 训练数据市场（实验室在买什么、谁在卖、该市场能否持续）。"
+    },
+    {
+      "author": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "summary_zh": "Follow Builders 创作者 Zara Zhang 反驳\"某个创业想法注定成败\"的宿命论：同一个想法有上千种执行方式，100 个人会有 100 种做法，创业的命运是\"做出来的\"而非预先注定，出色的执行往往能无中生有，或让不可能在事后看来显而易见。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "No Priors",
+      "title": "Tokenization, Agentic Trading, Harmonic: Robinhood's Mission to Expand Ownership with CEO Vlad Tenev",
+      "date": "2026-11-05 11:00 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/@NoPriorsPodcast",
+      "summary_zh": "Robinhood 创始人兼 CEO Vlad Tenev 做客 No Priors，阐述公司\"所有权公司\"定位，以及代理交易、代币化、预测市场与 Harmonic 数学 AI 的进展。\n\n**业务全景**：Robinhood 已在 **120+ 个国家**以某种形式上线，从零佣金炒股 App 扩展为金融综合集团，产品线以\"扩大所有权\"串联：Trump 账户（0 岁即持股）、Robinhood Ventures（上市前持有私企）、代币化（所有权全球化）。\n\n**代理交易（Agentic Trading）**：年初推出 Robinhood MCP，Tenev 称已明确实现产品市场契合——上线几个月内 **超 15 万客户**开设代理交易账户，工具调用量呈平滑指数增长，最新约 **每日 3000 万次**。近期 Hood Summit 发布 Robinhood Agents，把 harness 与 UI 内置进账户（类比\"为交易优化的 Claude Code/Codex\"），支持定时循环策略、skills（如组合再平衡）及 agent 应用商店（如接入卫星数据数停车场车辆）。目标是把对冲基金/量化能力\"装进普通人口袋\"，预计先使少数成熟用户交易量大幅上升，再逐步扩散。风控上代理账户与主账户隔离、默认需人工批准交易。他认为基础设施无需大改（市场约 **20 年前**已全面电子化，Citadel、Jane Street 等做市商与交易所足以承载），且代理交易占比仍低，短期不会达到两位数百分比。\n\n**代币化与 Robinhood Chain**：去年在欧洲推出股票代币，今年重新上线为完全 DeFi 化版本，并配套自建的 RWA 公链 Robinhood Chain，称其为史上增长最快的公链之一、开发者活跃度第一；开发者已用股票代币构建 NFT、与 meme 币配对的资产池等。愿景是让南美、非洲等地任何拥有智能手机和非托管钱包的人以极低成本获取美股敞口，像稳定币之于美元。\n\n**预测市场**：视其为\"新闻的进化\"，并计划推出 KPI 合约，可直接交易 EPS、营收等财报指标，比买股票/期权更精确地变现观点与对冲。\n\n**AI 时代的所有权**：顶级 AI 公司多为私企，散户难以参与；微软、亚马逊上市估值仅数亿美元，散户可获 **1000 倍**回报，而估值 **1-2 万亿美元**的 AI 实验室上市后难复制。Robinhood Ventures Fund I 投资后期私企（含 OpenAI、ElevenLabs、Crusoe），在纽交所上市交易；Fund II 与 YC 合作投种子/A 轮。他支持 SEC 推动的 **2 小时**知识型合格投资者考试，但认为仍需进一步降低门槛。\n\n**Trump 账户**：Robinhood 为唯一初始受托人与经纪商，联合 BNY、财政部与 IRS；**2025 年 1 月起三年内**出生的儿童获财政部 **1000 美元**种子资金，戴尔夫妇另捐 **超 60 亿美元**。目标将美国家庭持股率从 **65% 提升至 95%**。\n\n**Harmonic**：其模型 Aristotle 去年获 IMO 金牌（三者之一），已被用于攻克 Erdős 问题。Tenev 批评 AI 实验室以\"秘密模型+数据中心\"集中做科研发现，认为把工具交给个人、分布式发现更可能胜出且更易被社会接受。"
+    }
+  ],
+  "articles": []
+}
