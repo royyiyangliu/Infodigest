@@ -1,0 +1,23 @@
+Source  : a16z
+Title   : Investing in General Translation
+Date    : 2026-11-10 16:30 UTC
+Link    : https://www.a16z.news/p/investing-in-general-translation
+────────────────────────────────────────────────────────────
+
+Today, companies expand their reach at an unprecedented speed. The best ones deliberately build their product and services for a global audience. As a result, their products need to be in every language and localized to meet their customers where they’re at.
+But localization is not simply running all of a company’s text through translation - it involves isolating and managing translations across disparate surfaces like codebases, documentation, marketing, media, and more. It also involves working across internationalization libraries, traditional translation management systems (TMS), and even external agencies.
+It’s a time-consuming, difficult process that results in a lot of brittle workflows and slow release cycles. And companies spend billions annually doing it. The maintenance itself is another nightmare - copies go out of sync, and UI components break visually.
+The good news is this is the type of problem that’s ripe for disruption by AI and, with the right technical primitives, the entire localization stack can be reinvented from the ground up to solve these problems.
+That’s why we’re very excited to announce our investment in
+General Translation
+. General Translation is first and foremost a developer infrastructure company. Their unique approach is full-stack localization - rather than having designers and engineers rip out translatable text from design and logic, teams can now use General Translation’s developer primitives to integrate directly into their React apps, documentation, and more.
+The end result is consistent, AI-powered localization across all surfaces and products while directly integrating with daily tools like GitHub, Figma, and Slack. Rather than treating localization as a separate step, it becomes directly integrated into the product development cycle so companies can get back to building.
+Today, some of the fastest growing companies like Cursor, Cognition, Ramp, and Clickhouse are already using General Translation to scale their products to every language. What really stood out to us when talking with these customers is how transformative the experience is compared to legacy localization services, and how much they valued the team’s speed, technical judgement, and attention to detail.
+Since day one, Archie McKenzie and the entire General Translation team have had a strong love for languages and elegant systems. Archie came from a classical languages background and majored in Computer Science at Princeton. He has the rare combination of understanding the messiness of language problems as well as designing scalable software.  That’s resulted in a distinct product with a laser focus on craft.
+We believe more companies should be able to serve global audiences earlier without having to deal with the headache of localization. We couldn’t be more excited to lead their Series A and have Martin join the board.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
