@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-12",
+  "generated_at": "2026-11-11T23:33:22.640981+00:00",
+  "stats": {
+    "tweets": 7,
+    "podcasts": 2,
+    "articles": 1
+  },
+  "tweets": [
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie 大胆判断：“智能体集群”（agent swarms）将带来 AI 产出的又一次跃升，并使采用与不采用这种工作模式的团队之间出现明显分化——演进路径是聊天式 AI（受限于人机交互速度）→ 能独立完成整项任务的智能体（把数小时乃至数天的工作压缩到几分钟）→ 以目标为导向、生产力提升“没有内在上限”的智能体集群，未来将在游戏开发、编程、交易、生命科学研究、IT 自动化、网络安全、数学突破、动画等领域发挥重要作用，并催生大量 harness、应用 AI 产品、基础设施以及全新的 FDE（前置部署工程师）工作机会。\n他同时宣布与 Anthropic 合作，通过 MCP 让 Claude 对 Box 内容实现完整读写互通（可创建、编辑、更新合同、演示文稿、战略文档并写回 Box），并预计智能体处理企业文件的频率将是今天人类的 **100 倍**。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch 披露，Vercel Security Review 上线不到 1 周已识别 **57,897** 个漏洞，其中 **6,029** 个为严重或高危，**14,665** 个已由 Agent 自动修复；他对大量严重漏洞原本会被忽视、以及 Agent 自动修复的轻松程度感到震惊，该功能可用于任何代码仓库、不限部署平台。\n他还认为，在智能体编程时代，新的编程语言（包括针对特定用途专门设计的语言）将大量涌现，甚至可按需直接使用 C、LLVM IR 或汇编，“不再有一刀切”。"
+    },
+    {
+      "author": "Josh Woodward",
+      "handle": "joshwoodward",
+      "summary_zh": "Google 副总裁、Gemini 应用及 Google Labs 负责人 Josh Woodward 宣布，Gemini 4 Carbon 已在 Gemini App 中面向全球 Ultra 订阅用户上线。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品作家、《Behind the Craft》作者 Peter Yang 认为，游戏开发者和玩家抵制（有品位地）使用 AI 是“愚蠢的”，用 AI 批量制造垃圾内容与把 AI 当作打造优秀游戏的工具有本质区别。\n他还表示不在乎股价，但如果 Anthropic 能加速攻克各类重大疾病，将成为历史上最具影响力的公司之一，并肯定 Dario Amodei 专注于此、而非追逐病毒式短视频和 TikTok 梗。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic Claude Code 团队成员 Thariq（@trq212）认为，行业需要更少的“一次性生成”演示，而需要更多能展示人如何与模型协作、把自己的构想变成现实的工具。"
+    },
+    {
+      "author": "Ryo Lu",
+      "handle": "ryolu_",
+      "summary_zh": "Cursor 设计负责人 Ryo Lu 主张，人与人协作才是“魔法发生的地方”，而不是每个人各自在孤岛中运行自己的智能体大军；他认为构建软件不只是为了优化或完成任务，更是像电影人和音乐人一样，创造一个让人们进入、去实现以前做不到的事情、去创造和找到自我的世界。"
+    },
+    {
+      "author": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "summary_zh": "Zara Zhang（@zarazhangrui）提出用户留存观点：用户不再回来，**20%** 是因为不喜欢你的产品，**80%** 是因为忘了你的产品存在。她还建议分享作品、积累受众时不要等到完成或完美，先分享半成品，有时正是这样才能判断它是否值得做完。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "Lex Fridman Podcast",
+      "title": "#504 – Russia-Ukraine War: Putin, Zelenskyy, Drones and the Future of Warfare",
+      "date": "2026-11-10 23:52 UTC",
+      "duration": "3:01:15",
+      "link": "https://podcasts.apple.com/us/podcast/504-russia-ukraine-war-putin-zelenskyy-drones-and/id1434243584?i=1000801101792&uo=4",
+      "summary_zh": "Preston Stewart与Michael Kofman：俄乌战争、普京与泽连斯基、无人机与未来战争形态"
+    },
+    {
+      "source": "Latent Space",
+      "title": "Designing for Agents — Zeno Rocha, Resend",
+      "date": "2026-11-10 20:06 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/@LatentSpacePod",
+      "summary_zh": "Latent Space 对话 Resend 创始人 Zeno Rocha（Dracula 主题作者，YC W23），主题是开发者邮件基础设施如何在 AI Agent 时代获客。主持人 swyx 是 Resend 的天使投资人。\n\n**经营数据**：Resend 用户数达 **430万**，去年12月是 **100万**；付费客户超 **12万**；ARR 约 **1000万美元**；团队约 **50人**，全员远程。客户既有华纳兄弟、HBO、Mistral 这样的大公司，也有大量独立开发者。今年 SDK 的 NPM 下载量超过 SendGrid，目前已是对方 **2倍** 以上，但发信总量仍不及 SendGrid。据称在 Claude Code 中，Resend 被推荐的比例超过 **60%**。\n\n**AI 分发（AEO）打法**：2023 年起步时，SEO 远远落后于做了 10 年以上的 Twilio、Postmark、Mailgun。Resend 的做法如下：\n- 写长尾文档，例如各框架的接入指南；\n- 几乎每个页面都加 FAQ；\n- 营销站全面提供 llms.txt 和 .md 版本；\n- 把 JS 组件里的数据同时用文字写出来。\n曾有模型把 Resend 定价算错并称其\"不透明\"，补上定价页的 .md 版本几天后，模型就给出了正确数字。他观察到 Opus 4.5 偏向推荐新工具，因此建议让更多人在更多地方讨论产品。Resend 同时订阅了 **4个** AEO 监测工具，他认为这类工具只给报表、不给行动建议。\n\n**MCP 是新的分发渠道**：MCP 调用量每月至少翻倍，8月底约 **120万次**。工具数从上线时的约 20 个增加到 **80多个**，与 Cloudflare 只提供 2 个工具的思路相反。他本人选软件时也看对方有没有官方 MCP，曾因此弃用 Plausible、改用 PostHog。做远程 MCP 倒逼 Resend 重建了 OAuth 和 RBAC。CLI 也在增长，但不如 MCP 快。\n\n**技术与产品路线**：早期构建在 AWS SES 之上，现在正自建底层发信设施，包括购买 IP 段、管理 IP 池和对各邮箱服务商的流量控制，目标是提升吞吐、送达率和可观测性，数月内发布。发信路径已从 Node.js 改写为 Go。即将推出面向 Agent 的可编程收件箱 API。Gmail 约占收件量 **60%**。按联系人数收费的模式正被增长极快的 AI 客户打破，公司在调整。\n\n**风控与竞争**：Mailgun 创始人曾告诉他，公司 **90%** 的研发花在对抗滥用上。Resend 默认信任用户，一旦异常立即封停再沟通。曾遇到一个日本团伙一次注册约 **2万个** 域名。他认为 Twilio 在收购 SendGrid 后忽视了开发者。企业销售刚起步，目前只有 **1名** AE。\n\n**投资启示**：开发者工具的获客正从 SEO 转向模型推荐和 MCP 生态。先做开发者体验，规模起来后再自建基础设施，这是提升毛利和护城河的典型路径。"
+    }
+  ],
+  "articles": [
+    {
+      "source": "a16z",
+      "title": "Welcome to the B2A Economy",
+      "date": "2026-11-11 15:02 UTC",
+      "link": "https://www.a16z.news/p/welcome-to-the-b2a-economy",
+      "chars": 8489,
+      "summary_zh": "a16z 提出“B2A（Business-to-Agent）经济”：互联网的主要用户已不再是人类，而是 AI Agent。Agent 已占据大部分网络流量，撰写了**超过一半**的新发布网络文章，并生成了大部分推送到生产环境的代码。文章认为，这是平台迁移的早期阶段：采用度可量化，但其催生的商业模式尚未显现。以往的平台迁移（Web、移动）都同时带来新的产品能力和新的分发机制，AI 在前者上超预期、在后者上表现不足，这也是除 ChatGPT 外消费级 AI 普及有限的重要原因。\n\n**分发迁移的早期信号**：Shopify 披露，2026 年 Q1 AI 驱动的店铺流量同比增长**8 倍**，来自 AI 搜索的订单增长近**13 倍**；Human Security 观测到 8 月至 10 月间 agentic 浏览器流量增长**8 倍**，其中 Muse 占比最大（**60%**），OpenAI 系产品合计**30%**。AI 引荐流量参与度更高、跳出率更低、营收转化更好；即便在 Agent 普及前，美国约**11%**的购物路径在进入交易网站前先访问过 AI。目前多数流量通过浏览器操作完成，但类似“加强版 App Store”的连接器、插件和 MCP 正在兴起。示例：ChatGPT 调用 Krea、Descript、ElevenLabs 插件制作视频广告，并顺势推销了 Descript 付费套餐。“Sign in with ChatGPT”、Claude 允许企业管理员为全组织接入插件、OpenAI 新推出的 Businesses in ChatGPT（企业可认领主页、上传商品 feed、查看用户交互洞察）都在降低 Agent 注册和支付的门槛。\n\n**可能受益的四类公司**：①Agent/agentic 模型：除 Instinct、Muse、Wabi 等独立产品外，所有产品都将 agent 化，ChatGPT（**12 亿**周活）机会尤其突出；②由 Agent 催生的新产品（类比 Amazon 之于互联网、Uber 之于移动），方向包括自运营 SMB、AI 中介的市场/网络型产品、自动优化器；③为 Agent 做优化的在位者：GEO 主要停留在“发现”环节，Agent 会延伸到评估和执行购买/注册，市场更大；④Agent 基础设施：支付、反欺诈与身份、通信（iMessage、电话、邮件）在 Agent 量还不大时就已出现系统压力。\n\n**编码 Agent 案例**：截至 2026 年 9 月，**40%以上**的 GitHub PR 以 Agent 草稿起步，六个月前仅**17%**。除 Cursor、Codex、Claude Code、Cognition 以及 Replit、Lovable、Base44 等平台外，周边工具也同步增长：Supabase（2026 年 6 月）**超过 60%**的新数据库由 AI 工具创建；Neon（2025 年 5 月）**80%**的新数据库由 Agent 部署；Stripe（2026 年 6 月）Agent 占文档流量近**40%**、API 资源 CLI 请求的**70%**；Vercel（2026 年 10 月）Agent 触发的部署 12 个月增长**28 倍**。开发者占全球劳动力**不到 1%**，其余 99% 开始用 Agent 后影响将更大。\n\n**投资含义**：“AI 电商”的说法低估了机会。Agent 不仅会带动实物商品和服务的交易量，还会重塑流量、token 和收入流向数字产品的路径。多数企业目前仍因欺诈和拒付顾虑而屏蔽 Agent 流量，a16z 认为它们终将不得不拥抱这股价值日益增长的浪潮。本文是 a16z Agent 经济系列的第一篇。"
+    }
+  ]
+}
