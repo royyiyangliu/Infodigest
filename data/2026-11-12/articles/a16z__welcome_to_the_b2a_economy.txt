@@ -1,0 +1,65 @@
+Source  : a16z
+Title   : Welcome to the B2A Economy
+Date    : 2026-11-11 15:02 UTC
+Link    : https://www.a16z.news/p/welcome-to-the-b2a-economy
+────────────────────────────────────────────────────────────
+
+Before we dive into today’s article, congratulations to Counsel Health on its acquisition by OURA. Read more about the news
+here
+.
+The primary users of the Internet are no longer human. They’re AI agents.
+Agents now make up the majority of web traffic, write more than half of new articles published online, and generate most of the code pushed to production.
+This is what the early stage of a platform shift looks like: adoption is measurable, but the business models it enables mostly aren’t visible yet. Every prior shift changed both what people could do and how businesses reached them. The Web gave businesses a storefront anyone could visit; mobile put that storefront in everyone’s pocket. AI has already changed what people can do, but its transformation of distribution is just beginning.
+As agents move from answering questions to completing tasks, they’ll increasingly decide which products to use, which services to subscribe to, and where to spend money on our behalf.
+Businesses that treat agents as first-class customers have a shot at a wave of growth. Those that don’t may find themselves under threat. For years, retailers and platforms built walls to keep bots out - now, they will have to fight for bots’ business.
+If agents break out to the true consumer and capture real usage, they’ll unlock the biggest unrealized opportunity in AI: a true platform shift. Every prior platform shift (web, mobile) paired a new product capability with a new distribution mechanism. AI has overperformed on the first and underperformed on the second, which is a big reason consumer adoption has stayed so limited outside ChatGPT.
+The early signs of a distribution shift are already here. LLMs like ChatGPT, Claude, and Grok are a large and valuable source of traffic for many businesses.
+Shopify reported
+that AI-driven traffic to its stores grew eightfold year over year in Q1 ‘26, while orders from AI-powered searches grew nearly thirteenfold. And it’s accelerating: Human Security saw agentic browser traffic grow 8x between August and October, with Muse driving the largest share of activity (60%) and OpenAI products reaching a combined 30%.
+Just like websites could target users more effectively than billboards, agents should hypothetically be an even stronger referral source - as they have deep and specific data on the user and their needs. So far, this is proving to be true - AI-referred consumer traffic is higher engagement and converts better to revenue than non-AI traffic, with a lower bounce rate. Even pre-agents, an estimated 11% of shopper journeys in the U.S. visited AI before a transactional site.
+Right now, most of this traffic is happening via browser use - where an agent either takes over the user’s browser, or spins up its own virtual machine and browser instance, and completes the task by clicking around like a human would. However, we’re starting to see the emergence of the equivalent of an App Store for agents, but on steroids - connectors, plug-ins, and MCPs, where agents can more directly access third-party tools and sites.
+As one example - we asked ChatGPT to create and edit a video ad using the Krea, Descript, and Eleven Labs plug-ins. It coordinated across the products, and upsold us on a Descript paid plan to get the video done.
+Using an agent to sign up or pay for a product will only get easier as the underlying platforms allow a user to “lend” their identity or tokens to other products to get a task done (ex.
+Sign in with ChatGPT
+). Eventually, agents will be able to select and install the tools they need without human intervention - Claude
+already allows
+enterprise admins to connect plugins for their entire organization. Just yesterday, OpenAI
+launched
+Businesses in ChatGPT - companies can now claim their business, add product feeds, and see insights on how users interact with them on ChatGPT.
+There are a few categories of companies that may stand to benefit from the B2A economy:
+Agents / agentic models
+- most people picture ‘consumer agents’ as standalone harnesses like Instinct, Muse, and Wabi. We believe every product will soon operate agentically, as the models behind them get more action-oriented. ChatGPT (with 1.2 billion weekly active users) has a particularly intriguing opportunity here.
+Products newly enabled by agents -
+Amazon needed the Internet to come to life, and Uber could not have existed without the mobile phone. We expect agents to produce their own examples. Exactly how is hard to predict, but a few themes include self-running SMBs, marketplaces or network products that are AI-intermediated, and auto-optimizers.
+Incumbents who optimize for agents
+- LLMs have already been a significant source of traffic for many websites, which formed the
+basis of the generative engine optimization
+(GEO) industry. GEO largely stops at discovery. Agents will take it further, into evaluation and execution of purchase / signup choices, an even larger market.
+Agent infrastructure
+- for agents to operate in the real world on behalf of their humans, they’ll need their own set of tools. We’re already seeing system strain at fairly low agent volume on payments, fraud and identity, and communication (iMessage, calls, email, etc.).
+We already have one case study of how this might play out - coding agents, which completely transformed developer behavior. As of September 2026,
+upwards of 40%
+of GitHub PRs started with an agent’s draft - versus just 17% six months prior.
+Like consumer agents, coding agents have to rely on external tools to complete tasks. Say a user asks an agent to build a website. Finishing that job may require a database, hosting, authentication, email delivery, and monitoring. Beyond the agentic models and harnesses themselves (Cursor, Codex, Claude Code, Cognition, as well as vibe coding platforms like Replit, Lovable, and Base44), many other players saw growth:
+Supabase
+reported
+in June ‘26 that more than 60% of new databases are launched by AI tools
+Neon
+reported
+in May ‘25 that automated agents deploy 80% of its new databases
+Stripe
+reported
+in June ‘26 that agents accounted for nearly 40% of documentation traffic and 70% of CLI requests for API resources
+Vercel
+reported
+in October ‘26 that agent-triggered deployments had increased 28x over the last twelve months
+Fewer than 1% of the global workforce is developers - what happens when the other 99% starts using agents?
+This is the first in a series of pieces exploring the agent economy. Calling it “AI commerce” undersells the opportunity - yes, agents will drive transaction volume to physical products and services. But, they will also reshape how traffic, tokens, and revenue are routed to digital products. Most enterprises are still blocking agent traffic due to concerns about fraud and chargebacks, but we believe they’ll have to embrace an increasingly valuable wave.
+Over the next few weeks, we’ll be publishing more insights and data around what consumer agent usage looks like now, how agents are deciding which sites and products to direct traffic to, how infrastructure is developing around agents, and what the remaining hurdles are for agents to complete transactions.
+This space is changing on a daily basis - below is our best current mapping of the market. This includes the agents themselves, as well as the infrastructure that allows them to exist.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
