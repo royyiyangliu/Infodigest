@@ -1,0 +1,84 @@
+Source  : a16z
+Title   : Gaming’s Next Origin Stories
+Date    : 2026-11-12 15:03 UTC
+Link    : https://www.a16z.news/p/gamings-next-origin-stories
+────────────────────────────────────────────────────────────
+
+To hear more from
+,
+, and
+on this topic, check out the companion podcast to this piece
+here
+.
+If you want to understand an industry, study its favorite archetypes.
+In the case of gaming, first there’s the indie dev. This category includes guys like Eric Barone (the creator of
+Stardew Valley
+), Jonathan Blow (
+Braid
+,
+The Witness
+, and
+Order of the Sinking Star
+), and small teams like Tarn and Zach Adams (co-creators of the epic, sprawling world-sim
+Dwarf Fortress
+). People like these developers and the games they create because
+despite all odds
+they were able to create a commercial success well outside of the warm confines of a conventional studio. They are the gaming equivalent of the nerdy guy getting the girl. The fact that these games could succeed at all is part of their appeal (they are also, of course, quite fun).
+Then there is the prophetic toolmaker: guys like Tim Sweeney and John Carmack. These are people whose experiments programming bare-metal and pushing the boundaries of hardware later expanded what other people could build. Their work produced engines, editors, and simulations that eventually became environments for other people to build in.
+Finally, there is the world-building studio. These are teams like Rockstar Games (
+Red Dead Redemption 2
+and the upcoming
+GTA VI
+) or Larian Studios (
+Baldur’s Gate 3
+) who spend years constructing a place whose detail and verisimilitude (not to mention tiny easter eggs) exceed anything one player is likely to notice. As examples: Red Dead’s wildlife includes
+possums playing dead and bears bluff-charging
+and GTA VI will have
+six in-game radio stations
+(including one hosted by fictional characters voiced by Lana Del Rey and her husband). People love these games because of how lived-in they feel.
+These archetypes gesture at different values: indie devs get to toil away at their specific vision, and occasionally strike gold when that vision resonates. The prophetic toolmakers are responsible for pushing a technical boundary. And the world-building studios construct a game of extraordinary depth.
+Usually, when a scary new disruptive technology gets introduced to an industry, the first things to suffer are the archetypes. But this may not be the case for AI. In fact, the most compelling case for AI in games is that it can accelerate all three. The same technology that helps one person realize a strange idea can help an engineer investigate a game’s internals, or give a studio more opportunities to experiment within a production that already employs hundreds of specialists.
+This was the theme we (Anish, Jon, and I) kept returning to during our recent conversation about AI and games. We all have stories of games we’ve wanted to make for years, and we all had different things that had prevented us from attempting them, like a missing technical skill or the difficulty of sustaining an ambitious project long enough to finish it (especially when we all have full-time jobs that have nothing to do with the day-to-day of game development). Reducing those obstacles means we (and much more professional versions of us) can attempt more ideas. It also increases how ambitious an attempt can be.
+The opportunities fall along two dimensions: whether AI is helping with an existing game or a new one, and whether its main contribution is lower cost or new possibilities.
+For the would-be indie dev, the immediate opportunity is to bridge the gap between having a very specific idea and possessing every skill required to express it. Being excellent at one aspect of game design, like devising a core loop, can still leave a person unable to make the thing they want because they might be lacking in other key areas. In our podcast, Jon describes agents working across these disciplines: helping with a design document, constructing assets in Blender, assembling a scene in an engine, inspecting screenshots, and attempting fixes. So a solo developer might lean on tooling in the
+Produce
+quadrant to get them to a playable prototype, and discover what is interesting about an idea much earlier.
+There’s still, of course, considerable work between that discovery and a finished game. Anish’s Habbo Hotel-inspired
+record store experiment
+, which he discussed on our podcast, originated with a DJ friend of his complaining that online record shops all looked like cookie-cutter eCommerce sites. Anish wanted to build something that felt more akin to shopping for records in Toronto in the 1990s, which involved loud music, mixtapes, rave flyers, and serendipitous conversations. Anish gave a model visual references from Habbo Hotel and began reconstructing that experience. The record shop occupies
+Invent
+in the chart because production assistance serves an end-to-end game.
+Anish eventually made his record shop and its surrounding street moddable, with storefronts other players could build out. His son added a pet-adoption center (which Jon pointed out could be a nod to the much-played Roblox game, Adopt Me). The animals in his record shop could be adopted and follow their owners around, a behavior Anish hadn’t put into the original project; he says the coding agent added it and made the original record shop codebase backward-compatible with the new mechanics. This is
+Extend
+: a player brings an idea into a world he already knows.
+Jon’s eight-year-old son
+offers a smaller, contemporary version
+. He wanted to play Ghost of Tsushima; Jon thought it was too violent. He began asking ChatGPT about its mechanics and boss battles, then used Codex to help build a Minecraft mod inspired by it.
+A lot of these emergent model capabilities, like using Blender or 3D libraries like Three.js and Spark.js, really only materialized in the past couple of months. When OpenAI’s Astra was released, people were immediately blown away by its sophistication in computer use, which involved being able to do long-running tasks in computer graphics suites and engines like Blender, Unity, and Unreal. And the Opus series of models from Anthropic has proven especially great at end-to-end game design, as well as code implementation. A few months ago, you may have been able to get a model to generate some usable assets or a game spec. Now you can literally prompt something like “make this game more fun” and voila, the game is more fun. Simon Willison has
+a great post
+exploring a lot of these dynamics in more detail.
+The increasing capabilities of these models offer a good transition into exploring the “prophetic toolmaker” archetype and what role they might have in the AI age. AI is getting demonstrably better at putting games together. It also, quite remarkably, is great at taking them apart. This is a process known as decompilation, which involves working backward from a compiled program toward source code that people can inspect and modify.
+Getting there requires inventive engineering of its own. In Maurice Heumann’s
+account of an AI decompilation project
+, where he steered a team of agents toward decompiling an FPS game, agents initially produced readable code with incorrect behavior. This forced his team to introduce a check that compiled reconstructed functions and compared them with the original binary, accounting for references whose addresses could change. This is a useful picture of the new technical pioneer: a project overseer designing the conditions under which agents can tackle a problem reliably. This is an example of
+Recover.
+On the podcast, Jon pointed out that, by his count, there are at least four decompiled instances of Halo that run in-browser. We are fully prepared for the new gaming heuristic to change from “Can it run Doom?” to “Can it decompile Halo?”
+It would have been very easy for large studios to dismiss AI out of hand (as many gamers have done in recent months) and even easier for them to get angsty and litigious in the wake of rising decompilation efforts. So it’s been interesting to look at the responses of major studios that are signaling real openness and excitement.
+In
+October, Tim Sweeney described a reorganization around AI-assisted development
+, with the aim of enabling employees to make more and better work and extending the benefits to teams using Unreal. Xbox’s
+announcement of Xbox Labs
+focused on games being reconstructed for new hardware, browser ports, and remixes. Xbox established a group to explore these possibilities and share tools. The significance of this is that established companies see opportunities both in expanding production and in making existing libraries newly usable.
+For the world-building studios, the opportunity is twofold: the ability to collapse development cycles, and to reconsider what is worth attempting in the first place. As Jon pointed out on the podcast, committing years and hundreds of millions of dollars to a game incentivizes producers to favor familiar franchises. AI opens up new opportunities by shortening the time between idea and prototype. By shortening development cycles, a studio is able to prototype more game ideas faster, and thus take more risk on original IP or experimental genres that would not have otherwise been greenlit under a traditional development cycle.
+All three of us are building games ourselves now, and by the end of the podcast we were discussing how far we wanted to take that freedom. Anish has been working on reviving Solar Realms Elite, a multiplayer game from his bulletin-board days whose source code was lost. A design document and an executable survived, and he’s persisted, returning to the project with each new generation of models, and now has what he describes as a faithful recreation running on his computer. Jon wanted to revisit Civilization II and endow subjects with agendas of their own, so that ruling an empire would involve persuading people to cooperate. Elena is thinking about resuscitating some
+old dating sims
+she made in Unity, back in the pre-AI days.
+The obvious criticism to lob at this current era of AI-generated games is that they might be fun for the creator, and maybe a small cohort of their friends, but we’re still far away from truly expansive and coherent AI-generated games. Critics might say the reason that these early AI games are fun has more to do with the novelty of creating a game, and less to do with the actual entertainment value of the game itself. But is that really a bad thing? Creation has long been play—from building Legos to doodling with crayons to building worlds in Minecraft.
+This just means that we’re witnessing one of the things we’ve always loved about gaming: that it creates a cottage industry of how-to guides and tacit knowledge and idea exchange. Gaming also has a history of people finding something compelling while tinkering with someone else’s work; as a well-known example in the world of modding, Counter-Strike began as a Half-Life mod in 1999. We can take that story seriously without expecting every Minecraft mod or vibe-coded game to become the next Counter-Strike.
+Basically, expect a lot more games in the future. Someone who gets into game development by reconstructing an old favorite might discover an interest in its underlying systems (it is really hard to get into decompilation without learning what a game binary is, for example). Someone who makes a world for their friends might keep expanding it for years and attract a massive audience. These are recognizable tropes and origin stories for the archetypes we already admire. An industry so fond of stories about obsessive people making unlikely things should be excited about giving more people somewhere to start.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

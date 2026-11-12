@@ -1,0 +1,127 @@
+Source  : a16z
+Title   : Super Intelligence-Era Critical Infrastructure Cyber Defense Plan
+Date    : 2026-11-12 21:21 UTC
+Link    : https://www.a16z.news/p/super-intelligence-era-critical-infrastructure
+────────────────────────────────────────────────────────────
+
+A16Z’s Anne Neuberger, General Partner and Head of Global Affairs,
+writes today in the Wall Street Journal:
+AI is shrinking the time between when a weakness is found and when it is exploited. Defenders who still work at human speed will lose that race.
+The same AI can work for defenders: finding exposed systems, ranking which matter most and generating fixes. For old equipment that can’t be patched, AI can create workarounds, such as a firewall rule or a settings change. The question is whether it can be applied fast enough.
+The most significant national risk is concentrated, fortunately. Failures that would cascade across the country run through a few hundred operators and their shared vendors: large transmission substations, the Fedwire and ACH payment systems, water utilities serving big cities, core telecom networks and 911 systems, regional trauma centers and the health-record vendors. Smaller operators matter too, often as soft entry points, but protecting the critical few first buys time to fix the rest.
+Drawing on her experience as Deputy National Security Advisor for Cyber and Emerging Threats for the United States, Anne outlines a plan for a new model to drive national cyber resilience, accountable to the White House’s Super Intelligence Force, and led by CEOs of key American companies responsible for critical infrastructure:
+Executive summary
+The U.S. must address the significant risk that a cyber attack disrupts the operation of critical infrastructure that a large number of Americans rely on. This cyber defense plan outlines the governance and actions that are necessary to identify and contain the exposure at the few hundred operators and shared vendors whose failure would cascade nationally. The plan of action aims to (a) put in place adequate cybersecurity in each sector, accounting for many old, unmanaged systems, (b) use SI to find and fix vulnerabilities in sector-specific, broadly used code, and (c) create AI guides or harnesses for organizations’ unaddressed vulnerabilities to allow for rapid ID’ing of necessary patches as new models come out. A second phase of this work would establish digital replicas or “twins” of critical, shared systems across sectors to enable regular testing of shared systems.
+The public-private partnership plan activates and makes accountable leading companies in each sector as they understand the most significant operational risks in the sector, and without their role, the scale of U.S. infrastructure makes rapid, broad progress difficult. The White House’s Super Intelligence Force would establish a CEO council that is accountable for overall results. The sector Information Sharing and Analysis Centers would become the AI-enabled drivers that deliver them to each sector’s designated regulator.
+Scope:
+five sectors — power, banking and payments, water, communications, and hospitals.
+Targets:
+the few hundred operators and shared vendors whose failure would cascade nationally.
+Technical core:
+use AI to find flaws and produce tested workarounds at machine speed, eliminate internet exposure of control systems, segment networks, prove 72-hour manual operation. Determine the nationally scaled defenses that telecoms, Infrastructure as a Service, cloud networking (e.g. Cloudflare) can provide and what legal protections are required to activate these national cyber defenses.
+Governance core:
+CEOs sign sector targets and report monthly via ISAC scorecards. Large operators assist small ones.
+Legal fixes may be necessary:
+liability protection for information sharing and a potential safe harbor for participating companies who meet outcomes-based targets.
+The threat and the regulatory gap
+AI is shrinking the time between finding a flaw and exploiting it. Meanwhile, much of critical infrastructure cannot be patched on that timeline today. Operational technology (OT, the systems that run physical equipment) often stays in service for more than 20 years. Some of it cannot be patched without risking outages.
+Current regulatory rules were not built for this threat, with fixed patch windows and a compliance mindset, measuring whether controls are in place rather than the exposure and containment speed.
+Organizing for Impact
+A National Governance Model to Drive Rapid Scaling of Cyber Defense
+A
+ccountable to the White House’s SI Force, led by CEOs, run through the (Existing) Sector Coordinating Councils and Information Sharing Analysis Centers (ISACs) and Regulators
+The U.S. lacks a governance model to drive a purposeful, rapid effort to secure the most critical infrastructure. This plan outlines that model in a public-private partnership. In summary, the White House’s Super Intelligence Force sets national targets, CEOs commit their sectors to them, and the SCCs/ISACs deliver the work within each sector and measure the results.
+The U.S. has a governance system to drive this work – established twenty years ago by executive order, each sector has a strategic Sector Coordinating Council and an operational Information Sharing and Analysis Center - but it needs renovation. Sector Coordinating Councils (SCCs) and Information Sharing Analysis Councils (ISACs) are private sector led, non profit entities that function under federal directives and established public private partnership frameworks. The most effective ones have two layers, a CEO and CISO layer, to enable both strategic and operational action on cybersecurity across the sector. Today, the power and financial services sector ISACs have CEO-level involvement; the water, telecom and hospital ISACs do not.
+The White House’s established Super Intelligence Force should leverage these ISACs, to coordinate work with critical infrastructure sectors. The SI Force will need to work with the most influential CEOs in sectors where the ISACs do not currently have a CEO-level layer to ensure those ISACs are upgraded to create a CEO layer to drive the action needed.
+In addition to the existing ISACs, this plan activates two other groups: (a) cloud, cybersecurity providers, and telecoms to identify technical cyber defenses that could be scaled broadly, if there were appropriate legal liability protections, and (b) AI labs and technology firms to partner with critical infrastructure firms to scan their code and firmware and produce fixes and workarounds. AI labs should also work with makers of industrial control systems to build digital twins of standard equipment, so fixes can be tested before they touch a live grid or water plant with findings flowing through Gold Eagle, the administration’s new AI-enabled vulnerability clearinghouse, which should expand from software into industrial equipment. Equipment makers, many of them foreign, should have to act on findings by a deadline as a condition for selling to critical operators. Success should be measured by how quickly flaws are contained and whether essential services can keep running under attack.
+The following chart summarizes the participants and their roles in this national cyber defense plan:
+How accountability would work
+Signed commitments.
+Each council CEO signs the sector’s targets: zero internet-exposed control systems, 72-hour manual-operation drills passed, critical vulnerabilities contained (patched or with a compensating control) within a set time.
+Monthly scorecards.
+Each ISAC reports anonymized sector-wide metrics to the White House’s SI Force. Each CEO sees their own company’s position against the sector. A sector behind target triggers a CEO-level review with the SI Force leader.
+Board sign-off.
+For public companies, the board attests to outcomes-based progress metrics, consistent with existing SEC cyber disclosure rules. Regulators accept that attestation in place of duplicate audits, which incentivizes involvement.
+Large operators sponsor small ones.
+Utilities sponsor co-ops and city utilities in their footprint. Large health systems sponsor rural hospitals. Big banks fund community-bank tools through FS-ISAC. National carriers backstop rural carriers.
+Cross-sector drills.
+Every sector depends on power and telecom. So, in 3-6 months, the CEO council runs a joint drill modeled on GridEx (the grid’s large-scale attack exercise), with power, telecom, banks and hospitals responding together to an AI-speed attack.
+What each ISAC becomes
+Today ISACs mostly share threat alerts at the CISO level. Under this plan they would expand to drive the sectors’ work:
+Shared AI tools:
+detection rules, exposure scanning of members, and AI-generated workarounds (eventually tested on digital twins (software copies of real systems) to enable confidence).
+Coordinated fixes:
+one channel to vendors for AI-discovered flaws affecting the whole sector.
+Mutual aid at scale:
+builds on the electricity sector’s Cyber Mutual Assistance program and banking’s Sheltered Harbor data-restoration standard.
+Metrics:
+the ISAC produces the scorecard, so companies report once.
+Note: CEOs will not authorize sensitive data sharing without legal cover and firms may have legal liability for vulnerabilities they identify. Hence the SI Force must identify mechanisms to provide legal protection in both instances. The first would be addressed by the reauthorization of the Cybersecurity Information Sharing Act of 2015, the second by some form of time-based liability protection.
+The Technical Strategy
+Strategic technical approach: contain, prove resilience, scale with AI
+The overall technical strategy is to protect the targets that matter most first, contain what cannot be patched, and use AI so a small number of defenders can cover thousands of operators.
+1. Rank the targets per sector and identify the critical ones to participate
+Rank operators by how much harm a failure causes and how many others depend on them, not by size. Shared vendors often carry more risk than any single operator. Below is the suggested approach for the five first sectors.
+Power:
+large transmission substations, balancing authorities, and the plants needed to restart the grid after a blackout.
+Banks and payments:
+Fedwire, ACH, CHIPS, clearing houses, and widely shared cloud and core-banking vendors.
+Water:
+utilities serving large populations (those with 50,000 or more Americans), especially their chemical dosing controls.
+Telecom:
+internet routing, the core mobile network, 911 systems, and the timing signals other sectors rely on.
+Hospitals:
+regional trauma centers, electronic health record vendors, and medical device makers.
+2. Contain what can’t be patched
+Find and close exposure:
+AI-assisted scanning finds every internet-facing control system, VPN and remote-access path. Each is cut off, placed behind a monitored access point, or protected with phishing-resistant multi-factor login.
+One-way connections:
+hardware that only lets data flow out of the most critical control networks.
+Shrink the blast radius:
+separate IT from control networks, and segment by site so one breach can’t spread across a whole utility or health system.
+Prove manual operation:
+every top target shows it can keep operating without its IT systems for 72 hours, tested in drills. Hospitals use paper charts, utilities manual control, banks fallback settlement.
+Backups out of reach:
+offline copies of control-system configurations, demonstrated ability to reconstitute IT systems from bare-metal, so systems can be rebuilt quickly.
+Prepare for resilience:
+pre-position regulatory waivers and authorities to direct critical resources during response to major operational outages.
+3. Scale defense with AI (delivered through the ISACs)
+Find and fix flaws:
+AI vulnerability discovery on open source, vendor code and firmware before release. Findings go to manufacturers through a national clearinghouse, and vendors must provide a fix or workaround on a set timeline with a window for critical infrastructure to deploy fixes and protections before broad distribution.
+Fix with workarounds:
+for systems that can’t be patched, AI turns each flaw into a specific compensating step (a firewall rule, a monitoring alert, a configuration change), tested on a digital twin before it goes live.
+Block malicious traffic:
+CDNs, firewall providers, telcos and network providers can redirect malicious traffic before it reaches operational systems. Government authorities may be necessary to deploy at scale.
+Monitor for operators who can’t afford staff:
+a subsidized AI security operations service for small water systems, rural hospitals and electric co-ops. (Nonprofit funding is available today.)
+Train against realistic attacks:
+AI-driven red-team exercises against each sector’s digital twins, so defenders practice against attacker-speed tools.
+Guardrails:
+AI defense tools are read-only for control networks by default, and a human approves any change.
+Sector playbooks
+Each sector has one top risk, priority plans, an ISAC to run it, and a short list of CEOs chosen by the size and influence of the firms they lead in that sector.
+Policy, Funding and Metrics
+Cross-sector members
+Every sector runs on the major cloud providers (Microsoft, AWS, Google) and increasingly on frontier AI labs. They join the SI Force CEO Council as members responsible for the AI defense tools and for discovering flaws in vendor products.
+Policy levers, funding and proposed timeframes
+The White House’s Super Intelligence Force must address policy, legal liability and regulatory issues to incentivize the necessary participation. The bullet points below outline the priority fixes needed.
+Measure results, not paperwork:
+regulators track zero exposed control systems, time to contain a critical flaw, and proven hours of manual operation, not checklists.
+Regulatory relief for performance:
+companies that hit outcomes-based targets and have board sign-off get safe harbor protections.
+Vendor responsibility:
+secure-by-default requirements in federal purchasing; vendors disclose how long they will support a product and must offer fixes or workarounds for AI-discovered flaws on a set timeline.
+Information sharing:
+long-term CISA 2015 reauthorization, so operators can share AI-generated threat data quickly and with legal protection.
+Compute for defense:
+the federal government secures frontier-model access and compute for the participating companies and the national vulnerability clearinghouse.
+Workforce surge:
+a reserve of vetted responders, drawn from large operators and vendors, who can be sent to the most critical of critical infrastructure during an incident.
+Timeline and metrics
+The top targets should be contained within 6 months. Some have proposed replacing unsupported equipment but that is costly and can take 2–5 years, which is why containment comes first. The cost of addressing the scale of national tech debt is likely to be significant. It must be prioritized for those operators and shared vendors whose failure would cascade nationally and who lack the resources to upgrade their systems unilaterally.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

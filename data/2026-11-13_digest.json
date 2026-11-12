@@ -1,0 +1,298 @@
+{
+  "fetch_date": "2026-11-13",
+  "fetch_time": "2026-11-12T22:33:30.439201+00:00",
+  "stats": {
+    "new_podcast_episodes": 1,
+    "new_articles": 3,
+    "new_tweets": 20,
+    "total_podcasts": 1,
+    "total_articles": 3,
+    "total_tweets": 20
+  },
+  "podcasts": [
+    {
+      "source": "AI & I by Every",
+      "title": "A New Vision for Human Work After Automation",
+      "date": "2026-11-11 15:30 UTC",
+      "link": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "orig_link": "",
+      "audio_url": "",
+      "duration": "",
+      "summary": "",
+      "lang": "en",
+      "chars": 21980,
+      "text_file": "data/2026-11-13/podcasts/ai_i_by_every__a_new_vision_for_human_work_after_automation.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "Nvidia and the World Without Jensen",
+      "date": "2026-11-12 18:06 UTC",
+      "link": "https://newsletter.semianalysis.com/p/nvidia-and-the-world-without-jensen",
+      "summary": "Is NVIDIA Over? Export Controls, RASA, Open Source Implications, Supply Chain Implications, Affair, US Still Dependent On China",
+      "chars": 26703,
+      "text_file": "data/2026-11-13/articles/semianalysis__nvidia_and_the_world_without_jensen.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Super Intelligence-Era Critical Infrastructure Cyber Defense Plan",
+      "date": "2026-11-12 21:21 UTC",
+      "link": "https://www.a16z.news/p/super-intelligence-era-critical-infrastructure",
+      "summary": "A Public-Private Partnership to Defend America’s Critical Infrastructure",
+      "chars": 16075,
+      "text_file": "data/2026-11-13/articles/a16z__super_intelligence-era_critical_infrastructur.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Gaming’s Next Origin Stories",
+      "date": "2026-11-12 15:03 UTC",
+      "link": "https://www.a16z.news/p/gamings-next-origin-stories",
+      "summary": "What AI makes possible for indie developers, toolmakers, and studios",
+      "chars": 12739,
+      "text_file": "data/2026-11-13/articles/a16z__gamings_next_origin_stories.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2120640864787841513",
+      "date": "2026-11-11T22:12:36.000Z",
+      "text": "this person is a real former employee that we parted ways with\n\nthat email domain is not one we use https://t.co/uMoKLNxGrh",
+      "url": "https://x.com/swyx/status/2120640864787841513",
+      "likes": 66,
+      "retweets": 2,
+      "is_quote": true,
+      "quoted_id": "2120593057037074840"
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2120640558184206508",
+      "date": "2026-11-11T22:11:23.000Z",
+      "text": "next on stream - @CompleteSkeptic and @typesafeai take over for Jev Day! https://t.co/JcBRgaHwvt https://t.co/gVA3KoN1V4",
+      "url": "https://x.com/swyx/status/2120640558184206508",
+      "likes": 26,
+      "retweets": 1,
+      "is_quote": true,
+      "quoted_id": "2120582147107078356"
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2120582147107078356",
+      "date": "2026-11-11T18:19:17.000Z",
+      "text": "standing room only for @poteto’s keynote https://t.co/1uNkKE62e4 https://t.co/bPauHUJuq5",
+      "url": "https://x.com/swyx/status/2120582147107078356",
+      "likes": 620,
+      "retweets": 8,
+      "is_quote": true,
+      "quoted_id": "2120577296277119129"
+    },
+    {
+      "source": "Josh Woodward",
+      "handle": "joshwoodward",
+      "tweet_id": "2120622974277734716",
+      "date": "2026-11-11T21:01:30.000Z",
+      "text": "We love this and build with it regularly ♥️\n\nIt makes our apps faster and smarter https://t.co/79qcg9KloV",
+      "url": "https://x.com/joshwoodward/status/2120622974277734716",
+      "likes": 240,
+      "retweets": 2,
+      "is_quote": true,
+      "quoted_id": "2120581433639198885"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2120410480204525936",
+      "date": "2026-11-11T06:57:08.000Z",
+      "text": "Thursday is feeling codexy to me. Perhaps also a good time for a banked reset.",
+      "url": "https://x.com/thsottiaux/status/2120410480204525936",
+      "likes": 10507,
+      "retweets": 287,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2120410006273380750",
+      "date": "2026-11-11T06:55:15.000Z",
+      "text": "It’s been a while without resets. Maybe I should come back out of the basement",
+      "url": "https://x.com/thsottiaux/status/2120410006273380750",
+      "likes": 17211,
+      "retweets": 379,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2120726673452933269",
+      "date": "2026-11-12T03:53:34.000Z",
+      "text": "for all the anons in my replies - \n\nI think his cheating is appalling but that's different from getting fired over it.\n\nBefore the board takes action they should do a proper investigation and involve shareholders in the decision.\n\nThere's no denying that Jensen built a generational company.",
+      "url": "https://x.com/petergyang/status/2120726673452933269",
+      "likes": 19,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2120649149389627493",
+      "date": "2026-11-11T22:45:31.000Z",
+      "text": "Man I am so disappointed in Jensen.\n\nSo many people looked up to him including me. The story of rising from a dishwasher and waiter to the CEO of the most valuable company in the world. The story of a 41-year marriage to his college sweetheart.\n\nWhat the hell happened man?\n\nAnd of all the people to have affairs with you have to choose a spy and a freakin' NVIDIA executive?\n\nCome on dude.",
+      "url": "https://x.com/petergyang/status/2120649149389627493",
+      "likes": 2019,
+      "retweets": 102,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2120645533689905269",
+      "date": "2026-11-11T22:31:09.000Z",
+      "text": "Come on dude this is too much https://t.co/LhNRFtynf4",
+      "url": "https://x.com/petergyang/status/2120645533689905269",
+      "likes": 52,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2120638637352063104"
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2120621112807866620",
+      "date": "2026-11-11T20:54:07.000Z",
+      "text": "it’s about how I think the experience of using coding agents could be like next year and how we get to shape it",
+      "url": "https://x.com/trq212/status/2120621112807866620",
+      "likes": 117,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2120620900785820143",
+      "date": "2026-11-11T20:53:16.000Z",
+      "text": "Swyx gave me the “closing keynote” of AIE code, aka everyone is tired or flying out\n\nso if you’re not one of those please come to mine tomorrow at 5pm\n\nit’s called “the sweet side of the bitter lesson” https://t.co/R5nVuHXukK",
+      "url": "https://x.com/trq212/status/2120620900785820143",
+      "likes": 1242,
+      "retweets": 21,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Google Labs",
+      "handle": "GoogleLabs",
+      "tweet_id": "2120595442782368240",
+      "date": "2026-11-11T19:12:06.000Z",
+      "text": "Want to see how our team actually uses Tabletop? 👀\n\nFounding engineer @romannurik gave us a tour of his family’s space— showing how Tabletop can be as useful, quirky, or wonderfully specific as you want it to be:\n\n🪙 Interactive chore charts & piggy banks\n🔍 Rainy-day scavenger hunt with live score tracking\n🗺️ On-the-whim LEGO maps\n🧝‍♀️ Fantasy book-themed NYC trip\n\nPull up a chair and join the waitlist (US, 18+): https://t.co/triX0g7udt",
+      "url": "https://x.com/GoogleLabs/status/2120595442782368240",
+      "likes": 100,
+      "retweets": 12,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Google Labs",
+      "handle": "GoogleLabs",
+      "tweet_id": "2120549258692882702",
+      "date": "2026-11-11T16:08:35.000Z",
+      "text": "🚨 NEW LABS EXPERIMENT 🚨\n\nIntroducing Tabletop 🎲— our newest experiment built to get your crew from \"we should totally do that\" to \"we’re actually doing this.\"\n\nDrop links and files into one shared space, add your crew, and ask Tabletop for whatever you need to create custom spaces on the fly:\n\n🗺️ Interactive road trip maps & dinner-decider wheels\n🏆 Live pickleball brackets & merch voting boards\n🪑 Drag-and-drop seating charts (so you don’t get stuck next to your boss)\n\nPull up a chair and join the waitlist (US, 18+): https://t.co/triX0g7udt",
+      "url": "https://x.com/GoogleLabs/status/2120549258692882702",
+      "likes": 1113,
+      "retweets": 93,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2120671838909194695",
+      "date": "2026-11-12T00:15:41.000Z",
+      "text": "Why are old stories that were not even covered up all that well become sudden international and geopolitical news?\n\nThe timing is suspicious, so worth asking: who benefits and why now?\n\nIf Jensen, the premier champion of open models, is taken out then anyone who wants AI closed, centralized, and controlled might benefit.\n\nWhy now? The midterms seem relevant. But also perhaps the upcoming IPOs.",
+      "url": "https://x.com/amasad/status/2120671838909194695",
+      "likes": 3430,
+      "retweets": 389,
+      "is_quote": true,
+      "quoted_id": "2120648765665120312"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2120601000176439478",
+      "date": "2026-11-11T19:34:11.000Z",
+      "text": "PSA: creating wonderful products still requires extraordinary amounts of human focus, effort, motivation, and love. And an attention span.",
+      "url": "https://x.com/rauchg/status/2120601000176439478",
+      "likes": 3292,
+      "retweets": 374,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2120598652825809186",
+      "date": "2026-11-11T19:24:52.000Z",
+      "text": "We have a benchmark that makes 𝚏𝚡 bootup compete with an ultra-optimized pure-assembly 𝚏𝚡.𝚜 version 😂 https://t.co/YguWGluL7i https://t.co/p1scInCCyW",
+      "url": "https://x.com/rauchg/status/2120598652825809186",
+      "likes": 100,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2120570170758316467"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2120581196363268265",
+      "date": "2026-11-11T18:15:30.000Z",
+      "text": "Beam by Reflection is free on https://t.co/3Z4NESzNKd until Nov 12.\nAmerican open weights.\nZero data retention.\nEnjoy 🇺🇸 https://t.co/axxOvKykl2",
+      "url": "https://x.com/rauchg/status/2120581196363268265",
+      "likes": 143,
+      "retweets": 7,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2120657462353330604",
+      "date": "2026-11-11T23:18:33.000Z",
+      "text": "Seems ill advised for Nvidia’s board to oust Jensen Huang given how central his leadership is to the operations of an engine of our future abundance. \n\nHis day to day is prime actor work. Would be hard to believe a transition happens without massive market cap implosion.  https://t.co/alxSa3cwwi",
+      "url": "https://x.com/garrytan/status/2120657462353330604",
+      "likes": 391,
+      "retweets": 21,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2120449677095215491",
+      "date": "2026-11-11T09:32:53.000Z",
+      "text": "Register here https://t.co/ETqr9HiYKG",
+      "url": "https://x.com/garrytan/status/2120449677095215491",
+      "likes": 9,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2120449537315926022",
+      "date": "2026-11-11T09:32:20.000Z",
+      "text": "Come out next week for the Acts 17 event with @hubermanlab https://t.co/gKZA30i2LQ https://t.co/4LE6qFEbDd",
+      "url": "https://x.com/garrytan/status/2120449537315926022",
+      "likes": 83,
+      "retweets": 10,
+      "is_quote": true,
+      "quoted_id": "2117638082661126478"
+    }
+  ]
+}

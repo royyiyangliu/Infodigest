@@ -1,0 +1,513 @@
+Source  : AI & I by Every
+Title   : A New Vision for Human Work After Automation
+Date    : 2026-11-11 15:30 UTC
+Link    : https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+────────────────────────────────────────────────────────────
+
+Hey, welcome back to the Every Podcast, where we talk about the future of work.
+
+I'm Natalia Quintero, and at Every, our team of writers and builders use AI every day, so we can tell you how the frontier is shifting, what actually works, and what you need to know.
+
+So last week at Every, we hosted our first ever conference, V.C.S.S.,
+
+It was a full day of talks in Brooklyn featuring speakers from Anthropic, OpenAI, Notion, Lovable, Ode, and many more.
+
+If you missed it, we'll have all of the talks available at every.to forward slash TV.
+
+We built the whole day around one question.
+
+What does great human work look like after automation?
+
+Dan Shipper, Every's co-founder and CEO, closed the conference with his answer, which you'll hear later in this episode.
+
+He took our quarterly customer survey results and built a custom CRM, then a video game, and then personally reached out to a pretty vast number of our customers.
+
+In pre-AI terms, he did the work of about five people, a data scientist, a game developer, a marketer, an engineer, and a salesperson.
+
+But instead, he did all of that work with a single clot subscription over the course of a single week.
+
+And if you ask Claude what it sees in the same survey, you'll probably get a generic answer that anyone could get.
+
+And that's actually Dan's point.
+
+Great work is the perspective you bring to the model.
+
+So for the podcast this week, Dan's closing talk from our conference thesis.
+
+Enjoy.
+
+Thesis, did everyone have a good time?
+
+Woo!
+
+Well, we gathered here to answer one question, which is what is the future of great human work after automation?
+
+I hope you got some good answers today.
+
+Did you get some good answers?
+
+Yes?
+
+Yes?
+
+All right.
+
+I wanna add my take.
+
+Hopefully I can help bring it together a little bit.
+
+So I really, I love this question.
+
+And obviously, because we built the conference around it, it's really the question that we try to answer every day at every,
+
+And what's really interesting about this question is you're really trying to predict the future.
+
+And there's two, I think, real methods for predicting the future.
+
+One is what I'll call the aggregate, where you gather lots and lots of data, and then you extrapolate a trend line.
+
+And the other is called the intimate, where you zoom in on one real case or real situation, and then you extrapolate from there.
+
+And in our culture, we tend to emphasize the aggregate.
+
+The aggregate is objective, it's quantitative, and the intimate kind of feels a little bit anecdotal.
+
+And the aggregate's also extremely powerful.
+
+The reason we have AI is the aggregate, is for example, scaling loss.
+
+We found that if you put more data and compute on one end of the system, you get more capability out.
+
+And all of us here are here because we're riding that curve that you can see in the aggregate.
+
+We also use the aggregate to answer this question that we have come here for.
+
+What does work look like after automation?
+
+A good example is GDP Val from OpenAI.
+
+It's a benchmark which measures how good models are at doing economically valuable tasks.
+
+And the way it works is they have a bunch of experts pick tasks from their job, real tasks, and they turn it into a prompt.
+
+They give the prompts to a model, and they give a prompt to a human that's not using AI, and then blind experts pick which one is better, the human version or the AI version.
+
+And the prompts are very, very detailed.
+
+They look something like this.
+
+And in 2024, with GPT-4-0, experts, or AI, won against a human expert 12.4% of the time.
+
+In 2025 it was 47.6 and in 2026 it was about 83%.
+
+This is with GPT 5.4, I'm sure it's higher now.
+
+I'm sure this benchmark is saturated.
+
+You look at that, an AI is beating a human 83% of the time according to blind human experts at expert work.
+
+And I can also see this in my work, in the way that I work.
+
+If we look at my week, last week.
+
+We ran our quarterly customer survey.
+
+And in the cracks of my calendar, in the middle of all of the things that I had going on, I analyzed the survey data in a way that once would have required a data scientist or a growth person to do it.
+
+Like I asked a ton of different questions and got a ton of different reports and outputs.
+
+I made a video game for the team to play.
+
+So we played in our all hands game to compete to see who knew our customers best.
+
+It was a live, real time video game.
+
+I realized that there's actually a really interesting opportunity to sell every to teams from all of this work.
+
+And then, as one does, I vibe coded my own CRM and started using that to reach out to people.
+
+You may have gotten an email from me last week.
+
+If so, apologies.
+
+It's kind of stunning.
+
+It's amazing.
+
+But if you look at it and compare it to human work.
+
+This is in 2020 terms like a data scientist, a game developer, a product marketer, an engineer, a BDR, and like 200, maybe 200K.
+
+And I got all of this for free as part of my cloud subscription.
+
+And you think about that, you really think about that, you look at a table like this and you are like, we are so fucked.
+
+We are so fucked.
+
+And, yeah.
+
+To me, it does this thing that I've been calling it.
+
+It creates an agency rupture because we identify ourselves with the things that we do, with the work that we do.
+
+And if you see a model doing work like you do, it strikes at our sense of self.
+
+And I also think that while the aggregate is a very useful lens, especially when it comes to new technology, it also misses things.
+
+It can be misleading.
+
+And you can only see what's missing if you get up close.
+
+So let's do that.
+
+So, again, we've got these two different ways of predicting the future of the aggregate.
+
+Okay.
+
+Let's go into the Intimate.
+
+Let's see how things look in the Intimate where you zoom in on one real case, you really understand all the messiness of it and all the different interconnecting variables and then try to extrapolate from there.
+
+So if you look back at this table,
+
+and you think about my week last week, doing all of this, which would have taken five people in 2020, and I'm doing all of that work with a team of agents in the cracks of my week while I'm doing a totally other separate set of tasks.
+
+I think that this is actually how a lot of people in this room are working already, and probably if you're not, you will be in the near future.
+
+And it feels almost normal to work this way.
+
+Like it's not even that remarkable that I analyzed my survey or built the vibe coder to see a master sent some cold emails with my agents.
+
+But this was actually really not normal, even a few years ago.
+
+So think about in 2022, like before ChetGPT came out, we only had GPT-3.
+
+And there were a lot of people looking at this chart, this aggregate chart and saying, this is not gonna continue, it's just a stochastic parrot.
+
+And a lot of other people were like, this is the end of all jobs already.
+
+We're not gonna have any work to do in two years, it's all over, go to the bunker in New Zealand, that's it.
+
+And for me and for every, we take this intimate perspective.
+
+We try to be up close.
+
+And so in 2022, I was using GPT-3
+
+And I realized that it felt like if I extrapolated out from using that tool, it would feel like using a team of people in a couple of years just by using an AI.
+
+So I wrote that rather than replacing individuals, recent advances in AI will empower them to make an impact on scale matching some of the biggest businesses, research labs, and creative organizations of today.
+
+I really think that's true now.
+
+You could see it if you put your hands in GPT-3 and used it and extrapolated it.
+
+I want to try to do that again today here with all of us.
+
+If we take this and how we're working today, what does that mean for the future of great human work and are we really fucked?
+
+And what's really interesting is, again, if I look at this table in a vacuum, you might assume, like, why would I need a team?
+
+I have a team, I've got the agents right here.
+
+But there must be something missing from this table because I do have a team where we are 30 people.
+
+And by the way, the team here did such a fantastic job on this conference, can we just give them a hand?
+
+This incredible, incredible group of humans and their clods, but mostly the humans.
+
+And so I think we can answer this.
+
+If we answer this question, it's going to tell us a lot about this larger question that we're trying to answer.
+
+And I want to zoom in even more on this particular customer survey that I ran.
+
+So when we ran this customer survey, this Q4 customer survey.
+
+I gave it to the team.
+
+So everybody had access to the data and to do their own analysis.
+
+And what I got out of it was, there's actually a really cool opportunity to sell every for teams.
+
+and I made my whole custom CRM and I started emailing people.
+
+But what Yash got out of it, and Yash is our go-to-market engineer, what Yash got out of it, he cares, he's a monomaniac about growth, about growing paid subs.
+
+And what he got out of it was a lot of first-time subscribers to every churn after the first month because we send too much email.
+
+And what Douglas, who is our head of marketing and put together this conference, what he got out of it was, actually a lot of our readers feel lonely.
+
+There's this interesting psychographic of people in this room where we all feel like we love AI, we're using it for all these things, but everyone else at our work and in our lives kind of looks at us like we're crazy.
+
+A lot of people in this room and a lot of people on our list come to us because we are the only place where we are like, yeah, you can do great stuff with this.
+
+That is what Douglas found.
+
+And Jack, who is a senior editor, he made a Claymation family feud game show explaining the results.
+
+It's time for Survey Showdown.
+
+And here's your host, Dan Shipper.
+
+Thank you.
+
+Thank you.
+
+Tonight, the vibe checks take on the context windows.
+
+Okay, the vibe check...
+
+So...
+
+Extremely informative, but also very fun.
+
+And I want to reiterate, they used AI to do all this.
+
+We're using the same survey, we're using the same cloud, but different people on the team found very, very different and important things that they emphasize.
+
+And that's kind of interesting because if you look at what Claude says, because anyone can hand Claude this survey, what Claude says about the survey with just a default prompt, which is just like what do you see in the data, it says the writing is the business, the bundle is what makes people stick, the risk is focused, the risk is focused and too much volume.
+
+And all of this is actually, it's true.
+
+These are real insights.
+
+But everybody has access to this now, and so it's cheap.
+
+And so not a single person on the team just submitted a response to this survey that looked like the default response.
+
+They all did something very different.
+
+And I think that's really, really interesting to pull on.
+
+And another really interesting part of this is for each of these people on the team, they did all of this analysis while getting prepared for this event.
+
+And everybody knows if you've ever put together a conference, it is like an all-consuming thing.
+
+And still, Yash and Douglas, for example, who are intimately involved in every part of this, did their own analysis and came up with interesting things.
+
+And Yash, for example...
+
+He did the analysis and he wrote a PR to make the change to move the number that he wanted to move.
+
+And while he was doing that, he was also helping build the live stream experience for this event, which is crazy.
+
+If you have not seen this, we live streamed the entire thing with this custom video player that thousands and thousands of people were watching all day.
+
+It's really amazing and he did that.
+
+I think he had some help but he did a lot of that and he did it while doing this analysis that took him to do.
+
+I know what you may be thinking is, well, couldn't I just have prompted Claude for what Yash and Douglas and Jack found?
+
+And I think that's a really interesting question.
+
+And the answer is yes.
+
+We've actually experimented with this.
+
+So Mike Taylor, who's our head of evals, tried to figure out if he could predict what I would say in Slack.
+
+And the answer is yes, he can predict what I would say in Slack.
+
+But there's an interesting caveat, which is he can only do it...
+
+He can do it 93% of the time, but there's an interesting caveat, which is he can only do it if Claude can give 400 answers for each question.
+
+So, Claude knows when it's trying to predict something in Slack, if Claude can give 400 answers at the same time, one of the things I'm going to say is in there.
+
+But it can't rank them.
+
+If you ask Claude to rank them, the thing that I say is only in the top 10%, like 60% of the time.
+
+So, it's kind of a coin flip.
+
+That's really interesting because it means we're getting into this world where, yeah, I could, you know, Claude can predict what I would do or I could get the output that Yash got or Jack got or Douglas got.
+
+Generation is really cheap, but ranking is hard.
+
+I actually wouldn't be able to find it in all of the noise that I'd have to sort through in order to get the thing that they would get.
+
+Okay.
+
+And that should tell you something really important about why teams are valuable in AI and ultimately why humans are valuable in AI.
+
+If you're on a team,
+
+and you're a human, and all of us are humans.
+
+You have a responsibility for a particular area of the world that helps you narrow down what you look for, like how you prompt the model.
+
+And then you have your own perspective.
+
+You have a perspective that determines what you pick out of that world and call important, and call important enough to take responsibility for or take action on.
+
+And,
+
+I think if you want to look at it this way, for all of us who analyzed this survey last week, there were millions and millions of different paths available in the data, millions and millions of different insights we could have pulled out.
+
+And our responsibilities, the things that we are responsible for in the business, helped to narrow down where we look or where they looked.
+
+And our perspective lights up a few of those.
+
+It helps us to rank those things.
+
+And then you pick one and you take it forward.
+
+And you've gone from this, you know, millions and millions of latent possibilities to one thing that you're the only one who would rank that because it's you.
+
+It's the thing that lights up for you.
+
+And if you zoom out, you know, we just went through one person doing that.
+
+A team allows you to explore a much, much larger space of possibilities where each person has a perspective that allows them to rank and filter the parts of the world that they care about based on their responsibility and their perspective.
+
+And that's much more powerful than whatever the default answer I would get from a default prompt.
+
+And that's why it's really valuable to have Yash or Douglas or Jack or anybody else on the team accessing the survey data and pulling the insights out rather than just being like, what would Yash think of this?
+
+And then I know what you're thinking.
+
+Okay, Claude can't rank now, but give it a year.
+
+It probably will be able to rank.
+
+And I think that that is probably true.
+
+it probably will get a lot better at ranking.
+
+And if we ask that question, we probably would set it up something like this.
+
+2027 Cloud's going to be a lot better at ranking.
+
+How is 2026 Yash going to fare versus 2027 Cloud?
+
+And...
+
+I think if you really look at this, both sides of this equation are totally rigged.
+
+So let's take it step by step.
+
+First of all, why are we comparing 2026 Yash to 2027 Claude?
+
+In 2027, Yash is going to be 2027 Yash with a whole bundle of new experiences and perspectives, and he's gonna be using 2027 Claude, I have no doubt.
+
+It might be ChatGPT, it might be Gemini, but he's gonna be using a model.
+
+Now we're like, okay, 2027 Yash versus 2027 Claude versus 2027 Claude.
+
+And if you look at the 2027 Claude on the right side, someone had to set that Claude up.
+
+I don't care if it's like a persistent agent or it's like you spun up some harness and it's off doing its thing.
+
+Someone had to start it.
+
+There's no immaculate conception of Claude happening in 2027, I don't think.
+
+What you're really saying in this equation is we're comparing 2027 Yash with 2027 Claude versus probably the default prompt of 2027 Claude.
+
+If you do that, now you start to realize, well, we've got 2027 Claude on both sides of this equation.
+
+We can just cancel them out.
+
+That's how math works in the intimate.
+
+I don't make the rules.
+
+But this is, like seriously, this is for real.
+
+If you think about this, you actually are really comparing would I rather have 2027 Yash who's using this model or just the default prompt.
+
+And Yash has a responsibility to a particular area of the world and a perspective, and the default prompt embodies the average answer, which we've already said everyone has access to, so it's not that valuable.
+
+And my answer is I pick Yash every day.
+
+I pick Yash every day, every time.
+
+And I think that this, if you ask me why, the way that I would talk about this is we have to go back to when everyone has access to the model, whether it's 2026 Claude or 2027 Claude or 2028 Astra or whatever, it's going to be broadly distributed.
+
+You've got Claude on both sides of the equation.
+
+And because of that, that raises the floor for everyone and the default answers you get from the model, they look impressive to us right now, but because everyone will have them, they become not that valuable.
+
+They're just, they're status quo, they're the baseline.
+
+And yes, the floor keeps moving, but the floor keeps getting distributed to everybody.
+
+And so what's valuable, the alpha, is where you push the model using your perspective and your responsibility for a particular area of the world.
+
+And yes, that may get consumed into, that may get subsumed into tomorrow's floor.
+
+as capabilities increase.
+
+But if you're continuing to use the model, you're not frozen back in 2026 when you're using the old version of the model.
+
+You're using that new model yourself.
+
+And so those new capabilities rapidly become cheap, and what is actually expensive and rare is how you use them using your perspective.
+
+And so now we've kind of started to get back to the question that we started with, which is if you remember the aggregate, from the aggregate alone, all you see is this line going up that looks like it's gonna replace all of us, and it looks like human work is going to zero.
+
+And if you look at the aggregate from the intimate,
+
+What we've started to find is that we have the same line, but humanity, human perspective, the way that we use the models rides on top.
+
+And I think that is a more accurate view of how work will happen in the future with these models, than just saying, oh, we're just gonna get replaced because look at this chart.
+
+And this is what I've been talking and writing about for several years now, this way of working and being in the economy called the allocation economy.
+
+I wrote this article in 2024 where I wrote, you won't be judged on how much you know, but instead on how well you can allocate and manage the resources to get work done, the resources of intelligence.
+
+You'll be allocating work to AI models and making sure the work gets done well.
+
+And there are some really, really interesting implications if you believe this.
+
+We're gonna be allocating work to models, and the default capability is distributed to everyone, so the responsibility and the perspective that you bring to the model is the thing that's valuable.
+
+The first thing is, the first interesting flip is it should flip how we measure AI.
+
+Right now when we measure AI capabilities, we measure them based on,
+
+Consensus, is it good at problems that we all agree are worth solving?
+
+So like math problems are easy because we can validate them.
+
+Program problems are easy because we can validate them.
+
+But again, by this logic, those capabilities are now distributed.
+
+They are no longer as valuable.
+
+And what we should be measuring instead is how good is it at doing my work from my perspective specifically?
+
+And this is like kind of a weird flip.
+
+It's a weird cultural inversion because I think for all of us, we have this feeling that getting to a settled answer or being able to use a settled answer or know a settled answer is where all the value is.
+
+Like we're thinking about math and science and computer programming where your perspective doesn't actually matter.
+
+And my view is that stuff has become much less valuable because it's commoditized.
+
+And now the value comes from you having a non-consensus perspective that you can use to push the model to make something that you think is good.
+
+And if you internalize that, then you start to think of things, think of model progress not as something that's going to replace you, but something that works for you, for your ends.
+
+And as it gets better, so do you.
+
+I think this is why the intimate matters.
+
+When you look at what's going on in the aggregate versus the intimate, the aggregate has to freeze you.
+
+It has to, in order to measure model progress, it has to freeze humans in 2020 and compare it to humans in 2020.
+
+And I think the intimate empowers you to see what you might build and who you might become.
+
+And we have all lived that perspective today.
+
+This whole conference, this whole day, was about getting intimate with what it is like to work with these tools and work with other people, be with other people who are working with these tools.
+
+And you all agree, you all know how valuable that is because if you could just look at a capability chart and know everything you needed to know, you wouldn't have come here.
+
+I think now that the people in this room understand this and feel this, it's our job to go and spread it to the rest of the world.
+
+Thank you.
