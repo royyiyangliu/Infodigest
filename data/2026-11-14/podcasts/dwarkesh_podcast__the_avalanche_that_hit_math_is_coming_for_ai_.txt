@@ -1,0 +1,407 @@
+Source  : Dwarkesh Podcast
+Title   : The avalanche that hit math is coming for AI development
+Date    : 2026-11-13 18:37 UTC
+Link    : https://www.dwarkesh.com/p/rsi
+────────────────────────────────────────────────────────────
+
+[00:00] Speaker0: If you had asked me earlier this year, how far away we are from superintelligence, i'd probably have said at least a better part of a decade.
+[00:06] Speaker0: But over the last three months, i've updated my views a ton.
+[00:09] Speaker0: I've been debating people both on and off the podcast about this question.
+[00:13] Speaker0: And of course, i've been watching the progress of ai on verifiable domains, and thinking about what that implies for ai research itself.
+[00:21] Speaker0: And i've come to the view that we're only a couple years away.
+[00:24] Speaker0: And possibly only a couple months away from ais that are as good as the best humans at ai research.
+[00:30] Speaker0: And i've also come to believe that automating ai research will compress so much progress into a single year that soon thereafter, so by 2030, and plausibly as early as next year, we'll have ais that are at least as good as the best human experts in every field.
+[00:47] Speaker0: I know this is a wild claim, and it's one that i myself didn't believe even a couple months ago.
+[00:52] Speaker0: Let me walk you through how my thinking has changed.
+[00:58] Speaker0: Before we get into the more speculative arguments about what will happen in the future, i want to point out that ai is already dramatically speeding up further ai progress at the frontier.
+[01:07] Speaker0: For example, meter, which is an independent evaluation organization, spent three months embedded inside of anthropic, and afterwards concluded that anthropics rate of ai progress on well scope tasks is 2x what it was a year ago.
+[01:22] Speaker0: And that a quote majority of this acceleration today is likely attributable to anthropic's extensive use of ai to do r d end quote OpenAI published a blog post about this in september where they showed that the heaviest 百 分 之 1 0 of ai users amongst OpenAI is researchers went from using about 1 0 0 0 a day of internal coding agents at the beginning of the summer to over 7 0 0 0 a day by the end of august and also in september anthropic put out a similar post on its own ai uplift.
+[01:53] Speaker0: They reported that claude now leads 26% of anthropics ai r&d work up from under 1% as recently as february.
+[02:05] Speaker0: In thinking about how big a deal it would be for ais to automate ai research and how much that would speed up ai progress.
+[02:12] Speaker0: A really important update for me has just been seeing how fast the capabilities of ai models in mathematics have exploded.
+[02:19] Speaker0: Current ais are slicing through well, scoped problems and mats like a hot knife through butter.
+[02:24] Speaker0: It was only two years ago that i asked dario why llms aren't able to use their vast knowledge across so many different fields in order to connect together different ideas and make new discoveries and lo and behold, here we are in a wholly verifiable domain like mathematics ais are doing the search and match discovery.
+[02:44] Speaker0: To such a great extent that hundreds of important results, which the top mathematicians and computer scientists in the world had spent decades trying to resolve are being turned out as side quests to hype up future model releases.
+[02:57] Speaker0: It's crazy how fast this progress has happened.
+[03:00] Speaker0: As recently as 2023, these models couldn't reliably add four digit numbers in 2024.
+[03:05] Speaker0: They could barely solve any problems in a high school math competition.
+[03:09] Speaker0: In 2025, they could win a gold medal and the international math olympiad to earlier this year where they finally started to solve some niche open problems to a month ago where OpenAI solved a millennium price problem in 88 hours.
+[03:23] Speaker0: I'm reminded of a line from the novel east of eden quote and there is one short thing about the fall of gods.
+[03:31] Speaker0: They do not fall a little, they crash and shatter.
+[03:34] Speaker0: End quote.
+[03:35] Speaker0: Now, it's true that progress has screwed disproportionately towards the verification laden parts of mathematics, like finding counter examples, rather than say coming up with new theory.
+[03:45] Speaker0: Toby ort recently wrote a great essay about this.
+[03:47] Speaker0: He writes, quote, while current ai systems are starting to automate mathematical proof, there is currently very little evidence that they can ask powerful questions or find profound new fields of mathematical inquiry.
+[04:00] Speaker0: End quote.
+[04:00] Speaker0: But another way to say that same exact sentence would be this.
+[04:04] Speaker0: Current ai systems have solved a millennium prize problem, all without the ability to ask powerful questions or find profound new fields of mathematical inquiry.
+[04:14] Speaker0: In this ability to solve well scoped problems is going to be an even bigger deal for machine learning research than it has been for mathematics broadly construed.
+[04:22] Speaker0: That's because the goal of mathematics research.
+[04:24] Speaker0: Is not just to prove or disprove long lists of conjectures, but rather to extend the human understanding of mathematical concepts, coming up with the idea of topology or group theory, or going back even further, the cartesian grid.
+[04:40] Speaker0: Matters far more than knowing exactly how many one unit apart pairs you can make from n dots.
+[04:47] Speaker0: We mainly care about such abstruse questions.
+[04:50] Speaker0: In so far as they might elicit new mathematical theory, but in ai research, the priorities are exactly reversed.
+[04:58] Speaker0: Ai labs mainly care about how any new algorithmic recipe empirically makes trading more efficient or elicit smarter models.
+[05:07] Speaker0: They don't care about theory for its own sake, and all the progress that we've made in deep learning over the last decade and a half has not required much new theory anyways.
+[05:15] Speaker0: The equivalent of just grinding through random conjectures would be enormously valuable in machine learning, in the way that it just isn't for mathematics.
+[05:24] Speaker0: Air research is actually surprisingly similar to the kind of mathematical progress which current ais are disproportionately good at, which is unlocking a ton of low-hanging fruit by applying a combination of incredible persistence and a superhuman capacity to connect ideas from lots of adjacent domains.
+[05:41] Speaker0: For example, let's talk about the transformer architecture.
+[05:44] Speaker0: This is the big breakthrough.
+[05:46] Speaker0: That enabled modern llms, my friend, shul to douglas, who is an ai researcher himself has this perennially half-finished blog post where he explains how you could have invented the transformer two years earlier than people actually did.
+[05:59] Speaker0: And maybe this video will finally get into quit stalling and complete his essay.
+[06:03] Speaker0: But in the meantime, i'll summarize a bit of the discussion i had with him about the contents of his essay before the transformer paper was published in 2017.
+[06:12] Speaker0: Many researchers had already identified attention as a way to better parallelize training and communicate information across longer sequences.
+[06:19] Speaker0: Chris ola, who was an active researcher at the time.
+[06:23] Speaker0: Has said, quote, at that time, my sense is that the transformer architecture was a natural combination of many ideas like attention and residual networks, which had independently been effective.
+[06:34] Speaker0: Taken to quite aggressive lengths, end quote.
+[06:37] Speaker0: In other words, none of the core pieces were a surprise to researchers active in the field.
+[06:41] Speaker0: So then why didn't people invent the transformer sooner?
+[06:44] Speaker0: One reason was that this new architecture was only obviously better than the state of the art at the time, once you connected together half a dozen additional tweaks and innovations.
+[06:53] Speaker0: And though almost all of them had been known to the literature for years.
+[06:57] Speaker0: No one knew how to combine these puzzle pieces together in just the right way.
+[07:01] Speaker0: Doing so required great research taste, of course, but it also required tons and tons of small experiments.
+[07:07] Speaker0: But what i've just described above, which is persistently and intelligently matching dozens of different combinations of ideas is exactly the kind of capability that ais have shown themselves disproportionately skilled at in their contributions in mathematics.
+[07:21] Speaker0: This is all to say that even the transformer which is arguably the biggest breakthrough in ml since alexnet kicked off the deep learning revolution in 2012 is the kind of thing that claude 7 could have invented if chris ola asked to.
+[07:34] Speaker0: Try really hard to get this attentioning to work better.
+[07:37] Speaker0: Now, i want to clarify that some parts of ai research are in fact less verifiable than math.
+[07:42] Speaker0: That's why OpenAI hasn't fired all of its researchers.
+[07:46] Speaker0: Despite having a model that can apparently autonomously solve millennium prize problems, but i think that ai research is verifiable enough that ais will soon be as good at it as the best humans.
+[07:57] Speaker0: Now, explaining why requires getting into the nitty gritty of how ai research actually works.
+[08:03] Speaker0: And because those details are interesting, but technical, i've saved them for after the conclusion.
+[08:08] Speaker0: So if you're curious and you want to hear them, you should just keep watching until the end of the video.
+[08:13] Speaker0: But in the meantime, i'm going to give you my estimate of when we're going to have such ais.
+[08:18] Speaker0: If i had to pick my median year for when automated researchers will be as good as a very best human ai researchers at doing ai research.
+[08:27] Speaker0: I guess 2028 and that's assuming that the ai labs go full steam ahead and don't slow themselves down intentionally or aren't slowed down by a government.
+[08:36] Speaker0: Why do i think that ais could get this good within two years?
+[08:40] Speaker0: Well, in every domain where we can check answers and give ai thousands of rounds of practice, for example, competitive programming contests or while scoped open math problems, they've gone from worse than most humans.
+[08:52] Speaker0: To better than the best humans within just a few years, and as i'll argue after the conclusion, ai research has exactly the same verifiable properties.
+[09:02] Speaker0: Of course, a big part of what makes the top human ai researchers really good at their job can't be directly verified.
+[09:08] Speaker0: For example, their ability to bet years in advance on the right research direction.
+[09:13] Speaker0: But as we've already seen in mathematics, models generalize far beyond what they were directly trained on.
+[09:19] Speaker0: OpenAI's model was obviously not trained by solving other millennium prize problems.
+[09:24] Speaker0: It was trained on lots of less ambitious, more tractable math problems, and from those it generalized all the way to solving a problem which no human had ever cracked before.
+[09:35] Speaker0: I'd expect the same in ai research, where the combination of thousands of rounds of practice on verifiable research tasks plus the fact that each new generation of models.
+[09:44] Speaker0: Is broadly smarter than the last will make models excellent, even at the parts of ai research that we can't directly check.
+[09:51] Speaker0: Now, i want to be clear that there is a pretty decent chance that hitting this milestone takes longer because some important parts of ai research remain hard to automate.
+[10:00] Speaker0: This is just a very hard thing to try to predict in advance and that guess that there's at least a 25% chance that it doesn't happen until after 2032.
+[10:09] Speaker0: But conversely, i also think that things could happen much faster and we hit this milestone in 2027.
+[10:15] Speaker0: Some of the most well-informed researchers, i know people who have a very good track record of making predictions over the last few years, expect ai to beat the best humans at ai research as early as next year.
+[10:27] Speaker0: And 2027 is also the straightforward implication of putting the new report for meter that says that anthropics rate of ai progress is doubled from a year ago.
+[10:37] Speaker0: Into a takeoffs model as former guests.
+[10:39] Speaker0: The jia culture, i put it in a blog post about this report quote, if we take it face value, that ai is now nearly doubling the rate of ai capabilities progress and assume that acceleration from ai is smooth.
+[10:51] Speaker0: This naively implies that we would reach extreme superintelligence within a year and quote.
+[10:57] Speaker0: So the reason my median error is not 2027 is just that i'm uncertain about how accurate this kind of straightforward modeling is.
+[11:03] Speaker0: But we should not be surprised, and we should be ready for a world in which we get to this milestone next year.
+[11:14] Speaker0: Once ai is as good as the best humans at ai research, all grid, think progress will get a lot faster for three important reasons.
+[11:22] Speaker0: One, the ais will be much faster to each of them will be very smart and three, there will be a lot more of them.
+[11:28] Speaker0: Let's start with faster first.
+[11:30] Speaker0: Today's ais already do work at about 10 times, human speed and automated researchers would also be working around the clock nights and weekends included.
+[11:38] Speaker0: As a result, each individual automated researcher will be cramming roughly 50 times more work every calendar week than a human researcher can do.
+[11:47] Speaker0: Of course, that doesn't mean that ai progress will immediately accelerate 50x.
+[11:52] Speaker0: Those automated researchers would still be bottlenecked by compute for experiments, which aren't running any faster.
+[11:58] Speaker0: So there would be diminishing returns, but even with extremely steep diminishing returns, This alone would make algorithmic progress proceed many times faster than it currently does.
+[12:08] Speaker0: And this is before we count for the fact that in the scenario i'm talking about every automated researcher will be at least as good at ai research and engineering as the very best humans today.
+[12:19] Speaker0: My sense is that around 80% of the algorithmic progress at a given frontier lab is driven by its 50 top researchers.
+[12:25] Speaker0: It's not for nothing that zuckerberg was willing to pay hundreds of millions of dollars to acquire the best talent in the industry.
+[12:31] Speaker0: And so you get another big speed up in algorithmic progress from the fact that every single engineer and researcher in this automated company will be at the level of the very best humans in today's frontier ai labs.
+[12:44] Speaker0: And finally, there will be a lot more automated researchers.
+[12:47] Speaker0: Now, throwing more workers at a problem isn't always helpful.
+[12:50] Speaker0: For example, a swarm of agents probably isn't gonna be able to write a great novel much faster than a single agent could.
+[12:57] Speaker0: But other tasks lend themselves much more to paralyzation.
+[13:00] Speaker0: For example, look at this animation that i'm overlaying, which shows a bunch of different clods working together to formalize for most last theorem.
+[13:08] Speaker0: This feat had thousands of modular subtasks, each of which could be completed independently and where each agent could locally check whether their work had succeeded.
+[13:17] Speaker0: Ai research is closer to formalizing a theorem than it is to writing a novel because.
+[13:22] Speaker0: There's a lot of independent modular work to do, and there are verifiable proxies for progress.
+[13:27] Speaker0: That means a swarm of agents can try out a thousand different approaches, and see which one performs best.
+[13:32] Speaker0: And they can do this independently for each different part of the pipeline.
+[13:36] Speaker0: Ai companies are already made up of dozens of different teams working independently on different parts of model development.
+[13:43] Speaker0: One team, for example, improves how the pre-training data is filtered.
+[13:46] Speaker0: Another designs a particular kind of synthetic rl environment.
+[13:49] Speaker0: Another writes a better attention kernel, and so on.
+[13:52] Speaker0: In domains like this, where different streams of work can be done and checked independently dumping in lots of persistent hill climbing agents tends to speed up progress a lot.
+[14:02] Speaker0: Again, there will be steeply diminishing returns just from adding more parallel researchers.
+[14:06] Speaker0: Anybody who's ever worked in the team before knows that having 100,000 collaborators doesn't mean that you'll go 100,000 times faster, probably not even 100 times faster, but given the nature of the research, it's implausible that you wouldn't be going at least a couple times faster.
+[14:20] Speaker0: from having orders of magnitude more automated labor.
+[14:27] Speaker0: So, the combination of faster, smarter, and more automated researchers will speed up ai progress a lot.
+[14:34] Speaker0: But will this pace continue?
+[14:36] Speaker0: Will it get even faster, or will it slow down?
+[14:39] Speaker0: That question is even more important than what the initial pace actually is.
+[14:43] Speaker0: Two competing trends are relevant here, and the subsequent rate of progress will come down to which one ends up being more powerful.
+[14:50] Speaker0: On the one hand, because of rsi, automated researchers will continue getting faster, smarter, and more plentiful.
+[14:57] Speaker0: On the other hand, ai research will be getting harder and harder, as all the easy ideas get eaten away by the swarm.
+[15:04] Speaker0: By the way, ideas getting harder to find is a thing that already happens.
+[15:07] Speaker0: Ai companies have to quadruple their r&d compute and double their workforce every single year just to maintain the same rate of progress.
+[15:14] Speaker0: So, if the rate at which ai gets smarter is faster than the rate at which ideas get harder to find, then we get something called the software only singularity.
+[15:23] Speaker0: In this scenario, even without increasing compute, the ai swarm rapidly makes smarter and smarter versions of itself until within a matter of months, we end up with a superintelligence that scrapes against the physical limits of our current ships.
+[15:37] Speaker0: But if ideas get harder to find faster than rsi makes ai's better at research, we'd end up with something which i'd call a spark.
+[15:44] Speaker0: We get something like 3 to 6 years of ai progress at the current rate in a single calendar year.
+[15:50] Speaker0: And then things would simmer down until we build more compute as even these super genius automated researchers need to run bigger experiments before they can make further breakthroughs as to which one will actually happen.
+[16:01] Speaker0: I think it's basically a coin toss if pressed, i'd give a 50% chance to the spark scenario in a 50% chance to the software only singularity.
+[16:10] Speaker0: But to be clear, even in the spark scenario where we make something like four years of progress in the first calendar year after we automate ai research, Things would feel insane.
+[16:20] Speaker0: That's a jump as big as gpt 3.5 to gpt 6, astra in just 12 months to remind you of the scale of progress that this leap would compress gpt 3.5 was able to write a passable limerick and auto-complete the trivial python function.
+[16:35] Speaker0: But otherwise, it was mostly a useless toy.
+[16:37] Speaker0: Whereas astron can build whole video games from scratch and turns out so many fields metal where the mathematical contributions.
+[16:44] Speaker0: That we become totally desensitized in the last four years.
+[16:47] Speaker0: We've gone from a preschooler to a savant intern.
+[16:51] Speaker0: If you made another jump that big, but starting in 2027 or 2028, you'd probably get a mine which would be vastly superhuman in domains that are even slightly verifiable.
+[17:02] Speaker0: For example, it'd be better than nvidia at coming up with the next generation of ai accelerators who make more money.
+[17:09] Speaker0: Than the current human versions of citadel and jane street, if it was given equal access to the market.
+[17:13] Speaker0: If you give it remote access to a material science experiment lab, it'd be better than the rest of humanity at finding a room temperature superconductor.
+[17:24] Speaker0: Now, at this point, you might say, how will even superintelligence, which is trained in a data center, beat human experts in domains where the basis of that human expertise is.
+[17:34] Speaker0: Is years and years of real world experience.
+[17:37] Speaker0: The way we're currently making ai smarter is by rilling them on tasks that are easy to automatically grade from within a data center.
+[17:44] Speaker0: For example, do the million new lines of code that the ai wrote to pass all the unit tests, did the ai solve more open math problems.
+[17:50] Speaker0: But of course, most of the world is not like this.
+[17:53] Speaker0: I made this point in a recent essay.
+[17:55] Speaker0: How do we train an ai to get really good at building a business from scratch?
+[17:59] Speaker0: How about winning court cases, or having a profitable day of trading in the markets, or helping a candidate win an election?
+[18:05] Speaker0: The rollout here requires interacting with the real world, and you can't recreate it from just within the data center.
+[18:11] Speaker0: So, how will superintelligence get good at this kind of stuff?
+[18:14] Speaker0: Well, let me be clear.
+[18:15] Speaker0: I don't think we can just bake the answer to every real world problem.
+[18:19] Speaker0: Into the weights.
+[18:21] Speaker0: Rather, my claim is that scaling up rl training will give ais the abilities necessary to ramp up quickly in new contexts, even in hard to verify domains, like the ones mentioned above.
+[18:32] Speaker0: Getting really good at any complex task requires two things.
+[18:36] Speaker0: One is domain specific knowledge, and the other is a more general set of skills, the kind of capabilities that capable humans have.
+[18:44] Speaker0: Like being able to seek out relevant information, make a plan, push forward on that plan through mistakes and obstacles, keep track of what you've learned, and collaborate with other people.
+[18:54] Speaker0: During RSI, automated engineers will build tens of thousands of times more RL environments than we have currently, and these will be far larger and longer running and higher quality and more open-ended and covering a much wider range than today's environments.
+[19:10] Speaker0: The AIs will learn to make their way through unfathomable amounts of virtual worlds that are each to today's video games.
+[19:18] Speaker0: What a bugatti is to a horse and buggy.
+[19:20] Speaker0: These games will be far more difficult and messy and sprawling and realistic than anything that has ever been made for human entertainment.
+[19:27] Speaker0: They will require ais to cooperate or compete with teams of other ais over long periods of time.
+[19:33] Speaker0: For example, an ai might be dropped into a simulated economy of millions of other ais and told to co-found a successful company.
+[19:40] Speaker0: And it's not like the ai will be stuck just thinking about the ideal corporate structure.
+[19:44] Speaker0: It'll go through an evolutionary process that involves centuries of corporate competition to figure out the optimal organizational techniques.
+[19:51] Speaker0: The ais will also train themselves on endless back tests of everything in the history of science and tech, and politics and culture.
+[19:59] Speaker0: Every discovery, invention, war, election, and quarterly earning that has ever happened.
+[20:05] Speaker0: For example, here's one prediction training task.
+[20:07] Speaker0: Can the ai figure out general relativity, given a training corpus that includes.
+[20:11] Speaker0: No information beyond 1700, which is far earlier than any human was on track to discover gr.
+[20:18] Speaker0: Another task might be given every single newspaper article until 1962.
+[20:22] Speaker0: Can ai predict how the cuban missile crisis is going to unfold?
+[20:25] Speaker0: And it's not just a training data that these automated researchers will be improving.
+[20:29] Speaker0: They will also radically improve the basic learning algorithms themselves through breakthroughs and online learning and sample efficiency, both of which have verifiable proxies as i'll discuss later.
+[20:40] Speaker0: In the same way that humans are much more efficient and effective at learning from data than current llms are future ais could be far beyond humans at their learning efficiency.
+[20:52] Speaker0: Now, why do i think we'll see lots of transfer from verifiable tasks to these more general skills?
+[20:57] Speaker0: What one reason is that even at 110,000 or a millionth of the scale of our out trading that will be happening during the intelligence explosion.
+[21:06] Speaker0: we're already seeing lots of generalization.
+[21:08] Speaker0: if you point clot code or codex at a project that it's never seen before, it knows how to orient itself and figure out how everything fits together and then tackle an ambitious assignment.
+[21:17] Speaker0: of course, it's hard to measure how much models have improved at tasks that are not easily verifiable, because if we could, those tasks would be verifiable.
+[21:25] Speaker0: but you can just go talk to a new model and compare it to an old one.
+[21:28] Speaker0: in my experience, ais have gotten much better at things that have very little to do with code or math.
+[21:33] Speaker0: for example, helping me research the abstract questions i needed to answer while writing this essay.
+[21:39] Speaker0: The other big piece of evidence for transfer is human evolution.
+[21:42] Speaker0: Our general purpose mental architecture was developed by evolution, and evolution is an optimization process with a really crude verifier.
+[21:50] Speaker0: Did your genes pass on or not?
+[21:52] Speaker0: In the ancestral environment, the tasks which influence that outcome were things like hunting, and fending off predators, and keeping your standing in your tribe.
+[22:01] Speaker0: These are our tiny subset of the kinds of tasks that humans are able to tackle today.
+[22:06] Speaker0: Evolution did not specifically optimize us to be able to write a pulitzer prize-winning biography or make advanced semiconductors or lead nations of millions of people or come up with a new branch of mathematics.
+[22:17] Speaker0: But in optimizing us for survival on the savannah evolution, built a general purpose learner.
+[22:23] Speaker0: And in training these ais, we're running a similar process, except we're doing so deliberately, with tasks that are much more closely related to the ones that are needed for success in today's world.
+[22:34] Speaker0: And unlike evolution, ai companies are trying to improve transfer during training.
+[22:39] Speaker0: For example, by making sure that performance improves on difficult tasks that were held out of training.
+[22:45] Speaker0: If even dumb blind evolution can get this much transfer.
+[22:48] Speaker0: Out of building a mind that is effective at propagating itself in the savannah, then the deliberate effort that AI companies are putting into building a flexible and general intelligence that can rapidly ramp up in new contexts should advance much further.
+[23:02] Speaker0: Now, even a super-intelligent learner can't figure out everything from inside a data center.
+[23:07] Speaker0: So, even these AIs would need some real-world experience before they can beat the best humans.
+[23:12] Speaker0: But I think they'll be able to get that experience much faster than people expect, and that they'll be able to beat top human experts within months of being deployed.
+[23:19] Speaker0: And honestly, one of the things that's guiding my intuition here is that i have a lot of 20 something year old friends who i watched accomplish incredible things and build world-leading companies and mentors in domains that they entered into with basically zero years of experience.
+[23:33] Speaker0: History is full of super competent young people who ran circles around the world that they found themselves in.
+[23:39] Speaker0: But the age of 27 napoleon had stacked victory after victory against far larger armies from the other great powers of europe.
+[23:46] Speaker0: By 25, just two years after he got into the oil business, rockefeller was running one of the world's largest refineries.
+[23:53] Speaker0: Rockefeller and napoleon needed experience, yes, but only a couple years' worth, not decades.
+[23:59] Speaker0: And whatever was going on inside these guys' brains, an ai should be able to replicate, or even exceed.
+[24:05] Speaker0: There's no reason to think the humans are at the ceiling of learning quickly from experience.
+[24:09] Speaker0: Furthermore, unlike napoleon or rockefeller, ai is going to accumulate years of deployed context in just a few days of calendar time.
+[24:17] Speaker0: For example, imagine that you wanted these future ais to run a fortune 500 company better than its current ceo.
+[24:23] Speaker0: How quickly could the ai ramp up at the shop?
+[24:25] Speaker0: Well, if you let it shadow that ceo on its first morning, it could read every email and slack message and document that the company has ever produced.
+[24:33] Speaker0: By the end of its first day, copies of it have interviewed every employee and major client in parallel.
+[24:38] Speaker0: Obviously, they wouldn't have access to feedback that arrives after many months of serial time, for example.
+[24:43] Speaker0: How well they did on the next quarterly earnings.
+[24:46] Speaker0: But even given these kinds of bottlenecks, we should expect these future post spark ais to be able to get to top human performance in all domains within months of being developed the still 2028 or 2029 in this median scenario.
+[25:01] Speaker0: And remember, even in this spark scenario, all of this happens in just the first year or two after ai research is fully automated.
+[25:08] Speaker0: Things don't just stop there because even if the software progress peters out ai is will continue stoking the fire by adding more and more compute even without help from ais global ai compute has been growing roughly 3x a year for the last half decade and the ais that come out of the spark will be jaggedly superhuman and helping us continue scaling up this compute.
+[25:30] Speaker0: They'll be extremely good at designing new ai chips.
+[25:32] Speaker0: And laying out the designs of new fabs, even teleoperating robots to help build parts of fabs and data centers.
+[25:39] Speaker0: So, in the spark scenario, ai capabilities continue to improve.
+[25:43] Speaker0: But because their progress is driven by building more chips, and data centers, and robots, it takes years to get to the same endpoint that the software only singularity would have achieved.
+[25:53] Speaker0: In months, which is a superintelligence that is to us what we are to chimps.
+[25:59] Speaker0: Appendix.
+[26:02] Speaker0: So earlier i promised to explain why i think ai research is largely verifiable.
+[26:06] Speaker0: So that's where i'll start after that.
+[26:08] Speaker0: I'll go through what i think are the strongest objections to my arguments about rsi.
+[26:12] Speaker0: Now, one thing i want to call out of the very top is that because both pre-training and post-training are verifiable and i'll make my argument for why later.
+[26:19] Speaker0: So is progress on what is the most galling and important deficiency that ai's have against humans?
+[26:25] Speaker0: Namely, their lack of sample efficiency.
+[26:27] Speaker0: If you want a neural network to gain some capability, you have to feed it far more data than it would take a human to learn the exact same thing.
+[26:35] Speaker0: But every kind of sample efficiency is measurable.
+[26:38] Speaker0: For example, you can measure how much data it takes to reach a given pre-training loss, or how many tasks it takes to reach a given score in an rl environment.
+[26:46] Speaker0: Or even how much feedback and time within a single session.
+[26:50] Speaker0: It takes to reach a desired level of performance just from in context learning.
+[26:55] Speaker0: Sample efficiency and online learning are really two sides of the same problem, which is how to learn from real world data quickly and efficiently.
+[27:03] Speaker0: For decades, people have recognized this as the deepest open problem in machine learning.
+[27:08] Speaker0: Ai is equivalent of a millennium prize problem.
+[27:11] Speaker0: And mathematics has already shown us what happens to such problems, even when they are very difficult, as long as they are verifiable.
+[27:19] Speaker0: Okay, now let's get to why i think that ai progress is largely verifiable.
+[27:23] Speaker0: Why progress on sample efficiency or online learning or the other problems in ml is captured by verifiable proxies.
+[27:31] Speaker0: There are roughly three broad buckets of ai r&d pre-training.
+[27:36] Speaker0: Post training and inference efficiency, and as i'll explain, each has strong verifiable proxies that are easy to train against, and since together these comprise all of algorithmic progress, that means that ai progress in general is easy to train against.
+[27:51] Speaker0: Which in some sense shouldn't be that surprising, because we can make models better at things that can be tested inside a data center.
+[27:58] Speaker0: And ai training is literally happening inside a data center.
+[28:01] Speaker0: As we talked about these proxies, you should keep in mind that verifiability is valuable for two reasons.
+[28:07] Speaker0: So first, it allows ai companies to directly rl a model to get better at the specific parts of ai research through thousands of rounds of practice.
+[28:17] Speaker0: But the second reason, verifiability is important is that these proxies allow each agent to empirically check whether they've beaten some score on a leaderboard before they merge their contributions.
+[28:29] Speaker0: And so they can work much more effectively in parallel.
+[28:33] Speaker0: Okay, so with that in mind, let's start by talking about pre-training.
+[28:36] Speaker0: So as you're building gpt-7, you can all that model to get better at finding pre-training compute multipliers.
+[28:43] Speaker0: For example, you can make an rl objective that gpt-7 has to minimize how much compute it uses to train a gpt-2 size model to a fixed free trading class.
+[28:53] Speaker0: And once gpt-7 is built, you can now deploy this model or a swarm of these models.
+[28:59] Speaker0: To figure out how to train a gpt-3 size model to the lowest possible perplexity.
+[29:05] Speaker0: And this is because loss on a held out test set, which is the basis of free training research.
+[29:10] Speaker0: Is extremely easy to verify.
+[29:12] Speaker0: Of course, what works at small scale doesn't necessarily work at large scale, and it requires taste to anticipate exactly which small scale improvements will actually bear fruit when they're composed together in a bigger model.
+[29:25] Speaker0: But this kind of intuition is also trainable.
+[29:27] Speaker0: For example, you can make an rl environment where gpt-7 has to predict whether an algorithmic improvement that it made at the 100 million parameter scale will also hold at the 10 billion parameter scale.
+[29:38] Speaker0: And while this taste vent environment is more expensive to our island than the nano gpt speed run, it's still not that difficult to train on if you have frontier lab scale compute.
+[29:49] Speaker0: So, even important parts of research taste are verifiable.
+[29:52] Speaker0: And if you just automated pre-training, you'd already radically speed up ai progress.
+[29:56] Speaker0: And there's a couple of reasons why.
+[29:59] Speaker0: First is that pre-training leads to very general improvements in the model's intelligence and capabilities.
+[30:05] Speaker0: And there's a deep explanation for why this is true, which has to do with the link between compression and intelligence.
+[30:11] Speaker0: And if you want to learn more about this, by the way, i highly recommend this excellent video by 3blue1brown on the topic that i'll link to below.
+[30:18] Speaker0: And the second reason is that as you make pre-training improvements, you can now train a smaller and smaller model that is just as good as a previously larger model, but which trains faster and more cheaply.
+[30:28] Speaker0: And this not only speeds up pre-training, but it also means that your experiments and rl rollouts atop this base model are now more efficient.
+[30:37] Speaker0: And since your automated researchers are just instantiations of this now smaller model, you can now support larger researcher populations too.
+[30:45] Speaker0: The third reason is that because smaller models train faster, this actually tightens the rsi loop itself during rsi last probably won't be doing three months long pre-training runs that are spread out across multiple data center campuses.
+[30:57] Speaker0: Instead, the army of automated researchers will be finding algorithmic innovations so quickly that by the time that a giant run finished, it would already have been made obsolete by a much smaller model.
+[31:09] Speaker0: The first began training only a week ago.
+[31:11] Speaker0: It's similar to how if you launch a spaceship to alpha centauri with today's technology, it would probably be overtaken in transit by one that was launched a century from now.
+[31:20] Speaker0: Furthermore, since you're training smaller models faster and on a scale where you can run thousands of experiments daily, you won't have to bet that small-scale results will hold up in bigger models.
+[31:31] Speaker0: You've already tested at the scale which you'll be trading at now.
+[31:34] Speaker0: How much better could base models get even at today's parameter sizes?
+[31:38] Speaker0: I think there's probably a ton more potential.
+[31:40] Speaker0: We are far from the limits of pre-training.
+[31:42] Speaker0: For example, the ai lab magic recently announced that they appreciate a model that matches the leading open source based models today like deepseek v4 pro for just half of the compute that was used to train the original gpt-3, which would roughly cost 500,000 dollars today orders of magnitude further improvements seem totally plausible.
+[32:01] Speaker0: Now, let's talk about post training.
+[32:03] Speaker0: There are three different kinds of verifiable proxies for post training.
+[32:06] Speaker0: First, your automated researchers can try to improve your post training algorithms, such that if you want to rl on a new set of environments, it takes less compute or data or time, all three of which are easily measurable.
+[32:19] Speaker0: Second, your automated researchers can work on making models better at learning on the fly, and you can easily measure progress on this.
+[32:25] Speaker0: For example, you can measure, if you drop your model into an environment.
+[32:28] Speaker0: That was never trained on how quickly does it learn what's going on and figure out how to get a good score and how fast does it get better at a video game that it's never played before.
+[32:37] Speaker0: And you can have more real world examples of this too.
+[32:39] Speaker0: If you want to see what these could look like, check out this great benchmark that bite dance release called the edge bench for these kinds of tasks.
+[32:46] Speaker0: And third, you can just measure ai and capability directly and dropping for example, has this internal benchmark called cobench.
+[32:54] Speaker0: Which contains around 500 real problems that the researchers and engineers have solved this year.
+[32:59] Speaker0: And every benchmark is also an rl environment, and an rl environment like this would allow anthropic to have their models practice redoing the last 3 to 6 months of human progress at the frontier.
+[33:10] Speaker0: The third big area of ai research is inference efficiency.
+[33:13] Speaker0: What this involves is designing your model and the surrounding software to get more juice out of your compute.
+[33:19] Speaker0: And this is especially verifiable.
+[33:21] Speaker0: For example, you can easily measure gpu utilization or kv cache size per token, or total flops in a forward pass, or latency, and so on.
+[33:32] Speaker0: Now i want to deal with the strongest objections to my arguments about rsi.
+[33:36] Speaker0: I want to be clear that these bottlenecks are serious, and they do tamp down the probability of the most aggressive possible takeoff.
+[33:43] Speaker0: This is why i think we'll probably make something like a gpt 3.5 to gpt 6 size jump in 2028 rather than some crazy overnight singularity that starts tomorrow.
+[33:53] Speaker0: But i think these bottlenecks won't be especially crippling that the neck of the bottle is actually pretty wide.
+[33:58] Speaker0: Let me explain why.
+[34:00] Speaker0: Okay, so the first objection, this is an objection that i had until recently is that we'll be bottlenecked by continual learning or the lack thereof.
+[34:07] Speaker0: I spent the past year and a half arguing that the main thing missing from today's ais is this ability to learn from on the job experience.
+[34:15] Speaker0: Every new session is their first day on the job.
+[34:17] Speaker0: And in each session, they can only retain a couple hours worth of information, so they don't accumulate the kind of feedback and know how that arrives over the course of weeks or months.
+[34:27] Speaker0: Last december, this was my main reason for doubting that we'd automate ai research anytime soon.
+[34:32] Speaker0: As I wrote then, somehow this automated researcher is going to figure out the algorithm for AGI, which is a problem that humans have been banging their head against for the better half of a century, while not having the basic learning capabilities that children have.
+[34:46] Speaker0: I find this super implausible.
+[34:48] Speaker0: But I've somewhat changed my mind on this.
+[34:50] Speaker0: Here's why I don't think that the current lack of continual learning in these models will stop full automation of the best AI researchers by 2028.
+[34:58] Speaker0: First, AI companies might just solve continual learning by then, with architectures that are much like the ones they already have.
+[35:04] Speaker0: Previously, i thought that we were bottlenecked by some crazy breakthroughs that would allow models to update their own weights at the end of every session.
+[35:12] Speaker0: But now, i think that scaling up in context learning is enough, and so you'll have sessions that are effectively many months long.
+[35:18] Speaker0: And this will allow a single instance to learn effectively on the job.
+[35:22] Speaker0: And people have published many many promising ideas that would let the labs achieve dramatically longer effective context windows.
+[35:29] Speaker0: And the second reason is that you might not need a continual learner to solve continual learning.
+[35:34] Speaker0: As i explained earlier, online learning is an ml research problem with clean, verifiable proxies.
+[35:40] Speaker0: If you'd asked me two years ago, which would be harder to solve, navier-stokes or continual learning, it wouldn't have been obvious to me that the answer was navier-stokes.
+[35:47] Speaker0: Now, of course, it turns out that continual learning did turn out to be harder, given the fact that the labs haven't cracked it yet.
+[35:53] Speaker0: But are we so confident that it's that much harder?
+[35:56] Speaker0: That the non online learning models a year or two smarter.
+[35:59] Speaker0: Than the ones that are currently solving millennium prize problems won't be able to crack it even if they're amnesia acts like the current models are these models are out here are solving millennium prize problems while still being these derpy savant interns that have no long-term memory.
+[36:13] Speaker0: It's like watching somebody do cartwheels down the track and still keep pace with usain bolt.
+[36:18] Speaker0: They were actually allowed to run.
+[36:19] Speaker0: I'm sure they could go even faster but who's to say that they can't win this race while still cartwheeling.
+[36:25] Speaker0: Now, all this being said, i think there is a serious chance that we don't solve continual learning within the next few years and that models are not able to compensate for this missing capability through their other advantages.
+[36:36] Speaker0: That's why i put a 25% probability that we won't automate ilia level top human researchers until after 2032.
+[36:44] Speaker0: One important objection people have is that we'll be bottlenecked by finding the right verifiable proxies.
+[36:49] Speaker0: All the verifiable proxies that i've listed above assume the current paradigm, they would argue, but figuring out what objective to verify in the first place, choosing which hill to have gpt-7 climb is itself an important part of ai research.
+[37:03] Speaker0: This is what one might call research taste and how are you going to train for that before 2018?
+[37:08] Speaker0: Almost nobody was saying that minimizing loss on next token prediction.
+[37:11] Speaker0: Is going to be the most tractable path to ai progress.
+[37:14] Speaker0: So nobody would have bothered to build nano gpt cells peter and environments where the agent swarm has to minimize how much time it takes to get to a certain pre-training loss.
+[37:22] Speaker0: When there be multiple new paradigms that we have to cross to get from here to superintelligence and won't each new paradigm require some associated proxy that we don't know x anti.
+[37:32] Speaker0: How will the automated researchers find these during rsi?
+[37:36] Speaker0: I have two responses to this objection.
+[37:38] Speaker0: First, the transformer was visible on, in fact, invented to beat the existing translation benchmarks.
+[37:45] Speaker0: A similar story is true for reasoning models and the pre-existing coding and math benchmarks.
+[37:50] Speaker0: Proxies made before a paradigm leap seem perfectly capable of capturing large step changes in performance.
+[37:56] Speaker0: This is because ai learning algorithms are quite general.
+[37:59] Speaker0: And second, it's not that difficult to come up with paradigm agnostic outer loop proxies.
+[38:04] Speaker0: For example, how many millennium prize problems does your new model solve?
+[38:08] Speaker0: And if you train your model on data before 1905, how long does it take before it discovers general relativity?
+[38:13] Speaker0: How fast does it master totally unseen video games?
+[38:16] Speaker0: And so on.
+[38:17] Speaker0: All in all, i think the other objections to the impact of rsi are much stronger, and i'd be very surprised if this ended up being the reason that rsi was not a big deal.
+[38:26] Speaker0: The other big bottleneck that people point out is data.
+[38:28] Speaker0: Isn't data one of the main inputs into ai progress?
+[38:31] Speaker0: How will rsi happen without that scaling up at the same rate?
+[38:35] Speaker0: My answer is that data will continue growing during rsi, but the ais will be the ones compiling it producing better training data for both pre-training and post-training is itself at ml research problem and ais are getting increasingly better at doing it themselves.
+[38:49] Speaker0: Now it is true that data is an extremely important input into ai progress together with jerry hahn, who's a student at princeton.
+[38:55] Speaker0: I actually did some research into this.
+[38:57] Speaker0: We found that for pretraining over the last six years, more than three times the algorithmic progress has come from data improvements than model improvements.
+[39:04] Speaker0: However, i don't think that people realize that these data improvements in pretraining are very much in line with normal ai research work.
+[39:11] Speaker0: It's basically figuring out which techniques for filtering existing data or generating new synthetic data empirically lead to lower loss on a held out corpus.
+[39:20] Speaker0: A similar thing seems to be increasingly true for rl.
+[39:23] Speaker0: Deepmind just published a paper where they talk about how they post train their new model.
+[39:27] Speaker0: They see that changes to the basic rl algorithm have not mattered nearly as much, and that quote, systematic improvements in the scale, diversity, and verifiability of synthesized data and environments account for essentially all of the observed gains, end quote.
+[39:41] Speaker0: In the way in which these environments are made, is itself getting more and more automated.
+[39:45] Speaker0: They write, quote, we invest in large scale automated pipelines for data synthesis and environment construction.
+[39:52] Speaker0: Using difficulty and correctness as reward signals, we iteratively train the model to construct better tasks, end quote.
+[39:59] Speaker0: Now, i want to talk about the idea that ai progress will be bottlenecked by experiments.
+[40:03] Speaker0: So earlier, i made this extended analogy between the current acceleration in mathematics and what we should expect to happen in ai research.
+[40:10] Speaker0: But there is one big difference between ai research and mathematics.
+[40:14] Speaker0: In math, you can simply reason your way with pen and paper to new discoveries.
+[40:18] Speaker0: Whereas in ai research, you need to run actual experiments to validate your ideas, and these take compute and time.
+[40:24] Speaker0: And as the number of automated researchers grows, each gets access to a smaller and smaller slice of the total experiment compute pie.
+[40:32] Speaker0: My answer to this is that each agent will still get access to a ton of compute, basically.
+[40:37] Speaker0: Frontier labs have been more than quadrupling their compute every single year.
+[40:41] Speaker0: And if this trend continues.
+[40:42] Speaker0: Then by the end of 2027, OpenAI could almost give 10,000 agents.
+[40:47] Speaker0: So the amount that were involved in solving the millennium prize problem, each enough compute to run a gpt-3 size training run every single day.
+[40:55] Speaker0: Keep in mind that the final model trained in the original transformer paper in 2017 took three days on 8p 100, which would cost about 50 bucks if you went to rent it today or about 110,000 of the training compute of gpt-3.
+[41:11] Speaker0: If the top human air researchers like norm shazir and elias, satskaver had enough experiment compute to train a gpt-3 size model every single day.
+[41:20] Speaker0: They might make slower progress than they currently do, but it would be extremely surprising to me.
+[41:25] Speaker0: They fail to make meaningful progress altogether and just sat down and started complaining about how small their cluster was.
+[41:31] Speaker0: Now, how productive do you think in ai lab would be if it had 10,000 great researchers?
+[41:36] Speaker0: each with this much compute, and each thinking 10 times as fast.
+[41:39] Speaker0: you wouldn't want to write a check to this neolab.
+[41:42] Speaker0: the nature of research and experimentation at the labs today reflects that researcher time is extremely scarce relative to compute.
+[41:50] Speaker0: top ai researchers individually get paid hundreds of millions of dollars a year.
+[41:54] Speaker0: so the way labs use compute today tells us very little about how efficiently they could use it, if compute rather than researcher time was the key bottleneck.
+[42:03] Speaker0: there are two main ways in which the rsi agent swarm will use experiment compute much more efficiently than researchers today use it.
+[42:10] Speaker0: First, immediately they can trade labor for compute.
+[42:13] Speaker0: To save valuable researcher time, experiments today are, and should be, very wasteful with compute.
+[42:19] Speaker0: So, instead of painstakingly setting up and carefully monitoring tons of small scale pretraining experiments, a human researcher today might instead kick off a couple of huge multi-agent rl runs in parallel.
+[42:31] Speaker0: But if you're bottlenecked by experiment compute, you can just do more of the former.
+[42:35] Speaker0: And when those automated researchers are doing an rl run, they could read every single rollout transcript, and immediately pause and rebuild a whole environment, if some task is broken.
+[42:44] Speaker0: They could be doing crazy amounts of small scale ablations of their models, to make them also slightly better.
+[42:50] Speaker0: And when a team of agents decides to combine their compute together in order to do a much bigger run, they could spend many subjective decades designing the most informative pooled experiment.
+[43:01] Speaker0: And once it's done running, they could spend further subjective decades comprehensively analyzing it before designing a new experiment.
+[43:07] Speaker0: The other big way that this huge agent swarm could remain productive, despite the fact that each individual copy will have access to less compute.
+[43:15] Speaker0: Is that these automated researchers could come up with a better science for learning from small scale experiments.
+[43:21] Speaker0: Scaling laws themselves are a good example of this.
+[43:24] Speaker0: The gpt-4 paper says that they were able to predict.
+[43:26] Speaker0: The models final loss using models trained with 10,000 x less compute.
+[43:31] Speaker0: One of the things that the smarter and faster automated company could be doing is trying to discover more scaling phenomenon like mu p, which lets researchers anticipate the optimal hyperparameters for a larger run from 100x smaller model.
+[43:45] Speaker0: How many more similar discoveries like this are there?
+[43:47] Speaker0: I remember chatting to an ai researcher who thought that learning from extremely small neural networks could be incredibly informative.
+[43:54] Speaker0: He put it this way, the gods above must work from the same principles as the ants below.
+[44:01] Speaker0: I want to thank my friends who paired with me through significant parts of writing this essay, max ferens, gabe fried, and thomas larson.
+[44:09] Speaker0: I'll see you on the next essay about superintelligence, but in the meantime, if you want to get notified when that video essay drops, please subscribe on youtube.
+[44:18] Speaker0: All right, i'll see you next time.
