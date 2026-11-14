@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-15",
+  "generated_at": "2026-11-14T23:32:47.858346+00:00",
+  "stats": {
+    "tweets": 6,
+    "podcasts": 1,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator 总裁兼 CEO Garry Tan 给出明确建议：在 Claude Code 中继续以 Opus 5.5 作为默认编码模型。他用自己开源的 harness 评测仓库，在 Claude Code 2.1.322 上跑了 **52 个编码任务**，Fable 5.2 的解决率（**82.7%**）与 Opus 5.5（**84.6%**）大致相当，但每个已解决任务的成本是后者的 **2.80 倍**；他也承认 Opus 已能解决多数任务，要真正区分两者还需要更难的测试题。此外，他签署了 #StandWithJensen 联名信，表示黄仁勋\"应当获得正当程序\"。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel CEO Guillermo Rauch 宣布 Workflow SDK 5 与 Vercel Workflows 上线，称这是面向 Agent 的\"巨大进步\"：首步启动时间和步骤间延迟大幅缩短，加密与安全进一步加强，系统可靠性已在大规模场景和多种灾难恢复演练中得到验证。他们还把底层的持久化日志做成可复用组件，开源为 durable-harness，可接入任何 Agent 运行框架。他还转发评论称\"Vercel Sandbox 是必然趋势\"，力推其 Agent 基础设施布局。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad 称与 Visa 在智能体电商（agentic commerce）上的合作进展顺利，后续还会推出更多功能和使用场景。他也公开呼吁签署声援英伟达 CEO 黄仁勋的\"Stand with Jensen\"联名信，并透露该联名页面就搭建并托管在 Replit 上，他已与页面所有者合作提高速率限制，以承接激增的访问量。"
+    },
+    {
+      "author": "Nikunj Kothari",
+      "handle": "nikunj",
+      "summary_zh": "投资人 Nikunj Kothari 对 AI 圈\"刷榜\"现象提出批评：他原以为 Llama 4 之后业界已不再以刷基准分为炫耀资本，但这种风气又回来了。他认为真正重要的基准寥寥无几，其余多是姿态或为营销而针对单一榜单爬坡；这对少数公司的营销确实有效，但难以持久，唯一可靠的方法是在自己的工作流中实际使用模型。他另外指出，此次美国 FAA 全国机场地面停飞是现代史上**第三次**（前两次是 9/11 和 2023 年 NOTAM 系统故障），原因尚不明确。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品类内容创作者 Peter Yang 发布了一个免费的 AI skill（/fuck-cancer），供癌症或其他长期病患者的家属使用：把病历上传到 Google Drive 等文件夹，让 ChatGPT 或 Claude 安装该 skill 并指向该文件夹，即可生成一页式病情简报、检索临床试验等，也可 fork 后改造用于其他慢性病。另外，他质疑《华尔街日报》在 Alice Huang 是否为间谍一事上\"过早下结论\"，援引新加坡政府的声明作为反证，并分享了一位英伟达员工的说法，提醒读者自行求证。"
+    },
+    {
+      "author": "Aditya Agarwal",
+      "handle": "adityaag",
+      "summary_zh": "South Park Commons 合伙人 Aditya Agarwal 表示，其投资组合中有 **7 家**公司入选 AI 100 榜单：Baseten、Render、Profound、Replit、Gamma、Cog 和 Density。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "Training Data",
+      "title": "A Model For Everyone: How Ronak From Trajectory Is Building Products For Continual Learning",
+      "date": "2026-11-05 10:00 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
+      "summary_zh": "嘉宾：Trajectory 创始人 Ronak（前 Windsurf），做\"持续学习\"产品化平台。\n\n**核心观点**：行业目前处于\"伪持续学习\"——模型只能离线批量更新；Trajectory 先让人人能低门槛训练定制模型，终局是像 Google Maps 一样在每次使用中实时更新。他认为持续学习是下一个学习范式，Google、Amazon、Facebook 的推荐/广告系统本质即持续学习，而 Agent 领域尚无。\n\n**痛点**：此前用生产数据训自有模型只有大实验室或头部垂直公司能做。Windsurf（及 Cursor Composer）需**数亿美元**研发与算力、大型研究团队、耗时**6–9 个月**。大实验室模式是\"一个模型分发给所有人\"，为单客户定制部署不划算，这是创业空间。\n\n**产品**：一键打通\"训练—评测—部署\"，模型回到生产再采集 trace 形成闭环。要素：①生产 trace（可接 LangChain、Braintrust、Raindrop）；②可回放环境；③训练算法与奖励函数（主要抽象层）。研究突破：GRPO 每任务需重复 **8 或 16 次**，他们做到\"组大小为 1\"，用 **1 万条**不同任务轨迹即可学习，省去搭环境；奖励端从 1 万条 trace 中挑约 **100 条**让客户标注，再训\"元评分器\"推广至全部。\n\n**客户**：Harvey 法律模型成本比前沿模型低 **6 倍**，其法律 Agent 基准准确率从开源模型约 **4%** 升至约 **18%**；Rogo 训出 token 效率高数倍、更便宜更快的金融 Agent。NVIDIA 也在用。目标客户为已打磨好 harness 的 AI 原生公司。\n\n**投资含义**：他设想企业用 Fable 等前沿模型处理约 **10%** 任务，**90%** 路由到自训模型以提升效率和毛利——对前沿模型厂商 token 收入构成潜在分流。下一步扩展到自动优化 harness。他称仅约 **1%** 企业真正采用 AI，目标推至 **99%**。\n\n**其他**：持续学习与递归自我改进（RSI）相近，但强调人在回路以保对齐；探索用 MDP 转移函数量化\"好奇心\"。团队来自 Gemini 3、Gemini Robotics、OpenAI GPT-4、Stripe、Netflix，代码实现多交给编码 Agent。生态提及 Modal、Thinking Machines。"
+    }
+  ],
+  "articles": []
+}
