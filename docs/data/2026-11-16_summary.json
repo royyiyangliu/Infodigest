@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-16",
+  "generated_at": "2026-11-15T23:33:10.906858+00:00",
+  "stats": {
+    "tweets": 8,
+    "podcasts": 1,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie 提出：AI 在编程、工具与电脑使用、数学等任务上的能力将持续快速提升，因此能使用软件或从零生成代码的 agent，其进步速度将快于其他所有知识工作领域；结果不是只有一小部分工作被自动化，而是越来越多的工作会变得“代码化”，以适配 agent 的长处。他指出近几个月的模型发布中，agent 已能通过生成代码产出动画视频、游戏、产品 3D 模型等，而工具调用让 agent 可以使用人类现有的软件，惠及网络安全、生命科学、金融等领域。他认为模型无需“无所不知”，真正关键的是“高效使用/生成软件 + 深厚领域知识以在工作流中做出正确判断”，这一组合将解锁几乎所有场景，agent 在知识工作中的加速只会继续。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad 认为我们已进入“墨菲世界”：在数十亿件事同时发生、相互递归依赖且快速加速的环境下，过去罕见的故障如今会每天发生。他同时指出，技术本身就具有递归自我改进的属性、自主程度一直在上升，AI 只是加速器而非这一循环的起点（Douglas Engelbart 早已洞察这一点），并宣称“自主企业（Autonomous Businesses）已经到来”。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch 分享其开发方法论：他的所有项目都是“用最聪明的模型做规划 + 委派给快速模型的 subagent 执行”，在 fx 中只需在 ~/.fx/AGENTS.md 里写一行指令即可实现，并称赞 fx 的 subagent 体验极佳、整个工具仅 6.33MB。他还演示用 fx + Gemini Argon 仅两条 prompt、纯 Web Components 无框架构建应用，agent 开箱即复用了 @uisdk 的 14 种 UI 行为（窗口缩放、拖拽、菜单栏悬停切换、typeahead、10 段均衡器滑块、快捷键、ARIA 及 WebMCP agent 控制等）。"
+    },
+    {
+      "author": "Josh Woodward",
+      "handle": "joshwoodward",
+      "summary_zh": "Google Gemini 应用负责人 Josh Woodward 宣布 Gemini 新功能：可连接 Google Wallet 获取个人财务洞察，例如即时生成消费可视化图表、发现悄悄涨价的订阅、基于去年实际支出制定假日预算；该功能首先向美国所有 Gemini 应用用户开放。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品创作者、播客主持人 Peter Yang 推荐两个配合 Fable 5.2 使用的实用 prompt：“/doctor prompt-audit” 可审计整个 Claude Code 配置（CLAUDE.md、skills、commands）并提出修复建议，“/claude-api prompt-audit [skill 名]” 可深度审计单个 skill。他建议 Claude Code 在 Anthropic 每次发布新模型时自动提示用户运行这些审计。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator 总裁兼 CEO Garry Tan 呼吁推动 FAA（美国联邦航空管理局）现代化，批评其仍依赖纸质图表、铜线和脆弱、缺乏足够故障保护且没有现代软件的陈旧系统，无法妥善服务美国民众。他还称 Aside Browser 对所有 AI agent 而言是“巨大的解锁”。"
+    },
+    {
+      "author": "Matt Turck",
+      "handle": "mattturck",
+      "summary_zh": "FirstMark Capital 合伙人 Matt Turck 认同一则观点：NVIDIA 是唯一一家财力雄厚、且在开源权重 AI 上有明确商业利益、并愿意下“创始人式”大赌注的玩家，并抛出疑问“接下来会怎样？”，暗示开源权重生态的走向高度依赖 NVIDIA 的策略。"
+    },
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "Latent Space 创始人、AI Engineer 大会发起人 Swyx（swyx）认为，当前 AI 产品的用户体验极不理想，尤其考虑到已存在“便宜到无需计量”的模型，行业在 AI UX 上的优化空间巨大。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "晚点聊 LateTalk",
+      "title": "188: 黄仁勋闪电离职之后：英伟达、AI 基建、中美竞争和算力江湖",
+      "date": "2026-11-15 12:15 UTC",
+      "duration": "1:16:13",
+      "link": "https://podcasts.apple.com/us/podcast/%E9%BB%84%E4%BB%81%E5%8B%8B%E9%97%AA%E7%94%B5%E7%A6%BB%E8%81%8C%E4%B9%8B%E5%90%8E-%E8%8B%B1%E4%BC%9F%E8%BE%BE-ai-%E5%9F%BA%E5%BB%BA-%E4%B8%AD%E7%BE%8E%E7%AB%9E%E4%BA%89%E5%92%8C%E7%AE%97%E5%8A%9B%E6%B1%9F%E6%B9%96/id1564877433?i=1000802023223&uo=4",
+      "summary_zh": "晚点聊本期由主持人曼琪对谈晚点科技记者刘一伦、香港美股AI方向基金研究员Todd，讨论黄仁勋因出轨及涉嫌芯片违规流向风波辞去英伟达CEO后的连锁影响（由原CFO临时接任）。\n\n**对英伟达**：①治理单点风险：黄直管**60多名**高管、无二号位和接班计划，创始人缺位难以推动再转型（ASIC替代、CUDA壁垒被AI翻译削弱等挑战已在眼前）；②黄与台湾供应链形成利益共同体，难以替代；③Todd称黄是“AI行业央行行长”，风格激进，而新CEO偏保守，已提出反对为OpenAI **2500亿美元、8GW**建设项目做最终贷款人，行业信用扩张或转向收缩。股价一度跌至**148.8美元**后回到**160美元**以上。\n\n**财务测算（Todd观点）**：公司给出2026年营收约**4000亿美元**、2027年指引**7000亿美元**，毛利率**70%-75%**；他估计流向受限地区的卡占**两到三成**，若民主党掌控国会后严管并放缓美国AIDC建设，收入或缩水**30%-40%**；长线资金的“老黄溢价”消失，2028年估值已不到**10倍**、可能更低。他认为AI基建周期在二级市场“基本走完”，英伟达2025下半年后基本没涨，已成“老登股”。\n\n**受益与受损**：AMD在台积电先进封装份额由2026年约**9%**升至2027年**20%**，英伟达让出的CoWoS产能主要被AMD、其次博通/TPU吃掉，但整体贝塔向下；受损方包括依赖英伟达信贷的CoreWeave等新云、港股相关公司、东南亚倒卡商；国产算力或获空间。\n\n**中国算力市场（一伦）**：国产卡产能被大厂包圆，瓶颈在上游产能；华为年出货约**七八十万颗**，最大客户为字节和DeepSeek。BAT据报合计订购**300万张以上**Pro 5500、总额超**350亿美元**（单卡**8.5-9万元**），实际到货不足**5%**且合规性存疑。B300服务器价格从年初约**400万元**涨至10月**2000万元**；5090显卡约**5万元**。约**60万张**H200在香港，厂商愿付**2-3倍**价格租**3-5MW**机房。某大厂研究员称OpenAI算力约为其**100倍**。2025年算力供过于求、有公司退租，2026年因coding/agent需求转为严重短缺。token分成模式普遍为算力方**七成**、模型方**三成**。\n\n**展望与投资**：预计2027年1月3日民主党掌控国会后调查升级，11月18日国会闭门质询是节点；美国管控只会更严。Todd建议做多10年及更长期美债（收益率**5%以上**）与黄金；不会买**1.4万亿美元**估值的Anthropic，认为目前仅写代码一个应用跑通，长期看好应用层。"
+    }
+  ],
+  "articles": []
+}
