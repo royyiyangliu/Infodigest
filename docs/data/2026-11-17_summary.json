@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-17",
+  "generated_at": "2026-11-16T23:33:22.022182+00:00",
+  "stats": {
+    "tweets": 9,
+    "podcasts": 1,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie 认为，模型在编程、工具与电脑使用、数学等任务上的能力会持续加速提升，因此“会用软件或从零写代码”的 agent 进步速度将快于其他所有知识工作领域；结果不是只有一小部分工作被自动化，而是越来越多的工作会变得“编码化（coding-shaped）”以适配 agent 的长处。他举例称近几个月新模型已能用代码生成动画视频、游戏、产品 3D 模型，工具调用也让 agent 能使用人类现有软件，正在网络安全、生命科学、金融等领域落地。他的核心判断是：模型并不需要无所不知，关键是“高效使用/生成软件 + 深厚领域专长以做出正确判断”，二者结合后 agent 在知识工作中的加速只会越来越快。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad 宣称“自主企业（Autonomous Businesses）已经到来”。他认为我们已进入“墨菲世界”：数十亿事件同时发生、相互递归依赖并快速加速，过去被视为罕见的故障如今每天都会发生。他同时指出技术本身就是递归自我改进的、自主程度一直在上升，AI 只是加速器而非这一循环的起点，Douglas Engelbart 早已洞察这一点。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch 分享其开发范式：所有项目都由“最聪明的模型做规划 + 快速模型 subagent 执行”完成，只需在 ~/.fx/AGENTS.md 中写一行指令，并称赞 fx 的 subagent 体验极佳、整个工具仅 **6.33MB**。他还演示用 fx + Gemini Argon 仅 **两个 prompt** 生成纯 Web Components（无框架）应用，agent 开箱复用了 @uisdk 的 **14 个** UI 行为（窗口缩放、拖拽、菜单栏悬停切换、预输入、**10 段** EQ 滑块、快捷键、ARIA 及 WebMCP agent 控制等）。"
+    },
+    {
+      "author": "Josh Woodward",
+      "handle": "joshwoodward",
+      "summary_zh": "Google Gemini 应用及 Google Labs 负责人 Josh Woodward 宣布 Gemini 新功能：可连接 Google Wallet 获取个人财务洞察，例如即时生成支出图表、发现订阅服务的隐性涨价、根据去年实际花费制定节日预算。该功能首先面向美国全部 Gemini 应用用户开放，显示 Google 正将 Gemini 向个人金融等高频生活场景延伸。"
+    },
+    {
+      "author": "Matt Turck",
+      "handle": "mattturck",
+      "summary_zh": "FirstMark Capital 合伙人 Matt Turck 在引用一则评论时表示认同：NVIDIA 是唯一一个财力雄厚、且在开源权重 AI 上有明确商业利益、并愿意下“创始人式”大赌注的玩家。他随之抛出疑问“接下来会怎样？”，暗示 NVIDIA 在开源模型生态中的角色与策略变化值得关注。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator 总裁兼首席执行官 Garry Tan 在引用相关报道时批评美国联邦航空管理局（FAA）仍依赖纸质航图、铜线和缺乏足够故障保护、更谈不上现代软件的陈旧系统，呼吁“现代化 FAA”。他另外称 Aside Browser 对所有 AI agent 都是“巨大的解锁”，并推荐将相关做法与其开源项目 gbrain 结合使用。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品博主、Roblox 产品负责人 Peter Yang 推荐在 Fable 5.2 中使用两条实用提示：“/doctor prompt-audit”可审计整个 Claude Code 配置（CLAUDE.md、skills、commands）并提出修复建议；“/claude-api prompt-audit [skill 名]”可对单个 skill 做深度审计。他希望 Claude Code 能在 Anthropic 每次发布新模型时自动提示用户运行这些审计。"
+    },
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "Latent Space 创始人、Smol AI 的 swyx（@swyx）在引用一则观点时表示“显然正确”：在模型已经便宜到几乎无需计费的情况下，当前 AI 产品的用户体验仍极度欠优化，存在巨大改进空间。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI Codex 负责人 Thibault Sottiaux 代表网络安全团队就 Daybreak 征集反馈，涉及模型、Codex 插件、蓝队/红队访问权限、文档、红队测试及“防御工厂”等模块，显示 OpenAI 正在围绕 Codex 构建面向攻防安全的产品体系。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "晚点聊 LateTalk",
+      "title": "188: 黄仁勋闪电离职之后：英伟达、AI 基建、中美竞争和算力江湖",
+      "date": "2026-11-15 12:15 UTC",
+      "duration": "1:16:13",
+      "link": "https://podcasts.apple.com/us/podcast/%E9%BB%84%E4%BB%81%E5%8B%8B%E9%97%AA%E7%94%B5%E7%A6%BB%E8%81%8C%E4%B9%8B%E5%90%8E-%E8%8B%B1%E4%BC%9F%E8%BE%BE-ai-%E5%9F%BA%E5%BB%BA-%E4%B8%AD%E7%BE%8E%E7%AB%9E%E4%BA%89%E5%92%8C%E7%AE%97%E5%8A%9B%E6%B1%9F%E6%B9%96/id1564877433?i=1000802023223&uo=4",
+      "summary_zh": "本期晚点聊邀请晚点科技组记者刘一伦、香港美股 AI 投资人 Todd，讨论黄仁勋因婚外情及涉 Megaspeed 芯片走私调查风波辞任英伟达 CEO 后的影响。\n\n**对英伟达**：黄仁勋 33 年里主导了至少 **4-5 次**重大转型（2006 年 CUDA、2013 年押注深度学习、2019 年收购 Mellanox 等）。他直接管理 **60 多名**高管，公司没有二号位，也没有接班计划，治理上存在单点风险。临时 CEO 由风格保守的原 CFO 担任，已表态反对为 OpenAI **2500 亿美元、8GW** 建设兜底授信。Todd 把黄仁勋比作\"AI 央行行长\"，认为换成保守的行长，行业流动性会收紧，循环贷可能从螺旋上升转为螺旋下降。股价盘中一度跌到 **148.8 美元**，之后回到 **160 美元**以上。公司此前指引 2026 年营收约 **4000 亿美元**、2027 年 **7000 亿美元**，毛利率 **70%-75%**。Todd 估计约 **30%** 的卡流向了受限地区，若民主党上台严格追查，再加上美国 AIDC 建设放缓，营收可能缩水 **30%-40%**。长线资金给\"老黄\"的溢价也将消失，而目前对应 2028 年的估值已不到 **10 倍**。长期隐忧包括：架构固化后转向 ASIC，参照比特币矿机成本仅为 GPU 的 **1%**；AI 翻译削弱 CUDA 的软件壁垒。\n\n**二级市场**：台积电 CoWoS 产能中 AMD 份额从 2026 年约 **9%** 升到 2027 年 **20%**，英伟达让出的产能将主要被 AMD 和博通（TPU）吃掉。不过行业 beta 仍在下行，capex 二阶导已见顶。受损方包括依赖英伟达信贷的 CoreWeave、东南亚倒卡商和港股。Todd 判断 AI 基建行情\"基本走完\"，英伟达自 2025 年下半年起已成\"老登股\"。\n\n**中国算力**：渠道正在加价疯狂囤卡。B300 服务器从春节前约 **400 万元**涨到 10 月 **2000 万元**，5090 约 **5 万元**一张。BAT 合计订购 **300 万张以上** Pro 5500，总额超 **350 亿美元**，单价 **8.5-9 万元**，但实际到货不足 **5%**，后续也可能不再合规。香港约有 **60 万张** H200，厂商愿出 **2-3 倍**价格租 3-5MW 机房。华为年出货 **70-80 万颗**，主要客户是字节和 DeepSeek。国产卡瓶颈在上游产能，而非需求。某大厂研究员估计 OpenAI 的算力约为其 **100 倍**。Token 分成模式（如协创数据与智谱）一般按算力方 **7 成**、模型方 **3 成**分配。\n\n**展望与投资建议**：2027 年 1 月 3 日民主党接掌国会后，调查可能升级（11 月 18 日国会有闭门质询），Todd 认为矛头最终指向特朗普，马斯克也有风险。他建议做多 10 年及更长久期美债（收益率 **5%** 以上）和黄金。他不会买估值约 **1.4 万亿美元**的 Anthropic，理由是 AI 应用目前只跑通了写代码，但长期看好应用层。"
+    }
+  ],
+  "articles": []
+}
