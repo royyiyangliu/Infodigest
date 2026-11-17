@@ -1,0 +1,192 @@
+Source  : GameDev Report
+Title   : Weekly Gaming Reports Recap: November 2 - November 6 (2026)
+Date    : 2026-11-06 20:21 UTC
+Link    : https://gamedevreports.substack.com/p/weekly-gaming-reports-recap-november-502
+────────────────────────────────────────────────────────────
+
+Reports of the week:
+AppMagic: Top Mobile Games by Revenue and Downloads in October 2026
+Games and Numbers (October 21 — November 3, 2026)
+Sensor Tower: Indie Games Make Up 43% of PC and Console Hits in 2026
+InvestGame: UA Financing for Mobile Studios in 2026
+AppMagic: How New Mobile Games Earn Their First Million Dollars in 2026
+GameDiscoverCo: October 2026 Steam Next Fest Results
+Thanks for reading! Subscribe to receive gaming market updates daily. You can support the newsletter by becoming a paid subscriber too (comes with benefits!)
+AppMagic: Top Mobile Games by Revenue and Downloads in October 2026
+AppMagic's revenue figures are net of store commission and taxes. Revenue from Android stores in China is not included.
+❗️AppMagic has updated its September estimates. For example, Honor of Kings now has $103.7 million, down from $135 million in the
+previous report
+. All comparisons below use the updated figures.
+Revenue
+Honor of Kings stays in first place with $104.4 million in revenue. According to AppMagic, Honor of Kings was the only game to pass the $100M threshold in store IAP revenue in October.
+Roblox earned $92.2 million (+3% MoM) and held on to second place.
+Gossip Harbor earned $74 million in October (+6% MoM) and climbed from fourth to third place. MONOPOLY GO! earned $72.3 million (-5% MoM) and ranked 4th.
+If a contractor drew it, the answer depends on the contract — and without one, it might not be you. Mellow contracts cover IP rights and NDAs from day one, so every asset belongs to your studio and your project stays confidential. Payments and compliance run in the same flow.
+See how it works →
+Both Dream Games projects had a good October. Royal Match earned $62.8 million (+1% MoM) and took fifth place (+1 spot). Royal Kingdom has $27.9 million (+8% MoM), 13th place (+5 spots).
+Playrix's portfolio is also doing well. Township earned $30 million (+5% MoM) and moved to 10th place; Gardenscapes earned $28.7 million (+1% MoM) and moved to 11th place.
+Pokémon GO earned $23.8 million in October versus $51.9 million in September (-54%). The project dropped seven spots, from eighth to 15th place. That is the steepest decline in the revenue top 15.
+Delta Force dropped out of the top 15: in October, the game earned $23.5 million versus $38.2 million in September (-39%), falling to 17th place. The game celebrated its second anniversary last month, so the comparison is against a high base.
+Downloads
+Roblox climbed to first place with 22.4 million downloads. Free Fire MAX is second with 21.4 million installs, and Block Blast! is third (17.9 million).
+The month's biggest climber is Rotate Rings by Nebula Studio. The game jumped 191 spots to 8th place. It was downloaded 12.6 million times.
+Meowdoku: Brain Puzzle Games by Learnings continues to grow. The game climbed 3 spots to 4th place and was downloaded 17.2 million times in October (+50% MoM).
+Paper.io 2 by VOODOO took 7th place with 12.8 million installs (+44% MoM).
+Gossip Harbor saw a big jump in downloads in October. The project climbed to 11th place and was downloaded 10.5 million times. So Roblox is no longer the only project in both the revenue top 15 and the downloads top 15: Gossip Harbor and Free Fire MAX have joined it.
+Source
+Games and Numbers (October 21 — November 3, 2026)
+PC/Console games
+The Call of Duty franchise's lifetime revenue has surpassed $40 billion
+. Xbox CEO Asha Sharma shared the figure following the launch of Call of Duty: Modern Warfare 4. In April 2026, Activision cited $35 billion.
+Phantom Blade Zero by S-GAME sold over 4 million copies in 72 hours after release
+. Its Steam peak reached almost 834 thousand concurrent players, the 14th-highest result in the platform's history.
+Probably Stolen by Questing Goose Studio, and tinyBuild sold 500 thousand copies in two days after release
+. Its Steam peak exceeded 152 thousand concurrent players, a record for tinyBuild.
+You found the right contractor, and they said yes. Now there’s a contract to draft, an NDA to sign, and a cross-border payment to set up. Mellow handles all of it in one flow — contracts with IP and NDA clauses, compliant payments, and every document in one place.
+See how it works →
+According to The Verge, Gears of War: E-Day by The Coalition sold over 400 thousand copies in three weeks after release
+. The figure doesn't include Game Pass players, who got the game on day one.
+Dispatch by AdHoc Studio has passed 5 million players in a year after release
+. The game is coming to iOS and Android by the end of the year as a free-to-play title.
+Zombie survival RTS Ebbtide by solo developer ProjectAlive gathered 200 thousand wishlists in a week after its reveal
+. The first 100 thousand came in three days. The developer uses generative AI for part of the music, voice, illustrations, 3D models, and translation.
+Mobile games
+Homescapes by Playrix has been downloaded over 773 million times in nine years
+.
+Events
+gamescom asia x Thailand Game Show 2026 in Bangkok attracted 219.5 thousand visitors from 113 countries
+. The business area drew 6.9 thousand visitors, up 24% from 2025.
+Sensor Tower: Indie Games Make Up 43% of PC and Console Hits in 2026
+Sensor Tower counted premium games that sold more than 500,000 copies on PlayStation, Steam, and Xbox in their first 30 days after release. The analysts compared releases from September 2025 to August 2026 with releases from the same period a year earlier. The report
+excludes
+Switch, the Epic Games Store and other PC stores, mobile platforms, F2P games, and subscriptions.
+Sensor Tower manually assigned publishers to classes. AAA covers major companies such as EA, Ubisoft, Take-Two, Sony, Microsoft, and Capcom, along with their studios. AA covers mid-size publishers, larger studios that publish their own games, and budget titles from major companies. Indie covers small studios and indie labels. Corner cases were picked manually: ARC Raiders was classified as AAA, while Clair Obscur: Expedition 33 and REMATCH were classified as AA.
+The 2026 cohort includes games released
+from September 2025 to August 2026
+. The 2025 cohort, accordingly, includes games released
+from
+September 2024 to August 2025
+.
+The Number of Hits
+Over the year, the number of games that sold more than 500,000 copies in their first month grew from 55 to 76. Together, they sold 182.4 million copies in their first 30 days (+51% YoY).
+The number of indie hits grew 2.5x: 33 games, up from 13. Indie now accounts for 43% of all hits, up from 24% a year earlier.
+AA had 15 hits in the 2026 cohort (the same as a year earlier), and AAA had 28, up from 27. So 20 of the 21 additional hits came from indie studios.
+❗️Call of Duty: Black Ops 6 and Black Ops 7 are not included. Both games sit inside one shared launcher, so Sensor Tower can't separate their sales. With them, the AAA numbers would be higher.
+Indie hits in the 2026 cohort sold 69.9 million copies in their first month, up 119% from a year earlier. Indies' share of sales grew from 26% to 38%.
+Sales of AAA hits grew too, to 87.8 million copies (+38% YoY), but their share fell from 53% to 48%.
+AA hits, meanwhile, sold about as many copies as a year earlier (24.8 million). Their share dropped from 21% to 14%.
+The right artist for your game rarely lives down the street. Mellow takes distance out of the equation: contracts with IP and NDA clauses, cross-border compliance, and payments, all in one flow. Hire for talent, not for location.
+See how it works →
+New Series and New IP
+More than half of the hits (40 games, 53%) were the first games in new series, up from 21 (38%) a year earlier.
+❗️In Sensor Tower's classification, a new series is the first game in a potential series: not a sequel and not a remake. It can still be based on someone else's IP, as 007 First Light is.
+Among the 2026 cohort's hits, 33 were sequels, up from 30 in the 2025 cohort, and 3 were remakes and remasters, down from 4.
+That is less than half of all hits, but they accounted for 55% of first-month sales. So sequels and remakes still sell better per game.
+The number of new IP hits (the first game in a series based on the developer's or publisher's own IP) nearly doubled: 35 in the 2026 cohort (27 of them indie), up from 19 in the 2025 cohort.
+The share of licensed hits didn't change: 20% (15 games, up from 11). Eight of them are sports franchises such as EA SPORTS FC 26 and NBA 2K26. The other seven are based on films, comics, and other brands, including 007 First Light, LEGO Batman: Legacy of the Dark Knight, and STAR WARS Zero Company.
+AAA has relatively few new series. Of its 28 hits, five are new: ARC Raiders, PRAGMATA, SAROS, MARVEL Tōkon: Fighting Souls, and STAR WARS Zero Company. The last two are licensed.
+Which Indie Games Became Hits
+Sensor Tower splits indie hits into three groups. The first is friendslop: inexpensive (mostly $10 or less) co-op and party games to play with friends. The number of these hits grew to 9 in the 2026 cohort, up from 5 a year earlier. They sold 32.3 million copies in their first month (19.2 million a year earlier). Examples include MECCHA CHAMELEON, How to Fish, and RV There Yet?.
+The second group is new indie IP, mostly single-player roguelikes, extraction games, sims, and story games. The 2026 cohort included 18 such hits, up from 7 a year earlier, and their sales grew from 11.2 million to 22.9 million copies. These include Escape from Duckov, Big Walk, and Dispatch.
+The third is indie sequels. The 2026 cohort included 6 indie sequels, up from one a year earlier, and their sales grew from 1.4 million to 14.7 million copies. Notable examples include Slay the Spire 2, Hollow Knight: Silksong, and Vampire Crawlers.
+Of the 20 additional indie hits in the 2026 cohort, only 4 were friendslop games.
+Best-Selling Releases
+Battlefield 6 sold the most copies in its first month (15.3 million). MECCHA CHAMELEON was second (13.3 million), and EA SPORTS FC 26 was third (8.3 million).
+❗️According to the developers, MECCHA CHAMELEON has already sold more than 20 million copies.
+Among indie games, How to Fish (7.9 million copies) and Slay the Spire 2 (5.9 million) follow MECCHA CHAMELEON. Three of the five best-selling indie releases are new IP.
+In AA, Crimson Desert leads (5.4 million copies), followed by Subnautica 2 (5.2 million) and 007 First Light (4 million).
+In AAA, ARC Raiders (8.2 million copies) follows Battlefield 6 and EA SPORTS FC 26. It's the only new IP in the AAA top 5.
+Source
+InvestGame: UA Financing for Mobile Studios in 2026
+InvestGame counts committed UA facility amounts for mobile game studios and apps, not the money actually drawn. Early-stage investment includes grants, seed, Series A, and undisclosed rounds.
+The UA financing market
+In the first three quarters of 2026, mobile studios received $398 million in UA financing. Early-stage investment over the same period totaled $254 million. That puts UA financing at 61% of the combined $652 million.
+❗️It is important to note that InvestGame includes 11 PvX Partners deals worth $232 million with no named studios. Without them, UA financing’s share in 2026 is 39.5%, which means studios still raised more at the early stage.
+In 2025, UA financing accounted for 36.1%. So the share is growing either way; the only question is how fast.
+Early-stage investment, meanwhile, continues to decline. In Q1-Q3’26, mobile studios raised $254 million, compared with $350 million in deals over the same period of 2025. Q2’26 saw the least money, at $44 million.
+Q3’26 saw 10 UA financing deals announced, totaling $108 million. Only Q3’25 had as many deals.
+PvX Partners closed the most UA deals over the last 12 months (through October 23): 18 deals worth $313.5 million. LEUS (5 deals worth $37 million) and Metica (3 deals worth $30 million) follow.
+If a contractor drew it, the answer depends on the contract — and without one, it might not be you. Mellow contracts cover IP rights and NDAs from day one, so every asset belongs to your studio and your project stays confidential. Payments and compliance run in the same flow.
+See how it works →
+How UA financing works
+A studio pays for user acquisition out of the revenue those users generate. Investor money can then go to product and hiring.
+Terms differ by provider. PvX Partners takes a share of the revenue of the cohorts it funds until it reaches a return cap agreed in advance. Plan A Games charges a fixed interest rate on the amount the studio actually draws, plus a success fee if the game reaches a revenue target agreed at the start.
+General Catalyst puts the most money into this model. Through its Customer Value Fund, it provides the capital behind PvX Partners, the most active player on the market, and also invests in the company itself.
+Through the same fund, General Catalyst financed SuperPlay’s user acquisition. SuperPlay CEO Gilad Almog called the product “almost like a secret weapon.” In 2024, Playtika agreed to acquire SuperPlay for $700 million plus up to $1.25 billion in earn-outs.
+Today, General Catalyst deploys mostly through partners. In December 2025, PvX Partners announced more than $250 million in committed facilities for 20 companies (mobile games and apps). By April 2026, the total had grown to $750+ million.
+Israel-based vgames is also active in this space. By December 2025, the company had deployed more than $350 million into UA and marketing financing. Over the next 12 months, vgames plans to deploy another $500 million.
+The model is used outside games, too. For example, US-based AI English-learning app Buddy.ai secured a $15 million facility from Braavo Capital. The company draws money as it acquires users and repays each tranche from its revenue. According to Braavo, it has committed more than $60 million to such facilities in 2026.
+Financing beyond mobile
+Griffin Gaming Partners launched a $100 million fund in May 2026. It finances indie games in exchange for a share of each game’s revenue.
+Denmu (Ryan You and Michael Fan) has secured most of the commitments for a $50 million fund. The fund finances specific games rather than studios and combines project financing with equity. Typical checks are $1-5 million.
+Simon Zhu launched GreaterThan Group, a holding company in which studio leads hold equity in both their studio and the parent company. The holding has raised $40 million, with around $60 million more in commitments.
+Source
+AppMagic: How New Mobile Games Earn Their First Million Dollars in 2026
+AppMagic selected 158 mobile games released between January 1 and October 13, 2026, that had earned more than $1 million in lifetime IAP revenue by October 17. The data are AppMagic estimates for iPhone, iPad, and Google Play worldwide.
+❗️The sample excludes 36 games that earn at least half their revenue in China, since AppMagic can't see local Android stores. Only IAP revenue is counted, without ads.
+NTE: Neverness to Everness earned its first million dollars one day after release. Jelly Busters needed 144 days. Over the last 30 days, though, Jelly Busters earned $5.8 million, and NTE $3.2 million.
+Genres
+The median game in the sample took 75.5 days to earn its first million. Games that reached the milestone faster have generally earned more over their lifetime. AppMagic notes, though, that this is partly because they simply had more time.
+Puzzle games take the longest to earn their first million. The 26 puzzle games in the sample took 126 days (median), and none of them made it within 30 days. Their median lifetime revenue, however, is $4.3 million, the highest among genres with at least five games in the sample.
+You found the right contractor, and they said yes. Now there’s a contract to draft, an NDA to sign, and a cross-border payment to set up. Mellow handles all of it in one flow — contracts with IP and NDA clauses, compliant payments, and every document in one place.
+See how it works →
+For comparison, RPGs (74 games) have a median of 62.5 days to the first million and $2 million in revenue. So puzzle games need roughly twice as long to reach their first million, but end up earning roughly twice as much.
+❗️The methodology matters here, though. Puzzle games in the sample likely had more time on average to accumulate revenue by October 17.
+AppMagic attributes the gap between puzzle games and RPGs to different launch approaches. Puzzle games can spend a long time testing and iterating before scaling, while RPGs (given that most new launches come from Asia) launch almost complete in terms of content and features, and with a big marketing campaign at the start.
+Action (49 days) and Sports games (51 days) earn their first million the fastest. However, the sample includes few games in these genres: five and seven, respectively.
+Merge-2 and Sort Puzzle account for 17 of the 26 puzzle games in the sample and 80% of their revenue. Nine Merge-2 games earned $83.5 million, and eight Sort Puzzle games $77.3 million. In total, puzzle games in the sample earned $200 million.
+Sort Puzzle games need a median of 127.5 days to reach their first million, but their median lifetime revenue is $11.5 million.
+Five puzzle games have already earned more than $10 million, even though reaching the first million took them more than 90 days: Jelly Busters, Hotel Legacy, Bus Traffic Fever!, Cube Land, and Car Sort.
+The sample also includes four Block games ($21.7 million combined) and three Cannonball Puzzle games ($10.3 million combined). Smash Fest!, which can be called the originator of the Cannonball Puzzle genre, only launched this summer, and games with the same core are already earning millions.
+❗️According to AppMagic estimates, Smash Fest! itself has earned ~$8.9 million in IAP revenue, but most of the game's money comes from ads. More on the game and Flow Games, the studio that recently raised $46 million in a round led by Tencent, in the
+InvestGame recap
+.
+IP
+Of the 42 IP-based games in the sample, 20 earned their first million within 30 days (48%). Among the 116 original games, only seven did (6%). AppMagic clarifies that this is the share among games that have already earned a million, not among all releases.
+By the way, AppMagic recently turned 10 years! The company launched a great quiz that (after answering) comes with a great report on our industry in the last 10 years. I’ll cover it in upcoming weeks.
+You can participate in the quiz here
+. And I will share my overwhelmingly bad results for someone who is running such a newsletter… I promise, I’ll do better next time.
+The median IP-based game took 35.5 days to reach its first million dollars in revenue, while the median original-IP game took 83.5 days. The revenue gap is much smaller: the median IP-based game has earned $2.6 million, and the median original game has earned $2 million.
+❗️That said, when looking at the unit economics of such projects, keep in mind that IP-based games typically share a percentage of their revenue with the IP holder.
+In some cases, IP delivers both a fast start and big money. hololive Dreams earned its first million in 15 days and has already earned $46.4 million since its July release.
+22% of hybrid casual games and 21% of midcore games reached a million dollars in revenue within 30 days. For casual games, it was 4%, and none of the hypercasual games (there are five in the sample) reached that mark.
+Geography
+AppMagic grouped games by the region that brings them the most money. Games focused on South Korea earn their first million the fastest (median of 53 days), followed by Japan (60 days), and Taiwan & Hong Kong (73.5 days). For games focused on North America, the median is 89 days.
+Games focused on Japan and Korea usually earn almost all of their revenue in one country. So a broad international presence isn't necessary to reach the first million quickly.
+Revenue of games built for the North American market is more spread out: the median game earns 48% of its money in the region. Of the 60 such games, only two earned their first million within 30 days. Combined, though, these games have earned $455.3 million, more than half the revenue of the entire sample.
+Games focused on North America also have a higher median revenue: $3.5 million, versus $2.9 million for Japan-focused games and $2.3 million for Korea-focused ones.
+The difference may also reflect the genre mix. RPGs make up 69% of games focused on Japan and Korea, while puzzle games account for 38% of North America-focused games.
+What Happens After the First Million
+AppMagic compared how fast games reached a million with their revenue over the last 30 days (September 18 - October 17, 2026). Top Lords leads among the four games: it took 78 days to reach its first million and earned $6.9 million over the last 30 days. According to AppMagic, a slow start doesn't prevent further growth, not only in puzzle games but in 4X strategy games too.
+For example, Family Farm Merge, which needed 214 days to reach its first million, earned $2.4 million over the last 30 days.
+Source
+GameDiscoverCo: October 2026 Steam Next Fest Results
+The report is based on GameDiscoverCo Pro data. GameDiscoverCo estimates new wishlists and peak CCU; unique players come from the list of the top 50 most popular demos published by Valve. To compare with past festivals, GameDiscoverCo uses a game's Steam follower growth.
+Leaders by Player Count
+Many of the leaders by unique players are co-op games for groups of friends (in other words, friendslop). The asymmetric co-op game about school troublemakers, Worst Class Ever, leads (600,000 players). The co-op Fart Together is fourth.
+Many of the festival's leaders were popular before it started. Three weeks earlier, in GameDiscoverCo's demo CCU chart, the sim Probably Stolen was third (now second by players), the anime desktop companion Character House was first (now seventh), and the incremental game Find The Needle was second (now third). GameDiscoverCo suggests that Steam Next Fest amplifies trends that took shape before the festival.
+The right artist for your game rarely lives down the street. Mellow takes distance out of the equation: contracts with IP and NDA clauses, cross-border compliance, and payments, all in one flow. Hire for talent, not for location.
+See how it works →
+But there were new hits too. The gothic gem-cutting sim Abyssal Lapidary released its demo right before the festival and ranked eighth by players. ArcheAge Chronicles also launched its demo closer to the start and climbed to fifth.
+No single genre trend emerged at the festival.
+Probably Stolen (39,787 players), Worst Class Ever (27,827 players), and Character House (17,678 players) led in peak CCU. Making the top 20 took about 1,500 CCU.
+Leaders by New Wishlists
+According to GameDiscoverCo estimates, Probably Stolen (+160,900 wishlists), Abyssal Lapidary (+121,400 wishlists), and ArcheAge Chronicles (+93,200 wishlists) gained the most wishlists during the festival.
+Abyssal Lapidary's wishlists grew 427%, to 149,800. Probably Stolen ended the festival with 638,700 wishlists in total (+34%), and ArcheAge Chronicles with 605,500 (+18%).
+The top 10 by wishlists also includes games from among the leaders by player count. For example, the co-op zombie shooter with procedurally generated maps Mortuus (#7) and the cozy MMO Loftia (#9).
+Brand-new projects also rank in the top. Emberville (#4, +79,200 wishlists) is a Stardew Valley-style pixel game with combat. After the festival, the developers delayed the release to January to incorporate player feedback.
+Fifth is the dark first-person fishing adventure Dreadmoor; eighth is the survival shooter Frostrail, in which players travel by train.
+Most of these projects were drawing audience interest before the festival, so a successful Steam Next Fest demo helps consolidate that success.
+Games ranked 11-30 saw new wishlists growth from 29,500 to 51,300. At the June 2026 Next Fest, the numbers were higher: from 40,000 to 78,000 wishlists.
+The leaders of this group are ReBlade: The Death Spiral (+51,300 wishlists), Unharvest (+51,200 wishlists), and The Wolf Among Us Remastered (+49,300 wishlists).
+Festival Scale and Competition
+The October 2026 Steam Next Fest featured 7,319 demos. That is 67% more than the June festival (4,382 demos) and almost 2.5x more than a year earlier (2,963 demos). GameDiscoverCo had expected just over 5,000 participants.
+❗️In
+the How To Market A Game recap
+, the figure is slightly lower: 7,240 games. Chris Zukowski's data is from October 21; a few more projects were likely added during the festival.
+According to GameDiscoverCo estimates, the median 7-day wishlist gain for festival games is 60, and the average is 779. The median gain for the top 10% of games is 2,756 wishlists.
+The odds of success at the festival have dropped noticeably. Top 10% projects by Steam follower growth gained 63 new followers (by GameDiscoverCo's rough estimate, that is about 1,500 wishlists). Back in June, projects in the same cohort gained 121 followers (-48%), and at the October 2025 festival, 173 (-64%).
+A top 1% game gained 740 new followers, versus 1,330 in June 2026. In February 2024, the figure was 3,449. The median festival game gained just 5 new followers.
+The median wishlist gain for the festival's top 10 games is 80,000. In June 2026, it was 143,000 (-44%). GameDiscoverCo suggests that many developers launch their demos before Next Fest because competition at the festival has become too intense.
+GameDiscoverCo believes Steam Next Fest has become too important for many, partly because Steam promotes it. Breaking into the leaders has become harder. But the chances are still there.
+Source

@@ -1,0 +1,27 @@
+Source  : GameDev Report
+Title   : Playgama: Which AI Agents and Models Make Web Games that People Play | GameDev Reports is powered by Mellow
+Date    : 2026-11-12 16:40 UTC
+Link    : https://gamedevreports.substack.com/p/playgama-which-ai-agents-and-models
+────────────────────────────────────────────────────────────
+
+The AI Game Index ranks AI agents and models by evaluating how people play AI-made web games. The index covers 8,719 games published via Playgama AI (manually or via Playgama MCP straight from the agent) and 2.17 million launches.
+Data as of November 12, 2026.
+Developers name the agent and model themselves when publishing; Playgama doesn’t verify this data. Play time and likes per 1,000 plays are calculated for the median game.
+A game enters the ranking after 20 launches by live players, and an agent or model after 15 such projects.
+AI Agents
+Claude Code made almost half of the games in the index (49%). Codex by OpenAI is second (18%), and the Claude app for web and desktop is third (12%). Together, Anthropic’s tools account for 61% of all games.
+A word from our sponsor
+The right artist for your game rarely lives down the street. Mellow takes distance out of the equation: contracts with IP and NDA clauses, cross-border compliance, and payments, all in one flow. Hire for talent, not for location.
+See how it works →
+However, the share of new games made with Claude Code declined over the last month. Codex is also losing a bit. Games made with the Claude app, on the other hand, are gaining popularity.
+People play games made with Gemini CLI the longest: 4 minutes 29 seconds for the median game. ChatGPT games are played the least (3 minutes 26 seconds).
+By likes, OpenCode leads (64 per 1,000 plays). Games made with WorkBuddy get the fewest likes (32).
+❗️The leaders in play time and likes have very small samples: Gemini CLI accounts for 0.5% of games in the index, and OpenCode for 1.2%.
+Claude Code and Codex have almost identical play time: 4 minutes and 4 minutes 8 seconds. However, people like games made with Codex 1.4 times more often: 57 vs. 42 likes per 1,000 plays.
+Models
+Claude Opus leads among models by a wide margin, with 59% of all games created. Claude Sonnet (9.3%) and OpenAI Sol (8.8%) follow. Together with Claude Fable, Anthropic’s models account for over 70% of games.
+Over the last month, Claude Opus’s share of new games grew, while OpenAI Sol’s declined noticeably.
+How long people play games made with these models barely differs: from 3 minutes 20 seconds for Gemini Flash to 4 minutes 19 seconds for OpenAI Astra. Claude Opus has 4 minutes 5 seconds, and OpenAI Sol has 4 minutes 9 seconds.
+By likes, DeepSeek leads (71 per 1,000 plays), followed by GLM (69) and OpenAI Astra (63). OpenAI Sol has 57, and Claude Opus has 42.
+Source
+To receive new posts and support my work, consider becoming a free or paid subscriber. Paid subscribers have access to the GameDev Reports MCP & a set of additional features.

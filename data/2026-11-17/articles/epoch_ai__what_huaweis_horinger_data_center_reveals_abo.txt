@@ -1,0 +1,68 @@
+Source  : Epoch AI
+Title   : What Huawei’s Horinger data center reveals about China’s compute gap
+Date    : 2026-11-12 16:03 UTC
+Link    : https://epochai.substack.com/p/what-huaweis-horinger-data-center
+────────────────────────────────────────────────────────────
+
+This is a condensed version of a
+longer report
+on our website
+Huawei, China’s biggest AI chip developer, is drawing on China’s
+abundant energy
+to build data centers. However, because of US export controls, it
+lags behind
+its US competitor Nvidia in both chip performance and efficiency.
+As a case study, Huawei’s AI
+data center
+in Horinger, Inner Mongolia is one of the largest data centers in China by AI computing capacity, yet it has less than one-tenth the capacity of the world’s largest AI data center, Colossus 2 in Tennessee. Projected future development suggests it will remain far behind Colossus until at least 2028.
+This post examines the Horinger facility and Huawei’s broader AI infrastructure plans using satellite imagery and public sources, showing how we came to the above conclusions.
+The Horinger campus: up to 286 megawatts of IT power capacity for AI
+The Huawei Horinger campus consists of three zones (West, South, and North) within the Horinger New Area. Satellite imagery shows that villages have been demolished to make way for data centers there.
+While the campus likely serves a diverse set of end users and applications, Huawei documentation indicate it is equipped with “hypernode” servers that are primarily designed for large-model training and inference, which suggests a large portion of the campus is specialized for AI.
+We acquired commercial high-resolution satellite images of these zones to help estimate the power capacity of the buildings. Our primary method is a cooling equipment model: based on the type, size, and number of cooling units visible, we estimate their heat rejection capacity and, in turn, the buildings’ IT power capacity.
+The satellite imagery revealed that each zone contains nearly identical three-story buildings. However, the North zone has far fewer cooling towers than the West and South zones, suggesting that its buildings are unlikely to house powerful AI chips — modern AI servers tend to be more than 10 times as power-dense as the industry average.
+Left: Two data center buildings in the North zone, with three cooling towers and several small air-cooled chillers visible on the rooftop of the bottom-left building, and no discernible cooling equipment on the top-right building. Right: Two data center buildings in the South zone, with many more cooling towers and air-cooled chillers visible on the rooftops. Cooling equipment is outlined in blue. The cooling units at both sites were unchanged for at least 6 months. Image © 2026 Vantor, captured on August 18th.
+Excluding the low-density North zone, we were left with four apparently complete buildings with dense cooling infrastructure: two in the South and two in the West. Our cooling model estimates a total of 286 megawatts (MW) of IT power capacity across these four buildings.
+We’ve observed several clues suggesting the buildings are operational. As a prerequisite, the buildings appear more or less complete from the outside, including cooling, backup generators, and carparks, with no signs of ongoing construction. Second, one satellite image shows what appears to be condensed water vapor above at least one evaporative cooling tower at one building, suggesting the building is operating. Third, multiple cooling tower fans have colored “ghosts” in another image, which indicates that the fans are moving.
+1
+Only one of the four buildings, in the West zone, has yet to show any signs of operation. A public disclosure implies it was complete but not yet operational as of September 2026. We estimate it will become operational by December, while the other three are already up and running.
+Estimating Horinger’s compute
+The physical scale of the Huawei Horinger campus is impressive, but its compute capacity is more important for assessing China’s AI capabilities.
+Based on estimates of when power-intensive buildings at this site became operational, we used
+Huawei chip sales
+over time to estimate the chips that would fill those racks, assuming a four-month lag from sale to deployment.This resulted in a mix of Ascend 910C and 910B chips in the first building (mostly 910C), and 100% 910C in the other three buildings. Given that one building is not operational yet,
+we find that about 105,000 Ascend 910C chips and 8,000 Ascend 910B chips are operational to date.
+To compare Chinese and US chips, a common baseline is in “H100-equivalents” (H100e), comparing performance to the output of one H100 chip. Disclosures from Huawei point to the 910C performing at around 0.76 H100e. Meanwhile, Nvidia’s B200 and B300 chips perform at about 2.5 H100e.
+So, the estimate of operational Ascend chips corresponds to 81,000 H100-equivalents (90% CI: 36,000 to 141,000).
+Full calculations are available in this
+spreadsheet
+.
+We believe this estimate is plausible given what we know about total chip production and deployments at other data centers. According to the
+chip sales estimates
+, 907,000 Ascend 910C and 600,000 Ascend 910B chips had been sold by the end of March 2026. Satellite imagery indicates that the third AI building at Horinger was operational by August 2026. With a four-month lag between sale and deployment, our estimate suggests Huawei Horinger had used 11% of the total 910C stock by August.
+Horinger has 7% as much AI compute as the global frontrunner
+At 81,000 H100-equivalents, Huawei Horinger is a large AI data center by today’s standards, and probably one of the largest in China. We have done a broad search of Chinese AI data centers across major hubs, and reviewed several top contenders in depth. Of those, only
+VNET Bayin Ulanqab
+and
+Huawei Wuhu
+are likely to match or slightly exceed Huawei Horinger.
+However, Huawei Horinger is much further from the largest AI data center in the world. That title goes to SpaceX’s Colossus 2 in Tennessee. Colossus 2 has about 14 times as much computing capacity  as Huawei Horinger.
+The AI compute in a data center campus is often separated into multiple densely-networked clusters, and the total capacity cannot necessarily be combined to train one AI model. However, large R&D experiments could be run even if the compute at Huawei Horinger is split into many clusters. Just 10% of Huawei Horinger’s estimated AI compute, at 8,100 H100e, is enough to train a DeepSeek-V4-Pro scale model in one month. In a very optimistic scenario, if all of Huawei Horinger’s current compute was combined for a single training run, a model the scale of GPT-6 Astra would take one year to train.
+Next phase: 70% more computing power by early 2028
+The buildout at Huawei Horinger is far from complete. As discussed above, one of the four buildings has yet to become operational, and at least three new buildings are planned beyond the six already built, based on renderings and construction sites seen in satellite imagery.
+One of these new buildings is already underway in the South zone, and based on the pace of construction, we expect it to be operational in February 2028. Assuming the new building is as AI-focused as the existing buildings, the campus could grow its total AI compute by over 70% by early 2028.
+A data center under construction at the Huawei Horinger campus, South zone (Image © 2026 Vantor, captured on August 18th).
+With over 70% more computing power by the start of 2028, Huawei Horinger would reach about 141,000 H100e (90% CI: 65,000 to 227,000). But this would still leave it at about the same share, or a smaller one, of Colossus 2’s capacity, which we expect to reach at least 1.8 million H100e by 2028. This does not necessarily mean the overall frontier of Chinese data centers will fall further behind. For instance, Huawei’s sister campus in Wuhu will grow slightly faster, reaching a projected 151,000 H100e by December 2027.
+What this means for Chinese AI
+China appears to have
+abundant energy
+for data centers. Many AI-optimized facilities are being built with hundreds of megawatts of capacity and filled with domestically-produced chips. However, AI data centers in the US support 2.5 times more AI compute per unit of power, and the largest among them have already reached 1,000 MW. The Huawei Horinger data center is a key example of this gap, with just 7% of the computing capacity of Colossus 2 in Tennessee. This makes it even more impressive that China has produced such
+capable
+AI models in the past two years. But China’s compute constraints are
+unlikely
+to ease in the next two years, which suggests that their AI capabilities and deployment capacity will continue to lag behind those of the US.
+Thanks for reading! Subscribe for free to receive new posts.
+1
+The
+principle
+is that fans sometimes reflect glare into the satellite image sensor, and the sensor captures red, green, and blue wavelengths at slightly different points in time. When a fan is moving, the glare can occur precisely when only one of these wavelengths is captured, making the glare appear in one bright color.

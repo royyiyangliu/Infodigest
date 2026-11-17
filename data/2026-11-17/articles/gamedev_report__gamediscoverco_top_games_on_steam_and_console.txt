@@ -1,0 +1,55 @@
+Source  : GameDev Report
+Title   : GameDiscoverCo: Top Games on Steam and Consoles in October 2026 | GameDev Reports is powered by Mellow
+Date    : 2026-11-16 13:40 UTC
+Link    : https://gamedevreports.substack.com/p/gamediscoverco-top-games-on-steam-d3b
+────────────────────────────────────────────────────────────
+
+Data from GameDiscoverCo Pro
+. The unit charts include both direct Steam sales and keys sold outside the platform. The revenue charts include only direct Steam sales, and all revenue is gross (before platform fees and taxes).
+Top 10 new Steam releases by copies sold
+Phantom Blade Zero by S-GAME is October's biggest hit by a wide margin. The wuxia action RPG launched at the very end of the month, and by October 31, it had sold 3.51 million copies on Steam. It now has around 5 million copies on Steam, including a large number of keys sold outside the platform.
+A word from our sponsor
+The right artist for your game rarely lives down the street. Mellow takes distance out of the equation: contracts with IP and NDA clauses, cross-border compliance, and payments, all in one flow. Hire for talent, not for location.
+See how it works →
+Phantom Blade Zero is first and foremost a Chinese hit. According to GameDiscoverCo estimates, 86% of its Steam buyers are from China and Hong Kong. For Black Myth: Wukong, that share was ~73%.
+❗️According to the developers, Phantom Blade Zero sold over 4 million copies across all platforms in the first 72 hours after launch. Its peak CCU on Steam reached almost 834,000, the 14th-highest result in the platform's history (
+digest
+).
+Call of Duty: Modern Warfare 4 sold 1.74 million copies on Steam alone. The series is back in form after several disappointing releases.
+Ace Combat 8: Wings Of Theve sold 517k copies, and its launch peak CCU topped 50k. GameDiscoverCo notes that the arcade flight sim has almost no competitors in its niche.
+Among indie games, Moon Sweepers sold the most copies: 763k. It is a viral co-op game about cleaning on the Moon, priced at ~$7.50 at launch.
+Scam With Your Friends (658k copies) is another hit of the month. Players use voice chat to scam AI characters from a call center. Streamers picked it up actively, but its CCU has already dropped.
+Cyberpunk shopkeeper sim Probably Stolen sold 542k copies. The game led
+the October Steam Next Fest
+in new wishlists.
+❗️According to the latest data, the game has already sold over 750k copies.
+Budget multiplayer shooter Hood Warfare 2 sold 491k copies in October. It is a game about gang wars in Chicago, and players are actively discussing its use of AI (it looks like the developers relied on AI heavily).
+Top 10 new Steam releases by revenue
+Phantom Blade Zero earned $119.87 million. GameDiscoverCo suggests revenue would be about 30% higher with off-Steam key sales included.
+Call of Duty: Modern Warfare 4 is second ($98.38 million), and Ace Combat 8: Wings Of Theve is third ($28.86 million).
+Several full-price games made the Top 10. Gears of War: E-Day earned $19.68 million (~250k copies sold), Planet Zoo 2 $17.56 million (338k copies), and Star Wars: Galactic Racer $17.24 million (356k copies).
+In October, eight new releases cleared $10 million.
+In September
+, seven did.
+Top 10 Steam games by revenue (all games)
+New releases Phantom Blade Zero and Call of Duty: Modern Warfare 4 took the top two spots. Dota 2 is third ($94.46 million), ahead of Counter-Strike 2 ($72.67 million, #5).
+Counter-Strike 2's revenue has declined for the second month in a row. It earned $96.88 million in September and $131.2 million in August.
+F2P MMO Aion 2 by NCSoft is fourth by revenue ($86.47 million). From the start of pre-orders to the end of October, GameDiscoverCo estimates the game earned ~$95 million, and over $110 million as of publication. The game is popular well beyond Asia.
+Top 11-30 on Steam by revenue
+September's biggest hit, Wardogs, dropped to #12 with $12.91 million in October. Compared to September, its revenue fell almost 10x: in its launch month, the game earned $108.12 million.
+Co-op game The Outlast Trials earned $10.58 million (#18). It was 90% off in the Steam Autumn Sale, and its peak CCU rose to 150k.
+Risk of Rain 2 ($10.17 million, #19) climbed the chart thanks to a new $15 DLC. GameDiscoverCo counts base game and DLC revenue together.
+Console sales
+Call of Duty: Modern Warfare 4 sold 5.35 million copies on PlayStation and 2.73 million on Xbox. However, GameDiscoverCo admits that its console sales are hard to estimate precisely: on consoles, the game is part of the Call of Duty HQ app.
+Driving and crash sim BeamNG.drive sold 1.23 million copies on PS5.
+Phantom Blade Zero has 1.12 million copies on PS5. According to GameDiscoverCo estimates, at least 65% of those sales come from China, through the so-called gray market.
+Star Wars: Galactic Racer sold 181k copies on PlayStation and 77k on Xbox. Including Steam, the game sold around 600k copies in October.
+Gears of War: E-Day sold 183k copies on Xbox. In total, 3.5 million people played it on Xbox, including Game Pass. GameDiscoverCo notes again, though, that separating paying players from subscribers is difficult, so these numbers have a margin of error.
+In the Western eShop (based on US and UK charts), October's biggest new release is Nintendo Switch Sports Resort. It has over 300k eShop players, and the number is still growing.
+Kingdom Hearts Collection (over 175k copies), Castlevania: Belmont's Curse (~100k copies), and Final Fantasy Resonance (over 70k copies) are also selling well.
+Twitch
+Among October's new releases, Phantom Blade Zero was the most-watched with 5.45 million hours. Clive Barker's Hellraiser: Revival (4.88 million hours) and Gears of War: E-Day (3.2 million hours) are next.
+In September, the top new release on Twitch, Wardogs, pulled 42.11 million hours. In October, no new game reached even 6 million.
+Valor Mortis (2.53 million hours) and horror Metroidvania Silver Pines (1.67 million hours) also performed well; the latter has an Overwhelmingly Positive rating on Steam.
+Source
+To receive new posts and support my work, consider becoming a free or paid subscriber. Paid subscribers have access to the GameDev Reports MCP & a set of additional features.

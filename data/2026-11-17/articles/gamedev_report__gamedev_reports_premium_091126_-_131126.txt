@@ -1,0 +1,22 @@
+Source  : GameDev Report
+Title   : GameDev Reports Premium (09.11.26 - 13.11.26)
+Date    : 2026-11-14 09:01 UTC
+Link    : https://gamedevreports.substack.com/p/gamedev-reports-premium-091126-131126
+────────────────────────────────────────────────────────────
+
+Hey! The day is coming! In less than a week, we’ll finally see what Rockstar has been cooking up all these years. Let’s quickly check the temperature!
+I’m all in - booked days off (first time in my life for the game release), bought everything, and sacrificed BF6 to install GTA VI on my PS5.
+The EU is coming for F2P monetization
+On November 11, the European Commission
+presented its proposal for the Digital Fairness Act
+. For games, it means showing purchase prices in real money, adding an option to turn off addictive design (like persistent prompts), and banning “gambling-like features for minors, such as pay-to-win and pay-to-progress.” The draft also covers loot box odds and switches paid items and currencies off for minors by default.
+Fines for non-compliance can potentially reach 6% of worldwide annual turnover.
+It’s not a law yet!
+Here's how the process will look:
+The European Parliament (most likely its consumer protection committee, IMCO) will appoint a rapporteur, draft a report, and vote on amendments, while the 27 member states agree on their own position in the Council.
+Then all three institutions sit down for closed-door negotiations (trilogues) to agree on a final text, and that’s where most of the conversation will happen.
+Once Parliament and Council formally adopt it, the law is published, and companies usually get a transition period before the rules kick in.
+There’s no official timeline yet, but EU laws of this size typically take a
+couple of years
+to pass. The proposal will almost certainly change on the way. Still, Parliament has historically been the more consumer-protective of the EU institutions, so the DFA getting much softer is unlikely.
+Read more

@@ -1,0 +1,122 @@
+Source  : Epoch AI
+Title   : The Epoch Brief - November 11, 2026
+Date    : 2026-11-11 17:18 UTC
+Link    : https://epochai.substack.com/p/the-epoch-brief-november-11-2026
+────────────────────────────────────────────────────────────
+
+Welcome to the Epoch Brief. Here’s what we’ve been working on:
+An open-weight AI model autonomously hacked six Firefox versions for ~$1,000 each.
+In our
+controlled test
+, GLM 5.3 built working exploits for a browser with over 200 million users by reverse-engineering attacks from patches that hadn’t reached users yet.
+Claude Fable 5.2 set a new record on our Epoch Capabilities Index
+. It
+scored
+174, above what the pre-Astra trend for reasoning models would have predicted.
+New AI computing capacity is doubling every 9 months.
+Quarterly additions
+have grown about 2.5× per year since 2024, helped by Broadcom doubling its
+TPU compute shipments
+in one quarter.
+Where compute ends up, country by country
+. Our new
+AI Chip Imports explorer
+shows 72% of global compute has landed in the US since 2022, and about 10% in China. In a separate report, we show how that imbalance plays out at one of
+China’s largest data centers
+.
+Biologists now acknowledge using LLMs almost as much as specialized AI tools like AlphaFold.
+LLMs are
+widely used
+for literature review, writing, coding, and other tasks.
+A better way to measure inference capacity.
+Improvements in inference performance can be much larger than raw compute speed (FLOP/s) suggests. We built the
+Inference Performance Index
+to better capture chip-to-chip differences.
+Subscribe now
+Open-weight models’ cyber capabilities are turning a well-known software weakness into a major liability
+Software developers regularly publish security fixes. But before those fixes reach users, an AI model can use them to build attacks. This “patch gap” is a known weakness in software release practices. But exploiting it previously required significant time and expertise, or special access to frontier models with advanced cyber capabilities. In
+new experiments
+, Epoch researchers show that a widely available open-weight model can now carry out serious patch-gap attacks.
+In our offline sandbox experiments, GLM 5.3 compromised six of the most recent versions of Firefox, a browser with over 200 million active users, for about $1,000 each. The model built webpages that, when a Firefox user visited them, could read files from the visitor’s computer and send them to the attacker. It did so without human input.
+While we couldn’t replicate this with Chrome, better prompting or a stronger model could change that.
+Patch gaps exist widely across software, from other browsers to phone operating systems and router firmware. We see our results as evidence of the diffusion of advanced cyber capabilities, and we expect patch-gap attacks to increase as more capable open-weight models are released.
+Claude Fable 5.2 set a new capabilities record
+At Epoch, we measure models’ capabilities using the
+Epoch Capabilities Index
+(ECI). It’s a combined score that integrates results from many different benchmarks, letting us compare models on a single “general capability” scale.
+Anthropic released Claude Fable 5.2 on November 9th, setting a new ECI record with
+a score of 174
+. The previous high was GPT-6 Astra’s 169.
+This jump in score is notable. Over time, scores have risen with each new model generation. But since AI labs added a reasoning feature to models back in late 2024,
+the rate of improvement has increased
+.
+And Fable 5.2 is above what that trend would have predicted.
+There has been a lot of recent discussion about AI contributions to AI R&D. These contributions could accelerate progress, but Fable’s score is just one data point.
+An upgrade to how we score models
+Researcher Emilia Álvarez and head of capabilities tracking Alexander Barry just updated
+how we calculate ECI scores
+from a frequentist methodology to a Bayesian one. This gives us better-justified ranges for each model’s score and lets us say how likely one model is to beat another.
+For example, we can now say Astra has a 72% probability of being more capable than Claude Opus 5.5, but a 99% probability of being more capable than Claude Fable 5.1. This direct, probabilistic comparison wasn’t possible with our old model.
+The new methodology hasn’t notably changed any frontier model’s ECI scores. Scores moved only about 1 ECI point on average for models stronger than OpenAI’s GPT-4 (released in early 2023).
+Measuring growth in the global compute supply
+New global AI computing capacity is doubling every 9 months. Quarterly additions of computing capacity have
+grown about 2.5×
+per year since 2024, according to researchers Isabel Juniewicz and Josh You. That’s down from the roughly 6× annual surge in 2023. While some evidence suggests further deceleration in growth over this period, it’s not statistically significant and may reflect a lull between chip generations.
+One contributor to recent global compute growth is Broadcom, which produces Google’s custom AI chips (TPUs). Broadcom
+doubled its TPU compute
+shipments from its second to third fiscal quarters of 2026, reaching nearly 2 million H100-equivalents, according to researchers Venkat Somala and Josh You. In the previous three quarters, shipments grew between 2% and 22% per quarter.
+Much of Broadcom’s increase in shipped compute came from chip volume: Broadcom shipped 65% more chips, or roughly 800,000 in total. The rest came from a shift toward newer, more powerful chips, mainly the TPU v7. The shipments went to both Google and Anthropic. For context, our chip sales data shows Google’s TPUs made up about a quarter of
+all AI compute shipped
+worldwide from April to June.
+Knowing where chips end up
+The
+AI Chip Imports explorer
+is our latest interactive tool for understanding the global flow of chips. It uses trade data to estimate how much AI computing power has arrived in 16 countries, by quarter, since 2022. In an initial
+write-up
+of the research, Lucio Melito and Isabel Juniewicz find the US received 72% of the 27.4 million H100-equivalent units of AI compute delivered through June 2026. China is second at 10%, followed by the EU at 5% and Malaysia at 2%.
+It’s important to differentiate between shares of
+compute
+and shares of
+chips
+. China has a comparatively larger share of the global chip supply (18%), indicating that many of its chips are lower-performance. Chips that comply with US export controls and domestic chips account for about 40% of China’s total.
+Senior researcher Ben Cottier’s
+case study of Huawei’s AI data center
+in Horinger, Inner Mongolia, shows China’s chip performance constraints. With up to 286 megawatts of IT power capacity across its four AI buildings, the campus is probably one of China’s largest AI data centers. But we estimate it holds roughly 7% of the computing capacity of SpaceX’s Colossus 2 in Tennessee, the world’s largest AI data center.
+China has ample energy for data centers, but US facilities support 2.5× more AI compute per unit of power, and the largest have already reached 1,000 MW. Horinger is expected to add more than 70% more computing power by early 2028, reaching about 141,000 H100e. That would still leave it at roughly the same share of Colossus 2, which we expect to pass 1.8 million H100e.
+This case study draws on our
+broader AI data centers work
+, which uses high-resolution satellite imagery, permits, and our understanding of how data centers are built to estimate the power, compute capacity, and cost of the world’s data centers.
+Share
+How scientists are using AI
+Our latest finding from researcher Tara Abrishami shows that
+LLM use is now acknowledged almost as often as specialized AI tools in biology preprints
+. Some 17% of biology preprints now acknowledge LLM use, nearly matching the 19% that acknowledge specialized AI tools like AlphaFold. About 4% of biology preprints in September 2026 acknowledged LLM use specifically for research or analysis, which is up from about 1% at the start of the year.
+This finding complements our analysis of
+math arXiv preprints
+, which shows acknowledgments of AI use growing from ~4% in April to 48% by October.
+Newer AI chips are far better at inference than FLOP/s suggests
+In
+Inference Performance Index: changing the way we measure inference capacity
+, researcher Jason Li answers the question of how many users or agents a chip can serve.
+Historically, we’ve used FLOP/s to estimate capacity, but he estimates that the Nvidia GB300 provides about 25× the inference capacity of an H100 per chip on agentic workloads, despite having only 2.5× the 8-bit FLOP per second. The new Inference Performance Index (IPI) instead compares how many requests each chip can serve at once across a range of speeds. This captures the differences resulting from inter-chip communication and memory.
+Scoring against the GB300, we find that newer chips have up to 72× higher inference capacity than the Nvidia H100.
+The index provides a common unit for estimating a data center’s total inference capacity, or even the world’s.
+Careers
+Epoch is growing quickly, and we need exceptional people to help us scale our impact. We recently added a Talent Acquisition Coordinator role. Current openings:
+Researcher / Senior Researcher
+: improve society’s understanding of AI capabilities and their trajectories.
+Designer / Senior Designer
+: turn complex AI research into dashboards and data visualizations.
+Design Lead / Head of Design
+: lead UI/UX and data visualization, manage our design team.
+Product Manager, Website
+: decide what gets built on the platform where audiences meet our research.
+Talent Acquisition Coordinator
+: keep our hiring accurate, organized, and responsive as we grow.
+Software Engineer, Cybersecurity Benchmarks
+: measure how capable frontier AI models are at cybersecurity, and keep those measurements safe to run.
+Not seeing a fit? Submit a general
+Expression of Interest
+. Applications are rolling, so apply soon!
+Thanks for reading! Subscribe for free to receive new posts.
+Subscribe now

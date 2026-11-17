@@ -1,0 +1,14 @@
+Source  : GameDev Report
+Title   : GameDev Reports Premium (02.11.26 - 06.11.26)
+Date    : 2026-11-07 10:31 UTC
+Link    : https://gamedevreports.substack.com/p/gamedev-reports-premium-021126-061126
+────────────────────────────────────────────────────────────
+
+Hey guys! It’s been a busy-busy week, huh? A lot of public reports have been released, and The Legend of Zelda: Ocarina of Time remake is a massive hit. I need to confess - I spent a very small amount of time playing Zelda, as I’m getting a bit lost in the game, and I’m a bit afraid of titles that can make me spend hundreds of hours (I’m now finishing the first Octopath Traveler, and it’s a long journey).
+Unity started making money
+Unity posted its first net income since its IPO, as its Vector ad network grew 126% YoY
+. Net income was $122M (vs. a $127M loss a year ago), and revenue grew 32% to $622M. That’s been a long road, and it seems that Unity is doing well under the new management.
+Almost three-quarters of revenue ($457M, +44%) now comes from ads, while the engine business grew 8% to $165M. So, basically, Unity is increasingly an ad company that also makes an engine.
+I think that's a good sign for the mobile market. Unity expects its strategic ads revenue to double YoY next quarter, and it has just partnered with PvX to finance UA for mobile studios. Whatever people say about mobile, money keeps flowing into UA.
+PlayStation & Nintendo reported good quarter
+Read more

@@ -1,0 +1,39 @@
+Source  : GameDev Report
+Title   : Xsolla: Mobile Game Web Shops in 2026 | GameDev Reports is powered by Mellow
+Date    : 2026-11-13 08:30 UTC
+Link    : https://gamedevreports.substack.com/p/xsolla-mobile-game-web-shops-in-2026
+────────────────────────────────────────────────────────────
+
+Xsolla analyzed data from 756 mobile game web shops for January-June 2026. The report's market numbers come from Sensor Tower, Moloco, and public company filings.
+What's Driving D2C Growth
+After Apple made ad tracking opt-in in April 2021, the cost per install for midcore games on iOS rose 78% by 2024: from $2.71 to $4.83, according to Moloco and Z2A Digital.
+According to Sensor Tower, mobile games' IAP revenue grew only 0.2% in 2025. And in September 2025, non-gaming apps out-earned games on in-app purchases for the first time.
+❗️In its January
+State of Mobile report
+, Sensor Tower estimated mobile games' IAP revenue growth in 2025 at 1.3% (to $81.75 billion).
+At the same time, mobile games' revenue through direct and alternative payments in North and South America grew 26% in 2025. For the top 100 games, growth was even higher: 38%. These are also Sensor Tower estimates.
+If a contractor drew it, the answer depends on the contract — and without one, it might not be you. Mellow contracts cover IP rights and NDAs from day one, so every asset belongs to your studio and your project stays confidential. Payments and compliance run in the same flow.
+See how it works →
+Public companies increasingly disclose their D2C share in their earnings. Stillfront earns 39% of its revenue directly, and Playtika 27%, with a target of 40%.
+Web Shops
+Xsolla measures web shop performance through capture rate: the web shop's share of all player spend on a game (app stores and the web shop combined).
+More than $1 billion went through Xsolla web shops in H1'26.
+For the best web shops in each genre, D2C accounts for more than half of all player spend. The leaders are social casino (64.8%), simulation (62.8%), and RPG (61.7%). Xsolla notes that studios of any size, from indies to large publishers, can reach these numbers.
+Xsolla calculated how individual web shop features relate to capture rate (342 projects). The standouts are Number Limits (limits on the number of purchases; capture rate increases 2.2x), upsell (2.13x), and time-limited offers (1.82x).
+That said, only 4% of web shops use upsell mechanics. For comparison, 60% use purchase limits, and 45% use time-limited offers. Xsolla says the feature is seen as too labor-intensive.
+❗️It's important to note that this is a correlation: Xsolla compares the median capture rate of projects with and without a feature. These features may be adopted more often by teams whose web shops already perform well.
+In H1'26, 4.87 million players made their first purchase in Xsolla web shops. 69.3% came back and bought at least one more time.
+Repeat buyers account for 97.8% of web shop revenue, just under $1 billion. Their LTV is on average 20x higher than that of one-time buyers.
+Retention features work differently. Referral programs lift both sales and DAU. Loyalty programs increase per-user spend and average order value. Daily rewards, on the other hand, more than double the number of active players but don't directly affect sales.
+Social casino has the highest ARPPU in web shops ($204.70). Players in this genre buy less often, but their average order value is higher than in other genres. Strategy and action games have roughly half the ARPPU. RPGs, according to Xsolla, earn through frequent repeat purchases with small order values.
+Xsolla also highlights the Buy Button, a purchase button right inside the game (where platform rules allow it). The data covers two projects. 81.1% and 76.3% of Buy Button payers are new payers. 25.5% and 36% of them later also buy directly in the web shop. These players make about six purchases on average across the two channels.
+Of the 200+ projects with three years of data, roughly a quarter increased both sales and capture rate every year from 2024 to 2026. For example, one social casino title grew its web shop share from 4% in 2024 to 36% in 2026.
+These projects added new features twice as fast as others. They started with catalog management, then promoted the web shop, then added conversion tools, and finally fine-tuned retention.
+In a typical web shop, 5% of items generate about half of revenue. So a large catalog is often unnecessary.
+Projects actively operating worldwide effectively live with two price levels: around $8 in Tier-1 markets and around $4 in emerging ones.
+Regulation
+Regulatory data is current as of July 2026.
+There is no single platform fee anymore. It's fragmented, depends on many factors, and includes, among other things, payment processing costs.
+In Xsolla's view, if a country has passed a law, market practices can be considered stable, and businesses can adapt their decisions accordingly. If litigation is still ongoing (as in the US), you need to be ready for serious changes.
+Source
+To receive new posts and support my work, consider becoming a free or paid subscriber. Paid subscribers have access to the GameDev Reports MCP & a set of additional features.

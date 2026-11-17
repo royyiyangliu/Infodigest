@@ -1,0 +1,37 @@
+Source  : GameDev Report
+Title   : GameDiscoverCo: AI and Game Engines at the October 2026 Steam Next Fest | GameDev Reports is powered by Mellow
+Date    : 2026-11-10 12:40 UTC
+Link    : https://gamedevreports.substack.com/p/gamediscoverco-ai-and-game-engines
+────────────────────────────────────────────────────────────
+
+GameDiscoverCo collected AI disclosures from demo pages at the October 2026 Steam Next Fest and categorized them with Claude. GameDiscoverCo identified game engines in the files of almost every demo at the festival.
+AI Use Disclosures
+The October 2026 Steam Next Fest had over 7,000 demos. That's 40% more than GameDiscoverCo expected based on previous festivals (around 5,000).
+If a contractor drew it, the answer depends on the contract — and without one, it might not be you. Mellow contracts cover IP rights and NDAs from day one, so every asset belongs to your studio and your project stays confidential. Payments and compliance run in the same flow.
+See how it works →
+2,517 demos (34.4%) disclosed AI use on their Steam pages. At the February 2026 festival, 750 (21.2%) disclosed AI use; in June, 1,163 (26.5%).
+❗️In
+the How To Market A Game recap
+, the numbers are slightly different: 2,502 games (34.6%), with art and visuals accounting for 75.7% of disclosures. The difference comes from Chris Zukowski's data being from October 21 and a different AI disclosure methodology.
+69.8% of AI disclosures relate to visuals and graphics. However, GameDiscoverCo notes that in most cases, these are in-game or store page icons rather than all of the game's art. Next come translation and localization (28.4%), followed by marketing and the store page (26.2%).
+Only 1% of these projects reported live AI content generation during gameplay.
+The more popular a demo, the less often developers disclose AI use. Or, from another angle, demos without AI are more popular for now. Among games with peak CCU under 10 (including games without data), 36.4% disclosed AI; with CCU of 10-99, 25.6%; and with CCU over 100, 20.3% (52 of 256 games). Most of those 52 games use AI for secondary elements.
+❗️Valve only requires disclosure of AI content. AI coding assistants don't need to be disclosed. The data also doesn't include games that used AI but didn't disclose it.
+Game Engines
+Unity is still first (45.9%), but its share is declining: it was 52.2% at the February festival. Unreal dropped to third: 12.3% vs. 17.9% in February.
+Godot (second) grew faster than GameDiscoverCo expected: from 12.6% in June to 17.4% in October. Formally, unknown engines took second place, but I don't think it's right to count them, since they cover a whole family of different technical solutions.
+The share of games whose engine couldn't be detected jumped from 12.9% to 17.7%. In 2025 and at the two previous festivals, this figure barely changed. Members of the GameDiscoverCo Pro Discord suggest that many vibe-coded games use frameworks like Three.js, which GameDiscoverCo's tools don't detect. And Godot is popular with vibe coders because it's open-source and even has an MCP interface.
+Among the festival's top 100 games by peak CCU, Unity accounts for 53% and Unreal for 28%. Only 7% have an undetected engine, and 6% use Godot.
+The lower a game ranks by CCU, the higher the share of Godot and unknown engines. In the top 1,000, unknown engines account for 14%, and Godot for 12%.
+GameDiscoverCo manually reviewed games on unknown engines with a peak CCU of 1. Most are 2D bullet heaven, bullet hell, and puzzle games. Godot games cover a wider range of genres.
+GameDiscoverCo's Takeaways
+GameDiscoverCo believes AI lowers the entry barrier even further in some genres. A basic Steam Next Fest demo can probably be made almost entirely with prompts.
+Most of these games won't compete with other projects, and they won't reach the top of Steam Next Fest anytime soon.
+GameDiscoverCo sees the real threat in experienced solo developers and small teams who release good games quickly. According to GameDiscoverCo, successful projects will increasingly use AI assistants.
+That said, GameDiscoverCo points out that even without vibe-coded games, the festival would have had over 5,000 projects.
+Steam releases will keep rising sharply. In September 2026, 2,875 games launched on Steam (+76% YoY); in October, 3,114 had launched as of the original article's publication on October 30 (+53% YoY).
+If these rates hold, around 35,000 games will launch on Steam in 2027. In 2025, 21,000 games launched; in 2026, 23,000 as of the end of October. For comparison,
+Chris Zukowski
+forecasts 29,300 Steam releases for full-year 2026.
+Source
+To receive new posts and support my work, consider becoming a free or paid subscriber. Paid subscribers have access to the GameDev Reports MCP & a set of additional features.

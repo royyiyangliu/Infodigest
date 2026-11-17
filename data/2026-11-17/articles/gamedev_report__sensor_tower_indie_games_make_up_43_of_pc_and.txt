@@ -1,0 +1,47 @@
+Source  : GameDev Report
+Title   : Sensor Tower: Indie Games Make Up 43% of PC and Console Hits in 2026 | GameDev Reports is powered by Mellow
+Date    : 2026-11-04 08:30 UTC
+Link    : https://gamedevreports.substack.com/p/sensor-tower-indie-games-make-up
+────────────────────────────────────────────────────────────
+
+Sensor Tower counted premium games that sold more than 500,000 copies on PlayStation, Steam, and Xbox in their first 30 days after release. The analysts compared releases from September 2025 to August 2026 with releases from the same period a year earlier. The report
+excludes
+Switch, the Epic Games Store and other PC stores, mobile platforms, F2P games, and subscriptions.
+Sensor Tower manually assigned publishers to classes. AAA covers major companies such as EA, Ubisoft, Take-Two, Sony, Microsoft, and Capcom, along with their studios. AA covers mid-size publishers, larger studios that publish their own games, and budget titles from major companies. Indie covers small studios and indie labels. Corner cases were picked manually: ARC Raiders was classified as AAA, while Clair Obscur: Expedition 33 and REMATCH were classified as AA.
+The 2026 cohort includes games released
+from September 2025 to August 2026
+. The 2025 cohort, accordingly, includes games released
+from
+September 2024 to August 2025
+.
+The Number of Hits
+Over the year, the number of games that sold more than 500,000 copies in their first month grew from 55 to 76. Together, they sold 182.4 million copies in their first 30 days (+51% YoY).
+The number of indie hits grew 2.5x: 33 games, up from 13. Indie now accounts for 43% of all hits, up from 24% a year earlier.
+AA had 15 hits in the 2026 cohort (the same as a year earlier), and AAA had 28, up from 27. So 20 of the 21 additional hits came from indie studios.
+❗️Call of Duty: Black Ops 6 and Black Ops 7 are not included. Both games sit inside one shared launcher, so Sensor Tower can't separate their sales. With them, the AAA numbers would be higher.
+Indie hits in the 2026 cohort sold 69.9 million copies in their first month, up 119% from a year earlier. Indies' share of sales grew from 26% to 38%.
+Sales of AAA hits grew too, to 87.8 million copies (+38% YoY), but their share fell from 53% to 48%.
+AA hits, meanwhile, sold about as many copies as a year earlier (24.8 million). Their share dropped from 21% to 14%.
+The right artist for your game rarely lives down the street. Mellow takes distance out of the equation: contracts with IP and NDA clauses, cross-border compliance, and payments, all in one flow. Hire for talent, not for location.
+See how it works →
+New Series and New IP
+More than half of the hits (40 games, 53%) were the first games in new series, up from 21 (38%) a year earlier.
+❗️In Sensor Tower's classification, a new series is the first game in a potential series: not a sequel and not a remake. It can still be based on someone else's IP, as 007 First Light is.
+Among the 2026 cohort's hits, 33 were sequels, up from 30 in the 2025 cohort, and 3 were remakes and remasters, down from 4.
+That is less than half of all hits, but they accounted for 55% of first-month sales. So sequels and remakes still sell better per game.
+The number of new IP hits (the first game in a series based on the developer's or publisher's own IP) nearly doubled: 35 in the 2026 cohort (27 of them indie), up from 19 in the 2025 cohort.
+The share of licensed hits didn't change: 20% (15 games, up from 11). Eight of them are sports franchises such as EA SPORTS FC 26 and NBA 2K26. The other seven are based on films, comics, and other brands, including 007 First Light, LEGO Batman: Legacy of the Dark Knight, and STAR WARS Zero Company.
+AAA has relatively few new series. Of its 28 hits, five are new: ARC Raiders, PRAGMATA, SAROS, MARVEL Tōkon: Fighting Souls, and STAR WARS Zero Company. The last two are licensed.
+Which Indie Games Became Hits
+Sensor Tower splits indie hits into three groups. The first is friendslop: inexpensive (mostly $10 or less) co-op and party games to play with friends. The number of these hits grew to 9 in the 2026 cohort, up from 5 a year earlier. They sold 32.3 million copies in their first month (19.2 million a year earlier). Examples include MECCHA CHAMELEON, How to Fish, and RV There Yet?.
+The second group is new indie IP, mostly single-player roguelikes, extraction games, sims, and story games. The 2026 cohort included 18 such hits, up from 7 a year earlier, and their sales grew from 11.2 million to 22.9 million copies. These include Escape from Duckov, Big Walk, and Dispatch.
+The third is indie sequels. The 2026 cohort included 6 indie sequels, up from one a year earlier, and their sales grew from 1.4 million to 14.7 million copies. Notable examples include Slay the Spire 2, Hollow Knight: Silksong, and Vampire Crawlers.
+Of the 20 additional indie hits in the 2026 cohort, only 4 were friendslop games.
+Best-Selling Releases
+Battlefield 6 sold the most copies in its first month (15.3 million). MECCHA CHAMELEON was second (13.3 million), and EA SPORTS FC 26 was third (8.3 million).
+❗️According to the developers, MECCHA CHAMELEON has already sold more than 20 million copies.
+Among indie games, How to Fish (7.9 million copies) and Slay the Spire 2 (5.9 million) follow MECCHA CHAMELEON. Three of the five best-selling indie releases are new IP.
+In AA, Crimson Desert leads (5.4 million copies), followed by Subnautica 2 (5.2 million) and 007 First Light (4 million).
+In AAA, ARC Raiders (8.2 million copies) follows Battlefield 6 and EA SPORTS FC 26. It's the only new IP in the AAA top 5.
+Source
+To receive new posts and support my work, consider becoming a free or paid subscriber. Paid subscribers have access to the GameDev Reports MCP & a set of additional features.

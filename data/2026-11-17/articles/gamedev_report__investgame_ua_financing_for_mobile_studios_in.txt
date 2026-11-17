@@ -1,0 +1,30 @@
+Source  : GameDev Report
+Title   : InvestGame: UA Financing for Mobile Studios in 2026 | GameDev Reports is powered by Mellow
+Date    : 2026-11-04 16:10 UTC
+Link    : https://gamedevreports.substack.com/p/investgame-ua-financing-for-mobile
+────────────────────────────────────────────────────────────
+
+InvestGame counts committed UA facility amounts for mobile game studios and apps, not the money actually drawn. Early-stage investment includes grants, seed, Series A, and undisclosed rounds.
+The UA financing market
+In the first three quarters of 2026, mobile studios received $398 million in UA financing. Early-stage investment over the same period totaled $254 million. That puts UA financing at 61% of the combined $652 million.
+❗️It is important to note that InvestGame includes 11 PvX Partners deals worth $232 million with no named studios. Without them, UA financing’s share in 2026 is 39.5%, which means studios still raised more at the early stage.
+In 2025, UA financing accounted for 36.1%. So the share is growing either way; the only question is how fast.
+Early-stage investment, meanwhile, continues to decline. In Q1-Q3’26, mobile studios raised $254 million, compared with $350 million in deals over the same period of 2025. Q2’26 saw the least money, at $44 million.
+Q3’26 saw 10 UA financing deals announced, totaling $108 million. Only Q3’25 had as many deals.
+PvX Partners closed the most UA deals over the last 12 months (through October 23): 18 deals worth $313.5 million. LEUS (5 deals worth $37 million) and Metica (3 deals worth $30 million) follow.
+If a contractor drew it, the answer depends on the contract — and without one, it might not be you. Mellow contracts cover IP rights and NDAs from day one, so every asset belongs to your studio and your project stays confidential. Payments and compliance run in the same flow.
+See how it works →
+How UA financing works
+A studio pays for user acquisition out of the revenue those users generate. Investor money can then go to product and hiring.
+Terms differ by provider. PvX Partners takes a share of the revenue of the cohorts it funds until it reaches a return cap agreed in advance. Plan A Games charges a fixed interest rate on the amount the studio actually draws, plus a success fee if the game reaches a revenue target agreed at the start.
+General Catalyst puts the most money into this model. Through its Customer Value Fund, it provides the capital behind PvX Partners, the most active player on the market, and also invests in the company itself.
+Through the same fund, General Catalyst financed SuperPlay’s user acquisition. SuperPlay CEO Gilad Almog called the product “almost like a secret weapon.” In 2024, Playtika agreed to acquire SuperPlay for $700 million plus up to $1.25 billion in earn-outs.
+Today, General Catalyst deploys mostly through partners. In December 2025, PvX Partners announced more than $250 million in committed facilities for 20 companies (mobile games and apps). By April 2026, the total had grown to $750+ million.
+Israel-based vgames is also active in this space. By December 2025, the company had deployed more than $350 million into UA and marketing financing. Over the next 12 months, vgames plans to deploy another $500 million.
+The model is used outside games, too. For example, US-based AI English-learning app Buddy.ai secured a $15 million facility from Braavo Capital. The company draws money as it acquires users and repays each tranche from its revenue. According to Braavo, it has committed more than $60 million to such facilities in 2026.
+Financing beyond mobile
+Griffin Gaming Partners launched a $100 million fund in May 2026. It finances indie games in exchange for a share of each game’s revenue.
+Denmu (Ryan You and Michael Fan) has secured most of the commitments for a $50 million fund. The fund finances specific games rather than studios and combines project financing with equity. Typical checks are $1-5 million.
+Simon Zhu launched GreaterThan Group, a holding company in which studio leads hold equity in both their studio and the parent company. The holding has raised $40 million, with around $60 million more in commitments.
+Source
+To receive new posts and support my work, consider becoming a free or paid subscriber. Paid subscribers have access to the GameDev Reports MCP & a set of additional features.

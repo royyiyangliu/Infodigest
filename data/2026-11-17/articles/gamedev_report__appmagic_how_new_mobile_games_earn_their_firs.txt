@@ -1,0 +1,45 @@
+Source  : GameDev Report
+Title   : AppMagic: How New Mobile Games Earn Their First Million Dollars in 2026 | GameDev Reports is powered by Mellow
+Date    : 2026-11-05 08:31 UTC
+Link    : https://gamedevreports.substack.com/p/appmagic-how-new-mobile-games-earn
+────────────────────────────────────────────────────────────
+
+AppMagic selected 158 mobile games released between January 1 and October 13, 2026, that had earned more than $1 million in lifetime IAP revenue by October 17. The data are AppMagic estimates for iPhone, iPad, and Google Play worldwide.
+❗️The sample excludes 36 games that earn at least half their revenue in China, since AppMagic can't see local Android stores. Only IAP revenue is counted, without ads.
+NTE: Neverness to Everness earned its first million dollars one day after release. Jelly Busters needed 144 days. Over the last 30 days, though, Jelly Busters earned $5.8 million, and NTE $3.2 million.
+Genres
+The median game in the sample took 75.5 days to earn its first million. Games that reached the milestone faster have generally earned more over their lifetime. AppMagic notes, though, that this is partly because they simply had more time.
+Puzzle games take the longest to earn their first million. The 26 puzzle games in the sample took 126 days (median), and none of them made it within 30 days. Their median lifetime revenue, however, is $4.3 million, the highest among genres with at least five games in the sample.
+You found the right contractor, and they said yes. Now there’s a contract to draft, an NDA to sign, and a cross-border payment to set up. Mellow handles all of it in one flow — contracts with IP and NDA clauses, compliant payments, and every document in one place.
+See how it works →
+For comparison, RPGs (74 games) have a median of 62.5 days to the first million and $2 million in revenue. So puzzle games need roughly twice as long to reach their first million, but end up earning roughly twice as much.
+❗️The methodology matters here, though. Puzzle games in the sample likely had more time on average to accumulate revenue by October 17.
+AppMagic attributes the gap between puzzle games and RPGs to different launch approaches. Puzzle games can spend a long time testing and iterating before scaling, while RPGs (given that most new launches come from Asia) launch almost complete in terms of content and features, and with a big marketing campaign at the start.
+Action (49 days) and Sports games (51 days) earn their first million the fastest. However, the sample includes few games in these genres: five and seven, respectively.
+Merge-2 and Sort Puzzle account for 17 of the 26 puzzle games in the sample and 80% of their revenue. Nine Merge-2 games earned $83.5 million, and eight Sort Puzzle games $77.3 million. In total, puzzle games in the sample earned $200 million.
+Sort Puzzle games need a median of 127.5 days to reach their first million, but their median lifetime revenue is $11.5 million.
+Five puzzle games have already earned more than $10 million, even though reaching the first million took them more than 90 days: Jelly Busters, Hotel Legacy, Bus Traffic Fever!, Cube Land, and Car Sort.
+The sample also includes four Block games ($21.7 million combined) and three Cannonball Puzzle games ($10.3 million combined). Smash Fest!, which can be called the originator of the Cannonball Puzzle genre, only launched this summer, and games with the same core are already earning millions.
+❗️According to AppMagic estimates, Smash Fest! itself has earned ~$8.9 million in IAP revenue, but most of the game's money comes from ads. More on the game and Flow Games, the studio that recently raised $46 million in a round led by Tencent, in the
+InvestGame recap
+.
+IP
+Of the 42 IP-based games in the sample, 20 earned their first million within 30 days (48%). Among the 116 original games, only seven did (6%). AppMagic clarifies that this is the share among games that have already earned a million, not among all releases.
+By the way, AppMagic recently turned 10 years! The company launched a great quiz that (after answering) comes with a great report on our industry in the last 10 years. I’ll cover it in upcoming weeks.
+You can participate in the quiz here
+. And I will share my overwhelmingly bad results for someone who is running such a newsletter… I promise, I’ll do better next time.
+The median IP-based game took 35.5 days to reach its first million dollars in revenue, while the median original-IP game took 83.5 days. The revenue gap is much smaller: the median IP-based game has earned $2.6 million, and the median original game has earned $2 million.
+❗️That said, when looking at the unit economics of such projects, keep in mind that IP-based games typically share a percentage of their revenue with the IP holder.
+In some cases, IP delivers both a fast start and big money. hololive Dreams earned its first million in 15 days and has already earned $46.4 million since its July release.
+22% of hybrid casual games and 21% of midcore games reached a million dollars in revenue within 30 days. For casual games, it was 4%, and none of the hypercasual games (there are five in the sample) reached that mark.
+Geography
+AppMagic grouped games by the region that brings them the most money. Games focused on South Korea earn their first million the fastest (median of 53 days), followed by Japan (60 days), and Taiwan & Hong Kong (73.5 days). For games focused on North America, the median is 89 days.
+Games focused on Japan and Korea usually earn almost all of their revenue in one country. So a broad international presence isn't necessary to reach the first million quickly.
+Revenue of games built for the North American market is more spread out: the median game earns 48% of its money in the region. Of the 60 such games, only two earned their first million within 30 days. Combined, though, these games have earned $455.3 million, more than half the revenue of the entire sample.
+Games focused on North America also have a higher median revenue: $3.5 million, versus $2.9 million for Japan-focused games and $2.3 million for Korea-focused ones.
+The difference may also reflect the genre mix. RPGs make up 69% of games focused on Japan and Korea, while puzzle games account for 38% of North America-focused games.
+What Happens After the First Million
+AppMagic compared how fast games reached a million with their revenue over the last 30 days (September 18 - October 17, 2026). Top Lords leads among the four games: it took 78 days to reach its first million and earned $6.9 million over the last 30 days. According to AppMagic, a slow start doesn't prevent further growth, not only in puzzle games but in 4X strategy games too.
+For example, Family Farm Merge, which needed 214 days to reach its first million, earned $2.4 million over the last 30 days.
+Source
+To receive new posts and support my work, consider becoming a free or paid subscriber. Paid subscribers have access to the GameDev Reports MCP & a set of additional features.

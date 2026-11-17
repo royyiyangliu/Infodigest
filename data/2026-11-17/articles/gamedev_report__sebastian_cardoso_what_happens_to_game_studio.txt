@@ -1,0 +1,77 @@
+Source  : GameDev Report
+Title   : Sebastian Cardoso: What Happens to Game Studios After an Acquisition | GameDev Reports is powered by Mellow
+Date    : 2026-11-16 08:30 UTC
+Link    : https://gamedevreports.substack.com/p/sebastian-cardoso-what-happens-to
+────────────────────────────────────────────────────────────
+
+Sebastian Cardoso worked at Riot, Crytek, and EA, and
+writes the Game Studio Unlocked newsletter
+. He collected data on 392 PC and console studios that large companies have acquired since 2000 and assessed each one's fate using public sources. The data is current as of October 30, 2026. The author continues to update the dataset after publication, so some figures may have shifted slightly.
+Each studio gets two grades. For its games:
+Thrived
+(better reviews or sales than before the deal), Stable (about the same),
+Declined
+(clearly worse reviews, sales, or both), and
+Shuttered
+(the studio was closed). For the organization (operating studios only):
+Intact
+(no mass layoffs, absorption, or leadership exodus),
+Strained
+(one serious hit: a layoff, the founders leaving, or a canceled flagship product), and
+Damaged
+(a layoff of 15%+ of staff, three or more layoff rounds in seven years, absorption into the parent company, or reassignment to support work on other teams’ games).
+A word from our sponsor
+You found the right contractor, and they said yes. Now there’s a contract to draft, an NDA to sign, and a cross-border payment to set up. Mellow handles all of it in one flow — contracts with IP and NDA clauses, compliant payments, and every document in one place.
+See how it works →
+Games and Organization After the Deal
+Of the 362 acquired developers, 95 (26.2%) saw their games get worse after the deal, and another 123 (34%) were shut down. That means things got worse for 60.2% of studios after an acquisition. 45 studios (12.4%) did better, and nothing changed for 99 studios (27.3%).
+❗️It’s worth noting that 39 of the 95 studios ended up in the
+Declined
+category not because they released bad games. They were absorbed by the parent company, lost their own identity, or were moved to support work on other teams’ projects. These include major developers like Bungie, Rare, Obsidian, and id Software. If such cases aren’t counted as a decline, the share of
+Declined
+and
+Shuttered
+studios drops to 49.4%.
+After an acquisition, sales fall more often than review scores. Sales declined for 57.3% of studios (and rose for 25.7%); critic review scores fell for 31.3% (and rose for 19.9%).
+Cardoso explains that game quality depends on the team, which stays in place for a while after the deal. Marketing, pricing, platforms, and release timing, meanwhile, are controlled by the owner. For example, id Software’s Doom: The Dark Ages reviewed well in 2025 but reportedly sold far worse than Doom Eternal. The game launched straight into Game Pass.
+Of the 239 studios still operating, 109 (45.6%) continue unchanged, 61 (25.5%) took one serious hit, and 69 (28.9%) underwent major structural changes. Cardoso notes that the last number is likely understated: large companies often report the total number of people laid off, but not which studios they came from.
+In the end, only 103 of the 362 studios (28.5%) can be called healthy: their games either improved or stayed the same, and the company didn’t undergo a reorganization. In other words, things work out well after a deal for roughly one studio in four.
+The earlier a studio was acquired, the worse the outcome. Among studios acquired before 2010, 84.6% saw declining results or closure. Among those acquired in 2018-2021, 42.5%.
+30 studios in the sample did better after the acquisition and had no layoffs. They include FromSoftware (Kadokawa), Atlus (Sega), and Warhorse (Embracer). According to Cardoso, they have one thing in common: the buyer acquired a successful studio and left it alone. Since 2014, under Kadokawa, FromSoftware has released Bloodborne, Sekiro, and Elden Ring (30 million copies) without a single reported layoff.
+62 studios in the sample started releasing worse games and went through serious structural changes. In the author’s view, this is the most typical scenario of a failed acquisition. This group includes Crystal Dynamics, Eidos-Montreal, and Firaxis.
+For another seven studios, Cardoso uses the term
+Hollowed
+: the games are successful, but the studio lays people off. For example, Apex Legends has been one of the biggest live games for years, while Respawn went through three rounds of cuts over the same period. All layoff news at these studios dates from 2023 onward.
+Creative Assembly has a similar story. In the financial year ending March 2025, the studio’s average headcount fell from 683 to 383 people, and its wage bill from £53.1 million to £27.2 million. The Total War series, meanwhile, continues to sell well.
+Closures
+Of the 362 studios, 123 were shut down. On average, 6.4 years pass between acquisition and closure; the median is 5 years. 70 of the 123 studios were closed within five years of the deal.
+Many well-known studios were closed quickly. EA closed Pandemic two years after acquiring it, Sony closed Firewalk roughly a year and a half in, and Warner Bros. closed Player First roughly seven months in.
+Counting from the date of acquisition, 19.7% of the 315 studios acquired through 2021 were closed within five years of the deal. Of the 180 studios acquired by 2016, 39.4% were closed within ten years.
+From 2019 to 2022, only two acquired studios were closed. From 2023 through October 2026, 41 studios were closed. Adding the studios companies founded themselves and the VR studios they acquired, 71 studios closed in 46 months.
+Cardoso links this to the fact that most of the 2020-2022 acquisitions were made against a backdrop of cheap, easy money and the pandemic bubble. When interest rates rose and engagement returned to its previous level, many studios became a burden for their owners.
+The biggest name in the dataset is BioWare. EA closed the studio on October 21, 2026, 19 years after acquiring it. Before that, layoffs had shrunk it from 400+ people to fewer than 100.
+Who Buys Studios
+According to Cardoso, the main factor that determines a studio’s fate is who bought it. Here he counts ownership periods rather than studios: if a studio changed owners, it is counted once for each owner. For example, Bungie’s years with Microsoft (2000-2007) and with Sony (since 2022) are counted separately. There are 414 such periods in total.
+At Activision Blizzard, all 19 ownership periods ended with either the studio’s closure or a decline in its performance. The acquired teams (Raven, Neversoft, Vicarious Visions, High Moon, and Beenox) were moved to support Call of Duty. After the Guitar Hero collapse, six more studios were closed.
+Disney (5 companies), Midway (4 companies), and Bandai Namco (3 companies) also have a 100% negative record. Next come THQ (90% of the studios under its ownership went through hard times), EA, and Thunderful (88% each).
+Large publishers and platform holders have mixed results: at Take-Two, 70% of acquired studios started performing worse or were closed; at Ubisoft and Warner Bros., 67% each; at Microsoft, 63%; and at Sony, 58%. At Embracer, the owner of the largest portfolio in the dataset (44 companies), it’s 43%.
+Nintendo (6 companies), Sumo Group (6 companies), and Kadokawa (3 companies) have no failures. Over 24 years, Nintendo acquired six studios and didn’t close a single one.
+❗️Cardoso himself notes that the sample has its quirks. In some cases, two years of data are set against twenty, and comparing them isn’t entirely fair. Of the 25 ownership cases under four years old, not a single one has ended in decline or closure yet. For cases 4-7 years old, the share of such outcomes is about 40%; for 13 years or more, about 75%.
+Cardoso explains the difference this way. The worst results belong to companies that bought studios to feed their own pipeline (Activision for Call of Duty, THQ for licensed games) or bought them with debt (Embracer, Nacon). Nacon, for example, entered insolvency proceedings in February 2026 and has since lost Spiders, Big Bad Wolf, and Midgar. The best results belong to those who buy studios they have worked with for a long time and leave the existing team in charge.
+20 studios bought themselves back from their owner or were spun out as independent companies. None of them have declined or closed since. They include IO Interactive (which left Square Enix), Coffee Stain (from Embracer), and Toys for Bob (from Activision). Cardoso notes, though, that only a studio that is already doing well can afford to buy itself out.
+Which Studios Get Closed More Often
+The bigger the studio, the less often it gets closed. Of the 47 flagship studios (150+ people), 8.5% were closed; of the 168 mid-sized studios (40-150 people), 35.7%; and of the 147 small studios (under 40 people), 40.1%.
+That said, flagship companies aren’t necessarily doing well. 36.2% of flagships saw declining results or closure (vs. 65.5% of mid-sized and 61.9% of small studios). Instead of closing them, owners more often cut or absorb flagship studios, while the big franchise the company is known for keeps shipping and making money. For example, Blizzard hasn’t released a single new franchise since 2016.
+At the time of the deal, 30 of the 392 acquired studios mainly did co-development, ports, and support work (for example, Nixxes, which makes PC ports for Sony). Cardoso counts them separately. Only one of them has been closed. However, none of them made it into the growing category either: a team booked solid with external contracts has little chance of releasing a hit of its own.
+A word from our sponsor
+You found the right contractor, and they said yes. Now there’s a contract to draft, an NDA to sign, and a cross-border payment to set up. Mellow handles all of it in one flow — contracts with IP and NDA clauses, compliant payments, and every document in one place.
+See how it works →
+Studios that large companies founded themselves have even worse results than acquired ones. Of the 56 such studios, 85.7% had poor results, and 58.9% were closed. 18 of the 33 closed studios never released a single game.
+NetEase founded eight studios in 2020-2023 (including Jar of Sparks, Worlds Untold, and Nagoshi Studio), and all eight are already closed. Microsoft closed The Initiative, which didn’t release anything in seven years.
+Comparison With Independent Studios
+For comparison, Cardoso assembled 50 notable independent PC and console studios (including Larian, CD Projekt Red, and Remedy). They are compared with 119 acquired studios that were already owned and operating as of October 2019. The period studied is seven years, from October 2019 to October 2026.
+Over that time, 48% of independent studios had at least one round of layoffs, all of them in 2023-2026. Heavy layoffs (one cut of 15%+ of staff, or two of 10%+) hit 14% of independent studios (7 of 50) and 24.4% of acquired ones (29 of 119). Counting as heavy all the layoffs whose scale couldn’t be verified, the figures are 36% and 52.9%, respectively.
+Over the seven years, one independent studio out of 50 (2%) closed: Intrepid, seven weeks after its early access launch. Among acquired studios, 18 of 119 (15.1%) were closed. That means acquired studios closed roughly 7.5 times more often.
+❗️Cardoso himself notes that independent studios are less likely to report layoffs and closures, and only notable companies made it into the sample. So the real difference is most likely smaller.
+Source
+To receive new posts and support my work, consider becoming a free or paid subscriber. Paid subscribers have access to the GameDev Reports MCP & a set of additional features.

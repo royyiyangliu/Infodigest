@@ -1,0 +1,72 @@
+Source  : GameDev Report
+Title   : Newzoo & G2A.COM: How Players Buy Games on PC and Console in 2026 | GameDev Reports is powered by Mellow
+Date    : 2026-11-12 08:30 UTC
+Link    : https://gamedevreports.substack.com/p/newzoo-and-g2acom-how-players-buy
+────────────────────────────────────────────────────────────
+
+The data comes from an online Newzoo survey conducted in August 2026. Newzoo surveyed 6,166 players aged 18-55 in the US, the UK, Germany, Poland, Brazil, and Saudi Arabia. Only players who play on PC or current-generation consoles at least once a month, and who bought a AAA/AA game or played one through a subscription in the past year, were included.
+Audience and Spending
+60% of respondents play on both console and PC, 29% on console only, and 11% on PC only. About two-thirds of players are male, and the average age is around 33.
+A word from our sponsor
+You found the right contractor, and they said yes. Now there’s a contract to draft, an NDA to sign, and a cross-border payment to set up. Mellow handles all of it in one flow — contracts with IP and NDA clauses, compliant payments, and every document in one place.
+See how it works →
+The largest share of PC-only players is in Poland (27%). Saudi Arabia (42%) and the UK (37%) have the highest shares of console-only players.
+89% of respondents play on console, and 71% on PC. PlayStation 5 is the most popular console (68%), followed by Nintendo Switch or Switch 2 (41%), and Xbox Series X|S (30%).
+On average, a player in the sample spends $368 a year on games. Of that, 46% goes to buying games, 32% to subscriptions, and 21% to in-game purchases (add-ons, currency, battle passes, etc.).
+Players in the US ($425 a year) and the UK ($422 a year) spend the most. In Poland and Brazil, it's $245 a year each; in Saudi Arabia, it's $256 a year. In Germany, players spend more on buying games (51%). Germans and Polish gamers spend less on in-game purchases than others (17% and 16%).
+Those who play on both console and PC spend the most ($410 a year). Console-only players spend about $306 a year on games, and PC-only players $269 a year.
+Over the past year, respondents played 13.3 games on average. The US had the most (14.1), and Germany the fewest (11.0).
+When asked what they played, players mostly named long-running franchises like Call of Duty, GTA, Fortnite, and Minecraft. Newzoo points out that back in 2023, 61% of all PC and console playtime went to games more than six years old.
+According to
+more recent Newzoo data
+, 64% of PC playtime in 2025 went to games released before 2019.
+38% of the games respondents played over the past year were F2P. 43% were B2P (32% bought digitally, 11% on physical disks), and another 19% were accessed through a subscription.
+Differences between countries are small. F2P play is slightly more common in Saudi Arabia (42%).
+Players buy digital copies for instant access after purchase (42%), access to their library from anywhere (38%), and because they can't be lost or damaged (33%).
+Reasons for buying physical copies include playing without a stable internet connection (26%), wanting to own something physical (24%), and saving storage space on the device (24%).
+❗️The storage space point is questionable, of course. On PlayStation (my main gaming device), even a disc game gets installed on the internal drive.
+Prices and Discounts
+73% of players think most games are too expensive at launch. The same share say they wait for discounts more often now, and 71% say they've become more careful about spending on games. Players in Saudi Arabia, Poland, and Brazil are the most likely to call games too expensive (79% each).
+At the same time, 69% think games give more for the money than TV, movies, and music. 62% agree that game prices reflect rising development costs.
+Newzoo notes that many players buy cheaper games from their wishlists or play F2P titles while waiting for new releases to go on sale. 57% say they have so many games on their wishlists that they rarely pay full price. 52% spend less because there are so many F2P titles.
+By players' own estimates, over the past three years, they bought 42% of games before release or in the release month (17% pre-orders, 25% in the release month). The remaining 58% were bought later, and 18% of all games were bought more than a year after release.
+Players in the US buy earliest: 46% of games before release or in the release month. Players in Poland wait the longest (68% of purchases after the release month).
+PC-only players buy 70% of their games after the release month.
+❗️For comparison, according to
+Alinea Analytics
+, games released in 2026 accounted for just 21% of Steam revenue in H1'26.
+The main reason to delay a purchase is waiting for a discount (45%). Next come waiting for bugs to be fixed (37%) and for player reviews (36%).
+Players buy at launch to play right after release (48%). That’s the primary reason. Pre-order discounts are second (37%), and wanting to play at the same time as everyone else is third (36%).
+78% of players search for discounts regularly or sometimes (45% regularly). The share is highest in Brazil (84%) and Saudi Arabia (83%), and lowest in Germany (74%).
+Players mostly learn about discounts from official storefronts (40%), social media (34%), and YouTube (33%). 17% mention reseller and marketplace sites.
+On average, players are willing to wait 4.9 months for a game discount to become interesting. The most common answer is 3-4 months (28%). Players in Poland (6.6 months) and Germany (5.8 months) are willing to wait the longest, while those in Brazil (4.4 months) and the US (4.6 months) wait the least.
+A 13% discount has almost no effect: the game still feels expensive. At 29% off, the price starts to feel reasonable, and at 45% off, it feels like a good deal. A 70% discount, though, already raises doubts about the game's quality.
+In the US, the price feels reasonable at 28% off and like a good deal at 43% off. PC-only players expect more generous discounts.
+Over the next 2-3 years, 42% of players plan to play more on PC and console (7% plan to play less). 39% expect to spend more on premium games, and 38% to use subscriptions more. But only 33% plan to buy more games at full price (15% plan to buy fewer games at full price).
+❗️Newzoo itself notes that survey respondents more often expect engagement to rise than to fall, so expectations are usually more optimistic than reality.
+Subscriptions
+Game Pass and PS Plus (Extra or Premium) are each used by 38% of respondents, EA Play by 28%, and Ubisoft+ by 14%. Among console-only players, PS Plus leads (38% vs. 22% for Game Pass).
+80% of subscribers say a subscription lets them try genres and games they don't usually buy. 79% like the discounts and promotions, and 77% like the events and rewards.
+54% of subscribers say they've spent more on games overall since subscribing. Newzoo suggests this includes both the subscription fee itself and in-game purchases.
+That said, 42% of subscribers feel the subscription library is outdated or repetitive.
+44% of subscription users have started buying fewer games (13% significantly fewer). 32%, on the other hand, buy more, and 24% report no change.
+Subscriptions reduce purchases the most in Poland: 49% buy fewer games, and only 21% buy more. In Saudi Arabia, by contrast, more subscribers buy more games (42%) than fewer (38%). Among PC-only players, 54% buy fewer games.
+Players buy fewer games mainly because they have enough games in the subscription (41%), and because they try games on the subscription before buying (34%). Only 22% say buying games has become unnecessary altogether.
+Those who buy more say they discover more games (38%) and are more inclined to buy after trying a game on the subscription (38%).
+Players are more likely to make in-game purchases in subscription games: 32-36% of subscribers are more likely to buy add-ons or cosmetics in a subscription game, compared with only 15-19% in a game they own. Newzoo links this to players saving on the game itself.
+A word from our sponsor
+You found the right contractor, and they said yes. Now there’s a contract to draft, an NDA to sign, and a cross-border payment to set up. Mellow handles all of it in one flow — contracts with IP and NDA clauses, compliant payments, and every document in one place.
+See how it works →
+Where Players Buy Games
+When asked to name stores that sell games without prompting, players most often name PlayStation Store (16%), Steam (13%), and Xbox Store (12%).
+Among stores not owned by platforms or publishers, only Amazon (8%) and reseller Loaded (formerly CDKeys, 1%) made the top 10. In Poland, players often name marketplaces such as G2A.COM (7%), Allegro (6%), and Eneba (5%). In Saudi Arabia, the local chain Jarir is mentioned most often (16%).
+Over the past year, 49% of respondents bought something on PlayStation Store, 37% on Steam, and 30% on Xbox Store. Awareness of PlayStation Store converts into purchases best: 53% of those who know it bought something there (69% among PlayStation players).
+Among resellers and marketplaces, Newzoo highlights Instant Gaming (44% aware, 4% bought), G2A.COM (39% aware, 3% bought), and Loaded (34% aware, 3% bought). The highest awareness-to-purchase conversion, though, belongs to Eneba (14%) and Kinguin (11%).
+97% of respondents used official storefronts over the past year, and 94% bought something there. 24% used marketplaces (14% bought), and 16% used resellers (9% bought).
+Among console-only players, 16% use marketplaces, and 9% use resellers. Newzoo attributes this to the closed ecosystems of PlayStation and Switch.
+Marketplaces are used most in Poland (45%), Saudi Arabia (37%), and Germany (31%). In the US, the figure is 21%.
+Official storefronts are trusted more: 64% are confident they'll get what they paid for (53% for resellers, 41% for marketplaces). 30% of marketplace users doubt purchase reliability (though 14% of official storefront buyers do too).
+Small purchases, on the other hand, are more often made on marketplaces (39%) and with resellers (35%) than in official storefronts (20%).
+On value for money, resellers lead (51%), marketplaces are second (45%), and official storefronts follow (43%). Marketplaces are more often associated with access to regional prices (30%) and rare keys (29%), while official storefronts are associated with a large library (43%).
+Source
+To receive new posts and support my work, consider becoming a free or paid subscriber. Paid subscribers have access to the GameDev Reports MCP & a set of additional features.

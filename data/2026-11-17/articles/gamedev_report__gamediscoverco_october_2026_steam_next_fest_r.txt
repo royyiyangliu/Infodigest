@@ -1,0 +1,36 @@
+Source  : GameDev Report
+Title   : GameDiscoverCo: October 2026 Steam Next Fest Results | GameDev Reports is powered by Mellow
+Date    : 2026-11-06 08:30 UTC
+Link    : https://gamedevreports.substack.com/p/gamediscoverco-results-of-the-october
+────────────────────────────────────────────────────────────
+
+The report is based on GameDiscoverCo Pro data. GameDiscoverCo estimates new wishlists and peak CCU; unique players come from the list of the top 50 most popular demos published by Valve. To compare with past festivals, GameDiscoverCo uses a game's Steam follower growth.
+Leaders by Player Count
+Many of the leaders by unique players are co-op games for groups of friends (in other words, friendslop). The asymmetric co-op game about school troublemakers, Worst Class Ever, leads (600,000 players). The co-op Fart Together is fourth.
+Many of the festival's leaders were popular before it started. Three weeks earlier, in GameDiscoverCo's demo CCU chart, the sim Probably Stolen was third (now second by players), the anime desktop companion Character House was first (now seventh), and the incremental game Find The Needle was second (now third). GameDiscoverCo suggests that Steam Next Fest amplifies trends that took shape before the festival.
+The right artist for your game rarely lives down the street. Mellow takes distance out of the equation: contracts with IP and NDA clauses, cross-border compliance, and payments, all in one flow. Hire for talent, not for location.
+See how it works →
+But there were new hits too. The gothic gem-cutting sim Abyssal Lapidary released its demo right before the festival and ranked eighth by players. ArcheAge Chronicles also launched its demo closer to the start and climbed to fifth.
+No single genre trend emerged at the festival.
+Probably Stolen (39,787 players), Worst Class Ever (27,827 players), and Character House (17,678 players) led in peak CCU. Making the top 20 took about 1,500 CCU.
+Leaders by New Wishlists
+According to GameDiscoverCo estimates, Probably Stolen (+160,900 wishlists), Abyssal Lapidary (+121,400 wishlists), and ArcheAge Chronicles (+93,200 wishlists) gained the most wishlists during the festival.
+Abyssal Lapidary's wishlists grew 427%, to 149,800. Probably Stolen ended the festival with 638,700 wishlists in total (+34%), and ArcheAge Chronicles with 605,500 (+18%).
+The top 10 by wishlists also includes games from among the leaders by player count. For example, the co-op zombie shooter with procedurally generated maps Mortuus (#7) and the cozy MMO Loftia (#9).
+Brand-new projects also rank in the top. Emberville (#4, +79,200 wishlists) is a Stardew Valley-style pixel game with combat. After the festival, the developers delayed the release to January to incorporate player feedback.
+Fifth is the dark first-person fishing adventure Dreadmoor; eighth is the survival shooter Frostrail, in which players travel by train.
+Most of these projects were drawing audience interest before the festival, so a successful Steam Next Fest demo helps consolidate that success.
+Games ranked 11-30 saw new wishlists growth from 29,500 to 51,300. At the June 2026 Next Fest, the numbers were higher: from 40,000 to 78,000 wishlists.
+The leaders of this group are ReBlade: The Death Spiral (+51,300 wishlists), Unharvest (+51,200 wishlists), and The Wolf Among Us Remastered (+49,300 wishlists).
+Festival Scale and Competition
+The October 2026 Steam Next Fest featured 7,319 demos. That is 67% more than the June festival (4,382 demos) and almost 2.5x more than a year earlier (2,963 demos). GameDiscoverCo had expected just over 5,000 participants.
+❗️In
+the How To Market A Game recap
+, the figure is slightly lower: 7,240 games. Chris Zukowski's data is from October 21; a few more projects were likely added during the festival.
+According to GameDiscoverCo estimates, the median 7-day wishlist gain for festival games is 60, and the average is 779. The median gain for the top 10% of games is 2,756 wishlists.
+The odds of success at the festival have dropped noticeably. Top 10% projects by Steam follower growth gained 63 new followers (by GameDiscoverCo's rough estimate, that is about 1,500 wishlists). Back in June, projects in the same cohort gained 121 followers (-48%), and at the October 2025 festival, 173 (-64%).
+A top 1% game gained 740 new followers, versus 1,330 in June 2026. In February 2024, the figure was 3,449. The median festival game gained just 5 new followers.
+The median wishlist gain for the festival's top 10 games is 80,000. In June 2026, it was 143,000 (-44%). GameDiscoverCo suggests that many developers launch their demos before Next Fest because competition at the festival has become too intense.
+GameDiscoverCo believes Steam Next Fest has become too important for many, partly because Steam promotes it. Breaking into the leaders has become harder. But the chances are still there.
+Source
+To receive new posts and support my work, consider becoming a free or paid subscriber. Paid subscribers have access to the GameDev Reports MCP & a set of additional features.

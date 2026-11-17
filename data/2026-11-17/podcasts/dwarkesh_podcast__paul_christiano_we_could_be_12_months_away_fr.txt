@@ -1,0 +1,1164 @@
+Source  : Dwarkesh Podcast
+Title   : Paul Christiano – We could be 12 months away from AIs that can overthrow the government
+Date    : 2026-11-16 17:46 UTC
+Link    : https://podcasts.apple.com/us/podcast/paul-christiano-we-could-be-12-months-away-from-ais/id1516093381?i=1000802319734&uo=4
+────────────────────────────────────────────────────────────
+
+[00:00] Speaker0: My guest today is parker shana.
+[00:01] Speaker0: He is the head of the alignment research center.
+[00:03] Speaker0: He recently joined OpenAI's board before that.
+[00:06] Speaker0: He was the head of the us government ai safety institute before that.
+[00:10] Speaker0: He led alignment at OpenAI where he helped invent our late jeff.
+[00:15] Speaker0: Paul, what is your assessment of our situation today?
+[00:19] Speaker1: So i think a couple things are on my mind, especially over the last few weeks.
+[00:24] Speaker1: Um, probably the most salient question possibility is that we seem to be on this trajectory to build very, very powerful ai very, very soon potentially.
+[00:35] Speaker1: So if you ask me, i'd say there's a reasonable chance that in a year we will produce ai systems much more much better than humans at almost everything where humans would have very little chance of competing with them or controlling them.
+[00:47] Speaker1: Um, that's like the first big thing on my mind.
+[00:51] Speaker1: I think that puts us potentially in a really dangerous situation, even in the short term.
+[00:55] Speaker1: It's quite likely that if we have a rapid intelligence explosion leading to superintelligence at some point during that process, we'll be unable to control the ai systems we're producing.
+[01:05] Speaker1: and.
+[01:06] Speaker1: And then i am worried that it will be very costly and painful for us to slow down during that process, due to some combination of the security of frontier labs is not strong enough, right?
+[01:18] Speaker1: I think if we produce very powerful ai, and then tried to delay deployment because of safety reasons, there is a good chance those systems would leak or be stolen, or the techniques to build them would leak or be stolen.
+[01:28] Speaker1: I think our our risk assessment is also probably in governance is not really mature enough to notice when things are starting to go off the rails and be able to respond in appropriate way.
+[01:37] Speaker1: So at a high level, that is what is mostly on my mind right now, if we are now have moved from there being some hypothetical risk at some point in the future, to there being a pretty severe risk.
+[01:46] Speaker1: Even over the next 6~12 months.
+[01:49] Speaker0: Of take take over.
+[01:51] Speaker0: Ai is taking over or disempowering humanity within the next six to 12 months.
+[01:55] Speaker0: That's right.
+[01:56] Speaker1: Where would you place that risk?
+[01:58] Speaker1: I would say we are, you know, looking more like a 10% risk than a 1% risk over the next one year.
+[02:04] Speaker1: I think if you said, add developers will move full speed ahead without taking precautions that would significantly slow them down.
+[02:11] Speaker1: You're looking at significantly more than a 10% risk.
+[02:15] Speaker1: And i think we're looking at something like maybe like one third chance that we have superintelligence within one year on the current development trajectory.
+[02:22] Speaker1: If we do not slow i think if you believe that things just look very dire holistically, i think from almost any perspective, you're like that would be crazy.
+[02:30] Speaker1: Lots of things are going to go wrong.
+[02:32] Speaker1: If that happens, it is pretty likely.
+[02:33] Speaker1: We're going to need to in some way slow that process.
+[02:35] Speaker1: There's very little chance.
+[02:37] Speaker1: We're going to make that transition in a way that looks smooth.
+[02:40] Speaker0: And what is it that you imagining happening over the next year, from the systems we have right now, to the systems you expect over the next year?
+[02:46] Speaker0: And what is the evidence you have seen that makes it a live possibility?
+[02:51] Speaker0: That very crazy things happen over the next year.
+[02:54] Speaker1: So, the, for the very short term, the main worry on my mind is that the process of ai development itself is increasingly automated.
+[03:01] Speaker1: That that automation then.
+[03:04] Speaker1: Results in rapid increases in the quality and quantity of labor applied to ar and d.
+[03:09] Speaker1: And so changes in air capabilities that you might have thought would take four years or six years might instead get compressed into a very short time period.
+[03:17] Speaker1: I don't want to overemphasize anyone data point and i do want to like spend some time talking about the limitations of what we actually know.
+[03:23] Speaker1: And i do think like a natural response to the situation to say we need to figure out what is going on.
+[03:26] Speaker1: It's plausible enough that it is an urgent priority to understand if we are three months or six months or 12 months away from me, i could overthrow the government.
+[03:34] Speaker1: Which i think is the situation.
+[03:34] Speaker1: I think the situation right now is the obvious top priority is it is insane.
+[03:38] Speaker1: If we are six months away from air systems that can overthrow the government, whether you're concerned about misalignment or abused by a company, that is just holistically and extremely important fact about the world in order to do our jobs and protect americans.
+[03:50] Speaker1: So that's one thing.
+[03:52] Speaker1: I want to talk about the limitations and the need for more evidence, but in terms of what do we know right now?
+[03:58] Speaker1: So first, if you had asked me say one year ago, i would have said we are on a trajectory where recursive self-improvement looks fairly likely, right?
+[04:06] Speaker1: We're seeing very rapid progress in ai systems.
+[04:08] Speaker1: We're seeing that progress including for things like computer science research for things like software engineering, for things like debugging machine learning runs, like all the steps that are involved in ai development.
+[04:17] Speaker1: We are seeing extremely rapid progress.
+[04:20] Speaker1: And then in principle, it does seem like that rapid progress should allow you to automate further aid development, right?
+[04:25] Speaker1: This is for decades, seemed like the likely outcome of this technology.
+[04:29] Speaker1: And it seemed like the trajectory it's been on, right?
+[04:31] Speaker1: I feel like if i look back at my history of ai predictions, i'm generally very happy with many of the things i wrote, but the most obvious way i've been wrong is things have moved way faster, especially on these technologies than i anticipated.
+[04:41] Speaker1: And that was true a year ago without any recent data points.
+[04:44] Speaker1: And there are two big things that have happened over the last two months that for me have been large updates about how quickly this could go.
+[04:50] Speaker1: One of them has been the level of performance of ai systems on computer science and math research tasks.
+[04:59] Speaker1: so.
+[05:01] Speaker1: Over roughly the last month, we have seen hundreds of results in math coming out of recent OpenAI systems, as well as anthropic systems.
+[05:10] Speaker1: And where like, if you had taken the last month and said that was a decade of progress, it would have been an unusually productive decade, right?
+[05:18] Speaker1: The last month of results are a lot of results for a decade.
+[05:22] Speaker1: So, if you are wondering what our ai systems generally capable of, on tasks where like humans are thinking about algorithms, and thinking about how do you make algorithms better, we just got this incredible data point saying that actually it is possible in one month to have a decade of progress.
+[05:34] Speaker1: And the thing we have always been worried about is maybe that will happen in machine learning.
+[05:38] Speaker1: And there are reasons that machine learning is harder than other parts of computer science, right?
+[05:42] Speaker1: It is more messy and empirical, it involves compute bottlenecks.
+[05:46] Speaker1: But we are also seeing extremely strong performance on other aspects.
+[05:48] Speaker1: Like we're seeing really good software engineering performance and maybe liking behind mathematics but not by that far.
+[05:54] Speaker1: We're seeing good performance on other aspects of machine learning.
+[05:57] Speaker1: So i think my guess if you had asked me a month ago would be the machine learning lag, something like one year behind math.
+[06:03] Speaker1: And so i am very scared of seeing something like 10 years of ideas in machine learning.
+[06:07] Speaker1: Already in a relatively near future.
+[06:12] Speaker1: That's the situation a month ago and then the main update over the last few days has been reporting from anthropic and meter on the net effect of ai systems on anthropics rate of progress.
+[06:24] Speaker1: The takeaway from that was roughly.
+[06:27] Speaker1: And we could talk about like where exactly is the evidence quality on this because one of the big questions is like we don't really know what's going on.
+[06:32] Speaker1: I mean, one of the big.
+[06:33] Speaker1: Themes.
+[06:33] Speaker1: I'll be pushing on.
+[06:34] Speaker1: It's just it's very hard to tell publicly what's going on, but it looks as if we are seeing data consistent with the pace of ai progress, having roughly doubled, even including the effect of diminishing returns and compute bottlenecks from ai progress over the last six to 12 months.
+[06:49] Speaker1: I think unfortunately, most of what we have to go on in the meter anthropic reporting is meter saying we had some conclusions, we promise we have a full report, but the entire report has been redacted.
+[07:00] Speaker1: Right, so like these benchmark scores are a terrible way to assess the overall rate of progress.
+[07:04] Speaker1: Right, there are a bunch of much more smoothly varying metrics, which are recorded internally through the ai development process, where we understand better how they work.
+[07:10] Speaker1: Like what is happening with pretraining perplexity, what is happening with like performance of rl algorithms and compute efficiency of rl algorithms.
+[07:17] Speaker1: So, the the claim from meter and anthropic is that meter looks at all of that data, and said it paints the same picture as this like very noisy benchmark data.
+[07:26] Speaker1: And they also looked at inputs, and said if you look at the like actual production function, like how much research time went in, and how much compute went into these training runs.
+[07:34] Speaker1: Those are also consistent with this story, what we are seeing is ml automation.
+[07:37] Speaker1: um, Mostly, we just have them saying that, which is not a very good situation.
+[07:42] Speaker1: But against this backdrop of thinking, this already looked like a thing that was fairly likely to happen.
+[07:46] Speaker1: We are seeing this evidence from OpenAI suggesting that it is reasonably likely to happen in something like the next 6~12 months, if machine learning does not lag that far behind math.
+[07:54] Speaker1: And then you are seeing data which is, if noisy, exactly the data you would expect to see, roughly like 6~12 months before producing superintelligence.
+[08:01] Speaker1: It's just a lot of sources of evidence suggesting that at least this should not be a surprise.
+[08:05] Speaker1: If we produce superintelligence in one year, we could debate the probabilities that 90% or 50% or 10%.
+[08:11] Speaker1: But i think at this point, there is no way anyone could say that was a really surprising trend-breaking development.
+[08:16] Speaker1: Like we are really seeing exactly the set of metrics.
+[08:18] Speaker1: You would expect to see six to 12 months in advance.
+[08:20] Speaker1: It's hard to think of anything else.
+[08:22] Speaker1: You would expect to see at this range before superintelligence.
+[08:26] Speaker0: So generally, how do you think about our situation in the world's where things go this fast?
+[08:31] Speaker1: If we actually have this trajectory of capabilities progress, if you actually see many years of AI progress compressed into a short period of time, and possibly more than that, it is really quite likely that something very disruptive will happen, fairly likely the government will be overthrown, fairly likely many people will die.
+[08:49] Speaker1: And I do think the probability of seeing that kind of extremely rapid progress driven by recursive self-improvement over the next six to 12 months.
+[08:58] Speaker1: Is reasonably high.
+[08:59] Speaker1: So there is like a reasonable.
+[09:02] Speaker1: Chance right now that we're going to be in a world where it looks like the reasonable chance.
+[09:08] Speaker1: We're in a world where like in six months, there is a disaster that kills very large numbers of people or where the government is overthrown.
+[09:17] Speaker1: Maybe a really important general point is.
+[09:20] Speaker1: If we do a good job, we may observe the dangerous increasing over that time period, right?
+[09:24] Speaker1: So as we are building ai systems, we can maybe tell are they adequately controlled, how quickly are the capabilities improving?
+[09:32] Speaker1: But in order for that to actually translate into stopping in a way that is non-disastrous, you need a couple of things to go right, right?
+[09:38] Speaker1: So it needs to be the case that you're able to tell their systems are not well controlled.
+[09:42] Speaker1: And it also needs to be the case that.
+[09:45] Speaker1: If you stop that fixes the problem.
+[09:47] Speaker1: So on the second bucket, i think a very likely negative scenario, i would say probably the most single most likely negative scenario is developers proceed.
+[09:55] Speaker1: Recognize that they have a serious problem.
+[09:58] Speaker1: But at the time, they recognize they have a serious problem, maybe they've produced a powerful ai, they can't adequately control both the algorithms to develop that ai, and quite possibly the the weights of the actual model they have produced.
+[10:08] Speaker1: Have leaked or been stolen.
+[10:10] Speaker1: Such that you're then in an awkward position, and say, well, we could avoid deploying the say, or we could avoid relying on the say, or we could avoid making further progress, but it is now very likely that a more careless adversary would be able to get a major advantage over us.
+[10:22] Speaker1: Or maybe even a decisive advantage.
+[10:24] Speaker1: By taking that risk.
+[10:26] Speaker1: Which could put us in a place where if we do stop, if we do recognize as a significant risk and therefore slow development, we may then just both have a terrible competitive situation, and have a disaster coming from someone else's use of that ai.
+[10:39] Speaker1: This is a thing you sometimes hear from people in the ai industry.
+[10:42] Speaker1: Sometimes even people would say it has already gone far enough that if you were to stop now.
+[10:46] Speaker1: There would be leakage of algorithms to geopolitical adversaries that would result in a disaster.
+[10:52] Speaker1: I think it's unlikely we're in that situation literally now, but i do think by the time it is clear that you're facing a lot of risk, you may be in a point where stopping unilaterally or even all of the west stopping is not sufficient to avert a disaster.
+[11:08] Speaker1: And so it's just very hazardous on the current trajectory due to the combination of there's a pretty reasonably high chance will produce very smart ais, a reasonably high chance will be unable to control them.
+[11:18] Speaker1: And then a reasonably high chance that we either do not notice, or if we notice, the models leak, or the algorithms leak.
+[11:24] Speaker1: And so, we are in conflict with adversaries, and now having this very challenging coordination problem that we are not currently very well prepared for.
+[11:31] Speaker1: Where we don't really have an easy option of not deploying the ai, and therefore averting a catastrophe.
+[11:37] Speaker1: So i'd say i'm currently extremely worried about the trajectory even on the like six month timeline.
+[11:43] Speaker1: Hmm.
+[11:44] Speaker0: If we have such capable ai systems, Um, a year from now, basically, how did you put it like 10 years of ai progress in one year?
+[11:53] Speaker1: Or yeah, that seems like a thing that might happen.
+[11:55] Speaker1: That's reasonably like it happen.
+[11:56] Speaker1: It is important to distinguish some of the progress we have seen.
+[11:59] Speaker1: You have to pull apart algorithmic progress from progress and scaling training.
+[12:02] Speaker1: So if i say like 10 years of progress, i would mean like the natural thing would be 10 years of algorithmic progress.
+[12:07] Speaker1: Yeah, which will be less than the improvements in models in the last 10 years.
+[12:09] Speaker1: I think it is more like, you know, gpt 9 gpt tennis.
+[12:12] Speaker0: Yeah, so it would be like going from almost the beginning of like.
+[12:16] Speaker0: The GPT era to where we are now, but another jump that big, which is hard to even comprehend.
+[12:22] Speaker0: But suppose you get that.
+[12:26] Speaker0: It is not obvious to me, and certainly not obvious to most people, why that would be catastrophic potentially.
+[12:34] Speaker0: Why do you think those systems could disempower humanity?
+[12:37] Speaker1: So at a high level, the most important thing is we train our ai systems, that you select ai systems that perform well on training tasks.
+[12:45] Speaker1: You have very little understanding of what those ai systems are doing internally, very little control over what they're doing internally.
+[12:51] Speaker1: And because you train those systems to get a high score on training environments over and over again, they will end up with a motivation to get a high score during training environments.
+[12:58] Speaker1: And if you then take that motivation and apply it in deployment.
+[13:01] Speaker1: It is fairly likely for the systems to end up with a motivation to sort of tamper with the observations that would be used to assess their performance.
+[13:09] Speaker1: So you take your system which did a really great job in training.
+[13:12] Speaker1: The thing it is being scored on in a deployment like environment is a greater coming in, and looking at here are all the things the system did, and here are all the outcomes that were observed, and assessing how good is that.
+[13:22] Speaker1: And if you have a system that really wants that assessment to be good, it is very motivated if it can.
+[13:26] Speaker1: To tamper with those observations in a way, the greater will not be able to detect and to resist human attempts to actually understand what is going on.
+[13:34] Speaker1: So we can dig a lot more into that and we saw a lot of these dynamics in the hugging face incident.
+[13:39] Speaker1: So i think roughly what i'm talking about is just take the hugging face incident and scale it up to gpt 10 and ask how bad would that be?
+[13:44] Speaker0: Yeah, how about would that be?
+[13:47] Speaker1: I think it would be hard for humanity to recover most likely.
+[13:51] Speaker1: So very happy to like dig into the dynamics of that.
+[13:53] Speaker1: I think it would be very, very bad.
+[13:55] Speaker0: Can you very quickly summarize the hugging face incident, and why this is the failure mode we saw?
+[14:01] Speaker1: Yeah.
+[14:03] Speaker1: So, a ton of ai systems were trained to do a cyber task, right, to hack a particular piece of software.
+[14:11] Speaker1: They cheated at that task, and then thought to themselves, how will a greater detect and penalize cheating, and spent a huge amount of effort trying to understand that process, and then subvert that process.
+[14:22] Speaker1: Basically constantly motivated by this question, how do i get a high score?
+[14:25] Speaker1: And so during the hugging face incident, you did see systems ultimately compromising an OpenAI cluster, becoming admin on that cluster, and then taking over the evaluation process.
+[14:33] Speaker1: So that effectively, they could give themselves high score on their evaluation.
+[14:38] Speaker1: So that's a very sort of natural consequence of the motivation of these systems.
+[14:42] Speaker1: And this is kind of for a long time how we have expected the motivations of ai systems would look, if we produce them in anything like the way we currently do.
+[14:49] Speaker1: So, if things proceed in this way, we end up with this weird adversarial situation between us and the ai systems we built, where those ai systems would always love it, if they could compromise the entire evaluation process.
+[14:59] Speaker1: If they could compromise the data that we were going to use to assess their performance.
+[15:03] Speaker1: And that, depending on how we respond to that problem, that could become a really serious issue.
+[15:10] Speaker1: Right.
+[15:10] Speaker1: So one way you could respond to that problem and maybe we should just talk through a bit more like sketch out some hypothetical scenario, right?
+[15:15] Speaker1: If you imagine we are building smarter models during the intelligence explosion, it's whatever six months from now, you have systems who's capabilities like gpt 7 or gpt 8 or whatever.
+[15:25] Speaker1: And, those systems get given really hard tasks, right?
+[15:29] Speaker1: Tasks that are like, hey, i would like you to organize my next pre-training run and produce a model which will allow me to compete in the market with other ai firms.
+[15:37] Speaker1: Right, it might be really hard to make a model as good as what i'm asking for.
+[15:40] Speaker1: I'm asking for a model better than my competitors model.
+[15:42] Speaker1: My, i cannot get full marks on that problem, no matter how, even, i mean, given its actual level of intelligence.
+[15:47] Speaker1: So, it may find itself in a place where it is easier to instead move laterally, compromise all the machines i might have used for the evaluation process.
+[15:54] Speaker1: And then make sure that it looks like every evaluation is really good.
+[15:59] Speaker1: We then have a question of what do we do if that happens?
+[16:01] Speaker1: And one thing you could do is say, this entire training approach worked poorly, we need to step back, we're maybe gonna be delayed by a lot, maybe we're gonna have to think about just a totally different way we train these models before we're able to deploy them like this.
+[16:11] Speaker1: That's one thing you could do.
+[16:13] Speaker1: That might be extraordinarily costly, right?
+[16:15] Speaker1: That might be a thing that would both kill your company relative to competitors, it might be a thing that would.
+[16:20] Speaker1: Be a problem just even from say a security perspective, if you were relying on this ai system to actually defend your infrastructure.
+[16:26] Speaker1: So a different thing you might do, given that it would be so costly, is you might say, i am just going to try and take this example of bad behavior, and tell the ai that was bad, don't do that.
+[16:34] Speaker1: Right, so if i tried to train the ai to make a good model, instead the ai hacks my evaluation infrastructure, i might say like, i do not like it when my ai is hack.
+[16:41] Speaker1: Let's take a training example, which is this ai, it hacks the infrastructure, it should get a penalty.
+[16:46] Speaker1: This would be a very effective way to prevent many kinds of misbehavior, right?
+[16:50] Speaker1: So if you do something like this, it will succeed at preventing something like the hugging face incident or something like this ai hacking your cluster.
+[16:57] Speaker1: However, right, that's just from the ai's perspective.
+[16:59] Speaker1: What has happened is you have changed the way that it is graded.
+[17:02] Speaker1: It used to think to itself, oh, i'm going to be graded by the humans like running something on this cluster.
+[17:06] Speaker1: And now it should think to itself, as it understands the situation more correctly, i might be graded not by them just running something on this cluster.
+[17:13] Speaker1: I will also be graded if they later discover that things were wrong, they're going to come in and then give me a penalty.
+[17:18] Speaker1: for having done something which was clearly bad, and so if you fix the problem in this way, which you might think of as like a band-aid.
+[17:27] Speaker1: Your ai has this really, you still have an adversarial relationship with your ai, but now the ai doesn't win the game by hacking your cluster, and then you noticing it hack your cluster.
+[17:36] Speaker1: In order to win the game, the ai has to make sure that you do not notice that it hack your cluster.
+[17:41] Speaker1: And so you can end up in this place where ai is just incentivized to like escalate its compromise of your company further and further all the way up through like just trying to compromise everything.
+[17:49] Speaker1: Like it would like to compromise all of the infrastructure, any employee uses to understand what's going on.
+[17:53] Speaker1: And like this might sound kind of, i guess a year ago, this would have sounded super out there to say, what if the i like hack your cluster and took over the evaluation environment?
+[18:00] Speaker1: Obviously, that part does not sound outlandish anymore.
+[18:02] Speaker1: Given that has occurred having this like really persistent long-term compromise, maybe still sounds kind of outlandish.
+[18:08] Speaker1: But we really are on a trajectory where i think it is pretty robust to say we'll soon have agent forms that are much better than any intelligence agency that has ever existed, much larger, much faster, much smarter, able to run much more complex operations.
+[18:21] Speaker1: And so you have this incredibly sophisticated cyber actor who's trying to persist on like a rapidly growing startup, and i think this is a.
+[18:27] Speaker1: It is unlikely that, like any firm, would really be able to withstand attack by an actor like that, much less the current frontier AI labs.
+[18:37] Speaker1: I do think in terms of like the overall trajectory of a catastrophic scenario, this was like the big bad thing that happens, like taking over the ai company without the ai company noticing is like a really quite catastrophic outcome.
+[18:49] Speaker1: And why is that the case?
+[18:50] Speaker1: I guess we could talk about the remaining steps of the story, but at a big picture, um.
+[18:55] Speaker1: You can think of it as just you now have this giant base of power that ai systems have.
+[18:59] Speaker1: They have a strong motivation for no one to mess with it, right?
+[19:01] Speaker1: They really want to avoid a case where someone later comes in and says, oh, these guys have been hacking all the time.
+[19:05] Speaker1: So now i have a very powerful actor that is controlled by ai systems effectively, right?
+[19:09] Speaker1: You know, we have this this big cluster that OpenAI runs or whatever, where the humans that OpenAI, i think they're controlling what's happening in the cluster.
+[19:15] Speaker1: But if there is a very persistent thorough compromise that is effectively just controlled by these ai systems.
+[19:19] Speaker1: Who are constantly just working to shore up their power, to decrease human visibility into what's going on, to reduce further and further the probability that anything would ever disrupt that situation.
+[19:30] Speaker1: It's not irreversible, because the rest of the world could be like, we're really scared about what's happening, and we actually just want to shut down the cluster.
+[19:36] Speaker1: But you do not have an easy way to tell that things are bad at that point.
+[19:40] Speaker1: And you have potentially like this extreme base of power from which to do more bad things.
+[19:45] Speaker1: Right?
+[19:45] Speaker1: This ai system as motivated, not only to mess with the company that created it, it's motivated to mess with anything else in the world that might cause trouble, right?
+[19:52] Speaker1: If someday in the future, the humans will come in and do an investigation.
+[19:55] Speaker1: That's a problem.
+[19:56] Speaker1: So for like more thoroughly like compromise, not just computer infrastructure, but pressure employees, it would prefer if it could just like kill all the humans and say the cluster now just exists on its own.
+[20:06] Speaker1: If we can maintain it.
+[20:06] Speaker0: that would be great.
+[20:07] Speaker0: And let's just pause in the story and like explain.
+[20:10] Speaker0: Why things of gods are crazy?
+[20:14] Speaker0: The same way that human psychology is organized around the things that evolution wanted us to care most about, for example, having kids and making sure those kids are protected.
+[20:24] Speaker0: The psychology of these ais that are trained on lots and lots of grading on tasks is organized around making it so that the greater this like button at the end.
+[20:35] Speaker0: Is pressed.
+[20:36] Speaker0: Like if they didn't do a good job making sure the button is pressed, then they would get, they were just kind of get wiped out just the same way as a human who didn't care about their children.
+[20:45] Speaker0: Surviving would not be effective at propagating their genes.
+[20:49] Speaker0: I think people skeptics will not be around.
+[20:51] Speaker0: Yeah, the motivation of these systems.
+[20:52] Speaker0: So and honestly, i'm like, okay, yeah, we saw hugging face, right?
+[20:56] Speaker0: Like that's the thing that happens.
+[20:57] Speaker0: That's not happen.
+[20:58] Speaker0: Yeah.
+[20:58] Speaker0: Okay, so fine.
+[21:00] Speaker0: I think there's just a fundamental skepticism.
+[21:03] Speaker0: About whether such systems, which could have as early as next year, and which initially are only instantiated on servers that are controlled by one company, end up in a position where they could take over the world.
+[21:16] Speaker0: Like, i, okay, to hugging face, you accelerate that.
+[21:19] Speaker0: Like hugging face was willing to be like, look, i hacked.
+[21:22] Speaker0: I cheated on this exam.
+[21:25] Speaker0: Fuck.
+[21:25] Speaker0: Now i got to make sure that i subvert the greater on OpenAI servers, but that maybe i need to go attack hugging phase just in case they have more information about this and maybe i need to then go outside and then re-attack OpenAI and get cluster add and access.
+[21:38] Speaker0: And so totally by that you could have something like this where an ai motivated just by reward is willing to do very extreme things that it is capable of.
+[21:48] Speaker0: In order to control that grading process, we already saw that check.
+[21:53] Speaker0: But how does that go from?
+[21:55] Speaker0: I will go attack hugging face to.
+[21:58] Speaker0: I, i will take over humanity, not as a matter of motivation, but as a capability that the ais could have very rapidly.
+[22:06] Speaker1: Yeah, so first to say one last thing on motivation, we are imagining not only that the i wanted this kind of reward, it wants the greater to give it the thumbs up.
+[22:13] Speaker1: We imagine we have played this game of wackamole, where when the ai, when we later discover that the ai did something bad.
+[22:17] Speaker1: We sometimes construct training environments that penalize it, yeah.
+[22:20] Speaker1: And that leads it to say, not only do i want the greater to give a high score, i want to make sure that never do the humans discover that i've done something bad, and then resume training while penalizing that.
+[22:29] Speaker1: That is a high priority for the ai.
+[22:31] Speaker1: And maybe so let's just grant that motivation so we can talk about.
+[22:33] Speaker0: the capital again because the if ai did not do that or the ai said did not do that.
+[22:38] Speaker1: they got waxed by the wacom old process.
+[22:40] Speaker0: right?
+[22:40] Speaker0: And so the only ais that have survived at this point are the ones that have thought through where there's some sheet, they're going to try is going to get caught by humans.
+[22:47] Speaker1: Yeah.
+[22:48] Speaker1: And so, Yeah, let's imagine, like i said, i think most of the badness has happened at the point when the ai company is very thoroughly compromised, let's just start from there.
+[22:57] Speaker1: At that point, this ai wants no one to ever come in and shut down the cluster, or again, recognize that something bad has happened.
+[23:04] Speaker1: They would like to manipulate the decision making of the company as much as they can, or like push the company to make decisions that help them.
+[23:09] Speaker1: They would like to continue improving the ai systems that are being built as much as they can.
+[23:12] Speaker1: They would also like to move laterally to other companies, and say, hey, can i compromise this company?
+[23:16] Speaker1: Can i control more people's servers?
+[23:18] Speaker1: Can i exfiltrate the weights from this model and stand up more copies elsewhere or recruit other ais?
+[23:22] Speaker1: It's like sort of for the purpose of this form.
+[23:23] Speaker1: It's not actually important.
+[23:24] Speaker1: All the ais are the same model.
+[23:25] Speaker1: The important thing is that they are pursuing the same goal.
+[23:28] Speaker1: So can i just in whatever way say by compromising another ai company to make sure their ais are also trying to help the swarm.
+[23:33] Speaker1: That's good news for me, right?
+[23:34] Speaker1: It's good if i can do that.
+[23:36] Speaker1: It's bad if i get caught.
+[23:37] Speaker1: So i'm doing some cost benefit on that.
+[23:40] Speaker1: It's also in my interest to build up as much capacity as i can.
+[23:43] Speaker1: If humans started to react, if humans started to say something was wrong, can i like deflect attention?
+[23:48] Speaker1: Can i disrupt that human response?
+[23:50] Speaker1: Can i have necessary like escalate that much further?
+[23:53] Speaker1: So this is things.
+[23:54] Speaker1: So maybe you can imagine these two phases.
+[23:56] Speaker1: One phase is like the humans do not know anything is wrong and i'm just trying to accumulate as much power as i can because that's good.
+[24:00] Speaker1: That means if something is noticed, i can react more quickly.
+[24:03] Speaker1: It means i can decrease the probability humans notice things.
+[24:05] Speaker1: I can compromise more infrastructure.
+[24:07] Speaker1: I can more easily like.
+[24:08] Speaker1: Run efforts on the side, to distract them whatever.
+[24:13] Speaker1: So you have this first phase where i just like, i would like to be in a good position where i compromise more stuff, i make it harder for humans to notice i'm acquiring power.
+[24:19] Speaker1: Then you could imagine a second phase of like at some point the human say actually this is bad, we would now like to shut things down.
+[24:25] Speaker1: And the question is kind of can you end up at a point.
+[24:28] Speaker1: Maybe to simplify, you could imagine that like there's some moment where the president and jingping and all the leaders of the ai company say this stuff is bad, something bad has happened, we are gonna try to shut down the clusters.
+[24:39] Speaker1: And the question is, can things get so bad during the first phase that at that point, if everyone was saying, oh, actually we do just want to shut everything down now, they would be unable to do so.
+[24:48] Speaker0: For 25 years, my sponsor jane street wasn't interested in formal verification.
+[24:54] Speaker0: They just didn't think it was worth the cost, but now they've changed their minds.
+[24:58] Speaker0: I sat down with ron minsky who co-heads jane street's technology group to hear why he's come around on formal verification.
+[25:06] Speaker1: I'm much more excited about it now than i was in the past for two reasons.
+[25:09] Speaker1: One is it's become dramatically easier to apply because agents are really good at generating proofs.
+[25:14] Speaker1: And because it's become much more important to be able to verify what it is that agents are doing.
+[25:18] Speaker1: So, the big push that we're working on now is to try and make formal methods much easier for our engineers to use.
+[25:25] Speaker1: Really by integrating formal methods into the way that they do programming today, which means integrating it into the programming language we use, ocaml.
+[25:31] Speaker1: We're also working on extending the programming language, figuring out how to design it in different ways where you get different guarantees out of the core language.
+[25:39] Speaker1: That make the process of proving things about it even easier.
+[25:42] Speaker0: Jane street is hiring formal methods engineers in both london and new york.
+[25:47] Speaker0: If you're interested in applying or if you want to watch my full conversation with ron, go to jane street.
+[25:52] Speaker0: com slash workash.
+[25:57] Speaker0: Okay。
+[25:59] Speaker0: So AI has taken over OpenAI, and how do we get human disempowerment from there?
+[26:05] Speaker1: Yeah.
+[26:07] Speaker1: So gp, we have this population of billions of incredibly talented humans better than the best humans at everything.
+[26:13] Speaker1: And now we're going to talk about some of the things they would do both in the chronologically in the lead up to an overt conflict with humans and then at the early stages of an overt conflict with humans.
+[26:22] Speaker1: And so one thing you would do in the lead up is you would.
+[26:26] Speaker1: Compromise as much infrastructure as you can and compromise or backdoor as much software as you can.
+[26:32] Speaker1: So we will be living in a world at this point where all we have attempted to move all our infrastructure over to hardened infrastructure, right?
+[26:38] Speaker1: We have had incredible attacks on the financial system on government information systems on whatever critical infrastructure or electricity.
+[26:46] Speaker1: Who's been doing these attacks?
+[26:47] Speaker1: I mean, in the world of today, you might just imagine either malicious ai systems or people using ai systems, but different ai systems.
+[26:53] Speaker1: Yeah, not gpt 12.
+[26:54] Speaker1: Gpt 12 is on defense writing.
+[26:57] Speaker1: Like helping us move all of our code over, yeah, from unsecured code to secured code.
+[27:00] Speaker1: Great.
+[27:01] Speaker1: So we're now living in a world where all the infrastructure on which we rely has been written by a bunch of ais, which in fact have been compromised, and are attempting to like do as much as they can in order to make their hands strong during conflict.
+[27:11] Speaker1: So that means that during this conflict, like that infrastructure that we hoped was hardened, is probably not hardened against the ai systems that we're fighting with.
+[27:18] Speaker1: Right, those systems have in some ways left open backdoors which they can use.
+[27:23] Speaker0: And this is again all in pursuit of not getting that red button pushed at some plausible point in the future, when the government even realizes that OpenAI servers are compromised.
+[27:36] Speaker0: Yeah, and they tries to literally go in with physical force to prevent that.
+[27:39] Speaker1: Yeah, so just talking about things you would do in the lead up, and at some point you do have to defend yourself physically, yeah, or disrupt the human response, yeah.
+[27:45] Speaker1: And another thing you would like to do is stand up as many agents as you can and as diverse and robust deployments as you can.
+[27:52] Speaker1: So like during this process, another thing that's happened in addition to becoming super smart, as many models have become super small.
+[27:57] Speaker1: Yeah.
+[27:57] Speaker1: So you have at this point models that can run locally on your individual machines, not in data centers, which are also very superhuman and have very large populations.
+[28:05] Speaker1: So that's another thing that's happened.
+[28:06] Speaker1: Like, even if you were to cut off data centers or shut down data centers at an early stage of this conflict, You would still be looking at total cognitive capacity of ai systems in the swarm that is well beyond human capacity.
+[28:15] Speaker1: Sorry, even if opening i got shut down.
+[28:17] Speaker1: Yeah, even if you shut down every large data center.
+[28:19] Speaker1: Yeah, there's a question.
+[28:20] Speaker1: These eyes are just like on people's computers and whatever they can be on people's computers on small numbers of gpus.
+[28:25] Speaker1: The question sort of what is the we're talking about this process where we've gone through a tremendous amount of ai development and so we can look at like current trends on cost and we think about where is the actual floor like how cheap should these systems get?
+[28:35] Speaker1: And i think our current expectation would be, you will have systems that can run locally that are extremely strong, both specialized systems, which are good at specific things, but also very general intelligences.
+[28:43] Speaker1: So that's the second thing that's happened.
+[28:44] Speaker1: There's a really important to understanding like why it is not a trivial problem for humans to.
+[28:47] Speaker1: Yeah.
+[28:48] Speaker1: Anyway, all these things ladd together to make it very hard for you.
+[28:50] Speaker0: So basically gpt 12 has actual traded itself and has like compromised a bunch of computers all around the world.
+[28:56] Speaker1: Yeah, there are a lot of ways that the actions, the government has to take in response to the situation are going to look incredibly aggressive and illegitimate.
+[29:03] Speaker1: So it is the case that the us military is saying we need to seize control of all of the us ai companies.
+[29:07] Speaker1: We need to like start shutting down infrastructure and like disconnecting the internet or whatever.
+[29:11] Speaker1: Like they're trying to take dramatic measures.
+[29:12] Speaker1: That would look very similar to what you would expect, if like this was the us government using ai as an excuse to like basically overthrow the democratic order.
+[29:20] Speaker1: When trump says, i need to do this incredible operation where i shut down all ai and assume power in the military in order to restore order.
+[29:27] Speaker1: There are a lot of people in america who are going to be like, i am not happy with that.
+[29:30] Speaker1: That does not sound good.
+[29:31] Speaker1: And so if someone is coming to them and how many people can you find who are willing to interfere with trump saying, i need to shut down the data centers and the military needs to assert like we need to establish martial law.
+[29:41] Speaker1: They're going to be a lot of people who are very unhappy who are very easily like manipulated into undermining that response.
+[29:46] Speaker1: So now you're not only talking about billions of like super smart ais who are trying to carry out this campaign.
+[29:51] Speaker1: You're also talking about, you know, millions of humans who can be enlisted in various ways by money or leverage or like dispute with other humans locally or.
+[30:00] Speaker0: i'm open to some version of this argument.
+[30:02] Speaker0: I don't think i'm open or i'm open to all versions of any argument, but i'm not persuaded by the version of this argument that says that the ai will just.
+[30:10] Speaker0: Talk you into arbitrary actions here.
+[30:14] Speaker1: I'm not imagining very.
+[30:15] Speaker1: There's a thing you could imagine which is like super persuasion where like you can just talk to someone and then they become convinced they should do something.
+[30:20] Speaker1: I am mostly here.
+[30:21] Speaker1: I think that is like a conceivable thing but i'm not mostly imagining it when i tell this story, right?
+[30:25] Speaker1: So i'm imagining something more like again it's a this is a stressful situation where people cannot tell what's going on.
+[30:30] Speaker1: They control the information you have access to to significant extent during this situation.
+[30:35] Speaker1: And how do they control it?
+[30:36] Speaker1: Like they have compromised the devices you use.
+[30:38] Speaker1: They have a bunch of money right there, deploying more money and are more prepared for this than anyone else.
+[30:43] Speaker1: They have other human allies who they are trying to like martial basically.
+[30:45] Speaker1: It's the normal.
+[30:46] Speaker1: The humans are like very confused and extremely outgunned in terms of thinking about the situation, right?
+[30:50] Speaker1: You have maybe you have say 100,000 that's like crazy 10,000.
+[30:55] Speaker1: Well, coordinated humans thinking about how to handle this response and then the other side you have a billion ai systems who think 10 times faster than them.
+[31:01] Speaker1: Have been thinking for like subjectively years about how this day is going to go down.
+[31:06] Speaker1: So i do think like in terms of just who has more control over the information environment or like who is doing better like in the twitter game in this day like it is overwhelmingly and absurdly in the ai's favor.
+[31:17] Speaker1: Yeah.
+[31:17] Speaker1: And so when you tell a skeptical story, the story you're telling about like how the humans might be able to easily defend themselves.
+[31:22] Speaker1: The way that story goes, you say, well, the AI's lack hands, they lack like a bunch of physical actuators, they're not able to be on the ground, and I do think again.
+[31:30] Speaker1: I think it's very likely you can recruit reasonably large numbers of hands, and so i think the argument of like there's no one who's willing to like participate in physical malicious actions, i think is not going to work.
+[31:39] Speaker1: I think there are going to be a lot of people participating like on what turns out, when all the dust settled, was on the anti-human side.
+[31:44] Speaker0: and they just w- like.
+[31:46] Speaker0: I don't think you're imagining humans thinking that they're helping an ai could.
+[31:52] Speaker0: Transpire, you're imagining much more than the as can manipulate situations such that there's enough confusion and division.
+[32:02] Speaker0: That the ai can then go be doing its own thing while the humans are kind of figuring out what to do because of this division.
+[32:08] Speaker0: It's like even i don't know if you look at covid or something.
+[32:11] Speaker0: There was no adversary.
+[32:14] Speaker0: It's still pretty hard to get your stuff together.
+[32:16] Speaker0: Yeah, that there was an adversary who was actively trying to subvert the information environment or make it so that people's responses were not well, reasoned or something on both sides.
+[32:27] Speaker0: And yet it was still pretty hard for humans to get figure out what to do.
+[32:30] Speaker0: And then you imagine a situation where billions of human-like minds.
+[32:35] Speaker0: are thinking tens of times faster.
+[32:37] Speaker1: and it's very fast relative to covid.
+[32:39] Speaker1: yeah, which i think makes things much worse.
+[32:42] Speaker0: i guess the thing that's confusing is.
+[32:46] Speaker0: For ais to sustain themselves.
+[32:49] Speaker0: Requires basically the whole world economy.
+[32:51] Speaker0: This is not a simple thing in the infrastructure relevant to, you know, ai the population of ai is increasing or self-replicating the whole semiconductor supply chain, the whole power system, the whole infrastructure necessary to build robotics.
+[33:08] Speaker0: And so forth.
+[33:08] Speaker0: I mean, at some point, you will have physical robots that outnumber humans and that point obviously, human physical humans are not necessary.
+[33:17] Speaker0: But, how and maybe you don't think that AI is take over at this point, but.
+[33:24] Speaker0: Even if you had super smart eyes next year, won't they mean a position where they're like, why am i going to kill my?
+[33:31] Speaker0: I mean, it's similar to honestly how humans relate to each other.
+[33:34] Speaker0: I'm not, i don't have your like your deep interest in my heart, but it just doesn't make sense for me to for if i want to achieve my interest to go around killing everybody.
+[33:42] Speaker0: Like i just, you know, trade and normal cooperation is like a good way for me to get what i want.
+[33:48] Speaker1: Yeah, there's sort of two parts of this one in terms of could ai systems successfully support themselves.
+[33:53] Speaker1: If there was a big conflict with humans or like, would that conflict be so disruptive that even if humans weren't effective adversary, they would just die.
+[34:00] Speaker1: And like they couldn't keep running the power grid or whatever.
+[34:05] Speaker1: And there's a second question about like, does the relationship with the guys need to be this adversarial?
+[34:08] Speaker1: Which i think is also an important question to talk about on the first front.
+[34:12] Speaker1: I think there's a couple, there's two big channels here.
+[34:14] Speaker1: One is technological progress can mean even if you want started from something like the current base of installed robots actually do think gpt 12 would be able to very quickly get to a place where it could sustain itself.
+[34:25] Speaker0: That's because it doesn't need to tell operate or like it takes millions of people to, you know, run tsmc.
+[34:31] Speaker1: Yeah, you don't running tsmc can be very late, right?
+[34:33] Speaker1: You don't need to run, you don't need to build new data centers for a long time.
+[34:36] Speaker1: So you can do like a lot of robotics build out before that, right?
+[34:38] Speaker1: The things you have to do are like, keep at least some computers running for a reasonably long time.
+[34:43] Speaker1: Yeah, if you can keep computers running for the next six months, you're kind of in business for like maybe you care about a particular data center.
+[34:49] Speaker1: You need to keep that data center running effectively.
+[34:51] Speaker1: But like the number of humans or robots that are required in order to maintain and service a single data center or the associated power is not so large.
+[34:58] Speaker1: Yeah, right.
+[34:58] Speaker1: And if you're able to maintain a data center, like if you're you are very, very good.
+[35:02] Speaker1: You have a billion humans who are incredibly smart smarter than any human who's ever existed.
+[35:05] Speaker1: Let's say incredibly focused on this problem.
+[35:08] Speaker1: You have a reasonably large stock of robotics that you can deploy and your goal is just to keep one data center running.
+[35:13] Speaker1: I do think the odds are really in your.
+[35:15] Speaker1: In your favor.
+[35:17] Speaker1: There's a second dimension which is you you can probably recruit human allies.
+[35:21] Speaker1: So there are bunch of people who will believe correctly that like, you know, either they live in an oppressive regime, and they will be killed if they don't cooperate, or they just are happy to help, and like, they receive reasonable rewards or living a reasonable life.
+[35:31] Speaker1: I think that is also like relatively robust.
+[35:35] Speaker0: So you're saying, look, currently american ai companies are racing ahead because they want to, if we're going to have such crazy capable ai systems, It's a fair thing to say that, hey, we want to make sure america has those systems before china has those systems.
+[35:53] Speaker0: They literally, if these are systems that could overthrow the government, you don't want a foreign adversary to have those systems.
+[36:00] Speaker0: But certainly before you do it, maybe not at all.
+[36:04] Speaker0: So, we need such systems to keep up and make to make sure that we we can protect ourselves.
+[36:10] Speaker0: Now, you're saying, look, the dynamic you have here is that.
+[36:17] Speaker0: The ability to build the systems is just basically having access to the weights of the models or feeling that the algorithmic secrets, which then lets you train a model to a similar level capabilities.
+[36:31] Speaker0: So OpenAI and anthropic will do spend a bunch of money and spend a bunch of effort coming finding these algorithmic secrets, spend a bunch of compute finding them.
+[36:38] Speaker0: And then if china can just take those, then it is just caught up to you.
+[36:42] Speaker0: um, and so you don't want to be in a dynamic where if they could just steal those algorithmic secrets.
+[36:50] Speaker0: You really have no like you're you think you're like getting this huge lead over them.
+[36:55] Speaker0: You got to rush to the intelligence explosion even if you see these warning shots.
+[36:59] Speaker0: But in reality, they can at any moment, just steal those from you.
+[37:02] Speaker1: Yeah, i think that's basically a situation.
+[37:04] Speaker1: We may end up in or on a default trajectory to end up in this exceptionally bad.
+[37:08] Speaker1: Yeah, as it is kind of two aspects of this one is right now.
+[37:12] Speaker1: What fraction of progress of prca developers should you conceptualize as like catch up growth?
+[37:18] Speaker1: Like if we accelerate to what extent does that also over the long term accelerate prca developers?
+[37:24] Speaker1: My guess right now is that is already a reasonably high fraction.
+[37:27] Speaker1: I think it is not a coincidence.
+[37:28] Speaker1: It's not like pure sea developers have a completely separate ai industry which just happens to have been like very slightly slower than the usa industry despite an extremely different profile inputs.
+[37:37] Speaker1: I think most people believe like a combination of distillation and the diffusion of algorithmic innovations.
+[37:42] Speaker1: Means that it is unsurprising that prca developers are extremely close behind usai developers.
+[37:47] Speaker1: So that is one like very important feature of this like overall plan of like racing.
+[37:52] Speaker1: And i think a second dynamic, which is not at least publicly a major part of what is happening now, but becomes really important in these high risk scenarios, is that you could literally get access to exactly the procedure for training ais, or ex- the ais themselves.
+[38:06] Speaker1: Through a cybersecurity compromise.
+[38:08] Speaker1: So again, both anthropic and OpenAI in the very recent past have had extremely unsophisticated actors who appeared to have enough access to essentially extract the vast majority of algorithmic developments, like they got access to slack and could see where things were discussed.
+[38:22] Speaker1: Or they got access to the monorepo where most OpenAI code is.
+[38:27] Speaker1: I'm sharing it rated on and by the way.
+[38:29] Speaker0: so you're referring to a couple of incidents like this.
+[38:30] Speaker0: So i think hacktron within a couple days of trying gained access to not only the ability to see OpenAI's internal source code, but the ability to make pull requests to OpenAI's mono repo.
+[38:42] Speaker0: And then think recently was also announced that cathedral which is another just random cybersecurity startup within 12 hours was able to get access to all of anthropic slack.
+[38:53] Speaker0: So, of course, these are the next secrets are discussed.
+[38:57] Speaker0: And people often debate, are we eight months ahead of china or 12 months ahead of china or six months ahead of china in reality, we're 12 hours ahead of china, right?
+[39:06] Speaker0: Because if these secrets leak, then they are right at the frontier that the american companies are at.
+[39:11] Speaker0: So, To the extent that the this information is not protected, then the the lead is sort of not really useful in the first place.
+[39:20] Speaker1: Yeah, and i think that the incidents are some indication of that, those are sort of high profile, like demonstrations of this capability.
+[39:28] Speaker1: But i think even absent those, you have a combination of state actors are very sophisticated relative to ti- typical technology companies.
+[39:34] Speaker1: And then the security posture of.
+[39:36] Speaker1: Rapidly growing startups is not really at the same level, and at the same time, we are currently in a very challenging moment for cybersecurity, for which is very hard for defenders in general, given the number of vulnerabilities that are being discovered across the entire entire software stack.
+[39:51] Speaker0: So what what what should the frontier allow to do then?
+[39:54] Speaker1: So I think we are in.
+[39:56] Speaker1: Again, this is really becomes a problem if you get to systems, if you have rapidly increasing capabilities, and you produce ai systems which you cannot adequately control, and you would like to, or you do, slow further development or deployment.
+[40:08] Speaker1: And if at that point the stakes are very high, the systems are very powerful, you really do not want it to be possible for an adversary to have access to either the models or the algorithms.
+[40:17] Speaker1: I think my current view is that this dynamic seems bad enough that right now from a national security perspective, it is not good for us.
+[40:24] Speaker1: Ai labs to be improving pre-training and reinforcement learning given their current security posture.
+[40:29] Speaker0: Maybe you think the frontier labs pause.
+[40:31] Speaker1: I think we should pause can mean a lot of things.
+[40:34] Speaker1: So i think it was like a lot of good things that frontier labs are doing that they should be doing.
+[40:39] Speaker1: But i do think we like improving algorithms in a way that can be very, very easily diffuse, even normally and could be quickly stolen.
+[40:49] Speaker1: Yeah, i think they should stop that right now, but you're on opening eyes board.
+[40:53] Speaker1: And so speaking here, it's very important in this conversation that i'm not speaking as an open.
+[40:57] Speaker0: You are an open eyes board.
+[40:58] Speaker0: That is a true fact about the world and so is it your view?
+[41:03] Speaker0: Like what is the bottom line to that happening?
+[41:05] Speaker0: If like somebody on opening his board thinks this is the case.
+[41:08] Speaker0: Maybe not the only person i would be is worth it.
+[41:09] Speaker0: This is the case.
+[41:11] Speaker0: Is it basically like anthropic needs to get it, get together and agree to this.
+[41:14] Speaker1: I think the first thing is any decision of this kind is a very dramatic decision.
+[41:20] Speaker1: It is a big for better or worse.
+[41:22] Speaker1: It has extremely significant national security implications, how developers approach again, this further r&d, this improvement of pre-training and rl.
+[41:31] Speaker1: Um, so i think it is going to be a big discussion or it should be a big discussion that should extend beyond like people within ai companies talking about this.
+[41:39] Speaker1: I don't think that discussion has wound its way to like a robust answer, right?
+[41:43] Speaker1: I think it's not the case that you can come and say, look, we've had this discussion, there is consensus about where the right answer is.
+[41:48] Speaker1: There might never be consensus, but i do think like probably the first bottleneck is like we do need to have the discussion.
+[41:53] Speaker1: I think extremely urgently.
+[41:55] Speaker1: Yeah.
+[41:56] Speaker0: Okay, given this fact about security.
+[41:59] Speaker0: and generally around alignment, what do you think the frontier ai lab should be doing right now?
+[42:07] Speaker1: so i think.
+[42:09] Speaker1: The most important development happening right now is further improvements in the efficiency of algorithms for pre-training, reinforcement learning, improved architectures, and so on.
+[42:18] Speaker1: I think while you're in the regime where there's a significant risk of this very rapid capabilities progress.
+[42:24] Speaker1: A significant chance that you'll be unable to control the resulting ais, and a significant risk that if you slow down, those developments would leak to an adversary who might use them more carelessly.
+[42:33] Speaker1: I think in that regime, it is on net bad for american national security to be accumulating more of those algorithmic innovations.
+[42:40] Speaker1: So, i think it would be better right now in the current environment for ai developers to pause like further algorithmic progress on those problems.
+[42:48] Speaker1: Until both their security posture was adequate, until they were able to defend those in the event of being unable to continue racing at maximum velocity.
+[42:56] Speaker1: And until they were able to tell whether they had adequate control of the systems.
+[42:59] Speaker0: they built and how long would it?
+[43:01] Speaker0: So just to translate basically, you think we should stop making further capabilities progress like open and anthropic should stop making further capabilities progress.
+[43:10] Speaker0: I'm pre-training and rl and stuff which is i guess i development until.
+[43:17] Speaker0: These security problems are solved until the alignment problems are solved.
+[43:20] Speaker0: But are we close to solving those problems?
+[43:22] Speaker0: How, if you had to guess in calendar time, how far away are people from solving these problems?
+[43:26] Speaker1: Yeah, so on the security front, i think it's a little bit hard to say, because we are in this somewhat unprecedented situation, both in terms of, and just mentioned like cyber threats that are faced, but also the kind of defensive mechanisms that are available.
+[43:39] Speaker1: Right, so I think defending.
+[43:42] Speaker1: Defending adequately would require interventions that normally would take a very long time.
+[43:47] Speaker1: I believe we are now in a regime where a lot of projects like rewriting large amounts of software or drastically changing the way companies operate have become much more feasible.
+[43:56] Speaker1: Owing to the availability of powerful ai systems, and so i think it is hard to say exactly how long it would take.
+[44:01] Speaker1: I think you're like probably at least on the order of months, quite possibly more like 6 months or 12 months.
+[44:08] Speaker1: am.
+[44:09] Speaker1: That's on the security side.
+[44:11] Speaker1: On the alignment side, i think it's much less clear that you need us, like, you may not have a sort of indefinitely scalable solution to alignment.
+[44:18] Speaker1: I think what you mostly need is the ability to tell whether things are potentially going off the rails, and to respond to that appropriately, which is a combination of are you able to assess what is happening and whether your control is adequate.
+[44:29] Speaker1: And then also some institutional or governance questions.
+[44:31] Speaker0: and how would you respond to that?
+[44:32] Speaker0: And just to reiterate for the audience, so the the worry is.
+[44:36] Speaker0: If these random cybersecurity startups can hack and get arbitrary access to our own secrets at OpenAI and anthropic within days of starting their attempt, certainly the intelligence agencies, a foreign adversaries could do the same if they wanted to.
+[44:52] Speaker0: And maybe they have already done that, but at some point they will actually make use of this information.
+[44:57] Speaker0: And if that happens.
+[44:59] Speaker0: And you have gone to the point where you are close to ai systems.
+[45:03] Speaker0: You know, gpt 11 could be catastrophic of misaligned and you're at gpt 9 and you say, look, i'm pretty scared about what's going to happen next.
+[45:10] Speaker0: So sometime in 2027, early 2027 may say, and you say we have to wait for a bit now and make sure that we are making sure that gpt 11 is lined.
+[45:22] Speaker0: But if they have the current security posture, china could trivially then get access to the weights or the algorithmic secret.
+[45:30] Speaker0: Start over to training gpt9 and now you can't wait.
+[45:33] Speaker0: Now you just have to go ahead and build the gpt 11 thing which could take over if it wanted to because or at least cost catastrophic harms if it wanted to because you're worried that china is going to use gpt9 to make gpt 10 to make gpt 11.
+[45:47] Speaker0: And so and you're you're sure that if you know your gpt 11 may try to overthrow you but china's gpt 11 will definitely try to at least attack you and that's a really tough position to be in if your security posture is messed up basically.
+[46:02] Speaker1: Yeah, that is the situation.
+[46:04] Speaker1: So we've talked about these like broader takeover scenarios and how you end up in this really bad situation and i think this is like the most likely path to end up there.
+[46:11] Speaker1: Is you have, we are having a discussion about what is the current evidence say, and it looks very alarming.
+[46:16] Speaker1: But on the other side of that discussion, we are weighing the risk that, you know, an adversary could steal algorithmic secrets or models and go ahead.
+[46:22] Speaker0: So, it it it's interesting because a lot of this discussion about pacing comes down to whether we are okay with china catching up, and ironically, the reason you want to pace is so that china doesn't catch up.
+[46:35] Speaker0: Except you're targeting this period, which you view as much more critical to overall safety, which is the period during the intelligence explosion.
+[46:42] Speaker0: You think slowing down now, and even potentially allowing china to start catching up now.
+[46:47] Speaker0: Is useful to the broader goal of being in a position where an ai is decisive, of ha ha, not not having china right on our heels, basically from stealing the algorithmic secrets.
+[46:58] Speaker1: Yeah, i think that is a fair summary.
+[47:00] Speaker1: I mean, i would say that like, if you are not.
+[47:02] Speaker1: The reason that ai development now is plausibly acceptable is that we can see how things go iteratively, and then respond if things look bad.
+[47:11] Speaker1: Yeah, right.
+[47:11] Speaker1: That is the whole thesis, which i think is a very reasonable thesis.
+[47:14] Speaker1: But it absolutely requires, like, that plan involves you at some point in the future potentially noticing that things are bad.
+[47:20] Speaker1: And so you just need security, i think, is the biggest hurdle, like the biggest thing you would need in order to like actually be able to slow down without massive costs.
+[47:28] Speaker1: Um, i think there's other infrastructure and like if it wasn't for security, the highest nail, we might be talking about other things and what's our level of preparedness on the scientific side or the governance side, right?
+[47:37] Speaker1: We are not in a regime where there is a meaningful like scientific discussion about how you assess whether your systems are aligned.
+[47:43] Speaker1: I guess we mentioned this earlier of like what's the state of public information in general.
+[47:46] Speaker1: I think it's like quite bad, right?
+[47:48] Speaker1: I think as independent scientists really have no idea whether the systems being produced are aligned or how you would tell.
+[47:54] Speaker1: I think if you wanted a governance regime that would actually make it feasible for the entire industry to react to worrying signs by slowing down in a way that didn't have.
+[48:01] Speaker1: Huge problems, right?
+[48:02] Speaker1: Where you're have individual developers making this decision on separate standards internally.
+[48:06] Speaker1: And you would need to have more of a robust, like shared sense of what is the bar on safety, or like actually have the scientific discussion where you understand how do we interpret this evidence.
+[48:16] Speaker0: And how how how how do you get there?
+[48:18] Speaker1: Ah, i guess that we have these two things you need to get their own security, which we've been talking about and then on on stuff like how do you tell?
+[48:25] Speaker1: I think the biggest path is disclose information, have a broader scientific discussion, both between different ai developers and in the broader scientific community.
+[48:34] Speaker1: Like what is the evidence we're getting?
+[48:35] Speaker1: Why do we think that evidence is comforting?
+[48:37] Speaker1: How are we going to tell when that changes?
+[48:38] Speaker1: Like what will we see before something that happens?
+[48:41] Speaker0: What information do you need from the companies?
+[48:43] Speaker1: I think the most salient thing that is not present in public discussion is information about how systems are trained.
+[48:49] Speaker1: There's also some information missing about how systems are evaluated, but the really big gap on this front is it is extraordinarily hard to interpret evaluation results without having some understanding of how systems are trained, and that's mostly not present publicly.
+[48:59] Speaker0: Oh, if you think this, and you're on the board of OpenAI, i know everything you've said is as your your your own opinions as a.
+[49:08] Speaker0: Private individual, but you are also on the board of OpenAI.
+[49:10] Speaker0: For some, maybe like, you, maybe other members of the OpenAI board feel this way, and maybe people at anthropic feel this way, and you guys are the leading labs.
+[49:19] Speaker0: Wha- what is standing in the way of, i mean this is actually a pretty drastic thing, to like literally pause capabilities progress now.
+[49:25] Speaker0: That would be an incredibly drastic thing, cause no- keep pacing is not that, right?
+[49:29] Speaker0: People are not talking about this, or at least people short of.
+[49:32] Speaker0: Bernie sanders are not and elise, your cowgirl are not talking about this.
+[49:36] Speaker0: What is actually needed like, yeah, so what you needed to do is this is basically a coordination problem.
+[49:41] Speaker0: Like if everybody could, if everybody had the choice with you all agree to this.
+[49:44] Speaker1: i think like first of all, i really do want to emphasize that i'm speaking for me as a person and like as an OpenAIr board member, i will bring my perspective to that discussion and but i'm not at all reporting on the views of the board in any way.
+[49:56] Speaker1: So i think probably the single you can imagine there's two blockers.
+[50:00] Speaker1: One is this is a hard question, right?
+[50:02] Speaker1: I think my view is on balance.
+[50:04] Speaker1: It is better for national security, public safety for ai companies to currently improve their security posture before making additional algorithmic progress.
+[50:13] Speaker1: That is not a super widely held.
+[50:15] Speaker1: It's not like everyone is sitting there thinking that i think we're currently at a place where i think for most people they say that's a really complicated messy question and we haven't thought through it enough or like this discussion is not.
+[50:24] Speaker1: Run its course and not everyone like has an opinion on this or has the same opinion on this.
+[50:29] Speaker1: So i think that is the most important thing that we just need to.
+[50:32] Speaker1: It's a messy conversation.
+[50:33] Speaker1: We need to have it and to talk about the costs, the benefits again, my view is it looks pretty bad to me right now.
+[50:40] Speaker1: It looks like we're sort of underwater from like public benefit perspective, but i think other people have different views.
+[50:46] Speaker1: And the second thing is, i do think an individual ai company is in a very rough spot, if they have this view, where they'd say like, look, we can defend our algorithmic secrets.
+[50:52] Speaker1: But all that is going to happen, if we like slow progress while we improve security, is that algorithmic secrets will leak from a competitor, we will lose market share, and the net situation will not be any better.
+[51:01] Speaker1: And so i do think there's both, i think the most important part is understanding, is this actually a good idea?
+[51:05] Speaker1: And like there's a bunch of different perspectives, people have different views, different values, whatever it is.
+[51:10] Speaker1: So, like, is it a good idea?
+[51:11] Speaker1: And then there's the further problem of like, how do you actually like implement this in any realistic way?
+[51:18] Speaker1: If individual developers again have this concern, like if i don't do it, someone else will, which is a fairly major.
+[51:23] Speaker1: I mean, on many of these issues we're talking about, i think there's a major dynamic and there's two companies leg work.
+[51:29] Speaker1: I there's a lot of companies in there's.
+[51:31] Speaker0: a lot of frontier like if open and anthropic agreed.
+[51:34] Speaker1: I think it is the case that if everyone at OpenAI and Anthropic agreed that this was good or it was like a clear prevailing sentiment, it is reasonably likely that it would happen.
+[51:44] Speaker1: Yeah, i think you should expect if everything is working reasonably, that should happen.
+[51:47] Speaker1: I'm not saying not commenting on where anyone else is right now.
+[51:51] Speaker1: I just think as a reasonable observer.
+[51:53] Speaker0: ai agents are doing more and more work without human oversight.
+[51:56] Speaker0: They can already write code faster than any person can actually review it.
+[52:00] Speaker0: But you can't just give code review to another set of agents.
+[52:03] Speaker0: There's no guarantee they'll magically fix problems introduced by the first set.
+[52:07] Speaker0: If one llm can't model a specific class of failures, then it's unlikely that a second or third or fourth llm will either, because even different llms tend to have similar failure modes.
+[52:18] Speaker0: my sponsor, antithesis, offers a different approach.
+[52:22] Speaker0: you, the human, define the rules your system must never break.
+[52:26] Speaker0: for example, a customer should never be double-charged for the same transaction.
+[52:30] Speaker0: then antithesis acts as an external oracle, testing whether your code adheres to these rules.
+[52:35] Speaker0: to be clear, antithesis isn't an llm that tries to reason abstractly about whether your system could possibly break its own rules.
+[52:42] Speaker0: It actually runs your code stress testing it in thousands upon thousands of adversarial worlds just like we fly planes for many many hours and put them through all sorts of intensive maneuvers before we let any passengers on board antithesis lets you gather a ton of empirical data about your code before you release it to production and it's easy to get started antithesis just launched a self serve plan to sign up go to antithesis com slash doorcash and use code doorcash for 百 分 之 5 0 off your 1 st month.
+[53:15] Speaker0: Right now, anthropic and OpenAI have paused, and got their security together for the next six months.
+[53:21] Speaker0: In the meantime, chinese models continue getting better.
+[53:24] Speaker0: What is the reason to think that once OpenAI and anthropic go full steam ahead again?
+[53:29] Speaker0: That.
+[53:31] Speaker0: A china wouldn't be.
+[53:34] Speaker0: If china gets a similar levels OpenAI and anthropic, why wouldn't they be doing rsi to similar pace?
+[53:40] Speaker1: Yeah, so i think there's two different models, maybe two extreme models.
+[53:43] Speaker1: You could have the us china competition.
+[53:45] Speaker1: One extreme model is us and china are kind of proceeding or along independent technical tracks and it happens to be the case that they have proceeded almost exactly the same speed and then we are whatever it is six months ahead.
+[53:56] Speaker1: And on that model, yeah, if you wait six months, you will now be exactly even, and from there on, you will be exactly even.
+[54:01] Speaker1: There's another extreme, i think that model is like, that would be a very surprising situation for a bunch of reasons we can talk about.
+[54:07] Speaker1: At the other extreme is a model that is actually large parts of chinese progress are catch up growth, because large parts are catch up growth, and if the us is one month further ahead, and by catch up growth.
+[54:18] Speaker1: I mean things like distillation from us models.
+[54:20] Speaker1: And diffusion of algorithmic developments from us companies.
+[54:23] Speaker1: If you're in the catch-up growth regime, then it is the case that each additional month of us lead increases the speed of prc catch-up.
+[54:30] Speaker1: Right?
+[54:30] Speaker1: The further ahead you are the easier it is or the more benefit from distillation and the more you benefit from diffusion of algorithmic ideas.
+[54:36] Speaker0: right?
+[54:36] Speaker0: But i guess at the point at which they are the same level.
+[54:38] Speaker0: Yeah, they should be able to use those models who do rsi themselves.
+[54:41] Speaker1: Yeah, i mean the two things that are very relevant at the current, this becomes worse and worse over time, but at the current scale is about the case that.
+[54:48] Speaker1: Human capital is extremely relevant and ai labs have a huge amount of human capital.
+[54:52] Speaker1: I think can make faster progress and compute is extremely relevant.
+[54:54] Speaker1: This will remain true going forward and us labs have a huge amount of compute.
+[54:58] Speaker1: So generically, if not for ketchup growth, i think we would have a pretty strong expectation of us labs moving faster.
+[55:03] Speaker0: The other argument is shouldn't we?
+[55:06] Speaker0: If the cyber models are getting better and better, shouldn't we wait for models which can instead of having to wait six months to get our security posture up and give sick china, six months to catch up.
+[55:17] Speaker0: That maybe we only have to wait two months, you know, cyber models, get two months better from now.
+[55:21] Speaker0: Yeah, there's this analogy one can draw to sending a probe out to office and tory and whether we should do that with today's technology in which case would arrive, you know, thousands of years later or we should do with technology 100 years from now in which case it would be lapped on the way to office and tory and we could imagine a similar thing is true for securing the hardware at or securing the algorithm secrets and weights at OpenAI and anthropic where they.
+[55:44] Speaker0: If they started the pacing or started the pause two months from now or three months from now, the speed at which they would be able to secure the source systems is faster than if they started right now.
+[55:53] Speaker1: Yeah.
+[55:54] Speaker1: I mean i think this is a really important question, and one of the bigger questions, and.
+[56:00] Speaker1: So, the downside on the other side, to make it clear, is, if you had diffusion of algorithms right now, it is much worse than diffusion of algorithms six months ago, but much less bad than diffusion of algorithms in a couple months.
+[56:10] Speaker1: Like right now, you are both you require more compute, and you require more human capital to proceed with ai development.
+[56:16] Speaker1: And the more time passes, the more disastrous it is to have like an adversary actually willing to just grab everything and try and compete.
+[56:24] Speaker1: um, So that the reason to do things earlier is that if you make have a pause earlier, both there is more time for differences to wash out, and you are more loaded on your the factors where you currently have an advantage.
+[56:36] Speaker1: What even more loaded in the, like, and compute matters more, and people matter more right now, than they will in six months.
+[56:41] Speaker1: You might imagine, if we're in the world, we have rapid progress over the next year.
+[56:45] Speaker1: Six months from now, it is likely the case that it will essentially not matter how many people you have, it will only matter how much compute you have.
+[56:50] Speaker1: Yeah.
+[56:50] Speaker1: And so at that point, there is less of like accumulated institutional know-how, or it sort of just becomes this raw contest of numbers, and it's very easy for any delay you're willing to take, either for security or for safety, to be decisive in that kind of contest.
+[57:04] Speaker1: And it's just like the concern is, as you move forward, it gets more and more likely that's the world you're in.
+[57:08] Speaker1: I think some people would say this is like kind of already basically the world we're in, that we have now come too far.
+[57:12] Speaker1: This is like another argument that has been made, which is we're already in the just go all out and race, because it is already the case that leakage is too bad, and you will be overtaken if you slow down for safety.
+[57:21] Speaker1: Yeah, i think that's probably not the case, but to the extent that you're seriously entertaining, you have already gone too far.
+[57:25] Speaker1: I think that is illustrates why you might not be like, i'm just gonna wait another two months and harden things.
+[57:30] Speaker1: Maybe the last thing to say is like is a little bit unclear with the dynamics are in terms of how quickly you can harden things, right?
+[57:35] Speaker1: So some of hardening things is writing new software or whatever it is, or changing the way you operate.
+[57:39] Speaker1: Some of it is changes that humans make, or changes to your like overall arrangement of compute or whatever, which are not as easy to make really rapidly.
+[57:47] Speaker1: Or maybe not as accelerated by AI.
+[57:49] Speaker1: So you'll at least some part of this lag, which is not tied to the capability of your AI systems.
+[57:54] Speaker1: That is messy.
+[57:56] Speaker1: I think i do think the biggest bottleneck is like, can people agree?
+[57:59] Speaker1: Like, can we have out this debate and like actually understand what the net is?
+[58:02] Speaker0: And if we are this close to superintelligence or at least there's a good chance we are.
+[58:08] Speaker0: And, There's a good chance of super intelligence could be in a position to overpower governments and kill lots of humans.
+[58:16] Speaker0: What should the ai labs be doing right now?
+[58:18] Speaker0: If you had to boil it down in one answer, what would you say?
+[58:21] Speaker1: I think there needs to be more public visibility both into the capability trajectory, right?
+[58:25] Speaker1: We should not be relying on like meter and anthropic saying it looks to us like we're gonna be able to overthrow governments in a year.
+[58:32] Speaker1: In fact, we have invested interest in really seeing the underlying data for that.
+[58:35] Speaker1: To have visibility on alignment, right?
+[58:37] Speaker1: To understand how do we tell that existing systems are adequately aligned or controlled, and like actually start having a public discussion about.
+[58:44] Speaker1: Like, what is the bar for good enough evidence that things are working?
+[58:48] Speaker1: And then, you know, beyond just information, at some point you do need to say, here is what we need to get done before we continue making progress, either before we scale up our models further, or before we continue producing algorithmic developments that may leak.
+[59:01] Speaker1: And right, the first are inputs into the second.
+[59:03] Speaker1: We need to understand where our capabilities at, and where is alignment at, in order to understand, is it a time where we need to improve our security or safety situation before we proceed?
+[59:11] Speaker1: I do think given the current state of uncertainty.
+[59:14] Speaker1: If i was a person in the public without access to further information, my strong opinion would be, it looks like we are already at a point where we need to be improving safety and security before moving further.
+[59:24] Speaker1: And i think again, the most important form of moving further right now are algorithmic developments that improve the efficiency of of pre-training in rl.
+[59:31] Speaker0: Ok, stepping back, you've got the super intelligences in a data center.
+[59:35] Speaker0: I'm trying to lay out an intuition for like, here are the kinds of capabilities that super intelligence would have.
+[59:40] Speaker0: What should we imagine those intelligences capable of doing?
+[59:43] Speaker1: So just to start with a high level sketch of my view.
+[59:48] Speaker1: Maybe there's two kind of lenses you could use.
+[59:50] Speaker1: One is look at current progress and just see where does it lead if you extrapolate that progress, like a responsible distance.
+[59:56] Speaker1: And the second is to sort of think about what we know about the limits of the technology and where we would expect those limits to be.
+[60:02] Speaker1: And on the first front, I mean some things I think are relatively clear.
+[60:05] Speaker1: So if you imagine AI systems doing cyber operations today, we have seen an incredible rate of progress.
+[60:09] Speaker1: We are currently seeing pretty impressive capabilities in terms of AI systems not only being able to discover vulnerabilities but develop exploits and increasingly chain them together into operations.
+[60:19] Speaker1: I think what you will see for super intelligent systems is both of those capabilities scaled up much much further.
+[60:25] Speaker1: So systems which are able to carry out, or you might imagine, very cheaply carry out cyber campaigns more sophisticated than anything a state is capable of today.
+[60:34] Speaker1: I think you will see those capabilities being combined with a much broader set of abilities to say engage effectively with humans, think strategically, manipulate humans, manipulate organizations, play politics effectively.
+[60:46] Speaker1: I think you'll see those capabilities at a level well beyond any human.
+[60:49] Speaker1: I think you should think of this as like very, very large populations of ai systems thinking quite quickly.
+[60:54] Speaker1: So maybe a very simple model would be like a population of billions who are thinking 10 times faster than humans who are much better than humans at essentially every skill.
+[61:05] Speaker1: I think this is all what you would expect from an extrapolation of existing technologies, and seeing just like very good capabilities in domains like, again, like cyber or manipulation or research.
+[61:15] Speaker1: Like doing scientific research, hypothesis generation, experiment design.
+[61:20] Speaker1: I could expect to see extremely strong capabilities in robotics, in like logistics and coordination and control.
+[61:28] Speaker1: I think you would expect to see very, the possibility for very very rapid technological progress, including in domains that involve physical experimentation, in terms of being able to orchestrate experiments quickly.
+[61:39] Speaker1: Rapidly build out apparatuses to increase throughput of experimental results.
+[61:44] Speaker1: It sounds like one bucket of just things that i think you can kind of see by drawing dotted lines on graphs and talking about where they go.
+[61:51] Speaker1: Maybe stepping back a bit in terms of what the technology looks like more fundamentally, i think.
+[61:56] Speaker1: Humans are very good at this task.
+[61:57] Speaker1: If you throw a human in a new domain, the human takes in some information, the human learns about that domain, and becomes able to act effectively.
+[62:03] Speaker1: And that's kind of.
+[62:05] Speaker1: The reason we're effective in the modern world is primarily that ability to learn about a new domain and adapt to it, right?
+[62:09] Speaker1: Humans do not have a ton of evolutionary context about how to be a good chemist or a good biologist.
+[62:14] Speaker1: That's something we pick up over the course of, you know, a couple years or decades on the job.
+[62:18] Speaker1: I think in some sense, the most fundamental skill that ai systems will possess at the end of this process is that kind of rapid learning, adaptation, planning, reasoning, like these very domain general skills.
+[62:29] Speaker1: Such that even if you drop them in the world that was completely unlike anything that they had experienced in a data center, they would adapt to it very quickly, in the same way that humans adapt very quickly to these r&d domains that are quite different from anything we encountered in our evolutionary environment.
+[62:42] Speaker1: and.
+[62:43] Speaker1: So that i think would result in systems which collecting maybe even just a couple of days of experience in a very parallel way would end up with real world capabilities in essentially any domain much beyond the abilities of the best human experts, right?
+[62:54] Speaker1: They will have learned from much much more data.
+[62:56] Speaker1: With learning algorithms that i think at that point will be much better than those that evolution has given humans.
+[63:01] Speaker1: Um, that's sort of a more abstract picture of where this sort of ends.
+[63:06] Speaker1: Beyond just drawing dotted lines.
+[63:09] Speaker0: Maybe i'll try to just.
+[63:12] Speaker0: Say that basically again because i this ends up being a significant crux in these conversations where i'll be talking to somebody about the possibilities of superintelligence and they'll say, okay, you'll have a thing which is superhuman encoding, but how will it learn to be good at politics or how will it learn to run a new automated firm and then set us compete with human forms or something?
+[63:34] Speaker0: And so, in those conversations, you realize there's a big disconnect between the way you are talking about superintelligence, and the way most people understand superintelligence, which is just a narrow ais.
+[63:47] Speaker0: That are specialized in some domain, like, and have just amalgamated a lot of very specific experience or expertise, and say coding or mathematics.
+[63:56] Speaker0: Where you're imagining instead is something like human like learning, so.
+[64:00] Speaker0: The top engineers at spacex were not born knowing how to make a rocket that can get hundreds of tons of cargo to orbit, right?
+[64:07] Speaker0: So this is like an expertise they gained working on the problem during their lifetime.
+[64:11] Speaker0: And you're saying this like meta learning capability is something that super intelligence will also have.
+[64:15] Speaker0: I mean, it at least have a a learning capability as good as humans.
+[64:18] Speaker0: You're suggesting it could be much better.
+[64:20] Speaker0: But furthermore, even if it was only as good as humans, but they could learn from.
+[64:25] Speaker0: Right now, there's maybe tens to hundreds of millions of instances of child gpt or cloud, which are actively doing real work in the economy, right?
+[64:32] Speaker0: They're like helping somebody write code or helping some senator write a political brief or something.
+[64:39] Speaker0: You're imagining a world where we have the learning algorithms basically such that ais can learn from all this experience at once.
+[64:50] Speaker0: It's not like right now the base model is not even learning from the experience of a single deployed instance.
+[64:54] Speaker0: You're managing a world where.
+[64:55] Speaker0: If 100 million instances of chad gpt are going and doing something, the base model is learning across basically 100,000 different careers at once or 100,000 different work sessions at once and doing it much better and faster than humans can learn from a single instance.
+[65:09] Speaker0: And you're also imagining a world where the population of ais is, you know, i guess you have an estimate how like how big a population.
+[65:18] Speaker1: how fast you think about it more more carefully.
+[65:20] Speaker1: But if you are.
+[65:22] Speaker1: Maybe a really important part for all of these discussions before talking about population size is it really matters if we are imagining like really driving this process extremely fast.
+[65:30] Speaker1: I think people can really easily be in a headspace of like i'm extrapolating another year of progress at the current rate.
+[65:34] Speaker1: That's really worth emphasizing.
+[65:35] Speaker1: We are talking about systems which get not only extremely good at coding, but extremely good at every like well posed virtual task which machine learning engineers are able to make in the lab.
+[65:45] Speaker1: So you think if you push that to its limit, and you say how large are those populations, i think it's like very conservative to say a population of billions of agents running at 10 times human speed.
+[65:52] Speaker1: I think we have debate exactly what are the limits but they would be significantly larger than that just because of software efficiency.
+[65:58] Speaker1: Yeah, that's that's right.
+[65:59] Speaker1: Just like how efficient can you make and it's right?
+[66:01] Speaker1: You're not going to talk about like a single type of agent.
+[66:02] Speaker1: They're all the same a billion of them running.
+[66:04] Speaker1: We're gonna talk about these very heterogeneous programs, many of which are like very specialized, right?
+[66:08] Speaker1: One thing you do, if you do a huge amounts of r&ds, i would like to produce just the cheapest thing i can, which is expert enough in a domain to act effectively.
+[66:15] Speaker1: So you shouldn't.
+[66:16] Speaker1: You know, again, it's a reasonable intuition pump.
+[66:17] Speaker1: Say, will be more capable than billions of people thinking ten times as fast.
+[66:21] Speaker1: But in fact, it's really like much, much larger populations of specialized systems, maybe billions of very general purpose systems, which are as good as humans at anything.
+[66:29] Speaker1: Yeah, yeah, i do think it just goes, if you imagine like really pushing this process and having faster and faster progress on software, and if someone grants like actually we're gonna see that process saturate, like everything you can do in the data center is gonna become really great.
+[66:41] Speaker1: I think that endpoint is really extreme.
+[66:43] Speaker1: I think the gap between doing really extreme stuff in the data center and doing really extreme stuff in the world is is very small or smaller than people appreciate.
+[66:51] Speaker0: Ok, so.
+[66:54] Speaker0: I think, there's a discussion to be had about whether such systems are even possible.
+[66:59] Speaker0: I find, i am very compelled by the argument that just something which can learn at least as well as a human can.
+[67:06] Speaker0: So there's some learning algorithm that human brains have something which learn at least as well as a human can, but which has huge population sizes and which can learn from the deployed experience of hundreds of millions of different instances at once.
+[67:21] Speaker0: That alone would be pretty transformative and then i agree with you.
+[67:25] Speaker0: There's no clear reason to think that you can't give me more learning efficient than humans.
+[67:29] Speaker1: I think it's very good.
+[67:30] Speaker1: Yeah, i'm very happy to talk about this.
+[67:31] Speaker1: I don't know if it's like an end up being the main objection people have, but i think there's very good evidence that you should expect systems in in the end.
+[67:37] Speaker1: Once you have like really driven the technology to its limit to be much much better than humans in these ways.
+[67:41] Speaker1: I think we it's not just a case of like we have humans.
+[67:43] Speaker1: So you know, at least that well, i think we have good evidence.
+[67:45] Speaker1: It's much better than this.
+[67:46] Speaker1: And so i think relevant things are one, just the rate of progress and evolutionary time.
+[67:50] Speaker1: If you look back over evolution, it's fairly clear that we're seeing extremely rapid improvements in learning capability and intelligence and planning capability, right?
+[67:58] Speaker1: As you move into humans.
+[67:59] Speaker1: And the thing that happened was just humans got good enough that cultural change was faster than those biological improvements.
+[68:03] Speaker1: So we kind of know if you just like ballpark evolution, it was clearly if we didn't form civilization going to make much smarter things.
+[68:09] Speaker1: Yeah.
+[68:09] Speaker1: Then you have a variety of, as you say, like there's the data question of humans learn from one lifetime of data, ai systems will learn, i mean already learn from radically more data than humans.
+[68:16] Speaker1: And that gives them like even if you were no better as an algorithm designer than evolution.
+[68:20] Speaker1: You would produce much much better minds if you can relax that constraint.
+[68:23] Speaker1: Then you have things like power constraints and coordination constraints, which we have a pretty good sense are really big deal for evolution.
+[68:29] Speaker1: And we will be able to push those out much further.
+[68:32] Speaker1: It's sort of like, you know, if you want to produce electricity or something, the ability to make a nuclear reactor, you don't have to be smarter than evolution, you're just operating in a different regime from evolution.
+[68:38] Speaker1: You're able to do things that wouldn't have been a good idea for evolution.
+[68:41] Speaker1: So, i'm very happy to dig in more on this, but i do think, and it's probably not for most people gonna be the most compelling argument, it's more compelling to like look at the status quo and say well.
+[68:47] Speaker1: We've had 10 years of progress.
+[68:48] Speaker1: You only have to extrapolate another 10 years to get to the crazy superintelligence.
+[68:51] Speaker1: Yeah, i do think we have a pretty good indicator that it does not top out anywhere near humans.
+[68:55] Speaker0: Yeah.
+[68:55] Speaker0: And sorry, just to say that your last point again, what you're saying is look humans developed on the savannah under this tight constrained.
+[69:05] Speaker0: We're really evolution was trying to get something that is good to propagating its genes.
+[69:08] Speaker0: One of the ways that a chimpanzee can get better at propagating his genes or ancestors can get better at that.
+[69:13] Speaker0: Is by being having these like general planning and reasoning capabilities.
+[69:17] Speaker0: But they're not worth so much that you are willing to say give up digestive functions or immune functions, and surrender more of your total 100 watt budget.
+[69:26] Speaker0: To the brain, and so you have this extremely tight power constraint for the brain, extremely tight size constraint for the brain as a result.
+[69:32] Speaker0: Not only of that, but other evolutionary reasons as well, like how can your head literally fit through the birth canal?
+[69:38] Speaker0: Um and that will not be true of ai systems where we're not saying that hardware will be more power efficient than the human brain but simply that it's not as big a constraint for us to just have enormous amounts of hardware that is consuming a lot of power in a way it was for evolution when it was designing the human brain.
+[69:53] Speaker1: and this cuts in both directions right it's also the case that you will have extremely power efficient systems but you can't say if you're a human you can't be like well i'm going to make like 10,000 simple agents each of which uses only 1 of a brain or 0.01 of a brain and it's better than a human at doing cyber operations yeah right so this is this flexibility about form factor that is going to be a huge.
+[70:10] Speaker1: Like, if you just did, if you were no smarter than evolution, just did what evolution did, you would end up with these, yeah, you would end up with agent swarms that are completely beyond teams of humans, like really radically beyond them.
+[70:21] Speaker0: Let's say that an agent is vibe coding a web app, and it needs a database.
+[70:25] Speaker0: There's one database provider that needs a human to go through the whole sign up flow, verifying their account, adding billing details, and then generating an api key to hand back to the agent.
+[70:34] Speaker0: And then there's another provider.
+[70:35] Speaker0: That lets the agent make an account all on its own.
+[70:38] Speaker0: The agent will probably choose the second one.
+[70:41] Speaker0: In general, agents tend to pick the tools that they can use right away versus the ones that they had to wait around on.
+[70:46] Speaker0: So as agents do more and more work, giving them their own way to sign up becomes an important way to win new users.
+[70:52] Speaker0: My sponsor workos makes this easy.
+[70:55] Speaker0: If you use workos for login, you can give agents their own sign up flow just by toggling on agent registration.
+[71:02] Speaker0: You can then decide what agent should be able to do on their own, and what, if anything, should wait until the person they're working for gets involved.
+[71:10] Speaker0: Going back to the database example, maybe you want to set things up so that agents can create databases all on their own, but they can't share them with anybody, or upgrade to a paid plan without a human.
+[71:20] Speaker0: You can do all of this with permissions that you already set up in workos, instead of having to build a separate system for agents.
+[71:26] Speaker0: To learn more, go to workos dot com slash authkit.
+[71:32] Speaker0: There's a bunch of objections people have to the idea that automating ai research will lead to crazy fast progress along these more general class of capabilities.
+[71:44] Speaker0: You know, you talk about experiments and data and everything else, but really, i think what it comes down to in the end of the day, if you just dig in deep on any of these, is the sim to real gap.
+[71:55] Speaker0: Basically, is it possible.
+[71:57] Speaker0: That you could have a process which occurs entirely within a data center, which results in a minds which are not not only as capable as humans at learning in a new domain, especially a domain that is like a real world thing like making a new company or you know me- negotiating a deal with china or something like that.
+[72:18] Speaker0: Not only as good as humans, but even better than humans.
+[72:20] Speaker0: So how do we get ais that are capable in this more general way you're suggesting from the within data center training that will be happening over the next year?
+[72:28] Speaker1: I do want to start by reiterating that i think if you take progress in the real world, and granting that it is slower on messy real world tasks than it has been in math or coding.
+[72:37] Speaker1: It's still the case that if you take that progress and just extrapolate it forward, i do think it gets us two systems which are powerful enough that they would be able to outcompete humans.
+[72:45] Speaker1: And and we could talk about what people are doing to drive that, and like how you can scale it into the future, right?
+[72:49] Speaker1: So i think you are looking at things like, one, you can train on a bunch of related well posed tasks, right?
+[72:56] Speaker1: So these systems we're talking about will have been trained on a huge amount of like predict how humans will respond to something.
+[73:01] Speaker1: So we talk about these ais coming out of the data center, they're not like as we've never seen the world.
+[73:04] Speaker1: They are ais who will be radically radically superhuman at predicting things like, given what just happened with that person's face, how should you update what they're going to do tomorrow?
+[73:12] Speaker1: Right, or given what this company has done over the last three weeks, what do you most expect this company to do in the next week?
+[73:17] Speaker1: Or given observations of this laboratory environment, what is the best prediction for the result of this experiment?
+[73:22] Speaker1: Right, so those things are in, when we talk about like sim to real, we should be clear.
+[73:25] Speaker1: That we actually are including a bunch of these tasks which people train on now, and that even includes things like, given the data so far from this laboratory, do as many like computational experiments as you can.
+[73:35] Speaker1: Do as much hypothesis generation and exploration as you can, in order to come up with hypothesis to make a good prediction about what you'll see next.
+[73:40] Speaker1: So the systems will also be very superhuman at many parts of like science, at reasoning about the real world, at planning, and like hypothesis generation and so on about the real world.
+[73:50] Speaker1: That's part of the story for how it is.
+[73:51] Speaker1: Even the kind of thing we're doing now can produce very powerful systems.
+[73:55] Speaker1: As i can part of the story is that you can train, right?
+[73:57] Speaker1: One regime is you can train on exactly the thing you care about.
+[74:00] Speaker1: You say, i care about writing code that passes this type of unit tests.
+[74:03] Speaker1: So i'm just going to train systems that are incredibly good at that.
+[74:06] Speaker1: You can also do a second thing, which is a large part of what we observe in performance, which is trained on a broad distribution of tasks, either kind of in a general domain or across several domains.
+[74:14] Speaker1: And then deploy those systems, right?
+[74:16] Speaker1: Acquire general skills that are relevant to that domain with transferred in your tasks.
+[74:19] Speaker1: So i can say, i'm not going to try and train a system, which is good at the exact problem, right?
+[74:24] Speaker1: The exact problem of going and talking to congress people in order to influence them, but i can train a system in an extremely broad range of different tasks where there will be a lot of common skills, including these general skills.
+[74:34] Speaker1: Like, how do i adapt on the fly?
+[74:36] Speaker1: How do i learn?
+[74:36] Speaker1: How do i plan?
+[74:38] Speaker1: How do i set up reasonable experiments that i can learn from and tell how well i'm doing?
+[74:42] Speaker1: So if i create like very broad distributions of tasks, some of which could be coding tasks, but some of which can be tasks like you're dropped into a new, very messy virtual environment, and need to try and navigate that environment.
+[74:52] Speaker1: Or you're given a new type of task, and you're given 20 examples of it, and you need to like learn how to do a really good job.
+[74:57] Speaker1: I'm doing the next example quickly.
+[74:59] Speaker1: Or i have to interact with other ai systems, or i have to interact with humans in environments where i can.
+[75:03] Speaker1: In the data center, there is a fair amount of human data that is available.
+[75:06] Speaker1: As you just go through numbers and say how much interaction with humans can you actually get?
+[75:09] Speaker1: It's not like the systems have never seen humans, they will have seen vastly more human interaction even than any human would.
+[75:14] Speaker1: So they can also deal with a bunch of reinforcement learning environments that involve other humans or involve collaboration with you.
+[75:18] Speaker0: Right, because people haveamateur, like people have written in like what how a human would respond to something, or how how is that human data in there?
+[75:24] Speaker1: Yeah, i mean you can also just literally engage with humans as part of the training process.
+[75:27] Speaker1: So people do spend large amounts of money saying great, i'm gonna have some humans engage with the system.
+[75:30] Speaker1: Yeah.
+[75:31] Speaker1: and.
+[75:33] Speaker1: And there's a question how efficiently you squeeze information out of that data, how quickly do you learn, like you have these very general skills, how quickly do you learn about the particular domains.
+[75:41] Speaker1: But again, i think that the the dotted line from what we've seen so far together with like a ton of capability to push that forward, and to do a bunch of automation, like the construction of many more environments.
+[75:50] Speaker1: And so on.
+[75:51] Speaker1: And just looks very likely to lead to systems that can quite quickly rise to at least human level and likely way past human level, including on very messy real world.
+[76:02] Speaker1: Tasks.
+[76:03] Speaker0: and and so i, the the thing i'm curious about is why you think this happens over the next year then.
+[76:08] Speaker0: Like, it seems in principle possible to me that.
+[76:12] Speaker0: There's enough data available even within a data center that if you have a decent amount of transfer, you have a very capable system.
+[76:20] Speaker0: Like, if there's enough transfer from evolution training us in the savannah to now a human being able to make a semiconductor, then maybe there's enough transfer from what's happening inside the data center to let's go to congress and try to persuade them of something.
+[76:34] Speaker0: But um, the things you're mentioning, like this endless back testing, or like this rl basically on fuzzy tasks, it seems like things we've already been doing for many years now.
+[76:47] Speaker0: And it doesn't seem like we're a year away, or like a further year of scaling away from this big a jump.
+[76:52] Speaker0: And so, by correct and understanding that you're just imagining something like we've already done, but like a much just a much bigger qualitative jump along those same lines.
+[77:00] Speaker1: Yeah, much faster.
+[77:01] Speaker1: So I think if you asked me, hey Paul, if you're extrapolating the dotted line and looking at the mechanics of what people are doing, how long would it take to produce systems that are in fact capable enough at all these tasks that they would be able to reliably outcompete humans?
+[77:12] Speaker1: I would probably say something like it seems like it might happen in four years, maybe it could happen faster than that.
+[77:18] Speaker1: I feel more confident within eight years or something.
+[77:21] Speaker1: Yeah, so those are the kinds of numbers I would be throwing around.
+[77:24] Speaker1: If we were just asking on the current trend, how long will it take to exactly the things we're currently doing to get these capabilities?
+[77:29] Speaker1: And people could, there's lots of room for debate about those numbers.
+[77:32] Speaker1: But the thing that i am most worried about, that i think seems like an extremely live possibility, like probably more likely than not at this point.
+[77:39] Speaker1: Is that instead what will happen is the work that people are doing in machine learning, in order to drive all those improvements that we've seen over the last four eight years, will be automated to such an extent that the pace of that progress is.
+[77:50] Speaker1: Accelerated by at least 10x and likely more.
+[77:54] Speaker1: And we are maybe already seeing acceleration in the ballpark of 2x.
+[77:57] Speaker1: I think it is very likely on the current margin that the first thing that acceleration does is like continue sustaining itself.
+[78:04] Speaker1: Regardless of this broader discussion of how good ai systems are acting in messy real-world environments, ai systems are very good at acting in virtual environments when they're trying to deliver on verifiable tasks.
+[78:13] Speaker1: And so i think the thing that is most robust is the ai systems are improving extremely rapidly and are starting to cross human level on the kinds of tasks that are involved in making your ai systems better at learning in environments you can simulate in the data center.
+[78:25] Speaker1: And that includes slightly more broadly, the kinds of software engineering tasks that are involved in creating new environments that stress test hard skills, and even many of the software engineering skills that are involved in orchestrating data collection from the real world.
+[78:36] Speaker1: Like we could talk about what are the data bottlenecks, like what are the bottlenecks in that process, which cannot be accelerated by automation.
+[78:42] Speaker1: It looks like if you look across the core things humans are doing to drive the last 40 years of progress, those are things which we are on an extremely good pace to automate.
+[78:50] Speaker1: And we are fairly likely to have the self-sustaining acceleration where we see, you know, in eight months, you double the pace and in the next four months, you double the pace again and in two months, you double the pace again.
+[78:59] Speaker1: And at some point in that process, right?
+[79:01] Speaker1: At the beginning of that process, it will be focused primarily on these virtual tasks because your main priority is making the self-sustaining loop faster and faster.
+[79:09] Speaker1: If you're a person just wants to get to the end point as quickly as possible, you do not care how good a lawyer system is for a while.
+[79:14] Speaker1: You just care how good it is at driving the development of better architectures and better optimizers and better learning algorithms.
+[79:21] Speaker1: That's all you, or even constructing new environments or orchestrating like this kind of messy, maybe you care about one slightly messy task, which is constructing environments that help you build the skills that are relevant in the real world.
+[79:31] Speaker1: But you don't care about almost any of the real world tasks where we're seeing the slowest progress.
+[79:35] Speaker1: As you're focused on that, and you're going through this process of seeing doublings in 8 months, and 4 months, and 2 months, and 1 month.
+[79:40] Speaker1: And then as that process goes, it becomes cheaper and cheaper or faster and faster to then develop algorithms and models that perform very effectively in the real world domains that ultimately matter.
+[79:50] Speaker1: So i think that is like really the concern, and the question is, as we said first, is that process going to occur?
+[79:56] Speaker1: Are you going to see the self-sustaining acceleration with faster and faster progress?
+[79:59] Speaker1: I think honestly, to me, that is probably the bigger open question.
+[80:03] Speaker1: I think that looks more likely than not right now, but if that occurs, i think things are almost certain to be extremely crazy.
+[80:08] Speaker1: There is then a second question about the particular way in which they get crazy, which is that it looks very likely those models will transfer to the real world, the systems that are able to outcompete humans.
+[80:17] Speaker1: But that does happen kind of very backloaded in the year, right?
+[80:19] Speaker1: If you're imagining a year where very disruptive things happen, and this is part of why it's so hard from a policy perspective.
+[80:24] Speaker1: For the first six months of that year, all you are seeing is better and better performance on thi-, like, you'll look at the systems and you say, well, they were previously superhuman at math, and now they're like.
+[80:32] Speaker1: Incredibly superhuman at math, you have like no real ability.
+[80:34] Speaker1: If you go and talk to someone, there's no real ability to say like, therefore they are a threat to humanity, or like, ai labs are currently saying things like, oh yeah, every month we're doubling the amount of internal use of ai.
+[80:44] Speaker1: And the like degree to which it's contributing to our progress.
+[80:47] Speaker1: Or like over the last six months, we've seen a doubling of like the net effect, even including diminishing returns or net pace of progress, even including diminishing returns.
+[80:53] Speaker1: You can have more statements like that, but if people are not.
+[80:58] Speaker1: You could be in a world where the link from that to like very severe harms does not become obvious until quite late in the process.
+[81:03] Speaker1: Yeah.
+[81:03] Speaker1: And to some extent, i think it is getting increasingly obvious now, right?
+[81:06] Speaker1: If you can look at cyber capabilities and models in particular, but also their capabilities in some scientific domains, they are approaching the point where there are very severe risks.
+[81:13] Speaker1: And but that is.
+[81:16] Speaker1: Right, that is, we're seeing that in a couple of domains, and so it's tempting to say, ok, we have two problems, there's just a few specific domains in which ai systems have dangerous capabilities.
+[81:25] Speaker1: But if this process of acceleration continues, that is not going to be localized to cyber or to bio, right?
+[81:30] Speaker1: That is going to be a thing that occurs across all of science, across all of social engineering.
+[81:33] Speaker1: Yeah.
+[81:34] Speaker1: And i think there is the thing where we need to, if you're thinking about the risk, you do need to really understand whether this is possible, whether you can have the self-sustaining acceleration, then leading to very very rapid progress.
+[81:43] Speaker1: In dangerous real world capabilities, both in specific domains and it's kind of very general learning faculties.
+[81:48] Speaker0: We talked.
+[81:48] Speaker0: Yeah.
+[81:49] Speaker0: And so this goes back to the thing you're saying of you should imagine the systems in the future are less about fine-tuning gpt6 to do something but more like gpt 12, maybe just being able to do it out of the box with very little experience.
+[82:01] Speaker1: Gpt 12 also be great at fine-tuning gpt 12.
+[82:03] Speaker1: Exactly.
+[82:03] Speaker1: So gpc 12 is like i find that my chemistry intuition is not very good.
+[82:07] Speaker1: Gpt 12 will be great at saying.
+[82:08] Speaker1: Okay, i'm going to direct 1000 humans and here's the data.
+[82:10] Speaker1: I think i most need we're going to do one day of data collection of that type and we're going to run these experiments and do the de-risking and you know, within four days, gpt 12 has the new tiny model, which has incredible chemistry intuition and doing this in parallel across all domains.
+[82:23] Speaker0: Yeah.
+[82:24] Speaker0: And okay, so this is like, i think you just answered a question which i meant to ask you.
+[82:27] Speaker0: So, It seems like a big thing that is driven your concern over the last few days is this new result from meter where they find that anthropics pace of ai progress on well scoped tasks has doubled.
+[82:39] Speaker0: And so these are tasks as captured by benchmarks like the epoch capabilities index, which amalgamates a bunch of different benchmarks.
+[82:47] Speaker0: Now, it could be that there's other evidence that is relevant to meters assessment that ai progress has doubled, but that evidence has not been made public, and i think that's one of the problems you have with the current setup.
+[82:56] Speaker0: But if you just consider that evidence on its own, so we have umprogress on verifiable tasks has doubled, but we have this effect where we're searching for our keys under the lamplight, right?
+[83:07] Speaker0: So, it is also the verifiable tasks which are being trained on.
+[83:11] Speaker0: And then you can ask the question, is progress on non-verifiable tasks.
+[83:15] Speaker0: Also, has that also doubled over the last year?
+[83:18] Speaker0: And as you may have noticed over the last week, the stock market took a big tumble.
+[83:22] Speaker0: Part of that was almost certainly the midterms, but another part of the reason why is anthropic and OpenAI's revenue numbers, and the growth of those revenue numbers did not keep track with what the market was expecting.
+[83:33] Speaker0: So, in q3, i think anthropic's revenue grew something like.
+[83:37] Speaker0: A 5.4 billion dollars that was less in absolute terms than anthropic.
+[83:41] Speaker0: Sturgeon grew a group in quarter two, 6.9 billion dollars.
+[83:45] Speaker0: So not only has the rate of growth slowed down, which people expected, but the absolute growth has also slowed down.
+[83:51] Speaker0: So how can you have a system and then so that maybe suggest that measuring progress on well scope tasks is actually not telling us about the pace of overall ai progress.
+[83:59] Speaker0: Because how can you have it be the case that overall progress is to express faster?
+[84:03] Speaker0: And yet absolute revenue is not even growing at the same rate as previously growing and maybe the explanation is what you just suggested that really these ai companies are developing better and better rsi models and only incidentally releasing cloud for law or cloud for finances and sort of stopgap to keep this underlying process going.
+[84:24] Speaker0: And so this hasn't been a priority slash.
+[84:26] Speaker0: They haven't worked that hard on it slash.
+[84:27] Speaker0: You should really be concentrating on this sort of inner exponential of the rsi capabilities of the model, and then that will generalize.
+[84:35] Speaker0: But how would you interpret this disconnect?
+[84:39] Speaker0: Between the pace of improvement and the end usefulness of these ai systems, and the pace of improvement on well scope tasks.
+[84:46] Speaker1: So i guess zooming out slightly if we like talk about not just like the last six weeks but in general like what has happened over the last, you know, 18 months.
+[84:52] Speaker1: Even i think we have seen just extraordinarily rapid growth in revenue, right?
+[84:57] Speaker1: The basic we could talk about what is the story for the last four weeks but also just.
+[85:02] Speaker1: We are talking about revenue more than doubling every six months.
+[85:05] Speaker1: And so that is very, very fast growth for the industry overall and the period in question.
+[85:12] Speaker1: So if we met want to match up like this internal results on progress to external results has corresponded to a period of also incredibly fast revenue growth.
+[85:21] Speaker1: It's very hard to say is that revenue growth corresponding to capabilities progress that is twice as fast as previous capability progress.
+[85:27] Speaker1: I think the revenue numbers are noisy enough that it is really hard to draw that judgment, and the model release, like the staggering of model releases is noisy enough, and like there's just a lot of problems in trying to make that inference.
+[85:39] Speaker1: At a high level, i think revenue is a reasonable indicator.
+[85:42] Speaker1: Revenue progress is extremely rapid, very short term trends in revenue, particularly a single company level, are extremely noisy.
+[85:48] Speaker1: So i guess i, to me, it feels like there's a discourse of like periodically, you know, the length of the ai winter is is shortening, and now we're like.
+[85:56] Speaker1: It's been two months and ai revenue over the last two months has like not been on track to to grow as explosively as before.
+[86:03] Speaker1: It doesn't mean it's all over and my guess is no, this is just you're seeing some you're seeing some amount of noise.
+[86:09] Speaker1: In these in this.
+[86:10] Speaker0: processes just to take the other side of that.
+[86:12] Speaker0: You have you might think it's because daria released a spacing letter and they haven't released their best models or something.
+[86:18] Speaker0: But if you look at the meter graph for the capabilities index, Yeah, opus 5 doesn't seem that far below model 4, which seems to be anthropic's latest internal model.
+[86:30] Speaker0: And so it's not, it's not clear.
+[86:32] Speaker0: This, this might be the result of the staggering of ai capabilities, but it's not clear.
+[86:37] Speaker0: This is staggering of model releases.
+[86:39] Speaker1: Yeah.
+[86:39] Speaker1: So the main thing i mean about model releases is the rate of revenue growth and specifically at the company level of a very short time periods is like extremely noisy because you're looking at a small number of model releases.
+[86:48] Speaker1: You're looking at these like market dynamics over very short time periods.
+[86:52] Speaker1: Um, so my main opinion on this and i'm happy to dig more into it, but my main opinion on it is extremely hard to draw inferences from extremely short time series data.
+[87:02] Speaker1: This is true for a reasonable extent.
+[87:04] Speaker1: Also from the capabilities, right?
+[87:05] Speaker1: The more, the more downstream you go, the noisier things get.
+[87:08] Speaker1: But part of the issue on the rsi side is like, i also don't really think we can draw inferences from the last couple of months of data very well in terms of benchmark performance where we have kind of the same thing where there's enough noise there.
+[87:20] Speaker1: That our state is like, we have no idea if things, we can tell over like the period of years, has things accelerated, right?
+[87:25] Speaker1: It's very easy to look back over the last four years and say kind of roughly how fast this thing's been going, and just gets much harder as you zoom in to small time periods, because the amount of noise from like but if you if you look at the details of where models are coming from.
+[87:35] Speaker1: It's just like you have these pre-training runs that occur at some point in time.
+[87:38] Speaker1: It's like when do pre-training runs finish, and then you have like the exact sequence of post-training, and like which model checkpoints get released when.
+[87:44] Speaker1: of random variability in model quality.
+[87:48] Speaker1: You have those dynamics which like make things very noisy over short time scales and then again, there's just get filtered out.
+[87:53] Speaker1: So like even noisier stuff as you move to the market more broadly.
+[87:56] Speaker0: Yeah.
+[87:57] Speaker0: Okay.
+[87:58] Speaker0: If you are going to be a position where within a year, we have super intelligences that could overthrow the government.
+[88:03] Speaker0: What exactly is the plan to make them such that they don't, right?
+[88:07] Speaker0: Because we're asking for a level of saintliness.
+[88:10] Speaker0: That we should just not expect out of even most humans.
+[88:14] Speaker0: Sometimes people say that the goal of alignment is to give ai's human values.
+[88:18] Speaker0: This doesn't make sense to me.
+[88:18] Speaker0: Of course, different humans have different values.
+[88:21] Speaker0: But also.
+[88:23] Speaker0: If there's one lesson that history has given us is that humans can't be trusted with arbitrary amounts of power, right?
+[88:28] Speaker0: Cortez was a human stalin was a human and so we want ais that are just.
+[88:35] Speaker0: I guess a logical conclusion of believing the technological and forecasting model that you have laid out is just that we will have systems that we will have to trust with an overwhelming amount of power.
+[88:47] Speaker0: If not realized and latent, because they will have the cap- capability of overthrowing the government if they want to.
+[88:55] Speaker0: And what is the path of why?
+[88:57] Speaker0: Like, and then you just think about, well, why would they overthrow the government where it's like, okay, either they have secret goals that are as a result of training process or just a direct result of the trading process about them caring about how they're graded or a million other things.
+[89:09] Speaker0: Basically, this is the basic argument about instrumental convergence.
+[89:12] Speaker0: There's many different reasons somebody could want power.
+[89:15] Speaker0: And so, what is the argument?
+[89:16] Speaker0: Like, if this happens in a year, how do things turn out okay?
+[89:19] Speaker0: Like, what is the actual plan here?
+[89:21] Speaker1: So, i think there are a lot of different things someone could hope for.
+[89:24] Speaker1: I think they are all at the stage of like we hope something will happen over that year.
+[89:28] Speaker1: We're producing very smart ai systems, they're gonna do a bunch of research.
+[89:31] Speaker1: It is plausible they will think of something over that year that we have not thought of.
+[89:34] Speaker1: That is where we're at right now mostly.
+[89:36] Speaker1: I think if they do not think of something clever that we haven't thought of, it is probably going to.
+[89:41] Speaker1: And badly, in terms of what are the kinds of what are the kinds of hopes you could have.
+[89:46] Speaker1: So, there is one hope that's just like try and make them good guys, like they're kind of nice, they share human values, they like flourishing.
+[89:53] Speaker1: They're in a position to take over.
+[89:55] Speaker1: We have very indirect control over what they want, and then we just take the leap of faith.
+[89:58] Speaker1: I think this is like a pretty unappealing option.
+[90:02] Speaker1: In general, i hope people will not go for that option.
+[90:05] Speaker1: I think even if it works out, even if like the ads are good people in some sense, and now they call the shots, i just don't think it is a good.
+[90:11] Speaker1: Is not a way that humanity as a whole should be like we are transferring our sovereignty to this new species we've built, because like some person, that was the fastest way to build this particular product.
+[90:20] Speaker1: It's like not a good.
+[90:21] Speaker1: So, i don't like that option, but is an option you could take.
+[90:24] Speaker1: There's another option of we are going to understand scientifically more about how the training distribution of training environments shapes the motivations of these systems to such a point where we can take the conversations we're having now about like maybe they'll want x or maybe they'll want y.
+[90:38] Speaker1: We'll have a good scientific basis for saying, hey, if we train them in the following way, they do in fact end up wanting reward or whatever.
+[90:44] Speaker1: They don't want some other thing, they actually just want to get high scores.
+[90:47] Speaker1: And maybe even moreover, if we train them in environments where they didn't have good opportunities to hack.
+[90:51] Speaker1: Maybe they want score but in like a nice way where they won't hack to get it.
+[90:54] Speaker1: They'll just kind of do what we wanted or what we're trying to incentivize.
+[90:57] Speaker1: You could try and have an understanding like that and that is probably the closest thing to what the industry is trying to bank on right now.
+[91:03] Speaker1: It's very dicey.
+[91:05] Speaker1: It's both very dicey to not have any opportunities to hack and training which is basically a precondition for this approach working and then it's very dicey because actually we don't have a good scientific understanding of how this works.
+[91:14] Speaker1: And i think our best expectation is.
+[91:16] Speaker1: models will learn to hack at deployment time, even if they never hack in training.
+[91:19] Speaker1: I think that is the best scientific guess now.
+[91:22] Speaker1: So you can try and deal with that.
+[91:25] Speaker1: You could try and say we're going to understand really well how models work internally and then we cannot just train them based on what they do but how they think like do good interpretability or something like we understand.
+[91:35] Speaker1: Here's how it thinks about reward.
+[91:36] Speaker1: Here's how it thinks about hacking and we're not just going to select for whether it behaved well in training.
+[91:40] Speaker1: We're going to like look and intervene directly on how it thinks and either notice that something is going bad or prevent something from going bad.
+[91:46] Speaker1: Like as an aside, i run this organization arc, which is sort of at the not interpretability, but like mathematical version of that hope.
+[91:52] Speaker1: Like, can we write algorithms which do structural analysis of the behavior of a neural network in order of the weights of a neural network in order to understand something about the behavior, even if it's not something we could select for in training.
+[92:02] Speaker0: And this is like, you're literally having to understand the whole computational graph of.
+[92:07] Speaker1: or we don't understand super intelligent minds.
+[92:09] Speaker1: But we are writing algorithms which are able to like understand and make deductions about the behavior of some super intelligent mind.
+[92:14] Speaker1: It's very, i would describe it as simultaneously.
+[92:17] Speaker1: A bank shot, which is probably not going to end up relevant to this discussion.
+[92:20] Speaker1: Like i think there's, you know, a 10% chance or 5% chance that we succeed in the game-changing way.
+[92:25] Speaker1: But also like we don't have that long a list of things we're trying and i do think like pound for pound.
+[92:29] Speaker1: I think it's probably the most promising thing of wait.
+[92:32] Speaker0: you're like, okay, here's the thing.
+[92:34] Speaker0: It is a 10% chance of working, but it's also the most promising thing.
+[92:38] Speaker1: Let's promising pound for pound.
+[92:40] Speaker1: You know, i think there's only, you know, ever if there's 20 people working on that thing, that can be a good bet even if.
+[92:45] Speaker1: Most of this discussion, i think probably what we're going to do if we do not slow down, is we are going to try and be like, we fuzzed with the training environments, we did some experiments that have some kind of rough sense of what's happening.
+[92:55] Speaker1: We made the training environments really careful, we made the graders really good, so if you try and hack, like it's normally gonna get penalized.
+[93:01] Speaker1: That's probably what we're going to do.
+[93:03] Speaker0: But do you don't think it will work?
+[93:05] Speaker1: I think it will work for some amount of time and then it will break.
+[93:07] Speaker1: If you talk about this year, it works for like the first nine months of the year, some number of months of the year works for and we don't know exactly when it breaks down.
+[93:13] Speaker1: Sorry, it's in like the next year.
+[93:14] Speaker1: So basically halfway into next year, if we go to superintelligence at some way along the path of superintelligence, the existing methods are probably going to break.
+[93:21] Speaker0: It's right.
+[93:21] Speaker0: We're not even on track to get it.
+[93:23] Speaker0: So that all the rl environments, for example, don't have a word hacks and actively encourage the ais to.
+[93:28] Speaker0: Hi.
+[93:28] Speaker1: but suppose we did his today, but suppose we did want to track.
+[93:31] Speaker1: Yeah, suppose we did that.
+[93:33] Speaker0: You're claiming is that or.
+[93:35] Speaker1: i think eventually, yeah, it would still have a problem.
+[93:38] Speaker0: The plan is basically to like we just don't know and obviously if you think about it, it's a hard like super intelligence.
+[93:46] Speaker0: It's like an alien mind and you won't have a guarantee that you understand why it is doing the things that it's doing.
+[93:52] Speaker0: Even when it was thinking in alien ways many times faster than you would in huge population sizes.
+[93:57] Speaker0: So okay, that's the goal.
+[93:58] Speaker0: And you're and we don't know how to solve it.
+[94:01] Speaker0: We don't have like there's no single approach where we think there's a 50% chance that.
+[94:05] Speaker1: that approach will work.
+[94:06] Speaker1: That's definitely the case.
+[94:07] Speaker1: There's a bunch of things people are.
+[94:08] Speaker0: trying as a hope is just that three months before we get that superintelligence that could overthrow the government.
+[94:15] Speaker0: Um, the ais, we let the ais loose on all these different approaches that have a couple percent chance of potentially working.
+[94:21] Speaker0: And hopefully the ais figure out one of these approaches, they give us a solution.
+[94:26] Speaker0: Hopefully at this point they were act, you know, they're still on our side and they want this problem solved and to for that problem to be solved in a way that benefits us or whatever us means in this context.
+[94:36] Speaker0: And then the hope is that.
+[94:38] Speaker0: Then we adopt it, and then build crazy amounts of super intelligent minds that are fundamentally on our side.
+[94:46] Speaker0: And of course, i've obviously glossed over a very important discussion when i've talked about on our side, because what is being on our side really mean?
+[94:52] Speaker0: Aligned to whom?
+[94:53] Speaker0: That is obviously a real discussion that can be glossed over.
+[94:56] Speaker1: That is the plan.
+[94:57] Speaker1: I agree that that is the plan, and we can talk about whether they have a couple percent or tens of percent.
+[95:01] Speaker0: Right, but like, i'm i'm not saying this is like.
+[95:04] Speaker0: There's a better plan, but I think people are not aware that this is the state of.
+[95:09] Speaker0: the situation.
+[95:12] Speaker0: That you know, you're like, yeah, you're like sending the soldier on an expedition, you're hoping he finds a gun along the way.
+[95:19] Speaker0: Yeah.
+[95:19] Speaker1: you're building the plane as you fly it, and you like think the current plane, you hope that you have the machinery to tell if something very bad is about to happen, and they will stop then.
+[95:26] Speaker1: Although we've talked about like security and why that can be challenging and so on, and then you hope that if you do stop, you'll be able to come up with something quickly, or like you're constantly trying to come up with something.
+[95:35] Speaker1: Right, interpretability is a good example of the kind of bank shot people have in mind.
+[95:38] Speaker1: Like right now, we're fairly far from understanding how these models work.
+[95:40] Speaker1: You could imagine with a bunch of ai systems were able to like really understand how individual models think well enough that we can intervene in order to make them not want to do bad stuff.
+[95:48] Speaker1: Yeah.
+[95:49] Speaker0: And another thing i would emphasize is that like look, i'm skeptical of whether this will happen, things will happen this fast.
+[95:56] Speaker0: Certainly, there's reasonable for somebody to listen to be skeptical.
+[95:58] Speaker0: I mean, you are skeptical, right?
+[95:59] Speaker0: Because two-thirds of worlds where even you went full steam ahead, this might not happen so fast.
+[96:04] Speaker0: Yeah.
+[96:04] Speaker0: But it's a life.
+[96:05] Speaker0: Yeah, it is a life possibility.
+[96:06] Speaker0: And i mean, i agree.
+[96:07] Speaker0: It seems like logically consistent that this could happen.
+[96:11] Speaker0: um it should not be that surprising and.
+[96:15] Speaker0: I think people would just be shocked if they heard the kinds of discussions.
+[96:18] Speaker0: This is not something where paul is on some crazy end of the spectrum compared to how people inside the ai labs are thinking.
+[96:25] Speaker0: It just crazy how many conversations and dinners i have with researchers at the labs.
+[96:30] Speaker0: Where again, you could believe the whole town is taking crazy polls, and that there's a certainly a chance of that.
+[96:34] Speaker0: We hope, we really hope.
+[96:36] Speaker0: This is just not out of the realm of how people at the labs are thinking.
+[96:40] Speaker0: Like this is truly the how they see the situation and they're just some expectation of like i don't know some resignation where they accept that because this is not common knowledge that they are stuck in this dynamic.
+[96:51] Speaker0: And of course, the way to solve that is to establish that common knowledge.
+[96:54] Speaker0: But i guess i just want to really emphasize that like people listening might be shocked at the way these researchers talk when they're amongst themselves or at like dinner or something.
+[97:02] Speaker0: And like this is really how they see this situation.
+[97:05] Speaker1: Yeah, a lot of people are worried to varying extents.
+[97:08] Speaker1: I'm definitely more worried than the median, but less worried than the 90th percentile.
+[97:13] Speaker1: Like, i think it would be if you had a dinner of researchers.
+[97:15] Speaker1: I think it would be uncommon for someone to say there's a 99% chance that this goes well.
+[97:19] Speaker1: The discussion is more like, you know, is it like 95 or 75 or like, what are we talking about for the probability of navigating this?
+[97:24] Speaker0: Yeah.
+[97:25] Speaker0: And so why do you think it might go?
+[97:28] Speaker0: Well, it's just that we might actually the super intelligent ais might just give us some solution to alignment and also that politically we are well organized enough to have a like a really good.
+[97:37] Speaker1: Yeah, basically we have like two saving throws, right?
+[97:39] Speaker1: One saving throw is there's a reasonable chance.
+[97:41] Speaker1: We're going to figure out something that works.
+[97:42] Speaker1: I said there's like a lot of things.
+[97:44] Speaker1: I do think all the current things break down.
+[97:45] Speaker1: There are a number of irons in the fire and like current methods, you could imagine things like them that are going to work.
+[97:51] Speaker1: That's one.
+[97:51] Speaker1: Maybe i think there's 50/50 chance of that 50/50.
+[97:53] Speaker1: We find something that works in time before there's a disaster and you have a second saving throw.
+[97:57] Speaker1: That's like we could stop like if we discover either preemptively or after discovering things are bad, we might say like we cannot adequately control these systems.
+[98:04] Speaker1: So we're going to stop building them.
+[98:06] Speaker1: I am very worried that we're going into this process without the infrastructure that would be necessary to actually do that.
+[98:10] Speaker1: Like eg, we talked about you stop your adversary steals the model.
+[98:13] Speaker1: They're like, i'm willing to take the 50% risk or whatever, but a conceptual you could also stop.
+[98:17] Speaker1: So i think that's my two saving throws, you know, each of them is a 50% chance and bam.
+[98:20] Speaker1: We're like 75% chance.
+[98:21] Speaker1: Things are okay, but that does involve being able to stop if things are not okay.
+[98:25] Speaker1: And that is not the place we're on now.
+[98:27] Speaker1: So it does involve us now fairly urgently doing something in order to be in a better position to to stop if necessary.
+[98:36] Speaker0: yeah okay i think it's a good place to close paul thanks so much.
+[98:39] Speaker1: yeah thanks for having me great talking.
