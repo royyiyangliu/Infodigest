@@ -1,0 +1,20 @@
+Source  : a16z
+Title   : Investing in First Person Labs
+Date    : 2026-11-17 15:10 UTC
+Link    : https://www.a16z.news/p/investing-in-first-person-labs
+────────────────────────────────────────────────────────────
+
+For personal agents to become useful in everyday life, they need a total understanding of the person they’re working for. Building that context, keeping it current, and making it available across applications is a hard systems problem. It also creates something extraordinarily sensitive: a model of your relationships, priorities, habits, and intentions.  Whoever controls that model will have considerable influence over what your agents do for you. We believe you should be in total control of it.
+That’s why we’re investing in
+First Person Labs
+. Its product,
+Second
+, builds a continuously updated model of you that can serve context to the agents you choose. Your understanding of the world can accumulate across tools instead of getting stranded inside each one.
+The architecture matters. Second’s background engine runs on your device by default. Your model is inspectable and portable. You choose the intelligence that powers it and control what other applications and agents can access. These choices give you practical control over an increasingly valuable part of your digital life.
+Ken Liu and Erik Chi bring exactly the combination this company needs. Ken’s research at Stanford and Google DeepMind focused on AI and data privacy, including what models remember and how that information can be protected. Erik’s work at Michigan focused on network security, privacy, and censorship resistance. Together, they built the Open Anonymity Project to give people more private access to AI. They understand both how AI learns about people and how to build systems that keep people in control. First Person Labs is building the infrastructure to make that possible, and we’re excited to back the team.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
