@@ -1,0 +1,63 @@
+Source  : GameDev Report
+Title   : Sensor Tower: The Mobile Market in Q3'26 | GameDev Reports is powered by Mellow
+Date    : 2026-11-17 08:30 UTC
+Link    : https://gamedevreports.substack.com/p/sensor-tower-the-mobile-market-in
+────────────────────────────────────────────────────────────
+
+❗️All revenue is gross. Subscriptions and in-app purchases on the App Store and Google Play are included. Sensor Tower doesn't count alternative Android stores, ad revenue, or payments outside the stores (D2C).
+Mobile Market in Q3'26
+IAP revenue across all apps reached $45 billion in Q3'26 (+4.4% YoY, +3% QoQ).
+A word from our sponsor
+If a contractor drew it, the answer depends on the contract — and without one, it might not be you. Mellow contracts cover IP rights and NDAs from day one, so every asset belongs to your studio and your project stays confidential. Payments and compliance run in the same flow.
+See how it works →
+All growth is still coming from non-gaming apps. They earned a record $25.6 billion (+15% YoY). Games, meanwhile, earned $19.4 billion (-6.9% YoY).
+Compared with Q2'26, games grew slightly (+1% QoQ, from $19.2 billion). Sensor Tower calls this the first sign of stabilization after several consecutive quarters of decline.
+On iOS, game revenue fell 9% YoY to $12 billion. On Google Play, games earned $7.38 billion (-3.4% YoY).
+On Google Play, apps have out-earned games for the second quarter in a row: $7.72 billion vs. $7.38 billion.
+All apps were downloaded 37.6 billion times in Q3'26 (+0.1% YoY). Non-gaming apps reached a record 26.2 billion downloads (+4% YoY).
+Games were downloaded 11.4 billion times (-8% YoY). Compared with Q2'26, game downloads barely changed (+0.9% QoQ).
+Game downloads are falling on both platforms: 9.64 billion on Google Play (-8.1% YoY) and 1.74 billion on iOS (-7.4% YoY).
+Key Markets
+❗️Country figures cover all apps, not just games. In China, Sensor Tower counts iOS only.
+The US is the world's largest app market. In Q3'26, it reached $14.63 billion (-3% YoY). That's almost a third of global revenue. Compared with Q2'26, the market grew 2.4%.
+China is second ($6.02 billion, +8% YoY), and Japan is third ($4.25 billion, +1% YoY). South Korea earned more than $2 billion for the first time ($2.09 billion, +12% YoY).
+China (+$455 million), South Korea (+$222 million), and the UK (+$191 million, +11% YoY) grew the most in absolute terms. In Korea, the UK, and Germany, much of the growth came from utilities and generative AI.
+India (6.73 billion, +3% YoY), the US (3.16 billion, -1.5% YoY), and Brazil (2.3 billion, -1.2% YoY) led in terms of downloads.
+In absolute terms, India (+226 million), Indonesia (+127 million), and the Philippines (+117 million) shown the biggest download growth in Q3'26. African countries are also growing fast: Nigeria (+13% YoY) and Kenya (+24% YoY).
+Key Categories: Game Genres and Apps
+Strategy is still the biggest genre by revenue at $4.15 billion. But its revenue fell 20% when comparing Q3'26 with Q3'25. Sensor Tower attributes this to spending normalizing in Whiteout Survival and Last War: Survival after their 2025 peaks.
+Puzzle grew 13% YoY to $4.14 billion. Only $10 million now separates it from Strategy. Merge games drove the growth: Gossip Harbor (+69% YoY) and Tasty Travels (+300% YoY).
+By subgenre, Match Swap ($1.73 billion) is still well ahead of Match Merge 2 ($1.13 billion).
+Among the ten largest genres by revenue, only Sports (+20% YoY), Tabletop (+7% YoY), and Simulation (+1% YoY) grew, besides Puzzle. All other genres are declining. Excluding Strategy, RPG (-15% YoY) and Casino (-14% YoY) saw the steepest revenue drops.
+❗️Some spending in these genres has most likely moved to D2C. Sensor Tower doesn't count that revenue in its report.
+By downloads, only Puzzle (2.59 billion, +8% YoY) and Sports (+11% YoY) are growing among the top 10 genres. Racing (-22% YoY) and Shooter (-19% YoY) fell the most.
+Puzzle's download growth in Q3'26 came largely from arrow puzzles (Easybrain's Arrow Puzzle and Arrows GO!) and Meowdoku.
+The 2026 FIFA World Cup helped Sports games. All five of the genre's most-downloaded games are soccer games. Sports game downloads grew the most in Mexico (+41% YoY), Argentina (+33% YoY), and Brazil (+21% YoY).
+Generative AI apps grew 103% YoY and entered the top three app categories by revenue, behind social media and video streaming. ChatGPT became the world's top-grossing app for the first time, overtaking TikTok. Claude is 8th.
+Video streaming apps are growing the fastest in downloads (+20% YoY), largely thanks to vertical micro-drama apps, which took half of the top 10 spots by download growth.
+Top Games in Q3'26
+Honor of Kings ($389 million, +8% YoY), Gossip Harbor ($311 million), and Whiteout Survival ($275 million) led in IAP revenue in Q3’26.
+Microfun's Gossip Harbor climbed two spots and overtook Royal Match in revenue.
+Last War: Survival, the Q1'26 revenue leader, dropped out of the top 10.
+❗️According to Sensor Tower, the game earned $164 million in Q3'26, vs. $423 million a year earlier and $407 million in Q1'26. Back
+in July
+, its downloads chart showed that UA had been almost switched off.
+Pokémon GO returned to the top 10 by revenue, jumping 12 spots to 9th. Sensor Tower ties this to Pokémon GO Fest and the summer season.
+❗️Pokémon GO turned 10 in July. According to Sensor Tower, the game earned $223.5 million in Q3'26, 2.3 times more than in Q2'26 ($97.5 million).
+Roblox climbed four spots in revenue (to 8th) and topped the downloads chart. Block Blast!, the downloads leader in Q1'26, is now third, behind Garena Free Fire.
+Q3'26 was a strong quarter for football games, riding the World Cup wave. eFootball rose to 12th in revenue, and EA SPORTS FC Mobile to 21st.
+Among new releases, hololive Dreams (40th) and SOL: enchant (+187 spots, 41st) made the revenue growth chart.
+Meowdoku grew the fastest in downloads in Q3'26. The game climbed 102 spots to 14th and became #1 by downloads in the US, the UK, Canada, Australia, France, and Taiwan. Six of the ten spots in the download growth chart went to puzzle games.
+A word from our sponsor
+If a contractor drew it, the answer depends on the contract — and without one, it might not be you. Mellow contracts cover IP rights and NDAs from day one, so every asset belongs to your studio and your project stays confidential. Payments and compliance run in the same flow.
+See how it works →
+Digital Advertising in Q3'26
+Pathmatics by Sensor Tower data. Each country has its own set of ad channels, so the numbers reflect those specific channels and don't represent the total market size.
+Digital ad spend in the US reached $52.9 billion in Q3'26 (+17.4% YoY). That's only 2% below the record Q4'25 ($53.8 billion).
+Games rank 6th by ad spend in the US: $2.48 billion (+8.3% YoY).
+Outside the US, companies spent the most on game advertising in Japan ($389 million, -8.7% YoY), the UK ($387 million, +2.1% YoY), and South Korea ($194 million, +13.5% YoY).
+❗️In Japan, Sensor Tower doesn't yet count in-app mobile advertising.
+In the US, 58% of gaming companies' video budgets go to YouTube, 24% to traditional TV, and 18% to OTT. A year earlier, YouTube's share was 67%.
+Roblox sharply increased its ad spend in several countries at once. In Indonesia, the company became the quarter's top breakout advertiser (+60 spots, to 16th). Roblox also made the top 10 by spend growth in Brazil, Mexico, South Korea, and Thailand.
+Source
+To receive new posts and support my work, consider becoming a free or paid subscriber. Paid subscribers have access to the GameDev Reports MCP & a set of additional features.

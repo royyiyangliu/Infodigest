@@ -1,0 +1,64 @@
+Source  : a16z
+Title   : Investing in Boltz
+Date    : 2026-11-18 15:00 UTC
+Link    : https://www.a16z.news/p/investing-in-boltz
+────────────────────────────────────────────────────────────
+
+The drug discovery process is famously expensive, risky, and long. Much has been
+written
+about AI’s potential to disrupt it.
+Billions of dollars
+have been raised to advance proprietary pipelines of AI-designed programs.
+Frontier labs are focused
+on this fight.
+All with good reason. The
+size of the prize
+can be massive. For decades the arduous path to a drug often began with a needle-in-a-haystack search through millions of compounds, followed by lengthy experimental campaigns to optimize molecules. AI is enabling a fundamentally different approach to drug discovery through
+molecular design
+. Building on breakthroughs such as AlphaFold, a new generation of AI models is expanding what scientists can predict and design computationally.
+Boltz
+is helping lead that shift with the world’s most widely adopted molecular models, putting frontier
+molecular intelligence
+in the hands of all scientists. Scientists can now start with the properties a medicine needs and use these models to predict molecular interactions, generate molecules against specified criteria, and refine their designs across multiple objectives before committing to synthesis and testing. The promise is a faster path to better development candidates, with fewer unproductive experiments along the way and, ultimately, a better probability of success in human trials.
+We saw the demand for these capabilities while Boltz was still a
+research project at MIT
+. We knew something special was happening when our pharma partners and therapeutics portfolio founders kept telling us they were all using the same open-source AI models out of MIT. Boltz’s model launches drew standing-room-only crowds in the largest auditoriums across cities around the world. By the time we co-led Boltz’s seed round last year, its open-source models had reached every top 20 pharmaceutical company.
+Behind that adoption were
+Gabriele Corso
+,
+Jeremy Wohlwend
+, and
+Saro Passaro
+, in whom we saw an unusual combination of frontier AI research ability, deep understanding of molecular science, and the determination to put their work into scientists’ hands. Since then, the founders have attracted an unrivaled concentration of research and engineering talent, building a team capable of advancing the underlying science while turning those advances into products that scientists can use every day.
+Molecular tokens: intelligence, by the dose
+AI is becoming a new kind of scientific reagent: intelligence scientists can buy and consume by the experiment. Boltz measures that activity in
+molecular tokens
+, the units of molecular information processed by its models. Molecular tokens offer a way to put frontier biomolecular models into the hands of any scientist, with consumption scaling to the work being asked of them. A quick prediction might require relatively little; a campaign to discover and refine a molecule against an increasingly demanding set of requirements could consume far more. Scientists could budget for computational exploration much as they already budget for sequencing reads or assay reagents.
+Boltz believes this technology is too powerful to be held captive by a single company’s proprietary pipeline. Or to be limited to a few targets, and the associated complexities and frictions, that come from traditional pharma partnerships. Boltz is breaking that mold by pioneering a usage-based business model designed to put powerful molecular design capabilities into the hands of as many scientists as possible. By making its models readily accessible and charging for model usage, Boltz can grow alongside their use across the industry, while scientists retain ownership of what they create.
+That breadth matters because the opportunity extends well beyond the hardest targets that typically motivate bespoke partnerships. Boltz wants scientists to use its models from the beginning of a discovery campaign, making molecular prediction and design a routine part of how they explore ideas and choose what to pursue. The ambition is for scientists to reach for these capabilities as naturally as they reach for other reagents.
+Boltz has also built the slick interfaces that make these capabilities accessible to a broader scientific audience. Boltz Lab allows biologists and chemists to work directly with the models via a user-friendly interface, while the Boltz API makes those same capabilities available within existing computational workflows and through agentic harnesses such as Claude Code and Codex. These agents can set up jobs, call models, retrieve results, and help scientists iterate, reducing the expertise and effort required to turn a scientific hypothesis into a computational experiment.
+Some of the most impressive recent demonstrations of AI—including
+tackling longstanding mathematical problems
+—have involved agents working for hours or days, with the time and compute to explore, test, and refine their ideas. Boltz is observing a similar pattern in molecular design. Additional compute for virtual screens and design campaigns can improve the quality of the candidates its models prioritize, giving scientists a reason to invest in deeper computational exploration before moving into the lab.
+Following the launch of BoltzMol-1 and BoltzProt-1, weekly molecular token consumption by Boltz customers has risen exponentially, roughly 50-fold in just the last 4 months!
+This growth suggests a growing appetite for molecular compute, and offers early validation of Boltz’s usage-based business model, as pharma and biotech companies incorporate molecular intelligence into their discovery workflows. Boltz can train exclusive versions of its models on a partner’s proprietary data, giving pharma companies specialized molecular intelligence shaped by their own accumulated research.
+Boltz’s commercial models are already deployed at
+Pfizer
+,
+GSK
+,
+Takeda
+,
+BMS
+, and other leading pharmaceutical and multinational companies. More will certainly follow.
+The opportunity now is to invest more deeply in research, compute, and data, building even more capable models that improve the molecules scientists can design and expand the problems they can pursue.
+Congratulations to Gabriele, Jeremy, Saro, and the entire Boltz team on their $110M Series A. We’re proud to double down on Boltz’s ambition to make frontier biomolecular intelligence as accessible, and as routine to use, as the reagents on a laboratory bench.
+And you too can join the adventure: check out Boltz’s
+open career opportunities
+!
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
