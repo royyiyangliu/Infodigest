@@ -1,0 +1,64 @@
+Source  : a16z
+Title   : The a16z FDE Fellowship is back
+Date    : 2026-11-19 17:26 UTC
+Link    : https://www.a16z.news/p/the-a16z-fde-fellowship-is-back
+────────────────────────────────────────────────────────────
+
+Today we’re
+announcing the second cohort of the
+a16z FDE Fellowship
+.
+Our
+first cohort
+brought together leaders from OpenAI, ElevenLabs, HappyRobot, and other category definers. Many helped develop the original FDE model at Palantir and are now adapting it to companies with very different products, customers, and ambitions.
+As AI models get more capable, customers increasingly expect software that fits the contours of their business. They want it to understand their processes, work with their data, and follow through on the job they hired it to do. The promise is becoming much bigger, and so is the work of making good on it.
+The fellowship is an 8-week cohort for FDEs and Applied AI leaders, kicking off in January 2027. We’ll host dinners and events every other week, mostly in SF and NYC, but fellows can be based anywhere.
+Applications are
+open now
+.
+Meet the founding fellows
+Pauline Brunet
+, Global Head of FDE at SpaceXSI
+Gary Lin
+, Co-Head of FDE, Americas, at OpenAI
+Javier Kielmanowicz
+, Head of Applied AI at Harvey
+Louis Walsh
+, Head of FDE at Exa
+Natalie Kalas
+, Head of Applied AI at Perplexity
+Alex Lewis
+, Manager, Agent Deployment Engineers at Decagon
+Arjun Mishra
+, Deployed Engineering Lead at Cognition
+Kevin Bai
+, Applied AI at Anthropic, previously Founding FDE at Rippling
+Boaz Francis
+, Head of FDE at Wonderful
+Vatsal Mehta
+, Head of FDE at Replit
+… and many more.
+If you’re building and deploying AI with customers, or leading a team that does, we’d love to get you involved.
+Apply to join
+How it works
+Who:
+FDEs and Applied AI leaders
+When:
+Eight weeks, starting mid-January 2027
+Format:
+Dinners and events every other week
+Where:
+Most events will be in SF and NYC, fellows can be based anywhere
+Applications are open now and close on
+December 31, 2026
+. We’ll review them on a rolling basis to fill a limited number of spots.
+Apply to join
+If you have questions, email
+Anna Owens
+.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

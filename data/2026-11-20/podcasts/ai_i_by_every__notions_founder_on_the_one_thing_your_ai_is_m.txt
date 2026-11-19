@@ -1,0 +1,865 @@
+Source  : AI & I by Every
+Title   : Notion’s Founder on the One Thing Your AI Is Missing
+Date    : 2026-11-18 18:19 UTC
+Link    : https://www.youtube.com/watch?v=PGWvMrF4XIA
+────────────────────────────────────────────────────────────
+
+Everybody can start making their own software, no?
+
+In some sense, the original vision of the 60s, 70s, hippie generation of computing come to life, and that's actually why Notion was started.
+
+Notion was about how do we bring this computing power to as many people as possible without forcing them to learn how to code.
+
+Hello and welcome to the Every Podcast.
+
+I'm Dan Shipper.
+
+And I'm Natalia Quintero.
+
+And this week we're talking about a conversation that you had, Dan, with Ivan Zhao, CEO and founder of Notion.
+
+Can you tell me a little bit about what you learned?
+
+Yeah, it was such an interesting conversation because Notion is the original, one of the original no code companies.
+
+The way it's structured with databases and forms and blocks, it's all designed to allow you to build something that looks kind of like software without knowing how to code.
+
+But AI like totally changed that.
+
+Now anyone can Vibe code whatever they want.
+
+You don't really need a block system.
+
+You don't really need the whole Notion interface in order to make something that looks like software.
+
+And so it kind of forced them to reinvent what they are and reinvent or rethink the original vision for their product.
+
+I've been a user of Notion for a long time, and the product has evolved quite a bit.
+
+What do you think makes Ivan the right leader to lead this transformation?
+
+You know him well.
+
+Ivan is one of those interesting people.
+
+I think there's some kind of soul overlap between Notion and Every, and I think that comes from who Ivan is as a person.
+
+You know, the way that he dresses and the way that they furnish their office, and there's so much attention to detail and so much craft in what they do.
+
+And I think that that's actually sorely missing from the...
+
+pantheon of AI CEOs.
+
+Like when you really think about what kinds of CEOs are around in this era, there are very few people who care a lot about the details and the feeling of work and what you make.
+
+And especially in a world where everyone's afraid of AI taking jobs and how do you keep the work that we do feeling human or feeling special.
+
+I think that there's something really interesting happening with Notion and Ivan is the right person to make that happen.
+
+So if you didn't catch it at thesis, let's turn over now to a conversation between Dan Shipper and Ivan Zao from Notion.
+
+Welcome, really excited to have you here.
+
+Good to be here.
+
+And thank you for sponsoring this, for making this event possible.
+
+I didn't know until I got here.
+
+Yeah, Ivan asked me backstage, he was like, how much was this?
+
+And I was like, I don't know, but next time, we'll make it bigger if you want to pay a little more.
+
+It's big enough.
+
+Good love.
+
+Great.
+
+Nice to be here.
+
+So in addition to sponsoring this conference, you make Notion.
+
+And I think of you as, we were talking about this a little bit backstage.
+
+I think there is a spiritual similarity between the way that Notion and every think about work.
+
+And I think that comes from you specifically.
+
+you think a lot about the craft of work and thinking well with software.
+
+And I think when we are, like in AI there seems like there's this bifurcation between people who think it's all slop and people who think that you can actually do good work with it.
+
+And I'm curious like how you're thinking about this as you're bringing Notion into this era and in your own life.
+
+We're probably in the one year after the Vibe coding phase at this point, for most people.
+
+Probably in this room.
+
+A year ago, people say software is dead, Vibe code everything.
+
+Then nine months ago, people realized you need to maintain them.
+
+I'm actually in different directions.
+
+I love the spirit of Vibe coding.
+
+Actually, if anything, Vibe coding, the spirit is the spirit that YNOTION was started in the first place.
+
+I think so, right?
+
+Yeah.
+
+If I share this with you all, it's...
+
+When I was in school, last year college, I was inspired by early days of computing.
+
+People in the 60s and 70s, or even the 50s, their idea of a software, it's a medium.
+
+It's very much like reading and writing.
+
+Like everybody should be able to read and write.
+
+But if you think about it, that's actually really unnatural.
+
+We all go through six years of school to learn how to read and write, but now we can do this.
+
+We can write prose, we can write business report, we can write poetry.
+
+That's not the case for computing.
+
+That's not the case for software.
+
+So the early days, 60s, 70s, people thought about, okay, why don't we, back then machines, computers, were like a room-sized machine in the basement.
+
+Imagine like Mad Men, the TV show.
+
+You go to the basement, you see your IBM 360, and they think, oh, why don't we, and they didn't even have monitor displays.
+
+They thought about, okay, why don't we bring the radar display or TV display and connect with those kind of room-sized calculators.
+
+Now you can create interactive mediums
+
+which is called software.
+
+And such medium shall be used by everybody, shall be read and shall be written and read and write by everyone, just like we can all read and write software, read and write English or French or whatever language you're speaking.
+
+And unfortunately, that never happened.
+
+history sort of made an interesting turn in the late 70s, early 80s, the computing that we had was the Steve Jobs and Bill Gates generation computing, which is frozen into applications.
+
+There's then there's a separation of software application makers versus application users.
+
+Then until two years ago, right?
+
+Until Cloud Code era, everybody can start making their own software now.
+
+In some sense, the original vision of the 60s, 70s, hippie generation of computing come to life.
+
+And that's actually why Notion was started.
+
+Notion was about how do we bring this computing power to as many people as possible without forcing them to learn how to code.
+
+And so I'm a big fan of this.
+
+Everyone's talking about vibe coding, but anyone who's built something can tell you making the demo is just the beginning.
+
+You have to actually get your product in front of people and turn them into happy customers that stick around.
+
+And Lovable is the only software creation platform that covers the full loop from brainstorming an idea to building production grade software to now finding your users through automated ad generation and search ranking.
+
+Through Lovable, you can launch ads on Google, YouTube, Facebook, and Instagram, and get found through search, and even create all of the marketing assets you need just by asking.
+
+Lovable will also tell you what's working and what's not, and help you find your next best marketing move.
+
+So if you want to get beyond building and move into actually building a business,
+
+You have to get Lovable now.
+
+Build your idea and set a goal like get my first 100 signups and Lovable will make a plan to get you there.
+
+Visit lovable.dev slash grow to get started.
+
+That's lovable.dev slash grow.
+
+And now back to the episode.
+
+So.
+
+Yeah, and I think that is an underappreciated thing.
+
+Like there's this, in the way that Notion is built, you can tell that you have these underlying primitives, these blocks, and you can combine the blocks.
+
+And if you're a programmer, you recognize that as the way that you make software.
+
+And the way that Notion is built is the way that you could make software or code without having to code pre-LLMs.
+
+So now that we're in that era, how does that change, how you think what should be built or how to make that vision come alive in this new way?
+
+I think we should separate this into multiple axes.
+
+One axis is should people have the power, if they want to, to modify the tools they use?
+
+To me it's hell yes, definitely.
+
+That's the basic sense of freedom with the medium you use every day.
+
+Vibe coding, AI coding agent give people that power, better than any other medium.
+
+So I'm fully supportive.
+
+Then there is, what about the thing that you use every day that you don't have a strong opinion about, you just want someone taking care of you?
+
+A lot of problem we face every day, a chair for example, a car, a door, you might not be an expert of those tools, you just want someone to figure out what's the best form factor of a chair and door is, and just do a good job, right?
+
+You might not want to vibe coding a bridge or a building.
+
+So that part, I don't think just because you can doesn't mean you should.
+
+So certain category of software, I will actually put under this bucket.
+
+So for example, Calendar app.
+
+Actually today, we launched our second version of the Calendar app on mobile.
+
+It's completely built from scratch.
+
+Thank you.
+
+Native and...
+
+in my consideration, well-crafted piece of software.
+
+One of the better crafted piece of Notion product out there.
+
+And calendar, most people have very detailed way of using calendar, but overall, you want someone to dictate roughly how you should see your time on the grid.
+
+And to me, this kind of category is like someone should
+
+craft a well thought out solution offered to the market then people can use it.
+
+And the last bucket are more like enterprise software that you depend on for security, you don't want to maintain it.
+
+Like actually it costs a lot of money just to keep fighting off all the vulnerabilities.
+
+I personally don't recommend that but you should be able to, if you want to, you should go for it.
+
+So those are different axes when I consider this.
+
+And how do you think about what you make and where it fits in on that axis?
+
+Where who?
+
+Notion.
+
+Our business model largely for business and teams.
+
+If you want to host everything yourself, by all means do it.
+
+We recommend people to use local first products, hold everything yourself if you want to.
+
+But if you're running a business with dozens of people, someone else, I recommend someone else does it for you.
+
+In this case, we offer as a service.
+
+So that's our business model.
+
+And of course I talk this way because that's our business model.
+
+And the second axis is the calendar one I mentioned.
+
+Certain things we thought a lot of, put a lot of craft into it.
+
+We thought a lot of ways, like hey, when you touch this button, you wanna feel that way.
+
+It's almost like an experience, right?
+
+Yes, you can cook yourself, but oftentimes you would like to go to a restaurant as well.
+
+We like to think about many of our product or feels like going to a good restaurant, cost-effective restaurant, but give you a good experience.
+
+So one of the things that I was talking to Andrew and Brissino from the OpenAI team about
+
+in terms of product is, especially in the way that OpenAI has to build products, the models change so fast that it feels like every three months you have to throw out what you made.
+
+And there's this, that's a real tension between putting your soul and just like to make something like think about how does this button feel and think about all the little details.
+
+knowing that maybe the thing that you're making might not be relevant in three months or six months.
+
+Do you think about that?
+
+Do your teams think about that?
+
+And how do you deal with it?
+
+I think the value of
+
+What AI agent really fundamentally changed is, if you think about the value of software, for the past 15 years, it's usually a team of people or a company defines one of the best way to follow this workflow and create a UI and the buttons to do those workflows.
+
+And AI agent opened up both of them.
+
+AI agent can write the procedural code to do any kind of workflow you want.
+
+You can vibe code a UI, whatever you want them to do.
+
+So in some sense, we are not married to that.
+
+Notion actually start to design, allow you to create your own UI even before AI.
+
+But what's really important is the data.
+
+How do you hold your data?
+
+How do you hold your context, your semantics?
+
+What's important to you, to your business?
+
+To us, that's a lot more durable than the procedural logic and than the UI.
+
+So we see our job more and more to be the keeper of your data, to open up to different agents in the world, in the fancy term called contacts, and allow different agents to work with this context, and provide a guardrail, allow a team of humans to collaborate on this context.
+
+To me, that's more durable, and that's outside model.
+
+You define that for your business.
+
+How are you playing with these tools yourself?
+
+We were talking a little bit about Vibe Coding.
+
+Do you have your hands in them, and what are you doing?
+
+What are you building?
+
+Making games.
+
+What kind of games?
+
+The last one I made during the break was a game about history.
+
+Cool.
+
+Yeah.
+
+Because if you read books, it's kind of like there's a fixed narrative you sort of have to follow, and game is open narrative, and you just sort of like, if you have a sense of immersion, you don't follow the narrative.
+
+What's in between?
+
+So I'm creating the game in the sense that you pick any era in the world,
+
+let's say I want to learn about Vienna 1900.
+
+And the game will suggest you should learn about those five persons from this era, and they give you ten ideas.
+
+You learn about those ideas, and the game set up a world that you can talk to those people, which language model is excellent at.
+
+That's really... From conversation, you collect those 10 concepts.
+
+Then there's a central person in the game.
+
+Usually it's like a teacher or journalist and quizzes you, like whether you get those 10 concepts or not.
+
+Then you learn.
+
+So it's not linear, but also historical based.
+
+And it's engaging the gossip brain, which we like to chat with other people to force myself to learn.
+
+And this is like a text game?
+
+Is it like on your phone?
+
+Is it a website?
+
+It's on the phone or on computer.
+
+It's graphic, looks like PlayStation 2.
+
+That's actually pretty good.
+
+I like that graphic.
+
+It's like, if it's too 3D, too polished, it feels fake versus more pixelated.
+
+It feels like approachable and it's easy to tweak.
+
+And what models, what harness are you using to make this?
+
+The point I'm making this game is I want to try everything out there.
+
+Okay.
+
+So I play with everything.
+
+In the earlier version, we really get... My wife and I were building this game together, actually.
+
+We even get voice model in to talk back to you live, and it feels too creepy.
+
+It's better just like...
+
+you have multiple choice.
+
+You have a true next venture type of language, word you want to use.
+
+It's a lot easier that way.
+
+But, come on, like, are you a cloud guy, Chachamity guy, Argon?
+
+I'm a cloud guy for writing.
+
+Okay.
+
+I'm a...
+
+Well, image models only on chat.gpt.
+
+Coding, yeah, where most Notion runs on chat.gpt.
+
+And you posted this week that I think this is your 13-year anniversary of Notion, which is amazing.
+
+It's like truly, it's crazy to work on.
+
+This is year seven of every for me, so you're double mine.
+
+I'm curious, A, to hear how that feels, and B, to hear how the way that you've built, how you build and run the company has changed in this new era.
+
+And I think in particular, like a lot of people here are probably thinking about,
+
+if you built a company that works and worked before AI, what are the ways to bring the team along and the product along as you're transitioning into this new world?
+
+I think based on some of the things I've seen you do, you guys have some interesting best practices for how to sort of transition.
+
+Yeah.
+
+It's really difficult.
+
+It's one of the most difficult things I have done
+
+building notion is transition from pre to post AI.
+
+Maybe break down this 13 years into different chapters.
+
+The first five years is kind of like meander in the dark.
+
+The vision I described in the beginning of the talk is very open-ended, took a long time.
+
+Had some product market fit during COVID time, so a really growth start to take off.
+
+That's largely building a system for humans.
+
+And we started AI, building for AI, end of 2022.
+
+So we're living in San Francisco, our friends work in the lab, got early access to GPT-4 class model.
+
+You realize the world will be very different.
+
+It's no longer like GPT-3 class, just marketing copies.
+
+You can do work and do thinking with this thing.
+
+So I just got very AI pill back then.
+
+My co-founder and I just locked ourselves in the hotel room, building the first prototype.
+
+And we actually launched the first product a couple of weeks before ChatGPT happened because we had so much conviction.
+
+But it was not easy to bring the rest of the company along.
+
+At the end of 2022, people stopped.
+
+What was the roadblock at that point when you tried?
+
+What happened?
+
+The people from, people thought it's kind of like a fad.
+
+It's like crypto, right?
+
+Remember?
+
+Nothing to do with...
+
+I don't disrespect crypto, but people thought... Because AI wave came and come and go through so many waves in the past 20 years.
+
+It's very natural to think that way, but...
+
+But once you play with GPT-4 class, you know it will be different.
+
+Even though the capability frees at that time, there's a lot you can build with it.
+
+So that's kind of like the first year, first six months building a writing product.
+
+Got some traction, popular.
+
+Then we'll be trying to build an agent product for the next two years.
+
+Very difficult.
+
+Model just wasn't there.
+
+So that's a grind.
+
+An agent product finally to work last year, this time.
+
+And then the thing is, wow, everybody's building agents.
+
+That's not unique to us.
+
+What's unique to our value?
+
+What's unique to our capability?
+
+Going back again to people, to UI, to context, to data.
+
+Notion is one of the best knowledge context systems in the world.
+
+So, so much of our focus right now is what is as this intersection of agent, which we spent three years, four years building, we have some of the best applied AI team in the industry.
+
+And what is this human part, building a context and knowledge system for a team of human.
+
+bring them together, and that's our place in the market.
+
+One of the things that I know you care a lot about, and Notion is, we sort of talked about this already, Notion is founded on the idea of using software as a tool for thought.
+
+And you've shared, you have this feeling, vibe coding, like the game that you're making,
+
+there's this almost TikTokification, even though it's like a powerful tool for thought, there's also this TikTokification of, I'm just going to do, it's like one more prompt bro, just like one more prompt.
+
+And I'm really curious how you think about that.
+
+Yeah.
+
+It's a really deep question because I think we're all technologists in this room.
+
+We're all tinker, we're all builders, and usually tinker builder will want to look into the future, just let's go, right?
+
+Then whatever happens, happens.
+
+We usually don't think too much about the second order effect and third order effect.
+
+It's really difficult to think that.
+
+But technology, especially the one that we've been touching on with AI and before that, has a tremendous effect in the world around us.
+
+It's like, if we all have a phone in our pocket,
+
+and I think this is the 15th year of Steve Jobs' death, or 16th year, if he wakes up from death again and see how people use their phone today, how teenagers use their phone today, do you think he will be 100% proud of it?
+
+I'm not sure.
+
+I think there will be degrees of doubt, degrees of doubt of whether we bring the best thing into the world in the best way possible.
+
+At least pay some effort to that.
+
+You can argue medium before that, TV changed how the nucleus family function.
+
+Printing in general probably positive, right?
+
+But every technology has such second order, third order effect, it's really hard to predict.
+
+I think we're in the beginning-ish of what this language model technology can bring to the world and see some of its second order effect.
+
+It's like I've noticed myself like to chat with this thing more than I like to read.
+
+I love to read on my Kindle on my phone, but I like to chat with my claw more.
+
+I notice that pattern.
+
+Sometimes I don't like that pattern.
+
+Sometimes it feels like, okay, this almost feels like I'm on TikTok.
+
+On TikTok, after 10 minutes, you get grossed out.
+
+I got grossed out.
+
+It feels like that a little bit.
+
+So it feels like, yes, there's a tremendous amount of productivity gained from agents, from AI, but what are the second-order effects?
+
+Can we at least think about a little bit while we're building more to it?
+
+How would you think about it?
+
+So for example, one of the things that I've toyed with is I could probably tell my cloud or my chat, if it's past 11 at night and we've been chatting for several hours, ask me to explain the thing that I'm asking you to build.
+
+And if I can't explain it, don't do it.
+
+You know, something like that.
+
+And I kind of also know that I would get annoyed at that.
+
+So yeah, what are the ways for builders to think about, OK, we know that we made this thing that makes it really easy to build stuff.
+
+And that's awesome.
+
+And we know that when it's 11 at night, you can probably just use it to rip tokens that mean nothing, and you're just sucked into your phone.
+
+How do you think about how to deal with those second order effects?
+
+it depends on whatever you're building, a chat product, maybe just bake this into your system.
+
+I think that's too superficial level.
+
+The deeper level is like, does the human have the understanding?
+
+Like, do you understand what's going on?
+
+Like, if you usually building a system, or if a team of human, medium plus size of code base, after a week, you sort of don't understand what's going on.
+
+Right?
+
+I don't think we should surrender our understanding.
+
+Definitely not without putting up a fight.
+
+If anything, we should try to figure out how to create better abstractions, better tools, and better visualization to understand things.
+
+That's the entire purpose of science.
+
+Math, create better shorthand to understand the world around us.
+
+Aging can do a lot for us, but you cannot have understanding.
+
+It's difficult, right?
+
+I think more software AI tool makers should think about how do you help people to gain the understanding of what those systems are doing for us.
+
+Have you found anything that works for you to make sure that you're locked into understanding how it works?
+
+I can share some tips our teams are using.
+
+It's also almost ironic, right?
+
+Think about the wave of coding agent, Cloud Code become really popular, everybody talking to their own little black box to build things and using GitHub as a way to merge things.
+
+Then you realize, holy shit, we don't understand what each other are doing.
+
+It's better to have a team-based coding thing.
+
+Now, instead of human talking to their own coding agent, we set up Notion Kanban board.
+
+It's almost going back to the thing that Kanban, Jira, everybody hate, but it turns out it's actually a pretty good visual metaphor to orchestrate a bunch of agents' work, right?
+
+That's what I mean, a concrete example of visualization.
+
+You visualize the thing to the best of ability, and hopefully you can absorb it.
+
+So we have time for a few questions.
+
+So if you have a question, raise your hand.
+
+And right in the back over there.
+
+Hey, thank you.
+
+I wanted to talk about and ask a question about structure versus unstructured.
+
+Because the tradition that you're talking about, I think of it as being about comparing or joining composability.
+
+Like I love Notion's logo because it embodies that founding idea of building blocks.
+
+Pairing that with ergonomics so that the average person, to your point, can participate in the creation of software.
+
+Today it feels like AI has moved us into an environment where we've moved from building blocks into tokens, which are much more granular.
+
+It's like moving from objects to like a liquid.
+
+And so I'm curious how you now think about
+
+moving from a world of structure, building blocks, to something that doesn't have as much opinionatedness baked into it.
+
+Maybe an open question, but I'd love to hear your thoughts.
+
+That's such a good question.
+
+Sorry.
+
+I'm not going to answer it.
+
+I just think it's a great question.
+
+I think it's a great question, too.
+
+So Notion Logo is a cube, right?
+
+It's a toy.
+
+Kids can build up a cube.
+
+Actually, Lego is an even better example.
+
+There's a difference between Lego pieces versus a clay.
+
+Clay is kind of like a mud.
+
+It's very hard for a kid or even an adult to build up tall clay.
+
+Things just fall apart.
+
+Lego, easier to pick up with your hand, has inherent structure.
+
+It's not as unstructured, it's not as fine-grained as a clay, but gives you that structure power.
+
+Have some opinion, inject it.
+
+I think,
+
+Vibe coding or coding agent is more give you the clay, give you the JavaScript, give you the fine grained thing.
+
+But oftentimes the maker doesn't have the opinion or expertise to structure a tall tower out of it.
+
+I think there is a sweet spot.
+
+I think the industry's merging towards what are the Legos of Vibe coding?
+
+So the fundamental permissions, syncing, collaboration are taken care of for you.
+
+Yes, you can still express your business logic and intent, but the pieces are there.
+
+In fact, that's what we're doing.
+
+And what does that mean?
+
+What would be an example of a vibe coding building block that it's not necessarily clay, but it's maybe more manipulable than a Lego brick, because you have an agent to help you do it?
+
+Well, the basic is you get agents to help you set up your Notion.
+
+Or the more powerful version of this, we actually released this, I think it's become public now.
+
+Notion pattern libraries open up to all the agents and can read from Notion databases, guarded again by the Notion system permissions.
+
+So it still looks and feels like Notion, but the UI is a lot more free because it's based on the UI pattern library versus what we give you from the product.
+
+And the pattern library is like, it's an open source library, so agents can implement it in your own apps?
+
+Yeah.
+
+We haven't open source yet, but imagine that... You heard it here first, folks.
+
+We haven't.
+
+Okay.
+
+Okay.
+
+Let's take another question.
+
+In the front.
+
+You're in the orange.
+
+Thank you.
+
+Excited about the calendar announcement today.
+
+I'll try it.
+
+Yeah.
+
+This is like a well-crafted thing that I think people feel, or hope people feel.
+
+So my question follows that, and I've seen what Notion has announced that you want to be the...
+
+a portable context layer for businesses.
+
+And we want to help you organize and transport, keep your data safe, bring it to your agents in one place that is well thought out and trusted.
+
+I work with a lot of small and medium-sized businesses who haven't figured that out yet.
+
+They're just starting this idea of, oh, I can train AI to speak like I speak or write like I write.
+
+Wouldn't it be great if we had a second brain for our business?
+
+And the idea of Notion to do that right now, I think to do that is, there's a lot of people who've built that, but they've had to piecemeal a lot of different systems.
+
+And so I'm curious on Notion's roadmap, if you're allowed to share, how close do you think we are to a 50-person company being able to implement this themselves?
+
+like we heard lovable share earlier and making AI insanely and undeniably approachable is I think key to their success.
+
+And I'm curious how you guys at Notion think about that.
+
+Yeah, we have the Lego pieces.
+
+Many of them, we don't offer them with a box today.
+
+So our goal for the next quarter, less than two, hopefully, is that solution for a 50-people company, having all the context and knowledge, know-how together, out of the box, onboard through agent.
+
+And this is very important for business.
+
+If you think about it, if everything holds true, in the next year, couple years, there probably will be hundreds of billions dollars spent through tokens.
+
+Intelligent flow through the system.
+
+What is opposite of tokens?
+
+In some sense, it's content.
+
+It's compressed tokens.
+
+It's your know-how, your knowledge.
+
+So if we do our job right, your 50 people startup, can they say 20%, 30%, 40% of tokens?
+
+Might be possible.
+
+Can they actually have true AI transformation that not just garbage in, garbage out, but actually have their data and know-how flow through the system with whatever token choice they have?
+
+That's our hope.
+
+We've got time for one more question.
+
+You want to pick someone?
+
+Dealers choice.
+
+That's on you.
+
+OK, right over there.
+
+Thanks for being here.
+
+I'm curious, something that was brought up to me once, several months ago, was,
+
+don't use apps anymore, let the AI use the apps.
+
+So that now it's like you just have one gateway.
+
+So everybody uses ChatGPT for everything.
+
+And I'm curious because from a media agency standpoint, we're also thinking about this from websites and media, but from your perspective as a developer, how are you approaching that?
+
+Like how do we continue to engage the consumer and keep them wanting to use Notion instead of just having their agents
+
+It's a really good question.
+
+It's not as black and white as that.
+
+One assumption we hold true inside the company is we assume for the next billion knowledge worker coming online, vast majority will be agents.
+
+So our customer is no longer just only humans, but a lot more agents.
+
+And those are the key agents, the claw, the chat GPTs of the world.
+
+That's one.
+
+Second, we also believe that human camaraderie and human collaboration matters.
+
+We don't want to live in a world that you chat with your little chat box and become like TikTok, Instagram effect, you're not like,
+
+Whether that's good or bad, business will put it aside, we don't want to live in that world.
+
+So the thing we care about is that the sheer canvas, the team of human, work with the team of agent, the Kanban boards of the world.
+
+And for that, that's closer to where the context is, or closer to notion is.
+
+So for us, it's not black and white, yes, a lot more agent coming online, but there's also a part that you want to preserve, which is closer to headless product, no UI at all.
+
+Awesome.
+
+That's all the time we have, folks.
+
+Ivan, thank you so much.
+
+It was a pleasure.
+
+Thank you.
