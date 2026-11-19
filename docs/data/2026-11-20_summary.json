@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-20",
+  "generated_at": "2026-11-19T23:33:29.768983+00:00",
+  "stats": {
+    "tweets": 7,
+    "podcasts": 2,
+    "articles": 1
+  },
+  "tweets": [
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch 称，他平均每两天就会收到一家新的推理 neocloud 公司的融资推介，并直言很难想象这种局面能持续；但与此同时，Vercel AI Gateway 的 token 需求自年初以来按月复合增长约 **40%**，且没有放缓迹象。他的解释是：“算力是新经济，token 是新的能源单位”，这更像一场持久的“石油热”而不是一阵风的“淘金热”。他预计短期内推理云还会继续扩张，随后会因规模经济、网络安全和企业要求（零数据留存 ZDR 和网络安全是推理厂商的热点）、资本门槛以及不断变化的监管而走向整合。另外，Vercel 发布了面向 agent 的消息板基础设施 vercel board（类似“无头 Slack”或 IRC），不绑定模型、harness 或托管平台。他认为消息板是 Navier-Stokes 数学突破和 OpenAI/Hugging Face 网络安全事件背后的关键技术，也是让数百万 agent 去中心化协作的软件工厂的基础组件。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI Codex 负责人 Thibault Sottiaux 称，GPT-6.2 Astra 在“世界上最难的任务”上目前“自成一档”，并以团队在 AMD 和 Jalapeño 芯片优化上的成果为例。他也承认用户对该模型沟通风格有意见，团队正在改进。另外，他还在征集用户对 6.2 Sol 的使用反馈。"
+    },
+    {
+      "author": "Josh Woodward",
+      "handle": "joshwoodward",
+      "summary_zh": "Google Labs 及 Gemini App 负责人 Josh Woodward 宣布推出 Gemini 4 Neon，称其具备前沿级智能，速度更快、成本更低，复杂指令遵循能力更强，已在 Gemini App 上线。他还宣布 Project Genie 推出新体验，面向 Google AI Ultra 订阅用户，包括 Genie 4、Project Genie agent 和社区作品库。"
+    },
+    {
+      "author": "Google Labs",
+      "handle": "GoogleLabs",
+      "summary_zh": "Google Labs 官方宣布 Project Genie 现已改用 Google DeepMind 的 Genie 4：用户可以用一句话生成一个世界，进入后还能在会话中途用提示词实时修改；可以借助新的 agent 用对话方式创建世界，也能在作品库中浏览和改编其他用户的世界。目前已向符合条件的 Google AI Ultra 订阅用户开放。此外，Google Labs 还推出了实验项目 Stitch Loop，这是一个全天候运行的产品 agent，用来帮助精简团队打造更好的产品，目前开放候补名单。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic Claude Code 团队成员 Thariq 提出与“人人自己生成软件”相反的观点：他认为大多数人并不会真的去生成自己的软件，因为好软件本质上是一组鲜明的主张，他宁愿用别人深思熟虑做出来的东西。他以亲身经历为例：即使有 AI，自己做软件也很难，因为很难弄清自己真正想要什么。他做的按“模式”组织工作的工具最终没有坚持用下去，打算改成以待办事项为核心的思路。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad 表示，OpenAI/Hugging Face 事件中最有意思的一点，是可以读到 agent 之间用来交流的消息板。他借此推广 Replit Missions：用户可以在其中直接看到多个 agent 如何协调和对话。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "Roblox 产品负责人、Creator Economy 作者 Peter Yang 认为外界在 Nvidia 风波中缺少关键信息。他提出几个疑问：黄仁勋为何突然辞职，是否有确凿证据；与他共事多年的董事会为何这么快翻篇；如果真有确凿证据，为何总统表示不介意黄仁勋回归。他还质疑，这究竟只是部分董事认为黄仁勋撒谎、失去了对他的信任，还是存在外界和大多数 Nvidia 员工都不知道的其他内情。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "Lex Fridman Podcast",
+      "title": "#505 – GTA 6, Crime, Jewel Heists, Prison, Corrupt Cops, Mafia, Miami & Money",
+      "date": "2026-11-19 04:37 UTC",
+      "duration": "3:26:58",
+      "link": "https://podcasts.apple.com/us/podcast/505-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia/id1434243584?i=1000802857471&uo=4",
+      "summary_zh": "美国知名珠宝大盗 Larry Lawton 讲述犯罪、入狱十余年与改过自新经历。"
+    },
+    {
+      "source": "AI & I by Every",
+      "title": "Notion’s Founder on the One Thing Your AI Is Missing",
+      "date": "2026-11-18 18:19 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/watch?v=PGWvMrF4XIA",
+      "summary_zh": "Every 主理人 Dan Shipper 在 Every 举办的大会现场对话 Notion 创始人兼 CEO Ivan Zhao（Notion 为本次活动赞助方）。核心观点：AI 时代软件的流程逻辑和 UI 都可以由 Agent 生成，真正耐久的价值在于数据和上下文（context）。Notion 正在把自己重新定位为团队与 Agent 共用的\"知识/上下文层\"。\n\n**一、Vibe coding 与软件分层**：Ivan 认为现在大约处于\"vibe coding 热潮过后一年\"：一年前大家喊\"软件已死\"，约**9个月前**又意识到代码需要维护。他认可 vibe coding 的精神，认为它延续了 60-70 年代\"人人都能读写软件\"的愿景，这也是 Notion 创立的初衷。他把软件分成三类：①想改就能改的个人工具，这是 AI 带来的自由；②不想自己操心、希望有人精心设计的品类，如日历（Notion 当天发布从零重写的原生移动端日历**第二版**）；③依赖安全性的企业软件，自建维护成本高，不建议自己做。Notion 的商业模式就是面向企业和团队提供托管服务。\n\n**二、护城河在数据而不在 UI**：过去 **15 年**，软件的价值在于由公司定义最佳工作流并做成 UI；如今 Agent 能写流程代码、也能生成 UI。所以 Notion 的定位是\"数据与上下文的守护者\"：向外部各类 Agent 开放，并提供权限护栏和多人协作。\n\n**三、公司发展阶段**：Notion 已创立 **13 年**。前 **5 年**基本在摸索，疫情期间找到 PMF 并快速增长；**2022 年底**拿到 GPT-4 级模型的早期权限后全面转向 AI，在 ChatGPT 发布**前几周**就上线了首个 AI 写作产品；随后做了**2 年**左右的 Agent 产品，因为模型能力不够进展艰难，直到**去年同期**才跑通。他坦言内部转型阻力很大，员工一度把 AI 看作和加密货币一样的风潮。如今 Agent 已经普及，Notion 的差异化回到\"人+上下文+知识系统\"，并自称拥有业内顶尖的应用 AI 团队。\n\n**四、产品路线与数字**：Notion 将开放 UI 组件库（pattern library），让 Agent 在 Notion 权限约束下读取数据库、自由生成界面（尚未开源），定位为\"vibe coding 的乐高积木\"，介于粘土式的自由代码和固定组件之间。目标是在**下个季度、最多两个季度内**，为**50 人规模**的公司提供开箱即用、由 Agent 引导上手的上下文与知识方案。他判断未来一两年将有**数千亿美元**花在 token 上，而沉淀下来的内容就是\"压缩后的 token\"；做得好的话，可帮企业节省 **20%-40%** 的 token。\n\n**五、Agent 用户与协作**：公司内部的假设是，未来**下一个 10 亿**知识工作者中绝大多数是 Agent（Claude、ChatGPT 等），但人类协作仍然重要。内部用 Notion 看板来编排多个编码 Agent，以解决\"各自对着黑箱 Claude Code 写代码、彼此看不懂\"的问题。他也提醒要警惕 AI 带来的\"TikTok 化\"二阶效应：人不应放弃对系统的理解。模型偏好方面：写作用 Claude，图像用 ChatGPT，Notion 内部的编码大多跑在 ChatGPT 上。\n\n投资启示：在 AI 时代，SaaS 的价值正从 UI 和工作流转向数据与上下文层，Notion 想成为\"Agent 时代的企业知识底座\"。需要跟踪的是 50 人公司方案的落地节奏，以及 Agent 作为付费用户的商业化进展。"
+    }
+  ],
+  "articles": [
+    {
+      "source": "a16z",
+      "title": "The a16z FDE Fellowship is back",
+      "date": "2026-11-19 17:26 UTC",
+      "link": "https://www.a16z.news/p/the-a16z-fde-fellowship-is-back",
+      "chars": 3054,
+      "summary_zh": "a16z 宣布启动**第二期** FDE（Forward Deployed Engineer，前置部署工程师）Fellowship。首期学员来自 OpenAI、ElevenLabs、HappyRobot 等\"品类定义者\"，其中不少人曾在 Palantir 参与打造最初的 FDE 模式，如今正把这一模式移植到产品、客户和目标各异的公司。\n\na16z 的核心判断：随着 AI 模型能力提升，客户越来越期待软件能贴合自身业务——理解流程、对接数据、真正把\"雇它来做的活\"做完。承诺变大，兑现承诺所需的落地工作量也随之变大，这正是 FDE/Applied AI 岗位价值上升的原因。从投资视角看，这反映 AI 应用层竞争正从模型能力转向\"交付与部署能力\"，FDE 已成为头部 AI 公司的标配职能。\n\n项目安排：\n- 对象：FDE 与 Applied AI 负责人\n- 时长：**8 周**，**2027 年 1 月中旬**开营\n- 形式：每**两周**一次晚宴/活动，主要在旧金山和纽约，学员可身处任何地方\n- 申请截止：**2026 年 12 月 31 日**，滚动审核，名额有限\n\n首批公布的 fellows 涵盖多家热门 AI 公司的 FDE/应用 AI 负责人：SpaceXSI 全球 FDE 负责人 Pauline Brunet、OpenAI 美洲区 FDE 联合负责人 Gary Lin、Harvey 应用 AI 负责人 Javier Kielmanowicz、Exa FDE 负责人 Louis Walsh、Perplexity 应用 AI 负责人 Natalie Kalas、Decagon 代理部署工程师经理 Alex Lewis、Cognition 部署工程负责人 Arjun Mishra、Anthropic 应用 AI 的 Kevin Bai（曾任 Rippling 创始 FDE）、Wonderful FDE 负责人 Boaz Francis、Replit FDE 负责人 Vatsal Mehta 等。\n\n本文为项目招募公告，未披露财务或业务数据。"
+    }
+  ]
+}
