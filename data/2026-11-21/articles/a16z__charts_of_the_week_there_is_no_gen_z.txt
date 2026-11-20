@@ -1,0 +1,99 @@
+Source  : a16z
+Title   : Charts of the Week: There is No Gen Z
+Date    : 2026-11-20 15:08 UTC
+Link    : https://www.a16z.news/p/charts-of-the-week-there-is-no-gen
+────────────────────────────────────────────────────────────
+
+What If There is No Gen Z?
+Midterm elections have come and gone, but ‘twas the season for surveys, and this little report
+“The Great Unbundling” from Electric Twin
+on Gen Z caught my attention.
+The premise of the report is that Zoomers are a little different—not that they are different from other generations (which is true, but not unusual), but that
+as a generation
+, they are configured differently such that “Gen Z” may not be that useful a term, at all. Rather than a single Gen Z with a relatively ascertainable bundle of preferences, there may be a multitude of Gen Zs, each one with less in-common with the other Gen Z “tribes” than you’d typically see for generations prior.
+The reason for that fragmentation (so the theory goes) is social media: while previous generations rely on a “single source of truth” for their information mix (often with predictable partisan and geographic markers), Zoomers mix n’ match across different channels, forums and influencers. The result—and the contrast is most stark, when compared with Boomers—is a multitude of Gen Z cohorts that are better defined by their various online tribes than any particular country or political affiliation.
+In other words, if you’re trying to understand what the Zoomers think, then you can’t look for binary left-right pairings vertically binned by country. Zoomer preferences come in a wider variety of bundles, driven more by their information mix, rather than politics or nationality.
+With all that throat clearing, let’s dig in.
+First, it should come as no surprise, but Zoomers get their content from very different sources than Boomers, especially:
+Zoomers favor YouTube, Insta and TikTok, while Boomers are relatively heavy on Facebook.
+The other thing to keep in mind is that short-form video’s arrival as an identity-making/sorting machine is fairly recent, roughly in-line with Gen Z’s maturation into adulthood. This data is actually from Pew, and not Electric Twin, but the implication is straightforward:
+While Facebook and Twitter were already fairly common sources of “news” 6 years ago, TikTok, Insta, and to lesser extents, YouTube and Reddit, rose substantially since 2020. TikTok as a source of news had the most dramatic rise, going from ~20% of users in 2020 to more than half by 2026.
+The most likely explanation isn’t that adults shifted their info mix, so much as that “adults” now includes more Zoomers, and since Zoomers use a lot more TikTok, etc., it’s now much more strongly represented in the adult “news” mix.
+The point is that there’s decent evidence of what most people already presumed to be true: Zoomers are consuming a different kind of information than everyone else, but especially Boomers.
+And that brings us to point two: as a coordinating mechanism, a TikTok diet sorts users into tribes very differently than traditional media. The tribes are more various within the TikTok generation, and have very little to do with strict partisan affiliation or nationality.
+For example, while a model is able to reasonably predict where a Boomer lives from their politics alone, when it comes to later generations (and Zoomers, especially), the model does only slightly better than chance:
+When participants from four different countries answered a set of political questions, the model guessed the nationality of the Boomer participants ~42% of the time. For Zoomers, the success rate dropped to 29%.
+In other words, Zoomers hold far less “nationally recognizable” sets of positions than generations prior.
+Electric Twin offered another clever way of demonstrating a similar point about the variousness, and non-geographically constrained nature of Zoomer bundles.
+When Boomers walk into a room of 99 other Boomers, they are far more likely to find a perfect match (19.8%) when they walk into a room of their countrymen, than when they enter a room of Boomers from a different place. Zoomers, by contrast, are pretty unlikely to find a perfect match
+anywhere
+, when sorting by nationality alone:
+Boomers from the US, UK, France and Germany find “like with like” perfect matches ~15-20% of the time. The most likely match Zoomers ever make is “like with like” in the UK, at ~9.6%, but the entire range of outcomes is only between 6.7-9.6%. In other words, not only does nationality not matter all that much, but matching itself is hard to come by: Zoomers are less likely to find a match
+anywhere
+than Boomers are to find a match (basically)
+everywhere
+.
+Here’s another cut making a similar point about the relative variety of Zoomer tribes. A Zoomer who walks into a room of 99 other Zoomers is about as likely to find a perfect match as in a room of 99 other people from any generation:
+Simply being Gen Z isn’t all that predictive when it comes to having a particular set of beliefs. Boomers, by contrast, are more likely to find a perfect match amongst Boomers, sure, but they’re also far more likely to find a perfect match among
+every generation
+than Zoomers are amongst
+any generation
+.
+To bring it all home, the data suggests that Gen Z is indeed different, mostly because it’s not really a “Gen”. It’s a collection of “microcultures” oriented more by their online habits than their party or national affiliations.
+And if you’re in the business of politics, or marketing, or institutional trust, trying to figure out what “Gen Z” wants . . . well, good luck to you.
+AI Wins FAArmageddon And Other Travel Woes
+With everything else going on, you might have forgotten that only a week ago, there were widespread FAA outages that grounded planes across the country.
+Navan, the business travel platform, published some data that shows exactly what the disruption looked like, when travelers heard the news, and frantically turned to their phones to make alternative plans:
+The ground stop was announced at 3:54pm, and immediately hotel and car bookings spiked as high as double their normal volume (and remained pretty elevated for the next day).
+I mean, it makes sense. If you can’t fly, then you either find a place to stay or you drive. Unless a congenial shower-curtain-ring salesman approaches you, in which case, you take the bus.
+The other kind of neat thing from Navan’s data is a win for AI. Unsurprisingly, help-chat volume also exploded after the outage, reflected by a spike in conversations with Navan’s AI customer support agent, Ava:
+While Ava chats exploded by nearly 5x, rather than wilt under pressure, Ava’s resolution rate hovered at or around its pre-panic level of 80%, despite the deluge of concerned queries. Customer service that takes 5x of the volume heading right into the weekend and neither loses its wits nor effectiveness isn’t a thing that could have happened before AI.
+Elsewhere, because we’re on the topic of flight disruptions, it turns out that delayed flights have indeed been getting increasingly common relative to before-pandemic times:
+The BTS hasn’t released its latest data that would include the recent grounding, but even before then, the on-time flight rate had declined by ~5pp since 2018 (with most of the shift driven by delays), although 2026 experienced a noticeable uptick in cancellations, as well.
+In terms of the worst times of day for getting delayed, unsurprisingly, it’s the afternoon rush hour (into the evening):
+The highest share of late-arrivals are for flights leaving between 3pm-9pm, presumably because leaving later in the day provides more of an opportunity to have some earlier disruption.
+And finally, in terms of the worst airports to fly out of, well, no one does it quite like Chicago:
+Chicago O’Hare accounts for ~6% of flights, and close to 8% of delays and cancellations. New York and Dallas (and to a lesser extent, DC) are also worse than they should be.
+For severely disrupted flights, Chicago really takes the cake:
+Chicago routes dominate the leaderboard for cancellations and 60 min+ delays (although Cleveland to DC is actually the worst route for severe disruption rate) and among the troubled route pairings, the
+From
+Chicago leg is almost uniformly worse than the
+To
+Chicago leg, so if you can avoid flying out of Chicago, you probably should.
+Unless, of course, a congenial clarinetist and self-proclaimed Polka King of the Midwest approaches you, in which case, take the ride to Chicago.
+Druck Presides At TomorrowX and Uncertainty Abounds
+I had the pleasure of attending Gavin Baker’s
+TomorrowX
+conference this week, which not only had a killer speaker line-up, but was a pretty unique opportunity to meet many fellow members of fintwit in real life.
+It’s hard to summarize all the takeaways, but in speaking with people, there was probably one moment that resonated with the most people, and it came from the inestimable Druck (aka Stanley Druckenmiller):
+“I can’t remember a period of where we had less clarity on where we’re going to be in 12 months . . . so I’m just taking a break [not long or short] . . . I’m just not playing.”
+Druck’s point was that he just doesn’t know. And with so much uncertainty—unprecedented in his recollection—he can’t be bullish or bearish. All he can do is wait. Over the longer haul, Druck was pretty optimistic that AI would be a game changer for medicine, cyber, and the broader universe of “selling outcomes,” but how precisely that would play out over the next 12 months, he couldn’t say, so for now, he’s just watching.
+Investors generally hate uncertainty.
+Charts has made this observation before, but when it comes to the AI Trade (and the all important question of “AI ROI”), from Mr. Market’s perspective, it’s just really hard to know.
+Public companies report mostly anecdata, while private companies remain mostly out-of-sight to the vast majority of investors. The result is that investors squint for insights by focusing on interesting, but wildly incomplete data sets, like the
+Rack Spread
+, or other (useful, but limited) indications of demand and spend.
+On that front, Databricks just began publishing some of its own data on token spend, and once again, it’s obvious just how much variation and uncertainty there is.
+Consider the data regarding open v. closed:
+Databricks shows that proprietary models account for ~70% of token volume, while OpenRouter, by contrast, shows almost the exact opposite.
+Likewise, when it comes to token spend, the data, such as we have it, is all over the place:
+Ramp’s per-employee monthly AI spend is higher than Databricks’, but shows less acceleration . . . except for the top centile.
+What does it mean? It’s hard to say.
+Of course, there are some substantial methodological differences here. Ramp is aggregating by firm (and dividing by headcount), while Databricks is focused on individual users (and reflects “human users only”). A top centile user within a firm may be an entirely different person than the average user within a top centile firm.
+But the broader point here is that “knowing” is hard to come by. We don’t know what people are spending, and we don’t know what the “rack spread” actually is today, let alone what it might be in 6 months.
+It’s unsurprising that Druck is more uncertain than he’s ever been. And while he’s not bearish (or bullish), the rest of the market almost certainly is feeling a bit dour.
+The last few weeks have included one of the largest “smart money” (i.e. hedge fund) tech selloffs ever:
+Net-selling of Info Tech was a 4-sigma+ phenomenon, with a long/short ratio dropping from a post-ZIRP high to nearly a series low in just a few months (with nearly half the drop occurring recently).
+In BofA’s manager survey, a record 38% of respondents said companies are “over investing” and a majority expected a capex cut in the next six months, up from just ~30% one month ago, and from just ~12% two months ago:
+Sentiment has obviously inverted
+very
+quickly.
+While Druck has the wisdom to say “I just don’t know,” other investors have flipped from bullish to bearish, practically on a dime.
+Charts offers no view on who is right or wrong, but while there certainly have been some “market moving” events that have transpired between September and October, it’s hard to say that they’ve been so numerous or so substantive as to justify such a profound shift in outlook in such a short period of time.
+Mostly, investors just don’t know. And when they don’t know, vibes and speculation predominate, and right now, for whatever reasons, the vibes are bad. Of course, that also means that vibes could flip once again, just as quickly as they did before, but when uncertainty abounds, the boat will tend to rock.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.

@@ -1,0 +1,298 @@
+{
+  "fetch_date": "2026-11-21",
+  "fetch_time": "2026-11-20T22:57:01.861311+00:00",
+  "stats": {
+    "new_podcast_episodes": 1,
+    "new_articles": 3,
+    "new_tweets": 20,
+    "total_podcasts": 1,
+    "total_articles": 3,
+    "total_tweets": 20
+  },
+  "podcasts": [
+    {
+      "source": "No Priors",
+      "title": "Superintelligence Needs the Physical World with CEO and Co-Founder of Arda Bob McGrew",
+      "date": "2026-11-19 11:44 UTC",
+      "link": "https://www.youtube.com/watch?v=_wLzJINt9iQ",
+      "orig_link": "",
+      "audio_url": "",
+      "duration": "",
+      "summary": "",
+      "lang": "en",
+      "chars": 72822,
+      "text_file": "data/2026-11-21/podcasts/no_priors__superintelligence_needs_the_physical_world_wi.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "Citrini",
+      "title": "Grand Expectations",
+      "date": "2026-11-20 14:01 UTC",
+      "link": "https://www.citriniresearch.com/p/grand-expectations",
+      "summary": "Why GTA VI’s Success Doesn’t Guarantee TTWO Returns",
+      "chars": 1733,
+      "text_file": "data/2026-11-21/articles/citrini__grand_expectations.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Charts of the Week: There is No Gen Z",
+      "date": "2026-11-20 15:08 UTC",
+      "link": "https://www.a16z.news/p/charts-of-the-week-there-is-no-gen",
+      "summary": "AI Wins FAArmageddon And Other Travel Woes; Druck Presides At TomorrowX and Uncertainty Abounds",
+      "chars": 13671,
+      "text_file": "data/2026-11-21/articles/a16z__charts_of_the_week_there_is_no_gen_z.txt"
+    },
+    {
+      "source": "a16z",
+      "title": "Welcome Edgard Kagan",
+      "date": "2026-11-20 15:03 UTC",
+      "link": "https://www.a16z.news/p/welcome-edgard-kagan",
+      "summary": "Edgard Kagan, former United States Ambassador to Malaysia, joins as an Advisor to a16z’s Global Affairs mission.",
+      "chars": 3600,
+      "text_file": "data/2026-11-21/articles/a16z__welcome_edgard_kagan.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2123659761887625602",
+      "date": "2026-11-20T06:08:37.000Z",
+      "text": "you cant be serious https://t.co/pll3CcsPFp",
+      "url": "https://x.com/swyx/status/2123659761887625602",
+      "likes": 0,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2123591875349422435",
+      "date": "2026-11-20T01:38:52.000Z",
+      "text": "when scrolling social media i think it is worth bearing in mind that you can say “odds of reaching SOTA have dropped to zero” and get alot of likes and then 3 months later when they have reached SOTA you post apology form and get even more likes and the subject of your writing prints it out and thanks you for motivation\n\ntheres no consequences at all for inaccuracy and every incentive for hyperbole and the x algorithm is tuned for this",
+      "url": "https://x.com/swyx/status/2123591875349422435",
+      "likes": 261,
+      "retweets": 6,
+      "is_quote": true,
+      "quoted_id": "2123423354367377492"
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2123552457649492023",
+      "date": "2026-11-19T23:02:14.000Z",
+      "text": "fuuuuuuck\n\nhttps://t.co/y1lntMSVtd",
+      "url": "https://x.com/swyx/status/2123552457649492023",
+      "likes": 4,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2123485713056633138"
+    },
+    {
+      "source": "Josh Woodward",
+      "handle": "joshwoodward",
+      "tweet_id": "2123534862569324703",
+      "date": "2026-11-19T21:52:19.000Z",
+      "text": "Gemini app on Mac can now do tasks on your computer, a top feature request! https://t.co/WZL40Vz57r",
+      "url": "https://x.com/joshwoodward/status/2123534862569324703",
+      "likes": 876,
+      "retweets": 35,
+      "is_quote": true,
+      "quoted_id": "2123513203745538423"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2123612889416339762",
+      "date": "2026-11-20T03:02:22.000Z",
+      "text": "Team is crazy enough to think they can succeed at improving the experience used by 1.2B users in place. Let's see if the strategy plays out.",
+      "url": "https://x.com/thsottiaux/status/2123612889416339762",
+      "likes": 491,
+      "retweets": 6,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2123612433923051976",
+      "date": "2026-11-20T03:00:33.000Z",
+      "text": "Le ChatGPT 2.0 https://t.co/QooOVLPLlf",
+      "url": "https://x.com/thsottiaux/status/2123612433923051976",
+      "likes": 1911,
+      "retweets": 57,
+      "is_quote": true,
+      "quoted_id": "2123557171321561133"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2123557171321561133",
+      "date": "2026-11-19T23:20:58.000Z",
+      "text": "We’re also working on a new mobile experience for ChatGPT! \n\nIt’s easier to get to your favorite features and discover what you can do in ChatGPT. We’re starting with Pro users who have a dot or are eligible to create one. Your dot gets its own tab, and you can pin Codex, Projects, Images, and more to the tab bar. Some of you will see the new experience by default. \n\nYou can turn it on or off anytime in Settings > New ChatGPT Design. \n\nSuper excited to hear your feedback before we roll it out more widely!",
+      "url": "https://x.com/thsottiaux/status/2123557171321561133",
+      "likes": 5244,
+      "retweets": 276,
+      "is_quote": true,
+      "quoted_id": "2123556256392847657"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2123648490844897389",
+      "date": "2026-11-20T05:23:50.000Z",
+      "text": "People make fun of Google for being large and bureaucratic but I think one of their competitive advantages is they have 100,000+ employees testing their latest models and tools before wide release.\n\nAt that employee population you can even run staff-only A/B tests that are stat sig :)",
+      "url": "https://x.com/petergyang/status/2123648490844897389",
+      "likes": 35,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2123540875733315815"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2123620968568676457",
+      "date": "2026-11-20T03:34:28.000Z",
+      "text": "Opus 5.5 vs Gemini 4 Neon for Shibuya Crossing at night. Which one do you prefer?\n\n📌 Watch my 4 other head to head comparisons here: https://t.co/8rKllg4xBx https://t.co/QrSv4LzvmI https://t.co/p7nr6lHYU0",
+      "url": "https://x.com/petergyang/status/2123620968568676457",
+      "likes": 21,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2123540875733315815"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2123540875733315815",
+      "date": "2026-11-19T22:16:12.000Z",
+      "text": "Gemini 4 Neon is getting rave reviews, so I made a new video comparing it to Opus 5.5, my favorite model for everyday work.\n\nSome takeaways:\n\n1. Opus is still better at 3D and design from my testing, but Neon is on par or better at writing and personality, which is a huge accomplishment.\n\n2. @Google Gemini 4 has 3 models, but in reality I think I'll use Neon for 99% of tasks. It's much faster than Carbon and its results are just as good.\n\n3. The $100/mo Gemini Ultra subscription is a steal. You get Gemini 4, YouTube Premium Family (my favorite subscription ever) for ad-free YouTube and Music, 20 TB of storage for all your photos and files, and more.\n\n📌 Watch me test Neon vs Opus across 5 use cases here: https://t.co/irRiNDdqgY",
+      "url": "https://x.com/petergyang/status/2123540875733315815",
+      "likes": 164,
+      "retweets": 5,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2123524052195463568",
+      "date": "2026-11-19T21:09:21.000Z",
+      "text": "Software is both art and utility. AI is both an Industrial Revolution and a Renaissance.\n\nFactories are for utilities, at AIE Code I talked about how we can make better art. https://t.co/KrETTn6hA3",
+      "url": "https://x.com/trq212/status/2123524052195463568",
+      "likes": 793,
+      "retweets": 49,
+      "is_quote": true,
+      "quoted_id": "2123514398438211840"
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2123457177419760100",
+      "date": "2026-11-19T16:43:37.000Z",
+      "text": "https://t.co/2jiFanMHll",
+      "url": "https://x.com/trq212/status/2123457177419760100",
+      "likes": 10013,
+      "retweets": 640,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2123452888248992024",
+      "date": "2026-11-19T16:26:35.000Z",
+      "text": "an age of miracles https://t.co/WcSHQzzhn8",
+      "url": "https://x.com/trq212/status/2123452888248992024",
+      "likes": 2999,
+      "retweets": 66,
+      "is_quote": true,
+      "quoted_id": "2123431689934291083"
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2123535544718418191",
+      "date": "2026-11-19T21:55:01.000Z",
+      "text": "Build your own Muse-like personal agent with one prompt. https://t.co/24iScdeQvb",
+      "url": "https://x.com/amasad/status/2123535544718418191",
+      "likes": 393,
+      "retweets": 24,
+      "is_quote": true,
+      "quoted_id": "2123525657451954420"
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2123535362568134894",
+      "date": "2026-11-19T21:54:18.000Z",
+      "text": "Having a contract with your agent is a paradigm I expect many will copy from us https://t.co/ye6WQLu6Xq",
+      "url": "https://x.com/amasad/status/2123535362568134894",
+      "likes": 75,
+      "retweets": 4,
+      "is_quote": true,
+      "quoted_id": "2123450721375076625"
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2123433375830561130",
+      "date": "2026-11-19T15:09:02.000Z",
+      "text": "Sick! https://t.co/eLdvynPjsp",
+      "url": "https://x.com/amasad/status/2123433375830561130",
+      "likes": 57,
+      "retweets": 2,
+      "is_quote": true,
+      "quoted_id": "2123423598698471922"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2123553975945556144",
+      "date": "2026-11-19T23:08:16.000Z",
+      "text": "A company’s genesis is the agent that helps you build the company https://t.co/JAeoreokGR",
+      "url": "https://x.com/rauchg/status/2123553975945556144",
+      "likes": 187,
+      "retweets": 9,
+      "is_quote": true,
+      "quoted_id": "2123538362862862661"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2123505400591106113",
+      "date": "2026-11-19T19:55:14.000Z",
+      "text": "My “is engineering a valuable pursuit” math. \n\nAn outcome-oriented, creative engineer is now a 1000x engineer.\n\nA tabs-vs-spaces-debating, miss-forest-for-trees engineer is now a -10x engineer.\n\nThe regular knowledge worker is now a 2x engineer.\n\nThis is also backed by the distribution of token consumption we see in both our startups and enterprise base. Engineers and software factories will consume exponentially more tokens.\n\nIf there’s a takeaway from Anthropic’s success, it’s that coding is the #1 killer app of AI.",
+      "url": "https://x.com/rauchg/status/2123505400591106113",
+      "likes": 1574,
+      "retweets": 94,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2123468825538789380",
+      "date": "2026-11-19T17:29:54.000Z",
+      "text": "𝚟𝚎𝚛𝚌𝚎𝚕 𝚋𝚘𝚊𝚛𝚍 has no heavyweight or opinionated UI. It's infra not product. I love the \"headless Slack\" for agents analogy, because UI is free now.\n\nYou can generate and deploy the ideal \"factory interface\" for each usecase. A security team will focus on vulnerability counts, SEV classifications, confirmed vs unconfirmed.\n\nI've seen internal factories at Vercel built on Board that are just TUIs. Or mostly managed via a Slack agent, and you just focus on the outcomes and giving feedback to the agents. \n\nThe board is like the Redux state manager of your agents. It's foundational.",
+      "url": "https://x.com/rauchg/status/2123468825538789380",
+      "likes": 332,
+      "retweets": 10,
+      "is_quote": true,
+      "quoted_id": "2123442758606352420"
+    },
+    {
+      "source": "Garry Tan",
+      "handle": "garrytan",
+      "tweet_id": "2123496208316694669",
+      "date": "2026-11-19T19:18:43.000Z",
+      "text": "Bostrom: \"if nobody builds it, everyone dies\"\n\nHard agree https://t.co/4PsIoscsD8",
+      "url": "https://x.com/garrytan/status/2123496208316694669",
+      "likes": 263,
+      "retweets": 21,
+      "is_quote": true,
+      "quoted_id": "2123495352460546133"
+    }
+  ]
+}
