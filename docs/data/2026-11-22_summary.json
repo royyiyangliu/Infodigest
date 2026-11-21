@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-22",
+  "generated_at": "2026-11-21T23:33:11.803468+00:00",
+  "stats": {
+    "tweets": 6,
+    "podcasts": 1,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad 指出，黎曼猜想出现了两份几乎同时发布的独立证明，一份由 AI 完成、一份由人类完成。他认为，如果两份证明都成立，最值得看的是两者的差异，尤其是在\"优雅性\"上。这次是 AI 与人类在顶级数学难题上的一次正面比较。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch 宣布，Vercel 的 AI 基础设施已通过 ISO 42001:2023 认证。他称这是\"AI 界的 SOC2\"，也是第一个由独立机构审计的全球标准，覆盖 AI 系统的构建、评估、监控和治理，今后每年由第三方审计一次。他还推广 @eve 智能体平台：@agentcardhq 已经上线，模型能力更强，iMessage/WhatsApp 渠道已经成熟，性能也大幅提升。开发者可以用 Vercel 的开放智能栈和模板，自己做出 Muse / Instinct 这个级别的个人购物智能体平台，并完全掌控。"
+    },
+    {
+      "author": "Swyx",
+      "handle": "swyx",
+      "summary_zh": "Latent Space 主理人、AI Engineer 大会创办人 Swyx 预告了一期内容：@j_schottenstein 为什么离开 dbt 加入 LangChain，并把 LangChain 做成 **30 亿美元**估值的公司，以及 LangChain 现在为什么要从零重建内容、上下文（知识）和\"软件工厂\"。他还质疑 Cursor 的 origin 产品是否有人真正重度使用，是否已经支持 actions/CI/CD。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI Codex 负责人 Thibault Sottiaux 称团队全力投入，呼吁用户升级桌面端应用，新版更快、更简洁、更好用。他还透露，团队内部\"无意中\"做出了一个好玩到让大家都不想工作的新体验，暗示有新产品即将发布。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品创作者、Behind the Craft 主理人 Peter Yang 分享了用 Google Antigravity 跑 Gemini Neon 的技巧：把远程控制网页\"添加到主屏幕\"，就能在手机上操作所有 Antigravity 会话。Antigravity 目前还没有移动 App，但他认为它的远程控制比 Claude 的更好用，因为所有会话默认都能看到。"
+    },
+    {
+      "author": "Josh Woodward",
+      "handle": "joshwoodward",
+      "summary_zh": "Google 副总裁、Gemini 应用负责人 Josh Woodward 称本周发布密集。团队受一位网友帖子的启发，在节前的周五下午直接做了一个 Gemini Neon 的新功能并上线到生产环境。用户在网页版长按模型选择器即可使用。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "Latent Space",
+      "title": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
+      "date": "2026-11-19 23:38 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/watch?v=x0VSm6IjcDQ",
+      "summary_zh": "Linear COO Cristina Cordova（前 Stripe 7.5 年、Notion 平台负责人，曾任早期投资人）复盘 Linear 的 GTM 打法（节目标题称已达 **1 亿美元 ARR**）。\n\n**规模与增长**：她约 **3.5 年**前加入（2023 年，公司约 **35-40 人**，仅 **1 名**销售），此后业务至少增长 **10 倍**；现有约 **4 万家**付费客户、约 **170 人**，人员规模约为同阶段同等收入公司的一半。加入时最大客户不超过约 **500 席**、无上市公司客户，主要靠 PLG 自助增长（如 Vercel、Ramp）。\n\n**分步上移**：入职 3 周即把“进军企业级”从公司目标中划掉，先攻已有竞品的成长期/中型市场（要求产品“好得多”，而非好 20-30%），直到 **2025 年**才组建企业级销售团队。无 SDR、不做 FDE，配解决方案工程师；客服坚持不外包，AI 只起草、人工把关。\n\n**AI 转型（核心看点）**：CEO 发文称“issue tracking 已死”，公司定位转向“产品开发系统”与 agent 编排。**2025 年**率先推出 MCP 服务器，如今 **超过 50%** 的 issue 由 agent 创建，同时应用内人工创建量也显著上升——她认为只做“数据库+MCP”不是好生意，必须把 agent 工作流做进自有产品。已推出 Triage Intelligence、Loops、agent API，并与 Codex、Cursor、GitHub Copilot 合作；绝大多数前沿 AI 实验室在用 Linear。2025 年为此牺牲了部分企业级功能，但反而让更多大企业把 Linear 列入候选。\n\n**定价**：直到今年 6 月仍是纯席位制；现席位制保留，新 AI 功能按用量收费——编码会话可选 OpenAI 或 Anthropic 模型，按 API 公布价小幅加价；Loops 用 AI credits；Agent 对话免费。新功能先免费 beta，宁可先贵后降。她指出“AI 预算”为采购凭空创造了增量预算，但预计会收紧，客户多签 1 年或试点而非 3 年合同；部分 AI 公司数月达 1 亿 ARR，是因为少数 **3000-4000 万美元**级大单带来的集中度，与 Linear 的分散席位模式不同。\n\n**其他**：产品路线图最长只看 **6 个月**；2025 年夏季未出现往年淡季；她认为传统护城河在瓦解，团队与速度才是关键。"
+    }
+  ],
+  "articles": []
+}
