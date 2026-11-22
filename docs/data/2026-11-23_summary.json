@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-23",
+  "generated_at": "2026-11-22T23:32:55.524813+00:00",
+  "stats": {
+    "tweets": 6,
+    "podcasts": 0,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie（@levie）认为，应当认真对待\"AI 参与证明黎曼猜想\"这一突破，其意义远超数学本身：他引用的分析指出，这一证明是一条需要穿越约 **25,000 页**既有理论、与目标并无明显关联的\"虫洞\"式路径，无论单靠人脑还是单靠当前 AI 都无法完成，是人机协作的产物。他的核心判断是，过去解决代码、生命科学、数学、网络安全等问题受限于个人或团队能记住和理解的信息量，而 AI 首次让\"人类上下文上限\"与生产力/发现能力解耦，这将带来人类产出的质变而非小幅提升。未来 Agent 可以把毫不相关的既有研究、企业内全部数据关联起来解决新问题，解法或许不如以往优雅，但数量会多得多，而我们才刚进入理解其影响的头几个月。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic Claude Code 团队成员 Thariq（@trq212）提出与\"人类将被 AI 取代\"相悖的观点：他担心人们过快地把自己从流程中\"去中介化\"，这对人和模型都是一种损害。他承认 Claude 已在承担大量技术工作，未来模型或许能一次性\"证明黎曼猜想\"或\"把 JavaScript 变成静态语言\"，但认为与模型协作推进前沿本身就是一项高度技术性的技能——模型越强，这项技能越重要，且至今未见其边际收益递减。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator 总裁兼首席执行官 Garry Tan（@garrytan）大胆预测：鉴于 AI 能力和外界对《GTA VI》的大量吐槽，只要有足够的 token，业余爱好者用 vibe coding 做出一个去掉争议设计缺陷的 PC 移植版\"可能只需一两个月\"。他还表示自己约**一半**的\"软件工厂\"工作已在使用某款新工具（引用推文，所指产品未在原文中明示），称其是目前在桌面、移动端和云端体验最好的一款，并强调\"自动化自己的工作其实非常容易\"。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad（@amasad）指出，一名高中生正在把《GTA6》重新编译以在 PC 上运行，更值得关注的是其用 GitHub issues 在多个 Agent 集群之间协调分配任务，他认为这可能是开源协作的一种新模式。他同时宣布，由 Replit Missions 构建的应用 Amuse 已开源。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI Codex 负责人 Thibault Sottiaux（@thsottiaux）透露，在 ChatGPT/Codex 桌面应用刚完成一次更新后，团队已在准备下一次\"重大更新\"，并公开征集用户对新版中仍待完善之处的反馈，显示 OpenAI 在 Codex 桌面端保持高频迭代节奏。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品创作者、Roadmap 作者 Peter Yang（@petergyang）评价新版 ChatGPT 移动端界面非常简洁，但 Codex 会话入口不再显眼：需在最右侧标签页长按才能把 Codex 固定到底部导航栏，他认为这很不直观，并建议左侧导航的聊天列表应同时显示本地近期的 Codex 会话，而不仅是普通聊天。"
+    }
+  ],
+  "podcasts": [],
+  "articles": []
+}
