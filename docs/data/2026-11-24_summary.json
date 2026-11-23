@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-24",
+  "generated_at": "2026-11-23T23:33:18.355892+00:00",
+  "stats": {
+    "tweets": 7,
+    "podcasts": 0,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic Claude Code 团队成员 Thariq（@trq212）提出与主流\"AI 将让人类出局\"相反的观点：人类过快地把自己从流程中\"去中介化\"，对自己和模型都是一种损害。他承认 Claude 已在承担大量技术工作，未来模型或许能一次性\"证明黎曼猜想\"，但认为与模型协作推进前沿本身就是一项深度技术技能，且随着模型变强这项技能愈发重要，至今未见边际收益递减。"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "levie",
+      "summary_zh": "Box 首席执行官 Aaron Levie 认为应高度重视近期 AI 参与的黎曼猜想突破，其意义远超数学本身：他引用的评论指出，该证明需要一段长达 **25,000 页**、穿越既有数学基础设施的\"虫洞式\"路径，单靠人脑或单靠当前 AI 都无法完成。Levie 指出过去解决问题受限于个人或团队能记住和理解的信息量，AI 首次将人类的上下文上限与生产力/发现能力解耦，这将是人类产出的质变而非小幅提升；未来 agent 可关联毫不相干的既有研究、扫描企业全部数据来解决问题，覆盖网络安全、生命科学等领域，解法或许不再优雅但数量会多得多。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad 提到，一名高中生正在把 GTA6 重新编译移植到 PC，更值得关注的是其用 GitHub issues 来协调多个 agent 集群（agent swarms）分工，他认为这可能是开源协作的新模式。他同时宣布由 Replit Missions 构建的应用 Amuse 已开源。"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "garrytan",
+      "summary_zh": "Y Combinator 总裁兼首席执行官 Garry Tan 大胆预测：借助 AI，玩家可能只需\"一两个月\"、投入足够 token，就能 vibe coding 出一个去掉饱受诟病设计缺陷的 GTA VI 业余 PC 移植版。他还表示自己约一半的工作已通过其\"软件工厂\"使用某款 AI 编程工具完成，称其在桌面、移动端和云端的体验是目前最好的，并强调自动化自己的工作\"非常容易\"。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI Codex 负责人 Thibault Sottiaux 透露，在 ChatGPT/Codex 桌面应用刚完成一次更新后，团队已在准备下一次\"大更新\"，并公开征集用户对仍需改进之处的反馈，显示 OpenAI 在编程 agent 桌面端的快速迭代节奏。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品负责人、《Behind the Craft》作者 Peter Yang 评价新版 ChatGPT 移动端\"非常简洁\"，但指出 Codex 线程入口被隐藏，需进入最右侧标签长按才能把 Codex 固定到底部导航栏，\"一点都不直观\"；他建议左侧导航的对话列表应同时纳入本地近期 Codex 线程，反映出 OpenAI 正把 Codex 与 ChatGPT 产品整合、但交互仍待打磨。"
+    },
+    {
+      "author": "Matt Turck",
+      "handle": "mattturck",
+      "summary_zh": "FirstMark Capital 合伙人 Matt Turck 总结 Slush 大会：他称其为最好的创业大会，由学生组织但非常专业；会上关于邻国俄罗斯威胁的讨论成为一大氛围，他还认为在非科技中心城市举办的会议效果更好，因为参会者会全程留在现场。"
+    }
+  ],
+  "podcasts": [],
+  "articles": []
+}
