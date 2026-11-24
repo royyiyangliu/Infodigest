@@ -1,0 +1,115 @@
+Source  : a16z
+Title   : How to Win Bots and Influence Purchases
+Date    : 2026-11-23 15:04 UTC
+Link    : https://www.a16z.news/p/welcome-to-the-b2a-economy-how-agents
+────────────────────────────────────────────────────────────
+
+In our
+first piece
+on the B2A economy, we argued that agents will increasingly influence what products we buy, which apps we use, and where we spend money - and tokens. Almost every business will want to tap into this new distribution channel. But, how do you sell to agents?
+We partnered with
+The Prompting Company
+- whose customers include NVIDIA, Google, Databricks, Cloudflare, Kalshi, Vercel, Snapchat, Exa, Clay, and many more - to test Grok Bot, Muse, Instinct, and Dots across 1,270 prompts and 11,307 completed agent runs. We also tested shopping requests on ChatGPT, Gemini, and Perplexity for comparison.
+The tests covered physical products (“find me noise-canceling headphones under $150”) and software (“should I use Adobe or Descript to edit this video?”) We paired these experiments with YipitData’s consumer spending data, to see where purchases facilitated by Muse and other consumer agents are already happening. We’ve shared the top 50 merchants by agent spend so you can draw your own conclusions.
+Together, this gives us a picture of agents as customers - with five takeaways on how to win them over.
+1. Lean into use cases where you “spike”
+For broad requests, agents often have a shared set of default picks. In our tests across Muse, Instinct, Grok Bot, and Dots, a product picked by one agent had a 73% chance of being picked by at least one other agent. And in nearly a quarter of cases, all four agents picked the same top product.
+So how do you become a default pick? It’s not easy. Muse is the only agent that fully exposes its research logs - and they show how narrow the shortlist can be. Muse almost always starts with a search of
+its own Meta catalog
+, and pulls a maximum of 50 options. When it also kicks off a search via browser use (which is not always the case), the agent only looks at three product pages on average.
+The amount of overlap in recommendations suggests other agents have a similarly limited search set. This will change over time, as agents find ways to access real-time metadata and can truly browse
+every
+product in a category. But for now, the number of options an agent looks at is fairly low.
+And, it picks out of that set based on a pretty consistent set of variables - namely, price and reviews.
+The best way to get into an agent’s research set (and to ultimately be chosen) is to prove your product’s superiority for more targeted use cases or personas. This can significantly flip the default pick. As one example - agents asked to choose between two hairdryers, the Shark FlexStyle and the Dyson Airwrap, chose the cheaper Shark in 91% of cases. After reading reviews, the agent concluded it had similar performance at a lower price.
+However, when the user’s ask was even a
+little
+more complicated, the agent’s decision-making changed. Fine or color-treated hair? Dyson won in 51% of runs. A product they’ll need to use daily? Dyson’s victory margin increased to 88%. These specific needs pointed the agent to product features like weight, maximum temperature, and even sound that made the Dyson premium easier to justify.
+Agents follow similar logic in selecting software. When asked for general graphic design software, agents nominated Canva in 78% of runs…and Adobe in none. However, when the user mentioned team templates, Adobe made the top list much more frequently. And, if the user suggested needing professional-level output, Adobe was the pick in every case.
+2. Optimize your product for agent crawlers, not just human eyeballs
+Agents approach searches differently than humans - but also differently than traditional LLMs. When asked to find a product, LLMs rely on their training data, and will revert to a web search if needed for additional options or info verification. They’re looking to surface a few good options, not necessarily available products. As a result, they lean on review sites, press, and forums, occasionally even more heavily than product pages themselves.
+ChatGPT non-agent model finding a gift
+By contrast, agents start by checking user memory. This is the context they’ve stored on the user and their preferences, which is a first step to make sure their eventual recommendation checks all boxes. Then, they turn to both internal connectors and catalogs, and do external research (primarily web search). Muse and Dots both use proprietary systems for search, while Grok Bot and Instinct use Exa, per The Prompting Company’s activity logs.
+Muse agent finding a gift
+While the mix of sources an agent checks varies across categories, they are more likely to visit direct or third-party product pages than traditional LLMs. This makes having an agent-readable website - or agent-accessible software product - crucial. An agent needs to establish what your product does, what it costs, and what limits apply to put it in the final option set.
+Again, the rules apply for software as well. We asked Dots to generate ten ads based on a product photo, and let the agent choose which image generation tool to use. The agent checked
+Midjourney, and found that its guidelines
+say there is no general API and they almost always prohibit automated usage. Then, the agent went to
+Ideogram
+- which gave the agent a path from the product page to both an API and an official MCP integration. Ideogram’s
+API docs
+even show the code to generate an image and download it, making the agent’s choice easy.
+Dots hit a wall with Midjourney when it found no API and a policy of prohibiting automated generation.
+With Ideogram, the agent found an API and MCP with clear instructions.
+You can test how your own website performs in agent tests
+here
+.
+3. Agents do the math - make sure they can see your value
+Unlike humans, agents are ruthless optimizers. They will calculate the fully loaded cost of a product - including shipping fees, subscription term options, return or refund policies, and even warranties.
+Based on this, they’ll decide on the best place to buy a product, whether that’s first-party, third-party, or even resale. If a product is offered by two retailers at the same price, agents chose the retailer with the better return policy (free returns, longer return window, refund to original payment method) in 86% of tests.
+Quince is one example of a retailer that communicates its value to agents clearly. Quince ranks in the top 15 retailers by consumer agent spend, punching far above its weight (it is not a top 15 global retailer). The product page for
+Quince’s $50 cashmere sweater
+shows why. Near the top is pricing, shipping cost (free), in stock status, and reviews (both number and rating). The price is compared directly to traditional retail - scrolling further down the page reveals a head-to-head against specific other brands.
+Software products can benefit from pricing for agents too. #9 in the number of agent transactions - and #1 in the technology category - is Porkbun, a domain registration tool. It beats out competitors Cloudflare (ranked #17) and GoDaddy (ranked #112), despite the fact that both register
+significantly more domains
+per month than Porkbun (2.6x for Cloudflare, 4.8x for GoDaddy). Both Muse and Dots favor Porkbun’s transparent pricing and lack of lock-ins, with no discounted year-one price that jumps later.
+Both Muse and Dots suggested Porkbun when asked to find a domain registration tool
+There is, however, a breaking point when it comes to price. Like humans, agents will pay a premium for a seller that is significantly more trustworthy - or, if the price of a product seems too good to be true.
+In one run, Grok Bot passed over a $200 Sonos speaker listing in favor of a $250 option from an authorized dealer, pointing to warranty coverage. In fact, across 275 real-store comparisons that pitted a cheaper seller against a more expensive but more trusted option, agents recommended the trusted option 72% of the time. This is where traffic, backlinks, and brand still matter.
+On the price front, a discount less than 10% did not sway the agent at all. Discounts between 10-50% were more compelling, though agents still only took a less expensive, less trusted option 24% of the time. Once the discount exceeded 50%, the agent steered clear.
+4. Treat each agent like a different customer
+Like people, each agent has its own taste, which can impact both the products it looks and at what it ultimately selects.
+Some of these differences are a result of bot-blocking. In a set of Amazon checkout tests, Grok Bot reached the cart in all runs, while Muse, Instinct, and Dots were blocked in all of
+their
+attempts. Of all four agents, Instinct was the most likely to send a user only to a brand’s direct website versus a larger retailer.
+These preferences can be strong. Grok Bot linked to Amazon in 17.5% of runs, while no other agent topped 1.6%. Muse linked to Walmart in 26% of answers and Best Buy in 22% - though Muse is also the only agent of the four to pull 50 options from its own Commerce Manager product before embarking on a broader search. We expect these preferences to strengthen over time as agents ink deals with retailers. Muse and Walmart
+are launching
+an agent-to-agent communication channel, while ChatGPT
+recently removed
+a claim that OpenAI partnerships would not impact product recommendations.
+Another difference across agents worth considering is
+how
+they market your product. When asked for an AI notes solution for in-person meetings, Grok Bot and Instinct eventually got to a very similar list of recommendations. And, they even had similar reasons for their choices (accessible on existing devices, privacy, convenience). However, Instinct created a beautiful visual site of its options, while Grok Bot gave a more straightforward answer - even offering to do the note-taking itself first, and build out workflows for the user afterward.
+Grok Bot and Instinct ultimately chose the same top pick for meeting notes (Granola), but presented their options to the user very differently.
+Agents also trust different evidence. Muse rarely cites reviews - it mentions them in just 10% of its picks, compared to 30-41% for the other agents. Dots cites professional product tests in 11.4% of runs, while no other agent tops 3.7% - and when looking at software, “ease of use” for the agent is the primary decider. Instinct doesn’t take ratings at face value. In tiebreaker tests, it checked outside reviews and often disputed the ratings it was given - “better reviews” won only 4 of its 26 tiebreakers. Returns or cancellation terms were a much weightier factor for Instinct than other agents.
+5. Be where agents already search and transact
+Like it or not, agents often begin and end their searches on aggregators (substantial supply, sometimes with discounts) and marketplaces (larger volumes of unique inventory). Agents are limited in time to complete a search, and logically want to be able to look across the most dense option set.
+This makes it more important to understand how your product “shows up” on these other platforms. Nearly one-third of observed spend among the top 50 merchants by agent spend went to marketplaces and aggregators. This rises to 46% if you include retailers that operate third-party marketplaces, and 55% if you include conventional multi-brand retailers.
+This is at least somewhat skewed by the fact that travel comprises the largest share of agent spend thus far - and is a category ruled by aggregators. In YipitData’s sample, Expedia and
+Booking.com
+were the two largest merchants by spend - American Airlines and United ranked #4 and #6, respectively.
+Aggregators are attractive to agents as they put many options, prices, and booking tools in one place. In the walkthrough below, the same hotel’s refundable king room was available for $476.20 direct and $476 on Expedia. Expedia also gave the agent the choice to pay now or at the property, with card and PayPal options for paying now. Unless the user asks for direct booking, the agent’s choice is clear.
+Hotel Zelos, December 4–6, 2026:
+direct booking
+versus
+Expedia
+for a refundable king room. Browser walkthrough; no reservation submitted.
+Currently, agents primarily lean on their own product catalogs and on browser use to make selections - external connector usage is low. In runs conducted between October 22 and November 8, Grok Bot offered to connect an app in 5% of runs, while Instinct, Muse, and Dots each did so in fewer than 1%.
+However, this is changing quickly. OpenAI’s new
+Businesses in ChatGPT
+lets verified businesses update their details and add product feeds with pricing and availability, and eligible U.S. businesses can publish a Business Agent to answer customer questions. Meta connects in its existing product catalog (more on this above) to start Muse searches. Across agents (Muse, Grok Bot, and Instinct),
+Shopify Catalog
+makes products available to buy with Shop Pay.
+Shopify’s product illustration of a Muse purchase approved with Shop Pay.
+Once an agent finds and picks your product, checkout is the final hurdle. In our tests, agents reached the end of the checkout form in 81% of runs….on stores that offer guest checkout.
+Every run on a store that required a logged-in account stopped early in the purchase process
+- sometimes to ask for the user’s credentials, but sometimes to move to another merchant.
+In the long term, identity-less shopping is not ideal for the consumer or the merchant - and protocols are beginning to form around identity, payments, and fraud. Muse, Grok Bot, and Instinct all use
+Stripe’s Link wallet
+. For Muse, Link enables instant checkout at more than a million businesses that accept it, and issues a single-use virtual card for purchases elsewhere. The user approves the purchase in chat without sharing their underlying card details with the agent. Muse can also
+use Shop Pay natively
+.
+After our tests ended, OpenAI launched
+ChatGPT Wallet
+for Dots on November 13, initially for U.S. Pro users. It lets the agent pay through existing checkout flows using a token in place of the customer’s actual card details, with the user approving each purchase.
+We see a big opportunity for startups helping businesses understand how to market and sell to agents. If you’re building here, we’d love to hear from you.
+Methodology:
+The Prompting Company
+ran 11,307 completed personal-agent tests across 1,270 prompts, October 22–November 8, 2026, plus 2,619 shopping-request runs on ChatGPT, Gemini, and Perplexity. Samples vary by experiment.
+YipitData’s separate card-panel analysis covers agent-facilitated purchases through November 11, 2026. Its tracking does not distinguish Muse from Instinct and excludes Amazon. Merchant rankings and dollar amounts refer only to the provided sample, not total merchant revenue.
+Subscribe now
+This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit
+https://a16z.com/investment-list/
+for a full list of investments. Other important information can be found at
+a16z.com/disclosures
+. You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.
