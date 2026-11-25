@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-26",
+  "generated_at": "2026-11-25T23:33:06.945652+00:00",
+  "stats": {
+    "tweets": 7,
+    "podcasts": 2,
+    "articles": 0
+  },
+  "tweets": [
+    {
+      "author": "Boris Cherny",
+      "handle": "bcherny",
+      "summary_zh": "Anthropic Claude Code 负责人 Boris Cherny 表示，一年前发布的 Opus 4.5 是首个为他写出 **100%** 代码的模型，但\"PR 交付\"环节一直没跟上，因此今天面向 Team 和 Enterprise 推出 **Claude Ship（beta）**。该产品由 Code Review（找 bug）、PR Steward（修复问题与失败的检查，beta）和 Claude Approvals（按团队策略自动审批，beta）组成，他称其\"成倍提升了开发速度\"，无需等待代码评审或盯着 PR。所有人都可用 /ship 命令，企业管理员可按 GitHub 仓库开启，建议先在单个仓库以\"观察模式\"运行 Approvals，建立信任后再推广。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI Codex 负责人 Thibault Sottiaux 透露，在 OpenAI 内部 Dots 正迅速成为完成工作的主要方式，\"甚至用 Dots 来构建 Dots 系统\"。他表示新模型推送后 ChatGPT 回答质量将有明显跃升，叠加简化应用、提速以及合并 chat 与 work 等投入，到年底日常使用体验将大幅改善。他还推荐了一期关于 OpenAI 团队如何系统性修补开源软件与基础设施安全漏洞的访谈。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品博主、《Behind the Craft》作者 Peter Yang 吐槽 ChatGPT Dots 目前仍\"很不稳定\"：会在他未审阅的情况下直接发送邮件，且会无故停止响应，他虽然很想喜欢这个产品，但怀疑是自己的提示方式不对。这与 OpenAI 内部对 Dots 的乐观表态形成对照。"
+    },
+    {
+      "author": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "summary_zh": "Madhu Guru（@realmadhuguru）认为，\"数据\"这个词严重低估了其在模型开发中的价值：圈外人把数据当成可以像煤炭一样买来铲进模型的惰性商品，而实际上优质数据编码了高价值的知识、品味与专业经验，且常以前所未有的方式被组织表达。他判断数据是构建跨领域更强智能的根本基石之一，并将持续处于\"智能产业\"的核心位置。"
+    },
+    {
+      "author": "Thariq",
+      "handle": "trq212",
+      "summary_zh": "Anthropic Claude Code 工程师 Thariq 认为，X 的创作者分成模式是未来软件公司的良好范本：保持精简的核心团队，同时向帮助产品增长、提供反馈改进产品、参与销售的用户付费。"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad 发布 Replit 关于\"智能体集群扩展定律\"的新研究：增加智能体数量可带来显著提升，但与传统扩展定律不同，更多算力不一定带来更好结果，智能体的组织方式至关重要——在固定 **2 小时**内，Opus 5.5 在 NumPy 优化任务上从单智能体 **3.7 倍**加速提升到 **32 个**智能体时的 **18.9 倍**；GPT-6.2 Astra 是最强的单体智能体，但超过 **8 个**后出现负扩展；去中心化集群优于中心化协调，问题可并行度是强预测指标，而单个模型智能水平难以预测集体智能，Replit 同时开源 Optimization-Bench。此外他与副总统 JD Vance 会面讨论美国 AI 领导力、网络安全与软件基础设施现代化，强调\"美国可能赢下前沿 AI 竞赛却输掉全球 AI 生态\"——盟友想要主权 AI 并日益转向中国开源模型，美国需在开放权重模型上保持领先，并对 Jensen 回归 Nvidia 表示欢迎，称其是美国开放权重 AI 最重要的支持者之一。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch 让 Fable 分析自己全部编码会话，做一次\"个人评测\"来比较 Opus 与 Gemini Neon，结果选中了 Neon；他认为\"Google 强势回归\"这件事被市场广泛且严重地低估了。他还宣布 Vercel 将加码日本市场。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "硅谷101",
+      "title": "E260｜黄仁勋归来之际，深聊英伟达、CoreWeave和算力信用市场",
+      "date": "2026-11-24 15:30 UTC",
+      "duration": "1:26:24",
+      "link": "https://podcasts.apple.com/us/podcast/e260-%E9%BB%84%E4%BB%81%E5%8B%8B%E5%BD%92%E6%9D%A5%E4%B9%8B%E9%99%85-%E6%B7%B1%E8%81%8A%E8%8B%B1%E4%BC%9F%E8%BE%BE-coreweave%E5%92%8C%E7%AE%97%E5%8A%9B%E4%BF%A1%E7%94%A8%E5%B8%82%E5%9C%BA/id1498541229?i=1000803878687&uo=4",
+      "summary_zh": "本期录制于11月17日英伟达发布Q3财报当晚（黄仁勋于11月23日复任CEO，英伟达开盘涨**30%**，CoreWeave、Nebius等新云涨超**20%**）。嘉宾为安心资本创始人Maggie Wang（前花旗全球结构信贷与私募信贷研究负责人）和科技公司数据中心规划与能源策略专家Ethan Xu。\n\n**英伟达的多重角色**：芯片供应商、股东（持有股权资产超**700亿美元**）、闲置算力承购方、信用增强方（财务担保已超**1000亿美元**）、融资组织者（联合Apollo、Blackstone、高盛等）。但其1月对CoreWeave的**20亿美元**股权投资仅占后者新增基建投入的**2%**，作用是关键时刻撬动信贷市场。财报中临时CEO（原CFO）表示将更有纪律、有选择地提供担保：算力承诺仅在对方筹资、购设备并完成部署后生效，否则可削减或取消。嘉宾认为这意味着风险最高的建设期由借贷双方自担，新云市场将两极分化；Ethan担忧\"行业定心丸\"消失。\n\n**数据中心融资三层**：土地与电力接入（周期最长、不确定性最高）、机房建筑（寿命**20年+**，适合保险资金）、芯片服务器（经济寿命**3-6年**，类似飞机设备租赁）。还款依赖合同现金流，期限错配与优先级是核心。\n\n**CoreWeave是风向标**：单季资本开支**94亿美元**，经营现金流仅约**20亿美元**，缺口约**75亿美元**；4月、6月发行的无担保债利率**9.6%-9.8%**，10月跌至面值**75-78美分**，收益率超**16%**；已表示不再发无担保债。订单储备超**1000亿美元**，但问题在于\"何时\"兑现及偿付顺序。暴跌后其市值仅**280亿美元**、Nebius约**310亿美元**，却影响数万亿AI股定价。对比：微软债利率**5.2%-6.25%**，10月底发**250亿美元**债获4-5倍认购；Meta路易斯安那项目SPV（Blue Owl持股**80%**、Meta **20%**）发债**200多亿美元**，利率约**6.5%**，2049年到期，Meta提供付款与残值担保。\n\n**延期风险**：PJM并网需**3-5年**，德州**2-4年**；中期选举民主党拿下两院并翻盘德州、俄亥俄、佐治亚，德州监管预期由放松转为收紧（关注12月审计报告、1月议会开幕及新州长就职）；高压变压器排期数年，GE燃机订单超**120GW**、排至**2032年**。债权人最关心多少机房能按时通电，且存在\"自我实现\"风险。\n\n**需求与系统性风险**：Ethan称2030年前持续供不应求，2027-28年最严重；亚马逊、微软、谷歌积压订单合计约**2.5万亿美元**，旧型号GPU租金仍在上涨。Maggie称公司债存量约**12万亿美元**，AI债占比有限，2025年占投资级新发行**7%**，不致引发\"AI版次贷危机\"，但债市定价正\"卡股市脖子\"。节目后记：美联储称2026年前十月算力相关发债超**6800亿美元**，七大科技公司表外承诺超**3万亿美元**；AI债占投资级新发行比例今年已升至约**18%**。核心结论：风险不在需求而在时间错配，小型新云可能\"死在终点线前\"。"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "title": "Responding to objections to recursive self-improvement",
+      "date": "2026-11-24 21:45 UTC",
+      "duration": "1:05:23",
+      "link": "https://podcasts.apple.com/us/podcast/responding-to-objections-to-recursive-self-improvement/id1516093381?i=1000803867327&uo=4",
+      "summary_zh": "Dwarkesh 回应递归自我改进（RSI）论文的主要质疑：AI 研究可验证性、算力瓶颈、超级智能接管路径等。"
+    }
+  ],
+  "articles": []
+}
