@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-27",
+  "generated_at": "2026-11-26T23:33:04.840247+00:00",
+  "stats": {
+    "tweets": 6,
+    "podcasts": 1,
+    "articles": 1
+  },
+  "tweets": [
+    {
+      "author": "Amjad Masad",
+      "handle": "amasad",
+      "summary_zh": "Replit 首席执行官 Amjad Masad（@amasad）提出与主流相悖的判断：美国即便造出最强的前沿模型，仍可能输掉全球 AI 竞赛。他认为各国政府需要能在本土基础设施上自主掌控的\"主权 AI\"，若美国公司不满足这一需求，中国公司会先以模型切入、再带动基础设施和芯片输出，重演华为电信设备的路径（替换成本极高，美国政府资助的替换工作推进艰难），因此 Jensen 回归并支持美国开源模型生态意义远超 Nvidia 本身，\"前沿领先+全球普及\"缺一不可，开源模型是关键。他还指出，与电力不同，Token 需求呈阶梯式增长：自动补全→聊天→Agent→长时自主 Agent→Agent 集群，每一次 harness 创新都让单用户潜在 Token 消耗提升一个数量级，但新工具与用户摸索出用法之间存在滞后；此外他对仅 **3B** 参数的本地 Muse 模型表示惊叹。"
+    },
+    {
+      "author": "Boris Cherny",
+      "handle": "bcherny",
+      "summary_zh": "Anthropic Claude Code 负责人 Boris Cherny（@bcherny）宣布新功能：MCP 服务器现在可以自带 skills 一起分发，使 Claude Code 开箱即知如何使用这些 MCP 服务器。该推文获得约 **5,100** 个点赞，反映开发者社区对 MCP 生态易用性提升的高度关注。"
+    },
+    {
+      "author": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_zh": "OpenAI Codex 负责人 Thibault Sottiaux（@thsottiaux）面向 ChatGPT Business 团队推出两项福利：一次\"banked reset\"（额度重置）以及在 **12 月 31 日**前免费使用 fast mode（快速模式），不额外收费。这显示 OpenAI 正通过限时让利争夺企业团队用户，推文获约 **5,300** 个点赞。"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "petergyang",
+      "summary_zh": "产品经理、AI 产品类 newsletter 作者 Peter Yang（@petergyang，订阅者 **11 万+**）周末深度试用 Gemini 4 Neon 与 Google 的 Antigravity，并制作了 **17 分钟**的免费教程。他的要点：Orchestrator 与 /swarm 功能在多 Agent 规划与构建上非常有用，他一度同时运行 **42 个** Agent；内置的 /grill-me 技能会先向用户追问澄清问题以完善计划；其远程控制功能优于 Claude Code，因为每个线程默认都处于活跃状态。"
+    },
+    {
+      "author": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "summary_zh": "Madhu Guru（@realmadhuguru）认为，围绕 Jensen 事件的各种预测充分说明\"自信程度与判断正确与否几乎没有相关性\"：许多知名 VC、分析师和专家都言之凿凿，有些人几天内反复改口、每次都同样笃定。他指出信息生态不对称地奖励确定性、速度与张扬，\"我不知道，走着瞧\"得不到关注，因此对所有\"专家\"评论都应大打折扣，这轮新闻周期也是识别\"一贯声音大却总出错\"之人的好机会。"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_zh": "Vercel 首席执行官 Guillermo Rauch（@rauchg）解释其编码 Agent 产品之所以在当下仍以 CLI 形态发布，是因为它只是 libfx 的一层薄封装，目标是打造最小、最智能的编码 Agent 内核，可嵌入浏览器、服务器、移动端、桌面、操作系统及 ADE 等任意界面。他还宣布开源了一款背景特效生成工具（bg effect builder）。"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "Unsupervised Learning",
+      "title": "Ep 98: China Expert on Jensen’s Return",
+      "date": "2026-11-24 13:05 UTC",
+      "duration": "",
+      "link": "https://www.youtube.com/watch?v=gkd5eOQGASU",
+      "summary_zh": "Redpoint 投资人 Jacob Efron 就黄仁勋“被罢免又复职”英伟达一事录制紧急节目，嘉宾为 ChinaTalk 主理人 Jordan Schneider，从地缘政治角度复盘事件来龙去脉及影响。以下指控与判断均为嘉宾观点或其援引的报道。\n\n**事件脉络**：Schneider 认为，黄仁勋被罢免的核心原因是对芯片走私“视而不见”，而非绯闻本身。据 WSJ/NYT 报道，禁售的 Blackwell 芯片经 Mega Speed 等渠道流入阿里旗下从事军事研究的部门乃至解放军；Super Micro 高管被起诉，被指用吹风机撕掉服务器标签以便运入中国。与黄有私人关系的中国籍客户高管据报多次接触国安部，加上 Bessent、Rubio 推动，最终促成罢免。嘉宾推测，Rubio 刻意等到中期选举后才动手，以免冲击标普和共和党选情。复职则源于股价跌至约 **125 美元**后，特朗普承诺以“和解 + 赦免”为英伟达和黄本人解套，罚款或仅 **2,500 万美元**。\n\n**政策焦点**：上周刚出台一份 **132 页**新规，要求在台积电流片的先进芯片须经商务部审批，并规定马来西亚等地服务中国客户的 neocloud **90 天**后停止提供远程算力。嘉宾称中国约 **五分之二**算力来自马来西亚数据中心等远程访问渠道。关键看点是：黄复职后该规则会否被撤销或不执行，以及国会（民主党以反腐纲领胜选）能否通过立法固化出口管制、给 BIS 增加执法预算。\n\n**对华出口之争**：Schneider 反驳“AI 是普通技术、卖芯片可锁定生态”的说法。他认为 Mythos 出现后 AI 已是可“黑掉全球”的网络武器，过去 **9 个月** AI 赋能的网络攻击频发。华为缺的是供给而非需求，瓶颈在 HBM、EUV 及日本刻蚀/沉积设备。只要守住设备管制并切断远程访问和走私，西方能在 **5–7 年**内保持 **10–15 倍**算力优势，软硬件协同优化只是“舍入误差”。Efron 则认为英伟达在黄的带领下更强，有利于美国的数据中心建设与融资。\n\n**风险与机会**：①民意逆风：仅 **2%** 美国人希望 AI 发展更快，2029 年大选两党候选人可能都主张“放慢”，花 **5 亿美元**游说也未必奏效；②中国对机器人数据实施出口管制的概率被他定为 **75%**，商务部已推出首个 AI 模型出口许可制度；③在 CoRL 大会上，人形机器人表现令人失望（DeepMind 投入数百亿美元，机器人仍几乎拿不起松饼），而 **99.5%** 的磁体等稀土部件依赖中国，嘉宾建议投资材料公司；④下一个“黑天鹅”可能是中国版 Hugging Face 事件冲击全球开源，或美国遭遇大规模网络灾难。"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "Evaluating Recent Model Releases on GDPx",
+      "date": "2026-11-26 00:05 UTC",
+      "link": "https://newsletter.semianalysis.com/p/evaluating-recent-model-releases",
+      "chars": 13856,
+      "summary_zh": "SemiAnalysis 用自建基准 GDPx 评测了近期新发布的前沿模型。GDPx 于 11 月 1 日发布，不按 GDP 占比选领域，而是聚焦 AI 影响最大的领域：芯片设计、网络安全、生物、金融、法律、量化交易、递归自我改进（RSI）、硬件设计、材料科学、对齐、软件工程。题目由 **14** 家专业数据合作方共同制作，共 **206** 道。难度极高，发布当天最高分 Opus 5.5 也只有 **12%**，留有很大提升空间，因此能区分后续新模型，不像 Terminal Bench 4.0 这类已饱和的基准。\n\n**总榜：OpenAI 居首。** GPT-6.2 Astra 以 **19.3%** 排第一，Fable 5.2 以 **16.4%** 排第二。OpenAI/Anthropic 之外最强的是 Gemini 4 Carbon，以 **10.9%** 排第五，略高于 Gemini 4 Neon（**10.1%**，第六）。成本-性能帕累托前沿几乎全被 OpenAI 占据，只有 DeepSeek v4.1 Flash 在最低端勉强挤进。Fable 5.2 和 Astra 的总分被安全分类器拖累：剔除网络安全、生物、对齐三个领域，并对金融、法律改用部分给分后，两者分别为 **29.9%** 和 **32.2%**，差距缩小。\n\n**Gemini 4 Neon：** 进步明显，SemiAnalysis 承认此前唱衰 DeepMind 的判断错了。但它在几乎所有前沿领域仍明显落后 OpenAI 和 Anthropic，唯一领先的生物领域可能是因为安全限制较宽松。作者认为 Neon 口碑好主要靠\"好相处\"的交互风格，类似当年的 GPT-4o，而非智力领先。竞争格局：Anthropic 与 OpenAI 自成第一梯队，Google 是遥远的第三，Meta、SpaceX、Moonshot、阿里等争夺第四。成本方面，Google 的提示缓存落后：Neon 跑完 GDPx 花了 **$15,286**；若缓存命中率达到 Opus 5.5 水平可降至 **$12,536**（约 **-18%**），达到 Astra 水平可降至 **$10,403**（约 **-32%**）。Google 当天发布了缓存更新，命中率再提高 **4.5%**，可使账单下降约 **17-18%**。\n\n**GPT-6.2 Astra / Sol：** 两者分别得 **19.3%** 和 **11.5%**，与 X 上的负面口碑相反。Astra 的基座模型 log-perplexity 明显下降，擅长芯片设计、硬件设计、材料科学、RSI 等复杂推理任务。它是第一个在法律领域得分高于 0% 的模型，金融领域达到 SOTA，对齐得分也极高。但它的软件工程得分只有 Fable 5.2 的一半，指令理解过于字面化，不好合作。作者将此归因于 RL 训练很重而 SFT 数据较差。作者认为市场对 OpenAI 的负面情绪被夸大了。\n\n**Fable 5.2：** 是运行成本最高的模型。每道题花费 **$88**、输出 **123 万** token，成本是 Astra 的 **1.9 倍**，输出 token 是 **3.9 倍**，得分却更低，原因之一是它频繁派生子 agent。材料科学：得分 **21.8%**，Astra 为 **41.3%**；6.2 Sol 也有 **25.8%**，每题成本只要 **$8**（Fable 为 **$79**）。金融（部分给分）：Fable **53.6%**，Opus 5.5 **54.6%**，Astra **53.5%**，三者基本持平，但 Fable 每题成本是 Astra 的 **6.6 倍**。软件工程是 Fable 的强项：**24.4%**，约为 Opus 5.5（**8.9%**）的三倍，领先 6.2 Sol（**15.6%**），但成本是 Sol 的 **17 倍**。RSI 上 Astra **33.22%**，Fable **24.13%**，作者认为这与 Anthropic 有意削弱公开模型的 AI 研究能力有关。\n\n**中国模型：** Qwen4-Max 以 **7.44%** 成为得分最高的中国模型，略低于 Claude Sonnet 5.5，但便宜得多。Kimi K3.1 Pro 在 GDPx 上表现偏弱，作者认为它在 Terminal Bench 4.1（占 AA 指数 **10%**）上\"刷榜\"，实际智能体编程能力仍落后。\n\n**垂直模型：** 头部厂商收紧网络安全和生物方向的安全分类器，垂直领域定制模型的价值随之上升。在网络安全领域，Hinoki 的 HO1 小幅优于原版开源模型，两个去除拒答（abliterated）的版本反而略差。"
+    }
+  ]
+}
