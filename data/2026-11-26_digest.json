@@ -1,0 +1,280 @@
+{
+  "fetch_date": "2026-11-26",
+  "fetch_time": "2026-11-26T00:49:15.947831+00:00",
+  "stats": {
+    "new_podcast_episodes": 1,
+    "new_articles": 1,
+    "new_tweets": 20,
+    "total_podcasts": 1,
+    "total_articles": 1,
+    "total_tweets": 20
+  },
+  "podcasts": [
+    {
+      "source": "Unsupervised Learning",
+      "title": "Ep 98: China Expert on Jensen’s Return",
+      "date": "2026-11-24 13:05 UTC",
+      "link": "https://www.youtube.com/watch?v=gkd5eOQGASU",
+      "orig_link": "",
+      "audio_url": "",
+      "duration": "",
+      "summary": "",
+      "lang": "en",
+      "chars": 48421,
+      "text_file": "data/2026-11-26/podcasts/unsupervised_learning__ep_98_china_expert_on_jensens_return.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "Evaluating Recent Model Releases on GDPx",
+      "date": "2026-11-26 00:05 UTC",
+      "link": "https://newsletter.semianalysis.com/p/evaluating-recent-model-releases",
+      "summary": "GPT-6.2 Astra takes the crown but bad at software engineering, Gemini 4 Neon is an impressive improvement from Google but still overrated, Fable 5.2 is smart but expensive, and new Chinese models as well",
+      "chars": 13856,
+      "text_file": "data/2026-11-26/articles/semianalysis__evaluating_recent_model_releases_on_gdpx.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2125448165197570547",
+      "date": "2026-11-25T04:35:06.000Z",
+      "text": "literally if you turn your brain off you are just choosing not to listen at this point https://t.co/1bR6AwZlSf",
+      "url": "https://x.com/swyx/status/2125448165197570547",
+      "likes": 6,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2125371136943022423"
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2125444028527468699",
+      "date": "2026-11-25T04:18:39.000Z",
+      "text": "hey is silicon valley okay because wtf https://t.co/XM7o4KRgQt https://t.co/Rk9n9G5peG",
+      "url": "https://x.com/swyx/status/2125444028527468699",
+      "likes": 154,
+      "retweets": 6,
+      "is_quote": true,
+      "quoted_id": "2125367695730421863"
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2125431392226148670",
+      "date": "2026-11-25T03:28:27.000Z",
+      "text": "also useful here from John:\n\n- local-cloud envs &amp; sandboxes\n- session vs conversation store\n- user approval inbox\n- stream listeners\n- artifacts for everyone\n- all configurations of dashboard \n\nhttps://t.co/Udf0Ex5Znn",
+      "url": "https://x.com/swyx/status/2125431392226148670",
+      "likes": 5,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2124336124172935336"
+    },
+    {
+      "source": "Boris Cherny",
+      "handle": "bcherny",
+      "tweet_id": "2125292098165612585",
+      "date": "2026-11-24T18:14:56.000Z",
+      "text": "Really excited about this one. MCP servers can now ship with their own skills, so Claude Code knows how to use them out of the box. https://t.co/Z0TQVOfGTz",
+      "url": "https://x.com/bcherny/status/2125292098165612585",
+      "likes": 5102,
+      "retweets": 210,
+      "is_quote": true,
+      "quoted_id": "2125289794871963935"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2125299467691987445",
+      "date": "2026-11-24T18:44:13.000Z",
+      "text": "Sign up for ChatGPT Business: https://t.co/2WH7P7Yx7L",
+      "url": "https://x.com/thsottiaux/status/2125299467691987445",
+      "likes": 167,
+      "retweets": 3,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2125299436964479474",
+      "date": "2026-11-24T18:44:06.000Z",
+      "text": "https://t.co/SY2X7f40c5",
+      "url": "https://x.com/thsottiaux/status/2125299436964479474",
+      "likes": 320,
+      "retweets": 6,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2125299248782778588",
+      "date": "2026-11-24T18:43:21.000Z",
+      "text": "To all the ChatGPT Business teams out there. We have two small things for you, a banked reset and fast mode at no extra charge through Dec 31. Have fun!",
+      "url": "https://x.com/thsottiaux/status/2125299248782778588",
+      "likes": 5295,
+      "retweets": 154,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2125436963645952307",
+      "date": "2026-11-25T03:50:35.000Z",
+      "text": "@antigravity If you enjoyed this, sign up for free to my newsletter to get my best AI and product guides.\n\nJoin 110,000+ subscribers here:\nhttps://t.co/yz9xcsfrhF",
+      "url": "https://x.com/petergyang/status/2125436963645952307",
+      "likes": 0,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2125246828082057462",
+      "date": "2026-11-24T15:15:03.000Z",
+      "text": "Also follow @adhidesign, the designer behind Antigravity and @_mohansolo, the new \"reset guy\" for Gemini :)",
+      "url": "https://x.com/petergyang/status/2125246828082057462",
+      "likes": 6,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2125246815884984398",
+      "date": "2026-11-24T15:15:00.000Z",
+      "text": "I've been using Gemini 4 Neon and @antigravity all weekend and made a free video course on how you can get the most out of this combo.\n\nSome takeaways:\n\n1. Orchestrator and /swarm are very useful for planning and building with multiple agents. At one point, I had 42 agents running at once.\n\n2. /grill-me is a great built-in skill that gets Antigravity to ask clarifying questions to help you flesh out the plan first.\n\n3. Remote control is better than Claude Code's because every thread is active by default. I show you how to add Antigravity to your phone home screen to run this in the video.\n\n📌 Watch my full 17-minute Antigravity course here: https://t.co/lmfSTiVBsm",
+      "url": "https://x.com/petergyang/status/2125246815884984398",
+      "likes": 580,
+      "retweets": 39,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Nan Yu",
+      "handle": "thenanyu",
+      "tweet_id": "2125427566647640288",
+      "date": "2026-11-25T03:13:15.000Z",
+      "text": "MOAR DOT SUPREMACY\nhttps://t.co/m3UZ4uDEDv",
+      "url": "https://x.com/thenanyu/status/2125427566647640288",
+      "likes": 1,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2125266673234055547"
+    },
+    {
+      "source": "Nan Yu",
+      "handle": "thenanyu",
+      "tweet_id": "2125388928647880795",
+      "date": "2026-11-25T00:39:43.000Z",
+      "text": "DOT SUPREMACY https://t.co/tpmPV5Gmfr",
+      "url": "https://x.com/thenanyu/status/2125388928647880795",
+      "likes": 15,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2125370884382990747"
+    },
+    {
+      "source": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "tweet_id": "2125355549202194801",
+      "date": "2026-11-24T22:27:04.000Z",
+      "text": "the predictions around the Jensen saga were a great demo of how little correlation there is between confidence and being right.\n\nit’s wild how many prominent VCs, analysts and experts spoke with complete confidence about how things would play out .\n\nsome flip-flopped on their predictions within days - each time with the same confidence!\n\nour info ecosystem asymmetrically rewards certainty, speed and brashness… “I don’t know,\nlet’s see how this plays out” just doesn’t get eyeballs.\n\nworth remembering with ALL “expert” commentary you consume - people often have far less certainty than their tone suggests. they just form a view, stake out a position and say it loudly.\n\ntake everything with a sack of salt.\n\nthis news cycle was also a good way to calibrate on the people who are consistently loud and wrong.",
+      "url": "https://x.com/realmadhuguru/status/2125355549202194801",
+      "likes": 22,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Thariq",
+      "handle": "trq212",
+      "tweet_id": "2125156290494353663",
+      "date": "2026-11-24T09:15:17.000Z",
+      "text": "you have to be bad at it for a while https://t.co/s5ECrbQ3sG",
+      "url": "https://x.com/trq212/status/2125156290494353663",
+      "likes": 2013,
+      "retweets": 77,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2125414100692041797",
+      "date": "2026-11-25T02:19:44.000Z",
+      "text": "3B local Muse 🤯 https://t.co/psL7dzZOiu",
+      "url": "https://x.com/amasad/status/2125414100692041797",
+      "likes": 186,
+      "retweets": 9,
+      "is_quote": true,
+      "quoted_id": "2125379218280444197"
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2125353849057853876",
+      "date": "2026-11-24T22:20:19.000Z",
+      "text": "America can build the best frontier models and still lose the global AI race. Which is why Jensen’s return matters far beyond Nvidia.\n\nGovernments around the world want sovereign AI: models they can run on their own soil, on their own infrastructure, under their own control.\n\nIf American companies won’t meet that demand, Chinese companies will. Countries will start with Chinese models, then adopt Chinese infrastructure and chips. Having the smartest model won’t mean much if most of the world runs on someone else’s stack.\n\nWe’ve seen a version of this play out with Huawei. China understood that supplying the world’s telecom infrastructure creates lasting strategic influence. Once a country builds its networks around your equipment, it also builds technical expertise, supplier relationships, and future investment around it. Replacing that equipment becomes expensive and disruptive (the US government is now trying to finance replacement operations but it’s been difficult).\n\nThat’s why Jensen’s backing of the American open-model ecosystem is so important. Open models give startups the freedom to compete and give countries a reason to build on American technology.\n\nWe need both frontier leadership and global adoption. Open models are essential to getting both. https://t.co/f34FKKbljl",
+      "url": "https://x.com/amasad/status/2125353849057853876",
+      "likes": 633,
+      "retweets": 73,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2125287538911072753",
+      "date": "2026-11-24T17:56:49.000Z",
+      "text": "Unlike say electricity, token demand grows in step functions as we find ways to put more compute to use on behalf of a single user.\n\nauto-complete -> chat -> agent -> long-running autonomous agents -> swarms\n\nEach harness innovation unlocks an order of magnitude more potential token consumption.\n\nBut then there’s a lag between these new tools and users figuring out what to do with them.",
+      "url": "https://x.com/amasad/status/2125287538911072753",
+      "likes": 215,
+      "retweets": 11,
+      "is_quote": true,
+      "quoted_id": "2125239920545366347"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2125426206183239770",
+      "date": "2026-11-25T03:07:50.000Z",
+      "text": "Open sourced the bg effect builder:\nhttps://t.co/1kXz8ojcCK (🔉) https://t.co/k5GSmXawpm https://t.co/4KO6zJjq5n",
+      "url": "https://x.com/rauchg/status/2125426206183239770",
+      "likes": 34,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2125320020666565096"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2125330925324300725",
+      "date": "2026-11-24T20:49:13.000Z",
+      "text": "Good stuff https://t.co/tqfvBrVMo7",
+      "url": "https://x.com/rauchg/status/2125330925324300725",
+      "likes": 248,
+      "retweets": 6,
+      "is_quote": true,
+      "quoted_id": "2125316052636606563"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2125320020666565096",
+      "date": "2026-11-24T20:05:54.000Z",
+      "text": "The main reason https://t.co/3Z4NESzNKd is a CLI (in this day and age!) is that it's a thin wrapper around 𝚕𝚒𝚋𝚏𝚡.\n\nThe goal is to produce the smallest and most intelligent coding agent kernel, that's embeddable on any surface:  browsers, servers, mobile, desktop, OS, ADEs… https://t.co/L51jXUhdBY https://t.co/ksrRsLFHu3",
+      "url": "https://x.com/rauchg/status/2125320020666565096",
+      "likes": 237,
+      "retweets": 3,
+      "is_quote": true,
+      "quoted_id": "2125270850232607168"
+    }
+  ]
+}
