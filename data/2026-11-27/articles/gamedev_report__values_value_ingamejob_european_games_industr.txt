@@ -1,0 +1,125 @@
+Source  : GameDev Report
+Title   : Values Value & InGameJob: European Games Industry Employment Survey - 2026 | GameDev Reports is powered by Mellow
+Date    : 2026-11-25 08:31 UTC
+Link    : https://gamedevreports.substack.com/p/values-value-and-ingamejob-european-d87
+────────────────────────────────────────────────────────────
+
+I
+covered the press preview of this survey in September
+. The full 106-page report is now out. You can find my recap of last year’s edition
+here
+.
+The survey was conducted anonymously from March to June 2026. 1,829 professionals from 90 countries took part, but the report covers only Europe (39 countries). Europe is split into two regions: the EU, the UK, Switzerland, and Norway (EU+, 727 respondents), and the other European countries (Non-EU, 603 respondents). All salaries in the study are annual medians in euros, before taxes (gross).
+A word from our sponsor
+The right artist for your game rarely lives down the street. Mellow takes distance out of the equation: contracts with IP and NDA clauses, cross-border compliance, and payments, all in one flow. Hire for talent, not for location.
+See how it works →
+Who Took Part in the Survey
+62% of respondents are senior specialists, team leads, and top management. Juniors and trainees make up only 9%. 44% have worked in the industry for more than eight years.
+52% of respondents are men and 20% are women, while 27% chose not to state their gender. Last year, those numbers were 56%, 25%, and 19%, respectively.
+55% work at companies that develop and publish their own games. Most respondents work on casual (43%) and midcore (35%) projects.
+The most popular platforms among respondents (that is, the platforms they make games for) are Google Play (54%), the App Store (52%), and PC/Mac (48%). 53% make F2P games with IAP monetization, and 33% make premium projects.
+Salaries
+Among senior specialists in EU+ countries, top management earns the most (€90,000 a year). Marketing and UA (€80,000) and project managers (€75,000) come next. Senior QA specialists are paid the least: €33,600.
+In the other European countries, salaries are noticeably lower. The gap is largest for project managers: €75,000 in EU+ versus €36,717 in Non-EU.
+Median salaries of senior marketing and UA specialists in EU+ have grown for the third year in a row: €56,000 in 2024, €68,000 in 2025, and €80,000 in 2026.
+For senior programmers in EU+, the median salary barely changed over the year (€60,664 in 2025 and €60,000 in 2026), and for game designers, the median salary stayed at €55,000 for the second year running. The median for artists grew slightly, from €43,500 to €45,500. For QA, though, it fell from €42,156 to €33,600; for product and project managers, from €70,000 to €65,000; and for top management, from €92,500 to €90,000.
+Outside the EU, the median salary of senior marketers dropped last year (from €42,000 to €31,200), but bounced back to €48,000 in 2026. For senior programmers, however, the median fell from €52,000 to €44,100.
+Among mid-level specialists in EU+, the median salary is growing for artists: €25,000 in 2024, €30,000 in 2025, and €33,000 in 2026. For mid-level game designers, the median salary fell from €34,200 to €26,000, and for programmers, it barely changed (€33,708).
+💬
+The report’s authors link this to AI. According to them, mid-level artists who have learned to work with AI tools now get more done and are valued more. Mid-level game designers’ work, however, still has to be reviewed and signed off by a senior specialist, even with AI.
+That said, outside the EU, the median salary of mid-level artists declined (from €20,000 to €17,190), as did that of programmers (from €25,028 to €22,000). So the hypothesis above is debatable.
+Junior salaries were left out of the comparison because there are too few juniors in the sample. The authors note that the share of juniors, both in the industry and among survey respondents, is shrinking every year.
+53% of respondents in EU+ and 57% in Non-EU did not get any salary indexation over the past year. Only 13% and 12%, respectively, received a full inflation adjustment.
+Values Value compared people within the same salary band. Those whose salary was fully indexed rate their income 0.4-0.8 points higher (out of 5) than those whose salary was not indexed. Partial indexation, meanwhile, has almost no effect on employee satisfaction.
+In EU+, the best-paying employers are companies that develop and publish their own games, and publishing companies: €55,000 each. In outsourcing, the median salary is €33,000; for indies and freelancers, it is €30,000.
+The median salary is lowest at marketing, UA, and ad-tech companies (€27,000). However, such respondents make up only 1% of the sample.
+In EU+, people who make games for social networks (€67,500) and mobile platforms (€58,000/€56,500) earn the most. Employees at companies developing for PC/Mac earn the least (€39,000).
+By genre, employees working on hybrid casual (€60,000), hardcore (€55,600), and midcore projects (€49,383) have the highest median salaries. Last year, hypercasual games were among the leaders; now, the median salary of people working on them is €35,000. Only indie and educational projects are lower.
+Employees working on projects with hybrid monetization (€66,000), ad monetization (€57,308), and F2P with IAP (€56,500) have the highest salaries. In premium games, the median salary is €38,203.
+On a scale from 0 to 5, juniors rate their income at 2.34, mid-level specialists at 2.83, seniors at 3.40, and leads and top management at 3.51.
+Over the year, income satisfaction grew for everyone except leads and top management. For them, it has declined for the second year in a row: 3.74 in 2024, 3.56 in 2025, and 3.51 in 2026.
+Senior marketing and UA specialists are the most satisfied with their salaries (3.9 in EU+). Senior QA specialists in EU+ are the least satisfied (2.4).
+Gender and Careers
+Women in the European games industry earn less than men in almost every discipline. The gap is largest among founders: €72,000 for men versus €46,000 for women. Among programmers, it is €43,000 versus €33,408.
+There are exceptions, though. Women in top management have a higher median salary (€90,000 for women versus €72,000 for men). The same is true for business development and sales roles (€47,895 versus €24,000), as well as community and support (€29,000 versus €26,640).
+❗️The difference may also come from the structure of the sample. 27% of respondents did not state their gender.
+Men in top management want to earn €120,000, and women €90,000. In production (€73,677 versus €60,000) and business development (€70,000 versus €57,500), however, women ask for more.
+45% of male respondents and 23% of female respondents have people who depend on them financially.
+Among those who took parental leave, 19% of women and 9% of men say their career progression slowed down.
+Bonuses and Benefits
+48% of respondents in EU+ and 52% in Non-EU get no financial bonuses at all. 24% and 16%, respectively, receive an annual bonus, down from 27% and 18% last year.
+For 62%, bonuses make up no part of their annual income. Only 4% of respondents get more than 25% of their annual income from bonuses.
+The most common non-financial benefit in EU+ is health insurance (41%). In Non-EU, the ability to work from anywhere comes first (35%). Companies outside the EU are also more likely to help employees with taxes (13% versus 4%) and accounting (8% versus 1%).
+Employee Loyalty (eNPS)
+eNPS in the European games industry has fallen for the third year in a row: +9.7 in 2024, -1.2 in 2025, and -9.8 in 2026. That is the lowest in the survey’s history. In EU+, it is -11.7, and in Non-EU, -7.5.
+❗️eNPS (employee Net Promoter Score) measures employee loyalty. It shows how willing people are to recommend their company as a place to work, on a scale from -100 to +100.
+eNPS is directly linked to the intention to change jobs. Among those not planning to leave, it is +27. Among those already looking for a new job, it is -45.
+Only people with 8-12 years in the industry have a positive eNPS (+1). Newcomers with less than a year of experience have the worst score (-39).
+Loyalty fell the most among those who work overtime more than twice a week: -37 versus -7 last year. Among those who work overtime almost every day, it is -22 (it was -16).
+Work format has almost stopped affecting loyalty. In 2025, eNPS among hybrid employees was +4; now it is -10, the same as among remote workers. Office employees are at -6.
+Among the larger employer categories, outsourcing companies have the most loyal employees (-2). At companies that develop and publish their own games, eNPS is -10, even though, as I wrote above, they pay the most. Indies have the lowest score (-19).
+eNPS is highest among those who receive project bonuses (+25.9), dividends (+20), and profit share (+15.6). Among those with no financial bonuses, eNPS is -19.5.
+Among non-financial benefits, excellent technical support (+32.5), a corporate smartphone (+27.8), and extra vacation days (+21.9) are most strongly linked to loyalty. Health insurance, the most common benefit in EU+, has almost no effect on loyalty (+1.5). Where there are no benefits at all, eNPS is -30.9.
+A word from our sponsor
+The right artist for your game rarely lives down the street. Mellow takes distance out of the equation: contracts with IP and NDA clauses, cross-border compliance, and payments, all in one flow. Hire for talent, not for location.
+See how it works →
+Stability and the Job Market
+30% of respondents were laid off over the past year. In last year’s edition of the survey, it was 26%. Only 11% got a promotion.
+❗️For comparison,
+according to ASGC estimates
+(Amir Satvat’s project), 6.7% of games industry workers in Europe lost their jobs from 2022 to 2026. The November GDC survey showed a similar skew: 34% of respondents were laid off over two years, versus 14% in the US, per ASGC estimates. Perhaps people affected by layoffs have more to share, and they take such surveys more often.
+That said, it’s not bad for everyone in the market. 34% of respondents saw their team shrink over the year, but 32% saw it grow.
+Respondents consider ineffective management or strategic mistakes the main reason for layoffs in the industry (56%). Next come a market slowdown and reduced investment (55%), as well as the economy and geopolitics (52%). 47% pointed to AI and automation.
+42% find a new job within three months. 14% search for more than a year; among juniors, it is 23%.
+37% of those who changed jobs accepted a lower position or salary. In 2025, it was 28%. 30% got a promotion or a raise (33% a year earlier). It seems that moving to worse conditions has become the most common outcome of changing jobs in today’s market.
+Production roles had the hardest time: 65% accepted worse conditions. Among marketing and UA specialists, only 16% did, and 69% moved on roughly the same terms.
+18% of respondents say their company is operating at a loss. 23% consider their company consistently profitable, and another 29% profitable but fluctuating.
+People rate their sense of safety in the industry at 2.05 out of 5. 39% rate it 0 or 1, and only 15% rate it 4 or 5.
+The higher the position, the calmer people feel: juniors score 1.82, and experts and top management score 2.50. By discipline, people in production roles feel the least safe (1.74).
+31% believe they are highly likely to be laid off in the next year. People in production (3.00 out of 5) and analytics (2.91) fear it the most.
+43% of respondents are optimistic about the coming year, including 9% who are very optimistic. Another 34% are uncertain, and 23% are concerned. Marketing and UA specialists have the largest share of people uncertain about the future: 50%.
+38% of respondents are already looking for a new job, and another 12% are highly likely to change jobs in the next six months.
+Those planning to leave most often complain about burnout (18%), unprofessional management (17%), and lack of appreciation (12%). Lack of job security (11%) has become a prominent new factor.
+Among the main reasons to consider changing jobs is the desire to earn more (54%). Next come professional growth (40%), career development (35%), and working on more interesting projects (33%).
+When choosing a new employer, salary (81%, down from 87% last year), work format (59%), and work-life balance (54%) matter most. Almost every factor carries less weight this year than in 2025. People are less interested in professional development (from 56% to 45%) and the responsibilities of the new role (from 57% to 44%). The company’s mission matters to only 10% of respondents (it was 18%).
+Work Format and Employment
+Full-time employment is the main format for 65% of workers in EU+ and 73% in Non-EU. 20% of respondents in EU+ and 16% in Non-EU are temporarily unemployed.
+58% of respondents in EU+ and 48% in Non-EU are on their company’s staff. 30% and 38%, respectively, work as contractors under a direct contract. 9% in EU+ and 12% in Non-EU work without a formal agreement.
+Mellow points out that 73% of Non-EU respondents describe themselves as full-time employees, while only 48% are on staff. The rest work for a single studio as contractors, often without benefits. This can raise questions about IP rights and overlapping contracts, which often surface only during due diligence for a deal or a fundraise.
+A word from our sponsor
+The right artist for your game rarely lives down the street. Mellow takes distance out of the equation: contracts with IP and NDA clauses, cross-border compliance, and payments, all in one flow. Hire for talent, not for location.
+See how it works →
+62% of respondents in EU+ and 84% in Non-EU work remotely. 23% and 10% work in a hybrid format, and 15% and 6% in the office.
+For 70% of workers in EU+ and 82% in Non-EU, their work format did not change over the year. Among those whose format did change, moving to remote work is more common than returning to the office.
+47% of respondents have no contractors or freelancers on their team, or fewer than 10%. For 15%, they make up more than half of the team.
+Freelance and Pet Projects
+31% of respondents took on freelance projects over the past year, and another 31% would like to but haven’t found the opportunity. 38% are not interested in freelancing.
+Founders (48%), artists (39%), and game designers (35%) freelance the most. HR (14%) and analysts (13%) freelance the least.
+Most freelancers work on one project (56%) or two to three projects (39%) at a time.
+The main challenges of freelancing are unstable income (63%) and finding suitable projects (54%).
+Freelancers most often get paid after delivery (50%) or by the hour (48%). Only 6% require full upfront payment.
+57% of those who hire freelancers work at companies that develop and publish their own games. Artists (22%) and programmers (17%) most often look for freelancers.
+58% of respondents work on a pet project alongside their main job. Among programmers, it is 73%; among artists, 60%; and among game designers, 59%.
+For most, the main goal of a pet project is building a portfolio or new skills (25%). 21% want to launch their own product or startup, and 17% want to earn extra money.
+Only 13% of pet projects make money, and only 1% make meaningful money. Yet 29% are sure their pet project will one day become their main source of income, and another 41% think it’s possible.
+AI
+78% say AI has changed their work over the past year: 33% of respondents say AI has changed their work significantly, and 45% say it has changed it somewhat.
+AI has affected the work of analysts (48% report significant changes) and programmers (43%) the most. QA has been affected the least: 13% reported significant changes, and another 33% noticed no changes at all.
+AI mostly changes how employees approach their daily tasks (61%), not team processes (only 38% of respondents reported that). 12% of respondents said AI has influenced hiring decisions.
+52% believe they will stay in the industry but will need significant reskilling. 12% fear their role will disappear. QA and HR worry most about their future (19% each).
+What worries people most is the pressure to work faster and produce more (61%) and declining quality of work (53%). 35% of respondents worry about losing their job because of AI.
+Well-Being at Work
+44% of respondents are satisfied with their job, and 28% are dissatisfied.
+Founders (76%) and top management (68%) are the most satisfied with their jobs. QA (40% dissatisfied) and production (41% dissatisfied) employees are the least satisfied.
+Only 28% feel they are growing professionally. 34% report stagnation or a slowdown. QA has the worst picture: 11% are clearly growing, while 56% feel their growth has slowed or stopped.
+34% of respondents work overtime more than once a week, up from 32% last year.
+Attitudes toward overtime, however, have worsened. 31% consider it a bad practice but still work overtime (it was 25%). The share of those who consider overtime fine if it makes sense fell from 44% to 37%.
+Experts and top management work overtime the most: 19% of them do it almost every day.
+55% of respondents did not take any training over the past year, the same as a year earlier. 4% took training initiated and paid for by their employer (7% in 2025). People have started paying for their own training more often, though: 23% versus 19%.
+Among those who took training, 75% worked on hard skills, and 41% on AI skills.
+73% spend less than 8 hours a week in meetings. Among experts and top management, 13% spend more than 25 hours a week in meetings.
+Only 35% consider most of their meetings productive.
+Where People Want to Work
+As last year, the top three companies respondents would like to work for are CD Projekt Red, Larian Studios, and Activision Blizzard.
+Source
+To receive new posts and support my work, consider becoming a free or paid subscriber. Paid subscribers have access to the GameDev Reports MCP & a set of additional features.

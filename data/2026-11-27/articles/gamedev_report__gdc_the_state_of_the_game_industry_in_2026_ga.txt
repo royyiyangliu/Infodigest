@@ -1,0 +1,78 @@
+Source  : GameDev Report
+Title   : GDC: The State of the Game Industry in 2026 | GameDev Reports is powered by Mellow
+Date    : 2026-11-19 12:40 UTC
+Link    : https://gamedevreports.substack.com/p/gdc-the-state-of-the-game-industry-52b
+────────────────────────────────────────────────────────────
+
+More than 2,600 game industry professionals from 69 countries took part in the survey.
+❗️GDC moved the report's release from the start of the year to November, so "last year" in this edition means the
+January 2026 report
+. The sample also shifted noticeably toward the US and AAA studios, so a direct comparison with last year's figures isn't always relevant.
+Who Took Part in the Survey
+63% of respondents live in the US (54% in the previous edition). Another 8% are in Canada and Mexico. 18% of respondents are from Europe this time, vs. 25% a year ago.
+A word from our sponsor
+The right artist for your game rarely lives down the street. Mellow takes distance out of the equation: contracts with IP and NDA clauses, cross-border compliance, and payments, all in one flow. Hire for talent, not for location.
+See how it works →
+76% of respondents are younger than 45. 62% are men, and 28% are women (24% in the previous edition).
+66% work at game studios. The share of AAA studio employees rose to 36% (from 31%), while the share of AA studio employees fell to 14% (from 18%). AAA is now represented in the survey on par with indies: 19% work at indie studios older than five years, and 16% at younger ones.
+Game designers (a group that also includes narrative professionals), programmers, and artists make up the largest groups of respondents.
+Layoffs
+34% of respondents were laid off over the past two years. In the US, it's 39%; outside the US, 26%. In the previous edition, it was 28% across all respondents and 33% in the US.
+The share of laid-off workers grew both in the US and outside it. So it's not just that there are more Americans in the sample.
+❗️For comparison, according to estimates by ASGC (Amir Satvat's project), 14% of US game industry workers were laid off over the past 24 months. GDC itself notes that the survey disproportionately includes people affected by layoffs. Perhaps these people have more to share, and they take such surveys more often.
+In the US, only 50% of respondents work full-time (59% last year). 21% are unemployed, vs. 13% a year ago.
+68% of laid-off workers lost their jobs in the past 12 months. 79% were laid off once, 17% twice, and 3% three or more times.
+QA, marketing, and PR staff, as well as artists, were laid off most often. Employees in business operations and at service companies were laid off least often.
+49% say their company had layoffs over the past year. At AAA studios, it's 68%; at indie studios older than five years, 35%; and at younger ones, 14%. The main reasons are restructuring, financial difficulties, and canceled projects.
+54% of laid-off workers still haven't found a new job (59% in the US). In the previous edition, it was 48%.
+27% have sent at least 100 job applications. 41% used generative AI while looking for work; among those still searching, it's 47%.
+Of those who found a job, 23% consider their new one better than the previous one, and 17% worse. 9% left the game industry, and 4% founded their own company or studio.
+55% of employed respondents aren't confident they'll keep their current job over the next 12 months. Employees in business operations (63%) and at indie studios older than five years (54%) feel the most secure. Employees at younger indie studios are the least confident about their future (36%).
+72% of unemployed respondents don't believe they'll find a job in the industry within a year.
+87% of students are worried about their future careers (74% in the previous edition). Half of them say they don't have proper access to internships. 92% of educators note that the state of the industry is affecting graduates' job placement.
+77% of US respondents aren't hopeful about where the industry is headed; outside the US, it's 66%. 30% of Americans and 23% of respondents from other countries are considering leaving the game industry within the next year.
+Generative AI
+40% of respondents use generative AI at work (36% a year ago). In the US, the figure barely changed (38% vs. 36%), while outside the US, it grew from 37% to 44%.
+Men use AI more often (45%) than women (33%). Among people over 45, the share is 54%. By discipline, people in business operations (63%), marketing and PR (51%), and programming (48%) lead.
+At studios working on F2P projects, 58% of employees use AI; at mobile studios, 70%. At studios developing premium games, it's 32%.
+27% of AAA studio employees say they're encouraged or pressured to use AI, and another 3% are required to use it. At indie studios, it's 9%.
+57% of AI users work with it daily. The most popular tools are text generation (72%), code generation (62%), and AI in productivity software (35%). 22% use image generation, and 7% use video generation.
+73% use AI for research and brainstorming, 62% for data analysis and summarization, and 56% for writing code and debugging. 22% use AI for concept art, and 8% for final in-game assets.
+55% believe generative AI has a negative impact on the game industry. In the January edition, it was 54% (GDC corrected last edition's figure; the report originally said 52%). 8% consider AI's impact positive, and another 35% mixed.
+QA and community support staff have the most negative view of AI (76% negative), followed by game designers and artists (65% each).
+GDC notes that attitudes toward AI have become less black-and-white. Many see value in automating routine tasks, research, and prototyping, but oppose AI use being visible to players. This year, responses also included concerns that AI leads to skill atrophy.
+Engines and Platforms
+Questions about engines and platforms were asked only to "developers": game designers, programmers, and artists (about 1,200 people).
+35% of developers use Unreal Engine (42% a year ago), and 28% use Unity (down from 30%). The share of proprietary engines rose from 19% to 23%. Godot is at 6%.
+GDC checked whether this is related to the larger share of AAA in the sample. Unreal Engine and Unity usage declined across all studio types, while proprietary engines became more popular at AAA, AA, and indie studios older than five years. 11% of indie studio employees use Godot (up from 7%).
+81% of developers plan to release their next game on PC. Next come PS5 (45%), Xbox Series X/S (37%), Steam Deck (32%), and Nintendo Switch 2 (29%).
+21% are making a game for the Steam Machine. 10% plan to launch on the next PlayStation, and 8% on the next Xbox (Project Helix).
+The platforms developers are most interested in are PC (81%), Nintendo Switch 2 (46%), and PS5 (42%). In the previous edition, Steam Deck (40%) and Switch 2 (39%) were nearly tied; now Switch 2 has pulled ahead (Steam Deck is at 38%).
+29% of developers are interested in the Steam Machine, 27% in the next PlayStation, and 17% in Project Helix. Interest in developing for Xbox Series X/S (26%) is on par with the next PlayStation.
+VR keeps losing developers. 3% are working on VR/AR/MR projects (8% in the previous edition), and interest in the platform fell from 12% to 8%.
+Business
+75% of studio employees make premium games, and 25% make F2P games.
+❗️GDC itself points out that the sample is skewed toward North America. According to Sensor Tower, of the 225,000 games released in 2025, 91% were mobile, and 96% of those were F2P.
+In F2P games, the main revenue sources are in-game currency (65%), cosmetics (60%), and battle passes (48%). 27% use gacha and loot boxes. In premium, the core revenue sources are digital sales (91%) and physical copies (40%); only 41% of paid games have an additional revenue stream in the form of DLC.
+The most common launch price is $10-19.99 (22% of games). Next come $20-29.99 (16%) and $60-69.99 (14%).
+70% of AAA studios price their games at $50 or more. 60% of AA projects cost $30-60, and 70% of games from indie studios older than five years cost $10-40. 61% of younger indie studios sell their games for under $20.
+50% develop projects with the studio's own money, including 35% of AAA studio employees. Next on the list of funding sources are publishing deals (15%), co-development (9%), and private investment (5%). Only 4% make games with venture capital. In the previous edition, 35% of respondents were self-funded, and 20% had publishing deals.
+When choosing a platform, studios look at audience reach (77%), discoverability (48%), and business model success on the platform (47%).
+45% of studio employees say their company hired co-development contractors for its most recent project. Among AAA studio employees, 64% said so; at younger indie studios, 23%. Art, animation, and engineering are outsourced most often.
+7% of respondents work at co-development studios, and almost half of them (48%) also make their own games. In addition, 16% of employees at other studios say their company provided co-development services over the past year. Among respondents at indie studios older than five years, 23% said so.
+A word from our sponsor
+The right artist for your game rarely lives down the street. Mellow takes distance out of the equation: contracts with IP and NDA clauses, cross-border compliance, and payments, all in one flow. Hire for talent, not for location.
+See how it works →
+Working Conditions
+❗️GDC returned to the previous answer options for working hours, so there's no comparison with last year here.
+56% of developers work 40 hours a week or less. For other industry workers (marketing, business, etc.), it's the opposite: 65% work more than 40 hours.
+86% of developers worked more than 40 hours in a single week at least once over the past year. 23% of developers reached 60+ hours, and 13% reached 70+. Notably, employees in other roles face extreme overtime (56+ hours) more often.
+The main reasons for overtime are personal desire or work necessity (46%). 16% say they were pushed into it, and 11% have several jobs or contracts.
+65% say their job has affected their mental health over the past year, and 32% strongly agree. Among the unemployed, it's 81%.
+At the same time, 66% say they maintain a healthy work-life balance, and 70% manage their workload within working hours.
+86% get more fulfillment from working in games than they would in another industry.
+80% of US respondents support unionization (82% a year ago). But only 55% now want to join a union, down from 62%. 20% aren't interested in unions (up from 16%).
+10% are members of an industry-wide union like United Videogame Workers-CWA, and 5% are members of a company union (2% a year ago).
+28% of developers work on accessibility features (33% in the previous edition). The most common are button remapping (64%), color options (57%), and difficulty levels (51%).
+Source
+To receive new posts and support my work, consider becoming a free or paid subscriber. Paid subscribers have access to the GameDev Reports MCP & a set of additional features.

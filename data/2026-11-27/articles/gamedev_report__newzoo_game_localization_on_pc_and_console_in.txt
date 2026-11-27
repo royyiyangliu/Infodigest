@@ -1,0 +1,44 @@
+Source  : GameDev Report
+Title   : Newzoo: Game Localization on PC and Console in 2026 | GameDev Reports is powered by Mellow
+Date    : 2026-11-20 08:30 UTC
+Link    : https://gamedevreports.substack.com/p/newzoo-game-localization-on-pc-and
+────────────────────────────────────────────────────────────
+
+Newzoo relies on data for 5,581 major games across 38 countries and 22 languages. To count languages, it also used data on 65,965 Steam games, with the language list taken from each game’s store page.
+How Many Languages Games Support
+In 2025, the PC and console markets were nearly equal in size: $43.6 billion and $44.7 billion, respectively. Meanwhile, 943.5 million people play on PC, and 632.4 million play on console.
+Newzoo notes that the two platforms’ audiences only partly overlap. They often live in different countries and have different preferences. So a language that isn’t popular on one platform can be important for commercial success on the other.
+A word from our sponsor
+If a contractor drew it, the answer depends on the contract — and without one, it might not be you. Mellow contracts cover IP rights and NDAs from day one, so every asset belongs to your studio and your project stays confidential. Payments and compliance run in the same flow.
+See how it works →
+Over two years, the PC audience grew by 66.4 million people, mostly thanks to China, India, and Brazil. Of these countries’ languages, only Chinese is part of the standard localization set for most games.
+Almost every game ships in English. The typical Steam game supports just two languages, because most releases on the platform are small projects. The top 1,000 Steam games (which account for 69% of players), however, have a median of 10 languages. Newzoo considers this the benchmark for any mid-size or large project.
+From 2015 to 2025, games with more than 15,000 lifetime PC players doubled the average number of languages they support. Among major games, the number of supported languages grew by roughly 74%.
+Newzoo attributes this to cheaper translation, thanks to localization platforms and machine translation. Analysts expect generative AI to push the number of languages even higher. But poor localization in an official release undermines player trust.
+The language set itself changed the most. In 2017, Chinese overtook German, French, and Spanish, and in 2021, Japanese followed. Of the 2025 Steam releases with 15,000+ players, 82.7% support Chinese.
+Chinese text is available in 59.1% of major games, while China accounts for 28.2% of all PC players. Newzoo believes that even with this coverage, the Chinese market is still underserved. Formally, China’s PC market is closed to foreign publishers, but thanks to global Steam, the country’s importance to developers and publishers worldwide is growing.
+❗️According to Valve, Chinese
+became the most popular language on Steam
+back in 2024 (33.7% of the audience vs. 33.5% for English). At GDC’26, the company said English is not the primary language
+for 66% of Steam players
+.
+Where Localization Pays Off
+The multiplier shows how many times a country’s share of a game’s audience grows if the game ships in that country’s language. A 2x multiplier, for example, means that the share of a certain group of players (say, Japanese players) in the project’s total audience doubled.
+On average, translating the text increases the share of players who speak that language by 2.11x on console and 1.41x on PC (across 22 languages).
+❗️I couldn’t find specifics in the report on how these figures were calculated. The main problem with localization effectiveness is that it’s very hard to evaluate its impact retrospectively.
+Newzoo explains the difference by the fact that console players play more premium single-player games, where language matters more.
+For example, adding Korean localization on console can increase the share of Korean users by 3.10x. In other words, in games with Korean text, the share of players from Korea is more than three times higher than in games without it. On PC, the figure for Korean is 1.42x.
+On PC, localization has a greater impact where English proficiency is lower. According to the methodology, Thai and Indonesian have the biggest effect. Translating into Dutch, however, does almost nothing, since the Netherlands has the highest English proficiency in the sample.
+❗️That said, these markets are small in absolute terms, so localization is unlikely to pay off.
+Japan is the exception. On PC, Japanese has a low multiplier because the Japanese Steam audience is small and fairly comfortable with English, according to the research. On console, where most Japanese players are, adding Japanese delivers the highest growth in the local players’ share compared with other languages.
+French, German, and Spanish are in roughly 70% of games on PC and 85% on console, with Italian slightly behind. These four languages are the standard of modern localization.
+Indonesian, however, is in only 2.7% of major PC games; Thai is in 7.7%, Arabic in 8.4%, Czech in 12.3%, and Turkish in 19.6%. For comparison, German is at 71.7%. Yet, according to Newzoo’s methodology, adding any of these languages increases the share of local players more than adding a major European language.
+Newzoo notes that Arabic is one of the hardest languages to localize, both technically and professionally. Publishers who can handle this challenge will stand out from competitors.
+Localization impact depends on the genre. For Japanese on console, the multiplier ranges from 4.94x in adventure games to 8.98x in RPGs. For Korean in RPGs, it’s 6.69x.
+Newzoo explains this by saying story-driven and single-player games benefit more from translation: a player with weak English can figure out a shooter but may not follow a complex story. Newzoo, however, goes on to disprove its own hypothesis: when Japanese is added to shooters, the multiplier (4.98x) is slightly higher than in adventure games.
+Voiceover is the most expensive part of localization, and publishers often voice games in a single language (almost always English). Large AAA projects often have voiceover in several languages.
+On PC, voiceover has almost no effect: text translation is enough for most players. On console, however, there is a return, especially for Japanese: local voiceover increases the share of the Japanese audience by 2.11x on console vs. 1.04x on PC.
+Languages are rarely added after release. When Disco Elysium added Turkish text in late 2022, Turkey’s share of new players jumped from 3.2% in 2021 to 16.7% in 2022. Newzoo notes, though, that the game was already popular with Turkish players and cost $3.30 because it was priced in local currency, Turkish lira.
+Voiceover added after release had no significant effect in the cases Newzoo studied.
+Source
+To receive new posts and support my work, consider becoming a free or paid subscriber. Paid subscribers have access to the GameDev Reports MCP & a set of additional features.

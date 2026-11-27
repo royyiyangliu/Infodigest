@@ -1,0 +1,65 @@
+Source  : GameDev Report
+Title   : AppMagic: Top 10 Hybrid Casual Puzzles in Q3'26 | GameDev Reports is powered by Mellow
+Date    : 2026-11-26 15:30 UTC
+Link    : https://gamedevreports.substack.com/p/appmagic-top-10-hybrid-casual-puzzles
+────────────────────────────────────────────────────────────
+
+AppMagic data covers the App Store and Google Play, excluding third-party stores; for China, only the App Store is included. Revenue is IAP only, net of store commissions and taxes. Comparisons are with Q2’26.
+Top 10 Hybrid Casual Puzzles in Q3’26
+Pixel Flow! leads by a wide margin with $31.3 million in IAP revenue. Competition for places two through five, however, is tight: Color Block Jam in fifth place has $19.2 million, and Block Out! - Color Sort Puzzle in second has $20.7 million.
+A word from our sponsor
+You found the right contractor, and they said yes. Now there’s a contract to draft, an NDA to sign, and a cross-border payment to set up. Mellow handles all of it in one flow — contracts with IP and NDA clauses, compliant payments, and every document in one place.
+See how it works →
+In total, the top 10 hybrid casual puzzles earned $178.1 million in Q3’26. For comparison, in Q2’25 the entire
+top 10 hybrid casual and hypercasual games
+(arcade games included) earned $126 million.
+Colony Flow! posted the biggest revenue growth. The game launched in June this year and earned $13.7 million in Q3’26, climbing 434 spots at once (to 7th place). Jelly Busters: Puzzle Game (+36 spots, $12.4 million) and Cube Land Puzzle Game (+66 spots, $9.9 million) also grew strongly.
+Gecko Out and Happy Screw Trip 3D dropped out of the top 10. Both games, however, stayed in the top 20 by revenue.
+6 of the 10 games in the chart are “flow” puzzles with a Pixel Flow!-inspired core: Pixel Flow! itself, Yarn Loop, Colony Flow!, Marble Sort! - Color Puzzle, Jelly Busters, and Cube Land.
+Chart Leaders
+Pixel Flow! by Loom Games (Scopely) has led hybrid casual puzzles since Q1’26. In Q3’26, the game earned $31.3 million (-26.57% QoQ), and downloads fell to 5.6 million (-31.45% QoQ).
+❗️In July, Sensor Tower
+estimated
+Pixel Flow!’s peak IAP revenue at ~$26 million a month. AppMagic reports figures net of taxes and commissions, while Sensor Tower’s estimates are gross.
+Pixel Flow! runs 4-6 regular events at the same time. In Q3’26, only one new format was added to the rotation: Temple Mission. The most common event mechanic is Win Streak (33% of all events in 2026).
+The $5.99 fail offer brings in the most money on the App Store: 25.7% of IAP revenue. It is helped by limited lives, a smooth difficulty curve, and the Win Streak events mentioned above. People buy the offer to avoid losing their streak.
+The 1K Gold pack for $1.99 is the most frequent purchase (49.1% of all purchases). It is also the most common first purchase (35.71%).
+Block Out! - Color Sort Puzzle by Turkish studio Grand Games launched in April this year and climbed to second place by revenue in Q3’26. The game earned $20.7 million (+35.16% QoQ) and was downloaded 28.9 million times (+192.51% QoQ). It leads the entire top 10 in downloads.
+Block Out! overtook Rollic’s Color Block Jam to become the highest-earning Block Puzzle on the market. The two games have nearly identical cores: players move colored blocks to “exits” of the same color, bypassing obstacles. The systems around the core also largely mirror Color Block Jam.
+In UA, Grand Games doesn’t go beyond the genre’s standard approach. Its creatives show the gameplay itself, often as playables, and for the first seconds the team uses AI intros that imitate real-life videos. The top creative has 571.2 million impressions.
+Block Out!’s playables run on AppLovin, Moloco, and Liftoff, and its videos on Meta.
+Magic Sort! is the second Grand Games title in the top 10. In Q3’26, it earned $20.4 million (-2.31% QoQ), and downloads reached 27.5 million (+6.51% QoQ). It is the studio’s highest-earning game ever.
+Magic Sort! is built on the water sort mechanic, which appeared on the market around 2020. Water sort clones led the Sort Puzzle segment for several years, until goods puzzles replaced them in 2023, followed by “flow” games. Magic Sort! launched globally in late 2024, when the boom in games with this mechanic was already over, and it remains in the top charts.
+In 2022, the highest-earning Sort Puzzle game, Water Sort Puzzle, made $566K in IAP revenue. In 2026, Pixel Flow! already has $118.2 million, and Magic Sort! $63.6 million.
+Screwdom by iKame Games shows stable numbers: $20.3 million (+0.67% QoQ) and 2.9 million downloads (+4.44% QoQ). In Q2’25, the game earned $27.1 million.
+In 2025, Screwdom was the first to take the Screw Puzzle genre from 2D to 3D, and it still leads the niche. AppMagic notes that the same pattern applies to other subgenres. For example, 2D Wool Sort games grew fast and declined just as fast, while the 3D title Yarn Fever! by Bravestars Games stayed in the charts much longer.
+In July, Screwdom launched FIFA World Cup offers with themed customization (frames, profile styling). In August, the team tested a one-time Puzzle Pieces event, where players collect puzzle pieces by clearing levels. According to AppMagic, the use of this mechanic in top casual games grew 25% YoY in 2025.
+Color Block Jam by Rollic (Take-Two) earned $19.2 million (-4.01% QoQ) and was downloaded 5 million times (-3.46% QoQ). In Q2’25, the game had $42 million in revenue and ranked first among hybrid casual titles.
+In almost two years, Color Block Jam has earned more than $165 million in IAP revenue. It is the highest-earning game in Rollic’s portfolio. The second, Screw Jam, has $36 million.
+Rollic continues to release new hybrid casual games. Car Sort: Color Puzzle earned around $7.3 million in Q3’26, Gecko Out $6.3 million, and Knit Out more than $2 million. That said, the chart shows Rollic’s total revenue declining since its peak in fall 2025.
+The New Wave of “Flow” Puzzles
+Releases of games with “pixel,” “flow,” or “loop” in their names peaked in March 2026, with 115 games in a month. More than 570 such games have launched in 2026 overall. The number of new releases is now declining.
+Yarn Loop by Combo Games (Spyke Games) earned $17 million (+15.84% QoQ) and was downloaded 3.1 million times (+10.19% QoQ). The game combines Pixel Flow!’s conveyor belt with a yarn mechanic.
+AppMagic says that combining the two themes lets Yarn Loop build its ASO around several trending queries at once. However, 55.1% of search downloads come from the “yarn loop” query, and another 40.7% from “yarn.” “Loop sort” brings in only 0.7%.
+Colony Flow! by ABI Games (Onesoft) launched in June 2026 and earned $13.7 million in Q3’26. The game was downloaded 9.5 million times. Instead of a conveyor, it has ant colonies that take an image apart piece by piece.
+The game combines ads and IAP. For example, the speed-up is free for the first few levels; after that, you have to watch a rewarded ad or spend soft currency.
+According to AppMagic, Colony Flow! overtook Pixel Flow! in October to become the top hybrid casual puzzle by revenue.
+Colony Flow!’s closest competitor is Food Hunt: Pixel Puzzle by FUNFINITY. The game launched a month earlier but earned less in Q3’26: $9.3 million.
+In total, AppMagic counted more than 10 similar games in 2026, where ants, ducks, fish, or bees take an image apart piece by piece.
+Marble Sort! - Color Puzzle by VOODOO earned $13.2 million (-9.90% QoQ). Downloads fell to 3.7 million (-64.76% QoQ).
+The game was in soft launch from August 2025 and launched globally around March 2026, right on the wave of “flow” games. Marbles drop onto a conveyor, and players have to sort them into containers before the belt fills up. The marbles bounce and mix, giving the game an element of physical interaction that Pixel Flow! and Yarn Loop, for example, don’t have.
+VOODOO’s all-time IAP revenue leaders are Mob Control ($84.4 million), Block Jam: 3D Color Puzzle ($36.9 million), and Castle Busters ($33.5 million). Marble Sort!, with $30.7 million since launch, is already fourth.
+Besides Marble Sort!, VOODOO is actively working on other loop puzzles: Loop Sort, Sand Loop, and Beads Out. Castle Busters is closer to mid-core: it is a turn-based PvP game about destroying castles, inspired by Angry Birds and Brawl Stars (honestly, I didn’t quite get this comparison from AppMagic).
+Jelly Busters: Puzzle Game by Moon Active earned $12.4 million (+791.78% QoQ) and was downloaded 2.3 million times (+891.24% QoQ). Instead of Pixel Flow!’s pigs, jellies skate around the conveyor.
+Moon Active is also jumping into other hybrid casual trends. Reef Busters repeats the Colony Flow! idea with fish instead of ants, and Splash Kingdom is built on the viral cannon mechanic.
+In early 2026, Moon Active also entered the Eat & Grow niche with Hole Stars: Puzzle Game, based on the Coin Master IP. In Q3’26, the game earned $8.99 million and became second in the niche. All in Hole: Black Hole Games leads with $19.85 million, and Supersonic’s Hole It 3D is third ($5.67 million).
+According to AppMagic, the new titles brought growth back to a niche that, along with All in Hole, had started to stagnate. For comparison, All in Hole earned $22.3 million in Q2’25.
+Cube Land Puzzle Game by Rotatelab made the top 10 half a year after its global launch: $9.9 million (+1,225.16% QoQ) and 4.8 million downloads (+792.78% QoQ).
+The game takes the Pixel Flow! mechanic into 3D: players rotate cube structures and clear them layer by layer. AppMagic notes that this is the same approach that already worked for Screwdom, Yarn Fever!, and Cube Away.
+Games to Watch
+Bus Traffic Fever! by GOODROID (CyberAgent) ranked 11th by revenue in Q3’26 ($9.8 million, +891% QoQ) and second by downloads (28 million, +66% QoQ). The game combines the Parking Jam core with stickmen moving along a conveyor.
+Rollic’s Car Sort: Color Puzzle is built on a similar idea: players send cars onto the track and park them in garages of the same color. In Q3’26, the game earned $7.3 million (+235% QoQ).
+Royal Smash! - Physics Puzzle by Cypher Games borrowed Smash Fest!’s gameplay (destroying towers with a cannon) and added richer LiveOps focused on IAP. The game earned $4.9 million and ranked 18th by IAP revenue. Downloads reached 15.6 million.
+Among the interesting concepts, AppMagic highlights ASMR sorting, rotation mechanics, and conveyors, and Parking Jam in different settings. For example, Sand Drop! - Color Sort Puzzle adds container rotation to sand sorting, while Hop Aboard combines block puzzles, parking, and a conveyor mechanic.
+Source
+To receive new posts and support my work, consider becoming a free or paid subscriber. Paid subscribers have access to the GameDev Reports MCP & a set of additional features.

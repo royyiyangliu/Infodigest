@@ -1,0 +1,51 @@
+Source  : GameDev Report
+Title   : Circana: The U.S. Video Game Market in October 2026 | GameDev Reports is powered by Mellow
+Date    : 2026-11-23 08:31 UTC
+Link    : https://gamedevreports.substack.com/p/circana-the-us-video-game-market-ec7
+────────────────────────────────────────────────────────────
+
+Circana data on the U.S. market. Mobile numbers provided by Sensor Tower.
+Market
+In October 2026, Americans spent $4.245 billion on games (-12% YoY). In October 2025, it was $4.818 billion.
+Americans spent $3.705 billion on content (-14% YoY).
+❗️I’ll note again that part of mobile revenue is missed because of D2C’s growing popularity. The real picture for content is likely better than these numbers show.
+A word from our sponsor
+You found the right contractor, and they said yes. Now there’s a contract to draft, an NDA to sign, and a cross-border payment to set up. Mellow handles all of it in one flow — contracts with IP and NDA clauses, compliant payments, and every document in one place.
+See how it works →
+Console game spending fell 18% YoY. Circana notes that despite Call of Duty launching in October instead of November, sales were still below last year’s. Last October happened the releases of Battlefield 6 and Pokémon Legends: Z-A.
+Battlefield 6
+became the best-selling game of 2025 in the U.S. right after its launch
+.
+The U.S. market has declined for five months in a row. In September, the drop was very small (-1%), but in October it accelerated again.
+Over the first ten months of 2026, Americans spent $45.283 billion on games (-4% YoY). The gap with 2025 widened: after September,
+it was 3%
+.
+Over ten months, Americans spent $40.044 billion on game content (-4% YoY). In September, the gap was half of that, -2%.
+Hardware and Accessories
+In October, Americans spent $357 million on gaming hardware (+2% YoY). Over ten months, they spent $3.261 billion (8% less than in the same period of 2025). The gap with last year narrowed slightly: in September, it was 9%.
+PlayStation 5 dollar sales grew 20% YoY, and Xbox Series 42%. This offset an 11% drop in Nintendo Switch 2 sales.
+That said, higher prices drove the dollar sales growth for PlayStation 5 and Xbox Series. PlayStation 5 unit sales grew 5% YoY, while its average price rose 13%. Xbox Series unit sales grew 10%, and its average price rose 29%.
+In September, Xbox
+hit a new low in console unit sales
+: the worst September on record. In October, the console’s unit sales returned to growth.
+Nintendo Switch 2 led in both units and dollars in October and over the first ten months of 2026. PlayStation 5 ranked second by both metrics.
+NEX Playground, a motion-controlled family console, ranked fourth in hardware unit sales in October.
+Accessories spending grew 3% YoY in October to $183 million. Over ten months, Americans spent $1.977 billion on accessories (-2% YoY).
+Game Sales
+❗️Circana uses a methodology that combines projected estimates with actual sales. Mobile games and DLC are not included in the charts.
+Call of Duty: Modern Warfare 4 was the best-selling game of October in the U.S. This is the 19th year in a row that a new Call of Duty release has been the best-selling game of its launch month.
+The streak began in November 2008, when Call of Duty: World at War outsold Guitar Hero: World Tour and Gears of War 2.
+❗️GameDiscoverCo
+estimates
+that Call of Duty: Modern Warfare 4 sold 5.35 million copies on PlayStation, 2.73 million on Xbox, and 1.74 million on Steam worldwide in October.
+Gears of War: E-Day took second place, and Star Wars: Galactic Racer third. Six new releases made October’s top 10.
+Madden NFL 27 climbed from 10th to seventh.
+Just outside the top 10, Castlevania: Belmont’s Curse debuted at 12th, and Hellraiser: Revival at 15th.
+Dragon’s Dogma II climbed from 204th to 17th thanks to the Dark Arisen expansion. Resident Evil 4 rose from 64th to 31st thanks to Halloween discounts.
+Marvel’s Wolverine dropped from first place in September to 14th in October.
+In the first ten months of 2026, NBA 2K27, Resident Evil: Requiem, and 007 First Light led the charts. The top eight positions didn’t change.
+Madden NFL 27 climbed from 12th to ninth and entered the year-to-date top 10. In September, the game wasn’t in the ranking because Circana doesn’t combine sales of the game itself and its two bundles.
+Less than $10 million separates eighth and 13th place in the year-to-date ranking.
+Places 11 through 15 went to Call of Duty: Modern Warfare 4, EA Sports College Football 27, EA Sports FC 27, Marvel’s Wolverine, and Pokémon Pokopia. So after just one month of sales, Call of Duty: Modern Warfare 4 is already close to the top 10.
+Source
+To receive new posts and support my work, consider becoming a free or paid subscriber. Paid subscribers have access to the GameDev Reports MCP & a set of additional features.

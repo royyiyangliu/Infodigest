@@ -1,0 +1,23 @@
+Source  : GameDev Report
+Title   : Amir Satvat: 184 Game Studios Have Closed Since 2022 | GameDev Reports is powered by Mellow
+Date    : 2026-11-25 15:30 UTC
+Link    : https://gamedevreports.substack.com/p/amir-satvat-184-game-studios-have
+────────────────────────────────────────────────────────────
+
+Amir Satvat founded ASGC, a free project that helps people in the gaming industry find work. As part of the project, Amir tracks layoffs and hiring across the industry and maintains a
+list of game studios that have closed since 2022
+. He builds the list together with the community: members send in sources and corrections.
+According to ASGC, 184 game studios have closed since 2022.
+❗️The list keeps growing. On November 13, it had 170 studios.
+93% of the closed studios were in North America or Europe.
+A word from our sponsor
+If a contractor drew it, the answer depends on the contract — and without one, it might not be you. Mellow contracts cover IP rights and NDAs from day one, so every asset belongs to your studio and your project stays confidential. Payments and compliance run in the same flow.
+See how it works →
+North America accounts for 92 studios (50%): 67 in the US (36%) and 25 in Canada (14%).
+Europe saw 79 closures (43%), and Asia 10 (5%). Another 3 studios (2%) were in other regions.
+At least 70 of the 184 closed studios (38%) went through a deal before closing: either they raised investment or were acquired.
+7 studios closed in 2022, 33 in 2023, 52 in 2024, and 42 in 2025.
+50 studios have already closed in 2026. That is just two short of the 2024 record, and there is still more than a month left in the year.
+Studios closed in 2026 include BioWare, Bluepoint Games, and Build a Rocket Boy. The list also has six Ubisoft studios: Ubisoft Belgrade, Ubisoft Halifax, Ubisoft Stockholm, Ubisoft Winnipeg, Ubisoft RedLynx, and Red Storm Entertainment. That said, RedLynx hasn’t actually closed yet; so far, there have only been plans to close the studio.
+Source
+To receive new posts and support my work, consider becoming a free or paid subscriber. Paid subscribers have access to the GameDev Reports MCP & a set of additional features.
