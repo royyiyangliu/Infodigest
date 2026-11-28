@@ -1,0 +1,270 @@
+{
+  "fetch_date": "2026-11-28",
+  "fetch_time": "2026-11-28T00:20:39.172797+00:00",
+  "stats": {
+    "new_podcast_episodes": 2,
+    "new_articles": 1,
+    "new_tweets": 18,
+    "total_podcasts": 2,
+    "total_articles": 1,
+    "total_tweets": 18,
+    "transcribed_this_run": 0
+  },
+  "podcasts": [
+    {
+      "source": "Dwarkesh Podcast",
+      "title": "AI researchers debate what we should do next – Daniel Kokotajlo and Ege Erdil",
+      "date": "2026-11-27 18:01 UTC",
+      "link": "https://podcasts.apple.com/us/podcast/ai-researchers-debate-what-we-should-do-next-daniel/id1516093381?i=1000804430515&uo=4",
+      "orig_link": "https://www.dwarkesh.com/p/daniel-kokotajlo-ege-erdil",
+      "audio_url": "https://api.substack.com/feed/podcast/226789196/89485c0543b57f829184d38024dba666.mp3",
+      "duration": "1:36:02",
+      "summary": "New podcast episode between Ege Erdil and Daniel Kokotajlo. I thought this was going to be a debate, but they ended up agreeing on a lot more than I expected.\nTheir main point of disagreement is how likely it is that we get some intelligence explosion that gives us AIs more competent than any human expert before 2029. Ege puts this possibility at around 20%, whereas Daniel thinks it’s higher than 50%.\nThey agree that there is not a huge difference in probability, and that, in either case, the situation is crazy enough that our civilization really needs to grapple with how the world might be transformed, and we need a plan that actually makes sense.\nIn particular, we should stop antagonizing China if we think some kind of global treaty will be needed to make superintelligence go well.\nThere was another important crux about how well we should expect future AIs (that swamp humans in population size and cognitive power) to treat us, and how relevant it is that current AIs, by and large, seem to be pretty nice.\nWe close off with predictions for 2027. Daniel, of course, expects superintelligence next year. Ege’s median for full automation is 2040, but by next year he expects AIs that can beat any video game on Steam, and which can control robots to get simple physical tasks (like folding laundry) done at roughly human speed.\nWatch on\nYouTube\n; listen on Apple Podcasts or Spotify.\nSponsors\n*\nWorkOS\nis building features to ensure that agents can use your product safely. For example, ",
+      "lang": "en",
+      "chars": null,
+      "text_file": null
+    },
+    {
+      "source": "Latent Space",
+      "title": "The Revolution vs The Renaissance — Thariq Shihipar, OpenAI",
+      "date": "2026-11-25 22:28 UTC",
+      "link": "https://www.youtube.com/watch?v=Qe9d9dWyED0",
+      "orig_link": "",
+      "audio_url": "",
+      "duration": "",
+      "summary": "",
+      "lang": "en",
+      "chars": 61946,
+      "text_file": "data/2026-11-28/podcasts/latent_space__the_revolution_vs_the_renaissance_thariq_shih.txt"
+    }
+  ],
+  "articles": [
+    {
+      "source": "SemiAnalysis",
+      "title": "AWS Challenger: Trainium3 Inference and Microarchitecture Deep Dive",
+      "date": "2026-11-27 15:54 UTC",
+      "link": "https://newsletter.semianalysis.com/p/trainium3-inferencex",
+      "summary": "Better Perf TCO vs NVIDIA GB300, First Principles Physics-Based Architecture, High MFU and MBU, UBenchX, Low Latency, Alisa Liu vs Eileen Gu",
+      "chars": 37423,
+      "text_file": "data/2026-11-28/articles/semianalysis__aws_challenger_trainium3_inference_and_microa.txt"
+    }
+  ],
+  "tweets": [
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2126201671026180469",
+      "date": "2026-11-27T06:29:15.000Z",
+      "text": "beating cursor and t3code on day 0. strong start https://t.co/2xa4bNqUnB https://t.co/QYzyfs0hhV",
+      "url": "https://x.com/swyx/status/2126201671026180469",
+      "likes": 1,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2126047712596631876"
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2126106139582677088",
+      "date": "2026-11-27T00:09:39.000Z",
+      "text": "i think agentic payments is one of the most divisive yet important themes to get right for 2028. no real in between, either you get in early or you declare its basically never gonna happen https://t.co/p6dDMMMvZ5 https://t.co/7eUeZpn97a",
+      "url": "https://x.com/swyx/status/2126106139582677088",
+      "likes": 81,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2125700569654542615"
+    },
+    {
+      "source": "Swyx",
+      "handle": "swyx",
+      "tweet_id": "2126072968761721013",
+      "date": "2026-11-26T21:57:50.000Z",
+      "text": "another good one is https://t.co/z8Wlkvx3E9 - when you refound in public, there's a few good things here:\n\n1. critical feedback from people who aren't paid to say yes to you\n2. you are putting a human face on an otherwise corporate feel\n3. turn an \"incumbent\" into an \"underdog\" story\n\ntwitter \"isn't real\" (99% of your customers won't actually ever even see your tweets, though 80% of your influencers might) so its actually a pretty safe space to think in public as long as you stay inside overton",
+      "url": "https://x.com/swyx/status/2126072968761721013",
+      "likes": 8,
+      "retweets": 1,
+      "is_quote": true,
+      "quoted_id": "2125751491634008548"
+    },
+    {
+      "source": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "tweet_id": "2125853628250599730",
+      "date": "2026-11-26T07:26:16.000Z",
+      "text": "Banked reset is online",
+      "url": "https://x.com/thsottiaux/status/2125853628250599730",
+      "likes": 7984,
+      "retweets": 198,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2126046533904896077",
+      "date": "2026-11-26T20:12:48.000Z",
+      "text": "Hey look @elonmusk is giving a SpaceX share to every kid in America I wonder whether NY Times covered this: https://t.co/GfgcssTSBR https://t.co/cGuTqBPpRO",
+      "url": "https://x.com/petergyang/status/2126046533904896077",
+      "likes": 261,
+      "retweets": 15,
+      "is_quote": true,
+      "quoted_id": "2126042318793064914"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2126042318793064914",
+      "date": "2026-11-26T19:56:03.000Z",
+      "text": "This is awesome I just set up Trump accounts for my kids, thank you @elonmusk! \n\nOne day I hope to take them to see a Starship launch. https://t.co/FQJctoRzzH",
+      "url": "https://x.com/petergyang/status/2126042318793064914",
+      "likes": 194,
+      "retweets": 1,
+      "is_quote": true,
+      "quoted_id": "2125797463047258119"
+    },
+    {
+      "source": "Peter Yang",
+      "handle": "petergyang",
+      "tweet_id": "2126021289102230008",
+      "date": "2026-11-26T18:32:29.000Z",
+      "text": "Things to teach your kids during the holidays:\n\n- Reading\n- Math\n- How to rob a bank by masking up, going through the backdoor, using a snap gun to pick the locks, removing the security tape, and threatening the staff for the safe code courtesy of GTA VI",
+      "url": "https://x.com/petergyang/status/2126021289102230008",
+      "likes": 41,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Nan Yu",
+      "handle": "thenanyu",
+      "tweet_id": "2126036677642928363",
+      "date": "2026-11-26T19:33:38.000Z",
+      "text": "Guys... Voice chat is chat. \n\nSending images into the chat is chat. \n\nIssuing instructions and getting a site back is chat. \n\nYou can literally do all of these things in ChstGPT right now.",
+      "url": "https://x.com/thenanyu/status/2126036677642928363",
+      "likes": 3,
+      "retweets": 0,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Amjad Masad",
+      "handle": "amasad",
+      "tweet_id": "2126018746884243652",
+      "date": "2026-11-26T18:22:23.000Z",
+      "text": "Google really cooked with Gemini 4.\n\nTake them for a ride on Replit! https://t.co/RqvuIxh3lZ",
+      "url": "https://x.com/amasad/status/2126018746884243652",
+      "likes": 448,
+      "retweets": 12,
+      "is_quote": true,
+      "quoted_id": "2125770526748745790"
+    },
+    {
+      "source": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweet_id": "2126037393241424065",
+      "date": "2026-11-26T19:36:29.000Z",
+      "text": "I'm thankful for all the optimists. Americans are a profoundly optimistic bunch, and I think it's one of the things you really appreciate and are drawn to as an immigrant.\n\nIn order to define the future and lead the world, you must possess a positive vision of what's to come.\n\nThese days many people speak in terms of a future we must blindly accept and capitulate to. Instead, we must use our, yes, agency to build and project the amazing future we want for our grandchildren and loved ones. Happy thanksgiving!",
+      "url": "https://x.com/rauchg/status/2126037393241424065",
+      "likes": 744,
+      "retweets": 24,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Aaron Levie",
+      "handle": "levie",
+      "tweet_id": "2125983542475894821",
+      "date": "2026-11-26T16:02:30.000Z",
+      "text": "Huge opportunity right now to build new services firms from the ground up, or transform existing ones, with agents at the center. \n\nThe expertise that services firms in theory should have is as important as ever because you still need deep domain understanding to get the most out of agents. But now the ability to deliver on projects has a 10X multiplier. This means that you can make clients happier, compete to win more of them, go after smaller customers not in the TAM before, or deliver outcomes that weren’t really conceivable.\n\nThis is going to happen in advertising, IT transformation, management consulting, finance, and a number of other fields that historically are just fully constrained by the speed of their workforce for output. \n\nThis is a huge opportunity right now for those starting these firms. I wouldn’t count out existing players that commit to the transformation either as existing customer trust goes a long way. But they have to move quickly to make it work.",
+      "url": "https://x.com/levie/status/2125983542475894821",
+      "likes": 883,
+      "retweets": 57,
+      "is_quote": true,
+      "quoted_id": "2125603025586966893"
+    },
+    {
+      "source": "Matt Turck",
+      "handle": "mattturck",
+      "tweet_id": "2126068708527198482",
+      "date": "2026-11-26T21:40:55.000Z",
+      "text": "\"Thankful to VCs for their thought leadership, podcasts and market maps\"\n\n-- no founder yet (but it's still early on Thanksgiving day)",
+      "url": "https://x.com/mattturck/status/2126068708527198482",
+      "likes": 62,
+      "retweets": 1,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "tweet_id": "2126055939749118294",
+      "date": "2026-11-26T20:50:10.000Z",
+      "text": "12 tips for people who posted on LinkedIn but now wanna post on X\n\nA lot of people I know are moving their posting from LinkedIn to X. When they ask me how I grew 80k followers on X in one year, here’s what I tell them:\n\n1. LinkedIn is a stage. X is a party. First you find your crowd, then you listen to what they're already talking about. Don't start talking until you get it\n\n2. You can't reach the C-suite directly. LinkedIn is a professional network, so you can go straight to decision makers. X doesn't work like that. You have to get mass attention first, and then the right people notice you\n\n3. Post way more than you think. On LinkedIn, 3-5 posts a week counts as a lot. I posted 3 times a day on X for 6 months. Some founders I follow post 5 times a day. It's not that they're on X all day. They just don't overthink it\n\n4. Make posting a reflex. If you spend too long on a post, you won't post. Whenever a thought comes up, post it right there. No planning, no scheduling, no waiting for the right time\n\n5. It's a numbers game. Most posts won't do well. Maybe 1 in 10 will. Maybe 1 in 50 goes viral. That's normal\n\n6. Half your posts should be reactions. LinkedIn is mostly “proactive content”. On X, at least at the start, half of what you post should be “reactive content”: replies, quote tweets, commentary on what others already said\n\n7. Know the difference between a reply and a quote tweet. A reply is like a LinkedIn DM. It says \"notice me.\" A quote tweet uses someone else's content to grow your own account\n\n8. Fix your feed first. If you wanna talk about cybersecurity and your feed is all politics, you can't join the right conversations. Pick a few big names in your niche. See who they follow and who they engage with, and follow those people too. Like, bookmark and comment. After about a week your timeline will look totally different\n\n9. Write like you're texting an acquaintance. Polish turns people off. Everyone's allergic to perfect AI-sounding writing. And please don't use AI or bots to write your replies. People can tell, and they might block you\n\n10. Post the stuff that's obvious to you. Make a list of the top 10 questions customers, investors and your team ask you. That's where you're the expert. What seems too obvious to talk about is exactly what people want to hear\n\n11. Post what you just said out loud. If you say something in real life and people go \"huh, never thought of it that way,\" post it on your way back. Don't wait, you'll forget. You don't have to block out time to think of what to say. Just say what you've already said\n\n12. Show your face, and don't sell yet. X is a wall of text, so video stands out. I just record myself on my laptop with something on the screen. People wanna know you're a real human, not AI slop. And until you have about 1,000 followers, don't promote your company. Share real opinions first. Later, when you repost company news, always add your own take, not PR speak.\n\nRemember: people follow people, not companies",
+      "url": "https://x.com/zarazhangrui/status/2126055939749118294",
+      "likes": 341,
+      "retweets": 14,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Nikunj Kothari",
+      "handle": "nikunj",
+      "tweet_id": "2126133563292803100",
+      "date": "2026-11-27T01:58:37.000Z",
+      "text": "Last Thanksgiving, I was mildly paranoid about forgetting to text folks who I had spent significant time with last year.. that's when Claude discovered that iMessage & Whatsapp are local databases on your computer. \n\nOne thing led to another, and it transformed into a surprisingly helpful project. \n\nIf you are equally paranoid like me, use the local scripts here (no AI, fully local) to text people you have spent time with (https://t.co/agVCIXkP4f).\n\nHappy Thanksgiving to one and all 🦃",
+      "url": "https://x.com/nikunj/status/2126133563292803100",
+      "likes": 23,
+      "retweets": 1,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Aditya Agarwal",
+      "handle": "adityaag",
+      "tweet_id": "2126201584094748886",
+      "date": "2026-11-27T06:28:55.000Z",
+      "text": "You really cannot make this stuff up. https://t.co/0c9oC3KxZm",
+      "url": "https://x.com/adityaag/status/2126201584094748886",
+      "likes": 0,
+      "retweets": 0,
+      "is_quote": true,
+      "quoted_id": "2125634841320305131"
+    },
+    {
+      "source": "Sam Altman",
+      "handle": "sama",
+      "tweet_id": "2125990371897557278",
+      "date": "2026-11-26T16:29:38.000Z",
+      "text": "Ven was one of the earliest believers that we could use our then-current model to solve millenium prize problems.\n\nThere are a lot of brilliant people in the world, but being brilliant and also having correctly-placed confidence and courage to keep pushing on something that others don't think is possible is a very valuable thing and fairly rare.\n\nI am grateful so many people at OpenAI have this combination.",
+      "url": "https://x.com/sama/status/2125990371897557278",
+      "likes": 6775,
+      "retweets": 321,
+      "is_quote": true,
+      "quoted_id": "2125809711509336342"
+    },
+    {
+      "source": "Sam Altman",
+      "handle": "sama",
+      "tweet_id": "2125984053119836399",
+      "date": "2026-11-26T16:04:31.000Z",
+      "text": "Oh, one thing about kids:\n\nMost good things get a little less satisfying the 100th time you do them.\n\nA quiet evening hanging out with your kids, even doing very mundane stuff, is in the rare category of something repetitive just getting better and better.",
+      "url": "https://x.com/sama/status/2125984053119836399",
+      "likes": 2123,
+      "retweets": 40,
+      "is_quote": false,
+      "quoted_id": null
+    },
+    {
+      "source": "Sam Altman",
+      "handle": "sama",
+      "tweet_id": "2125983591389974980",
+      "date": "2026-11-26T16:02:41.000Z",
+      "text": "I am thankful for a lot of things in life, but my family is the best thing that has ever happened to me.\n\nThe two most common things people said to me before having kids is that it's better than anyone can explain to you and it goes very fast; these are both true and I don't have much to add. But I am very grateful and I love them more than there is any way to explain.\n\nAlso I cannot really imagine life without Ollie and I think without his unwavering support and great advice I would have gone crazy by now.\n\n🦃",
+      "url": "https://x.com/sama/status/2125983591389974980",
+      "likes": 13315,
+      "retweets": 384,
+      "is_quote": false,
+      "quoted_id": null
+    }
+  ]
+}
